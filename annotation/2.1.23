@@ -1,0 +1,374 @@
+6月1日星期五阴昨天晚上，我做了个梦。
+(x17 / and
+      :op1  (x19 / date-entity
+            :month  (x1 / 6
+)            :day  (x3 / 1
+)            :mod  (x7 / 阴
+)            :weekday  (x5_x6 / 星期五
+))      :op2  (x12 / 做-05
+            :aspect  (x13 / 了
+)            :arg0  (x11 / 我
+)            :time  (x27 / date-entity
+                  :mod  (x8 / 昨天
+)                  :dayperiod  (x9 / 晚上
+))            :arg1  (x15 / 梦
+                  :cunit  (x14 / 个
+))))
+===========================
+梦见我穿上了摆在商店橱窗里的那条裙子。
+(x1 / 梦见-01
+      :arg1  (x2 / 我
+)      :arg2  (x3_x4 / 穿上-01
+            :arg0  (x2 / 我
+)            :arg1  (x14 / 裙子
+                  :mod  (x12 / 那
+)                  :cunit  (x13 / 条
+)                  :arg1-of  (x6 / 摆-01
+                        :location  (x10 / 里
+                              :arg0  (x9 / 橱窗
+                                    :poss  (x8 / 商店
+)))))            :aspect  (x5 / 了-02
+)))
+===========================
+那是一条镶着花边的白纱裙。
+(x10 / 纱裙
+      :arg0-of  (x9 / 白-01
+)      :arg2-of  (x5 / 镶-01
+            :arg1  (x7 / 花边
+)            :aspect  (x6 / 着
+))      :quant  (x3 / 1
+)      :cunit  (x4 / 条
+)      :domain  (x1 / 那
+))
+===========================
+我穿着它走进学校，同学们都投来羡慕的眼光。
+(x18 / and
+      :op1  (x5_x6 / 走进-01
+            :arg0  (x1 / 我
+)            :arg1  (x7 / 学校
+)            :manner  (x2 / 穿-01
+                  :aspect  (x3 / 着
+)                  :arg0  (x1 / 我
+)                  :arg1  (x4 / 它
+)))      :op2  (x12 / 投-01
+            :arg0  (x9_x10 / 同学们
+)            :arg1  (x16 / 眼光
+                  :mod  (x14 / 羡慕
+))            :arg2  (x1 / 我
+)))
+===========================
+今天是我的节日，妈妈一定会给我买那条裙子。
+(x17 / causation
+      :arg1  (x5 / 节日
+            :poss  (x3 / 我
+)            :domain  (x1 / 今天
+))      :arg2  (x8 / 一定
+            :arg0  (x9 / 会-02
+                  :arg0  (x12 / 买-01
+                        :beneficiary  (x11 / x3
+)                        :arg0  (x7 / 妈妈
+)                        :arg1  (x15 / 裙子
+                              :mod  (x13 / 那
+)                              :cunit  (x14 / 条
+))))))
+===========================
+妈妈下班了，手里提着一大包东西。
+(x13 / and
+      :op1  (x2 / 下班-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 妈妈
+))      :op2  (x6 / 提-01
+            :aspect  (x7 / 着
+)            :arg0  (x5 / 手里
+                  :part-of  (x1 / 妈妈
+))            :arg1  (x11 / 东西
+                  :cunit  (x10 / 包
+                        :arg0-of  (x9 / 大-01
+))                  :quant  (x8 / 1
+))))
+===========================
+我迫不及待地打开包，里面有两条粉红色的布料连衣裙，两个红书包，两套《少年儿童百科全书》，就是没有我心爱的裙子。
+(x33 / and
+      :op1  (x4 / 打开-01
+            :manner  (x2 / 迫不及待
+)            :arg0  (x1 / 我
+)            :arg1  (x5 / 包
+))      :op2  (x8 / 有-03
+            :arg0  (x7 / 里面
+                  :arg0  (x5 / 包
+))            :arg1  (x41 / and
+                  :op1  (x14 / 连衣裙
+                        :consist-of  (x13 / 布料
+)                        :arg0-of  (x11 / 粉红色
+)                        :quant  (x9 / 2
+)                        :cunit  (x10 / 条
+))                  :op2  (x19 / 书包
+                        :arg0-of  (x18 / 红-01
+)                        :quant  (x16 / 2
+)                        :cunit  (x17 / 个
+))                  :op3  (x51 / book
+                        :name  ( x24/少年儿童百科全书 
+)                        :quant  (x21 / 2
+)                        :cunit  (x22 / 套
+))))      :op3  (x27_2 / 有-03
+            :polarity  (x27_1 / -
+)            :mod  (x26 / 就是
+)            :arg0  (x7 / 里面
+)            :arg1  (x31 / 裙子
+                  :arg1-of  (x29 / 心爱-01
+                        :arg0  (x28 / x1
+)))))
+===========================
+妈妈把礼物分成两份，给我一份，留下一份，说那一份是给阿英妹妹的。
+(x28 / and
+      :op1  (x4_x5 / 分成-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x3 / 礼物
+)            :arg2  (x33 / thing
+                  :cunit  (x7 / 份
+)                  :quant  (x6 / 2
+)))      :op2  (x36 / and
+            :op1  (x9 / 给-01
+                  :arg1  (x38 / thing
+                        :arg1-of  (x39 / include-91
+                              :arg2  (x33 / thing
+))                        :quant  (x11 / 1
+)                        :cunit  (x12 / 份
+))                  :arg2  (x10 / 我
+)                  :arg0  (x1 / 妈妈
+))            :op2  (x14 / 留下-01
+                  :arg0  (x1 / 妈妈
+)                  :arg1  (x44 / thing
+                        :arg1-of  (x45 / include
+                              :arg2  (x33 / thing
+))                        :quant  (x15 / 1
+)                        :cunit  (x16 / 份
+))))      :op3  (x18 / 说-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x23 / 给-01
+                  :arg1  (x50 / thing
+                        :quant  (x20 / 1
+)                        :arg0-of  (x52 / mean
+                              :arg1  (x44 / thing
+))                        :cunit  (x21 / 份
+)                        :mod  (x19 / 那
+))                  :mode  (x22_x26 / judgement
+)                  :arg2  (x25 / 妹妹
+                        :name  ( x24/阿英 
+)))))
+===========================
+阿英妹妹是谁？
+(x4 / amr-unknown
+      :domain  (x2 / 妹妹
+            :name  ( x1/阿英 
+))      :mode  (x5 / interrogative
+))
+===========================
+她在哪里？
+(x2 / 在-01
+      :arg0  (x1 / 她
+)      :arg1  (x3 / amr-unknown
+)      :mode  (x4 / interrogative
+))
+===========================
+妈妈明明知道我喜欢那条裙子，却不给我买，妈妈真小气！
+(x20 / causation
+      :arg1  (x22 / contrast
+            :arg1  (x3 / 知道-01
+                  :manner  (x2 / 明明
+)                  :arg0  (x1 / 妈妈
+)                  :arg1  (x5 / 喜欢-01
+                        :arg0  (x4 / 我
+)                        :arg1  (x8 / 裙子
+                              :mod  (x6 / 那
+)                              :cunit  (x7 / 条
+))))            :arg2  (x14 / 买
+                  :polarity  (x11 / -
+)                  :beneficiary  (x13 / x4
+)))      :arg2  (x18 / 小气-01
+            :arg0  (x16 / x1
+)            :degree  (x17 / 真
+)            :mode  (x19 / expressive
+)))
+===========================
+7月20日星期日晴阿英妹妹昨天到我家来了。
+(x16 / and
+      :op1  (x18 / date-entity
+            :mod  (x7 / 晴
+)            :month  (x1 / 7
+)            :day  (x3 / 20
+)            :weekday  (x5_x6 / 星期日
+))      :op2  (x11 / 到-01
+            :arg0  (x9 / 妹妹
+                  :name  ( x8/阿英 
+))            :arg1  (x12 / 我家
+)            :aspect  (x14 / 了
+)            :time  (x10 / 昨天
+)))
+===========================
+阿英是个苗家小姑娘，家住贵州山区。
+(x10 / and
+      :op1  (x5 / 小姑娘
+            :mod  (x4 / 苗家
+)            :cunit  (x3 / 个
+)            :domain  (x15 / person
+                  :name  ( x1/阿英 
+)))      :op2  (x7_2 / 住-01
+            :arg0  (x7_1 / 家
+                  :poss  (x15 / person
+))            :arg1  (x8_3_4 / 山区
+                  :location  (x21 / province
+                        :name  ( x8_1_2/贵州 
+)))))
+===========================
+她告诉我，是妈妈一直寄钱帮助她读书，要不，她早就失学了。
+(x2 / 告诉-01
+      :arg0  (x1 / 她
+)      :arg2  (x3 / 我
+)      :arg1  (x25 / orx
+            :op1  (x8 / 寄-01
+                  :arg0  (x6 / 妈妈
+)                  :arg1  (x9 / 钱
+)                  :arg2  (x11 / x1
+)                  :purpose  (x10 / 帮助-02
+                        :arg0  (x6 / 妈妈
+)                        :arg1  (x11 / x1
+)                        :arg2  (x12 / 读书-01
+                              :arg0  (x11 / x1
+)))                  :mode  (x5 / judgement
+))            :op2  (x18 / 失学-01
+                  :time  (x17_1 / 早
+)                  :mod  (x17_2 / 就
+)                  :aspect  (x19 / 了
+)                  :arg0  (x16 / x1
+))))
+===========================
+她还说，她穿的衣服和来我家的路费，也是我妈妈寄去的。
+(x3 / 说-01
+      :mod  (x2 / 还
+)      :arg0  (x1 / 她
+)      :arg1  (x27 / thing
+            :arg1-of  (x19_x20 / 寄-01
+                  :arg0  (x18 / 妈妈
+                        :poss  (x17 / 我
+)))            :domain  (x9 / and
+                  :op1  (x8 / 衣服
+                        :arg1-of  (x6 / 穿-01
+                              :arg0  (x5 / x1
+)))                  :op2  (x13 / 路费
+                        :mod  (x10 / 来-01
+                              :arg0  (x5 / x1
+)                              :arg1  (x11 / 我家
+))))            :mod  (x15 / 也
+)))
+===========================
+阿英很勤快，总是帮妈妈干活，她很好学，不是看书就是问问题。
+(x23 / and
+      :op1  (x25 / and
+            :op1  (x3 / 勤快-01
+                  :arg0  (x29 / person
+                        :name  ( x1/阿英 
+))                  :degree  (x2 / 很
+))            :op2  (x6 / 帮-01
+                  :arg0  (x29 / person
+)                  :arg1  (x7 / 妈妈
+)                  :manner  (x5 / 总是
+)                  :arg2  (x8 / 干活
+)))      :op2  (x26 / and
+            :op1  (x12 / 好-02
+                  :arg0  (x10 / x29
+)                  :degree  (x11 / 很
+)                  :arg1  (x13 / 学-01
+                        :arg0  (x10 / x29
+)))            :op2  (x40 / orx
+                  :op1  (x17 / 看-02
+                        :arg0  (x10 / x29
+)                        :arg1  (x18 / 书
+))                  :op2  (x20 / 问-01
+                        :arg0  (x10 / x29
+)                        :arg1  (x21 / 问题
+)))))
+===========================
+昨天晚上，我又做了个梦，梦见妈妈带我去买那条裙子。
+(x21 / and
+      :time  (x23 / date-entity
+            :dayperiod  (x2 / 晚上
+)            :mod  (x1 / 昨天
+))      :op1  (x6 / 做-05
+            :aspect  (x7 / 了
+)            :arg0  (x4 / 我
+)            :mod  (x5 / 又
+)            :arg1  (x9 / 梦
+                  :cunit  (x8 / 个
+)))      :op2  (x11 / 梦见-01
+            :arg0  (x4 / 我
+)            :arg1  (x15 / 去-01
+                  :arg0  (x12 / 妈妈
+)                  :arg1  (x16 / 买-01
+                        :arg1  (x19 / 裙子
+                              :mod  (x17 / 那
+)                              :cunit  (x18 / 条
+)))                  :accompanier  (x14 / x4
+))))
+===========================
+我没让妈妈买。
+(x3 / 让-02
+      :polarity  (x2 / -
+)      :arg0  (x1 / 我
+)      :arg1  (x4 / 妈妈
+)      :arg2  (x5 / 买
+))
+===========================
+我说把钱省下来，可以买好多书。
+(x2 / 说-01
+      :arg0  (x1 / 我
+)      :arg1  (x16 / condition
+            :arg1  (x5_x6 / 省-01
+                  :arg1  (x4 / 钱
+))            :arg2  (x8 / 可以-01
+                  :arg0  (x9 / 买-01
+                        :arg1  (x11 / 书
+                              :quant  (x10 / 好多
+))))))
+===========================
+在梦里我和阿英一起去了苗家山寨，看到了许多苗家小姑娘。
+(x19 / and
+      :location  (x2 / 梦-01
+)      :op1  (x8 / 去-01
+            :manner  (x7 / 一起-01
+                  :arg0  (x5 / and
+                        :op1  (x4 / 我
+)                        :op2  (x27 / person
+                              :name  ( x6/阿英 
+))))            :arg0  (x5 / and
+)            :aspect  (x9 / 了
+)            :arg1  (x10 / 苗家山寨
+))      :op2  (x12 / 看到-01
+            :arg0  (x5 / and
+)            :aspect  (x13 / 了
+)            :arg1  (x17 / 小姑娘
+                  :mod  (x15_x16 / 苗家
+)                  :quant  (x14 / 许多
+))))
+===========================
+我从书包里拿出书送给她们，她们高兴得围着我跳起舞来。
+(x21 / temporal
+      :arg1  (x5_x6 / 拿出-01
+            :arg0  (x1 / 我
+)            :source  (x4 / 里
+                  :arg0  (x3 / 书包
+))            :arg1  (x7 / 书
+))      :arg2  (x8 / 送给-01
+            :arg0  (x1 / 我
+)            :arg1  (x7 / 书
+)            :arg2  (x9 / 她们
+))      :arg3  (x16_x17 / 跳-02
+            :arg1  (x18 / 舞
+)            :manner  (x14_1 / 围-01
+                  :aspect  (x14_2 / 着
+)                  :arg1  (x15 / x1
+))            :arg0  (x11 / x9
+)            :cause  (x12 / 高兴-01
+                  :arg0  (x11 / x9
+))))
+===========================

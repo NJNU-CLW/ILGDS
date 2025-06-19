@@ -1,0 +1,563 @@
+抗日战争胜利以后，我在台湾一家航业公司的轮船上工作。
+(x24 / temporal
+      :arg1  (x2 / 胜利-01
+            :arg0  (x23 / war
+                  :name  ( x1/抗日战争 
+)))      :arg2  (x15 / 工作-01
+            :arg0  (x5 / 我
+)            :location  (x13 / 轮船
+                  :poss  (x11 / 公司
+                        :mod  (x10 / 航业
+)                        :quant  (x8 / 1
+)                        :cunit  (x9 / 家
+)                        :location  (x31 / province
+                              :name  ( x7/台湾 
+))))))
+===========================
+有一次，我们的船停泊在高雄港口。
+(x8 / 停泊-01
+      :arg0  (x7 / 船
+            :poss  (x5 / 我们
+))      :arg1  (x16 / port
+            :name  ( x10/高雄港口 
+))      :time  (x1_x2_x3 / 有一次
+))
+===========================
+我上了岸，穿过市区，向郊外走去。
+(x14 / temporal
+      :arg1  (x2 / 上-03
+            :arg1  (x4 / 岸
+)            :aspect  (x3 / 了
+)            :arg0  (x1 / 我
+))      :arg2  (x6 / 穿过-01
+            :arg0  (x1 / 我
+)            :arg1  (x7 / 市区
+))      :arg3  (x11_x12 / 走去-01
+            :arg1  (x10 / 郊外
+)            :arg0  (x1 / 我
+)))
+===========================
+不记得走了多远，看到前面有一所乡村小学，白色的围墙，门外栽着一排树。
+(x27 / temporal
+      :arg1  (x2 / 记得-01
+            :polarity  (x1 / -
+)            :arg1  (x3 / 走-01
+                  :arg1  (x6 / 远
+                        :quant  (x5 / amr-unknown
+))                  :aspect  (x4 / 了
+)))      :arg2  (x35 / and
+            :op1  (x8 / 看到-01
+                  :arg1  (x10 / 有-03
+                        :arg0  (x9 / 前面
+)                        :arg1  (x14 / 小学
+                              :quant  (x11 / 1
+)                              :cunit  (x12 / 所
+)                              :mod  (x13 / 乡村
+))))            :op2  (x18 / 围墙
+                  :arg0-of  (x16 / 白色
+))            :op2  (x21 / 栽-01
+                  :arg1  (x25 / 树
+                        :quant  (x23 / 1
+)                        :unit  (x24 / 排
+))                  :aspect  (x22 / 着
+)                  :location  (x20 / 门外
+))))
+===========================
+校园里很静。
+(x4 / 静-01
+      :degree  (x3 / 很
+)      :arg0  (x1 / 校园
+))
+===========================
+我走近一间教室，站在窗外，见一位年轻的台湾教师，正在教孩子们学习祖国的文字。
+(x28 / temporal
+      :arg1  (x2 / 走近-01
+            :arg0  (x1 / 我
+)            :arg1  (x5 / 教室
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 间
+)))      :arg2  (x7_x8 / 站在-01
+            :arg1  (x9 / 窗外
+)            :arg0  (x1 / 我
+))      :arg3  (x11 / 见-01
+            :arg1  (x20 / 教-01
+                  :arg0  (x17 / 教师
+                        :mod  (x40 / province
+                              :name  ( x16/台湾 
+))                        :arg0-of  (x14 / 年轻-01
+)                        :quant  (x12 / 1
+)                        :cunit  (x13 / 位
+))                  :aspect  (x19 / 正在
+)                  :arg1  (x21_x22 / 孩子们
+)                  :arg2  (x23 / 学习-01
+                        :arg1  (x26 / 文字
+                              :mod  (x24 / 祖国
+))                        :arg0  (x21_x22 / 孩子们
+)))))
+===========================
+他用粉笔在黑板上一笔一画地写着：“我是中国人，我爱中国。”
+(x2 / 用-01
+      :arg0  (x1 / 他
+)      :arg1  (x3 / 粉笔
+)      :arg2  (x12 / 写-01
+            :manner  (x7_x8_x9_x10 / 一笔一画
+)            :aspect  (x13 / 着
+)            :location  (x5 / 黑板
+)            :arg1  (x33 / and
+                  :op1  (x19 / 人
+                        :mod  (x35 / country
+                              :name  ( x18/中国 
+))                        :domain  (x16 / 我
+))                  :op2  (x22 / 爱-01
+                        :arg0  (x21 / x16
+)                        :arg1  (x23 / x18
+)))            :arg0  (x1 / 他
+)))
+===========================
+他写得很认真，也很吃力。
+(x11 / and
+      :op1  (x2 / 写-01
+            :arg0  (x1 / 他
+)            :manner  (x17 / and
+                  :op1  (x5 / 认真-01
+                        :degree  (x4 / 很
+)                        :arg0  (x1 / 他
+))                  :op2  (x9 / 吃力-01
+                        :degree  (x8 / 很
+)                        :arg0  (x1 / 他
+)))))
+===========================
+台湾“光复”不久，不少教师也是重新学习祖国文字的。
+(x12 / 学习-01
+      :arg0  (x8 / 教师
+            :arg0-of  (x7 / 不少-01
+))      :mod  (x9 / 也
+)      :mode  (x10_x15 / judgement
+)      :arg1  (x14 / 文字
+            :mod  (x13 / 祖国
+))      :manner  (x11 / 重新
+)      :time  (x5 / 不久
+            :arg0  (x3 / 光复-01
+                  :arg1  (x28 / province
+                        :name  ( x1/台湾 
+)))))
+===========================
+接着，他先用闽南语，然后又用还不太熟练的国语，一遍一遍地读。
+(x25 / temporal
+      :arg2  (x5 / 用-01
+            :arg0  (x3 / 他
+)            :ord  (x4 / 先
+)            :arg1  (x6 / 闽南语
+)            :arg2  (x23 / 读-01
+                  :manner  (x18_x19_x20_x21 / 一遍一遍
+)                  :arg0  (x3 / 他
+)))      :arg3  (x10 / 用-01
+            :arg1  (x16 / 国语
+                  :arg1-of  (x14 / 熟练-01
+                        :degree  (x13 / 太
+)                        :polarity  (x12 / -
+)                        :mod  (x11 / 还
+)))            :mod  (x9 / 又
+)            :arg0  (x3 / 他
+)            :arg2  (x23 / 读-01
+)))
+===========================
+老师和孩子们都显得那么严肃认真，又那么富有感情。
+(x6 / 显得-01
+      :arg0  (x2 / and
+            :op1  (x1 / 老师
+)            :op2  (x3_x4 / 孩子们
+))      :arg1  (x21 / and
+            :op1  (x22 / and
+                  :op1  (x8 / 严肃-01
+                        :arg0  (x2 / and
+))                  :op2  (x9 / 认真-01
+                        :arg0  (x2 / and
+))                  :degree  (x7 / 那么
+))            :op2  (x13 / 富有-01
+                  :arg1  (x14 / 感情
+)                  :arg0  (x2 / and
+)                  :degree  (x12 / 那么
+)                  :mod  (x11 / 又
+)))      :extent  (x5 / 都
+))
+===========================
+好像每个字、每个音，都发自他们火热而真挚的心。
+(x1 / 好像-01
+      :arg0  (x9 / 发自-01
+            :arg0  (x20 / and
+                  :op1  (x3 / 字
+                        :mod  (x2_1 / 每
+)                        :cunit  (x2_2 / 个
+))                  :op2  (x6 / 音
+                        :mod  (x5_1 / 每
+)                        :cunit  (x5_2 / 个
+)))            :arg1  (x15 / 心
+                  :arg0-of  (x13 / 真挚
+)                  :arg0-of  (x11 / 火热-01
+)                  :part-of  (x10 / 他们
+))            :mod  (x8 / 都
+)))
+===========================
+我被这动人的情景吸引住了。
+(x7_x8 / 吸引-01
+      :arg0  (x6 / 情景
+            :arg0-of  (x4 / 动人-01
+)            :mod  (x3 / 这
+))      :arg1  (x1 / 我
+)      :aspect  (x9 / 了
+))
+===========================
+怀着崇高的敬意，我悄悄地从后门走进教室，在最后一排空位上坐下，和孩子们一起，跟着那位教师，大声地、整齐地、一遍又一遍地朗读着：“我是中国人，我爱中国。”
+(x56 / temporal
+      :arg1  (x1 / 怀着-01
+            :arg1  (x4 / 敬意
+                  :arg0-of  (x2 / 崇高-01
+))            :arg0  (x6 / 我
+))      :arg2  (x10_x11 / 走进-01
+            :arg0  (x6 / 我
+)            :manner  (x7 / 悄悄地
+)            :arg1  (x12 / 教室
+)            :source  (x9 / 后门
+))      :arg3  (x20 / 坐下-01
+            :location  (x18 / 空位
+                  :quant  (x16 / 1
+)                  :cunit  (x17 / 排
+)                  :ord  (x15 / 最后
+))            :arg0  (x6 / 我
+))      :arg4  (x25 / 一起-01
+            :arg0  (x72 / and
+                  :op1  (x6 / 我
+)                  :op2  (x23_x24 / 孩子们
+)))      :arg5  (x27 / 跟着-01
+            :arg1  (x29 / 教师
+                  :mod  (x28_1 / 那
+)                  :cunit  (x28_2 / 位
+)))      :arg6  (x43 / 朗读-01
+            :manner  (x31 / 大声
+)            :manner  (x34 / 整齐
+)            :manner  (x37_x38_x39_x40_x41 / 一遍又一遍
+)            :aspect  (x44 / 着
+)            :arg1  (x84 / and
+                  :op1  (x50 / 人
+                        :mod  (x86 / country
+                              :name  ( x49/中国 
+))                        :domain  (x47 / 我
+))                  :op2  (x53 / 爱-01
+                        :arg0  (x52 / x47
+)                        :arg1  (x54 / x86
+)))            :arg0  (x72 / and
+)))
+===========================
+老师和孩子们发现了我，但是，好像谁也没有感到意外。
+(x18 / contrast
+      :arg1  (x5 / 发现-01
+            :arg0  (x2 / and
+                  :op1  (x1 / 老师
+)                  :op2  (x3_x4 / 孩子们
+))            :aspect  (x6 / 了
+)            :arg1  (x7 / 我
+))      :arg2  (x11 / 好像-01
+            :arg0  (x15 / 感到-01
+                  :arg0  (x12 / 谁
+)                  :arg1  (x16 / 意外
+)                  :polarity  (x14 / -
+)                  :mod  (x13 / 也
+))))
+===========================
+从那一双双眼睛里，可以看出对我是表示欢迎的。
+(x9 / 可以-01
+      :arg0  (x10 / 看出-01
+            :arg1  (x14 / 表示-02
+                  :arg1  (x15 / 欢迎-01
+                        :arg1  (x12 / 我
+))                  :mode  (x13_x16 / judgement
+)))      :source  (x6 / 眼睛
+            :quant  (x3_x4_x5 / 一双双
+)            :mod  (x2 / 那
+)))
+===========================
+教学继续进行着，大家朗读得更起劲了。
+(x13 / temporal
+      :arg1  (x2 / 继续-01
+            :arg1  (x3 / 进行-01
+                  :aspect  (x4 / 着
+)                  :arg1  (x1 / 教学
+))            :arg0  (x1 / 教学
+))      :arg2  (x7 / 朗读-01
+            :arg0  (x6 / 大家
+)            :manner  (x10 / 起劲-01
+                  :degree  (x9 / 更
+)                  :arg0  (x6 / 大家
+))            :aspect  (x11 / 了
+)))
+===========================
+下课了，孩子们把我围了起来。
+(x8_x10 / 围-01
+      :arg0  (x4_x5 / 孩子们
+)      :arg1  (x7 / 我
+)      :aspect  (x9 / 了
+)      :time  (x1 / 下课
+            :aspect  (x2 / 了
+)))
+===========================
+老师也走了过来。
+(x3 / 走-01
+      :arg0  (x1 / 老师
+)      :direction  (x5 / 过来
+)      :aspect  (x4 / 了
+)      :mod  (x2 / 也
+))
+===========================
+他热情地和我握了握手，说：“我的国语讲得不好，是初学的。
+(x24 / temporal
+      :arg1  (x6_x8_x9 / 握手-01
+            :arg0  (x4 / and
+                  :op1  (x1 / 他
+)                  :op2  (x5 / 我
+))            :manner  (x2 / 热情-01
+                  :arg0  (x1 / 他
+))            :aspect  (x7 / 了
+))      :arg2  (x11 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x33 / causation
+                  :arg2  (x16 / 讲-01
+                        :manner  (x18_2 / 好
+                              :polarity  (x18_1 / -
+))                        :arg1  (x15 / 国语
+                              :poss  (x13 / x1
+)))                  :arg1  (x21 / 初学-01
+                        :arg1  (x15 / 国语
+)                        :arg0  (x13 / x1
+)                        :mode  (x20_x22 / judgement
+)))))
+===========================
+你知道，在日本统治时期，我们上的都是日本人办的学校，讲国语是不准许的。”
+(x27 / say
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 你
+)            :arg1  (x31 / and
+                  :time  (x6 / 统治-01
+                        :arg0  (x37 / country
+                              :name  ( x5/日本 
+)))                  :op1  (x18 / 学校
+                        :arg1-of  (x16 / 办-01
+                              :arg0  (x15 / 人
+                                    :mod  (x14 / x37
+)))                        :domain  (x41 / school
+                              :arg1-of  (x10 / 上-02
+                                    :arg0  (x9 / 我们
+))                              :mod  (x12 / 都
+)))                  :op2  (x24 / 准许-01
+                        :arg2  (x20 / 讲-01
+                              :arg1  (x21 / 国语
+)                              :arg0  (x9 / 我们
+))                        :polarity  (x23 / -
+)                        :arg1  (x9 / 我们
+)                        :mode  (x22_x25 / judgement
+)))))
+===========================
+“我觉得，你今天这一课上得好极了！你教得很有感情，孩子们学得也很有感情。”
+(x31 / say
+      :arg1  (x33 / multi-sentence
+            :snt1  (x3 / 觉得-01
+                  :arg0  (x2 / 我
+)                  :arg1  (x10 / 上-02
+                        :manner  (x12 / 好
+                              :degree  (x13 / 极了
+))                        :arg1  (x9 / 课
+                              :mod  (x7 / 这
+)                              :quant  (x8 / 1
+))                        :time  (x6 / 今天
+)                        :arg0  (x5 / 你
+)                        :mode  (x14 / expressive
+)))            :snt2  (x45 / and
+                  :op1  (x16 / 教-01
+                        :manner  (x19 / 有-01
+                              :arg1  (x20 / 感情
+)                              :degree  (x18 / 很
+)                              :arg0  (x15 / x5
+))                        :arg0  (x15 / x5
+))                  :op2  (x24 / 学-01
+                        :arg0  (x22_x23 / 孩子们
+)                        :manner  (x28 / 有-01
+                              :arg1  (x29 / 感情
+)                              :degree  (x27 / 很
+)                              :mod  (x26 / 也
+))))))
+===========================
+接着，这位老师一定要领我去看一看他们的小礼堂。
+(x19 / temporal
+      :arg2  (x6 / 一定
+            :arg0  (x7 / 要-03
+                  :arg0  (x8 / 领-02
+                        :arg1  (x9 / 我
+)                        :arg2  (x11_x12_x13 / 看-02
+                              :arg1  (x17 / 礼堂
+                                    :arg0-of  (x16 / 小-01
+)                                    :poss  (x14 / 他们
+)))                        :arg0  (x5 / 老师
+                              :mod  (x3 / 这
+)                              :cunit  (x4 / 位
+))))))
+===========================
+说是礼堂，不过是一间比较宽敞的屋子。
+(x14 / contrast
+      :arg1  (x1 / 说-01
+            :arg1  (x3 / 礼堂
+))      :arg2  (x12 / 屋子
+            :arg0-of  (x10 / 宽敞-01
+                  :degree  (x9 / 比较
+))            :quant  (x7 / 1
+)            :cunit  (x8 / 间
+)            :domain  (x3 / 礼堂
+)))
+===========================
+这位老师指着礼堂两面墙上新画的几幅中国历代伟人像，说：“这里原来画的都是日本人，现在‘光复’了，画上了我们中国自己的伟人。”
+(x45 / temporal
+      :arg1  (x4_1 / 指-05
+            :arg0  (x3 / 老师
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 位
+))            :aspect  (x4_2 / 着
+)            :arg1  (x17 / 像
+                  :mod  (x16 / 伟人
+)                  :time  (x15 / 历代
+)                  :mod  (x56 / country
+                        :name  ( x14/中国 
+))                  :quant  (x12 / 几
+)                  :cunit  (x13 / 幅
+)                  :arg1-of  (x10 / 画-01
+                        :manner  (x9 / 新
+))                  :location  (x8 / 墙上
+                        :quant  (x6 / 2
+)                        :cunit  (x7 / 面
+)                        :part-of  (x5 / 礼堂
+))))      :arg2  (x19 / 说-01
+            :arg0  (x3 / 老师
+)            :arg1  (x67 / contrast
+                  :arg1  (x28 / 人
+                        :mod  (x69 / country
+                              :name  ( x27/日本 
+))                        :domain  (x71 / person
+                              :arg1-of  (x23 / 画-01
+                                    :mod  (x22 / 原来
+)                                    :location  (x21 / 这里
+))                              :mod  (x25 / 都
+)))                  :arg2  (x76 / causation
+                        :arg1  (x32 / 光复-01
+                              :time  (x30 / 现在
+))                        :arg1  (x36_x37 / 画上-01
+                              :arg1  (x43 / 伟人
+                                    :poss  (x41 / 自己
+                                          :arg0-of  (x83 / mean
+                                                :arg1  (x84 / country
+                                                      :name  ( x40/中国 
+))))                                    :poss  (x39 / x41
+))                              :aspect  (x38 / 了
+))))))
+===========================
+我看到上面有孔子，有诸葛亮，有郑成功，还有孙中山。
+(x2 / 看到-01
+      :arg0  (x1 / 我
+)      :arg1  (x19 / and
+            :op1  (x4 / 有-03
+                  :arg0  (x3 / 上面
+)                  :arg1  (x22 / person
+                        :name  ( x5/孔子 
+)))            :op2  (x7 / 有-03
+                  :arg1  (x25 / person
+                        :name  ( x8/诸葛亮 
+))                  :arg0  (x3 / 上面
+))            :op3  (x10 / 有-03
+                  :arg1  (x28 / person
+                        :name  ( x11/郑成功 
+))                  :arg0  (x3 / 上面
+))            :op4  (x13 / 还有-01
+                  :arg1  (x31 / person
+                        :name  ( x14/孙中山 
+))                  :arg0  (x3 / 上面
+))))
+===========================
+看着看着，我的眼睛不觉湿润了。
+(x13 / temporal
+      :arg1  (x1_x3 / 看-02
+            :aspect  (x2_x4 / 着
+)            :arg0  (x6 / 我
+))      :arg2  (x9 / 不觉-01
+            :arg0  (x8 / 眼睛
+                  :part-of  (x6 / 我
+))            :arg1  (x10 / 湿润-01
+                  :arg0  (x8 / 眼睛
+))            :aspect  (x11 / 了
+)))
+===========================
+这是多么强烈的民族精神，多么浓厚的爱国情意啊！
+(x16 / and
+      :op1  (x7 / 精神
+            :mod  (x6 / 民族
+)            :arg0-of  (x4 / 强烈-01
+                  :degree  (x3 / 多么
+)))      :op2  (x13 / 情意
+            :mod  (x12 / 爱国
+)            :arg0-of  (x10 / 浓厚-01
+                  :degree  (x9 / 多么
+)))      :domain  (x1 / 这
+)      :mode  (x14_x15 / expressive
+))
+===========================
+我紧紧地握着这位年轻的台湾教师的手，激动地重复着他刚才教给孩子们的那句话：“我是中国人，我爱中国。”
+(x39 / temporal
+      :arg1  (x4 / 握-01
+            :arg0  (x1 / 我
+)            :manner  (x2 / 紧
+)            :arg1  (x13 / 手
+                  :part-of  (x11 / 教师
+                        :mod  (x46 / province
+                              :name  ( x10/台湾 
+))                        :arg0-of  (x8 / 年轻-01
+)                        :mod  (x6 / 这
+)                        :cunit  (x7 / 位
+)))            :aspect  (x5 / 着
+))      :arg2  (x17 / 重复-01
+            :arg1  (x28 / 话
+                  :mod  (x26 / 那
+)                  :cunit  (x27 / 句
+)                  :arg2-of  (x21_x22 / 教给-01
+                        :arg0  (x19 / x11
+)                        :arg1  (x23_x24 / 孩子们
+)                        :time  (x20 / 刚才
+))                  :arg0-of  (x62 / mean
+                        :arg1  (x63 / and
+                              :op1  (x33 / 人
+                                    :mod  (x65 / country
+                                          :name  ( x32/中国 
+))                                    :domain  (x30 / 我
+))                              :op2  (x36 / 爱-01
+                                    :arg0  (x35 / x30
+)                                    :arg1  (x37 / x65
+)))))            :manner  (x15 / 激动
+)            :aspect  (x18 / 着
+)            :arg0  (x1 / 我
+)))
+===========================
+还有什么别的话比这句最简单的话更能表达我此时的全部感情呢？
+(x13 / 能-01
+      :arg0  (x14 / 表达-01
+            :arg1  (x19 / 感情
+                  :extent  (x18 / 全部
+)                  :poss  (x15 / 我
+)                  :time  (x16 / 此时
+))            :arg0  (x4 / 话
+                  :mod  (x3 / 别的
+)                  :mod  (x2 / 什么
+)                  :arg0-of  (x1 / 还有-01
+))            :compared-to  (x11 / 话
+                  :arg0-of  (x9 / 简单-01
+                        :degree  (x8 / 最
+))                  :mod  (x6 / 这
+)                  :cunit  (x7 / 句
+)))      :degree  (x12 / 更
+)      :mode  (x20_x21 / interrogative
+))
+===========================

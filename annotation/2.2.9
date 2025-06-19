@@ -1,0 +1,175 @@
+日月潭是我国台湾省最大的一个湖。
+(x9 / 湖
+      :quant  (x8_1 / 1
+)      :cunit  (x8_2 / 个
+)      :domain  (x17 / lake
+            :name  ( x1/日月潭 
+))      :location  (x20 / province
+            :name  ( x4/台湾省 
+)            :location  (x3 / 我国
+))      :arg0-of  (x6 / 大-01
+            :degree  (x5 / 最
+)))
+===========================
+它在台中附近的高山上。
+(x2 / 在-01
+      :arg0  (x1 / 它
+)      :arg1  (x7 / 上
+            :arg0  (x6 / 高山
+                  :location  (x4 / 附近
+                        :arg0  (x15 / city
+                              :name  ( x3/台中 
+))))))
+===========================
+那里群山环绕，树木茂盛，周围有许多名胜古迹。
+(x13 / and
+      :location  (x1 / 那里
+)      :op1  (x3 / 环绕-01
+            :arg0  (x2 / 群山
+))      :op2  (x6 / 茂盛
+            :arg0  (x5 / 树木
+))      :op3  (x9 / 有-03
+            :arg0  (x8 / 周围
+)            :arg1  (x11 / 名胜古迹
+                  :quant  (x10 / 许多
+))))
+===========================
+日月潭很深，湖水碧绿。
+(x8 / and
+      :op1  (x3 / 深-01
+            :arg0  (x11 / lake
+                  :name  ( x1/日月潭 
+))            :degree  (x2 / 很
+))      :op2  (x6 / 碧绿
+            :arg0  (x5 / 湖水
+                  :part-of  (x11 / lake
+))))
+===========================
+湖中央有个美丽的小岛，叫光华岛。
+(x15 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 中央
+                  :arg0  (x1 / 湖
+))            :arg1  (x8 / 岛
+                  :arg0-of  (x7 / 小
+)                  :cunit  (x4 / 个
+)                  :arg0-of  (x5 / 美丽-01
+)))      :op2  (x10 / 叫-01
+            :arg0  (x8 / 岛
+)            :arg1  (x21 / island
+                  :name  ( x11/光华岛 
+))))
+===========================
+小岛把湖水分成两半，北边像圆圆的太阳，叫日潭；南边像弯弯的月亮，叫月潭。
+(x25 / and
+      :op1  (x4_x5 / 分成-01
+            :arg0  (x1 / 小岛
+)            :arg1  (x3 / 湖水
+)            :arg2  (x32 / thing
+                  :quant  (x6_x7 / 2
+)))      :op2  (x28 / and
+            :op1  (x10 / 像-01
+                  :arg0  (x35 / thing
+                        :arg1-of  (x36 / include-91
+                              :arg2  (x32 / thing
+))                        :location  (x9 / 北边
+))                  :arg1  (x12 / 太阳
+                        :arg0-of  (x11 / 圆-02
+)))            :op2  (x14 / 叫-01
+                  :arg0  (x35 / thing
+)                  :arg1  (x48 / lake
+                        :name  ( x15/日潭 
+))))      :op3  (x29 / and
+            :op1  (x18 / 像-01
+                  :arg0  (x38 / thing
+                        :arg1-of  (x39 / include-91
+                              :arg2  (x32 / thing
+))                        :location  (x17 / 南边
+))                  :arg1  (x20 / 月亮
+                        :arg0-of  (x19 / 弯-02
+)))            :op2  (x22 / 叫-01
+                  :arg0  (x38 / thing
+)                  :arg1  (x46 / lake
+                        :name  ( x23/月潭 
+)))))
+===========================
+清晨，湖面上飘着薄薄的雾。
+(x5 / 飘-01
+      :aspect  (x6 / 着
+)      :arg0  (x8 / 雾
+            :arg0-of  (x7 / 薄-01
+))      :location  (x4 / 上
+            :arg0  (x3 / 湖面
+))      :time  (x1 / 清晨
+))
+===========================
+天边的晨星和山上的点点灯光，隐隐约约地倒映在湖水中。
+(x13 / 倒映-01
+      :arg0  (x4 / and
+            :op1  (x3 / 晨星
+                  :location  (x1 / 天边
+))            :op2  (x9 / 灯光
+                  :quant  (x7_x8 / 点点
+)                  :location  (x5 / 山上
+)))      :arg1  (x15 / 湖水
+)      :manner  (x11 / 隐隐约约
+))
+===========================
+中午，太阳高照，整个日月潭的美景和周围的建筑，都清晰地展现在眼前。
+(x23 / and
+      :time  (x1 / 中午
+)      :op1  (x5 / 照-01
+            :location  (x27 / location
+                  :arg0-of  (x4 / 高-01
+))            :arg0  (x3 / 太阳
+))      :op2  (x19 / 展现-01
+            :arg1  (x11 / and
+                  :op1  (x10 / 美景
+                        :poss  (x38 / lake
+                              :name  ( x8/日月潭 
+)                              :mod  (x7 / 整个
+)))                  :op2  (x14 / 建筑
+                        :location  (x12 / 周围
+                              :arg0  (x38 / lake
+)))                  :extent  (x16 / 都
+))            :manner  (x17 / 清晰
+)            :location  (x21 / 眼前
+)))
+===========================
+要是下起蒙蒙细雨，日月潭好像披上轻纱，周围的景物一片朦胧，就像童话中的仙境。
+(x27 / condition
+      :arg1  (x2_x3 / 下-11
+            :arg1  (x5 / 细雨
+                  :mod  (x4 / 蒙蒙
+)))      :arg2  (x32 / and
+            :op1  (x8 / 好像-01
+                  :arg0  (x9 / 披-01
+                        :arg0  (x35 / lake
+                              :name  ( x7/日月潭 
+))                        :arg1  (x11 / 纱
+                              :arg0-of  (x10 / 轻-01
+))))            :op2  (x18 / 朦胧
+                  :arg0  (x15 / 景物
+                        :location  (x13 / 周围
+                              :arg0  (x35 / lake
+))))            :op3  (x21 / 像-01
+                  :mod  (x20 / 就
+)                  :arg0  (x18 / 朦胧
+)                  :arg1  (x25 / 仙境
+                        :location  (x22 / 童话
+)))))
+===========================
+日月潭风光秀丽，吸引了许许多多的中外游客。
+(x12 / causation
+      :arg1  (x3 / 秀丽-01
+            :arg0  (x2 / 风光
+                  :poss  (x16 / lake
+                        :name  ( x1/日月潭 
+))))      :arg2  (x5 / 吸引-01
+            :arg0  (x2 / 风光
+)            :aspect  (x6 / 了
+)            :arg1  (x10 / 游客
+                  :range  (x9 / 中外
+)                  :quant  (x7 / 许多
+))))
+===========================

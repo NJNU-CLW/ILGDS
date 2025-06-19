@@ -1,0 +1,700 @@
+12岁那年，周恩来离开家乡，来到了东北。
+(x13 / and
+      :time  (x3 / 那年
+            :arg0-of  (x16 / mean
+                  :arg1  (x17 / temporal-quantity
+                        :quant  (x1 / 12
+)                        :unit  (x2 / 岁
+))))      :op1  (x6 / 离开-01
+            :arg0  (x21 / person
+                  :name  ( x5/周恩来 
+))            :arg1  (x7 / 家乡
+))      :op2  (x9 / 来到-01
+            :arg0  (x21 / person
+)            :aspect  (x10 / 了
+)            :arg1  (x26 / country-region
+                  :name  ( x11/东北 
+))))
+===========================
+当时的东北，是帝国主义列强在华争夺的焦点。
+(x12 / 焦点
+      :domain  (x16 / country-region
+            :name  ( x3/东北 
+)            :time  (x1 / 当时
+))      :arg1-of  (x10 / 争夺-01
+            :location  (x9 / 华
+)            :arg0  (x7 / 列强
+                  :mod  (x6 / 帝国主义
+))))
+===========================
+他在沈阳下了车，前来接他的伯父指着一片繁华、热闹的地方，对他说：“没事可不要到那个地方去玩啊！”
+(x37 / temporal
+      :arg1  (x4 / 下-04
+            :aspect  (x5 / 了
+)            :arg0  (x1 / 他
+)            :location  (x42 / province
+                  :name  ( x3/沈阳 
+))            :arg1  (x6 / 车
+))      :arg2  (x13 / 指-05
+            :arg0  (x12 / 伯父
+                  :arg0-of  (x9 / 接-01
+                        :arg1  (x10 / x1
+)                        :arg1-of  (x8 / 前来-01
+                              :arg0  (x12 / 伯父
+))))            :aspect  (x14 / 着
+)            :arg1  (x21 / 地方
+                  :arg0-of  (x19 / 热闹-01
+)                  :arg0-of  (x17 / 繁华-01
+)                  :cunit  (x16 / 片
+)                  :quant  (x15 / 1
+)))      :arg3  (x25 / 说-01
+            :arg0  (x12 / 伯父
+)            :arg1  (x57 / condition
+                  :arg1  (x27 / 没事-01
+                        :arg0  (x1 / 他
+))                  :arg2  (x28 / 可-01
+                        :arg0  (x29_2 / 要-03
+                              :polarity  (x29_1 / -
+)                              :arg0  (x30 / 到-01
+                                    :arg1  (x32 / 地方
+                                          :mod  (x31_1 / 那
+)                                          :cunit  (x31_2 / 个
+))                                    :purpose  (x34 / 玩
+))))                  :mode  (x35_x36 / expressive
+))            :arg3  (x24 / x1
+)))
+===========================
+“为什么？”周恩来不解地问。
+(x7 / 问-01
+      :manner  (x5 / 不解-01
+            :arg0  (x12 / person
+                  :name  ( x4/周恩来 
+)))      :arg0  (x12 / person
+)      :arg1  (x2 / 为什么
+            :mode  (x3 / interrogative
+)))
+===========================
+“那是外国租界地，惹出麻烦来可就糟了，没处说理去！”
+(x24 / causation
+      :arg1  (x6 / 地
+            :mod  (x5 / 租界
+                  :mod  (x4 / 外国
+))            :domain  (x2 / 那
+))      :arg2  (x30 / condition
+            :arg1  (x31 / condition
+                  :arg1  (x8 / 惹-01
+                        :arg1  (x10 / 麻烦
+))                  :arg2  (x14 / 糟
+                        :aspect  (x15 / 了
+)))            :arg2  (x36 / 有-03
+                  :polarity  (x17 / -
+)                  :arg1  (x18 / 处
+                        :location-of  (x19 / 说理
+)))            :mod  (x21 / expressive
+)))
+===========================
+“那又是为什么呢？”周恩来打破沙锅问到底。
+(x9 / 打破沙锅问到底
+      :arg0  (x13 / person
+            :name  ( x8/周恩来 
+))      :arg1  (x2 / 那
+            :cause  (x5 / amr-unknown
+                  :mod  (x3 / 又
+)                  :mode  (x4 / judgement
+))            :mode  (x6_x7 / interrogative
+)))
+===========================
+“为什么？中华不振啊！”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x2 / amr-unknown
+                  :mode  (x3 / interrogative
+))            :op2  (x6 / 振
+                  :arg0  (x4 / 中华
+)                  :polarity  (x5 / -
+)                  :mode  (x7_x8 / expressive
+))))
+===========================
+伯父叹了口气，没有再说什么。
+(x12 / and
+      :op1  (x2 / 叹-02
+            :arg1  (x5 / 气
+                  :cunit  (x4 / 口
+))            :arg0  (x1 / 伯父
+)            :aspect  (x3 / 了
+))      :op2  (x9 / 说-01
+            :arg1  (x10 / amr-unknown
+)            :arg0  (x1 / 伯父
+)            :mod  (x8 / 再
+)            :polarity  (x7 / -
+)))
+===========================
+不久，周恩来进了东关模范学校读书。
+(x4 / 进-01
+      :aspect  (x5 / 了
+)      :arg0  (x12 / person
+            :name  ( x3/周恩来 
+))      :arg1  (x14 / school
+            :name  ( x6/东关模范学校 
+))      :purpose  (x7 / 读书-01
+            :arg0  (x12 / person
+))      :time  (x1 / 不久
+))
+===========================
+他始终忘不了大伯接他时说的话，经常想：“租界地是什么样的？为什么中国人不能去那儿，而外国人却可以住在那里？这不是中国的土地吗，……
+(x45 / and
+      :op2  (x13 / 想-01
+            :arg0  (x1 / 他
+)            :frequency  (x12 / 经常
+)            :arg1  (x61 / and
+                  :op1  (x18 / amr-unknown
+                        :arg0  (x16 / 地
+                              :mod  (x15 / 租界
+))                        :mode  (x17_x19 / judgement
+)                        :mode  (x20 / interrogative
+))                  :op2  (x67 / contrast
+                        :arg1  (x25 / 能-01
+                              :polarity  (x24 / -
+)                              :arg0  (x26 / 去-01
+                                    :arg1  (x27 / x16
+)                                    :arg0  (x23 / 人
+                                          :mod  (x73 / nationality
+                                                :name  ( x22/中国 
+)))))                        :arg2  (x32 / 可以-01
+                              :arg0  (x33 / 住-01
+                                    :arg0  (x30 / 外国人
+)                                    :arg1  (x35 / x16
+))                              :mode  (x36 / interrogative
+)))                  :op3  (x42 / 土地
+                        :domain  (x37 / x16
+)                        :polarity  (x38 / -
+)                        :poss  (x83 / country
+                              :name  ( x40/中国 
+))                        :mode  (x43 / interrogative
+))))      :op1  (x3_3 / possible
+            :polarity  (x3_2 / -
+)            :arg0  (x3_1 / 忘-01
+                  :arg1  (x10 / 话
+                        :arg1-of  (x8 / 说-01
+                              :arg0  (x4 / 大伯
+)                              :time  (x5 / 接-01
+                                    :arg1  (x6 / x1
+)                                    :arg0  (x4 / 大伯
+))))                  :arg0  (x1 / 他
+))            :time  (x2 / 始终
+)))
+===========================
+”一连串的问题使周恩来疑惑不解，好奇心驱使着他，一定要亲自去看个究竟。
+(x22 / causation
+      :arg1  (x5 / 使-01
+            :arg0  (x4 / 问题
+                  :quant  (x2 / 一连串
+))            :arg1  (x26 / person
+                  :name  ( x6/周恩来 
+))            :arg2  (x7 / 疑惑不解
+                  :arg0  (x26 / person
+)))      :arg2  (x10 / 驱使-01
+            :arg0  (x9 / 好奇心
+)            :aspect  (x11 / 着
+)            :arg1  (x12 / x26
+)            :arg2  (x14 / 一定
+                  :arg0  (x15 / 要-03
+                        :arg0  (x17 / 去-01
+                              :manner  (x16 / 亲自
+)                              :arg0  (x26 / person
+)                              :arg1  (x18 / 看
+                                    :cause-of  (x20 / 究竟
+)))))))
+===========================
+一个风和日丽的星期天，周恩来背着大伯，约了一个要好的同学闯进了租界。
+(x20 / and
+      :op1  (x7_1 / 背-01
+            :aspect  (x7_2 / 着
+)            :arg0  (x24 / person
+                  :name  ( x6/周恩来 
+))            :arg1  (x8 / 大伯
+))      :time  (x26 / date-entity
+            :weekday  (x4 / 星期天
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+))            :arg0-of  (x2 / 风和日丽-01
+))      :op2  (x10 / 约-01
+            :arg0  (x24 / person
+)            :aspect  (x11 / 了
+)            :arg1  (x15 / 同学
+                  :cunit  (x12_2 / 个
+)                  :quant  (x12_1 / 1
+)                  :arg0-of  (x13 / 要好
+))            :arg2  (x16 / 闯进-01
+                  :aspect  (x17 / 了
+)                  :arg1  (x18 / 租界
+))))
+===========================
+嘿！这一带果真和别处大不相同：一条条街道灯红酒绿，热闹非凡，街道两旁行走的大多是黄头发、白皮肤、大鼻子的外国人和耀武扬威的巡警。
+(x38 / and
+      :op1  (x1 / 嘿
+            :mode  (x2 / expressive
+))      :op2  (x10 / 相同-01
+            :polarity  (x9 / -
+                  :degree  (x8 / 大
+))            :arg0  (x6 / and
+                  :op1  (x4 / 一带
+                        :mod  (x3 / 这
+))                  :op2  (x7 / 别处
+))            :mod  (x5 / 果真
+)            :arg0-of  (x50 / mean
+                  :arg1  (x51 / and
+                        :op1  (x14 / 灯红酒绿
+                              :location  (x13 / 街道
+                                    :quant  (x12 / 一条条
+)))                        :op2  (x16 / 热闹非凡
+                              :location  (x13 / 街道
+))                        :op3  (x33 / and
+                              :op1  (x32 / 外国人
+                                    :part  (x30 / 大鼻子
+)                                    :mod  (x28 / 皮肤
+                                          :arg0-of  (x27 / 白-01
+))                                    :part  (x25 / 头发
+                                          :arg0-of  (x24 / 黄-02
+)))                              :op2  (x36 / 巡警
+                                    :arg0-of  (x34 / 耀武扬威-01
+))                              :domain  (x65 / person
+                                    :arg0-of  (x20 / 行走-01
+                                          :arg1  (x19 / 两旁
+                                                :arg0  (x18 / x13
+))))                              :mod  (x22 / 大多
+))))))
+===========================
+正当周恩来和同学左顾右盼时，忽然发现巡警局门前围着一群人，正大声吵嚷着什么。
+(x9 / 发现-01
+      :manner  (x8 / 忽然
+)      :time  (x5 / 左顾右盼
+            :arg0  (x3 / and
+                  :op1  (x30 / person
+                        :name  ( x2/周恩来 
+))                  :op2  (x4 / 同学
+)))      :arg1  (x33 / and
+            :op1  (x13 / 围-01
+                  :aspect  (x14 / 着
+)                  :arg1  (x12 / 门前
+                        :arg0  (x11 / 局
+                              :mod  (x10 / 巡警
+)))                  :arg2  (x17 / 人
+                        :unit  (x16 / 群
+)                        :quant  (x15 / 1
+)))            :op2  (x21 / 吵嚷-01
+                  :arg1  (x23 / amr-unknown
+)                  :manner  (x20 / 大声
+)                  :arg0  (x17 / 人
+)                  :aspect  (x19 / 正
+)                  :aspect  (x22 / 着
+))))
+===========================
+他们急忙奔了过去，只见人群中有个衣衫褴褛的妇女正在哭诉着什么，一个大个子洋人则得意扬扬地站在一旁。
+(x33 / temporal
+      :arg1  (x2 / 急忙
+)      :arg1  (x3 / 奔-01
+            :manner  (x2 / 急忙
+)            :direction  (x5 / 过去-01
+                  :arg0  (x1 / 他们
+))            :aspect  (x4 / 了
+)            :arg0  (x1 / 他们
+))      :arg2  (x8 / 见-01
+            :mod  (x7 / 只
+)            :arg0  (x1 / 他们
+)            :arg1  (x42 / contrast
+                  :arg1  (x18 / 哭诉-01
+                        :arg0  (x16 / 妇女
+                              :mod  (x14 / 褴褛
+                                    :mod  (x13 / 衣衫
+))                              :arg1-of  (x11 / 有-03
+                                    :arg0  (x9 / 人群
+))                              :cunit  (x12 / 个
+)                              :cunit  (x12 / 个
+))                        :aspect  (x17 / 正在
+)                        :aspect  (x19 / 着
+)                        :arg1  (x20 / amr-unknown
+))                  :arg2  (x28 / 站-01
+                        :arg0  (x24 / 洋人
+                              :mod  (x23 / 大个子
+                                    :cunit  (x22_2 / 个
+))                              :quant  (x22_1 / 1
+))                        :manner  (x26 / 得意扬扬
+)                        :arg1  (x30 / 一旁
+)))))
+===========================
+一问才知道，这个妇女的亲人被洋人的汽车轧死了，她原指望中国的巡警局能给她撑腰，惩处这个洋人。
+(x33 / condition
+      :arg1  (x2 / 问
+)      :arg2  (x4 / 知道-01
+            :arg1  (x37 / and
+                  :op1  (x14 / 轧-01
+                        :cause-of  (x15 / 死-01
+                              :arg0  (x9 / 亲人
+                                    :poss  (x7 / 妇女
+                                          :cunit  (x6_2 / 个
+)                                          :mod  (x6_1 / 这
+)))                              :aspect  (x16 / 了
+))                        :arg0  (x13 / 汽车
+                              :poss  (x11 / 洋人
+))                        :arg1  (x9 / 亲人
+))                  :op2  (x19 / 原
+                        :arg0  (x20 / 指望-01
+                              :arg0  (x18 / x7
+)                              :arg1  (x24 / 能-01
+                                    :arg0  (x53 / and
+                                          :op1  (x27 / 撑腰-01
+                                                :arg0  (x23 / 巡警局
+                                                      :poss  (x57 / country
+                                                            :name  ( x21/中国 
+)))                                                :arg1  (x26 / x7
+))                                          :op2  (x29 / 惩处-01
+                                                :arg0  (x23 / 巡警局
+)                                                :arg1  (x31 / x11
+                                                      :mod  (x30_1 / 这
+)                                                      :cunit  (x30_2 / 个
+))))))))))
+===========================
+谁知中国巡警不但不惩处肇事的洋人，反而把她训斥了一通。
+(x1 / 谁知
+      :arg1  (x23 / progression
+            :arg1  (x6 / 惩处-01
+                  :polarity  (x5 / -
+                        :arg0  (x3 / 巡警
+                              :poss  (x29 / country
+)))                  :arg1  (x9 / 洋人
+                        :arg0-of  (x7 / 肇事-01
+                              :name  ( x2/中国 
+))))            :arg2  (x14 / 训斥-01
+                  :aspect  (x15 / 了
+)                  :cunit  (x17 / 通
+)                  :arg1  (x13 / 她
+)                  :quant  (x16 / 1
+))))
+===========================
+围观的中国人都紧握着拳头。
+(x6 / 紧握-01
+      :aspect  (x7 / 着
+)      :arg0  (x4 / 人
+            :mod  (x14 / nationality
+                  :name  ( x3/中国 
+))            :arg0-of  (x1 / 围观-01
+)            :extent  (x5 / 都
+))      :arg1  (x8 / 拳头
+))
+===========================
+但是，在外国租界里，谁又敢怎么样呢？
+(x14 / contrast
+      :arg2  (x10 / 敢-02
+            :mod  (x9 / 又
+)            :arg0  (x8 / amr-unknown
+)            :arg1  (x11 / amr-unknown
+)            :location  (x5 / 租界
+                  :poss  (x4 / 外国
+))            :mode  (x12_x13 / interrogative
+)))
+===========================
+只能劝劝那个不幸的妇女。
+(x1_2 / 能-01
+      :mod  (x1_1 / 只
+)      :arg0  (x2_x3 / 劝-01
+            :arg1  (x7 / 妇女
+                  :mod  (x4_1 / 那
+)                  :cunit  (x4_2 / 个
+)                  :arg0-of  (x5 / 不幸-01
+))))
+===========================
+这时周恩来才真正体会到伯父说的“中华不振”的含义。
+(x5 / 体会-01
+      :arg1  (x16 / 含义
+            :poss  (x11_x12_x13 / 中华不振
+                  :arg1-of  (x8 / 说-01
+                        :arg0  (x7 / 伯父
+))))      :manner  (x4 / 真正
+)      :arg0  (x25 / person
+            :name  ( x2/周恩来 
+))      :time  (x1 / 这时
+)      :mod  (x3 / 才
+))
+===========================
+从租界回来以后，同学们常常看到周恩来一个人在沉思，谁也不清楚他究竟在想什么。
+(x26 / and
+      :time  (x4 / 以后
+            :arg0  (x3 / 回来-01
+                  :arg1  (x2 / 租界
+)))      :op1  (x9 / 看到-01
+            :arg0  (x6_x7 / 同学们
+)            :arg1  (x14 / 沉思-01
+                  :arg0  (x34 / person
+                        :name  ( x10/周恩来 
+))                  :manner  (x12 / 人
+                        :cunit  (x11_2 / 个
+)                        :quant  (x11_1 / 1
+))                  :aspect  (x13 / 在
+))            :frequency  (x8 / 常常
+))      :op2  (x19 / 清楚-01
+            :polarity  (x18 / -
+)            :arg0  (x16 / amr-unknown
+)            :mod  (x17 / 也
+)            :arg1  (x23 / 想-01
+                  :manner  (x21 / 究竟
+)                  :arg0  (x20 / x34
+)                  :aspect  (x22 / 在
+)                  :arg1  (x24 / amr-unknown
+))))
+===========================
+直到在一次修身课上，听了周恩来的发言才解开了这个谜。
+(x20 / condition
+      :arg1  (x9 / 听-01
+            :aspect  (x10 / 了
+)            :location  (x6 / 课
+                  :mod  (x5 / 修身
+)                  :cunit  (x4 / 次
+)                  :quant  (x3 / 1
+))            :arg1  (x13 / 发言
+                  :poss  (x29 / person
+                        :name  ( x11/周恩来 
+))))      :arg2  (x15 / 解开-01
+            :aspect  (x16 / 了
+)            :arg1  (x18 / 谜
+                  :cunit  (x17_2 / 个
+)                  :mod  (x17_1 / 这
+))))
+===========================
+那天上修身课，魏校长向同学们提出一个问题：“请问诸生为什么而读书？”
+(x11 / 提出-01
+      :time  (x2 / 上
+            :arg1  (x4 / 课
+                  :mod  (x3 / 修身
+))            :time  (x1 / 那天
+))      :arg0  (x7 / 校长
+            :mod  (x6 / 魏
+))      :beneficiary  (x9_x10 / 同学们
+)      :arg1  (x13 / 问题
+            :cunit  (x12_2 / 个
+)            :quant  (x12_1 / 1
+)            :arg0-of  (x34 / mean
+                  :arg1  (x15 / 请问-01
+                        :arg1  (x17 / 生
+                              :mod  (x16 / 诸
+))                        :arg2  (x20 / 读书-01
+                              :cause  (x18 / amr-unknown
+)                              :arg0  (x17 / 生
+))                        :mode  (x21 / interrogative
+)))))
+===========================
+同学们踊跃回答。
+(x3 / 踊跃-01
+      :arg0  (x1_x2 / 同学们
+)      :arg1  (x4 / 回答-01
+            :arg1  (x1_x2 / 同学们
+)))
+===========================
+有的说：“为明理而读书。”
+(x2 / 说-01
+      :arg0  (x1 / 有的
+)      :arg1  (x8 / 读书
+            :cause  (x5 / 明-02
+                  :arg1  (x6 / 理
+))))
+===========================
+有的说：“为做官而读书。”
+(x2 / 说-01
+      :arg0  (x1 / 有的
+)      :arg1  (x7 / 读书
+            :cause  (x5 / 做官
+)))
+===========================
+也有的说“为挣钱而读书”
+(x3 / 说-01
+      :mod  (x1 / 也
+)      :arg0  (x2 / 有的
+)      :arg1  (x8 / 读书
+            :cause  (x6 / 挣钱
+)))
+===========================
+“为吃饭而读书”……
+(x7 / say
+      :arg1  (x5 / 读书
+            :cause  (x3 / 吃饭
+)))
+===========================
+周恩来一直静静地坐在那里，没有抢着发言。
+(x13 / and
+      :op1  (x4 / 坐-01
+            :arg0  (x16 / person
+                  :name  ( x1/周恩来 
+))            :manner  (x3_1_2 / 静静
+)            :arg1  (x6 / 那里
+)            :manner  (x2 / 一直
+))      :op2  (x11 / 发言-01
+            :manner  (x9 / 抢
+                  :aspect  (x10 / 着
+))            :polarity  (x8 / -
+)            :arg0  (x16 / person
+)))
+===========================
+魏校长注意到了，打手势让大家静下来，点名让他回答。
+(x18 / temporal
+      :arg1  (x3_x4 / 注意-02
+            :arg0  (x2 / 校长
+                  :mod  (x1 / 魏
+))            :aspect  (x5 / 了
+))      :arg2  (x7 / 打手势
+            :arg0  (x2 / 校长
+)            :purpose  (x8 / 让-02
+                  :arg1  (x9 / 大家
+)                  :arg2  (x10_x11 / 静-01
+                        :arg0  (x9 / 大家
+))                  :arg0  (x2 / 校长
+)))      :arg3  (x13 / 点名-01
+            :arg0  (x2 / 校长
+)            :arg1  (x15 / 他
+)            :arg2  (x16 / 回答-01
+                  :arg0  (x15 / 他
+))))
+===========================
+周恩来站了起来，清晰而坚定地回答道：“为中华之崛起而读书！”
+(x21 / temporal
+      :arg1  (x2_x4 / 站-01
+            :arg0  (x24 / person
+                  :name  ( x1/周恩来 
+))            :aspect  (x3 / 了-01
+))      :arg2  (x10_x11 / 回答-01
+            :manner  (x8 / 坚定
+)            :manner  (x6 / 清晰
+)            :arg0  (x24 / person
+)            :arg2  (x19 / 读书
+                  :cause  (x17 / 崛起-01
+                        :arg0  (x15 / 中华
+))                  :mode  (x20 / expressive
+))))
+===========================
+魏校长听了为之一振！
+(x9 / causation
+      :arg1  (x3 / 听-01
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 校长
+                  :mod  (x1 / 魏
+)))      :arg2  (x5 / 为之一振
+            :arg0  (x2 / 校长
+))      :mode  (x6 / expressive
+))
+===========================
+他怎么也没想到，一个十二三岁的孩子，竟有如此抱负和胸怀！
+(x5 / 想到-01
+      :polarity  (x4 / -
+)      :mod  (x3 / 也
+)      :arg0  (x1 / 他
+)      :arg1  (x14 / 有-01
+            :mod  (x13 / 竟
+)            :arg0  (x11 / 孩子
+                  :quant  (x7_1 / 1
+)                  :cunit  (x7_2 / 个
+)                  :age  (x36 / temporal-quantity
+                        :unit  (x9 / 岁
+)                        :quant  (x38 / or
+                              :op1  (x8_1_2 / 12
+)                              :op2  (x8_1_3 / 13
+))))            :arg1  (x17 / and
+                  :mod  (x15 / 如此
+)                  :op1  (x16 / 抱负
+)                  :op2  (x18 / 胸怀
+))            :mode  (x19 / expressive
+))      :manner  (x2 / amr-unknown
+))
+===========================
+他睁大眼睛又追问了一句：“你再说一遍，为什么而读书？”
+(x6 / 追问-01
+      :arg0  (x1 / 他
+)      :manner  (x2 / 睁-01
+            :cause-of  (x3 / 大-01
+                  :arg0  (x4 / 眼睛
+                        :part-of  (x1 / 他
+)))            :arg0  (x1 / 他
+)            :arg1  (x4 / 眼睛
+))      :mod  (x5 / 又
+)      :aspect  (x7 / 了
+)      :arg2  (x29 / thing
+            :quant  (x8 / 1
+)            :unit  (x9 / 句
+)            :arg0-of  (x32 / mean
+                  :arg1  (x13 / 说-01
+                        :mod  (x12 / 再
+)                        :arg0  (x11 / 你
+)                        :quant  (x14 / 1
+)                        :unit  (x15 / 遍
+)                        :arg1  (x19 / 读书
+                              :cause  (x17 / amr-unknown
+)                              :mode  (x20 / interrogative
+)))))      :arg1  (x11 / 你
+))
+===========================
+“为中华之崛起而读书！”
+(x9 / say
+      :arg1  (x7 / 读书
+            :cause  (x5 / 崛起-01
+                  :arg0  (x3 / 中华
+))            :mode  (x8 / expressive
+)))
+===========================
+周恩来铿锵有力的话语，博得了魏校长的喝彩：“好哇！为中华之崛起！有志者当效周生啊！”
+(x6 / 博得-01
+      :arg1  (x11 / 喝彩
+            :poss  (x9 / 校长
+                  :mod  (x8 / 魏
+))            :arg0-of  (x37 / mean
+                  :arg1  (x38 / and
+                        :op1  (x13 / 好
+                              :mode  (x14_x15 / expressive
+))                        :op2  (x16 / 为-05
+                              :arg1  (x19 / 崛起-01
+                                    :arg0  (x17 / 中华
+))                              :mode  (x20 / expressive
+))                        :op3  (x22 / 当
+                              :arg0  (x23 / 效
+                                    :arg0  (x21 / 有志者
+)                                    :arg1  (x24 / x32
+))                              :mode  (x25_x26 / expressive
+)))))      :arg0  (x4 / 话语
+            :arg0-of  (x2 / 铿锵有力
+)            :poss  (x32 / person
+                  :name  ( x1/周恩来 
+)))      :aspect  (x7 / 了
+))
+===========================
+是的，少年周恩来在那时就已经认识到，中国人要想不受帝国主义欺凌，就要振兴中华。
+(x26 / and
+      :op1  (x1 / 是
+            :mode  (x2 / judgement
+))      :op2  (x10 / 认识-02
+            :arg0  (x31 / person
+                  :name  ( x5/周恩来 
+                        :time  (x4 / 少年
+)))            :aspect  (x9 / 已经
+)            :time  (x7 / 那时
+)            :mod  (x8 / 就
+)            :arg1  (x37 / condition
+                  :arg1  (x16 / 想-02
+                        :arg0  (x14 / 人
+                              :mod  (x40 / nationality
+                                    :name  ( x13/中国 
+)))                        :arg1  (x18 / 受-01
+                              :polarity  (x17 / -
+)                              :arg0  (x14 / 人
+)                              :arg1  (x20 / 欺凌-01
+                                    :arg0  (x19 / 帝国主义
+)                                    :arg1  (x14 / 人
+))))                  :arg2  (x23 / 振兴-01
+                        :arg1  (x24 / 中华
+)                        :arg0  (x14 / 人
+)))))
+===========================
+读书，就要以此为目标。
+(x9 / condition
+      :arg1  (x1 / 读书
+)      :arg2  (x4_x6 / 以为-02
+            :arg1  (x5 / 此
+)            :arg1  (x7 / 目标
+)))
+===========================

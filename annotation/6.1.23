@@ -1,0 +1,568 @@
+两百多年前，德国有个音乐家叫贝多芬，他谱写了许多著名的乐曲。
+(x20 / and
+      :op2  (x13 / 谱写-01
+            :arg0  (x12 / x8
+)            :arg1  (x18 / 乐曲
+                  :arg0-of  (x16 / 著名-01
+)                  :quant  (x15 / 许多
+))            :aspect  (x14 / 了
+))      :time  (x3 / 前
+            :op1  (x36 / temporal-quantity
+                  :quant  (x2_1 / 多
+                        :op1  (x1 / 200
+))                  :unit  (x2_2 / 年
+)))      :op1  (x9 / 叫-01
+            :arg0  (x8 / 音乐家
+                  :cunit  (x7 / 个
+)                  :arg1-of  (x6 / 有-03
+                        :arg0  (x23 / country
+                              :name  ( x5/德国 
+))                        :arg1  (x8 / 音乐家
+)))            :arg1  (x10 / 贝多芬
+)))
+===========================
+其中有一首著名的钢琴曲叫《月光曲》，传说是这样谱成的。
+(x19 / and
+      :op1  (x8 / 叫-01
+            :arg0  (x7 / 钢琴曲
+                  :arg0-of  (x5 / 著名-01
+)                  :quant  (x3 / 1
+)                  :cunit  (x4 / 首
+)                  :arg2  (x10 / 月光曲
+)                  :arg1-of  (x2 / 有-03
+)                  :arg1-of  (x1 / include-91
+)))      :op2  (x12 / 传说-01
+            :arg1  (x15_x16 / 谱成-01
+                  :mod  (x14 / 这样
+)                  :mode  (x13_x17 / judgement
+))))
+===========================
+有一年秋天，贝多芬去各地旅行演出，来到莱茵河边的一个小镇上。
+(x19 / and
+      :op1  (x6 / 去
+            :arg0  (x22 / person
+                  :name  ( x5/贝多芬 
+))            :arg1  (x7 / 各地
+)            :purpose  (x9 / 演出
+                  :manner  (x8 / 旅行
+)))      :op2  (x11 / 来到
+            :arg1  (x16 / 小镇
+                  :quant  (x15_1 / 1
+)                  :cunit  (x15_2 / 个
+)                  :location  (x13 / 边
+                        :arg0  (x32 / river
+                              :name  ( x12/莱茵河 
+)))))      :time  (x34 / date-entity
+            :season  (x3 / 秋天
+)            :time  (x1_x2 / 有一年
+)))
+===========================
+一天夜晚，他在幽静的小路上散步，听到断断续续的钢琴声从一所茅屋里传出来，弹的正是他的曲子。
+(x32 / temporal
+      :arg1  (x10 / 散步-01
+            :arg0  (x4 / 他
+)            :location  (x8 / 小路
+                  :arg0-of  (x6 / 幽静-01
+)))      :arg2  (x12 / 听到-01
+            :arg1  (x22_x23 / 传出-01
+                  :arg0  (x16 / 声
+                        :poss  (x15 / 钢琴
+)                        :arg0-of  (x13 / 断断续续-01
+))                  :arg1  (x20 / 茅屋
+                        :quant  (x18 / 1
+)                        :cunit  (x19 / 所
+))))      :arg3  (x30 / 曲子
+            :poss  (x28 / x4
+)            :domain  (x49 / thing
+                  :arg2-of  (x25 / 弹-01
+)))      :time  (x2 / 夜晚
+            :time  (x1 / 一天
+)))
+===========================
+贝多芬走近茅屋，琴声忽然停了，屋子里有人在谈话。
+(x16 / temporal
+      :arg1  (x2 / 走近-01
+            :arg0  (x19 / person
+                  :name  ( x1/贝多芬 
+))            :arg1  (x3 / 茅屋
+))      :arg2  (x7 / 停-01
+            :arg1  (x5 / 琴声
+)            :manner  (x6 / 忽然
+)            :aspect  (x8 / 了
+))      :arg2  (x14 / 谈话-01
+            :arg0  (x12_2 / 人
+                  :arg1-of  (x12_1 / 有-03
+                        :arg0  (x10 / 屋子
+)))            :aspect  (x13 / 在
+)))
+===========================
+一个姑娘说：“这首曲子多难弹啊！我只听别人弹过几遍，总是记不住该怎样弹。
+(x3 / 说-01
+      :arg0  (x2 / 姑娘
+            :cunit  (x1_2 / 个
+)            :quant  (x1_1 / 1
+))      :arg1  (x35 / and
+            :op1  (x9 / 难-01
+                  :arg0  (x10 / 弹-01
+                        :arg2  (x7 / 曲子
+                              :mod  (x5 / 这
+)                              :cunit  (x6 / 首
+)))                  :mode  (x11_x12 / expressive
+)                  :degree  (x8 / 多
+))            :op2  (x15 / 听-01
+                  :arg0  (x13 / x2
+)                  :arg1  (x17 / 弹-01
+                        :arg0  (x16 / 别人
+)                        :aspect  (x18 / 过
+)                        :quant  (x19 / 几
+)                        :cunit  (x20 / 遍
+))                  :mod  (x14 / 只
+))            :op3  (x51 / possible
+                  :arg0  (x23 / 记-02
+                        :arg1  (x25 / 该-01
+                              :arg0  (x27 / 弹
+                                    :mod  (x26 / amr-unknown
+)))                        :frequency  (x22 / 总是
+))                  :polarity  (x24_1 / -
+))))
+===========================
+要是能听一听贝多芬自己是怎样弹的，那有多好啊！”
+(x20 / say
+      :arg1  (x31 / condition
+            :arg1  (x3 / 能-01
+                  :arg0  (x4_x5_x6 / 听-01
+                        :arg1  (x11 / 弹-01
+                              :arg0  (x25 / person
+                                    :name  ( x7/贝多芬 
+)                                    :arg0-of  (x27 / mean
+                                          :arg1  (x8 / 自己
+)))                              :mod  (x10 / 怎样
+)                              :mode  (x9_x12 / judgement
+))))            :arg2  (x17 / 好-01
+                  :degree  (x16 / 多
+)                  :arg0  (x14 / 那
+)                  :mode  (x18_x19 / expressive
+))))
+===========================
+一个男的说：“是啊，可是音乐会的入场券太贵了，咱们又太穷。”
+(x4 / 说-01
+      :arg0  (x24 / person
+            :mod  (x2 / 男
+)            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+))      :arg1  (x28 / contrast
+            :arg1  (x6 / 是
+                  :mode  (x7 / expressive
+))            :arg2  (x31 / and
+                  :op1  (x14 / 贵-01
+                        :arg0  (x12 / 入场券
+                              :poss  (x10 / 音乐会
+))                        :degree  (x13 / 太
+)                        :aspect  (x15 / 了
+))                  :op2  (x20 / 穷-02
+                        :arg0  (x17 / 咱们
+)                        :degree  (x19 / 太
+)))))
+===========================
+姑娘说：“哥哥，你别难过，我不过随便说说罢了。”
+(x2 / 说
+      :arg0  (x1 / 姑娘
+)      :arg1  (x20 / and
+            :op1  (x4 / 哥哥
+)            :op2  (x8 / 难过
+                  :arg0  (x6 / x4
+)                  :polarity  (x7 / -
+))            :op3  (x13_x14 / 说
+                  :arg0  (x10 / x1
+)                  :manner  (x12 / 随便
+)                  :mod  (x11 / 不过
+)                  :smood  (x15 / 罢了
+))))
+===========================
+贝多芬听到这里，推开门，轻轻地走了进去。
+(x13 / temporal
+      :arg1  (x2 / 听到-01
+            :arg0  (x16 / person
+                  :name  ( x1/贝多芬 
+))            :arg1  (x3 / 这里
+))      :arg2  (x5 / 推开-02
+            :arg1  (x6 / 门
+))      :arg3  (x9 / 走-01
+            :manner  (x8 / 轻轻地
+)            :direction  (x11 / 进去
+)            :aspect  (x10 / 了
+)))
+===========================
+茅屋里点着一支蜡烛。
+(x3 / 点-01
+      :arg1  (x7 / 蜡烛
+            :quant  (x5 / 1
+)            :cunit  (x6 / 支
+))      :aspect  (x4 / 着
+)      :location  (x1 / 茅屋
+))
+===========================
+在微弱的烛光下，男的正在做皮鞋。
+(x10 / 做-01
+      :arg0  (x15 / person
+            :mod  (x7 / 男
+))      :arg1  (x11 / 皮鞋
+)      :aspect  (x9 / 正在
+)      :condition  (x4 / 烛光
+            :arg0-of  (x2 / 微弱-01
+)))
+===========================
+窗前有架旧钢琴，前面坐着一个十六七岁的姑娘，脸很清秀，可是眼睛失明了。
+(x25 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1 / 窗前
+)            :arg1  (x5 / 钢琴
+                  :arg0-of  (x4 / 旧-01
+)                  :cunit  (x3 / 架
+)))      :op2  (x8 / 坐-01
+            :arg0  (x14 / 姑娘
+                  :age  (x34 / temporal-quantity
+                        :quant  (x35 / between
+                              :op1  (x11_1_2 / 16
+)                              :op2  (x11_1_3 / 17
+))                        :unit  (x12 / 岁
+))                  :quant  (x10_1 / 1
+)                  :cunit  (x10_2 / 个
+))            :aspect  (x9 / 着
+)            :arg1  (x7 / 前面
+))      :op3  (x43 / contrast
+            :arg1  (x18 / 清秀-01
+                  :arg0  (x16 / 脸
+)                  :degree  (x17 / 很
+))            :arg2  (x22 / 失明-01
+                  :arg0  (x21 / 眼睛
+)                  :aspect  (x23 / 了
+))))
+===========================
+皮鞋匠看见进来个陌生人，站起来问：“先生，您找谁？走错门了吧？”
+(x24 / temporal
+      :arg1  (x3 / 看见-01
+            :arg0  (x1_x2 / 皮鞋匠
+)            :arg1  (x4 / 进来-01
+                  :arg0  (x6 / 陌生人
+                        :cunit  (x5 / 个
+))))      :arg2  (x8_x9 / 站
+)      :arg3  (x10 / 问-01
+            :arg1  (x33 / and
+                  :op1  (x12 / 先生
+)                  :op2  (x15 / 找-03
+                        :arg0  (x14 / x12
+)                        :arg1  (x16 / amr-unknown
+)                        :mode  (x17 / interrogative
+))                  :op3  (x18_x19_x20 / 走错门
+                        :aspect  (x21 / 了
+)                        :mode  (x22_x23 / interrogative
+)))))
+===========================
+贝多芬说：“不，我是来弹一首曲子给这位姑娘听的。”
+(x2 / 说-01
+      :arg0  (x22 / person
+            :name  ( x1/贝多芬 
+))      :arg1  (x24 / and
+            :op1  (x4 / 不
+)            :op2  (x8 / 来-05
+                  :arg1  (x9 / 弹-01
+                        :arg2  (x12 / 曲子
+                              :quant  (x10 / 1
+)                              :cunit  (x11 / 首
+)))                  :arg0  (x6 / 我
+)                  :purpose  (x13 / 给-02
+                        :arg1  (x16 / 姑娘
+                              :mod  (x14 / 这
+)                              :cunit  (x15 / 位
+))                        :arg2  (x17 / 听
+))                  :mode  (x7_x18 / judgement
+))))
+===========================
+姑娘连忙站起来让座。
+(x3_x4 / 站-01
+      :arg0  (x1 / 姑娘
+)      :manner  (x2 / 连忙
+)      :purpose  (x5 / 让座
+))
+===========================
+贝多芬坐在钢琴前面，弹起盲姑娘刚才弹的那首曲子。
+(x17 / temporal
+      :arg1  (x2 / 坐-01
+            :arg0  (x20 / person
+                  :name  ( x1/贝多芬 
+))            :arg1  (x5 / 前面
+                  :arg0  (x4 / 钢琴
+)))      :arg2  (x7 / 弹起-01
+            :arg1  (x15 / 曲子
+                  :mod  (x13 / 那
+)                  :cunit  (x14 / 首
+)                  :arg2-of  (x11 / 弹-01
+                        :arg0  (x9 / 姑娘
+                              :arg0-of  (x8 / 盲
+))                        :time  (x10 / 刚才
+)))))
+===========================
+盲姑娘听得人了神，一曲弹完，她激动地说：“弹得多纯熟啊！感情多深哪！
+(x31 / temporal
+      :arg1  (x3 / 听-01
+            :cause-of  (x5_x7 / 入神
+                  :aspect  (x6 / 了
+))            :arg0  (x2 / 姑娘
+                  :arg0-of  (x1 / 盲
+)))      :arg2  (x12 / 完-01
+            :arg0  (x10 / 曲
+                  :quant  (x9 / 1
+))            :manner  (x11 / 弹
+))      :arg2  (x17 / 说-01
+            :arg0  (x14 / x2
+)            :manner  (x15 / 激动
+)            :arg1  (x46 / and
+                  :op1  (x19 / 弹
+                        :manner  (x22 / 纯熟
+                              :degree  (x21 / 多
+))                        :mode  (x23_x24 / expressive
+))                  :op2  (x27 / 深-03
+                        :arg0  (x25 / 感情
+)                        :degree  (x26 / 多
+)                        :mode  (x28_x29 / expressive
+)))))
+===========================
+您，您就是贝多芬先生吧？”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x1 / 您
+)            :op2  (x6 / 先生
+                  :name  ( x5/贝多芬 
+)                  :domain  (x3 / 您
+)))      :mode  (x7_x8 / interrogative
+))
+===========================
+贝多芬没有回答，他问盲姑娘：“您爱听吗？
+(x16 / temporal
+      :arg1  (x3 / 回答-01
+            :arg0  (x19 / person
+                  :name  ( x1/贝多芬 
+))            :polarity  (x2 / -
+))      :arg1  (x6 / 问-01
+            :arg0  (x5 / x19
+)            :arg2  (x8 / 姑娘
+                  :mod  (x7 / 盲
+))            :arg1  (x11 / 爱-01
+                  :arg0  (x10 / x8
+)                  :arg1  (x12 / 听
+)                  :mode  (x13_x14 / interrogative
+))))
+===========================
+我再给您弹一首吧。”
+(x10 / say
+      :arg1  (x5 / 弹-01
+            :arg2  (x14 / thing
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 首
+))            :beneficiary  (x4 / 您
+)            :arg0  (x1 / 我
+)            :mod  (x2 / 再
+))      :mode  (x8 / imperative
+))
+===========================
+一阵风把蜡烛吹灭了。
+(x6 / 吹-02
+      :arg0  (x3 / 风
+            :quant  (x1 / 1
+)            :cunit  (x2 / 阵
+))      :arg1  (x5 / 蜡烛
+)      :cause-of  (x7 / 灭
+)      :aspect  (x8 / 了
+))
+===========================
+月光照进窗子，茅屋里的一切好像披上了银纱，显得格外清幽。
+(x22 / causation
+      :arg1  (x2 / 照-01
+            :arg1  (x4 / 窗子
+)            :arg2  (x1 / 月光
+))      :arg2  (x28 / and
+            :op1  (x10 / 好像-01
+                  :arg0  (x9 / 一切
+)                  :arg1  (x11 / 披上
+                        :arg1  (x13_x14 / 银纱
+)                        :aspect  (x12 / 了
+)))            :op2  (x16 / 显得-01
+                  :arg1  (x18 / 清幽
+                        :degree  (x17 / 格外
+)))))
+===========================
+贝多芬望了望站在他身旁的兄妹俩，借着清幽的月光，按起了琴键。
+(x24 / temporal
+      :arg1  (x2_x4 / 望-01
+            :aspect  (x3 / 了
+)            :arg0  (x28 / person
+                  :name  ( x1/贝多芬 
+))            :arg1  (x10 / 兄妹
+                  :quant  (x11 / 俩
+)                  :arg0-of  (x5 / 站-01
+                        :arg1  (x8 / 身旁
+                              :arg0  (x7 / x28
+)))))      :arg2  (x19_x20 / 按-01
+            :arg1  (x22 / 琴键
+)            :aspect  (x21 / 了
+)            :condition  (x13 / 借-01
+                  :arg1  (x17 / 月光
+                        :arg0-of  (x15 / 清幽
+))                  :aspect  (x14 / 着
+))))
+===========================
+皮鞋匠静静地听着。
+(x4 / 听-01
+      :arg0  (x1_x2 / 皮鞋匠
+)      :manner  (x3 / 静静地
+)      :aspect  (x5 / 着
+))
+===========================
+他好像面对着大海，月亮正从水天相接的地方升起来。
+(x18 / and
+      :op1  (x2 / 好像-01
+            :arg0  (x3 / 面对-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 大海
+)                  :aspect  (x4 / 着
+)))      :op2  (x15_x16 / 升起-02
+            :arg0  (x7 / 月亮
+)            :source  (x14 / 地方
+                  :location-of  (x12 / 相接-01
+                        :arg0  (x29 / and
+                              :op1  (x10 / 水
+)                              :op2  (x11 / 天
+))))            :aspect  (x8 / 正
+)))
+===========================
+微波粼粼的海面上，霎时间洒满了银光。
+(x8 / 洒满
+      :arg0  (x10 / 银光
+)      :aspect  (x9 / 了
+)      :time  (x7 / 霎时间
+)      :location  (x4 / 海面
+            :mod  (x2 / 粼粼
+                  :arg0  (x1 / 微波
+))))
+===========================
+月亮越升越高，穿过一缕一缕轻纱似的微云。
+(x18 / and
+      :op2  (x7 / 穿过-01
+            :arg1  (x15_x16 / 微云
+                  :mod  (x14 / 像-01
+                        :arg1  (x13 / 纱
+                              :arg0-of  (x12 / 轻-01
+)))                  :quant  (x8_x10 / 1
+)                  :cunit  (x9_x11 / 缕
+)))      :op1  (x2_x4 / 越
+            :arg0  (x3 / 升-01
+                  :arg0  (x1 / 月亮
+))            :arg1  (x5 / 高-01
+                  :arg0  (x1 / 月亮
+))))
+===========================
+忽然，海面上刮起了大风，卷起了巨浪。
+(x14 / and
+      :op1  (x5_x6 / 刮起-02
+            :arg0  (x8 / 大风
+)            :arg1  (x3 / 海面
+)            :aspect  (x7 / 了
+))      :time  (x1 / 忽然
+)      :op2  (x10 / 卷起-02
+            :arg0  (x12 / 巨浪
+)            :aspect  (x11 / 了
+)))
+===========================
+被月光照得雪亮的浪花，一个连一个朝着岸边涌过来……皮鞋匠看看妹妹，月光正照在她那恬静的脸上，照着她睁得大大的眼睛。
+(x40 / and
+      :op1  (x14 / 涌-01
+            :arg0  (x7 / 浪花
+                  :arg1-of  (x3 / 照-01
+                        :arg2  (x2 / 月光
+)                        :manner  (x5 / 雪亮
+)))            :manner  (x9_x10_x11 / 一个连一个
+)            :direction  (x13 / 岸边
+))      :op2  (x19 / 看看-01
+            :arg0  (x17_x18 / 皮鞋匠
+)            :arg1  (x20 / 妹妹
+))      :op3  (x24 / 照-01
+            :arg1  (x30 / 脸上
+                  :arg0-of  (x28 / 恬静-01
+)                  :mod  (x27 / 那
+)                  :part-of  (x26 / x20
+))            :arg2  (x22 / 月光
+)            :aspect  (x23 / 正
+))      :op4  (x32 / 照着
+            :arg1  (x38 / 眼睛
+                  :arg0-of  (x36 / 大-01
+)                  :arg1-of  (x34 / 睁-01
+)                  :part-of  (x33 / x20
+))))
+===========================
+她仿佛也看到了，看到了她从来没有看到过的景象，月光照耀下的波涛汹涌的大海。
+(x26 / and
+      :op1  (x2 / 仿佛-01
+            :arg0  (x4 / 看到-01
+                  :arg0  (x1 / 她
+)                  :mod  (x3 / 也
+)                  :aspect  (x5 / 了
+)))      :op2  (x7 / 看到-01
+            :arg1  (x15 / 景象
+                  :arg1-of  (x12 / 看到-01
+                        :arg0  (x9 / x1
+)                        :time  (x10 / 从来
+)                        :polarity  (x11 / -
+)                        :aspect  (x13 / 过
+))                  :arg0-of  (x41 / mean
+                        :arg1  (x24 / 大海
+                              :mod  (x22 / 汹涌-01
+                                    :arg0  (x21 / 波涛
+))                              :condition  (x18 / 照耀-01
+                                    :arg0  (x17 / 月光
+)))))            :aspect  (x8 / 了
+)))
+===========================
+兄妹俩被美妙的琴声陶醉了。
+(x7 / 陶醉-01
+      :arg0  (x1_x2 / 兄妹俩
+)      :arg1  (x6 / 琴声
+            :arg0-of  (x4 / 美妙-01
+))      :aspect  (x8 / 了
+))
+===========================
+等他们苏醒过来，贝多芬早已离开了茅屋。
+(x12 / temporal
+      :arg1  (x8 / 离开-01
+            :arg0  (x15 / person
+                  :name  ( x6/贝多芬 
+))            :time  (x7 / 早已
+)            :arg1  (x10 / 茅屋
+)            :aspect  (x9 / 了
+))      :arg2  (x1 / 等-01
+            :arg1  (x3_x4 / 苏醒-01
+                  :arg0  (x2 / 他们
+))))
+===========================
+他飞奔回客店，花了一夜工夫，把刚才弹的曲子——《月光曲》记录了下来。
+(x24 / temporal
+      :arg1  (x3 / 回-01
+            :arg1  (x4 / 客店
+)            :arg0  (x1 / 他
+)            :manner  (x2 / 飞奔
+))      :arg2  (x6 / 花-01
+            :arg1  (x10 / temporal-quantity
+                  :quant  (x8 / 1
+)                  :unit  (x9 / 夜
+))            :aspect  (x7 / 了
+)            :arg2  (x20_x22 / 记录-01
+                  :arg1  (x16 / 曲子
+                        :name  ( x18/月光曲 
+)                        :arg2-of  (x14 / 弹-01
+                              :time  (x13 / 刚才
+)                              :arg0  (x1 / 他
+)))                  :aspect  (x21 / 了
+)                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)))
+===========================

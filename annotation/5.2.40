@@ -1,0 +1,347 @@
+自此，严监生的病一日重似一日，再不回头。
+(x16 / and
+      :op1  (x8 / 重-02
+            :arg0  (x5 / 病
+                  :poss  (x20 / person
+                        :name  ( x3/严监生 
+)))            :manner  (x9 / 似
+                  :arg0  (x7 / 日
+                        :quant  (x6 / 1
+))                  :arg1  (x11 / 日
+                        :quant  (x10 / 1
+))))      :op2  (x14 / 回头
+            :polarity  (x13_2 / -
+)            :mod  (x13_1 / 再
+))      :time  (x1 / 自此
+))
+===========================
+诸亲六眷都来问候。
+(x6 / 来-01
+      :extent  (x5 / 都
+)      :purpose  (x7 / 问候-01
+            :arg0  (x13 / and
+                  :op1  (x2 / 亲
+                        :mod  (x1 / 诸
+))                  :op2  (x4 / 眷
+                        :quant  (x3 / 6
+))))      :arg0  (x13 / and
+))
+===========================
+五个侄子穿梭的过来陪郎中弄药。
+(x13 / temporal
+      :arg1  (x6_x7 / 过来-01
+            :arg0  (x3 / 侄子
+                  :quant  (x1 / 5
+)                  :cunit  (x2 / 个
+))            :manner  (x4 / 穿梭
+)            :purpose  (x10 / 弄-01
+                  :arg1  (x11 / 药
+)                  :accompanier  (x9 / 郎中
+))))
+===========================
+到中秋已后，医家都不下药了。
+(x8 / 下-10
+      :arg1  (x9 / 药
+)      :arg0  (x5 / 医家
+)      :extent  (x6 / 都
+)      :polarity  (x7 / -
+)      :aspect  (x10 / 了
+)      :time  (x3 / 已后
+            :arg0  (x20 / festival
+                  :name  ( x2/中秋 
+))))
+===========================
+把管庄的家人都从乡里叫了上来。
+(x8 / 叫-04
+      :arg1  (x4 / 家人
+            :poss  (x15 / person
+                  :name  ( x2/管庄 
+)))      :source  (x7 / 乡里
+)      :extent  (x5 / 都
+)      :aspect  (x9 / 了
+)      :direction  (x10 / 上来
+))
+===========================
+病重得一连三天不能说话。
+(x2 / 重-02
+      :arg0  (x1 / 病
+)      :manner  (x7 / 能-01
+            :arg0  (x8 / 说话
+)            :polarity  (x6 / -
+)            :duration  (x16 / temporal-quantity
+                  :quant  (x5_1 / 3
+)                  :unit  (x5_2 / 天
+)                  :mod  (x4 / 一连
+))))
+===========================
+晚间挤了一屋的人，桌上点着一盏灯。
+(x17 / and
+      :op1  (x2 / 挤-01
+            :arg0  (x7 / 人
+                  :quant  (x4 / 1
+)                  :unit  (x5 / 屋
+))            :aspect  (x3 / 了
+)            :time  (x1 / 晚间
+))      :op2  (x11 / 点-01
+            :arg1  (x15 / 灯
+                  :quant  (x13 / 1
+)                  :cunit  (x14 / 盏
+))            :aspect  (x12 / 着
+)            :location  (x9 / 桌
+)))
+===========================
+严监生喉咙里痰响得一进一出，一声不倒一声的，总不得断气，还把手从被单里拿出来，伸着两个指头。
+(x41 / temporal
+      :arg1  (x43 / and
+            :op1  (x5 / 响-01
+                  :arg0  (x4 / 痰
+                        :location  (x2 / 喉咙
+                              :part-of  (x47 / person
+                                    :name  ( x1/严监生 
+))))                  :manner  (x49 / and
+                        :op1  (x8 / 进
+                              :mod  (x7 / 一
+))                        :op2  (x10 / 出
+                              :mod  (x9 / 一
+))                        :op3  (x15 / 倒
+                              :arg0  (x13 / 声
+                                    :quant  (x12 / 1
+))                              :arg1  (x17 / 声
+                                    :quant  (x16 / 1
+))                              :smood  (x18 / 的
+))))            :op2  (x22 / 得
+                  :arg0  (x23 / 断-01
+                        :arg0  (x24 / 气
+))                  :polarity  (x21 / -
+)                  :frequency  (x20 / 总
+)))      :arg2  (x32 / 拿-01
+            :direction  (x33 / 出来
+)            :arg1  (x28 / 手
+)            :arg2  (x30 / 被单
+))      :arg3  (x35 / 伸-01
+            :arg1  (x39 / 指头
+                  :quant  (x37 / 2
+)                  :cunit  (x38 / 个
+))            :aspect  (x36 / 着
+)))
+===========================
+大侄子走上前来问道：“二叔，你莫不是还有两个亲人不曾见面？”
+(x21 / temporal
+      :arg1  (x3 / 走-01
+            :direction  (x5 / 前
+)            :arg0  (x2 / 侄子
+                  :arg0-of  (x1 / 大-02
+)))      :arg2  (x7 / 问道-01
+            :arg0  (x2 / 侄子
+)            :arg1  (x28 / and
+                  :op1  (x10 / 叔
+                        :ord  (x30 / ordinal-entity
+                              :value  (x9 / 2
+)))                  :op2  (x19 / 见面-01
+                        :arg0  (x36 / and
+                              :op1  (x12 / x10
+)                              :op2  (x17 / 亲人
+                                    :quant  (x15 / 2
+)                                    :cunit  (x16 / 个
+)                                    :arg0-of  (x14 / 还有-01
+)))                        :polarity  (x18 / -
+)                        :mod  (x13 / 莫不是
+)                        :mode  (x20 / interrogative
+)))))
+===========================
+他就把头摇了两三摇。
+(x5 / 摇-01
+      :arg1  (x4 / 头
+)      :quant  (x14 / and
+            :op1  (x7 / 2
+)            :op2  (x8 / 3
+)            :cunit  (x9 / 摇
+))      :arg0  (x1 / 他
+)      :mod  (x2 / 就
+)      :aspect  (x6 / 了
+))
+===========================
+二侄子走上前来问道：“二叔，莫不是还有两笔银子在那里，不曾吩咐明白？”
+(x24 / temporal
+      :arg1  (x3 / 走-01
+            :direction  (x5 / 前
+)            :arg0  (x2 / 侄子
+                  :ord  (x29 / ordinal-entity
+                        :value  (x1 / 2
+))))      :arg2  (x7 / 问道-01
+            :arg0  (x2 / 侄子
+)            :arg1  (x32 / and
+                  :op1  (x10 / 叔
+                        :ord  (x34 / ordinal-entity
+                              :value  (x9 / 2
+)))                  :op2  (x21 / 吩咐-01
+                        :cause-of  (x22 / 明白
+)                        :arg1  (x17 / 在-01
+                              :arg0  (x16 / 银子
+                                    :quant  (x14 / 2
+)                                    :cunit  (x15 / 笔
+)                                    :arg0-of  (x13 / 还有-01
+)))                        :mod  (x12 / 莫不是
+)                        :polarity  (x20 / -
+)                        :mode  (x23 / interrogative
+)))))
+===========================
+他把两眼睁的滴溜圆，把头又狠狠摇了几摇，越发指得紧了。
+(x24 / and
+      :op1  (x5 / 睁-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 眼
+                  :quant  (x3 / 2
+))            :manner  (x7 / 滴溜圆
+))      :op2  (x13 / 摇-01
+            :arg1  (x10 / 头
+)            :mod  (x11 / 又
+)            :manner  (x12 / 狠狠
+)            :arg0  (x1 / 他
+)            :quant  (x15 / 几
+)            :cunit  (x16 / 摇
+)            :aspect  (x14 / 了
+))      :op3  (x19 / 指
+            :manner  (x21 / 紧
+)            :aspect  (x22 / 了
+)            :mod  (x18 / 越发
+)))
+===========================
+奶妈抱着哥子插口道：“老爷想是因两位舅爷不在跟前，故此记念。”
+(x5_x6 / 插口-01
+      :arg0  (x1 / 奶妈
+)      :manner  (x2 / 抱-01
+            :arg1  (x27 / person
+                  :name  ( x4/哥子 
+))            :aspect  (x3 / 着
+))      :arg1  (x9 / 想-01
+            :arg0  (x8 / 老爷
+)            :arg1  (x39 / causation
+                  :arg1  (x16 / 在-01
+                        :arg0  (x14 / 舅爷
+                              :quant  (x12 / 2
+)                              :cunit  (x13 / 位
+))                        :arg1  (x17 / 跟前
+)                        :polarity  (x15 / -
+))                  :arg2  (x20_x21 / 记念-01
+                        :arg0  (x8 / 老爷
+)                        :arg1  (x14 / 舅爷
+)))))
+===========================
+他听了这话，把眼闭着摇头，那手只是指着不动。
+(x21 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x1 / 他
+)            :aspect  (x3 / 了
+)            :arg1  (x5 / 话
+                  :mod  (x4 / 这
+)))      :arg2  (x28 / and
+            :op1  (x9 / 闭-01
+                  :arg1  (x8 / 眼
+)                  :aspect  (x10 / 着
+)                  :arg0  (x1 / 他
+))            :op2  (x11 / 摇头-01
+                  :arg0  (x1 / 他
+)))      :arg3  (x16 / 指-05
+            :arg0  (x14 / 手
+                  :mod  (x13 / 那
+))            :mod  (x15 / 只是
+)            :cause-of  (x19 / 动-01
+                  :polarity  (x18 / -
+)                  :arg1  (x14 / 手
+))            :aspect  (x17 / 着
+)))
+===========================
+赵氏慌忙揩揩眼泪，走近上前道：“爷，别人都说的不相干，只有我能知道你的意思！……
+(x29 / temporal
+      :arg1  (x3_x4 / 揩-01
+            :arg0  (x32 / person
+                  :name  ( x1/赵氏 
+))            :manner  (x2 / 慌忙
+)            :arg1  (x5 / 眼泪
+))      :arg2  (x7 / 走近-01
+            :arg0  (x32 / person
+))      :arg3  (x8 / 上前-01
+            :arg0  (x32 / person
+))      :arg4  (x9 / 道
+            :arg1  (x39 / and
+                  :op1  (x11 / 爷
+)                  :op2  (x18 / 相干-01
+                        :polarity  (x17 / -
+)                        :arg0  (x43 / thing
+                              :arg1-of  (x15 / 说-01
+                                    :arg0  (x13 / 别人
+)))                        :extent  (x14 / 都
+))                  :op3  (x22 / 能-01
+                        :arg0  (x23 / 知道-01
+                              :arg0  (x21 / x32
+                                    :mod  (x20 / 只有
+))                              :arg1  (x26 / 意思
+                                    :poss  (x24 / x11
+)))                        :mode  (x27 / expressive
+)))))
+===========================
+你是为那灯盏里点的是两茎灯草，不放心，恐费了油。
+(x34 / causation
+      :arg1  (x3 / 为-01
+            :arg1  (x12 / 灯草
+                  :quant  (x10 / 2
+)                  :cunit  (x11 / 茎
+)                  :domain  (x29 / thing
+                        :arg1-of  (x7 / 点-01
+                              :location  (x5 / 灯盏
+                                    :mod  (x4 / 那
+)))))            :arg0  (x1 / 你
+))      :arg2  (x36 / and
+            :op1  (x15 / 放心-01
+                  :polarity  (x14 / -
+)                  :arg0  (x1 / 你
+))            :op2  (x17 / 恐
+                  :arg1  (x18 / 费-01
+                        :arg1  (x20 / 油
+)                        :aspect  (x19 / 了
+)))))
+===========================
+我如今挑掉一茎就是了。”
+(x14 / say
+      :arg1  (x3 / 挑-01
+            :arg0  (x1 / 我
+)            :time  (x2 / 如今
+)            :cause-of  (x4 / 掉
+)            :arg1  (x17 / thing
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 茎
+))            :smood  (x7 / 就是
+)            :aspect  (x8 / 了
+)))
+===========================
+说罢，忙走去挑掉一茎。
+(x12 / temporal
+      :arg1  (x2 / 罢-01
+            :arg0  (x1 / 说
+))      :arg2  (x5_x6 / 走去-01
+            :manner  (x4 / 忙
+))      :arg3  (x7 / 挑-01
+            :arg1  (x19 / thing
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 茎
+))            :cause-of  (x8 / 掉
+)))
+===========================
+众人看严监生时，点一点头，把手垂下，登时就没了气。
+(x22 / temporal
+      :arg1  (x2 / 看-02
+            :arg0  (x1 / 众人
+)            :arg1  (x26 / person
+                  :name  ( x3/严监生 
+)))      :arg2  (x6_x7_x8_x9 / 点头-01
+            :arg0  (x26 / person
+))      :arg3  (x13_x14 / 垂
+            :arg1  (x12 / 手
+))      :arg4  (x18 / 没-02
+            :arg1  (x20 / 气
+)            :aspect  (x19 / 了
+)            :mod  (x16 / 登时
+)            :arg0  (x26 / person
+)))
+===========================

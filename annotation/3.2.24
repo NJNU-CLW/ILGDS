@@ -1,0 +1,280 @@
+夜幕降临，一轮明月悬挂在高高的夜空，那皎洁的月光曾引起人们多少美好的遥想!
+(x24 / and
+      :op1  (x2 / 降临-01
+            :arg0  (x1 / 夜幕
+))      :op2  (x7 / 悬挂-01
+            :arg1  (x6 / 明月
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 轮
+))            :arg2  (x10 / 夜空
+                  :arg0-of  (x9 / 高-01
+)))      :op3  (x17 / 引起-01
+            :aspect  (x16 / 曾
+)            :arg0  (x15 / 月光
+                  :mod  (x12 / 那
+)                  :arg0-of  (x13 / 皎洁
+))            :arg1  (x22 / 遥想-01
+                  :arg0-of  (x20 / 美好
+)                  :poss  (x18 / 人们
+)                  :quant  (x19 / amr-unknown
+))            :mode  (x23 / expressive
+)))
+===========================
+月球是从哪儿来的?上面有些什么东西?
+(x14 / and
+      :op1  (x5 / 来-01
+            :arg0  (x1 / 月球
+)            :arg2  (x4 / amr-unknown
+)            :mode  (x2_x6 / judgement
+)            :mode  (x7 / interrogative
+))      :op2  (x9 / 有-03
+            :arg0  (x8 / 上面
+)            :arg1  (x12 / 东西
+                  :mod  (x11 / amr-unknown
+))            :mode  (x13 / interrogative
+)))
+===========================
+它跟地球一样吗?
+(x4 / 一样-01
+      :arg0  (x1 / 它
+)      :arg1  (x3 / 地球
+)      :mode  (x5_x6 / interrogative
+))
+===========================
+古往今来，为了探索月球的奥秘，人类付出了巨大的努力。
+(x10 / 付出-01
+      :aspect  (x11 / 了
+)      :arg0  (x9 / 人类
+)      :purpose  (x4 / 探索-01
+            :arg1  (x7 / 奥秘
+                  :poss  (x5 / 月球
+)))      :arg1  (x14 / 努力
+            :arg0-of  (x12 / 巨大-01
+))      :time  (x1 / 古往今来
+))
+===========================
+1969年7月24日，两名美国宇航员首次登上月球，第一眼看到的就是十分奇异的景色:这里的天空黑沉沉的，表面却洒满灿烂的阳光。
+(x44 / temporal
+      :time  (x46 / date-entity
+            :year  (x1 / 1969
+)            :month  (x3 / 7
+)            :day  (x5 / 24
+))      :arg1  (x14 / 登-02
+            :arg0  (x11 / 宇航员
+                  :quant  (x8 / 2
+)                  :cunit  (x9 / 名
+)                  :mod  (x54 / nationality
+                        :name  ( x10/美国 
+)))            :arg1  (x16 / 月球
+)            :ord  (x57 / ordinal-entity
+                  :value  (x12 / 1
+)                  :cunit  (x13 / 次
+)))      :arg2  (x28 / 景色
+            :domain  (x61 / thing
+                  :arg1-of  (x20_x21 / 看到-01
+                        :ord  (x63 / ordinal-entity
+                              :value  (x18 / 1
+)                              :cunit  (x19 / 眼
+))                        :arg0  (x11 / 宇航员
+)))            :mod  (x23 / 就
+)            :arg0-of  (x26 / 奇异
+                  :degree  (x25 / 十分
+))            :arg0-of  (x69 / mean
+                  :arg1  (x71 / contrast
+                        :arg1  (x33_x34 / 黑沉沉
+                              :arg0  (x32 / 天空
+                                    :location  (x30 / 这里
+)))                        :arg2  (x38 / 洒-01
+                              :cause-of  (x39 / 满-01
+                                    :arg0  (x42 / 阳光
+                                          :arg0-of  (x40 / 灿烂-01
+))                                    :arg1  (x36 / 表面
+))                              :arg2  (x36 / 表面
+)                              :arg1  (x42 / 阳光
+))))))
+===========================
+月球上满是尘土、岩石和环形山，没有水，没有任何生命。
+(x18 / and
+      :op1  (x20 / and
+            :op1  (x5 / 尘土
+)            :op2  (x7 / 岩石
+)            :op3  (x9 / 环形山
+)            :location  (x1 / 月球
+)            :manner  (x3 / 满
+))      :op2  (x11_2 / 有-03
+            :polarity  (x11_1 / -
+)            :arg0  (x1 / 月球
+)            :arg1  (x12 / 水
+))      :op3  (x14_2 / 有-03
+            :polarity  (x14_1 / -
+)            :arg1  (x16 / 生命
+                  :mod  (x15 / 任何
+))))
+===========================
+月球是一片荒漠。
+(x5 / 荒漠
+      :cunit  (x4 / 片
+)      :quant  (x3 / 1
+)      :location  (x1 / 月球
+))
+===========================
+把细菌撒在从月球带回来的尘土上，细菌一下子都死了，难道这些尘土有杀菌的本领吗?
+(x28 / causation
+      :arg1  (x30 / temporal
+            :arg1  (x3 / 撒-01
+                  :arg1  (x2 / 细菌
+)                  :location  (x10 / 尘土
+                        :arg1-of  (x7 / 带-02
+                              :cause-of  (x8 / 回来-01
+                                    :arg1  (x10 / 尘土
+)                                    :arg1  (x6 / 月球
+)))))            :arg2  (x16 / 死-01
+                  :arg0  (x13 / 细菌
+                        :extent  (x15 / 都
+))                  :aspect  (x17 / 了
+)                  :manner  (x14 / 一下子
+)))      :arg2  (x22 / 有-03
+            :arg0  (x21 / x10
+                  :mod  (x20 / 这些
+))            :arg1  (x25 / 本领
+                  :mod  (x23 / 杀菌
+))            :mod  (x19 / 难道
+)            :mode  (x26_x27 / interrogative
+)))
+===========================
+再看看用植物做实验的结果:把玉米种在月球的尘土里，和在地球土壤里生长没有明显不同。
+(x2_x3 / 看看-01
+      :arg1  (x9 / 结果
+            :mod  (x6 / 做-01
+                  :arg1  (x7 / 实验
+)                  :manner  (x4 / 用-01
+                        :arg1  (x5 / 植物
+)))            :arg0-of  (x38 / mean
+                  :arg1  (x28 / 不同-01
+                        :mod  (x27 / 明显
+)                        :polarity  (x26 / -
+)                        :arg0  (x20 / and
+                              :op1  (x13 / 种-01
+                                    :location  (x18 / 里
+                                          :arg0  (x17 / 尘土
+                                                :poss  (x15 / 月球
+)))                                    :arg1  (x12 / 玉米
+))                              :op2  (x25 / 生长-01
+                                    :arg0  (x12 / 玉米
+)                                    :location  (x24 / 里
+                                          :arg0  (x23 / 土壤
+                                                :poss  (x22 / 地球
+))))))))      :mod  (x1 / 再
+))
+===========================
+可是，水藻一旦放进月球尘土，水藻就长得特别鲜嫩青绿。
+(x18 / contrast
+      :arg2  (x20 / condition
+            :arg1  (x5_x6 / 放进-01
+                  :arg1  (x3 / 水藻
+)                  :arg2  (x8 / 尘土
+                        :poss  (x7 / 月球
+)))            :arg2  (x12 / 长-03
+                  :arg0  (x10 / x3
+)                  :arg1  (x23 / and
+                        :degree  (x14 / 特别
+)                        :op1  (x15 / 鲜嫩
+                              :arg0  (x3 / 水藻
+))                        :op2  (x16 / 青绿
+                              :arg0  (x3 / 水藻
+))))))
+===========================
+这一连串实验结果是多么令人费解啊!
+(x7 / 令-01
+      :arg1  (x8 / 人
+)      :arg2  (x9 / 费解-01
+            :arg0  (x8 / 人
+))      :arg0  (x4 / 结果
+            :mod  (x3 / 实验
+)            :quant  (x2 / 一连串
+)            :mod  (x1 / 这
+))      :degree  (x6 / 多么
+)      :mode  (x5 / judgement
+)      :mode  (x10_x11 / expressive
+))
+===========================
+一项研究结果说，月球上曾经有过火山活动。
+(x5 / 说-01
+      :arg0  (x4 / 结果
+            :mod  (x3 / 研究
+)            :quant  (x1 / 1
+)            :cunit  (x2 / 项
+))      :arg1  (x10 / 有-03
+            :aspect  (x9 / 曾经
+)            :aspect  (x11 / 过
+)            :arg0  (x7 / 月球
+)            :arg1  (x13 / 活动
+                  :mod  (x12 / 火山
+))))
+===========================
+从月球采回的一块岩石，估计它的年龄已有46亿年，而在地球上，只能找到40亿年前的石块。
+(x36 / contrast
+      :arg1  (x10 / 估计
+            :arg1  (x15 / 有-02
+                  :arg0  (x13 / 年龄
+                        :poss  (x11 / 它
+                              :arg0-of  (x44 / mean
+                                    :arg1  (x8 / 岩石
+                                          :cunit  (x7 / 块
+)                                          :quant  (x6 / 1
+)                                          :arg1-of  (x3_x4 / 采回
+                                                :source  (x2 / 月球
+))))))                  :aspect  (x14 / 已
+)                  :arg1  (x40 / temporal-quantity
+                        :quant  (x16_x17 / 4600000000
+)                        :unit  (x18 / 年
+))))      :arg2  (x25_2 / 能-01
+            :mod  (x25_1 / 只
+)            :arg0  (x26 / 找到-01
+                  :location  (x22 / 地球
+)                  :arg1  (x32 / 石块
+                        :time  (x30 / 前
+                              :arg0  (x56 / temporal-quantity
+                                    :quant  (x27_x28 / 4000000000
+)                                    :unit  (x29 / 年
+)))))))
+===========================
+难道月球比地球的年龄还大?
+(x3 / 比-01
+      :arg0  (x2 / 月球
+)      :arg1  (x4 / 地球
+)      :arg2  (x8 / 大-01
+            :arg0  (x6 / 年龄
+)            :mod  (x7 / 还
+))      :mod  (x1 / 难道
+)      :mode  (x9 / interrogative
+))
+===========================
+或者是月球的火山活动比地球还早，这又是一个谜。
+(x19 / and
+      :op1  (x21 / or
+            :op2  (x7 / 比-01
+                  :arg2  (x10 / 早-01
+                        :arg0  (x6 / 活动
+                              :mod  (x5 / 火山
+))                        :mod  (x9 / 还
+))                  :arg0  (x3 / 月球
+)                  :arg1  (x8 / 地球
+)))      :op2  (x17 / 谜
+            :domain  (x12 / 这
+)            :mod  (x13 / 又
+)            :quant  (x15 / 1
+)            :cunit  (x16 / 个
+)))
+===========================
+对神秘的月球,人类还将继续探索下去。
+(x9 / 继续-01
+      :arg0  (x6 / 人类
+)      :tense  (x8 / 将
+)      :mod  (x7 / 还
+)      :arg1  (x10_x11 / 探索-01
+            :arg1  (x4 / 月球
+                  :arg0-of  (x2 / 神秘-01
+))            :arg0  (x6 / 人类
+)))
+===========================

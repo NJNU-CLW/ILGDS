@@ -1,0 +1,156 @@
+古时候有个人，他巴望自己田里的禾苗长得快些，天天到田边去看。
+(x25 / and
+      :op1  (x2 / 有-03
+            :arg1  (x4 / 人
+                  :cunit  (x3 / 个
+))            :time  (x1 / 古时候
+))      :op2  (x7 / 巴望-01
+            :arg0  (x6 / x4
+)            :arg1  (x12 / 长-03
+                  :arg0  (x11 / 禾苗
+                        :location  (x9 / 田里
+                              :poss  (x8 / x4
+))))            :arg1  (x14 / 快-01
+                  :degree  (x15 / 些
+)                  :arg0  (x12 / 长-03
+)))      :op3  (x19 / 到-01
+            :purpose  (x23 / 看-02
+                  :arg0  (x4 / 人
+)                  :arg1  (x11 / 禾苗
+))            :frequency  (x41 / rate-entity-91
+                  :arg2  (x42 / temporal-quantity
+                        :quant  (x43 / 1
+)                        :unit  (x17_18 / 天
+)))            :arg1  (x20 / 田
+)            :arg0  (x4 / 人
+)))
+===========================
+可是一天，两天，三天，禾苗好像一点儿也没有长高。
+(x19 / contrast
+      :arg2  (x12 / 好像-01
+            :duration  (x22 / and
+                  :op1  (x23 / temporal-quantity
+                        :quant  (x2 / 1
+)                        :unit  (x3 / 天
+))                  :op2  (x24 / temporal-quantity
+                        :quant  (x5 / 2
+)                        :unit  (x6 / 天
+))                  :op3  (x25 / temporal-quantity
+                        :quant  (x8 / 3
+)                        :unit  (x9 / 天
+)))            :arg0  (x16 / 长-03
+                  :arg0  (x11 / 禾苗
+)                  :polarity  (x15 / -
+                        :degree  (x13 / 一点儿
+))                  :mod  (x14 / 也
+)                  :arg1  (x17 / 高-01
+                        :arg0  (x11 / 禾苗
+)))))
+===========================
+他在田边焦急地转来转去，自言自语地说：“我得想个办法帮它们长。
+(x22 / and
+      :op1  (x7 / 转来转去
+            :arg0  (x1 / 他
+)            :location  (x3 / 田
+)            :manner  (x5 / 焦急-01
+                  :arg0  (x1 / 他
+)))      :op2  (x11 / 说-01
+            :manner  (x9 / 自言自语
+)            :arg0  (x1 / 他
+)            :arg1  (x14 / 得
+                  :arg0  (x15 / 想-01
+                        :arg0  (x13 / x1
+)                        :arg1  (x17 / 办法
+                              :cunit  (x16 / 个
+))                        :purpose  (x18 / 帮-01
+                              :arg1  (x19 / 它们
+)                              :arg2  (x20 / 长-02
+                                    :arg0  (x19 / 它们
+)))))))
+===========================
+一天，他终于想出了办法，就急忙跑到田里，把禾苗一棵一棵往高里拔，从中午一直忙到太阳落山，弄得筋疲力尽。
+(x40 / temporal
+      :arg1  (x5_x6 / 想出-01
+            :aspect  (x7 / 了
+)            :arg0  (x3 / 他
+)            :mod  (x4 / 终于
+)            :arg1  (x8 / 办法
+)            :time  (x1 / 一天
+))      :arg2  (x12 / 跑-01
+            :arg0  (x3 / 他
+)            :manner  (x11 / 急忙
+)            :arg3  (x14 / 田里
+))      :arg3  (x25 / 拔-01
+            :arg0  (x3 / 他
+)            :arg1  (x17 / 禾苗
+)            :manner  (x18_x19_x20_x21 / 一棵一棵
+)            :direction  (x54 / location
+                  :arg0-of  (x23 / 高-01
+)))      :arg4  (x30 / 忙-01
+            :duration  (x31 / 到-01
+                  :arg1  (x33 / 落-03
+                        :arg0  (x32 / 太阳
+)                        :arg1  (x34 / 山
+))                  :source  (x28 / 中午
+))            :manner  (x29 / 一直
+)            :arg0  (x3 / 他
+))      :arg5  (x36 / 弄-05
+            :cause-of  (x38 / 筋疲力尽-01
+                  :arg0  (x3 / 他
+))            :arg0  (x3 / 他
+)))
+===========================
+他回到家里，一边喘气一边说：“今天可把我累坏了！力气总算没白费，禾苗都长高了一大截。”
+(x32 / temporal
+      :arg1  (x2 / 回到-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 家里
+))      :arg2  (x37 / and
+            :op1  (x6 / 喘气-01
+                  :arg0  (x1 / 他
+))            :op2  (x8 / 说-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x40 / and
+                        :op1  (x14 / 累-02
+                              :arg0  (x13 / x1
+)                              :cause-of  (x15 / 坏-01
+                                    :arg0  (x1 / 他
+)                                    :aspect  (x16 / 了
+))                              :mode  (x17 / expressive
+))                        :op2  (x46 / causation
+                              :arg2  (x21 / 白费-01
+                                    :polarity  (x20 / -
+)                                    :mod  (x19 / 总算
+)                                    :arg1  (x18 / 力气
+))                              :arg1  (x25 / 长-03
+                                    :arg0  (x23 / 禾苗
+                                          :extent  (x24 / 都
+))                                    :arg1  (x26 / 高-01
+                                          :aspect  (x27 / 了
+)                                          :degree  (x28_x29_x30 / 一大截
+)                                          :arg0  (x23 / 禾苗
+))))))))
+===========================
+他的儿子不明白是怎么回事，第二天跑到田里一看，禾苗都枯死了。
+(x22 / temporal
+      :arg1  (x5 / 明白-01
+            :arg0  (x3 / 儿子
+                  :poss  (x1 / 他
+))            :polarity  (x4 / -
+)            :arg1  (x8 / 回事
+                  :domain  (x29 / thing
+)                  :mod  (x7 / amr-unknown
+)))      :arg2  (x11 / 跑-01
+            :arg0  (x3 / 儿子
+)            :time  (x32 / ordinal-entity
+                  :value  (x10_1_x10_2 / 2
+)                  :unit  (x10_3 / 天
+))            :arg3  (x13 / 田里
+))      :arg3  (x14_x15 / 看-02
+            :arg0  (x3 / 儿子
+))      :arg4  (x19 / 枯死-01
+            :aspect  (x20 / 了
+)            :arg0  (x17 / 禾苗
+                  :extent  (x18 / 都
+))))
+===========================

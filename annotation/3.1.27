@@ -1,0 +1,231 @@
+发明家手持矛和盾，与朋友比赛。
+(x9 / 比赛-01
+      :arg0  (x1 / 发明家
+)      :accompanier  (x8 / 朋友
+)      :manner  (x2 / 手持-01
+            :arg0  (x1 / 发明家
+)            :arg1  (x4 / and
+                  :op1  (x3 / 矛
+)                  :op2  (x5 / 盾
+))))
+===========================
+对方的矛如雨点般向他刺来，发明家用盾左抵右挡，还是难以招架。
+(x21 / causation
+      :arg1  (x9 / 刺-01
+            :direction  (x10 / 来
+)            :arg0  (x3 / 矛
+                  :poss  (x1 / 对方
+))            :arg1  (x8 / 他
+)            :manner  (x4 / 如-01
+                  :arg0  (x3 / 矛
+)                  :arg1  (x5 / 雨点
+)))      :arg2  (x30 / contrast
+            :arg1  (x15 / 左抵右挡
+                  :instrument  (x14 / 盾
+)                  :arg0  (x12 / 发明家
+))            :arg2  (x18 / 难以
+                  :arg0  (x19 / 招架-01
+                        :arg0  (x12 / 发明家
+)                        :arg1  (x3 / 矛
+)))))
+===========================
+在这紧张危急的关头，发明家忽然产生了一个想法：“盾太小啦！
+(x10 / 产生-01
+      :manner  (x9 / 忽然
+)      :arg0  (x8 / 发明家
+)      :aspect  (x11 / 了
+)      :arg1  (x13 / 想法
+            :quant  (x12_1 / 1
+)            :cunit  (x12_2 / 个
+)            :arg0-of  (x29 / mean
+                  :arg1  (x17 / 小-01
+                        :arg0  (x15 / 盾
+)                        :degree  (x16 / 太
+)                        :mode  (x18_x19 / expressive
+))))      :time  (x6 / 关头
+            :mod  (x4 / 危急
+)            :mod  (x3 / 紧张
+)            :mod  (x2 / 这
+)))
+===========================
+如果盾大得像个铁屋子，我钻在铁屋子里，敌人就一枪也戳不到我啦！”
+(x28 / say
+      :arg1  (x30 / condition
+            :arg1  (x3 / 大-01
+                  :degree  (x5 / 像-01
+                        :arg1  (x8 / 屋子
+                              :consist-of  (x7 / 铁
+)                              :cunit  (x6 / 个
+)))                  :arg0  (x2 / 盾
+))            :arg2  (x37 / condition
+                  :arg1  (x11 / 钻-02
+                        :arg0  (x10 / 我
+)                        :arg1  (x14 / x8
+                              :consist-of  (x13 / 铁
+)))                  :arg2  (x24 / possible
+                        :arg0  (x22 / 戳
+                              :arg1  (x25 / x10
+)                              :quant  (x19 / 1
+)                              :cunit  (x20 / 枪
+)                              :arg0  (x17 / 敌人
+))                        :polarity  (x23 / -
+)                        :mode  (x26_x27 / expressive
+)                        :mod  (x21 / 也
+)))))
+===========================
+可是，这样固然安全，自己却变成了只能缩在壳里保命的蜗牛或乌龟。
+(x25 / contrast
+      :arg2  (x27 / contrast
+            :arg1  (x5 / 安全-01
+                  :arg0  (x3 / 这样-01
+))            :arg2  (x9 / 变成-01
+                  :aspect  (x10 / 了
+)                  :arg1  (x7 / 自己
+)                  :arg2  (x20 / or
+                        :op1  (x19 / 蜗牛
+                              :mod  (x11 / 只能-01
+                                    :arg0  (x12 / 缩
+                                          :location  (x14 / 壳
+)                                          :purpose  (x16 / 保-01
+                                                :arg1  (x17 / 命
+)))))                        :op2  (x21 / 乌龟
+                              :mod  (x11 / 只能-01
+))))))
+===========================
+自卫，是为了更好地进攻呀！
+(x4 / 为了-01
+      :arg0  (x1 / 自卫
+)      :mode  (x3 / judgement
+)      :arg1  (x8 / 进攻
+            :arg0-of  (x6 / 好-01
+                  :degree  (x5 / 更
+)))      :mode  (x9_x10 / expressive
+))
+===========================
+对了，在铁屋子上开个小洞，从洞里伸出进攻的“矛”——枪口或炮口。
+(x28 / and
+      :op2  (x30 / temporal
+            :arg1  (x8 / 开
+                  :arg1  (x11 / 洞
+                        :arg0-of  (x10 / 小-01
+)                        :cunit  (x9 / 个
+))                  :location  (x6 / 屋子
+                        :consist-of  (x5 / 铁-01
+)))            :arg2  (x16 / 伸出-01
+                  :source  (x14 / x11
+)                  :arg1  (x20 / 矛
+                        :arg0-of  (x40 / mean
+                              :arg1  (x24 / or
+                                    :op1  (x23 / 口
+                                          :part-of  (x22 / 枪
+))                                    :op2  (x26 / 口
+                                          :part-of  (x25 / 炮
+))))                        :arg0-of  (x17 / 进攻-01
+))))      :op1  (x1 / 对
+            :aspect  (x2 / 了
+)))
+===========================
+当然，这铁屋子还要会跑，得装上轮子，安上履带。
+(x18 / causation
+      :arg1  (x6_2 / 要-03
+            :mod  (x6_1 / 还
+)            :mod  (x1 / 当然
+)            :arg0  (x7 / 会-01
+                  :arg1  (x8 / 跑
+)                  :arg0  (x5 / 屋子
+                        :mod  (x3 / 这
+)                        :consist-of  (x4 / 铁
+))))      :arg2  (x10 / 得-01
+            :arg0  (x29 / and
+                  :op1  (x11 / 装-01
+                        :arg1  (x13 / 轮子
+))                  :op2  (x15 / 安上-01
+                        :arg1  (x16 / 履带
+)))))
+===========================
+于是，发明家发明了坦克。
+(x8 / causation
+      :arg2  (x4 / 发明-01
+            :aspect  (x5 / 了
+)            :arg0  (x3 / 发明家
+)            :arg1  (x6 / 坦克
+)))
+===========================
+坦克把盾的自卫、矛的进攻合二为一，在战场上大显神威。
+(x17 / causation
+      :arg1  (x10 / 合二为一-01
+            :arg0  (x1 / 坦克
+)            :arg1  (x21 / and
+                  :op1  (x5 / 自卫-01
+                        :arg0  (x3 / 盾
+))                  :op2  (x9 / 进攻-01
+                        :arg0  (x7 / 矛
+))))      :arg2  (x15 / 大显神威
+            :location  (x13 / 战场
+)))
+===========================
+1916年，英军的坦克首次冲上战场。
+(x9 / 冲-01
+      :arg0  (x6 / 坦克
+            :poss  (x16 / military
+                  :name  ( x4/英军 
+)))      :arg1  (x11 / 战场
+)      :time  (x19 / date-entity
+            :year  (x1 / 1916
+))      :ord  (x21 / ordinal-entity
+            :value  (x7 / 1
+)            :cunit  (x8 / 次
+)))
+===========================
+德国兵头一回见到这庞然大物，吓得哇哇直叫，乱成一团，一下子退了十公里！
+(x22 / causation
+      :arg1  (x4 / 见到-01
+            :ord  (x25 / ordinal-entity
+                  :value  (x3_1_2 / 1
+)                  :cunit  (x3_3 / 回
+))            :arg0  (x2 / 兵
+                  :mod  (x29 / nationality
+                        :name  ( x1/德国 
+)))            :arg1  (x6 / 庞然大物
+                  :mod  (x5 / 这
+)))      :arg2  (x33 / and
+            :op1  (x8 / 吓-02
+                  :arg0  (x6 / 庞然大物
+)                  :arg1  (x2 / 兵
+)                  :arg2  (x12 / 叫-03
+                        :manner  (x11 / 直
+)                        :arg0  (x2 / 兵
+)                        :arg1  (x10 / 哇哇
+)))            :op2  (x14 / 乱成一团
+                  :arg0  (x2 / 兵
+))            :op3  (x17 / 退-01
+                  :aspect  (x18 / 了
+)                  :arg0  (x2 / 兵
+)                  :manner  (x16 / 一下子
+)                  :quant  (x42 / distance-quantity
+                        :quant  (x19 / 10
+)                        :unit  (x20 / 公里
+))                  :mode  (x21 / expressive
+))            :op2  (x14_1 / 乱-01
+                  :degree  (x14_2 / 成-01
+                        :arg1  (x14_3_4 / 一团
+)                        :arg0  (x2 / 兵
+))                  :arg1  (x2 / 兵
+))))
+===========================
+是的，谁善于把别人的长处集于一身，谁就会是胜利者
+(x21 / condition
+      :mod  (x1_x2 / judgement
+)      :arg1  (x5 / 善于-01
+            :arg0  (x4 / 谁
+)            :arg1  (x10 / 集-01
+                  :arg0  (x4 / 谁
+)                  :arg1  (x9 / 长处
+                        :poss  (x7 / 别人
+))                  :arg2  (x12 / 一身
+)))      :arg2  (x16 / 会-02
+            :arg0  (x18 / 胜利者
+                  :domain  (x14 / x4
+))            :mod  (x15 / 就
+)))
+===========================

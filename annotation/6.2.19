@@ -1,0 +1,835 @@
+飞离地球、遨游太空是中华民族很久以来的梦想。
+(x13 / 梦想
+      :duration  (x10 / 久
+            :degree  (x9 / 很
+))      :domain  (x20 / and
+            :op1  (x1 / 飞-01
+                  :source  (x22 / planet
+                        :name  ( x3/地球 
+))                  :arg0  (x8_3_4 / 民族
+                        :name  ( x8/中华民族
+)))            :op2  (x5 / 遨游-01
+                  :location  (x6 / 太空
+)                  :arg0  (x8_3_4 / 民族
+)))      :poss  (x8_3_4 / 民族
+))
+===========================
+在中国的古代，早就流传着“嫦娥奔月”的神话，人飞于天、车走空中的传说，以及“鲲鹏展n翅”“九天揽月”的奇妙想象。
+(x7 / 流传-01
+      :arg0  (x42 / and
+            :op1  (x13 / 神话
+                  :topic  (x10 / 嫦娥奔月
+))            :op2  (x24 / 传说
+                  :topic  (x47 / and
+                        :op1  (x16 / 飞-01
+                              :arg0  (x15 / 人
+)                              :location  (x18 / 天
+))                        :op2  (x21 / 走-01
+                              :arg0  (x20 / 车
+)                              :arg1  (x22 / 空中
+))                        :op3  (x38 / 想象
+                              :arg0-of  (x37 / 奇妙-01
+)                              :topic  (x56 / and
+                                    :op1  (x28_x29_x30 / 鲲鹏展翅
+)                                    :op2  (x32_x33_x34 / 九天揽月
+))))))      :time  (x6_1 / 早
+)      :mod  (x6_2 / 就
+)      :arg1  (x4 / 古代
+            :location  (x63 / country
+                  :name  ( x2/中国 
+))))
+===========================
+富有激情和超凡想象力的炎黄子孙，不只是在简单地描绘着瑰丽绚烂的飞天之梦，他们还于千百年的岁月流转之中，不断地尝试实现自己的美好愿望。
+(x42 / progression
+      :arg1  (x15 / 描绘-01
+            :arg0  (x7 / 炎黄子孙
+                  :arg0-of  (x1 / 富有-01
+                        :arg1  (x3 / and
+                              :op1  (x2 / 激情
+)                              :op2  (x5 / 想象力
+                                    :arg0-of  (x4 / 超凡
+)))))            :arg1  (x22 / 梦
+                  :topic  (x20 / 飞天
+)                  :arg0-of  (x18 / 绚烂-01
+)                  :arg0-of  (x17 / 瑰丽-01
+))            :aspect  (x16 / 着
+)            :manner  (x13 / 简单
+)            :aspect  (x12 / 在
+))      :arg2  (x35 / 尝试-01
+            :arg1  (x36 / 实现-01
+                  :arg1  (x40 / 愿望
+                        :poss  (x37 / x7
+)                        :arg0-of  (x39 / 美好-01
+)))            :manner  (x33 / 不断
+)            :arg0  (x24 / x7
+)            :location  (x30 / 流转-01
+                  :arg0  (x29 / 岁月
+                        :duration  (x65 / temporal-quantity
+                              :quant  (x27_1_2 / 千百
+)                              :unit  (x27_3 / 年
+))))))
+===========================
+中国明代的官员万户，是世界历史上第一个试验乘火箭上天的人。
+(x19 / 人
+      :arg0-of  (x13 / 试验-01
+            :arg1  (x16_x17 / 上天
+                  :manner  (x14 / 乘-01
+                        :arg1  (x15 / 火箭
+)                        :arg0  (x4 / 官员
+                              :name  ( x5/万户 
+)                              :time  (x39 / date-entity
+                                    :decade  (x2 / 明代
+))                              :location  (x35 / country
+                                    :name  ( x1/中国 
+))))))      :ord  (x27 / ordinal-entity
+            :value  (x11 / 1
+)            :cunit  (x12 / 个
+))      :range  (x9 / 历史
+            :mod  (x8 / 世界
+))      :domain  (x4 / 官员
+))
+===========================
+他用47支火箭捆绑在椅子下面，自己坐在椅子上，手拿两只大风筝，然后叫人点火发射。
+(x31 / temporal
+      :arg1  (x6 / 捆绑-01
+            :arg0  (x1 / 他
+)            :arg1  (x9 / 下面
+                  :arg0  (x8 / 椅子
+))            :instrument  (x5 / 火箭
+                  :quant  (x3 / 47
+)                  :cunit  (x4 / 支
+)))      :arg2  (x40 / and
+            :op1  (x12 / 坐-01
+                  :arg0  (x11 / x1
+)                  :arg1  (x14 / 椅子
+))            :op2  (x18 / 拿-03
+                  :arg0  (x17 / 手
+)                  :arg1  (x22 / 风筝
+                        :arg0-of  (x21 / 大-01
+)                        :quant  (x19 / 2
+)                        :cunit  (x20 / 只
+))))      :arg3  (x25 / 叫-04
+            :arg1  (x26 / 人
+)            :arg2  (x52 / and
+                  :op1  (x27_x28 / 点火-01
+                        :arg0  (x26 / 人
+))                  :op2  (x29 / 发射-01
+                        :arg0  (x26 / 人
+)))            :arg0  (x1 / 他
+)))
+===========================
+但是，随着一声巨响，他消失在了火焰和烟雾中。
+(x17 / contrast
+      :arg2  (x19 / and
+            :op1  (x3 / 随着
+                  :arg1  (x6 / 巨响
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 声
+)))            :op2  (x9 / 消失-01
+                  :arg0  (x8 / 他
+)                  :location  (x13 / and
+                        :op1  (x12 / 火焰
+)                        :op2  (x14 / 烟雾
+))                  :aspect  (x11 / 了
+))))
+===========================
+人类首次火箭飞行尝试没有成功。
+(x8 / 成功-01
+      :polarity  (x7 / -
+)      :arg0  (x6 / 尝试-01
+            :arg1  (x5 / 飞行-01
+                  :arg0  (x4 / 火箭
+))            :ord  (x16 / ordinal-entity
+                  :value  (x2 / 1
+)                  :unit  (x3 / 次
+))            :arg0  (x1 / 人类
+)))
+===========================
+尽管如此，万户那种勇于实践的探索精神，却使人们的内心深处受到了极大的震撼和鼓舞，他因此被国际航天史学家公认为人类升空探索的先驱。
+(x39 / causaiton
+      :arg1  (x41 / contrast
+            :arg1  (x1 / 尽管如此
+)            :arg2  (x17 / 受到-02
+                  :arg0  (x9 / 精神
+                        :mod  (x8 / 探索-01
+)                        :topic  (x5 / 勇于-01
+                              :arg1  (x6 / 实践-01
+)                              :arg0  (x50 / person
+                                    :name  ( x3/万户 
+)))                        :mod  (x4_1 / 那
+)                        :unit  (x4_2 / 种
+)                        :poss  (x50 / person
+))                  :arg1  (x16 / 深处
+                        :arg0  (x15 / 内心
+                              :poss  (x13 / 人们
+)))                  :aspect  (x18 / 了
+)                  :arg2  (x22 / and
+                        :op1  (x21 / 震撼
+)                        :op2  (x23 / 鼓舞
+)                        :degree  (x19 / 极大
+))))      :arg2  (x31 / 公认-01
+            :arg0  (x30 / 史学家
+                  :mod  (x29 / 航天
+                        :mod  (x28 / 国际
+)))            :arg1  (x25 / x50
+)            :arg2  (x37 / 先驱
+                  :mod  (x35 / 探索-01
+                        :arg0  (x33 / 人类
+)                        :manner  (x34 / 升空
+)))))
+===========================
+为了纪念他，国际天文学联合会将月球上的一座环形山命名为“万户”。
+(x14 / 命名-01
+      :arg0  (x21 / organization
+            :name  ( x5/国际天文学联合会 
+))      :arg1  (x13 / 山
+            :mod  (x12 / 环形
+)            :quant  (x10 / 1
+)            :location  (x27 / planet
+                  :name  ( x7/月球 
+))            :cunit  (x11 / 座
+))      :arg2  (x17 / 万户
+)      :purpose  (x2 / 纪念-01
+            :arg1  (x3 / 他
+)))
+===========================
+尽管遭受了无数失败，付出了惨重代价，坚定而执著的炎黄子孙却始终没有放弃飞离地球的努力。
+(x27 / contrast
+      :arg1  (x29 / and
+            :op1  (x2 / 遭受-01
+                  :arg1  (x5 / 失败
+                        :quant  (x4 / 无数
+))                  :aspect  (x3 / 了
+)                  :arg0  (x16 / 炎黄子孙
+                        :arg0-of  (x14 / 执著
+)                        :arg0-of  (x12 / 坚定-01
+)))            :op2  (x7 / 付出-01
+                  :arg1  (x10 / 代价
+                        :arg0-of  (x9 / 惨重-01
+))                  :aspect  (x8 / 了
+)                  :arg0  (x16 / 炎黄子孙
+)))      :arg2  (x20 / 放弃-01
+            :arg0  (x16 / 炎黄子孙
+)            :polarity  (x19 / -
+)            :time  (x18 / 始终
+)            :arg1  (x25 / 努力-01
+                  :arg1  (x21_x22 / 飞离
+                        :arg1  (x46 / planet
+                              :name  ( x23/地球 
+)))                  :arg0  (x16 / 炎黄子孙
+))))
+===========================
+1949年，新中国的成立使中华民族的历史掀开了崭新的一页，中国的航天事业也呈现出勃勃生机。
+(x27 / and
+      :op1  (x11 / 掀开-01
+            :arg0  (x10 / 历史
+                  :poss  (x8_3_4 / 民族
+                        :name  ( x8/中华民族
+)))            :arg1  (x32 / thing
+                  :quant  (x15 / 1
+)                  :unit  (x16 / 页
+)                  :arg0-of  (x13 / 崭新-01
+))            :aspect  (x12 / 了
+)            :cause  (x6 / 成立-01
+                  :arg1  (x38 / country
+                        :name  ( x4/中国 
+)                        :arg0-of  (x3 / 新-01
+))                  :time  (x41 / date-entity
+                        :year  (x1 / 1949
+))))      :op2  (x23 / 呈现-01
+            :arg0  (x21 / 事业
+                  :mod  (x20 / 航天
+)                  :poss  (x48 / country
+                        :name  ( x18/中国 
+)))            :arg1  (x25 / 勃勃生机
+)))
+===========================
+毛泽东主席在苏联第一颗人造卫星上天之后的第二年——1958年，庄重地表示：“我们也要搞人造卫星。”
+(x18 / 表示-01
+      :arg0  (x29 / person
+            :arg0-of  (x30 / have-org-role-91
+                  :arg2  (x2 / 主席
+))            :name  ( x1/毛泽东 
+))      :time  (x10 / 之后
+            :op1  (x8_x9 / 上天
+                  :arg0  (x7 / 人造卫星
+                        :ord  (x36 / ordinal-entity
+                              :value  (x5 / 1
+)                              :cunit  (x6 / 颗
+))                        :poss  (x39 / country
+                              :name  ( x4/苏联 
+))))            :quant  (x41 / ordinal-entity
+                  :unit  (x12_3 / 年
+)                  :arg0-of  (x44 / mean
+                        :arg1  (x45 / date-entity
+                              :year  (x14 / 1958
+)))                  :value  (x12_1_2 / 2
+)))      :manner  (x16 / 庄重
+)      :arg1  (x22 / 要-03
+            :arg0  (x23 / 搞-01
+                  :arg0  (x20 / 我们
+)                  :arg1  (x24 / 人造卫星
+))            :mod  (x21 / 也
+)))
+===========================
+经过十多年的努力，1970年4月24日，寂寞而辽阔的茫茫太空中，第一次响起了中国人的声音，那穿越苍穹的《东方红》乐曲，让海内外华人振奋不已。
+(x43 / and
+      :op1  (x1 / 经过-01
+            :arg1  (x6 / 努力-01
+                  :arg0  (x23 / 人
+                        :mod  (x55 / country
+                              :name  ( x22/中国 
+))))            :duration  (x78 / temporal-quantity
+                  :quant  (x3 / 多
+                        :op1  (x2 / 10
+))                  :unit  (x4 / 年
+))            :arg0  (x23 / 人
+))      :op2  (x20 / 响起-01
+            :arg1  (x25 / 声音
+                  :poss  (x23 / 人
+))            :aspect  (x21 / 了
+)            :ord  (x58 / ordinal-entity
+                  :value  (x18 / 1
+)                  :unit  (x19 / 次
+))            :time  (x61 / date-entity
+                  :year  (x8_1_2 / 1970
+)                  :month  (x8_3_4 / 4
+)                  :day  (x8_5_x6 / 24
+))            :location  (x15 / 太空
+                  :arg0-of  (x14 / 茫茫-01
+)                  :arg0-of  (x12 / 辽阔-01
+)                  :arg0-of  (x10 / 寂寞-01
+)))      :op3  (x36 / 让-02
+            :arg0  (x34 / 乐曲
+                  :name  ( x32/东方红 
+)                  :mod  (x27 / 那
+)                  :arg0-of  (x28 / 穿越-01
+                        :arg1  (x29 / 苍穹
+)))            :arg1  (x38 / 华人
+                  :range  (x37 / 海内外
+))            :arg2  (x39_x40_x41 / 振奋不已
+)))
+===========================
+中国成为世界上第五个能够发射卫星的国家。
+(x2 / 成为-01
+      :arg0  (x15 / country
+            :name  ( x1/中国 
+))      :arg1  (x11 / 国家
+            :arg0-of  (x8 / 发射-01
+                  :arg0-of  (x7 / 能够-01
+)                  :arg1  (x9 / 卫星
+))            :ord  (x21 / ordinal-entity
+                  :value  (x5 / 5
+)                  :cunit  (x6 / 个
+))            :range  (x3 / 世界
+)))
+===========================
+在准备发射人造卫星的同时，中国科学家满怀希望地开始了载人航天技术的探索。
+(x23 / and
+      :op1  (x2 / 准备-01
+            :arg1  (x3 / 发射-01
+)            :arg1  (x4 / 人造卫星
+))      :op2  (x14 / 开始-01
+            :arg0  (x9 / 科学家
+                  :mod  (x30 / country
+                        :name  ( x8/中国 
+)))            :manner  (x11 / 怀-01
+                  :arg1  (x12 / 希望
+)                  :manner  (x10 / 满
+))            :aspect  (x15 / 了
+)            :arg1  (x21 / 探索-01
+                  :arg1  (x19 / 技术
+                        :mod  (x18 / 航天
+                              :mod  (x16_x17 / 载人
+))))))
+===========================
+1992年9月21日，党中央决定实施载人航天工程。
+(x4 / 决定-01
+      :arg0  (x3 / 党中央
+)      :arg1  (x5 / 实施-01
+            :arg1  (x9 / 工程
+                  :mod  (x8 / 航天
+                        :mod  (x6_x7 / 载人
+))))      :time  (x19 / date-entity
+            :year  (x1_1_2 / 1992
+)            :month  (x1_3_4 / 9
+)            :day  (x1_5_6 / 21
+)))
+===========================
+载人航天工程，是中国航天史上规模最大、技术最复杂、安全性和可靠性要求最高的跨世纪重点工程。
+(x28 / 工程
+      :mod  (x27 / 重点
+)      :mod  (x25_x26 / 跨世纪
+)      :mod  (x23 / 高-01
+            :arg0  (x21 / 要求
+                  :mod  (x19 / and
+                        :op1  (x18 / 安全性
+)                        :op2  (x20 / 可靠性
+)))            :degree  (x22 / 最
+))      :mod  (x16 / 复杂
+            :arg0  (x14 / 技术
+)            :degree  (x15 / 最
+))      :mod  (x12 / 大-01
+            :degree  (x11 / 最
+)            :arg0  (x10 / 规模
+))      :range  (x8 / 航天史
+            :poss  (x47 / country
+                  :name  ( x7/中国 
+)))      :domain  (x4 / 工程
+            :mod  (x3 / 航天
+                  :mod  (x1_x2 / 载人
+))))
+===========================
+为了顺利完成这项工程，一百一十多个单位直接承担了研制、建设和发射任务，而参与这项工程的协作单位，则多达三千多个。
+(x36 / and
+      :op1  (x12 / 承担-01
+            :arg1  (x19 / 任务
+                  :mod  (x40 / and
+                        :op1  (x14 / 研制
+)                        :op2  (x16 / 建设
+)                        :op3  (x18 / 发射
+)))            :manner  (x11 / 直接
+)            :arg0  (x10 / 单位
+                  :quant  (x8 / 多
+                        :op1  (x7 / 110
+))                  :cunit  (x9 / 个
+)))      :op2  (x31 / 达-01
+            :manner  (x30 / 多
+)            :arg0  (x27 / 单位
+                  :mod  (x26 / 协作
+)                  :arg0-of  (x22 / 参与-01
+                        :arg1  (x24 / 工程
+                              :mod  (x23_1 / 这
+)                              :cunit  (x23_2 / 项
+))))            :arg1  (x70 / organization
+                  :refer  (x27 / 单位
+)                  :quant  (x33 / 多
+                        :op1  (x32 / 3000
+))                  :cunit  (x34 / 个
+)))      :purpose  (x3 / 完成-01
+            :arg1  (x5 / 工程
+                  :mod  (x4_1 / 这
+)                  :cunit  (x4_2 / 项
+))            :manner  (x2 / 顺利
+)))
+===========================
+实验的精细与艰难，要求广大科技人员、工人和解放军官兵夜以继日地苦战攻关。
+(x7 / 要求-02
+      :arg0  (x4 / and
+            :op1  (x3 / 精细
+)            :op2  (x5 / 艰难
+)            :poss  (x1 / 实验
+))      :arg1  (x29 / and
+            :op1  (x10 / 人员
+                  :mod  (x9 / 科技
+))            :quant  (x8 / 广大
+)            :op2  (x12 / 工人
+)            :op3  (x15 / 官兵
+                  :mod  (x14 / 解放军
+)))      :arg3  (x36 / and
+            :op1  (x19 / 战-01
+                  :manner  (x18 / 苦
+)                  :arg0  (x29 / and
+))            :op2  (x20 / 攻-01
+                  :arg1  (x21 / 关
+)                  :arg0  (x29 / and
+))            :manner  (x16 / 夜以继日-01
+                  :arg0  (x29 / and
+))))
+===========================
+有的人为了工作的及时、方便，将铺盖搬到了工厂车间；有的人积劳成疾，几次住进了医院；有的年轻人虽风华正茂却华发早生；有的人甚至为此付出了全部心血与生命，未能等到成功的那一天便猝然长逝……
+(x62 / and
+      :op1  (x12 / 搬-01
+            :arg3  (x16 / 车间
+                  :location  (x15 / 工厂
+))            :aspect  (x14 / 了
+)            :arg0  (x2 / 人
+                  :mod  (x1 / 有的
+))            :purpose  (x70 / and
+                  :op1  (x6 / 及时-01
+                        :arg0  (x4 / 工作
+                              :arg0  (x2 / 人
+)))                  :op2  (x8 / 方便-03
+                        :arg0  (x4 / 工作
+)))            :arg1  (x11 / 铺盖
+))      :op2  (x75 / causation
+            :arg1  (x20 / 积劳成疾
+                  :arg0  (x19 / 人
+                        :mod  (x18 / 有的
+)))            :arg2  (x24_x25 / 住进-01
+                  :arg1  (x27 / 医院
+)                  :aspect  (x26 / 了
+)                  :arg1-of  (x82 / have-frequency-91
+                        :arg2  (x22 / 几
+))                  :arg0  (x19 / 人
+)))      :op3  (x84 / contrast
+            :arg1  (x32 / 风华正茂
+                  :arg0  (x30 / 年轻人
+                        :mod  (x29 / 有的
+)))            :arg2  (x37 / 生-01
+                  :arg1  (x35 / 发
+                        :arg0-of  (x34 / 华
+))                  :time  (x36 / 早
+)                  :arg0  (x30 / 年轻人
+)))      :op4  (x92 / progression
+            :arg2  (x93 / contrast
+                  :arg1  (x44 / 付出-01
+                        :arg0  (x40 / 人
+                              :mod  (x39 / 有的
+))                        :beneficiary  (x43 / 此
+)                        :arg1  (x48 / and
+                              :op1  (x47 / 心血
+)                              :op2  (x49 / 生命
+)                              :extent  (x46 / 全部
+))                        :aspect  (x45 / 了
+))                  :arg2  (x103 / condition
+                        :arg1  (x51_2 / 能-01
+                              :polarity  (x51_1 / -
+)                              :arg0  (x52_x53 / 等到-01
+                                    :arg1  (x57 / 一天
+                                          :mod  (x56 / 那
+)                                          :time-of  (x54 / 成功
+))))                        :arg2  (x60 / 长逝
+                              :manner  (x59 / 猝然
+))))))
+===========================
+成千上万人的不懈努力，终于在2003年10月15日有了结果。
+(x9 / 有-05
+      :arg1  (x11 / 结果-01
+)      :arg0  (x4 / 不懈努力
+            :poss  (x2 / 人
+                  :quant  (x1 / 成千上万
+)))      :aspect  (x10 / 了
+)      :mod  (x6 / 终于
+)      :time  (x21 / date-entity
+            :year  (x8_1_2 / 2003
+)            :month  (x8_3_4 / 10
+)            :day  (x8_5_6 / 15
+)))
+===========================
+那时早晨9时，在酒泉卫星发射中心，随着一声震耳欲聋的巨响，我国自行研制的“神州五号”飞船被送上太空，火箭划过一道绚丽的曲线，看起来宛若一条蜿蜒的苍龙，瞬间便消失在了苍穹中。
+(x55 / temporal
+      :arg1  (x8 / 随着
+            :arg1  (x14 / 响
+                  :arg0-of  (x13 / 巨
+)                  :arg0-of  (x11 / 震耳欲聋-01
+)                  :quant  (x9 / 1
+)                  :cunit  (x10 / 声
+)))      :location  (x6 / 酒泉卫星发射中心
+)      :time  (x64 / date-entity
+            :dayperiod  (x2 / 早晨
+)            :time  (x1 / 那时
+)            :time  (x3 / 9:00
+))      :arg2  (x25_x26 / 送上-02
+            :arg1  (x23 / 飞船
+                  :name  ( x21/神州五号 
+)                  :arg1-of  (x18 / 研制-01
+                        :arg0  (x16 / 我国
+)                        :manner  (x17 / 自行
+)))            :arg0  (x74 / person
+)            :arg2  (x27 / 太空
+))      :arg3  (x38 / 看起来
+            :arg0  (x30 / 划
+                  :arg0  (x29 / 火箭
+)                  :cause-of  (x36 / 曲线
+                        :quant  (x32 / 1
+)                        :cunit  (x33 / 道
+)                        :arg0-of  (x34 / 绚丽
+)))            :manner  (x39 / 宛若-01
+                  :arg1  (x45 / 龙
+                        :arg0-of  (x44 / 苍
+)                        :arg0-of  (x42 / 蜿蜒-01
+)                        :quant  (x40 / 1
+                              :aspect  (x31 / 过
+))                        :cunit  (x41 / 条
+))))      :arg4  (x49 / 消失-01
+            :time  (x47 / 瞬间
+)            :location  (x52 / 苍穹
+)            :aspect  (x51 / 了
+)            :arg0  (x29 / 火箭
+)))
+===========================
+10月16日6时23分，飞船在环绕地球14圈后成功返回祖国大地。
+(x15 / temporal
+      :arg1  (x5 / 环绕-01
+            :arg0  (x3 / 飞船
+)            :arg1  (x19 / planet
+                  :name  ( x6/地球 
+))            :quant  (x7 / 14
+)            :cunit  (x8 / 圈
+))      :arg2  (x11 / 返回-01
+            :manner  (x10 / 成功
+)            :arg1  (x13 / 大地
+                  :poss  (x12 / 祖国
+))            :arg0  (x3 / 飞船
+))      :time  (x27 / date-entity
+            :month  (x1_1_2 / 10
+)            :day  (x1_3_4 / 16
+)            :time  (x1_5_6_7_8 / 06:23
+)))
+===========================
+航天员杨利伟在着陆场即将登机返回北京的时候，用三句话概括了他21小时的太空旅行：“飞船飞行正常。我自我感觉良好。我为祖国骄傲。”
+(x14 / 用-01
+      :arg0  (x1 / 航天员
+            :name  ( x2/杨利伟 
+))      :arg1  (x17 / 话
+            :quant  (x15 / 3
+)            :cunit  (x16 / 句
+))      :arg2  (x18 / 概括-01
+            :arg1  (x25 / 旅行-01
+                  :arg1  (x24 / 太空
+)                  :duration  (x51 / temporal-quantity
+                        :quant  (x21 / 21
+)                        :unit  (x22 / 小时
+))                  :arg0  (x20 / x1
+))            :aspect  (x19 / 了
+)            :arg2  (x63 / and
+                  :op1  (x29 / 正常-01
+                        :arg0  (x28 / 飞行-01
+                              :arg0  (x27 / 飞船
+)))                  :op2  (x34 / 良好-01
+                        :arg0  (x33 / 感觉
+                              :poss  (x31 / x1
+)                              :manner  (x32 / 自我
+)))                  :op3  (x39 / 骄傲-01
+                        :arg0  (x36 / x1
+)                        :arg1  (x38 / 祖国
+))))      :time  (x7 / 登-01
+            :arg1  (x8 / 机
+)            :purpose  (x9 / 返回-01
+                  :arg1  (x59 / city
+                        :name  ( x10/北京 
+))                  :arg0  (x1 / 航天员
+))            :time  (x6 / 即将
+)            :location  (x4_x5 / 着陆场
+)            :arg0  (x1 / 航天员
+)))
+===========================
+简单的三句话，对无数参与航天工程建设的人们作出了崇高的评价——没有他们的辛勤努力，就不会有这飞行正常、使人感觉良好的飞船，就不会有这次载人航天飞行的成功。
+(x52 / and
+      :op1  (x15 / 作出-01
+            :arg0  (x5 / 话
+                  :quant  (x3 / 3
+)                  :cunit  (x4 / 句
+)                  :arg0-of  (x1 / 简单-01
+))            :arg1  (x19 / 评价-01
+                  :arg1  (x14 / 人们
+                        :arg0-of  (x9 / 参与-01
+                              :arg1  (x12 / 建设
+                                    :arg1  (x11 / 工程
+                                          :topic  (x10 / 航天
+))))                        :quant  (x8 / 无数
+))                  :arg0-of  (x17 / 崇高-01
+))            :aspect  (x16 / 了
+))      :op2  (x69 / condition
+            :arg1  (x21_2 / 有-03
+                  :polarity  (x21_1 / -
+)                  :arg1  (x25 / 努力
+                        :mod  (x24 / 辛勤
+)                        :poss  (x22 / x14
+)))            :arg2  (x75 / and
+                  :op1  (x28_2 / 会-02
+                        :polarity  (x28_1 / -
+)                        :arg0  (x29 / 有-03
+                              :arg1  (x39 / 飞船
+                                    :mod  (x32 / 正常-01
+                                          :arg0  (x31 / 飞行
+))                                    :mod  (x30 / 这
+)                                    :cause-of  (x37 / 良好-01
+                                          :arg0  (x36 / 感觉-01
+                                                :arg0  (x35 / 人
+))))))                  :op2  (x42_2 / 会-02
+                        :polarity  (x42_1 / -
+)                        :arg0  (x43 / 有-03
+                              :arg1  (x50 / 成功
+                                    :mod  (x48 / 飞行
+                                          :mod  (x47 / 航天
+                                                :mod  (x45_x46 / 载人
+)))                                    :mod  (x44 / 这次
+)))                        :mod  (x41 / 就
+)))))
+===========================
+我国首次载人航天飞行的成功，向全世界庄严宣告：中国已经成为第三个独立掌握载人航天技术的国家。
+(x13 / 宣告-01
+      :arg0  (x8 / 成功
+            :mod  (x6 / 飞行
+                  :mod  (x5 / 航天-01
+                        :mod  (x4 / 载人
+)))            :ord  (x35 / ordinal-entity
+                  :value  (x2 / 1
+)                  :unit  (x3 / 次
+))            :poss  (x1 / 我国
+))      :arg2  (x11 / 全世界
+)      :manner  (x12 / 庄严
+)      :arg1  (x17 / 成为-01
+            :arg0  (x42 / country
+                  :name  ( x15/中国 
+))            :aspect  (x16 / 已经
+)            :arg1  (x26 / 国家
+                  :arg0-of  (x21 / 掌握-01
+                        :arg1  (x24 / 技术
+                              :mod  (x23 / 航天
+                                    :mod  (x22 / 载人
+)))                        :manner  (x20 / 独立
+))                  :ord  (x52 / ordinal-entity
+                        :value  (x18 / 3
+)                        :cunit  (x19 / 个
+)))))
+===========================
+它同时也充分表明：中华民族几千年的梦想，几代人的执著追求，以及数十年坚持不懈、锲而不舍的奋斗，终于在今天变成了美好的现实。
+(x5 / 表明-01
+      :arg0  (x1 / 它
+)      :time  (x2 / 同时
+)      :mod  (x3 / 也
+)      :manner  (x4 / 充分
+)      :arg1  (x30 / 变成-01
+            :arg0  (x43 / and
+                  :op1  (x10 / 梦想
+                        :poss  (x7 / 中华民族
+)                        :duration  (x46 / temporal-quantity
+                              :quant  (x8_1_2 / 几千
+)                              :unit  (x8_3 / 年
+)))                  :op2  (x17 / 追求-01
+                        :mod  (x16 / 执著
+)                        :poss  (x14 / 人
+                              :quant  (x12 / 几
+)                              :unit  (x13 / 代-01
+)))                  :op3  (x25 / 奋斗-01
+                        :mod  (x23 / 锲而不舍
+                              :arg0  (x14 / 人
+))                        :mod  (x21 / 坚持不懈-01
+                              :arg0  (x14 / 人
+))                        :duration  (x57 / temporal-quantity
+                              :unit  (x20_3 / 年
+)                              :quant  (x20_1 / 数
+                                    :op1  (x20_2 / 10
+)))                        :arg0  (x14 / 人
+)))            :arg1  (x34 / 现实
+                  :arg0-of  (x32 / 美好-01
+))            :time  (x29 / 今天
+)            :mod  (x27 / 终于
+)            :aspect  (x31 / 了
+)))
+===========================
+2005年10月12日，中国航天员费俊龙、聂海胜乘坐“神舟六号”飞船，开始中国第二次载人航天飞行。
+(x23 / and
+      :op1  (x8 / 乘坐-01
+            :arg0  (x4 / 航天员
+                  :mod  (x27 / country
+                        :name  ( x3/中国 
+))                  :name  ( x5/费俊龙 
+)                  :name  ( x7/聂海胜 
+))            :arg1  (x12 / 飞船
+                  :name  ( x10/神舟六号 
+)))      :op2  (x14 / 开始-01
+            :arg1  (x21 / 飞行
+                  :ord  (x38 / ordinal-entity
+                        :value  (x16 / 2
+)                        :unit  (x17 / 次
+))                  :poss  (x41 / country
+                        :name  ( x15/中国 
+))                  :mod  (x20 / 航天
+                        :mod  (x18_x19 / 载人
+)))            :arg0  (x4 / 航天员
+))      :time  (x43 / date-entity
+            :year  (x1_1_2 / 2005
+)            :month  (x1_3_4 / 10
+)            :day  (x1_5_6 / 12
+)))
+===========================
+在经过115小时32分钟的太空飞行后，飞船返回舱于17日凌晨4时顺利着陆，航天员安全返回。
+(x26 / temporal
+      :arg1  (x2 / 经过-01
+            :arg1  (x9 / 飞行
+                  :location  (x8 / 太空
+)                  :duration  (x31 / and
+                        :op1  (x32 / temporal-quantity
+                              :quant  (x3 / 115
+)                              :unit  (x4 / 小时
+))                        :op2  (x35 / temporal-quantity
+                              :quant  (x5 / 32
+)                              :unit  (x6 / 分钟
+)))))      :arg2  (x20 / 着陆-01
+            :arg0  (x13_x14 / 返回舱
+                  :part-of  (x12 / 飞船
+))            :manner  (x19 / 顺利
+)            :time  (x42 / date-entity
+                  :day  (x16 / 17
+)                  :time  (x17_x18 / 04:00
+)))      :arg3  (x24 / 返回-01
+            :arg0  (x22 / 航天员
+)            :arg0  (x23 / 安全-01
+                  :arg0  (x22 / 航天员
+))))
+===========================
+“神舟六号”载人航天飞行的成功，标志着中国在发展载人航天技术，进行有人参与的空间实验活动方面，取得了又一个具有里程碑意义的重大胜利。
+(x11 / 标志-01
+      :arg0  (x9 / 成功
+            :mod  (x7 / 飞行-01
+                  :arg0  (x79 / spaceship
+                        :name  ( x2/神舟六号 
+))                  :mod  (x6 / 航天
+                        :mod  (x4_x5 / 载人
+))))      :aspect  (x12 / 着
+)      :arg1  (x31_x32 / 取得-01
+            :arg0  (x55 / country
+                  :name  ( x13/中国 
+))            :arg1  (x42 / 胜利
+                  :arg0-of  (x41 / 重大-01
+)                  :arg0-of  (x37 / 具有-01
+                        :arg1  (x39 / 意义
+                              :mod  (x38 / 里程碑
+)))                  :quant  (x35 / 1
+)                  :cunit  (x36 / 个
+)                  :mod  (x34 / 又
+))            :aspect  (x33 / 了
+)            :arg2  (x57 / and
+                  :op1  (x15 / 发展-01
+                        :arg1  (x19 / 技术
+                              :mod  (x18 / 航天
+                                    :mod  (x16_x17 / 载人
+))))                  :op2  (x21 / 进行-01
+                        :arg1  (x28 / 活动
+                              :mod  (x27 / 实验
+                                    :mod  (x26 / 空间
+))                              :arg1-of  (x24 / 参与-01
+                                    :arg0  (x23 / 人
+                                          :arg1-of  (x22 / 有-03
+))))))))
+===========================
+载人航天梦想的实现，让富有激情与魄力的炎黄子孙有了更高远更绚丽的梦想——登临月球、探索火星，遨游于更深、更远的太空。
+(x8 / 让-02
+      :arg0  (x6 / 实现-01
+            :arg1  (x4 / 梦想
+                  :arg1  (x3 / 航天
+                        :mod  (x1_x2 / 载人
+))))      :arg1  (x14 / 炎黄子孙
+            :arg0-of  (x9 / 富有-01
+                  :arg1  (x11 / and
+                        :op1  (x10 / 激情
+)                        :op2  (x12 / 魄力
+))))      :arg2  (x15 / 有-01
+            :arg1  (x22 / 梦想-01
+                  :arg0-of  (x20 / 绚丽
+                        :degree  (x19 / 更
+))                  :arg0-of  (x18 / 高远
+                        :degree  (x17 / 更
+))                  :arg1  (x59 / and
+                        :op1  (x24 / 登临-01
+                              :arg1  (x61 / planet
+                                    :name  ( x25/月球 
+))                              :arg0  (x14 / 炎黄子孙
+))                        :op2  (x27 / 探索-01
+                              :arg1  (x64 / planet
+                                    :name  ( x28/火星 
+))                              :arg0  (x14 / 炎黄子孙
+))                        :op3  (x30 / 遨游
+                              :location  (x38 / 太空
+                                    :arg0-of  (x36 / 远-01
+                                          :degree  (x35 / 更
+))                                    :arg0-of  (x33 / 深-03
+                                          :degree  (x32 / 更
+)))                              :arg0  (x14 / 炎黄子孙
+))))            :aspect  (x16 / 了
+)))
+===========================

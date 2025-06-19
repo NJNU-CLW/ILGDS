@@ -1,0 +1,550 @@
+伽利略是17世纪意大利伟大的科学家。
+(x8 / 科学家
+      :domain  (x12 / person
+            :name  ( x1/伽利略 
+))      :arg0-of  (x6 / 伟大-01
+)      :mod  (x15 / nationality
+            :name  ( x5/意大利 
+))      :time  (x16 / date-entity
+            :era  (x3 / 17
+)))
+===========================
+他在学校念书的时候，同学们就称他为“辩论家”。
+(x11 / 称-01
+      :arg0  (x8_x9 / 同学们
+)      :mod  (x10 / 就
+)      :arg1  (x12 / 他
+)      :time  (x4 / 念书-01
+            :arg0  (x1 / x12
+                  :arg2  (x15 / 辩论家
+))            :location  (x3 / 学校
+)            :aspect  (x2 / 在
+)))
+===========================
+他提出的问题很不寻常，常常使老师很难解答。
+(x16 / and
+      :arg1  (x7 / 寻常-01
+            :arg0  (x4 / 问题
+                  :arg1-of  (x2 / 提出-01
+                        :arg0  (x1 / 他
+)))            :polarity  (x6 / -
+                  :degree  (x5 / 很
+)))      :op2  (x10 / 使-01
+            :arg0  (x4 / 问题
+)            :frequency  (x9 / 常常
+)            :arg1  (x11 / 老师
+)            :arg2  (x13 / 难-01
+                  :arg0  (x14 / 解答-01
+                        :arg0  (x11 / 老师
+)                        :arg1  (x4 / 问题
+))                  :degree  (x12 / 很
+))))
+===========================
+那时候，研究科学的人都信奉亚里士多德，把这位两千多年前的希腊哲学家的话当作不容更改的真理。
+(x31 / and
+      :op1  (x9 / 信奉-01
+            :arg1  (x34 / person
+                  :name  ( x10/亚里士多德 
+))            :arg0  (x7 / 人
+                  :arg0-of  (x4 / 研究-01
+                        :arg1  (x5 / 科学
+))                  :extent  (x8 / 都
+)))      :op2  (x25 / 当作-01
+            :arg0  (x7 / 人
+)            :arg1  (x24 / 话
+                  :poss  (x22 / 哲学家
+                        :location  (x45 / country
+                              :name  ( x21/希腊 
+))                        :name  ( x10/亚里士多德 
+)                        :time  (x19 / 前
+                              :arg0  (x48 / temporal-quantity
+                                    :quant  (x17 / 多
+                                          :op1  (x15_x16 / 2000
+))                                    :unit  (x18 / 年
+)))                        :mod  (x13 / 这
+)                        :cunit  (x14 / 位
+)))            :arg2  (x29 / 真理
+                  :arg0-of  (x26_2 / 容-03
+                        :polarity  (x26_1 / -
+)                        :arg1  (x27 / 更改-01
+                              :arg1  (x29 / 真理
+)))))      :time  (x2 / 时候
+            :mod  (x1 / 那
+)))
+===========================
+谁要是怀疑亚里士多德，人们就会责备他：“你是什么意思？难道要违背人类的真理吗？”
+(x26 / condition
+      :arg1  (x4 / 怀疑-01
+            :arg0  (x1 / amr-unknown
+)            :arg1  (x30 / person
+                  :name  ( x5/亚里士多德 
+)))      :arg2  (x10 / 责备-01
+            :arg0-of  (x33 / mean
+                  :arg1  (x34 / and
+                        :op1  (x16 / 意思
+                              :mod  (x15 / amr-unknown
+)                              :domain  (x13 / x1
+)                              :mode  (x17 / interrogative
+))))            :arg0  (x7 / 人们
+)            :arg1  (x11 / x1
+)            :op2  (x19 / 要-03
+                  :mod  (x18 / 难道
+)                  :arg0  (x20 / 违背-01
+                        :arg0  (x1 / amr-unknown
+)                        :arg1  (x23 / 真理
+                              :poss  (x21 / 人类
+)))                  :mode  (x24_x25 / expressive
+))))
+===========================
+亚里士多德曾经说过：“两个铁球，一个10磅重，一个1磅重，同时从高处落下来，10磅重的一定先着地，速度是1磅重的10倍。”
+(x3 / 说-01
+      :aspect  (x2 / 曾经
+)      :aspect  (x4 / 过
+)      :arg0  (x50 / person
+            :name  ( x1/亚里士多德 
+))      :arg1  (x52 / and
+            :op1  (x9 / 球
+                  :consist-of  (x8 / 铁
+)                  :quant  (x6 / 2
+)                  :cunit  (x7 / 个
+))            :op2  (x15 / 重-03
+                  :arg0  (x58 / thing
+                        :arg1-of  (x59 / include
+                              :arg2  (x9 / 球
+))                        :quant  (x11 / 1
+)                        :cunit  (x12 / 个
+))                  :arg1  (x61 / mass-quantity
+                        :quant  (x13 / 10
+)                        :unit  (x14 / 磅
+)))            :op3  (x21 / 重-03
+                  :arg0  (x66 / thing
+                        :arg1-of  (x67 / include
+                              :arg2  (x9 / 球
+))                        :cunit  (x18 / 个
+)                        :quant  (x17 / 1
+))                  :arg1  (x70 / mass-quantity
+                        :quant  (x19 / 1
+)                        :unit  (x20 / 磅
+)))            :op4  (x73 / causation
+                  :arg2  (x74 / condition
+                        :arg1  (x26_x27 / 落下-01
+                              :source  (x25 / 高处
+)                              :manner  (x23 / 同时
+)                              :arg0  (x9 / 球
+))                        :arg2  (x33 / 一定
+                              :arg0  (x35 / 着地
+                                    :time  (x34 / 先
+)                                    :arg0  (x81 / thing
+                                          :arg0-of  (x31 / 重-03
+                                                :arg1  (x83 / mass-quantity
+                                                      :quant  (x29 / 10
+)                                                      :unit  (x30 / 磅
+)))                                          :refer  (x58 / thing
+)))))                  :arg1  (x86 / equal
+                        :arg1  (x37 / 速度
+                              :poss  (x81 / thing
+))                        :arg2  (x88 / product-of
+                              :op1  (x43 / 10
+)                              :op2  (x90 / thing
+                                    :poss  (x92 / thing
+                                          :arg0-of  (x41 / 重-03
+                                                :arg1  (x95 / mass-quantity
+                                                      :unit  (x40 / 磅
+)                                                      :quant  (x39 / 1
+)))                                          :refer  (x66 / thing
+))))))))
+===========================
+这句话使伽利略产生了疑问。
+(x4 / 使-01
+      :arg0  (x3 / 话
+            :mod  (x1 / 这
+)            :unit  (x2 / 句
+))      :arg1  (x15 / person
+            :name  ( x5/伽利略 
+))      :arg2  (x6 / 产生-02
+            :aspect  (x7 / 了
+)            :arg0  (x15 / person
+)            :arg1  (x8 / 疑问
+)))
+===========================
+他想：如果这句话是正确的，那么把这两个铁球拴在一起，落得慢的就会拖住落得快的，落下的速度应当比10磅重的铁球慢；但是，如果把拴在一起的两个铁球看作一个整体，就有11磅重，落下的速度应当比10磅重的铁球快。
+(x2 / 想-01
+      :arg0  (x1 / 他
+)      :arg1  (x87 / contrast
+            :arg1  (x88 / condition
+                  :arg1  (x9 / 正确-01
+                        :mode  (x8_x10 / judgement
+)                        :arg0  (x7 / 话
+                              :unit  (x6 / 句
+)                              :mod  (x5 / 这
+)))                  :arg2  (x94 / condition
+                        :arg1  (x19 / 栓
+                              :cause-of  (x21 / 一起-01
+                                    :arg0  (x18 / 球
+                                          :consist-of  (x17 / 铁
+)                                          :cunit  (x16 / 个
+)                                          :quant  (x15 / 2
+)                                          :mod  (x14 / 这
+)))                              :arg1  (x18 / 球
+))                        :arg2  (x102 / causation
+                              :arg1  (x29 / 拖住-01
+                                    :arg0  (x104 / thing
+                                          :arg0-of  (x23 / 落-02
+                                                :arg0-of  (x25 / 慢-01
+)))                                    :arg1  (x105 / thing
+                                          :arg0-of  (x30 / 落-02
+                                                :arg0-of  (x32 / 快-01
+))))                              :arg2  (x38 / 应当-01
+                                    :arg0  (x46 / 慢-01
+                                          :arg0  (x37 / 速度
+                                                :poss  (x35 / 落下-01
+                                                      :arg0  (x18 / 球
+)))                                          :compared-to  (x45 / 球
+                                                :consist-of  (x44 / 铁
+)                                                :arg0-of  (x42 / 重-03
+                                                      :arg1  (x117 / mass-quantity
+                                                            :quant  (x40 / 10
+)                                                            :unit  (x41 / 磅
+)))))))))            :arg2  (x120 / condition
+                  :arg1  (x60 / 看作-01
+                        :arg1  (x59 / x18
+                              :consist-of  (x58 / 铁
+)                              :arg1-of  (x52 / 拴-01
+                                    :cause-of  (x54 / 一起-01
+                                          :arg0  (x59 / x18
+                                                :cunit  (x57 / 个
+)                                                :quant  (x56 / 2
+)))))                        :arg2  (x63 / 整体
+                              :quant  (x61 / 1
+)                              :cunit  (x62 / 个
+)))                  :arg2  (x131 / causation
+                        :arg1  (x66 / 有-01
+                              :arg0  (x18 / 球
+)                              :arg1  (x133 / mass-quantity
+                                    :unit  (x68 / 磅
+)                                    :quant  (x67 / 11
+)))                        :arg2  (x74 / 应当-01
+                              :arg0  (x82 / 快-01
+                                    :arg0  (x73 / 速度
+                                          :poss  (x71 / 落下-01
+                                                :arg0  (x18 / 球
+)))                                    :compared-to  (x81 / 球
+                                          :consist-of  (x80 / 铁
+)                                          :arg0-of  (x78 / 重-03
+                                                :arg1  (x143 / mass-quantity
+                                                      :unit  (x77 / 磅
+)                                                      :quant  (x76 / 10
+))))))))))
+===========================
+这样，从一个事实中却可以得出两个相反的结论，这怎么解释呢？
+(x22 / and
+      :op1  (x24 / condition
+            :arg1  (x1 / 这样
+)            :arg2  (x9 / 可以-01
+                  :mod  (x8 / 却
+)                  :arg0  (x10 / 得出-01
+                        :arg1  (x15 / 结论
+                              :arg0-of  (x13 / 相反-01
+)                              :cunit  (x12 / 个
+)                              :quant  (x11 / 2
+))                        :source  (x6 / 事实
+                              :quant  (x4 / 1
+)                              :cunit  (x5 / 个
+)))))      :op2  (x19 / 解释-01
+            :manner  (x18 / amr-unknown
+)            :arg1  (x17 / x24
+)            :mode  (x20_x21 / interrogative
+)))
+===========================
+伽利略带着这个疑问反复做了许多次试验，结果都证明亚里士多德的这句话的确说错了。
+(x26 / temporal
+      :arg1  (x7 / 做-01
+            :manner  (x2 / 带-02
+                  :aspect  (x3 / 着
+)                  :arg0  (x31 / person
+                        :name  ( x1/伽利略 
+))                  :arg1  (x5 / 疑问
+                        :mod  (x4_1 / 这
+)                        :cunit  (x4_2 / 个
+)))            :aspect  (x8 / 了
+)            :arg0  (x31 / person
+)            :arg1  (x11 / 试验
+                  :quant  (x9 / 许多
+)                  :unit  (x10 / 次
+))            :manner  (x6 / 反复
+))      :arg2  (x15 / 证明-01
+            :arg0  (x13 / 结果
+                  :poss  (x11 / 试验
+)                  :extent  (x14 / 都
+))            :arg1  (x23 / 错-01
+                  :aspect  (x24 / 了
+)                  :mod  (x21 / 的确
+)                  :arg0  (x20 / 话
+                        :unit  (x19 / 句
+)                        :mod  (x18 / 这
+)                        :poss  (x50 / person
+                              :name  ( x16/亚里士多德 
+))                        :arg1-of  (x22 / 说-01
+)))))
+===========================
+两个不同重量的铁球同时从高处落下来，总是同时着地，铁球往下落的速度跟铁球的轻重没有关系。
+(x33 / causation
+      :arg1  (x35 / condition
+            :arg1  (x11_x12 / 落下-01
+                  :arg0  (x7 / 球
+                        :consist-of  (x6 / 铁
+)                        :quant  (x1 / 2
+)                        :cunit  (x2 / 个
+)                        :mod  (x3 / 不同-01
+                              :arg0  (x4 / 重量
+                                    :poss  (x6 / 铁
+))))                  :source  (x10 / 高处
+)                  :manner  (x8 / 同时
+))            :arg2  (x16 / 着地
+                  :arg0  (x7 / 球
+)                  :manner  (x15 / 同时
+)))      :arg2  (x30_2 / 有-03
+            :arg1  (x31 / 关系
+)            :polarity  (x30_1 / -
+)            :arg0  (x25 / and
+                  :op1  (x24 / 速度
+                        :poss  (x22 / 落-02
+                              :direction  (x21 / 下
+)                              :arg0  (x19 / 球
+                                    :consist-of  (x18 / 铁
+))))                  :op2  (x29 / 轻重
+                        :poss  (x27 / 球
+                              :consist-of  (x26 / 铁
+))))))
+===========================
+伽利略那时候才25岁，已经当了数学教授。
+(x14 / and
+      :op1  (x16 / person
+            :name  ( x1/伽利略 
+)            :time  (x3 / 时候
+                  :mod  (x2 / 那
+))            :age  (x20 / temporal-quantity
+                  :mod  (x4 / 才
+)                  :quant  (x5 / 25
+)                  :unit  (x6 / 岁
+)))      :op2  (x9 / 当-02
+            :aspect  (x8 / 已经
+)            :aspect  (x10 / 了
+)            :arg0  (x16 / person
+)            :arg1  (x12 / 教授
+                  :mod  (x11 / 数学
+))))
+===========================
+他向学生们宣布了试验的结果，同时宣布要在比萨城的斜塔上做一次公开试验。
+(x25 / and
+      :op1  (x5 / 宣布-01
+            :arg0  (x1 / 他
+)            :aspect  (x6 / 了
+)            :arg1  (x9 / 结果
+                  :poss  (x7 / 试验
+))            :arg2  (x3_x4 / 学生们
+))      :op2  (x12 / 宣布-01
+            :arg0  (x1 / 他
+)            :arg1  (x13 / 要-03
+                  :arg0  (x19 / 做-01
+                        :location  (x17 / 斜塔
+                              :location  (x15 / 比萨城
+))                        :arg1  (x23 / 试验
+                              :mod  (x22 / 公开
+)                              :quant  (x20 / 1
+)                              :unit  (x21 / 次
+))))))
+===========================
+消息很快传开了。
+(x3 / 传开-01
+      :arg0  (x1 / 消息
+)      :time  (x2 / 很快
+)      :aspect  (x4 / 了
+))
+===========================
+到了那一天，很多人来到斜塔周围，都要看看在这个问题上谁是胜利者，是古代的哲学家亚里士多德呢，还是这位年轻的数学教授伽利略？
+(x40 / and
+      :time  (x4 / 一天
+            :mod  (x3 / 那
+))      :op1  (x9 / 来到-01
+            :arg0  (x8 / 人
+                  :arg0-of  (x7 / 多-03
+                        :degree  (x6 / 很
+))                  :extent  (x13 / 都
+))            :arg1  (x11 / 周围
+                  :arg0  (x10 / 斜塔
+)))      :op2  (x14 / 要-03
+            :arg0  (x15 / 看看-01
+                  :arg0  (x8 / 人
+)                  :arg1  (x22 / 胜利者
+                        :domain  (x20 / amr-unknown
+)                        :according-to  (x18 / 问题
+                              :mod  (x17_1 / 这
+)                              :cunit  (x17_2 / 个
+)))))      :op3  (x27 / 哲学家
+            :time  (x25 / 古代
+)            :name  ( x28/亚里士多德 
+)            :domain  (x22 / 胜利者
+)            :mode  (x29 / interrogative
+))      :op4  (x37 / 教授
+            :mod  (x36 / 数学
+)            :arg0-of  (x34 / 年轻-01
+)            :name  ( x38/伽利略 
+                  :mod  (x31_1 / 还
+))            :mod  (x32 / 这
+)            :cunit  (x33 / 位
+)            :domain  (x22 / 胜利者
+)            :mode  (x39 / interrogative
+)))
+===========================
+有的说：“这个青年真是胆大妄为，竟想找亚里士多德的错处！”
+(x2 / 说-01
+      :arg0  (x1 / 有的
+)      :arg1  (x20 / causation
+            :arg2  (x7 / 胆大妄为
+                  :degree  (x6 / 真是
+)                  :arg0  (x5 / 青年
+                        :cunit  (x4_2 / 个
+)                        :mod  (x4_1 / 这
+)))            :arg1  (x10 / 想-02
+                  :manner  (x9 / 竟
+)                  :arg0  (x5 / 青年
+)                  :arg1  (x11 / 找-01
+                        :arg0  (x5 / 青年
+)                        :arg1  (x14 / 错处
+                              :poss  (x30 / person
+                                    :name  ( x12/亚里士多德 
+))))                  :mode  (x15 / expressive
+))))
+===========================
+有的说：“等会儿他就固执不了啦，事实是无情的，会让他丢尽了脸！”
+(x2 / 说-01
+      :arg0  (x1 / 有的
+)      :arg1  (x29 / causation
+            :arg1  (x36 / and
+                  :op1  (x15 / 无情-01
+                        :mode  (x14_x16 / judgement
+)                        :arg0  (x13 / 事实
+))                  :op2  (x18 / 会-02
+                        :arg0  (x19 / 让-02
+                              :arg0  (x13 / 事实
+)                              :arg1  (x20 / x6
+)                              :arg2  (x21_x22 / 丢尽
+)                              :arg1  (x21 / 丢-02
+                                    :arg0  (x20 / x6
+)                                    :arg1  (x24 / 脸
+                                          :part-of  (x6 / 他
+))                                    :arg0-of  (x22 / 尽-01
+                                          :aspect  (x23 / 了
+))))                        :mode  (x25 / expressive
+)))            :arg2  (x10 / possible
+                  :arg0  (x8 / 固执-01
+                        :arg0  (x6 / 他
+)                        :time  (x4_x5 / 等会儿
+)                        :mode  (x11 / expressive
+))                  :polarity  (x9 / -
+))))
+===========================
+伽利略在斜塔顶上出现了。
+(x5 / 出现-01
+      :arg0  (x4 / 顶上
+            :arg0  (x3 / 斜塔
+))      :arg1  (x12 / person
+            :name  ( x1/伽利略 
+))      :aspect  (x6 / 了
+))
+===========================
+他右手拿着一个10磅重的铁球，左手拿着一个1磅重的铁球。
+(x26 / and
+      :op1  (x3 / 拿-03
+            :arg0  (x2 / 右手
+                  :part-of  (x1 / 他
+))            :aspect  (x4 / 着
+)            :arg1  (x12 / 球
+                  :quant  (x5 / 1
+)                  :consist-of  (x11 / 铁
+)                  :arg0-of  (x9 / 重-03
+                        :arg1  (x39 / mass-quantity
+                              :quant  (x7 / 10
+)                              :unit  (x8 / 磅
+)))                  :cunit  (x6 / 个
+)))      :op2  (x15 / 拿-03
+            :arg0  (x14 / 左手
+                  :part-of  (x1 / 他
+))            :aspect  (x16 / 着
+)            :arg1  (x24 / 球
+                  :quant  (x17 / 1
+)                  :consist-of  (x23 / 铁
+)                  :arg0-of  (x21 / 重-03
+                        :arg1  (x47 / mass-quantity
+                              :quant  (x19 / 1
+)                              :unit  (x20 / 磅
+)))                  :cunit  (x18 / 个
+))))
+===========================
+两个铁球同时脱手，从空中落下来。
+(x13 / and
+      :op1  (x6 / 脱手-01
+            :arg0  (x4 / 球
+                  :consist-of  (x3 / 铁
+)                  :cunit  (x2 / 个
+)                  :quant  (x1 / 2
+))            :manner  (x5 / 同时
+))      :op2  (x10_x11 / 落下-01
+            :source  (x9 / 空中
+)            :arg0  (x4 / 球
+)))
+===========================
+一会儿，斜塔周围的人都忍不住惊讶地呼喊起来，因为大家看见两个铁球同时着地了，正跟伽利略说的一个样。
+(x32 / causation
+      :arg2  (x34 / possible
+            :arg0  (x8_1_3 / 忍住-01
+                  :arg1  (x11_x12 / 呼喊-01
+                        :manner  (x9 / 惊讶-01
+                              :arg0  (x6 / 人
+                                    :extent  (x7 / 都
+)                                    :location  (x4 / 周围
+                                          :arg0  (x3 / 斜塔
+))))                        :arg0  (x6 / 人
+))                  :arg0  (x6 / 人
+))            :polarity  (x8_2 / -
+)            :time  (x1 / 一会儿
+))      :arg1  (x45 / and
+            :op1  (x16 / 看见-01
+                  :arg0  (x15 / x6
+)                  :arg1  (x22 / 着地
+                        :arg0  (x20 / 球
+                              :consist-of  (x19 / 铁
+)                              :cunit  (x18 / 个
+)                              :quant  (x17 / 2
+))                        :aspect  (x23 / 了
+)                        :manner  (x21 / 同时
+)))            :op2  (x30 / 一个样
+                  :arg0  (x26 / and
+                        :arg0  (x22 / 着地
+)                        :arg1  (x57 / thing
+                              :arg1-of  (x28 / 说-01
+                                    :arg0  (x59 / person
+                                          :name  ( x27/伽利略 
+)))))                  :manner  (x25 / 正
+))))
+===========================
+这时大家才明白，原来像亚里士多德这样的大哲学家，说的话也不是全都对的。
+(x4 / 明白-01
+      :mod  (x3 / 才
+)      :time  (x1 / 这时
+)      :arg0  (x2 / 大家
+)      :arg1  (x21 / 对-02
+            :arg0  (x16 / 话
+                  :extent  (x20 / 全都
+                        :polarity  (x18_x19 / -
+))                  :arg1-of  (x14 / 说-01
+                        :arg0  (x12 / 哲学家
+                              :arg0-of  (x1 / 这时
+)                              :mod  (x9 / 这样
+)                              :name  ( x8/亚里士多德 
+)                              :arg0-of  (x11 / 大-01
+))))            :mode  (x22 / judgement
+)            :manner  (x6 / 原来
+)))
+===========================

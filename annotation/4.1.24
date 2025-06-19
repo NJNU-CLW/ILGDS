@@ -1,0 +1,518 @@
+圣诞节快到了，哥哥送给保罗一辆新车作为圣诞礼物。
+(x17 / causation
+      :arg1  (x3 / 到-01
+            :arg0  (x20 / festival
+                  :name  ( x1/圣诞节 
+))            :time  (x2 / 快
+)            :aspect  (x4 / 了
+))      :arg2  (x7 / 送给-01
+            :arg0  (x6 / 哥哥
+)            :arg2  (x26 / person
+                  :name  ( x8/保罗 
+))            :arg1  (x12 / 车
+                  :arg0-of  (x11 / 新-01
+)                  :cunit  (x10 / 辆
+)                  :quant  (x9 / 1
+)                  :arg0-of  (x13 / 作为-02
+                        :arg1  (x15 / 礼物
+                              :mod  (x14 / 圣诞
+))))))
+===========================
+圣诞节的前一天，保罗从办公室里出来的时候，看见一个男孩在他闪亮的新车旁走来走去，有时候伸手轻轻地摸一下，满脸羡慕的神情。
+(x13 / 看见-01
+      :time  (x9 / 出来-01
+            :arg0  (x39 / person
+                  :name  ( x5/保罗 
+))            :time  (x3 / 前一天
+                  :arg0  (x42 / festival
+                        :name  ( x1/圣诞节 
+))))      :arg1  (x44 / and
+            :op1  (x23 / 走来走去-01
+                  :arg0  (x15 / 男孩
+                        :quant  (x14_1 / 1
+)                        :cunit  (x14_2 / 个
+))                  :location  (x22 / 旁
+                        :arg0  (x21 / 车
+                              :arg0-of  (x20 / 新-01
+)                              :arg0-of  (x18 / 闪亮-01
+)                              :poss  (x17 / x39
+))))            :op2  (x28 / 摸-01
+                  :cunit  (x29_2 / 下
+)                  :quant  (x29_1 / 1
+)                  :manner  (x27_1_2 / 轻轻
+)                  :manner  (x26 / 伸手-01
+                        :arg0  (x15 / 男孩
+))                  :arg0  (x15 / 男孩
+)                  :arg1  (x21 / 车
+)                  :time  (x25 / 有时候
+))            :op3  (x34 / 神情
+                  :location  (x31 / 满脸
+                        :part-of  (x15 / 男孩
+))                  :mod  (x32 / 羡慕-01
+                        :arg0  (x39 / person
+))))      :arg0  (x39 / person
+))
+===========================
+保罗饶有兴趣地看着这个男孩，从衣着来看，他的家庭显然不宽裕。
+(x20 / and
+      :op1  (x4 / 看-02
+            :manner  (x2 / 饶有兴趣
+)            :aspect  (x5 / 着
+)            :arg0  (x25 / person
+                  :name  ( x1/保罗 
+))            :arg1  (x7 / 男孩
+                  :mod  (x6_1 / 这
+)                  :cunit  (x6_2 / 个
+)))      :op2  (x18 / 宽裕-01
+            :manner  (x16 / 显然
+)            :polarity  (x17 / -
+)            :arg0  (x15 / 家庭
+                  :poss  (x12 / x7
+))            :according-to  (x10 / 衣着
+                  :poss  (x7 / 男孩
+))))
+===========================
+看见保罗在望着自己，男孩问道：“先生，这是你的车吗？”
+(x20 / causation
+      :arg1  (x1 / 看见-01
+            :arg0  (x8 / 男孩
+)            :arg1  (x4 / 望-01
+                  :aspect  (x3 / 在
+)                  :arg0  (x26 / person
+                        :name  ( x2/保罗 
+))                  :aspect  (x5 / 着
+)                  :arg1  (x6 / x8
+)))      :arg2  (x9 / 问道-01
+            :arg0  (x8 / 男孩
+)            :arg1  (x31 / and
+                  :op1  (x11 / x26
+)                  :op2  (x17 / 车
+                        :domain  (x13 / 这
+)                        :poss  (x15 / x26
+)                        :mode  (x18_x19 / interrogative
+)))            :arg2  (x26 / person
+)))
+===========================
+“是啊，”保罗点点头说，“这是我哥哥给我的圣诞礼物。”
+(x21 / temporal
+      :arg1  (x6 / 点头-01
+            :arg0  (x25 / person
+                  :name  ( x5/保罗 
+)))      :arg2  (x7 / 说-01
+            :arg0  (x25 / person
+)            :arg1  (x26 / and
+                  :op1  (x2 / 是
+                        :mode  (x3 / expressive
+))                  :op2  (x17 / 礼物
+                        :domain  (x9 / 这
+)                        :arg1-of  (x13 / 给-01
+                              :arg0  (x12 / 哥哥
+)                              :poss  (x11 / x25
+)                              :arg2  (x14 / x25
+))                        :mod  (x16 / 圣诞
+)))))
+===========================
+男孩睁大了眼睛：“你是说，这车是你哥哥给你的，你不用花一分钱？”
+(x27 / and
+      :op1  (x2 / 睁-01
+            :cause-of  (x3 / 大-01
+                  :aspect  (x4 / 了
+)                  :arg0  (x5 / 眼睛
+                        :part-of  (x1 / 男孩
+)))            :arg0  (x1 / 男孩
+)            :arg1  (x5 / 眼睛
+))      :op2  (x34 / say
+            :arg1  (x9 / 说-01
+                  :mode  (x8 / judgement
+)                  :arg0  (x7 / 你
+)                  :arg1  (x38 / causation
+                        :arg1  (x39 / thing
+                              :domain  (x12 / 车
+                                    :mod  (x11 / 这
+))                              :arg1-of  (x16 / 给-01
+                                    :arg0  (x15 / 哥哥
+                                          :poss  (x14 / x7
+))                                    :arg1  (x17 / x7
+)))                        :arg2  (x21_2 / 用-02
+                              :polarity  (x21_1 / -
+)                              :arg0  (x20 / x7
+)                              :arg1  (x22 / 花-01
+                                    :arg0  (x7 / 你
+)                                    :arg1  (x25 / 钱
+                                          :unit  (x24 / 分
+)                                          :quant  (x23 / 1
+)))                              :mode  (x26 / interrogative
+))))))
+===========================
+保罗点点头。
+(x2_x3_x4 / 点头-01
+      :arg0  (x8 / person
+            :name  ( x1/保罗 
+)))
+===========================
+男孩惊叹地说：“哇！我希望……”
+(x4 / 说-01
+      :manner  (x2 / 惊叹-01
+            :arg0  (x1 / 男孩
+))      :arg0  (x1 / 男孩
+)      :arg1  (x15 / and
+            :op1  (x6 / 哇
+                  :mode  (x7 / expressive
+))            :op2  (x9 / 希望-01
+                  :arg0  (x8 / x1
+))))
+===========================
+保罗以为男孩希望也有一个这样的哥哥。
+(x2 / 以为-01
+      :arg0  (x14 / person
+            :name  ( x1/保罗 
+))      :arg1  (x4 / 希望
+            :arg0  (x3 / 男孩
+)            :arg1  (x6 / 有-01
+                  :mod  (x5 / 也
+)                  :arg1  (x10 / 哥哥
+                        :mod  (x8 / 这样
+)                        :quant  (x7_1 / 1
+)                        :cunit  (x7_2 / 个
+)))))
+===========================
+男孩却说：“我希望自己也能当这样的哥哥。”
+(x15 / contrast
+      :arg2  (x3 / 说-01
+            :arg0  (x1 / 男孩
+)            :arg1  (x6 / 希望-01
+                  :arg0  (x5 / x1
+)                  :arg1  (x9 / 能-01
+                        :mod  (x8 / 也
+)                        :arg0  (x10 / 当-02
+                              :arg0  (x7 / x1
+)                              :arg1  (x13 / 哥哥
+                                    :mod  (x11 / 这样
+)))))))
+===========================
+保罗吃惊地看着这个男孩，不由自主地问了一句：“你愿意坐我的车兜一圈吗？”
+(x29 / and
+      :op1  (x4 / 看-02
+            :manner  (x2 / 吃惊-01
+                  :arg0  (x34 / person
+                        :name  ( x1/保罗 
+)))            :aspect  (x5 / 着
+)            :arg0  (x34 / person
+)            :arg1  (x7 / 男孩
+                  :mod  (x6_1 / 这
+)                  :cunit  (x6_2 / 个
+)))      :op2  (x11 / 问-01
+            :manner  (x9 / 不由自主
+)            :aspect  (x12 / 了
+)            :arg0  (x34 / person
+)            :arg2  (x7 / 男孩
+)            :arg1  (x42 / thing
+                  :unit  (x14 / 句
+)                  :quant  (x13 / 1
+)                  :arg0-of  (x45 / mean
+                        :arg1  (x17 / 愿意-01
+                              :arg0  (x16 / x7
+)                              :arg1  (x22 / 兜
+                                    :quant  (x23 / 1
+)                                    :manner  (x18 / 坐-02
+                                          :arg0  (x7 / 男孩
+)                                          :arg1  (x21 / 车
+                                                :poss  (x19 / x34
+)))                                    :cunit  (x24 / 圈
+))                              :mode  (x25_x26 / interrogative
+))))))
+===========================
+“当然，我非常愿意。”
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x2 / 当然
+)            :op2  (x6 / 愿意-01
+                  :degree  (x5 / 非常
+)                  :arg0  (x4 / 我
+))))
+===========================
+车开了一段路，男孩转过身来，眼睛里闪着亮光，说道：“先生，你能把车开到我家门口吗？”
+(x34 / temporal
+      :arg1  (x2 / 开
+            :arg1  (x1 / 车
+)            :aspect  (x3 / 了
+)            :quant  (x6 / 路
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 段
+)))      :arg2  (x9 / 转-04
+            :arg0  (x8 / 男孩
+)            :arg1  (x10 / 身
+                  :part-of  (x8 / 男孩
+)))      :arg3  (x46 / and
+            :op1  (x15 / 闪-01
+                  :aspect  (x16 / 着
+)                  :location  (x13 / 眼睛
+                        :part-of  (x8 / 男孩
+))                  :arg2  (x17 / 亮光
+))            :op2  (x19 / 说道-01
+                  :arg0  (x8 / 男孩
+)                  :arg1  (x52 / and
+                        :op1  (x21 / 先生
+)                        :op2  (x24 / 能-01
+                              :arg0  (x27 / 开
+                                    :arg1  (x26 / x1
+)                                    :cause-of  (x28 / 到-01
+                                          :arg0  (x1 / 车
+)                                          :arg1  (x31 / 门口
+                                                :arg0  (x30 / 家
+                                                      :poss  (x29 / x8
+))))                                    :arg0  (x23 / x21
+))                              :mode  (x32_x33 / interrogative
+))))))
+===========================
+保罗微微一笑，他理解男孩的想法：坐一辆又大又漂亮的车子回家，在小朋友的面前是很神气的事。
+(x33 / and
+      :op1  (x4 / 笑-01
+            :quant  (x3 / 1
+)            :manner  (x2 / 微微
+)            :arg0  (x38 / person
+                  :name  ( x1/保罗 
+)))      :op2  (x7 / 理解-01
+            :arg0  (x6 / x38
+)            :arg1  (x10 / 想法
+                  :poss  (x8 / 男孩
+)                  :arg0-of  (x44 / mean
+                        :arg1  (x31 / 事
+                              :domain  (x21 / 回家
+                                    :manner  (x12 / 坐-02
+                                          :arg1  (x20 / 车子
+                                                :quant  (x13 / 1
+)                                                :cunit  (x14 / 辆
+)                                                :arg0-of  (x18 / 漂亮-01
+)                                                :arg0-of  (x16 / 大-01
+))))                              :mod  (x29 / 神气
+                                    :degree  (x28 / 很
+))                              :location  (x26 / 面前
+                                    :arg0  (x24 / 小朋友
+)))))))
+===========================
+但是，保罗又错了。
+(x8 / contrast
+      :arg2  (x5 / 错-01
+            :mod  (x4 / 又
+)            :aspect  (x6 / 了
+)            :arg0  (x13 / person
+                  :name  ( x3/保罗 
+))))
+===========================
+“麻烦你把车停在台阶那里，等我一下，好吗？”
+(x20 / say
+      :arg1  (x23 / and
+            :op1  (x2 / 麻烦
+                  :arg2  (x3 / 你
+)                  :arg1  (x6 / 停-02
+                        :arg1  (x5 / 车
+)                        :location  (x9 / 那里
+                              :arg0-of  (x29 / mean
+                                    :arg1  (x8 / 台阶
+)))))            :op2  (x11 / 等-01
+                  :arg0  (x3 / 你
+)                  :arg1  (x12 / 我
+)                  :duration  (x13 / 一下
+))            :op3  (x15 / 好
+                  :mode  (x16_x17 / interrogative
+))))
+===========================
+男孩跳下车，三步两步跑上台阶进了屋。
+(x13 / temporal
+      :arg1  (x2_x3_1 / 跳下-01
+            :arg0  (x1 / 男孩
+)            :location  (x3_2 / 车
+))      :arg2  (x6_x7 / 跑上-01
+            :arg0  (x1 / 男孩
+)            :arg1  (x8 / 台阶
+)            :manner  (x5 / 三步两步
+))      :arg3  (x9 / 进-01
+            :arg0  (x1 / 男孩
+)            :aspect  (x10 / 了
+)            :arg1  (x11 / 屋
+)))
+===========================
+不一会儿他出来了，背着一个小孩，显然是他的弟弟，看上去腿有残疾。
+(x21 / and
+      :op1  (x3 / 出来-01
+            :time  (x1 / 不一会儿
+)            :arg0  (x2 / 他
+)            :aspect  (x4 / 了
+))      :op2  (x6_1 / 背-01
+            :aspect  (x6_2 / 着
+)            :arg0  (x2 / 他
+)            :arg1  (x8 / 小孩
+                  :cunit  (x7_2 / 个
+)                  :quant  (x7_1 / 1
+)))      :op3  (x14 / 弟弟
+            :domain  (x8 / 小孩
+)            :mod  (x10 / 显然
+)            :poss  (x12 / x2
+))      :op4  (x16 / 看上去
+            :arg0  (x18 / 有-05
+                  :arg0  (x17 / 腿
+                        :part-of  (x8 / 小孩
+))                  :arg1  (x19 / 残疾
+))))
+===========================
+他把弟弟放在最下面的台阶上，两个人紧靠着坐下。
+(x19 / temporal
+      :arg1  (x4 / 放在-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 弟弟
+)            :arg2  (x9 / 上
+                  :arg0  (x8 / 台阶
+                        :location  (x6 / 下面
+                              :degree  (x5 / 最
+)))))      :arg2  (x17 / 坐下-01
+            :arg0  (x13 / 人
+                  :quant  (x11 / 2
+)                  :cunit  (x12 / 个
+))            :manner  (x15 / 靠-03
+                  :manner  (x14 / 紧
+)                  :aspect  (x16 / 着
+)                  :arg9  (x13 / 人
+)                  :arg1  (x13 / 人
+))))
+===========================
+他指着保罗的车，说：“看见了吗？很漂亮，对不对？这是他哥哥送给他的圣诞礼物！
+(x32 / and
+      :op1  (x2 / 指-05
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x6 / 车
+                  :poss  (x38 / person
+                        :name  ( x4/保罗 
+))))      :op2  (x8 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x41 / and
+                  :op1  (x10 / 看见
+                        :aspect  (x11 / 了
+)                        :mode  (x12_x13 / interrogative
+))                  :op2  (x45 / and
+                        :op1  (x15 / 漂亮
+                              :degree  (x14 / 很
+))                        :op2  (x49 / or
+                              :op1  (x17 / 对
+)                              :op2  (x19 / 对
+                                    :polarity  (x18 / -
+))                              :mode  (x20 / interrogative
+)))                  :op3  (x29 / 礼物
+                        :domain  (x21 / x6
+)                        :mod  (x28 / 圣诞
+)                        :arg1-of  (x25 / 送给-01
+                              :arg0  (x24 / 哥哥
+                                    :poss  (x23 / x38
+))                              :arg1  (x26 / x38
+))                        :mode  (x30 / expressive
+)))))
+===========================
+将来，我也要送你一辆这样的新车。
+(x5 / 要-03
+      :arg0  (x6 / 送-01
+            :arg0  (x3 / 我
+)            :time  (x1 / 将来
+)            :arg1  (x7 / 你
+)            :arg2  (x13 / 车
+                  :arg0-of  (x12 / 新-01
+)                  :mod  (x10 / 这样
+)                  :cunit  (x9 / 辆
+)                  :quant  (x8 / 1
+)))      :mod  (x4 / 也
+))
+===========================
+到那时候，你就可以坐在车里，亲眼看看我跟你讲的那些好看的圣诞礼物了。”
+(x27 / say
+      :arg1  (x7 / 可以-01
+            :arg0  (x14 / 看看
+                  :manner  (x13 / 亲眼
+)                  :arg0  (x5 / 你
+)                  :manner  (x8 / 坐-02
+                        :arg1  (x10 / 车
+)                        :arg0  (x5 / 你
+))                  :arg1  (x24 / 礼物
+                        :mod  (x23 / 圣诞
+)                        :arg0-of  (x21 / 好看-01
+)                        :mod  (x20 / 那些
+)                        :arg1-of  (x18 / 讲-01
+                              :arg2  (x17 / x5
+)                              :arg0  (x15 / 我
+)))                  :smood  (x25 / 了
+))            :mod  (x6 / 就
+)            :time  (x3 / 时候
+                  :mod  (x2 / 那
+))))
+===========================
+保罗的眼睛湿润了。
+(x4 / 湿润-01
+      :arg0  (x3 / 眼睛
+            :part-of  (x10 / person
+                  :name  ( x1/保罗 
+)))      :aspect  (x5 / 了
+))
+===========================
+他下了车，把小弟弟抱进了车里。
+(x15 / temporal
+      :arg1  (x2 / 下-04
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 车
+)            :aspect  (x3 / 了
+))      :arg2  (x10 / 进-01
+            :manner  (x9 / 抱-01
+                  :arg1  (x8 / 弟弟
+                        :arg0-of  (x7 / 小-01
+))                  :arg0  (x1 / 他
+))            :arg0  (x8 / 弟弟
+)            :aspect  (x11 / 了
+)            :arg1  (x12 / 车
+)))
+===========================
+那个男孩眼睛里闪着喜悦的光芒，也坐了进去。
+(x16 / and
+      :op1  (x5 / 闪-01
+            :arg2  (x9 / 光芒
+                  :mod  (x7 / 喜悦
+))            :aspect  (x6 / 着
+)            :location  (x3 / 眼睛
+                  :part-of  (x2 / 男孩
+                        :mod  (x1_1 / 那
+)                        :cunit  (x1_2 / 个
+))))      :op2  (x14 / 进去-01
+            :manner  (x12 / 坐-02
+                  :arg0  (x2 / 男孩
+)                  :aspect  (x13 / 了
+))            :mod  (x11 / 也
+)            :arg0  (x2 / 男孩
+)))
+===========================
+他们三个人一起过了一个难忘的夜晚。
+(x6 / 过
+      :aspect  (x7 / 了
+)      :arg0  (x1 / 他们
+            :arg0-of  (x17 / mean
+                  :arg1  (x4 / 人
+                        :cunit  (x3 / 个
+)                        :quant  (x2 / 3
+))))      :manner  (x5 / 一起-01
+)      :arg1  (x11 / 夜晚
+            :quant  (x8_1 / 1
+)            :mod  (x9 / 难忘
+)            :cunit  (x8_2 / 个
+)))
+===========================
+这个夜晚，保罗从内心里感受到，给予是令人快乐的。
+(x8 / 感受-01
+      :arg0  (x19 / person
+            :name  ( x4/保罗 
+))      :arg1  (x13 / 令人
+            :arg0  (x11 / 给予
+)            :arg1  (x14 / 快乐
+)            :mode  (x12_x15 / judgement
+))      :location  (x6 / 内心
+            :part-of  (x19 / person
+))      :time  (x2 / 夜晚
+            :mod  (x1_1 / 这
+)            :cunit  (x1_2 / 个
+)))
+===========================

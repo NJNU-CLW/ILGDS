@@ -1,0 +1,126 @@
+我画了个绿绿的太阳，挂在夏天的天空。
+(x24 / and
+      :op1  (x2 / 画-01
+            :arg0  (x1 / 我
+)            :arg1  (x6 / 太阳
+                  :arg1-of  (x5 / 绿-01
+)                  :cunit  (x4 / 个
+))            :aspect  (x3 / 了
+))      :op2  (x8 / 挂-01
+            :arg2  (x12 / 天空
+                  :time  (x23 / date-entity
+                        :season  (x10 / 夏天
+)))            :arg0  (x1 / 我
+)            :arg1  (x6 / 太阳
+)))
+===========================
+高山、田野、街道、校园，到处一片清凉。
+(x12 / 清凉-01
+      :quant  (x10 / 1
+)      :cunit  (x11 / 片
+)      :location  (x9 / 到处
+            :arg0-of  (x19 / mean
+                  :arg1  (x20 / and
+                        :op1  (x1 / 高山
+)                        :op2  (x3 / 田野
+)                        :op3  (x5 / 街道
+)                        :op4  (x7 / 校园
+)))))
+===========================
+我画了个金黄的太阳，送给秋天。
+(x12 / and
+      :op1  (x2 / 画-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 我
+)            :arg1  (x7 / 太阳
+                  :arg0-of  (x5 / 金黄
+)                  :cunit  (x4 / 个
+)))      :op2  (x9 / 送给-01
+            :arg0  (x1 / 我
+)            :arg1  (x7 / 太阳
+)            :arg2  (x23 / date-entity
+                  :season  (x10 / 秋天
+))))
+===========================
+果园里，果子熟了。
+(x5 / 熟-01
+      :aspect  (x6 / 了
+)      :arg0  (x4 / 果子
+)      :location  (x2 / 里
+            :arg0  (x1 / 果园
+)))
+===========================
+金黄的落叶忙着邀请小伙伴，请他们尝尝水果的香甜。
+(x4 / 忙-01
+      :arg0  (x3 / 落叶
+            :arg0-of  (x1 / 金黄
+))      :arg1  (x6 / 邀请-01
+            :arg1  (x7 / 小伙伴
+)            :purpose  (x9 / 请-01
+                  :arg0  (x3 / 落叶
+)                  :arg1  (x10 / x7
+)                  :arg2  (x11 / 尝尝-01
+                        :arg0  (x10 / x7
+)                        :arg1  (x14 / 香甜-01
+                              :arg0  (x12 / 水果
+)))))      :aspect  (x5 / 着
+))
+===========================
+我画了个红红的太阳，照亮冬天。
+(x11 / and
+      :op1  (x2 / 画-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 我
+)            :arg1  (x6 / 太阳
+                  :arg0-of  (x5 / 红-01
+)                  :cunit  (x4 / 个
+)))      :op2  (x8 / 照亮-01
+            :arg0  (x6 / 太阳
+)            :arg1  (x20 / date-entity
+                  :season  (x9 / 冬天
+))))
+===========================
+阳光温暖着小朋友冻僵的手和脸。
+(x2 / 温暖-01
+      :arg0  (x1 / 阳光
+)      :aspect  (x3 / 着-01
+)      :arg1  (x8 / and
+            :op1  (x7 / 手
+                  :arg0-of  (x5 / 冻僵-01
+)                  :part-of  (x4 / 小朋友
+))            :op2  (x9 / 脸
+                  :arg0-of  (x5 / 冻僵-01
+)                  :part-of  (x4 / 小朋友
+))))
+===========================
+春天，春天的太阳该画什么颜色呢?
+(x12 / and
+      :op1  (x14 / date-entity
+            :season  (x1 / 春天
+))      :op2  (x6 / 该-01
+            :arg0  (x7 / 画-01
+                  :arg1  (x5 / 太阳
+                        :time  (x19 / date-entity
+                              :season  (x3 / x1
+))                        :arg0-of  (x9 / 颜色
+                              :mod  (x8 / amr-unknown
+))))            :mode  (x10_x11 / interrogative
+)))
+===========================
+噢，画个彩色的。
+(x3 / 画-01
+      :mode  (x1 / expressive
+)      :arg1  (x11 / thing
+            :arg0-of  (x5 / 彩色
+)            :cunit  (x4 / 个
+)))
+===========================
+因为春天是个多彩的季节。
+(x9 / causation
+      :arg1  (x7 / 季节
+            :arg0-of  (x5 / 多彩-01
+)            :cunit  (x4 / 个
+)            :domain  (x14 / date-entity
+                  :season  (x2 / 春天
+))))
+===========================

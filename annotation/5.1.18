@@ -1,0 +1,659 @@
+我一直想买一本长篇小说——《青年近卫军》。
+(x3 / 想-02
+      :arg0  (x1 / 我
+)      :time  (x2 / 一直
+)      :arg1  (x4 / 买-01
+            :arg1  (x7 / 长篇小说
+                  :name  ( x9/青年近卫军 
+)                  :quant  (x5 / 1
+)                  :cunit  (x6 / 本
+))))
+===========================
+书价一元多钱。
+(x1 / 书价
+      :domain  (x5 / monetary-quantity
+            :quant  (x4 / 多
+                  :op1  (x2 / 1
+))            :unit  (x3 / 元
+)))
+===========================
+母亲还从来没有一次给过我这么多钱。
+(x7 / 给-01
+      :arg0  (x1 / 母亲
+)      :arg1  (x12 / 钱
+            :quant  (x11 / 多
+                  :degree  (x10 / 这么
+)))      :manner  (x5_x6 / 一次
+)      :polarity  (x4 / -
+)      :time  (x3 / 从来
+)      :mod  (x2 / 还
+)      :aspect  (x8 / 过
+)      :arg2  (x9 / 我
+))
+===========================
+我也从来没有向母亲一次要过这么多钱。
+(x9 / 要-01
+      :arg0  (x1 / 我
+)      :mod  (x2 / 也
+)      :time  (x3 / 从来
+)      :polarity  (x4 / -
+)      :arg2  (x6 / 母亲
+)      :manner  (x7_x8 / 一次
+)      :aspect  (x10 / 过
+)      :arg1  (x13 / 钱
+            :quant  (x12 / 多
+                  :degree  (x11 / 这么
+))))
+===========================
+但我想有一本《青年近卫军》，想得整天失魂落魄。
+(x15 / contrast
+      :arg2  (x17 / and
+            :op1  (x3 / 想-02
+                  :arg0  (x2 / 我
+)                  :arg1  (x4 / 有-01
+                        :arg1  (x21 / book
+                              :name  ( x8/青年近卫军 
+)                              :quant  (x5 / 1
+)                              :cunit  (x6 / 本
+))                        :arg0  (x2 / 我
+)))            :op2  (x10 / 想-02
+                  :manner  (x13 / 失魂落魄
+                        :time  (x12 / 整天
+))                  :arg0  (x2 / 我
+))))
+===========================
+我从同学家的收音机里听到过几次《青年近卫军》的连续广播。
+(x8 / 听到-01
+      :arg0  (x1 / 我
+)      :arg1  (x17 / 广播
+            :manner  (x16 / 连续
+)            :topic  (x24 / book
+                  :name  ( x13/青年近卫军 
+)))      :quant  (x10 / 几
+)      :cunit  (x11 / 次
+)      :source  (x6 / 收音机
+            :location  (x4 / 家
+                  :poss  (x3 / 同学
+)))      :aspect  (x9 / 过
+))
+===========================
+那时我家的破收音机已经卖了，被我和弟弟妹妹们吃进肚子里了。
+(x22 / and
+      :op1  (x7 / 卖-01
+            :arg1  (x5 / 收音机
+                  :poss  (x2 / 我家
+)                  :arg1-of  (x4 / 破-01
+))            :aspect  (x6 / 已经
+)            :aspect  (x8 / 了
+)            :time  (x1 / 那时
+))      :op2  (x16 / 吃-01
+            :manner  (x17 / 进-01
+                  :arg1  (x18 / 肚子
+))            :arg0  (x12 / and
+                  :op1  (x11 / 我
+)                  :op2  (x13_x14_x15 / 弟弟妹妹们
+))            :aspect  (x20 / 了
+)))
+===========================
+我来到母亲工作的地方，呆呆地将那些母亲扫视一遍，却没有发现我的母亲。
+(x23 / contrast
+      :arg1  (x25 / temporal
+            :arg1  (x2 / 来到-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x6 / 地方
+                        :location-of  (x4 / 工作-01
+                              :arg0  (x3 / 母亲
+))))            :arg1  (x12 / 扫视-01
+                  :arg1  (x11 / 母亲
+                        :mod  (x10 / 那些
+))                  :manner  (x8 / 呆
+)                  :quant  (x13 / 1
+)                  :cunit  (x14 / 遍
+)                  :arg0  (x1 / 我
+)))      :arg2  (x18 / 发现-01
+            :polarity  (x17 / -
+)            :arg1  (x21 / x3
+                  :poss  (x19 / x1
+))            :arg0  (x1 / 我
+)))
+===========================
+七八十台缝纫机发出的噪声震耳欲聋。
+(x7 / 震耳欲聋-01
+      :arg0  (x6 / 噪声
+            :arg1-of  (x4 / 发出-02
+                  :arg0  (x3 / 缝纫机
+                        :quant  (x14 / between
+                              :op1  (x1_1_3 / 70
+)                              :op2  (x1_2_3 / 80
+))                        :cunit  (x2 / 台
+)))))
+===========================
+“你找谁？”
+(x6 / say
+      :arg1  (x3 / 找-01
+            :arg0  (x2 / 你
+)            :arg1  (x4 / amr-unknown
+)            :mode  (x5 / interrogative
+)))
+===========================
+“找我妈！”
+(x6 / say
+      :arg1  (x2 / 找-01
+            :arg1  (x4 / 妈
+                  :poss  (x3 / 我
+))            :mode  (x5 / expressive
+)))
+===========================
+“你妈是谁？”
+(x7 / say
+      :arg1  (x5 / amr-unknown
+            :domain  (x3 / 妈
+                  :poss  (x2 / 你
+))            :mode  (x6 / interrogative
+)))
+===========================
+我大声说出了母亲的名字。
+(x3_x4 / 说出-01
+      :arg0  (x1 / 我
+)      :arg1  (x8 / 名字
+            :poss  (x6 / 母亲
+))      :manner  (x2 / 大声
+)      :aspect  (x5 / 了
+))
+===========================
+“那儿！”一个老头儿朝最里边的角落一指。
+(x14 / and
+      :op1  (x16 / say
+            :arg1  (x2 / 那儿
+                  :mode  (x3 / expressive
+)))      :op2  (x12 / 指-05
+            :arg0  (x5 / 老头儿
+                  :quant  (x4_1 / 1
+)                  :cunit  (x4_2 / 个
+))            :arg1  (x10 / 角落
+                  :location  (x8 / 里边
+                        :degree  (x7 / 最
+)))))
+===========================
+我穿过一排排缝纫机，走到那个角落，看见一个极其瘦弱的脊背弯曲着，头和缝纫机挨得很近。
+(x30 / temporal
+      :arg1  (x2 / 穿过-01
+            :arg0  (x1 / 我
+)            :arg1  (x6 / 缝纫机
+                  :quant  (x3_x4_x5 / 一排排
+)))      :arg2  (x8_x9 / 走到-01
+            :arg1  (x11 / 角落
+                  :mod  (x10_1 / 那
+)                  :cunit  (x10_2 / 个
+))            :arg0  (x1 / 我
+))      :arg3  (x40 / and
+            :op1  (x13 / 看见-01
+                  :arg1  (x19 / 弯曲-01
+                        :arg0  (x18 / 脊背
+                              :quant  (x14_1 / 1
+)                              :cunit  (x14_2 / 个
+)                              :arg0-of  (x16 / 瘦弱
+                                    :degree  (x15 / 极其
+)))                        :aspect  (x20 / 着
+))                  :arg0  (x1 / 我
+))            :op2  (x25 / 挨-02
+                  :manner  (x28 / 近
+                        :degree  (x27 / 很
+))                  :arg0  (x22 / 头
+)                  :arg1  (x24 / 缝纫机
+))))
+===========================
+周围几只灯泡烤着我的脸。
+(x5 / 烤-01
+      :arg0  (x4 / 灯泡
+            :quant  (x2 / 几
+)            :cunit  (x3 / 只
+)            :location  (x1 / 周围
+))      :arg1  (x9 / 脸
+            :part-of  (x7 / 我
+))      :aspect  (x6 / 着
+))
+===========================
+“妈——”
+(x4 / say
+      :arg1  (x2 / 妈
+))
+===========================
+“妈——”
+(x4 / say
+      :arg1  (x2 / 妈
+))
+===========================
+背直起来了，我的母亲。
+(x2_x3 / 直-01
+      :arg0  (x1 / 背
+            :part-of  (x8 / 母亲
+                  :poss  (x6 / 我
+)))      :aspect  (x4 / 了
+))
+===========================
+转过身来了，我的母亲。
+(x1_1 / 转-04
+      :arg1  (x2 / 身
+)      :direction  (x1_2_x3 / 过来
+)      :arg0  (x8 / 母亲
+            :poss  (x6 / 我
+)))
+===========================
+褐色的口罩上方，一对眼神疲惫的眼睛吃惊地望着我，我的母亲……
+(x32 / and
+      :op1  (x8 / 眼神
+            :quant  (x6 / 1
+)            :unit  (x7 / 对
+)            :location  (x4 / 上方
+                  :arg0  (x3 / 口罩
+                        :mod  (x1 / 褐色
+))))      :op2  (x14 / 望-01
+            :arg0  (x11 / 眼睛
+                  :arg0-of  (x9 / 疲惫-01
+)                  :part-of  (x20 / 母亲
+                        :poss  (x18 / x16
+)))            :manner  (x12 / 吃惊
+)            :arg1  (x16 / 我
+)            :aspect  (x15 / 着
+)))
+===========================
+母亲大声问：“你来干什么？”
+(x3 / 问-01
+      :arg0  (x1 / 母亲
+)      :manner  (x2 / 大声-01
+)      :arg1  (x6 / 来-01
+            :arg0  (x5 / 你
+)            :mode  (x8 / interrogative
+)            :purpose  (x7 / amr-unknown
+)))
+===========================
+“我……”
+(x4 / say
+      :arg1  (x2 / 我
+))
+===========================
+“有事快说，别耽误妈干活！”“
+(x12 / say
+      :arg1  (x14 / and
+            :op1  (x15 / condition
+                  :arg1  (x2_1 / 有-01
+                        :arg1  (x2_2 / 事
+))                  :arg2  (x3 / 快
+                        :arg0  (x4 / 说
+)))            :op2  (x7 / 耽误-01
+                  :arg1  (x9 / 干活-01
+                        :arg0  (x8 / 妈
+)                        :mode  (x10 / expressive
+))                  :polarity  (x6 / -
+))))
+===========================
+我……要钱……”
+(x7 / say
+      :arg1  (x4 / 要-01
+            :arg0  (x2 / 我
+)            :arg1  (x5 / 钱
+)))
+===========================
+我本已不想说出“要钱”两个字，可是竟说出来了！
+(x22 / contrast
+      :arg1  (x5 / 想-02
+            :arg0  (x1 / 我
+)            :mod  (x2 / 本-01
+)            :polarity  (x4 / -
+)            :aspect  (x3 / 已
+)            :arg1  (x6_x7 / 说出-01
+                  :arg1  (x14 / 字
+                        :arg0-of  (x31 / mean
+                              :arg1  (x9 / 要-01
+                                    :arg1  (x10 / 钱
+)))                        :quant  (x12 / 2
+)                        :cunit  (x13 / 个
+))))      :arg2  (x18_x19 / 说出-01
+            :aspect  (x20 / 了
+)            :mod  (x17 / 竟
+)            :arg1  (x14 / 字
+)            :arg0  (x1 / 我
+)            :mode  (x21 / expressive
+)))
+===========================
+“要钱干什么？”
+(x6 / say
+      :arg1  (x2 / 要-01
+            :arg1  (x3 / 钱
+)            :purpose  (x4 / amr-unknown
+)            :mode  (x5 / interrogative
+)))
+===========================
+“买书……”
+(x5 / say
+      :arg1  (x2 / 买-01
+            :arg1  (x3 / 书
+)))
+===========================
+“多少钱？”
+(x5 / say
+      :arg1  (x3 / monetary-quantity
+            :quant  (x2 / amr-unknown
+)            :mode  (x4 / interrogative
+)))
+===========================
+“一元五角……”
+(x7 / say
+      :arg1  (x9 / monetary-quantity
+            :quant  (x2_x4 / 15
+)            :cunit  (x5 / 角
+)))
+===========================
+母亲掏衣兜，掏出一卷揉得皱皱的毛票，用龟裂的手指数着。
+(x21 / temporal
+      :arg1  (x2 / 掏-01
+            :arg0  (x1 / 母亲
+)            :arg1  (x3 / 衣兜
+))      :arg2  (x5 / 掏出-01
+            :arg1  (x12 / 毛票
+                  :arg1-of  (x8 / 揉-01
+                        :cause-of  (x10_x11 / 皱
+))                  :quant  (x6 / 1
+)                  :cunit  (x7 / 卷
+))            :arg0  (x1 / 母亲
+))      :arg3  (x14 / 用-01
+            :arg1  (x17 / 手指
+                  :arg0-of  (x15 / 龟裂
+))            :arg2  (x18 / 数-01
+                  :aspect  (x19 / 着
+)                  :arg1  (x12 / 毛票
+))            :arg0  (x1 / 母亲
+)))
+===========================
+旁边一个女人停止踏缝纫机，向母亲探过身，喊道：“大姐，别给他！你供他们吃，供他们穿，供他们上学，还供他们看闲书哇！”
+(x42 / temporal
+      :arg1  (x4 / 停止-01
+            :arg0  (x3 / 女人
+                  :quant  (x2_1 / 1
+)                  :cunit  (x2_2 / 个
+)                  :location  (x1 / 旁边
+))            :arg1  (x5 / 踏-02
+                  :arg1  (x6 / 缝纫机
+)                  :arg0  (x3 / 女人
+)))      :arg2  (x10 / 探-01
+            :arg1  (x12 / 身
+)            :direction  (x9 / 母亲
+)            :arg0  (x3 / 女人
+))      :arg3  (x14 / 喊道-01
+            :arg0  (x3 / 女人
+)            :arg1  (x55 / and
+                  :op1  (x19 / 给-01
+                        :polarity  (x18 / -
+)                        :arg2  (x20 / 他
+)                        :arg0  (x16 / x9
+)                        :mode  (x21 / expressive
+))                  :op2  (x62 / progression
+                        :arg1  (x63 / and
+                              :op1  (x23 / 供-01
+                                    :arg0  (x22 / x9
+)                                    :arg1  (x24 / 他们
+)                                    :arg2  (x25 / 吃-01
+                                          :arg0  (x24 / 他们
+)))                              :op2  (x27 / 供-01
+                                    :arg0  (x22 / x9
+)                                    :arg1  (x28 / x24
+)                                    :arg2  (x29 / 穿-01
+                                          :arg0  (x28 / x24
+)))                              :op3  (x31 / 供-01
+                                    :arg1  (x32 / x24
+)                                    :arg2  (x33 / 上学-01
+                                          :arg0  (x32 / x24
+))                                    :arg0  (x22 / x9
+)))                        :arg2  (x36 / 供-01
+                              :arg1  (x37 / x24
+)                              :arg0  (x22 / x9
+)                              :arg2  (x38 / 看-02
+                                    :arg1  (x39 / 闲书
+)                                    :arg0  (x37 / x24
+))                              :mode  (x40_x41 / expressive
+)                              :arg0  (x22 / x9
+))))))
+===========================
+接着又对着我喊：“你看你妈这是在怎么挣钱？你忍心朝你妈要钱买书哇？”
+(x30 / temporal
+      :arg2  (x6 / 喊-01
+            :direction  (x5 / 我
+)            :arg1  (x34 / and
+                  :op1  (x9 / 看-02
+                        :arg0  (x8 / x5
+)                        :arg1  (x16 / 挣-01
+                              :arg0  (x11 / 妈
+                                    :poss  (x10 / x5
+))                              :arg1  (x17 / 钱
+)                              :manner  (x15 / 怎么
+)                              :aspect  (x14 / 在
+)                              :mod  (x12 / 这
+))                        :mode  (x18 / interrogative
+))                  :op2  (x20 / 忍心-01
+                        :arg0  (x19 / x5
+)                        :arg1  (x24 / 要-01
+                              :arg1  (x25 / 钱
+)                              :arg2  (x23 / x11
+                                    :poss  (x22 / x5
+))                              :arg0  (x19 / x5
+)                              :purpose  (x26 / 买-01
+                                    :arg1  (x27 / 书
+)))                        :mode  (x28_x29 / interrogative
+)))))
+===========================
+母亲却已将钱塞在我手心里了，大声对那个女人说：“我挺高兴他爱看书的！”
+(x28 / contrast
+      :arg2  (x30 / temporal
+            :arg1  (x6 / 塞-01
+                  :arg0  (x1 / 母亲
+)                  :arg1  (x5 / 钱
+)                  :arg2  (x9_x10_1 / 手心
+                        :part-of  (x8 / 我
+))                  :aspect  (x3 / 已
+)                  :aspect  (x11 / 了
+))            :arg2  (x17 / 说-01
+                  :arg3  (x16 / 女人
+                        :mod  (x15_1 / 那
+)                        :cunit  (x15_2 / 个
+))                  :manner  (x13 / 大声
+)                  :arg0  (x1 / 母亲
+)                  :arg1  (x21 / 高兴-01
+                        :arg0  (x19 / x1
+)                        :degree  (x20 / 挺
+)                        :arg1  (x23 / 爱-01
+                              :arg0  (x22 / x8
+)                              :arg1  (x24 / 看-02
+                                    :arg0  (x22 / x8
+)                                    :arg1  (x25 / 书
+)))                        :smood  (x26 / 的
+)                        :mode  (x27 / expressive
+)))))
+===========================
+母亲说完，立刻又坐了下去，立刻又弯曲了背，立刻又将头俯在缝纫机板上了，立刻又陷入了忙碌……
+(x34 / temporal
+      :arg1  (x3 / 完-01
+            :arg0  (x2 / 说-01
+                  :arg0  (x1 / 母亲
+)))      :arg2  (x7 / 坐-01
+            :mod  (x6 / 又
+)            :time  (x5 / 立刻
+)            :direction  (x9 / 下去
+)            :aspect  (x8 / 了
+)            :arg0  (x1 / 母亲
+))      :arg3  (x13 / 弯曲-01
+            :arg0  (x15 / 背
+)            :aspect  (x14 / 了
+)            :mod  (x12 / 又
+)            :time  (x11 / 立刻
+))      :arg4  (x21 / 俯
+            :arg1  (x20 / 头
+)            :location  (x24 / 板
+                  :part-of  (x23 / 缝纫机
+))            :time  (x17 / 立刻
+)            :mod  (x18 / 又
+)            :aspect  (x26 / 了
+))      :arg5  (x30 / 陷入-01
+            :arg1  (x32 / 忙碌
+)            :aspect  (x31 / 了
+)            :mod  (x29 / 又
+)            :time  (x28 / 立刻
+)            :arg0  (x1 / 母亲
+)))
+===========================
+那一天我第一次发现，母亲原来是那么瘦小！
+(x6 / 发现-01
+      :arg0  (x3 / 我
+)      :ord  (x17 / ordinal-entity
+            :value  (x4 / 1
+)            :unit  (x5 / 次
+))      :time  (x1_x2 / 那一天
+)      :arg1  (x12 / 瘦小-01
+            :arg0  (x8 / 母亲
+)            :mod  (x9 / 原来
+)            :degree  (x11 / 那么
+)            :mode  (x13 / expressive
+)))
+===========================
+那一天我第一次觉得自己长大了，应该是个大人了。
+(x6 / 觉得-01
+      :arg0  (x3 / 我
+)      :time  (x1_x2 / 那一天
+)      :ord  (x21 / ordinal-entity
+            :value  (x4 / 1
+)            :unit  (x5 / 次
+))      :arg1  (x24 / and
+            :op1  (x8 / 长大-01
+                  :arg0  (x7 / x3
+)                  :aspect  (x9 / 了
+))            :op2  (x11 / 应该-01
+                  :arg0  (x14 / 大人
+                        :domain  (x7 / x3
+)                        :cunit  (x13 / 个
+))                  :aspect  (x15 / 了
+))))
+===========================
+我鼻子一酸，攥着钱跑了出去……
+(x13 / temporal
+      :arg1  (x4 / 酸-01
+            :arg0  (x2 / 鼻子
+                  :part-of  (x1 / 我
+)))      :arg2  (x9 / 跑-01
+            :direction  (x11 / 出去
+)            :aspect  (x10 / 了
+)            :manner  (x6 / 攥-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x8 / 钱
+)                  :aspect  (x7 / 着
+))            :arg0  (x1 / 我
+)))
+===========================
+那天，我用那一元五角钱给母亲买了一听水果罐头。
+(x4 / 用-01
+      :arg0  (x3 / 我
+)      :arg1  (x10 / 钱
+            :mod  (x25 / monetary-quantity
+                  :quant  (x6_x8 / 15
+)                  :cunit  (x9 / 角
+))            :mod  (x5 / 那
+))      :arg2  (x13 / 买-01
+            :arg1  (x18 / 罐头
+                  :mod  (x17 / 水果
+)                  :quant  (x15 / 1
+)                  :cunit  (x16 / 听
+))            :aspect  (x14 / 了
+)            :beneficiary  (x12 / 母亲
+))      :time  (x1 / 那天
+))
+===========================
+“你这孩子，谁叫你给我买水果罐头的！不是你说买书，妈才舍不得给你这么多钱呢！”
+(x33 / say
+      :arg1  (x35 / and
+            :op1  (x4 / 孩子
+                  :mod  (x3 / 这
+)                  :arg0-of  (x38 / mean
+                        :arg1  (x2 / 你
+)))            :op2  (x7 / 叫-02
+                  :arg1  (x8 / x2
+)                  :arg2  (x11 / 买
+                        :beneficiary  (x10 / 我
+)                        :arg1  (x13 / 罐头
+                              :mod  (x12 / 水果
+)))                  :arg0  (x6 / 谁
+)                  :smood  (x14 / 的
+)                  :mode  (x15 / expressive
+))            :op3  (x49 / condition
+                  :arg1  (x19 / 说-01
+                        :arg1  (x20 / 买-01
+                              :arg1  (x21 / 书
+))                        :arg0  (x18 / x2
+)                        :polarity  (x16 / -
+))                  :arg2  (x25_1_3 / 舍得-01
+                        :polarity  (x25_2 / -
+)                        :arg0  (x23 / x10
+)                        :arg1  (x26 / 给-01
+                              :arg1  (x30 / 钱
+                                    :arg0-of  (x29 / 多-03
+                                          :degree  (x28 / 这么
+)))                              :arg2  (x27 / x2
+)                              :arg0  (x23 / x10
+))                        :mode  (x31_x32 / expressive
+)))))
+===========================
+那天母亲数落了我一顿。
+(x3 / 数落-01
+      :arg0  (x2 / 母亲
+)      :quant  (x6 / 1
+)      :cunit  (x7 / 顿
+)      :time  (x1 / 那天
+)      :aspect  (x4 / 了
+)      :arg2  (x5 / 我
+))
+===========================
+数落完，又给我凑足了够买《青年近卫军》的钱。
+(x17 / temporal
+      :arg1  (x2 / 完-01
+            :arg0  (x1 / 数落
+))      :arg2  (x7 / 凑足-01
+            :arg1  (x15 / 钱
+                  :arg0-of  (x9 / 够-01
+                        :arg1  (x10 / 买-01
+                              :arg1  (x25 / book
+                                    :name  ( x12/青年近卫军 
+)))))            :beneficiary  (x6 / 我
+)            :aspect  (x8 / 了
+)))
+===========================
+我想我没有权利用那钱再买任何别的东西，无论为我自己还是为母亲。
+(x2 / 想-01
+      :arg0  (x1 / 我
+)      :arg1  (x4_2 / 有-01
+            :arg1  (x5 / 权利
+)            :arg0  (x3 / x1
+)            :purpose  (x6 / 用-01
+                  :arg1  (x8 / 钱
+                        :mod  (x7 / 那
+))                  :arg2  (x10 / 买-01
+                        :arg1  (x13 / 东西
+                              :mod  (x11 / 任何
+)                              :mod  (x12 / 别的
+))                        :mod  (x9 / 再
+)                        :beneficiary  (x38 / or
+                              :op1  (x17_x18 / x1
+)                              :op2  (x22 / 母亲
+)))                  :arg0  (x1 / 我
+))))
+===========================
+就这样，我有了第一本长篇小说。
+(x11 / causation
+      :arg1  (x2 / 这样
+            :mod  (x1 / 就
+))      :arg2  (x5 / 有-01
+            :arg0  (x4 / 我
+)            :aspect  (x6 / 了
+)            :arg1  (x9 / 长篇小说
+                  :ord  (x19 / ordinal-entity
+                        :value  (x7 / 1
+)                        :cunit  (x8 / 本
+)))))
+===========================

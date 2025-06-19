@@ -1,0 +1,1076 @@
+两三天前，家里的佣人从山里捉来一只小狐狸。
+(x9_x10 / 捉-01
+      :arg0  (x6 / 佣人
+            :poss  (x4 / 家里
+))      :arg1  (x14 / 狐狸
+            :arg0-of  (x13 / 小-01
+)            :quant  (x11 / 1
+)            :cunit  (x12 / 只
+))      :location  (x8 / 山里
+)      :time  (x2 / 前
+            :op1  (x26 / temporal-quantity
+                  :quant  (x27 / and
+                        :op1  (x1_1 / 2
+)                        :op2  (x1_2 / 3
+))                  :unit  (x1_3 / 天
+))))
+===========================
+直到今天，不论喂什么，它都不吃。
+(x13 / concession
+      :arg1  (x5 / 喂-01
+            :arg1  (x6 / amr-unknown
+))      :arg2  (x11 / 吃-01
+            :arg0  (x8 / 它
+)            :polarity  (x10 / -
+))      :time  (x1 / 直到-01
+            :arg0  (x2 / 今天
+)))
+===========================
+光秃秃的柞树林上边，露出冷清清的月亮。
+(x7 / 露出-01
+      :arg1  (x10 / 月亮
+            :arg0-of  (x8_x9_1_2 / 冷清-01
+))      :location  (x5 / 上边
+            :arg0  (x3_x4 / 柞树林
+                  :arg0-of  (x1 / 光秃秃
+))))
+===========================
+小狐狸孤零零地坐在窝里，仰起脖子叫着。
+(x16 / temporal
+      :arg1  (x5 / 坐-01
+            :arg0  (x2 / 狐狸
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x7 / 窝
+)            :manner  (x3 / 孤零零
+))      :arg2  (x13 / 叫-03
+            :arg0  (x2 / 狐狸
+)            :manner  (x10_x11 / 仰-01
+                  :arg1  (x12 / 脖子
+)                  :arg0  (x2 / 狐狸
+))))
+===========================
+那是一种清脆的、悲伤的声音。
+(x10 / 声音
+      :arg0-of  (x8 / 悲伤-01
+)      :arg0-of  (x5 / 清脆
+)      :quant  (x3 / 1
+)      :unit  (x4 / 种-01
+)      :domain  (x1 / 那
+))
+===========================
+正太郎目不转睛地看着小狐狸。
+(x4 / 看-02
+      :arg0  (x11 / person
+            :name  ( x1/正太郎 
+))      :manner  (x2 / 目不转睛
+)      :aspect  (x5 / 着
+)      :arg1  (x7 / 狐狸
+            :arg0-of  (x6 / 小-01
+)))
+===========================
+他想，小狐狸也许在叫妈妈——妈妈——这小狐狸多可怜呀！
+(x2 / 想-01
+      :arg0  (x1 / 他
+)      :arg1  (x23 / and
+            :op1  (x6 / 也许
+                  :arg0  (x8 / 叫-03
+                        :arg0  (x5 / 狐狸
+                              :arg0-of  (x4 / 小-01
+))                        :aspect  (x7 / 在
+)                        :arg1  (x29 / and
+                              :op1  (x9 / 妈妈
+)                              :op2  (x11 / 妈妈
+))))            :op2  (x17 / 可怜-01
+                  :degree  (x16 / 多
+)                  :arg1  (x15 / x5
+                        :arg0-of  (x14 / 小-01
+)                        :mod  (x13 / 这
+))                  :mode  (x18_x19 / expressive
+))))
+===========================
+这天半夜，秋田狗汪汪地叫着，正太郎被惊醒了。
+(x16 / causation
+      :arg1  (x8 / 叫-03
+            :arg0  (x5 / 狗
+                  :mod  (x4 / 秋田
+))            :manner  (x6 / 汪汪
+)            :aspect  (x9 / 着
+))      :arg2  (x13 / 惊醒-01
+            :arg1  (x24 / person
+                  :name  ( x11/正太郎 
+))            :arg0  (x5 / 狗
+)            :aspect  (x14 / 了
+))      :time  (x2 / 半夜
+            :time  (x1 / 这天
+)))
+===========================
+爸爸、妈妈都睡得十分香甜。
+(x5 / 睡-01
+      :arg0  (x12 / and
+            :op1  (x1 / 爸爸
+)            :op2  (x3 / 妈妈
+))      :extent  (x4 / 都
+)      :manner  (x8 / 香甜
+            :degree  (x7 / 十分
+)))
+===========================
+正太郎悄悄地爬起来，睁大眼睛看着仓房那边。
+(x14 / temporal
+      :arg1  (x3_x4 / 爬-01
+            :arg0  (x17 / person
+                  :name  ( x1/正太郎 
+))            :manner  (x2_1_2 / 悄悄
+                  :arg0  (x17 / person
+)))      :arg2  (x9 / 看-02
+            :arg1  (x12 / 那边
+                  :mod  (x11 / 仓房
+))            :manner  (x6 / 睁-01
+                  :arg1  (x8 / 眼睛
+)                  :arg0  (x17 / person
+)                  :manner  (x7 / 大-01
+                        :arg0  (x8 / 眼睛
+)))            :aspect  (x10 / 着
+)))
+===========================
+只见一只大狐狸正冲着秋田狗大摇大摆地走过来，它嘴里叼着一只哆哆嗦嗦的鸡。
+(x1 / 只见-01
+      :arg1  (x26 / and
+            :op1  (x12_1 / 走-01
+                  :direction  (x12_2_3 / 过来
+)                  :manner  (x10 / 大摇大摆
+)                  :arg0  (x5 / 狐狸
+                        :quant  (x2 / 1
+)                        :cunit  (x3 / 只
+)                        :arg0-of  (x4 / 大-01
+))                  :aspect  (x6 / 正
+)                  :manner  (x7 / 冲-02
+                        :arg1  (x9 / 秋田狗
+)                        :arg0  (x5 / 狐狸
+)                        :aspect  (x8 / 着
+)))            :op2  (x16 / 叼-01
+                  :arg0  (x15 / 嘴里
+                        :part-of  (x14 / x5
+))                  :arg1  (x22 / 鸡
+                        :arg0-of  (x20 / 哆嗦-01
+)                        :quant  (x18 / 1
+)                        :cunit  (x19 / 只
+))                  :aspect  (x17 / 着
+))))
+===========================
+秋田狗猛地扑过去，老狐狸迅速转身逃跑了。
+(x15 / temporal
+      :arg1  (x3 / 扑-02
+            :arg0  (x1 / 秋田狗
+)            :manner  (x2_1 / 猛
+)            :direction  (x4 / 过去
+))      :arg2  (x9 / 转身-01
+            :arg0  (x7 / 狐狸
+                  :arg0-of  (x6 / 老-01
+))            :manner  (x8 / 迅速
+                  :arg0  (x7 / 狐狸
+)))      :arg3  (x10 / 逃跑-01
+            :arg0  (x7 / 狐狸
+)            :aspect  (x11 / 了
+)))
+===========================
+秋田狗向黑暗中追去。
+(x6_x7 / 追-01
+      :arg0  (x1_x2 / 秋田狗
+)      :direction  (x4 / 黑暗
+))
+===========================
+不大工夫，狗叫声就远了。
+(x10 / temporal
+      :arg1  (x1 / 不大
+            :arg0  (x2 / 工夫
+))      :arg2  (x7 / 远-01
+            :arg0  (x5 / 叫声
+                  :poss  (x4 / 狗
+))            :mod  (x6 / 就
+)            :aspect  (x8 / 了
+)))
+===========================
+这时，另一只老狐狸悄悄地出现了。
+(x9 / 出现-01
+      :arg1  (x7 / 狐狸
+            :arg0-of  (x6 / 老-01
+)            :quant  (x4 / 1
+)            :cunit  (x5 / 只
+)            :mod  (x3 / 另
+))      :time  (x1 / 这时
+)      :manner  (x8_1_2 / 悄悄
+            :arg0  (x7 / 狐狸
+))      :aspect  (x10 / 了
+))
+===========================
+小狐狸一见老狐狸，就不停地哼叫着，用鼻子蹭着老狐狸的身子。
+(x27 / condition
+      :arg1  (x4 / 见-01
+            :arg0  (x2 / 狐狸
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x6 / 狐狸
+                  :arg0-of  (x5 / 老-01
+)))      :arg2  (x34 / and
+            :op1  (x12_x13 / 哼叫
+                  :manner  (x10 / 停
+                        :polarity  (x9 / -
+))                  :aspect  (x14 / 着
+))            :op2  (x18 / 蹭-01
+                  :arg0  (x17 / 鼻子
+                        :part-of  (x2 / 狐狸
+))                  :arg1  (x23 / 身子
+                        :part-of  (x21 / x6
+                              :arg0-of  (x20 / 老-01
+)))                  :aspect  (x19 / 着
+))))
+===========================
+它想跟老狐狸走，但是，刚迈出两三步就被铁链拽住了。
+(x22 / contrast
+      :arg1  (x2 / 想-02
+            :arg0  (x1 / 它
+)            :arg1  (x3 / 跟-01
+                  :arg1  (x5 / 狐狸
+                        :arg0-of  (x4 / 老-01
+))                  :purpose  (x6 / 走
+)))      :arg2  (x30 / temporal
+            :arg1  (x11 / 迈出-01
+                  :arg2  (x13 / 步
+                        :quant  (x33 / and
+                              :op1  (x12_1 / 2
+)                              :op2  (x12_2 / 3
+)))                  :time  (x10 / 刚
+)                  :arg0  (x1 / 它
+))            :arg2  (x18_x19 / 拽-01
+                  :arg0  (x17 / 链
+)                  :arg1  (x1 / 它
+))            :aspect  (x20 / 了
+)))
+===========================
+这样反复了两次，老狐狸才发现了铁链。
+(x15 / temporal
+      :arg1  (x2 / 反复
+            :mod  (x1 / 这样
+)            :frequency  (x19 / rate-entity-91
+                  :quant  (x4 / 2
+)                  :unit  (x5 / 次
+))            :aspect  (x3 / 了
+))      :arg2  (x10 / 发现-01
+            :arg0  (x8 / 狐狸
+                  :arg0-of  (x7 / 老-01
+))            :arg1  (x13 / 链
+                  :consist-of  (x12 / 铁
+))            :aspect  (x11 / 了
+)))
+===========================
+它用牙齿拼命地咬，好长时间才明白过来这样做是徒劳的，就卧在地上给小狐狸喂奶。
+(x29 / temporal
+      :arg1  (x6 / 咬-01
+            :arg0  (x1 / 它
+)            :instrument  (x3 / 牙齿
+)            :manner  (x4 / 拼命-01
+                  :arg0  (x1 / 它
+)))      :arg2  (x12_x13 / 明白-01
+            :arg1  (x17 / 徒劳-01
+                  :arg0  (x15 / 做
+                        :mod  (x14 / 这样
+))                  :mode  (x16_x18 / judgement
+))            :time  (x10 / 时间
+                  :arg0-of  (x9 / 长-02
+                        :degree  (x8 / 好
+)))            :arg0  (x1 / 它
+))      :arg3  (x21 / 卧
+            :location  (x23 / 地上
+)            :purpose  (x27 / 喂奶-01
+                  :arg1  (x26 / 狐狸
+                        :arg0-of  (x25 / 小-01
+))                  :arg0  (x1 / 它
+))))
+===========================
+不知什么时候，把狗引出去的狐狸爸爸又回来了。
+(x13 / 回来-01
+      :mod  (x12 / 又
+)      :arg0  (x11 / 爸爸
+            :mod  (x10 / 狐狸
+)            :arg0-of  (x7 / 引-01
+                  :arg1  (x6 / 狗
+)                  :direction  (x8 / 出去-01
+                        :arg0  (x6 / 狗
+))))      :aspect  (x14 / 了
+)      :time  (x1_2 / 知-01
+            :polarity  (x1_1 / -
+)            :arg1  (x3 / 时候
+                  :mod  (x2 / amr-unknown
+))))
+===========================
+它脖子挺得直直的，为它们放哨。
+(x3 / 挺-03
+      :manner  (x5_x6 / 直-01
+            :arg0  (x2 / 脖子
+                  :part-of  (x1 / 它
+)))      :arg0  (x2 / 脖子
+)      :purpose  (x10 / 放哨-01
+            :beneficiary  (x9 / 它们
+)            :arg0  (x1 / 它
+)))
+===========================
+过了一会儿，狐狸爸爸发出了警惕的叫声。
+(x13 / temporal
+      :arg1  (x1 / 过-02
+            :arg1  (x3 / 一会儿
+)            :aspect  (x2 / 了
+))      :arg2  (x7 / 发出-01
+            :arg0  (x6 / 爸爸
+                  :mod  (x5 / 狐狸
+))            :arg1  (x11 / 叫声
+                  :mod  (x9 / 警惕-01
+                        :arg0  (x6 / 爸爸
+)))            :aspect  (x8 / 了
+)))
+===========================
+狐狸妈妈只好从孩子身旁走开。
+(x7 / 走开-01
+      :arg0  (x2 / 妈妈
+            :mod  (x1 / 狐狸
+))      :mod  (x3 / 只好
+)      :source  (x6 / 身旁
+            :part-of  (x5 / 孩子
+)))
+===========================
+两只老狐狸又回头看了看，就消失在黑暗的树林里。
+(x19 / temporal
+      :arg1  (x6 / 回头-01
+            :arg0  (x4 / 狐狸
+                  :arg0-of  (x3 / 老-01
+)                  :quant  (x1 / 2
+)                  :cunit  (x2 / 只
+))            :mod  (x5 / 又
+)            :purpose  (x7_x9 / 看-02
+                  :aspect  (x8 / 了
+)                  :arg0  (x4 / 狐狸
+)))      :arg2  (x12 / 消失-01
+            :arg0  (x4 / 狐狸
+)            :location  (x16 / 树林
+                  :arg0-of  (x14 / 黑暗-01
+))))
+===========================
+后来，老狐狸再没来过。
+(x7 / 来-01
+      :arg0  (x4 / 狐狸
+            :arg0-of  (x3 / 老-01
+))      :mod  (x5 / 再
+)      :polarity  (x6 / -
+)      :aspect  (x8 / 过
+)      :time  (x1 / 后来
+))
+===========================
+“大概是觉得救不出小狐狸，死心了吧。
+(x15 / say
+      :arg1  (x17 / causation
+            :arg1  (x2 / 大概
+                  :arg0  (x4 / 觉得-01
+                        :arg1  (x5_x7 / 救出-01
+                              :arg1  (x9 / 狐狸
+                                    :arg0-of  (x8 / 小-01
+))                              :polarity  (x6 / -
+))))            :arg2  (x11 / 死心-01
+                  :aspect  (x12 / 了
+)                  :mode  (x13 / expressive
+))))
+===========================
+不如早一点给小狐狸解开铁链子，这个样子真可怜。”正太郎想。
+(x17 / 想-01
+      :arg0  (x21 / person
+            :name  ( x16/正太郎 
+))      :arg1  (x23 / and
+            :op1  (x1 / 不如-01
+                  :arg1  (x7 / 解开-01
+                        :arg1  (x9 / 链子
+)                        :beneficiary  (x6 / 狐狸
+                              :arg0-of  (x5 / 小-01
+))                        :time  (x2_x3 / 早一点
+)                        :arg0  (x21 / person
+)))            :op2  (x14 / 可怜-01
+                  :degree  (x13 / 真
+)                  :arg0  (x12 / 样子
+                        :mod  (x11_1 / 这
+)                        :cunit  (x11_2 / 个
+)))))
+===========================
+奇怪的是，小狐狸虽然仍旧不吃东西，却在一天天长大。
+(x19 / contrast
+      :arg1  (x10 / 吃-01
+            :arg1  (x11 / 东西
+)            :polarity  (x9 / -
+)            :arg0  (x6 / 狐狸
+                  :arg0-of  (x5 / 小-01
+))            :mod  (x8 / 仍旧
+))      :arg2  (x16 / 长-03
+            :arg1  (x17 / 大
+)            :quant  (x15 / 一天天
+)            :aspect  (x14 / 在
+)            :arg0  (x6 / 狐狸
+))      :domain  (x31 / thing
+            :arg0-of  (x1 / 奇怪-01
+)))
+===========================
+这天中午，正太郎漫不经心地走到小狐狸的窝旁，忽然听见喀嚓一声。
+(x21 / temporal
+      :arg1  (x7_x8 / 走到-01
+            :arg0  (x25 / person
+                  :name  ( x4/正太郎 
+))            :manner  (x5 / 漫不经心
+)            :arg1  (x13 / 旁
+                  :arg0  (x12 / 窝
+                        :poss  (x10 / 狐狸
+                              :arg0-of  (x9 / 小-01
+)))))      :arg2  (x16 / 听见-01
+            :arg1  (x19 / 声
+                  :quant  (x18 / 1
+)                  :arg0-of  (x35 / mean
+                        :arg1  (x17 / 喀嚓
+)))            :mod  (x15 / 忽然
+)            :arg0  (x25 / person
+))      :time  (x2 / 中午
+            :time  (x1 / 这天
+)))
+===========================
+周围什么也没有，湿漉漉的地面上，却分明印着狐狸的脚印。
+(x19 / contrast
+      :arg1  (x4_2 / 有-03
+            :arg0  (x1 / 周围
+)            :arg1  (x2 / 什么
+)            :polarity  (x4_1 / -
+)            :mod  (x3 / 也
+))      :arg2  (x13 / 印-01
+            :arg1  (x17 / 脚印
+                  :poss  (x15 / 狐狸
+))            :aspect  (x14 / 着
+)            :manner  (x12 / 分明
+)            :location  (x8 / 地面
+                  :arg0-of  (x6 / 湿漉漉
+))))
+===========================
+“哈哈！居然敢在白天来，可真够大胆啊！”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x2 / 哈哈
+                  :mode  (x3 / expressive
+))            :op2  (x21 / and
+                  :op1  (x5 / 敢-02
+                        :arg1  (x8 / 来-01
+                              :time  (x7 / 白天
+))                        :mod  (x4 / 居然
+))                  :op2  (x12 / 够-01
+                        :arg1  (x13 / 大胆
+)                        :degree  (x11 / 真
+)                        :mod  (x10 / 可
+)                        :mode  (x14_x15 / expressive
+)))))
+===========================
+正太郎忽然又明白了狐狸在白天出现的缘故，“对啦，狗在白天是拴着的呀！”
+(x25 / and
+      :op1  (x4 / 明白-01
+            :arg1  (x11 / 缘故
+                  :cause-of  (x9 / 出现-01
+                        :arg0  (x6 / 狐狸
+)                        :time  (x8 / 白天
+)))            :aspect  (x5 / 了
+)            :arg0  (x33 / person
+                  :name  ( x1/正太郎 
+))            :mod  (x2 / 忽然
+)            :mod  (x3 / 又
+))      :op2  (x38 / say
+            :arg1  (x39 / and
+                  :op1  (x13 / 对
+                        :mode  (x14 / expressive
+))                  :op2  (x20 / 拴-01
+                        :arg1  (x16 / 狗
+)                        :time  (x18 / 白天
+)                        :mode  (x19_x22 / judgement
+)                        :aspect  (x21 / 着
+)                        :mode  (x23_x24 / expressive
+)))))
+===========================
+可是，它们怎么逃得那么快呢？
+(x11 / contrast
+      :arg2  (x5 / 逃-01
+            :arg0  (x3 / 它们
+)            :cause  (x4 / amr-unknown
+)            :manner  (x8 / 快
+                  :degree  (x7 / 那么
+))            :mode  (x9_x10 / interrogative
+)))
+===========================
+刚听见一点声响就无影无踪了！
+(x10 / condition
+      :arg1  (x2 / 听见-01
+            :arg1  (x4_x5 / 声响
+                  :quant  (x3 / 一点
+)))      :arg2  (x7 / 无影无踪
+            :aspect  (x8 / 了
+))      :mode  (x9 / expressive
+))
+===========================
+正太郎探头往地板下面看时，不禁吓了一跳。
+(x15 / temporal
+      :arg1  (x6 / 看-01
+            :arg0  (x18 / person
+                  :name  ( x1/正太郎 
+))            :manner  (x2 / 探头-01
+                  :arg0  (x18 / person
+))            :direction  (x5 / 下面
+                  :arg0  (x4 / 地板
+)))      :arg2  (x9 / 不禁
+            :arg1  (x10_x12_x13 / 吓一跳
+                  :aspect  (x11 / 了
+))))
+===========================
+四只闪着青光的眼睛正直勾勾地盯着他。
+(x12 / 盯-01
+      :arg0  (x8 / 眼睛
+            :arg1-of  (x3 / 闪-01
+                  :arg0  (x6 / 光
+                        :arg0-of  (x5 / 青
+))                  :aspect  (x4 / 着
+))            :quant  (x1 / 4
+)            :cunit  (x2 / 只
+))      :manner  (x10 / 直勾勾
+)      :arg1  (x14 / 他
+)      :aspect  (x13 / 着
+)      :aspect  (x9 / 正
+))
+===========================
+那正是小狐狸的父母。
+(x6 / 父母
+      :poss  (x4 / 狐狸
+            :arg0-of  (x3 / 小-01
+))      :domain  (x1 / 那
+))
+===========================
+它们瞪了正太郎一会儿，就悄悄地攀着从地板底下通向上面房间的砖块，爬到镶着地炉的地方，不见了。
+(x32 / temporal
+      :arg1  (x2 / 瞪-01
+            :arg0  (x1 / 它们
+)            :arg1  (x36 / person
+                  :name  ( x4/正太郎 
+))            :aspect  (x3 / 了
+)            :duration  (x5 / 一会儿
+))      :arg2  (x9 / 攀-01
+            :arg0  (x1 / 它们
+)            :manner  (x8_1_2 / 悄悄-01
+                  :arg0  (x1 / 它们
+))            :arg1  (x18 / 砖块
+                  :arg0-of  (x14 / 通向-01
+                        :arg1  (x13 / 底下
+                              :arg0  (x12 / 地板
+))                        :arg2  (x16 / 房间
+                              :location  (x15 / 上面
+))))            :aspect  (x10 / 着
+))      :arg3  (x20_x21 / 爬到-01
+            :arg1  (x27 / 地方
+                  :location-of  (x22 / 镶-01
+                        :arg0  (x24_x25 / 地炉
+)                        :aspect  (x23 / 着
+))))      :arg4  (x29_2 / 见-01
+            :polarity  (x29_1 / -
+)            :arg1  (x1 / 它们
+)            :aspect  (x30 / 了
+)))
+===========================
+老狐狸在地板下面做了窝！
+(x6 / 做-01
+      :arg1  (x8 / 窝
+)      :arg0  (x2 / 狐狸
+            :arg0-of  (x1 / 老-01
+))      :aspect  (x7 / 了
+)      :location  (x5 / 下面
+            :arg0  (x4 / 地板
+))      :mode  (x9 / expressive
+))
+===========================
+正太郎发现两只老狐狸跟以前相比，毛色黯淡，可能是由于惦记小狐狸，明显地消瘦了。
+(x26 / and
+      :op1  (x2 / 发现-01
+            :arg0  (x29 / person
+                  :name  ( x1/正太郎 
+))            :arg1  (x12 / 黯淡-01
+                  :arg0  (x11 / 毛色
+                        :poss  (x6 / 狐狸
+                              :quant  (x3 / 2
+)                              :cunit  (x4 / 只
+)                              :arg0-of  (x5 / 老-01
+)))                  :compared-to  (x37 / animal
+                        :dcopy  (x6 / 狐狸
+)                        :time  (x8 / 以前
+))))      :op2  (x39 / causation
+            :arg1  (x14 / 可能-01
+                  :arg0  (x17 / 惦记-01
+                        :arg1  (x19 / 狐狸
+                              :arg0-of  (x18 / 小-01
+))                        :arg0  (x6 / 狐狸
+)))            :arg2  (x23 / 消瘦
+                  :manner  (x21 / 明显
+)                  :arg0  (x6 / 狐狸
+)                  :aspect  (x24 / 了
+))))
+===========================
+正太郎真想替小狐狸解开铁链子。
+(x3 / 想-02
+      :arg1  (x4 / 替-01
+            :arg0  (x14 / person
+                  :name  ( x1/正太郎 
+))            :arg1  (x6 / 狐狸
+                  :arg0-of  (x5 / 小-01
+))            :arg2  (x7 / 解开-01
+                  :arg1  (x9 / 链子
+                        :consist-of  (x8 / 铁
+))                  :arg0  (x14 / person
+)))      :arg0  (x14 / person
+)      :degree  (x2 / 真
+))
+===========================
+就在这时，老狐狸开始做一件不寻常的工作，让他打消了这个念头：老狐狸觉察到无论如何也咬不断那铁链，就咬那根拴铁链的木桩。
+(x43 / and
+      :op1  (x16 / 让-02
+            :arg0  (x7 / 开始-01
+                  :arg0  (x6 / 狐狸
+                        :arg0-of  (x5 / 老-01
+))                  :arg1  (x8 / 做-01
+                        :arg1  (x14 / 工作
+                              :arg0-of  (x12 / 寻常-01
+                                    :polarity  (x11 / -
+))                              :quant  (x9 / 1
+)                              :cunit  (x10 / 件
+))                        :arg0  (x6 / 狐狸
+)))            :arg1  (x17 / 他
+)            :arg2  (x18 / 打消-01
+                  :arg1  (x21 / 念头
+                        :mod  (x20_1 / 这
+)                        :cunit  (x20_2 / 个
+))                  :aspect  (x19 / 了
+))            :time  (x3 / 这时
+))      :op2  (x61 / causation
+            :arg1  (x25_x26 / 觉察-01
+                  :arg0  (x24 / x6
+                        :arg0-of  (x23 / 老-01
+))                  :arg1  (x29_x30_2 / 咬断
+                        :polarity  (x30_1 / -
+)                        :arg1  (x31_2_3 / 铁链
+                              :mod  (x31_1 / 那
+))                        :condition  (x27 / 无论如何
+)                        :mod  (x28 / 也
+)))            :arg2  (x34 / 咬-01
+                  :arg1  (x41 / 木桩
+                        :mod  (x35 / 那
+)                        :arg2-of  (x37 / 拴-01
+                              :arg1  (x39 / 链
+                                    :consist-of  (x38 / 铁
+)))                        :unit  (x36 / 根
+)))))
+===========================
+正太郎想，让老狐狸用自己的力量救出小狐狸，可能更好一些。
+(x2 / 想-01
+      :arg0  (x22 / person
+            :name  ( x1/正太郎 
+))      :arg1  (x15 / 可能-01
+            :arg0  (x17 / 好-01
+                  :degree  (x16 / 更
+)                  :degree  (x18 / 一些
+)                  :arg0  (x4 / 让-02
+                        :arg1  (x6 / 狐狸
+                              :arg0-of  (x5 / 老-01
+))                        :arg1  (x11 / 救出-01
+                              :arg1  (x13 / 狐狸
+                                    :arg0-of  (x12 / 小-01
+))                              :arg0  (x6 / 狐狸
+)                              :instrument  (x10 / 力量
+                                    :poss  (x8 / x6
+)))))))
+===========================
+正太郎决定给饿着肚子的老狐狸投送食物。
+(x2 / 决定-01
+      :arg0  (x15 / person
+            :name  ( x1/正太郎 
+))      :arg1  (x10 / 投送-01
+            :arg1  (x11 / 食物
+)            :arg2  (x9 / 狐狸
+                  :arg0-of  (x8 / 老-01
+)                  :mod  (x4 / 饿-01
+                        :arg0  (x6 / 肚子
+)                        :aspect  (x5 / 着
+)))            :arg0  (x15 / person
+)))
+===========================
+每逢家里做过油肉、炸豆腐什么的，他就留下一些，扔到地板下面；还每天把一杯牛奶倒在地板下面那只破碗里。
+(x37 / and
+      :op1  (x39 / temporal
+            :arg1  (x14 / 留下-01
+                  :arg0  (x12 / 他
+)                  :time  (x1 / 每逢-01
+                        :arg0  (x3 / 做-01
+                              :arg1  (x44 / and
+                                    :op1  (x4_x5_x6 / 过油肉
+)                                    :op2  (x8 / 炸豆腐
+)                                    :op3  (x9 / amr-unknown
+                                          :smood  (x10 / 的
+))                                    :quant  (x15 / 一些
+))                              :arg0  (x2 / 家里
+)))                  :mod  (x13 / 就
+)                  :arg1  (x44 / and
+))            :arg2  (x17_x18 / 扔到-01
+                  :arg1  (x20 / 下面
+                        :arg0  (x19 / 地板
+))                  :arg0  (x12 / 他
+)                  :arg2  (x44 / and
+)))      :op2  (x28 / 倒-01
+            :arg1  (x27 / 牛奶
+                  :quant  (x25 / 1
+)                  :unit  (x26 / 杯
+))            :frequency  (x59 / rate-entity-91
+                  :arg3  (x60 / temporal-quantity
+                        :quant  (x23_1 / 1
+)                        :unit  (x23_2 / 天
+)))            :location  (x34 / 破碗
+                  :mod  (x32 / 那
+)                  :cunit  (x33 / 只
+)                  :location  (x31 / 下面
+                        :arg0  (x30 / 地板
+)))            :mod  (x22 / 还
+)))
+===========================
+过了一个月，老狐狸和正太郎熟悉了，有时家里没有别人，正太郎的屋门就会轻轻响一声，两只狐狸从门缝里挤进来，舔正太郎的手，轻松自在地在屋里慢腾腾地踱来踱去。
+(x53 / temporal
+      :arg1  (x1 / 过-02
+            :arg1  (x56 / temporal-quantity
+                  :quant  (x3_1_2 / 1
+)                  :unit  (x3_3 / 月
+))            :aspect  (x2 / 了
+))      :arg2  (x9 / 熟悉-01
+            :arg0  (x6 / 狐狸
+                  :arg0-of  (x5 / 老
+))            :arg1  (x63 / person
+                  :name  ( x8/正太郎 
+)))      :arg3  (x21 / 会-02
+            :arg0  (x23 / 响-01
+                  :arg0  (x19 / 屋门
+                        :poss  (x17 / x63
+))                  :manner  (x22 / 轻
+)                  :quant  (x24 / 1
+)                  :cunit  (x25 / 声
+))            :mod  (x20 / 就
+)            :condition  (x14_2 / 有-03
+                  :polarity  (x14_1 / -
+)                  :arg0  (x13 / 家里
+)                  :arg1  (x15 / 别人
+)                  :time  (x12 / 有时
+)))      :arg4  (x33 / 挤-03
+            :arg1  (x31 / 门缝
+)            :arg0  (x29 / x6
+                  :quant  (x27 / x63
+)                  :cunit  (x28 / 只
+))            :direction  (x34 / 进来
+))      :arg5  (x36 / 舔-01
+            :arg1  (x39 / 手
+                  :part-of  (x27 / x63
+))            :arg0  (x6 / 狐狸
+))      :arg6  (x48_x50 / 踱-01
+            :manner  (x41 / 轻松
+)            :manner  (x42 / 自在
+)            :location  (x45 / 屋里
+)            :manner  (x46 / 慢腾腾
+)            :direction  (x49_x51 / 来去
+)            :arg0  (x6 / 狐狸
+)))
+===========================
+小狐狸见到正太郎时，也会用它那粗糙的粉红色的舌头柔和地舔他的手。
+(x26 / condition
+      :arg1  (x3 / 见到-01
+            :arg0  (x2 / 狐狸
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x31 / person
+                  :name  ( x4/正太郎 
+)))      :arg2  (x8 / 会-02
+            :arg0  (x19 / 舔-01
+                  :instrument  (x16 / 舌头
+                        :arg0-of  (x14 / 粉红色
+)                        :arg0-of  (x12 / 粗糙-01
+)                        :mod  (x11 / 那
+)                        :part-of  (x10 / x2
+))                  :manner  (x17 / 柔和
+)                  :arg1  (x22 / 手
+                        :part-of  (x20 / x4
+)))))
+===========================
+老狐狸一直没有忘记救出小狐狸的事。
+(x5 / 忘记-01
+      :arg0  (x2 / 狐狸
+            :arg0-of  (x1 / 老-01
+))      :polarity  (x4 / -
+)      :time  (x3 / 一直
+)      :arg1  (x10 / 事
+            :topic  (x6 / 救出-01
+                  :arg1  (x8 / 狐狸
+                        :arg0-of  (x7 / 小-01
+))                  :arg0  (x2 / 狐狸
+))))
+===========================
+渐渐地，木桩被啃得很细了。
+(x5 / 啃-01
+      :arg1  (x3 / 木桩
+)      :arg0  (x14 / animal
+)      :cause-of  (x8 / 细-01
+            :arg0  (x4 / 被
+)            :degree  (x7 / 很
+)            :aspect  (x9 / 了
+))      :time  (x1 / 渐渐地
+))
+===========================
+老狐狸用自己的力量，把小狐狸救出来的时候，该是多么欢喜呀！
+(x16 / 该
+      :mode  (x20_x21 / expressive
+)      :arg0  (x19 / 欢喜
+            :arg1  (x11 / 救
+                  :arg0  (x2 / 狐狸
+                        :arg0-of  (x1 / 老-01
+)                        :arg0-of  (x1 / 老-01
+))                  :arg1  (x10 / 狐狸
+                        :arg0-of  (x9 / 小-01
+))                  :direction  (x12 / 出来
+)                  :instrument  (x6 / 力量
+                        :poss  (x4 / x2
+)))            :degree  (x18 / 多么
+)))
+===========================
+正太郎一想到这些，泪水就不由得涌上眼眶。
+(x13 / condition
+      :arg1  (x3 / 想到-01
+            :arg0  (x16 / person
+                  :name  ( x1/正太郎 
+))            :arg1  (x4 / 这些
+))      :arg2  (x9_x10 / 涌上-01
+            :arg1  (x11 / 眼眶
+)            :arg0  (x6 / 泪水
+)            :mod  (x8 / 不由得
+)))
+===========================
+一天，正太郎放学回家，经过仓房，往小狐狸的窝里探头一望，却连小狐狸的影子也没看到。
+(x30 / temporal
+      :arg1  (x4 / 放学-01
+            :arg0  (x33 / person
+                  :name  ( x3/正太郎 
+)))      :arg2  (x5 / 回家-01
+            :arg0  (x33 / person
+))      :arg0  (x7 / 经过-01
+            :arg1  (x8 / 仓房
+)            :arg0  (x33 / person
+))      :arg2  (x38 / contrast
+            :arg1  (x18 / 望-01
+                  :mod  (x17 / 一
+)                  :manner  (x16 / 探头-01
+                        :arg0  (x33 / person
+))                  :arg0  (x33 / person
+)                  :direction  (x14 / 窝
+                        :poss  (x12 / 狐狸
+                              :arg0-of  (x11 / 小-01
+))))            :arg2  (x45 / concession
+                  :arg1  (x25 / 影子
+                        :poss  (x23 / x12
+                              :arg0-of  (x22 / 小-01
+))                        :arg2  (x28 / 看到-01
+                              :polarity  (x27 / -
+)                              :arg1  (x25 / 影子
+)))))      :time  (x1 / 一天
+))
+===========================
+他急忙去问妈妈，妈妈告诉他，小狐狸让安田先生带走了。
+(x19 / temporal
+      :arg1  (x4 / 问-01
+            :arg0  (x1 / 他
+)            :manner  (x2 / 急忙
+)            :arg2  (x5 / 妈妈
+))      :arg2  (x8 / 告诉-01
+            :arg0  (x7 / x5
+)            :arg2  (x9 / x1
+)            :arg1  (x16 / 带走-01
+                  :arg0  (x15 / 先生
+                        :name  ( x14/安田 
+))                  :arg1  (x12 / 狐狸
+                        :arg0-of  (x11 / 小-01
+))                  :aspect  (x17 / 了
+))))
+===========================
+正太郎急了，他说，必须把小狐狸还给它的父母。
+(x17 / temporal
+      :arg1  (x2 / 急-01
+            :arg0  (x20 / person
+                  :name  ( x1/正太郎 
+))            :aspect  (x3 / 了
+))      :arg2  (x6 / 说-01
+            :arg0  (x5 / x20
+)            :arg1  (x8 / 必须-01
+                  :arg0  (x12 / 还给-01
+                        :arg1  (x11 / 狐狸
+                              :arg0-of  (x10 / 小-01
+))                        :arg2  (x15 / 父母
+                              :poss  (x13 / x11
+))                        :arg0  (x20 / person
+)))))
+===========================
+说完，就朝山那边安田先生的牧场跑去。
+(x20 / temporal
+      :arg1  (x1 / 说完-01
+)      :arg2  (x11 / 跑-01
+            :arg3  (x10 / 牧场
+                  :poss  (x8 / 先生
+                        :name  ( x7/安田 
+))                  :location  (x6 / 那边
+                        :arg0  (x5 / 山
+)))))
+===========================
+正太郎跑着跑着，一不小心踩到了悬崖边的积雪上，和雪块一起头朝下栽了下去，失去了知觉。
+(x32 / temporal
+      :arg1  (x2_x4 / 跑-01
+            :arg0  (x35 / person
+                  :name  ( x1/正太郎 
+))            :aspect  (x3_x5 / 着
+))      :arg2  (x8_x9 / 踩到-01
+            :arg1  (x14 / 积雪
+                  :location  (x12 / 边
+                        :arg0  (x11 / 悬崖
+)))            :aspect  (x10 / 了
+)            :manner  (x7 / 一不小心
+))      :arg3  (x24 / 栽-02
+            :direction  (x26 / 下去
+)            :arg0  (x17_x20 / and
+                  :op1  (x35 / person
+)                  :op2  (x18_x19 / 雪块
+))            :manner  (x22 / 朝-01
+                  :arg0  (x21 / 头
+)                  :direction  (x23 / 下
+)))      :arg4  (x28 / 失去-01
+            :aspect  (x29 / 了
+)            :arg1  (x30 / 知觉
+)))
+===========================
+不知过了多长时间，正太郎觉得脸蛋热乎乎的。
+(x1_2 / 知-01
+      :polarity  (x1_1 / -
+)      :arg1  (x18 / temporal
+            :arg1  (x2 / 过-02
+                  :arg1  (x6 / 时间
+                        :mod  (x21 / temporal-quantity
+                              :quant  (x4_x5 / amr-unknown
+)))                  :aspect  (x3 / 了
+))            :arg2  (x9 / 觉得-01
+                  :arg0  (x25 / person
+                        :name  ( x8/正太郎 
+))                  :arg1  (x11 / 热乎乎
+                        :arg0  (x10 / 脸蛋
+)                        :smood  (x12 / 的
+)))))
+===========================
+他费力地睁开眼睛，蒙胧中看见一只大狐狸正在不停地舔着他的脸颊。
+(x24 / temporal
+      :arg1  (x4_x5 / 睁开-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 眼睛
+)            :manner  (x2 / 费力
+))      :arg2  (x10 / 看见-01
+            :condition  (x8 / 蒙胧
+)            :arg1  (x18 / 舔-01
+                  :arg0  (x14 / 狐狸
+                        :arg0-of  (x13 / 大-01
+)                        :quant  (x11 / 1
+)                        :cunit  (x12 / 只
+))                  :aspect  (x15 / 正在
+)                  :manner  (x16 / 不停
+)                  :arg1  (x22 / 脸颊
+                        :part-of  (x20 / x1
+))                  :aspect  (x19 / 着
+))))
+===========================
+另一只狐狸蹲在他的胸脯上，温暖着他的身体。
+(x18 / and
+      :op1  (x5 / 蹲-01
+            :arg0  (x4 / 狐狸
+                  :mod  (x1 / 另
+)                  :quant  (x2 / 1
+)                  :cunit  (x3 / 只
+))            :arg1  (x9 / 胸脯
+                  :part-of  (x7 / 他
+)))      :op2  (x12 / 温暖-01
+            :arg1  (x16 / 身体
+                  :part-of  (x14 / x7
+))            :aspect  (x13 / 着
+)))
+===========================
+第二天，正太郎把小狐狸要了回来，和爸爸一起到山谷里把它放了。
+(x22 / temporal
+      :arg1  (x7 / 要-01
+            :arg0  (x25 / person
+                  :name  ( x3/正太郎 
+))            :arg1  (x6 / 狐狸
+                  :arg0-of  (x5 / 小-01
+))            :direction  (x9 / 回来
+)            :aspect  (x8 / 了
+))      :time  (x31 / ordinal-entity
+            :value  (x1_1_2 / 2
+)            :unit  (x1_3 / 天
+))      :arg2  (x14 / 到-01
+            :arg0  (x11_x13 / and
+                  :op1  (x25 / person
+)                  :op2  (x12 / 爸爸
+))            :arg1  (x15 / 山谷
+))      :arg3  (x19 / 放-02
+            :arg1  (x18 / x6
+)            :aspect  (x20 / 了
+)))
+===========================
+小狐狸刚跑出十几米远，老狐狸不知从什么地方奔了过来，兴高采烈地在小狐狸周围跳来跳去，然后一齐嗖地朝树林深处跑去了。
+(x42 / temporal
+      :arg1  (x4_x5 / 跑出-02
+            :arg0  (x2 / 狐狸
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x8 / distance-quantity
+                  :quant  (x6 / 十几
+)                  :unit  (x7 / 米
+))            :time  (x3 / 刚
+))      :arg2  (x12_2 / 知-01
+            :polarity  (x12_1 / -
+)            :arg1  (x16 / 奔-01
+                  :arg1  (x18 / 过来
+)                  :source  (x14_x15 / amr-unknown
+)                  :arg0  (x11 / 狐狸
+                        :arg0-of  (x10 / 老-01
+))                  :aspect  (x17 / 了
+)))      :arg3  (x26_x27_x28_x29 / 跳来跳去
+            :manner  (x20 / 兴高采烈
+)            :location  (x25 / 周围
+                  :arg0  (x24 / x2
+                        :arg0-of  (x23 / 小-01
+))))      :arg4  (x38_x39 / 跑去-01
+            :arg1  (x37 / 深处
+                  :location  (x36 / 树林
+))            :manner  (x32 / 一齐
+)            :manner  (x33 / 嗖
+)            :aspect  (x40 / 了
+)))
+===========================
+迎着耀眼的朝阳，狐狸们的脚印闪着金色的光芒，一直延伸到密林深处。
+(x23 / and
+      :op1  (x1 / 迎-01
+            :arg1  (x5 / 朝阳
+                  :arg0-of  (x3 / 耀眼-01
+))            :aspect  (x2 / 着
+))      :op2  (x11 / 闪-01
+            :arg1  (x10 / 脚印
+                  :poss  (x7_x8 / 狐狸们
+))            :arg0  (x15 / 光芒
+                  :arg0-of  (x13 / 金色
+))            :aspect  (x12 / 着
+))      :op3  (x18 / 延伸-01
+            :arg2  (x21 / 深处
+                  :location  (x20 / 密林
+))            :manner  (x17 / 一直
+)))
+===========================

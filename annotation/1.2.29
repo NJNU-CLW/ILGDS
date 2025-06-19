@@ -1,0 +1,254 @@
+很久以前，有位国王要挑选一个孩子做继承人。
+(x8 / 要-03
+      :time  (x3 / 以前
+            :op1  (x2 / 久
+                  :degree  (x1 / 很
+)))      :arg0  (x9 / 挑选-01
+            :arg0  (x7 / 国王
+                  :arg1-of  (x5 / 有-06
+)                  :cunit  (x6 / 位
+))            :arg1  (x12 / 孩子
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 个
+)                  :arg0-of  (x13 / 做-02
+                        :arg1  (x14 / 继承人
+)))))
+===========================
+国王吩咐大臣给全国的每个孩子发一些花种，并宣布:谁能用这些种子培育出最美的花，谁就是他的继承人。
+(x34 / and
+      :op1  (x2 / 吩咐-01
+            :arg0  (x1 / 国王
+)            :arg1  (x3 / 大臣
+)            :arg2  (x9 / 发-02
+                  :arg0  (x3 / 大臣
+)                  :arg1  (x11 / 花种
+                        :quant  (x10 / 一些
+))                  :arg2  (x8 / 孩子
+                        :mod  (x7 / 每个
+)                        :range  (x5 / 全国
+))))      :op2  (x14 / 宣布-01
+            :arg0  (x1 / 国王
+)            :arg1  (x46 / condition
+                  :arg1  (x17 / 能-01
+                        :arg0  (x18 / 用-01
+                              :arg0  (x16 / 谁
+)                              :arg1  (x20 / 种子
+                                    :mod  (x19 / 这些
+))                              :arg2  (x21 / 培育-01
+                                    :arg0  (x16 / 谁
+)                                    :arg1  (x20 / 种子
+)                                    :cause-of  (x22 / 出-07
+                                          :arg1  (x26 / 花
+                                                :arg0-of  (x24 / 美-01
+                                                      :degree  (x23 / 最
+)))))))                  :arg2  (x32 / 继承人
+                        :poss  (x30 / 他
+)                        :domain  (x28 / x16
+)))))
+===========================
+有个叫雄日的孩子，他十分用心地培育花种。
+(x15 / and
+      :op1  (x1 / 有-03
+            :arg1  (x6 / 孩子
+                  :cunit  (x2 / 个
+)                  :arg0-of  (x3 / 叫-01
+                        :arg1  (x21 / person
+                              :name  ( x4/雄日 
+)))))      :op2  (x12 / 培育-01
+            :arg0  (x8 / x6
+)            :arg1  (x13 / 花种
+)            :manner  (x10 / 用心
+                  :degree  (x9 / 十分
+))))
+===========================
+十天过去了，一个月过去了，花盆里的种子却不见发芽。
+(x32 / contrast
+      :arg1  (x34 / temporal
+            :arg1  (x3 / 过去-01
+                  :arg0  (x23 / temporal-quantity
+                        :quant  (x1 / 10
+)                        :unit  (x2 / 天
+))                  :aspect  (x4 / 了
+))            :arg2  (x9 / 过去-01
+                  :arg0  (x25 / temporal-quantity
+                        :quant  (x6_x7 / 1
+)                        :unit  (x8 / 月
+))                  :aspect  (x10 / 了
+)))      :arg2  (x17_2 / 见-01
+            :polarity  (x17_1 / -
+)            :arg1  (x18 / 发芽-01
+                  :arg0  (x15 / 种子
+                        :location  (x13 / 里
+                              :arg0  (x12 / 花盆
+))))))
+===========================
+雄日又给种子施了些肥，浇了点水。
+(x15 / and
+      :op1  (x5_x8 / 施肥-01
+            :aspect  (x6 / 了
+)            :quant  (x7 / 些
+)            :arg0  (x26 / person
+                  :name  ( x1/雄日 
+))            :mod  (x2 / 又
+)            :arg1  (x4 / 种子
+))      :op2  (x10_x13 / 浇水-01
+            :arg0  (x26 / person
+)            :aspect  (x11 / 了
+)            :arg1  (x4 / 种子
+)            :mod  (x2 / 又
+)))
+===========================
+他天天看啊，看啊，种子就是不发芽。
+(x14 / contrast
+      :arg1  (x16 / and
+            :op1  (x3 / 看
+                  :arg0  (x1 / 他
+)                  :mode  (x4 / expressive
+))            :op2  (x6 / 看
+                  :mode  (x7 / expressive
+)                  :arg0  (x1 / 他
+))            :frequency  (x2 / 天天
+))      :arg2  (x12 / 发芽-01
+            :arg0  (x9 / 种子
+)            :polarity  (x11 / -
+)))
+===========================
+国王规定的日子到了。
+(x5 / 到-01
+      :arg1  (x4 / 日子
+            :arg1-of  (x2 / 规定-01
+                  :arg0  (x1 / 国王
+)))      :aspect  (x6 / 了
+))
+===========================
+许许多多的孩子捧着盛开着鲜花的花盆拥上街头。
+(x11 / 拥
+      :arg0  (x3 / 孩子
+            :quant  (x1 / 许许多多
+))      :manner  (x4 / 捧-01
+            :arg0  (x3 / 孩子
+)            :aspect  (x5 / 着
+)            :arg1  (x10 / 花盆
+                  :location-of  (x8 / 鲜花
+                        :arg0-of  (x6 / 盛开-01
+                              :aspect  (x7 / 着
+)))))      :arg1  (x13 / 街头
+))
+===========================
+国王从孩子们的面前走过，看着一盆盆鲜花，脸上没有一丝高兴的表情。
+(x24 / and
+      :op1  (x7 / 走过-01
+            :arg0  (x1 / 国王
+)            :arg1  (x6 / 面前
+                  :arg0  (x3_x4 / 孩子们
+)))      :op2  (x9 / 看-02
+            :arg0  (x1 / 国王
+)            :aspect  (x10 / 着
+)            :arg1  (x14 / 鲜花
+                  :quant  (x11_x12_x13 / 一盆盆
+)))      :op3  (x17_2 / 有-03
+            :arg0  (x16 / 脸上
+                  :part-of  (x3_x4 / 孩子们
+))            :polarity  (x17_1 / -
+)            :arg1  (x22 / 表情
+                  :mod  (x20 / 高兴
+                        :quant  (x18 / 1
+)                        :cunit  (x19 / 丝
+)))))
+===========================
+突然，国王看见了手捧空花盆的雄日。
+(x4 / 看见-01
+      :manner  (x1 / 突然
+)      :aspect  (x5 / 了
+)      :arg1  (x17 / person
+            :name  ( x11/雄日 
+                  :mod  (x7 / 捧-01
+                        :arg0  (x6 / 手
+                              :part-of  (x17 / person
+))                        :arg1  (x9 / 花盆
+                              :arg0-of  (x8 / 空-01
+)))))      :arg0  (x3 / 国王
+))
+===========================
+他停下来问:“你怎么捧着空花盆呢?”
+(x14 / temporal
+      :arg1  (x2_x3 / 停-01
+            :arg0  (x1 / 他
+))      :arg2  (x4 / 问-01
+            :arg0  (x1 / 他
+)            :arg1  (x8 / 捧-01
+                  :arg0  (x6 / 你
+)                  :cause  (x7 / amr-unknown
+)                  :aspect  (x9 / 着
+)                  :arg1  (x11 / 花盆
+                        :arg0-of  (x10 / 空-01
+))                  :mode  (x12_x13 / interrogative
+))))
+===========================
+雄日把花种不发芽的经过告诉了国王。
+(x8 / 告诉-01
+      :arg0  (x14 / person
+            :name  ( x1/雄日 
+))      :arg1  (x7 / 经过
+            :topic  (x5 / 发芽-01
+                  :polarity  (x4 / -
+)                  :arg0  (x3 / 花种
+)))      :arg2  (x10 / 国王
+)      :aspect  (x9 / 了
+))
+===========================
+国王听了，高兴地拉着他的手，说:“你就是我的继承人!”
+(x21 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x1 / 国王
+)            :aspect  (x3 / 了
+))      :arg2  (x7 / 拉-01
+            :aspect  (x8 / 着
+)            :arg0  (x1 / 国王
+)            :manner  (x5 / 高兴
+)            :arg1  (x11 / 手
+                  :part-of  (x9 / 他
+)))      :arg3  (x13 / 说-01
+            :arg0  (x1 / 国王
+)            :arg1  (x19 / 继承人
+                  :poss  (x17 / x1
+)                  :domain  (x15 / x9
+)                  :mode  (x20 / expressive
+))))
+===========================
+孩子们问国王:“为什么您让他做继承人呢?”
+(x3 / 问-01
+      :arg0  (x1_x2 / 孩子们
+)      :arg1  (x8 / 让-02
+            :arg0  (x7 / x4
+)            :arg1  (x9 / 他
+)            :arg2  (x10 / 做-02
+                  :arg0  (x9 / 他
+)                  :arg1  (x11 / 继承人
+))            :cause  (x6 / amr-unknown
+)            :mode  (x12_x13 / interrogative
+))      :arg2  (x4 / 国王
+))
+===========================
+国王说:“我发给你们的花种都是煮熟了的，这样的种子能培育出美丽的鲜花吗?”
+(x2 / 说-01
+      :arg0  (x1 / 国王
+)      :arg1  (x30 / causation
+            :arg1  (x31 / thing
+                  :arg1-of  (x11_x12 / 煮熟-01
+                        :aspect  (x13 / 了
+))                  :domain  (x8 / 花种
+                        :extent  (x9 / 都
+)                        :arg1-of  (x5 / 发给-01
+                              :arg0  (x4 / x1
+)                              :arg2  (x6 / 你们
+))))            :arg2  (x19 / 能-01
+                  :arg0  (x20 / 培育-01
+                        :arg1  (x18 / x8
+                              :mod  (x16 / 这样
+))                        :cause-of  (x21 / 出-07
+                              :arg1  (x24 / 鲜花
+                                    :arg0-of  (x22 / 美丽-01
+))))                  :mode  (x25 / interrogative
+))))
+===========================

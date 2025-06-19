@@ -1,0 +1,497 @@
+我们的共产党和共产党所领导的八路军、新四军，是革命的队伍。
+(x16 / 队伍
+      :mod  (x14 / 革命
+            :domain  (x4 / and
+                  :op1  (x21 / and
+                        :op1  (x22 / military
+                              :name  ( x9/八路军 
+))                        :op2  (x24 / military
+                              :name  ( x11/新四军 
+))                        :arg1-of  (x7 / 领导-01
+                              :arg0  (x5 / x27
+)))                  :op2  (x27 / political-party
+                        :name  ( x3/共产党 
+)                        :poss  (x1 / 我们
+)))))
+===========================
+我们这个队伍完全是为着解放人民的，是彻底地为人民的利益工作的。
+(x22 / and
+      :op1  (x6 / 为-05
+            :arg0  (x3 / 队伍
+                  :mod  (x2_1 / 这
+)                  :cunit  (x2_2 / 个
+)                  :poss  (x1 / 我们
+)                  :degree  (x4 / 完全
+))            :arg1  (x8 / 解放-01
+                  :arg1  (x9 / 人民
+)                  :arg0  (x3 / 队伍
+))            :aspect  (x7 / 着-01
+)            :mode  (x5_x10 / judgement
+))      :op2  (x19 / 工作-01
+            :beneficiary  (x18 / 利益
+                  :poss  (x16 / 人民
+))            :degree  (x13 / 彻底
+)            :mode  (x12_x20 / judgement
+)            :arg0  (x3 / 队伍
+)))
+===========================
+张思德同志就是我们这个队伍中的一个同志。
+(x12 / 同志
+      :quant  (x10 / 1
+)      :cunit  (x11 / 个
+)      :arg1-of  (x18 / include-91
+            :arg2  (x7 / 队伍
+                  :mod  (x6_1 / 这
+)                  :cunit  (x6_2 / 个
+)                  :poss  (x5 / 我们
+)))      :domain  (x2 / 同志
+            :name  ( x1/张思德 
+))      :mod  (x3 / 就
+))
+===========================
+人总是要死的，但死的意义有不同。
+(x14 / contrast
+      :arg1  (x3 / 要-03
+            :arg0  (x4 / 死-01
+                  :arg0  (x1 / 人
+))            :mod  (x2_1 / 总
+)            :mode  (x2_2_x5 / judgement
+))      :arg2  (x11 / 有-05
+            :arg0  (x10 / 意义
+                  :topic  (x8 / 死
+))            :arg1  (x12 / 不同-01
+                  :arg0  (x10 / 意义
+))))
+===========================
+中国古时候有个文学家叫做司马迁的说过：人固有一死，或重于泰山，或轻于鸿毛。
+(x10 / 说-01
+      :arg0  (x31 / person
+            :arg0-of  (x36 / have-org-role-91
+                  :arg2  (x5 / 文学家
+                        :cunit  (x4 / 个
+)                        :arg1-of  (x3 / 有-03
+                              :arg0  (x39 / country
+                                    :name  ( x1/中国 
+))                              :time  (x2 / 古时候
+)))                  :name  ( x8/司马迁 
+)))      :aspect  (x11 / 过
+)      :arg1  (x43 / and
+            :op1  (x15 / 有-05
+                  :arg0  (x13 / 人
+)                  :mod  (x14 / 固
+)                  :arg1  (x17 / 死
+                        :quant  (x16 / 1
+)))            :op2  (x20 / 重-02
+                  :arg0  (x19 / 或
+)                  :compared-to  (x51 / mountain
+                        :name  ( x22/泰山 
+)))            :op3  (x25 / 轻-01
+                  :arg0  (x24 / 或
+)                  :compared-to  (x27 / 鸿毛
+))))
+===========================
+为人民利益而死，就比泰山还重；替法西斯卖力，替剥削人民和压迫人民的人去死，就比鸿毛还轻。
+(x35 / and
+      :op1  (x37 / condition
+            :arg1  (x5 / 死
+                  :purpose  (x3 / 利益
+                        :poss  (x2 / 人民
+)))            :arg2  (x11 / 重-02
+                  :mod  (x10 / 还-01
+)                  :compared-to  (x43 / mountain
+                        :name  ( x9/泰山 
+))                  :arg0  (x5 / 死
+)))      :op2  (x45 / condition
+            :arg1  (x46 / and
+                  :op1  (x13 / 替
+                        :arg1  (x14 / 法西斯
+)                        :arg2  (x15 / 卖-01
+                              :arg1  (x16 / 力
+)))                  :op2  (x18 / 替-01
+                        :arg1  (x25 / 人
+                              :arg0-of  (x19 / 剥削-01
+                                    :arg1  (x20 / 人民
+))                              :arg0-of  (x22 / 压迫-01
+                                    :arg1  (x23 / 人民
+)))                        :arg2  (x27 / 死
+)))            :arg2  (x33 / 轻-01
+                  :mod  (x32 / 还
+)                  :compared-to  (x31 / 鸿毛
+)                  :arg0  (x27 / 死
+))))
+===========================
+张思德同志是为人民利益而死的，他的死是比泰山还要重的。
+(x21 / progression
+      :arg1  (x8 / 死-01
+            :arg0  (x2 / 同志
+                  :name  ( x1/张思德 
+))            :purpose  (x6 / 利益
+                  :poss  (x5 / 人民
+))            :mode  (x3_x9 / judgement
+))      :arg2  (x18 / 重-02
+            :arg0  (x13 / 死
+                  :poss  (x11 / x2
+))            :compared-to  (x32 / mountain
+                  :name  ( x16/泰山 
+))            :mode  (x14_x19 / judgement
+)))
+===========================
+因为我们是为人民服务的，所以，我们如果有缺点，就不怕别人批评指出。
+(x23 / causation
+      :arg1  (x6 / 服务-01
+            :arg0  (x2 / 我们
+)            :arg1  (x5 / 人民
+)            :mode  (x3_x7 / judgement
+))      :arg2  (x29 / condition
+            :arg1  (x13 / 有-05
+                  :arg0  (x11 / x2
+)                  :arg1  (x14 / 缺点
+))            :arg2  (x18 / 怕-01
+                  :arg1  (x34 / and
+                        :op1  (x20 / 批评-01
+                              :arg0  (x19 / 别人
+)                              :arg1  (x11 / x2
+))                        :op2  (x21 / 指出-01
+                              :arg0  (x19 / 别人
+)                              :arg1  (x14 / 缺点
+)))                  :polarity  (x17 / -
+))))
+===========================
+不管是什么人，谁向我们指出都行。
+(x13 / condition
+      :arg1  (x4 / 人
+            :mod  (x3 / amr-unknown
+))      :arg2  (x11 / 行-04
+            :arg0  (x9 / 指出-01
+                  :arg0  (x6 / 谁
+)                  :arg2  (x8 / 我们
+))            :extent  (x10 / 都
+)))
+===========================
+只要你说得对，我们就改正。
+(x11 / condition
+      :arg1  (x5 / 对-02
+            :arg0  (x14 / thing
+                  :arg1-of  (x3 / 说-01
+                        :arg0  (x2 / 你
+))))      :arg2  (x9 / 改正-01
+            :arg0  (x7 / 我们
+)))
+===========================
+你说的办法对人民有好处，我们就照你的办。
+(x17 / condition
+      :arg1  (x7 / 有-05
+            :arg1  (x8 / 好处
+)            :arg0  (x4 / 办法
+                  :arg1-of  (x2 / 说-01
+                        :arg0  (x1 / 你
+)))            :beneficiary  (x6 / 人民
+))      :arg2  (x15 / 办-01
+            :arg0  (x10 / 我们
+)            :manner  (x12 / 照-03
+                  :arg1  (x29 / thing
+                        :poss  (x13 / x1
+))                  :arg0  (x10 / 我们
+))))
+===========================
+“精兵简政”这一条意见，就是党外人士李鼎铭先生提出来的；他提得好，对人民有好处，我们就采用了。
+(x33 / and
+      :op1  (x14_x15 / 提出-01
+            :arg0  (x13 / 先生
+                  :arg0-of  (x39 / have-org-role-91
+                        :arg2  (x10_x11 / 党外人士
+))                  :name  ( x12/李鼎铭 
+))            :arg1  (x7 / 意见
+                  :topic  (x2 / 精兵简政
+)                  :mod  (x4 / 这
+)                  :quant  (x5 / 1
+)                  :cunit  (x6 / 条
+))            :mode  (x9_x16 / judgement
+))      :op2  (x49 / causation
+            :arg1  (x50 / and
+                  :op1  (x19 / 提-01
+                        :arg0  (x18 / x13
+)                        :manner  (x21 / 好
+))                  :op2  (x25 / 有-05
+                        :arg1  (x26 / 好处
+)                        :beneficiary  (x24 / 人民
+)                        :arg0  (x7 / 意见
+)))            :arg2  (x30 / 采用-01
+                  :arg0  (x28 / 我们
+)                  :aspect  (x31 / 了
+)                  :arg1  (x7 / 意见
+))))
+===========================
+只要我们为人民的利益坚持好的，为人民的利益改正错的，我们这个队伍就一定会兴旺起来。
+(x28 / condition
+      :arg1  (x30 / and
+            :op1  (x7 / 坚持-01
+                  :arg0  (x2 / 我们
+)                  :arg1  (x33 / thing
+                        :arg0-of  (x8 / 好-01
+))                  :purpose  (x6 / 利益
+                        :poss  (x4 / 人民
+)))            :op2  (x15 / 改正-01
+                  :arg1  (x38 / thing
+                        :arg0-of  (x16 / 错-01
+))                  :beneficiary  (x14 / 利益
+                        :poss  (x12 / 人民
+))                  :arg0  (x2 / 我们
+)))      :arg2  (x23 / 一定
+            :arg0  (x24 / 会-02
+                  :arg0  (x25_x26 / 兴旺-01
+                        :arg0  (x21 / 队伍
+                              :mod  (x20_1 / 这
+)                              :cunit  (x20_2 / 个
+)                              :poss  (x19 / x2
+))))))
+===========================
+我们都是来自五湖四海，为了一个共同的革命目标，走到一起来了。
+(x22 / and
+      :op1  (x4_x5 / 来自-01
+            :arg0  (x1 / 我们
+)            :extent  (x2 / 都
+)            :arg1  (x6 / 五湖四海
+))      :op2  (x16_x17 / 走到-01
+            :cause-of  (x18 / 一起
+)            :aspect  (x20 / 了
+)            :purpose  (x14 / 目标
+                  :mod  (x13 / 革命
+)                  :arg0-of  (x11 / 共同-01
+)                  :quant  (x9 / 1
+)                  :cunit  (x10 / 个
+))            :arg0  (x1 / 我们
+)))
+===========================
+我们还要和全国大多数人民走这一条路。
+(x15 / progression
+      :arg2  (x7 / 走-01
+            :arg0  (x1 / 我们
+)            :accompanier  (x6 / 人民
+                  :quant  (x5 / 大多数
+)                  :range  (x4 / 全国
+))            :arg1  (x11 / 路
+                  :mod  (x8 / 这
+)                  :quant  (x9 / 1
+)                  :cunit  (x10 / 条
+))))
+===========================
+我们今天已经领导着有九千一百万人口的根据地，但是还不够，还要更大些，才能取得全民族的解放。
+(x30 / progression
+      :arg1  (x32 / contrast
+            :arg1  (x4 / 领导-01
+                  :arg0  (x1 / 我们
+)                  :time  (x2 / 今天
+)                  :aspect  (x3 / 已经
+)                  :arg1  (x11 / 根据地
+                        :arg0-of  (x6 / 有-03
+                              :arg1  (x9 / 人口
+                                    :quant  (x7_x8 / 91000000
+))))                  :aspect  (x5 / 着
+))            :arg2  (x15_2 / 够-01
+                  :polarity  (x15_1 / -
+)                  :mod  (x14 / 还
+)                  :arg0  (x11 / 根据地
+)))      :arg2  (x46 / condition
+            :arg1  (x17_2 / 要-03
+                  :arg0  (x19 / 大-01
+                        :quant  (x20 / 些
+)                        :degree  (x18 / 更
+)                        :arg0  (x11 / 根据地
+))                  :mod  (x17_1 / 还
+))            :arg2  (x23 / 能-01
+                  :arg0  (x24_x25 / 取得-01
+                        :arg1  (x28 / 解放-01
+                              :arg1  (x26 / 全民族
+))))))
+===========================
+我们的同志在困难的时候，要看到成绩，要看到光明，要提高我们的勇气。
+(x23 / and
+      :op1  (x9 / 要-03
+            :arg0  (x10 / 看到-01
+                  :arg1  (x11 / 成绩
+)                  :arg0  (x3 / 同志
+                        :poss  (x1 / 我们
+))))      :op2  (x13 / 要-03
+            :arg0  (x14 / 看到-01
+                  :arg1  (x15 / 光明
+)                  :arg0  (x3 / 同志
+)))      :time  (x5 / 困难-01
+            :arg0  (x3 / 同志
+))      :op3  (x17 / 要-03
+            :arg0  (x18 / 提高-01
+                  :arg1  (x21 / 勇气
+                        :poss  (x19 / x1
+))                  :arg0  (x3 / 同志
+))))
+===========================
+中国人民正在受难，我们有责任解救他们，我们要努力奋斗。
+(x17 / causation
+      :arg1  (x4 / 受难-01
+            :arg0  (x2 / 人民
+                  :mod  (x21 / country
+                        :name  ( x1/中国 
+)))            :aspect  (x3 / 正在
+))      :arg2  (x24 / and
+            :op1  (x7 / 有-01
+                  :arg0  (x6 / 我们
+)                  :arg1  (x8 / 责任-01
+                        :arg1  (x9 / 解救-01
+                              :arg1  (x10 / x2
+)                              :arg0  (x6 / 我们
+))))            :op2  (x13 / 要-03
+                  :arg0  (x15 / 奋斗-01
+                        :manner  (x14 / 努力-01
+                              :arg0  (x6 / 我们
+))                        :arg0  (x12 / x6
+)))))
+===========================
+要奋斗就会有牺牲，死人的事是经常发生的。
+(x17 / causation
+      :arg1  (x19 / condition
+            :arg1  (x1 / 要-03
+                  :arg0  (x2 / 奋斗
+))            :arg2  (x4 / 会-01
+                  :arg0  (x5 / 有-03
+                        :arg1  (x6 / 牺牲
+))))      :arg2  (x14 / 发生-01
+            :frequency  (x13 / 经常
+)            :arg0  (x11 / 事
+                  :mod  (x8 / 死-01
+                        :arg0  (x9 / 人
+)))            :mode  (x12_x15 / judgement
+)))
+===========================
+但是我们想到人民的利益，想到大多数人民的痛苦，我们为人民而死，就是死得其所。
+(x23 / contrast
+      :arg2  (x26 / and
+            :op1  (x3 / 想到-01
+                  :arg0  (x2 / 我们
+)                  :arg1  (x6 / 利益
+                        :poss  (x4 / 人民
+)))            :op2  (x8 / 想到-01
+                  :arg0  (x2 / 我们
+)                  :arg1  (x12 / 痛苦
+                        :poss  (x10 / 人民
+                              :quant  (x9 / 大多数
+)))                  :arg0  (x2 / 我们
+))            :op3  (x35 / condition
+                  :arg1  (x18 / 死-01
+                        :arg0  (x14 / x2
+)                        :purpose  (x16 / 人民
+))                  :arg2  (x21 / 死得其所
+                        :arg0  (x2 / 我们
+)))))
+===========================
+不过，我们应当尽量地减少那些不必要的牺牲。
+(x13 / contrast
+      :arg2  (x4 / 应当-01
+            :arg0  (x7 / 减少-01
+                  :manner  (x5 / 尽量
+)                  :arg0  (x3 / 我们
+)                  :arg1  (x11 / 牺牲
+                        :arg0-of  (x9_2_3 / 必要-01
+                              :polarity  (x9_1 / -
+))                        :mod  (x8 / 那些
+)))))
+===========================
+我们的干部要关心每一个战士，一切革命队伍的人都要互相关心，互相爱护，互相帮助。
+(x27 / and
+      :op1  (x4 / 要-01
+            :arg0  (x5 / 关心-01
+                  :arg0  (x3 / 干部
+                        :poss  (x1 / 我们
+))                  :arg1  (x9 / 战士
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 个
+)                        :mod  (x6 / 每
+))))      :op2  (x17 / 要-03
+            :arg0  (x38 / and
+                  :op1  (x19 / 关心-01
+                        :manner  (x18 / 互相
+)                        :arg0  (x15 / 人
+                              :arg1-of  (x43 / include-91
+                                    :arg2  (x13 / 队伍
+                                          :mod  (x12 / 革命
+)                                          :mod  (x11 / 一切
+)))))                  :op2  (x22 / 爱护-01
+                        :manner  (x21 / 互相
+)                        :arg0  (x15 / 人
+))                  :op3  (x25 / 帮助-01
+                        :manner  (x24 / 互相
+)                        :arg0  (x15 / 人
+)))            :extent  (x16 / 都
+)))
+===========================
+今后我们的队伍里，不管死了谁，不管是炊事员，是战士，只要他是做过一些有益的工作的，我们都要给他送葬，开追悼会。
+(x40 / condition
+      :arg1  (x42 / and
+            :op1  (x8 / 死-01
+                  :arg0  (x10 / amr-unknown
+)                  :aspect  (x9 / 了
+))            :op2  (x46 / and
+                  :op1  (x14 / 炊事员
+)                  :op3  (x17 / 战士
+))            :op3  (x22 / 做-01
+                  :arg0  (x20 / 他
+)                  :arg1  (x27 / 工作
+                        :quant  (x24 / 一些
+)                        :arg0-of  (x25 / 有益-01
+))                  :mode  (x21_x28 / judgement
+)                  :aspect  (x23 / 过
+)))      :arg2  (x32 / 要-03
+            :arg0  (x33 / 给-02
+                  :arg1  (x34 / x20
+)                  :arg2  (x59 / and
+                        :op1  (x35 / 送葬-01
+                              :arg0  (x30 / x2
+))                        :op2  (x37 / 开-02
+                              :arg1  (x38 / 追悼会
+)                              :arg0  (x30 / x2
+)))))      :range  (x4 / 队伍
+            :poss  (x2 / 我们
+))      :time  (x1 / 今后
+))
+===========================
+这要成为一个制度。
+(x2 / 要-03
+      :arg0  (x3 / 成为-01
+            :arg0  (x1 / 这
+)            :arg1  (x6 / 制度
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 个
+))))
+===========================
+这个方法也要介绍到老百姓那里去。
+(x4 / 要-03
+      :arg0  (x5 / 介绍-03
+            :arg1  (x2 / 方法
+                  :mod  (x1_1 / 这
+)                  :cunit  (x1_2 / 个
+))            :arg2  (x7 / 老百姓
+))      :mod  (x3 / 也
+))
+===========================
+村上的人死了，开个追悼会。
+(x11 / temporal
+      :arg0  (x4 / 死-01
+            :arg0  (x3 / 人
+                  :location  (x1 / 村上
+))            :aspect  (x5 / 了
+))      :arg1  (x7 / 开-02
+            :arg1  (x9 / 追悼会
+                  :cunit  (x8 / 个
+))))
+===========================
+用这样的方法，寄托我们的哀思，使整个人民团结起来。
+(x14_x15 / 团结-01
+      :arg0  (x4 / 方法
+            :mod  (x2 / 这样
+)            :purpose  (x6 / 寄托-01
+                  :arg1  (x9 / 哀思
+                        :poss  (x7 / 我们
+))                  :arg0  (x4 / 方法
+)))      :arg1  (x13 / 人民
+            :mod  (x12 / 整个
+)))
+===========================

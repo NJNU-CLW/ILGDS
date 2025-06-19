@@ -1,0 +1,567 @@
+读小学的时候，我的外祖母去世了。
+(x9 / 去世-01
+      :time  (x1 / 读-01
+            :arg1  (x2 / 小学
+)            :arg0  (x6 / 我
+))      :arg0  (x8 / 外祖母
+            :poss  (x6 / 我
+))      :aspect  (x10 / 了
+))
+===========================
+外祖母生前最疼爱我。
+(x4 / 疼爱-01
+      :degree  (x3 / 最
+)      :arg0  (x1 / 外祖母
+)      :time  (x2 / 生前
+            :poss  (x1 / 外祖母
+))      :arg1  (x5 / 我
+))
+===========================
+我无法排除自己的忧伤，每天在学校的操场上一圈一圈地跑着，跑得累倒在地上，扑在草坪上痛哭。
+(x35 / causation
+      :arg1  (x2 / 无法-01
+            :arg0  (x1 / 我
+)            :arg1  (x3 / 排除-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x6 / 忧伤
+                        :poss  (x4 / x1
+))))      :arg2  (x42 / temporal
+            :arg1  (x19 / 跑-01
+                  :aspect  (x20 / 着
+)                  :arg0  (x1 / 我
+)                  :location  (x12 / 操场
+                        :poss  (x10 / 学校
+))                  :manner  (x14_x15_x16_x17 / 一圈一圈
+))            :arg2  (x22 / 跑-01
+                  :cause-of  (x24 / 累-02
+                        :cause-of  (x25 / 倒-01
+                              :arg1  (x1 / 我
+)                              :location  (x27_1 / 地
+))                        :arg0  (x1 / 我
+))                  :arg0  (x1 / 我
+))            :frequency  (x51 / rate-entity
+                  :arg3  (x8_2 / 天
+                        :mod  (x8_1 / 每
+)))            :arg3  (x29 / 扑-02
+                  :arg0  (x1 / 我
+)                  :location  (x31 / 草坪
+))            :arg4  (x33 / 痛哭-01
+                  :arg0  (x1 / 我
+))))
+===========================
+那哀痛的日子持续了很久，爸爸妈妈也不知道如何安慰我。
+(x19 / and
+      :op1  (x5 / 持续-01
+            :aspect  (x6 / 了
+)            :arg1  (x23 / thing
+)            :arg0  (x4 / 日子
+                  :mod  (x1 / 那
+)                  :mod  (x2 / 哀痛
+))            :arg0-of  (x8 / 久-01
+                  :degree  (x7 / 很
+)))      :op2  (x14 / 知道-01
+            :polarity  (x13 / -
+)            :arg0  (x31 / and
+                  :op1  (x10 / 爸爸
+)                  :op2  (x11 / 妈妈
+))            :mod  (x12 / 也
+)            :arg1  (x16 / 安慰-01
+                  :manner  (x15 / amr-unknown
+)                  :arg1  (x17 / 我
+))))
+===========================
+他们知道与其欺骗我说外祖母睡着了，还不如对我说实话:外祖母永远不会回来了。
+(x2 / 知道-01
+      :arg0  (x1 / 他们
+)      :arg1  (x12 / 不如-01
+            :arg0  (x4 / 欺骗-01
+                  :arg0  (x1 / 他们
+)                  :arg1  (x5 / 我
+)                  :cause-of  (x6 / 说-01
+                        :arg0  (x1 / 他们
+)                        :arg1  (x8 / 睡着-01
+                              :arg0  (x7 / 外祖母
+)                              :aspect  (x9 / 了
+))))            :mod  (x11 / 还
+)            :arg1  (x15 / 说-01
+                  :arg0  (x1 / 他们
+)                  :arg3  (x14 / x5
+)                  :arg1  (x16 / 实话
+                        :arg0-of  (x38 / mean
+                              :arg1  (x20_2 / 会-02
+                                    :polarity  (x20_1 / -
+)                                    :arg0  (x21 / 回来-01
+                                          :arg0  (x18 / x7
+))                                    :smood  (x22 / 了
+)                                    :time  (x19 / 永远
+)))))))
+===========================
+“什么是永远回不来了呢？”我问。
+(x12 / 问-01
+      :arg0  (x11 / 我
+)      :arg1  (x17 / possible
+            :arg0  (x5_x7 / 回来
+                  :time  (x4 / 永远
+))            :polarity  (x6 / -
+)            :domain  (x2 / amr-unknown
+)            :smood  (x8 / 了
+)            :mode  (x8_x9 / interrogative
+)))
+===========================
+“所有时间里的事物，都永远不会回来了。
+(x14 / say
+      :arg1  (x10_2 / 会-02
+            :polarity  (x10_1 / -
+)            :arg0  (x11 / 回来-01
+                  :arg0  (x6 / 事物
+                        :extent  (x8 / 都
+)                        :location  (x4 / 里
+                              :arg0  (x3 / 时间
+                                    :mod  (x2 / 所有
+)))))            :smood  (x12 / 了-01
+)            :time  (x9 / 永远
+)))
+===========================
+你的昨天过去了，它就变成了昨天，你再也不能回到昨天了。
+(x21 / causation
+      :arg1  (x23 / condition
+            :arg1  (x4 / 过去-01
+                  :aspect  (x5 / 了
+)                  :arg0  (x3 / 昨天
+                        :poss  (x1 / 你
+)))            :arg2  (x9 / 变成-01
+                  :aspect  (x10 / 了
+)                  :arg1  (x7 / x3
+)                  :arg2  (x11 / 昨天
+)))      :arg2  (x16_2 / 能-01
+            :polarity  (x16_1 / -
+)            :mod  (x14 / 再
+)            :mod  (x15 / 也
+)            :arg0  (x17 / 回到-01
+                  :arg0  (x13 / x1
+)                  :arg1  (x18 / x3
+))            :smood  (x19 / 了
+)))
+===========================
+爸爸以前和你一样小，现在也不能回到你这么小的童年了。
+(x19 / contrast
+      :arg1  (x6 / 小-01
+            :arg0  (x1 / 爸爸
+)            :time  (x2 / 以前
+)            :compared-to  (x4 / 你-01
+)            :mod  (x5 / 一样
+))      :arg2  (x10_2 / 能-01
+            :polarity  (x10_1 / -
+)            :arg0  (x11 / 回到-01
+                  :arg0  (x1 / 爸爸
+)                  :arg1  (x16 / 童年
+                        :mod  (x14 / 小-01
+                              :arg0  (x12 / x4
+)                              :mod  (x13 / 这么
+))))            :mod  (x9 / 也
+)            :time  (x8 / 现在
+)            :smood  (x17 / 了
+)))
+===========================
+你有一天会长大，你也会像外祖母一样老，有一天你度过了你的所有时间，也会像外祖母一样永远不能回来了。”爸爸说。
+(x39 / 说-01
+      :arg0  (x38 / 爸爸
+)      :arg1  (x44 / and
+            :op1  (x5 / 会-02
+                  :time  (x2_x3_x4 / 有一天
+)                  :arg0  (x6_x7 / 长大-01
+                        :arg0  (x1 / 你
+)))            :op2  (x11 / 会-02
+                  :mod  (x10 / 也
+)                  :arg0  (x15 / 老-01
+                        :mod  (x14 / 一样
+)                        :arg0  (x9 / x1
+)                        :compared-to  (x13 / 外祖母
+)))            :op3  (x55 / condition
+                  :arg1  (x21 / 度过-01
+                        :time  (x17_x18_x19 / 有一天
+)                        :aspect  (x22 / 了
+)                        :arg0  (x20 / x1
+)                        :arg1  (x26 / 时间
+                              :poss  (x23 / x1
+)                              :mod  (x25 / 所有
+)))                  :arg2  (x29 / 会-02
+                        :mod  (x28 / 也
+)                        :arg0  (x65 / resemble
+                              :arg0  (x1 / 你
+)                              :arg1  (x31 / x13
+)                              :arg2  (x34_2 / 能-01
+                                    :arg0  (x35 / 回来-01
+)                                    :time  (x33 / 永远
+)))                        :smood  (x36 / 了
+)))))
+===========================
+爸爸等于给我说了一个谜。
+(x2 / 等于-01
+      :arg1  (x5 / 说-01
+            :arg0  (x1 / 爸爸
+)            :arg3  (x4 / 我
+)            :aspect  (x6 / 了
+)            :arg1  (x9 / 谜
+                  :quant  (x7 / 1
+)                  :cunit  (x8 / 个
+))))
+===========================
+这个谜比“一寸光阴一寸金，寸金难买寸光阴”还让我感到可怕，比“光阴似箭，日月如梭"更让我有一种说不出的滋味。
+(x33 / and
+      :op1  (x10 / 让-02
+            :arg0  (x2 / 谜
+                  :mod  (x1_1 / 这
+)                  :cunit  (x1_2 / 个
+))            :compared-to  (x39 / contrast
+                  :arg1  (x5 / 一寸光阴一寸金
+)                  :arg2  (x7 / 寸金难买寸光阴
+))            :arg1  (x11 / 我
+)            :arg2  (x12 / 感到-01
+                  :arg0  (x11 / 我
+)                  :arg1  (x13 / 可怕
+))            :mod  (x9 / 还
+))      :op2  (x22 / 让-02
+            :degree  (x21 / 更
+)            :arg0  (x2 / 谜
+)            :compared-to  (x48 / and
+                  :op1  (x17 / 光阴似箭
+)                  :op2  (x19 / 日月如梭
+))            :arg1  (x23 / x11
+                  :arg2  (x24 / 有-01
+                        :arg0  (x11 / 我
+)                        :arg1  (x31 / 滋味
+                              :quant  (x25 / 1
+)                              :unit  (x26 / 种
+)                              :arg1-of  (x27_x29 / 说出-01
+                                    :arg0-of  (x57 / possible
+                                          :polarity  (x28 / -
+))                                    :arg0  (x11 / 我
+)))))))
+===========================
+以后，我每天放学回家，在庭院里看着太阳一寸寸一寸寸地沉进了山头，就知道一天真的过完了。
+(x37 / temporal
+      :time  (x1 / 以后
+)      :frequency  (x40 / rate-entity-91
+            :arg2  (x4_2 / 天
+                  :mod  (x4_1 / 每
+)))      :arg1  (x5 / 放学-01
+            :arg0  (x3 / 我
+))      :arg2  (x6 / 回家-01
+            :arg0  (x3 / 我
+))      :arg3  (x11 / 看-02
+            :aspect  (x12 / 着
+)            :arg0  (x3 / 我
+)            :arg1  (x21 / 沉-01
+                  :manner  (x14_x15_x16_x17_x18_ / 一寸寸
+)                  :cause-of  (x22 / 进-01
+                        :aspect  (x23 / 了
+)                        :arg0  (x13 / 太阳
+)                        :arg1  (x24 / 山头
+))                  :arg0  (x13 / 太阳
+)))      :arg4  (x27 / 知道-01
+            :arg0  (x3 / 我
+)            :arg1  (x32 / 完-01
+                  :arg0  (x31 / 过-02
+                        :arg1  (x55 / temporal-quantity
+                              :quant  (x28 / 1
+)                              :unit  (x29 / 天
+)))                  :aspect  (x33 / 了
+)                  :mod  (x30 / 真的
+))))
+===========================
+虽然明天还会有新的太阳，但永远不会有今天的太阳了。
+(x20 / contrast
+      :arg1  (x4 / 会-02
+            :mod  (x3 / 还
+)            :arg0  (x5 / 有-03
+                  :arg1  (x8 / 太阳
+                        :arg0-of  (x6 / 新-01
+))                  :time  (x2 / 明天
+)))      :arg2  (x13 / 会-02
+            :time  (x11 / 永远
+)            :polarity  (x12 / -
+)            :arg0  (x14 / 有-03
+                  :arg1  (x17 / 太阳
+                        :time  (x15 / 今天
+)))            :smood  (x18 / 了
+)))
+===========================
+我看到鸟儿飞到天空，它们飞得很快呀。
+(x14 / and
+      :arg0  (x2 / 看到-01
+            :arg0  (x1 / 我
+)            :arg1  (x4_x5 / 飞到-01
+                  :arg0  (x3 / 鸟儿
+)                  :arg1  (x6 / 天空
+)))      :op2  (x9 / 飞-01
+            :mode  (x12 / expressive
+)            :arg0  (x8 / x3
+)            :arg0-of  (x11_2 / 快-01
+                  :degree  (x11_1 / 很
+))))
+===========================
+明天它们再飞过同样的路线，也永远不是今天了。
+(x17 / contrast
+      :arg1  (x4_x5 / 飞过-01
+            :arg0  (x2 / 它们
+)            :mod  (x3 / 再
+)            :arg1  (x8 / 路线
+                  :arg0-of  (x6 / 同样-01
+))            :time  (x1 / 明天
+))      :arg2  (x14 / 今天
+            :domain  (x26 / thing
+)            :smood  (x15 / 了
+)            :time  (x1 / 明天
+)            :mod  (x10 / 也
+)))
+===========================
+或许明天飞过这条路线的，不是老鸟，而是小鸟了。
+(x1 / 或许
+      :arg0  (x21 / contrast
+            :arg1  (x13 / 鸟
+                  :domain  (x23 / thing
+                        :arg0-of  (x3_x4 / 飞过-01
+                              :arg1  (x7 / 路线
+                                    :mod  (x5 / 这
+))                              :time  (x2 / 明天
+)))                  :arg0-of  (x12 / 老-01
+))            :arg2  (x16 / 小鸟
+                  :smood  (x17 / 了
+)                  :domain  (x23 / thing
+))))
+===========================
+时间过得飞快，使我的小心眼里不只是着急，还有悲伤。
+(x18 / causation
+      :arg1  (x2 / 过-02
+            :arg1  (x1 / 时间
+)            :arg0-of  (x4 / 飞快-01
+))      :arg2  (x6 / 使-01
+            :arg2  (x24 / progression
+                  :arg1  (x13 / 着急
+                        :domain  (x26 / thing
+                              :location  (x9 / 小心眼
+                                    :poss  (x7 / 我
+))))                  :arg2  (x16 / 悲伤
+                        :location  (x9 / 小心眼
+)))            :arg0  (x2 / 过-02
+)))
+===========================
+有一天我放学回家，看到太阳快落山了，就下决心说:“我要比太阳更快地回家。”
+(x27 / causation
+      :arg1  (x29 / temporal
+            :arg1  (x5 / 放学-01
+                  :arg0  (x4 / 我
+))            :arg2  (x6 / 回家-01
+                  :arg0  (x4 / 我
+))            :arg3  (x8 / 看到-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x11 / 落山
+                        :arg0  (x9 / 太阳
+)                        :time  (x10 / 快
+)                        :smood  (x12 / 了
+)))            :time  (x1_x2_x3 / 有一天
+))      :arg2  (x15 / 下决心-01
+            :arg0  (x4 / 我
+)            :arg1  (x16 / 说-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x19 / 要-03
+                        :arg0  (x20 / 比-02
+                              :arg0  (x18 / x4
+)                              :arg1  (x21 / x9
+)                              :arg2  (x25 / 回家-01
+                                    :manner  (x23 / 快
+                                          :degree  (x22 / 更
+))                                    :arg0  (x4 / 我
+)))))))
+===========================
+我狂奔回去，站在庭院里喘气的时候，看到太阳还露着半边脸，我高兴地跳起来。
+(x28 / temporal
+      :arg1  (x3 / 回去-01
+            :manner  (x2 / 狂奔-01
+                  :arg0  (x1 / 我
+))            :arg0  (x1 / 我
+))      :arg2  (x33 / causation
+            :time  (x9 / 喘气-01
+                  :location  (x7 / 庭院
+)                  :arg0  (x1 / 我
+))            :arg1  (x13 / 看到-01
+                  :arg1  (x16 / 露-01
+                        :mod  (x15 / 还
+)                        :arg0  (x14 / 太阳
+)                        :arg1  (x20 / 脸
+                              :quant  (x18 / 半
+)                              :cunit  (x19 / 边
+))                        :aspect  (x17 / 着
+))                  :arg0  (x1 / 我
+))            :arg2  (x25_x26 / 跳-01
+                  :arg0  (x22 / x1
+)                  :manner  (x23 / 高兴-01
+                        :arg0  (x1 / 我
+)))))
+===========================
+那一天我跑赢了太阳。
+(x6 / 赢-01
+      :manner  (x5 / 跑-01
+            :arg0  (x4 / 我
+))      :arg1  (x8 / 太阳
+)      :aspect  (x7 / 了
+)      :time  (x2_x3 / 一天
+            :mod  (x1 / 那
+))      :arg0  (x4 / 我
+))
+===========================
+以后我常做这样的游戏，有时和太阳赛跑，有时和西北风比赛，有时一个暑假的作业，我十天就做完。
+(x33 / and
+      :arg0  (x4 / 做-01
+            :arg0  (x2 / 我
+)            :frequency  (x3 / 常
+)            :time  (x1 / 以后
+)            :arg1  (x7 / 游戏
+                  :mod  (x5 / 这样
+)))      :op2  (x41 / and
+            :op1  (x12 / 赛跑-01
+                  :arg0  (x10 / and
+                        :op1  (x2 / 我
+)                        :op2  (x11 / 太阳
+))                  :time  (x12 / 赛跑-01
+))            :op2  (x17 / 比赛-01
+                  :time  (x14 / 有时
+)                  :arg0  (x15 / and
+                        :op1  (x2 / 我
+)                        :op2  (x16 / 西北风
+)))            :op3  (x31 / 完-01
+                  :arg0  (x30 / 做-01
+                        :arg1  (x24 / 作业
+                              :quant  (x22 / 暑假
+                                    :quant  (x20 / 1
+)                                    :cunit  (x21 / 个
+)))                        :duration  (x54 / temporal-quantity
+                              :quant  (x27 / 10
+)                              :unit  (x28 / 天
+))                        :arg0  (x26 / x2
+))                  :time  (x19 / 有时
+)                  :mod  (x29 / 就
+))))
+===========================
+那时我三年级，常把哥哥五年级的作业拿来做。
+(x19 / contrast
+      :arg1  (x2 / 我
+            :location  (x23 / ordinal-entity
+                  :value  (x3 / 3
+)                  :unit  (x4 / 年级
+))            :time  (x1 / 那时
+))      :arg2  (x13_x14 / 拿来-02
+            :arg0  (x2 / 我
+)            :arg1  (x12 / 作业
+                  :poss  (x8 / 哥哥
+                        :location  (x30 / ordinal-entity
+                              :value  (x9 / 5
+)                              :unit  (x10 / 年级
+))))            :arg2  (x15 / 做-01
+                  :arg1  (x12 / 作业
+)                  :arg0  (x2 / 我
+))))
+===========================
+每一次比赛胜过时间，我就快乐得不知道怎么形容。
+(x17 / causation
+      :arg1  (x5 / 胜过-01
+            :arg1  (x6 / 时间
+)            :time  (x4 / 比赛
+                  :quant  (x2 / 1
+)                  :cunit  (x3 / 次
+)                  :mod  (x1 / 每
+))            :arg0  (x8 / 我
+))      :arg2  (x10 / 快乐-01
+            :degree  (x13 / 知道-01
+                  :polarity  (x12 / -
+)                  :arg1  (x15 / 形容
+                        :manner  (x14 / amr-unknown
+)))            :arg0  (x8 / 我
+)))
+===========================
+后来的二十年里，我因此受益无穷。
+(x9 / 受益-01
+      :arg0  (x7 / 我
+)      :arg1  (x8 / 因此
+)      :duration  (x17 / temporal-quantity
+            :quant  (x3 / 20
+)            :unit  (x4 / 年
+)            :time  (x1 / 后来
+))      :arg0-of  (x10 / 无穷-01
+))
+===========================
+虽然我知道人永远跑不过时间，但是可以比原来跑快一步，如果加把劲，有时可以快好几步。
+(x29 / contrast
+      :arg1  (x3 / 知道-01
+            :arg0  (x2 / 我
+)            :arg1  (x33 / possible
+                  :arg0  (x6 / 跑-01
+                        :cause-of  (x8 / 过-06
+                              :arg0  (x4 / 人
+)                              :arg1  (x9 / 时间
+))                        :arg0  (x4 / 人
+)                        :arg0  (x4 / 人
+))                  :polarity  (x7 / -
+)                  :time  (x5 / 永远
+                        :cause-of  (x8 / 过-06
+))))      :arg2  (x41 / progression
+            :arg1  (x12 / 可以-01
+                  :arg0  (x13 / 比
+                        :arg1  (x14 / 原来
+)                        :arg2  (x15 / 跑-01
+                              :arg0  (x4 / 人
+)                              :arg0-of  (x16 / 快-01
+                                    :degree  (x47 / thing
+                                          :quant  (x17 / 1
+)                                          :unit  (x18 / 步
+))))))            :arg2  (x50 / condition
+                  :arg1  (x21 / 加把劲-01
+)                  :arg2  (x24 / 可以-01
+                        :time  (x23 / 有时
+)                        :arg0  (x25 / 快-01
+                              :degree  (x55 / thing
+                                    :unit  (x27 / 步
+)                                    :quant  (x26_2 / 几
+                                          :mod  (x26_1 / 好
+)))                              :arg0  (x4 / 人
+))))))
+===========================
+那几步虽然很小很小，用途却很大很大。
+(x17 / contrast
+      :arg1  (x6_x8 / 小-01
+            :degree  (x5_x7 / 很
+)            :arg0  (x21 / thing
+                  :quant  (x2 / 几
+)                  :unit  (x3 / 步
+)                  :mod  (x1 / 那
+)))      :arg2  (x13_x15 / 大-01
+            :degree  (x12_x14 / 很
+)            :arg0  (x10 / 用途
+)))
+===========================
+如果将来我有什么要教给我的孩子，我会告诉她：假若你一直和时间赛跑，你就可以成功。
+(x30 / condition
+      :arg1  (x6 / 要-03
+            :arg0  (x7 / 教-01
+                  :arg1  (x11 / 孩子
+                        :poss  (x9 / x3
+))                  :arg0  (x3 / 我
+)                  :arg2  (x5 / 什么
+                        :arg1-of  (x4 / 有-03
+)))            :time  (x2 / 将来
+))      :arg2  (x14 / 会-02
+            :arg0  (x15 / 告诉-01
+                  :arg0  (x13 / x3
+)                  :arg1  (x44 / condition
+                        :arg1  (x23 / 赛跑-01
+                              :arg0  (x48 / and
+                                    :op1  (x19 / x11
+)                                    :op2  (x22 / 时间
+))                              :time  (x20 / 一直
+))                        :arg2  (x27 / 可以-01
+                              :arg0  (x28 / 成功-01
+                                    :arg0  (x25 / x11
+))))                  :arg2  (x16 / x11
+))))
+===========================

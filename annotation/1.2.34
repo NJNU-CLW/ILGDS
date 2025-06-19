@@ -1,0 +1,328 @@
+池塘里有一群小蝌蚪，大大的脑袋，黑灰色的身子，甩着长长的尾巴，快活地游来游去。
+(x29 / and
+      :op1  (x3 / 有-03
+            :arg0  (x1 / 池塘
+)            :arg1  (x7 / 蝌蚪
+                  :arg0-of  (x6 / 小-01
+)                  :quant  (x4 / 1
+)                  :cunit  (x5 / 群
+)))      :op2  (x11 / 脑袋
+            :arg0-of  (x9 / 大-01
+)            :part-of  (x7 / 蝌蚪
+))      :op3  (x15 / 身子
+            :part-of  (x7 / 蝌蚪
+)            :arg0-of  (x13 / 黑灰色
+))      :op4  (x17 / 甩
+            :aspect  (x18 / 着
+)            :arg0  (x7 / 蝌蚪
+)            :arg1  (x20 / 尾巴
+                  :part-of  (x7 / 蝌蚪
+)                  :arg0-of  (x19 / 长-02
+)))      :op5  (x24_x25_x26_27 / 游来游去
+            :arg0  (x7 / 蝌蚪
+)))
+===========================
+小蝌蚪游哇游，过了几天，长出两条后腿。
+(x17 / and
+      :op1  (x3_x5 / 游-02
+            :arg0  (x2 / 蝌蚪
+                  :arg0-of  (x1 / 小-01
+))            :mode  (x4 / expressive
+))      :op2  (x23 / temporal
+            :arg1  (x7 / 过
+                  :aspect  (x8 / 了
+)                  :duration  (x27 / temporal-quantity
+                        :quant  (x9_1 / 几
+)                        :unit  (x9_2 / 天
+)))            :arg2  (x11_x12 / 长出-01
+                  :arg0  (x15 / 后腿
+                        :quant  (x13 / 2
+)                        :cunit  (x14 / 条
+)))))
+===========================
+他们看见鲤鱼妈妈在教小鲤鱼捕食，就迎上去，问:“鲤鱼阿姨，我们的妈妈在哪里?”
+(x26 / temporal
+      :arg1  (x2 / 看见-01
+            :arg0  (x1 / 他们
+)            :arg1  (x6 / 教-01
+                  :arg0  (x4 / 妈妈
+                        :mod  (x3 / 鲤鱼
+))                  :aspect  (x5 / 在
+)                  :arg1  (x8 / 鲤鱼
+                        :arg0-of  (x7 / 小-01
+))                  :arg2  (x9 / 捕食
+)))      :arg2  (x12 / 迎-01
+            :mod  (x11 / 就
+)            :direction  (x13 / 上去-01
+                  :arg0  (x1 / 他们
+))            :arg0  (x1 / 他们
+))      :arg3  (x15 / 问-01
+            :arg0  (x1 / 他们
+)            :arg2  (x4 / 妈妈
+)            :arg1  (x41 / and
+                  :op1  (x18 / x4
+                        :mod  (x17 / 鲤鱼
+))                  :op2  (x23 / 在-01
+                        :arg0  (x22 / 妈妈
+                              :poss  (x20 / x1
+))                        :arg1  (x24 / amr-unknown
+)                        :mode  (x25 / interrogative
+)))))
+===========================
+鲤鱼妈妈说:“你们的妈妈四条腿，宽嘴巴。
+(x3 / 说-01
+      :arg0  (x2 / 妈妈
+            :mod  (x1 / 鲤鱼
+))      :arg1  (x19 / and
+            :op1  (x10 / 腿
+                  :quant  (x8 / 4
+)                  :cunit  (x9 / 条
+)                  :part-of  (x7 / 妈妈
+                        :poss  (x5 / 你们
+)))            :op2  (x13 / 嘴巴
+                  :arg0-of  (x12 / 宽-01
+)                  :part-of  (x7 / 妈妈
+))))
+===========================
+你们到那边去找吧!”
+(x8 / say
+      :arg1  (x2 / 到-01
+            :arg0  (x1 / 你们
+)            :arg1  (x3 / 那边
+)            :purpose  (x4 / 去-02
+                  :arg0  (x5 / 找-03
+                        :arg0  (x1 / 你们
+)))            :mode  (x6 / imperative
+)            :mode  (x7 / expressive
+)))
+===========================
+小蝌蚪游哇游，过了几天，长出两条前腿。
+(x18 / and
+      :op1  (x3_x5 / 游-02
+            :mode  (x4 / expressive
+)            :arg0  (x2 / 蝌蚪
+                  :arg0-of  (x1 / 小-01
+)))      :op2  (x24 / temporal
+            :arg1  (x7 / 过
+                  :aspect  (x8 / 了
+)                  :duration  (x27 / temporal-quantity
+                        :quant  (x9 / 几
+)                        :unit  (x10 / 天
+)))            :arg2  (x12_x13 / 长出-01
+                  :arg0  (x16 / 前腿
+                        :quant  (x14 / 2
+)                        :cunit  (x15 / 条
+)))))
+===========================
+他们看见一只乌龟摆动着四条腿在水里游，连忙追上去，叫着:“妈妈，妈妈!”
+(x27 / temporal
+      :arg1  (x2 / 看见-01
+            :arg0  (x1 / 他们
+)            :arg1  (x14 / 游-02
+                  :arg0  (x5 / 乌龟
+                        :quant  (x3 / 1
+)                        :cunit  (x4 / 只
+))                  :location  (x12 / 水
+)                  :manner  (x6 / 摆动-01
+                        :aspect  (x7 / 着
+)                        :arg0  (x5 / 乌龟
+)                        :arg1  (x10 / 腿
+                              :part-of  (x5 / 乌龟
+)                              :quant  (x8 / 4
+)                              :cunit  (x9 / 条
+)))))      :arg2  (x17 / 追-01
+            :arg0  (x1 / 他们
+)            :arg1  (x5 / 乌龟
+)            :manner  (x16 / 连忙
+)            :direction  (x18 / 上去-01
+                  :arg0  (x1 / 他们
+)))      :arg3  (x20 / 叫-01
+            :aspect  (x21 / 着
+)            :arg1  (x46 / and
+                  :op1  (x23 / 妈妈
+)                  :op2  (x25 / 妈妈
+))            :arg0  (x1 / 他们
+)))
+===========================
+乌龟笑着说:“我不是你们的妈妈。
+(x4 / 说-01
+      :manner  (x2 / 笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 乌龟
+))      :arg0  (x1 / 乌龟
+)      :arg1  (x11 / 妈妈
+            :poss  (x9 / 你们
+)            :domain  (x6 / x1
+)            :polarity  (x7 / -
+)))
+===========================
+你们的妈妈头顶上有两只大眼睛，披着绿衣裳。
+(x17 / and
+      :op1  (x6 / 有-03
+            :arg0  (x4 / 头顶
+                  :part-of  (x3 / 妈妈
+                        :poss  (x1 / 你们
+)))            :arg1  (x10 / 眼睛
+                  :arg0-of  (x9 / 大-01
+)                  :quant  (x7 / 2
+)                  :cunit  (x8 / 只
+)))      :op2  (x12 / 披-01
+            :aspect  (x13 / 着
+)            :arg0  (x3 / 妈妈
+)            :arg1  (x15 / 衣裳
+                  :arg1-of  (x14 / 绿-01
+))))
+===========================
+你们到那边去找吧!”
+(x8 / say
+      :arg1  (x2 / 到-01
+            :arg0  (x1 / 你们
+)            :arg1  (x3 / 那边
+)            :purpose  (x4 / 去-02
+                  :arg0  (x5 / 找-03
+                        :arg0  (x1 / 你们
+)))            :mode  (x6 / imperative
+)            :mode  (x7 / expressive
+)))
+===========================
+小蝌蚪游哇游，过了几天，尾巴变短了。
+(x17 / and
+      :op1  (x3_x5 / 游-02
+            :arg0  (x2 / 蝌蚪
+                  :arg0-of  (x1 / 小-01
+))            :mode  (x4 / expressive
+))      :op2  (x23 / temporal
+            :arg1  (x7 / 过
+                  :aspect  (x8 / 了
+)                  :duration  (x26 / temporal-quantity
+                        :quant  (x9 / 几
+)                        :unit  (x10 / 天
+)))            :arg2  (x13 / 变-01
+                  :arg2  (x14 / 短-01
+                        :aspect  (x15 / 了
+)                        :arg0  (x12 / 尾巴
+                              :part-of  (x2 / 蝌蚪
+)))                  :arg0  (x12 / 尾巴
+))))
+===========================
+他们游到荷花旁边，看见荷叶上蹲着一只大青蛙，披着碧绿的衣裳，露着雪白的肚皮，鼓着一对大眼睛。
+(x36 / temporal
+      :arg1  (x2 / 游-04
+            :arg0  (x1 / 他们
+)            :arg1  (x5 / 旁边
+                  :arg0  (x4 / 荷花
+)))      :arg2  (x7 / 看见-01
+            :arg0  (x1 / 他们
+)            :arg1  (x44 / and
+                  :op1  (x10 / 蹲-01
+                        :aspect  (x11 / 着
+)                        :arg0  (x15 / 青蛙
+                              :arg0-of  (x14 / 大-01
+)                              :quant  (x12 / 1
+)                              :cunit  (x13 / 只
+))                        :arg1  (x9 / 上
+                              :arg0  (x8 / 荷叶
+)))                  :op2  (x17 / 披-01
+                        :arg0  (x15 / 青蛙
+)                        :arg1  (x21 / 衣裳
+                              :arg0-of  (x19 / 碧绿
+))                        :aspect  (x18 / 着
+))                  :op3  (x23 / 露-01
+                        :arg0  (x15 / 青蛙
+)                        :aspect  (x24 / 着
+)                        :arg1  (x27 / 肚皮
+                              :arg0-of  (x25 / 雪白-01
+)))                  :op4  (x29 / 鼓-01
+                        :aspect  (x30 / 着
+)                        :arg0  (x34 / 眼睛
+                              :arg0-of  (x33 / 大-01
+)                              :unit  (x32 / 对
+)                              :quant  (x31 / 1
+))))))
+===========================
+小蝌蚪游过去，叫着:“妈妈，妈妈!”
+(x13 / temporal
+      :arg1  (x3 / 游-02
+            :arg0  (x2 / 蝌蚪
+                  :arg0-of  (x1 / 小-01
+))            :cause-of  (x4 / 过去-02
+                  :arg0  (x2 / 蝌蚪
+)))      :arg2  (x6 / 叫-03
+            :aspect  (x7 / 着
+)            :arg0  (x2 / 蝌蚪
+)            :arg1  (x21 / and
+                  :op1  (x9 / 妈妈
+)                  :op2  (x11 / x9
+)                  :mode  (x12 / expressive
+))))
+===========================
+青蛙妈妈低头一看，笑着说:“好孩子，你们已经长成青蛙了，快跳上来吧!”
+(x25 / temporal
+      :arg1  (x4_x5 / 看-02
+            :manner  (x3 / 低头
+)            :arg0  (x2 / 妈妈
+                  :mod  (x1 / 青蛙
+)))      :arg2  (x9 / 说-01
+            :manner  (x7 / 笑-01
+                  :arg0  (x2 / 妈妈
+)                  :aspect  (x8 / 着
+))            :arg0  (x2 / 妈妈
+)            :arg1  (x34 / and
+                  :op1  (x12 / 孩子
+                        :arg0-of  (x11 / 好-01
+))                  :op2  (x16 / 长成-01
+                        :aspect  (x15 / 已经
+)                        :arg0  (x14 / x12
+)                        :arg1  (x17 / 青蛙
+)                        :aspect  (x18 / 了
+))                  :op3  (x21 / 跳-01
+                        :manner  (x20 / 快
+)                        :mode  (x23 / imperative
+)                        :mode  (x24 / expressive
+)                        :cause-of  (x22 / 上来-01
+                              :arg0  (x12 / 孩子
+))                        :arg0  (x12 / 孩子
+)))))
+===========================
+他们后腿一蹬，向前一跳，蹦到了荷叶上。
+(x16 / temporal
+      :arg1  (x3_x4 / 蹬-01
+            :arg0  (x2 / 后腿
+                  :part-of  (x1 / 他们
+)))      :arg2  (x7_x8 / 跳-01
+            :arg0  (x1 / 他们
+)            :direction  (x6_2 / 前
+))      :arg3  (x11 / 到-01
+            :aspect  (x12 / 了
+)            :manner  (x10 / 蹦
+                  :arg0  (x1 / 他们
+))            :arg0  (x1 / 他们
+)            :arg1  (x14 / 上
+                  :arg0  (x13 / 荷叶
+))))
+===========================
+不知什么时候，小青蛙的尾巴已经不见了。
+(x10_2 / 见-01
+      :time  (x1_2 / 知-01
+            :polarity  (x1_1 / -
+)            :arg1  (x3 / 时候
+                  :mod  (x2 / amr-unknown
+)))      :polarity  (x10_1 / -
+)      :aspect  (x11 / 了
+)      :arg1  (x8 / 尾巴
+            :part-of  (x6 / 青蛙
+                  :arg0-of  (x5 / 小-01
+)))      :aspect  (x9 / 已经
+))
+===========================
+他们跟着妈妈，天天去捉害虫。
+(x6 / 去-02
+      :arg0  (x7 / 捉-01
+            :arg0  (x1 / 他们
+)            :arg1  (x8 / 害虫
+))      :manner  (x2_1 / 跟-01
+            :arg0  (x1 / 他们
+)            :arg1  (x3 / 妈妈
+))      :frequency  (x5 / 天天
+))
+===========================

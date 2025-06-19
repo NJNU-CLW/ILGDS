@@ -1,0 +1,553 @@
+六年前的一个夜晚，我感受了和田维吾尔人特有的豪气与乐观。
+(x10 / 感受-01
+      :arg0  (x9 / 我
+)      :arg1  (x18 / and
+            :op1  (x17 / 豪气
+                  :arg1-of  (x15 / 特有-01
+                        :arg0  (x14 / 人
+                              :mod  (x13 / 维吾尔
+                                    :mod  (x30 / county
+                                          :name  ( x12/和田 
+))))))            :op2  (x19 / 乐观
+                  :arg1-of  (x15 / 特有-01
+)))      :aspect  (x11 / 了
+)      :time  (x7 / 夜晚
+            :quant  (x5 / 1
+)            :cunit  (x6 / 个
+)            :time  (x3 / 前
+                  :op1  (x37 / temporal-quantity
+                        :quant  (x1 / 6
+)                        :unit  (x2 / 年
+)))))
+===========================
+那是个停电的晚上，沙尘暴铺天盖地地撕扯着黑暗中的一切，我缩在被窝里惊恐地竖耳听着。
+(x31 / and
+      :op1  (x12 / 撕扯-01
+            :arg0  (x9 / 沙尘暴
+)            :manner  (x10 / 铺天盖地-01
+)            :aspect  (x13 / 着
+)            :arg1  (x17 / 一切
+                  :location  (x14 / 黑暗
+)))      :op2  (x39 / temporal
+            :arg1  (x20 / 缩-01
+                  :arg1  (x19 / 我
+)                  :location  (x22 / 被窝
+))            :arg2  (x28 / 听-01
+                  :manner  (x24 / 惊恐-01
+                        :arg0  (x19 / 我
+))                  :manner  (x26 / 竖-01
+                        :arg1  (x27 / 耳
+)                        :arg0  (x19 / 我
+))                  :aspect  (x29 / 着
+)                  :arg0  (x19 / 我
+)))      :time  (x7 / 晚上
+            :time-of  (x4 / 停-01
+                  :arg1  (x5 / 电
+))            :cunit  (x3 / 个
+)            :domain  (x1 / 那
+)))
+===========================
+忽闻一阵马车飞奔、铜铃丁冬，车上一个汉子嘶着沙哑的嗓子在迎风引吭！。
+(x2 / 闻-01
+      :arg1  (x28 / temporal
+            :arg1  (x5 / 飞奔-01
+                  :arg0  (x4 / 马车
+)                  :quant  (x3 / 一阵
+)))      :manner  (x1 / 忽
+)      :arg2  (x8 / 丁冬
+            :mod  (x7 / 铜铃
+))      :arg3  (x14 / 嘶
+            :arg1  (x18 / 嗓子
+                  :arg0-of  (x16 / 沙哑
+))            :purpose  (x21_x22 / 引吭
+                  :aspect  (x19 / 在
+)                  :manner  (x20 / 迎风
+))            :aspect  (x15 / 着
+)            :arg0  (x13 / 汉子
+                  :quant  (x11 / 1
+)                  :cunit  (x12 / 个
+)                  :location  (x10 / 车上
+))            :mode  (x23 / expressive
+)))
+===========================
+马车远去，风中的歌声仍在夜空中渺渺回荡……
+(x15 / contrast
+      :arg1  (x2 / 远去-01
+            :arg0  (x1 / 马车
+))      :arg2  (x13 / 回荡-01
+            :arg0  (x7 / 歌声
+                  :location  (x4 / 风
+))            :arg1  (x10 / 夜空
+)            :manner  (x12 / 渺渺
+)))
+===========================
+虽然我听不懂他在唱什么，但在这样的夜里竟能听到如此热烈激昂的歌唱，我不由得惊奇进而肃然起敬了。
+(x32 / contrast
+      :arg1  (x3_x5 / 听懂-01
+            :polarity  (x4 / -
+)            :arg0  (x2 / 我
+)            :arg1  (x8 / 唱-01
+                  :arg0  (x6 / 他
+)                  :arg1  (x9 / amr-unknown
+)                  :aspect  (x7 / 在
+)))      :arg2  (x41 / causation
+            :arg1  (x17 / 能-01
+                  :arg0  (x18 / 听到-01
+                        :arg1  (x23 / 歌唱
+                              :arg0-of  (x20 / 热烈-01
+)                              :mod  (x19 / 如此
+)                              :arg1-of  (x21 / 激昂-01
+))                        :arg0  (x2 / 我
+))                  :time  (x15 / 夜里
+                        :mod  (x13 / 这样
+)))            :arg2  (x50 / temporal
+                  :arg1  (x26 / 不由得
+                        :arg0  (x27 / 惊奇-01
+                              :arg0  (x25 / 我
+)))                  :arg2  (x29 / 肃然起敬-01
+                        :aspect  (x30 / 了
+)                        :arg0  (x25 / 我
+)))))
+===========================
+和田维吾尔人热爱土地的程度令人惊叹。
+(x8 / 令-01
+      :arg1  (x9 / 人
+)      :arg2  (x10 / 惊叹-01
+            :arg0  (x9 / 人
+))      :arg0  (x7 / 程度
+            :mod  (x4 / 热爱-01
+                  :arg0  (x3 / 人
+                        :mod  (x2 / 维吾尔
+                              :mod  (x20 / county
+                                    :name  ( x1/和田 
+))))                  :arg1  (x5 / 土地
+))))
+===========================
+如果不是亲眼所见，谁能想象那黄灿灿、香喷喷的烤肉是在土堡似的土馕坑里烤熟的！
+(x27 / condition
+      :arg1  (x6 / 见
+            :manner  (x4 / 亲眼
+)            :polarity  (x2 / -
+))      :arg2  (x9 / 能-02
+            :arg0  (x10 / 想象-01
+                  :arg0  (x8 / amr-unknown
+)                  :arg1  (x23 / 烤-01
+                        :arg1  (x16 / 烤肉
+                              :mod  (x11 / 那
+)                              :arg0-of  (x14 / 香喷喷
+)                              :arg0-of  (x12 / 黄灿灿
+)                              :location  (x21 / 土馕坑
+                                    :arg0-of  (x20 / 像-01
+                                          :arg1  (x19 / 土堡
+))                                    :mode  (x17_x25 / judgement
+)))                        :cause-of  (x24 / 熟-01
+                              :arg0  (x16 / 烤肉
+))))            :mode  (x26 / expressive
+)))
+===========================
+谁又能想到维吾尔人著名的日常食品——馕也是在土馕坑里烤成的！
+(x22 / progression
+      :arg2  (x3 / 能-01
+            :arg0  (x4 / 想到-01
+                  :arg1  (x18_x19 / 烤-01
+                        :arg1  (x10 / 食品
+                              :mod  (x9 / 日常
+)                              :arg0-of  (x7 / 著名-01
+)                              :arg0-of  (x30 / mean
+                                    :arg1  (x12 / 馕
+))                              :poss  (x6 / 人
+                                    :mod  (x5 / 维吾尔
+)))                        :location  (x16 / 土馕坑
+                              :mode  (x14_x20 / judgement
+)))                  :arg0  (x1 / amr-unknown
+))            :mode  (x21 / expressive
+)))
+===========================
+维吾尔牧人还喜欢吃沙土灰里烧出的“库乃其”。
+(x4 / 喜欢-01
+      :arg1  (x5 / 吃-01
+            :arg1  (x25 / thing
+                  :name  ( x14/库乃其 
+                        :arg1-of  (x10_x11 / 烧-01
+                              :location  (x6_x7_x8 / 沙土灰
+)))))      :arg0  (x2 / 牧人
+            :mod  (x1 / 维吾尔
+))      :mod  (x3 / 还-01
+))
+===========================
+他们先在沙土里挖个坑，捡来一些干胡杨在沙坑里燃起一堆火，火灭之后，就把包肉的面饼埋在火灰中烤熟即食。
+(x45 / temporal
+      :arg1  (x6 / 挖-01
+            :arg1  (x8 / 坑
+                  :cunit  (x7 / 个
+))            :location  (x4 / 沙土
+)            :arg0  (x1 / 他们
+))      :arg2  (x10_x11 / 捡来-01
+            :arg1  (x14 / 胡杨
+                  :arg0-of  (x13 / 干-02
+)                  :quant  (x12 / 一些
+))            :arg0  (x1 / 他们
+))      :arg3  (x18_x19 / 燃起-01
+            :arg1  (x22 / 火
+                  :quant  (x20 / 1
+)                  :cunit  (x21 / 堆
+))            :location  (x16 / 沙坑
+)            :arg0  (x1 / 他们
+))      :arg4  (x25 / 灭-01
+            :arg1  (x24 / 火
+))      :arg5  (x35_x36 / 埋在-01
+            :arg1  (x33_x34 / 面饼
+                  :arg2-of  (x30 / 包-01
+                        :arg1  (x31 / 肉
+)))            :arg2  (x37_x38 / 火灰
+)            :purpose  (x40 / 烤-01
+                  :cause-of  (x41 / 熟
+)                  :arg1  (x33_x34 / 面饼
+))            :arg0  (x1 / 他们
+))      :arg6  (x43 / 食-01
+            :time  (x42 / 即
+)            :arg1  (x33_x34 / 面饼
+)))
+===========================
+据说，吃了这种“库乃其”，一天不吃饭也浑身有劲儿。
+(x1 / 据说-01
+      :arg0  (x21 / condition
+            :arg1  (x3 / 吃-01
+                  :aspect  (x4 / 了
+)                  :arg1  (x38 / thing
+                        :name  ( x7/库乃其 
+                              :unit  (x5_2 / 种
+)                              :mod  (x5_1 / 这
+))))            :arg2  (x28 / concession
+                  :arg1  (x12 / 吃饭
+                        :polarity  (x11 / -
+)                        :duration  (x31 / temporal-quantity
+                              :quant  (x9 / 1
+)                              :unit  (x10 / 天
+)))                  :arg2  (x15 / 有-03
+                        :arg0  (x14 / 浑身
+)                        :arg1  (x16_x17 / 劲
+)))))
+===========================
+有些维吾尔老乡喜欢把洗过的衣服直接摊铺在沙漠上晾晒。
+(x4 / 喜欢-01
+      :arg0  (x3 / 老乡
+            :mod  (x2 / 维吾尔
+)            :mod  (x1 / 有些
+))      :arg1  (x12 / 铺-01
+            :arg1  (x9 / 衣服
+                  :arg1-of  (x6 / 洗-01
+                        :aspect  (x7 / 过
+)                        :arg0  (x3 / 老乡
+)))            :arg2  (x14 / 沙漠
+)            :purpose  (x16 / 晾晒-01
+                  :arg1  (x9 / 衣服
+)                  :arg0  (x3 / 老乡
+))            :manner  (x10 / 直接
+)            :manner  (x11 / 摊-01
+                  :arg0  (x3 / 老乡
+)                  :arg1  (x9 / 衣服
+))))
+===========================
+远远望去，那大大小小、五颜六色、形态各异的衣服，像一幅巨大的抽象画，给寂静而单调的沙漠平添了几分韵味。
+(x32 / and
+      :op1  (x2 / 望去-01
+            :arg1  (x13 / 像-01
+                  :arg0  (x11 / 衣服
+                        :mod  (x4 / 那
+)                        :arg0-of  (x5 / 大大小小-01
+)                        :arg0-of  (x7 / 五颜六色-01
+)                        :arg0-of  (x9 / 形态各异
+))                  :arg1  (x18 / 抽象画
+                        :arg0-of  (x16 / 巨大-01
+)                        :quant  (x14 / 1
+)                        :cunit  (x15 / 幅
+)))            :manner  (x1 / 远远
+))      :op2  (x26 / 平添-01
+            :arg1  (x30 / 韵味
+                  :quant  (x28 / 几
+)                  :cunit  (x29 / 分
+))            :aspect  (x27 / 了
+)            :arg2  (x25 / 沙漠
+                  :arg0-of  (x23 / 单调-01
+)                  :arg0-of  (x21 / 寂静-01
+))            :arg0  (x11 / 衣服
+)))
+===========================
+穿了这种带有大地和太阳气味的衣服，也许会更有精气神吧。
+(x19 / condition
+      :arg1  (x1 / 穿-01
+            :arg1  (x10 / 衣服
+                  :mod  (x3_1 / 这
+)                  :unit  (x3_2 / 种
+)                  :arg0-of  (x4 / 带有-01
+                        :arg1  (x8 / 气味
+                              :poss  (x6 / and
+                                    :op1  (x5 / 大地
+)                                    :op2  (x7 / 太阳
+)))))            :aspect  (x2 / 了-01
+))      :arg2  (x12 / 也许
+            :arg0  (x13 / 会-01
+                  :arg0  (x15 / 有-01
+                        :arg1  (x16 / 精气神
+)                        :degree  (x14 / 更
+)))            :mode  (x17 / imperative
+)))
+===========================
+和田地处大漠边缘，那恶劣的自然环境并没有扼杀维吾尔人爱美的天性。
+(x20 / contrast
+      :arg1  (x2 / 地处-01
+            :arg0  (x23 / county
+                  :name  ( x1/和田 
+))            :arg1  (x4 / 边缘
+                  :arg0  (x3 / 大漠
+)))      :arg2  (x12 / 扼杀-01
+            :arg0  (x9 / 自然环境
+                  :arg0-of  (x7 / 恶劣-01
+)                  :mod  (x6 / 那
+))            :polarity  (x11 / -
+)            :arg1  (x18 / 天性
+                  :mod  (x15 / 爱-01
+                        :arg1  (x16 / 美
+)                        :arg0  (x14 / 人
+                              :mod  (x13 / 维吾尔
+))))))
+===========================
+他们天生爱花。
+(x3 / 爱-01
+      :arg0  (x1 / 他们
+)      :arg1  (x4 / 花
+)      :mod  (x2 / 天生-01
+))
+===========================
+花儿不仅盛开在南疆的沙土里，还盛开在维吾尔人的门框边、房梁顶、墙壁的挂毯上。
+(x27 / progression
+      :arg1  (x3 / 盛开-01
+            :arg0  (x1 / 花儿
+)            :location  (x7 / 沙土
+                  :location  (x32 / country-region
+                        :name  ( x5/南疆 
+))))      :arg2  (x11 / 盛开-01
+            :location  (x35 / and
+                  :op1  (x17 / 边
+                        :arg0  (x16 / 门框
+))                  :op2  (x20 / 顶
+                        :arg0  (x19 / 房梁
+))                  :op3  (x24 / 挂毯
+                        :location  (x22 / 墙壁
+))                  :poss  (x14 / 人
+                        :mod  (x13 / 维吾尔
+)))            :arg0  (x1 / 花儿
+)))
+===========================
+巴扎的闹市里，那一顶顶鲜亮的绣花“都帕”，那一团团飘然而过的“艾得来斯”，犹如天幕上朵朵鲜艳的彩云，又似花园里一片片随风摇曳的花儿，真是美不胜收。
+(x49 / and
+      :op1  (x25 / 犹如-01
+            :arg0  (x52 / and
+                  :op1  (x13 / 都帕
+                        :mod  (x11 / 绣花
+)                        :arg0-of  (x9 / 鲜亮
+)                        :quant  (x7_x8 / 一顶顶
+)                        :mod  (x6 / 那
+))                  :op2  (x23 / 艾得来斯
+                        :arg0-of  (x20 / 过-05
+                              :manner  (x18 / 飘然
+))                        :quant  (x16_x17 / 一团团
+)                        :mod  (x15 / 那
+)))            :arg1  (x31 / 彩云
+                  :arg0-of  (x29 / 鲜艳-01
+)                  :cunit  (x28 / 朵朵
+)                  :location  (x26 / 天幕
+)))      :op2  (x34 / 似-01
+            :arg1  (x43_x44 / 花儿
+                  :arg0-of  (x41 / 摇曳-01
+                        :manner  (x39 / 随-01
+                              :arg1  (x40 / 风
+)))                  :quant  (x37_x38 / 一片片
+)                  :location  (x35 / 花园
+))            :arg0  (x52 / and
+))      :op3  (x47 / 美不胜收-01
+            :manner  (x46 / 真是
+)            :arg0  (x52 / and
+))      :location  (x3 / 闹市
+            :location  (x78 / city
+                  :name  ( x1/巴扎 
+))))
+===========================
+维吾尔姑娘更是漂亮得叫人不敢正视。
+(x4 / 漂亮-01
+      :manner  (x6 / 叫-04
+            :arg1  (x7 / 人
+)            :arg2  (x9 / 敢-02
+                  :arg1  (x10 / 正视-01
+                        :arg0  (x7 / 人
+)                        :arg1  (x2 / 姑娘
+                              :mod  (x1 / 维吾尔
+)))                  :polarity  (x8 / -
+)))      :arg0  (x2 / 姑娘
+))
+===========================
+密密的眼帘，深邃的眼睛，妩媚的笑容，像花儿般绽放在风沙里。
+(x16 / 绽放-01
+      :location  (x18 / 风沙
+)      :manner  (x13_x15 / 像-01
+            :arg0  (x23 / and
+                  :op1  (x3 / 眼帘
+                        :arg0-of  (x1 / 密-01
+))                  :op2  (x7 / 眼睛
+                        :arg0-of  (x5 / 深邃-01
+))                  :op3  (x11 / 笑容
+                        :arg0-of  (x9 / 妩媚-01
+)))            :arg1  (x14 / 花儿
+))      :arg0  (x23 / and
+))
+===========================
+那里的小伙子，热情俊朗，浪漫风趣。
+(x11 / and
+      :op1  (x6 / 俊朗
+            :arg0  (x3 / 小伙子
+                  :location  (x1 / 那里
+)))      :op2  (x5 / 热情-01
+            :arg0  (x3 / 小伙子
+))      :op3  (x8 / 浪漫-01
+            :arg0  (x3 / 小伙子
+))      :op4  (x9 / 风趣
+            :arg0  (x3 / 小伙子
+)))
+===========================
+维吾尔的姑娘小伙不单漂亮，能歌善舞也是出了名的。
+(x16 / progression
+      :arg1  (x6 / 漂亮-01
+            :arg0  (x19 / and
+                  :op1  (x3 / 姑娘
+)                  :op2  (x4 / 小伙
+)                  :mod  (x1 / 维吾尔
+)))      :arg2  (x11_x12_x13 / 出名-01
+            :arg0  (x8 / 能歌善舞-01
+                  :arg0  (x19 / and
+))            :mode  (x10_x14 / judgement
+)))
+===========================
+没有歌舞，维吾尔人的生活就不完整，歌舞已成了他们日常生活不可缺少的一部分。
+(x25 / and
+      :op1  (x27 / condition
+            :arg1  (x1_2 / 有
+                  :polarity  (x1_1 / -
+)                  :arg1  (x2 / 歌舞
+))            :arg2  (x10 / 完整
+                  :arg0  (x7 / 生活
+                        :poss  (x5 / 人
+                              :mod  (x4 / 维吾尔
+)))                  :polarity  (x9 / -
+)))      :op2  (x14 / 成-01
+            :arg0  (x12 / 歌舞
+)            :aspect  (x13 / 已
+)            :aspect  (x15 / 了
+)            :arg1  (x23 / 部分
+                  :quant  (x22 / 1
+)                  :arg1-of  (x20 / 缺少-01
+                        :polarity  (x19 / -
+)                        :arg0  (x16 / 他们
+))                  :part-of  (x18 / 生活
+                        :mod  (x17 / 日常
+)))))
+===========================
+这种歌舞从来不受人员、场地和时间的限制，不论什么人，什么地方，什么时候，想跳就跳。
+(x28 / and
+      :op1  (x11 / 限制-01
+            :arg0  (x2 / 歌舞
+                  :mod  (x1_1 / 这
+)                  :unit  (x1_2 / 种
+))            :arg1  (x34 / and
+                  :op1  (x5 / 人员
+)                  :op2  (x7 / 场地
+)                  :op3  (x9 / 时间
+))            :polarity  (x3 / -
+))      :op2  (x40 / condition
+            :arg1  (x41 / and
+                  :op1  (x15 / 人
+                        :mod  (x14 / amr-unknown
+))                  :op2  (x18 / 地方
+                        :mod  (x17 / amr-unknown
+))                  :op3  (x21 / 时候
+                        :mod  (x20 / amr-unknown
+)))            :arg2  (x26 / 跳-02
+                  :condition  (x23 / 想-02
+                        :arg1  (x24 / 跳-02
+                              :arg1  (x2 / 歌舞
+)))                  :arg1  (x2 / 歌舞
+))))
+===========================
+和田维吾尔聚餐形式花样繁多，规格不限，有时给巴朗子起个名字、施个礼，甚至耳朵要扎个眼，亲朋好友都要聚餐唱歌跳舞，以示庆贺。
+(x41 / and
+      :op1  (x43 / and
+            :op1  (x6 / 繁多-01
+                  :arg0  (x5 / 花样
+                        :arg0  (x4 / 形式
+                              :mod  (x3 / 聚餐-01
+                                    :arg0  (x2 / 维吾尔
+                                          :mod  (x49 / county
+                                                :name  ( x1/和田 
+)))))))            :op2  (x10 / 限-01
+                  :arg1  (x8 / 规格
+)                  :polarity  (x9 / -
+)))      :op2  (x55 / condition
+            :arg1  (x56 / progression
+                  :arg1  (x15 / 起-07
+                        :arg2  (x17 / 名字
+                              :cunit  (x16 / 个
+))                        :arg1  (x14 / 巴朗子
+)                        :time  (x12 / 有时
+))                  :arg2  (x19 / 施-01
+                        :arg1  (x21 / 礼
+                              :cunit  (x20 / 个
+)))                  :arg3  (x25 / 要-03
+                        :arg0  (x26 / 扎-01
+                              :arg1  (x24 / 耳朵
+)                              :cause-of  (x28 / 眼
+                                    :cunit  (x27 / 个
+)))))            :arg2  (x32 / 要-03
+                  :arg0  (x72 / and
+                        :op1  (x33 / 聚餐-01
+                              :arg0  (x30 / 亲朋好友
+))                        :op2  (x34 / 唱歌-01
+                              :arg0  (x30 / 亲朋好友
+))                        :op3  (x35 / 跳舞-01
+                              :arg0  (x30 / 亲朋好友
+)))                  :extent  (x31 / 都
+)                  :purpose  (x38 / 示-01
+                        :arg1  (x39 / 庆贺-01
+                              :arg0  (x30 / 亲朋好友
+))                        :arg0  (x72 / and
+)))))
+===========================
+聚餐的目的不在于吃，而在于载歌载舞。
+(x12 / and
+      :op1  (x5 / 在于-01
+            :arg0  (x3 / 目的
+                  :poss  (x1 / 聚餐
+))            :polarity  (x4 / -
+)            :arg1  (x6 / 吃-01
+))      :op2  (x9 / 在于-01
+            :arg1  (x10 / 载歌载舞
+)            :arg0  (x3 / 目的
+)))
+===========================
+豁达乐观的和田维吾尔人，纵使生活再苦，感觉也是甜的。
+(x19 / concession
+      :arg1  (x11 / 苦-01
+            :mod  (x10 / 再
+)            :arg1  (x9 / 生活
+                  :arg0  (x6 / 人
+                        :mod  (x5 / 维吾尔
+                              :mod  (x26 / county
+                                    :name  ( x4/和田 
+)))                        :arg0-of  (x2 / 乐观-01
+)                        :arg0-of  (x1 / 豁达-01
+))))      :arg2  (x13 / 感觉-01
+            :arg1  (x16 / 甜-01
+                  :arg0  (x9 / 生活
+))            :mode  (x15_x17 / judgement
+)            :arg0  (x6 / 人
+)))
+===========================

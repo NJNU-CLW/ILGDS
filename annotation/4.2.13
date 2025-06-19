@@ -1,0 +1,264 @@
+人类自古就想能像鸟儿一样飞上蓝天。
+(x4 / 想-02
+      :time  (x2 / 自古
+)      :mod  (x3 / 就
+)      :arg0  (x1 / 人类
+)      :arg1  (x5 / 能-01
+            :arg0  (x6 / 像
+                  :arg1  (x7 / 鸟儿
+)                  :arg2  (x9_x10 / 飞上-01
+                        :arg1  (x11 / 蓝天
+)))))
+===========================
+科学家认真研究了鸟类飞行的原理，终于在1903年发明了飞机。
+(x17 / temporal
+      :arg1  (x3 / 研究-01
+            :manner  (x2 / 认真
+)            :arg0  (x1 / 科学家
+)            :aspect  (x4 / 了
+)            :arg1  (x8 / 原理
+                  :topic  (x6 / 飞行-01
+                        :arg0  (x5 / 鸟类
+))))      :arg2  (x13 / 发明-01
+            :time  (x27 / date-entity
+                  :year  (x12_1_2_3_4 / 1903
+))            :time  (x10 / 终于
+)            :aspect  (x14 / 了
+)            :arg0  (x1 / 科学家
+)            :arg1  (x15 / 飞机
+)))
+===========================
+二三十年以后，由于飞行速度不断提高，经常发生机翼因剧烈抖动而破碎的现象，造成机毁人亡的惨祸。
+(x31 / causation
+      :time  (x4 / 以后
+            :arg0  (x34 / temporal-quantity
+                  :unit  (x3 / 年
+)                  :quant  (x36 / between
+                        :op1  (x1_x2_2 / 20
+)                        :op2  (x2 / 30
+))))      :arg1  (x10 / 提高-01
+            :arg1  (x8 / 速度
+                  :poss  (x7 / 飞行
+))            :manner  (x9 / 不断
+))      :arg2  (x43 / and
+            :op1  (x13 / 发生-01
+                  :frequency  (x12 / 经常
+)                  :arg1  (x21 / 现象
+                        :arg0-of  (x47 / mean
+                              :arg1  (x19 / 破碎-01
+                                    :arg0  (x14 / 机翼
+)                                    :cause  (x17 / 抖动-01
+                                          :arg0-of  (x16 / 剧烈-01
+)                                          :arg0  (x14 / 机翼
+))))))            :op2  (x23 / 造成-01
+                  :arg1  (x29 / 惨祸
+                        :arg0-of  (x54 / mean
+                              :arg1  (x55 / and
+                                    :op1  (x25 / 毁-01
+                                          :arg1  (x24 / 机
+))                                    :op2  (x27 / 亡-01
+                                          :arg0  (x26 / 人
+))))))))
+===========================
+过了许多年，人类才找到了防止这类事故的方法。
+(x17 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x21 / temporal-quantity
+                  :unit  (x4 / 年
+)                  :quant  (x3 / 许多
+)))      :arg2  (x8 / 找到-01
+            :aspect  (x9 / 了
+)            :arg0  (x6 / 人类
+)            :arg1  (x15 / 方法
+                  :arg0-of  (x10 / 防止-01
+                        :arg1  (x13 / 事故
+                              :unit  (x12 / 类
+)                              :mod  (x11 / 这
+))))))
+===========================
+其实蜻蜓早就解决了这个问题。
+(x4 / 解决-01
+      :mod  (x3_2 / 就
+)      :time  (x3_1 / 早
+)      :aspect  (x5 / 了
+)      :arg0  (x2 / 蜻蜓
+)      :manner  (x1 / 其实
+)      :arg1  (x7 / 问题
+            :cunit  (x6_2 / 个
+)            :mod  (x6_1 / 这
+)))
+===========================
+每只蜻蜓的翅膀末端，都有一块比周围略重一些的厚斑点，这就是防止翅膀颤动的关键。
+(x30 / and
+      :op1  (x9 / 有-03
+            :arg0  (x6 / 末端
+                  :extent  (x8 / 都
+)                  :arg0  (x5 / 翅膀
+                        :part-of  (x3 / 蜻蜓
+                              :cunit  (x2 / 只
+)                              :mod  (x1 / 每
+))))            :arg1  (x20 / 斑点
+                  :arg0-of  (x19 / 厚-02
+)                  :arg0-of  (x15 / 重-02
+                        :degree  (x14 / 略
+)                        :compared-to  (x13 / 周围
+)                        :degree  (x16_x17 / 一些
+))                  :quant  (x10 / 1
+)                  :cunit  (x11 / 块
+)))      :op2  (x28 / 关键
+            :domain  (x22 / x9
+)            :mod  (x24 / 防止-01
+                  :arg1  (x26 / 颤动-01
+                        :arg0  (x25 / 翅膀
+)))            :mod  (x23_1 / 就
+)))
+===========================
+早知道这一点，科学家可以少花多少精力啊！
+(x15 / condition
+      :arg1  (x2 / 知道-01
+            :time  (x1 / 早
+)            :arg1  (x5 / 点
+                  :quant  (x4 / 1
+)                  :mod  (x3 / 这
+)))      :arg2  (x8 / 可以-01
+            :arg0  (x10 / 花-01
+                  :manner  (x9 / 少
+)                  :arg1  (x12 / 精力
+                        :mod  (x11 / amr-unknown
+))                  :arg0  (x7 / 科学家
+))            :mode  (x13_x14 / expressive
+)))
+===========================
+现在，飞机设计师注意研究苍蝇、蚊子、蜜蜂等飞行的情形，研制出了具有各种优良性能的飞机。
+(x27 / temporal
+      :time  (x1 / 现在
+)      :arg1  (x5 / 注意-01
+            :arg1  (x6 / 研究-01
+                  :arg0  (x4 / 设计师
+                        :mod  (x3 / 飞机
+))                  :arg1  (x15 / 情形
+                        :mod  (x13 / 飞行-01
+                              :arg0  (x36 / and
+                                    :op1  (x7 / 苍蝇
+)                                    :op2  (x9 / 蚊子
+)                                    :op3  (x11 / 蜜蜂
+)                                    :op4  (x12 / 等
+)))))            :arg0  (x4 / 设计师
+))      :arg2  (x17 / 研制-01
+            :arg0  (x4 / 设计师
+)            :arg1  (x25 / 飞机
+                  :arg0-of  (x20 / 具有-01
+                        :arg1  (x23 / 性能
+                              :mod  (x21 / 各种
+)                              :arg0-of  (x22 / 优良-01
+))))            :aspect  (x19 / 了
+)))
+===========================
+从前，在大海中航行的轮船，虽然船头是尖尖的，但总是开不快。
+(x22 / contrast
+      :time  (x1 / 从前
+)      :arg1  (x13 / 尖
+            :arg0  (x11 / 船头
+                  :part-of  (x8 / 轮船
+                        :arg0-of  (x6 / 航行-01
+                              :location  (x4 / 大海
+))))            :mode  (x12_x14 / judgement
+))      :arg2  (x33 / possible
+            :arg0  (x18 / 开
+                  :arg1  (x8 / 轮船
+)                  :cause-of  (x20 / 快-01
+                        :arg0  (x8 / 轮船
+)))            :polarity  (x19 / -
+)            :time  (x17 / 总是
+)))
+===========================
+而有圆圆的大头的鲸，却常常轻而易举地超过海轮。
+(x17 / contrast
+      :arg2  (x14 / 超过-01
+            :arg1  (x15 / 海轮
+)            :manner  (x12 / 轻而易举
+)            :frequency  (x11 / 常常
+)            :arg0  (x8 / 鲸
+                  :arg0-of  (x2 / 有-01
+                        :arg1  (x6 / 头
+                              :arg0-of  (x5 / 大-01
+)                              :arg0-of  (x3 / 圆-02
+))))))
+===========================
+这是什么原因呢？
+(x1 / 这
+      :cause  (x3_x4 / amr-unknown
+)      :mode  (x5_x6 / interrogative
+))
+===========================
+科学家仔细研究了鲸，发现它的外形是一种极为理想的“流线型”，而“流线型”在水中受到的阻力是最小的。
+(x35 / temporal
+      :arg1  (x3 / 研究-01
+            :manner  (x2 / 仔细
+)            :arg0  (x1 / 科学家
+)            :aspect  (x4 / 了
+)            :arg1  (x5 / 鲸
+))      :arg2  (x42 / and
+            :op1  (x7 / 发现-01
+                  :arg0  (x1 / 科学家
+)                  :arg1  (x18 / 流线型
+                        :domain  (x10 / 外形
+                              :poss  (x8 / x5
+))                        :quant  (x12 / 1
+)                        :unit  (x13 / 种
+)                        :arg0-of  (x15 / 理想-01
+                              :degree  (x14 / 极为
+))))            :op2  (x32 / 小-01
+                  :arg0  (x29 / 阻力
+                        :arg1-of  (x27 / 受到-01
+                              :arg0  (x22 / 流线型
+)                              :location  (x25 / 水
+)))                  :degree  (x31 / 最
+)                  :mode  (x30_x33 / judgement
+))))
+===========================
+后来工程师设计船体时模仿鲸的形体，大大提高了轮船航行的速度。
+(x19 / temporal
+      :arg2  (x12 / 提高-01
+            :degree  (x11 / 大大
+)            :aspect  (x13 / 了
+)            :time  (x3 / 设计-01
+                  :arg0  (x2 / 工程师
+)                  :arg1  (x4 / 船体
+))            :arg0  (x2 / 工程师
+)            :manner  (x6 / 模仿-01
+                  :arg1  (x9 / 形体
+                        :poss  (x7 / 鲸
+))                  :arg0  (x2 / 工程师
+))            :arg1  (x17 / 速度
+                  :poss  (x15 / 航行-01
+                        :arg0  (x14 / 轮船
+)))))
+===========================
+科学家从蜻蜓、鲸等动物身上得到启示，有所发明，有所创造。
+(x19 / temporal
+      :arg1  (x10 / 得到-01
+            :arg1  (x11 / 启示
+)            :arg0  (x1 / 科学家
+)            :source  (x8 / 身
+                  :poss  (x7 / 动物
+                        :example  (x30 / and
+                              :op1  (x3 / 蜻蜓
+)                              :op2  (x5 / 鲸
+)                              :op3  (x6 / 等
+)))))      :arg2  (x13 / 有所-01
+            :arg1  (x14 / 发明
+))      :arg3  (x16 / 有所-01
+            :arg1  (x17 / 创造
+)))
+===========================
+生物真是人类的好老师啊！
+(x7 / 老师
+      :domain  (x1 / 生物
+)      :degree  (x2 / 真
+)      :arg0-of  (x6 / 好-01
+)      :poss  (x4 / 人类
+)      :mode  (x8_x9 / expressive
+))
+===========================

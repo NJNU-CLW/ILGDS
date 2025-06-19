@@ -1,0 +1,229 @@
+玲玲满意地端详着自己画的《我家的一角》。
+(x4 / 端详-01
+      :arg0  (x14 / person
+            :name  ( x1/玲玲 
+))      :manner  (x2 / 满意-01
+            :arg0  (x14 / person
+))      :aspect  (x5 / 着
+)      :arg1  (x18 / picture
+            :name  ( x10/我家的一角 
+)            :arg1-of  (x7 / 画-01
+                  :arg0  (x6 / x14
+))))
+===========================
+这幅画明天就要参加评奖了。
+(x5_2 / 要-03
+      :mod  (x5_1 / 就
+)      :arg0  (x6 / 参加-01
+            :arg1  (x7 / 评奖
+)            :time  (x4 / 明天
+)            :arg1  (x3 / 画
+                  :cunit  (x2 / 幅
+)                  :mod  (x1 / 这
+)))      :smood  (x8 / 了
+))
+===========================
+“玲玲，时间不早了，快去睡吧！”爸爸又在催她了。
+(x17 / 催-01
+      :arg0  (x14 / 爸爸
+)      :arg1  (x18 / x38
+)      :aspect  (x16 / 在
+)      :mod  (x15 / 又
+)      :smood  (x19 / 了
+)      :arg2  (x37 / and
+            :op1  (x38 / person
+                  :name  ( x2/玲玲 
+))            :op2  (x39 / causation
+                  :arg1  (x6 / 早-01
+                        :arg0  (x4 / 时间
+)                        :polarity  (x5 / -
+)                        :aspect  (x7 / 了
+))                  :arg2  (x10 / 去-01
+                        :arg1  (x11 / 睡-01
+                              :arg0  (x38 / person
+))                        :manner  (x9 / 快
+)                        :mode  (x13 / expressive
+)                        :mode  (x12 / imperative
+)))))
+===========================
+“好的，我把画笔收拾一下就去睡。”
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x2 / 好的
+)            :op2  (x17 / temporal
+                  :arg1  (x7_x8 / 收拾-01
+                        :arg0  (x4 / 我
+)                        :arg1  (x6 / 画笔
+))                  :arg2  (x10 / 去-01
+                        :arg1  (x11 / 睡-01
+                              :arg0  (x4 / 我
+))                        :arg0  (x4 / 我
+)))))
+===========================
+就在这时候，水彩笔叭的一下掉到了纸上，把画弄脏了，玲玲哇地哭了起来。
+(x29 / temporal
+      :arg1  (x31 / causation
+            :arg1  (x10_x11 / 掉到-01
+                  :time  (x3 / 这时候
+)                  :aspect  (x12 / 了
+)                  :arg1  (x13 / 纸
+)                  :manner  (x7_x8_x9 / 叭的一下
+))            :arg1  (x18 / 弄-04
+                  :arg1  (x19 / 脏-01
+                        :aspect  (x20 / 了
+)                        :arg0  (x17 / 画
+))))      :arg2  (x25_x27 / 哭-01
+            :aspect  (x26 / 了
+)            :arg0  (x43 / person
+                  :name  ( x22/玲玲 
+))            :manner  (x23 / 哇
+)))
+===========================
+“怎么了，孩子？”爸爸放下报纸问。
+(x12 / temporal
+      :arg1  (x8 / 放下-01
+            :arg0  (x7 / 爸爸
+)            :arg1  (x9 / 报纸
+))      :arg2  (x10 / 问-01
+            :arg0  (x7 / 爸爸
+)            :arg1  (x18 / and
+                  :op1  (x2 / amr-unknown
+                        :smood  (x3 / 了
+))                  :op2  (x5 / 孩子
+)                  :mode  (x6 / interrogative
+))))
+===========================
+“我的画脏了，另画一张也来不及了。”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x5 / 脏-01
+                  :aspect  (x6 / 了
+)                  :arg0  (x4 / 画
+                        :poss  (x2 / 我
+)))            :op2  (x13 / 来不及-01
+                  :arg1  (x9 / 画-01
+                        :mod  (x8 / 另-01
+)                        :arg1  (x28 / picture
+                              :cunit  (x11 / 张
+)                              :quant  (x10 / 1
+)))                  :mod  (x12 / 也
+)                  :aspect  (x14 / 了
+))))
+===========================
+爸爸仔细地看了看，说：“别哭，孩子。
+(x15 / temporal
+      :arg1  (x4_x6 / 看-02
+            :aspect  (x5 / 了
+)            :manner  (x2 / 仔细
+)            :arg0  (x1 / 爸爸
+))      :arg2  (x8 / 说-01
+            :arg0  (x1 / 爸爸
+)            :arg1  (x22 / and
+                  :op1  (x10 / 别-02
+                        :arg0  (x11 / 哭
+))                  :op2  (x13 / 孩子
+))))
+===========================
+在这儿画点儿什么，不是很好吗？”
+(x13 / say
+      :arg1  (x10 / 好
+            :arg0  (x3 / 画-01
+                  :arg1  (x5 / 什么
+                        :quant  (x4 / 点儿
+))                  :location  (x2 / 这儿
+))            :degree  (x9 / 很
+)            :mode  (x11_12 / interrogative
+)))
+===========================
+玲玲想想，拿起笔，在弄脏的地方画了一只小花狗。
+(x21 / temporal
+      :arg1  (x2 / 想想-01
+            :arg0  (x24 / person
+                  :name  ( x1/玲玲 
+)))      :arg2  (x4_x5 / 拿起-01
+            :arg0  (x24 / person
+)            :arg1  (x6 / 笔
+))      :arg3  (x13 / 画-01
+            :arg0  (x24 / person
+)            :aspect  (x14 / 了
+)            :arg1  (x19 / 狗
+                  :arg0-of  (x18 / 花
+)                  :arg0-of  (x17 / 小-01
+)                  :quant  (x15 / 1
+)                  :cunit  (x16 / 只
+))            :location  (x12 / 地方
+                  :arg0-of  (x10 / 脏-01
+                        :arg1-of  (x9 / 弄-04
+)))))
+===========================
+小花狗懒洋洋地趴在楼梯上。
+(x6 / 趴在-01
+      :arg0  (x3 / 狗
+            :arg0-of  (x1 / 小-01
+)            :arg0-of  (x2 / 花-01
+))      :arg1  (x7 / 楼梯
+)      :manner  (x4 / 懒洋洋
+))
+===========================
+玲玲满意地笑了。
+(x4 / 笑-01
+      :aspect  (x5 / 了
+)      :arg0  (x10 / person
+            :name  ( x1/玲玲 
+))      :manner  (x2 / 满意-01
+            :arg0  (x10 / person
+)))
+===========================
+爸爸看了，高兴地说，“看到了吧，孩子。
+(x15 / temporal
+      :arg1  (x2 / 看-01
+            :arg0  (x1 / 爸爸
+)            :aspect  (x3 / 了
+))      :arg2  (x7 / 说-01
+            :manner  (x5 / 高兴-01
+                  :arg0  (x1 / 爸爸
+))            :arg1  (x22 / and
+                  :op1  (x9 / 看到-01
+                        :aspect  (x10 / 了
+)                        :mode  (x11 / expressive
+)                        :arg0  (x13 / 孩子
+))                  :op2  (x13 / 孩子
+))))
+===========================
+好多事情并不像我们想象的那么糟。
+(x5 / 像-01
+      :polarity  (x4 / -
+)      :mod  (x3 / 并
+)      :arg0  (x2 / 事情
+            :quant  (x1 / 好多
+))      :arg1  (x18 / thing
+            :arg1-of  (x7 / 想象-01
+                  :arg0  (x6 / 我们
+)))      :arg2  (x10 / 糟
+            :degree  (x9 / 那么
+)))
+===========================
+只要肯动脑筋，坏事往往能变成好事。”
+(x11 / say
+      :arg1  (x13 / condition
+            :arg1  (x2 / 肯-01
+                  :arg1  (x3 / 动脑筋
+))            :arg2  (x7 / 能-01
+                  :arg0  (x8 / 变成-01
+                        :arg2  (x9 / 好事
+)                        :arg1  (x5 / 坏事
+))                  :mod  (x6 / 往往
+))))
+===========================
+在第二天的评奖会上，玲玲的画得了一等奖。
+(x11 / 得-01
+      :arg0  (x10 / 画
+            :poss  (x18 / person
+                  :name  ( x9/的 
+)))      :aspect  (x12 / 了
+)      :location  (x5 / 评奖会
+            :time  (x22 / ordinal-entity
+                  :value  (x2 / 2
+)                  :unit  (x3 / 天
+))))
+===========================

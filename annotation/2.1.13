@@ -1,0 +1,209 @@
+从前，有个人种了一棵葫芦。
+(x6 / 种-01
+      :aspect  (x7 / 了
+)      :arg0  (x5 / 人
+            :cunit  (x4 / 个
+                  :arg1-of  (x3 / 有-03
+)))      :time  (x1 / 从前
+)      :arg1  (x10 / 葫芦
+            :quant  (x8 / 1
+)            :cunit  (x9 / 棵
+)))
+===========================
+细长的葫芦藤上长满了绿叶，开出了几朵雪白的小花。
+(x21 / and
+      :op2  (x11_x12 / 开出-01
+            :aspect  (x13 / 了
+)            :arg0  (x4 / 藤
+                  :mod  (x3 / 葫芦
+)                  :arg0-of  (x1 / 细长
+))            :arg1  (x19 / 花
+                  :arg0-of  (x18 / 小-01
+)                  :arg0-of  (x16 / 雪白-01
+)                  :quant  (x14 / 几
+)                  :cunit  (x15 / 朵
+)))      :op1  (x6_x7 / 长满-01
+            :arg1  (x9 / 绿叶
+)            :aspect  (x8 / 了
+)            :arg0  (x4 / 藤
+)))
+===========================
+花谢以后，藤上挂了几个小葫芦。
+(x7 / 挂-01
+      :arg2  (x5 / 藤
+)      :time  (x3 / 以后
+            :op1  (x2 / 谢-01
+                  :arg0  (x1 / 花
+)))      :aspect  (x8 / 了
+)      :arg1  (x12 / 葫芦
+            :arg0-of  (x11 / 小-01
+)            :quant  (x9 / 几
+)            :cunit  (x10 / 个
+)))
+===========================
+多么可爱的小葫芦哇！
+(x5 / 葫芦
+      :arg0-of  (x4 / 小-01
+)      :arg0-of  (x2 / 可爱-01
+            :degree  (x1 / 多么
+))      :mode  (x6_x7 / expressive
+))
+===========================
+那个人每天都要去看几次。
+(x6 / 要-03
+      :arg0  (x7 / 去-02
+            :arg0  (x8 / 看-01
+                  :frequency  (x16 / rate-entity
+                        :arg1  (x9 / 几
+)                        :cunit  (x10 / 次
+))                  :arg0  (x3 / 人
+                        :cunit  (x2 / 个
+)                        :mod  (x1 / 那
+))))      :frequency  (x4 / 每天
+)      :mod  (x5 / 都
+))
+===========================
+有一天，他看见叶子上爬着一些蚜虫，心里想，有几个虫子怕什么！
+(x23 / temporal
+      :arg1  (x5 / 看见-01
+            :time  (x1_x2 / 有一天
+)            :arg0  (x4 / 他
+)            :arg1  (x8 / 爬-04
+                  :aspect  (x9 / 着
+)                  :arg0  (x11 / 蚜虫
+                        :quant  (x10 / 一些
+))                  :arg1  (x6 / 叶子
+)))      :arg2  (x14 / 想-01
+            :arg0  (x13 / 心里
+                  :part-of  (x4 / 他
+))            :arg1  (x35 / condition
+                  :arg1  (x16 / 有-03
+                        :arg1  (x19 / 虫子
+                              :quant  (x17 / 几
+)                              :cunit  (x18 / 个
+)))                  :arg2  (x20 / 怕-01
+                        :arg1  (x21 / amr-unknown
+))                  :mode  (x22 / expressive
+))))
+===========================
+他盯着小葫芦自言自语地说：“我的小葫芦，快长啊，快长啊！长得赛过大南瓜才好呢！”
+(x34 / and
+      :op1  (x2 / 盯-01
+            :aspect  (x3 / 着-01
+)            :arg0  (x1 / 他
+)            :arg1  (x5 / 葫芦
+                  :arg0-of  (x4 / 小-01
+)))      :op2  (x8 / 说-01
+            :arg0  (x1 / 他
+)            :manner  (x6 / 自言自语
+)            :arg1  (x43 / and
+                  :op1  (x13 / x5
+                        :arg0-of  (x12 / 小-01
+)                        :poss  (x10 / x1
+))                  :op2  (x15 / 快-01
+                        :arg0  (x16 / 长-03
+                              :arg0  (x5 / 葫芦
+))                        :mode  (x17 / expressive
+))                  :op3  (x19 / 快-01
+                        :arg0  (x20 / 长-03
+                              :arg0  (x5 / 葫芦
+))                        :mode  (x21_x22 / expressive
+))                  :op4  (x57 / condition
+                        :arg1  (x23 / 长-03
+                              :arg0  (x13 / x5
+)                              :arg1  (x26 / 过-06
+                                    :arg0  (x5 / 葫芦
+)                                    :arg1  (x28 / 南瓜
+                                          :arg0-of  (x27 / 大-01
+))                                    :manner  (x25 / 赛-01
+                                          :arg1  (x67 / and
+                                                :op1  (x5 / 葫芦
+)                                                :op2  (x28 / 南瓜
+)))))                        :mode  (x31_x32 / expressive
+)                        :arg2  (x30 / 好
+                              :mod  (x29 / 才
+))))))
+===========================
+一个邻居看见了，对他说：“你别光盯着葫芦了，叶子上生了蚜虫，快治一治吧！”
+(x30 / temporal
+      :arg1  (x3 / 看见-01
+            :arg0  (x2 / 邻居
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+))            :aspect  (x4 / 了
+))      :arg2  (x8 / 说-01
+            :arg3  (x7 / 他
+)            :arg0  (x2 / 邻居
+)            :arg1  (x39 / and
+                  :op1  (x13 / 盯-01
+                        :manner  (x12 / 光
+)                        :aspect  (x14 / 着
+)                        :aspect  (x16 / 了
+)                        :arg1  (x15 / 葫芦
+)                        :arg0  (x10 / 你
+))                  :op2  (x46 / causation
+                        :arg1  (x20 / 生-05
+                              :arg2  (x8 / 说-01
+)                              :arg0  (x18 / 叶子
+)                              :aspect  (x21 / 了
+)                              :arg1  (x22 / 蚜虫
+))                        :arg2  (x24 / 快-01
+                              :arg0  (x25_x26_x27 / 治
+)                              :mode  (x28 / imperative
+)                              :mode  (x29 / expressive
+))))))
+===========================
+那个人感到很奇怪，他说：“什么？叶子上的虫还用治？我要的是葫芦。”
+(x27 / temporal
+      :arg1  (x4 / 感到-01
+            :arg0  (x3 / 人
+                  :mod  (x1 / 那
+)                  :cunit  (x2 / 个
+))            :arg1  (x6 / 奇怪
+                  :degree  (x5 / 很
+)))      :arg2  (x9 / 说-01
+            :arg0  (x8 / 他
+)            :arg1  (x37 / and
+                  :op1  (x11 / amr-unknown
+                        :mode  (x12 / interrogative
+))                  :op2  (x18 / 用-02
+                        :arg1  (x19 / 治-02
+                              :arg1  (x16 / 虫
+                                    :location  (x13 / 叶子
+)))                        :mod  (x17 / 还
+)                        :mode  (x20 / interrogative
+))                  :op3  (x25 / 葫芦
+                        :domain  (x47 / thing
+                              :arg1-of  (x22 / 要-01
+                                    :arg0  (x21 / 我
+)))))))
+===========================
+过几天，叶子上的蚜虫更多了。
+(x12 / temporal
+      :arg1  (x1 / 过
+            :duration  (x16 / temporal-quantity
+                  :quant  (x2_1 / 几
+)                  :unit  (x2_2 / 天
+)))      :arg2  (x9 / 多-03
+            :degree  (x8 / 更
+)            :aspect  (x10 / 了
+)            :arg0  (x7 / 蚜虫
+                  :location  (x4 / 叶子
+))))
+===========================
+小葫芦慢慢地变黄了，一个一个都落了。
+(x15 / temporal
+      :arg1  (x5 / 变-01
+            :arg2  (x6 / 黄-02
+                  :arg0  (x2 / 葫芦
+                        :arg0-of  (x1 / 小-01
+)                        :extent  (x11 / 都
+)))            :aspect  (x7 / 了
+)            :manner  (x3 / 慢慢-01
+)            :arg0  (x2 / 葫芦
+))      :arg2  (x12 / 落-02
+            :aspect  (x13 / 了
+)            :arg0  (x2 / 葫芦
+)            :manner  (x9_x10 / 一个一个
+)))
+===========================

@@ -1,0 +1,433 @@
+乡下人家，虽然住着小小的房屋，但总爱在屋前搭一瓜架，或种南瓜，或种丝瓜，让那些瓜藤攀上棚架，爬上屋桅。
+(x39 / contrast
+      :arg1  (x5 / 住-01
+            :aspect  (x6 / 着
+)            :arg1  (x9 / 房屋
+                  :arg0-of  (x7 / 小-01
+))            :arg0  (x2 / 人家
+                  :location  (x1 / 乡下
+)))      :arg2  (x13 / 爱-01
+            :manner  (x12 / 总
+)            :arg0  (x2 / 人家
+)            :arg1  (x54 / and
+                  :op1  (x16 / 搭-03
+                        :arg0  (x2 / 人家
+)                        :location  (x15_2 / 前
+                              :arg0  (x15_1 / 屋
+))                        :arg1  (x18 / 瓜架
+                              :quant  (x17 / 1
+)))                  :op2  (x55 / or
+                        :op1  (x21 / 种-01
+                              :arg0  (x2 / 人家
+)                              :arg1  (x22 / 南瓜
+))                        :op2  (x25 / 种-01
+                              :arg0  (x2 / 人家
+)                              :arg1  (x26 / 丝瓜
+)))                  :op3  (x28 / 让-02
+                        :arg1  (x30 / 瓜藤
+                              :mod  (x29 / 那些
+))                        :arg2  (x63 / and
+                              :op1  (x31 / 攀上
+                                    :arg0  (x30 / 瓜藤
+)                                    :arg1  (x32 / 棚架
+))                              :op2  (x34 / 爬上-01
+                                    :arg1  (x35 / 屋桅
+)                                    :arg0  (x30 / 瓜藤
+)))))))
+===========================
+当花儿落了的时候，藤上便结出了青的、红的瓜，它们一个个挂在房前，衬着那长长的藤，绿绿的叶。
+(x39 / and
+      :op1  (x11 / 结出-01
+            :time  (x3 / 落-02
+                  :arg0  (x2 / 花儿
+)                  :aspect  (x4 / 了
+))            :aspect  (x12 / 了
+)            :arg1  (x8 / 藤
+)            :mod  (x10 / 便
+)            :arg1  (x18 / 瓜
+                  :arg0-of  (x16 / 红-01
+)                  :arg0-of  (x13 / 青
+)))      :op2  (x24 / 挂-01
+            :arg1  (x20 / x18
+                  :quant  (x21_x22_x23 / 一个个
+))            :arg2  (x26_2 / 前
+                  :arg0  (x26_1 / 屋
+)))      :op3  (x28 / 衬-01
+            :aspect  (x29 / 着
+)            :arg1  (x58 / and
+                  :mod  (x30 / 那
+)                  :op1  (x33 / 藤
+                        :arg0-of  (x31 / 长-02
+))                  :op2  (x37 / 叶
+                        :arg1-of  (x35 / 绿-01
+)))            :arg0  (x18 / 瓜
+)))
+===========================
+青、红的瓜，碧绿的藤和叶，构成了一道别有风趣的装饰，比那高楼门前蹲着一对石狮子或是竖着两根大旗杆，可爱多了。
+(x43 / and
+      :op1  (x13 / 构成-01
+            :arg0  (x46 / and
+                  :op1  (x5 / 瓜
+                        :arg0-of  (x3 / 红
+)                        :mod  (x1 / 青
+))                  :op3  (x11 / 叶
+)                  :op2  (x9 / 藤
+                        :arg0-of  (x7 / 碧绿
+)))            :aspect  (x14 / 了
+)            :arg1  (x19 / 装饰
+                  :arg0-of  (x17 / 别有风趣
+)                  :quant  (x15 / 1
+)                  :cunit  (x16 / 道
+)))      :op2  (x39 / 可爱-01
+            :arg0  (x19 / 装饰
+)            :degree  (x40 / 多-03
+)            :compared-to  (x31 / or
+                  :op1  (x25 / 蹲-01
+                        :arg1  (x24 / 门前
+                              :arg0  (x23 / 高楼
+))                        :aspect  (x26 / 着
+)                        :mod  (x22 / 那
+)                        :arg0  (x30 / 狮子
+                              :consist-of  (x29 / 石
+)                              :quant  (x27_x28 / 2
+)))                  :op2  (x32 / 竖-01
+                        :aspect  (x33 / 着
+)                        :arg1  (x37 / 旗杆
+                              :arg0-of  (x36 / 大-01
+)                              :quant  (x34 / 2
+)                              :cunit  (x35 / 根
+))                        :arg2  (x24 / 门前
+)))            :smood  (x41 / 了
+)))
+===========================
+有些人家，还在门前的场地上种几株花，芍药，凤佩，鸡冠花，大丽菊，它们依着时令，顺序开放，朴素中带着几分华丽，显出一派独特的农家风光。
+(x46 / and
+      :op1  (x10 / 种-01
+            :location  (x8 / 场地
+                  :location  (x6 / 门前
+))            :arg0  (x2 / 人家
+                  :quant  (x1 / 有些
+))            :arg1  (x13 / 花
+                  :cunit  (x12 / 株
+)                  :quant  (x11 / 几
+)                  :arg0-of  (x57 / mean
+                        :arg1  (x58 / and
+                              :op1  (x15 / 芍药
+)                              :op2  (x17 / 凤佩
+)                              :op2  (x19 / 鸡冠花
+)                              :op4  (x21 / 大丽菊
+))))            :mod  (x4 / 还
+))      :op2  (x29 / 开放-04
+            :manner  (x28 / 顺序
+)            :manner  (x24 / 依-01
+                  :aspect  (x25 / 着
+)                  :arg1  (x26 / 时令
+)                  :arg0  (x23 / x13
+))            :arg0  (x23 / x13
+))      :op3  (x33 / 带-01
+            :arg0  (x31 / 朴素-01
+                  :arg0  (x13 / 花
+))            :aspect  (x34 / 着
+)            :arg1  (x36 / 华丽-01
+                  :quant  (x35 / 几分
+)                  :arg0  (x13 / 花
+)))      :op4  (x38 / 显出-01
+            :arg1  (x44 / 风光
+                  :mod  (x43 / 农家
+)                  :arg0-of  (x41 / 独特-01
+)                  :quant  (x39 / 1
+)                  :cunit  (x40 / 派
+))))
+===========================
+还有些人家，在屋后种几十枝竹，绿的叶，青的竿，投下一片绿绿的浓阴。
+(x28 / and
+      :op1  (x7 / 种-01
+            :arg0  (x3 / 人家
+                  :mod  (x2 / 有些
+)                  :mod  (x1 / 还
+))            :location  (x6_2 / 后
+                  :arg0  (x6_1 / 屋
+))            :arg1  (x10 / 竹
+                  :quant  (x8_1 / 几
+                        :op1  (x8_2 / 10
+))                  :cunit  (x9 / 枝
+)))      :op2  (x20 / 投下-01
+            :arg0  (x41 / and
+                  :op1  (x14 / 叶
+                        :arg1-of  (x12 / 绿-01
+))                  :op2  (x18 / 竿
+                        :mod  (x16 / 青
+)))            :arg1  (x26 / 阴
+                  :arg0-of  (x25 / 浓-01
+)                  :arg1-of  (x23 / 绿-01
+)                  :quant  (x21 / 1
+)                  :cunit  (x22 / 片
+))))
+===========================
+几场春雨过后，到那里走走，常常会看见许多鲜嫩的笋，成群地从土里探出头来。
+(x27 / condition
+      :time  (x4 / 过后
+            :arg0  (x3 / 春雨
+                  :quant  (x1 / 几
+)                  :cunit  (x2 / 场
+)))      :arg1  (x8 / 走走-01
+            :location  (x7 / 那里
+))      :arg2  (x11 / 会-02
+            :frequency  (x10 / 常常
+)            :arg1  (x12 / 看见-01
+                  :arg1  (x23_1 / 探
+                        :cause-of  (x23_2 / 出-01
+                              :arg0  (x24 / 头
+                                    :part-of  (x16 / 笋
+                                          :arg0-of  (x14 / 鲜嫩
+)                                          :quant  (x13 / 许多
+)))                              :arg1  (x21 / 土
+))                        :manner  (x18 / 成群-01
+                              :arg0  (x16 / 笋
+))                        :arg0  (x16 / 笋
+)))))
+===========================
+鸡，乡下人家照例总要养几只的。
+(x13 / condition
+      :arg1  (x1 / 鸡
+)      :arg2  (x7 / 要-03
+            :manner  (x6 / 总
+)            :arg0  (x8 / 养-01
+                  :arg0  (x4 / 人家
+                        :location  (x3 / 乡下
+))                  :arg1  (x22 / thing
+                        :quant  (x9 / 几
+)                        :cunit  (x10 / 只
+)))            :manner  (x5 / 照例
+)            :mode  (x11 / judgement
+)))
+===========================
+从他们的房前屋后走过，肯定会瞧见一只母鸡，率领一群小鸡，在竹林中觅食；或是瞧见耸着尾巴的雄鸡，在场地上大踏步地走来走去。
+(x44 / condition
+      :arg1  (x6 / 走过-01
+            :arg1  (x47 / or
+                  :op1  (x4_2 / 前
+                        :arg0  (x4_1 / 房
+                              :poss  (x2 / 他们
+)))                  :op2  (x5_2 / 后
+                        :arg0  (x5_1 / 屋
+                              :poss  (x2 / 他们
+)))))      :arg2  (x53 / or
+            :op1  (x8 / 肯定-01
+                  :arg0  (x9 / 会-02
+                        :arg0  (x10 / 瞧见-01
+                              :arg1  (x15 / 率领-01
+                                    :arg0  (x13 / 母鸡
+                                          :quant  (x11 / 1
+)                                          :cunit  (x12 / 只
+))                                    :arg1  (x19 / 鸡
+                                          :quant  (x16 / 1
+)                                          :cunit  (x17 / 群
+)                                          :arg0-of  (x18 / 小-01
+))                                    :arg2  (x24 / 觅食-01
+                                          :location  (x22 / 竹林
+)                                          :arg0  (x68 / and
+                                                :op1  (x13 / 母鸡
+)                                                :op2  (x19 / 鸡
+)))))))            :op2  (x27 / 瞧见-01
+                  :arg1  (x39_x40_x41_x42 / 走来走去-01
+                        :arg0  (x32 / 雄鸡
+                              :arg0-of  (x28 / 耸
+                                    :aspect  (x29 / 着
+)                                    :arg1  (x30 / 尾巴
+                                          :part-of  (x32 / 雄鸡
+))))                        :manner  (x37 / 大踏步
+)                        :location  (x35 / 场地
+)))))
+===========================
+他们的屋后倘若有一条小河，那么在石桥旁边，绿树阴下，会见到一群鸭子，游戏水中，不时地把头扎到水下去觅食。
+(x39 / condition
+      :arg1  (x5 / 有-03
+            :arg0  (x3_2 / 后
+                  :arg0  (x3_1 / 屋
+                        :poss  (x1 / 他们
+)))            :arg1  (x8 / 小河
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 条
+)))      :arg2  (x19 / 会-02
+            :arg0  (x20 / 见到-01
+                  :location  (x17 / 下
+                        :arg0  (x16 / 阴
+                              :mod  (x15 / 绿树
+)                              :location  (x13 / 旁边
+                                    :arg0  (x12 / 石桥
+))))                  :arg1  (x55 / and
+                        :op1  (x25 / 游戏-01
+                              :location  (x26 / 水中
+)                              :arg0  (x23 / 鸭子
+                                    :quant  (x21 / 1
+)                                    :cunit  (x22 / 群
+)))                        :op2  (x32 / 扎
+                              :frequency  (x28 / 不时
+)                              :arg0  (x23 / 鸭子
+)                              :arg1  (x31 / 头
+                                    :part-of  (x23 / 鸭子
+))                              :arg2  (x34 / 水
+)                              :purpose  (x37 / 觅食-01
+                                    :arg0  (x23 / 鸭子
+)))))))
+===========================
+即使附近的石头上有妇女在捣衣，它们也从不吃惊。
+(x17 / concession
+      :arg1  (x9 / 捣-01
+            :arg0  (x7 / 妇女
+                  :arg1-of  (x6 / 有
+))            :aspect  (x8 / 在
+)            :arg1  (x10 / 衣-01
+)            :location  (x5 / 上
+                  :arg0  (x4 / 石头
+                        :location  (x2 / 附近
+))))      :arg2  (x15 / 吃惊-01
+            :polarity  (x14 / -
+)            :arg0  (x12 / 它们
+)))
+===========================
+若是夏天的傍晚出去散步，常常会瞧见乡下人家吃晚饭的情景。
+(x18 / condition
+      :arg1  (x5 / 出去
+            :purpose  (x6 / 散步
+)            :time  (x4 / 傍晚
+                  :time  (x23 / date-entity
+                        :season  (x2 / 夏天
+))))      :arg2  (x10 / 瞧见-01
+            :frequency  (x8 / 常常
+)            :arg1  (x16 / 情景
+                  :arg0-of  (x28 / mean
+                        :arg1  (x13 / 吃-01
+                              :arg0  (x12 / 人家
+                                    :location  (x11 / 乡下
+))                              :arg1  (x14 / 晚饭
+))))))
+===========================
+他们把桌椅饭菜搬到门前，天高地阔地吃起来。
+(x14 / temporal
+      :arg1  (x5_x6 / 搬到-01
+            :arg0  (x1 / 他们
+)            :arg1  (x18 / and
+                  :op1  (x3 / 桌椅
+)                  :op2  (x4 / 饭菜
+))            :arg0  (x7 / 门前
+))      :arg2  (x11_x12 / 吃-01
+            :manner  (x9 / 天高地阔
+)            :arg0  (x1 / 他们
+)))
+===========================
+天边的红霞，向晚的微风，头上飞过的归巢的鸟儿，都是他们的好友，它们和乡下人家一起，绘成了一幅自然、和谐的田园风景画。
+(x42 / and
+      :op1  (x23 / 好友
+            :poss  (x21 / 他们
+)            :domain  (x46 / and
+                  :op1  (x4 / 霞
+                        :arg0-of  (x3 / 红-01
+)                        :location  (x1 / 天边
+))                  :op2  (x8 / 微风
+                        :time  (x6 / 向晚
+))                  :op3  (x17 / 鸟儿
+                        :arg0-of  (x14 / 归-02
+                              :arg1  (x15 / 巢
+))                        :arg0-of  (x12 / 飞过-01
+                              :location  (x11 / 上
+                                    :arg0  (x10 / 头
+))))                  :extent  (x19 / 都
+)))      :op2  (x31 / 绘
+            :manner  (x29 / 一起-01
+                  :arg0  (x26 / and
+                        :op1  (x25 / x46
+)                        :op2  (x28 / 人家
+                              :location  (x27 / 乡下
+))))            :aspect  (x32 / 了
+)            :arg1  (x40 / 风景画
+                  :topic  (x39 / 田园
+)                  :arg0-of  (x37 / 和谐-01
+)                  :arg0-of  (x35 / 自然-01
+)                  :cunit  (x34 / 幅
+)                  :quant  (x33 / 1
+))))
+===========================
+秋天到了，纺织娘寄住在他们屋前的瓜架上。
+(x14 / and
+      :op1  (x2 / 到-01
+            :aspect  (x3 / 了-01
+)            :arg0  (x18 / date-entity
+                  :season  (x1 / 秋天
+)))      :op2  (x6 / 寄住
+            :arg0  (x5 / 纺织娘
+)            :arg1  (x11 / 瓜架
+                  :location  (x9_2 / 前
+                        :arg0  (x9_1 / 屋
+                              :poss  (x8 / 他们
+))))))
+===========================
+月明人静的夜里，它们便唱起歌来：“织，织，织呀！织，织，织，织呀！”
+(x7 / 唱-01
+      :arg1  (x8 / 歌
+            :arg0-of  (x30 / mean
+                  :arg1  (x31 / and
+                        :op1  (x32 / and
+                              :op1  (x11 / 织
+)                              :op2  (x13 / 织
+)                              :op3  (x15 / 织
+                                    :mode  (x16_x17 / expressive
+)))                        :op2  (x33 / and
+                              :op1  (x18 / 织
+)                              :op2  (x20 / 织
+)                              :op3  (x22 / 织
+)                              :op4  (x24 / 织
+                                    :mode  (x25_x26 / expressive
+))))))      :mod  (x6 / 便
+)      :arg0  (x5 / 它们
+)      :time  (x3 / 夜里
+            :mod  (x1 / 月明人静
+)))
+===========================
+那歌声真好听，赛过催眠曲，让那些辛苦一天的人们，甜甜蜜蜜地进入梦乡。
+(x24 / and
+      :op1  (x4 / 好听-01
+            :degree  (x3 / 真
+)            :arg0  (x2 / 歌声
+                  :mod  (x1 / 那
+)))      :op2  (x6 / 赛-01
+            :cause-of  (x7 / 过-01
+                  :arg0  (x2 / 歌声
+)                  :arg1  (x9 / 曲
+                        :topic  (x8 / 催眠
+)))            :arg1  (x45 / and
+                  :op1  (x2 / 歌声
+)                  :op2  (x9 / 曲
+)))      :op3  (x11 / 让
+            :arg0  (x2 / 歌声
+)            :arg1  (x17 / 人们
+                  :mod  (x12 / 那些
+)                  :arg0-of  (x13 / 辛苦
+                        :duration  (x42 / temporal-quantity
+                              :quant  (x14 / 1
+)                              :unit  (x15 / 天
+))))            :arg2  (x21 / 进入-01
+                  :manner  (x19 / 甜蜜
+)                  :arg1  (x22 / 梦乡
+)                  :arg0  (x17 / 人们
+))))
+===========================
+乡下人家，不论什么时候，不论什么季节，都有一道独特、迷人的风景。
+(x22 / concession
+      :arg1  (x24 / and
+            :op1  (x6 / 时候
+                  :mod  (x5 / amr-unknown
+))            :op2  (x10 / 季节
+                  :mod  (x9 / amr-unknown
+)))      :arg2  (x13 / 有-03
+            :arg0  (x2 / 人家
+                  :extent  (x12 / 都
+)                  :location  (x1 / 乡下
+))            :arg1  (x20 / 风景
+                  :quant  (x14 / 1
+)                  :cunit  (x15 / 道
+)                  :arg0-of  (x18 / 迷人-01
+)                  :arg0-of  (x16 / 独特-01
+))))
+===========================

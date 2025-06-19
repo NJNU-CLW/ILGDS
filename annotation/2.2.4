@@ -1,0 +1,302 @@
+春天到了。
+(x2 / 到-01
+      :arg0  (x7 / date-entity
+            :season  (x1 / 春天
+))      :aspect  (x3 / 了
+))
+===========================
+小鹿在门前的花坛里，栽了一丛玫瑰。
+(x8 / 栽-01
+      :arg0  (x1 / 小鹿
+)      :location  (x5 / 花坛
+            :location  (x3 / 门前
+))      :aspect  (x9 / 了
+)      :arg1  (x12 / 玫瑰
+            :quant  (x10 / 1
+)            :cunit  (x11 / 丛
+)))
+===========================
+他常常去松土，浇水。
+(x3 / 去-01
+      :arg0  (x1 / 他
+)      :arg1  (x12 / and
+            :op1  (x4 / 松-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 土
+))            :op2  (x7 / 浇水-01
+                  :arg0  (x1 / 他
+)))      :frequency  (x2 / 常常
+))
+===========================
+玫瑰慢慢地抽出了枝条，长出了嫩绿的叶子。
+(x15 / and
+      :op1  (x4 / 抽出-01
+            :arg0  (x1 / 玫瑰
+)            :aspect  (x5 / 了
+)            :arg1  (x6 / 枝条
+)            :manner  (x2 / 慢慢-01
+))      :op2  (x8_x9 / 长出-01
+            :arg0  (x13 / 叶子
+                  :arg0-of  (x11 / 嫩绿
+))            :aspect  (x10 / 了
+)))
+===========================
+过了些日子，玫瑰枝头长出了许多花骨朵，小鹿和弟弟一起数了数，总共有三十二个，他们高兴极了。
+(x31 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x4 / 日子
+                  :quant  (x3 / 些
+)))      :arg2  (x8_x9 / 长出-01
+            :aspect  (x10 / 了
+)            :arg0  (x12 / 花骨朵
+                  :quant  (x11 / 许多
+))            :location  (x7 / 枝头
+                  :part-of  (x6 / 玫瑰
+)))      :arg3  (x18_x20 / 数-01
+            :manner  (x17 / 一起
+)            :arg0  (x15 / and
+                  :op1  (x14 / 小鹿
+)                  :op2  (x16 / 弟弟
+))            :aspect  (x19 / 了
+)            :arg1  (x12 / 花骨朵
+))      :arg4  (x23 / 有-02
+            :mod  (x22 / 总共
+)            :arg0  (x12 / 花骨朵
+)            :arg1  (x52 / thing
+                  :quant  (x24 / 32
+)                  :cunit  (x25 / 个
+)))      :arg5  (x28 / 高兴-01
+            :arg0  (x27 / x15
+)            :degree  (x29 / 极了
+)))
+===========================
+花骨朵渐渐地长大了，就在快要开花的时候，小鹿不小心把脚跌伤了，他只能静静地躺在床上养病。
+(x30 / temporal
+      :arg1  (x3 / 长大-01
+            :manner  (x2 / 渐渐地
+)            :aspect  (x4 / 了
+)            :arg0  (x1 / 花骨朵
+))      :arg2  (x18 / 跌伤-01
+            :aspect  (x19 / 了
+)            :arg0  (x17 / 脚
+                  :part-of  (x13 / 小鹿
+))            :manner  (x15 / 小心
+                  :polarity  (x14 / 不
+))            :time  (x8_2 / 要-03
+                  :time  (x8_1 / 快
+)                  :arg0  (x9 / 开花-01
+                        :arg0  (x1 / 花骨朵
+))))      :arg3  (x22 / 只能-01
+            :arg0  (x28 / 养病-01
+                  :manner  (x24 / 躺-01
+                        :arg0  (x21 / x13
+)                        :manner  (x23 / 静静地
+)                        :arg1  (x26 / 床
+))                  :arg0  (x21 / x13
+))))
+===========================
+一天，一周，一个月…………
+(x11 / and
+      :op1  (x15 / temporal-quantity
+            :quant  (x1 / 1
+)            :unit  (x2 / 天
+))      :op2  (x16 / temporal-quantity
+            :quant  (x4 / 1
+)            :unit  (x5 / 周
+))      :op3  (x17 / temporal-quantity
+            :quant  (x7_x8 / 1
+)            :unit  (x9 / 月
+)))
+===========================
+小鹿终于能下床走路了，他一瘸一拐地来到门外。
+(x18 / temporal
+      :arg1  (x3 / 能-01
+            :arg0  (x22 / and
+                  :op1  (x4 / 下-04
+                        :arg1  (x5 / 床
+)                        :arg0  (x1 / 小鹿
+))                  :op2  (x6 / 走路-01
+                        :arg0  (x1 / 小鹿
+)))            :smood  (x7 / 了
+)            :mod  (x2 / 终于
+))      :arg2  (x15 / 来到-01
+            :arg0  (x9 / x1
+)            :manner  (x10_x11_x12_x13 / 一瘸一拐
+)            :arg1  (x16 / 门外
+)))
+===========================
+呀！门前的玫瑰已经长的很高了，可是浓密的绿叶中，一朵花也看不到了。
+(x26 / contrast
+      :arg1  (x7 / 长-03
+            :arg0  (x5 / 玫瑰
+                  :location  (x3 / 门前
+))            :aspect  (x6 / 已经
+)            :arg1  (x10 / 高-01
+                  :degree  (x9 / 很
+)                  :arg0  (x5 / 玫瑰
+))            :mode  (x1_x2 / expressive
+)            :smood  (x11 / 了
+))      :arg2  (x36 / possible
+            :polarity  (x23_2 / -
+)            :arg0  (x23_1_3 / 看到-01
+                  :mod  (x22 / 也
+)                  :arg1  (x21 / 花
+                        :quant  (x19 / 1
+)                        :cunit  (x20 / 朵
+))                  :location  (x16 / 绿叶
+                        :arg0-of  (x14 / 浓密-01
+)))            :smood  (x24 / 了
+)))
+===========================
+鹿弟弟惋惜地对哥哥说：“这玫瑰你白栽了，一朵花都没看着。”
+(x7 / 说-03
+      :arg0  (x2 / 弟弟
+            :mod  (x1 / 鹿
+))      :manner  (x3 / 惋惜
+)      :arg3  (x6 / 哥哥
+)      :arg1  (x30 / causation
+            :arg2  (x13 / 栽-01
+                  :manner  (x12 / 白
+)                  :arg0  (x11 / x6
+)                  :smood  (x14 / 了
+)                  :arg1  (x10 / 玫瑰
+                        :mod  (x9 / 这
+)))            :arg1  (x21_x22 / 看-02
+                  :arg1  (x18 / 花
+                        :extent  (x19 / 都
+)                        :quant  (x16 / 1
+)                        :cunit  (x17 / 朵
+))                  :polarity  (x20 / -
+))))
+===========================
+这时，一只黄莺飞来了。
+(x6 / 飞来-01
+      :aspect  (x7 / 了
+)      :arg0  (x5 / 黄莺
+            :quant  (x3 / 1
+)            :cunit  (x4 / 只
+))      :time  (x1 / 这时
+))
+===========================
+她说：“小鹿，我见过你家那些红玫瑰，可好看了！看着那些花，我就想唱歌。”
+(x2 / 说-01
+      :arg0  (x1 / 她
+)      :arg1  (x31 / and
+            :op1  (x44 / and
+                  :op1  (x4 / 小鹿
+)                  :op2  (x7 / 见-01
+                        :aspect  (x8 / 过
+)                        :arg0  (x6 / x1
+)                        :arg1  (x12 / 玫瑰
+                              :arg0-of  (x11 / 红-01
+)                              :mod  (x10 / 那些
+)                              :poss  (x9 / 你家
+)))                  :op3  (x15 / 好看
+                        :degree  (x14 / 可
+)                        :smood  (x16 / 了
+)                        :mode  (x17 / expressive
+)))            :op2  (x45 / condition
+                  :arg1  (x18 / 看-02
+                        :arg0  (x1 / 她
+)                        :aspect  (x19 / 着
+)                        :arg1  (x21 / 花
+                              :mod  (x20 / 那些
+)))                  :arg2  (x25 / 想-02
+                        :arg0  (x23 / x1
+)                        :arg1  (x26 / 唱歌
+)))))
+===========================
+一阵微风吹来，说：“小鹿，我闻过你家的玫瑰花，可香了！我带着它的香味吹过森林，大伙儿都夸我是‘玫瑰香风’呢！”
+(x42 / temporal
+      :arg1  (x4 / 吹-02
+            :arg0  (x3 / 微风
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 阵
+)))      :arg2  (x7 / 说-01
+            :arg1  (x49 / and
+                  :op1  (x50 / and
+                        :op1  (x9 / 小鹿
+)                        :op2  (x12 / 闻-02
+                              :aspect  (x13 / 过
+)                              :arg0  (x11 / 我
+)                              :arg1  (x16 / 玫瑰花
+                                    :poss  (x14 / 你家
+)))                        :op3  (x19 / 香-01
+                              :degree  (x18 / 可
+)                              :smood  (x20 / 了
+)                              :mode  (x21 / expressive
+)                              :arg0  (x16 / 玫瑰花
+)))                  :op2  (x61 / causation
+                        :arg1  (x28 / 吹-01
+                              :arg0  (x22 / x11
+)                              :arg1  (x30 / 森林
+)                              :manner  (x23 / 带-01
+                                    :arg0  (x22 / x11
+)                                    :aspect  (x24 / 着
+)                                    :arg1  (x27 / 香味
+                                          :poss  (x25 / 它
+))))                        :arg2  (x34 / 夸-01
+                              :arg0  (x32 / 大伙儿
+                                    :extent  (x33 / 都
+))                              :arg1  (x35 / 我
+)                              :arg2  (x38 / 玫瑰香风
+                                    :domain  (x35 / 我
+))                              :mode  (x40_x41 / expressive
+))))))
+===========================
+小鹿高兴地笑了，说：“原来我栽的玫瑰是红色的，它们很美丽，还散发着香味。
+(x27 / temporal
+      :arg1  (x4 / 笑-01
+            :manner  (x2 / 高兴-01
+                  :arg0  (x1 / 小鹿
+))            :arg0  (x1 / 小鹿
+)            :aspect  (x5 / 了
+))      :arg2  (x7 / 说-01
+            :arg0  (x1 / 小鹿
+)            :arg1  (x34 / and
+                  :op1  (x9 / 原来-01
+                        :arg0  (x15 / 红色
+                              :mode  (x14_x16 / judgement
+)                              :arg0  (x13 / 玫瑰
+                                    :arg1-of  (x11 / 栽-01
+                                          :arg0  (x10 / x1
+)))))                  :op2  (x20 / 美丽-01
+                        :arg0  (x18 / x13
+)                        :degree  (x19 / 很
+))                  :op3  (x23 / 散发-01
+                        :arg0  (x13 / 玫瑰
+)                        :aspect  (x24 / 着
+)                        :arg1  (x25 / 香味
+)))))
+===========================
+谢谢你们告诉了我。”
+(x7 / say
+      :arg1  (x1 / 谢谢-01
+            :arg1  (x2 / 你们
+)            :arg2  (x3 / 告诉-01
+                  :aspect  (x4 / 了
+)                  :arg2  (x5 / 我
+)                  :arg0  (x2 / 你们
+))))
+===========================
+鹿弟弟也高兴地笑了，说：“看来，你的玫瑰没有白栽！”
+(x20 / temporal
+      :arg1  (x6 / 笑-01
+            :aspect  (x7 / 了
+)            :manner  (x4 / 高兴-01
+                  :arg0  (x2 / 弟弟
+                        :mod  (x1 / 鹿
+)))            :mod  (x3 / 也
+)            :arg0  (x2 / 弟弟
+))      :arg2  (x9 / 说-01
+            :arg0  (x2 / 弟弟
+)            :arg1  (x11 / 看来-02
+                  :arg0  (x18 / 栽-01
+                        :manner  (x17 / 白
+)                        :polarity  (x16 / -
+)                        :arg1  (x15 / 玫瑰
+                              :poss  (x13 / 你
+))                        :mode  (x19 / expressive
+)))))
+===========================

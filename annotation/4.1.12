@@ -1,0 +1,839 @@
+老木匠做了个小木偶。
+(x3 / 做-05
+      :aspect  (x4 / 了
+)      :arg0  (x2 / 木匠
+            :arg0-of  (x1 / 老-01
+))      :arg1  (x7 / 木偶
+            :arg0-of  (x6 / 小-01
+)            :cunit  (x5 / 个
+)))
+===========================
+小木偶有鼻子有眼，能走路，会说话。
+(x14 / and
+      :op1  (x3 / 有-01
+            :arg0  (x2 / 木偶
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x4 / 鼻子
+))      :op2  (x5 / 有-01
+            :arg0  (x2 / 木偶
+)            :arg1  (x6 / 眼
+))      :op2  (x8 / 能-01
+            :arg0  (x9 / 走路-01
+                  :arg0  (x2 / 木偶
+)))      :op4  (x11 / 会-01
+            :arg0  (x2 / 木偶
+)            :arg1  (x12 / 说话-01
+                  :arg0  (x2 / 木偶
+))))
+===========================
+老木匠左瞧右瞧，总觉得小木偶脸上还少了点什么。
+(x19 / and
+      :op1  (x21 / temporal
+            :arg1  (x4 / 瞧-01
+                  :arg0  (x2 / 木匠
+                        :arg0-of  (x1 / 老-01
+))                  :direction  (x3 / 左
+))            :arg2  (x6 / 瞧-01
+                  :direction  (x5 / 右
+)                  :arg0  (x2 / 木匠
+)))      :op2  (x9 / 觉得-01
+            :manner  (x8 / 总
+)            :arg0  (x2 / 木匠
+)            :arg1  (x14 / 少-01
+                  :mod  (x13 / 还
+)                  :arg1  (x17 / amr-unknown
+                        :quant  (x16 / 点
+))                  :aspect  (x15 / 了
+)                  :arg0  (x12_1 / 脸
+                        :part-of  (x11 / 木偶
+                              :arg0-of  (x10 / 小-01
+))))))
+===========================
+少了点什么呢？
+(x1 / 少-01
+      :arg1  (x4 / amr-unknown
+            :quant  (x3 / 点
+))      :aspect  (x2 / 了
+)      :mode  (x5_x6 / interrogative
+))
+===========================
+老木匠怎么也想不起来。
+(x9 / possible
+      :arg0  (x5_x7 / 想起-01
+            :arg0  (x2 / 木匠
+                  :arg0-of  (x1 / 老-01
+)))      :polarity  (x6 / -
+)      :mod  (x4 / 也
+)      :manner  (x3 / 怎么
+))
+===========================
+“你知道吗？”老木匠问小木偶。
+(x8 / 问-01
+      :arg2  (x10 / 木偶
+            :arg0-of  (x9 / 小-01
+))      :arg0  (x7 / 木匠
+            :arg0-of  (x6 / 老-01
+))      :arg1  (x3 / 知道-01
+            :arg0  (x2 / x10
+)            :mode  (x4_x5 / interrogative
+)))
+===========================
+“不知道。”小木偶板着脸回答。
+(x10 / 回答-01
+      :manner  (x7 / 板-01
+            :arg0  (x6 / 木偶
+                  :arg0-of  (x5 / 小-01
+))            :aspect  (x8 / 着
+)            :arg1  (x9 / 脸
+))      :arg0  (x6 / 木偶
+)      :arg2  (x3 / 知道
+            :polarity  (x2 / -
+)))
+===========================
+老木匠一下子想起来了，小木偶脸上少的东西是笑！
+(x4_x5 / 想起-01
+      :arg0  (x2 / 木匠
+            :manner  (x1 / 老-01
+))      :manner  (x3 / 一下子
+)      :aspect  (x6 / 了
+)      :arg1  (x15 / 笑
+            :domain  (x13 / 东西
+                  :arg1-of  (x11 / 少-01
+                        :arg0  (x10_1 / 脸
+                              :part-of  (x9 / 木偶
+                                    :arg0-of  (x8 / 小-01
+)))))            :mode  (x16 / expressive
+)))
+===========================
+“笑是很重要的。”老木匠对自己说，“谁要是不会笑，谁就没办法过快乐的日子！
+(x12 / 说-01
+      :arg0  (x9 / 木匠
+            :arg0-of  (x8 / 老-01
+))      :arg3  (x11 / x9
+)      :arg1  (x35 / and
+            :op1  (x5 / 重要-01
+                  :arg0  (x2 / 笑
+)                  :degree  (x4 / 很
+)                  :mode  (x3_x6 / judgement
+))            :op2  (x40 / condition
+                  :arg1  (x18 / 会-01
+                        :arg0  (x14 / 谁
+)                        :arg1  (x19 / 笑-01
+                              :arg0  (x14 / 谁
+)))                  :arg2  (x45 / 有-01
+                        :polarity  (x23 / -
+)                        :arg1  (x24 / 办法
+)                        :arg0  (x21 / x14
+)                        :purpose  (x25 / 过-02
+                              :arg0  (x21 / x14
+)                              :arg1  (x28 / 日子
+                                    :mod  (x26 / 快乐
+)))                        :mode  (x29 / expressive
+)))))
+===========================
+老木匠拿起他的神奇雕刻刀，在小木偶的脸上添了一个笑嘻嘻的表情。
+(x23 / temporal
+      :arg1  (x3_x4 / 拿起-01
+            :arg0  (x2 / 木匠
+                  :arg0-of  (x1 / 老-01
+))            :arg1  (x9 / 刀
+                  :mod  (x8 / 雕刻
+)                  :arg0-of  (x7 / 神奇-01
+)                  :poss  (x5 / x2
+)))      :arg2  (x16 / 添-01
+            :arg0  (x2 / 木匠
+)            :location  (x15_1 / 脸
+                  :aspect  (x17 / 了
+)                  :part-of  (x13 / 木偶
+                        :arg0-of  (x12 / 小-01
+)))            :arg1  (x21 / 表情
+                  :mod  (x19 / 笑嘻嘻
+)                  :quant  (x18 / 1
+))            :location  (x15_1 / 脸
+)))
+===========================
+“现在好了。”
+(x6 / say
+      :arg1  (x3 / 好
+            :aspect  (x4 / 了
+)            :time  (x2 / 现在
+)))
+===========================
+老木匠为小木偶收拾了一个红背包，把他送出了家门。
+(x19 / temporal
+      :arg1  (x6 / 收拾-01
+            :aspect  (x7 / 了
+)            :arg1  (x10 / 背包
+                  :arg0-of  (x9 / 红-01
+)                  :quant  (x8_1 / 1
+)                  :cunit  (x8_2 / 个
+))            :beneficiary  (x5 / 木偶
+                  :arg0-of  (x4 / 小-01
+))            :arg0  (x2 / 木匠
+                  :arg0-of  (x1 / 老-01
+)))      :arg2  (x14 / 送-02
+            :arg0  (x2 / 木匠
+)            :arg1  (x13 / x5
+)            :arg2  (x15 / 出-01
+                  :aspect  (x16 / 了
+)                  :arg0  (x13 / x5
+)                  :arg1  (x17 / 家门
+))))
+===========================
+“走吧，外面的世界大着呢！”老木匠对小木偶说。
+(x17 / 说-01
+      :arg0  (x13 / 木匠
+            :arg0-of  (x12 / 老-01
+))      :arg3  (x16 / 木偶
+            :arg0-of  (x15 / 小-01
+))      :arg1  (x25 / and
+            :op1  (x2 / 走
+                  :mode  (x3 / imperative
+))            :op2  (x8 / 大-01
+                  :aspect  (x9 / 着
+)                  :arg0  (x7 / 世界
+                        :location  (x5 / 外面
+))                  :mode  (x10_11 / expressive
+))))
+===========================
+热闹的大街上，小木偶兴冲冲地大步向前走。
+(x13 / 走-01
+      :direction  (x12 / 前
+)      :manner  (x10 / 大步
+)      :manner  (x8 / 兴冲冲
+)      :location  (x3 / 大街
+            :arg0-of  (x1 / 热闹-01
+))      :arg0  (x7 / 木偶
+            :arg0-of  (x6 / 小-01
+)))
+===========================
+一只小红狐跑过来，很亲热地说：“嗨！小木偶！你的红背包真漂亮，让我背一下好吗？就背一下。
+(x36 / temporal
+      :arg1  (x5 / 跑-01
+            :arg0  (x4 / 红狐
+                  :arg0-of  (x3 / 小-01
+)                  :cunit  (x2 / 只
+)                  :quant  (x1 / 1
+))            :direction  (x6 / 过来-01
+                  :arg0  (x4 / 红狐
+)))      :arg2  (x11 / 说-01
+            :manner  (x9 / 亲热
+                  :degree  (x8 / 很
+))            :arg0  (x4 / 红狐
+)            :arg1  (x46 / and
+                  :op1  (x13 / 嗨
+                        :mode  (x14 / expressive
+))                  :op2  (x16 / 木偶
+                        :arg0-of  (x15 / 小-01
+)                        :mode  (x17 / expressive
+))                  :op3  (x23 / 漂亮-01
+                        :degree  (x22 / 真
+)                        :arg0  (x21 / 背包
+                              :arg0-of  (x20 / 红-01
+)                              :poss  (x18 / x16
+)))                  :op4  (x29 / 好
+                        :arg0  (x25 / 让-02
+                              :arg1  (x26 / x4
+)                              :arg0  (x16 / 木偶
+)                              :arg2  (x27 / 背-01
+                                    :arg0  (x26 / x4
+)                                    :arg1  (x21 / 背包
+)                                    :duration  (x28 / 一下
+)))                        :mode  (x30_x31 / interrogative
+))                  :op5  (x33 / 背-01
+                        :mod  (x32 / 就
+)                        :arg0  (x4 / 红狐
+)                        :arg1  (x21 / 背包
+)                        :duration  (x34 / 一下
+)))))
+===========================
+我想看看这种红和我的毛色是不是相配。”
+(x15 / say
+      :arg1  (x2 / 想-02
+            :arg1  (x3 / 看看-01
+                  :arg1  (x13 / 相配
+                        :arg0  (x6 / and
+                              :op1  (x5 / 红
+                                    :mod  (x4_1 / 这
+)                                    :unit  (x4_2 / 种
+))                              :op2  (x9 / 毛色
+                                    :poss  (x7 / x1
+)))                        :mode  (x10_x11_x12 / interrogative
+)))            :arg0  (x1 / 我
+)))
+===========================
+“好的。”小木偶说。
+(x7 / 说-01
+      :arg0  (x6 / 木偶
+            :arg0-of  (x5 / 小-01
+))      :arg1  (x2 / 好
+            :mode  (x3 / judgement
+)))
+===========================
+小红狐一背上背包就拼命地逃跑。
+(x12 / condition
+      :arg1  (x4 / 背-01
+            :arg1  (x6 / 背包
+)            :arg0  (x2 / 红狐
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x10 / 逃跑-01
+            :arg0  (x2 / 红狐
+)            :manner  (x8 / 拼命
+)))
+===========================
+小木偶愣住了。
+(x3 / 愣住-01
+      :arg0  (x2 / 木偶
+            :arg0-of  (x1 / 小-01
+))      :aspect  (x4 / 了
+))
+===========================
+等他反应过来，小红狐已经跑出去好远了。
+(x9 / 跑-01
+      :time  (x1 / 等-01
+            :arg1  (x3_x4 / 反应-03
+                  :arg0  (x2 / 他
+)))      :arg1  (x12 / 远
+            :degree  (x11 / 好
+))      :aspect  (x13 / 了
+)      :arg0  (x7 / 红狐
+            :arg0-of  (x6 / 小-01
+))      :aspect  (x8 / 已经
+))
+===========================
+小木偶有两条长长的、灵活的木头腿。
+(x3 / 有-01
+      :arg0  (x2 / 木偶
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x11 / 腿
+            :consist-of  (x10 / 木头
+)            :arg0-of  (x8 / 灵活-01
+)            :arg0-of  (x6 / 长-02
+)            :quant  (x4 / 2
+)            :cunit  (x5 / 条
+)))
+===========================
+他很快就追上了小红狐，拽住了小红狐毛茸茸的大尾巴。
+(x20 / temporal
+      :arg1  (x4_x5 / 追上-01
+            :aspect  (x6 / 了
+)            :arg0  (x1 / 他
+)            :mod  (x3 / 就
+)            :time  (x2_2 / 快
+                  :degree  (x2_1 / 很
+))            :arg1  (x8 / 红狐
+                  :arg0-of  (x7 / 小-01
+)))      :arg2  (x10 / 拽-01
+            :arg0  (x1 / 他
+)            :arg1  (x18 / 尾巴
+                  :arg0-of  (x17 / 大-01
+)                  :arg0-of  (x15 / 毛茸茸
+)                  :part-of  (x14 / x8
+                        :arg0-of  (x13 / 小-01
+)))            :aspect  (x12 / 了
+)))
+===========================
+“放开！放开！”小红狐拼命挣扎。
+(x11 / and
+      :op1  (x13 / say
+            :arg1  (x14 / and
+                  :op1  (x2 / 放开
+                        :mode  (x3 / expressive
+))                  :op2  (x4 / 放开
+                        :mode  (x5 / expressive
+))))      :op2  (x9 / 挣扎-01
+            :manner  (x8 / 拼命-01
+                  :arg0  (x7 / 红狐
+                        :arg0-of  (x6 / 小-01
+))                  :arg1  (x9 / 挣扎-01
+                        :arg0  (x7 / 红狐
+)))))
+===========================
+“吵什么！”一只穿警服的熊过来把他们分开。
+(x16 / and
+      :op1  (x18 / say
+            :arg1  (x2 / 吵
+                  :topic  (x3 / amr-unknown
+)                  :mode  (x4 / expressive
+)))      :op2  (x11 / 过来-01
+            :arg0  (x10 / 熊
+                  :arg0-of  (x7 / 穿-01
+                        :arg1  (x8 / 警服
+))                  :quant  (x5 / 1
+)                  :cunit  (x6 / 只
+)))      :op3  (x14 / 分开-01
+            :arg0  (x10 / 熊
+)            :arg1  (x13 / 他们
+)))
+===========================
+“报告警官，他抢我的包！”小红狐撒谎一点儿都不脸红。
+(x19 / and
+      :op1  (x21 / say
+            :arg1  (x2 / 报告-01
+                  :arg0  (x12 / 红狐
+                        :arg0-of  (x11 / 小-01
+))                  :arg2  (x3 / 警官
+)                  :arg1  (x6 / 抢-01
+                        :arg0  (x5 / 他
+)                        :arg1  (x12 / 红狐
+)                        :arg2  (x9 / 包
+                              :poss  (x7 / x12
+))                        :mode  (x10 / expressive
+))))      :op2  (x17 / 脸红-01
+            :time  (x13 / 撒谎-01
+                  :arg0  (x12 / 红狐
+))            :polarity  (x16 / -
+                  :mod  (x15 / 都
+))            :degree  (x14 / 一点儿
+)))
+===========================
+“那是我的，我的，我的！”小木偶尖叫。
+(x19 / and
+      :op1  (x21 / say
+            :arg1  (x24 / and
+                  :op1  (x25 / thing
+                        :poss  (x4 / 我
+)                        :domain  (x2 / 那
+))                  :op2  (x26 / thing
+                        :poss  (x7 / 我
+)                        :domain  (x2 / 那
+)                        :refer  (x25 / thing
+))                  :op3  (x27 / thing
+                        :poss  (x10 / 我
+)                        :domain  (x2 / 那
+)                        :refer  (x25 / thing
+))                  :mode  (x12 / expressive
+)))      :op2  (x15 / 尖叫-01
+            :arg0  (x14 / 木偶
+                  :arg0-of  (x13 / 小-01
+))))
+===========================
+穿警服的熊看看小红狐，小红狐满脸的愤怒；再看看小木偶，小木偶一副笑嘻嘻的表情。
+(x28 / temporal
+      :arg1  (x30 / and
+            :op1  (x5 / 看看-01
+                  :arg0  (x4 / 熊
+                        :arg0-of  (x1 / 穿-01
+                              :arg1  (x2 / 警服
+)))                  :arg1  (x7 / 红狐
+                        :arg0-of  (x6 / 小-01
+)))            :op2  (x13 / 愤怒
+                  :quant  (x11 / 满脸
+                        :poss  (x10 / x7
+                              :arg0-of  (x9 / 小-01
+)))))      :arg2  (x41 / and
+            :op1  (x16 / 看看-01
+                  :arg0  (x4 / 熊
+)                  :arg1  (x18 / 木偶
+                        :arg0-of  (x17 / 小-01
+)))            :op2  (x26 / 表情
+                  :mod  (x24 / 笑嘻嘻
+)                  :quant  (x22 / 1
+)                  :cunit  (x23 / 副
+)                  :poss  (x21 / x18
+                        :arg0-of  (x20 / 小-01
+)))))
+===========================
+穿警服的熊拎起小木偶，把他扔出去好远。
+(x17 / temporal
+      :arg1  (x5 / 拎-01
+            :arg0  (x4 / 熊
+                  :arg0-of  (x1 / 穿-01
+                        :arg1  (x2 / 警服
+)))            :arg1  (x8 / 木偶
+                  :arg0-of  (x7 / 小-01
+)))      :arg2  (x12 / 扔-01
+            :direction  (x13 / 出去
+)            :arg1  (x11 / x8
+)            :arg0  (x4 / 熊
+)            :cause-of  (x15 / 远-01
+                  :degree  (x14 / 好
+)                  :arg0  (x11 / x8
+))))
+===========================
+小木偶委屈极了！
+(x3 / 委屈-01
+      :degree  (x4 / 极了
+)      :arg0  (x2 / 木偶
+            :arg0-of  (x1 / 小-01
+))      :mode  (x5 / expressive
+))
+===========================
+可是有什么办法呢？
+(x10 / contrast
+      :arg2  (x2 / 有-01
+            :arg1  (x4 / 办法
+                  :mod  (x3 / 什么
+))            :mode  (x5_x6 / interrogative
+)))
+===========================
+老木匠只给了他一种表情，那就是笑！
+(x16 / and
+      :op1  (x4 / 给-01
+            :aspect  (x5 / 了
+)            :arg0  (x2 / 木匠
+                  :arg0-of  (x1 / 老-01
+))            :arg1  (x9 / 表情
+                  :quant  (x7 / 1
+)                  :unit  (x8 / 种
+))            :arg2  (x6 / 他
+))      :op2  (x14 / 笑
+            :domain  (x11 / x9
+)            :mod  (x12 / 就
+)            :mode  (x15 / expressive
+)))
+===========================
+小木偶突然觉得脑袋很疼，只好抱着脑袋蹲下来。
+(x16 / causation
+      :arg1  (x4 / 觉得-01
+            :manner  (x3 / 突然-01
+)            :arg0  (x2 / 木偶
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x7 / 疼-01
+                  :arg0  (x5 / 脑袋
+                        :part-of  (x2 / 木偶
+))                  :degree  (x6 / 很
+)))      :arg2  (x13_x14 / 蹲-01
+            :manner  (x10 / 抱-01
+                  :aspect  (x11 / 着
+)                  :arg1  (x12 / x5
+)                  :arg0  (x2 / 木偶
+))            :mod  (x9 / 只好
+)            :arg0  (x2 / 木偶
+)))
+===========================
+一只小兔子走过来，温柔地问：“你怎么啦？”
+(x15 / temporal
+      :arg1  (x5_1 / 走-01
+            :direction  (x5_2_3 / 过来-01
+                  :arg0  (x4 / 兔子
+                        :arg0-of  (x3 / 小-01
+)                        :cunit  (x2 / 只
+)                        :quant  (x1 / 1
+)))            :arg0  (x4 / 兔子
+))      :arg2  (x9 / 问-01
+            :arg0  (x4 / 兔子
+)            :manner  (x7 / 温柔
+)            :arg1  (x12 / amr-unknown
+                  :arg0  (x11 / 你
+)                  :mode  (x13_x14 / interrogative
+))))
+===========================
+“脑袋疼。”小木偶抬起头，笑嘻嘻地回答。
+(x14 / temporal
+      :arg1  (x7 / 抬起-01
+            :arg0  (x6 / 木偶
+                  :arg0-of  (x5 / 小-01
+))            :arg1  (x8 / 头
+                  :part-of  (x6 / 木偶
+)))      :arg2  (x12 / 回答-01
+            :manner  (x10 / 笑嘻嘻
+)            :arg0  (x6 / 木偶
+)            :arg2  (x3 / 疼-01
+                  :arg0  (x2 / 脑袋
+                        :part-of  (x6 / 木偶
+)))))
+===========================
+“嘻嘻。
+(x4 / say
+      :arg1  (x2 / 嘻嘻
+))
+===========================
+装得一点儿都不像！你瞧，应该像我这样。”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x1 / 装
+                  :manner  (x6 / 像
+                        :polarity  (x5 / -
+)                        :mod  (x4 / 都
+)                        :quant  (x3 / 一点儿
+))                  :mode  (x7 / expressive
+))            :op2  (x25 / and
+                  :op1  (x9 / 瞧-01
+                        :arg0  (x8 / 你
+))                  :op2  (x11 / 应该-01
+                        :arg0  (x12 / 像-01
+                              :arg1  (x14 / 这样
+                                    :poss  (x13 / 我
+)))))))
+===========================
+小兔子龇牙咧嘴地做了个痛苦的表情，蹦蹦跳跳地走开了。
+(x17 / temporal
+      :arg1  (x5 / 做-01
+            :aspect  (x6 / 了
+)            :arg1  (x10 / 表情
+                  :mod  (x8 / 痛苦
+)                  :cunit  (x7 / 个
+))            :arg1  (x2 / 兔子
+                  :arg0-of  (x1 / 小
+))            :manner  (x3 / 龇牙咧嘴
+))      :arg2  (x14 / 走开-01
+            :aspect  (x15 / 了
+)            :manner  (x12 / 蹦蹦跳跳-01
+                  :arg0  (x2 / 兔子
+))            :arg0  (x2 / 兔子
+)))
+===========================
+一个老婆婆走过来：“小木头人，你病了吗？”
+(x16 / temporal
+      :arg1  (x3_1 / 走-01
+            :direction  (x3_2_3 / 过来-01
+                  :arg0  (x2 / 老婆婆
+                        :quant  (x1_1 / 1
+)                        :cunit  (x1_2 / 个
+)))            :arg0  (x2 / 老婆婆
+))      :arg2  (x24 / say
+            :arg1  (x25 / and
+                  :op1  (x7 / 人
+                        :consist-of  (x6 / 木头
+)                        :arg0-of  (x5 / 小-01
+))                  :op2  (x10 / 病
+                        :aspect  (x11 / 了
+)                        :mode  (x12_x13 / interrogative
+)                        :arg0  (x9 / x7
+)))))
+===========================
+“脑袋很疼。”
+(x6 / say
+      :arg1  (x4 / 疼-01
+            :degree  (x3 / 很
+)            :arg0  (x2 / 脑袋
+)))
+===========================
+小木偶还是一副笑嘻嘻的表情。
+(x8 / 表情
+      :poss  (x2 / 木偶
+            :arg0-of  (x1 / 小-01
+))      :mod  (x3 / 还是
+)      :mod  (x6 / 笑嘻嘻
+)      :cunit  (x5 / 副
+)      :quant  (x4 / 1
+))
+===========================
+“真不像话，连小木头人都学着撒谎！”
+(x14 / say
+      :arg1  (x16 / causation
+            :arg2  (x3_2_3 / 像话
+                  :polarity  (x3_1 / -
+)                  :degree  (x2 / 真
+))            :arg1  (x10 / 学-01
+                  :aspect  (x11 / 着
+)                  :arg1  (x12 / 撒谎
+)                  :arg0  (x8 / 人
+                        :consist-of  (x7 / 木头
+)                        :arg0-of  (x6 / 小-01
+))                  :mode  (x13 / expressive
+))))
+===========================
+老婆婆嘟嘟嚷嚷地走开了。
+(x4 / 走开-01
+      :aspect  (x5 / 了
+)      :manner  (x2 / 嘟嘟嚷嚷
+)      :arg0  (x1 / 老婆婆
+))
+===========================
+小木偶的头疼得越来越厉害了。
+(x4_2 / 疼-01
+      :arg0  (x4_1 / 头
+            :part-of  (x2 / 木偶
+                  :arg0-of  (x1 / 小-01
+)))      :arg0-of  (x9 / 厉害-01
+            :aspect  (x10 / 了
+)            :degree  (x6_x7_x8 / 越来越
+)))
+===========================
+现在，他真希望自己还是一段没有脑袋的木头！
+(x5 / 希望-01
+      :degree  (x4 / 真
+)      :arg0  (x3 / 他
+)      :arg1  (x13 / 木头
+            :domain  (x6 / x3
+)            :arg0-of  (x10_2 / 有-01
+                  :polarity  (x10_1 / -
+)                  :arg1  (x11 / 脑袋
+))            :quant  (x8 / 1
+)            :unit  (x9 / 段
+)            :mod  (x7_1 / 还
+))      :time  (x1 / 现在
+)      :mode  (x14 / expressive
+))
+===========================
+蓝鼻子小女巫就在这时候赶来了。
+(x8 / 赶来-01
+      :time  (x7 / 这时候
+)      :arg0  (x4 / 女巫
+            :arg0-of  (x3 / 小-01
+)            :mod  (x2 / 鼻子
+                  :arg0-of  (x1 / 蓝-01
+)))      :aspect  (x9 / 了
+))
+===========================
+她能用鼻子闻出空气中的伤心味儿。
+(x2 / 能-01
+      :arg0  (x5 / 闻-01
+            :arg1  (x11 / 味儿
+                  :mod  (x10 / 伤心
+)                  :location  (x7 / 空气
+))            :instrument  (x4 / 鼻子
+                  :part-of  (x1 / 她
+))            :arg0  (x1 / 她
+)))
+===========================
+“你头疼，是吗？”小女巫问。
+(x10 / 问-01
+      :arg0  (x9 / 女巫
+            :arg0-of  (x8 / 小-01
+))      :arg1  (x3 / 头疼-01
+            :arg0  (x2 / 你
+)            :mode  (x5_x6_x7 / interrogative
+)))
+===========================
+“是，而且越来越疼了。”小木偶可怜巴巴地说。
+(x15 / 说-01
+      :manner  (x13 / 可怜巴巴
+)      :arg0  (x12 / 木偶
+            :arg0-of  (x11 / 小-01
+))      :arg1  (x22 / and
+            :op1  (x2 / 是
+)            :op2  (x8 / 疼
+                  :aspect  (x9 / 了
+)                  :degree  (x5_x6_x7 / 越来越
+))))
+===========================
+“那是因为你很伤心，却不会哭。”
+(x14 / say
+      :arg1  (x16 / causation
+            :arg1  (x17 / contrast
+                  :arg1  (x7 / 伤心-01
+                        :degree  (x6 / 很
+)                        :arg0  (x5 / 你
+))                  :arg2  (x11 / 会-01
+                        :polarity  (x10 / -
+)                        :arg1  (x12 / 哭
+)                        :arg0  (x5 / 你
+))                  :mode  (x3 / judgement
+))))
+===========================
+小女巫用她的魔杖在小木偶的脑袋上点了一下。
+(x13 / 点-03
+      :aspect  (x14 / 了
+)      :instrument  (x6 / 魔杖
+            :poss  (x4 / x2
+))      :arg0  (x2 / 女巫
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x11 / 脑袋
+            :part-of  (x9 / 木偶
+                  :arg0-of  (x8 / 小-01
+)))      :quant  (x15_1 / 1
+)      :cunit  (x15_2 / 下
+))
+===========================
+“哇——”小木偶放声大哭起来。
+(x11 / and
+      :op1  (x13 / say
+            :arg1  (x2 / 哇
+))      :op2  (x8_x9 / 哭-01
+            :manner  (x6 / 放声
+)            :arg0  (x5 / 木偶
+                  :arg0-of  (x4 / 小-01
+))            :mod  (x7 / 大
+)))
+===========================
+慢慢地，小木偶不再伤心了，脑袋也不疼了。
+(x16 / and
+      :manner  (x1 / 慢慢
+)      :op1  (x7 / 伤心-01
+            :polarity  (x6 / -
+)            :aspect  (x8 / 了
+)            :arg0  (x5 / 木偶
+                  :arg0-of  (x4 / 小-01
+)))      :op2  (x13 / 疼-01
+            :aspect  (x14 / 了
+)            :polarity  (x12 / -
+)            :arg0  (x10 / 脑袋
+                  :part-of  (x5 / 木偶
+))))
+===========================
+“小木偶，我把人类所有的表情都送给你。”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x3 / 木偶
+                  :arg0-of  (x2 / 小-01
+))            :op2  (x12 / 送给-01
+                  :arg2  (x13 / x3
+)                  :arg1  (x10 / 表情
+                        :extent  (x11 / 都
+)                        :mod  (x8 / 所有
+)                        :poss  (x7 / 人类
+))                  :arg0  (x5 / 我
+))))
+===========================
+小女巫说完，又用魔杖在小木偶的脑袋上点了几下。
+(x19 / temporal
+      :arg1  (x3_2 / 完-01
+            :arg0  (x3_1 / 说-01
+                  :arg0  (x2 / 女巫
+                        :arg0-of  (x1 / 小-01
+))))      :arg2  (x14 / 点-03
+            :aspect  (x15 / 了
+)            :quant  (x16 / 几
+)            :cunit  (x17 / 下
+)            :arg0  (x2 / 女巫
+)            :mod  (x5 / 又
+)            :instrument  (x7 / 魔杖
+)            :arg1  (x12 / 脑袋
+                  :part-of  (x10 / 木偶
+                        :arg0-of  (x9 / 小-01
+)))))
+===========================
+现在，小木偶会哭，会笑，会生气，会着急，也会向别人表示同情和关心了。
+(x27 / and
+      :time  (x1 / 现在
+)      :op1  (x5 / 会-01
+            :arg0  (x4 / 木偶
+                  :arg0-of  (x3 / 小-01
+))            :arg1  (x6 / 哭
+))      :op2  (x8 / 会-01
+            :arg0  (x4 / 木偶
+)            :arg1  (x9 / 笑
+))      :op3  (x11 / 会-01
+            :arg0  (x4 / 木偶
+)            :arg1  (x12 / 生气
+))      :op4  (x14 / 会-01
+            :arg0  (x4 / 木偶
+)            :arg1  (x15 / 着急
+))      :op5  (x18 / 会-01
+            :arg0  (x4 / 木偶
+)            :arg1  (x21 / 表示-01
+                  :arg1  (x23 / and
+                        :op1  (x22 / 同情
+)                        :op2  (x24 / 关心
+))                  :arg2  (x20 / 别人
+)))      :smood  (x25 / 了
+))
+===========================
+老木匠说得没错，笑是很重要的。
+(x14 / causation
+      :arg1  (x5_x6 / 没错-01
+            :arg0  (x18 / thing
+                  :arg1-of  (x3 / 说-01
+                        :arg0  (x2 / 木匠
+                              :arg0-of  (x1 / 老-01
+)))))      :arg2  (x11 / 重要-01
+            :mode  (x9_x12 / judgement
+)            :degree  (x10 / 很
+)            :arg0  (x8 / 笑
+)))
+===========================
+不过，要是只会笑，那可是远远不够的。
+(x15 / contrast
+      :arg2  (x17 / condition
+            :arg1  (x6 / 会-01
+                  :mod  (x5 / 只
+)                  :arg1  (x7 / 笑
+))            :arg2  (x12 / 不够
+                  :degree  (x11 / 远远
+)                  :mod  (x10 / 可是
+)                  :mode  (x13 / judgement
+))))
+===========================

@@ -1,0 +1,271 @@
+人们都说：“桂林山水甲天下。”
+(x3 / 说-01
+      :arg0  (x1 / 人们
+            :extent  (x2 / 都
+))      :arg1  (x7 / 甲天下
+            :arg0  (x6 / 山水
+                  :location  (x15 / city
+                        :name  ( x5/桂林 
+)))))
+===========================
+我们乘着木船，荡漾在漓江上，来观赏桂林的山水。
+(x17 / and
+      :op1  (x2 / 乘-01
+            :arg0  (x1 / 我们
+)            :aspect  (x3 / 着
+)            :arg1  (x4 / 木船
+))      :op2  (x6 / 荡漾-01
+            :arg0  (x1 / 我们
+)            :location  (x8 / 漓江
+))      :op3  (x11 / 来-05
+            :arg1  (x12 / 观赏-01
+                  :arg0  (x1 / 我们
+)                  :arg1  (x15 / 山水
+                        :location  (x28 / city
+                              :name  ( x13/桂林 
+))))            :arg0  (x1 / 我们
+)))
+===========================
+我看见过波澜壮阔的大海，玩赏过水平如镜的西湖，却从没看见过漓江这样的水。
+(x24 / contrast
+      :arg1  (x26 / and
+            :op1  (x2 / 看见-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x6 / 大海
+                        :arg0-of  (x4 / 波澜壮阔-01
+))                  :aspect  (x3 / 过
+))            :op2  (x8 / 玩赏-01
+                  :aspect  (x9 / 过
+)                  :arg0  (x1 / 我
+)                  :arg1  (x38 / lake
+                        :name  ( x12/西湖 
+)                        :arg0-of  (x10 / 水平如镜
+))))      :arg2  (x17 / 看见-01
+            :polarity  (x15_x16 / -
+)            :arg0  (x1 / 我
+)            :aspect  (x18 / 过
+)            :arg1  (x22 / 水
+                  :arg0-of  (x43 / mean
+                        :arg1  (x45 / river
+                              :name  ( x19/漓江 
+)))                  :mod  (x20 / 这样
+))))
+===========================
+漓江的水真静啊，静得让你感觉不到它在流动；漓江的水真清啊，清得可以看见江底的沙石；漓江的水真绿啊，绿得仿佛那是一块无瑕的翡翠。
+(x52 / and
+      :op1  (x54 / and
+            :op1  (x5 / 静-01
+                  :degree  (x4 / 真
+)                  :arg0  (x3 / 水
+                        :poss  (x65 / river
+                              :name  ( x1/漓江 
+)))                  :mode  (x6 / expressive
+))            :op2  (x8 / 静-01
+                  :degree  (x10 / 让-02
+                        :arg1  (x11 / 你
+)                        :arg2  (x12 / 感觉-01
+                              :polarity  (x13 / -
+)                              :arg1  (x17 / 流动-01
+                                    :arg0  (x15 / x3
+)                                    :aspect  (x16 / 在
+))))                  :arg0  (x3 / 水
+)))      :op2  (x55 / and
+            :op1  (x23 / 清-01
+                  :arg0  (x21 / 水
+                        :poss  (x73 / river
+                              :name  ( x19/漓江 
+)))                  :degree  (x22 / 真
+)                  :mode  (x24 / expressive
+))            :op2  (x26 / 清-01
+                  :arg0  (x21 / 水
+)                  :degree  (x28 / 可以-01
+                        :arg0  (x29 / 看见-01
+                              :arg1  (x32 / 沙石
+                                    :location  (x30 / 江底
+                                          :arg0  (x73 / river
+)))))))      :op3  (x56 / and
+            :op1  (x38 / 绿-01
+                  :degree  (x37 / 真
+)                  :arg1  (x36 / 水
+                        :poss  (x86 / river
+                              :name  ( x34/漓江 
+)))                  :mode  (x39 / expressive
+))            :op2  (x41 / 绿-01
+                  :degree  (x43 / 仿佛-01
+                        :arg0  (x50 / 翡翠
+                              :domain  (x44 / x36
+)                              :arg0-of  (x48 / 无瑕
+)                              :unit  (x47 / 块
+)                              :quant  (x46 / 1
+)))                  :arg0  (x36 / 水
+))))
+===========================
+船桨激起的微波扩散出一道道水纹，才让你感觉到船在前进，岸在后移。
+(x25 / condition
+      :arg1  (x5 / 扩散-01
+            :arg0  (x4 / 微波
+                  :arg1-of  (x2 / 激起-01
+                        :arg0  (x1 / 船桨
+)))            :arg1  (x10 / 水纹
+                  :quant  (x7_x8_x9 / 一道道
+)))      :arg2  (x13 / 让-02
+            :arg1  (x14 / 你
+)            :arg2  (x15 / 感觉-01
+                  :arg0  (x14 / 你
+)                  :arg1  (x36 / and
+                        :op1  (x19 / 前进-01
+                              :aspect  (x18 / 在
+)                              :arg0  (x17 / 船
+))                        :op2  (x23 / 后移
+                              :aspect  (x22 / 在
+)                              :arg0  (x21 / 岸
+))))))
+===========================
+我攀登过峰峦雄伟的泰山，游览过红叶似火的香山，却从没看见过桂林这一带的山。
+(x29 / contrast
+      :arg1  (x31 / and
+            :op1  (x2 / 攀登-01
+                  :aspect  (x3 / 过
+)                  :arg0  (x1 / 我
+)                  :arg1  (x39 / mountain
+                        :name  ( x7/泰山 
+)                        :arg0-of  (x5 / 雄伟-01
+                              :mod  (x4 / 峰峦
+))))            :op2  (x9 / 游览-01
+                  :aspect  (x10 / 过
+)                  :arg0  (x1 / 我
+)                  :arg1  (x44 / mountain
+                        :name  ( x15/香山 
+)                        :mod  (x12 / 似-01
+                              :arg0  (x11 / 红叶
+)                              :arg1  (x13 / 火
+)))))      :arg2  (x20 / 看见-01
+            :aspect  (x21 / 过
+)            :polarity  (x18_x19 / -
+)            :arg1  (x27 / 山
+                  :location  (x25 / 带
+                        :mod  (x23 / 这
+)                        :quant  (x24 / 1
+)                        :location  (x53 / city
+                              :name  ( x22/桂林 
+))))))
+===========================
+桂林的山真奇啊，一座拔地而起，各不相连，像老人，像巨象，像骆驼，奇峰罗列，形态万千；桂林的山真秀啊，像翠绿的屏障，像新生的竹笋，色彩明丽，倒映水中；桂林的山真险啊，危峰兀立，怪石嶙峋，好像一不小心就会栽倒下来。
+(x78 / and
+      :op1  (x80 / and
+            :op1  (x5 / 奇
+                  :arg0  (x3 / 山
+                        :location  (x83 / city
+                              :name  ( x1/桂林 
+)))                  :degree  (x4 / 真
+)                  :mode  (x6 / expressive
+))            :op2  (x10 / 拔地而起-01
+                  :arg0  (x88 / mountain
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 座
+)))            :op3  (x14 / 相连-01
+                  :polarity  (x13 / -
+)                  :manner  (x12 / 各
+)                  :arg0  (x3 / 山
+))            :op4  (x16 / 像-01
+                  :arg0  (x3 / 山
+)                  :arg1  (x17 / 老人
+))            :op5  (x19 / 像-01
+                  :arg1  (x21 / 象
+                        :arg0-of  (x20 / 巨
+))                  :arg0  (x3 / 山
+))            :op6  (x23 / 像-01
+                  :arg0  (x3 / 山
+)                  :arg1  (x24 / 骆驼
+))            :op7  (x27 / 罗列-01
+                  :arg1  (x26 / 奇峰
+))            :op8  (x30 / 万千
+                  :arg0  (x29 / 形态
+                        :arg0  (x3 / 山
+))))      :op2  (x105 / and
+            :op1  (x36 / 秀
+                  :mode  (x37 / expressive
+)                  :arg0  (x34 / 山
+                        :location  (x111 / city
+                              :name  ( x32/桂林 
+)))                  :degree  (x35 / 真
+))            :op2  (x39 / 像-01
+                  :arg0  (x34 / 山
+)                  :arg1  (x42 / 屏障
+                        :arg0-of  (x40 / 翠绿-01
+)))            :op3  (x44 / 像-01
+                  :arg0  (x34 / 山
+)                  :arg1  (x47 / 竹笋
+                        :arg0-of  (x45 / 新生-01
+)))            :op4  (x50 / 明丽
+                  :arg0  (x49 / 色彩
+                        :poss  (x34 / 山
+)))            :op5  (x52 / 倒映-01
+                  :arg0  (x34 / 山
+)                  :arg1  (x53 / 水中
+)))      :op3  (x106 / and
+            :op1  (x59 / 险
+                  :mode  (x60 / expressive
+)                  :degree  (x58 / 真
+)                  :arg0  (x57 / 山
+                        :location  (x127 / city
+                              :name  ( x55/桂林 
+))))            :op2  (x63 / 兀立
+                  :arg0  (x62 / 危峰
+))            :op3  (x66 / 嶙峋-01
+                  :arg0  (x65 / 怪石
+))            :op4  (x68 / 好像-01
+                  :arg0  (x134 / condition
+                        :arg1  (x71 / 小心
+                              :polarity  (x70 / -
+))                        :arg2  (x73 / 会-02
+                              :arg0  (x74_x75 / 栽倒-01
+                                    :arg0  (x57 / 山
+)))))))
+===========================
+这样的山围绕着这样的水，这样的水倒映着这样的山，再加上空中云雾迷蒙，山间绿树红花，江上竹筏小舟，让你感到像是走进了连绵不断的画卷，真是“舟行碧波上，人在画中游”。
+(x57 / and
+      :op1  (x4 / 围绕
+            :aspect  (x5 / 着
+)            :arg0  (x3 / 山
+                  :mod  (x1 / 这样
+))            :arg1  (x8 / 水
+                  :mod  (x6 / 这样
+)))      :op2  (x13 / 倒映
+            :arg0  (x12 / 水
+                  :mod  (x10 / 这样-01
+))            :arg1  (x17 / 山
+                  :mod  (x15 / 这样
+))            :aspect  (x14 / 着-01
+))      :op3  (x20 / 加上-01
+            :arg1  (x72 / and
+                  :op1  (x23 / 迷蒙
+                        :arg0  (x22 / 云雾
+)                        :time  (x21 / 空中
+))                  :op2  (x76 / and
+                        :location  (x25 / 山间
+)                        :op1  (x26 / 绿树
+)                        :op2  (x27 / 红花
+))                  :op3  (x80 / and
+                        :op1  (x30 / 竹筏
+)                        :op2  (x31 / 小舟
+)                        :location  (x29 / 江上
+))))      :op4  (x33 / 让-02
+            :arg1  (x34 / 你
+)            :arg2  (x35 / 感到-01
+                  :arg0  (x34 / 你
+)                  :arg1  (x36 / 像-02
+                        :arg1  (x38 / 走进-01
+                              :aspect  (x39 / 了
+)                              :arg1  (x42 / 画卷
+                                    :arg0-of  (x40 / 连绵不断-01
+))))))      :op5  (x92 / and
+            :manner  (x44 / 真是
+)            :op1  (x47 / 行-01
+                  :arg0  (x46 / 舟
+)                  :arg1  (x48 / 碧波
+))            :op2  (x55 / 游-01
+                  :arg0  (x51 / 人
+)                  :arg1  (x53 / 画
+))))
+===========================

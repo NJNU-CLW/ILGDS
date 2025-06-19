@@ -1,0 +1,380 @@
+丛林中，住着一只漂亮的鹿。
+(x4 / 住-01
+      :arg0  (x10 / 鹿
+            :quant  (x6 / 1
+)            :arg0-of  (x8 / 漂亮-01
+)            :cunit  (x7 / 只
+))      :aspect  (x5 / 着
+)      :arg1  (x1 / 丛林
+))
+===========================
+有一天，鹿口渴了，找到一个池塘，痛痛快快地喝起水来。
+(x19 / temporal
+      :arg1  (x5 / 口渴-01
+            :aspect  (x6 / 了
+)            :arg0  (x4 / 鹿
+))      :time  (x1_x2 / 有一天
+)      :arg2  (x8 / 找到-01
+            :arg0  (x4 / 鹿
+)            :arg1  (x10 / 池塘
+                  :quant  (x9_1 / 1
+)                  :cunit  (x9_2 / 个
+)))      :arg3  (x14 / 喝-01
+            :arg1  (x16 / 水
+)            :manner  (x12 / 痛痛快快
+)            :arg0  (x4 / 鹿
+)))
+===========================
+池水清清的，像一面镜子。
+(x11 / causation
+      :arg1  (x2 / 清-01
+            :arg0  (x1 / 池水
+))      :arg2  (x4 / 像-01
+            :arg0  (x1 / 池水
+)            :arg1  (x7 / 镜子
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 面
+))))
+===========================
+鹿忽然发现了自己倒映在水面上的影子：“咦，这是我吗？”
+(x20 / temporal
+      :arg1  (x3 / 发现-01
+            :manner  (x2 / 忽然
+)            :aspect  (x4 / 了
+)            :arg0  (x1 / 鹿
+)            :arg1  (x11 / 影子
+                  :arg0-of  (x6 / 倒映-01
+                        :arg1  (x9 / 上
+                              :arg0  (x8 / 水面
+)))                  :poss  (x5 / x1
+)))      :arg2  (x31 / say
+            :arg1  (x17 / x1
+                  :domain  (x15 / x11
+)                  :mode  (x13_x18_x19 / interrogative
+))))
+===========================
+鹿摆摆身子，水中的倒影也跟着摆动起来。
+(x13 / temporal
+      :arg1  (x2 / 摆-01
+            :arg0  (x1 / 鹿
+)            :arg1  (x3 / 身子
+                  :part-of  (x1 / 鹿
+)))      :arg2  (x10_x11 / 摆动-01
+            :arg1  (x7 / 倒影
+                  :location  (x5 / 水中
+))            :mod  (x8 / 也
+)            :manner  (x9 / 跟着-01
+                  :arg0  (x7 / 倒影
+))))
+===========================
+他从来没有注意到自己是这么漂亮！
+(x4 / 注意-02
+      :polarity  (x3 / -
+)      :time  (x2 / 从来
+)      :arg0  (x1 / 他
+)      :arg1  (x9 / 漂亮-01
+            :degree  (x8 / 这么
+)            :arg0  (x6 / x1
+)            :mode  (x7 / judgement
+))      :mode  (x10 / expressive
+))
+===========================
+他不着急离开了，对着池水欣赏自己的美丽：“啊！我的身段多么匀称,我的角多么精美别致，好像两束美丽的珊瑚。”
+(x37 / and
+      :op1  (x3 / 着急-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 离开-01
+                  :arg0  (x1 / 他
+))            :smood  (x5 / 了
+)            :polarity  (x2 / -
+))      :op2  (x10 / 欣赏-01
+            :arg0  (x1 / 他
+)            :direction  (x9 / 池水
+)            :arg1  (x13 / 美丽
+                  :poss  (x11 / x1
+)))      :op3  (x48 / say
+            :arg1  (x49 / and
+                  :mode  (x15_x16 / expressive
+)                  :op1  (x21 / 匀称-01
+                        :arg0  (x19 / 身段
+                              :poss  (x17 / x1
+))                        :degree  (x20 / 多么
+))                  :op2  (x55 / and
+                        :op1  (x57 / and
+                              :op1  (x27 / 精美-01
+                                    :arg0  (x25 / 角
+                                          :part-of  (x23 / x1
+))                                    :degree  (x26 / 多么
+))                              :op2  (x28 / 别致-01
+                                    :arg0  (x25 / 角
+)))                        :op2  (x30 / 好像-01
+                              :arg0  (x25 / 角
+)                              :arg1  (x35 / 珊瑚
+                                    :arg0-of  (x33 / 美丽-01
+)                                    :quant  (x31 / 2
+)                                    :cunit  (x32 / 束
+)))))))
+===========================
+一阵清风吹过，池水泛起了层层波纹。
+(x12 / causation
+      :arg2  (x7 / 泛起-01
+            :arg0  (x10 / 波纹
+                  :quant  (x9 / 层层
+))            :aspect  (x8 / 了
+)            :arg1  (x6 / 池水
+))      :arg1  (x3_x4 / 吹-02
+            :arg0  (x2 / 清风
+                  :quant  (x1_1 / 1
+)                  :cunit  (x2_2 / 阵
+))))
+===========================
+鹿忽然看到了自己的腿，不禁噘起了嘴，皱起了眉头：“唉，这四条腿太细了，怎么配得上这两只美丽的角呢！”
+(x41 / causation
+      :arg1  (x3 / 看到-01
+            :arg0  (x1 / 鹿
+)            :manner  (x2 / 忽然
+)            :aspect  (x4 / 了
+)            :arg1  (x7 / 腿
+                  :part-of  (x5 / x1
+)))      :arg2  (x44 / and
+            :op1  (x9 / 不禁
+                  :arg0  (x46 / and
+                        :op1  (x10_1 / 撅-01
+                              :arg1  (x12 / 嘴
+                                    :part-of  (x1 / 鹿
+)))                        :op2  (x14 / 皱-01
+                              :arg1  (x17 / 眉头
+                                    :part-of  (x1 / 鹿
+)))))            :op2  (x56 / say
+                  :arg1  (x57 / causation
+                        :arg1  (x26 / 细-01
+                              :degree  (x25 / 太
+)                              :arg0  (x24 / 腿
+                                    :part-of  (x1 / 鹿
+)                                    :quant  (x22 / 4
+)                                    :cunit  (x23 / 条
+)                                    :mod  (x21 / 这
+))                              :smood  (x27 / 了
+))                        :arg2  (x31 / possible
+                              :cause  (x29 / amr-unknown
+)                              :arg0  (x30 / 配-02
+                                    :arg0  (x24 / 腿
+)                                    :arg1  (x38 / 角
+                                          :part-of  (x1 / 鹿
+)                                          :arg0-of  (x36 / 美丽-01
+)                                          :mod  (x33 / 这
+)                                          :quant  (x34 / 2
+)                                          :cunit  (x35 / 只
+)))                              :mode  (x39_x40 / expressive
+))))))
+===========================
+鹿开始抱怨起自己的腿来。
+(x2 / 开始-01
+      :arg0  (x1 / 鹿
+)      :arg1  (x3 / 抱怨-01
+            :arg0  (x1 / 鹿
+)            :arg1  (x7 / 腿
+                  :part-of  (x5 / x1
+))))
+===========================
+就在他没精打采地准备离开的时候，忽然听到远处传来一阵脚步声。
+(x12 / 听到-01
+      :time  (x6 / 准备-02
+            :manner  (x4 / 没精打采
+                  :arg0  (x3 / 他
+))            :arg0  (x3 / 他
+)            :arg1  (x7 / 离开-01
+                  :arg0  (x3 / 他
+)))      :arg0  (x3 / 他
+)      :manner  (x11 / 忽然
+)      :arg1  (x14 / 传来-01
+            :arg0  (x13 / 远处
+)            :arg1  (x16 / 脚步声
+                  :quant  (x15_1 / 1
+)                  :cunit  (x16_2 / 阵
+))))
+===========================
+他机灵地支起耳朵，不错，正是脚步声！
+(x13 / and
+      :op1  (x4 / 支
+            :arg0  (x1 / 他
+)            :manner  (x2 / 机灵-01
+                  :arg0  (x1 / 他
+))            :arg1  (x6 / 耳朵
+))      :op2  (x8 / 不错
+)      :op3  (x10 / 正是-01
+            :arg1  (x11 / 脚步声
+)            :mode  (x12 / expressive
+)))
+===========================
+鹿猛一回头，哎呀，一头狮子正悄悄地向自己逼近。
+(x18 / and
+      :op1  (x3_x4 / 回头-01
+            :manner  (x2 / 猛-01
+)            :arg0  (x1 / 鹿
+)            :arg0  (x1 / 鹿
+))      :op2  (x15_x16 / 逼近-01
+            :arg0  (x10 / 狮子
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 头
+))            :arg1  (x14 / x1
+)            :mode  (x6 / expressive
+)            :manner  (x12_1_2 / 悄悄
+)            :aspect  (x11 / 正
+)))
+===========================
+鹿不敢犹豫，撒开长腿就跑。
+(x13 / causation
+      :arg1  (x3 / 敢-02
+            :polarity  (x2 / -
+)            :arg0  (x1 / 鹿
+)            :arg1  (x4 / 犹豫-01
+                  :arg0  (x1 / 鹿
+)))      :arg2  (x19 / temporal
+            :arg1  (x6 / 撒
+                  :arg1  (x9 / 腿
+                        :part-of  (x1 / 鹿
+)                        :arg0-of  (x8 / 长-02
+))                  :arg0  (x1 / 鹿
+))            :arg2  (x11 / 跑-01
+                  :arg0  (x1 / 鹿
+))))
+===========================
+有力的长腿在灌木丛中蹦来跳去，不一会儿，就把凶猛的狮子远远地甩在了后面。
+(x23 / temporal
+      :arg1  (x8 / 蹦来跳去
+            :duration  (x10 / 不一会儿
+)            :arg0  (x4 / 腿
+                  :arg0-of  (x3 / 长-02
+)                  :arg0-of  (x1 / 有力-01
+))            :location  (x6 / 灌木丛
+))      :arg2  (x18 / 甩-01
+            :arg1  (x16 / 狮子
+                  :arg0-of  (x14 / 凶猛-01
+))            :manner  (x17_1_2 / 远远
+)            :arg2  (x21 / 后面
+)))
+===========================
+就在狮子丧气不想再追的时候，鹿的角却被树枝挂住。
+(x21 / contrast
+      :arg1  (x23 / causation
+            :arg1  (x4 / 丧气-01
+                  :arg0  (x3 / 狮子
+))            :arg2  (x6 / 想-02
+                  :polarity  (x5 / -
+)                  :arg0  (x3 / 狮子
+)                  :arg1  (x8 / 追-01
+                        :mod  (x7 / 再
+)                        :arg0  (x3 / 狮子
+))))      :arg2  (x18_x19 / 挂-01
+            :time  (x23 / causation
+)            :arg1  (x14 / 角
+                  :part-of  (x12 / 鹿
+))            :arg2  (x17 / 树枝
+)))
+===========================
+狮子赶紧抓住这个机会，猛扑过来。
+(x13 / causation
+      :arg1  (x3 / 抓住-01
+            :manner  (x2 / 赶紧
+)            :arg0  (x1 / 狮子
+)            :arg1  (x5 / 机会
+                  :mod  (x4_1 / 这
+)                  :cunit  (x4_2 / 个
+)))      :arg2  (x8 / 扑-02
+            :direction  (x9 / 过来-01
+                  :arg0  (x1 / 狮子
+))            :manner  (x7 / 猛
+)            :arg0  (x1 / 狮子
+)))
+===========================
+眼看就要追上了，鹿用尽全身力气，使劲一扯，才把两只角从树枝中挣脱出来，然后又拼命向前奔去。
+(x34 / temporal
+      :arg1  (x1 / 眼看-01
+            :arg1  (x2_2 / 要-03
+                  :mod  (x2_1 / 就
+)                  :arg0  (x3_x4 / 追上-01
+                        :aspect  (x5 / 了
+))))      :arg2  (x8 / 用尽-01
+            :arg0  (x7 / 鹿
+)            :arg1  (x10 / 力气
+                  :source  (x9 / 全身
+                        :part-of  (x7 / 鹿
+))))      :arg3  (x13_x14 / 扯-02
+            :manner  (x12 / 使劲
+)            :arg0  (x7 / 鹿
+)            :arg1  (x20 / 角
+                  :part-of  (x7 / 鹿
+)                  :quant  (x18 / 2
+)                  :cunit  (x19 / 只
+)))      :arg4  (x24 / 挣脱-01
+            :cause-of  (x25 / 出来-01
+                  :arg0  (x20 / 角
+))            :arg0  (x20 / 角
+)            :source  (x22 / 树枝
+))      :arg5  (x29 / 拼命-01
+            :arg0  (x7 / 鹿
+)            :mod  (x28 / 又
+)            :arg1  (x31_x32 / 奔-01
+                  :direction  (x30_2 / 前
+)                  :arg0  (x7 / 鹿
+))))
+===========================
+这次，狮子再也没有追上。
+(x7_x8 / 追上-01
+      :polarity  (x6 / -
+)      :mod  (x4 / 再
+)      :mod  (x5 / 也
+)      :arg0  (x3 / 狮子
+)      :time  (x1 / 这次
+))
+===========================
+鹿跑到一条小溪边，停下脚步，一边喘气，一边休息。
+(x18 / temporal
+      :arg1  (x2 / 跑-01
+            :arg0  (x1 / 鹿
+)            :arg3  (x7 / 边
+                  :arg0  (x6 / 小溪
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 条
+))))      :arg2  (x9 / 停下-01
+            :arg0  (x1 / 鹿
+)            :arg1  (x10 / 脚步
+))      :arg3  (x28 / and
+            :op1  (x13 / 喘气-01
+                  :arg0  (x1 / 鹿
+))            :op2  (x16 / 休息-01
+                  :arg0  (x1 / 鹿
+))))
+===========================
+他叹了口气，说：“两只美丽的角差点儿送了我的命，可四条难看的腿却让我狮口逃生！”
+(x33 / temporal
+      :arg1  (x2 / 叹-02
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x5 / 气
+                  :cunit  (x4 / 口
+)))      :arg2  (x7 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x41 / contrast
+                  :arg1  (x15 / 送
+                        :aspect  (x16 / 了
+)                        :arg1  (x19 / 命
+                              :poss  (x17 / x1
+))                        :mod  (x14 / 差点儿
+)                        :arg0  (x13 / 角
+                              :arg0-of  (x11 / 美丽-01
+)                              :quant  (x9 / 2
+)                              :cunit  (x10 / 只
+)))                  :arg2  (x28 / 让-02
+                        :arg0  (x26 / 腿
+                              :arg0-of  (x24 / 难看-01
+)                              :quant  (x22 / 4
+)                              :cunit  (x23 / 条
+))                        :arg2  (x31 / 逃生-01
+                              :source  (x30 / 狮口
+)                              :arg0  (x29 / x1
+))                        :arg1  (x29 / x1
+)                        :mode  (x32 / expressive
+)))))
+===========================

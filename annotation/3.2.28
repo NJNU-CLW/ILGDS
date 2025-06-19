@@ -1,0 +1,503 @@
+在国外读书的第一个假日，我决定做一次漂流旅行。
+(x10 / 决定-01
+      :time  (x7 / 假日
+            :ord  (x20 / ordinal-entity
+                  :value  (x5 / 1
+))            :cunit  (x6 / 个
+)            :time  (x3 / 读书-01
+                  :location  (x2 / 国外
+)                  :arg0  (x9 / 我
+)))      :arg0  (x9 / 我
+)      :arg1  (x11 / 做-01
+            :arg0  (x9 / 我
+)            :arg1  (x15 / 旅行
+                  :mod  (x14 / 漂流
+)                  :quant  (x12 / 1
+)                  :cunit  (x13 / 次
+))))
+===========================
+收拾好背包，我把它系在筏子上。
+(x13 / temporal
+      :arg2  (x8 / 系-03
+            :arg0  (x5 / 我
+)            :arg1  (x7 / x3
+)            :location  (x10 / 筏子
+))      :arg1  (x2 / 好-04
+            :arg0  (x1 / 收拾-01
+                  :arg0  (x5 / 我
+)                  :arg1  (x3 / 背包
+))))
+===========================
+手举一面鲜艳的五星红旗，便出发了。
+(x13 / temporal
+      :arg1  (x2 / 举-02
+            :arg0  (x1 / 手
+)            :arg1  (x7 / 五星红旗
+                  :arg0-of  (x5 / 鲜艳-01
+)                  :cunit  (x4 / 面
+)                  :quant  (x3 / 1
+)))      :arg2  (x10 / 出发
+            :aspect  (x11 / 了
+)))
+===========================
+筏子顺流而下，到了傍晚，河面变窄了。
+(x13 / and
+      :op1  (x2 / 顺流而下
+            :arg0  (x1 / 筏子
+))      :op2  (x9 / 变-01
+            :arg0  (x8 / 河面
+)            :arg2  (x10 / 窄-01
+                  :aspect  (x11 / 了
+)                  :arg0  (x8 / 河面
+))            :time  (x6 / 傍晚
+)))
+===========================
+为了防止丢失，也为了行动方便，我把国旗从旗杆上抽下来，系在脖子上。
+(x24 / temporal
+      :arg2  (x19 / 系-03
+            :location  (x21 / 脖子
+                  :part-of  (x10 / 我
+))            :arg0  (x10 / 我
+)            :arg1  (x12 / 国旗
+))      :purpose  (x2 / 防止-01
+            :arg1  (x3 / 丢失-01
+                  :arg1  (x12 / 国旗
+)))      :purpose  (x8 / 方便-03
+            :arg0  (x7 / 行动
+))      :arg1  (x16_x17 / 抽-01
+            :arg0  (x10 / 我
+)            :source  (x15 / 上
+                  :arg0  (x14 / 旗杆
+))            :arg1  (x12 / 国旗
+)))
+===========================
+不久，筏子漂到了水势最急的一段河面，周围一片漆黑，我想大声呼喊，给自己壮胆鼓劲。
+(x29 / causation
+      :arg1  (x31 / and
+            :time  (x1 / 不久
+)            :op1  (x4_2 / 到-01
+                  :manner  (x4_1 / 漂-01
+                        :arg0  (x3 / 筏子
+))                  :arg0  (x3 / 筏子
+)                  :aspect  (x5 / 了
+)                  :arg1  (x12 / 河面
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 段
+)                        :mod  (x8 / 急-01
+                              :degree  (x7 / 最
+)                              :arg0  (x6 / 水势
+))))            :op2  (x17 / 漆黑
+                  :location  (x14 / 周围
+)                  :quant  (x15 / 1
+)                  :cunit  (x16 / 片
+)))      :arg2  (x20 / 想-01
+            :arg0  (x19 / 我
+)            :arg1  (x22 / 呼喊-01
+                  :manner  (x21 / 大声
+)                  :purpose  (x52 / and
+                        :op1  (x26 / 壮胆-01
+                              :arg0  (x19 / 我
+)                              :arg1  (x25 / x19
+))                        :op2  (x27 / 鼓劲-01
+                              :arg0  (x19 / 我
+)                              :arg1  (x25 / x19
+)))                  :arg0  (x19 / 我
+))))
+===========================
+还没等喊出口，只觉眼前一黑，便落入激流之中。
+(x19 / temporal
+      :arg1  (x9 / 觉-01
+            :arg1  (x12 / 黑
+                  :mod  (x11 / 一
+)                  :location  (x10 / 眼前
+))            :time  (x5 / 出-01
+                  :manner  (x4 / 喊
+)                  :arg1  (x6 / 口
+)                  :polarity  (x2_x3 / -
+)                  :mod  (x1 / 还
+)))      :arg2  (x15 / 落入-01
+            :arg1  (x17 / 之中
+                  :arg0  (x16 / 激流
+))))
+===========================
+醒来的时候，发现自己被一块巨石挡住了，头和身子被撞伤了好几处，筏子和背包都无影无踪。
+(x5 / 发现-01
+      :time  (x1 / 醒来
+)      :arg1  (x32 / and
+            :op1  (x10 / 挡住-01
+                  :aspect  (x11 / 了
+)                  :arg0  (x9 / 巨石
+                        :unit  (x8_2 / 块
+)                        :quant  (x8_1 / 1
+))                  :arg1  (x6 / 自己
+))            :op2  (x17 / 撞-01
+                  :cause-of  (x18 / 伤-01
+                        :aspect  (x19 / 了
+                              :arg1  (x48 / thing
+                                    :cunit  (x21 / 处
+)                                    :location  (x14 / and
+                                          :op1  (x13 / 头
+                                                :part-of  (x6 / 自己
+))                                          :op2  (x15 / 身子
+                                                :part-of  (x6 / 自己
+)))                                    :quant  (x20_2 / 几
+                                          :degree  (x20_1 / 好
+)))))                  :arg1  (x14 / and
+))            :op3  (x27 / 无影无踪-01
+                  :arg0  (x24 / and
+                        :extent  (x26 / 都
+)                        :op1  (x23 / 筏子
+)                        :op2  (x25 / 背包
+)))))
+===========================
+我迷路了，在荒无人烟的大山里转来转去。
+(x12 / causation
+      :arg1  (x2 / 迷路-01
+            :arg0  (x1 / 我
+)            :aspect  (x3 / 了
+))      :arg2  (x10 / 转来转去
+            :arg0  (x1 / 我
+)            :location  (x9 / 里
+                  :arg0  (x8 / 大山
+                        :arg0-of  (x6 / 荒无人烟
+)))))
+===========================
+直到第三天中午，我才来到一座小镇，走进一家面包店。
+(x18 / condition
+      :arg1  (x4 / 中午
+            :ord  (x21 / ordinal-entity
+                  :value  (x2 / 3
+)                  :unit  (x3 / 天
+)))      :arg2  (x24 / temporal
+            :arg1  (x8 / 来到-01
+                  :arg0  (x6 / 我
+)                  :arg1  (x11 / 小镇
+                        :quant  (x9 / 1
+)                        :cunit  (x10 / 座
+)))            :arg2  (x13 / 走进-01
+                  :arg1  (x16 / 面包店
+                        :cunit  (x15 / 家
+)                        :quant  (x14 / 1
+))                  :arg0  (x6 / 我
+))))
+===========================
+我向老板说明了自己的处境。
+(x4 / 说明-01
+      :arg0  (x1 / 我
+)      :arg1  (x8 / 处境
+            :poss  (x6 / x1
+))      :aspect  (x5 / 了
+)      :destination  (x3 / 老板
+))
+===========================
+老板听懂了我的话，却把双手一摊，表示一脸的无奈，说:“我讲究平等交易，我给你面包，你能给我什么呢?”
+(x40 / contrast
+      :arg1  (x2_x3 / 听懂-01
+            :aspect  (x4 / 了
+)            :arg0  (x1 / 老板
+)            :arg1  (x7 / 话
+                  :poss  (x5 / 我
+)))      :arg2  (x43 / and
+            :op1  (x12_x13 / 摊-01
+                  :arg0  (x1 / 老板
+)                  :arg1  (x11_2 / 手
+                        :part-of  (x1 / 老板
+)                        :quant  (x11_1 / 2
+)))            :op2  (x15 / 表示-02
+                  :arg0  (x1 / 老板
+)                  :arg1  (x19 / 无奈
+                        :quant  (x16 / 1
+)                        :cunit  (x17 / 脸
+)))            :op3  (x21 / 说-01
+                  :arg0  (x1 / 老板
+)                  :arg1  (x56 / causation
+                        :arg1  (x24 / 讲究-01
+                              :arg0  (x23 / x1
+                                    :arg1  (x26 / 交易
+                                          :manner  (x25 / 平等
+))))                        :arg2  (x61 / condition
+                              :arg1  (x29 / 给-01
+                                    :arg0  (x28 / x1
+)                                    :arg1  (x31 / 面包
+)                                    :arg2  (x30 / x5
+))                              :arg2  (x34 / 能-01
+                                    :arg0  (x35 / 给-01
+                                          :arg0  (x33 / x5
+)                                          :arg1  (x37 / amr-unknown
+)                                          :arg2  (x36 / x1
+))                                    :mode  (x38_x39 / interrogative
+)))))))
+===========================
+此时我身无分文，只好脱下新买的大衣。
+(x13 / causation
+      :arg1  (x3 / 身无分文
+            :arg0  (x2 / 我
+)            :time  (x1 / 此时
+))      :arg2  (x6_x7 / 脱下
+)      :arg2  (x6 / 脱-01
+            :arg1  (x11 / 大衣
+                  :arg1-of  (x9 / 买-01
+                        :mod  (x8 / 新
+)))            :arg0  (x2 / 我
+)))
+===========================
+老板接过去看了看，耸耸鼻子，还给了我。
+(x16 / temporal
+      :arg1  (x2 / 接-01
+            :direction  (x3 / 过去
+)            :arg0  (x1 / 老板
+))      :arg2  (x4_x6 / 看-02
+            :arg0  (x1 / 老板
+)            :aspect  (x5 / 了
+))      :arg3  (x8_x9 / 耸
+            :arg0  (x1 / 老板
+)            :arg1  (x10 / 鼻子
+                  :part-of  (x1 / 老板
+)))      :arg4  (x12 / 还给-01
+            :arg0  (x1 / 老板
+)            :aspect  (x13 / 了
+)            :arg2  (x14 / 我
+)))
+===========================
+突然，老板眼里闪出亮光，他用手指着我脖子上的五星红旗，惊奇地问:“那是什么?’
+(x28 / and
+      :op1  (x5 / 闪-01
+            :manner  (x1 / 突然
+)            :location  (x4_2 / 里
+                  :arg0  (x4_1 / 眼
+                        :part-of  (x3 / 老板
+)))            :arg0  (x7 / 亮光
+))      :op2  (x12 / 指-02
+            :arg0  (x9 / x3
+)            :aspect  (x13 / 着
+)            :arg1  (x18 / 五星红旗
+                  :location  (x15 / 脖子
+                        :part-of  (x14 / 我
+)))            :instrument  (x11 / 手
+                  :part-of  (x3 / 老板
+)))      :op3  (x22 / 问-01
+            :manner  (x20 / 惊奇-01
+                  :arg0  (x3 / 老板
+))            :arg0  (x3 / 老板
+)            :arg2  (x14 / 我
+)            :arg1  (x26 / amr-unknown
+                  :domain  (x24 / 那
+)                  :mode  (x27 / interrogative
+))))
+===========================
+我犹豫了一下，把国旗慢慢解下来，再展开。
+(x16 / temporal
+      :arg1  (x2 / 犹豫-01
+            :arg0  (x1 / 我
+)            :duration  (x4_x5 / 一下
+)            :aspect  (x3 / 了
+))      :arg2  (x10_x11 / 解-01
+            :arg0  (x1 / 我
+)            :manner  (x9 / 慢慢
+)            :arg1  (x8 / 国旗
+))      :arg3  (x14 / 展开-01
+            :arg0  (x1 / 我
+)            :arg1  (x8 / 国旗
+)))
+===========================
+这面做工精致的五星红旗，经过河水的冲洗，依然是那么鲜艳。
+(x18 / contrast
+      :arg1  (x8 / 经过-01
+            :arg0  (x6 / 五星红旗
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 面
+)                  :mod  (x4 / 精致
+                        :topic  (x3 / 做工
+)))            :arg1  (x11 / 冲洗-02
+                  :arg0  (x9 / 河水
+)))      :arg2  (x16 / 鲜艳-01
+            :degree  (x15 / 那么
+)            :mod  (x13 / 依然
+)            :arg0  (x6 / 五星红旗
+)))
+===========================
+老板拍了拍我的肩膀，告诉我可以用这面旗子换面包。
+(x19 / temporal
+      :arg1  (x2_x4 / 拍-02
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 老板
+)            :arg1  (x7 / 肩膀
+                  :part-of  (x5 / 我
+)))      :arg2  (x9 / 告诉-01
+            :arg0  (x1 / 老板
+)            :arg2  (x10 / x5
+)            :arg1  (x11 / 可以-01
+                  :arg0  (x16 / 换-01
+                        :arg0  (x5 / 我
+)                        :arg1  (x15 / 旗子
+                              :mod  (x13 / 这
+)                              :cunit  (x14 / 面
+))                        :arg2  (x17 / 面包
+)))))
+===========================
+我愣了一下,然后久久地凝视着手中的五星红旗。
+(x17 / temporal
+      :arg1  (x2 / 愣
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 我
+)            :duration  (x4_x5 / 一下
+))      :arg2  (x10 / 凝视-01
+            :duration  (x8 / 久久
+)            :aspect  (x11 / 着
+)            :arg0  (x1 / 我
+)            :arg1  (x15 / 五星红旗
+                  :location  (x12 / 手
+                        :part-of  (x1 / 我
+)))))
+===========================
+老板转身拿起一块面包，见我没有反应，以为我嫌少，又拿起两块面包递给我。
+(x28 / temporal
+      :arg1  (x2 / 转身-01
+            :arg0  (x1 / 老板
+))      :arg2  (x3 / 拿-01
+            :arg0  (x1 / 老板
+)            :arg1  (x7 / 面包
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 块
+)))      :arg3  (x32 / causation
+            :arg1  (x9 / 见-01
+                  :arg0  (x1 / 老板
+)                  :arg1  (x12 / 反应-02
+                        :arg0  (x10 / 我
+)                        :polarity  (x11 / -
+)))            :arg2  (x14 / 以为-01
+                  :arg0  (x1 / 老板
+)                  :arg1  (x16 / 嫌-01
+                        :arg0  (x15 / x10
+)                        :arg1  (x17 / 少
+))))      :arg4  (x20 / 拿-01
+            :manner  (x19 / 又
+)            :arg0  (x1 / 老板
+)            :arg1  (x24 / 面包
+                  :cunit  (x23 / 块
+)                  :quant  (x22 / 2
+)))      :arg5  (x25 / 递给-01
+            :arg0  (x1 / 老板
+)            :arg1  (x26 / x10
+)            :arg2  (x24 / 面包
+)))
+===========================
+“可以吗?交换吧。”老板冲我打着手势。
+(x11 / 打
+      :aspect  (x12 / 着
+)      :direction  (x10 / 我
+)      :arg0  (x8 / 老板
+)      :arg1  (x13 / 手势
+            :arg0-of  (x23 / mean
+                  :arg1  (x24 / and
+                        :op1  (x2 / 可以
+                              :mode  (x3_x4 / interrogative
+))                        :op2  (x5 / 交换
+                              :mode  (x6 / imperative
+))))))
+===========================
+我摇摇头，吃力地穿上大衣，拿着鲜艳的国旗，趔趔趄趄地向外走去。
+(x23 / temporal
+      :arg1  (x2 / 摇头-01
+            :arg0  (x1 / 我
+))      :arg2  (x6 / 穿-01
+            :arg0  (x1 / 我
+)            :arg1  (x8 / 大衣
+)            :manner  (x4 / 吃力-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x6 / 穿-01
+)))      :arg3  (x10 / 拿-03
+            :arg0  (x1 / 我
+)            :aspect  (x11 / 着
+)            :arg1  (x14 / 国旗
+                  :arg0-of  (x12 / 鲜艳-01
+)))      :arg4  (x20 / 走-01
+            :manner  (x16 / 趔趄-01
+                  :arg0  (x1 / 我
+))            :direction  (x19 / 外
+)))
+===========================
+突然，我摔倒在地上，就什么也不知道了。
+(x15 / temporal
+      :arg1  (x4 / 摔倒-01
+            :location  (x6 / 地上
+)            :arg0  (x3 / 我
+)            :manner  (x1 / 突然
+))      :arg2  (x12 / 知道-01
+            :arg0  (x3 / 我
+)            :smood  (x13 / 了
+)            :mod  (x10 / 也
+)            :polarity  (x11 / -
+)            :arg1  (x9 / 什么
+)))
+===========================
+我醒来的时候，发现自己躺在医院的病房里，身边站着的就是面包店的老板。
+(x6 / 发现-01
+      :time  (x2 / 醒来-01
+            :arg0  (x1 / 我
+))      :arg0  (x1 / 我
+)      :arg1  (x29 / and
+            :op1  (x8 / 躺-01
+                  :arg0  (x7 / x1
+)                  :arg1  (x12 / 病房
+                        :location  (x10 / 医院
+)))            :op2  (x23 / 老板
+                  :domain  (x36 / person
+                        :arg0-of  (x16 / 站-01
+                              :arg1  (x15 / 身边
+                                    :arg0  (x1 / 我
+))                              :aspect  (x17 / 着
+)))                  :mod  (x19 / 就
+)                  :mod  (x21 / 面包店
+))))
+===========================
+他见我醒了，冲我竖起大拇指，说:“安心养一养，费用由我来付。”
+(x25 / causation
+      :arg1  (x2 / 见-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 醒-01
+                  :arg0  (x3 / 我
+)                  :aspect  (x5 / 了
+)))      :arg2  (x32 / temporal
+            :arg1  (x9 / 竖起-01
+                  :direction  (x8 / x3
+)                  :arg0  (x1 / 他
+)                  :arg1  (x10 / 大拇指
+                        :part-of  (x1 / 他
+)))            :arg2  (x12 / 说-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x37 / and
+                        :op1  (x15_x16_x17 / 养
+                              :manner  (x14 / 安心
+))                        :op2  (x23 / 付-01
+                              :arg0  (x21 / x1
+)                              :arg1  (x19 / 费用
+))))))
+===========================
+这时我才发现，在我床头的花瓶里，有一束美丽、芬芳的鲜花，花丛中插着那面心爱的五星红旗。
+(x4 / 发现-01
+      :time  (x1 / 这时
+)      :arg0  (x2 / 我
+)      :mod  (x3 / 才
+)      :arg1  (x37 / and
+            :op1  (x13 / 有-03
+                  :arg0  (x11 / 里
+                        :arg0  (x10 / 花瓶
+                              :location  (x8_2 / 头
+                                    :arg0  (x8_1 / 床
+                                          :poss  (x7 / x2
+)))))                  :arg1  (x20 / 鲜花
+                        :arg0-of  (x18 / 芬芳
+)                        :arg0-of  (x16 / 美丽-01
+)                        :quant  (x14 / 1
+)                        :cunit  (x15 / 束
+)))            :op2  (x24 / 插-01
+                  :arg1  (x30 / 五星红旗
+                        :mod  (x26 / 那
+)                        :cunit  (x27 / 面
+)                        :arg1-of  (x28 / 心爱-01
+                              :arg0  (x2 / 我
+)))                  :aspect  (x25 / 着
+)                  :arg2  (x22 / 花丛
+))))
+===========================

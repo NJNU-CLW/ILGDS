@@ -1,0 +1,636 @@
+这白鹤，是一位即将远行的朋友送给我的。
+(x15 / thing
+      :domain  (x2 / 白鹤
+            :mod  (x1 / 这
+))      :arg1-of  (x11 / 送给-01
+            :arg0  (x10 / 朋友
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 位
+)                  :arg0-of  (x8 / 远行-01
+                        :tense  (x7 / 即将
+)))            :arg2  (x12 / 我
+)))
+===========================
+我抱着这雪白的“大鸟”回家，放在院子里。
+(x17 / temporal
+      :arg1  (x11 / 回家-01
+            :manner  (x2 / 抱-01
+                  :aspect  (x3 / 着
+)                  :arg0  (x1 / 我
+)                  :arg1  (x9 / 鸟
+                        :arg0-of  (x8 / 大-01
+)                        :arg0-of  (x5 / 雪白-01
+)                        :mod  (x4 / 这
+)))            :arg0  (x1 / 我
+))      :arg2  (x13 / 放在-01
+            :arg0  (x1 / 我
+)            :arg1  (x9 / 鸟
+)            :arg2  (x15 / 里
+                  :arg0  (x14 / 院子
+))))
+===========================
+它伸长了头颈，左顾右盼，我一看这姿态，想道：“好一个高傲的动物！”
+(x23 / and
+      :op1  (x25 / and
+            :op1  (x2 / 伸长-01
+                  :aspect  (x3 / 了
+)                  :arg0  (x1 / 它
+)                  :arg1  (x4 / 头颈
+                        :part-of  (x1 / 它
+)))            :op2  (x6 / 左顾右盼
+                  :arg0  (x1 / 它
+)))      :op2  (x31 / temporal
+            :arg1  (x9_x10 / 看-02
+                  :arg1  (x12 / x25
+                        :mod  (x11 / 这
+))                  :arg0  (x8 / 我
+))            :arg2  (x14_x15 / 想-01
+                  :arg1  (x21 / 动物
+                        :mod  (x17 / 好
+)                        :quant  (x18_1 / 1
+)                        :arg0-of  (x19 / 高傲
+)                        :cunit  (x18_2 / 个
+)))))
+===========================
+鹅的高傲，更表现在它的叫声、步态和吃相中。
+(x6 / 表现-01
+      :arg1  (x3 / 高傲
+            :poss  (x1 / 鹅
+))      :location  (x13 / and
+            :op1  (x10 / 叫声
+                  :poss  (x8 / x1
+))            :op2  (x12 / 步态
+                  :poss  (x8 / x1
+))            :op3  (x14 / 吃相
+))      :degree  (x5 / 更
+))
+===========================
+鹅的叫声，音调严肃郑重，似厉声呵斥。
+(x13 / and
+      :op1  (x16 / and
+            :op1  (x6 / 严肃-01
+                  :arg0  (x5 / 音调
+                        :poss  (x3 / 叫声
+                              :poss  (x1 / 鹅
+))))            :op2  (x7 / 郑重-01
+                  :arg0  (x5 / 音调
+)))      :op2  (x9 / 似-01
+            :arg0  (x3 / 叫声
+)            :arg1  (x11 / 呵斥
+                  :manner  (x10 / 厉声
+))))
+===========================
+它的旧主人告诉我：养鹅等于养狗，它也能看守门户。
+(x5 / 告诉-01
+      :arg0  (x4 / 主人
+            :arg0-of  (x3 / 旧-01
+)            :poss  (x1 / 它
+))      :arg2  (x6 / 我
+)      :arg1  (x26 / causation
+            :arg2  (x10 / 等于-01
+                  :arg0  (x8 / 养-01
+                        :arg1  (x9 / 鹅
+))                  :arg1  (x11 / 养-01
+                        :arg1  (x12 / 狗
+)))            :arg1  (x16 / 能-01
+                  :arg0  (x17 / 看守-01
+                        :arg0  (x14 / 它
+)                        :arg1  (x18 / 门户
+))                  :mod  (x15 / 也
+))))
+===========================
+后来我看到果然如此：凡有生客进来，鹅必然厉声叫嚣；甚至篱笆外有人走路，它也要引吭大叫，不亚于狗的狂吠。
+(x3 / 看到-01
+      :arg1  (x5 / 如此
+            :manner  (x4 / 果然
+)            :arg0-of  (x43 / mean
+                  :arg1  (x45 / progression
+                        :arg1  (x46 / condition
+                              :arg1  (x8 / 有-03
+                                    :arg1  (x10 / 进来-01
+                                          :arg0  (x9 / 生客
+)))                              :arg2  (x13 / 必然-01
+                                    :arg0  (x15 / 叫嚣-01
+                                          :arg0  (x12 / 鹅
+)                                          :manner  (x14 / 厉声
+))))                        :arg2  (x47 / condition
+                              :arg1  (x20_1 / 有-03
+                                    :arg1  (x21 / 走路-01
+                                          :arg0  (x20_2 / 人
+))                                    :arg0  (x19 / 外
+                                          :arg0  (x18 / 篱笆
+)))                              :arg2  (x60 / and
+                                    :op1  (x29 / 叫-03
+                                          :mod  (x28 / 大
+)                                          :manner  (x26 / 引
+                                                :arg1  (x27 / 吭
+)                                                :arg0  (x23 / x12
+))                                          :mod  (x24 / 也
+)                                          :arg0  (x23 / x12
+))                                    :op2  (x31_2_3 / 亚于-01
+                                          :polarity  (x31_1 / -
+)                                          :arg1  (x35 / 吠
+                                                :manner  (x34 / 狂
+)                                                :poss  (x32 / 狗
+))                                          :arg0  (x29 / 叫-03
+)))))))      :arg0  (x2 / 我
+)      :time  (x1 / 后来
+))
+===========================
+鹅的步态，更是傲慢了。
+(x6 / 傲慢-01
+      :degree  (x5 / 更是
+)      :smood  (x7 / 了
+)      :arg0  (x3 / 步态
+            :poss  (x1 / 鹅
+)))
+===========================
+大体上与鸭相似，但鸭的步调急速，有局促不安之相；鹅的步调从容，大模大样的，颇像京剧里的净角出场。
+(x34 / contrast
+      :arg1  (x4 / 相似-01
+            :degree  (x1 / 大体上
+)            :arg0  (x3 / 鸭
+))      :arg2  (x39 / and
+            :op1  (x40 / and
+                  :op1  (x10 / 急速
+                        :arg0  (x9 / 步调
+                              :poss  (x7 / x3
+)))                  :op2  (x12 / 有-03
+                        :arg1  (x15 / 相
+                              :mod  (x13 / 局促不安
+))))            :op2  (x41 / and
+                  :op1  (x20 / 从容-01
+                        :arg0  (x19 / 步调
+                              :poss  (x17 / 鹅
+)))                  :op2  (x22_x23 / 大模大样
+                        :arg0  (x19 / 步调
+))                  :op3  (x26 / 像-01
+                        :arg0  (x19 / 步调
+)                        :degree  (x25 / 颇
+)                        :arg1  (x32 / 出场-01
+                              :arg0  (x31 / 角
+                                    :mod  (x30 / 净
+)                                    :location  (x27 / 京剧
+)))))))
+===========================
+它常傲然地站着，看见人走来也毫不相让；有时非但不让，竟伸过颈子来咬你一口。
+(x31 / and
+      :op1  (x33 / and
+            :op1  (x5 / 站-01
+                  :aspect  (x6 / 着
+)                  :manner  (x3 / 傲然
+)                  :frequency  (x2 / 常
+)                  :arg0  (x1 / 它
+))            :op2  (x40 / condition
+                  :arg1  (x8 / 看见-01
+                        :arg1  (x10 / 走-01
+                              :arg0  (x9 / 人
+)                              :direction  (x11 / 来-01
+                                    :arg0  (x9 / 人
+))))                  :arg2  (x14 / 相让
+                        :polarity  (x13 / -
+)                        :mod  (x12 / 也
+))))      :op2  (x34 / progression
+            :arg1  (x19 / 让-01
+                  :polarity  (x18 / -
+)                  :arg2  (x26 / 咬-01
+                        :manner  (x22 / 伸-01
+                              :arg1  (x24 / 颈子
+                                    :part-of  (x1 / 它
+)))                        :arg9  (x1 / 它
+)                        :mod  (x21 / 竟
+)                        :arg1  (x27 / 你
+)                        :quant  (x28 / 1
+)                        :cunit  (x29 / 口
+))                  :arg0  (x1 / 它
+)                  :frequency  (x16 / 有时
+))))
+===========================
+鹅的吃饭，常常使我们发笑。
+(x6 / 使-01
+      :arg0  (x3 / 吃饭-01
+            :arg0  (x1 / 鹅
+))      :arg1  (x7 / 我们
+)      :arg2  (x8 / 发笑-01
+            :arg0  (x7 / 我们
+))      :frequency  (x5 / 常常
+))
+===========================
+我们的鹅是吃冷饭的，一日三餐。
+(x5 / 吃-01
+      :time  (x10 / 一日三餐
+)      :arg1  (x7 / 饭
+            :arg0-of  (x6 / 冷-01
+))      :mode  (x4_x8 / judgement
+)      :arg0  (x3 / 鹅
+            :poss  (x1 / 我们
+)))
+===========================
+它需要三样东西下饭：一样是水，一样是泥，一样是草。
+(x2 / 需要-02
+      :arg0  (x1 / 它
+)      :arg1  (x5 / 东西
+            :unit  (x4 / 样
+)            :quant  (x3 / 3
+)            :arg0-of  (x29 / mean
+                  :arg1  (x30 / and
+                        :op1  (x11 / 水
+                              :domain  (x32 / thing
+                                    :quant  (x9_1 / 1
+)                                    :unit  (x9_2 / 样
+)))                        :op2  (x15 / 泥
+                              :domain  (x35 / thing
+                                    :unit  (x13_2 / 样
+)                                    :quant  (x13_1 / 1
+)))                        :op3  (x19 / 草
+                              :domain  (x36 / thing
+                                    :unit  (x17_2 / 样
+)                                    :quant  (x17_1 / 1
+))))))      :arg2  (x6 / 下
+            :arg1  (x7 / 饭
+)))
+===========================
+先吃一口冷饭，再喝一口水，然后再到别处去吃一口泥和草。
+(x26 / temporal
+      :arg1  (x2 / 吃-01
+            :arg1  (x6 / 饭
+                  :arg0-of  (x5 / 冷-01
+)                  :quant  (x3 / 1
+)                  :cunit  (x4 / 口
+)))      :arg2  (x9 / 喝-01
+            :arg1  (x12 / 水
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 口
+)))      :arg3  (x16 / 到-01
+            :arg1  (x17 / 别处
+)            :purpose  (x19 / 吃-01
+                  :arg1  (x23 / and
+                        :op1  (x22 / 泥
+)                        :op2  (x24 / 草
+)                        :quant  (x20 / 1
+)                        :cunit  (x21 / 口
+)))            :mod  (x15 / 再
+)))
+===========================
+大约这些泥和草也有各种可口的滋味。
+(x1 / 大约
+      :arg0  (x7 / 有-01
+            :mod  (x6 / 也
+)            :arg1  (x11 / 滋味
+                  :arg0-of  (x9 / 可口-01
+)                  :mod  (x8_1 / 各
+)                  :unit  (x8_2 / 种
+))            :arg0  (x4 / and
+                  :op1  (x3 / 泥
+)                  :op2  (x5 / 草
+)                  :quant  (x2 / 这些
+))))
+===========================
+这些食料并不奢侈；但它的吃法，三眼一板，一丝不苟。
+(x19 / contrast
+      :arg1  (x5 / 奢侈-01
+            :mod  (x3 / 并
+)            :polarity  (x4 / -
+)            :arg0  (x2 / 食料
+                  :quant  (x1 / 这些
+)))      :arg2  (x26 / and
+            :op1  (x12_x13_x14_x15 / 三眼一板
+                  :arg0  (x10 / 吃法
+                        :poss  (x8 / 它
+)))            :op2  (x17 / 一丝不苟
+                  :arg0  (x10 / 吃法
+))))
+===========================
+譬如吃了一口饭，倘若水盆放在远处，它一定从容不迫地大踏步走上前去，饮一口水，再大踏步走去吃泥，吃草。
+(x1 / 譬如
+      :arg0  (x40 / temporal
+            :arg1  (x2 / 吃-01
+                  :aspect  (x3 / 了
+)                  :arg1  (x6 / 饭
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 口
+))                  :arg0  (x13 / 它
+))            :arg2  (x46 / condition
+                  :arg1  (x10 / 放在-01
+                        :arg1  (x9 / 水盆
+)                        :arg2  (x11 / 远处
+))                  :arg2  (x14 / 一定
+                        :arg0  (x52 / temporal
+                              :arg1  (x18 / 走-01
+                                    :direction  (x20 / 前
+)                                    :manner  (x15 / 从容不迫-01
+                                          :arg0  (x13 / 它
+))                                    :manner  (x17 / 大踏步
+)                                    :arg0  (x13 / 它
+))                              :arg2  (x23 / 饮-01
+                                    :arg0  (x13 / 它
+)                                    :arg1  (x26 / 水
+                                          :quant  (x24 / 1
+)                                          :cunit  (x25 / 口
+)))                              :arg3  (x30 / 走-01
+                                    :purpose  (x63 / and
+                                          :op1  (x32 / 吃-01
+                                                :arg0  (x13 / 它
+)                                                :arg1  (x33 / 泥
+))                                          :op2  (x35 / 吃-01
+                                                :arg0  (x13 / 它
+)                                                :arg1  (x36 / 草
+)))                                    :manner  (x29 / 大踏步
+)                                    :arg0  (x13 / 它
+)))))))
+===========================
+吃过泥和草再回来吃饭。
+(x10 / temporal
+      :arg1  (x1 / 吃-01
+            :aspect  (x2 / 过
+)            :arg1  (x4 / and
+                  :op1  (x3 / 泥
+)                  :op2  (x5 / 草
+)))      :arg2  (x7 / 回来
+            :purpose  (x8 / 吃饭
+)))
+===========================
+这样从容不迫地吃饭，必须有一个人在旁侍候，像饭馆里的堂倌一样。
+(x21 / and
+      :op1  (x4 / 吃饭
+            :mod  (x1 / 这样
+)            :manner  (x2 / 从容不迫
+))      :op2  (x6 / 必须-02
+            :arg0  (x7 / 有-03
+                  :arg1  (x12 / 侍候-01
+                        :arg0  (x9 / 人
+                              :quant  (x8_1 / 1
+))                        :location  (x11 / 旁
+))))      :op3  (x14 / 像-01
+            :arg1  (x18 / 堂倌
+                  :location  (x15 / 饭馆
+))            :arg0  (x9 / 人
+)))
+===========================
+因为附近的狗，都知道我们这位鹅老爷的脾气，每逢它吃饭的时候，狗就躲在篱边窥伺。
+(x31 / causation
+      :arg1  (x7 / 知道-01
+            :arg0  (x4 / 狗
+                  :extent  (x6 / 都
+)                  :location  (x2 / 附近-01
+))            :arg1  (x14 / 脾气
+                  :poss  (x12 / 老爷
+                        :mod  (x11 / 鹅
+)                        :mod  (x9 / 这
+)                        :cunit  (x10 / 位-01
+)                        :poss  (x8 / 我们
+))))      :arg2  (x34 / condition
+            :arg1  (x16 / 每逢-01
+                  :arg0  (x18 / 吃-01
+                        :arg1  (x19 / 饭
+)                        :arg0  (x17 / x12
+)))            :arg2  (x28 / 窥伺-01
+                  :arg0  (x23 / x4
+)                  :manner  (x25 / 躲
+                        :arg0  (x23 / x4
+)                        :arg2  (x27 / 篱边
+)))))
+===========================
+等它吃过一口饭，踏着方步去喝水、吃泥、吃草的当儿，狗就敏捷地跑过来，努力地吃它的饭。
+(x38 / condition
+      :arg1  (x40 / temporal
+            :arg1  (x3 / 吃-01
+                  :aspect  (x4 / 过
+)                  :arg0  (x2 / 它
+)                  :arg1  (x7 / 饭
+                        :cunit  (x6 / 口
+)                        :quant  (x5 / 1
+)))            :arg2  (x9 / 踏-01
+                  :aspect  (x10 / 着
+)                  :arg1  (x11 / 方步
+)                  :purpose  (x50 / and
+                        :op1  (x13 / 喝-01
+                              :arg0  (x2 / 它
+)                              :arg1  (x14 / 水
+))                        :op2  (x16 / 吃-01
+                              :arg0  (x2 / 它
+)                              :arg1  (x17 / 泥
+))                        :op2  (x19 / 吃-01
+                              :arg0  (x2 / 它
+)                              :arg1  (x20 / 草
+)))))      :arg2  (x57 / temporal
+            :arg1  (x28 / 跑-01
+                  :direction  (x29 / 过来-01
+                        :arg0  (x24 / 狗
+))                  :manner  (x26 / 敏捷
+)                  :arg0  (x24 / 狗
+))            :arg2  (x33 / 吃-01
+                  :manner  (x31 / 努力
+)                  :arg1  (x36 / 饭
+                        :poss  (x2 / 它
+)))))
+===========================
+鹅老爷偶然早归，伸颈去咬狗，并且厉声叫骂，狗立刻逃往篱边，蹲着静候；看它再吃了一口饭，再走开去喝水、吃草、吃泥的时候，狗又敏捷地跑上来，把它的饭吃完，扬长而去。
+(x67 / temporal
+      :arg1  (x69 / temporal
+            :arg1  (x5 / 归-01
+                  :time  (x4 / 早
+)                  :arg0  (x2 / 老爷
+                        :mod  (x1 / 鹅
+))                  :frequency  (x3 / 偶然-01
+))            :arg2  (x75 / and
+                  :op1  (x7 / 伸-01
+                        :arg0  (x2 / 老爷
+)                        :arg1  (x8 / 颈
+                              :part-of  (x2 / 老爷
+))                        :purpose  (x10 / 咬-01
+                              :arg0  (x2 / 老爷
+)                              :arg1  (x11 / 狗
+)))                  :op2  (x15_x16 / 叫骂-01
+                        :arg0  (x2 / 老爷
+)                        :manner  (x14 / 厉声
+)))            :arg3  (x20 / 逃往-01
+                  :arg0  (x18 / x11
+)                  :time  (x19 / 立刻
+)                  :arg1  (x21 / 篱边
+))            :arg4  (x25 / 静候-01
+                  :manner  (x23 / 蹲-01
+                        :aspect  (x24 / 着
+)                        :arg0  (x11 / 狗
+))                  :arg0  (x11 / 狗
+)))      :arg2  (x89 / temporal
+            :arg1  (x54 / 跑-01
+                  :time  (x91 / temporal
+                        :arg1  (x30 / 吃-01
+                              :mod  (x29 / 再
+)                              :arg0  (x28 / x2
+)                              :aspect  (x31 / 了
+)                              :arg1  (x34 / 饭
+                                    :cunit  (x33 / 口
+)                                    :quant  (x32 / 1
+)))                        :arg2  (x37 / 走开-01
+                              :arg0  (x2 / 老爷
+)                              :purpose  (x100 / and
+                                    :op1  (x39 / 喝-01
+                                          :arg1  (x40 / 水
+))                                    :op2  (x42 / 吃-01
+                                          :arg0  (x2 / 老爷
+)                                          :arg1  (x43 / 草
+))                                    :op3  (x45 / 吃-01
+                                          :arg0  (x2 / 老爷
+)                                          :arg1  (x46 / 泥
+)))                              :mod  (x36 / 再
+)))                  :direction  (x55_x56 / 上来
+)                  :mod  (x51 / 又
+)                  :arg0  (x50 / x11
+)                  :manner  (x52 / 敏捷
+))            :arg2  (x63 / 完-01
+                  :arg0  (x62 / 吃-01
+                        :arg1  (x61 / 饭
+                              :poss  (x59 / x2
+))                        :arg0  (x11 / 狗
+)))            :arg3  (x65 / 扬长而去-01
+                  :arg0  (x11 / 狗
+))))
+===========================
+等到鹅再来吃饭的时候，饭罐已经空空如也。
+(x13 / 空空如也-01
+      :arg0  (x11 / 罐
+            :mod  (x10 / 饭
+))      :aspect  (x12 / 已经
+)      :time  (x5 / 来-01
+            :mod  (x4 / 再
+)            :arg0  (x3 / 鹅
+)            :arg1  (x6 / 吃饭-01
+                  :arg0  (x3 / 鹅
+))))
+===========================
+鹅便昂首大叫，似乎责备人们供养不周。
+(x14 / and
+      :op1  (x16 / causation
+            :arg2  (x5 / 叫-03
+                  :mod  (x4 / 大
+)                  :manner  (x3 / 昂首-01
+                        :arg0  (x1 / 鹅
+))                  :arg0  (x1 / 鹅
+)))      :op2  (x7 / 似乎-01
+            :arg0  (x8 / 责备-01
+                  :arg0  (x1 / 鹅
+)                  :arg1  (x9 / 人们
+)                  :cause  (x12 / 周
+                        :polarity  (x11 / -
+)                        :arg0  (x10 / 供养-01
+                              :arg0  (x9 / 人们
+)                              :arg1  (x1 / 鹅
+))))))
+===========================
+这时我们便替它添饭，并且站着侍候。
+(x17 / condition
+      :arg2  (x19 / and
+            :op1  (x6 / 添-01
+                  :beneficiary  (x5 / 它
+)                  :arg1  (x7 / 饭
+)                  :arg0  (x2 / 我们
+))            :time  (x1 / 这时
+)            :op2  (x12 / 侍候-01
+                  :manner  (x10 / 站-01
+                        :aspect  (x11 / 着
+)                        :arg0  (x2 / 我们
+))                  :arg0  (x2 / 我们
+)                  :arg1  (x5 / 它
+))))
+===========================
+因为邻近狗很多，一狗方去，一狗又来蹲着窥伺了。
+(x20 / causation
+      :arg1  (x4_2 / 多-03
+            :degree  (x4_1 / 很
+)            :arg0  (x3 / 狗
+)            :location  (x2 / 邻近
+))      :arg2  (x26 / temporal
+            :arg1  (x9 / 去-01
+                  :time  (x8 / 方
+)                  :arg0  (x7 / 狗
+                        :quant  (x6 / 1
+)))            :arg2  (x14 / 来-05
+                  :arg0  (x12 / 狗
+                        :quant  (x11 / 1
+))                  :mod  (x13 / 又
+)                  :arg1  (x17 / 窥伺-01
+                        :aspect  (x18 / 了
+)                        :manner  (x15 / 蹲-01
+                              :aspect  (x16 / 着
+)                              :arg0  (x12 / 狗
+))                        :arg0  (x12 / 狗
+)))))
+===========================
+我们不胜其烦，以后便将饭罐和水盆放在一起，免得它走远去，让鸡、狗偷饭吃。
+(x30 / causation
+      :arg1  (x2 / 不胜其烦
+            :arg0  (x1 / 我们
+))      :arg2  (x12_x13 / 放在-01
+            :arg2  (x14 / 一起
+)            :arg0  (x1 / 我们
+)            :arg1  (x9 / and
+                  :op1  (x8 / 罐
+                        :mod  (x7 / 饭
+))                  :op2  (x11 / 盆
+                        :mod  (x10 / 水
+)))            :time  (x4 / 以后
+)            :purpose  (x16 / 免得-01
+                  :arg1  (x43 / temporal
+                        :arg1  (x18 / 走-01
+                              :cause-of  (x19 / 远-01
+                                    :arg0  (x17 / 它
+))                              :arg0  (x17 / 它
+)))                  :arg2  (x22 / 让-01
+                        :arg1  (x48 / and
+                              :op1  (x23 / 鸡
+)                              :op2  (x25 / 狗
+))                        :arg2  (x26 / 偷-01
+                              :arg0  (x48 / and
+)                              :arg1  (x27 / 饭
+)                              :purpose  (x28 / 吃-01
+                                    :arg0  (x48 / and
+)                                    :arg1  (x27 / 饭
+)))))))
+===========================
+然而它所必须的泥和草，所在的地点远近无定。
+(x16 / contrast
+      :arg2  (x14_2 / 定-01
+            :polarity  (x14_1 / -
+)            :arg1  (x13 / 远近
+                  :poss  (x12 / 地点
+                        :arg1-of  (x10 / 所在-01
+                              :arg0  (x7 / and
+                                    :op1  (x6 / 泥
+                                          :arg0-of  (x4 / 必须-01
+                                                :arg1  (x2 / 它
+)))                                    :op2  (x8 / 草
+                                          :arg0-of  (x4 / 必须-01
+))))))))
+===========================
+为了找这些食物，它仍是要走远去的。
+(x9 / 要-03
+      :mod  (x7 / 仍
+)      :mode  (x8_x13 / judgement
+)      :purpose  (x2 / 找-01
+            :arg0  (x6 / 它
+)            :arg1  (x4 / 食物
+                  :quant  (x3 / 这些
+)))      :arg0  (x10 / 走-01
+            :cause-of  (x11 / 远-01
+                  :arg0  (x6 / 它
+))            :arg0  (x6 / 它
+)))
+===========================
+因此鹅吃饭时，非有一个人侍候不可，真是架子十足！
+(x17 / causation
+      :arg1  (x19 / causation
+            :arg2  (x7 / 有-03
+                  :arg1  (x10 / 侍候-01
+                        :arg0  (x9 / 人
+                              :quant  (x8_1 / 1
+)                              :cunit  (x8_2 / 个
+)))                  :time  (x3 / 吃饭-01
+                        :arg0  (x2 / 鹅
+))))      :arg2  (x15 / 十足-01
+            :arg0  (x14 / 架子
+)            :domain  (x19 / causation
+)            :mode  (x16 / expressive
+)))
+===========================

@@ -1,0 +1,382 @@
+西沙群岛是南海上的一群岛屿，是我国的海防前哨。
+(x16 / and
+      :op1  (x8 / 岛屿
+            :domain  (x19 / island
+                  :name  ( x1/西沙群岛 
+))            :quant  (x6 / 1
+)            :cunit  (x7 / 群
+)            :location  (x23 / sea
+                  :name  ( x3/南海 
+)))      :op2  (x14 / 前哨
+            :mod  (x13 / 海防
+)            :poss  (x11 / 我国
+)            :domain  (x19 / island
+)))
+===========================
+那里风景优美，物产丰富，是个可爱的地方。
+(x14 / and
+      :op1  (x3 / 优美-01
+            :arg0  (x2 / 风景
+                  :location  (x1 / 那里
+)))      :op2  (x6 / 丰富-02
+            :arg0  (x5 / 物产
+)            :arg1  (x1 / 那里
+))      :op3  (x12 / 地方
+            :arg0-of  (x10 / 可爱-01
+)            :cunit  (x9 / 个
+)            :domain  (x1 / 那里
+)))
+===========================
+西沙群岛一带海水五光十色，瑰丽无比：有深蓝的，淡青的，浅绿的，杏黄的。
+(x23 / and
+      :op1  (x4 / 五光十色
+            :arg0  (x3 / 海水
+                  :location  (x2 / 一带
+                        :arg0  (x30 / island
+                              :name  ( x1/西沙群岛 
+)))                  :example  (x32 / and
+                        :op1  (x33 / thing
+                              :arg0-of  (x10 / 深蓝
+))                        :op2  (x35 / thing
+                              :arg0-of  (x13 / 淡青
+))                        :op3  (x37 / thing
+                              :arg0-of  (x16 / 浅绿
+))                        :op4  (x38 / thing
+                              :arg0-of  (x19 / 杏黄
+)))))      :op2  (x6 / 瑰丽-01
+            :degree  (x7 / 无比
+)            :arg0  (x3 / 海水
+)))
+===========================
+一块块，一条条，相互交错着。
+(x6 / 交错-01
+      :arg0  (x12 / and
+            :op1  (x13 / thing
+                  :quant  (x1 / 一块块
+))            :op2  (x14 / thing
+                  :quant  (x3 / 一条条
+)))      :aspect  (x7 / 着
+)      :manner  (x5 / 相互
+))
+===========================
+因为海底高低不平，有山崖，有峡谷，海水有深有浅，从海面看，色彩就不同了。
+(x28 / causation
+      :arg1  (x30 / and
+            :op1  (x5 / 平-02
+                  :polarity  (x4 / -
+)                  :arg0  (x3 / 高低
+                        :location  (x2 / 海底
+)))            :op2  (x7 / 有-03
+                  :arg0  (x2 / 海底
+)                  :arg1  (x8 / 山崖
+))            :op3  (x10 / 有-03
+                  :arg0  (x2 / 海底
+)                  :arg1  (x11 / 峡谷
+))            :op4  (x39 / and
+                  :op1  (x14 / 有-01
+                        :arg0  (x13 / 海水
+)                        :arg1  (x15 / 深-03
+                              :arg0  (x13 / 海水
+)))                  :op2  (x16 / 有-01
+                        :arg0  (x13 / 海水
+)                        :arg1  (x17 / 浅-01
+                              :arg0  (x13 / 海水
+)))))      :arg2  (x47 / condition
+            :arg1  (x21 / 看
+                  :source  (x20 / 海面
+))            :arg2  (x25 / 不同-01
+                  :arg0  (x23 / 色彩
+)                  :smood  (x26 / 了
+))))
+===========================
+海底的岩石上长着各种各样的珊瑚，有的像绽开的花朵，有的像分枝的鹿角。
+(x5 / 长-01
+      :aspect  (x6 / 着
+)      :arg1  (x9 / 珊瑚
+            :mod  (x7 / 各种各样
+)            :example  (x32 / and
+                  :op1  (x33 / thing
+                        :arg0-of  (x12 / 像-01
+                              :arg1  (x15 / 花朵
+                                    :arg0-of  (x13 / 绽开-01
+))))                  :op2  (x34 / thing
+                        :arg0-of  (x18 / 像-01
+                              :arg1  (x22 / 角
+                                    :mod  (x11 / 有的
+)                                    :mod  (x21 / 鹿
+)                                    :mod  (x19 / 分枝
+)))                        :mod  (x17 / 有的
+))))      :arg0  (x4 / 上
+))
+===========================
+海参到处都是，在海底懒洋洋地游动。
+(x12 / and
+      :op1  (x1 / 海参
+            :location  (x2 / 到处
+                  :extent  (x3 / 都
+)))      :op2  (x10 / 游动-01
+            :manner  (x8 / 懒洋洋
+)            :location  (x7 / 海底
+)            :arg0  (x1 / 海参
+)))
+===========================
+大龙虾全身披甲，划过来，划过去，样子挺威武。
+(x18 / and
+      :op1  (x5 / 披-01
+            :arg1  (x6 / 甲
+)            :arg0  (x4 / 身
+                  :part-of  (x2 / 龙虾
+                        :arg0-of  (x1 / 大-01
+))                  :extent  (x3 / 全
+)))      :op2  (x8 / 划
+            :direction  (x9 / 过来
+)            :arg0  (x2 / 龙虾
+))      :op3  (x11 / 划
+            :direction  (x12 / 过去
+)            :arg0  (x2 / 龙虾
+))      :op4  (x16 / 威武-01
+            :arg0  (x14 / 样子
+                  :poss  (x2 / 龙虾
+))            :degree  (x15 / 挺
+)))
+===========================
+鱼成群结队地在珊瑚丛中穿来穿去，好看极了。
+(x13 / and
+      :op1  (x7 / 穿来穿去
+            :arg0  (x1 / 鱼
+)            :manner  (x2 / 成群结队-01
+                  :arg0  (x1 / 鱼
+))            :location  (x6 / 丛中
+                  :consist-of  (x5 / 珊瑚
+)))      :op2  (x9 / 好看-01
+            :degree  (x10_x11 / 极了
+)            :arg0  (x7 / 穿来穿去
+)))
+===========================
+有的全身布满彩色的条纹；有的头上长着一簇红缨；有的周身像插着好些扇子，游动的时候飘飘摇摇；有的眼睛圆溜溜的，身上长满了刺，鼓起气来像皮球一样圆。
+(x50 / and
+      :op1  (x3 / 布满-01
+            :arg0  (x2 / 全身
+                  :part-of  (x54 / animal
+                        :mod  (x1 / 有的
+)))            :arg1  (x6 / 条纹
+                  :arg0-of  (x4 / 彩色
+)))      :op2  (x11 / 长-01
+            :arg0  (x9 / 头
+                  :part-of  (x58 / animal
+                        :mod  (x8 / 有的
+)))            :aspect  (x12 / 着
+)            :arg1  (x15 / 红缨
+                  :quant  (x13 / 1
+)                  :cunit  (x14 / 簇
+)))      :op3  (x66 / and
+            :op1  (x19 / 像-02
+                  :arg0  (x18 / 周身
+                        :arg0  (x75 / animal
+                              :mod  (x17 / 有的
+)))                  :arg1  (x20 / 插
+                        :aspect  (x21 / 着
+)                        :arg1  (x23 / 扇子
+                              :quant  (x22 / 好些
+))))            :op2  (x28 / 飘飘摇摇
+                  :time  (x25 / 游动-01
+                        :arg0  (x75 / animal
+))                  :arg0  (x23 / 扇子
+)))      :op4  (x77 / and
+            :op1  (x32_x33 / 圆溜溜
+                  :arg0  (x31 / 眼睛
+                        :part-of  (x80 / animal
+                              :mod  (x30 / 有的
+))))            :op2  (x36_x37 / 长满-01
+                  :arg0  (x35 / 身上
+                        :part-of  (x80 / animal
+))                  :arg1  (x39 / 刺
+)                  :aspect  (x38 / 了
+))            :op3  (x86 / condition
+                  :arg1  (x41 / 鼓
+                        :arg1  (x43 / 气
+)                        :arg0  (x80 / animal
+))                  :arg2  (x45 / 像-01
+                        :arg0  (x80 / animal
+)                        :arg1  (x46 / 皮球
+)                        :arg2  (x48 / 圆
+)))))
+===========================
+各种各样的鱼多得数不清。
+(x4 / 多-03
+      :arg0  (x3 / 鱼
+            :mod  (x1 / 各种各样
+))      :degree  (x12 / possible
+            :polarity  (x6_2 / -
+)            :arg0  (x6_1 / 数-01
+                  :cause-of  (x6_3 / 清
+)                  :arg1  (x3 / 鱼
+))))
+===========================
+正像人们说的那样，西沙群岛的海里一半是水，一半是鱼。
+(x2 / 像-02
+      :arg1  (x6 / 那样
+            :arg0-of  (x23 / mean
+                  :arg1  (x25 / and
+                        :op1  (x13 / 水
+                              :location  (x10 / 海里
+                                    :quant  (x11 / 一半
+)                                    :quant  (x15 / 一半
+)                                    :location  (x31 / island
+                                          :name  ( x8/西沙群岛 
+))))                        :op2  (x17 / 鱼
+                              :location  (x10 / 海里
+))                        :arg1-of  (x4 / 说-01
+                              :arg0  (x3 / 人们
+)))))      :mod  (x1 / 正
+))
+===========================
+海滩上有拣不完的贝壳，大的，小的，颜色不一，形状千奇百怪。
+(x23 / and
+      :op1  (x3 / 有-03
+            :arg0  (x1 / 海滩
+)            :arg1  (x8 / 贝壳
+                  :arg1-of  (x4 / 拣-01
+                        :arg0-of  (x6 / 完-01
+                              :arg0-of  (x30 / possible
+                                    :polarity  (x5 / -
+))))))      :op2  (x32 / thing
+            :arg0-of  (x10 / 大-01
+)            :arg1-of  (x36 / include-91
+                  :arg2  (x8 / 贝壳
+)))      :op3  (x34 / thing
+            :arg0-of  (x13 / 小-01
+)            :arg1-of  (x37 / include-91
+                  :arg2  (x8 / 贝壳
+)))      :op4  (x18 / 一-01
+            :arg0  (x16 / 颜色
+                  :poss  (x8 / 贝壳
+))            :polarity  (x17 / -
+))      :op5  (x21 / 千奇百怪-01
+            :arg0  (x20 / 形状
+                  :poss  (x8 / 贝壳
+))))
+===========================
+最有趣的要算海龟了。
+(x4 / 要-03
+      :arg0  (x5 / 算-01
+            :arg0  (x6 / 海龟
+)            :arg1  (x14 / thing
+                  :arg0-of  (x2 / 有趣-01
+                        :degree  (x1 / 最
+))))      :smood  (x7 / 了
+))
+===========================
+每年四五月间，庞大的海龟成群爬到沙滩上来产卵。
+(x10 / 爬-04
+      :arg0  (x8 / 海龟
+            :arg0-of  (x6 / 庞大-01
+))      :arg1  (x12 / 沙滩
+)      :purpose  (x14 / 产卵-01
+            :arg0  (x8 / 海龟
+))      :time  (x22 / between
+            :op1  (x23 / date-entity
+                  :month  (x2_1 / 4
+))            :op2  (x26 / date-entity
+                  :month  (x2_2 / 5
+))            :frequency  (x30 / rate-entity-91
+                  :arg3  (x31 / temporal-quantity
+                        :quant  (x1_1 / 1
+)                        :unit  (x1_2 / 年
+)))))
+===========================
+渔业工人把海龟翻一个身，它就四脚朝天，没法逃跑了。
+(x20 / condition
+      :arg1  (x5 / 翻-01
+            :arg0  (x2 / 工人
+                  :mod  (x1 / 渔业
+))            :arg1  (x4 / 海龟
+)            :arg3  (x7 / 身
+                  :cunit  (x6_2 / 个
+)                  :quant  (x6_1 / 1
+)))      :arg2  (x29 / and
+            :op1  (x13 / 朝-01
+                  :arg0  (x12 / 脚
+                        :part-of  (x9 / x4
+)                        :quant  (x11 / 4
+))                  :arg1  (x14 / 天
+))            :op2  (x16 / 没法-01
+                  :arg0  (x4 / 海龟
+)                  :smood  (x18 / 了
+)                  :arg1  (x17 / 逃跑
+))))
+===========================
+西沙群岛也是鸟的天下。
+(x6 / 天下
+      :poss  (x4 / 鸟
+)      :domain  (x11 / island
+            :name  ( x1/西沙群岛 
+))      :mod  (x2 / 也
+))
+===========================
+岛上有一片片茂密的树林，树林里栖息着各种海鸟。
+(x15 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1 / 岛上
+))      :arg1  (x6 / 树林
+            :arg0-of  (x4 / 茂密
+)            :quant  (x3 / 一片片
+))      :op2  (x10 / 栖息-01
+            :aspect  (x11 / 着
+)            :arg0  (x13 / 海鸟
+                  :mod  (x12 / 各种
+))            :arg1  (x9 / 里
+                  :arg0  (x8 / x6
+))))
+===========================
+遍地都是鸟蛋。
+(x5 / 蛋
+      :mod  (x4 / 鸟
+)      :location  (x1 / 遍地
+            :extent  (x2 / 都
+)))
+===========================
+树下堆积着一层层厚厚的鸟粪，这是非常宝贵的肥料。
+(x17 / and
+      :op1  (x3 / 堆积-01
+            :aspect  (x4 / 着
+)            :arg1  (x8 / 粪
+                  :mod  (x7 / 鸟
+)                  :arg0-of  (x6 / 厚-02
+)                  :quant  (x5 / 一层层
+))            :arg2  (x2 / 下
+                  :arg0  (x1 / 树
+)))      :op2  (x15 / 肥料
+            :domain  (x10 / x8
+)            :arg0-of  (x13 / 宝贵-01
+                  :degree  (x12 / 非常
+))))
+===========================
+富饶的西沙群岛，是我们祖祖辈辈生长的地方。
+(x10 / 地方
+      :domain  (x14 / island
+            :name  ( x3/西沙群岛 
+                  :arg0-of  (x1 / 富饶
+))            :location-of  (x8 / 生长-01
+                  :arg0  (x7 / 祖祖辈辈
+                        :poss  (x6 / 我们
+)))))
+===========================
+随着祖国建设事业的发展，可爱的西沙群岛必将变得更加美丽，更加富饶。
+(x11 / 必将
+      :arg0  (x12 / 变-01
+            :arg0  (x6 / 发展-01
+                  :arg1  (x4 / 事业
+                        :mod  (x3 / 建设
+)                        :range  (x2 / 祖国
+)))            :arg1  (x33 / island
+                  :name  ( x10/西沙群岛 
+))            :arg2  (x23 / and
+                  :op1  (x15 / 美丽-01
+                        :degree  (x14 / 更加
+)                        :arg0  (x33 / island
+))                  :op2  (x18 / 富饶
+                        :degree  (x17 / 更加
+)                        :arg0  (x33 / island
+)))))
+===========================

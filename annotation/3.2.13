@@ -1,0 +1,461 @@
+我读小学四年级的时候。
+(x7 / 时候
+      :time-of  (x2 / 读-01
+            :arg0  (x1 / 我
+)            :arg1  (x13 / ordinal-entity
+                  :value  (x4 / 4
+)                  :unit  (x5 / 年级
+)                  :poss  (x3 / 小学
+))))
+===========================
+父亲开始教我画画。
+(x2 / 开始-01
+      :arg0  (x1 / 父亲
+)      :arg1  (x3 / 教-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x4 / 我
+)            :arg2  (x5 / 画-01
+                  :arg1  (x6 / 画
+))))
+===========================
+他对我要求很严，经常叮嘱我：“你看见一件东西，是什么样的，就画成什么样，不要想当然，画走了样。”
+(x34 / and
+      :op1  (x6 / 严-01
+            :arg0  (x4 / 要求-02
+                  :arg0  (x1 / 他
+)                  :arg1  (x3 / 我
+))            :degree  (x5 / 很
+))      :op2  (x9 / 叮嘱-01
+            :arg0  (x1 / 他
+)            :arg1  (x10 / x3
+)            :arg2  (x43 / and
+                  :op1  (x44 / condition
+                        :arg1  (x13 / 看见-01
+                              :arg0  (x12 / x3
+)                              :arg1  (x16 / 东西
+                                    :cunit  (x15 / 件
+)                                    :quant  (x14 / 1
+)))                        :arg2  (x52 / condition
+                              :arg1  (x19 / amr-unknown
+                                    :arg0-of  (x16 / 东西
+)                                    :mode  (x18_x20 / judgement
+))                              :arg2  (x60 / and
+                                    :op1  (x23 / 画成-01
+                                          :arg1  (x24 / amr-unknown
+)                                          :arg0  (x3 / 我
+))                                    :op2  (x26_2 / 要-03
+                                          :polarity  (x26_1 / -
+)                                          :arg0  (x27 / 想当然-01
+                                                :arg0  (x3 / 我
+)                                                :cause-of  (x29 / 画-01
+                                                      :cause-of  (x30_x32 / 走样-01
+                                                            :aspect  (x31 / 了
+)                                                            :arg0  (x67 / thing
+))                                                      :arg0  (x3 / 我
+)                                                      :arg1  (x67 / thing
+))))))))            :frequency  (x8 / 经常
+)))
+===========================
+有一次学校上图画课，老师把两个杨桃摆在讲桌上，要同学们画。
+(x24 / temporal
+      :arg1  (x14 / 摆-01
+            :arg0  (x9 / 老师
+)            :arg1  (x13 / 杨桃
+                  :quant  (x11 / 2
+)                  :cunit  (x13 / 杨桃
+))            :location  (x17 / 上
+                  :arg0  (x16 / 讲桌
+)))      :arg2  (x19 / 要-01
+            :arg0  (x9 / 老师
+)            :arg1  (x22 / 画-01
+                  :arg0  (x20_x21 / 同学们
+))            :arg2  (x20_x21 / 同学们
+))      :time  (x5 / 上-07
+            :arg1  (x7 / 课
+                  :mod  (x6 / 图画
+))            :time  (x1_x2_x3 / 有一次
+)            :location  (x4 / 学校
+)))
+===========================
+我的座位在前排靠边的地方、讲桌上那两个杨桃的一端正对着我。
+(x23 / causation
+      :arg1  (x4 / 在-01
+            :arg0  (x3 / 座位
+                  :poss  (x1 / 我
+))            :arg1  (x8 / 地方
+                  :arg0-of  (x6 / 靠边
+)                  :location  (x5 / 前排
+)))      :arg2  (x19 / 对-01
+            :arg0  (x18_1 / 端
+                  :quant  (x17 / 1
+)                  :part-of  (x15 / 杨桃
+                        :location  (x11 / 上
+                              :arg0  (x10 / 讲桌
+))                        :mod  (x12 / 那
+)                        :quant  (x13 / 2
+)                        :cunit  (x14 / 个
+)))            :manner  (x18_2 / 正
+)            :aspect  (x20 / 着
+)            :arg1  (x21 / x1
+)))
+===========================
+我看到的杨桃根本不像平时看到的那样，而像是五个角的什么东西。
+(x23 / contrast
+      :arg1  (x7 / 像-01
+            :polarity  (x6 / -
+                  :degree  (x5 / 根本
+))            :arg0  (x4 / 杨桃
+                  :arg1-of  (x2 / 看到-01
+                        :arg0  (x1 / 我
+)))            :arg1  (x11 / 那样
+                  :arg1-of  (x9 / 看到-01
+                        :arg0  (x1 / 我
+)                        :time  (x8 / 平时
+))))      :arg2  (x14 / 像-01
+            :arg0  (x4 / 杨桃
+)            :arg1  (x21 / 东西
+                  :mod  (x20 / amr-unknown
+)                  :poss  (x18 / 角
+                        :quant  (x16 / 5
+)                        :cunit  (x17 / 个
+)))))
+===========================
+我认认真真地看，老老实实地画，自己觉得画得很准确。
+(x17 / and
+      :op1  (x4 / 看-02
+            :arg0  (x1 / 我
+)            :manner  (x2 / 认真
+))      :op2  (x8 / 画-01
+            :manner  (x6 / 老实
+)            :arg0  (x1 / 我
+))      :op3  (x11 / 觉得-01
+            :arg0  (x10 / x1
+)            :arg1  (x12 / 画-01
+                  :cause-of  (x15 / 准确-01
+                        :degree  (x14 / 很
+)                        :arg0  (x29 / thing
+))                  :arg0  (x1 / 我
+)                  :arg0  (x29 / thing
+))))
+===========================
+当我把这幅画交出去的时候，有几个同学看见了，却哈哈大笑起来。
+(x23 / contrast
+      :arg1  (x16 / 看见-01
+            :time  (x7_x8 / 交-01
+                  :arg0  (x2 / 我
+)                  :arg1  (x6 / 画
+                        :mod  (x4 / 这
+)                        :cunit  (x5 / 幅
+)))            :arg0  (x15 / 同学-01
+                  :quant  (x13 / 几
+)                  :cunit  (x14 / 个
+)                  :arg0-of  (x12 / 有-03
+))            :aspect  (x17 / 了
+))      :arg2  (x20_x21 / 哈哈大笑
+            :arg0  (x15 / 同学-01
+)))
+===========================
+“杨桃是这个样子的吗?”
+(x9 / say
+      :arg1  (x5 / 样子
+            :domain  (x2 / 杨桃
+)            :mod  (x4 / 这个
+)            :mode  (x3_x6 / judgement
+)            :mode  (x7_x8 / interrogative
+)))
+===========================
+“倒不如说是五角星吧!”
+(x8 / say
+      :arg1  (x2 / 倒不如-01
+            :arg1  (x3 / 说-01
+                  :arg1  (x5 / 五角星
+                        :mode  (x4 / judgement
+)                        :mode  (x6_x7 / expressive
+)))))
+===========================
+老师看了看这幅画，到我的座位上坐下来，审视了一下讲桌上的杨桃，然后回到讲台前，举起我的画问大家:“这幅画画得像不像?”
+(x48 / temporal
+      :arg1  (x2_x4 / 看-02
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 老师
+)            :arg1  (x7 / 画
+                  :cunit  (x6 / 幅
+)                  :mod  (x5 / 这
+)))      :arg2  (x14_x15 / 坐下-01
+            :arg0  (x1 / 老师
+)            :location  (x12 / 座位
+                  :poss  (x10 / 我
+)))      :arg3  (x17 / 审视-01
+            :aspect  (x18 / 了
+)            :arg0  (x1 / 老师
+)            :arg1  (x24 / 杨桃
+                  :location  (x22 / 上
+                        :arg0  (x21 / 讲桌
+)))            :duration  (x19_x20 / 一下
+))      :arg4  (x27_x28 / 回到-01
+            :arg0  (x1 / 老师
+)            :arg1  (x30 / 前
+                  :arg0  (x29 / 讲台
+)))      :arg5  (x36 / 问-01
+            :manner  (x32 / 举起-01
+                  :arg0  (x1 / 老师
+)                  :arg1  (x35 / x7
+                        :poss  (x33 / x10
+)))            :arg0  (x1 / 老师
+)            :arg2  (x37 / 大家
+)            :arg1  (x42 / 画-01
+                  :arg1  (x41 / 画
+                        :mod  (x39 / 这
+)                        :cunit  (x40 / 幅
+))                  :cause-of  (x78 / or
+                        :op1  (x44 / 像
+)                        :op2  (x46 / 像
+                              :polarity  (x45 / -
+)))                  :mode  (x47 / interrogative
+))))
+===========================
+“不像!”
+(x5 / say
+      :arg1  (x3 / 像
+            :polarity  (x2 / -
+)            :mode  (x4 / expressive
+)))
+===========================
+“它像什么?”
+(x3 / 像-01
+      :arg0  (x2 / 它
+)      :arg1  (x4 / amr-unknown
+)      :mode  (x5 / interrogative
+))
+===========================
+“像五角星！”
+(x5 / say
+      :arg1  (x2 / 像-01
+            :arg1  (x3 / 五角星
+)            :mode  (x4 / expressive
+)))
+===========================
+老师的神情变得严肃了。
+(x4 / 变-01
+      :arg2  (x6 / 严肃-01
+            :aspect  (x7 / 了
+)            :arg0  (x3 / 神情
+                  :poss  (x1 / 老师
+)))      :arg0  (x3 / 神情
+))
+===========================
+半晌，他又问道:“画杨桃画成了五角星，好笑么?”
+(x19 / temporal
+      :arg1  (x1 / 半晌
+)      :arg2  (x5 / 问道-01
+            :mod  (x4 / 又
+)            :arg0  (x3 / 他
+)            :arg1  (x25 / condition
+                  :arg1  (x9_x10 / 画成-01
+                        :arg1  (x7 / 画-01
+                              :arg1  (x8 / 杨桃
+))                        :aspect  (x11 / 了
+)                        :arg1  (x12 / 五角星
+))                  :arg2  (x14 / 好笑
+                        :mode  (x15_x16 / interrogative
+)))))
+===========================
+“好——笑!”有几个同学抢着答道，同时发出嘻嘻的笑声。
+(x21 / and
+      :op1  (x12_x13 / 答-02
+            :arg0  (x9 / 同学
+                  :arg0-of  (x6 / 有-03
+)                  :quant  (x7 / 几
+)                  :cunit  (x8 / 个
+))            :arg1  (x2_x4 / 好笑
+                  :mode  (x5 / expressive
+))            :manner  (x10 / 抢
+                  :aspect  (x11 / 着
+)))      :op2  (x16 / 发出-02
+            :arg0  (x9 / 同学
+)            :arg1  (x19 / 笑声
+                  :arg0-of  (x37 / mean
+                        :arg1  (x17 / 嘻嘻
+)))))
+===========================
+于是，老师请这几个同学轮流坐到我的座位上。
+(x17 / causation
+      :arg2  (x4 / 请-01
+            :arg0  (x3 / 老师
+)            :arg1  (x8 / 同学
+                  :mod  (x5 / 这
+)                  :quant  (x6 / 几
+)                  :cunit  (x7 / 个
+))            :arg2  (x10_x11 / 坐到-01
+                  :arg0  (x8 / 同学
+)                  :arg1  (x14 / 座位
+                        :poss  (x12 / 我
+))                  :manner  (x9 / 轮流-01
+                        :arg0  (x8 / 同学
+)))))
+===========================
+他对第一个坐下的同学说:“现在你看看那杨桃，像你平时看到的杨桃吗?”
+(x8 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x28 / and
+            :op1  (x12_x13 / 看看-01
+                  :arg0  (x11 / x7
+)                  :time  (x10 / 现在
+)                  :arg1  (x15 / 杨桃
+                        :mod  (x14 / 那
+)))            :op2  (x17 / 像-01
+                  :arg0  (x15 / 杨桃
+)                  :arg1  (x22 / 杨桃
+                        :arg1-of  (x20 / 看到-01
+                              :time  (x19 / 平时
+)                              :arg0  (x18 / x7
+)))                  :mode  (x23_x24 / interrogative
+)))      :arg3  (x7 / 同学
+            :arg0-of  (x5 / 坐下-01
+                  :ord  (x33 / ordinal-entity
+                        :cunit  (x4 / 个
+)                        :value  (x3 / 1
+)))))
+===========================
+“不……像。”
+(x6 / say
+      :arg1  (x4 / 像
+            :polarity  (x2 / -
+)))
+===========================
+“那么，像什么呢?”
+(x15 / say
+      :arg1  (x8 / condition
+            :arg2  (x4 / 像-01
+                  :arg1  (x5 / amr-unknown
+)                  :mode  (x6_x7 / interrogative
+))))
+===========================
+“像……五……五角星。
+(x8 / say
+      :arg1  (x2 / 像-01
+            :arg1  (x6 / 五角星
+)))
+===========================
+“好，下一个”
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x2 / 好
+)            :op2  (x12 / person
+                  :ord  (x13 / ordinal-entity
+                        :value  (x4_x5 / 下一
+)                        :cunit  (x6 / 个
+)))))
+===========================
+老师让这几个同学回到自己的座位上，然后和颜悦色地说:“提起杨桃，大家都很熟悉。
+(x26 / temporal
+      :arg1  (x2 / 让-02
+            :arg0  (x1 / 老师
+)            :arg1  (x6 / 同学
+                  :mod  (x3 / 这
+)                  :quant  (x4 / 几
+)                  :cunit  (x5 / 个
+))            :arg2  (x7 / 回到-01
+                  :arg0  (x6 / 同学
+)                  :arg1  (x10 / 座位
+                        :poss  (x8 / x6
+))))      :arg2  (x16 / 说-01
+            :manner  (x14 / 和颜悦色
+)            :arg0  (x1 / 老师
+)            :arg1  (x39 / condition
+                  :arg1  (x18 / 提起-01
+                        :arg1  (x19 / 杨桃
+))                  :arg2  (x24 / 熟悉-01
+                        :arg0  (x21 / 大家
+                              :extent  (x22 / 都
+))                        :degree  (x23 / 很
+)                        :arg1  (x19 / 杨桃
+)))))
+===========================
+但是，看的角度不同，杨桃的样子也就不一样，有时侯看起来真像个五角星。
+(x23 / contrast
+      :arg2  (x26 / causation
+            :arg1  (x27 / condition
+                  :arg1  (x6 / 不同-01
+                        :arg0  (x5 / 角度
+                              :mod  (x3 / 看
+)))                  :arg2  (x14 / 一样-01
+                        :arg0  (x10 / 样子
+                              :poss  (x8 / 杨桃
+))                        :mod  (x11 / 也
+)                        :polarity  (x13 / -
+)))            :arg2  (x19 / 像-01
+                  :degree  (x18 / 真
+)                  :time  (x17 / 看起来
+                        :time  (x16 / 有时侯
+))                  :arg1  (x21 / 五角星
+                        :cunit  (x20 / 个
+))                  :arg0  (x8 / 杨桃
+))))
+===========================
+因此，当我们看见别人把杨桃画成五角星的时候，不要忙着发笑，要看看人家是从什么角度看的。
+(x29 / causation
+      :arg2  (x31 / condition
+            :arg1  (x5 / 看见-01
+                  :arg0  (x4 / 我们
+)                  :arg1  (x9 / 画成-01
+                        :arg0  (x6 / 别人
+)                        :arg1  (x8 / 杨桃
+)                        :arg2  (x10 / 五角星
+)))            :arg2  (x38 / and
+                  :op1  (x14_2 / 要-03
+                        :polarity  (x14_1 / -
+)                        :arg0  (x15 / 忙-01
+                              :aspect  (x16 / 着
+)                              :arg1  (x17 / 发笑
+)))                  :op2  (x19 / 要-03
+                        :arg0  (x20 / 看看-01
+                              :arg1  (x26 / 看-02
+                                    :arg0  (x21 / 人家
+)                                    :mode  (x22_x27 / judgement
+)                                    :source  (x25 / 角度
+                                          :mod  (x24 / amr-unknown
+))))))))
+===========================
+我们应该相信自己的眼睛，看到是什么样的就画成什么样。”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x2 / 应该-01
+                  :arg0  (x3 / 相信-01
+                        :arg0  (x1 / 我们
+)                        :arg1  (x6 / 眼睛
+                              :part-of  (x4 / x1
+))))            :op2  (x24 / condition
+                  :arg1  (x8 / 看到-01
+                        :arg1  (x10 / 什么样
+                              :mode  (x9_x11 / judgement
+))                        :arg0  (x1 / 我们
+))                  :arg2  (x13 / 画成-01
+                        :arg2  (x14 / x10
+)                        :arg0  (x1 / 我们
+)))))
+===========================
+这位老师的话同我父亲讲的是那么相似。
+(x13 / 相似-01
+      :degree  (x12 / 那么
+)      :arg0  (x5 / 话
+            :poss  (x3 / 老师
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 位
+)))      :compared-to  (x19 / thing
+            :arg1-of  (x9 / 讲-01
+                  :arg0  (x8 / 父亲
+                        :poss  (x7 / 我
+)))))
+===========================
+他们的教诲使我一生受用。
+(x4 / 使-01
+      :arg0  (x3 / 教诲
+            :source  (x1 / 他们
+))      :arg1  (x5 / 我
+)      :arg2  (x7 / 受用-01
+            :duration  (x6 / 一生
+)            :arg0  (x5 / 我
+)            :arg1  (x3 / 教诲
+)))
+===========================

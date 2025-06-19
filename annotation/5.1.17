@@ -1,0 +1,682 @@
+1994年，美国洛杉矶发生大地震，30万人在不到四分钟的时间里受到了不同程度的伤害。
+(x28 / and
+      :time  (x30 / date-entity
+            :year  (x1_x2 / 1994
+))      :op1  (x6 / 发生-01
+            :arg0  (x8 / 地震
+                  :arg0-of  (x7 / 大-01
+))            :location  (x35 / city
+                  :name  ( x5/洛杉矶 
+)                  :location  (x37 / country
+                        :name  ( x4/美国 
+))))      :op2  (x21 / 受到-01
+            :arg0  (x12 / 人
+                  :quant  (x10_x11 / 300000
+))            :duration  (x15 / 到-02
+                  :polarity  (x14 / -
+)                  :op1  (x44 / temporal-quantity
+                        :quant  (x16 / 4
+)                        :unit  (x17 / 分钟
+)))            :arg1  (x26 / 伤害
+                  :mod  (x24 / 程度
+                        :arg0-of  (x23_2 / 同-01
+                              :polarity  (x23_1 / -
+))))            :aspect  (x22 / 了
+)))
+===========================
+在混乱中，一位年轻的父亲安顿好受伤的妻子，冲向他七岁儿子的学校。
+(x24 / temporal
+      :arg1  (x10 / 安顿-01
+            :cause-of  (x11 / 好
+)            :arg0  (x9 / 父亲
+                  :arg0-of  (x7 / 年轻-01
+                        :cunit  (x6 / 位-01
+))                  :quant  (x5 / 1
+))            :arg1  (x14 / 妻子
+                  :arg0-of  (x12 / 受伤-01
+)))      :arg2  (x16 / 冲向-01
+            :arg1  (x22 / 学校
+                  :poss  (x20 / 儿子
+                        :age  (x35 / temporal-quantity
+                              :quant  (x18 / 7
+)                              :cunit  (x19 / 岁
+))                        :poss  (x17 / x9
+)))            :arg0  (x9 / 父亲
+))      :condition  (x2 / 混乱-01
+))
+===========================
+那个昔日充满孩子们欢声笑语的漂亮的三层教学楼，已变成一片废墟。
+(x15 / 变成-01
+      :arg2  (x18 / 废墟
+            :quant  (x16 / 1
+)            :cunit  (x17 / 片
+))      :arg1  (x12 / 教学楼
+            :quant  (x10 / 3
+)            :cunit  (x11 / 层
+)            :mod  (x1 / 那个
+)            :arg0-of  (x8 / 漂亮-01
+)            :arg0-of  (x3 / 充满-01
+                  :arg1  (x6 / 欢声笑语
+                        :poss  (x4_x5 / 孩子们
+))                  :time  (x2 / 昔日
+)))      :aspect  (x14 / 已
+))
+===========================
+他顿时感到眼前一片漆黑，大喊：“阿曼达，我的儿子！”
+(x17 / temporal
+      :arg1  (x3 / 感到-01
+            :arg0  (x1 / 他
+)            :arg1  (x7 / 漆黑-01
+                  :arg0  (x4 / 眼前
+)                  :quant  (x5 / 1
+)                  :cunit  (x6 / 片
+))            :time  (x2 / 顿时
+))      :arg2  (x9 / 大喊-01
+            :arg0  (x1 / 他
+)            :arg1  (x27 / and
+                  :op1  (x28 / person
+                        :name  ( x11/阿曼达 
+))                  :op2  (x15 / x28
+                        :poss  (x13 / x1
+))                  :mode  (x16 / expressive
+))))
+===========================
+跪在地上大哭了一阵后，他猛地想起自己常对儿子说的一句话：“不论发生什么，我总会跟你在一起！”
+(x32 / temporal
+      :arg1  (x4 / 大哭-01
+            :duration  (x6 / 一阵
+)            :aspect  (x5 / 了
+)            :manner  (x1 / 跪-01
+                  :arg1  (x3 / 地上
+)                  :arg0  (x9 / 他
+))            :arg0  (x9 / 他
+))      :arg2  (x11 / 想起-01
+            :arg0  (x9 / 他
+)            :manner  (x10 / 猛地
+)            :arg1  (x18 / 一句话
+                  :arg1-of  (x16 / 说-01
+                        :arg0  (x12 / x9
+)                        :frequency  (x13 / 常
+)                        :arg3  (x15 / 儿子
+))                  :arg0-of  (x47 / mean
+                        :arg1  (x48 / condition
+                              :arg1  (x21 / 发生-01
+                                    :arg0  (x22 / 什么
+))                              :arg2  (x26 / 会-02
+                                    :arg0  (x29 / 在-01
+                                          :cause-of  (x30 / 一起
+)                                          :arg0  (x27 / and
+                                                :op1  (x24 / x9
+)                                                :op2  (x28 / x15
+)))                                    :mod  (x25 / 总
+))                              :mode  (x31 / expressive
+))))))
+===========================
+他坚定地站起身，向那片废墟走去。
+(x14 / temporal
+      :arg1  (x4 / 站-01
+            :cause-of  (x5 / 起身-01
+                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)            :manner  (x2 / 坚定
+))      :arg2  (x11_x12 / 走去-01
+            :arg1  (x10 / 废墟
+                  :mod  (x8 / 那
+)                  :cunit  (x9 / 片
+))            :arg0  (x1 / 他
+)))
+===========================
+他知道儿子的教室在一层楼的左后角，便疾步走到那里。
+(x21 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 在-01
+                  :arg0  (x5 / 教室
+                        :poss  (x3 / 儿子
+))                  :arg1  (x13 / 角
+                        :mod  (x11_x12 / 左后
+)                        :location  (x9 / 楼
+                              :ord  (x31 / ordinal-entity
+                                    :value  (x7 / 1
+)                                    :unit  (x8 / 层
+))))))      :arg2  (x17_x18 / 走到-01
+            :arg1  (x19 / x13
+)            :manner  (x16 / 疾步
+)            :arg0  (x1 / 他
+)))
+===========================
+就在他挖掘的时候，不断有孩子的父母急匆匆地赶来。
+(x15 / 赶来-01
+      :arg0  (x12 / 父母
+            :poss  (x10 / 孩子
+)            :arg1-of  (x9 / 有-03
+))      :manner  (x13 / 急匆匆
+)      :manner  (x8 / 不断
+)      :time  (x4 / 挖掘-01
+            :arg0  (x3 / 他
+)            :mod  (x1 / 就
+)))
+===========================
+看到这片废墟，他们痛哭并大喊：“我的儿子！”
+(x15 / temporal
+      :arg1  (x1 / 看到-01
+            :arg1  (x4 / 废墟
+                  :mod  (x2 / 这
+)                  :cunit  (x3 / 片
+))            :arg0  (x6 / 他们
+))      :arg2  (x8 / and
+            :op1  (x7 / 痛哭-01
+                  :arg0  (x6 / 他们
+))            :op2  (x9 / 大喊-01
+                  :arg0  (x6 / 他们
+)                  :arg1  (x13 / 儿子
+                        :poss  (x11 / 我
+)                        :mode  (x14 / expressive
+)))))
+===========================
+“我的女儿！”哭喊过后，便绝望地离开了。
+(x16 / temporal
+      :arg1  (x18 / say
+            :arg1  (x4 / 女儿
+                  :poss  (x2 / 我
+)                  :mode  (x5 / expressive
+)))      :arg2  (x6 / 哭喊-01
+            :arg0  (x26 / person
+))      :arg4  (x13 / 离开-01
+            :manner  (x11 / 绝望-01
+                  :arg0  (x26 / person
+))            :aspect  (x14 / 了
+)            :arg0  (x26 / person
+)))
+===========================
+有些人上来拉住这位父亲，说：“太晚了，没有希望了。”
+(x20 / temporal
+      :arg1  (x4_x5 / 拉-01
+            :arg0  (x2 / 人
+                  :quant  (x1 / 有些
+))            :manner  (x3 / 上来
+                  :arg0  (x2 / 人
+))            :arg1  (x8 / 父亲
+                  :mod  (x6 / 这
+)                  :cunit  (x7 / 位
+)))      :arg2  (x10 / 说-01
+            :arg0  (x2 / 人
+)            :arg1  (x30 / and
+                  :op1  (x13 / 晚
+                        :degree  (x12 / 太
+)                        :aspect  (x14 / 了
+))                  :op2  (x16_2 / 有-05
+                        :arg1  (x17 / 希望
+)                        :polarity  (x16_1 / -
+)                        :aspect  (x18 / 了
+)))))
+===========================
+这位父亲双眼直直地看着这些好心人，问道：“谁愿意帮助我？”
+(x19 / temporal
+      :arg1  (x7 / 看-02
+            :arg0  (x4 / 双眼
+                  :part-of  (x3 / 父亲
+                        :mod  (x1 / 这
+)                        :cunit  (x2 / 位
+)))            :arg1  (x10 / 好心人
+                  :mod  (x9 / 这些
+))            :aspect  (x8 / 着
+)            :manner  (x5 / 直直
+))      :arg2  (x12 / 问道-01
+            :arg0  (x3 / 父亲
+)            :arg1  (x15 / 愿意-01
+                  :arg0  (x14 / amr-unknown
+)                  :arg1  (x16 / 帮助-01
+                        :arg0  (x14 / amr-unknown
+)                        :arg1  (x17 / x3
+))                  :mode  (x18 / interrogative
+))))
+===========================
+没人给他肯定的回答，他便埋头接着挖。
+(x15 / temporal
+      :arg1  (x3 / 给-01
+            :arg1  (x7 / 回答-01
+                  :arg0-of  (x5 / 肯定-02
+))            :arg0  (x2 / 人
+                  :arg1-of  (x1 / 没-02
+))            :arg2  (x4 / 他
+))      :arg2  (x13 / 挖-01
+            :manner  (x12 / 接着
+)            :manner  (x11 / 埋头
+                  :arg0  (x9 / x4
+))            :arg0  (x9 / x4
+)))
+===========================
+消防队长挡住他：“太危险了，随时可能发生大爆炸，请你离开。”
+(x27 / and
+      :op1  (x3 / 挡住-01
+            :arg0  (x2 / 队长
+                  :mod  (x1 / 消防
+))            :arg1  (x4 / 他
+))      :op2  (x29 / say
+            :arg1  (x30 / causation
+                  :arg1  (x31 / and
+                        :op1  (x7 / 危险-01
+                              :degree  (x6 / 太
+)                              :aspect  (x8 / 了
+))                        :op2  (x11 / 可能-01
+                              :arg0  (x12 / 发生-01
+                                    :arg0  (x14 / 爆炸
+                                          :arg0-of  (x13 / 大-01
+)))                              :time  (x10 / 随时
+)))                  :arg2  (x16 / 请-01
+                        :arg1  (x17 / x4
+)                        :arg2  (x18 / 离开-01
+                              :arg0  (x17 / x4
+))))))
+===========================
+这位父亲问：“你是不是来帮助我？”
+(x4 / 问-01
+      :arg0  (x3 / 父亲
+            :mod  (x1 / 这
+)            :cunit  (x2 / 位
+))      :arg1  (x11 / 帮助-01
+            :arg0  (x6 / 你
+)            :arg1  (x12 / x3
+)            :mode  (x7_x8_x9_x13 / interrogative
+)))
+===========================
+警察走过来：“你很难过，我能理解，可这样做，对你自己、对他人都有危险，马上回家吧。”
+(x30 / temporal
+      :arg1  (x2 / 走过来
+            :arg0  (x1 / 警察
+))      :arg2  (x34 / say
+            :arg1  (x35 / contrast
+                  :arg1  (x36 / and
+                        :op1  (x6 / 难过-01
+                              :arg0  (x4 / 你
+)                              :degree  (x5 / 很
+))                        :op2  (x9 / 能-01
+                              :arg0  (x10 / 理解-01
+                                    :arg0  (x8 / 我
+))))                  :arg2  (x43 / causation
+                        :arg1  (x23 / 有-01
+                              :arg1  (x24 / 危险-01
+                                    :arg0  (x46 / and
+                                          :op1  (x17_x18 / x4
+)                                          :op2  (x21 / 他人
+)))                              :mod  (x22 / 都
+)                              :cause  (x14 / 做
+                                    :manner  (x13 / 这样
+)))                        :arg2  (x27 / 回家-01
+                              :mod  (x26 / 马上
+)                              :mode  (x28 / imperative
+)                              :arg0  (x4 / 你
+))))))
+===========================
+“你是不是来帮助我？”
+(x10 / say
+      :arg1  (x7 / 帮助-01
+            :arg0  (x2 / 你
+)            :arg1  (x8 / 我
+)            :mode  (x3_x4_x5_x9 / interrogative
+)))
+===========================
+人们摇头叹息着走开了，都认为这位父亲因为失去孩子过于悲痛，精神失常了。
+(x23 / and
+      :op1  (x5 / 走开-01
+            :arg0  (x1 / 人们
+)            :manner  (x27 / and
+                  :op1  (x2 / 摇头-01
+                        :arg0  (x1 / 人们
+))                  :op2  (x3 / 叹息-01
+                        :arg0  (x1 / 人们
+))                  :aspect  (x4 / 着
+))            :aspect  (x6 / 了
+))      :op2  (x9 / 认为-01
+            :extent  (x8 / 都
+)            :arg0  (x1 / 人们
+)            :arg1  (x20 / 失常
+                  :arg0  (x19 / 精神
+)                  :cause  (x17 / 悲痛-01
+                        :degree  (x16 / 过于
+)                        :arg0  (x12 / 父亲
+                              :mod  (x10 / 这
+)                              :cunit  (x11 / 位
+))                        :arg1  (x14 / 失去-01
+                              :arg1  (x15 / 孩子
+)                              :arg0  (x12 / 父亲
+)))                  :aspect  (x21 / 了
+))))
+===========================
+然而这位父亲心中只有一个念头：“儿子在等着我！”
+(x17 / contrast
+      :arg2  (x7 / 有-01
+            :arg1  (x9 / 念头
+                  :quant  (x8_1 / 1
+)                  :cunit  (x8_2 / 个
+)                  :arg0-of  (x28 / mean
+                        :arg1  (x13 / 等-01
+                              :arg0  (x11 / 儿子
+)                              :arg1  (x15 / 我
+)                              :aspect  (x12 / 在
+)                              :aspect  (x14 / 着
+)                              :mode  (x16 / expressive
+))))            :mod  (x6 / 只
+)            :arg0  (x5 / 心中
+                  :poss  (x4 / 父亲
+                        :mod  (x2 / 这
+)                        :cunit  (x3 / 位
+)))))
+===========================
+他挖了8小时，12小时，24小时，36小时，没人再来阻挡他。
+(x25 / temporal
+      :arg1  (x2 / 挖-01
+            :arg0  (x1 / 他
+)            :duration  (x31 / temporal
+                  :arg1  (x32 / temporal-quantity
+                        :quant  (x4 / 8
+)                        :unit  (x5 / 小时
+))                  :arg2  (x36 / temporal-quantity
+                        :quant  (x7 / 12
+)                        :unit  (x8 / 小时
+))                  :arg3  (x39 / temporal-quantity
+                        :quant  (x10 / 24
+)                        :unit  (x11 / 小时
+))                  :arg4  (x43 / temporal-quantity
+                        :quant  (x13 / 36
+)                        :unit  (x14 / 小时
+)))            :aspect  (x3 / 了
+))      :arg2  (x20 / 阻挡-01
+            :arg0  (x17 / 人
+                  :arg1-of  (x16 / 没-02
+))            :mod  (x18 / 再
+)            :arg1  (x21 / x1
+)))
+===========================
+他满脸灰尘，双眼布满血丝，衣服破烂不堪，到处都是血迹。
+(x18 / and
+      :op1  (x4 / 灰尘
+            :location  (x3 / 脸
+                  :range  (x2 / 满
+)                  :part-of  (x1 / 他
+)))      :op2  (x7 / 布满-01
+            :arg0  (x6 / 双眼
+)            :arg1  (x8 / 血丝
+))      :op3  (x11 / 破烂不堪
+            :arg0  (x10 / 衣服
+))      :op4  (x16 / 血迹
+            :range  (x13 / 到处
+)            :mod  (x14 / 都
+)))
+===========================
+挖到第38小时，他突然听见瓦砾堆底下传出孩子的声音：“爸爸，是你吗？”
+(x9 / 听见-01
+      :time  (x1 / 挖-01
+            :duration  (x28 / temporal-quantity
+                  :quant  (x3_x4 / 38
+)                  :unit  (x5 / 小时
+))            :arg0  (x7 / 他
+))      :arg1  (x13 / 传出-01
+            :arg1  (x12 / 底下
+                  :arg0  (x11 / 堆
+                        :mod  (x10 / 瓦砾
+)))            :arg1  (x16 / 声音
+                  :poss  (x14 / 孩子
+)                  :arg0-of  (x38 / mean
+                        :op1  (x18 / 爸爸
+)                        :op2  (x21 / x18
+                              :domain  (x41 / person
+)                              :mode  (x22_x23 / interrogative
+)))))      :arg0  (x7 / 他
+)      :mod  (x8 / 突然
+))
+===========================
+是儿子的声音！父亲大喊：“阿曼达！我的儿子！”
+(x15 / multi-sentence
+      :snt1  (x4 / 声音
+            :poss  (x2 / 儿子
+)            :mode  (x5 / expressive
+))      :snt2  (x7 / 大喊-01
+            :arg0  (x6 / 父亲
+)            :arg1  (x22 / and
+                  :op1  (x23 / person
+                        :name  ( x9/阿曼达 
+)                        :mode  (x10 / expressive
+))                  :op2  (x13 / x2
+                        :poss  (x11 / x6
+)                        :mode  (x14 / expressive
+)))))
+===========================
+“爸爸，真的是你吗？”
+(x10 / say
+      :arg1  (x12 / and
+            :op1  (x2 / 爸爸
+)            :op2  (x7 / x2
+                  :domain  (x15 / person
+)                  :mod  (x4_x5 / 真的
+)                  :mode  (x8_x9 / interrogative
+))))
+===========================
+“是我，是爸爸！我的儿子！”
+(x12 / say
+      :arg1  (x14 / and
+            :op1  (x3 / 我
+                  :domain  (x16 / person
+))            :op2  (x6 / x3
+                  :domain  (x16 / person
+)                  :mode  (x7 / expressive
+))            :op3  (x10 / 儿子
+                  :poss  (x8 / x3
+)                  :mode  (x11 / expressive
+))))
+===========================
+“我告诉同学们不要害怕，说只要我爸爸活着就一定会来救我，也能救大家。
+(x27 / say
+      :arg1  (x29 / and
+            :op1  (x3 / 告诉-01
+                  :arg0  (x2 / 我
+)                  :arg1  (x4_x5 / 同学们
+)                  :arg2  (x6_2 / 要-03
+                        :polarity  (x6_1 / -
+)                        :arg0  (x7 / 害怕
+)))            :op2  (x9 / 说-01
+                  :arg1  (x37 / condition
+                        :arg1  (x13 / 活-01
+                              :arg0  (x12 / 爸爸
+                                    :poss  (x11 / x2
+))                              :aspect  (x14 / 着
+))                        :arg2  (x16 / 一定
+                              :arg0  (x43 / and
+                                    :op1  (x17 / 会-02
+                                          :arg0  (x19 / 救-01
+                                                :arg0  (x12 / 爸爸
+)))                                    :op2  (x23 / 能-01
+                                          :arg0  (x24 / 救-01
+                                                :arg0  (x12 / 爸爸
+)                                                :arg1  (x25 / 大家
+)))))))))
+===========================
+因为你说过，不论发生什么，你总会和我在一起！”
+(x18 / say
+      :arg1  (x20 / causation
+            :arg1  (x3 / 说-01
+                  :arg0  (x2 / 你
+)                  :aspect  (x4 / 过
+)                  :arg1  (x24 / condition
+                        :arg1  (x7 / 发生-01
+                              :arg0  (x8 / amr-unknown
+))                        :arg2  (x12 / 会-02
+                              :arg0  (x15 / 在-01
+                                    :cause-of  (x16 / 一起
+)                                    :arg0  (x13 / and
+                                          :op1  (x10 / x2
+)                                          :op2  (x14 / 我
+)))                              :mode  (x17 / expressive
+)                              :mod  (x11 / 总
+))))))
+===========================
+“你现在怎么样？有几个孩子活着？”
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x4 / 怎么样-01
+                  :arg0  (x2 / 你
+)                  :time  (x3 / 现在
+)                  :mode  (x5 / interrogative
+))            :op2  (x10 / 活-01
+                  :arg0  (x9 / 孩子
+                        :quant  (x7 / amr-unknown
+)                        :cunit  (x8 / 个
+)                        :arg1-of  (x6 / 有-03
+))                  :aspect  (x11 / 着
+)                  :mode  (x12 / interrogative
+))))
+===========================
+“我们这里有14个同学，都活着，我们都在教室的墙角，房顶塌下来架成个大三角形，我们没被砸着。”
+(x35 / say
+      :arg1  (x37 / and
+            :op1  (x4 / 有-03
+                  :arg0  (x3 / 这里
+                        :mod  (x2 / 我们
+))                  :arg1  (x7 / 同学
+                        :quant  (x5 / 14
+)                        :cunit  (x6 / 个
+)))            :op2  (x10 / 活-01
+                  :arg0  (x7 / 同学
+)                  :extent  (x9 / 都
+)                  :aspect  (x11 / 着
+))            :op3  (x15 / 在-01
+                  :arg0  (x13 / x2
+)                  :extent  (x14 / 都
+)                  :arg1  (x18 / 墙角
+                        :arg0  (x16 / 教室
+)))            :op4  (x52 / temporal
+                  :arg1  (x21 / 塌-02
+                        :arg0  (x20 / 房顶
+)                        :direction  (x22 / 下来
+))                  :arg2  (x23 / 架
+                        :cause-of  (x27 / 三角形
+                              :arg0-of  (x26 / 大-01
+)                              :cunit  (x25 / 个
+))))            :op5  (x32 / 砸-01
+                  :polarity  (x30 / -
+)                  :arg0  (x20 / 房顶
+)                  :aspect  (x33 / 着
+)                  :arg2  (x29 / x2
+))))
+===========================
+父亲大声向四周呼喊：“这里有14个小孩，都活着！快来人！”
+(x5 / 呼喊-01
+      :arg0  (x1 / 父亲
+)      :manner  (x2 / 大声
+)      :direction  (x4 / 四周
+)      :arg1  (x26 / and
+            :op1  (x8 / 有-03
+                  :arg0  (x7 / 这里
+)                  :arg1  (x11 / 小孩
+                        :quant  (x9 / 14
+)                        :cunit  (x10 / 个
+)))            :op2  (x14 / 活-01
+                  :extent  (x11 / 小孩
+)                  :aspect  (x15 / 着
+)                  :mod  (x13 / 都
+)                  :mode  (x16 / expressive
+))            :op3  (x17 / 快
+                  :arg0  (x18 / 来-01
+                        :arg0  (x19 / 人
+))                  :mode  (x20 / expressive
+))))
+===========================
+过路的人赶紧跑过来帮忙。
+(x5 / 跑-01
+      :direction  (x6 / 过来
+)      :purpose  (x7 / 帮忙-01
+            :arg0  (x3 / 人
+                  :arg0-of  (x1 / 过路
+)))      :arg0  (x3 / 人
+)      :manner  (x4 / 赶紧
+))
+===========================
+50分钟后，一个安全的出口开辟出来了。
+(x9 / 开辟-01
+      :arg1  (x8 / 出口
+            :arg0-of  (x6 / 安全-01
+)            :quant  (x5_1 / 1
+)            :cunit  (x5_2 / 个
+))      :cause-of  (x10 / 出来
+)      :aspect  (x11 / 了
+)      :time  (x3 / 后
+            :op1  (x22 / temporal-quantity
+                  :quant  (x1 / 50
+)                  :cunit  (x2 / 分钟
+))))
+===========================
+父亲声音颤抖地说：“出来吧！阿曼达。”
+(x5 / 说-01
+      :arg0  (x1 / 父亲
+)      :manner  (x3 / 颤抖-01
+            :arg0  (x2 / 声音
+))      :arg1  (x17 / and
+            :op1  (x7 / 出来
+                  :mode  (x8 / imperative
+)                  :mode  (x9 / expressive
+))            :op2  (x21 / person
+                  :name  ( x10/阿曼达 
+))))
+===========================
+“不！爸爸。
+(x6 / say
+      :arg1  (x8 / and
+            :op1  (x2 / 不
+                  :mode  (x3 / expressive
+))            :op2  (x4 / 爸爸
+)))
+===========================
+先让我的同学出去吧！我知道你会跟我在一起，我不怕。
+(x23 / and
+      :op1  (x2 / 让-02
+            :ord  (x1 / 先
+)            :arg1  (x5 / 同学
+                  :poss  (x3 / 我
+))            :mode  (x7 / imperative
+)            :mode  (x8 / expressive
+)            :arg2  (x6 / 出去-01
+                  :arg0  (x5 / 同学
+)))      :op2  (x33 / causation
+            :arg1  (x10 / 知道-01
+                  :arg1  (x12 / 会-02
+                        :arg0  (x16 / 一起-01
+                              :arg0  (x13 / and
+                                    :op1  (x11 / 你
+)                                    :op2  (x14 / x3
+))))                  :arg0  (x9 / x3
+))            :arg2  (x19_2 / 怕-01
+                  :polarity  (x19_1 / -
+)                  :arg0  (x18 / x3
+))))
+===========================
+不论发生了什么，我知道你总会跟我在一起。”
+(x16 / say
+      :arg1  (x18 / condition
+            :arg1  (x2 / 发生-01
+                  :arg0  (x4 / amr-unknown
+)                  :aspect  (x3 / 了
+))            :arg2  (x7 / 知道-01
+                  :arg0  (x6 / 我
+)                  :arg1  (x10 / 会-02
+                        :mod  (x9 / 总
+)                        :arg1  (x14 / 一起-01
+                              :arg0  (x11 / and
+                                    :op1  (x8 / 你
+)                                    :op2  (x12 / x6
+)))))))
+===========================
+这对了不起的父与子，无比幸福地紧紧拥抱在一起。
+(x13 / 拥抱-01
+      :cause-of  (x15 / 一起
+)      :arg0  (x6 / and
+            :op1  (x5 / 父
+)            :op2  (x7 / 子
+)            :arg0-of  (x3 / 了不起-01
+)            :mod  (x1 / 这
+)            :cunit  (x2 / 对
+))      :manner  (x11 / 紧
+)      :manner  (x10 / 幸福
+            :degree  (x9 / 无比
+)))
+===========================

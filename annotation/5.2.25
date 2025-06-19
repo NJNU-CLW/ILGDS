@@ -1,0 +1,364 @@
+爱美大概也算是人的天性吧。
+(x7 / 天性
+      :poss  (x5 / 人
+)      :domain  (x1 / 爱美
+)      :mod  (x2 / 大概
+)      :mod  (x3 / 也
+)      :mode  (x8 / expressive
+))
+===========================
+宇宙间美的东西很多，花在其中占重要的地位。
+(x16 / and
+      :op1  (x6_2 / 多-01
+            :degree  (x6_1 / 很
+)            :arg0  (x5 / 东西
+                  :arg0-of  (x3 / 美-01
+)                  :location  (x1 / 宇宙
+)))      :op2  (x11 / 占-02
+            :arg0  (x8 / 花
+                  :arg1-of  (x27 / include-91
+                        :arg2  (x10 / 其中
+)))            :arg1  (x14 / 地位
+                  :arg0-of  (x12 / 重要-01
+))))
+===========================
+爱花的民族也很多，德国在其中占重要的地位。
+(x16 / and
+      :op1  (x6_2 / 多-03
+            :degree  (x6_1 / 很
+)            :mod  (x5 / 也
+)            :arg0  (x4 / 民族
+                  :arg0-of  (x1 / 爱-01
+                        :arg1  (x2 / 花
+))))      :op2  (x11 / 占-02
+            :arg0  (x25 / country
+                  :name  ( x8/德国 
+)                  :arg1-of  (x27 / include-91
+                        :arg2  (x10 / 其中
+)))            :arg1  (x14 / 地位
+                  :arg0-of  (x12 / 重要-01
+))))
+===========================
+四五十年以前我在德国留学的时候，曾多次对德国人爱花之真切感到吃惊。
+(x18 / 感到-01
+      :arg1  (x19 / 吃惊-01
+            :cause  (x17 / 真切
+                  :arg0  (x14 / 爱-01
+                        :arg0  (x13 / 德国人
+)                        :arg1  (x15 / 花
+))))      :aspect  (x10 / 曾
+)      :frequency  (x11 / 多次
+)      :time  (x2 / 以前
+            :arg0  (x31 / temporal-quantity
+                  :quant  (x32 / and
+                        :op1  (x1_1_3 / 40
+)                        :op1  (x1_2_3 / 50
+))                  :unit  (x1_4 / 年
+))            :time-of  (x6 / 留学-01
+                  :arg0  (x3 / 我
+)                  :arg1  (x38 / country
+                        :name  ( x5/德国 
+))))      :arg0  (x3 / 我
+))
+===========================
+家家户户都在养花。
+(x4 / 养-01
+      :arg1  (x5 / 花
+)      :arg0  (x1 / 家家户户
+)      :extent  (x2 / 都
+)      :aspect  (x3 / 在
+))
+===========================
+他们的花不像在中国那样，养在屋子里，他们是把花都栽种在临街窗户的外面。
+(x27 / contrast
+      :arg1  (x5 / 像-01
+            :arg0  (x3 / 花
+                  :poss  (x1 / 他们
+))            :polarity  (x4 / -
+)            :arg1  (x8 / 那样
+                  :location  (x34 / country
+                        :name  ( x7/中国 
+)))            :arg2  (x10 / 养-01
+                  :location  (x12 / 屋子
+)))      :arg2  (x20 / 栽种-01
+            :arg0  (x15 / x1
+)            :arg1  (x18 / x3
+)            :extent  (x19 / 都
+)            :location  (x25 / 外面
+                  :arg0  (x23 / 窗户
+                        :location  (x22 / 临街
+)))))
+===========================
+花朵都朝外开，在屋子里只能看到花的脊梁。
+(x16 / causation
+      :arg1  (x5 / 开-01
+            :arg1  (x1 / 花朵
+)            :extent  (x2 / 都
+)            :direction  (x4 / 外
+))      :arg2  (x10 / 只能-01
+            :arg0  (x11 / 看到-01
+                  :arg1  (x14 / 脊梁
+                        :part-of  (x12 / x1
+)))            :location  (x8 / 屋子
+)))
+===========================
+我曾问过我的女房东：你这样养花是给别人看的吧！
+(x3 / 问-01
+      :arg0  (x1 / 我
+)      :aspect  (x2 / 曾
+)      :arg2  (x8 / 房东
+            :mod  (x7 / 女
+)            :poss  (x5 / x1
+))      :aspect  (x4 / 过
+)      :arg1  (x12 / 养-01
+            :arg1  (x13 / 花
+)            :manner  (x11 / 这样
+)            :arg0  (x10 / x8
+)            :purpose  (x17 / 看
+                  :beneficiary  (x16 / 别人
+))            :mode  (x14_x19 / judgement
+)            :mode  (x19_x20 / expressive
+)))
+===========================
+她莞尔一笑，说：“正是这样！”
+(x9 / temporal
+      :arg1  (x2 / 莞尔一笑-01
+            :arg0  (x1 / 她
+))      :arg2  (x4 / 说-01
+            :arg0  (x1 / 她
+)            :arg1  (x7 / 这样
+                  :domain  (x16 / thing
+)                  :mode  (x8 / expressive
+))))
+===========================
+正是这样，也确实不错。
+(x6 / 不错-01
+      :arg0  (x2 / 这样
+            :mod  (x1 / 正是
+))      :mod  (x5 / 确实
+)      :mod  (x4 / 也
+))
+===========================
+走过任何一条街，抬头向上看，家家户户的窗子前都是花团锦簇、姹紫嫣红。
+(x22 / condition
+      :arg1  (x24 / and
+            :op1  (x1 / 走过-01
+                  :arg1  (x5 / 街
+                        :quant  (x3 / 1
+)                        :cunit  (x4 / 条
+)                        :mod  (x2 / 任何
+)))            :op2  (x30 / temporal
+                  :arg1  (x7 / 抬头
+)                  :arg2  (x10 / 看
+                        :direction  (x9 / 上
+))))      :arg2  (x35 / and
+            :op1  (x18 / 花团锦簇
+)            :op2  (x20 / 姹紫嫣红
+)            :location  (x15 / 前
+                  :arg0  (x14 / 窗子
+                        :poss  (x12 / 家家户户
+)))            :extent  (x16 / 都
+)))
+===========================
+许多窗子连接在一起，汇成了一个花的海洋，让我们看的人如入山阴道上，应接不暇。
+(x27 / and
+      :op1  (x3 / 连接-01
+            :arg1  (x2 / 窗子
+                  :quant  (x1 / 许多
+))            :cause-of  (x5 / 一起-01
+                  :arg0  (x2 / 窗子
+)))      :op2  (x7 / 汇成-01
+            :arg1  (x13 / 海洋
+                  :consist-of  (x11 / 花
+)                  :quant  (x9 / 1
+)                  :cunit  (x10 / 个
+))            :aspect  (x8 / 了
+))      :op3  (x15 / 让-02
+            :arg1  (x19 / 人
+                  :arg0-of  (x17 / 看-02
+)                  :arg0-of  (x42 / mean
+                        :arg1  (x16 / 我们
+)))            :arg2  (x44 / and
+                  :op1  (x20 / 如-01
+                        :arg1  (x21 / 入-01
+                              :arg1  (x22 / 山阴道
+)                              :arg0  (x16 / 我们
+)))                  :op2  (x25 / 应接不暇
+))))
+===========================
+每一家都是这样，在屋子里的时候，自己的花是让别人看的；走在街上的时候，自己又看别人的花。
+(x6 / 这样-01
+      :arg0  (x3 / 家
+            :mod  (x1 / 每
+)            :cunit  (x2 / 1
+))      :extent  (x4 / 都
+)      :arg0-of  (x44 / mean
+            :arg1  (x45 / and
+                  :op1  (x18 / 让-02
+                        :arg0  (x16 / 花
+                              :poss  (x14 / 自己
+))                        :arg1  (x19 / 别人
+)                        :arg2  (x20 / 看-02
+                              :arg0  (x19 / 别人
+)                              :arg1  (x16 / 花
+))                        :time  (x10 / 里
+                              :arg0  (x9 / 屋子
+)))                  :op2  (x31 / 看-02
+                        :arg0  (x29 / x14
+)                        :arg1  (x34 / 花
+                              :poss  (x32 / x19
+))                        :mod  (x30 / 又
+)                        :time  (x23 / 走-01
+                              :arg1  (x25 / 街上
+)                              :arg0  (x29 / x14
+))))))
+===========================
+人人为我，我为人人。
+(x9 / and
+      :op1  (x2 / 为
+            :arg0  (x1 / 人人
+)            :arg1  (x3 / 我
+))      :op2  (x6 / 为
+            :arg0  (x5 / x3
+)            :arg1  (x7 / x1
+)))
+===========================
+我觉得这一种境界是颇耐人寻味的。
+(x2 / 觉得-01
+      :arg0  (x1 / 我
+)      :arg1  (x9 / 耐人寻味-01
+            :arg0  (x6 / 境界
+                  :mod  (x3 / 这
+)                  :quant  (x4 / 1
+)                  :unit  (x5 / 种
+))            :degree  (x8 / 颇
+)            :mode  (x7_x10 / judgement
+)))
+===========================
+今天我又到了德国，刚一下火车，迎接我们的主人问我：“你离开德国这样久，有什么变化没有？”
+(x31 / temporal
+      :arg1  (x4 / 到-01
+            :arg0  (x2 / 我
+)            :arg1  (x35 / country
+                  :name  ( x6/德国 
+))            :aspect  (x5 / 了
+)            :mod  (x3 / 又
+)            :time  (x1 / 今天
+))      :arg2  (x10 / 下-04
+            :arg1  (x11 / 火车
+)            :time  (x8 / 刚
+))      :arg3  (x17 / 问-01
+            :arg0  (x16 / 主人
+                  :arg0-of  (x13 / 迎接-01
+                        :arg1  (x14 / 我们
+)))            :arg2  (x18 / x2
+)            :arg1  (x48 / and
+                  :op1  (x24 / 久-01
+                        :arg0  (x21 / 离开-01
+                              :arg0  (x20 / x2
+)                              :arg1  (x52 / country
+                                    :name  ( x22/德国 
+)))                        :mod  (x23 / 这样
+))                  :op2  (x55 / or
+                        :op1  (x26 / 有-01
+                              :arg1  (x28 / 变化
+                                    :mod  (x27 / 什么
+)))                        :op2  (x29_2 / 有-01
+                              :polarity  (x29_1 / -
+)                              :arg1  (x28 / 变化
+))                        :mode  (x30 / interrogative
+)))))
+===========================
+我说：“变化是有的，但是美丽并没有改变。”
+(x2 / 说-01
+      :arg0  (x1 / 我
+)      :arg1  (x19 / contrast
+            :arg1  (x6_1 / 有-01
+                  :arg1  (x4 / 变化
+)                  :mode  (x5_x6_2 / judgement
+))            :arg2  (x12 / 改变-01
+                  :arg1  (x9 / 美丽
+)                  :polarity  (x11 / -
+                        :mod  (x10 / 并
+)))))
+===========================
+我说“美丽”指的东西很多，其中也包含着美丽的花。
+(x9_2 / 多-03
+      :degree  (x9_1 / 很
+)      :arg0  (x8 / 东西
+            :arg1-of  (x6 / 指-02
+                  :arg0  (x4 / 美丽
+                        :arg1-of  (x2 / 说-01
+                              :arg0  (x1 / 我
+))))            :arg2-of  (x27 / include-91
+                  :arg1  (x11 / 其中
+                        :arg0-of  (x13 / 包含-01
+                              :arg1  (x17 / 花
+                                    :arg0-of  (x15 / 美丽-01
+))                              :aspect  (x14 / 着
+)                              :mod  (x12 / 也
+))))))
+===========================
+我走在街上，抬头一看，又是家家户户的窗口上都开满了鲜花。
+(x22 / temporal
+      :arg1  (x24 / and
+            :op1  (x2 / 走-01
+                  :arg1  (x4 / 街上
+)                  :arg0  (x1 / 我
+))            :op2  (x28 / temporal
+                  :arg1  (x6 / 抬头-01
+                        :arg0  (x1 / 我
+))                  :arg2  (x8 / 看-02
+                        :arg0  (x1 / 我
+))))      :arg2  (x17 / 开-01
+            :arg1  (x20 / 鲜花
+)            :cause-of  (x18 / 满
+)            :aspect  (x19 / 了
+)            :extent  (x16 / 都
+)            :location  (x14 / 窗口
+                  :poss  (x12 / 家家户户
+))            :mod  (x10 / 又
+)))
+===========================
+多么奇丽的景色！
+(x4 / 景色
+      :arg0-of  (x2 / 奇丽
+            :degree  (x1 / 多么
+))      :mode  (x5 / expressive
+))
+===========================
+多么奇特的民族！
+(x4 / 民族
+      :arg0-of  (x2 / 奇特-01
+            :degree  (x1 / 多么
+))      :mode  (x5 / expressive
+))
+===========================
+我仿佛又回到了四五十年前，我做了一个花的梦，做了一个思乡的梦。
+(x2 / 仿佛-01
+      :arg0  (x30 / and
+            :op1  (x4 / 回到-01
+                  :arg1  (x9 / 前
+                        :arg0  (x33 / temporal-quantity
+                              :quant  (x34 / and
+                                    :op1  (x6_x7_2 / 40
+)                                    :op2  (x7 / 50
+))                              :unit  (x8 / 年
+)))                  :aspect  (x5 / 了
+)                  :arg0  (x1 / 我
+)                  :mod  (x3 / 又
+))            :op2  (x12 / 做-01
+                  :arg1  (x18 / 梦
+                        :topic  (x16 / 花
+)                        :quant  (x14 / 1
+)                        :cunit  (x15 / 个
+))                  :aspect  (x13 / 了
+)                  :arg0  (x11 / x1
+))            :op2  (x20 / 做-01
+                  :arg1  (x26 / 梦
+                        :quant  (x22 / 1
+)                        :cunit  (x23 / 个
+)                        :topic  (x24 / 思乡
+))                  :arg0  (x11 / x1
+))))
+===========================

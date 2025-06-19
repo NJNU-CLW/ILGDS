@@ -1,0 +1,586 @@
+一条新修的公路，使我家失去了四季翠绿的菜园。
+(x8 / 使-01
+      :arg0  (x6 / 公路
+            :quant  (x1 / 1
+)            :cunit  (x2 / 条
+)            :arg1-of  (x4 / 修-01
+                  :time  (x3 / 新
+)))      :arg1  (x9 / 我家
+)      :arg2  (x10 / 失去-01
+            :aspect  (x11 / 了
+)            :arg0  (x9 / 我家
+)            :arg1  (x15 / 菜园
+                  :arg0-of  (x13 / 翠绿-01
+                        :time  (x12 / 四季
+)))))
+===========================
+我们的心情都不大舒畅，没有了新鲜的蔬菜，对一个普通的农家来说，就像婴儿断了奶。
+(x29 / causation
+      :arg2  (x6 / 舒畅-01
+            :polarity  (x5 / -
+)            :arg0  (x3 / 心情
+                  :poss  (x1 / 我们
+)                  :extent  (x4 / 都
+)))      :arg1  (x20 / 来说-01
+            :arg0  (x8_2 / 有-01
+                  :polarity  (x8_1 / -
+)                  :aspect  (x9 / 了
+)                  :arg1  (x12 / 蔬菜
+                        :arg0-of  (x10 / 新鲜-01
+)))            :arg1  (x19 / 农家
+                  :quant  (x15 / 1
+)                  :arg0-of  (x17 / 普通-01
+)                  :cunit  (x16 / 个
+))            :arg2  (x23 / 像-02
+                  :arg1  (x25 / 断-02
+                        :aspect  (x26 / 了
+)                        :arg1  (x27 / 奶
+)                        :beneficiary  (x24 / 婴儿
+))                  :mod  (x22 / 就
+))))
+===========================
+终于有一天，父亲望着饭桌上总也盛不满的菜碗，说要重新开一块菜地。
+(x26 / and
+      :op1  (x6 / 望-01
+            :arg0  (x5 / 父亲
+)            :aspect  (x7 / 着
+)            :arg1  (x16 / 菜碗
+                  :arg1-of  (x14 / 满-01
+                        :cause  (x12 / 盛-02
+                              :arg0-of  (x35 / possible
+                                    :polarity  (x13 / -
+)                                    :mod  (x11 / 也
+)                                    :frequency  (x10 / 总
+))                              :arg2  (x16 / 菜碗
+                                    :location  (x8 / 饭桌
+))))))      :time  (x2_x3 / 有一天
+            :time  (x1 / 终于
+))      :op2  (x18 / 说-01
+            :arg0  (x5 / 父亲
+)            :arg1  (x19 / 要-03
+                  :arg0  (x20 / 重新-01
+                        :arg0  (x21 / 开
+                              :arg1  (x24 / 菜地
+                                    :cunit  (x23 / 块
+)                                    :quant  (x22 / 1
+)))))))
+===========================
+全家人投去诧异的目光——要知道，在我们这里要找一块可以当菜园的地，是相当困难的。
+(x28 / causation
+      :arg2  (x2 / 投-01
+            :arg0  (x1 / 全家人
+)            :arg1  (x6 / 目光
+                  :mod  (x4 / 诧异-01
+                        :arg0  (x1 / 全家人
+))))      :arg1  (x8 / 要-03
+            :arg0  (x9 / 知道-01
+                  :arg0  (x25 / 困难-01
+                        :degree  (x24 / 相当
+)                        :mode  (x23_x26 / judgement
+)                        :arg0  (x14 / 要-03
+                              :location  (x13 / 这里
+                                    :poss  (x12 / 我们
+))                              :arg0  (x15 / 找-01
+                                    :arg1  (x21 / 地
+                                          :quant  (x16_1 / 1
+)                                          :cunit  (x16_2 / 块
+)                                          :arg0-of  (x18 / 当-02
+                                                :arg0-of  (x17 / 可以-01
+)                                                :arg1  (x19 / 菜园
+)))))))))
+===========================
+望着我们疑惑的神情，父亲坚毅地说：“我们去开一块新的菜地！”
+(x21 / and
+      :op1  (x1 / 望-01
+            :arg0  (x8 / 父亲
+)            :aspect  (x2 / 着
+)            :arg1  (x6 / 神情
+                  :mod  (x4 / 疑惑-01
+                        :arg0  (x3 / 我们
+))                  :poss  (x3 / 我们
+)))      :op2  (x11 / 说-01
+            :manner  (x9 / 坚毅-01
+                  :arg0  (x8 / 父亲
+))            :arg1  (x14 / 去-01
+                  :arg0  (x13 / 我们
+)                  :arg1  (x15 / 开
+                        :arg0  (x13 / 我们
+)                        :arg1  (x19 / 菜地
+                              :quant  (x16_1 / 1
+)                              :cunit  (x16_2 / 块
+)                              :arg0-of  (x17 / 新-01
+)))                  :mode  (x20 / expressive
+))            :arg0  (x8 / 父亲
+)))
+===========================
+于是，在我家后面的山坡上，父亲选择了一块相对平缓的坡地，作为菜园的基地。
+(x25 / temporal
+      :arg2  (x11 / 选择-01
+            :arg0  (x10 / 父亲
+)            :aspect  (x12 / 了
+)            :arg1  (x18 / 坡地
+                  :arg0-of  (x16 / 平缓-01
+                        :degree  (x15 / 相对
+))                  :cunit  (x14 / 块
+)                  :quant  (x13 / 1
+))            :arg2  (x23 / 基地
+                  :poss  (x21 / 菜园
+))            :location  (x7 / 山坡
+                  :location  (x5 / 后面
+                        :arg0  (x4 / 我家
+)))))
+===========================
+每天天还没亮，父亲就扛着锄头，挑起箢箕上山去，直到傍晚，才挑着一担柴草回家来。
+(x30 / temporal
+      :frequency  (x32 / rate-entity
+            :arg2  (x33 / temporal-quantity
+                  :unit  (x1_2 / 天
+)                  :quant  (x1_1 / 1
+)))      :arg1  (x15_x16 / 上山-01
+            :arg0  (x7 / 父亲
+)            :manner  (x9 / 扛-01
+                  :aspect  (x10 / 着
+)                  :arg1  (x11 / 锄头
+))            :manner  (x13 / 挑起-02
+                  :arg0  (x7 / 父亲
+)                  :arg1  (x14 / 箢箕
+))            :time  (x5 / 亮-02
+                  :arg0  (x2 / 天
+)                  :mod  (x3 / 还
+)                  :polarity  (x4 / -
+))            :mod  (x8 / 就
+))      :arg2  (x27_x28 / 回家-01
+            :manner  (x22 / 挑-03
+                  :aspect  (x23 / 着
+)                  :arg1  (x26 / 柴草
+                        :cunit  (x25 / 担
+)                        :quant  (x24 / 1
+)))            :mod  (x21 / 才
+)            :arg0  (x7 / 父亲
+)            :time  (x19 / 傍晚
+)))
+===========================
+一个星期过去，展现在我们面前的，是足有三四分翻过的黄土地。
+(x21 / temporal
+      :arg1  (x4 / 过去-01
+            :arg0  (x24 / temporal-quantity
+                  :quant  (x1 / 1
+)                  :unit  (x3 / 星期
+)))      :arg2  (x19 / 黄土地
+            :domain  (x28 / thing
+                  :arg1-of  (x6 / 展现-01
+                        :location  (x9 / 面前
+                              :arg0  (x8 / 我们
+))))            :mod  (x17 / 翻过
+                  :degree  (x16 / 分
+                        :quant  (x34 / between
+                              :op1  (x15_1 / 3
+)                              :op2  (x15_2 / 4
+))                        :arg1-of  (x14 / 有-03
+                              :manner  (x13 / 足
+))))))
+===========================
+父亲还没有来得及整理他新辟的菜园，一场暴雨说来就来了。
+(x20 / condition
+      :arg1  (x4 / 来得及
+            :arg0  (x1 / 父亲
+)            :arg1  (x5 / 整理-01
+                  :arg0  (x1 / 父亲
+)                  :arg1  (x10 / 菜园
+                        :arg1-of  (x8 / 辟-01
+                              :arg0  (x6 / x1
+)                              :time  (x7 / 新
+))))            :mod  (x2 / 还
+)            :polarity  (x3 / -
+))      :arg2  (x31 / condition
+            :arg1  (x15 / 说来-01
+                  :arg0  (x14 / 暴雨
+                        :cunit  (x13 / 场
+)                        :quant  (x12 / 1
+)))            :arg2  (x17 / 来-01
+                  :aspect  (x18 / 了
+)                  :arg0  (x14 / 暴雨
+))))
+===========================
+那天，父亲正在吃午饭，把碗一丢，抓起铁锨就冲进了暴雨中……
+(x22 / temporal
+      :arg1  (x5 / 吃-01
+            :aspect  (x4 / 正在
+)            :arg0  (x3 / 父亲
+)            :arg1  (x6 / 午饭
+))      :arg2  (x11 / 丢-02
+            :arg0  (x3 / 父亲
+)            :arg1  (x9 / 碗
+))      :arg3  (x13 / 抓起-01
+            :arg0  (x3 / 父亲
+)            :arg1  (x14 / 铁锨
+))      :arg4  (x16_x17 / 冲进-01
+            :arg0  (x3 / 父亲
+)            :aspect  (x18 / 了
+)            :arg1  (x19 / 暴雨
+))      :time  (x1 / 那天
+))
+===========================
+可是，山坡菜地里那薄薄的一层泥土，已经被大雨冲了个一干二净，露出大块大块狰狞的岩石。
+(x30 / contrast
+      :arg2  (x32 / and
+            :op1  (x16 / 冲
+                  :cause-of  (x19 / 一干二净
+)                  :aspect  (x13 / 已经
+)                  :arg0  (x15 / 大雨
+)                  :arg1  (x11 / 泥土
+                        :cunit  (x10 / 层
+)                        :quant  (x9 / 1
+)                        :mod  (x6 / 那
+)                        :arg0-of  (x7 / 薄-01
+)                        :location  (x4 / 菜地
+                              :location  (x3 / 山坡
+))))            :op2  (x21 / 露出-01
+                  :arg1  (x28 / 岩石
+                        :arg0-of  (x26 / 狰狞
+)                        :cunit  (x23_x25 / 块
+                              :arg0-of  (x22_x24 / 大-01
+))))))
+===========================
+父亲没有气馁，他在坡地的边缘砌了一道矮墙，再从山脚下把土一筐一筐挑上去，盖住了那可怖的岩石。
+(x36 / temporal
+      :arg1  (x3 / 气馁-01
+            :polarity  (x2 / -
+)            :arg0  (x1 / 父亲
+))      :arg2  (x10 / 砌-01
+            :arg0  (x5 / x1
+)            :location  (x9 / 边缘
+                  :arg0  (x7 / 坡地
+)                  :aspect  (x11 / 了
+))            :arg1  (x14 / 矮墙
+                  :quant  (x12 / 1
+)                  :cunit  (x13 / 道
+)))      :arg3  (x25 / 挑-03
+            :arg0  (x1 / 父亲
+)            :source  (x18 / 山脚下
+)            :cause-of  (x26 / 上去-01
+                  :arg0  (x20 / 土
+))            :arg1  (x20 / 土
+)            :manner  (x21_x22_x23_x24 / 一筐一筐
+))      :arg4  (x28 / 盖-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x34 / 岩石
+                  :mod  (x32 / 可怖
+)                  :mod  (x31 / 那
+))            :aspect  (x30 / 了
+)            :arg2  (x20 / 土
+)))
+===========================
+父亲的双肩红肿，脚板也磨起了泡。
+(x13 / and
+      :op1  (x4 / 红肿-01
+            :arg0  (x3 / 双肩
+                  :part-of  (x1 / 父亲
+)))      :op2  (x8 / 磨-01
+            :arg1  (x6 / 脚板
+                  :part-of  (x1 / 父亲
+))            :mod  (x7 / 也
+)            :cause-of  (x9 / 起
+                  :aspect  (x10 / 了
+)                  :arg1  (x11 / 泡
+)                  :arg0  (x6 / 脚板
+))))
+===========================
+看着新菜园终于被开出来了，父亲笑了。
+(x14 / causation
+      :arg1  (x1_1 / 看-02
+            :aspect  (x1_2 / 着
+)            :arg0  (x10 / 父亲
+)            :arg1  (x6_x7 / 开
+                  :aspect  (x8 / 了
+)                  :arg1  (x3 / 菜园
+                        :arg0-of  (x2 / 新-01
+))                  :time  (x4 / 终于
+)))      :arg2  (x11 / 笑-01
+            :arg0  (x10 / 父亲
+)            :aspect  (x12 / 了
+)))
+===========================
+春天到了，父亲在他的新菜园里，种上了豌豆。
+(x17 / and
+      :op1  (x2 / 到-01
+            :arg1  (x20 / date-entity
+                  :season  (x1 / 春天
+))            :aspect  (x3 / 了
+))      :op2  (x13 / 种上-01
+            :aspect  (x14 / 了
+)            :arg0  (x5 / 父亲
+)            :arg1  (x15 / 豌豆
+)            :location  (x10 / 菜园
+                  :poss  (x7 / x5
+)                  :arg0-of  (x9 / 新-01
+))))
+===========================
+望着这一块贫瘠的土地我问父亲：“豌豆真的能长出来吗？”
+(x21 / and
+      :op1  (x1 / 望-01
+            :aspect  (x2 / 着-01
+)            :arg1  (x8 / 土地
+                  :mod  (x3 / 这
+)                  :quant  (x4 / 1
+)                  :arg0-of  (x6 / 贫瘠-01
+)                  :cunit  (x5 / 块
+))            :arg0  (x9 / 我
+))      :op2  (x10 / 问-01
+            :arg0  (x9 / 我
+)            :arg2  (x11 / 父亲
+)            :arg1  (x16 / 能-01
+                  :arg0  (x17_x18 / 长出-01
+                        :arg0  (x13 / 豌豆
+))                  :arg0-of  (x14 / 真-01
+)                  :mode  (x19_x20 / interrogative
+))))
+===========================
+父亲摸摸我的后脑勺，信心十足地说：“当然能！”
+(x15 / and
+      :op1  (x2 / 摸-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x5 / 后脑勺
+                  :part-of  (x3 / 我
+)))      :op2  (x10 / 说-01
+            :manner  (x8 / 十足-01
+                  :arg0  (x7 / 信心
+))            :arg0  (x1 / 父亲
+)            :arg1  (x13 / 能
+                  :manner  (x12 / 当然
+)                  :mode  (x14 / expressive
+))))
+===========================
+我似信非信地点点头。
+(x4_x5 / 点头-01
+      :arg0  (x1 / 我
+)      :manner  (x2 / 似信非信
+))
+===========================
+没过多久，菜园里长出了一片绿绿的豌豆。
+(x16 / temporal
+      :arg1  (x2 / 过-01
+            :duration  (x3 / 多久
+)            :polarity  (x1 / 没-01
+))      :arg2  (x7_x8 / 长出-01
+            :aspect  (x9 / 了
+)            :location  (x5 / 菜园
+)            :arg1  (x14 / 豌豆
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 片
+)                  :arg1-of  (x12 / 绿-01
+))))
+===========================
+就在我做着吃香喷喷的炒豌豆的美梦时，父亲却把那一片豌豆全翻在泥土里。
+(x22 / 翻-02
+      :time  (x4 / 做
+            :arg0  (x3 / 我
+)            :aspect  (x5 / 着
+)            :arg1  (x11 / 美梦
+                  :arg0-of  (x33 / mean
+                        :arg1  (x6 / 吃-01
+                              :arg1  (x9 / 炒豌豆
+                                    :mod  (x7 / 香喷喷
+))))))      :mod  (x15 / 却
+)      :arg0  (x14 / 父亲
+)      :arg1  (x20 / 豌豆
+            :extent  (x21 / 全
+)            :mod  (x17 / 那
+)            :cunit  (x19 / 片
+)            :quant  (x18 / 1
+))      :location  (x24 / 泥土
+))
+===========================
+我有些疑惑不解。
+(x3 / 疑惑不解
+      :degree  (x2 / 有些
+)      :arg0  (x1 / 我
+))
+===========================
+父亲说：“我们不能光顾眼前，也真难为了这片荒地，它是拼了命才养出这一片豌豆来的。
+(x2 / 说-02
+      :arg0  (x1 / 父亲
+)      :arg1  (x35 / and
+            :op1  (x5_2 / 能-01
+                  :polarity  (x5_1 / -
+)                  :arg0  (x6_2 / 顾-01
+                        :manner  (x6_1 / 光
+)                        :arg1  (x7 / 眼前
+)))            :op2  (x37 / causation
+                  :arg2  (x11 / 难为-01
+                        :aspect  (x12 / 了
+)                        :arg0  (x15 / 荒地
+                              :mod  (x13 / 这
+)                              :cunit  (x14 / 片
+))                        :mod  (x9 / 也
+)                        :degree  (x10 / 真
+))                  :arg1  (x39 / condition
+                        :arg1  (x19_x21 / 拼命-01
+                              :aspect  (x20 / 了
+)                              :arg0  (x17 / x15
+))                        :mode  (x18_x30 / judgement
+)                        :arg2  (x23 / 养-01
+                              :cause-of  (x24_x29 / 出来-01
+                                    :arg0  (x28 / 豌豆
+                                          :cunit  (x27 / 片
+)                                          :quant  (x26 / 1
+)                                          :mod  (x25 / 这
+)))                              :arg0  (x15 / 荒地
+))))))
+===========================
+就这样榨干它，以后就别想吃瓜吃菜了。
+(x16 / condition
+      :arg2  (x9 / 想-02
+            :time  (x6 / 以后
+)            :polarity  (x8 / -
+)            :arg1  (x25 / and
+                  :op1  (x10 / 吃-01
+                        :arg1  (x11 / 瓜
+))                  :op2  (x12 / 吃-01
+                        :arg1  (x13 / 菜
+)))            :smood  (x14 / 了
+))      :arg1  (x3_1 / 榨-01
+            :cause-of  (x3_2 / 干-02
+                  :arg0  (x4 / 它
+))            :mod  (x2 / 这样-01
+)            :arg1  (x4 / 它
+)))
+===========================
+这一季豌豆就用来肥土吧。”
+(x11 / say
+      :arg1  (x6 / 用来-01
+            :arg3  (x7 / 肥
+                  :arg0  (x8 / 土
+))            :arg2  (x4 / 豌豆
+                  :cunit  (x3 / 季
+)                  :quant  (x2 / 1
+)                  :mod  (x1 / 这
+))            :mode  (x9 / imperative
+)            :mod  (x5 / 就
+)))
+===========================
+以后的日子，我们便四处拾粪。
+(x8 / 拾-01
+      :mod  (x6 / 便
+)      :duration  (x3 / 日子
+            :mod  (x1 / 以后
+))      :arg0  (x5 / 我们
+)      :location  (x7 / 四处
+)      :arg1  (x9 / 粪
+))
+===========================
+有时候我在山坡上放牛，尿憋急了，父亲也要我跑到菜地里去撒。
+(x24 / temporal
+      :time  (x1 / 有时候
+)      :arg1  (x6 / 放牛-01
+            :arg0  (x2 / 我
+)            :location  (x4 / 山坡
+))      :arg2  (x9 / 憋-01
+            :cause-of  (x10 / 急-01
+                  :aspect  (x11 / 了
+)                  :arg0  (x8 / 尿
+))            :arg0  (x2 / 我
+)            :arg1  (x8 / 尿
+))      :arg3  (x15 / 要-01
+            :mod  (x14 / 也
+)            :arg0  (x13 / 父亲
+)            :arg1  (x16 / x2
+)            :arg2  (x17_x18 / 跑到-01
+                  :arg0  (x16 / x2
+)                  :arg1  (x19 / 菜地
+)                  :purpose  (x22 / 撒-01
+                        :arg0  (x2 / 我
+)                        :arg1  (x8 / 尿
+)))))
+===========================
+在父亲的精心伺候下，原来贫瘠的死黄土，变得黑亮，锄头挖下去，还能翻出蚯蚓来呢。
+(x30 / and
+      :cause  (x5 / 伺候-01
+            :arg0  (x2 / 父亲
+)            :mod  (x4 / 精心
+))      :op1  (x14 / 变-01
+            :arg2  (x16 / 黑亮
+                  :arg0  (x12 / 黄土
+                        :time  (x8 / 原来
+)                        :arg0-of  (x11 / 死-01
+)                        :arg0-of  (x9 / 贫瘠-01
+)))            :arg0  (x12 / 黄土
+))      :op2  (x41 / condition
+            :arg1  (x19_x20 / 挖
+                  :instrument  (x18 / 锄头
+))            :arg2  (x23 / 能-01
+                  :mod  (x22 / 还
+)                  :arg0  (x24 / 翻-02
+                        :cause-of  (x25 / 出-01
+                              :arg0  (x26 / 蚯蚓
+))                        :arg1  (x12 / 黄土
+))                  :mode  (x28 / expressive
+))))
+===========================
+远远望去，父亲的菜园就像一块碧绿的翡翠，嵌在荒凉的山坡上。
+(x22 / condition
+      :arg1  (x2 / 望去
+            :manner  (x1 / 远远
+))      :arg2  (x15 / 嵌-01
+            :arg1  (x6 / 菜园
+                  :poss  (x4 / 父亲
+))            :arg2  (x19 / 山坡
+                  :mod  (x17 / 荒凉
+))            :manner  (x8 / 像-01
+                  :arg0  (x6 / 菜园
+)                  :arg1  (x13 / 翡翠
+                        :mod  (x11 / 碧绿
+)                        :quant  (x9 / 1
+)                        :cunit  (x10 / 块
+)))))
+===========================
+直到现在，那一块坡地，仍是我家的菜园。
+(x14 / 菜园
+      :time  (x2 / 现在
+)      :poss  (x12 / 家
+            :poss  (x11 / 我
+))      :mod  (x9 / 仍
+)      :domain  (x7 / 坡地
+            :mod  (x4 / 那
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 块
+)))
+===========================
+春有菠菜、莴笋，夏有黄瓜、茄子，秋有辣椒、南瓜，冬有萝卜、白菜。
+(x25 / and
+      :op1  (x2 / 有-03
+            :arg1  (x28 / and
+                  :op1  (x3 / 菠菜
+)                  :op2  (x5 / 莴笋
+))            :time  (x30 / date-entity
+                  :season  (x1 / 春
+)))      :op2  (x8 / 有-03
+            :arg1  (x31 / and
+                  :op1  (x9 / 黄瓜
+)                  :op2  (x11 / 茄子
+))            :time  (x32 / date-entity
+                  :season  (x7 / 夏
+)))      :op3  (x14 / 有-03
+            :arg1  (x34 / and
+                  :op1  (x15 / 辣椒
+)                  :op2  (x17 / 南瓜
+))            :time  (x35 / date-entity
+                  :season  (x13 / 秋
+)))      :op4  (x20 / 有-03
+            :arg1  (x37 / and
+                  :op1  (x21 / 萝卜
+)                  :op2  (x23 / 白菜
+))            :time  (x38 / date-entity
+                  :season  (x19 / 冬
+))))
+===========================
+一年四季，都是一片诱人的翠绿。
+(x9 / 翠绿
+      :time  (x1 / 一年四季
+            :extent  (x3 / 都
+))      :mode  (x4 / judgement
+)      :arg0-of  (x7 / 诱人-01
+)      :cunit  (x6 / 片
+)      :quant  (x5 / 1
+))
+===========================

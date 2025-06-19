@@ -1,0 +1,114 @@
+王二小是儿童团员。
+(x4 / 团员
+      :mod  (x3 / 儿童
+)      :domain  (x9 / person
+            :name  ( x1/王二小 
+)))
+===========================
+他常常一边放牛，一边帮助八路军放哨。
+(x11 / and
+      :op1  (x4 / 放牛-01
+            :arg0  (x1 / 他
+))      :op2  (x7 / 帮助-02
+            :arg0  (x1 / 他
+)            :arg1  (x17 / military
+                  :name  ( x8/八路军 
+))            :arg2  (x9 / 放哨-01
+                  :arg0  (x1 / 他
+)))      :frequency  (x2 / 常常
+))
+===========================
+有一天，敌人来扫荡，走到山口迷了路。
+(x16 / temporal
+      :arg1  (x6 / 来-06
+            :time  (x1_x2_x3 / 有一天
+)            :arg0  (x7 / 扫荡-01
+                  :arg0  (x5 / 敌人
+)))      :arg2  (x9 / 走-01
+            :arg0  (x5 / 敌人
+)            :arg2  (x11 / 山口
+))      :arg3  (x12_x14 / 迷路-01
+            :aspect  (x13 / 了-01
+)            :arg0  (x5 / 敌人
+)))
+===========================
+敌人看见王二小在山坡上放牛，就叫他带路。
+(x14 / temporal
+      :arg1  (x2 / 看见-01
+            :arg0  (x1 / 敌人
+)            :arg1  (x7 / 放牛-01
+                  :arg0  (x20 / person
+                        :name  ( x3/王二小 
+))                  :location  (x6 / 上-06
+                        :arg0  (x5 / 山坡
+))))      :arg2  (x10 / 叫-04
+            :arg0  (x1 / 敌人
+)            :arg1  (x11 / x20
+)            :arg2  (x12 / 带路-01
+                  :arg0  (x11 / x20
+)                  :arg1  (x1 / 敌人
+))))
+===========================
+王二小装着顺从的样子走在前面，把敌人带进了八路军的埋伏圈。
+(x22 / and
+      :op1  (x7 / 走-01
+            :manner  (x2 / 装-01
+                  :arg0  (x26 / person
+                        :name  ( x1/王二小 
+))                  :arg1  (x6 / 样子
+                        :mod  (x4 / 顺从-01
+                              :arg0  (x26 / person
+)))                  :aspect  (x3 / 着
+))            :arg0  (x26 / person
+)            :location  (x9 / 前面
+)            :op2  (x13_x14 / 带进-01
+                  :arg0  (x26 / person
+)                  :arg1  (x12 / 敌人
+)                  :aspect  (x15 / 了
+)                  :arg2  (x19 / 圈
+                        :mod  (x18 / 埋伏
+)                        :poss  (x36 / military
+                              :name  ( x16/八路军 
+))))))
+===========================
+突然，四面八方响起了枪声。
+(x4 / 响起-01
+      :manner  (x1 / 突然
+)      :arg0  (x6 / 枪声
+)      :location  (x3 / 四面八方
+)      :aspect  (x5 / 了
+))
+===========================
+敌人知道上了当，就杀害了小英雄王二小。
+(x14 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 敌人
+)            :arg1  (x3_x5 / 上当-01
+                  :arg0  (x1 / 敌人
+)                  :aspect  (x4 / 了
+)))      :arg2  (x8 / 杀害-01
+            :aspect  (x9 / 了
+)            :arg0  (x1 / 敌人
+)            :arg1  (x11 / 英雄
+                  :arg0-of  (x10 / 小
+)                  :arg0-of  (x24 / mean
+                        :arg1  (x25 / person
+                              :name  ( x12/王二小 
+))))))
+===========================
+正在这时候，八路军从山上冲下来，消灭了全部敌人。
+(x15 / temporal
+      :arg1  (x7 / 冲-01
+            :time  (x2 / 这时候
+)            :arg0  (x19 / military
+                  :name  ( x4/八路军 
+))            :source  (x6 / 山上
+)            :direction  (x8 / 下来-01
+                  :arg0  (x19 / military
+)))      :arg2  (x10 / 消灭-01
+            :arg0  (x19 / military
+)            :aspect  (x11 / 了
+)            :arg1  (x13 / 敌人
+                  :extent  (x12 / 全部
+))))
+===========================

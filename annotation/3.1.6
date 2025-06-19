@@ -1,0 +1,462 @@
+1928年夏天，高尔基住在列宁格勒。
+(x6 / 住-01
+      :arg0  (x12 / person
+            :name  ( x5/高尔基 
+))      :arg1  (x13 / city
+            :name  ( x8/列宁格勒 
+))      :time  (x16 / date-entity
+            :year  (x1 / 1928
+)            :season  (x3 / 夏天
+)))
+===========================
+他经常坐在窗子旁边工作。
+(x7 / 工作-01
+      :manner  (x3 / 坐-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 旁边
+                  :arg0  (x5 / 窗子
+)))      :arg0  (x1 / 他
+)      :frequency  (x2 / 经常
+))
+===========================
+一个阳光明媚的早晨，高尔基正在读书，突然，一个小纸团从窗外飞到了桌子上。
+(x24 / temporal
+      :arg1  (x9 / 读书-01
+            :aspect  (x8 / 正在
+)            :arg0  (x28 / person
+                  :name  ( x7/高尔基 
+)))      :time  (x5 / 早晨
+            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+)            :mod  (x3 / 明媚-01
+                  :arg0  (x2 / 阳光
+)))      :arg2  (x18_x19 / 飞到-01
+            :manner  (x11 / 突然
+)            :arg0  (x15 / 纸团
+                  :arg0-of  (x14 / 小-01
+)                  :quant  (x13_1 / 1
+)                  :cunit  (x13_2 / 个
+))            :aspect  (x20 / 了
+)            :arg1  (x22 / 上
+                  :arg0  (x21 / 桌子
+))            :arg2  (x17 / 窗外
+)))
+===========================
+高尔基打开纸团，上面写着：亲爱的高尔基同志：我是一名少先队员。
+(x21 / and
+      :op1  (x2 / 打开-01
+            :arg0  (x24 / person
+                  :name  ( x1/高尔基 
+))            :arg1  (x4 / 团
+                  :consist-of  (x3 / 纸
+)))      :op2  (x7 / 写-01
+            :arg2  (x6 / 上面
+                  :arg0  (x4 / 团
+))            :arg1  (x30 / and
+                  :op1  (x13 / 同志
+                        :name  ( x12/高尔基 
+)                        :arg0-of  (x10 / 亲爱-01
+))                  :op2  (x19 / 少先队员
+                        :domain  (x15 / 我
+)                        :quant  (x17 / 1
+)                        :cunit  (x18 / 名
+)))))
+===========================
+我想给您照张相，贴在我们的墙报上。
+(x2 / 想-01
+      :arg0  (x1 / 我
+)      :arg1  (x21 / and
+            :op1  (x5 / 照-02
+                  :arg1  (x7 / 相-01
+                        :cunit  (x6 / 张
+))                  :arg0  (x1 / 我
+)                  :arg2  (x4 / 您
+))            :op2  (x9 / 贴-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x7 / 相-01
+)                  :arg2  (x13 / 墙报
+                        :poss  (x11 / 我们
+)))))
+===========================
+请您让他们放我进去。
+(x1 / 请-01
+      :arg1  (x2 / 您
+)      :arg2  (x3 / 让-02
+            :arg0  (x2 / 您
+)            :arg1  (x4 / 他们
+)            :arg2  (x5 / 放-02
+                  :arg0  (x4 / 他们
+)                  :arg1  (x6 / 我
+)                  :cause-of  (x7 / 进去-01
+                        :arg0  (x6 / 我
+)))))
+===========================
+我照完相，立刻就走。
+(x9 / temporal
+      :arg1  (x3 / 完-01
+            :arg0  (x2 / 照-02
+                  :arg1  (x4 / 相
+)                  :arg0  (x1 / 我
+)))      :arg2  (x8 / 走-01
+            :arg0  (x1 / 我
+)            :time  (x6 / 立刻
+)))
+===========================
+高尔基从窗口向外望去，看见人行道边上坐着个十岁左右的小男孩，手里拿着一架照相机。
+(x29 / temporal
+      :arg1  (x6 / 望-01
+            :arg0  (x32 / person
+                  :name  ( x1/高尔基 
+))            :source  (x3 / 窗口
+)            :direction  (x5 / 外
+))      :arg2  (x9 / 看见-01
+            :arg0  (x32 / person
+)            :arg1  (x37 / and
+                  :op1  (x12 / 坐-01
+                        :aspect  (x13 / 着
+)                        :arg0  (x20 / 男孩
+                              :arg0-of  (x19 / 小
+)                              :age  (x42 / temporal-quantity
+                                    :quant  (x17 / 左右
+                                          :op1  (x15 / 10
+))                                    :unit  (x16 / 岁
+))                              :cunit  (x14 / 个
+))                        :arg1  (x11 / 边上
+                              :arg0  (x10 / 人行道
+)))                  :op2  (x23 / 拿-03
+                        :aspect  (x24 / 着
+)                        :arg1  (x27 / 照相机
+                              :quant  (x25 / 1
+)                              :cunit  (x26 / 架
+))                        :arg0  (x22 / 手里
+                              :part-of  (x20 / 男孩
+))))))
+===========================
+“是你扔的纸团吗？”高尔基问。
+(x10 / 问-01
+      :arg0  (x14 / person
+            :name  ( x9/高尔基 
+))      :arg1  (x4 / 扔-01
+            :mode  (x2_x5 / judgement
+)            :arg0  (x3 / 你
+)            :arg1  (x6 / 纸团
+)            :mode  (x7_x9 / interrogative
+)))
+===========================
+“是的。”
+(x5 / say
+      :arg1  (x2_x3 / 是的
+))
+===========================
+小男孩起来，鞠了个躬，“请让我进去吧！”
+(x16 / temporal
+      :arg1  (x3 / 起来-01
+            :arg0  (x2 / 男孩
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x5 / 鞠-01
+            :arg0  (x2 / 男孩
+)            :arg1  (x8 / 躬
+                  :cunit  (x7 / 个
+))            :aspect  (x6 / 了-01
+))      :arg3  (x25 / say
+            :arg1  (x10 / 请-01
+                  :arg0  (x2 / 男孩
+)                  :arg2  (x11 / 让-02
+                        :arg1  (x12 / x2
+)                        :arg2  (x13 / 进去-01
+                              :arg0  (x2 / 男孩
+)))                  :mode  (x14 / imperative
+)                  :mode  (x15 / expressive
+))))
+===========================
+“来吧，我让他们放你进来。”高尔基说。
+(x13 / 说-01
+      :arg0  (x17 / person
+            :name  ( x12/高尔基 
+))      :arg1  (x19 / and
+            :op1  (x2 / 来-01
+                  :mode  (x3 / imperative
+)                  :arg0  (x9 / 你
+))            :op2  (x6 / 让-02
+                  :arg0  (x5 / x17
+)                  :arg1  (x7 / 他们
+)                  :arg2  (x8 / 放-02
+                        :arg0  (x7 / 他们
+)                        :arg1  (x9 / 你
+)                        :cause-of  (x10 / 进来-01
+                              :arg0  (x9 / 你
+))))))
+===========================
+过了一会儿，小男孩站在高尔基面前了。
+(x13 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x3 / 一会儿
+))      :arg2  (x7 / 站-01
+            :arg0  (x6 / 男孩
+                  :arg0-of  (x5 / 小-01
+))            :arg1  (x10 / 面前
+                  :arg0  (x23 / person
+                        :name  ( x9/高尔基 
+)))            :aspect  (x11 / 了
+)))
+===========================
+他仔细打量着高尔基，咧开嘴笑了，然后用手指了指沙发，说：“请您坐在这儿看报纸。”
+(x31 / temporal
+      :arg1  (x3 / 打量-01
+            :arg0  (x1 / 他
+)            :arg1  (x35 / person
+                  :name  ( x5/高尔基 
+))            :aspect  (x4 / 着
+)            :manner  (x2 / 仔细
+))      :arg2  (x10 / 笑-01
+            :arg0  (x1 / 他
+)            :aspect  (x11 / 了
+)            :manner  (x7 / 咧-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x9 / 嘴
+                        :part-of  (x1 / 他
+))))      :arg3  (x44 / and
+            :op1  (x16_x18 / 指-05
+                  :aspect  (x17 / 了
+)                  :arg0  (x1 / 他
+)                  :arg1  (x19 / 沙发
+)                  :manner  (x14 / 用-01
+                        :arg1  (x15 / 手
+                              :part-of  (x1 / 他
+))))            :op2  (x21 / 说-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x23 / 请-01
+                        :arg1  (x24 / x35
+)                        :arg2  (x54 / and
+                              :op1  (x25 / 坐-01
+                                    :arg0  (x35 / person
+)                                    :arg1  (x27 / 这儿
+))                              :op2  (x28 / 看-02
+                                    :arg0  (x57 / person
+)                                    :arg1  (x29 / 报纸
+)))))))
+===========================
+高尔基拿了张报纸，按小男孩的吩咐坐下。
+(x14 / temporal
+      :arg1  (x2 / 拿-01
+            :aspect  (x3 / 了-01
+)            :arg0  (x18 / person
+                  :name  ( x1/高尔基 
+))            :arg1  (x5 / 报纸
+                  :cunit  (x4 / 张
+)))      :arg2  (x12 / 坐下-01
+            :manner  (x7 / 按-02
+                  :arg1  (x11 / 吩咐
+                        :poss  (x9 / 男孩
+                              :arg0-of  (x8 / 小-01
+)))                  :arg0  (x18 / person
+))            :arg0  (x18 / person
+)))
+===========================
+小男孩摆弄了很久很久，说：“一切准备停当。”
+(x16 / temporal
+      :arg1  (x3 / 摆弄-01
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 男孩
+                  :arg0-of  (x1 / 小-01
+))            :duration  (x6_x8 / 久-01
+                  :degree  (x5_x7 / 很
+)))      :arg2  (x10 / 说-01
+            :arg0  (x2 / 男孩
+)            :arg1  (x14 / 停当
+                  :arg0  (x13 / 准备-01
+                        :arg1  (x12 / 一切
+)))))
+===========================
+高尔基侧过脸，对着他微笑。
+(x11 / and
+      :op1  (x2 / 侧-01
+            :arg1  (x4 / 脸
+                  :part-of  (x15 / person
+                        :name  ( x1/高尔基 
+)))            :arg0  (x15 / person
+))      :op2  (x9 / 微笑-01
+            :manner  (x6 / 对
+                  :arg0  (x15 / person
+)                  :aspect  (x7 / 着
+)                  :arg1  (x8 / 他
+))))
+===========================
+突然，小男孩往地上一坐，哭了起来。
+(x14 / temporal
+      :arg1  (x7_x8 / 坐-01
+            :direction  (x6 / 地上
+)            :arg0  (x4 / 男孩
+                  :arg0-of  (x3 / 小-01
+))            :manner  (x1 / 突然
+))      :arg2  (x10_x12 / 哭-01
+            :aspect  (x11 / 了
+)            :arg0  (x4 / 男孩
+)))
+===========================
+“你怎么了？”高尔基不安。
+(x9 / and
+      :op1  (x11 / say
+            :arg1  (x2 / 你
+                  :mod  (x3 / amr-unknown
+)                  :smood  (x4 / 了
+)                  :mode  (x5 / interrogative
+)))      :op2  (x7 / 不安-01
+            :arg0  (x16 / person
+                  :name  ( x6/高尔基 
+))))
+===========================
+出了什么事。
+(x1 / 出-07
+      :arg1  (x4 / 事
+            :mod  (x3 / amr-unknown
+))      :aspect  (x2 / 了
+))
+===========================
+小男孩哭着说：“我把胶卷忘在家里了。”
+(x5 / 说-01
+      :manner  (x3 / 哭-01
+            :aspect  (x4 / 着
+)            :arg0  (x2 / 男孩
+                  :arg0-of  (x1 / 小-01
+)))      :arg0  (x2 / 男孩
+)      :arg1  (x10 / 忘-01
+            :arg0  (x7 / x2
+)            :arg1  (x9 / 胶卷
+                  :location  (x12 / 家里
+))            :smood  (x13 / 了
+)))
+===========================
+高尔基赶紧站起来，小男孩已经提着照相机跑出去了。
+(x16 / and
+      :op1  (x3 / 站-01
+            :cause-of  (x4 / 起来-01
+                  :arg0  (x21 / person
+                        :name  ( x1/高尔基 
+)))            :arg0  (x21 / person
+)            :manner  (x2 / 赶紧
+))      :op2  (x12 / 跑-01
+            :cause-of  (x13 / 出去-01
+                  :arg0  (x7 / 男孩
+                        :arg0-of  (x6 / 小-01
+)))            :aspect  (x8 / 已经
+)            :manner  (x9 / 提-01
+                  :aspect  (x10 / 着
+)                  :arg0  (x7 / 男孩
+)                  :arg1  (x11 / 照相机
+))            :arg0  (x7 / 男孩
+)            :smood  (x14 / 了
+)))
+===========================
+高尔基走到窗口，大声喊道：“孩子，回来！我给你胶卷，我这儿有很多胶卷。”
+(x25 / temporal
+      :arg1  (x2_x3 / 走到-01
+            :arg0  (x28 / person
+                  :name  ( x1/高尔基 
+))            :arg1  (x4 / 窗口
+))      :arg2  (x7_x8 / 喊-01
+            :arg0  (x28 / person
+)            :manner  (x6 / 大声
+)            :arg1  (x33 / and
+                  :op1  (x12 / 回来-01
+                        :arg0  (x10 / 孩子
+)                        :mode  (x13 / imperative
+))                  :op2  (x15 / 给-01
+                        :arg0  (x14 / x28
+)                        :arg1  (x16 / x10
+)                        :arg2  (x17 / 胶卷
+))                  :op3  (x21 / 有-01
+                        :arg0  (x20 / 这儿
+                              :poss  (x19 / 我
+))                        :arg1  (x23 / 胶卷
+                              :quant  (x22 / 很多
+))))))
+===========================
+男孩哭着，跳上一辆电车。
+(x11 / and
+      :op1  (x2 / 哭-01
+            :arg0  (x1 / 男孩
+)            :aspect  (x3 / 着
+))      :op2  (x5 / 跳-01
+            :cause-of  (x6 / 上-01
+                  :arg1  (x9 / 电车
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 辆
+))                  :arg0  (x1 / 男孩
+))            :arg0  (x1 / 男孩
+)))
+===========================
+电车马上开走了。
+(x3_x4 / 开走-01
+      :arg1  (x1 / 电车
+)      :aspect  (x5 / 了
+)      :time  (x2 / 马上
+))
+===========================
+晚上，秘书告诉高尔基：“外面来了一位摄影师。”
+(x4 / 告诉-01
+      :arg0  (x3 / 秘书
+)      :arg2  (x17 / person
+            :name  ( x5/高尔基 
+))      :arg1  (x8 / 来-01
+            :aspect  (x9 / 了
+)            :arg0  (x12 / 摄影师
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 位
+)                  :location  (x7 / 外面
+)))      :time  (x1 / 晚上
+))
+===========================
+“是个小男孩吗？”高尔基问。
+(x9 / 问-01
+      :arg0  (x13 / person
+            :name  ( x8/高尔基 
+))      :arg1  (x5 / 男孩
+            :domain  (x15 / person
+)            :cunit  (x3 / 个
+)            :arg0-of  (x4 / 小-01
+)            :mode  (x6_x7 / interrogative
+)))
+===========================
+“不是。
+(x5 / say
+      :arg1  (x3 / 是
+            :polarity  (x2 / -
+)))
+===========================
+是一家杂志社记者”
+(x6 / say
+      :arg1  (x4 / 记者
+            :mod  (x3 / 杂志社
+                  :quant  (x2_1 / 1
+)                  :cunit  (x2_2 / 家
+))            :domain  (x12 / person
+)))
+===========================
+“请转告他，我很忙。
+(x10 / say
+      :arg1  (x2 / 请-01
+            :arg2  (x3 / 转告-01
+                  :arg2  (x4 / 他
+)                  :arg1  (x8 / 忙-01
+                        :arg0  (x6 / 我
+)                        :degree  (x7 / 很
+)))))
+===========================
+不过，来的如果是个小男孩，就一定让他进来。”
+(x17 / say
+      :arg1  (x19 / contrast
+            :arg2  (x20 / condition
+                  :arg1  (x9 / 男孩
+                        :domain  (x22 / person
+                              :arg0-of  (x3 / 来-01
+))                        :arg0-of  (x8 / 小-01
+)                        :cunit  (x7 / 个
+))                  :arg2  (x12 / 一定
+                        :arg0  (x13 / 让-02
+                              :arg1  (x14 / x9
+)                              :arg2  (x15 / 进来-01
+                                    :arg0  (x9 / 男孩
+)))))))
+===========================

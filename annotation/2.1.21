@@ -1,0 +1,217 @@
+科利亚病了，住进了医院。
+(x10 / causation
+      :arg1  (x2 / 病-01
+            :arg0  (x13 / person
+                  :name  ( x1/科利亚 
+))            :aspect  (x3 / 了-01
+))      :arg2  (x5_x6 / 住进-01
+            :arg0  (x13 / person
+)            :arg1  (x8 / 医院
+)            :aspect  (x7 / 了-01
+)))
+===========================
+他得的是传染病，医院规定，谁也不准来看他，他也不能到病房外面去。
+(x26 / causation
+      :arg1  (x5 / 传染病
+            :domain  (x30 / disease
+                  :arg1-of  (x2 / 得-01
+                        :arg0  (x1 / 他
+))))      :arg2  (x8 / 规定-01
+            :arg0  (x7 / 医院
+)            :arg1  (x35 / and
+                  :op1  (x12_2 / 准-01
+                        :polarity  (x12_1 / -
+)                        :arg1  (x10 / 谁
+                              :extent  (x11 / 也
+))                        :arg2  (x13 / 来-01
+                              :purpose  (x14 / 看-02
+                                    :arg0  (x10 / 谁
+)                                    :arg1  (x15 / 他
+))                              :arg0  (x10 / 谁
+)                              :arg1  (x7 / 医院
+)))                  :op2  (x20 / 能-01
+                        :polarity  (x19 / -
+)                        :arg0  (x21 / 到-01
+                              :arg0  (x17 / 他
+)                              :arg1  (x23 / 外面
+                                    :arg0  (x22 / 病房
+)))))))
+===========================
+科利亚静静地躺在病床上，呆呆地望着窗户。
+(x13 / and
+      :op1  (x3 / 躺-01
+            :arg0  (x16 / person
+                  :name  ( x1/科利亚 
+))            :arg1  (x5 / 病床
+)            :manner  (x2 / 静静地
+))      :op2  (x9 / 望-01
+            :aspect  (x10 / 着
+)            :arg0  (x16 / person
+)            :arg1  (x11 / 窗户
+)            :manner  (x8 / 呆呆地
+)))
+===========================
+三楼能望到什么呢？
+(x3 / 能-01
+      :arg0  (x4 / 望-01
+            :arg1  (x6 / amr-unknown
+))      :location  (x2 / 楼
+            :ord  (x13 / ordinal-entity
+                  :value  (x1 / 3
+)))      :mode  (x7_x8 / interrogative
+))
+===========================
+除了对面的楼房和一角天空以外，什么也看不见。
+(x32 / possible
+      :arg0  (x12_x14 / 看见-01
+            :polarity  (x13 / -
+)            :arg1  (x10 / 什么
+                  :extent  (x11 / 也
+)                  :arg0-of  (x1_x8 / 除了
+                        :arg1  (x5 / and
+                              :op1  (x4 / 楼房
+                                    :location  (x2 / 对面
+))                              :op2  (x7 / 天空
+                                    :quant  (x6_1 / 1
+)                                    :cunit  (x6_2 / 角
+)))))))
+===========================
+他觉得真没意思。
+(x2 / 觉得-01
+      :arg0  (x1 / 他
+)      :arg1  (x4 / 没意思
+            :degree  (x3 / 真
+)))
+===========================
+突然，一个红气球摇摇摆摆地飘了上来，在科利亚房间的窗户前停住了。
+(x22 / temporal
+      :arg1  (x8 / 飘-01
+            :manner  (x1 / 突然
+)            :arg0  (x5 / 气球
+                  :arg0-of  (x4 / 红-01
+)                  :quant  (x3_1 / 1
+)                  :cunit  (x3_2 / 个
+))            :manner  (x6 / 摇摇摆摆
+)            :aspect  (x9 / 了
+)            :direction  (x10 / 上来-01
+                  :arg0  (x5 / 气球
+)))      :arg2  (x18_x19 / 停住-01
+            :arg1  (x5 / 气球
+)            :aspect  (x20 / 了
+)            :location  (x17 / 前
+                  :arg0  (x16 / 窗户
+                        :part-of  (x14 / 房间
+                              :poss  (x39 / person
+                                    :name  ( x13/科利亚 
+)))))))
+===========================
+气球停了一会儿，开始一上一下地动起来，这是怎么回事？
+(x22 / and
+      :op1  (x24 / temporal
+            :arg1  (x2 / 停-01
+                  :arg1  (x1 / 气球
+)                  :duration  (x4 / 一会儿
+)                  :aspect  (x3 / 了
+))            :arg2  (x6 / 开始-01
+                  :arg1  (x12_x13 / 动-01
+                        :manner  (x7_x8_x9_x10 / 一上一下
+)                        :arg1  (x1 / 气球
+))))      :op2  (x15 / 这
+            :cause  (x17_x18_x19 / amr-unknown
+)            :mode  (x20 / interrogative
+)            :arg0-of  (x35 / mean
+                  :arg1  (x24 / temporal
+))))
+===========================
+科利亚仔细一看，气球上画着一张可爱的小脸。
+(x3_x4 / 看-02
+      :arg0  (x19 / person
+            :name  ( x1/科利亚 
+))      :manner  (x2 / 仔细
+)      :arg1  (x6 / 气球
+            :location-of  (x8 / 画-01
+                  :arg1  (x15 / 脸
+                        :arg0-of  (x14 / 小-01
+)                        :quant  (x10 / 1
+)                        :cunit  (x11 / 张
+)                        :arg0-of  (x12 / 可爱-01
+))                  :aspect  (x9 / 着
+))))
+===========================
+这下他猜出来了，准是米沙想的招儿。
+(x3_x4 / 猜出-01
+      :aspect  (x5 / 了
+)      :arg0  (x2 / 他
+)      :time  (x1 / 这下
+)      :arg1  (x7 / 准
+            :arg0  (x12 / 招儿
+                  :domain  (x23 / thing
+)                  :arg1-of  (x10 / 想-01
+                        :arg0  (x25 / person
+                              :name  ( x9/米沙 
+))))))
+===========================
+科利亚的心情一下子好了许多。
+(x5 / 好-01
+      :arg0  (x3 / 心情
+            :poss  (x12 / person
+                  :name  ( x1/科利亚 
+)))      :aspect  (x6 / 了
+)      :manner  (x4 / 一下子
+)      :degree  (x7 / 许多
+))
+===========================
+他好像看见米沙拉动拴着气球的绳子，几个同学站在四周，叽叽喳喳地指手画脚。
+(x2 / 好像-01
+      :arg0  (x3 / 看见-01
+            :arg0  (x1 / 他
+)            :arg1  (x27 / and
+                  :op1  (x5 / 拉动-01
+                        :arg0  (x29 / person
+                              :name  ( x4/米沙 
+))                        :arg1  (x10 / 绳子
+                              :arg2-of  (x6 / 拴
+                                    :arg1  (x8 / 气球
+)                                    :aspect  (x7 / 着
+))))                  :op2  (x15 / 站-01
+                        :arg0  (x14 / 同学
+                              :quant  (x12 / 几
+)                              :cunit  (x13 / 个
+))                        :arg1  (x17 / 四周
+                              :arg0  (x29 / person
+)))                  :op3  (x21 / 指手画脚-01
+                        :manner  (x19 / 叽叽喳喳
+)                        :arg0  (x14 / 同学
+)))))
+===========================
+窗前的气球，代表同学们来问候科利亚。
+(x5 / 代表
+      :arg0  (x3 / 气球
+            :location  (x1 / 窗前
+))      :arg1  (x8 / 来-05
+            :arg0  (x6_x7 / 同学们
+)            :arg1  (x9 / 问候-01
+                  :arg0  (x6_x7 / 同学们
+)                  :arg1  (x20 / person
+                        :name  ( x10/科利亚 
+)))))
+===========================
+科利亚望着窗外那张逗人的“小脸”，高兴地笑了。
+(x18 / temporal
+      :arg1  (x2 / 望-01
+            :aspect  (x3 / 着
+)            :arg0  (x22 / person
+                  :name  ( x1/科利亚 
+))            :arg1  (x11 / 脸
+                  :arg0-of  (x10 / 小
+)                  :location  (x4 / 窗外
+)                  :mod  (x5 / 那
+)                  :arg0-of  (x7 / 逗人
+)                  :cunit  (x6 / 张
+)))      :arg2  (x15 / 笑-01
+            :aspect  (x16 / 了
+)            :manner  (x13 / 高兴-01
+                  :arg0  (x22 / person
+))            :arg0  (x22 / person
+)))
+===========================

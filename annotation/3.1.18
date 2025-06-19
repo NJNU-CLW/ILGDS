@@ -1,0 +1,321 @@
+孔子年轻的时候，就已经是远近闻名的老师了。
+(x11 / 老师
+      :domain  (x16 / person
+            :name  ( x1/孔子 
+))      :time  (x2 / 年轻-01
+            :arg0  (x16 / person
+))      :arg0-of  (x9 / 远近闻名
+)      :aspect  (x7 / 已经
+)      :aspect  (x12 / 了
+)      :mod  (x6 / 就
+))
+===========================
+他总觉得自己的知识还不够渊博，三十岁的时候，他离开家乡曲阜，去洛阳拜大思想家老子为师。
+(x30 / causation
+      :arg1  (x3 / 觉得
+            :mod  (x2 / 总-01
+)            :arg0  (x1 / 他
+)            :arg1  (x8_2 / 够-02
+                  :arg1  (x9 / 渊博
+)                  :arg0  (x6 / 知识
+                        :poss  (x4 / x1
+))                  :mod  (x7 / 还
+)                  :polarity  (x8_1 / -
+)))      :arg2  (x41 / temporal
+            :time  (x42 / temporal-quantity
+                  :quant  (x11 / 30
+)                  :cunit  (x12 / 岁
+))            :arg1  (x17 / 离开-01
+                  :arg0  (x16 / x1
+)                  :arg1  (x18 / 家乡
+                        :arg0-of  (x52 / mean
+                              :arg1  (x53 / city
+                                    :name  ( x19/曲阜 
+)))))            :arg2  (x21 / 去-01
+                  :arg1  (x47 / city
+                        :name  ( x22/洛阳 
+))                  :arg0  (x1 / 他
+)                  :purpose  (x23 / 拜-01
+                        :arg0  (x1 / 他
+)                        :arg1  (x25 / 思想家
+                              :name  ( x26/老子 
+)                              :arg0-of  (x24 / 大-01
+))                        :arg2  (x28 / 师
+)))))
+===========================
+曲阜和洛阳相距上千里，孔子风餐露宿，日夜兼程，几个月后，终于走到了洛阳。
+(x24 / and
+      :op1  (x4 / 相距-01
+            :arg0  (x2 / and
+                  :op1  (x28 / city
+                        :name  ( x1/曲阜 
+))                  :op2  (x29 / city
+                        :name  ( x3/洛阳 
+)))            :arg1  (x33 / distance-quantity
+                  :quant  (x5_1 / 上
+                        :op1  (x5_2 / 1000
+))                  :unit  (x6 / 里
+)))      :op2  (x9 / 风餐露宿
+            :arg0  (x37 / person
+                  :name  ( x8/孔子 
+)))      :op3  (x11 / 日夜兼程
+            :arg0  (x37 / person
+))      :op4  (x19_x20 / 走到-01
+            :aspect  (x21 / 了
+)            :arg1  (x43 / city
+                  :name  ( x22/洛阳 
+))            :arg0  (x37 / person
+)            :mod  (x18 / 终于
+)            :time  (x16 / 后
+                  :op1  (x46 / temporal-quantity
+                        :quant  (x13_x14 / 几
+)                        :op2  (x15 / 月
+)))))
+===========================
+在洛阳城外，孔子看见一驾马车，车旁站着一位七十多岁的老人，穿着长袍，头发胡子全白了，看上去很有学问。
+(x6 / 看见-01
+      :location  (x3 / 外
+            :arg0  (x41 / city
+                  :name  ( x2/洛阳城 
+)))      :arg0  (x43 / person
+            :name  ( x5/孔子 
+))      :arg1  (x45 / and
+            :op1  (x9 / 马车
+                  :quant  (x7 / 1
+))            :op2  (x13 / 站-01
+                  :arg0  (x21 / 老人
+                        :age  (x49 / temporal-quantity
+                              :quant  (x18 / 多
+                                    :op1  (x17 / 70
+))                              :unit  (x19 / 岁
+))                        :quant  (x15 / 1
+)                        :cunit  (x16 / 位
+))                  :arg1  (x12 / 旁
+                        :arg0  (x11 / x9
+)))            :op3  (x23_1 / 穿-01
+                  :aspect  (x23_2 / 着
+)                  :arg0  (x21 / 老人
+)                  :arg1  (x24 / 长袍
+))            :op4  (x29 / 白-01
+                  :aspect  (x30 / 了
+)                  :arg0  (x61 / and
+                        :op1  (x26 / 头发
+)                        :extent  (x28 / 全
+)                        :op2  (x27 / 胡子
+)))            :op5  (x32_x33 / 看上去
+                  :arg1  (x35 / 有-01
+                        :arg1  (x36 / 学问
+))                  :arg0  (x21 / 老人
+))))
+===========================
+孔子想：这位老人大概就是我要拜访的老师吧！
+(x2 / 想-01
+      :arg0  (x18 / person
+            :name  ( x1/孔子 
+))      :arg1  (x7 / 大概
+            :arg0  (x13 / 老师
+                  :domain  (x6 / 老人
+                        :mod  (x4 / 这
+)                        :cunit  (x5 / 位
+))                  :mod  (x8_1 / 就
+)                  :arg1-of  (x11 / 拜访-01
+                        :arg0-of  (x10 / 要-03
+)                        :arg0  (x9 / 我
+)))            :mode  (x14_x15 / expressive
+)))
+===========================
+于是上前行礼，问道：“老人家，您就是老子先生吧！”
+(x16 / causation
+      :arg2  (x21 / temporal
+            :arg1  (x2 / 上前
+)            :arg2  (x3 / 行礼
+)            :arg3  (x5 / 问道-01
+                  :arg1  (x23 / and
+                        :op1  (x7 / 老人家
+)                        :op2  (x13 / 先生
+                              :name  ( x12/老子 
+)                              :domain  (x9 / x7
+)                              :mod  (x10 / 就
+)                              :mode  (x14_x15 / expressive
+))))))
+===========================
+“你是——”
+(x5 / say
+      :arg1  (x7 / person
+            :domain  (x2 / 你
+)))
+===========================
+老人见这位风尘仆仆的年轻人一眼就认出了自己，有些纳闷。
+(x17 / causation
+      :arg1  (x2 / 见-01
+            :arg0  (x1 / 老人
+)            :arg1  (x21 / condition
+                  :arg1  (x8 / 一眼
+)                  :arg2  (x10 / 认出-01
+                        :arg0  (x7 / 年轻人
+                              :arg0-of  (x5 / 风尘仆仆-01
+)                              :mod  (x3 / 这
+)                              :cunit  (x4 / 位
+))                        :aspect  (x11 / 了
+)                        :arg1  (x12 / x1
+))))      :arg2  (x15 / 纳闷-01
+            :degree  (x14 / 有些
+)            :arg0  (x1 / 老人
+)))
+===========================
+孔子连忙说：“学生孔丘，特地来拜见老师，请收下我这个学生。”
+(x3 / 说-01
+      :manner  (x2 / 连忙
+)      :arg0  (x22 / person
+            :name  ( x1/孔子 
+))      :arg1  (x24 / and
+            :op1  (x5 / x22
+                  :name  ( x6/孔丘 
+))            :op2  (x9 / 来-01
+                  :arg0  (x22 / person
+)                  :arg1  (x10 / 拜见-01
+                        :arg1  (x11 / 老师
+)                        :arg0  (x22 / person
+))                  :manner  (x8 / 特地
+))            :op3  (x13 / 请-01
+                  :arg0  (x22 / person
+)                  :arg1  (x11 / 老师
+)                  :arg2  (x14 / 收下
+                        :arg0  (x11 / 老师
+)                        :arg1  (x15 / x22
+                              :arg0-of  (x34 / mean
+                                    :arg1  (x17 / 学生
+                                          :mod  (x16_x1 / 这
+)                                          :cunit  (x16_2 / 个
+))))))))
+===========================
+老子说：“你就是仲尼啊，听说你要来，我就在这儿迎候。
+(x2 / 说-01
+      :arg0  (x22 / person
+            :name  ( x1/老子 
+))      :arg1  (x24 / and
+            :op1  (x25 / person
+                  :name  ( x6/仲尼 
+                        :domain  (x4 / 你
+)                        :mod  (x5_1 / 就
+))                  :mode  (x7 / expressive
+))            :op2  (x30 / causation
+                  :arg1  (x9 / 听说-01
+                        :arg0  (x22 / person
+)                        :arg1  (x11 / 要-03
+                              :arg0  (x12 / 来-01
+                                    :arg0  (x10 / x4
+))))                  :arg2  (x18 / 迎候-01
+                        :arg0  (x14 / x22
+)                        :location  (x17 / 这儿
+)))))
+===========================
+研究学问你不比我差，为什么还要拜我为师呢？”
+(x17 / say
+      :arg1  (x19 / and
+            :op1  (x5 / 比-01
+                  :arg0  (x3 / 你
+)                  :arg1  (x6 / 我
+)                  :arg2  (x7 / 差-02
+                        :arg0  (x1 / 研究-01
+                              :arg1  (x2 / 学问
+))                        :polarity  (x4 / -
+)))            :op2  (x10_2 / 要-03
+                  :arg0  (x11 / 拜
+                        :arg1  (x12 / x6
+)                        :arg0  (x3 / 你
+)                        :arg2  (x14 / 师
+))                  :mod  (x10_1 / 还
+)                  :cause  (x9 / amr-unknown
+)                  :mode  (x15_x16 / interrogative
+))))
+===========================
+孔子听了再次行礼，说：“多谢老师的问候。
+(x15 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x18 / person
+                  :name  ( x1/孔子 
+))            :aspect  (x3 / 了
+))      :arg2  (x5 / 行礼-01
+            :manner  (x4 / 再次
+)            :arg0  (x18 / person
+))      :arg3  (x7 / 说-01
+            :arg0  (x18 / person
+)            :arg1  (x10 / 谢-02
+                  :degree  (x9 / 多
+)                  :arg0  (x13 / 问候
+                        :poss  (x11 / 老师
+)))))
+===========================
+学习是没有止境的。
+(x3_2 / 有-03
+      :polarity  (x3_1 / -
+)      :arg1  (x4 / 止境
+)      :arg0  (x1 / 学习
+)      :mode  (x2_x5 / judgement
+))
+===========================
+您的学问渊博，跟您学习，一定会大有长进的。”
+(x17 / say
+      :arg1  (x19 / causation
+            :arg1  (x4 / 渊博
+                  :arg0  (x3 / 学问
+                        :poss  (x1 / 您
+)))            :arg2  (x23 / condition
+                  :arg1  (x6 / 跟-01
+                        :arg1  (x7 / x1
+)                        :purpose  (x8 / 学习
+))                  :arg2  (x10 / 一定
+                        :arg0  (x11 / 会-02
+                              :arg0  (x13 / 有-03
+                                    :degree  (x12 / 大
+)                                    :arg1  (x14 / 长进
+)                                    :mode  (x15 / judgement
+)))))))
+===========================
+从此孔子每天不离老师左右，随时请教。
+(x12 / and
+      :time  (x1 / 从此
+)      :op1  (x5 / 离-01
+            :polarity  (x4 / -
+)            :arg1  (x7 / 左右
+                  :arg0  (x6 / 老师
+))            :arg0  (x19 / person
+                  :name  ( x2/孔子 
+))            :frequency  (x29 / rate-entity-91
+                  :arg3  (x30 / temporal-quantity
+                        :quant  (x3_1 / 1
+)                        :unit  (x3_2 / 天
+))))      :op2  (x10 / 请教-01
+            :manner  (x9 / 随时
+)            :arg0  (x19 / person
+)            :arg2  (x6 / 老师
+)))
+===========================
+老子也把自己的学问毫无保留地传授给他。
+(x10 / 传授-01
+      :arg0  (x16 / person
+            :name  ( x1/老子 
+))      :arg1  (x6 / 学问
+            :poss  (x4 / x16
+))      :manner  (x7_x8 / 毫无保留
+)      :arg2  (x12 / 他
+)      :mod  (x2 / 也
+))
+===========================
+人们佩服孔子和老子的学问，也敬重他们的品行。
+(x15 / and
+      :op1  (x2 / 佩服-01
+            :arg0  (x1 / 人们
+)            :arg1  (x7 / 学问
+                  :poss  (x4 / and
+                        :op1  (x21 / person
+                              :name  ( x3/孔子 
+))                        :op2  (x22 / person
+                              :name  ( x5/老子 
+)))))      :op2  (x10 / 敬重-01
+            :arg0  (x1 / 人们
+)            :arg1  (x13 / 品行
+                  :poss  (x11 / x4
+))))
+===========================

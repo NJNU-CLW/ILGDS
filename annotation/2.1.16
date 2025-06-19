@@ -1,0 +1,310 @@
+葡萄架下，有一只狐狸。
+(x4 / 有-03
+      :arg0  (x2 / 下
+            :arg0  (x1 / 葡萄架
+))      :arg1  (x7 / 狐狸
+            :quant  (x5 / 1
+)            :cunit  (x6 / 只
+)))
+===========================
+他一会儿转来转去，一会儿跳起来摘葡萄，可是一颗也没摘到。
+(x18 / contrast
+      :arg1  (x20 / and
+            :op1  (x3 / 转来转去
+                  :arg0  (x1 / 他
+)                  :time  (x2 / 一会儿
+))            :op2  (x6_x7 / 跳-01
+                  :arg0  (x1 / 他
+)                  :time  (x5 / 一会儿
+)                  :purpose  (x8_1 / 摘-01
+                        :arg1  (x8_2_3 / 葡萄
+))))      :arg2  (x15_x16 / 摘-01
+            :polarity  (x14 / -
+)            :arg0  (x1 / 他
+)            :mod  (x13 / 也
+)            :arg1  (x31 / thing
+                  :quant  (x11 / 1
+)                  :cunit  (x12 / 颗
+))))
+===========================
+于是，他指着架上的葡萄，说：“这葡萄是酸的，不能吃！”
+(x21 / causation
+      :arg2  (x23 / and
+            :op1  (x4_1 / 指-05
+                  :aspect  (x4_2 / 着
+)                  :arg0  (x3 / 他
+)                  :arg1  (x8 / 葡萄
+                        :location  (x6 / 上
+                              :arg0  (x5 / 架
+))))            :op2  (x10 / 说
+                  :arg0  (x3 / 他
+)                  :arg1  (x31 / causation
+                        :arg1  (x15 / 酸-01
+                              :arg0  (x13 / x8
+                                    :mod  (x12 / 这
+))                              :mode  (x14_x16 / judgement
+))                        :arg2  (x18_2 / 能-01
+                              :polarity  (x18_1 / -
+)                              :arg0  (x19 / 吃-01
+                                    :arg1  (x13 / x8
+))                              :mode  (x20 / expressive
+))))))
+===========================
+树上的小松鼠听了，心里想：狐狸很聪明，他说葡萄不能吃，那一定是很酸的。
+(x28 / temporal
+      :arg1  (x5 / 听-01
+            :aspect  (x6 / 了
+)            :arg0  (x4 / 松鼠
+                  :arg0-of  (x3 / 小-01
+)                  :location  (x1 / 树上
+)))      :arg2  (x9 / 想-01
+            :arg0  (x8 / 心里
+                  :part-of  (x4 / 松鼠
+))            :arg1  (x37 / causation
+                  :arg1  (x13 / 聪明-01
+                        :arg0  (x11 / 狐狸
+)                        :degree  (x12 / 很
+))                  :arg2  (x41 / causation
+                        :arg1  (x16 / 说-01
+                              :arg0  (x15 / 他
+)                              :arg1  (x18_2 / 能-01
+                                    :polarity  (x18_1 / -
+)                                    :arg0  (x19 / 吃-01
+                                          :arg1  (x17 / 葡萄
+))))                        :arg2  (x22 / 一定
+                              :arg0  (x25 / 酸-01
+                                    :degree  (x24 / 很
+)                                    :mode  (x23_x26 / judgement
+)                                    :arg0  (x17 / 葡萄
+)))))))
+===========================
+小松鼠把狐狸说的话告诉了小兔子。
+(x8 / 告诉-01
+      :arg0  (x2 / 松鼠
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x7 / 话
+            :arg1-of  (x5 / 说-01
+                  :arg0  (x4 / 狐狸
+)))      :aspect  (x9 / 了
+)      :arg2  (x11 / 兔子
+            :arg0-of  (x10 / 小-01
+)))
+===========================
+小兔子一听，心里想：狐狸和小松鼠都说葡萄是酸的，那一定不能吃！
+(x26 / temporal
+      :arg1  (x3_x4 / 听-01
+            :arg0  (x2 / 兔子
+                  :arg0-of  (x1 / 小
+)))      :arg2  (x7 / 想-01
+            :arg0  (x6 / 心里
+                  :part-of  (x2 / 兔子
+))            :arg1  (x33 / causation
+                  :arg1  (x14 / 说-01
+                        :arg0  (x10 / and
+                              :extent  (x13 / 都
+)                              :op1  (x9 / 狐狸
+)                              :op2  (x12 / 松鼠
+                                    :arg0-of  (x11 / 小-01
+)))                        :arg1  (x17 / 酸-01
+                              :mode  (x16_x18 / judgement
+)                              :arg0  (x15 / 葡萄
+)))                  :arg2  (x21 / 一定
+                        :arg0  (x23 / 能-01
+                              :arg0  (x24 / 吃-01
+                                    :arg1  (x15 / 葡萄
+))                              :polarity  (x22 / -
+))                        :mode  (x25 / expressive
+)))))
+===========================
+这时，来了一只小猴子。
+(x3 / 来-01
+      :arg0  (x8 / 猴子
+            :arg0-of  (x7 / 小-01
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 只
+))      :aspect  (x4 / 了
+)      :time  (x1 / 这时
+))
+===========================
+他望望架上那一串串紫红色的葡萄，迫不及待地爬上葡萄架，摘下一串就要往嘴里送。
+(x29 / temporal
+      :arg1  (x2_x3 / 望-01
+            :arg0  (x1 / 他
+)            :arg1  (x12 / 葡萄
+                  :arg0-of  (x10 / 紫红色
+)                  :quant  (x7_x8_x9 / 一串串
+)                  :location  (x5 / 上
+                        :arg0  (x4 / 架
+))                  :mod  (x6 / 那
+)))      :arg2  (x16_x17 / 爬上-01
+            :manner  (x14 / 迫不及待
+)            :arg0  (x1 / 他
+)            :arg1  (x18 / 葡萄架
+))      :arg3  (x20_x21 / 摘下-01
+            :arg0  (x1 / 他
+)            :arg1  (x44 / thing
+                  :arg1-of  (x45 / include-91
+                        :arg2  (x12 / 葡萄
+))                  :quant  (x22 / 1
+)                  :cunit  (x23 / 串
+)))      :arg4  (x24_2 / 要-03
+            :mod  (x24_1 / 就
+)            :arg0  (x27 / 送-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x44 / thing
+)                  :arg2  (x26 / 嘴里
+                        :part-of  (x1 / 他
+)))))
+===========================
+小兔子连忙说：“不能吃，不能吃，这葡萄是酸的！”
+(x4 / 说-01
+      :manner  (x3 / 连忙
+)      :arg0  (x2 / 兔子
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x24 / causation
+            :arg2  (x25 / and
+                  :op1  (x6_2 / 能-01
+                        :polarity  (x6_1 / -
+)                        :arg0  (x7 / 吃-01
+                              :arg1  (x13 / 葡萄
+                                    :mod  (x12 / 这
+))))                  :op2  (x9_2 / 能-01
+                        :polarity  (x9_1 / -
+)                        :arg0  (x10 / 吃-01
+                              :arg1  (x13 / 葡萄
+))))            :arg1  (x15 / 酸-01
+                  :arg0  (x13 / 葡萄
+)                  :mode  (x14_x16 / judgement
+)                  :mode  (x17 / expressive
+))))
+===========================
+小猴子笑着问：“你吃过吗？”
+(x5 / 问-01
+      :manner  (x3 / 笑-01
+            :arg0  (x2 / 猴子
+                  :arg0-of  (x1 / 小-01
+))            :aspect  (x4 / 着
+))      :arg0  (x2 / 猴子
+)      :arg1  (x8 / 吃-01
+            :aspect  (x9 / 过
+)            :arg0  (x7 / 你
+)            :mode  (x10_x11 / interrogative
+)))
+===========================
+小兔子摇摇头，说：“我没吃过，可是小松鼠说葡萄很酸。”
+(x22 / temporal
+      :arg1  (x3_x4_x5 / 摇头-01
+            :arg0  (x2 / 兔子
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x7 / 说
+            :arg0  (x2 / 兔子
+)            :arg1  (x28 / contrast
+                  :arg1  (x11 / 吃-01
+                        :aspect  (x12 / 过
+)                        :arg0  (x9 / x2
+)                        :arg1  (x18 / 葡萄
+))                  :arg2  (x17 / 说-01
+                        :arg0  (x16 / 松鼠
+                              :arg0-of  (x15 / 小-01
+))                        :arg1  (x20 / 酸-01
+                              :degree  (x19 / 很
+)                              :arg0  (x18 / 葡萄
+))))))
+===========================
+小猴子又问小松鼠：“你尝过吗？”
+(x4 / 问-01
+      :mod  (x3 / 又
+)      :arg0  (x2 / 猴子
+            :arg0-of  (x1 / 小-01
+))      :arg2  (x6 / 松鼠
+            :arg0-of  (x5 / 小-01
+))      :arg1  (x9 / 尝-01
+            :aspect  (x10 / 过
+)            :arg0  (x8 / 你
+)            :mode  (x11_x12 / interrogative
+)))
+===========================
+小松鼠也摇摇头，说：“我没敢尝，狐狸说这葡萄酸得很呢！”
+(x25 / temporal
+      :arg1  (x4_x5_x6 / 摇头-01
+            :mod  (x3 / 也
+)            :arg0  (x2 / 松鼠
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x8 / 说-01
+            :arg0  (x2 / 松鼠
+)            :arg1  (x32 / contrast
+                  :arg1  (x12 / 敢-01
+                        :polarity  (x11 / -
+)                        :arg0  (x10 / x2
+)                        :arg1  (x13 / 尝-01
+                              :arg0  (x10 / x2
+)                              :arg1  (x18 / 葡萄
+                                    :mod  (x17 / 这
+))))                  :arg2  (x16 / 说-01
+                        :arg0  (x15 / 狐狸
+)                        :arg1  (x19 / 酸-01
+                              :mode  (x22_x23 / expressive
+)                              :degree  (x21 / 很
+)                              :arg0  (x18 / 葡萄
+))))))
+===========================
+小猴子听了，大口大口地吃起葡萄来。
+(x16 / temporal
+      :arg1  (x3 / 听-01
+            :arg0  (x2 / 猴子
+                  :arg0-of  (x1 / 小-01
+))            :aspect  (x4 / 了
+))      :arg2  (x11_x12 / 吃-01
+            :arg0  (x2 / 猴子
+)            :arg1  (x13 / 葡萄
+)            :manner  (x6_x7_x8_x9 / 大口
+)))
+===========================
+小松鼠和小兔子见他吃得这么开心，也尝了一颗。
+(x19 / causation
+      :arg1  (x6 / 见-01
+            :arg0  (x3 / and
+                  :op1  (x2 / 松鼠
+                        :arg0-of  (x1 / 小-01
+))                  :op2  (x5 / 兔子
+                        :arg0-of  (x4 / 小-01
+)))            :arg1  (x11 / 开心-01
+                  :mod  (x10 / 这么
+)                  :arg0  (x7 / 他
+)                  :arg1  (x8 / 吃-01
+                        :arg0  (x7 / 他
+)                        :arg1-of  (x11 / 开心-01
+))))      :arg2  (x14 / 尝-01
+            :mod  (x13 / 也
+)            :arg0  (x3 / and
+)            :aspect  (x15 / 了
+)            :arg1  (x34 / thing
+                  :quant  (x16 / 1
+)                  :cunit  (x17 / 颗
+))))
+===========================
+啊！真甜。
+(x4 / 甜
+      :degree  (x3 / 真
+)      :mode  (x1_x2 / expressive
+))
+===========================
+小松鼠和小兔子真不明白，狐狸为什么硬说葡萄是酸的呢？
+(x8 / 明白-01
+      :polarity  (x7 / -
+)      :mod  (x6 / 真
+)      :arg0  (x3 / and
+            :op1  (x2 / 松鼠
+                  :arg0-of  (x1 / 小-01
+))            :op2  (x5 / 兔子
+                  :arg0-of  (x4 / 小-01
+)))      :arg1  (x13 / 说-01
+            :manner  (x12 / 硬
+)            :arg0  (x10 / 狐狸
+)            :arg1  (x16 / 酸-01
+                  :arg0  (x14 / 葡萄
+)                  :mode  (x15_x17 / judgement
+))            :cause  (x11 / amr-unknown
+)            :mode  (x18_x19 / interrogative
+)))
+===========================

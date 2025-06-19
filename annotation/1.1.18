@@ -1,0 +1,133 @@
+早晨,小云醒来一看,枕头边放着一只可爱的布熊。
+(x18 / temporal
+      :arg1  (x4 / 醒来-01
+            :arg0  (x22 / person
+                  :name  ( x3/小云 
+)))      :arg2  (x5_x6 / 看-01
+            :arg0  (x22 / person
+)            :arg1  (x10 / 放-01
+                  :arg1  (x16 / 布熊
+                        :arg0-of  (x14 / 可爱-01
+)                        :quant  (x12 / 1
+)                        :cunit  (x13 / 只
+))                  :aspect  (x11 / 着
+)                  :arg2  (x8 / 枕头
+)))      :time  (x24 / date-entity
+            :dayperiod  (x1 / 早晨
+)))
+===========================
+妈妈走过来,祝小云生日快乐。
+(x10 / temporal
+      :arg1  (x2 / 走-01
+            :cause-of  (x3 / 过来-01
+                  :arg0  (x1 / 妈妈
+                        :poss  (x19 / person
+                              :name  ( x6/小云 
+))))            :arg0  (x1 / 妈妈
+))      :arg2  (x5 / 祝-01
+            :arg0  (x1 / 妈妈
+)            :arg2  (x8 / 快乐-01
+                  :time  (x7 / 生日
+)                  :arg0  (x19 / person
+))            :arg1  (x19 / person
+)))
+===========================
+小云问妈妈:"您怎么从来不过生日?"
+(x2 / 问-01
+      :arg2  (x3 / 妈妈
+            :poss  (x22 / person
+                  :name  ( x1/小云 
+)))      :arg1  (x8 / 过-02
+            :arg1  (x9 / 生日
+)            :arg0  (x5 / x3
+)            :cause  (x6 / amr-unknown
+)            :time  (x7_1_x7_2 / 从来
+)            :polarity  (x7_3 / -
+)            :mode  (x10 / interrogative
+))      :arg0  (x22 / person
+))
+===========================
+妈妈笑着说:"我忘了。"
+(x4 / 说-01
+      :manner  (x2 / 笑
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 妈妈
+))      :arg0  (x1 / 妈妈
+)      :arg1  (x7 / 忘-01
+            :aspect  (x8 / 了-01
+)            :arg0  (x6 / x1
+)))
+===========================
+吃过早饭,妈妈要去上班,拿起包一看,里面装着一只布熊。
+(x23 / temporal
+      :arg1  (x1 / 吃
+            :arg0  (x5 / 妈妈
+)            :arg1  (x3 / 早饭
+)            :aspect  (x2 / 过
+))      :arg3  (x10_x11 / 拿起-01
+            :arg0  (x5 / 妈妈
+)            :arg1  (x12 / 包
+))      :arg4  (x13_x14 / 看-02
+            :arg0  (x5 / 妈妈
+)            :arg1  (x21 / 布熊
+                  :quant  (x19 / 1
+)                  :cunit  (x20 / 只
+)                  :arg1-of  (x17 / 装-01
+                        :arg2  (x16 / 里面
+                              :poss  (x12 / 包
+))                        :aspect  (x18 / 着
+))))      :arg2  (x6 / 要-05
+            :arg0  (x5 / 妈妈
+)            :arg1  (x7 / 去-01
+                  :arg0  (x5 / 妈妈
+)                  :arg1  (x8 / 上班-01
+                        :arg0  (x5 / 妈妈
+)))))
+===========================
+她正要往外拿,小云跑过来按住妈妈的手,说:"妈妈,这个布熊是我送您的生日礼物。
+(x30 / temporal
+      :arg2  (x9 / 跑-01
+            :arg0  (x38 / person
+                  :name  ( x8/小云   
+))            :cause-of  (x10 / 过来-01
+                  :arg0  (x38 / person
+)))      :arg3  (x11 / 按住-01
+            :arg0  (x38 / person
+)            :arg1  (x14 / 手
+                  :part-of  (x12 / x1
+                        :poss  (x38 / person
+))))      :arg4  (x16 / 说-01
+            :arg0  (x38 / person
+)            :arg1  (x45 / and
+                  :op1  (x18 / x1
+)                  :op2  (x28 / 礼物
+                        :mod  (x27 / 生日
+)                        :arg1-of  (x24 / 送-01
+                              :arg0  (x23 / x38
+)                              :arg2  (x25 / x1
+))                        :domain  (x21 / 布熊
+                              :mod  (x20 / 这个
+)))))      :arg1  (x3 / 要
+            :arg0  (x1 / 她
+)            :mod  (x2 / 正-01
+)            :arg1  (x6 / 拿-01
+                  :direction  (x5 / 外
+)                  :arg0  (x1 / 她
+))))
+===========================
+您总是忘了自己的生日,今天我把生日借给您!"
+(x17 / causation
+      :arg1  (x3 / 忘-01
+            :aspect  (x4 / 了
+)            :arg0  (x1 / 您
+)            :arg1  (x7 / 生日
+                  :poss  (x5 / x1
+))            :frequency  (x2 / 总是
+))      :arg2  (x13 / 借-02
+            :arg0  (x10 / 我
+)            :arg1  (x12 / 生日
+)            :time  (x9 / 今天
+)            :mode  (x16 / expressive
+)            :arg2  (x15 / x1
+)))
+===========================

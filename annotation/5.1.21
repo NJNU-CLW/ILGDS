@@ -1,0 +1,344 @@
+圆明园的毁灭是祖国文化史上不可估量的损失，也是世界文化史上不可估量的损失！
+(x21 / and
+      :op1  (x10 / 损失
+            :mod  (x8 / 不可估量
+)            :time  (x6 / 文化史
+                  :mod  (x5 / 祖国
+))            :domain  (x3 / 毁灭-01
+                  :arg1  (x28 / palace
+                        :name  ( x1/圆明园 
+))))      :op2  (x19 / 损失
+            :mod  (x17 / 不可估量
+)            :time  (x15 / 文化史
+                  :mod  (x14 / 世界
+))            :domain  (x3 / 毁灭-01
+)            :mod  (x12 / 也
+)            :mode  (x20 / expressive
+)))
+===========================
+圆明园在北京西北郊，是一座举世闻名的皇家园林。
+(x12 / 园林
+      :mod  (x11 / 皇家
+)      :arg0-of  (x9 / 举世闻名-01
+)      :quant  (x7 / 1
+)      :cunit  (x8 / 座
+)      :domain  (x20 / palace
+            :name  ( x1/圆明园 
+)            :location  (x4 / 西北郊
+                  :mod  (x23 / city
+                        :name  ( x3/北京 
+)))))
+===========================
+它由圆明园、万春园和长春园组成，所以也叫圆明三园。
+(x15 / causation
+      :arg1  (x8 / 组成-01
+            :arg0  (x1 / 它
+)            :arg2  (x19 / and
+                  :op1  (x20 / palace
+                        :name  ( x3/圆明园 
+))                  :op2  (x22 / palace
+                        :name  ( x5/万春园 
+))                  :op3  (x24 / palace
+                        :name  ( x7/长春园 
+))))      :arg2  (x12 / 叫-01
+            :arg1  (x13 / 圆明三园
+)            :mod  (x11 / 也
+)            :arg0  (x1 / 它
+)))
+===========================
+此外，还有许多小园，分布在圆明园东、西、南三面，众星拱月般环绕在圆明园周围。
+(x26 / and
+      :op1  (x8 / 分布-01
+            :arg0  (x6 / 园
+                  :arg0-of  (x5 / 小-01
+)                  :quant  (x4 / 许多
+)                  :arg0-of  (x3 / 还有-01
+))            :arg1  (x17 / 面
+                  :quant  (x16 / 3
+)                  :arg0-of  (x35 / mean
+                        :arg1  (x36 / and
+                              :op1  (x11 / 东
+)                              :op2  (x13 / 西
+)                              :op3  (x15 / 南
+)))                  :arg0  (x40 / palace
+                        :name  ( x10/圆明园 
+))))      :op2  (x21 / 环绕-01
+            :arg1  (x24 / 周围
+                  :arg0  (x23 / x40
+))            :manner  (x20 / 般-01
+                  :arg1  (x19 / 众星拱月
+))            :arg0  (x6 / 园
+))      :mod  (x1 / 此外
+))
+===========================
+圆明园中，有金碧辉煌的殿堂，也有玲珑剔透的亭台楼阁；有象征着热闹街市的“买卖街”，也有象征着田园风光的山乡村野。
+(x34 / and
+      :op1  (x4 / 有-03
+            :arg0  (x37 / palace
+                  :name  ( x1/圆明园 
+))            :arg1  (x7 / 殿堂
+                  :arg0-of  (x5 / 金碧辉煌-01
+)))      :op2  (x10 / 有-03
+            :arg1  (x13 / 亭台楼阁
+                  :arg0-of  (x11 / 玲珑剔透
+))            :arg0  (x37 / palace
+))      :op3  (x15 / 有-03
+            :arg1  (x22 / 买卖街
+                  :arg0-of  (x16 / 象征-01
+                        :arg1  (x19 / 街市
+                              :arg0-of  (x18 / 热闹-01
+))                        :aspect  (x17 / 着
+)))            :arg0  (x37 / palace
+))      :op4  (x25 / 有-03
+            :arg1  (x50 / and
+                  :op1  (x31 / 山乡
+)                  :op2  (x32 / 村野
+)                  :arg0-of  (x26 / 象征-01
+                        :arg1  (x29 / 风光
+                              :location  (x28 / 田园
+))                        :aspect  (x27 / 着
+)))            :arg0  (x37 / palace
+)))
+===========================
+园中许多景物都是仿照各地名胜建造的，如，海宁的安澜园，苏州的狮子林，杭州西湖的平湖秋月、雷峰夕照；还有很多景物是根据古代诗人的诗情画意建造的，如，蓬莱瑶台，武陵春色。
+(x48 / and
+      :op1  (x9 / 建造-01
+            :arg1  (x3 / 景物
+                  :quant  (x2 / 许多
+)                  :location  (x1 / 园中
+))            :manner  (x6 / 仿照-01
+                  :arg1  (x8 / 名胜
+                        :location  (x7 / 各地
+)                        :example  (x58 / and
+                              :op1  (x59 / palace
+                                    :name  ( x16/安澜园 
+)                                    :location  (x61 / city
+                                          :name  ( x14/海宁 
+)))                              :op2  (x63 / palace
+                                    :name  ( x20/狮子林 
+)                                    :location  (x65 / city
+                                          :name  ( x18/苏州 
+)))                              :op3  (x67 / and
+                                    :op1  (x25 / 平湖秋月
+)                                    :op2  (x27 / 雷峰夕照
+)                                    :mod  (x70 / lake
+                                          :name  ( x23/西湖 
+)                                          :location  (x72 / city
+                                                :name  ( x22/杭州 
+)))))))            :extent  (x4 / 都
+)            :mode  (x5_x10 / judgement
+))      :op2  (x38 / 建造-01
+            :arg1  (x31 / 景物
+                  :quant  (x30 / 很多
+)                  :arg0-of  (x29 / 还有-01
+)                  :example  (x84 / and
+                        :op2  (x46 / 春色
+                              :location  (x87 / city
+                                    :name  ( x45/武陵 
+)))                        :op1  (x43_3_4 / 瑶台
+                              :location  (x90 / city
+                                    :name  ( x43/蓬莱瑶台
+)))))            :manner  (x33 / 根据-01
+                  :arg1  (x37 / 诗情画意
+                        :poss  (x35 / 诗人
+                              :time  (x34 / 古代
+))))            :mode  (x32_x39 / judgement
+)))
+===========================
+园中不仅有民族建筑，还有西洋景观。
+(x11 / progression
+      :arg1  (x3 / 有-03
+            :arg0  (x1 / 园中
+)            :arg1  (x5 / 建筑
+                  :mod  (x4 / 民族
+)))      :arg2  (x7_2 / 有-03
+            :arg1  (x9 / 景观
+                  :mod  (x8 / 西洋
+))            :arg0  (x1 / 园中
+)))
+===========================
+漫步园内，有如漫游在天南海北，饱览着中外风景名胜；流连其间，仿佛置身在幻想的境界里。
+(x26 / and
+      :op1  (x4 / 有如-01
+            :arg0  (x1 / 漫步-01
+                  :location  (x2 / 园内
+))            :arg1  (x31 / and
+                  :op1  (x5 / 漫游-01
+                        :arg1  (x7 / 天南海北
+))                  :op2  (x9 / 饱览-01
+                        :arg1  (x35 / and
+                              :op1  (x12 / 风景
+)                              :op2  (x13 / 名胜
+)                              :range  (x11 / 中外
+))                        :aspect  (x10 / 着
+))))      :op2  (x18 / 仿佛-01
+            :arg0  (x15 / 流连-01
+                  :arg1  (x16 / 其间
+))            :arg2  (x19 / 置身-01
+                  :arg1  (x23 / 境界
+                        :arg1-of  (x21 / 幻想-01
+)))))
+===========================
+圆明园不但建筑宏伟，还收藏着最珍贵的历史文物。
+(x15 / progression
+      :arg1  (x4 / 宏伟-01
+            :arg0  (x3 / 建筑
+                  :location  (x19 / palace
+                        :name  ( x1/圆明园 
+))))      :arg2  (x7 / 收藏-02
+            :arg1  (x13 / 文物
+                  :mod  (x12 / 历史
+)                  :arg0-of  (x10 / 珍贵-01
+                        :degree  (x9 / 最
+)))            :aspect  (x8 / 着
+)            :arg2  (x19 / palace
+)))
+===========================
+上自先秦时代的青铜礼器，下至唐、宋、元、明、清历代的名人书画和各种奇珍异宝。
+(x28 / and
+      :op1  (x2 / 自
+            :arg1  (x7 / 礼器
+                  :consist-of  (x6 / 青铜
+)                  :time  (x4 / 时代
+                        :name  ( x3/先秦 
+)))            :direction  (x1 / 上
+))      :op2  (x10 / 至-01
+            :arg1  (x24 / and
+                  :op1  (x23 / 书画
+                        :poss  (x22 / 名人
+))                  :op2  (x26 / 奇珍异宝
+                        :mod  (x25_1 / 各
+)                        :unit  (x25_2 / 种
+))                  :time  (x20 / 历代
+                        :example  (x44 / and
+                              :op1  (x11 / 唐
+)                              :op2  (x15 / 元
+)                              :op3  (x17 / 明
+)                              :op4  (x19 / 清
+))))            :direction  (x9 / 下
+)))
+===========================
+所以，它又是当时世界上最大的博物馆、艺术馆。
+(x16 / causation
+      :arg2  (x18 / and
+            :op1  (x12 / 博物馆
+                  :arg0-of  (x10 / 大-01
+                        :degree  (x9 / 最
+)                        :range  (x7 / 世界
+)                        :time  (x6 / 当时
+)))            :op2  (x14 / 艺术馆
+                  :arg0-of  (x10 / 大-01
+))            :domain  (x3 / 它
+)            :mod  (x4 / 又
+)))
+===========================
+1860年10月6日，英法联军侵入北京，闯进圆明园。
+(x17 / temporal
+      :arg1  (x11 / 侵入-01
+            :arg0  (x10 / 联军
+                  :mod  (x21 / and
+                        :op1  (x22 / country
+                              :name  ( x8/英 
+))                        :op2  (x24 / country
+                              :name  ( x9/法 
+))))            :arg1  (x26 / city
+                  :name  ( x12/北京 
+)))      :arg2  (x14 / 闯进-01
+            :arg0  (x10 / 联军
+)            :arg1  (x29 / palace
+                  :name  ( x15/圆明园 
+)))      :time  (x31 / date-entity
+            :year  (x1_x2 / 1860
+)            :month  (x3_x4 / 10
+)            :day  (x5_x6 / 6
+)))
+===========================
+他们把园内凡是能拿走的东西，统统掠走；拿不动的，就用大车或牲口搬运；实在运不走的，就任意破坏、毁掉。
+(x38 / and
+      :op1  (x11 / 掠走
+            :arg0  (x1 / 他们
+)            :manner  (x10 / 统统
+)            :arg1  (x8 / 东西
+                  :arg1-of  (x6 / 拿走-01
+                        :arg0-of  (x5 / 能-01
+                              :mod  (x4 / 凡是
+)))                  :location  (x3 / 园内
+)))      :op2  (x48 / condition
+            :arg1  (x15 / possible
+                  :arg0  (x13 / 拿-01
+                        :arg1  (x51 / thing
+))                  :polarity  (x14 / -
+))            :arg2  (x19 / 用-01
+                  :arg1  (x21 / or
+                        :op1  (x20 / 大车
+)                        :op2  (x22 / 牲口
+))                  :arg2  (x23 / 搬运-01
+                        :arg1  (x51 / thing
+))))      :op3  (x59 / condition
+            :arg1  (x26_x28 / 运走-01
+                  :polarity  (x27 / -
+)                  :mod  (x25 / 实在
+)                  :arg1  (x62 / thing
+))            :arg2  (x63 / and
+                  :op1  (x33 / 破坏-01
+                        :arg1  (x62 / thing
+))                  :op2  (x35_x36 / 毁掉-01
+                        :arg1  (x62 / thing
+))                  :manner  (x32 / 任意
+))))
+===========================
+为了销毁罪证，10月18日和19日，三千多名侵略者奉命在园内放火。
+(x17 / 奉命-01
+      :arg0  (x16 / 侵略者
+            :quant  (x14 / 多
+                  :op1  (x13 / 3000
+))            :cunit  (x15 / 名
+))      :arg1  (x20 / 放火-01
+            :arg0  (x16 / 侵略者
+)            :location  (x19 / 园内
+))      :purpose  (x2 / 销毁-01
+            :arg1  (x3 / 罪证
+)            :arg0  (x16 / 侵略者
+))      :time  (x32 / date-entity
+            :month  (x5_x6 / 10
+)            :day  (x34 / and
+                  :op1  (x7_x8 / 18
+)                  :op2  (x10_x11 / 19
+))))
+===========================
+大火连烧三天，烟云笼罩了整个北京城。
+(x13 / and
+      :op1  (x3 / 烧-01
+            :arg0  (x1 / 大火
+)            :manner  (x2 / 连
+)            :duration  (x18 / temporal-quantity
+                  :quant  (x4 / 3
+)                  :unit  (x5 / 天
+)))      :op2  (x8 / 笼罩-01
+            :arg0  (x7 / 烟云
+)            :arg1  (x23 / city
+                  :name  ( x11/北京城 
+)                  :mod  (x10 / 整个
+))            :aspect  (x9 / 了
+)))
+===========================
+我国这一园林艺术的瑰宝、建筑艺术的精华，就这样化成了一片灰烬。
+(x16_x17 / 化成
+      :arg0  (x25 / and
+            :op1  (x7 / 瑰宝
+                  :mod  (x5 / 艺术
+                        :mod  (x4 / 园林
+))                  :quant  (x3 / 1
+)                  :mod  (x2 / 这
+))            :op2  (x12 / 精华
+                  :mod  (x10 / 艺术
+                        :mod  (x9 / 建筑
+)))            :poss  (x1 / 我国
+))      :mod  (x14 / 就
+)      :manner  (x15 / 这样
+)      :arg1  (x21 / 灰烬
+            :quant  (x19 / 1
+)            :cunit  (x20 / 片
+))      :aspect  (x18 / 了
+))
+===========================

@@ -1,0 +1,307 @@
+小河上有座石桥。
+(x3 / 有-03
+      :arg0  (x2 / 上
+            :arg0  (x1 / 小河
+))      :arg1  (x5 / 石桥
+            :cunit  (x4 / 座
+)))
+===========================
+半圆的桥洞和水里的倒影连起来，好像一个大月亮。
+(x12 / 好像-01
+      :arg0  (x9_x10 / 连-01
+            :arg0  (x3 / 桥洞
+                  :arg0-of  (x1 / 半圆
+))            :arg1  (x8 / 倒影
+                  :location  (x5 / 水
+)))      :arg1  (x15 / 月亮
+            :arg0-of  (x14 / 大-01
+)            :quant  (x13_1 / 1
+)            :cunit  (x13_2 / 个
+)))
+===========================
+小青蛙跟着妈妈游到桥洞底下，看到周围美丽的景色，高兴得叫起来：“呱呱呱，多好看哪！”
+(x27 / temporal
+      :arg1  (x5 / 游-03
+            :arg1  (x8 / 底下
+                  :arg0  (x7 / 桥洞
+))            :arg0  (x2 / 青蛙
+                  :arg0-of  (x1 / 小-01
+))            :manner  (x3_1 / 跟-01
+                  :aspect  (x3_2 / 着-01
+)                  :arg0  (x2 / 青蛙
+)                  :arg1  (x4 / 妈妈
+)))      :arg2  (x10 / 看到-01
+            :arg0  (x2 / 青蛙
+)            :arg1  (x14 / 景色
+                  :arg0-of  (x12 / 美丽-01
+)                  :location  (x11 / 周围
+)))      :arg3  (x18_x19 / 叫-03
+            :cause  (x16 / 高兴-01
+                  :arg0  (x2 / 青蛙
+))            :arg0  (x2 / 青蛙
+)            :arg1  (x45 / and
+                  :op1  (x21 / 呱呱呱
+)                  :op2  (x24 / 好看
+                        :degree  (x23 / 多
+)                        :mode  (x25_x26 / expressive
+)))))
+===========================
+这时，不知哪儿有一只小青蛙也在叫：“呱呱呱，多好看哪！”
+(x5 / 有-03
+      :arg0  (x4 / amr-unknown
+            :arg1-of  (x3_2 / 知-01
+                  :polarity  (x3_1 / -
+)))      :arg1  (x9 / 青蛙
+            :arg0-of  (x12 / 叫-03
+                  :mod  (x10 / 也
+)                  :aspect  (x11 / 在-01
+)                  :arg1  (x33 / and
+                        :op1  (x14 / 呱呱呱
+)                        :op2  (x17 / 好看-01
+                              :degree  (x16 / 多
+)                              :mode  (x18_x19 / expressive
+))))            :arg0-of  (x8 / 小-01
+)            :quant  (x6 / 1
+)            :cunit  (x7 / 只
+))      :time  (x1 / 这时
+))
+===========================
+小青蛙问：“你是谁？你在哪儿？”
+(x3 / 问-01
+      :arg0  (x2 / 青蛙
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x17 / and
+            :op1  (x7 / amr-unknown
+                  :domain  (x5 / 你
+)                  :mode  (x8 / interrogative
+))            :op2  (x10 / 在-01
+                  :arg1  (x11 / amr-unknown
+)                  :mode  (x12 / interrogative
+)                  :arg0  (x9 / x5
+))))
+===========================
+那只看不见的小青蛙也在问：“你是谁？你在哪儿？”
+(x11 / 问-01
+      :aspect  (x10 / 在
+)      :mod  (x9 / 也
+)      :arg0  (x8 / 青蛙
+            :arg0-of  (x7 / 小-01
+                  :arg1-of  (x3_x5 / 看见-01
+                        :arg0-of  (x36 / possible
+                              :polarity  (x4 / -
+))))            :mod  (x1 / 那
+)            :cunit  (x2 / 只
+))      :arg1  (x30 / and
+            :op1  (x15 / amr-unknown
+                  :domain  (x13 / 你
+)                  :mode  (x16 / interrogative
+))            :op2  (x18 / 在-01
+                  :arg0  (x17 / x13
+)                  :arg1  (x19 / amr-unknown
+)                  :mode  (x20 / interrogative
+))))
+===========================
+小青蛙奇怪极了，他问妈妈：“桥洞里藏着一只小青蛙吧？他在学我说话哩。”
+(x27 / causation
+      :arg1  (x3 / 奇怪-02
+            :degree  (x4 / 极了
+)            :arg0  (x2 / 青蛙
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x7 / 问-01
+            :arg0  (x6 / x2
+)            :arg2  (x8 / 妈妈
+)            :arg1  (x37 / and
+                  :op1  (x12 / 藏-01
+                        :arg1  (x17 / 青蛙
+)                        :mode  (x18_x19 / interrogative
+)                        :aspect  (x13 / 着
+)                        :location  (x11 / 里
+                              :arg0  (x10 / 桥洞
+)))                  :op2  (x22 / 学-01
+                        :arg0  (x20 / x17
+)                        :arg1  (x24 / 说话-01
+                              :arg0  (x23 / x2
+))                        :aspect  (x21 / 在
+)                        :mode  (x25 / expressive
+)))))
+===========================
+妈妈笑着说：“孩子，跟我来！”
+(x4 / 说-01
+      :manner  (x2 / 笑-01
+            :aspect  (x3 / 着
+))      :arg0  (x1 / 妈妈
+)      :arg1  (x16 / and
+            :op1  (x6 / 孩子
+)            :op2  (x10 / 来-01
+                  :mode  (x11 / expressive
+)                  :arg0  (x6 / 孩子
+)                  :manner  (x8 / 跟-01
+                        :arg0  (x6 / 孩子
+)                        :arg1  (x9 / x1
+)))))
+===========================
+青蛙妈妈带着小青蛙跳到岸上。
+(x7_x8 / 跳到-01
+      :arg0  (x2 / 妈妈
+            :mod  (x1 / 青蛙
+))      :accompanier  (x6 / 青蛙
+            :arg0-of  (x5 / 小-01
+))      :arg1  (x9 / 岸上
+))
+===========================
+她捡起一颗石子，扔进河里，河水被激起一圈圈波纹。
+(x20 / temporal
+      :arg1  (x2_x3 / 捡起-01
+            :arg0  (x1 / 她
+)            :arg1  (x6 / 石子
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 颗
+)))      :arg2  (x8_x9 / 扔进-01
+            :arg0  (x1 / 她
+)            :arg1  (x6 / 石子
+)            :arg1  (x10 / 河里
+))      :arg3  (x14 / 激起-01
+            :arg0  (x6 / 石子
+)            :arg1  (x18 / 波纹
+                  :quant  (x15_x16_x17 / 一圈圈
+))            :location  (x12 / 河水
+)))
+===========================
+波纹碰到河岸，又一圈圈地荡回来。
+(x13 / temporal
+      :arg1  (x2 / 碰到-01
+            :arg0  (x1 / 波纹
+)            :arg1  (x3 / 河岸
+))      :arg2  (x10 / 荡-01
+            :direction  (x11 / 回来-01
+                  :arg0  (x1 / 波纹
+))            :manner  (x6_x7_x8 / 一圈圈
+)            :arg0  (x1 / 波纹
+)))
+===========================
+青蛙妈妈说：“孩子，你的叫声就像这水的波纹。
+(x3 / 说-01
+      :arg0  (x2 / 妈妈
+            :mod  (x1 / 青蛙
+))      :arg1  (x21 / and
+            :op1  (x5 / 孩子
+)            :op2  (x11 / 像-01
+                  :arg0  (x9 / 叫声
+                        :poss  (x7 / x5
+))                  :mod  (x10 / 就
+)                  :arg1  (x15 / 波纹
+                        :poss  (x13 / 水
+                              :mod  (x12 / 这
+))))))
+===========================
+水的波纹碰到河岸又荡回来。
+(x10 / temporal
+      :arg1  (x4 / 碰到-01
+            :arg0  (x3 / 波纹
+                  :poss  (x1 / 水
+))            :arg1  (x5 / 河岸
+))      :arg2  (x7 / 荡-01
+            :arg0  (x3 / 波纹
+)            :direction  (x8 / 回来-01
+                  :arg0  (x3 / 波纹
+))))
+===========================
+你在桥洞里叫，声音的波纹碰到桥洞的石壁，也要返回来。
+(x20 / temporal
+      :arg1  (x5 / 叫-03
+            :location  (x4 / 里
+                  :arg0  (x3 / 桥洞
+))            :arg0  (x1 / 你
+))      :arg2  (x10 / 碰到-01
+            :arg0  (x9 / 波纹
+                  :poss  (x7 / 声音
+))            :arg1  (x13 / 石壁
+                  :part-of  (x11 / 桥洞
+)))      :arg3  (x16 / 要-03
+            :arg0  (x17 / 返-01
+                  :arg0  (x9 / 波纹
+)                  :direction  (x18 / 回来-01
+                        :arg0  (x9 / 波纹
+)))            :mod  (x15 / 也
+)))
+===========================
+这样，你就听到自己的声音啦。”
+(x11 / say
+      :arg1  (x13 / condition
+            :arg1  (x1 / 这样
+)            :arg2  (x5 / 听到-01
+                  :mode  (x9 / expressive
+)                  :arg0  (x3 / 你
+)                  :arg1  (x8 / 声音
+                        :poss  (x6 / x3
+)))))
+===========================
+小青蛙高兴得一蹦老高，说：“妈妈，我明白了，这就是回声吧？”
+(x25 / temporal
+      :arg1  (x8 / 高-01
+            :degree  (x7 / 老
+)            :arg0  (x6 / 蹦
+                  :arg0  (x2 / 青蛙
+                        :arg0-of  (x1 / 小-01
+))                  :cause  (x3 / 高兴-01
+                        :arg0  (x2 / 青蛙
+))))      :arg2  (x10 / 说-01
+            :arg0  (x2 / 青蛙
+)            :arg1  (x33 / and
+                  :op1  (x12 / 妈妈
+)                  :op2  (x15 / 明白-01
+                        :aspect  (x16 / 了
+)                        :arg0  (x14 / x2
+))                  :op3  (x20 / 回声
+                        :domain  (x18 / 这
+)                        :mod  (x19_1 / 就
+)                        :mode  (x21_x22 / interrogative
+)))))
+===========================
+妈妈笑着点点头。
+(x4_x5_x6 / 点头-01
+      :arg0  (x1 / 妈妈
+)      :manner  (x2 / 笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 妈妈
+)))
+===========================
+小青蛙又游回桥洞里，呱呱地叫个不停。
+(x16 / temporal
+      :arg1  (x5 / 回-01
+            :manner  (x4 / 游-02
+                  :arg0  (x2 / 青蛙
+                        :arg0-of  (x1 / 小-01
+)))            :arg0  (x2 / 青蛙
+)            :arg1  (x7 / 里
+                  :arg0  (x6 / 桥洞
+))            :mod  (x3 / 又
+))      :arg2  (x11 / 叫-03
+            :manner  (x9 / 呱呱
+)            :arg0  (x2 / 青蛙
+)            :arg1-of  (x14 / 停-01
+                  :polarity  (x13 / -
+)                  :arg0  (x2 / 青蛙
+))))
+===========================
+桥洞里立刻响起一片呱呱的回声。
+(x4 / 响起-01
+      :arg0  (x9 / 回声
+            :mod  (x7 / 呱呱
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 片
+))      :location  (x2 / 里
+            :arg0  (x1 / 桥洞
+))      :time  (x3 / 立刻
+))
+===========================
+小青蛙欢快地说：“多好玩啊!”
+(x5 / 说-01
+      :manner  (x3 / 欢快
+)      :arg0  (x2 / 青蛙
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x8 / 好玩-01
+            :degree  (x7 / 多
+)            :mode  (x9_x10 / expressive
+)))
+===========================

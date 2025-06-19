@@ -1,0 +1,158 @@
+古时候有个种田人，一天，他在田里干活，忽然看见一只野兔从树林里窜出来。
+(x25 / and
+      :op1  (x2 / 有-03
+            :arg1  (x5 / 人
+                  :cunit  (x3 / 个
+)                  :arg0-of  (x4 / 种田-01
+))            :time  (x1 / 古时候
+))      :op2  (x15 / 看见-01
+            :time  (x12 / 干活-01
+                  :location  (x11 / 田里
+)                  :arg0  (x9 / x5
+)                  :time  (x7 / 一天
+))            :arg0  (x5 / 人
+)            :arg1  (x22 / 窜-01
+                  :arg0  (x18 / 野兔
+                        :quant  (x16 / 1
+)                        :cunit  (x17 / 只
+))                  :arg1  (x20 / 树林
+)                  :direction  (x23 / 出来-01
+                        :arg0  (x18 / 野兔
+)))            :mod  (x14 / 忽然
+)))
+===========================
+不知怎么的，它一头撞在田边的树桩上，死了。
+(x18 / and
+      :op1  (x1_2 / 知-01
+            :polarity  (x1_1 / -
+)            :arg1  (x22 / thing
+                  :cause  (x2_x3 / amr-unknown
+)))      :op2  (x24 / temporal
+            :arg1  (x7 / 撞-01
+                  :arg0  (x6 / 头
+                        :poss  (x5 / 它
+))                  :arg1  (x12 / 树桩
+                        :location  (x10 / 边
+                              :arg0  (x9 / 田
+))))            :arg2  (x15 / 死-01
+                  :aspect  (x16 / 了
+)                  :arg0  (x5 / 它
+))))
+===========================
+种田人急忙跑过去，没花一点儿力气，白捡了一只又肥又大的野兔。
+(x24 / temporal
+      :arg1  (x4 / 跑-01
+            :manner  (x3 / 急忙
+)            :arg0  (x2 / 人
+                  :arg0-of  (x1 / 种田-01
+))            :direction  (x5 / 过去-01
+                  :arg0  (x2 / 人
+)))      :op2  (x31 / condition
+            :arg1  (x8 / 花-01
+                  :arg1  (x10 / 力气
+                        :quant  (x9 / 一点儿
+))                  :polarity  (x7 / -
+)                  :arg0  (x2 / 人
+))            :arg2  (x13 / 捡-01
+                  :manner  (x12 / 白
+)                  :aspect  (x14 / 了
+)                  :arg0  (x2 / 人
+)                  :arg1  (x22 / 野兔
+                        :quant  (x15 / 1
+)                        :cunit  (x16 / 只
+)                        :arg0-of  (x20 / 大-01
+)                        :arg0-of  (x18 / 肥
+)))))
+===========================
+他乐滋滋地走回家去，心里想：要是每天能捡到一只野兔，那该多好啊。
+(x25 / and
+      :op2  (x9 / 想-01
+            :arg0  (x8 / 心里
+                  :poss  (x1 / 他
+))            :arg1  (x33 / condition
+                  :arg1  (x13 / 能-01
+                        :arg0  (x14 / 捡到-01
+                              :arg0  (x1 / 他
+)                              :arg1  (x17 / 野兔
+                                    :quant  (x15 / 1
+)                                    :cunit  (x16 / 只
+)))                        :frequency  (x36 / rate-entity
+                              :arg2  (x37 / temporal-quantity
+                                    :quant  (x12_1 / 1
+)                                    :unit  (x12_2 / 天
+))))                  :arg2  (x20 / 该-01
+                        :arg0  (x22 / 好
+                              :degree  (x21 / 多
+))                        :mode  (x23 / expressive
+))))      :op1  (x4 / 走-01
+            :manner  (x2 / 乐滋滋
+)            :arg0  (x1 / 他
+)            :cause-of  (x5_1 / 回-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x5_2 / 家
+))            :arg0  (x1 / 他
+)))
+===========================
+从此他丢下了锄头，整天坐在树桩旁边等着，看有没有野兔再跑来撞死在树桩上。
+(x27 / and
+      :op1  (x3 / 丢下-01
+            :arg0  (x2 / 他
+)            :aspect  (x4 / 了
+)            :arg1  (x5 / 锄头
+))      :time  (x1 / 从此
+)      :op2  (x12 / 等-01
+            :manner  (x8 / 坐-01
+                  :arg0  (x2 / 他
+)                  :duration  (x7 / 整天
+)                  :arg1  (x11 / 旁边
+                        :arg0  (x10 / 树桩
+)))            :arg0  (x2 / 他
+)            :aspect  (x13 / 着
+))      :op3  (x15 / 看-04
+            :arg0  (x41 / or
+                  :op1  (x16 / 有-03
+                        :arg1  (x44 / and
+                              :op1  (x20 / 跑-01
+                                    :arg0  (x18 / 野兔
+)                                    :manner  (x19 / 再
+)                                    :direction  (x21 / 来-01
+                                          :arg0  (x18 / 野兔
+)))                              :op2  (x22_1 / 撞-01
+                                    :cause-of  (x22_2 / 死-01
+                                          :arg0  (x18 / 野兔
+)                                          :location  (x24 / 树桩
+))                                    :arg0  (x18 / 野兔
+)                                    :arg1  (x24 / 树桩
+))))                  :op2  (x17_2 / 有-03
+                        :polarity  (x17_1 / -
+)                        :arg1  (x44 / and
+)))))
+===========================
+日子一天一天过去了，再也没有野兔来过，他的田里已经长满了野草，庄稼全完了。
+(x26 / and
+      :op1  (x3 / 过去-01
+            :arg0  (x1 / 日子
+)            :aspect  (x4 / 了
+)            :manner  (x2 / 一天一天
+))      :op2  (x8_2 / 有-03
+            :polarity  (x8_1 / -
+)            :mod  (x7 / 也
+)            :mod  (x6 / 再-01
+)            :arg1  (x10 / 来-01
+                  :arg0  (x9 / 野兔
+)                  :aspect  (x11 / 过
+)))      :op3  (x17 / 长-01
+            :cause-of  (x18 / 满-01
+                  :aspect  (x19 / 了
+)                  :arg0  (x20 / 野草
+)                  :arg1  (x15 / 田里
+                        :poss  (x13 / 他
+)))            :aspect  (x16 / 已经
+)            :arg0  (x15 / 田里
+)            :arg1  (x20 / 野草
+))      :op4  (x24_1 / 完-05
+            :aspect  (x24_2 / 了
+)            :arg0  (x22 / 庄稼
+                  :extent  (x23 / 全
+))))
+===========================

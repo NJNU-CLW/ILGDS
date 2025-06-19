@@ -1,0 +1,178 @@
+春游那天，到了中午，小伙伴们都在吃午餐，只有玛莎站在一旁。
+(x21 / and
+      :op1  (x4 / 到-01
+            :aspect  (x5 / 了
+)            :arg1  (x6 / 中午
+)            :time  (x2 / 那天
+                  :arg0-of  (x27 / mean
+                        :arg1  (x1 / 春游
+))))      :op2  (x29 / contrast
+            :arg1  (x12 / 吃-01
+                  :aspect  (x11 / 在
+)                  :arg0  (x8_x9 / 小伙伴们
+                        :extent  (x10 / 都
+)))            :arg2  (x17 / 站-01
+                  :arg0  (x36 / person
+                        :name  ( x16/玛莎 
+))                  :arg1  (x19 / 一旁
+))))
+===========================
+维加问她:“你怎么不吃呀?”
+(x2 / 问-01
+      :arg0  (x13 / person
+            :name  ( x1/维加 
+))      :arg2  (x3 / 她
+)      :arg1  (x8 / 吃-01
+            :arg0  (x5 / x3
+)            :polarity  (x7 / -
+)            :cause  (x6 / amr-unknown
+)            :mode  (x9_x10 / interrogative
+)))
+===========================
+玛莎说:“我把背包丢了，里面装着面包和矿泉水……”
+(x2 / 说-01
+      :arg0  (x19 / person
+            :name  ( x1/玛莎 
+))      :arg1  (x21 / and
+            :op1  (x7 / 丢-02
+                  :arg0  (x4 / x19
+)                  :arg1  (x6 / 背包
+)                  :aspect  (x8 / 了
+))            :op2  (x11 / 装-01
+                  :aspect  (x12 / 着
+)                  :arg1  (x14 / and
+                        :op1  (x13 / 面包
+)                        :op2  (x15 / 矿泉水
+))                  :arg2  (x10 / 里面
+                        :arg0  (x6 / 背包
+)))))
+===========================
+维加一边大口地吃着面包，一边说:“真糟糕!离回到家还有好长时间呢!”
+(x25 / and
+      :op1  (x6 / 吃-01
+            :arg0  (x29 / person
+                  :name  ( x1/维加 
+))            :aspect  (x7 / 着
+)            :arg1  (x8 / 面包
+)            :manner  (x3_x4 / 大口
+))      :op2  (x11 / 说-01
+            :arg0  (x29 / person
+)            :arg1  (x34 / and
+                  :op1  (x14 / 糟糕
+                        :degree  (x13 / 真
+)                        :mode  (x15 / expressive
+)))            :op2  (x16 / 离-01
+                  :arg1  (x17 / 回到-01
+                        :arg1  (x18 / 家
+))                  :arg2  (x22 / 时间
+                        :arg0-of  (x21 / 长-02
+                              :degree  (x20 / 好
+)))                  :mode  (x23_x24 / expressive
+))))
+===========================
+安娜说:“你把背包丢在哪儿了?真粗心!”
+(x2 / 说-01
+      :arg0  (x18 / person
+            :name  ( x1/安娜 
+))      :arg1  (x20 / and
+            :op1  (x7 / 丢-02
+                  :arg0  (x4 / x18
+)                  :arg1  (x6 / 背包
+)                  :mode  (x11 / interrogative
+)                  :smood  (x10 / 了
+)                  :location  (x9 / amr-unknown
+))            :op2  (x13 / 粗心
+                  :degree  (x12 / 真
+)                  :mode  (x14 / expressive
+))))
+===========================
+玛莎小声地说:“我也不知道。”
+(x4 / 说-01
+      :manner  (x2 / 小声
+)      :arg0  (x14 / person
+            :name  ( x1/玛莎 
+))      :arg1  (x9 / 知道-01
+            :arg0  (x6 / x14
+)            :polarity  (x8 / -
+)            :mod  (x7 / 也
+)))
+===========================
+说着，低下了头。
+(x9 / temporal
+      :arg1  (x1 / 说-01
+            :aspect  (x2 / 着-01
+))      :arg2  (x4_x5 / 低下-02
+            :arg1  (x7 / 头
+)            :aspect  (x6 / 了
+)))
+===========================
+安娜又说:“你大概是丢在公共汽车上，忘记拿了。
+(x3 / 说
+      :mod  (x2 / 又
+)      :arg0  (x21 / person
+            :name  ( x1/安娜 
+))      :arg1  (x6 / 大概
+            :arg0  (x24 / and
+                  :op1  (x8 / 丢-02
+                        :arg0  (x5 / 你
+)                        :location  (x11 / 汽车
+                              :mod  (x10 / 公共
+)))                  :op2  (x14 / 忘记-01
+                        :arg0  (x5 / 你
+)                        :arg1  (x15 / 拿
+)                        :aspect  (x16 / 了
+)))            :mode  (x7 / judgement
+)))
+===========================
+以后可要保管好自己的东西。
+(x2 / 可
+      :arg0  (x3 / 要-03
+            :arg0  (x4 / 保管-01
+                  :arg1  (x8 / 东西
+                        :poss  (x6 / 自己
+))                  :arg0-of  (x5 / 好-01
+)))      :time  (x1 / 以后
+))
+===========================
+这时，安东走到玛莎跟前，什么也没说，把夹着黄油的面包掰成两半，把大一点儿的放到玛莎手里，说:“赶快吃吧。”
+(x39 / temporal
+      :arg1  (x4_x5 / 走到-01
+            :arg0  (x42 / person
+                  :name  ( x3/安东 
+))            :arg1  (x7 / 跟前
+                  :arg0  (x44 / person
+                        :name  ( x6/玛莎 
+)))            :time  (x1 / 这时
+))      :arg2  (x12 / 说-01
+            :arg0  (x42 / person
+)            :mod  (x10 / 也
+)            :polarity  (x11 / -
+)            :arg1  (x9 / 什么
+))      :arg3  (x20 / 掰-01
+            :arg0  (x42 / person
+)            :arg1  (x19 / 面包
+                  :arg2-of  (x15 / 夹-01
+                        :aspect  (x16 / 着
+)                        :arg1  (x17 / 黄油
+)))            :cause-of  (x21 / 成-01
+                  :arg0  (x19 / 面包
+)                  :arg1  (x59 / thing
+                        :quant  (x22_x23 / 2
+))))      :arg4  (x29 / 放到-01
+            :arg0  (x42 / person
+)            :arg1  (x63 / thing
+                  :arg0-of  (x26 / 大-01
+                        :compared-to  (x65 / thing
+)                        :degree  (x27 / 一点儿
+)))            :arg2  (x31_1 / 手
+                  :poss  (x69 / person
+                        :name  ( x30/x6 
+))))      :arg5  (x33 / 说-01
+            :arg0  (x42 / person
+)            :arg1  (x36 / 吃-01
+                  :manner  (x35 / 赶快
+)                  :mode  (x37 / imperative
+)                  :arg0  (x30 / x6
+)                  :arg1  (x63 / thing
+))))
+===========================

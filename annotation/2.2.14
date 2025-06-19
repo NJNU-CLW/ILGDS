@@ -1,0 +1,274 @@
+1840年，英国首次正式发行邮票。
+(x7 / 发行-01
+      :manner  (x6 / 正式
+)      :arg0  (x14 / country
+            :name  ( x4/英国 
+))      :ord  (x16 / ordinal-entity
+            :value  (x5_1 / 1
+)            :unit  (x5_2 / 次
+))      :time  (x19 / date-entity
+            :year  (x1 / 1840
+))      :arg1  (x8 / 邮票
+))
+===========================
+最早的邮票跟现在的不一样。
+(x9 / 一样-02
+      :arg0  (x4 / 邮票
+            :time  (x2 / 早
+                  :degree  (x1 / 最
+)))      :arg1  (x14 / thing
+            :time  (x6 / 现在
+))      :polarity  (x8 / -
+))
+===========================
+每枚邮票的四周没有齿孔，许多枚邮票连在一起，使用的时候，得用小刀裁开。
+(x27 / causation
+      :arg1  (x29 / and
+            :op1  (x6_2 / 有-03
+                  :polarity  (x6_1 / -
+)                  :arg0  (x5 / 四周
+                        :arg0  (x3 / 邮票
+                              :mod  (x1 / 每
+)                              :cunit  (x2 / 枚
+)))                  :arg1  (x8 / 孔
+                        :mod  (x7 / 齿
+)))            :op2  (x13 / 连-02
+                  :arg0  (x12 / 邮票
+                        :quant  (x10 / 许多
+)                        :cunit  (x11 / 枚
+))                  :cause  (x15 / 一起-01
+                        :arg0  (x12 / 邮票
+))))      :arg2  (x21 / 得
+            :arg0  (x24 / 裁
+                  :instrument  (x23 / 小刀
+)                  :cause-of  (x25 / 开
+                        :arg0  (x12 / 邮票
+))                  :arg1  (x12 / 邮票
+))            :time  (x17 / 使用-01
+                  :arg1  (x3 / 邮票
+))))
+===========================
+1848年的一天，英国发明家阿切尔到伦敦一家小酒馆喝酒。
+(x9 / 到-01
+      :arg0  (x7 / 发明家
+            :name  ( x8/阿切尔 
+)            :mod  (x20 / nationality
+                  :name  ( x6/英国 
+)))      :arg1  (x13 / 酒馆
+            :arg0-of  (x12 / 小-01
+)            :location  (x24 / city
+                  :name  ( x10/伦敦 
+))            :quant  (x11_1 / 1
+)            :cunit  (x11_2 / 家
+))      :purpose  (x14 / 喝酒-01
+            :arg0  (x7 / 发明家
+))      :time  (x4 / 一天
+            :time  (x30 / date-entity
+                  :year  (x1 / 1848
+))))
+===========================
+在发明家的身旁，一位先生左手拿着一大张邮票，右手在身上翻着什么。
+(x24 / and
+      :op1  (x10 / 拿-03
+            :arg0  (x9 / 左手
+                  :part-of  (x8 / 先生
+                        :location  (x4 / 身旁
+                              :arg0  (x2 / 发明家
+))                        :quant  (x6 / 1
+)                        :cunit  (x7 / 位
+)))            :aspect  (x11 / 着
+)            :arg1  (x15 / 邮票
+                  :cunit  (x14 / 张
+)                  :quant  (x12 / 1
+)                  :arg0-of  (x13 / 大-01
+)))      :op2  (x20 / 翻-01
+            :aspect  (x21 / 着
+)            :arg0  (x17 / 右手
+                  :part-of  (x8 / 先生
+))            :location  (x19 / 身上
+                  :part-of  (x8 / 先生
+))            :arg1  (x22 / 什么
+)))
+===========================
+看样子，他是在找裁邮票的小刀。
+(x1 / 看样子
+      :arg0  (x6 / 找-03
+            :arg0  (x3 / 他
+)            :aspect  (x5 / 在
+)            :mode  (x4 / judgement
+)            :arg1  (x10 / 小刀
+                  :instrument-of  (x7 / 裁
+                        :arg1  (x8 / 邮票
+)))))
+===========================
+那位先生摸遍身上所有的衣袋，也没有找到小刀，只好向阿切尔求助：“先生，您带小刀了吗？”
+(x28 / causation
+      :arg1  (x40 / contrast
+            :arg1  (x3 / 摸-01
+                  :arg0  (x2 / 先生
+                        :mod  (x1_1 / 那
+)                        :cunit  (x1_2 / 位
+))                  :arg1  (x8 / 衣袋
+                        :mod  (x6 / 所有
+)                        :poss  (x5 / 身上
+                              :part-of  (x2 / 先生
+)))                  :manner  (x4 / 遍-01
+                        :arg1  (x8 / 衣袋
+)                        :arg0  (x4 / 遍-01
+)))            :arg2  (x12 / 找到-01
+                  :polarity  (x11 / -
+)                  :arg0  (x2 / 先生
+)                  :arg1  (x13 / 小刀
+)))      :arg2  (x45 / and
+            :op1  (x18 / 求助-01
+                  :arg0  (x2 / 先生
+)                  :arg2  (x46 / person
+                        :name  ( x17/阿切尔 
+))                  :mod  (x15 / 只好
+))            :op2  (x49 / and
+                  :op1  (x20 / x46
+)                  :op2  (x23 / 带-01
+                        :arg0  (x22 / x46
+)                        :arg1  (x24 / 小刀
+)                        :aspect  (x25 / 了
+)                        :mode  (x26_x27 / interrogative
+)))))
+===========================
+阿切尔摇摇头，说：“对不起，我也没带。”
+(x13 / temporal
+      :arg1  (x2 / 摇摇头-01
+            :arg0  (x16 / person
+                  :name  ( x1/阿切尔 
+)))      :arg2  (x4 / 说-01
+            :arg1  (x19 / and
+                  :op1  (x6 / 对不起
+)                  :op2  (x11 / 带-01
+                        :arg0  (x8 / x16
+)                        :mod  (x9 / 也
+)                        :aspect  (x10 / -
+)))            :arg0  (x16 / person
+)))
+===========================
+那个人想了想，从西服领带上取下一枚别针，在每枚邮票的连接处都刺上小孔，邮票便很容易地被撕开了，而且撕得很整齐。
+(x43 / temporal
+      :arg1  (x3_x5 / 想-01
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 人
+                  :mod  (x1 / 那个
+)))      :arg2  (x11_x12 / 取下-01
+            :arg0  (x2 / 人
+)            :arg1  (x15 / 别针
+                  :quant  (x13 / 1
+)                  :cunit  (x14 / 枚
+))            :source  (x9 / 领带
+                  :poss  (x8 / 西服
+)))      :arg3  (x24_1 / 刺-01
+            :arg1  (x26 / 孔
+                  :arg0-of  (x25 / 小-01
+))            :arg0  (x2 / 人
+)            :location  (x22 / 连接处
+                  :extent  (x23 / 都
+)                  :poss  (x20 / 邮票
+                        :mod  (x18 / 每
+)                        :cunit  (x19 / 枚
+))))      :arg4  (x64 / and
+            :op1  (x34 / 撕开-01
+                  :mod  (x29 / 便
+)                  :aspect  (x35 / 了
+)                  :arg1  (x28 / 邮票
+)                  :manner  (x31 / 容易
+                        :degree  (x30 / 很
+)))            :op2  (x38 / 撕-01
+                  :cause-of  (x41 / 整齐-01
+                        :degree  (x40 / 很
+)                        :arg0  (x28 / 邮票
+))                  :arg1  (x28 / 邮票
+))))
+===========================
+阿切尔被那个人的举动吸引住了。
+(x7 / 吸引-01
+      :arg0  (x6 / 举动
+            :poss  (x4 / 人
+                  :mod  (x3 / 那个
+)))      :arg1  (x16 / person
+            :name  ( x1/阿切尔 
+))      :aspect  (x9 / 了
+))
+===========================
+他想：要是有一台机器能给邮票打孔，不是很好吗？
+(x2 / 想-01
+      :arg0  (x1 / 他
+)      :arg1  (x23 / condition
+            :arg1  (x5 / 有-01
+                  :arg1  (x8 / 机器
+                        :instrument-of  (x9 / 能-01
+                              :arg0  (x12 / 打孔-01
+                                    :arg1  (x11 / 邮票
+)))))            :arg2  (x17 / 好
+                  :degree  (x16 / 很
+)                  :polarity  (x14_x15 / -
+)                  :mode  (x18_x19 / interrogative
+))))
+===========================
+阿切尔开始了研究工作。
+(x2 / 开始-01
+      :arg1  (x5 / 工作
+            :mod  (x4 / 研究
+))      :aspect  (x3 / 了
+)      :arg0  (x12 / person
+            :name  ( x1/阿切尔 
+)))
+===========================
+很快，邮票打孔机造出来了。
+(x5 / 造-01
+      :cause-of  (x6 / 出来-01
+            :arg0  (x4 / 打孔机
+                  :mod  (x3 / 邮票
+)))      :arg1  (x4 / 打孔机
+)      :aspect  (x7 / 了-01
+)      :time  (x1_2 / 快
+            :degree  (x1_1 / 很
+)))
+===========================
+用它打过孔的整张邮票很容易一枚枚地撕开，使用的时候非常方便。
+(x24 / causation
+      :arg1  (x16 / 撕开-01
+            :manner  (x12_x13_x14 / 一枚枚
+)            :arg0-of  (x11 / 容易-01
+                  :degree  (x10 / 很
+))            :arg1  (x9 / 邮票
+                  :mod  (x7 / 整
+)                  :cunit  (x8 / 张
+)                  :arg1-of  (x3_x5 / 打孔-01
+                        :aspect  (x4 / 过
+)                        :instrument  (x2 / 它
+))))      :arg2  (x22 / 方便
+            :degree  (x21 / 非常
+)            :time  (x18 / 使用-01
+                  :arg1  (x9 / 邮票
+))))
+===========================
+英国邮政部门立即采用了这种机器。
+(x5 / 采用-01
+      :arg0  (x3 / 部门
+            :mod  (x2 / 邮政
+)            :poss  (x14 / country
+                  :name  ( x1/英国 
+)))      :aspect  (x6 / 了
+)      :arg1  (x8 / 机器
+            :mod  (x7_1 / 这
+)            :unit  (x7_2 / 种
+))      :time  (x4 / 立即
+))
+===========================
+直到现在，世界各地仍然在使用邮票打孔机。
+(x8 / 使用-01
+      :aspect  (x7 / 在
+)      :range  (x5 / 各地
+            :range  (x4 / 世界
+))      :mod  (x6 / 仍然
+)      :time  (x2 / 现在
+)      :arg1  (x10 / 打孔机
+            :mod  (x9 / 邮票
+)))
+===========================

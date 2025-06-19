@@ -1,0 +1,115 @@
+平平搭积木，搭了四间房子。
+(x2 / 搭-02
+      :arg1  (x3 / 积木
+)      :arg0  (x14 / person
+            :name  ( x1/平平 
+))      :cause-of  (x5 / 搭-03
+            :arg1  (x9 / 房子
+                  :quant  (x7 / 4
+)                  :cunit  (x8 / 间
+))            :aspect  (x6 / 了
+)))
+===========================
+平平，平平，这些房子都给谁住？
+(x8 / 给-01
+      :arg0  (x21 / and
+            :op1  (x22 / person
+                  :name  ( x1/平平 
+))            :op2  (x23 / person
+                  :name  ( x3/x1 
+)))      :arg1  (x6 / 房子
+            :quant  (x5 / 这些
+))      :mod  (x7 / 都
+)      :arg2  (x9 / amr-unknown
+)      :arg3  (x10 / 住-01
+            :arg0  (x9 / amr-unknown
+)            :arg1  (x6 / 房子
+))      :mode  (x11 / interrogative
+))
+===========================
+一间给爷爷和他的书住。
+(x3 / 给-01
+      :arg1  (x13 / building
+            :quant  (x1 / 1
+)            :cunit  (x2 / 间
+))      :arg2  (x5 / and
+            :op1  (x4 / 爷爷
+)            :op2  (x8 / 书
+                  :poss  (x6 / x4
+)))      :arg3  (x9 / 住-01
+            :arg0  (x5 / and
+)            :arg1  (x13 / building
+)))
+===========================
+一间给奶奶和平平住。
+(x3 / 给-01
+      :arg1  (x11 / building
+            :quant  (x1 / 1
+)            :cunit  (x2 / 间
+))      :arg2  (x5 / and
+            :op1  (x4 / 奶奶
+)            :op2  (x16 / person
+                  :name  ( x6/平平 
+)))      :arg3  (x7 / 住-01
+            :arg0  (x5 / and
+)            :arg1  (x11 / building
+)))
+===========================
+一间给爸爸妈妈住。
+(x3 / 给-01
+      :arg1  (x10 / building
+            :quant  (x1 / 1
+)            :cunit  (x2 / 间
+))      :arg2  (x13 / and
+            :op1  (x4 / 爸爸
+)            :op2  (x5 / 妈妈
+))      :arg3  (x6 / 住-01
+            :arg0  (x13 / and
+)            :arg1  (x10 / building
+)))
+===========================
+平平，平平，还有一间呢？
+(x10 / and
+      :op1  (x12 / person
+            :name  ( x1/平平 
+))      :op2  (x13 / person
+            :name  ( x3/x1 
+))      :op3  (x17 / building
+            :quant  (x6 / 1
+)            :cunit  (x7 / 间
+)            :mod  (x5 / 还有
+))      :mode  (x8_x9 / interrogative
+))
+===========================
+还有一间啊，给没有房子的人住。
+(x6 / 给-01
+      :arg1  (x15 / building
+            :mod  (x1 / 还有
+)            :mode  (x4 / expressive
+)            :quant  (x2 / 1
+)            :cunit  (x3 / 间
+))      :arg2  (x10 / 人
+            :arg0-of  (x7_2 / 有
+                  :polarity  (x7_1 / -
+)                  :arg1  (x8 / 房子
+)))      :arg3  (x11 / 住-01
+            :arg0  (x10 / 人
+)            :arg1  (x15 / building
+)))
+===========================
+平平还要搭很多很多的房子，给大家住。
+(x3 / 搭-03
+      :manner  (x2 / 还要
+)      :arg0  (x17 / person
+            :name  ( x1/平平 
+))      :arg1  (x7 / 房子
+            :quant  (x4_x5 / 很多
+))      :purpose  (x9 / 给-01
+            :arg0  (x17 / person
+)            :arg0  (x7 / 房子
+)            :arg2  (x10 / 大家
+)            :arg3  (x11 / 住-01
+                  :arg0  (x10 / 大家
+)                  :arg1  (x7 / 房子
+))))
+===========================

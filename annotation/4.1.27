@@ -1,0 +1,717 @@
+那天，我在罗马下了车，冒着暑气赶到青年旅馆，找到自己的房间，推门一看，吃了一惊：正对门的地上放了一张席梦思床，上面躺着一个金发小姑娘，睡得正香。
+(x55 / temporal
+      :arg1  (x6 / 下
+            :arg0  (x3 / 我
+)            :location  (x59 / city
+                  :name  ( x5/罗马 
+))            :aspect  (x7 / 了
+)            :arg1  (x8 / 车
+))      :time  (x1 / 那天
+)      :arg2  (x13 / 赶到-01
+            :manner  (x10 / 冒-01
+                  :arg0  (x3 / 我
+)                  :aspect  (x11 / 着
+)                  :arg1  (x12 / 暑气
+))            :arg0  (x3 / 我
+)            :arg1  (x14 / 青年旅馆
+))      :arg3  (x16 / 找到-01
+            :arg0  (x3 / 我
+)            :poss  (x17 / x3
+))      :arg4  (x21 / 推-01
+            :arg0  (x3 / 我
+)            :arg1  (x22 / 门
+))      :arg5  (x24 / 看
+            :arg0  (x3 / 我
+))      :arg6  (x26_x29 / 吃惊-01
+            :arg0  (x3 / 我
+)            :aspect  (x27 / 了
+)            :cause  (x78 / and
+                  :op1  (x36 / 放-01
+                        :aspect  (x37 / 了
+)                        :arg1  (x41 / 床
+                              :cunit  (x39 / 张
+)                              :quant  (x38 / 1
+)                              :mod  (x40 / 席梦思
+))                        :arg2  (x35 / 地上
+                              :arg0-of  (x32 / 对
+                                    :manner  (x31 / 正
+)                                    :arg1  (x33 / 门
+))))                  :op2  (x44 / 躺-01
+                        :aspect  (x45 / 着
+)                        :arg1  (x43 / 上面
+                              :arg0  (x41 / 床
+))                        :arg0  (x48 / 小姑娘
+                              :mod  (x47 / 金发
+)                              :quant  (x46_1 / 1
+)                              :cunit  (x46_2 / 个
+)))                  :op3  (x50 / 睡-01
+                        :arg0  (x48 / 小姑娘
+)                        :arg0-of  (x53 / 香-01
+                              :aspect  (x52 / 正
+))))))
+===========================
+我已经筋疲力尽了，于是匆匆洗漱完毕，也躺下了。
+(x16 / causation
+      :arg1  (x3 / 筋疲力尽-01
+            :aspect  (x4 / 了
+)            :aspect  (x2 / 已经
+)            :arg0  (x1 / 我
+))      :arg2  (x22 / temporal
+            :arg1  (x9 / 完毕-01
+                  :arg0  (x8 / 洗漱
+                        :arg0  (x1 / 我
+)                        :manner  (x7 / 匆匆
+)))            :arg2  (x12_x13 / 躺下-01
+                  :arg0  (x1 / 我
+)                  :aspect  (x14 / 了
+)                  :mod  (x11 / 也
+))))
+===========================
+不知过了多久，“丁零丁零丁零丁零”的闹钟声惊醒了我，睡眼蒙眬地看看表，下午两点半了。
+(x30 / temporal
+      :arg1  (x1_2 / 知-01
+            :arg1  (x2 / 过
+                  :aspect  (x3 / 了-01
+)                  :duration  (x4 / amr-unknown
+))            :polarity  (x1_1 / -
+))      :arg2  (x14 / 惊醒-01
+            :aspect  (x15 / 了
+)            :arg0  (x13 / 声
+                  :mod  (x12 / 闹钟
+)                  :arg0-of  (x41 / mean
+                        :arg1  (x42 / and
+                              :op1  (x6 / 丁零
+)                              :op2  (x7 / 丁零
+)                              :op3  (x8 / 丁零
+)                              :op4  (x9 / 丁零
+))                        :aspect  (x27 / 了
+)))            :arg1  (x16 / 我
+))      :arg3  (x21 / 看看-01
+            :manner  (x19 / 蒙眬
+                  :arg0  (x18 / 睡眼
+))            :arg0  (x16 / 我
+)            :arg1  (x22 / 表
+))      :arg4  (x51 / date-entity
+            :aspect  (x27 / 了
+)            :time  (x25_x26 / 14:30
+)            :dayperiod  (x24 / 下午
+)))
+===========================
+小姑娘已经起身，正在收拾东西，准备外出。
+(x13 / and
+      :op1  (x3 / 起
+            :arg1  (x4 / 身
+)            :arg0  (x1 / 小姑娘
+)            :aspect  (x2 / 已经
+))      :op2  (x7 / 收拾-01
+            :aspect  (x6 / 正在
+)            :arg0  (x1 / 小姑娘
+)            :arg1  (x8 / 东西
+))      :op3  (x10 / 准备-02
+            :arg0  (x1 / 小姑娘
+)            :arg1  (x11 / 外出-01
+                  :arg0  (x1 / 小姑娘
+))))
+===========================
+她走了不久，我也出去了。
+(x11 / temporal
+      :arg1  (x2 / 走-01
+            :duration  (x4 / 不久
+)            :aspect  (x3 / 了
+)            :arg0  (x1 / 她
+))      :arg2  (x8 / 出去-01
+            :mod  (x7 / 也
+)            :arg0  (x6 / 我
+)            :aspect  (x9 / 了
+)))
+===========================
+晚上八点多，我疲倦地回到旅馆。
+(x8 / 回到-01
+      :time  (x13 / date-entity
+            :time  (x3 / 多
+                  :arg0  (x2 / 20:00
+))            :dayperiod  (x1 / 晚上
+))      :manner  (x6 / 疲倦-01
+            :arg0  (x5 / 我
+))      :arg0  (x5 / 我
+)      :arg1  (x9 / 旅馆
+))
+===========================
+这时，小姑娘正惬意地趴在床垫上，一边吃糖，一边看一本厚厚的书。
+(x22 / and
+      :op1  (x7 / 趴在-01
+            :arg0  (x3 / 小姑娘
+)            :manner  (x5 / 惬意
+)            :aspect  (x4 / 正
+)            :arg1  (x8 / 床垫
+))      :op2  (x29 / and
+            :op1  (x12 / 吃-01
+                  :arg0  (x3 / 小姑娘
+)                  :arg1  (x13 / 糖
+))            :op2  (x16 / 看-01
+                  :arg1  (x20 / 书
+                        :quant  (x17 / 1
+)                        :arg0-of  (x19 / 厚-01
+)                        :cunit  (x18 / 本
+))                  :arg0  (x3 / 小姑娘
+)))      :time  (x1 / 这时
+))
+===========================
+她一见我，立即坐起来打招呼，问我玩得怎样，又问我从哪里来。
+(x24 / condition
+      :arg1  (x3 / 见-01
+            :arg0  (x1 / 她
+)            :arg1  (x4 / 我
+))      :arg3  (x9 / 打招呼-01
+            :arg0  (x1 / 她
+)            :arg1  (x4 / 我
+))      :arg4  (x11 / 问-01
+            :arg0  (x1 / 她
+)            :arg2  (x12 / x4
+)            :arg1  (x13 / 玩
+                  :cause-of  (x15 / amr-unknown
+)))      :arg5  (x18 / 问-01
+            :mod  (x17 / 又
+)            :arg0  (x1 / 她
+)            :arg2  (x19 / x4
+)            :arg1  (x22 / 来-01
+                  :arg0  (x19 / x4
+)                  :arg2  (x21 / amr-unknown
+))))
+===========================
+我说是中国人，现旅居德国。
+(x2 / 说-01
+      :arg0  (x1 / 我
+)      :arg1  (x14 / and
+            :op1  (x5 / 人
+                  :domain  (x1 / 我
+)                  :mod  (x16 / nationality
+))            :op2  (x8 / 旅居-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x18 / country
+                        :name  ( x9/德国 
+))                  :time  (x7 / 现
+))))
+===========================
+她一听，高兴得大叫：“我是德国人，住在汉堡。”
+(x19 / condition
+      :arg1  (x3 / 听-01
+            :arg0  (x1 / 她
+))      :arg2  (x8 / 叫-03
+            :manner  (x7 / 大
+)            :cause  (x5 / 高兴-01
+                  :arg0  (x1 / 她
+))            :arg0  (x1 / 她
+)            :arg1  (x26 / and
+                  :op1  (x13 / 人
+                        :domain  (x10 / x1
+)                        :mod  (x29 / nationality
+                              :name  ( x12/德国 
+)))                  :op2  (x15 / 住-01
+                        :arg0  (x1 / 她
+)                        :arg1  (x32 / city
+                              :name  ( x17/汉堡 
+))))))
+===========================
+她还告诉我她叫乌塔，已经14岁了。
+(x3 / 告诉-01
+      :arg0  (x1 / 她
+)      :mod  (x2 / 还
+)      :arg2  (x4 / 我
+)      :arg1  (x19 / and
+            :op1  (x6 / 叫-01
+                  :arg0  (x5 / x1
+)                  :arg1  (x7 / 乌塔
+))            :op2  (x23 / temporal-quantity
+                  :aspect  (x12 / 了
+)                  :aspect  (x9 / 已经
+)                  :age-of  (x1 / 她
+)                  :quant  (x10 / 14
+)                  :unit  (x11 / 岁
+))))
+===========================
+这次趁暑假游历欧洲，已经去了法国、瑞士、奥地利，在意大利去了威尼斯、米兰、佛罗伦萨，最后还要去希腊。
+(x35 / and
+      :op1  (x4 / 游历-01
+            :manner  (x2 / 趁-01
+                  :arg1  (x3 / 暑假
+))            :arg1  (x39 / world-region
+                  :name  ( x5/欧洲 
+))            :time  (x1 / 这次
+))      :op2  (x43 / temporal
+            :arg1  (x8 / 去-01
+                  :aspect  (x7 / 已经
+)                  :aspect  (x9 / 了
+)                  :arg1  (x48 / and
+                        :op1  (x49 / country
+                              :name  ( x10/法国 
+))                        :op2  (x51 / country
+                              :name  ( x12/瑞士 
+))                        :op3  (x53 / country
+                              :name  ( x14/奥地利 
+))))            :arg2  (x18 / 去-03
+                  :location  (x56 / country
+                        :name  ( x17/意大利 
+))                  :aspect  (x19 / 了
+)                  :arg1  (x59 / and
+                        :op1  (x60 / city
+                              :name  ( x20/威尼斯 
+))                        :op2  (x61 / city
+                              :name  ( x22/米兰 
+))                        :op2  (x65 / city
+                              :name  ( x24/佛罗伦萨 
+))))            :arg3  (x28 / 要-03
+                  :mod  (x27 / 还
+)                  :arg0  (x29 / 去-03
+                        :arg1  (x70 / country
+                              :name  ( x30/希腊 
+))))))
+===========================
+我有点惊讶：“你一个人吗？”
+(x10 / causation
+      :arg1  (x3 / 惊讶-01
+            :degree  (x2 / 有点
+)            :arg0  (x1 / 我
+))      :arg2  (x15 / say
+            :arg1  (x7 / 人
+                  :quant  (x6_1 / 1
+)                  :cunit  (x6_2 / 个
+)                  :domain  (x5 / 你
+)                  :mode  (x8_x9 / interrogative
+))))
+===========================
+“当然。”她很自然地答道。
+(x8 / 答道
+      :arg0  (x4 / 她
+)      :manner  (x6 / 自然
+            :degree  (x5 / 很
+))      :arg1  (x2 / 当然
+))
+===========================
+一个14岁的孩子，独自一人游欧洲，如果不是亲眼所见，我决不会相信。
+(x24 / condition
+      :arg1  (x18 / 见-01
+            :manner  (x16 / 亲眼
+)            :polarity  (x14_x15 / -
+)            :arg0  (x20 / 我
+))      :arg2  (x22 / 相信-01
+            :arg0  (x20 / 我
+)            :polarity  (x21 / -
+)            :arg1  (x10 / 游-01
+                  :manner  (x7 / 独自
+)                  :manner  (x9 / 人
+                        :quant  (x8 / 1
+))                  :arg1  (x36 / world-region
+                        :name  ( x11/欧洲 
+))                  :arg0  (x5 / 孩子
+                        :quant  (x1_1 / 1
+)                        :age  (x40 / temporal-quantity
+                              :quant  (x2 / 14
+)                              :unit  (x3 / 岁
+))                        :cunit  (x1_2 / 个
+)))))
+===========================
+我问乌塔：“你一个人不怕危险吗？你爸爸妈妈不担心吗？”
+(x2 / 问-01
+      :arg0  (x1 / 我
+)      :arg2  (x22 / person
+            :name  ( x3/乌塔 
+))      :arg1  (x24 / and
+            :op1  (x8_2 / 怕-01
+                  :polarity  (x8_1 / -
+)                  :arg1  (x9 / 危险
+)                  :mode  (x10_x11 / interrogative
+)                  :arg0  (x5 / x22
+                        :arg0-of  (x28 / mean
+                              :arg1  (x7 / 人
+                                    :quant  (x6_1 / 1
+)                                    :cunit  (x6_2 / 个
+)))))            :op2  (x16 / 担心-01
+                  :arg0  (x35 / and
+                        :op1  (x13 / 爸爸
+                              :poss  (x12 / x22
+))                        :op2  (x14 / 妈妈
+                              :poss  (x12 / x22
+)))                  :polarity  (x15 / -
+)                  :mode  (x17_x18 / interrogative
+))))
+===========================
+乌塔说，她在家里就设计好了旅行路线和日程，每到一地就先查警察局的电话号码，以便遇到危险和困难时请求帮助，再给家里拨个电话或寄张明信片。
+(x2 / 说-01
+      :arg0  (x50 / person
+            :name  ( x1/乌塔 
+))      :arg1  (x52 / and
+            :op2  (x63 / condition
+                  :arg1  (x17 / 到-01
+                        :mod  (x16 / 每
+)                        :arg1  (x19 / 地
+                              :quant  (x18 / 1
+)))                  :arg2  (x69 / temporal
+                        :arg1  (x22 / 查-01
+                              :arg1  (x26 / 号码
+                                    :mod  (x25 / 电话
+)                                    :poss  (x23 / 警察局
+))                              :purpose  (x28 / 以便-01
+                                    :arg2  (x34 / 请求-01
+                                          :arg0  (x4 / 她
+)                                          :arg2  (x35 / 帮助
+)                                          :time  (x29 / 遇到-01
+                                                :arg0  (x4 / 她
+)                                                :arg1  (x31 / and
+                                                      :op1  (x30 / 危险
+)                                                      :op2  (x32 / 困难
+))))                                    :arg1  (x4 / 她
+))                              :arg0  (x4 / 她
+))                        :arg2  (x43 / or
+                              :op1  (x40 / 拨-03
+                                    :arg0  (x4 / 她
+)                                    :arg1  (x42 / 电话
+                                          :cunit  (x41 / 个
+))                                    :beneficiary  (x39 / 家里
+))                              :op2  (x44 / 寄-01
+                                    :arg0  (x4 / 她
+)                                    :arg1  (x46 / 明信片
+                                          :cunit  (x45 / 张
+))                                    :arg2  (x39 / 家里
+)))))            :op1  (x9 / 好-04
+                  :aspect  (x10 / 了
+)                  :arg0  (x13 / and
+                        :op1  (x12 / 路线
+                              :mod  (x11 / 旅行
+))                        :op2  (x14 / 日程
+                              :mod  (x11 / 旅行
+)))                  :arg0  (x8 / 设计-01
+                        :arg0  (x4 / 她
+)                        :location  (x6 / 家里
+)                        :mod  (x7 / 就
+)                        :arg1  (x13 / and
+)))))
+===========================
+她还说，自己用了三年的时间准备这次旅行，阅读了很多与这些国家有关的书籍；为了挣旅费，每个周末去帮餐馆或超级市场分发广告单，假期还到别人家里陪小孩玩。
+(x3 / 说-01
+      :mod  (x2 / 还
+)      :arg0  (x1 / 她
+)      :arg1  (x53 / and
+            :op1  (x54 / and
+                  :op1  (x11 / 准备-02
+                        :arg1  (x13 / 旅行
+                              :mod  (x12_1 / 这
+)                              :cunit  (x12_2 / 次
+))                        :arg0  (x5 / x1
+))                  :manner  (x6 / 用-01
+                        :aspect  (x7 / 了
+)                        :arg0  (x5 / x1
+)                        :arg1  (x10 / 时间
+                              :mod  (x60 / temporal-quantity
+                                    :quant  (x8_1 / 3
+)                                    :unit  (x8_2 / 年
+))))                  :op2  (x15 / 阅读-01
+                        :arg0  (x1 / 她
+)                        :aspect  (x16 / 了
+)                        :arg1  (x23 / 书籍
+                              :mod  (x21 / 有关-01
+                                    :arg1  (x20 / 国家
+                                          :quant  (x19 / 这些
+)))                              :quant  (x17 / 很多
+))))            :op2  (x74 / and
+                  :cause  (x26 / 挣-01
+                        :arg0  (x1 / 她
+)                        :arg1  (x27 / 旅费
+))                  :op1  (x31 / 去-01
+                        :time  (x30 / 周末
+                              :mod  (x29 / 每个
+))                        :arg1  (x36 / 分发-01
+                              :beneficiary  (x34 / or
+                                    :op1  (x33 / 餐馆
+)                                    :op2  (x35 / 超级市场
+                                          :arg1  (x38 / 单
+                                                :mod  (x37 / 广告
+))))                              :arg0  (x1 / 她
+))                        :arg0  (x1 / 她
+))                  :op2  (x42 / 到-01
+                        :time  (x40 / 假期
+)                        :mod  (x41 / 还
+)                        :arg0  (x1 / 她
+)                        :arg1  (x44 / 家里
+                              :poss  (x43 / 别人
+))                        :purpose  (x45 / 陪-01
+                              :arg0  (x1 / 她
+)                              :arg1  (x46 / 小孩
+)                              :arg2  (x47 / 玩
+))))))
+===========================
+然后，她问我，中国的孩子是不是也这样旅游。
+(x17 / temporal
+      :arg2  (x4 / 问-01
+            :arg0  (x3 / 她
+)            :arg2  (x5 / 我
+)            :arg1  (x15 / 旅游-01
+                  :mode  (x10_x11_x12 / interrogative
+)                  :arg0  (x9 / 孩子
+                        :location  (x25 / country
+                              :name  ( x7/中国 
+)))                  :mod  (x13 / 也
+)                  :mod  (x14 / 这样
+))))
+===========================
+我一时语塞，想了一会儿才说：“在中国，像你这样年纪的孩子都是家里的宝贝，爸爸妈妈、爷爷奶奶很爱他们，会带他们一起出去玩，但一般不放心让他们一个人出远门。”
+(x53 / temporal
+      :arg1  (x3 / 语塞-01
+            :time  (x2 / 一时
+)            :arg0  (x1 / 我
+))      :arg2  (x5 / 想-01
+            :arg0  (x1 / 我
+)            :aspect  (x6 / 了
+)            :duration  (x7 / 一会儿
+))      :arg3  (x9 / 说-01
+            :mod  (x8 / 才
+)            :arg0  (x1 / 我
+)            :arg1  (x63 / and
+                  :op1  (x24 / 宝贝
+                        :domain  (x19 / 孩子
+                              :age  (x17 / 年纪
+                                    :arg0-of  (x14 / 像-01
+                                          :arg1  (x16 / 这样
+                                                :mod  (x15 / 你
+))))                              :extent  (x20 / 都
+))                        :location  (x22 / 家里
+))                  :location  (x65 / country
+                        :name  ( x12/中国 
+))                  :op2  (x32 / 爱-01
+                        :arg0  (x75 / and
+                              :op1  (x26 / 爸爸
+))                        :op2  (x27 / 妈妈
+)                        :op3  (x29 / 爷爷
+)                        :op4  (x30 / 奶奶
+)                        :degree  (x31 / 很
+)                        :arg1  (x33 / 他们
+))                  :op3  (x35 / 会-02
+                        :arg0  (x39 / 出去-01
+                              :manner  (x36 / 带-01
+                                    :arg0  (x75 / and
+)                                    :arg1  (x37 / x33
+))                              :purpose  (x40 / 玩
+)))                  :op4  (x43 / 一般
+                        :arg0  (x45 / 放心-01
+                              :arg0  (x75 / and
+)                              :polarity  (x44 / -
+)                              :arg1  (x46 / 让-02
+                                    :arg1  (x47 / x33
+)                                    :arg2  (x50 / 出-01
+                                          :arg1  (x51 / 远门
+)                                          :manner  (x49 / 人
+                                                :quant  (x48_1 / 1
+)                                                :cunit  (x48_2 / 个
+))                                          :arg0  (x33 / 他们
+))))))))
+===========================
+乌塔对我这番解释很不满意，马上反驳说：“我也是家里的宝贝，爸爸妈妈、爷爷奶奶也很爱我。
+(x32 / causation
+      :arg1  (x9 / 满意-01
+            :polarity  (x8 / -
+                  :degree  (x7 / 很
+))            :arg0  (x37 / person
+                  :name  ( x1/乌塔 
+))            :arg1  (x6 / 解释
+                  :mod  (x4 / 这
+)                  :cunit  (x5 / 番
+)                  :poss  (x3 / 我
+)))      :arg2  (x13 / 说-01
+            :manner  (x12 / 反驳-01
+                  :arg0  (x37 / person
+)                  :arg1  (x5 / 番
+))            :arg0  (x37 / person
+)            :time  (x11 / 马上
+)            :arg1  (x46 / and
+                  :op1  (x20 / 宝贝
+                        :domain  (x15 / x37
+)                        :location  (x18 / 家里
+)                        :mod  (x16 / 也
+))                  :op2  (x29 / 爱-01
+                        :arg0  (x50 / and
+                              :op1  (x22 / 爸爸
+)                              :op2  (x23 / 妈妈
+)                              :op3  (x25 / 爷爷
+)                              :op4  (x26 / 奶奶
+))                        :mod  (x27 / 也
+)                        :degree  (x28 / 很
+)                        :arg1  (x30 / x37
+)))))
+===========================
+不过我们兴趣不同，所以我们有时候一起出去玩，有时候单独出去玩。
+(x18 / causation
+      :arg1  (x4 / 不同-01
+            :arg0  (x3 / 兴趣
+                  :poss  (x2 / 我们
+)))      :arg2  (x23 / and
+            :op1  (x10 / 出去-01
+                  :purpose  (x11 / 玩-01
+                        :arg0  (x7 / x2
+))                  :manner  (x9 / 一起-01
+                        :arg0  (x7 / x2
+))                  :arg0  (x7 / x2
+)                  :time  (x8 / 有时候
+))            :op2  (x15 / 出去-01
+                  :arg0  (x2 / 我们
+)                  :purpose  (x16 / 玩-01
+                        :arg0  (x2 / 我们
+))                  :time  (x13 / 有时候
+)                  :manner  (x14 / 单独
+))))
+===========================
+爱孩子，为什么就不能让他们单独出门？我不明白。
+(x14 / 明白-01
+      :polarity  (x13 / -
+)      :arg0  (x12 / 我
+)      :arg1  (x21 / condition
+            :arg1  (x1 / 爱-01
+                  :arg1  (x2 / 孩子
+))            :arg2  (x6_2 / 能-01
+                  :polarity  (x6_1 / -
+)                  :arg0  (x7 / 让-02
+                        :arg1  (x8 / 他们
+)                        :arg2  (x10 / 出门-01
+                              :arg0  (x8 / 他们
+)                              :manner  (x9 / 单独
+)))                  :cause  (x4 / amr-unknown
+)                  :mode  (x11 / interrogative
+))))
+===========================
+你的话不合逻辑。”
+(x7 / say
+      :arg1  (x4_2 / 合-01
+            :polarity  (x4_1 / -
+)            :arg0  (x3 / 话
+                  :poss  (x1 / 你
+))            :arg1  (x5 / 逻辑
+)))
+===========================
+我只好笑着承认自己的理由不太充足。
+(x5 / 承认-01
+      :mod  (x2 / 只好
+)      :manner  (x3 / 笑-01
+            :arg0  (x1 / 我
+)            :aspect  (x4 / 着
+))      :arg0  (x1 / 我
+)      :arg1  (x11 / 充足-01
+            :degree  (x10 / 太
+)            :polarity  (x9 / -
+)            :arg0  (x8 / 理由
+                  :poss  (x6 / x1
+))))
+===========================
+乌塔说：“中国的孩子缺少很多乐趣吧？”
+(x2 / 说-01
+      :arg0  (x14 / person
+            :name  ( x1/乌塔 
+))      :arg1  (x7 / 缺少-01
+            :arg0  (x6 / 孩子
+                  :location  (x17 / country
+                        :name  ( x4/中国 
+)))            :arg1  (x9 / 乐趣
+                  :quant  (x8 / 很多
+))            :mode  (x10_x11 / interrogative
+)))
+===========================
+我说：“中国有电视，有儿童图书，有游乐园，孩子们很快乐。”
+(x2 / 说-01
+      :arg0  (x1 / 我
+)      :arg1  (x23 / and
+            :op1  (x5 / 有-03
+                  :arg1  (x6 / 电视
+)                  :arg0  (x31 / country
+                        :name  ( x4/中国 
+)))            :op2  (x8 / 有-03
+                  :arg1  (x10 / 图书
+                        :mod  (x9 / 儿童
+))                  :arg0  (x31 / country
+))            :op3  (x12 / 有-03
+                  :arg1  (x13 / 游乐园
+)                  :arg0  (x31 / country
+))            :op4  (x18 / 快乐-01
+                  :arg0  (x15_x16 / 孩子们
+)                  :degree  (x17 / 很
+))))
+===========================
+但她还是坚持：“光从电视和书本中认识世界总不完美。
+(x18 / contrast
+      :arg2  (x20 / and
+            :op1  (x4 / 坚持
+                  :arg0  (x2 / 她
+)                  :mod  (x3 / 还是
+))            :op2  (x24 / say
+                  :arg1  (x16 / 完美-01
+                        :arg0  (x12 / 认识-01
+                              :source  (x9 / and
+                                    :mod  (x6 / 光
+)                                    :op1  (x8 / 电视
+)                                    :op2  (x10 / 书本
+))                              :arg1  (x13 / 世界
+))                        :mod  (x14 / 总
+)                        :polarity  (x15 / -
+)))))
+===========================
+我从电视上经常看见意大利，但只有亲自来到这里，它的美丽才深深感动了我。”
+(x24 / say
+      :arg1  (x26 / contrast
+            :arg1  (x6 / 看见-01
+                  :source  (x3 / 电视
+)                  :frequency  (x5 / 经常
+)                  :arg0  (x1 / 我
+)                  :arg1  (x31 / country
+                        :name  ( x7/意大利 
+)))            :arg2  (x33 / condition
+                  :arg1  (x12 / 来到-01
+                        :manner  (x11 / 亲自
+)                        :arg0  (x1 / 我
+)                        :arg1  (x13 / x31
+))                  :arg2  (x20 / 感动-01
+                        :mod  (x18 / 才
+)                        :aspect  (x21 / 了
+)                        :arg0  (x17 / 美丽-01
+                              :arg0  (x15 / x31
+))                        :arg1  (x22 / x1
+)))))
+===========================
+第二天早晨，乌塔向我道别，说晚上要坐火车去波恩。
+(x17 / and
+      :time  (x2 / 早晨
+            :time  (x1 / 第二天
+))      :op1  (x7 / 道别-01
+            :arg0  (x22 / person
+                  :name  ( x4/乌塔 
+))            :arg1  (x6 / 我
+))      :op2  (x9 / 说-01
+            :arg0  (x22 / person
+)            :arg1  (x11 / 要-03
+                  :arg0  (x14 / 去-01
+                        :manner  (x12 / 坐-02
+                              :arg0  (x22 / person
+)                              :arg1  (x13 / 火车
+))                        :arg0  (x22 / person
+)                        :arg1  (x31 / city
+                              :name  ( x15/波恩 
+)))                  :time  (x10 / 晚上
+))))
+===========================
+她还认真地告诉我要继续挣钱，以后去中国旅游。
+(x5 / 告诉-01
+      :arg0  (x1 / 她
+)      :mod  (x2 / 还
+)      :manner  (x3 / 认真
+)      :arg1  (x21 / and
+            :op1  (x7 / 要-03
+                  :arg0  (x8 / 继续-01
+                        :arg0  (x9 / 挣钱-01
+                              :arg0  (x1 / 她
+))                        :arg0  (x1 / 她
+)))            :op2  (x12 / 去-01
+                  :arg0  (x1 / 她
+)                  :time  (x11 / 以后
+)                  :arg1  (x28 / country
+                        :name  ( x13/中国 
+))                  :purpose  (x14 / 旅游-01
+                        :arg0  (x1 / 她
+))))      :arg2  (x6 / 我
+))
+===========================

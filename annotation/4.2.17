@@ -1,0 +1,158 @@
+蔚蓝色的大海，本来是海鸥的乐园，可是巡弋的战舰和水雷成了不速之客，这究竟是为什么？
+(x26 / and
+      :op1  (x28 / contrast
+            :arg1  (x9 / 乐园
+                  :domain  (x3 / 大海
+                        :mod  (x1 / 蔚蓝色
+))                  :poss  (x7 / 海鸥
+)                  :manner  (x5 / 本来
+))            :arg2  (x17 / 成-01
+                  :aspect  (x18 / 了
+)                  :arg0  (x15 / and
+                        :op1  (x14 / 战舰
+                              :mod  (x12 / 巡弋
+))                        :op2  (x16 / 水雷
+))                  :arg1  (x19 / 不速之客
+)))      :op2  (x21 / x28
+            :manner  (x22 / 究竟
+)            :cause  (x23_x24 / amr-unknown
+)            :mode  (x25 / interrogative
+)))
+===========================
+金黄色的沙漠，本来是蜥蜴和甲虫的天下，可是轰隆隆的坦克和大炮打破了它们的梦幻，这究竟是为什么？
+(x30 / and
+      :op1  (x32 / contrast
+            :arg1  (x11 / 天下
+                  :domain  (x3 / 沙漠
+                        :mod  (x1 / 金黄色
+))                  :poss  (x8 / 和
+                        :op1  (x7 / 蜥蜴
+)                        :op2  (x9 / 甲虫
+))                  :manner  (x5 / 本来
+))            :arg2  (x19 / 打破-01
+                  :arg0  (x17 / and
+                        :op1  (x16 / 坦克
+                              :mod  (x14 / 轰隆隆
+))                        :op2  (x18 / 大炮
+))                  :aspect  (x20 / 了
+)                  :arg1  (x23 / 梦幻
+                        :poss  (x21 / x8
+))))      :op2  (x25 / x32
+            :cause  (x27_x28 / amr-unknown
+)            :mode  (x29 / interrogative
+)))
+===========================
+蓝得发黑的夜空，本来属于星星和月亮，可是如今频频发射的导弹把星星的家园搅得很不安宁，这究竟是为什么？
+(x35 / and
+      :op1  (x37 / contrast
+            :arg1  (x9 / 属于-01
+                  :arg1  (x11 / and
+                        :op1  (x10 / 星星
+)                        :op2  (x12 / 月亮
+))                  :arg0  (x6 / 夜空
+                        :arg0-of  (x1 / 蓝-01
+                              :degree  (x3 / 发
+                                    :arg1  (x4 / 黑
+))))                  :manner  (x8 / 本来
+))            :arg2  (x24 / 搅-01
+                  :cause-of  (x28 / 安宁-01
+                        :polarity  (x27 / -
+)                        :degree  (x26 / 很
+)                        :arg0  (x23 / 家园
+                              :poss  (x21 / 星星
+)))                  :arg0  (x19 / 导弹
+                        :arg1-of  (x17 / 发射-01
+                              :frequency  (x16 / 频频
+)))                  :time  (x15 / 如今
+)                  :arg1  (x23 / 家园
+)))      :op2  (x30 / x37
+            :manner  (x31 / 究竟
+)            :cause  (x32_x33 / amr-unknown
+)            :mode  (x34 / interrogative
+)))
+===========================
+绿茵茵的草地，本该滚动着欢乐的足球，可是如今散落着的地雷碎片阻挡着孩子们奔跑的脚步，这究竟是为什么？
+(x32 / and
+      :op1  (x34 / contrast
+            :arg1  (x6 / 滚动-01
+                  :arg0  (x10 / 足球
+                        :mod  (x8 / 欢乐
+))                  :aspect  (x7 / 着
+)                  :manner  (x5 / 本该
+)                  :location  (x3 / 草地
+                        :mod  (x1 / 绿茵茵
+)))            :arg2  (x19 / 阻挡-01
+                  :arg0  (x18 / 碎片
+                        :mod  (x17 / 地雷
+)                        :arg0-of  (x14 / 散落-01
+                              :aspect  (x15 / 着
+)))                  :time  (x13 / 如今
+)                  :aspect  (x20 / 着
+)                  :arg1  (x25 / 脚步
+                        :mod  (x23 / 奔跑-01
+                              :arg0  (x21_x22 / 孩子们
+)))))      :op2  (x27 / x34
+            :cause  (x29_x30 / amr-unknown
+)            :manner  (x28 / 究竟
+)            :mode  (x31 / interrogative
+)))
+===========================
+我们希望，我们祈盼——让战火中的孩子有一张课桌，平稳的课桌，不被导弹的气浪掀翻！
+(x28 / and
+      :op1  (x2 / 希望-01
+            :arg0  (x1 / 我们
+)            :arg1  (x34 / and
+                  :op1  (x7 / 让-02
+                        :arg1  (x11 / 孩子
+                              :location  (x8 / 战火
+))                        :arg2  (x12 / 有-01
+                              :arg0  (x11 / 孩子
+)                              :arg1  (x15 / 课桌
+                                    :quant  (x13 / 1
+)                                    :cunit  (x14 / 张
+)                                    :arg0-of  (x42 / mean
+                                          :arg1  (x19 / 课桌
+                                                :arg0-of  (x17 / 平稳-01
+))))))                  :op2  (x26 / 掀翻-01
+                        :mode  (x27 / expressive
+)                        :arg0  (x25 / 气浪
+                              :poss  (x23 / 导弹
+))                        :polarity  (x21 / -
+)                        :arg1  (x15 / 课桌
+))))      :op2  (x5 / 祈盼
+            :arg0  (x4 / x1
+)))
+===========================
+有一间教室，洁白的教室，免遭炸弹的弹片击穿！
+(x16 / and
+      :op1  (x1 / 有-01
+            :arg1  (x4 / 教室
+                  :arg0-of  (x20 / mean
+                        :arg1  (x8 / 教室
+                              :arg0-of  (x6 / 洁白
+)))                  :quant  (x2 / 1
+)                  :cunit  (x3 / 间
+)))      :op2  (x10 / 免遭-01
+            :arg1  (x14 / 击穿-01
+                  :arg0  (x13 / 弹片
+                        :poss  (x11 / 炸弹
+)))            :arg0  (x4 / 教室
+)            :mode  (x15 / expressive
+)))
+===========================
+和我们一样在鲜花中读书，和我们一样享受春天……
+(x15 / and
+      :op1  (x7 / 读书-01
+            :location  (x5 / 鲜花
+)            :arg0  (x22 / person
+                  :arg0-of  (x23 / resemble
+                        :arg1  (x2 / 我们
+))))      :op2  (x12 / 享受-01
+            :arg1  (x20 / date-entity
+                  :season  (x13 / 春天
+))            :arg0  (x25 / person
+                  :arg0-of  (x26 / resemble
+                        :arg1  (x10 / x2
+))                  :refer  (x22 / person
+))))
+===========================

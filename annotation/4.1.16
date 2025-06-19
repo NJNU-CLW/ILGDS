@@ -1,0 +1,498 @@
+我一向讨厌母鸡。
+(x3 / 讨厌-01
+      :time  (x2 / 一向
+)      :arg0  (x1 / 我
+)      :arg1  (x4 / 母鸡
+))
+===========================
+听吧，它由前院嘎嘎到后院，由后院再嘎嘎到前院，没完没了，并且没有什么理由，讨厌！
+(x27 / causation
+      :arg1  (x29 / and
+            :op1  (x1 / 听
+                  :mode  (x2 / imperative
+))            :op2  (x32 / temporal
+                  :arg1  (x8 / 到-01
+                        :arg0  (x4 / 它
+)                        :arg1  (x9 / 后院
+)                        :manner  (x7 / 嘎嘎
+)                        :source  (x6 / 前院
+))                  :arg2  (x15 / 到-01
+                        :manner  (x14 / 嘎嘎
+)                        :source  (x12 / 后院
+)                        :arg1  (x16 / 前院
+)                        :arg0  (x4 / 它
+)))            :op3  (x18 / 没完没了-01
+                  :arg0  (x32 / temporal
+))            :op4  (x21_2 / 有-03
+                  :arg1  (x23 / 理由
+                        :mod  (x22 / 什么
+))                  :polarity  (x21_1 / -
+)))      :arg2  (x25 / 讨厌
+            :mode  (x26 / expressive
+)))
+===========================
+有的时候，它不这样乱叫，而是细声细气的，有什么心事似的，颤颤巍巍的，顺着墙根，或沿着田坝，那么扯长了声如怨如诉，使人心中立刻结起个小疙瘩来。
+(x50 / and
+      :time  (x1_x2 / 有的时候
+)      :op1  (x7 / 乱叫-01
+            :polarity  (x5 / -
+)            :arg0  (x4 / 它
+)            :mod  (x6 / 这样
+))      :op2  (x10 / 细声细气
+            :arg0  (x4 / 它
+)            :mode  (x11 / judgement
+)            :arg1-of  (x61 / resemble
+                  :arg2  (x13 / 有-01
+                        :arg1  (x15 / 心事
+                              :mod  (x14 / amr-unknown
+)))))      :op3  (x18 / 颤颤巍巍
+            :mode  (x19 / judgement
+))      :op4  (x67 / or
+            :op1  (x21_1 / 顺
+                  :aspect  (x21_2 / 着
+)                  :arg1  (x22 / 墙根
+))            :op2  (x25_1 / 沿
+                  :aspect  (x25_2 / 着
+)                  :arg1  (x27 / 坝
+                        :mod  (x26 / 田
+))))      :op5  (x39 / 使-01
+            :arg1  (x41 / 心中
+                  :poss  (x40 / 人
+))            :arg0  (x30 / 扯-02
+                  :mod  (x29 / 那么
+)                  :cause-of  (x31 / 长-02
+                        :aspect  (x32 / 了
+)                        :arg0-of  (x33 / 声
+                              :arg0-of  (x36 / 如-01
+                                    :arg1  (x37 / 诉
+))                              :arg0-of  (x34 / 如-01
+                                    :arg1  (x35 / 怨
+))))                  :arg0  (x4 / 它
+)                  :arg1  (x33 / 声
+))            :arg2  (x43 / 结-01
+                  :arg0  (x47 / 疙瘩
+                        :arg0-of  (x46 / 小-01
+)                        :cunit  (x45 / 个
+))                  :time  (x42 / 立刻
+))))
+===========================
+它永远不反抗公鸡。
+(x4 / 反抗-01
+      :polarity  (x3 / -
+)      :arg0  (x1 / 它
+)      :time  (x2 / 永远
+)      :arg1  (x5 / 公鸡
+))
+===========================
+有时候却欺侮最忠厚的鸭子。
+(x14 / contrast
+      :arg2  (x3 / 欺侮-01
+            :arg1  (x7 / 鸭子
+                  :arg0-of  (x5 / 忠厚
+                        :degree  (x4 / 最
+)))            :time  (x1 / 有时候
+)))
+===========================
+更可恶的是遇到另一只母鸡的时候，它会下毒手，趁其不备，狠狠地咬一口，咬下一撮儿毛来。
+(x15 / 会-02
+      :domain  (x40 / thing
+            :arg0-of  (x2 / 可恶-01
+                  :degree  (x1 / 更
+)))      :arg0  (x16 / 下毒手-01
+            :arg0  (x14 / 它
+)            :arg0-of  (x50 / mean
+                  :arg1  (x51 / temporal
+                        :arg1  (x25 / 咬-01
+                              :manner  (x18 / 趁-01
+                                    :arg0  (x14 / 它
+)                                    :arg1  (x21 / 备-01
+                                          :polarity  (x20 / -
+)                                          :arg0  (x19 / x10
+)))                              :quant  (x26 / 1
+)                              :manner  (x23 / 狠狠
+)                              :cunit  (x27 / 口
+)                              :arg0  (x14 / 它
+)                              :arg1  (x10 / 鸡
+                                    :mod  (x9 / 母
+)                                    :cunit  (x8 / 只
+)                                    :quant  (x7 / 1
+)                                    :mod  (x6 / 另
+)))                        :arg2  (x29 / 咬-01
+                              :cause-of  (x30 / 下-11
+                                    :arg1  (x33 / 毛
+                                          :cunit  (x32 / 撮儿
+)                                          :quant  (x31 / 1
+)                                          :part-of  (x10 / 鸡
+)))                              :arg0  (x14 / 它
+)                              :arg1  (x10 / 鸡
+)))))      :time  (x5 / 遇到-01
+            :arg0  (x14 / 它
+)            :arg1  (x10 / 鸡
+)))
+===========================
+到下蛋的时候，它差不多是发了狂，恨不能让全世界都知道它这点儿成绩；就是聋子也会被它吵得受不了。
+(x34 / and
+      :time  (x2 / 下蛋-01
+            :arg0  (x6 / 它
+))      :op1  (x9_x11 / 发狂-01
+            :arg0  (x6 / 它
+)            :aspect  (x10 / 了
+)            :mode  (x8 / judgement
+)            :mod  (x7 / 差不多
+))      :op2  (x13 / 恨-01
+            :arg1  (x14_2 / 能-01
+                  :polarity  (x14_1 / -
+)                  :arg0  (x15 / 让-02
+                        :arg1  (x16 / 全世界
+                              :extent  (x17 / 都
+))                        :arg2  (x18 / 知道-01
+                              :arg1  (x22 / 成绩
+                                    :mod  (x20 / 这
+)                                    :quant  (x21 / 点儿
+)                                    :poss  (x19 / x6
+))                              :arg0  (x16 / 全世界
+))                        :arg0  (x6 / 它
+))))      :op3  (x27 / 会-02
+            :arg0  (x30 / 吵-03
+                  :cause-of  (x32 / 受不了-01
+                        :arg0  (x25 / 聋子
+))                  :arg0  (x29 / 它
+)                  :arg1  (x25 / 聋子
+))            :mod  (x26 / 也
+)))
+===========================
+可是，现在我改变了心思，我看见一只孵出一群小雏鸡的母鸡。
+(x22 / contrast
+      :arg2  (x24 / causation
+            :arg2  (x5 / 改变-01
+                  :aspect  (x6 / 了
+)                  :arg0  (x4 / 我
+)                  :time  (x3 / 现在
+)                  :arg1  (x7 / 心思
+))            :arg1  (x10 / 看见-01
+                  :arg0  (x9 / x4
+)                  :arg1  (x20 / 母鸡
+                        :arg0-of  (x13 / 孵-01
+                              :arg2  (x18 / 雏鸡
+                                    :arg0-of  (x17 / 小-01
+)                                    :quant  (x15 / 1
+)                                    :cunit  (x16 / 群
+)))                        :quant  (x11 / 1
+)                        :cunit  (x12 / 只
+)))))
+===========================
+不论是在院里，还是在院外，它总是挺着脖儿，表示出世界上并没有可怕的东西。
+(x28 / and
+      :op1  (x13 / 挺-02
+            :aspect  (x14 / 着
+)            :arg0  (x11 / 它
+)            :arg1  (x15_x16 / 脖儿
+                  :part-of  (x11 / 它
+))            :frequency  (x12 / 总是
+))      :op2  (x18 / 表示-02
+            :arg0  (x11 / 它
+)            :arg1  (x23_2 / 有-03
+                  :polarity  (x23_1 / -
+)                  :arg0  (x20 / 世界
+)                  :arg1  (x26 / 东西
+                        :arg0-of  (x24 / 可怕-01
+))                  :mod  (x22 / 并
+)))      :location  (x42 / and
+            :op1  (x4 / 里
+                  :arg0  (x3 / 院
+))            :op2  (x9 / 外
+                  :arg0  (x8 / x3
+))))
+===========================
+一只鸟儿飞过，或是什么东西响了一声，它立刻警戒起来：歪着头听；挺着身儿预备作战；看看前，看看后，咕咕地警告鸡雏要马上集合到它身边来。
+(x51 / condition
+      :arg1  (x53 / or
+            :op1  (x4 / 飞过-01
+                  :arg0  (x3 / 鸟儿
+                        :quant  (x1 / 1
+)                        :cunit  (x2 / 只
+)))            :op2  (x9 / 响-01
+                  :aspect  (x10 / 了
+)                  :quant  (x11 / 1
+)                  :cunit  (x12 / 声
+)                  :arg0  (x8 / 东西
+                        :mod  (x7 / amr-unknown
+))))      :arg2  (x16_x17 / 警戒-01
+            :arg0  (x14 / 它
+)            :time  (x15 / 立刻
+)            :arg0-of  (x66 / mean
+                  :arg1  (x67 / and
+                        :op1  (x22 / 听-01
+                              :arg0  (x14 / 它
+)                              :manner  (x19 / 歪-01
+                                    :aspect  (x20 / 着
+)                                    :arg0  (x21 / 头
+                                          :part-of  (x14 / 它
+))))                        :op2  (x27 / 预备-01
+                              :manner  (x24 / 挺-02
+                                    :aspect  (x25 / 着
+)                                    :arg1  (x26 / 身儿
+                                          :part-of  (x14 / 它
+))                                    :arg0  (x14 / 它
+))                              :arg0  (x14 / 它
+)                              :arg1  (x28 / 作战
+))                        :op3  (x77 / temporal
+                              :arg1  (x30 / 看看-01
+                                    :arg0  (x14 / 它
+)                                    :arg1  (x31 / 前
+))                              :arg2  (x33 / 看看-01
+                                    :arg0  (x14 / 它
+)                                    :arg1  (x34 / 后
+))                              :arg3  (x39 / 警告-01
+                                    :arg0  (x14 / 它
+)                                    :arg1  (x40 / 鸡雏
+)                                    :manner  (x36_x37 / 咕咕
+)                                    :arg2  (x41 / 要-03
+                                          :arg0  (x43 / 集合-01
+                                                :arg1  (x40 / 鸡雏
+)                                                :arg2  (x46 / 身边
+                                                      :arg0  (x45 / x14
+))                                                :time  (x42 / 马上
+)))))))))
+===========================
+发现了一点儿可吃的东西，它咕咕地紧叫，啄一啄那个东西，马上便放下，让它的儿女吃。
+(x32 / temporal
+      :arg1  (x1 / 发现-01
+            :aspect  (x2 / 了
+)            :arg1  (x7 / 东西
+                  :mod  (x4 / 可-01
+                        :arg1  (x5 / 吃-01
+                              :arg1  (x7 / 东西
+                                    :quant  (x3 / 一点儿
+)))))            :arg0  (x1 / 发现-01
+))      :arg2  (x14 / 叫-03
+            :manner  (x13 / 紧
+)            :manner  (x10_x11 / 咕咕
+)            :arg0  (x9 / 它
+))      :arg3  (x16_x17_x18 / 啄-01
+            :arg0  (x9 / 它
+)            :arg1  (x20 / x7
+                  :mod  (x19_1 / 那
+)                  :cunit  (x19_2 / 个
+)))      :arg4  (x24 / 放下-01
+            :time  (x22 / 马上
+)            :arg1  (x7 / 东西
+)            :arg0  (x9 / 它
+))      :arg5  (x26 / 让-02
+            :arg1  (x29 / 儿女
+                  :poss  (x27 / x9
+))            :arg2  (x30 / 吃-01
+                  :arg0  (x29 / 儿女
+)                  :arg1  (x7 / 东西
+))))
+===========================
+结果，每一只鸡雏的肚子都圆圆地下垂，像刚装了一两个汤圆儿似的，它自己却消瘦了许多。
+(x31 / temporal
+      :arg2  (x33 / contrast
+            :arg1  (x14 / 像-01
+                  :arg0  (x12 / 下垂-01
+                        :arg0  (x8 / 肚子
+                              :part-of  (x6 / 鸡雏
+                                    :cunit  (x5 / 只
+)                                    :quant  (x4 / 1
+)                                    :mod  (x3 / 每
+))                              :extent  (x9 / 都
+))                        :manner  (x10 / 圆圆
+))                  :arg1  (x16 / 装-01
+                        :aspect  (x17 / 了
+)                        :time  (x15 / 刚
+)                        :arg1  (x20_x21 / 汤圆儿
+                              :quant  (x47 / or
+                                    :op1  (x18_1 / 1
+)                                    :op2  (x18_2 / 2
+))                              :cunit  (x19 / 个
+))))            :arg2  (x27 / 消瘦
+                  :degree  (x29 / 许多
+)                  :aspect  (x28 / 了
+)                  :arg0  (x25 / 自己
+                        :arg0-of  (x55 / mean
+                              :arg1  (x24 / 它
+))))))
+===========================
+假若有别的大鸡来抢食，它一定出击，把它们赶出老远，连大公鸡也怕它三分。
+(x29 / causation
+      :arg1  (x31 / condition
+            :arg1  (x6 / 来-05
+                  :arg0  (x5 / 鸡
+                        :arg1-of  (x2 / 有-03
+)                        :arg0-of  (x4 / 大
+)                        :mod  (x3 / 别的
+))                  :arg1  (x7 / 抢-01
+                        :arg1  (x8 / 食
+)                        :arg0  (x5 / 鸡
+)))            :arg2  (x11 / 一定
+                  :arg0  (x40 / and
+                        :op1  (x12 / 出击-01
+                              :arg0  (x10 / 它
+))                        :op2  (x16_x17 / 赶出-01
+                              :arg0  (x10 / 它
+)                              :arg1  (x15 / x5
+)                              :cause-of  (x18_2 / 远-01
+                                    :degree  (x18_1 / 老
+)                                    :arg0  (x10 / 它
+))))))      :arg2  (x24 / 怕-01
+            :arg1  (x25 / x10
+)            :arg0  (x22 / 公鸡
+                  :arg0-of  (x21 / 大-01
+))            :degree  (x26_x27 / 三分
+)))
+===========================
+它教鸡雏们啄食，掘地，用土洗澡，一天不知教多少次。
+(x20 / and
+      :op1  (x2 / 教-01
+            :arg0  (x1 / 它
+)            :arg1  (x3_x4 / 鸡雏们
+)            :arg2  (x25 / and
+                  :op1  (x5 / 啄食-01
+                        :arg0  (x3_x4 / 鸡雏们
+))                  :op2  (x7 / 掘-01
+                        :arg0  (x3_x4 / 鸡雏们
+)                        :arg1  (x8 / 地
+))                  :op3  (x11 / 洗澡-01
+                        :instrument  (x10_2 / 土
+)                        :arg0  (x3_x4 / 鸡雏们
+))))      :op2  (x15_2 / 知-01
+            :polarity  (x15_1 / -
+)            :arg1  (x16 / 教
+                  :unit  (x18 / 次
+)                  :duration  (x37 / temporal-quantity
+                        :unit  (x14 / 天
+)                        :quant  (x13 / 1
+))                  :quant  (x17 / amr-unknown
+))))
+===========================
+它还半蹲着，让它们挤在它的翅下、胸下，得一点儿温暖。
+(x23 / and
+      :op1  (x4 / 蹲-01
+            :manner  (x3 / 半
+)            :aspect  (x5 / 着-01
+)            :arg0  (x1 / 它
+)            :mod  (x2 / 还-01
+))      :op2  (x7 / 让-01
+            :arg0  (x1 / 它
+)            :arg1  (x8 / 它们
+)            :arg2  (x9 / 挤-03
+                  :arg0  (x8 / 它们
+)                  :arg1  (x33 / and
+                        :op1  (x14 / 下
+                              :arg0  (x13 / 翅
+                                    :poss  (x11 / x1
+)))                        :op2  (x17 / 下
+                              :arg0  (x16 / 胸
+                                    :poss  (x11 / x1
+)))))            :purpose  (x19 / 得-01
+                  :arg0  (x8 / 它们
+)                  :arg1  (x21 / 温暖
+                        :quant  (x20 / 一点儿
+)))))
+===========================
+它若伏在地上，鸡雏们有的便爬在它的背上，啄它的头或别的地方，它一声也不哼。
+(x33 / condition
+      :arg1  (x3 / 伏-01
+            :arg0  (x1 / 它
+)            :arg1  (x5 / 地上
+))      :arg2  (x40 / contrast
+            :arg2  (x31 / 哼-01
+                  :polarity  (x30 / -
+)                  :mod  (x29 / 也
+)                  :arg0  (x26 / x1
+)                  :quant  (x27 / 1
+)                  :cunit  (x28 / 声
+))            :arg1  (x52 / temporal
+                  :arg1  (x11 / 爬-01
+                        :arg0  (x7_x8 / 鸡雏们
+                              :mod  (x9 / 有的
+))                        :arg1  (x16 / 上
+                              :arg0  (x15 / 背
+                                    :poss  (x13 / x1
+))))                  :arg2  (x18 / 啄-01
+                        :arg0  (x7_x8 / 鸡雏们
+)                        :arg1  (x22 / or
+                              :op1  (x21 / 头
+                                    :part-of  (x19 / x1
+))                              :op2  (x24 / 地方
+                                    :mod  (x23 / 别的
+)))))))
+===========================
+在夜间若有什么动静，它便放声啼叫，顶尖锐，顶凄惨，无论多么贪睡的人都得起来看看，是不是有了黄鼠狼。
+(x40 / causation
+      :arg1  (x42 / condition
+            :arg1  (x4 / 有-03
+                  :arg1  (x6 / 动静
+                        :mod  (x5 / amr-unknown
+)))            :time  (x2 / 夜间
+)            :arg2  (x11_x12 / 啼叫
+                  :arg0  (x8 / 它
+)                  :manner  (x10 / 放声
+)                  :arg0-of  (x15 / 尖锐-01
+                        :degree  (x14 / 顶
+))                  :arg0-of  (x18 / 凄惨-01
+                        :degree  (x17 / 顶
+))))      :arg2  (x27 / 得
+            :arg0  (x28 / 起来-01
+                  :purpose  (x29 / 看看-01
+                        :arg1  (x34 / 有-03
+                              :mode  (x31_x32_x33 / interrogative
+)                              :aspect  (x35 / 了
+)                              :arg1  (x36 / 黄鼠狼
+)))                  :arg0  (x25 / 人
+                        :arg0-of  (x22 / 贪-01
+                              :degree  (x21 / 多么
+)                              :arg1  (x23 / 睡
+))))))
+===========================
+它负责、慈爱、勇敢、辛苦，因为它有了一群鸡雏。
+(x18 / causation
+      :arg2  (x20 / and
+            :op1  (x2 / 负责-01
+                  :arg0  (x1 / 它
+))            :op2  (x4 / 慈爱
+                  :arg0  (x1 / 它
+))            :op3  (x6 / 勇敢-01
+                  :arg0  (x1 / 它
+))            :op4  (x8 / 辛苦-01
+                  :arg0  (x1 / 它
+)))      :arg1  (x12 / 有-01
+            :aspect  (x13 / 了
+)            :arg0  (x11 / x1
+)            :arg1  (x16 / 鸡雏
+                  :cunit  (x15 / 群
+)                  :quant  (x14 / 1
+))))
+===========================
+它伟大，因为它是鸡母亲。
+(x10 / causation
+      :arg2  (x2 / 伟大-01
+            :arg0  (x1 / 它
+))      :arg1  (x8 / 母亲
+            :poss  (x7 / 鸡
+)            :domain  (x5 / x1
+)))
+===========================
+一个母亲必定就是一位英雄。
+(x3 / 必定-01
+      :arg0  (x8 / 英雄
+            :domain  (x2 / 母亲
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+))            :cunit  (x7 / 位
+)            :quant  (x6 / 1
+)            :mod  (x4 / 就
+)))
+===========================
+我不敢再讨厌母鸡了。
+(x3 / 敢-02
+      :polarity  (x2 / -
+)      :arg0  (x1 / 我
+)      :arg1  (x5 / 讨厌-01
+            :mod  (x4 / 再
+)            :arg0  (x1 / 我
+)            :arg1  (x6 / 母鸡
+))      :aspect  (x7 / 了
+))
+===========================

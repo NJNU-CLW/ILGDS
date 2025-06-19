@@ -1,0 +1,1066 @@
+1948年的春夏之交，毛主席转移到了花山村。
+(x11 / 转移-01
+      :arg1  (x18 / person
+            :arg0-of  (x19 / have-org-role-91
+                  :arg2  (x10 / 主席
+))            :name  ( x9/毛 
+))      :arg2  (x22 / county
+            :name  ( x14/花山村 
+))      :aspect  (x13 / 了
+)      :time  (x25 / date-entity
+            :year  (x1_x2 / 1948
+)            :season  (x7 / 交
+                  :mod  (x29 / and
+                        :op1  (x4 / 春
+)                        :op2  (x5 / 夏
+)))))
+===========================
+在临时借用的农家房舍里，他夜以继日地为解放全中国的事业操劳着。
+(x18 / 操劳-01
+      :arg0  (x9 / 他
+)      :manner  (x10 / 夜以继日
+)      :arg1  (x17 / 事业
+            :mod  (x13 / 解放-01
+                  :arg1  (x27 / country
+                        :name  ( x15/中国 
+)                        :extent  (x14 / 全
+))))      :location  (x6 / 房舍
+            :mod  (x5 / 农家
+)            :arg1-of  (x3 / 借用-01
+                  :mod  (x2 / 临时
+))))
+===========================
+一天早晨，毛主席正在看地图，忽然抬起头，问警卫员：“昨天这个时候，门口花椒树下的碾子有碾米声，现在又到了碾米的时候，怎么没动静了呢？”
+(x45 / temporal
+      :arg1  (x7 / 看-02
+            :arg0  (x48 / person
+                  :arg0-of  (x49 / have-org-role-91
+                        :arg2  (x5 / 主席
+))                  :name  ( x4/毛 
+))            :arg1  (x8 / 地图
+)            :aspect  (x6 / 正在
+))      :arg2  (x11 / 抬起-01
+            :arg1  (x12 / 头
+)            :mod  (x10 / 忽然
+)            :arg0  (x48 / person
+))      :arg2  (x14 / 问-01
+            :arg2  (x15 / 警卫员
+)            :arg1  (x61 / and
+                  :op1  (x27 / 有-03
+                        :arg1  (x29 / 声
+                              :mod  (x28 / 碾米
+))                        :arg0  (x26 / 碾子
+                              :location  (x24 / 下
+                                    :arg0  (x23 / 树
+                                          :mod  (x22 / 花椒
+)                                          :location  (x21 / 门口
+))))                        :time  (x19 / 时候
+                              :mod  (x18 / 这个
+)                              :time  (x17 / 昨天
+)))                  :op2  (x73 / contrast
+                        :arg1  (x33 / 到-01
+                              :arg1  (x37 / 时候
+                                    :time-of  (x35 / 碾米
+))                              :aspect  (x34 / 了
+)                              :time  (x31 / 现在
+))                        :arg2  (x40 / 没-01
+                              :arg0  (x41 / 动静
+)                              :cause  (x39 / amr-unknown
+)                              :aspect  (x42 / 了
+)                              :mode  (x43_x44 / interrogative
+)))))      :time  (x2 / 早晨
+            :time  (x1 / 一天
+)))
+===========================
+警卫员说：“报告主席，为了不影响您工作，我和村长商量了，要他请乡亲们到别处碾去了。”
+(x2 / 说-01
+      :arg0  (x1 / 警卫员
+)      :arg1  (x4 / 报告-01
+            :arg2  (x34 / person
+                  :arg0-of  (x35 / have-org-role-91
+                        :arg2  (x5 / 主席
+)))            :arg1  (x16 / 商量-01
+                  :arg0  (x38 / and
+                        :op1  (x13 / x1
+)                        :op2  (x15 / 村长
+))                  :aspect  (x17 / 了
+)                  :arg1  (x19 / 要-01
+                        :arg1  (x20 / x15
+)                        :arg2  (x21 / 请-01
+                              :arg1  (x22_x23 / 乡亲们
+                                    :arg2  (x24 / 到-01
+                                          :arg1  (x25 / 别处
+)                                          :purpose  (x26 / 碾
+)                                          :aspect  (x28 / 了
+)                                          :arg0  (x22_x23 / 乡亲们
+)))                              :arg0  (x20 / x15
+))                        :arg0  (x13 / x1
+)                        :purpose  (x9 / 影响-01
+                              :polarity  (x8 / -
+)                              :arg1  (x11 / 工作-01
+                                    :arg0  (x10 / x34
+)))))))
+===========================
+毛主席皱了皱眉，把拿起来的香烟又放下了。
+(x17 / temporal
+      :arg1  (x3_x5_x6 / 皱眉-01
+            :arg0  (x20 / person
+                  :arg0-of  (x21 / have-org-role-91
+                        :arg2  (x2 / 主席
+))                  :name  ( x1/毛 
+))            :aspect  (x4 / 了
+))      :arg2  (x14 / 放下-01
+            :arg1  (x12 / 香烟
+                  :arg1  (x9_x10 / 拿起-01
+                        :arg0  (x20 / person
+)))            :mod  (x13 / 又
+)            :arg0  (x20 / person
+)            :aspect  (x15 / 了
+)))
+===========================
+“这怎么行？”他严肃地说，“这会影响群众吃饭的，不能因为我们在这里工作，就影响群众的生活。
+(x9 / 说-01
+      :arg0  (x6 / 他
+)      :manner  (x7 / 严肃
+)      :arg1  (x35 / and
+            :op1  (x4 / 行-04
+                  :mod  (x3 / 怎么
+)                  :arg0  (x2 / 这
+)                  :mode  (x5 / interrogative
+))            :op2  (x12 / 会-02
+                  :arg0  (x13 / 影响-01
+                        :arg1  (x15 / 吃饭-01
+                              :arg0  (x14 / 群众
+))                        :arg0  (x11 / 这
+))                  :smood  (x16 / 的
+))            :op3  (x18_2 / 能-01
+                  :polarity  (x18_1 / -
+)                  :arg0  (x48 / causation
+                        :arg1  (x23 / 工作-01
+                              :arg0  (x20 / 我们
+)                              :location  (x22 / 这里
+))                        :arg2  (x26 / 影响-01
+                              :arg1  (x29 / 生活
+                                    :poss  (x27 / x14
+)))))))
+===========================
+昨天傍晚，我们一起散步，你也看见了，这个村只有两台石碾，让乡亲们集中到一个碾子上碾米，就会耽误一半人的正常吃饭。”
+(x41 / say
+      :arg1  (x43 / and
+            :op1  (x6 / 散步-01
+                  :arg0  (x4 / 我们
+)                  :manner  (x5 / 一起
+)                  :time  (x47 / date-entity
+                        :dayperiod  (x2 / 傍晚
+)                        :day  (x1 / 昨天
+)))            :op2  (x10 / 看见-01
+                  :arg0  (x8 / 你
+)                  :arg1  (x16 / 有-03
+                        :arg0  (x14 / 村
+                              :mod  (x13_1 / 这
+)                              :cunit  (x13_2 / 个
+))                        :mod  (x15 / 只
+)                        :arg1  (x19 / 石碾
+                              :quant  (x17 / 2
+)                              :cunit  (x18 / 台
+)))                  :mod  (x9 / 也
+)                  :aspect  (x11 / 了
+))            :op3  (x62 / condition
+                  :arg1  (x21 / 让-02
+                        :arg1  (x22_x23 / 乡亲们
+)                        :arg2  (x25 / 到-01
+                              :manner  (x24 / 集中
+                                    :arg0  (x22_x23 / 乡亲们
+))                              :arg0  (x22_x23 / 乡亲们
+)                              :arg1  (x27 / 碾子
+                                    :quant  (x26_1 / 1
+)                                    :cunit  (x26_2 / 个
+))                              :purpose  (x29 / 碾-01
+                                    :arg1  (x30 / 米
+)                                    :arg0  (x22_x23 / 乡亲们
+))))                  :arg2  (x33 / 会-02
+                        :arg0  (x34 / 耽误-01
+                              :arg1  (x39 / 吃饭-01
+                                    :arg0  (x36 / 人
+                                          :quant  (x35 / 一半
+))                                    :mod  (x38 / 正常
+)))))))
+===========================
+警卫员解释道：“这碾子一转，对您工作干扰太大。”
+(x2_x3 / 解释-01
+      :arg0  (x1 / 警卫员
+)      :arg1  (x15 / 大-03
+            :degree  (x14 / 太
+)            :arg0  (x13 / 干扰-01
+                  :arg0  (x8 / 转
+                        :arg1  (x6 / 碾子
+                              :mod  (x5 / 这
+)))                  :arg1  (x12 / 工作-01
+                        :arg0  (x11 / 您
+)))))
+===========================
+毛主席递给他一支烟，自己也点燃了一支，说：“这怎么会呢？
+(x23 / temporal
+      :arg1  (x3 / 递给-01
+            :arg0  (x26 / person
+                  :arg0-of  (x27 / have-org-role-91
+                        :arg2  (x2 / 主席
+))                  :name  ( x1/毛 
+))            :arg1  (x7 / 烟
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 支
+))            :arg2  (x4 / 他
+))      :arg2  (x11 / 点燃-01
+            :arg1  (x35 / thing
+                  :dcopy  (x7 / 烟
+)                  :quant  (x5 / 1
+)                  :cunit  (x14 / 支
+))            :aspect  (x12 / 了
+)            :mod  (x10 / 也
+)            :arg0  (x9 / x26
+))      :arg3  (x16 / 说-01
+            :arg0  (x26 / person
+)            :arg1  (x19 / 怎么会
+                  :mod  (x18 / 这
+)                  :mode  (x20_x21 / interrogative
+))))
+===========================
+多年的战争生活，使我习惯了在各种环境中工作。
+(x6 / 使-01
+      :arg0  (x4 / 生活
+            :mod  (x3 / 战争
+)            :duration  (x20 / temporal-quantity
+                  :quant  (x1_1 / 多
+)                  :unit  (x1_2 / 年
+)))      :arg1  (x8 / 习惯-01
+            :arg1  (x14 / 工作-01
+                  :condition  (x12 / 环境
+                        :mod  (x11_1 / 各
+)                        :unit  (x11_2 / 种
+))                  :arg0  (x7 / 我
+))            :aspect  (x9 / 了
+)            :arg0  (x7 / 我
+)))
+===========================
+这样吧，我交给你一个任务，尽快把乡亲们请到这里来碾米。”
+(x21 / say
+      :arg1  (x23 / and
+            :op1  (x1 / 这样
+                  :mode  (x2 / imperative
+))            :op2  (x5_x6 / 交给-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x9 / 任务
+                        :quant  (x8_1 / 1
+)                        :cunit  (x8_2 / 个
+))                  :arg2  (x7 / 你
+))            :op3  (x15 / 请-01
+                  :arg1  (x13_x14 / 乡亲们
+)                  :arg2  (x17 / 这里
+                        :purpose  (x19 / 碾米-01
+                              :arg0  (x13_x14 / 乡亲们
+)))                  :manner  (x11 / 尽快-01
+                        :arg0  (x7 / 你
+))                  :arg0  (x7 / 你
+))))
+===========================
+“是！”警卫员拔腿就走。
+(x9 / temporal
+      :arg1  (x11 / say
+            :arg1  (x2 / 是
+                  :mode  (x3 / expressive
+))            :arg0  (x4 / 警卫员
+))      :arg2  (x7 / 走-01
+            :manner  (x5 / 拔腿-01
+                  :arg0  (x4 / 警卫员
+))            :arg0  (x4 / 警卫员
+)))
+===========================
+“注意，抽着烟和群众说话是不礼貌的。
+(x15 / say
+      :arg1  (x2 / 注意-02
+            :arg1  (x12 / 礼貌-01
+                  :arg0  (x9 / 说话-01
+                        :arg1  (x8 / 群众
+)                        :manner  (x4 / 抽-02
+                              :arg1  (x6 / 烟
+)                              :aspect  (x5 / 着
+)))                  :polarity  (x11 / -
+)                  :mode  (x10_x13 / judgement
+))))
+===========================
+说话态度要诚恳。”主席说。
+(x7 / 说-01
+      :arg0  (x11 / person
+            :arg0-of  (x12 / have-org-role-91
+                  :arg2  (x6 / 主席
+)))      :arg1  (x3 / 要-03
+            :arg0  (x4 / 诚恳-01
+                  :arg0  (x2 / 态度
+                        :mod  (x1 / 说话
+)))))
+===========================
+警卫员回头一笑：“知道了，请主席放心。”
+(x13 / temporal
+      :arg1  (x4 / 笑-01
+            :manner  (x2 / 回头-01
+                  :arg0  (x1 / 警卫员
+))            :arg0  (x1 / 警卫员
+))      :arg2  (x18 / say
+            :arg1  (x19 / and
+                  :op1  (x6 / 知道-01
+                        :aspect  (x7 / 了
+)                        :arg0  (x1 / 警卫员
+))                  :op2  (x9 / 请-01
+                        :arg1  (x22 / person
+                              :arg0-of  (x23 / have-org-role-91
+                                    :arg2  (x10 / 主席
+)))                        :arg2  (x11 / 放心-01
+                              :arg0  (x22 / person
+))                        :arg0  (x1 / 警卫员
+)))))
+===========================
+他走出小院，碰上村长正和一个端簸箕的大娘说话。
+(x17 / temporal
+      :arg1  (x2_x3 / 走出-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 小院
+))      :arg2  (x6 / 碰上-01
+            :arg1  (x15 / 说话-01
+                  :arg0  (x9 / and
+                        :op1  (x25 / person
+                              :arg0-of  (x26 / have-org-role-91
+                                    :arg2  (x7 / 村长
+)))                        :op2  (x14 / 大娘
+                              :quant  (x10_1 / 1
+)                              :cunit  (x10_2 / 个
+)                              :arg0-of  (x11 / 端-01
+                                    :arg1  (x12 / 簸箕
+))))                  :aspect  (x8 / 正
+))            :arg0  (x1 / 他
+)))
+===========================
+警卫员迎上去，问：“村长，这位大娘是要去花椒树下推碾子吧？”
+(x22 / temporal
+      :arg1  (x2_x3 / 迎-01
+            :arg0  (x1 / 警卫员
+))      :arg2  (x5 / 问-01
+            :arg0  (x1 / 警卫员
+)            :arg1  (x27 / and
+                  :op1  (x28 / person
+                        :arg0-of  (x29 / have-org-role-91
+                              :arg2  (x7 / 村长
+)))                  :op2  (x13 / 要-03
+                        :arg0  (x14 / 去-01
+                              :arg1  (x17 / 下
+                                    :arg0  (x16 / 树
+                                          :mod  (x15 / 花椒
+)))                              :arg0  (x11 / 大娘
+                                    :mod  (x9 / 这
+)                                    :cunit  (x10 / 位
+))                              :purpose  (x18 / 推-01
+                                    :arg1  (x19 / 碾子
+)                                    :arg0  (x11 / 大娘
+)))                        :mode  (x20_x21 / interrogative
+)))))
+===========================
+大娘用手拢了拢搭在耳下的头发：“不，俺去西头。”
+(x20 / temporal
+      :arg1  (x4_x6 / 拢-01
+            :arg0  (x1 / 大娘
+)            :instrument  (x3 / 手
+)            :arg1  (x12 / 头发
+                  :arg1-of  (x7 / 搭-02
+                        :arg2  (x10 / 下
+                              :arg0  (x9 / 耳
+)))))      :arg2  (x29 / say
+            :arg0  (x1 / 大娘
+)            :arg1  (x30 / and
+                  :op1  (x14 / 不
+)                  :op2  (x17 / 去-01
+                        :arg0  (x16 / x1
+)                        :arg1  (x18 / 西头
+)))))
+===========================
+说着转身就要走。
+(x7 / temporal
+      :arg1  (x1 / 说
+            :aspect  (x2 / 着
+))      :arg2  (x4_2 / 要-03
+            :mod  (x4_1 / 就
+)            :arg0  (x5 / 走
+                  :manner  (x3 / 转身
+))))
+===========================
+警卫员忙对村长说：“村长，是首长让我请乡亲们来花椒树下碾米。”
+(x5 / 说-01
+      :arg0  (x1 / 警卫员
+)      :arg3  (x25 / person
+            :arg0-of  (x26 / have-org-role-91
+                  :arg2  (x4 / 村长
+)))      :manner  (x2 / 忙
+)      :arg1  (x29 / and
+            :op1  (x7 / x25
+)            :op2  (x11 / 让-02
+                  :arg0  (x32 / person
+                        :arg0-of  (x33 / have-org-role-91
+                              :arg2  (x10 / 首长
+)))                  :arg1  (x12 / x1
+)                  :arg2  (x13 / 请-01
+                        :arg1  (x14_x15 / 乡亲们
+)                        :arg2  (x16 / 来-01
+                              :arg1  (x19 / 下
+                                    :arg0  (x18 / 树
+                                          :mod  (x17 / 花椒
+)))                              :purpose  (x20 / 碾米-01
+                                    :arg0  (x14_x15 / 乡亲们
+))                              :arg0  (x14_x15 / 乡亲们
+))))))
+===========================
+村长沉思了一下，说：“这碾子一响，就得转到天黑，怕误首长的事呢。”
+(x27 / temporal
+      :arg1  (x2 / 沉思-01
+            :arg0  (x30 / person
+                  :arg0-of  (x31 / have-org-role-91
+                        :arg2  (x1 / 村长
+))                  :aspect  (x3 / 了
+))            :duration  (x4 / 一下
+))      :arg2  (x6 / 说-01
+            :arg1  (x36 / and
+                  :op1  (x37 / condition
+                        :arg1  (x11 / 响-01
+                              :arg0  (x9 / 碾子
+                                    :mod  (x8 / 这
+)))                        :arg2  (x14 / 得
+                              :arg0  (x15 / 转-04
+                                    :arg1  (x9 / 碾子
+)                                    :time  (x16 / 到-01
+                                          :arg1  (x18 / 黑-01
+                                                :arg0  (x17 / 天
+))))))                  :op2  (x20 / 怕-01
+                        :arg1  (x21 / 误-01
+                              :arg1  (x24 / 事
+                                    :poss  (x50 / person
+                                          :arg0-of  (x51 / have-org-role-91
+                                                :arg2  (x22 / 首长
+)))))                        :mode  (x25 / expressive
+)))))
+===========================
+警卫员再三解释，村长才答应了，对那位大娘说：“那你就去花椒树下碾吧。”
+(x25 / temporal
+      :arg1  (x3 / 解释-01
+            :arg0  (x1 / 警卫员
+)            :manner  (x2 / 再三
+))      :arg2  (x7 / 答应-01
+            :arg0  (x31 / person
+                  :arg0-of  (x32 / have-org-role-91
+                        :arg2  (x5 / 村长
+)))            :aspect  (x8 / 了
+))      :arg3  (x13 / 说-01
+            :arg3  (x12 / 大娘
+                  :mod  (x11_1 / 那
+)                  :cunit  (x11_2 / 位
+))            :arg0  (x31 / person
+)            :arg1  (x18 / 去-01
+                  :arg0  (x16 / x12
+)                  :arg1  (x21 / 下
+                        :arg0  (x20 / 树
+                              :mod  (x19 / 花椒
+)))                  :mod  (x17 / 就
+)                  :mod  (x15 / 那
+)                  :purpose  (x22 / 碾-01
+                        :arg0  (x16 / x12
+))                  :mode  (x23 / imperative
+))))
+===========================
+警卫员帮大娘端着盛玉米的簸箕回到了花椒树下的碾台。
+(x18 / temporal
+      :arg1  (x2 / 帮-01
+            :arg0  (x1 / 警卫员
+)            :arg1  (x3 / 大娘
+)            :arg2  (x4 / 端-01
+                  :arg1  (x9 / 簸箕
+                        :arg2-of  (x6 / 盛-02
+                              :arg1  (x7 / 玉米
+)))                  :aspect  (x5 / 着
+)))      :arg2  (x10 / 回到-01
+            :arg1  (x16 / 碾台
+                  :location  (x14 / 下
+                        :arg0  (x13 / 树
+                              :mod  (x12 / 花椒
+))))            :aspect  (x11 / 了
+)))
+===========================
+一会儿，陆续又来了几个碾米的老乡，碾台又吱吱扭扭地转了起来。
+(x21 / temporal
+      :arg1  (x5 / 来-01
+            :arg0  (x11 / 老乡
+                  :quant  (x7 / 几
+)                  :cunit  (x8 / 个
+)                  :arg0-of  (x9 / 碾米-01
+))            :aspect  (x6 / 了
+)            :manner  (x3 / 陆续
+)            :mod  (x4 / 又
+)            :time  (x1 / 一会儿
+))      :arg2  (x17_x19 / 转-04
+            :arg1  (x13 / 碾台
+)            :aspect  (x18 / 了
+)            :mod  (x14 / 又
+)            :manner  (x15 / 吱扭
+)))
+===========================
+警卫员刚回到院里，毛主席就叫他。
+(x13 / temporal
+      :arg1  (x3_x4 / 回到-01
+            :arg0  (x1 / 警卫员
+)            :arg1  (x5 / 院里
+)            :time  (x2 / 刚
+))      :arg2  (x10 / 叫-04
+            :arg0  (x20 / person
+                  :arg0-of  (x21 / have-org-role-91
+)                  :name  ( x7/毛 
+))            :arg1  (x11 / x1
+)))
+===========================
+他走进去，毛主席把笔放下，说：“任务完成得不错。
+(x18 / temporal
+      :arg1  (x2 / 走-01
+            :direction  (x3 / 进去
+)            :arg0  (x1 / 他
+))      :arg2  (x9 / 放下-01
+            :arg0  (x24 / person
+                  :arg0-of  (x25 / have-org-role-91
+)                  :name  ( x5/毛 
+)))      :arg3  (x11 / 说-01
+            :arg0  (x24 / person
+)            :arg1  (x14 / 完成-01
+                  :manner  (x16 / 不错
+)                  :arg1  (x13 / 任务
+))            :arg0  (x24 / person
+)))
+===========================
+还有一件事等着你办。”
+(x10 / say
+      :arg1  (x5 / 等-01
+            :arg1  (x8 / 办-01
+                  :arg0  (x7 / 你
+)                  :arg1  (x4 / 事
+                        :quant  (x2 / 1
+)                        :cunit  (x3 / 件
+)                        :arg1-of  (x1_2 / 有-03
+                              :mod  (x1_1 / 还
+))))            :aspect  (x6 / 着
+)))
+===========================
+说着，毛主席从桌上拿起一筒茶叶，说：“你把这筒茶叶交给炊事员，让他每天这个时候沏一桶茶水，你负责给碾米的群众送去。”
+(x43 / temporal
+      :arg1  (x1 / 说-01
+            :aspect  (x2 / 着
+)            :arg0  (x48 / person
+                  :arg0-of  (x49 / have-org-role-91
+                        :arg2  (x5 / 主席
+))                  :arg2  (x4 / 毛
+)))      :arg2  (x8_x9 / 拿起-01
+            :arg0  (x48 / person
+)            :arg1  (x12 / 茶叶
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 筒
+))            :arg1  (x7 / 桌上
+))      :arg3  (x14 / 说-01
+            :arg1  (x58 / and
+                  :op1  (x21 / 交给-01
+                        :arg0  (x16 / 你
+)                        :arg1  (x20 / x12
+                              :mod  (x18 / 这
+)                              :cunit  (x19 / 筒
+))                        :arg2  (x22 / 炊事员
+))                  :op2  (x24 / 让-02
+                        :arg1  (x25 / x22
+)                        :arg2  (x29 / 沏-01
+                              :arg1  (x32 / 茶水
+                                    :cunit  (x31 / 桶
+)                                    :quant  (x30 / 1
+))                              :time  (x28 / 时候
+                                    :mod  (x27_1 / 这
+)                                    :cunit  (x27 / 个
+))                              :frequency  (x75 / rate-entity-91
+                                    :arg3  (x76 / temporal-quantity
+                                          :quant  (x26_1 / 1
+)                                          :unit  (x26_2 / 天
+)))))                  :op3  (x35 / 负责-01
+                        :arg0  (x34 / x16
+)                        :arg1  (x40_x41 / 送去-01
+                              :beneficiary  (x39 / 群众
+                                    :arg0-of  (x37 / 碾米-01
+))                              :arg1  (x32 / 茶水
+))))            :arg0  (x48 / person
+)))
+===========================
+警卫员知道，这筒茶叶是在南方工作的同志送的，转了几道手才送到毛主席这里，他一直没舍得喝。
+(x2 / 知道-01
+      :arg0  (x1 / 警卫员
+)      :arg1  (x37 / and
+            :op1  (x38 / thing
+                  :arg1-of  (x13 / 送-01
+                        :arg0  (x12 / 同志
+                              :arg0-of  (x10 / 工作-01
+                                    :location  (x9 / 南方
+))))                  :domain  (x6 / 茶叶
+                        :mod  (x4 / 这
+)                        :cunit  (x5 / 筒
+)))            :op2  (x46 / temporal
+                  :arg1  (x16_x20 / 转手
+                        :quant  (x18 / 几
+)                        :cunit  (x19 / 道
+)                        :aspect  (x17 / 了
+))                  :arg2  (x22_x23 / 送到-01
+                        :arg2  (x26 / 这里
+                              :mod  (x53 / person
+                                    :arg0-of  (x54 / have-org-role-91
+                                          :arg2  (x25 / 主席
+))                                    :name  ( x24/毛 
+)))))            :op3  (x31 / 舍得-01
+                  :arg1  (x32 / 喝-01
+                        :arg0  (x28 / x53
+)                        :arg1  (x6 / 茶叶
+))                  :arg0  (x28 / x53
+)                  :time  (x29 / 一直
+)                  :polarity  (x30 / -
+))))
+===========================
+他站在那里，表示为难。
+(x9 / and
+      :op1  (x2_x3 / 站在-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 那里
+))      :op2  (x6 / 表示-01
+            :arg0  (x1 / 他
+)            :arg1  (x7 / 为难-01
+                  :arg0  (x1 / 他
+))))
+===========================
+主席说：“你想过没有？我们如果没有老百姓的支持，能有今天这个局面吗？我们吃的穿的，哪一样能离开群众的支持？全国的老百姓就是我们胜利的可靠保证。
+(x2 / 说-01
+      :arg0  (x50 / person
+            :arg0-of  (x51 / have-org-role-91
+                  :arg2  (x1 / 主席
+)))      :arg1  (x53 / and
+            :op1  (x5_x6 / 想过-01
+                  :arg0  (x4 / 你
+)                  :mode  (x7_x8 / interrogative
+))            :op2  (x57 / condition
+                  :arg1  (x11_2 / 有-01
+                        :arg0  (x9 / 我们
+)                        :polarity  (x11_1 / -
+)                        :arg1  (x14 / 支持-01
+                              :arg0  (x12 / 老百姓
+)))                  :arg2  (x16 / 能-01
+                        :arg0  (x17 / 有-01
+                              :arg1  (x20 / 局面
+                                    :mod  (x19_1 / 这
+)                                    :cunit  (x19_2 / 个
+)                                    :time  (x18 / 今天
+)))                        :mode  (x21_x22 / interrogative
+)))            :op3  (x31 / 能-01
+                  :arg0  (x32 / 离开-01
+                        :arg1  (x35 / 支持-01
+                              :arg0  (x33 / 群众
+))                        :arg0  (x74 / thing
+                              :mod  (x29 / amr-unknown
+                                    :cunit  (x30_2 / 样
+))                              :quant  (x30_1 / 1
+)                              :arg1-of  (x78 / include-91
+                                    :arg2  (x79 / thing
+                                          :arg1-of  (x26 / 穿-01
+)                                          :arg1-of  (x24 / 吃-01
+)                                          :poss  (x23 / x9
+)))))                  :mode  (x36 / interrogative
+))            :op4  (x46 / 保证-01
+                  :mod  (x45 / 可靠
+)                  :arg1  (x43 / 胜利-01
+                        :arg0  (x42 / x9
+))                  :domain  (x39 / x12
+                        :range  (x37 / 全国
+))                  :mod  (x40 / 就
+))))
+===========================
+反过来讲，我们进行的斗争，也正是为了全国的老百姓。
+(x2 / 讲-01
+      :manner  (x1 / 反过来
+)      :arg1  (x11 / 为了-01
+            :arg0  (x7 / 斗争
+                  :arg1-of  (x5 / 进行-01
+                        :arg0  (x4 / 我们
+)))            :arg1  (x14 / 老百姓
+                  :range  (x12 / 全国
+))            :mod  (x9 / 也
+)            :mod  (x10 / 正是
+)))
+===========================
+这些道理你不是不明白。
+(x7 / 明白-01
+      :arg1  (x2 / 道理
+            :mod  (x1 / 这些
+))      :arg0  (x3 / 你
+)      :polarity  (x6 / -
+)      :polarity  (x4_x5 / -
+))
+===========================
+依我看，你是把我摆在特殊位置上了。”
+(x17 / say
+      :arg1  (x1_1_3 / according_to
+            :arg0  (x1_2 / 我
+)            :arg1  (x7_x8 / 摆在-01
+                  :arg0  (x3 / 你
+)                  :arg1  (x6 / x1_2
+)                  :arg2  (x10 / 位置
+                        :arg0-of  (x9 / 特殊-01
+))                  :aspect  (x12 / 了
+))))
+===========================
+警卫员只好接过茶叶筒，端端正正地向毛主席敬了个礼。
+(x17 / temporal
+      :arg1  (x3 / 接过-01
+            :arg0  (x1 / 警卫员
+)            :arg1  (x5 / 筒
+                  :mod  (x4 / 茶叶
+))            :mod  (x2 / 只好
+))      :arg2  (x12_x15 / 敬礼-01
+            :arg0  (x1 / 警卫员
+)            :manner  (x7 / 端正
+)            :arg1  (x27 / person
+                  :arg0-of  (x28 / have-org-role-91
+                        :arg2  (x11 / 主席
+))                  :name  ( x10/毛 
+))            :aspect  (x13 / 了
+)            :cunit  (x14 / 个
+)))
+===========================
+毛主席笑着说：“快去吧，炊事员还等着你呢。”
+(x5 / 说-01
+      :arg0  (x20 / person
+            :arg0-of  (x21 / have-org-role-91
+                  :arg2  (x2 / 主席
+))            :name  ( x1/毛 
+))      :manner  (x3 / 笑-01
+            :arg0  (x20 / person
+)            :aspect  (x4 / 着
+))      :arg1  (x26 / causation
+            :arg2  (x7 / 快-01
+                  :arg0  (x8 / 去-01
+                        :arg0  (x15 / 你
+))                  :mode  (x9 / imperative
+))            :arg1  (x13 / 等-01
+                  :arg0  (x11 / 炊事员
+)                  :mod  (x12 / 还
+)                  :aspect  (x14 / 着
+)                  :arg1  (x15 / 你
+)                  :mode  (x16 / expressive
+))))
+===========================
+茶沏好了，警卫员拎着清香的茶水来到碾台旁，用粗瓷碗一一晾在石板上，跟碾米的人说：“乡亲们，来喝茶吧。”
+(x38 / temporal
+      :arg1  (x2 / 沏-01
+            :cause-of  (x3 / 好
+)            :arg1  (x1 / 茶
+)            :aspect  (x4 / 了
+))      :arg2  (x12 / 来到-01
+            :arg0  (x6 / 警卫员
+)            :manner  (x7 / 拎-01
+                  :arg0  (x6 / 警卫员
+)                  :arg1  (x11 / 茶水
+                        :arg0-of  (x9 / 清香-01
+))                  :aspect  (x8 / 着
+))            :arg1  (x14 / 旁
+                  :arg0  (x13 / 碾台
+)))      :arg3  (x20 / 晾-01
+            :location  (x22 / 石板
+)            :instrument  (x18 / 瓷碗
+                  :arg0-of  (x17 / 粗-01
+))            :manner  (x19 / 一一
+))      :arg4  (x29 / 说-01
+            :arg3  (x28 / 人
+                  :arg0-of  (x26 / 碾米-01
+))            :arg1  (x34 / 来-01
+                  :arg0  (x31_x32 / 乡亲们
+)                  :purpose  (x35 / 喝茶-01
+                        :arg0  (x31_x32 / 乡亲们
+))                  :mode  (x36 / imperative
+))            :arg0  (x6 / 警卫员
+)))
+===========================
+开始，乡亲们还不好意思，经他一动员也就不拘束了，你一碗我一碗地喝了起来。
+(x29 / temporal
+      :arg1  (x6 / 不好意思-01
+            :arg0  (x3_x4 / 乡亲们
+)            :mod  (x5 / 还
+)            :time  (x1 / 开始
+))      :arg2  (x35 / condition
+            :arg1  (x8 / 经-01
+                  :arg1  (x11 / 动员-01
+                        :arg0  (x9 / 他
+)                        :arg1  (x3_x4 / 乡亲们
+)))            :arg2  (x15 / 拘束
+                  :arg0  (x3_x4 / 乡亲们
+)                  :polarity  (x14 / -
+)                  :aspect  (x16 / 了
+)                  :mod  (x12 / 也
+)))      :arg3  (x25_x27 / 喝-01
+            :manner  (x43 / and
+                  :op1  (x44 / thing
+                        :quant  (x19 / 1
+)                        :cunit  (x20 / 碗
+))                  :op2  (x47 / thing
+                        :quant  (x22 / 1
+)                        :cunit  (x23 / 碗
+)))            :arg0  (x3_x4 / 乡亲们
+)            :aspect  (x26 / 了
+)))
+===========================
+茶水对这山旮旯的群众来说，确实新鲜。
+(x7 / 来说-01
+      :arg0  (x1 / 茶水
+)      :arg1  (x6 / 群众
+            :location  (x4 / 山旮旯
+                  :mod  (x3 / 这
+)))      :arg2  (x10 / 新鲜
+            :degree  (x9 / 确实
+)))
+===========================
+一位上了年纪的大叔端着一碗水，凑到警卫员跟前，说：“我说同志，这水一不甜二不辣的，喝它顶什么用？”
+(x41 / temporal
+      :arg1  (x8 / 端-01
+            :arg0  (x7 / 大叔
+                  :arg0-of  (x3_x5 / 上年纪
+                        :aspect  (x4 / 了
+)                        :cunit  (x2 / 位
+))                  :quant  (x1 / 1
+))            :arg1  (x12 / 水
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 碗
+))            :aspect  (x9 / 着
+))      :arg2  (x14 / 凑
+            :location  (x17 / 跟前
+                  :arg0  (x16 / 警卫员
+))            :arg0  (x7 / 大叔
+))      :arg3  (x19 / 说-01
+            :arg0  (x7 / 大叔
+)            :arg1  (x57 / and
+                  :op1  (x22 / 说-01
+                        :arg0  (x21 / x7
+)                        :arg1  (x23 / x16
+))                  :op2  (x61 / and
+                        :op1  (x29 / 甜-01
+                              :polarity  (x28 / -
+)                              :arg0  (x26 / x12
+                                    :mod  (x25 / 这
+)))                        :op2  (x32 / 辣-01
+                              :arg0  (x26 / x12
+)                              :polarity  (x31 / -
+))                        :smood  (x33 / 的
+))                  :op3  (x37_x39 / 顶用
+                        :arg0  (x35 / 喝-01
+                              :arg1  (x36 / x12
+)                              :arg0  (x21 / x7
+))                        :mod  (x38 / amr-unknown
+)                        :mode  (x40 / interrogative
+)))))
+===========================
+警卫员乐呵呵地说：“您老就慢慢地喝吧，一会儿就喝出味道来了。”
+(x4 / 说-01
+      :arg0  (x1 / 警卫员
+)      :manner  (x2 / 乐呵呵
+)      :arg1  (x25 / temporal
+            :arg1  (x10 / 喝-01
+                  :arg0  (x6 / 您老
+)                  :manner  (x8 / 慢
+)                  :mod  (x7 / 就
+)                  :mode  (x11 / imperative
+))            :arg2  (x15 / 喝
+                  :time  (x13 / 一会儿
+)                  :cause-of  (x16 / 出-01
+                        :arg0  (x17 / 味道
+))                  :aspect  (x19 / 了
+)                  :mod  (x14 / 就
+))))
+===========================
+这时候，毛主席来了，喝茶水的乡亲们纷纷跟毛主席打招呼。
+(x19 / temporal
+      :arg1  (x5 / 来-01
+            :arg0  (x22 / person
+                  :arg0-of  (x23 / have-org-role-91
+                        :arg2  (x4 / 主席
+))                  :name  ( x3/毛 
+))            :aspect  (x6 / 了
+)            :time  (x1 / 这时候
+))      :arg2  (x17 / 打招呼-01
+            :arg0  (x11_x12 / 乡亲们
+                  :arg0-of  (x8_1 / 喝-01
+                        :arg1  (x8_2_x9 / 茶水
+)))            :manner  (x13 / 纷纷
+)            :arg1  (x15_x16 / x22
+)))
+===========================
+毛主席笑着向大家点头，说：“要说喝茶的好处，确实不少嘛，喝了它浑身有精神，还能让人多吃饭……”
+(x35 / temporal
+      :arg1  (x7 / 点头-01
+            :arg0  (x38 / person
+                  :arg0-of  (x39 / have-org-role-91
+                        :arg2  (x2 / 主席
+))                  :name  ( x1/毛 
+))            :manner  (x3 / 笑-01
+                  :aspect  (x4 / 着
+)                  :arg0  (x38 / person
+))            :beneficiary  (x6 / 大家
+))      :arg2  (x9 / 说-01
+            :arg0  (x38 / person
+)            :arg1  (x18_2 / 少-01
+                  :polarity  (x18_1 / -
+)                  :arg0  (x15 / 好处
+                        :mod  (x13 / 喝茶
+)                        :arg1-of  (x12 / 说-01
+                              :arg0-of  (x11 / 要-03
+))                        :example  (x54 / progression
+                              :arg1  (x25 / 有-05
+                                    :arg0  (x24 / 浑身
+)                                    :arg1  (x26 / 精神
+)                                    :condition  (x21 / 喝-01
+                                          :arg1  (x23 / 它
+)                                          :aspect  (x22 / 了
+)))                              :arg2  (x29 / 能-01
+                                    :arg0  (x30 / 让-02
+                                          :arg1  (x31 / 人
+)                                          :arg2  (x32 / 多-03
+                                                :arg0  (x33 / 吃饭-01
+                                                      :arg0  (x31 / 人
+)))                                          :arg0  (x13 / 喝茶
+)))))                  :degree  (x17 / 确实
+)                  :mode  (x19 / expressive
+))))
+===========================
+毛主席给乡亲们说起喝茶的好处，正在推碾子的大娘和小姑娘越推越慢，转到毛主席身边，便停了下来。
+(x35 / temporal
+      :arg1  (x6_x7 / 说起-01
+            :arg0  (x38 / person
+                  :arg0-of  (x39 / have-org-role-91
+                        :arg2  (x2 / 主席
+))                  :name  ( x1/毛 
+))            :beneficiary  (x4_x5 / 乡亲们
+)            :arg1  (x10 / 好处
+                  :mod  (x8 / 喝茶-01
+)))      :arg3  (x31_x33 / 停
+            :aspect  (x32 / 了
+)            :time  (x24_x25 / 转到-01
+                  :arg2  (x28 / 身边
+                        :poss  (x26_x27 / x38
+))                  :arg1  (x14 / 碾子
+)))      :arg2  (x19_x21 / 越
+            :arg0  (x20 / 推
+                  :arg0  (x17 / and
+                        :op1  (x16 / 大娘
+                              :arg0-of  (x13 / 推-01
+                                    :arg1  (x14 / 碾子
+)))                        :op2  (x18 / 小姑娘
+                              :arg0-of  (x13 / 推-01
+))))            :arg1  (x22 / 慢-01
+                  :arg0  (x17 / and
+))))
+===========================
+毛主席舀了两碗茶水送到她们母女手里，说：“你们俩歇会儿吧！”
+(x22 / temporal
+      :arg1  (x3 / 舀-01
+            :arg0  (x25 / person
+                  :arg0-of  (x26 / have-org-role-91
+                        :arg2  (x2 / 主席
+))                  :name  ( x1/毛 
+))            :arg1  (x7 / 茶水
+                  :quant  (x5 / 2
+)                  :cunit  (x6 / 碗
+))            :aspect  (x4 / 了
+))      :arg2  (x8_x9 / 送到-01
+            :arg1  (x7 / 茶水
+)            :arg2  (x12 / 手里
+                  :part-of  (x11 / 母女
+                        :arg0-of  (x36 / mean
+                              :arg1  (x10 / 她们
+))))            :arg0  (x25 / person
+))      :arg3  (x14 / 说-01
+            :arg0  (x25 / person
+)            :arg1  (x18 / 歇-01
+                  :arg0  (x16 / x10
+                        :quant  (x17 / 2
+))                  :duration  (x19 / 会儿
+)                  :mode  (x20 / imperative
+)                  :mode  (x21 / expressive
+))))
+===========================
+然后对警卫员说：“来，咱俩试试，半年多不推这玩意儿了。”
+(x21 / temporal
+      :arg2  (x4 / 说-01
+            :arg3  (x3 / 警卫员
+)            :arg1  (x25 / and
+                  :op1  (x6 / 来
+)                  :op2  (x9_x10 / 试-01
+                        :arg0  (x8 / 咱俩
+))                  :op2  (x16 / 推-01
+                        :arg1  (x18 / 玩意儿
+                              :mod  (x17 / 这
+))                        :polarity  (x15 / -
+)                        :time  (x33 / temporal-quantity
+                              :quant  (x14 / 多
+                                    :op1  (x12 / 0.5
+))                              :unit  (x13 / 年
+))                        :aspect  (x19 / 了
+)))))
+===========================
+毛主席推碾子还挺在行，一边推，一边用笤帚往碾盘里扫碾出来的玉米碎粒。
+(x26 / and
+      :op1  (x7 / 在行
+            :arg0  (x3 / 推-01
+                  :arg0  (x30 / person
+                        :arg0-of  (x31 / have-org-role-91
+                              :arg2  (x2 / 主席
+))                        :name  ( x1/毛 
+))                  :arg1  (x4 / 碾子
+))            :mod  (x5 / 还
+)            :degree  (x6 / 挺
+))      :op2  (x10 / 推-01
+)      :op3  (x18 / 扫-01
+            :arg1  (x24 / 粒
+                  :arg0-of  (x23 / 碎-01
+)                  :mod  (x22 / 玉米
+)                  :arg1-of  (x19_x20 / 碾-01
+))            :instrument  (x14 / 笤帚
+)            :direction  (x16 / 碾盘
+)))
+===========================
+一位老人细细端详着毛主席，说：“这位首长，好像在哪儿见过。
+(x22 / temporal
+      :arg1  (x5 / 端详-01
+            :arg0  (x3 / 老人
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 位
+))            :aspect  (x6 / 着
+)            :manner  (x4 / 细
+)            :arg1  (x31 / person
+                  :arg0-of  (x32 / have-org-role-91
+                        :arg2  (x8 / 主席
+))                  :name  ( x7/毛 
+)))      :arg2  (x10 / 说-01
+            :arg0  (x3 / 老人
+)            :arg1  (x16 / 好像-01
+                  :arg0  (x19 / 见-01
+                        :aspect  (x20 / 过
+)                        :arg1  (x14 / x31
+                              :mod  (x12 / 这
+)                              :cunit  (x13 / 位
+))                        :location  (x18 / 哪儿
+)                        :arg0  (x3 / 老人
+)))))
+===========================
+在哪儿呢？”
+(x5 / say
+      :arg1  (x1 / 在-01
+            :arg1  (x2 / amr-unknown
+)            :mode  (x3_x4 / interrogative
+)))
+===========================

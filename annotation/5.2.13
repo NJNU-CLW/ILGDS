@@ -1,0 +1,1493 @@
+甲：电话人人都会打。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x6 / 会-01
+            :extent  (x5 / 都
+)            :arg0  (x4 / 人人
+)            :arg1  (x7 / 打-01
+                  :arg0  (x4 / 人人
+)                  :arg1  (x3 / 电话
+))))
+===========================
+乙：可不是嘛。
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/乙 
+))      :arg1  (x3 / 可不是
+            :mode  (x4 / expressive
+)))
+===========================
+甲：电话是现代通话的一个工具，联系工作办点儿事都比较方便。
+(x21 / say
+      :arg0  (x23 / person
+            :name  ( x1/甲 
+))      :arg1  (x25 / and
+            :op1  (x10 / 工具
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 个
+)                  :domain  (x3 / 电话
+)                  :mod  (x6 / 通话
+                        :time  (x5 / 现代
+)))            :op2  (x19 / 方便-01
+                  :degree  (x18 / 比较
+)                  :extent  (x17 / 都
+)                  :arg0  (x35 / and
+                        :op1  (x12 / 联系-02
+                              :arg1  (x13 / 工作
+))                        :op2  (x14 / 办-01
+                              :arg1  (x16 / 事
+                                    :quant  (x15 / 点儿
+)))))))
+===========================
+乙：是比较方便。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 方便
+            :degree  (x4 / 比较
+)))
+===========================
+甲：但是打电话的时候要注意一个问题。
+(x13 / say
+      :arg0  (x15 / person
+            :name  ( x1/甲 
+))      :arg1  (x17 / contrast
+            :arg2  (x7 / 要-03
+                  :arg0  (x8 / 注意-01
+                        :arg1  (x11 / 问题
+                              :quant  (x9 / 1
+)                              :cunit  (x10 / 个
+)))                  :time  (x4 / 打电话
+))))
+===========================
+乙：什么问题？
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 问题
+            :mod  (x3 / amr-unknown
+)            :mode  (x5 / interrogative
+)))
+===========================
+甲：尽量地节约时间。
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/甲 
+))      :arg1  (x5 / 节约-01
+            :arg1  (x6 / 时间
+)            :manner  (x3 / 尽量
+)))
+===========================
+乙：对。
+(x5 / say
+      :arg0  (x7 / person
+            :name  ( x1/乙 
+))      :arg1  (x3 / 对
+))
+===========================
+甲：是吧。
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/甲 
+))      :arg1  (x3 / 是
+            :mode  (x4 / expressive
+)))
+===========================
+不要打起来没完。
+(x1_2 / 要-03
+      :arg0  (x4_2 / 完-01
+            :arg0  (x2_x3 / 打
+)            :polarity  (x4_1 / -
+))      :polarity  (x1_1 / -
+))
+===========================
+有个别人好像跟电话有浓厚的感情，只要拿起来，他就说个没完。
+(x23 / and
+      :op1  (x4 / 好像-01
+            :arg0  (x7 / 有-01
+                  :arg0  (x5 / and
+                        :op1  (x3 / 人
+                              :mod  (x2 / 个别
+)                              :arg1-of  (x1 / 有-03
+))                        :op2  (x6 / 电话
+))                  :arg1  (x10 / 感情
+                        :arg0-of  (x8 / 浓厚-01
+))))      :op2  (x35 / condition
+            :arg1  (x13_x14 / 拿-03
+                  :arg1  (x6 / 电话
+))            :arg2  (x21 / 完-01
+                  :polarity  (x20 / -
+)                  :arg0  (x18 / 说-01
+                        :arg0  (x16 / x3
+))                  :cunit  (x19 / 个
+))))
+===========================
+乙：还真有这样的人。
+(x10 / say
+      :arg0  (x12 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 有-03
+            :arg1  (x8 / 人
+                  :arg0-of  (x6 / 这样-01
+))            :mod  (x3 / 还
+)            :mod  (x4 / 真
+)))
+===========================
+甲：是呀，可真有这样的人。
+(x13 / say
+      :arg0  (x15 / person
+            :name  ( x1/甲 
+))      :arg1  (x17 / and
+            :op1  (x3 / 是
+                  :mode  (x4 / expressive
+))            :op2  (x8 / 有-03
+                  :arg1  (x11 / 人
+                        :arg0-of  (x9 / 这样-01
+))                  :mod  (x7 / 真
+)                  :mod  (x6 / 可
+))))
+===========================
+那天我在长安街上碰到了一位，这位拿起电话打个没完没了，打的是公用电话。
+(x25 / say
+      :arg1  (x27 / and
+            :op1  (x6 / 碰到-01
+                  :arg0  (x2 / 我
+)                  :time  (x1 / 那天
+)                  :location  (x31 / road
+                        :name  ( x4/长安街 
+))                  :arg1  (x33 / person
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 位
+))                  :aspect  (x7 / 了
+))            :op2  (x38 / temporal
+                  :arg1  (x13_x14 / 拿起-01
+                        :arg0  (x40 / person
+                              :refer  (x33 / person
+)                              :mod  (x11 / 这
+)                              :cunit  (x12 / 位
+))                        :arg1  (x15 / 电话
+))                  :arg2  (x16 / 打-01
+                        :manner  (x18 / 没完没了
+)))            :op3  (x23 / 公用电话
+                  :domain  (x47 / thing
+                        :arg1-of  (x20 / 打-01
+                              :arg0  (x33 / person
+))))))
+===========================
+乙：就是呀，那就更不应该时间长了。
+(x15 / say
+      :arg0  (x17 / person
+            :name  ( x1/乙 
+))      :arg1  (x19 / and
+            :op1  (x3 / 就是
+                  :mode  (x4 / expressive
+))            :op2  (x10 / 应该-01
+                  :arg0  (x12 / 长-02
+                        :arg0  (x11 / 时间
+))                  :polarity  (x9 / -
+)                  :degree  (x8 / 更
+)                  :mod  (x7 / 就
+)                  :mod  (x6 / 那
+)                  :aspect  (x13 / 了
+))))
+===========================
+甲：其实是一点儿小事情。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x7 / 事情
+            :arg0-of  (x6 / 小-01
+)            :quant  (x5 / 一点儿
+)            :mod  (x3 / 其实
+)))
+===========================
+乙：什么事呀？
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 事
+            :mod  (x3 / amr-unknown
+)            :mode  (x5_x6 / interrogative
+)))
+===========================
+甲：约他的朋友看戏，这点儿事，让我们打电话一分钟就可以解决问题了。
+(x25 / say
+      :arg0  (x27 / person
+            :name  ( x1/甲 
+))      :arg1  (x29 / and
+            :op1  (x3 / 约-01
+                  :arg1  (x6 / 朋友
+                        :poss  (x4 / 他
+))                  :arg2  (x7 / 看-02
+                        :arg1  (x8 / 戏
+)))            :op2  (x12 / 事
+                  :mod  (x10 / 这
+)                  :quant  (x11 / 点儿
+))            :op3  (x39 / condition
+                  :arg1  (x14 / 让-02
+                        :arg1  (x15 / 我们
+                              :arg2  (x16_1 / 打-01
+                                    :arg1  (x16_2_3 / 电话
+)                                    :duration  (x44 / temporal-quantity
+                                          :quant  (x17 / 1
+)                                          :unit  (x18 / 分钟
+)))))                  :arg2  (x20 / 可以-01
+                        :arg0  (x21 / 解决-01
+                              :arg1  (x22 / 问题
+))                        :aspect  (x23 / 了
+)))))
+===========================
+乙：那可不是嘛。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 可不是
+            :mod  (x3 / 那
+)            :mode  (x5 / expressive
+)))
+===========================
+甲：拿起电话来，拨通了号。
+(x12 / say
+      :arg0  (x14 / person
+            :name  ( x1/甲 
+))      :arg1  (x16 / temporal
+            :arg1  (x3_x4_x6 / 拿起-01
+                  :arg1  (x5 / 电话
+))            :arg2  (x8 / 拨通-01
+                  :arg1  (x10 / 号
+)                  :aspect  (x9 / 了
+))))
+===========================
+喂，你是广播文工团吧？郭先生在不在？
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x1 / 喂
+)            :op2  (x20 / person
+                  :location  (x6 / 文工团
+                        :mod  (x5 / 广播
+))                  :domain  (x3 / 你
+)                  :mode  (x7_x8 / interrogative
+))            :op3  (x24 / or
+                  :op1  (x11 / 在-01
+                        :arg0  (x10 / 先生
+                              :name  ( x9/郭 
+)))                  :op2  (x13 / 在-01
+                        :polarity  (x12 / -
+)                        :arg0  (x10 / 先生
+))                  :mode  (x14 / interrogative
+))))
+===========================
+乙：就是我呀。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 我
+            :domain  (x13 / person
+)            :mod  (x3_1 / 就
+)            :mode  (x5 / expressive
+)))
+===========================
+甲：哎，郭老呀，我是小马，我给您买了戏票了。
+(x20 / say
+      :arg0  (x22 / person
+            :name  ( x1/甲 
+))      :arg1  (x24 / and
+            :op1  (x3 / 哎
+)            :op2  (x26 / person
+                  :name  ( x5/郭老 
+)                  :mode  (x6 / expressive
+))            :op3  (x29 / person
+                  :name  ( x10/小马 
+)                  :domain  (x8 / 我
+))            :op3  (x15 / 买-01
+                  :arg0  (x12 / x8
+)                  :arg1  (x17 / 戏票
+)                  :aspect  (x16 / 了
+)                  :beneficiary  (x14 / x26
+)                  :aspect  (x18 / 了
+))))
+===========================
+6点半钟您在剧院门口等我，就这样呀，不见不散呀。
+(x23 / say
+      :arg1  (x25 / and
+            :op1  (x9 / 等-01
+                  :arg0  (x5 / 您
+)                  :arg1  (x10 / 我
+)                  :location  (x8 / 门口
+                        :arg0  (x7 / 剧院
+))                  :time  (x31 / date-entity
+                        :time  (x1_x2_x3_x4 / 18:30
+)))            :op2  (x13 / 这样
+                  :mod  (x12 / 就
+)                  :mode  (x14 / expressive
+))            :op3  (x36 / condition
+                  :arg1  (x16_2 / 见
+                        :polarity  (x16_1 / -
+))                  :arg2  (x18 / 散
+                        :polarity  (x17 / -
+))                  :mode  (x19 / expressive
+))))
+===========================
+回见回见。
+(x4 / say
+      :arg1  (x1_x2 / 回见
+))
+===========================
+完了。
+(x3 / say
+      :arg1  (x1 / 完了
+))
+===========================
+甲：不到半分钟呀。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x4 / 到-01
+            :arg1  (x14 / temporal-quantity
+                  :quant  (x5 / 0.5
+)                  :unit  (x6 / 分钟
+))            :polarity  (x3 / -
+)            :mode  (x7 / expressive
+)))
+===========================
+乙：就是呀。
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/乙 
+))      :arg1  (x3 / 就是
+            :mode  (x4 / expressive
+)))
+===========================
+甲：那位也是这么一点儿事，他不是这样打，我给他算了算，连来带去他打了两个多小时。
+(x35 / say
+      :arg0  (x37 / person
+            :name  ( x1/甲 
+))      :arg1  (x39 / and
+            :op1  (x8 / 事
+                  :quant  (x7 / 一点儿
+                        :mod  (x6 / 这么
+))                  :domain  (x43 / person
+                        :mod  (x3_1 / 那
+)                        :cunit  (x3_2 / 位
+))                  :mod  (x4 / 也
+))            :op2  (x14 / 打-01
+                  :arg0  (x10 / x43
+)                  :mod  (x13 / 这样
+)                  :polarity  (x11 / -
+))            :op3  (x19_x21 / 算-02
+                  :arg0  (x16 / x37
+)                  :beneficiary  (x18 / x43
+)                  :aspect  (x20 / 了
+))            :op4  (x28 / 打-01
+                  :arg0  (x27 / x43
+)                  :duration  (x59 / temporal-quantity
+                        :quant  (x32 / 多
+                              :op1  (x30_x31 / 2
+))                        :unit  (x33 / 小时
+))                  :manner  (x23_x24_x25_x26 / 连来带去
+)                  :aspect  (x29 / 了
+))))
+===========================
+乙：就这点儿事打了两个多小时？
+(x14 / say
+      :arg0  (x16 / person
+            :name  ( x1/乙 
+))      :arg1  (x7 / 打-01
+            :duration  (x20 / temporal-quantity
+                  :quant  (x11 / 多
+                        :op1  (x9_x10 / 2
+))                  :unit  (x12 / 小时
+))            :aspect  (x8 / 了
+)            :cause  (x6 / 事
+                  :mod  (x4 / 这
+)                  :quant  (x5 / 点儿
+)                  :mod  (x3 / 就
+))            :mode  (x13 / interrogative
+)))
+===========================
+甲：就是呀。
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/甲 
+))      :arg1  (x3 / 就是
+            :mode  (x4 / expressive
+)))
+===========================
+我给你学学。
+(x7 / say
+      :arg1  (x4_x5 / 学-01
+            :arg0  (x1 / 我
+)            :beneficiary  (x3 / 你
+)))
+===========================
+乙：怎么打的？
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 打
+            :manner  (x3 / amr-unknown
+)            :smood  (x5 / 的
+)            :mode  (x6 / interrogative
+)))
+===========================
+甲：拿起电话来。“嗞嗞……”。
+(x11 / say
+      :arg0  (x13 / person
+            :name  ( x1/甲 
+))      :arg1  (x15 / and
+            :op1  (x3_x4_x6 / 拿起-01
+                  :arg1  (x5 / 电话
+))            :op2  (x8_x9 / 嗞
+)))
+===========================
+乙：这是干什么呢？
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/乙 
+))      :arg1  (x5_1 / 干-01
+            :arg1  (x5_2_3 / amr-unknown
+)            :domain  (x3 / 这
+)            :mode  (x6_x7 / interrogative
+)))
+===========================
+甲：拨号啦。
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/甲 
+))      :arg1  (x3 / 拨号
+            :mode  (x4 / expressive
+)))
+===========================
+喂……喂……喂……，“嗞嗞……”。
+(x10 / say
+      :arg1  (x12 / and
+            :op1  (x1_x3_x5 / 喂
+)            :op2  (x7_x8 / 嗞
+)))
+===========================
+甲：喂……喂……，
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/甲 
+))      :arg1  (x3_x5 / 喂
+))
+===========================
+怎么不说话，哎呀，拿倒了！
+(x12 / say
+      :arg1  (x14 / and
+            :op1  (x3 / 说话
+                  :polarity  (x2 / -
+)                  :cause  (x1 / amr-unknown
+))            :op2  (x5 / 哎呀
+)            :op3  (x7 / 拿
+                  :manner  (x8 / 倒
+)                  :aspect  (x9 / 了
+)                  :mode  (x10 / expressive
+))))
+===========================
+喂，你的电话是4局5678吗？
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x1 / 喂
+)            :op2  (x7_x8_x9 / 4局5678
+                  :domain  (x5 / 电话
+                        :poss  (x3 / 你
+))                  :mode  (x10_x11 / interrogative
+))))
+===========================
+我这是1局2345。
+(x4_x5_x6 / 1局2345
+      :domain  (x1 / 我
+)      :mod  (x2 / 这
+))
+===========================
+喂，你贵姓呀？
+(x14 / say
+      :arg1  (x8 / and
+            :op1  (x1 / 喂
+)            :op2  (x4 / 贵姓
+                  :arg0  (x3 / 你
+)                  :mode  (x5_x6 / interrogative
+))))
+===========================
+哦，老胡呀。
+(x7 / say
+      :arg1  (x9 / and
+            :op1  (x1 / 哦
+)            :op2  (x11 / person
+                  :name  ( x4/胡 
+)                  :mode  (x5 / expressive
+))))
+===========================
+呃，不是老胡？
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1 / 呃
+)            :op2  (x12 / person
+                  :name  ( x6/胡 
+)                  :domain  (x14 / person
+)                  :polarity  (x3 / -
+)                  :mode  (x7 / interrogative
+))))
+===========================
+乙：没听出来。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 听
+            :polarity  (x3 / -
+)            :cause-of  (x5 / 出来
+)))
+===========================
+甲：老张呀。
+(x7 / say
+      :arg0  (x10 / person
+            :name  ( x1/甲 
+))      :arg1  (x12 / person
+            :name  ( x4/张 
+)            :mode  (x5 / expressive
+)))
+===========================
+哎呀，我没听……
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1 / 哎呀
+)            :op2  (x5 / 听-01
+                  :arg0  (x3 / 我
+)                  :polarity  (x4 / -
+))))
+===========================
+呃，不是老张，是老刘呀。
+(x13 / and
+      :op1  (x1 / 呃
+)      :op2  (x16 / person
+            :name  ( x6/张 
+)            :domain  (x18 / person
+)            :polarity  (x3 / -
+))      :op2  (x20 / person
+            :name  ( x10/刘 
+)            :domain  (x18 / person
+)            :mode  (x11 / expressive
+)))
+===========================
+呃，不是老刘？
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1 / 呃
+)            :op2  (x12 / person
+                  :name  ( x6/刘 
+)                  :domain  (x14 / person
+)                  :polarity  (x3 / -
+)                  :mode  (x7 / interrogative
+))))
+===========================
+乙：还不对。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 对
+            :polarity  (x4 / -
+)            :mod  (x3 / 还
+)))
+===========================
+甲：是耗子呀。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/甲 
+))      :arg1  (x11 / person
+            :name  ( x4/耗子 
+)            :domain  (x13 / person
+)            :mode  (x5 / expressive
+)))
+===========================
+这人外号叫耗子。
+(x7 / say
+      :arg1  (x4 / 叫-01
+            :arg0  (x3 / 外号
+                  :poss  (x2 / 人
+                        :mod  (x1 / 这
+)))            :arg1  (x5 / 耗子
+)))
+===========================
+乙：怎么这么个外号。
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/乙 
+))      :arg1  (x6 / 外号
+            :cunit  (x5 / 个
+)            :mod  (x4 / 这么
+)            :cause  (x3 / amr-unknown
+)))
+===========================
+甲：四害之一，接电话来了，好哇。
+(x14 / say
+      :arg0  (x16 / person
+            :name  ( x1/甲 
+))      :arg1  (x18 / and
+            :op1  (x4 / 之一
+                  :arg1-of  (x20 / include-91
+                        :arg2  (x3 / 四害
+)))            :op2  (x8 / 来-01
+                  :purpose  (x6 / 接
+                        :arg1  (x7 / 电话
+))                  :aspect  (x9 / 了
+))            :op3  (x11 / 好
+                  :mode  (x12 / expressive
+))))
+===========================
+前些日子消灭四害你没敢出来吧？
+(x15 / say
+      :arg1  (x17 / causation
+            :arg1  (x4 / 消灭-01
+                  :arg1  (x20 / animal
+                        :name  ( x5/四害 
+))                  :time  (x3 / 日子
+                        :mod  (x1 / 前
+)                        :quant  (x2 / 些
+)))            :arg2  (x8 / 敢-01
+                  :arg0  (x9 / 出来-01
+                        :arg0  (x6 / 你
+))                  :polarity  (x7 / -
+)                  :mode  (x10_x11 / interrogative
+))))
+===========================
+嗯，我是谁？我是谁你不知道？
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x1 / 嗯
+)            :op2  (x5 / amr-unknown
+                  :domain  (x3 / 我
+)                  :mode  (x6 / interrogative
+))            :op3  (x12 / 知道-01
+                  :arg0  (x10 / 你
+)                  :polarity  (x11 / -
+)                  :arg1  (x9 / amr-unknown
+                        :domain  (x7 / x3
+))                  :mode  (x13 / interrogative
+))))
+===========================
+乙：那他怎么知道呀！
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/乙 
+))      :arg1  (x6 / 知道-01
+            :arg0  (x4 / 他
+)            :mod  (x3 / 那
+)            :manner  (x5 / amr-unknonw
+)            :mode  (x7_x8 / expressive
+)))
+===========================
+甲：不知道你猜猜。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x13 / causation
+            :arg1  (x4 / 知道
+                  :polarity  (x3 / -
+))            :arg2  (x6_x7 / 猜-01
+                  :arg0  (x5 / 你
+))))
+===========================
+猜不着？猜不着使劲猜。
+(x11 / say
+      :arg1  (x13 / and
+            :op1  (x3 / possible
+                  :arg0  (x1 / 猜
+                        :polarity  (x2 / -
+))                  :mode  (x4 / interrogative
+))            :op2  (x18 / condition
+                  :arg1  (x7 / possible
+                        :arg0  (x5 / 猜
+                              :polarity  (x6 / -
+)))                  :arg2  (x9 / 猜
+                        :manner  (x8 / 使劲
+)))))
+===========================
+呃，猜不着我告诉你。
+(x10 / say
+      :arg1  (x12 / and
+            :op1  (x1 / 呃
+)            :op2  (x14 / condition
+                  :arg1  (x5 / possible
+                        :arg0  (x3 / 猜
+                              :polarity  (x4 / -
+)))                  :arg2  (x7 / 告诉-01
+                        :arg0  (x6 / 我
+)                        :arg2  (x8 / 你
+)))))
+===========================
+我姓啰，我叫啰嗦。
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x2 / 姓-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x3 / 啰
+))            :op2  (x6 / 叫-01
+                  :arg0  (x5 / x1
+)                  :arg1  (x7 / 啰嗦
+))))
+===========================
+乙：是够啰唆的。
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 啰唆
+            :degree  (x4 / 够
+)            :mode  (x3_x6 / judgement
+)))
+===========================
+甲：对，是我，我找小王讲话，我的未婚妻，她是女的呀。
+(x24 / say
+      :arg0  (x26 / person
+            :name  ( x1/甲 
+))      :arg1  (x28 / and
+            :op1  (x3 / 对
+)            :op2  (x6 / 我
+                  :domain  (x31 / person
+))            :op3  (x9 / 找-01
+                  :arg0  (x8 / x6
+)                  :arg1  (x34 / person
+                        :name  ( x11/王 
+))                  :arg2  (x12 / 讲话-01
+                        :arg0  (x8 / x6
+)                        :arg1  (x34 / person
+)))            :op4  (x16 / 未婚妻
+                  :poss  (x14 / x6
+))            :op5  (x39 / person
+                  :mod  (x20 / 女
+)                  :domain  (x18 / x16
+)                  :mode  (x22 / expressive
+))))
+===========================
+乙：废话！可不是女的嘛。
+(x10 / say
+      :arg0  (x12 / person
+            :name  ( x1/乙 
+))      :arg1  (x14 / and
+            :op1  (x3 / 废话
+                  :mode  (x4 / expressive
+))            :op2  (x17 / person
+                  :mod  (x6 / 女
+)                  :mod  (x5 / 可不是
+)                  :mode  (x8 / expressive
+))))
+===========================
+甲：你别搞错了。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x5 / 搞-01
+            :cause-of  (x6 / 错
+)            :arg0  (x3 / 你
+)            :polarity  (x4 / -
+)            :aspect  (x7 / 了
+)))
+===========================
+嘚儿啷……你们几位怎么回事？
+(x11 / say
+      :arg1  (x13 / and
+            :op1  (x1 / 嘚儿啷
+)            :op2  (x6_x7_x8 / 怎么回事-01
+                  :arg0  (x3 / 你们
+                        :quant  (x4 / 几
+)                        :cunit  (x5 / 位
+))                  :mode  (x9 / interrogative
+))))
+===========================
+等着打电话？
+(x5 / say
+      :arg1  (x1 / 等-01
+            :arg1  (x3_1 / 打-01
+                  :arg1  (x3_2_3 / 电话
+))            :aspect  (x2 / 着
+)            :mode  (x4 / interrogative
+)))
+===========================
+乙：可不是嘛。
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/乙 
+))      :arg1  (x3 / 可不是
+            :mode  (x4 / expressive
+)))
+===========================
+甲：哎呀，你们到别的地方打行不行？
+(x15 / say
+      :arg0  (x17 / person
+            :name  ( x1/甲 
+))      :arg1  (x19 / and
+            :op1  (x3 / 哎呀
+)            :op2  (x21 / or
+                  :op1  (x10 / 行-04
+                        :arg0  (x6 / 到
+                              :arg0  (x5 / 你们
+)                              :purpose  (x9 / 打
+)))                  :op2  (x12 / 行-04
+                        :polarity  (x11 / -
+)                        :arg0  (x6 / 到
+))                  :mode  (x13 / interrogative
+))))
+===========================
+坐电车三站，那边还有个公用电话，我这还早着呢！
+(x18 / say
+      :arg1  (x20 / and
+            :op1  (x1 / 坐-02
+                  :arg1  (x2 / 电车
+)                  :quant  (x3 / 3
+)                  :cunit  (x4 / 站
+))            :op2  (x7_2 / 有-03
+                  :arg0  (x6 / 那边
+)                  :mod  (x7_1 / 还
+)                  :arg1  (x9 / 公用电话
+                        :cunit  (x8 / 个
+)))            :op3  (x14 / 早-01
+                  :mod  (x13 / 还
+)                  :arg0  (x12 / 这
+                        :poss  (x11 / 我
+))                  :aspect  (x15_1 / 着
+)                  :mode  (x15_2_x16 / expressive
+))))
+===========================
+我这要四个钟头差不多。
+(x17 / say
+      :arg1  (x3 / 要-02
+            :arg0  (x2 / 这
+                  :poss  (x1 / 我
+))            :arg1  (x13 / temporal-quantity
+                  :quant  (x7 / 差不多
+                        :op1  (x4 / 4
+))                  :cunit  (x6 / 钟头
+))))
+===========================
+乙：好家伙！他全包了。
+(x10 / say
+      :arg0  (x12 / person
+            :name  ( x1/乙 
+))      :arg1  (x14 / and
+            :op1  (x3 / 好家伙
+                  :mode  (x4 / expressive
+))            :op2  (x7 / 包-03
+                  :arg0  (x5 / 他
+)                  :extent  (x6 / 全
+)                  :aspect  (x8 / 了
+))))
+===========================
+甲：喂，小王，我是啰唆呀！
+(x13 / say
+      :arg0  (x15 / person
+            :name  ( x1/甲 
+))      :arg1  (x17 / and
+            :op1  (x3 / 喂
+)            :op2  (x19 / person
+                  :name  ( x6/王 
+))            :op3  (x21 / person
+                  :name  ( x10/啰唆 
+)                  :domain  (x8 / 我
+)                  :mode  (x11_x12 / expressive
+))))
+===========================
+乙：甭提这名了。
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/乙 
+))      :arg1  (x3_2 / 提-01
+            :polarity  (x3_1 / -
+)            :arg1  (x5 / 名
+                  :mod  (x4 / 这
+))            :aspect  (x6 / 了
+)))
+===========================
+甲：我正找你呢。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x5 / 找-01
+            :arg0  (x3 / 我
+)            :aspect  (x4 / 正
+)            :arg1  (x6 / 你
+)            :mode  (x7 / expressive
+)))
+===========================
+今天晚上有什么事吗？学习吗？不学习呀。
+(x15 / multi-sentence
+      :snt1  (x17 / say
+            :arg1  (x18 / and
+                  :op1  (x3 / 有-03
+                        :arg0  (x21 / date-entity
+                              :day  (x1 / 今天
+)                              :dayperiod  (x2 / 晚上
+))                        :arg1  (x5 / 事
+                              :mod  (x4 / amr-unknown
+))                        :mode  (x6_x7 / interrogative
+))                  :op2  (x8 / 学习
+                        :mode  (x9_x10 / interrogative
+))))      :snt2  (x29 / say
+            :arg1  (x12 / 学习
+                  :polarity  (x11 / -
+)                  :mode  (x13 / expressive
+))))
+===========================
+开会吗？……不开会。
+(x10 / multi-sentence
+      :snt1  (x12 / say
+            :arg1  (x1 / 开会
+                  :mode  (x2_x3 / interrogative
+)))      :snt2  (x15 / say
+            :arg1  (x5 / 开会
+                  :polarity  (x4 / -
+))))
+===========================
+乙：废话。
+(x5 / say
+      :arg0  (x7 / person
+            :name  ( x1/乙 
+))      :arg1  (x3 / 废话
+))
+===========================
+甲：讨论吗？……不讨论。
+(x11 / multi-sentence
+      :snt1  (x13 / say
+            :arg0  (x14 / person
+                  :name  ( x1/甲 
+))            :arg1  (x3 / 讨论
+                  :mode  (x4_x5 / interrogative
+)))      :snt2  (x18 / say
+            :arg1  (x7 / 讨论
+                  :polarity  (x6 / -
+))))
+===========================
+乙：人家没事。
+(x6 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x4 / 没事-01
+            :arg0  (x3 / 人家
+)))
+===========================
+甲：太好了，我请你听戏好不好？
+(x16 / say
+      :arg0  (x18 / person
+            :name  ( x1/甲 
+))      :arg1  (x20 / and
+            :op1  (x4 / 好
+                  :degree  (x3 / 太
+)                  :aspect  (x5 / 了
+))            :op2  (x29 / or
+                  :op1  (x12 / 好-01
+                        :arg0  (x8 / 请
+                              :arg0  (x7 / x18
+)                              :arg1  (x9 / 你
+)                              :arg2  (x10 / 听-01
+                                    :arg1  (x11 / 戏
+))))                  :op2  (x13_2 / 好-01
+                        :polarity  (x13_1 / -
+)                        :arg0  (x8 / 请
+))                  :mode  (x14 / interrogative
+))))
+===========================
+票都买好了。
+(x7 / say
+      :arg1  (x3 / 买-01
+            :cause-of  (x4 / 好
+)            :arg1  (x1 / 票
+)            :extent  (x2 / 都
+)            :aspect  (x5 / 了
+)))
+===========================
+长安大戏院，楼下十排三号五号，咱俩挨着。
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x17 / theatre
+                  :name  ( x1/长安大戏院 
+))            :op2  (x19 / and
+                  :op1  (x20 / ordinal-entity
+                        :value  (x6 / 3
+)                        :cunit  (x7 / 号
+))                  :op2  (x24 / ordinal-entity
+                        :value  (x8 / 5
+)                        :cunit  (x9 / 号
+))                  :ord  (x28 / ordinal-entity
+                        :value  (x4 / 10
+)                        :cunit  (x5 / 排
+))                  :location  (x3 / 楼下
+))            :op3  (x12_1 / 挨-02
+                  :arg0  (x11 / 咱俩
+)                  :aspect  (x12_2 / 着
+))))
+===========================
+票价八毛一张的，我买了两张，一块六。
+(x18 / say
+      :arg1  (x9 / 买-01
+            :arg0  (x8 / 我
+)            :aspect  (x10 / 了
+)            :arg1  (x25 / thing
+                  :quant  (x11 / 2
+)                  :unit  (x12 / 张
+)                  :mod  (x1 / 票价
+                        :arg0  (x34 / thing
+                              :quant  (x4 / 1
+)                              :cunit  (x5 / 张
+)                              :dcopy  (x25 / thing
+))                        :arg1  (x28 / monetary-quantity
+                              :quant  (x2 / 8
+)                              :cunit  (x3 / 毛
+))))            :cost  (x31 / monetary-quantity
+                  :quant  (x14_x16 / 1.6
+)                  :cunit  (x15 / 块
+))))
+===========================
+是一块六，我给了他五块，他找了我三块四。
+(x21 / say
+      :arg1  (x23 / and
+            :op1  (x24 / monetary-quantity
+                  :quant  (x2_x4 / 1.6
+)                  :cunit  (x3 / 块
+))            :op2  (x28 / temporal
+                  :arg1  (x7 / 给-01
+                        :arg0  (x6 / 我
+)                        :arg1  (x31 / monetary-quantity
+                              :quant  (x10 / 5
+)                              :cunit  (x11 / 块
+))                        :aspect  (x8 / 了
+)                        :arg2  (x9 / 他
+))                  :arg2  (x14 / 找-04
+                        :arg0  (x13 / x9
+)                        :arg1  (x37 / monetary-quantity
+                              :quant  (x17_x19 / 3.4
+)                              :cunit  (x18 / 块
+))                        :aspect  (x15 / 了
+)                        :arg2  (x16 / x6
+)))))
+===========================
+乙：他在这报账呢！
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/乙 
+))      :arg1  (x6 / 报账-01
+            :arg0  (x3 / 他
+)            :location  (x5 / 这
+                  :arg0  (x3 / 他
+))            :mode  (x7_x8 / expressive
+)))
+===========================
+甲：什么戏呀？你猜猜？
+(x11 / say
+      :arg0  (x13 / person
+            :name  ( x1/甲 
+))      :arg1  (x8_x9 / 猜-01
+            :arg0  (x7 / 你
+)            :arg1  (x4 / 戏
+                  :mod  (x3 / amr-unknown
+))            :mode  (x5_x6_x10 / interrogative
+)))
+===========================
+乙：怎么又让别人猜。
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 让-02
+            :arg1  (x6 / 别人
+)            :arg2  (x7 / 猜-01
+                  :arg0  (x6 / 别人
+))            :cause  (x3 / amr-unknown
+)            :mod  (x4 / 又
+)))
+===========================
+甲：嗯，京戏？不——对。
+(x11 / multi-sentence
+      :snt1  (x13 / say
+            :arg0  (x14 / person
+                  :name  ( x1/甲 
+))            :arg1  (x16 / and
+                  :op1  (x3 / 嗯
+)                  :op2  (x5 / 京戏
+                        :mode  (x6 / interrogative
+))))      :snt2  (x20 / say
+            :arg1  (x9 / 对
+                  :polarity  (x7 / -
+))))
+===========================
+嗯，评戏？不——对。
+(x9 / multi-sentence
+      :snt1  (x11 / say
+            :arg1  (x12 / and
+                  :op1  (x1 / 嗯
+)                  :op2  (x3 / 评戏
+                        :mode  (x4 / interrogative
+))))      :snt2  (x7 / 对
+            :polarity  (x5 / -
+)))
+===========================
+越剧？哎！
+(x5 / multi-sentence
+      :snt1  (x7 / say
+            :arg1  (x1 / 越剧
+                  :mode  (x2 / interrogative
+)))      :snt2  (x10 / say
+            :arg1  (x3 / 哎
+                  :mode  (x4 / expressive
+))))
+===========================
+乙：对了？
+(x6 / say
+      :arg0  (x8 / person
+            :name  ( x1/乙 
+))      :arg1  (x3 / 对
+            :aspect  (x4 / 了
+)            :mode  (x5 / interrogative
+)))
+===========================
+甲：不——对。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/甲 
+))      :arg1  (x5 / 对
+            :polarity  (x3 / -
+)))
+===========================
+乙：不对你乐什么呀？
+(x10 / say
+      :arg1  (x12 / contrast
+            :arg1  (x4 / 对
+                  :polarity  (x3 / -
+))            :arg2  (x6 / 乐-02
+                  :arg1  (x7 / amr-unknown
+)                  :arg0  (x5 / 你
+)                  :mode  (x8_x9 / interrogative
+)))      :arg0  (x15 / person
+            :name  ( x1/乙 
+)))
+===========================
+甲：真猜不着了，我告诉你，歌剧，《刘三姐》，没看过吧？
+(x23 / say
+      :arg1  (x25 / and
+            :op1  (x6 / possible
+                  :arg0  (x4 / 猜
+                        :polarity  (x5 / -
+)                        :mod  (x3 / 真
+))                  :aspect  (x7 / 了
+))            :op2  (x10 / 告诉-01
+                  :arg0  (x9 / x26
+)                  :arg1  (x13 / 歌剧
+                        :name  ( x15/刘三姐 
+))                  :arg2  (x11 / 你
+))            :op3  (x18 / 看-02
+                  :aspect  (x19 / 过
+)                  :polarity  (x17 / -
+)                  :mode  (x20_x21 / interrogative
+)))      :arg0  (x26 / person
+            :name  ( x1/甲 
+)))
+===========================
+看看吧，好极了。
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1_x2 / 看
+                  :mode  (x3 / imperative
+))            :op2  (x5 / 好
+                  :degree  (x6_1 / 极
+)                  :aspect  (x6_2 / 了
+))))
+===========================
+腔调美着呢，其中有一段我可喜欢了，就那段，小王，你现在不是没事嘛，你拿着电话，你注意，我给你学一学。
+(x43 / say
+      :arg1  (x46 / and
+            :op1  (x2 / 美-01
+                  :aspect  (x3_1 / 着
+)                  :arg0  (x1 / 腔调
+)                  :mode  (x3_2 / expressive
+))            :op2  (x11 / 喜欢-01
+                  :degree  (x10 / 可
+)                  :arg1  (x52 / thing
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 段
+)                        :mod  (x5 / 其中
+)                        :arg1-of  (x6 / 有-03
+))                  :arg0  (x9 / 我
+)                  :aspect  (x12 / 了
+))            :op3  (x59 / thing
+                  :refer  (x52 / thing
+)                  :mod  (x15 / 那
+)                  :cunit  (x16 / 段
+)                  :mod  (x14 / 就
+))            :op4  (x63 / person
+                  :name  ( x18/小王 
+))            :op5  (x24 / 没-02
+                  :arg0  (x20 / x63
+)                  :arg1  (x25 / 事
+)                  :mod  (x22 / 不
+)                  :time  (x21 / 现在
+)                  :mode  (x26 / expressive
+))            :op6  (x29 / 拿-03
+                  :arg0  (x28 / x63
+)                  :arg1  (x31 / 电话
+)                  :aspect  (x30 / 着
+))            :op7  (x34 / 注意-01
+                  :arg0  (x33 / x63
+)                  :arg1  (x39_x40_x41 / 学-01
+                        :arg0  (x36 / x9
+)                        :beneficiary  (x38 / x63
+)))))
+===========================
+你们几位再等一会儿。
+(x8 / say
+      :arg1  (x5 / 等-01
+            :arg0  (x1 / 你们
+                  :quant  (x2 / 几
+)                  :cunit  (x3 / 位
+))            :duration  (x6 / 一会儿
+)            :mod  (x4 / 再
+)))
+===========================
+小王，我现在开始学：唱山歌来——这边唱来那边和。
+(x20 / say
+      :arg1  (x22 / and
+            :op1  (x23 / person
+                  :name  ( x1/小王 
+))            :op2  (x5 / 开始-01
+                  :arg0  (x3 / 我
+)                  :arg1  (x6 / 学-01
+                        :arg1  (x29 / thing
+                              :topic  (x30 / and
+                                    :op1  (x8 / 唱-01
+                                          :arg1  (x9 / 山歌
+))                                    :op2  (x13 / 唱-01
+                                          :arg0  (x12 / 这边
+))                                    :op3  (x16 / 和-01
+                                          :arg0  (x15 / 那边
+))))                        :arg0  (x3 / 我
+))                  :time  (x4 / 现在
+))))
+===========================
+山歌好比春江水哎，不怕滩险弯又多……
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x2 / 好比-01
+                  :arg0  (x1 / 山歌
+)                  :arg1  (x4 / 江水
+                        :time  (x3 / 春
+))                  :mode  (x5 / expressive
+))            :op2  (x7_2 / 怕-01
+                  :arg1  (x9 / 险
+                        :mod  (x8 / 滩
+))                  :polarity  (x7_1 / -
+))            :op3  (x12 / 多-03
+                  :arg0  (x10 / 弯
+)                  :mod  (x11 / 又
+))))
+===========================
+甲：小王，你看我表情怎么样？
+(x12 / say
+      :arg0  (x14 / person
+            :name  ( x1/甲 
+))      :arg1  (x16 / and
+            :op1  (x17 / person
+                  :name  ( x4/王 
+))            :op2  (x7 / 看-02
+                  :arg0  (x6 / x17
+)                  :arg1  (x10 / amr-unknown
+                        :arg0  (x9 / 表情
+                              :poss  (x8 / x14
+)))                  :mode  (x11 / interrogative
+))))
+===========================
+乙：那怎么看得着！
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/乙 
+))      :arg1  (x6_x7 / possible
+            :arg0  (x5 / 看
+                  :manner  (x4 / amr-unknown
+))            :mod  (x3 / 那
+)            :mode  (x8 / expressive
+)))
+===========================
+甲：什么？没听见？
+(x9 / say
+      :arg0  (x11 / person
+            :name  ( x1/甲 
+))      :arg1  (x13 / and
+            :op1  (x3 / amr-unknown
+                  :mode  (x4 / interrogative
+))            :op2  (x6 / 听见
+                  :polarity  (x5 / -
+)                  :mode  (x7 / interrogative
+))))
+===========================
+还没吃饭呀？
+(x7 / say
+      :arg1  (x3 / 吃饭
+            :polarity  (x2 / -
+)            :mod  (x1 / 还
+)            :mode  (x4_x5 / interrogative
+)))
+===========================
+我给你准备吧。
+(x7 / say
+      :arg1  (x4 / 准备-01
+            :arg0  (x1 / 我
+)            :beneficiary  (x3 / 你
+)            :mode  (x5 / imperative
+)))
+===========================
+我买十二块饼干，我吃四块，给你留八块。
+(x18 / say
+      :arg1  (x20 / and
+            :op1  (x2 / 买-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x5 / 饼干
+                        :quant  (x3 / 12
+)                        :cunit  (x4 / 块
+)))            :op2  (x8 / 吃-01
+                  :arg1  (x27 / thing
+                        :refer  (x5 / 饼干
+)                        :quant  (x9 / 4
+)                        :cunit  (x10 / 块
+))                  :arg0  (x7 / x1
+))            :op3  (x14 / 留-05
+                  :arg1  (x32 / thing
+                        :refer  (x5 / 饼干
+)                        :quant  (x15 / 8
+)                        :cunit  (x16 / 块
+))                  :beneficiary  (x13 / 你
+)                  :arg0  (x1 / 我
+))))
+===========================
+乙：还行，挺照顾人。
+(x10 / say
+      :arg0  (x12 / person
+            :name  ( x1/乙 
+))      :arg1  (x14 / and
+            :op1  (x4 / 行
+                  :mod  (x3 / 还
+))            :op2  (x7 / 照顾-01
+                  :arg1  (x8 / 人
+)                  :degree  (x6 / 挺
+))))
+===========================
+甲：长安大戏院，从你家出来，坐六路公共汽车，往前坐三站，车上有座你就坐着，人多你就站着。
+(x37 / say
+      :arg0  (x39 / person
+            :name  ( x1/甲 
+))      :arg1  (x42 / and
+            :op1  (x43 / theatre
+                  :name  ( x3/长安大戏院 
+))            :op2  (x48 / temporal
+                  :arg1  (x8 / 出来-01
+                        :source  (x7 / 家
+                              :poss  (x6 / 你
+)))                  :arg2  (x10 / 坐-02
+                        :arg1  (x14 / 汽车
+                              :mod  (x13 / 公共
+)                              :ord  (x52 / ordinal-entity
+                                    :value  (x11 / 6
+)                                    :cunit  (x12 / 路
+))))                  :arg3  (x18 / 坐
+                        :quant  (x19 / 3
+)                        :cunit  (x20 / 站
+)                        :direction  (x17 / 前
+)))            :op3  (x59 / condition
+                  :arg1  (x23 / 有-03
+                        :arg0  (x22 / 车上
+)                        :arg1  (x24 / 座
+))                  :arg2  (x27 / 坐-01
+                        :aspect  (x28 / 着
+)                        :arg0  (x25 / x6
+)))            :op4  (x66 / condition
+                  :arg1  (x31 / 多-01
+                        :arg0  (x30 / 人
+))                  :arg2  (x34 / 站-01
+                        :arg0  (x32 / x6
+)                        :aspect  (x35 / 着
+)))))
+===========================
+乙：尽是废话！
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 废话
+            :extent  (x3 / 尽
+)            :mode  (x6 / expressive
+)))
+===========================
+甲：下车之后你往对面走，从西边数第三个电线杆子，我在那儿等你。
+(x24 / say
+      :arg0  (x26 / person
+            :name  ( x1/甲 
+))      :arg1  (x28 / and
+            :op1  (x29 / temporal
+                  :arg1  (x4 / 之后-01
+                        :arg0  (x3 / 下车-01
+                              :arg0  (x5 / 你
+)))                  :arg2  (x8 / 走-01
+                        :arg2  (x7 / 对面
+)                        :arg0  (x5 / 你
+)))            :op2  (x21 / 等-01
+                  :arg0  (x18 / x26
+)                  :arg1  (x22 / x5
+)                  :location  (x20 / 那儿
+                        :arg0-of  (x39 / mean
+                              :arg1  (x16 / 杆子
+                                    :mod  (x15 / 电线
+)                                    :ord  (x42 / ordinal-entity
+                                          :value  (x13 / 3
+)                                          :cunit  (x14 / 个
+))                                    :arg1-of  (x12 / 数-01
+                                          :source  (x11 / 西边
+))))))))
+===========================
+七点一刻开演，我七点等你。
+(x10 / say
+      :arg1  (x15 / causation
+            :arg1  (x3 / 开演-01
+                  :time  (x14 / date-entity
+                        :time  (x1_x2 / 19:15
+)))            :arg2  (x7 / 等-01
+                  :arg0  (x5 / 我
+)                  :arg1  (x8 / 你
+)                  :time  (x20 / date-entity
+                        :time  (x6 / 19:00
+)))))
+===========================
+七点钟。
+(x4 / say
+      :arg1  (x6 / date-entity
+            :time  (x1_x2 / 19:00
+)))
+===========================
+甲：哎，小王，你别来了。
+(x13 / say
+      :arg0  (x15 / person
+            :name  ( x1/甲 
+))      :arg1  (x17 / and
+            :op1  (x3 / 哎
+)            :op2  (x19 / person
+                  :name  ( x6/王 
+))            :op3  (x10 / 来-01
+                  :polarity  (x9 / -
+)                  :arg0  (x8 / x19
+)                  :aspect  (x11 / 了
+))))
+===========================
+乙：怎么不来啦？
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/乙 
+))      :arg1  (x5 / 来
+            :cause  (x3 / amr-unknown
+)            :polarity  (x4 / -
+)            :mode  (x6_x7 / interrogative
+)))
+===========================
+甲：现在都八点半了。
+(x8 / say
+      :arg0  (x10 / person
+            :name  ( x1/甲 
+))      :arg1  (x12 / date-entity
+            :time  (x5 / 20:30
+)            :time  (x3 / 现在
+)            :mod  (x4 / 都
+)            :aspect  (x6 / 了
+)))
+===========================

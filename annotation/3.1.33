@@ -1,0 +1,440 @@
+圣诞节快到了，该选购圣诞礼物了。
+(x12 / causation
+      :arg1  (x3 / 到-01
+            :arg0  (x15 / festival
+                  :name  ( x1/圣诞节 
+))            :time  (x2 / 快
+)            :aspect  (x4 / 了
+))      :arg2  (x6 / 该-01
+            :arg0  (x7 / 选购-01
+                  :arg1  (x9 / 礼物
+                        :mod  (x8 / 圣诞
+)))            :smood  (x10 / 了
+)))
+===========================
+孩子们热烈地讨论这个话题，互相试探对方的心意，希望送出最诚挚的祝福，收到最甜蜜的笑容。
+(x28 / and
+      :op1  (x5 / 讨论-01
+            :arg0  (x1_x2 / 孩子们
+)            :manner  (x3 / 热烈
+)            :arg1  (x7 / 话题
+                  :mod  (x6_1 / 这
+)                  :cunit  (x7_2 / 个
+)))      :op2  (x10 / 试探-01
+            :manner  (x9 / 互相
+)            :arg0  (x1_x2 / 孩子们
+)            :arg1  (x13 / 心意
+                  :poss  (x11 / 对方
+)))      :op3  (x15 / 希望-01
+            :arg0  (x1_x2 / 孩子们
+)            :arg1  (x16 / 送出-01
+                  :arg0  (x1_x2 / 孩子们
+)                  :arg1  (x20 / 祝福
+                        :arg0-of  (x18 / 诚挚-01
+                              :degree  (x17 / 最
+)))))      :op4  (x22 / 收到-01
+            :arg0  (x1_x2 / 孩子们
+)            :arg1  (x26 / 笑容
+                  :arg0-of  (x24 / 甜蜜-01
+                        :degree  (x23 / 最
+)))))
+===========================
+让我担心的是，家里并不宽裕，我只攒了一百美元，却要由五个孩子来分享，他们怎么可能买到很多很好的礼物呢？
+(x40 / contrast
+      :domain  (x42 / thing
+            :arg1-of  (x3 / 担心-01
+                  :arg0  (x2 / 我
+)                  :arg2-of  (x1 / 让-02
+                        :arg1  (x2 / 我
+))))      :arg1  (x46 / causation
+            :arg1  (x10 / 宽裕-01
+                  :arg0  (x7 / 家里
+)                  :mod  (x8 / 并
+)                  :polarity  (x9 / -
+))            :arg2  (x14 / 攒-01
+                  :arg0  (x12 / x2
+)                  :mod  (x13 / 只
+)                  :aspect  (x15 / 了
+)                  :arg1  (x56 / monetary-quantity
+                        :quant  (x16 / 100
+)                        :unit  (x17 / 美元
+))))      :arg2  (x47 / condition
+            :arg1  (x26 / 分享-01
+                  :arg0  (x24 / 孩子
+                        :cunit  (x23 / 个
+)                        :quant  (x22 / 5
+))                  :arg1  (x56 / monetary-quantity
+))            :arg2  (x30 / 可能-01
+                  :cause  (x29 / amr-unknown
+)                  :arg0  (x31_x32 / 买到-01
+                        :arg0  (x28 / x24
+)                        :arg1  (x37 / 礼物
+                              :arg0-of  (x35 / 好-01
+                                    :degree  (x34 / 很
+))                              :arg0-of  (x33_2 / 多-03
+                                    :degree  (x33_1 / 很
+))))                  :mode  (x38_x39 / interrogative
+))))
+===========================
+圣诞节前夕，我给了每个孩子二十美元，提醒每人至少准备四份礼物。
+(x20 / and
+      :op1  (x5 / 给-01
+            :arg0  (x4 / 我
+)            :arg1  (x27 / monetary-quantity
+                  :quant  (x9 / 20
+)                  :unit  (x10 / 美元
+))            :arg2  (x8 / 孩子
+                  :mod  (x7_1 / 每
+)                  :cunit  (x7_2 / 个
+)))      :time  (x2 / 前夕
+            :time  (x25 / festival
+                  :name  ( x1/圣诞节 
+)))      :op2  (x12 / 提醒-01
+            :arg0  (x4 / 我
+)            :arg1  (x13_2 / x8
+                  :mod  (x13_1 / 每
+))            :arg2  (x15 / 准备-01
+                  :arg0  (x13_2 / x8
+)                  :arg1  (x18 / 礼物
+                        :quant  (x16 / 4
+)                        :cunit  (x17 / 份
+))                  :degree  (x14 / 至少
+))))
+===========================
+接着，我把他们带到一个商场，分头去采购，约定两小时后一起回家。
+(x22 / temporal
+      :arg2  (x6_x7 / 带到-01
+            :arg0  (x3 / 我
+)            :arg1  (x5 / 他们
+)            :arg2  (x9 / 商场
+                  :quant  (x8_1 / 1
+)                  :mod  (x8_2 / 个
+)))      :arg3  (x33 / and
+            :op1  (x12 / 去-01
+                  :manner  (x11 / 分头
+)                  :arg1  (x13 / 采购
+))            :op2  (x15 / 约定-01
+                  :arg1  (x20 / 回家
+                        :manner  (x19 / 一起
+)                        :time  (x18 / 后
+                              :op1  (x38 / temporal-quantity
+                                    :quant  (x16 / 2
+)                                    :unit  (x17 / 小时
+)))))))
+===========================
+回家途中，孩子们兴高采烈。
+(x6 / 兴高采烈-01
+      :arg0  (x4_x5 / 孩子
+)      :time  (x1 / 回家
+))
+===========================
+你给我一点儿暗示，我让你摸摸口袋，不断让别人猜测自己买了什么礼物。
+(x23 / and
+      :op1  (x2 / 给-01
+            :arg0  (x1 / 你
+)            :arg1  (x5 / 暗示
+                  :quant  (x4 / 一点儿
+))            :arg2  (x3 / 我
+))      :op2  (x8 / 让-02
+            :arg0  (x7 / x3
+)            :arg1  (x9 / x1
+)            :arg2  (x10 / 摸-01
+                  :arg0  (x1 / 你
+)                  :arg1  (x11 / 口袋
+)))      :op3  (x13 / 不断-01
+            :arg0  (x14 / 让-02
+                  :arg1  (x15 / 别人
+)                  :arg2  (x16 / 猜测-01
+                        :arg0  (x15 / 别人
+)                        :arg1  (x18 / 买-01
+                              :arg0  (x17 / 自己
+)                              :aspect  (x19 / 了
+)                              :arg1  (x21 / 礼物
+                                    :arg0-of  (x44 / mean
+                                          :arg1  (x20 / amr-unknown
+))))))))
+===========================
+只有八岁的小女儿金吉娅沉默不语。
+(x8 / 沉默不语
+      :arg0  (x6 / 女儿
+            :name  ( x7/金吉娅 
+)            :arg0-of  (x5 / 小-01
+)            :age  (x16 / temporal-quantity
+                  :quant  (x2 / 8
+)                  :unit  (x3 / 岁
+))))
+===========================
+透过塑料口袋，我发现，她只买了一些棒棒糖——那种五十美分一大把的棒棒糖！
+(x6 / 发现-01
+      :manner  (x1 / 透过-01
+            :arg1  (x3 / 口袋
+                  :consist-of  (x2 / 塑料
+)))      :arg0  (x5 / 我
+)      :arg1  (x10 / 买-01
+            :mod  (x9 / 只
+)            :arg0  (x8 / 她
+)            :aspect  (x11 / 了
+)            :arg1  (x13 / 棒棒糖
+                  :quant  (x12 / 一些
+)                  :arg0-of  (x36 / mean
+                        :arg1  (x22 / 棒棒糖
+                              :mode  (x23 / expressive
+)                              :mod  (x15_1 / 那
+)                              :unit  (x15_2 / 种
+)                              :cost  (x41 / monetary-quantity
+                                    :quant  (x16 / 50
+)                                    :unit  (x17 / 美分
+))                              :quant  (x18_x19_x20 / 一大把
+))))))
+===========================
+我有些生气：她到底用这二十美元做了什么?
+(x3 / 生气-01
+      :degree  (x2 / 有些
+)      :arg0  (x1 / 我
+)      :arg1  (x6 / 到底-01
+            :arg0  (x11 / 做-01
+                  :aspect  (x12 / 了
+)                  :arg0  (x5 / 她
+)                  :arg1  (x13 / amr-unknown
+)                  :instrument  (x25 / monetary-quantity
+                        :quant  (x9 / 20
+)                        :unit  (x10 / 美元
+)                        :mod  (x8 / 这
+)))            :mode  (x14 / interrogative
+)))
+===========================
+一回到家，我立即把她叫到我的房间。
+(x15 / condition
+      :arg1  (x2 / 回到-01
+            :arg0  (x5 / 我
+)            :arg1  (x3 / 家
+))      :arg2  (x9 / 叫-04
+            :arg0  (x5 / 我
+)            :mod  (x6 / 立即
+)            :arg1  (x8 / 她
+)            :arg2  (x10 / 到-01
+                  :arg0  (x8 / 她
+)                  :arg1  (x13 / 房间
+                        :poss  (x11 / x5
+)))))
+===========================
+打算和她好好谈谈。
+(x1 / 打算-01
+      :arg1  (x5 / 谈-01
+            :manner  (x4 / 好好
+)            :arg0  (x2 / and
+                  :op2  (x3 / 她
+))))
+===========================
+没等我问，金吉她先开口了：“妈妈。
+(x17 / and
+      :op1  (x9_x10 / 开口-01
+            :time  (x2 / 等
+                  :polarity  (x1 / -
+)                  :arg1  (x4 / 问-01
+                        :arg0  (x3 / 我
+)))            :arg0  (x7 / 她
+                  :name  ( x6/金吉 
+))            :mod  (x8 / 先
+)            :aspect  (x11 / 了
+))      :op2  (x29 / say
+            :arg1  (x13 / 妈妈
+)))
+===========================
+我拿着钱到处逛，本来想送给您和哥哥姐姐一些漂亮的礼物。
+(x20 / and
+      :op1  (x6 / 逛-01
+            :arg0  (x1 / 我
+)            :manner  (x2 / 拿-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x4 / 钱
+)                  :aspect  (x3 / 着
+))            :arg1  (x5 / 到处
+))      :op2  (x9 / 想-04
+            :mod  (x8 / 本来
+)            :arg0  (x1 / 我
+)            :arg1  (x10 / 送给-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x18 / 礼物
+                        :arg0-of  (x16 / 漂亮-01
+)                        :quant  (x15 / 一些
+))                  :arg2  (x12 / and
+                        :op1  (x11 / 您
+)                        :op2  (x34 / and
+                              :op1  (x13 / 哥哥
+)                              :op2  (x14 / 姐姐
+))))))
+===========================
+后来，我看到了一棵援助中心的‘给予树’。
+(x14 / temporal
+      :arg2  (x4 / 看到-01
+            :arg0  (x3 / 我
+)            :aspect  (x5 / 了
+)            :arg1  (x12 / 树
+                  :location  (x8 / 中心
+                        :mod  (x7 / 援助
+))                  :quant  (x6_1 / 1
+)                  :cunit  (x6_2 / 棵
+)                  :mod  (x11 / 给予
+))))
+===========================
+树上有许多卡片，其中一张是一个小女孩写的。
+(x16 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1_1 / 树
+)            :arg1  (x4 / 卡片
+                  :quant  (x3 / 许多
+)))      :op2  (x22 / thing
+            :arg1-of  (x13 / 写-01
+                  :arg0  (x12 / 女孩
+                        :arg0-of  (x11 / 小
+)                        :quant  (x10_1 / 1
+)                        :cunit  (x10_2 / 个
+)))            :domain  (x24 / thing
+                  :arg1-of  (x25 / include
+                        :arg2  (x4 / 卡片
+))                  :quant  (x7 / 1
+)                  :cunit  (x8 / 张
+))))
+===========================
+她一直盼望圣诞老人送给她一个穿着裙子的洋娃娃。
+(x3 / 盼望-01
+      :time  (x2 / 一直
+)      :arg0  (x1 / 她
+)      :arg1  (x5 / 送给-01
+            :arg0  (x4 / 圣诞老人
+)            :arg2  (x6 / x1
+)            :arg1  (x11 / 洋娃娃
+                  :quant  (x7_1 / 1
+)                  :cunit  (x7_2 / 个
+)                  :arg0-of  (x8_1 / 穿-01
+                        :aspect  (x8_2 / 着
+)                        :arg1  (x9 / 裙子
+)))))
+===========================
+于是，我取下卡片，买了洋娃娃，把它和卡片一起送到了援助中心的礼品区。”
+(x28 / say
+      :arg1  (x30 / causation
+            :arg2  (x31 / temporal
+                  :arg1  (x4_x5 / 取下-01
+                        :arg0  (x3 / 我
+)                        :arg1  (x6 / 卡片
+))                  :arg2  (x8 / 买-01
+                        :arg0  (x3 / 我
+)                        :aspect  (x9 / 了
+)                        :arg1  (x10 / 洋娃娃
+))                  :arg3  (x17_x18 / 送到-01
+                        :arg1  (x14 / and
+                              :op1  (x13 / x10
+)                              :op2  (x15 / x6
+))                        :manner  (x16 / 一起
+)                        :aspect  (x19 / 了
+)                        :arg2  (x24 / 区
+                              :mod  (x23 / 礼品
+)                              :location  (x21 / 中心
+                                    :mod  (x20 / 援助
+)))                        :arg0  (x3 / 我
+)))))
+===========================
+金吉娅说话的声音很低，显然在为没能给我们买到像样的礼物而难过。
+(x23 / causation
+      :arg2  (x6 / 低-01
+            :degree  (x5 / 很
+)            :arg0  (x4 / 声音
+                  :mod  (x2 / 说话-01
+                        :arg0  (x29 / person
+                              :name  ( x1/金吉娅 
+)))))      :arg1  (x21 / 难过-01
+            :cause  (x12 / 能-01
+                  :polarity  (x11 / -
+)                  :arg0  (x13 / 给-01
+                        :arg0  (x29 / person
+)                        :arg2  (x14 / 我们
+)                        :arg3  (x15_x16 / 买到-01
+                              :arg0  (x29 / person
+)                              :arg1  (x19 / 礼物
+                                    :arg0-of  (x17 / 像样
+)))))            :mod  (x8 / 显然
+)            :aspect  (x9 / 在
+)            :arg0  (x29 / person
+)))
+===========================
+“我的钱就……只够买这些棒棒糖了。
+(x14 / say
+      :arg1  (x5 / 就-01
+            :arg0  (x4 / 钱
+                  :poss  (x2 / 我
+))            :arg1  (x8 / 够-01
+                  :mod  (x7 / 只
+)                  :arg0  (x4 / 钱
+)                  :arg1  (x9 / 买-01
+                        :arg1  (x11 / 棒棒糖
+                              :quant  (x10 / 这些
+))))            :smood  (x12 / 了
+)))
+===========================
+可是妈妈，我们有这么多人，已经能得到许多礼物了，而那个小女孩却什么都没有。”
+(x26 / say
+      :arg1  (x28 / contrast
+            :arg2  (x29 / and
+                  :op1  (x2 / 妈妈
+)                  :op2  (x31 / contrast
+                        :arg1  (x32 / causation
+                              :arg1  (x5 / 有-01
+                                    :arg0  (x4 / 我们
+)                                    :arg1  (x8 / 人
+                                          :arg0-of  (x7 / 多-03
+                                                :mod  (x6 / 这么
+))))                              :arg2  (x11 / 能-01
+                                    :aspect  (x10 / 已经
+)                                    :arg0  (x12 / 得到-01
+                                          :arg0  (x4 / 我们
+)                                          :arg1  (x14 / 礼物
+                                                :quant  (x13 / 许多
+))                                          :aspect  (x15 / 了
+))))                        :arg2  (x24_2 / 有-01
+                              :arg0  (x20 / 女孩
+                                    :arg0-of  (x19 / 小-01
+)                                    :mod  (x18_1 / 那
+)                                    :cunit  (x18_2 / 个
+))                              :arg1  (x22 / 什么
+                                    :extent  (x23 / 都
+))                              :polarity  (x24_1 / -
+))))))
+===========================
+我紧紧地拥抱着金吉娅。
+(x4 / 拥抱-01
+      :arg0  (x1 / 我
+)      :manner  (x2 / 紧紧
+)      :aspect  (x5 / 着
+)      :arg1  (x13 / person
+            :name  ( x6/金吉娅 
+)))
+===========================
+这个圣诞节，她不但送给我们棒棒糖，还送给我们善良、仁爱、同情和体贴，以及一个陌生女孩如愿以偿的笑脸。
+(x29 / progression
+      :arg1  (x6 / 送给-01
+            :arg2  (x7 / 我们
+)            :arg0  (x4 / 她
+)            :arg1  (x8 / 棒棒糖
+))      :arg2  (x11 / 送给-01
+            :arg0  (x4 / 她
+)            :arg2  (x12 / x7
+)            :arg1  (x21 / and
+                  :op1  (x43 / and
+                        :op1  (x13 / 善良
+)                        :op2  (x15 / 仁爱
+)                        :op3  (x17 / 同情
+)                        :op4  (x19 / 体贴
+))                  :op2  (x27 / 笑脸
+                        :mod  (x25 / 如愿以偿-01
+                              :arg0  (x24 / 女孩
+                                    :quant  (x22_1 / 1
+)                                    :cunit  (x22_2 / 个
+)                                    :arg0-of  (x23 / 陌生-01
+))))))      :time  (x37 / festival
+            :name  ( x2/圣诞节 
+                  :cunit  (x1_2 / 个
+))            :mod  (x1_1 / 这
+)))
+===========================

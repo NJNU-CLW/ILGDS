@@ -1,0 +1,439 @@
+我的家乡有一条无名小溪，五六个小村庄分布在小溪的两岸。
+(x20 / and
+      :op1  (x4 / 有-03
+            :arg0  (x3 / 家乡
+                  :poss  (x1 / 我
+))            :arg1  (x8 / 小溪
+                  :arg0-of  (x7 / 无名-01
+)                  :cunit  (x6 / 条
+)                  :quant  (x5 / x1
+)))      :op2  (x14 / 分布-01
+            :arg0  (x13 / 村庄
+                  :arg0-of  (x12 / 小-01
+)                  :cunit  (x11 / 个
+)                  :quant  (x33 / or
+                        :op1  (x10_1 / 5
+)                        :op2  (x10_2 / 6
+)))            :arg1  (x18 / 两岸
+                  :arg0  (x16 / x8
+))))
+===========================
+小溪的流水常年不断。
+(x6 / 断-02
+      :polarity  (x5 / -
+)      :arg1  (x3 / 流水
+            :poss  (x1 / 小溪
+))      :time  (x4 / 常年
+))
+===========================
+每年汛期，山洪暴发，溪水猛涨。
+(x10 / temporal
+      :arg1  (x5 / 暴发-01
+            :arg0  (x4 / 山洪
+))      :arg2  (x8 / 猛涨-01
+            :arg0  (x7 / 溪水
+))      :time  (x2 / 汛期
+            :time  (x1 / 每年
+)))
+===========================
+山洪过后，人们出工、收工、赶集、访友，来来去去，必须脱鞋绾裤。
+(x21 / condition
+      :time  (x2 / 过后
+            :arg0  (x1 / 山洪
+))      :arg1  (x25 / and
+            :op1  (x26 / and
+                  :op1  (x5 / 出工-01
+                        :arg0  (x4 / 人们
+))                  :op2  (x7 / 收工-01
+                        :arg0  (x4 / 人们
+))                  :op3  (x9 / 赶集-01
+                        :arg0  (x4 / 人们
+))                  :op4  (x11 / 访友-01
+                        :arg0  (x4 / 人们
+)))            :op2  (x13 / 来来去去-01
+                  :arg0  (x4 / 人们
+)))      :arg2  (x15 / 必须-02
+            :arg0  (x34 / and
+                  :op1  (x16 / 脱-01
+                        :arg0  (x4 / 人们
+)                        :arg1  (x17 / 鞋
+))                  :op2  (x18 / 绾
+                        :arg0  (x4 / 人们
+)                        :arg1  (x19 / 裤
+)))))
+===========================
+进入秋天，天气变凉，家乡的人们会根据水的深浅，从河的两岸找来一些平整方正的石头，按照二尺左右的间隔，从小溪里横着摆上一排，让人们从上面踏过，这就是搭石。
+(x58 / and
+      :op1  (x60 / temporal
+            :arg1  (x1 / 进入-01
+                  :arg1  (x62 / date-entity
+                        :season  (x2 / 秋天
+)))            :arg2  (x5 / 变-01
+                  :arg0  (x4 / 天气
+)                  :arg2  (x6 / 凉-02
+                        :arg0  (x4 / 天气
+)))            :arg3  (x11 / 会-02
+                  :arg0  (x69 / temporal
+                        :arg1  (x12 / 根据-01
+                              :arg0  (x10 / 人们
+                                    :location  (x8 / 家乡
+))                              :arg1  (x15 / 深浅
+                                    :poss  (x13 / 水
+)))                        :arg2  (x21_x22 / 找来-01
+                              :arg0  (x10 / 人们
+)                              :location  (x20 / 两岸
+                                    :arg0  (x18 / 河
+))                              :arg1  (x27 / 石头
+                                    :arg0-of  (x25 / 方正-01
+)                                    :arg0-of  (x24 / 平整-01
+)                                    :quant  (x23 / 一些
+)))                        :arg3  (x41 / 摆-01
+                              :manner  (x29 / 按照-01
+                                    :arg1  (x34 / 间隔
+                                          :mod  (x84 / distance-quantity
+                                                :unit  (x31 / 尺
+)                                                :quant  (x32 / 左右
+                                                      :op1  (x30 / 2
+)))))                              :arg1  (x88 / thing
+                                    :quant  (x43 / 1
+)                                    :cunit  (x44 / 排
+)                                    :arg1-of  (x93 / include-91
+                                          :arg2  (x27 / 石头
+)))                              :manner  (x39 / 横
+                                    :aspect  (x40 / 着
+))                              :location  (x37 / 小溪
+))                        :arg4  (x46 / 让-02
+                              :arg1  (x47 / 人们
+)                              :arg2  (x50 / 踏-02
+                                    :arg1  (x49 / 上面
+                                          :arg0  (x88 / thing
+)))))))      :op2  (x56 / 搭石
+            :domain  (x53 / 这
+)            :mod  (x54 / 就
+)))
+===========================
+搭石，构成了家乡的一道风景。
+(x3 / 构成-01
+      :arg0  (x1 / 搭石
+)      :aspect  (x4 / 了
+)      :arg1  (x8 / 风景
+            :quant  (x7_1 / 1
+)            :cunit  (x7_2 / 道
+)            :location  (x5 / 家乡
+)))
+===========================
+秋凉以后，人们早早地将搭石摆放好。
+(x10 / 好-04
+      :arg0  (x9 / 摆放-01
+            :arg1  (x8 / 搭石
+)            :manner  (x5 / 早早
+)            :arg0  (x4 / 人们
+)            :time  (x2 / 以后
+                  :arg0  (x1 / 秋凉
+))))
+===========================
+如果别处都有搭石，唯独这一处没有，人们会谴责这里的人懒惰。
+(x21 / condition
+      :arg1  (x25 / contrast
+            :arg1  (x4 / 有-03
+                  :arg0  (x2 / 别处
+                        :extent  (x3 / 都
+))                  :arg1  (x5 / 搭石
+))            :arg2  (x11_2 / 有-03
+                  :polarity  (x11_1 / -
+)                  :arg0  (x10 / 处
+                        :quant  (x9 / 1
+)                        :mod  (x8 / 这
+))                  :manner  (x7 / 唯独
+)))      :arg2  (x14 / 会-02
+            :arg0  (x15 / 谴责-01
+                  :arg0  (x13 / 人们
+)                  :arg1  (x19 / 懒惰-01
+                        :arg0  (x18 / 人
+                              :location  (x16 / 这里
+))))))
+===========================
+上了点年岁的人，无论怎样急着赶路，只要发现哪块搭石不平稳，一定会放下带的东西，找来合适的石头搭上，再在上边踏上几个来回，直到满意了才肯离去。
+(x53 / concession
+      :arg1  (x10 / 急-04
+            :degree  (x9 / amr-unknown
+)            :aspect  (x11 / 着
+)            :arg1  (x12 / 赶路
+                  :arg0  (x6 / 人
+                        :mod  (x1 / 上
+                              :aspect  (x2 / 了
+)                              :arg1  (x4 / 年岁
+                                    :quant  (x3 / 点
+)))))            :arg0  (x6 / 人
+))      :arg2  (x56 / condition
+            :arg1  (x15 / 发现-01
+                  :arg0  (x6 / 人
+)                  :arg1  (x20 / 平稳-01
+                        :polarity  (x19 / -
+)                        :arg0  (x18 / 搭石
+                              :mod  (x16 / amr-unknown
+)                              :cunit  (x17 / 块
+))))            :arg2  (x22 / 一定
+                  :arg0  (x23 / 会-02
+                        :arg0  (x61 / temporal
+                              :arg1  (x24 / 放下-01
+                                    :arg0  (x6 / 人
+)                                    :arg1  (x27 / 东西
+                                          :arg1-of  (x25 / 带-02
+                                                :arg0  (x6 / 人
+))))                              :arg2  (x29_x30 / 找来-01
+                                    :arg0  (x6 / 人
+)                                    :arg1  (x33 / 石头
+                                          :arg0-of  (x31 / 合适-01
+))                                    :purpose  (x34_x35 / 搭-03
+                                          :arg0  (x6 / 人
+)                                          :arg1  (x18 / 搭石
+)                                          :instrument  (x33 / 石头
+)))                              :arg3  (x40 / 踏-02
+                                    :quant  (x42 / 几
+)                                    :cunit  (x44 / 来回
+)                                    :arg0  (x6 / 人
+)                                    :location  (x39 / 上边
+                                          :arg0  (x18 / 搭石
+)))                              :arg4  (x86 / condition
+                                    :arg1  (x47 / 满意-01
+                                          :aspect  (x48 / 了
+)                                          :arg0  (x6 / 人
+))                                    :arg2  (x50 / 肯-01
+                                          :arg0  (x6 / 人
+)                                          :arg1  (x51 / 离去-01
+                                                :arg0  (x6 / 人
+)))))))))
+===========================
+家乡有一句“紧走搭石慢过桥”的俗语。
+(x2 / 有-03
+      :arg1  (x14 / 俗语
+            :quant  (x3 / 1
+)            :unit  (x4 / 句
+)            :arg0-of  (x21 / mean
+                  :arg1  (x6_x7_x8_x9_x10_x11 / 紧走搭石慢过桥
+)))      :arg0  (x1 / 家乡
+))
+===========================
+搭石，原本就是天然石块，踩上去难免会活动，走得快才容易保持平衡。
+(x23 / causation
+      :arg1  (x25 / causation
+            :arg1  (x7 / 石块
+                  :mod  (x6 / 天然
+)                  :domain  (x1 / 搭石
+)                  :mod  (x4 / 就
+)                  :manner  (x3 / 原本
+))            :arg2  (x31 / condition
+                  :arg1  (x9_x10 / 踩-02
+                        :arg1  (x1 / 搭石
+))                  :arg2  (x11 / 难免-01
+                        :arg0  (x12 / 会-02
+                              :arg0  (x13 / 活动
+)))))      :arg2  (x36 / condition
+            :arg1  (x15 / 走
+                  :arg0-of  (x17 / 快-01
+))            :arg2  (x19 / 容易-01
+                  :arg0  (x20 / 保持-01
+                        :arg1  (x21 / 平衡
+)))))
+===========================
+人们走搭石不能抢路，也不能突然止步。
+(x18 / condition
+      :arg1  (x2 / 走-01
+            :arg0  (x1 / 人们
+                  :manner  (x10 / 突然
+))            :arg1  (x3 / 搭石
+))      :arg2  (x13 / and
+            :op1  (x4_2 / 能-01
+                  :polarity  (x4_1 / -
+)                  :arg0  (x5 / 抢-01
+                        :arg1  (x6 / 路
+)))            :op2  (x9_2 / 能-01
+                  :polarity  (x9_1 / -
+)                  :arg0  (x11 / 止步
+))))
+===========================
+如果前面的人突然停住，后边的人没处落脚，就会掉进水里。
+(x23 / condition
+      :arg1  (x26 / causation
+            :arg1  (x6_x7 / 停住-01
+                  :arg0  (x4 / 人
+                        :location  (x2 / 前面
+))                  :manner  (x5 / 突然
+))            :arg2  (x36 / 有-01
+                  :polarity  (x12 / -
+)                  :arg1  (x13 / 处
+                        :purpose  (x14 / 落脚
+)))            :arg0  (x11 / 人
+                  :location  (x9 / 后边
+)))      :arg2  (x17 / 会-02
+            :arg0  (x18_x19 / 掉进-01
+                  :arg1  (x21 / 里
+                        :arg0  (x20 / 水
+)))))
+===========================
+每当上工、下工，一行人走搭石的时候，动作是那么协调有序！
+(x19 / and
+      :op1  (x16 / 协调
+            :arg0  (x13 / 动作
+)            :degree  (x15 / 那么
+))      :op2  (x17 / 有序-01
+            :arg0  (x13 / 动作
+))      :mode  (x14 / judgement
+)      :mode  (x18 / expresive
+)      :time  (x8 / 走-01
+            :arg1  (x9 / 搭石
+)            :arg0  (x7 / 人
+                  :quant  (x6 / 一行
+))            :time  (x30 / and
+                  :op1  (x2 / 上工-01
+                        :arg0  (x7 / 人
+))                  :op2  (x4 / 下工-01
+                        :arg0  (x7 / 人
+)))))
+===========================
+前面的抬起脚来，后面的紧跟上去，踏踏的声音，像轻快的音乐；清波漾漾，人影绰绰，给人画一般的美感。
+(x37 / and
+      :op1  (x19 / 像-01
+            :arg0  (x17 / 声音
+                  :arg0-of  (x14_x15 / 踏踏
+)                  :cause  (x44 / temporal
+                        :arg1  (x3 / 抬
+                              :arg0  (x46 / person
+                                    :location  (x1 / 前面
+))                              :arg1  (x5 / 脚
+))                        :arg2  (x11 / 跟-01
+                              :direction  (x12 / 上去
+)                              :arg0  (x51 / person
+                                    :location  (x8 / 后面
+)))))            :arg1  (x22 / 音乐
+                  :arg0-of  (x20 / 轻快-01
+)))      :op2  (x30 / 给-01
+            :arg0  (x54 / and
+                  :op1  (x25 / 漾漾
+                        :arg0  (x24 / 清波
+))                  :op2  (x28 / 绰绰
+                        :arg0  (x27 / 人影
+)))            :arg1  (x35 / 美感
+                  :arg0-of  (x33 / 一般-01
+                        :arg1  (x32 / 画
+)))            :arg2  (x31 / 人
+)))
+===========================
+经常到山里的人，大概都见过这样的情景：如果有两个人面对面同时走到溪边边，总会在第一块搭石前止步，招手示意，让对方先走，等对方过了河，俩人再说上几句家常话，才相背而行。
+(x7 / 大概
+      :arg0  (x9 / 见-01
+            :aspect  (x10 / 过
+)            :arg0  (x5 / 人
+                  :arg0-of  (x2 / 到-01
+                        :arg1  (x3 / 山里
+)                        :frequency  (x1 / 经常
+)))            :arg1  (x13 / 情景
+                  :mod  (x11 / 这样
+)                  :arg0-of  (x78 / mean
+                        :arg1  (x79 / condition
+                              :arg1  (x24_x25 / 走到-01
+                                    :arg1  (x27 / 边
+                                          :arg0  (x26 / 溪边
+))                                    :arg0  (x19 / 人
+                                          :arg1-of  (x16 / 有-03
+)                                          :cunit  (x18 / 个
+)                                          :quant  (x17 / 2
+))                                    :time  (x23 / 同时
+)                                    :manner  (x21 / 对-01
+                                          :arg0  (x20 / 面
+)                                          :arg1  (x22 / 面
+)))                              :arg2  (x29_2 / 会-02
+                                    :frequency  (x29_1 / 总
+)                                    :arg0  (x94 / temporal
+                                          :arg1  (x35 / 止步-01
+                                                :arg1  (x34 / 前
+                                                      :arg0  (x33 / 搭石
+                                                            :ord  (x97 / ordinal-entity
+                                                                  :value  (x31 / 1
+))                                                            :cunit  (x32 / 块
+)))                                                :arg0  (x19 / 人
+))                                          :arg2  (x38 / 示意-01
+                                                :manner  (x37 / 招手-01
+                                                      :arg0  (x19 / 人
+))                                                :arg0  (x19 / 人
+))                                          :arg3  (x40 / 让-02
+                                                :arg1  (x41 / 对方
+)                                                :arg2  (x43 / 走-01
+                                                      :time  (x42 / 先
+)                                                      :arg0  (x41 / 对方
+))                                                :arg0  (x19 / 人
+))                                          :arg4  (x45 / 等-01
+                                                :arg1  (x47 / 过-05
+                                                      :aspect  (x48 / 了
+)                                                      :arg1  (x49 / 河
+)                                                      :arg0  (x46 / 对方
+))                                                :arg0  (x19 / 人
+))                                          :arg5  (x54 / 说-01
+                                                :arg1  (x58 / 家常话
+                                                      :unit  (x57 / 句
+)                                                      :quant  (x56 / 几
+))                                                :arg0  (x52 / x19
+                                                      :quant  (x51 / 2
+)))                                          :arg6  (x64 / 行-01
+                                                :manner  (x61_x62 / 相背
+)                                                :arg0  (x19 / 人
+)))))))))
+===========================
+假如遇上老人来走搭石，年轻人总要伏下身子背老人过去，人们把这看成理所当然的事。
+(x26 / causation
+      :arg2  (x28 / condition
+            :arg1  (x2 / 遇上-01
+                  :arg1  (x4 / 来-05
+                        :arg1  (x5 / 走-01
+                              :arg1  (x6 / 搭石
+)                              :arg0  (x3 / 老人
+))                        :arg0  (x3 / 老人
+))                  :arg0  (x8 / 年轻人
+))            :arg2  (x10 / 要
+                  :frequency  (x9 / 总-01
+)                  :arg0  (x37 / temporal
+                        :arg1  (x11 / 伏
+                              :arg1  (x13 / 身子
+                                    :part-of  (x8 / 年轻人
+)))                        :arg2  (x16 / 过去-02
+                              :manner  (x14 / 背-01
+                                    :arg1  (x15 / x3
+)                                    :arg0  (x8 / 年轻人
+))                              :arg0  (x8 / 年轻人
+)))))      :arg1  (x21 / 看成-01
+            :arg0  (x18 / 人们
+)            :arg1  (x20 / x28
+)            :arg2  (x24 / 事
+                  :arg0-of  (x22 / 理所当然-01
+))))
+===========================
+搭石，任人走，任人踏，它们联结着故乡的小路，也联结着乡亲们美好的情感。
+(x27 / and
+      :op1  (x29 / and
+            :op1  (x3 / 任-02
+                  :arg0  (x4 / 人
+)                  :arg1  (x1 / 搭石
+)                  :arg2  (x5 / 走-01
+                        :arg0  (x4 / 人
+)                        :arg1  (x1 / 搭石
+)))            :op2  (x7 / 任-02
+                  :arg0  (x8 / 人
+)                  :arg1  (x1 / 搭石
+)                  :arg2  (x9 / 踏-02
+                        :arg0  (x8 / 人
+)                        :arg1  (x1 / 搭石
+))))      :op2  (x37 / progression
+            :arg1  (x12 / 联结
+                  :aspect  (x13 / 着
+)                  :arg0  (x11 / x1
+)                  :arg1  (x16 / 小路
+                        :location  (x14 / 故乡
+)))            :arg2  (x19 / 联结
+                  :arg0  (x1 / 搭石
+)                  :arg1  (x25 / 情感
+                        :arg0-of  (x23 / 美好-01
+)                        :poss  (x21_x22 / 乡亲们
+))                  :aspect  (x20 / 着
+))))
+===========================

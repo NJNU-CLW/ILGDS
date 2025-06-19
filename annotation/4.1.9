@@ -1,0 +1,601 @@
+从前，一个小村里有座漂亮的花园。
+(x7 / 有-03
+      :arg0  (x5 / 村
+            :arg0-of  (x4 / 小-01
+)            :quant  (x3_1 / 1
+)            :cunit  (x3_2 / 个
+))      :time  (x1 / 从前
+)      :arg1  (x11 / 花园
+            :arg0-of  (x9 / 漂亮-01
+)            :cunit  (x8 / 座
+)))
+===========================
+那里，春天鲜花盛开，夏天绿树成阴，秋天鲜果飘香，冬天白地一片。
+(x19 / and
+      :op1  (x5 / 盛开-01
+            :arg0  (x4 / 鲜花
+)            :time  (x30 / date-entity
+                  :season  (x3 / 春天
+)))      :op2  (x8 / 绿树成阴
+            :time  (x31 / date-entity
+                  :season  (x7 / 夏天
+)))      :op3  (x12 / 飘香-01
+            :arg0  (x11 / 鲜果
+)            :time  (x33 / date-entity
+                  :season  (x10 / 秋天
+)))      :op4  (x15 / 白地
+            :quant  (x16 / 1
+)            :cunit  (x17 / 片
+)            :time  (x34 / date-entity
+                  :season  (x14 / 冬天
+)))      :location  (x1 / 那里
+))
+===========================
+村里的孩子都喜欢到那里玩。
+(x5 / 喜欢-01
+      :arg0  (x3 / 孩子
+            :extent  (x4 / 都
+)            :range  (x1 / 村里
+))      :arg1  (x6 / 到-01
+            :arg0  (x3 / 孩子
+)            :arg1  (x7 / 那里
+)            :purpose  (x8 / 玩-01
+                  :arg0  (x3 / 孩子
+))))
+===========================
+花园的主人是巨人，他外出旅行已好久了。
+(x14 / and
+      :op1  (x5 / 巨人
+            :domain  (x3 / 主人
+                  :poss  (x1 / 花园
+)))      :op2  (x8 / 外出-01
+            :purpose  (x9 / 旅行-01
+                  :arg0  (x5 / 巨人
+))            :arg0  (x7 / x5
+)            :aspect  (x10 / 已
+)            :duration  (x11 / 好久
+                  :aspect  (x12 / 了
+))))
+===========================
+花园里常年洋溢着孩子们欢乐的笑声。
+(x3 / 洋溢-01
+      :arg0  (x1_1_2 / 花园
+)      :time  (x2 / 常年
+)      :aspect  (x4 / 着
+)      :arg1  (x9 / 笑声
+            :mod  (x7 / 欢乐
+)            :source  (x5_x6 / 孩子们
+)))
+===========================
+有一年秋天，巨人突然回来了。
+(x7 / 回来-01
+      :aspect  (x8 / 了-01
+)      :manner  (x6 / 突然
+)      :arg0  (x5 / 巨人
+)      :time  (x15 / date-entity
+            :season  (x3 / 秋天
+                  :time  (x1_x2 / 有一年
+))))
+===========================
+他见到孩子们在花园里玩耍，很生气：“谁允许你们到这儿来玩的！都滚出去！”
+(x25 / causation
+      :arg1  (x2 / 见到-01
+            :arg1  (x7 / 玩耍-01
+                  :arg0  (x3_x4 / 孩子们
+                        :extent  (x21 / 都
+))                  :location  (x6_1_2 / 花园
+))            :arg0  (x1 / 他
+))      :arg2  (x31 / causation
+            :arg1  (x10 / 生气-01
+                  :arg0  (x1 / 他
+)                  :degree  (x9 / 很
+))            :arg2  (x35 / say
+                  :arg1  (x36 / and
+                        :op1  (x13 / 允许-01
+                              :arg0  (x12 / amr-unknown
+)                              :arg1  (x14 / x3_x4
+)                              :arg2  (x15 / 到-01
+                                    :arg0  (x14 / x3_x4
+)                                    :arg1  (x16 / x6_1_2
+)                                    :purpose  (x18 / 玩-01
+                                          :mode  (x19 / judgement
+)                                          :arg0  (x3_x4 / 孩子们
+)))                              :mode  (x20 / expressive
+))                        :op2  (x22 / 滚-02
+                              :direction  (x23 / 出去-01
+                                    :arg0  (x3_x4 / 孩子们
+))                              :arg1  (x3_x4 / 孩子们
+)                              :mode  (x24 / expressive
+))))))
+===========================
+孩子们吓坏了，四处逃散。
+(x10 / causation
+      :arg1  (x3 / 吓坏-01
+            :arg1  (x1_x2 / 孩子们
+)            :aspect  (x4 / 了
+))      :arg2  (x7 / 逃-01
+            :cause-of  (x8 / 散
+)            :direction  (x6 / 四处
+)            :arg0  (x1_x2 / 孩子们
+)))
+===========================
+赶走孩子以后，巨人在花园周围砌起围墙，而且竖起一块“禁止入内”的告示牌。
+(x23 / and
+      :op1  (x9 / 砌起-01
+            :arg0  (x5 / 巨人
+)            :arg1  (x10 / 围墙
+)            :location  (x8 / 周围
+                  :arg0  (x7 / 花园
+)))      :time  (x3 / 以后
+            :arg0  (x1 / 赶走-01
+                  :arg0  (x5 / 巨人
+)                  :arg1  (x2 / 孩子
+)))      :op2  (x13 / 竖起-01
+            :arg0  (x5 / 巨人
+)            :arg1  (x21 / 告示牌
+                  :quant  (x14_1 / 1
+)                  :unit  (x14_2 / 块
+)                  :arg0-of  (x38 / mean
+                        :arg1  (x16 / 禁止-01
+                              :arg1  (x17 / 入-01
+                                    :arg1  (x18 / 内
+)))))))
+===========================
+不久，北风呼啸，隆冬来临，刺骨的寒风吹起雪花。
+(x16 / and
+      :time  (x1 / 不久
+)      :op1  (x4 / 呼啸-01
+            :arg0  (x3 / 北风
+))      :op2  (x7 / 来临-01
+            :arg0  (x6 / 隆冬
+))      :op3  (x12 / 吹-02
+            :arg0  (x11 / 寒风
+                  :arg1  (x14 / 雪花
+)                  :arg0-of  (x9 / 刺骨-01
+))))
+===========================
+巨人孤独地度过了漫长的严冬。
+(x4 / 度过-01
+      :aspect  (x5 / 了
+)      :arg0  (x1 / 巨人
+)      :manner  (x2 / 孤独-01
+            :arg0  (x1 / 巨人
+))      :arg1  (x8 / 严冬
+            :arg0-of  (x6 / 漫长-01
+)))
+===========================
+春天终于来了，村子里又开出美丽的鲜花，不时传来小鸟的欢叫。
+(x22 / and
+      :op1  (x3 / 来-01
+            :arg0  (x26 / date-entity
+                  :season  (x1 / 春天
+))            :aspect  (x4 / 了-01
+)            :time  (x2 / 终于
+))      :op2  (x9_x10 / 开出-01
+            :arg1  (x13 / 鲜花
+                  :arg0-of  (x11 / 美丽-01
+))            :mod  (x8 / 又
+)            :location  (x7 / 里
+                  :arg0  (x6 / 村子
+)))      :op3  (x16 / 传来-01
+            :manner  (x15 / 不时
+)            :arg1  (x20 / 叫
+                  :mod  (x19 / 欢
+)                  :source  (x17 / 小鸟
+))))
+===========================
+但不知为什么，巨人的花园里仍然是冬天，天天狂风大作，雪花飞舞。
+(x19 / contrast
+      :arg1  (x2_2 / 知-01
+            :polarity  (x2_1 / -
+)            :arg1  (x23 / and
+                  :op1  (x24 / date-entity
+                        :season  (x10 / 冬天
+)                        :mode  (x9 / judgement
+)                        :mod  (x8 / 仍然
+)                        :location  (x7_1_2 / 花园
+                              :poss  (x5 / 巨人
+)))                  :op2  (x14 / 大作-01
+                        :arg1  (x13 / 狂风
+)                        :frequency  (x12 / 天天
+))                  :op3  (x17 / 飞舞-01
+                        :arg0  (x16 / 雪花
+))                  :cause  (x3 / amr-unknown
+))))
+===========================
+巨人裹着毯子，还瑟瑟发抖。
+(x10 / contrast
+      :arg1  (x2 / 裹-01
+            :arg2  (x4 / 毯子
+)            :arg1  (x1 / 巨人
+)            :aspect  (x3 / 着
+))      :arg2  (x8 / 发抖-01
+            :manner  (x7 / 瑟瑟
+)            :arg0  (x1 / 巨人
+)))
+===========================
+他想：“今年的春天为什么这么冷，这么荒凉呀……”
+(x2 / 想-01
+      :arg0  (x1 / 他
+)      :arg1  (x18 / and
+            :op1  (x9 / 冷
+                  :degree  (x8 / 这么
+))            :op2  (x12 / 荒凉
+                  :degree  (x11 / 这么
+))            :mode  (x13 / expressive
+)            :time  (x23 / date-entity
+                  :season  (x6 / 春天
+)                  :time  (x4 / 今年
+))            :cause  (x7 / amr-unknown
+)))
+===========================
+一天早晨，巨人被喧闹声吵醒了。
+(x7 / 吵醒-01
+      :arg1  (x4 / 巨人
+)      :arg0  (x6 / 喧闹声
+)      :aspect  (x8 / 了
+)      :time  (x2 / 早晨
+            :time  (x1 / 一天
+)))
+===========================
+他抬头望去，一缕阳光从窗外射进来。
+(x14 / and
+      :arg0  (x3_x4 / 望-01
+            :manner  (x2 / 抬头-01
+                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+))      :op2  (x11 / 射-02
+            :direction  (x12 / 进来-01
+                  :arg0  (x8 / 阳光
+                        :quant  (x6 / 1
+)                        :cunit  (x7 / 缕
+)))            :arg0  (x8 / 阳光
+)            :source  (x10 / 窗外
+)))
+===========================
+好几个月没见过这么明媚的阳光了。
+(x5 / 见-01
+      :aspect  (x6 / 过
+)      :polarity  (x4 / -
+)      :arg1  (x10 / 阳光
+            :arg0-of  (x8 / 明媚-01
+                  :degree  (x7 / 这么
+)))      :smood  (x11 / 了
+)      :duration  (x22 / temporal-quantity
+            :unit  (x3 / 月
+)            :quant  (x1_2 / 几
+                  :mod  (x1_1 / 好
+))))
+===========================
+巨人激动地跑到花园里，他看到花园里草翠花开，有许多孩子在欢快地游戏，他们大概是从围墙的破损处钻进来的。
+(x35 / temporal
+      :arg1  (x4_x5 / 跑到-01
+            :arg0  (x1 / 巨人
+)            :manner  (x2 / 激动-01
+                  :arg0  (x1 / 巨人
+))            :arg1  (x6_1_2 / 花园
+))      :arg2  (x41 / and
+            :op1  (x9 / 看到-01
+                  :arg0  (x8 / x1
+)                  :arg1  (x44 / and
+                        :op1  (x13 / 开-01
+                              :arg1  (x11_x12 / 草翠花
+)                              :location  (x10_1_2 / x6_1_2
+))                        :op2  (x15 / 有-03
+                              :arg1  (x21 / 游戏-01
+                                    :manner  (x19 / 欢快
+)                                    :aspect  (x18 / 在
+)                                    :arg0  (x17 / 孩子
+                                          :quant  (x16 / 许多
+)))                              :arg0  (x6_1_2 / 花园
+))))            :op2  (x24 / 大概
+                  :arg0  (x31_x32 / 钻-02
+                        :arg0  (x23 / x17
+)                        :source  (x30 / 处
+                              :mod  (x29 / 破损
+)                              :location  (x27 / 围墙
+))                        :mode  (x25_x33 / judgement
+)))))
+===========================
+孩子们的欢笑使花园增添了春意。
+(x7 / 增添-01
+      :aspect  (x8 / 了
+)      :arg0  (x4 / 欢笑
+            :source  (x1_x2 / 孩子们
+))      :arg1  (x9 / 春意
+)      :arg1  (x6 / 花园
+))
+===========================
+可是巨人又发脾气了：“好容易才盼来春天，你们又来胡闹。
+(x18 / contrast
+      :arg2  (x20 / and
+            :op1  (x4 / 发脾气-01
+                  :arg0  (x2 / 巨人
+)                  :mod  (x3 / 又
+)                  :aspect  (x5 / 了
+)                  :arg1  (x13 / 你们
+))            :op2  (x25 / say
+                  :arg1  (x26 / contrast
+                        :arg1  (x10 / 来-01
+                              :manner  (x9 / 盼-01
+                                    :arg1  (x29 / date-entity
+                                          :season  (x11 / 春天
+)))                              :arg1  (x29 / date-entity
+)                              :manner  (x7 / 好容易
+)                              :mod  (x8 / 才
+))                        :arg2  (x15 / 来-05
+                              :mod  (x14 / 又
+)                              :arg0  (x13 / 你们
+)                              :arg1  (x16 / 胡闹-01
+                                    :arg0  (x13 / 你们
+)))))))
+===========================
+滚出去！”
+(x4 / say
+      :arg1  (x1 / 滚
+            :direction  (x2 / 出去
+)            :mod  (x3 / expressive
+)))
+===========================
+孩子们听到可怕的训斥，纷纷逃窜。
+(x11 / causation
+      :arg1  (x3 / 听到-01
+            :arg0  (x1_x2 / 孩子们
+)            :arg1  (x6 / 训斥
+                  :arg0-of  (x4 / 可怕-01
+)))      :arg2  (x9 / 逃窜-01
+            :manner  (x8 / 纷纷
+)            :arg0  (x1_x2 / 孩子们
+)))
+===========================
+与此同时，鲜花凋谢，树叶飘落，花园又被冰雪覆盖了。
+(x16 / and
+      :time  (x1 / 与此同时
+)      :op1  (x4 / 凋谢-01
+            :arg0  (x3 / 鲜花
+))      :op2  (x7 / 飘落-01
+            :arg0  (x6 / 树叶
+))      :op3  (x13 / 覆盖-01
+            :aspect  (x14 / 了
+)            :arg1  (x9 / 花园
+)            :arg0  (x12 / 冰雪
+)            :mod  (x10 / 又
+)))
+===========================
+巨人不解地看看四周，突然发现桃树底下站着个小男孩。
+(x17 / temporal
+      :arg1  (x4 / 看看-01
+            :manner  (x2 / 不解-01
+                  :arg0  (x1 / 巨人
+))            :arg0  (x1 / 巨人
+)            :arg1  (x5 / 四周
+))      :arg2  (x8 / 发现-01
+            :manner  (x7 / 突然
+)            :arg0  (x1 / 巨人
+)            :arg1  (x11 / 站-01
+                  :aspect  (x12 / 着
+)                  :arg0  (x15 / 男孩
+                        :arg0-of  (x14 / 小-01
+)                        :cunit  (x13 / 个
+))                  :arg1  (x10 / 底下
+                        :arg0  (x9 / 桃树
+)))))
+===========================
+“喂！，你赶快滚出去！”巨人大声叱责。
+(x11 / 叱责-01
+      :manner  (x10 / 大声
+)      :arg0  (x9 / 巨人
+)      :arg2  (x17 / and
+            :op1  (x2 / 喂
+                  :mode  (x3 / expressive
+))            :op2  (x6 / 滚-02
+                  :manner  (x5 / 赶快
+)                  :direction  (x7 / 出去-01
+                        :arg0  (x4 / 你
+))                  :arg1  (x4 / 你
+)                  :mode  (x8 / expressive
+))))
+===========================
+小男孩没有拔腿逃跑，却用他那会说话的眼睛凝视着巨人。
+(x19 / contrast
+      :arg1  (x5 / 逃跑-01
+            :manner  (x4 / 拔腿-01
+                  :arg0  (x2 / 男孩
+                        :arg0-of  (x1 / 小-01
+)))            :arg0  (x2 / 男孩
+)            :polarity  (x3 / -
+))      :arg2  (x15 / 凝视-01
+            :arg1  (x17 / 巨人
+)            :aspect  (x16 / 着
+)            :instrument  (x14 / 眼睛
+                  :part-of  (x9 / x2
+)                  :arg0-of  (x11 / 会-01
+                        :arg1  (x12 / 说话-01
+                              :arg0  (x14 / 眼睛
+                                    :mod  (x10 / 那
+)))))            :arg0  (x2 / 男孩
+)))
+===========================
+不知怎么，巨人看着他的眼神，心里感到火辣辣的。
+(x1_2 / 知-01
+      :polarity  (x1_1 / -
+)      :arg1  (x19 / condition
+            :arg1  (x5 / 看-02
+                  :arg0  (x4 / 巨人
+)                  :aspect  (x6 / 着
+)                  :arg1  (x9 / 眼神
+                        :poss  (x7 / 他
+)))            :arg2  (x12 / 感到-01
+                  :arg0  (x11 / 心里
+                        :poss  (x4 / 巨人
+))                  :arg1  (x13_x14 / 火辣辣
+)))      :cause  (x2 / amr-unknown
+))
+===========================
+这个小男孩在树下一伸手，桃树马上绽出绿芽，开出许多美丽的花朵。
+(x23 / condition
+      :arg1  (x8 / 伸手-01
+            :arg0  (x3 / 男孩
+                  :arg0-of  (x2 / 小-01
+)                  :mod  (x1_1 / 这
+)                  :cunit  (x1_2 / 个
+))            :location  (x6 / 下
+                  :arg0  (x5 / 树
+)))      :arg2  (x32 / and
+            :op1  (x12 / 绽出
+                  :arg0  (x10 / 桃树
+)                  :time  (x11 / 马上
+)                  :arg1  (x14 / 芽
+                        :arg1-of  (x13 / 绿-01
+)))            :op2  (x16_x17 / 开出-01
+                  :arg0  (x10 / 桃树
+)                  :arg1  (x21 / 花朵
+                        :arg0-of  (x19 / 美丽-01
+)                        :quant  (x18 / 许多
+)))))
+===========================
+“噢！是这么回事呀！”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x2 / 噢
+                  :mode  (x3 / expressive
+))            :op2  (x6 / 回事
+                  :domain  (x15 / thing
+)                  :mod  (x5 / 这么
+)                  :mode  (x7_x8 / expressive
+))))
+===========================
+巨人终于明白，没有孩子的地方就没有春天。
+(x3 / 明白-01
+      :mod  (x2 / 终于
+)      :arg0  (x1 / 巨人
+)      :arg1  (x17 / condition
+            :arg1  (x8 / 地方
+                  :arg0-of  (x5_2 / 有-03
+                        :polarity  (x5_1 / -
+)                        :arg1  (x6 / 孩子
+)))            :arg2  (x10_2 / 有-03
+                  :polarity  (x10_1 / -
+)                  :arg0  (x8 / 地方
+)                  :arg1  (x24 / date-entity
+                        :season  (x11 / 春天
+)))))
+===========================
+他不禁抱住了那个孩子：“唤来寒冬的，是我那颗任性、冷酷的心啊！
+(x25 / and
+      :op1  (x3_x4 / 抱住-01
+            :aspect  (x5 / 了
+)            :manner  (x2 / 不禁
+)            :arg0  (x1 / 他
+)            :arg1  (x7 / 孩子
+                  :mod  (x6_1 / 那
+)                  :cunit  (x6_2 / 个
+)))      :op2  (x35 / say
+            :arg1  (x21 / 心
+                  :domain  (x37 / thing
+                        :arg0-of  (x9 / 唤来
+                              :arg1  (x10 / 寒冬
+)))                  :arg0-of  (x19 / 冷酷
+)                  :arg0-of  (x17 / 任性-01
+)                  :poss  (x14 / x1
+)                  :mode  (x22_x23 / expressive
+)                  :mod  (x15 / 那
+)                  :cunit  (x16 / 颗
+))))
+===========================
+要不是你提醒，春天将永远被我赶走了。
+(x13 / condition
+      :arg1  (x3 / 提醒-01
+            :arg9  (x2 / 你
+)            :polarity  (x1_2_3 / -
+))      :arg2  (x10 / 赶走-01
+            :arg0  (x9 / 我
+)            :aspect  (x11 / 了
+)            :arg1  (x22 / date-entity
+                  :season  (x5 / 春天
+))            :tense  (x6 / 将
+)            :time  (x7 / 永远
+)))
+===========================
+谢谢你！”
+(x4 / say
+      :arg1  (x1 / 谢谢-01
+            :arg1  (x2 / 你
+)            :mode  (x3 / expressive
+)))
+===========================
+小男孩在巨人宽大的脸颊上亲了一下。
+(x9 / 亲-02
+      :aspect  (x10 / 了
+)      :quant  (x11_1 / 1
+)      :cunit  (x11_2 / 下
+)      :arg0  (x2 / 男孩
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x7 / 脸颊
+            :arg0-of  (x5 / 宽大
+)            :part-of  (x4 / 巨人
+)))
+===========================
+巨人第一次感到温暖和愉快。
+(x4 / 感到-01
+      :ord  (x11 / ordinal-entity
+            :value  (x2 / 1
+)            :unit  (x3 / 次
+))      :arg0  (x1 / 巨人
+)      :arg1  (x6 / and
+            :op1  (x5 / 温暖
+)            :op2  (x7 / 愉快
+)))
+===========================
+于是，他立刻拆除围墙，把花园给了孩子们。
+(x16 / causation
+      :arg2  (x18 / temporal
+            :arg1  (x5 / 拆除-01
+                  :time  (x4 / 立刻
+)                  :arg0  (x3 / 他
+)                  :arg1  (x6 / 围墙
+))            :arg2  (x10 / 给-01
+                  :arg0  (x3 / 他
+)                  :aspect  (x11 / 了
+)                  :arg1  (x9 / 花园
+)                  :arg2  (x12_x13 / 孩子们
+))))
+===========================
+从那以后，巨人的花园又成了孩子们的乐园，孩子们站在巨人的脚下，爬上巨人的肩膀，尽情地玩耍。
+(x34 / and
+      :time  (x3 / 以后
+            :arg0  (x2 / 那
+))      :op1  (x9 / 成-02
+            :aspect  (x10 / 了
+)            :mod  (x8 / 又
+)            :arg0  (x7 / 花园
+                  :poss  (x5 / 巨人
+))            :arg1  (x14 / 乐园
+))      :op2  (x18 / 站-01
+            :arg0  (x16_x17 / x11_x12
+)            :arg1  (x22 / 脚下
+                  :arg0  (x20 / x5
+)))      :op3  (x24 / 爬-01
+            :arg0  (x11_x12 / 孩子
+)            :arg1  (x28 / 肩膀
+                  :part-of  (x26 / x5
+)))      :op4  (x32 / 玩耍-01
+            :manner  (x30 / 尽情
+)            :arg0  (x11_x12 / 孩子
+)))
+===========================
+巨人生活在漂亮的花园和孩子们中间，感到无比的幸福。
+(x17 / and
+      :op1  (x2 / 生活-01
+            :arg0  (x1 / 巨人
+)            :arg1  (x10 / 中间
+                  :arg0  (x7 / and
+                        :op1  (x6 / 花园
+                              :arg0-of  (x4 / 漂亮-01
+))                        :op2  (x8_x9 / 孩子们
+))))      :op2  (x12 / 感到-01
+            :arg0  (x1 / 巨人
+)            :arg1  (x15 / 幸福
+                  :arg0-of  (x13 / 无比-01
+))))
+===========================

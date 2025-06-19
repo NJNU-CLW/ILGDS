@@ -1,0 +1,862 @@
+1998年是居里夫人和她的丈夫发现放射性元素镭一百周年。
+(x17 / temporal-quantity
+      :quant  (x12 / 100
+)      :cunit  (x13 / 周年
+)      :time-of  (x8 / 发现-01
+            :arg0  (x4 / and
+                  :op1  (x22 / person
+                        :name  ( x3/居里夫人 
+))                  :op2  (x7 / 丈夫
+                        :poss  (x5 / x22
+)))            :arg1  (x10 / 元素
+                  :mod  (x9 / 放射性
+)                  :name  ( x11/镭 
+)))      :domain  (x29 / date-entity
+            :year  (x1 / 1998
+)))
+===========================
+一百年前的1898年12月26日，法国科学院人声鼎沸，一位年轻漂亮、神色庄重又略显疲倦的妇人走上讲台，全场立即肃然无声。
+(x32 / temporal
+      :arg1  (x7 / 人声鼎沸-01
+            :arg0  (x35 / organization
+                  :name  ( x6/法国科学院 
+)))      :arg2  (x22_x23 / 走上-01
+            :arg0  (x21 / 妇人
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 位
+)                  :arg0-of  (x11 / 年轻-01
+)                  :arg0-of  (x12 / 漂亮-01
+)                  :arg0-of  (x15 / 庄重-01
+                        :arg0  (x14 / 神色
+))                  :arg0-of  (x18 / 显-01
+                        :arg1  (x19 / 疲倦
+)                        :degree  (x17 / 略
+)))            :arg1  (x24 / 讲台
+))      :arg3  (x28_x29_x30 / 肃然无声
+            :arg0  (x26 / 全场
+)            :time  (x27 / 立即
+))      :time  (x52 / date-entity
+            :month  (x4_3_4 / 12
+)            :day  (x4_5_6 / 26
+)            :year  (x4_1_2 / 1898
+)            :time  (x2_2 / 前
+                  :op1  (x62 / now
+)                  :quant  (x1 / 100
+)                  :unit  (x2_1 / 年
+))))
+===========================
+她叫玛丽·居里，她今天要和她的丈夫皮埃尔·居里一起，在这里宣布一项惊人的发现：天然放射性元素镭。
+(x29 / and
+      :op1  (x2 / 叫-01
+            :arg0  (x1 / 她
+)            :arg1  (x3 / 玛丽·居里
+))      :op2  (x7 / 要-02
+            :arg0  (x17 / 宣布-01
+                  :arg0  (x8 / and
+                        :op1  (x5 / x1
+)                        :op2  (x11 / 丈夫
+                              :poss  (x9 / x1
+)                              :name  ( x12/皮埃尔·居里 
+)))                  :location  (x16 / 这里
+)                  :arg1  (x22 / 发现
+                        :quant  (x18 / 1
+)                        :cunit  (x19 / 项
+)                        :arg0-of  (x20 / 惊人-01
+)                        :arg0-of  (x46 / mean
+                              :arg1  (x26 / 元素
+                                    :mod  (x25 / 放射性
+)                                    :mod  (x24 / 天然
+)                                    :name  ( x27/镭 
+)))))))
+===========================
+本来这场报告，她想让丈夫来做，但皮埃尔·居里坚持让她来讲。
+(x20 / contrast
+      :arg1  (x7 / 想-02
+            :arg1  (x8 / 让-02
+                  :arg1  (x9 / 丈夫
+)                  :arg2  (x11 / 做-01
+                        :arg1  (x4 / 报告
+                              :mod  (x2 / 这
+)                              :cunit  (x3 / 场
+))                        :arg0  (x9 / 丈夫
+)))            :mod  (x1 / 本来
+)            :arg0  (x6 / 她
+))      :arg2  (x15 / 坚持-01
+            :arg0  (x31 / person
+                  :name  ( x14/皮埃尔·居里 
+))            :arg1  (x16 / 让-02
+                  :arg1  (x17 / x6
+)                  :arg2  (x18_2 / 讲-01
+                        :arg0  (x17 / x6
+)))))
+===========================
+在此之前还没有一个女子登上过法国科学院的讲台。
+(x9 / 登上-01
+      :arg0  (x8 / 女子
+            :quant  (x6 / 1
+)            :cunit  (x7 / 个
+))      :polarity  (x5 / -
+            :mod  (x4 / 还
+))      :aspect  (x10 / 过
+)      :arg1  (x13 / 讲台
+            :location  (x24 / organization
+                  :name  ( x11/法国科学院 
+)))      :time  (x3 / 之前
+            :op1  (x2 / 此
+)))
+===========================
+玛丽·居里穿着一袭黑色长裙，白净端庄的脸庞显出坚定又略带淡泊的神情，那双微微内陷的大眼睛，让你觉得能看透一切，看透未来。
+(x44 / and
+      :op1  (x2 / 穿-01
+            :arg0  (x47 / person
+                  :name  ( x1/玛丽·居里 
+))            :aspect  (x3 / 着
+)            :arg1  (x9 / 裙
+                  :arg0-of  (x8 / 长-02
+)                  :arg0-of  (x6_x7 / 黑色
+)                  :quant  (x4 / 1
+)                  :cunit  (x5 / 袭
+)))      :op2  (x15 / 显出-01
+            :arg0  (x14 / 脸庞
+                  :arg0-of  (x12 / 端庄
+)                  :arg0-of  (x11 / 白净-01
+))            :arg1  (x22 / 神情
+                  :arg0-of  (x16 / 坚定-01
+)                  :arg0-of  (x19 / 带-01
+                        :arg1  (x20 / 淡泊
+)                        :degree  (x18 / 略
+))))      :op3  (x33 / 让-02
+            :arg1  (x34 / 你
+)            :arg2  (x35_x36 / 觉得-01
+                  :arg1  (x37 / 能-01
+                        :arg0  (x69 / and
+                              :op1  (x38 / 看透-01
+                                    :arg1  (x39 / 一切
+)                                    :arg0  (x31 / 眼睛
+                                          :arg0-of  (x30 / 大-01
+)                                          :mod  (x24 / 那
+)                                          :unit  (x25 / 双
+)                                          :arg0-of  (x27_x28 / 内陷
+                                                :degree  (x26 / 微微
+))))                              :op2  (x41 / 看透-01
+                                    :arg1  (x42 / 未来
+)                                    :arg0  (x31 / 眼睛
+))))                  :arg0  (x34 / 你
+))            :arg0  (x31 / 眼睛
+)))
+===========================
+她的报告使全场震惊，物理学进入了一个新的时代，而她那美丽、庄重的形象也就从此定格在历史上，定格在每个人的心中。
+(x40 / and
+      :op1  (x6 / 震惊-01
+            :arg1  (x5 / 全场
+)            :arg0  (x3 / 报告
+                  :poss  (x1 / 她
+)))      :op2  (x9 / 进入-01
+            :arg0  (x8 / 物理学
+)            :aspect  (x10 / 了
+)            :arg1  (x15 / 时代
+                  :arg0-of  (x13 / 新-01
+)                  :quant  (x11 / 1
+)                  :cunit  (x12 / 个
+)))      :op3  (x28 / 定格-01
+            :arg1  (x24 / 形象
+                  :arg0-of  (x22 / 庄重-01
+)                  :arg0-of  (x20 / 美丽-01
+)                  :mod  (x19 / 那
+)                  :poss  (x18 / x1
+))            :mod  (x26 / 就
+)            :mod  (x25 / 也
+)            :time  (x27 / 从此
+)            :arg2  (x30 / 历史
+))      :op4  (x33 / 定格-01
+            :arg2  (x38 / 心中
+                  :poss  (x36 / 人
+                        :mod  (x35_1 / 每
+)                        :cunit  (x35_2 / 个
+)))            :arg1  (x24 / 形象
+)))
+===========================
+关于放射性的发现，居里夫人并不是第一人，但她是关键的一人。
+(x21 / contrast
+      :arg1  (x11 / 人
+            :fangmian  (x4 / 发现-01
+                  :arg1  (x2 / 放射性
+))            :ord  (x26 / ordinal-entity
+                  :ord  (x10 / 1
+))            :domain  (x28 / person
+                  :name  ( x6/居里夫人 
+))            :polarity  (x8 / -
+                  :mod  (x7 / 并
+)))      :arg2  (x19 / 人
+            :quant  (x18 / 1
+)            :arg0-of  (x16 / 关键-01
+)            :domain  (x14 / x28
+)))
+===========================
+在她之前，1896年1月，德国科学家伦琴发现了X光，这是人工放射性；1896年5月，法国科学家贝克勒尔发现了天然放射性。
+(x30 / multi-sentence
+      :snt1  (x32 / and
+            :op1  (x10 / 发现-01
+                  :arg0  (x8 / 科学家
+                        :mod  (x36 / country
+                              :name  ( x7/德国 
+))                        :name  ( x9/伦琴 
+))                  :arg1  (x38 / thing
+                        :name  ( x13/光 
+))                  :time  (x40 / date-entity
+                        :year  (x5_1_2 / 1896
+)                        :month  (x5_3_4 / 1
+)                        :time  (x3 / 之前
+                              :op1  (x2 / 她
+)))                  :aspect  (x11 / 了
+))            :op2  (x18 / 放射性
+                  :mod  (x17 / 人工
+)                  :domain  (x15 / x38
+)))      :snt2  (x25 / 发现-01
+            :arg0  (x23 / 科学家
+                  :mod  (x50 / country
+                        :name  ( x22/法国 
+))                  :name  ( x24/贝克勒尔 
+))            :arg1  (x28 / 放射性
+                  :mod  (x27 / 天然
+))            :aspect  (x26 / 了
+)            :time  (x56 / date-entity
+                  :year  (x20_1_2 / 1896
+)                  :month  (x20_3_4 / 5
+))))
+===========================
+尽管这都还是偶然的发现，居里夫人却对此提出了新的思考：其他物质有没有放射性？
+(x24 / contrast
+      :arg1  (x7 / 发现
+            :arg0-of  (x5 / 偶然-01
+)            :domain  (x2 / 这
+)            :mod  (x3 / 都
+))      :arg2  (x13 / 提出-01
+            :arg0  (x31 / person
+                  :name  ( x9/居里夫人 
+))            :fangmian  (x12 / 此
+)            :arg1  (x17 / 思考
+                  :arg0-of  (x15 / 新-01
+)                  :arg1  (x36 / or
+                        :op1  (x21_1 / 有-01
+                              :arg0  (x20 / 物质
+                                    :mod  (x19 / 其他
+))                              :arg1  (x22 / 放射性
+))                        :op2  (x21_3 / 有-01
+                              :polarity  (x21_2 / -
+))                        :mode  (x23 / interrogative
+))                  :arg0  (x31 / person
+))))
+===========================
+就像是在海滩检到一个贝壳，别人也许仅仅是把玩一下而已，可居里夫人却要研究一下这贝壳是怎样生、怎样长、怎样冲到海滩上来的。
+(x43 / contrast
+      :arg1  (x45 / and
+            :op1  (x2 / 像-01
+                  :arg1  (x6_x7 / 捡到-01
+                        :arg1  (x10 / 贝壳
+                              :quant  (x8 / 1
+)                              :cunit  (x9 / 个
+))                        :location  (x5 / 海滩
+))                  :mod  (x1 / 就
+))            :op2  (x13 / 也许
+                  :mod  (x14_x19 / 仅仅而已
+)                  :arg0  (x16_x17 / 把玩-01
+                        :frequency  (x18 / 一下
+)                        :arg0  (x12 / 别人
+))))      :arg2  (x24 / 要-03
+            :arg0  (x25 / 研究-01
+                  :arg1  (x62 / and
+                        :op1  (x31 / 生-02
+                              :arg0  (x28 / 贝壳
+                                    :mod  (x27 / 这
+))                              :manner  (x30 / amr-unknown
+))                        :op2  (x34 / 长-01
+                              :arg1  (x28 / 贝壳
+)                              :manner  (x33 / amr-unknown
+))                        :op3  (x37 / 冲-03
+                              :location  (x39 / 海滩
+)                              :manner  (x36 / amr-unknown
+)                              :arg0  (x28 / 贝壳
+))                        :mode  (x29_x41 / judgement
+))                  :arg0  (x74 / person
+                        :name  ( x22/居里夫人 
+)))))
+===========================
+别人摸瓜她寻藤，别人摘叶她问根。
+(x15 / and
+      :op1  (x17 / contrast
+            :arg1  (x2 / 摸-01
+                  :arg0  (x1 / 别人
+)                  :arg1  (x3 / 瓜
+))            :arg2  (x5 / 寻-01
+                  :arg0  (x4 / 她
+)                  :arg1  (x6 / 藤
+)))      :op2  (x24 / contrast
+            :arg1  (x9 / 摘-01
+                  :arg0  (x8 / 别人
+)                  :arg1  (x10 / 叶
+))            :arg2  (x12 / 问-01
+                  :arg0  (x11 / x4
+)                  :arg1  (x13 / 根
+))))
+===========================
+是她提出了放射性这个词。
+(x3 / 提出-01
+      :arg0  (x2 / 她-01
+)      :aspect  (x4 / 了
+)      :arg1  (x7 / 词
+            :mod  (x6_1 / 这
+)            :cunit  (x6_2 / 个
+)            :arg0-of  (x16 / mean
+                  :arg1  (x5 / 放射性
+))))
+===========================
+两年后，她发现了钋，接着发现了镭。
+(x14 / temporal
+      :arg1  (x5 / 发现-01
+            :arg0  (x4 / 她
+)            :aspect  (x6 / 了
+)            :arg1  (x19 / thing
+                  :name  ( x7/钋 
+))            :time  (x2 / 后
+                  :op1  (x26 / temporal-quantity
+                        :cunit  (x1_2 / 年
+)                        :quant  (x1_1 / 2
+))))      :arg2  (x10 / 发现-01
+            :arg1  (x22 / thing
+                  :name  ( x12/镭 
+))            :aspect  (x11 / 了
+)            :arg0  (x4 / 她
+)))
+===========================
+为了提炼纯净的镭，居里夫妇搞到一吨可能含镭的工业废渣。
+(x9_x10 / 搞-03
+      :arg0  (x8 / 夫妇
+            :arg1  (x18 / 废渣
+                  :mod  (x17 / 工业
+)                  :arg0-of  (x14 / 含-01
+                        :arg1  (x27 / thing
+                              :name  ( x15/镭 
+))                        :arg0-of  (x13 / 可能-01
+))                  :quant  (x30 / mass-quantity
+                        :quant  (x11 / 1
+)                        :unit  (x12 / 吨
+)))            :name  ( x7/居里 
+))      :purpose  (x2 / 提炼-01
+            :arg1  (x35 / thing
+                  :name  ( x5/镭 
+)                  :arg0-of  (x3 / 纯净-01
+))            :arg0  (x8 / 夫妇
+)))
+===========================
+他们在院子里支起了一口大锅，一锅一锅地进行冶炼，然后再送到化验室溶解、沉淀、分析。
+(x31 / temporal
+      :arg1  (x5 / 支
+            :arg0  (x1 / 他们
+)            :arg1  (x11 / 锅
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 口
+)                  :arg0-of  (x10 / 大-01
+))            :aspect  (x7 / 了
+)            :location  (x3 / 院子
+))      :arg2  (x18 / 进行-01
+            :arg1  (x19 / 冶炼
+                  :arg0  (x1 / 他们
+)                  :manner  (x13_x14_x15_x16 / 一锅一锅
+)))      :arg3  (x23 / 送到-01
+            :arg2  (x24 / 化验室
+)            :purpose  (x49 / and
+                  :op1  (x25 / 溶解
+)                  :op2  (x27 / 沉淀
+)                  :op3  (x29 / 分析
+))            :arg0  (x1 / 他们
+)))
+===========================
+化验室只是一个废弃的破棚子，玛丽终日在烟熏火燎中搅拌着锅里的矿渣。
+(x22 / and
+      :op1  (x8 / 棚子
+            :quant  (x3 / 1
+)            :cunit  (x4 / 个
+)            :domain  (x1 / 化验室
+)            :arg1-of  (x7 / 破-02
+)            :arg1-of  (x5 / 废弃
+))      :op2  (x15 / 搅拌-01
+            :arg1  (x20 / 矿渣
+                  :location  (x17 / 锅
+))            :arg0  (x32 / person
+                  :name  ( x10/玛丽 
+))            :condition  (x13 / 烟熏火燎
+)            :aspect  (x16 / 着
+)            :time  (x11 / 终日
+)))
+===========================
+她衣裙上，双手上，留下了酸碱的点点烧痕。
+(x8 / 留下-01
+      :arg1  (x14 / 痕
+            :mod  (x13 / 烧
+)            :quant  (x12 / 点点
+)            :poss  (x10 / 酸碱
+))      :aspect  (x9 / 了
+)      :arg3  (x23 / and
+            :op1  (x2 / 衣裙
+                  :poss  (x1 / 她
+))            :op2  (x5 / 双手
+                  :part-of  (x1 / 她
+))))
+===========================
+一天，疲劳之极的玛丽揉着酸痛的后腰，隔着满桌的试管、量杯问皮埃尔：“你说这镭会是什么样子？”
+(x34 / temporal
+      :arg1  (x8 / 揉-01
+            :arg0  (x37 / person
+                  :arg0-of  (x3 / 疲劳-01
+                        :degree  (x5 / 极
+))                  :name  ( x7/玛丽 
+))            :arg1  (x12 / 后腰
+                  :arg0-of  (x10 / 酸痛-01
+))            :aspect  (x9 / 着
+))      :arg2  (x22 / 问-01
+            :manner  (x14 / 隔-01
+                  :arg1  (x46 / and
+                        :op1  (x19 / 试管
+)                        :op2  (x21 / 量杯
+)                        :mod  (x16_x17 / 满桌
+))                  :aspect  (x15 / 着
+))            :arg1  (x26 / 说-01
+                  :arg0  (x25 / x51
+)                  :arg1  (x29 / 会-02
+                        :arg0  (x32 / 样子
+                              :mod  (x31 / amr-unknown
+)                              :domain  (x60 / thing
+                                    :name  ( x28/镭 
+                                          :mod  (x27 / 这
+))))))            :arg2  (x51 / person
+                  :name  ( x23/皮埃尔 
+))            :arg0  (x37 / person
+))      :time  (x1 / 一天
+))
+===========================
+皮埃尔说：“我只是希望它有美丽的颜色。”
+(x2 / 说-01
+      :arg0  (x15 / person
+            :name  ( x1/皮埃尔 
+))      :arg1  (x6 / 希望-01
+            :arg0  (x4 / x15
+)            :arg1  (x8 / 有-01
+                  :arg0  (x7 / 它
+)                  :arg1  (x11 / 颜色
+                        :arg0-of  (x9 / 美丽-01
+)))            :mod  (x5 / 只是
+)))
+===========================
+经过三年又九个月，他们终于在成吨的矿渣中提炼出了0.1克镭。
+(x16 / 提炼-01
+      :arg0  (x8 / 他们
+)      :arg1  (x26 / thing
+            :name  ( x21/镭 
+)            :quant  (x28 / mass-quantity
+                  :quant  (x19 / 0.1
+)                  :unit  (x20 / 克
+))            :arg0-of  (x32 / include-91
+                  :arg2  (x14 / 矿渣
+                        :quant  (x35 / mass-quantity
+                              :quant  (x11 / 成
+)                              :unit  (x12 / 吨
+)))))      :aspect  (x18 / 了
+)      :mod  (x9 / 终于
+)      :duration  (x40 / and
+            :op1  (x41 / temporal-quantity
+                  :quant  (x2_1 / 3
+)                  :unit  (x2_2 / 年
+))            :op2  (x44 / temporal-quantity
+                  :quant  (x4_x5 / 9
+)                  :unit  (x6 / 月
+))))
+===========================
+它真的有极美丽的颜色，在幽暗的破木棚里发出略带蓝色的荧光。
+(x23 / and
+      :op1  (x4 / 有-05
+            :arg0  (x1 / 它
+)            :mod  (x2_x3 / 真的
+)            :arg1  (x8 / 颜色
+                  :arg0-of  (x6 / 美丽-01
+                        :degree  (x5 / 极
+))))      :op2  (x16 / 发出-02
+            :arg1  (x21 / 荧光
+                  :arg0-of  (x18 / 带-01
+                        :degree  (x17 / 略
+)                        :arg1  (x19 / 蓝色
+)))            :location  (x14 / 木棚
+                  :arg1-of  (x13 / 破-02
+)                  :arg0-of  (x11 / 幽暗
+))            :arg0  (x1 / 它
+)))
+===========================
+这点美丽的淡蓝色的荧光，融入了一个女子美丽的生命和不屈的信念。
+(x10 / 融入-01
+      :arg0  (x8 / 荧光
+            :arg0-of  (x6 / 蓝色
+                  :degree  (x5 / 淡
+))            :arg0-of  (x3 / 美丽-01
+)            :mod  (x1 / 这
+)            :quant  (x2 / 点
+))      :arg1  (x18 / and
+            :op1  (x17 / 生命
+                  :arg0-of  (x15 / 美丽-01
+)                  :poss  (x14 / 女子
+                        :quant  (x12 / 1
+)                        :cunit  (x13 / 个
+)))            :op2  (x21 / 信念
+                  :arg0-of  (x19 / 不屈
+)))      :aspect  (x11 / 了
+))
+===========================
+玛丽的性格里天生有一种更可贵的东西，她坚定、刚毅、顽强，有远大、执著的追求。
+(x28 / causation
+      :arg1  (x6 / 有-05
+            :arg0  (x3 / 性格
+                  :poss  (x33 / person
+                        :name  ( x1/玛丽 
+)))            :manner  (x5 / 天生
+)            :arg1  (x12 / 东西
+                  :arg0-of  (x10 / 可贵-01
+                        :degree  (x9 / 更
+))                  :quant  (x7 / 1
+)                  :unit  (x8 / 种
+)))      :arg2  (x40 / and
+            :op1  (x15 / 坚定-01
+                  :arg0  (x14 / x33
+))            :op2  (x17 / 刚毅-01
+                  :arg0  (x14 / x33
+))            :op3  (x19 / 顽强-01
+                  :arg0  (x14 / x33
+))            :op4  (x21 / 有-01
+                  :arg1  (x26 / 追求
+                        :arg0-of  (x24 / 执著
+)                        :arg0-of  (x22 / 远大-01
+))                  :arg0  (x14 / x33
+))))
+===========================
+这种可贵的性格与高远的追求，使玛丽·居里几乎在完成这项伟大自然发现的同时，也完成了对人生意义的发现。
+(x31 / and
+      :op1  (x14 / 完成-01
+            :arg0  (x34 / person
+                  :name  ( x11/玛丽·居里 
+))            :arg1  (x18 / 发现
+                  :mod  (x17 / 自然
+)                  :arg0-of  (x16 / 伟大-01
+)                  :mod  (x15_1 / 这
+)                  :cunit  (x15_2 / 项
+))            :mod  (x12 / 几乎
+))      :op2  (x23 / 完成-01
+            :arg1  (x29 / 发现-01
+                  :arg1  (x27 / 意义
+                        :mod  (x26 / 人生
+)))            :aspect  (x22 / 也
+)            :arg0  (x34 / person
+))      :cause  (x5 / and
+            :op1  (x4 / 性格
+                  :arg0-of  (x2 / 可贵-01
+))            :op2  (x8 / 追求
+                  :arg0-of  (x6 / 高远
+))            :mod  (x1_1 / 这
+)            :unit  (x1_2 / 种
+)))
+===========================
+在发现镭之后的不断研究中，居里夫人也在不停地变化着。
+(x16 / 变化-01
+      :arg0  (x21 / person
+            :name  ( x10/居里夫人 
+))      :aspect  (x12 / 在
+)      :aspect  (x17 / 着
+)      :manner  (x13_x14 / 不停
+)      :mod  (x11 / 也
+)      :condition  (x7 / 研究-01
+            :mod  (x6 / 不断
+)            :time  (x4 / 之后-01
+                  :arg0  (x2 / 发现-01
+                        :arg1  (x31 / thing
+                              :name  ( x3/镭 
+))                        :arg0  (x21 / person
+)))            :arg0  (x21 / person
+)))
+===========================
+在工作卓有成效的同时，镭射线也在无声地侵蚀着她的肌体。
+(x20 / and
+      :op1  (x3 / 卓有成效-01
+            :arg0  (x2 / 工作
+))      :op2  (x14 / 侵蚀-01
+            :arg0  (x8 / 射线
+                  :mod  (x7 / 镭
+))            :aspect  (x10 / 在
+)            :manner  (x11_x12 / 无声
+)            :arg1  (x18 / 肌体
+                  :part-of  (x16 / 她-01
+))            :aspect  (x15 / 着
+)))
+===========================
+她美丽健康的容貌在悄悄地隐退，逐渐变得眼花耳鸣，浑身乏力。
+(x23 / temporal
+      :arg1  (x9 / 隐退-01
+            :arg0  (x5 / 容貌
+                  :arg0-of  (x3 / 健康-01
+)                  :arg0-of  (x2 / 美丽-01
+)                  :part-of  (x1 / 她
+))            :manner  (x7 / 悄悄
+)            :aspect  (x6 / 在
+))      :arg2  (x12_x13 / 变得-01
+            :manner  (x11 / 逐渐
+)            :arg1  (x34 / and
+                  :op2  (x16_x17 / 耳鸣-01
+                        :arg0  (x1 / 她
+))                  :op3  (x20_x21 / 乏力
+                        :arg0  (x19 / 浑身
+))                  :op1  (x14_x15 / 眼花-01
+                        :arg0  (x1 / 她
+)))            :arg0  (x1 / 她
+)))
+===========================
+皮埃尔不幸早逝，社会对女性的歧视，更加重了她生活和思想上的负担。
+(x23 / progression
+      :arg1  (x4 / 逝-01
+            :time  (x3 / 早
+)            :mod  (x2 / 不幸
+)            :arg0  (x28 / person
+                  :name  ( x1/皮埃尔 
+)))      :arg2  (x13 / 加重-01
+            :arg0  (x10 / 歧视-01
+                  :arg0  (x6 / 社会
+)                  :arg1  (x8 / 女性
+))            :arg1  (x21 / 负担-01
+                  :fangmian  (x17 / and
+                        :op1  (x16 / 生活
+)                        :op2  (x18 / 思想
+))                  :poss  (x15 / x28
+))            :aspect  (x14 / 了
+)))
+===========================
+但她什么也不管，只是默默地工作。
+(x13 / contrast
+      :arg2  (x15 / and
+            :op1  (x6 / 管-01
+                  :arg0  (x2 / 她
+)                  :arg1  (x3 / 什么
+)                  :polarity  (x5 / -
+)                  :mod  (x4 / 也
+))            :op2  (x11 / 工作-01
+                  :manner  (x9 / 默默
+)                  :mod  (x8 / 只是
+)                  :arg0  (x2 / 她
+))))
+===========================
+她从一个漂亮的小姑娘，一个端庄坚毅的女学者，变成科学教科书里的新名词“放射线”，变成物理学的一个新的计量单位“居里”，变成一条条科学定律，她变成了科学史上一块永远的里程碑。
+(x57 / and
+      :op1  (x18 / 变成-01
+            :arg1  (x1 / 她
+)            :arg3  (x61 / and
+                  :op1  (x8 / 姑娘
+                        :arg0-of  (x7 / 小-01
+)                        :arg0-of  (x5 / 漂亮-01
+)                        :quant  (x3 / 1
+)                        :cunit  (x4 / 个
+))                  :op2  (x16 / 学者
+                        :mod  (x15 / 女
+)                        :arg0-of  (x13 / 坚毅-01
+)                        :arg0-of  (x12 / 端庄
+)                        :quant  (x10 / 1
+)                        :cunit  (x11 / 个
+)))            :arg2  (x24 / 名词
+                  :arg0-of  (x23 / 新-01
+)                  :arg0-of  (x75 / mean
+                        :arg1  (x26 / 放射线
+))                  :location  (x20 / 教科书
+                        :topic  (x19 / 科学
+))))      :op2  (x28 / 变成-01
+            :arg2  (x36 / 单位
+                  :mod  (x35 / 计量
+)                  :arg0-of  (x33 / 新-01
+)                  :quant  (x31 / 1
+)                  :cunit  (x32 / 个
+)                  :poss  (x29 / 物理学
+)                  :arg0-of  (x98 / mean
+                        :arg1  (x38 / 居里
+)))            :arg1  (x1 / 她
+))      :op3  (x40 / 变成-01
+            :arg2  (x44 / 定律
+                  :mod  (x43 / 科学
+)                  :quant  (x41_x42 / 一条条
+))            :arg1  (x1 / 她
+))      :op4  (x47 / 变成-01
+            :arg1  (x46 / x1
+)            :aspect  (x48 / 了
+)            :arg2  (x55 / 里程碑
+                  :arg0-of  (x53 / 永远-01
+)                  :quant  (x51 / 1
+)                  :cunit  (x52 / 块
+)                  :location  (x49 / 科学史
+))            :arg1  (x1 / 她
+)))
+===========================
+居里夫人的美名，从她发现镭那一刻起就流传于世，迄今已经百年。
+(x19 / and
+      :op1  (x13 / 流传于世
+            :arg0  (x3 / 美名
+                  :poss  (x23 / person
+                        :name  ( x1/居里夫人 
+)))            :mod  (x12 / 就
+)            :time  (x10 / 一刻
+                  :mod  (x9 / 那
+)                  :arg0-of  (x31 / mean
+                        :arg1  (x7 / 发现-01
+                              :arg0  (x6 / x23
+)                              :arg1  (x27 / thing
+                                    :name  ( x8/镭 
+))))))      :op2  (x15 / 迄今
+            :duration  (x35 / temporal-quantity
+                  :quant  (x17_1 / 百
+)                  :unit  (x17_2 / 年
+))            :aspect  (x16 / 已经
+)))
+===========================
+这是她用全部的青春、信念和生命换来的荣誉。
+(x15 / 荣誉
+      :arg1-of  (x12_x13 / 换来-01
+            :arg0  (x3 / 她
+)            :arg2  (x21 / and
+                  :op1  (x7 / 青春
+)                  :op2  (x9 / 信念
+)                  :op3  (x11 / 生命
+)                  :extent  (x5 / 全部
+)))      :domain  (x1 / 这
+))
+===========================
+她一生共得了10项奖金、16种奖章、107个名誉头衔，特别是获得了两次诺贝尔奖。
+(x28 / and
+      :op1  (x4 / 得-01
+            :extent  (x3 / 共
+)            :time  (x2 / 一生
+)            :arg0  (x1 / 她
+)            :aspect  (x5 / 了
+)            :arg1  (x35 / and
+                  :op1  (x8 / 奖金
+                        :quant  (x6 / 10
+)                        :cunit  (x7 / 项
+))                  :op2  (x12 / 奖章
+                        :quant  (x10 / 16
+)                        :unit  (x11 / 种
+))                  :op3  (x17 / 头衔
+                        :mod  (x16 / 名誉
+)                        :quant  (x14 / 107
+)                        :cunit  (x15 / 个
+))))      :op2  (x21_x22 / 获得-01
+            :arg1  (x26 / 诺贝尔奖
+)            :arg1-of  (x50 / have-frequency-91
+                  :arg2  (x24 / 2
+))            :mod  (x19 / 特别
+)            :aspect  (x23 / 了
+)            :arg0  (x1 / 她
+)))
+===========================
+她本来可以躺在任何一项大奖或任何一个荣誉上尽情地享受，但是，她视名利如粪土，她将奖金捐赠给科研事业和战争中的法国，而将那些奖章送给6岁的小女儿当玩具。
+(x51 / contrast
+      :arg1  (x3 / 可以-01
+            :arg0  (x18 / 享受-01
+                  :manner  (x16 / 尽情
+)                  :manner  (x4_x5 / 躺在-01
+                        :arg1  (x10 / or
+                              :op1  (x9 / 大奖
+                                    :quant  (x7 / 1
+)                                    :cunit  (x8 / 项
+)                                    :mod  (x6 / 任何
+))                              :op2  (x14 / 荣誉
+                                    :quant  (x12 / 1
+)                                    :cunit  (x13 / 个
+)                                    :mod  (x11 / 任何
+)))                        :arg0  (x1 / 她
+))                  :arg0  (x1 / 她
+))            :mod  (x2 / 本来
+))      :arg2  (x69 / and
+            :op1  (x23 / 视名利如粪土
+                  :arg0  (x22 / x1
+))            :op2  (x28 / 捐赠-01
+                  :arg0  (x25 / x1
+)                  :arg1  (x27 / 奖金
+)                  :arg2  (x32 / and
+                        :op1  (x31 / 事业
+                              :mod  (x30 / 科研
+))                        :op2  (x78 / country
+                              :name  ( x36/法国 
+)                              :mod  (x33 / 战争
+))))            :op3  (x42 / 送给-01
+                  :arg1  (x41 / 奖章
+                        :mod  (x40 / 那些
+))                  :arg2  (x47 / 女儿
+                        :arg0-of  (x46 / 小-01
+)                        :age  (x86 / temporal-quantity
+                              :quant  (x43 / 6
+)                              :unit  (x44 / 岁
+)))                  :purpose  (x48 / 当-05
+                        :arg1  (x49 / 玩具
+))                  :arg0  (x22 / x1
+))))
+===========================
+她一如既往，埋头工作到67岁离开人世，离开心爱的实验室。
+(x17 / condtion
+      :arg1  (x19 / and
+            :op1  (x2 / 一如既往-01
+                  :arg0  (x1 / 她
+))            :op2  (x5 / 工作-01
+                  :arg0  (x1 / 她
+)                  :manner  (x4 / 埋头-01
+                        :arg0  (x1 / 她
+)))            :time  (x6 / 到
+                  :arg1  (x26 / person
+                        :age  (x27 / temporal-quantity
+                              :quant  (x7 / 67
+)                              :unit  (x8 / 岁
+)))))      :arg2  (x30 / and
+            :op1  (x9 / 离开-01
+                  :arg1  (x10 / 人世
+)                  :arg0  (x1 / 她
+))            :op2  (x12 / 离开-01
+                  :arg1  (x15 / 实验室
+                        :arg1-of  (x13 / 心爱-01
+))                  :arg0  (x1 / 她
+))))
+===========================
+直到她身后40年，她用过的笔记本里，还有射线在不停地释放。
+(x19 / 释放-01
+      :arg1  (x14 / 射线
+            :mod  (x13 / 还有
+))      :manner  (x16_x17 / 不停
+)      :aspect  (x15 / 在
+)      :arg0  (x10 / 笔记本
+            :arg1-of  (x7 / 用-01
+                  :aspect  (x8 / 过
+)                  :arg0  (x6 / 她
+)))      :time  (x1 / 直到-01
+            :arg0  (x3 / 身后
+                  :op1  (x33 / temporal-quantity
+                        :quant  (x4_1 / 40
+)                        :unit  (x4_2 / 年
+))                  :arg0  (x2 / x6
+))))
+===========================
+著名科学家爱因斯坦说过：“在所有的世界著名人物中，玛丽·居里是唯一没有被盛名宠坏的人。”
+(x4 / 说-01
+      :arg0  (x2 / 科学家
+            :arg0-of  (x1 / 著名
+)            :name  ( x3/爱因斯坦 
+))      :aspect  (x5 / 过
+)      :arg1  (x23 / 人
+            :arg1-of  (x21 / 宠坏-01
+                  :arg0  (x20 / 盛名
+)                  :polarity  (x18 / -
+))            :mod  (x17 / 唯一
+)            :domain  (x36 / person
+                  :name  ( x15/玛丽·居里 
+))            :range  (x12 / 人物
+                  :arg0-of  (x11 / 著名-01
+)                  :mod  (x10 / 世界
+)                  :extent  (x8 / 所有
+))))
+===========================

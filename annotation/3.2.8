@@ -1,0 +1,227 @@
+山谷中，早先有过一个美丽的小村庄。
+(x5 / 有-03
+      :time  (x4 / 早先
+)      :arg0  (x1 / 山谷
+)      :arg1  (x12 / 村庄
+            :arg0-of  (x11 / 小-01
+)            :arg0-of  (x9 / 美丽-01
+)            :quant  (x7 / 1
+)            :cunit  (x8 / 个
+))      :aspect  (x6 / 过
+))
+===========================
+山上的森林郁郁葱葱，村前河水清澈见底，天空湛蓝深远，空气清新甜润。
+(x19 / and
+      :op1  (x4 / 郁郁葱葱
+            :arg0  (x3 / 森林
+                  :location  (x1_1 / 山
+)))      :op3  (x29 / and
+            :op1  (x12 / 湛蓝-01
+                  :arg0  (x11 / 天空
+))            :op2  (x13 / 深远-01
+                  :arg0  (x11 / 天空
+)))      :op4  (x33 / and
+            :op1  (x16 / 清新-01
+                  :arg0  (x15 / 空气
+))            :op2  (x17 / 甜润
+                  :arg0  (x15 / 空气
+)))      :op2  (x9_1_2 / 清澈-01
+            :arg0  (x8 / 河水
+                  :location  (x7 / 前
+                        :arg0  (x6 / 村
+)))            :degree  (x9_3_4 / 见底
+)))
+===========================
+村里住着几十户人家。
+(x2 / 住-01
+      :aspect  (x3 / 着
+)      :arg0  (x6 / 人家
+            :cunit  (x5 / 户
+)            :quant  (x4_1 / 几
+                  :op1  (x4_2 / 10
+)))      :arg1  (x1_1 / 村
+))
+===========================
+不知从什么时候起，家家有了锋利的斧头。
+(x8 / 有-01
+      :time  (x5 / 起
+            :arg0  (x3_x4 / amr-unknown
+                  :arg1-of  (x1_2 / 知-01
+                        :polarity  (x1_1 / -
+))))      :arg0  (x7 / 家家
+)      :arg1  (x12 / 斧头
+            :arg0-of  (x10 / 锋利-01
+))      :aspect  (x9 / 了
+))
+===========================
+谁家想盖房，谁家想造犁，就拎起斧头到山上去，把树木一棵一棵砍下来。
+(x27 / condition
+      :arg1  (x29 / or
+            :op1  (x2 / 想-02
+                  :arg1  (x3 / 盖房
+)                  :arg0  (x1_2 / 家
+                        :poss  (x1_1 / 谁
+)))            :op2  (x6 / 想-02
+                  :arg1  (x7 / 造-01
+                        :arg1  (x8 / 犁
+))                  :arg0  (x5_2 / 家
+                        :poss  (x5_1 / 谁
+))))      :arg2  (x39 / temporal
+            :arg1  (x14 / 到-01
+                  :manner  (x11_x12 / 拎-01
+                        :arg1  (x13 / 斧头
+))                  :arg1  (x15 / 山上
+))            :arg2  (x24 / 砍-01
+                  :arg1  (x19 / 树木
+)                  :direction  (x25 / 下来
+)                  :manner  (x20_x21_x22_x23 / 一棵一棵
+))))
+===========================
+就这样，山坡上出现了裸露的土地。
+(x12 / temporal
+      :arg1  (x2 / 这样
+            :mod  (x1 / 就
+))      :arg2  (x6 / 出现-01
+            :aspect  (x7 / 了
+)            :arg0  (x5 / 上
+                  :arg0  (x4 / 山坡
+))            :arg1  (x10 / 土地
+                  :arg1-of  (x8 / 裸露-01
+))))
+===========================
+一年年，一代代，山坡上的树木不断减少，裸露的土地不断扩大……
+(x24 / causation
+      :arg1  (x14 / 减少-01
+            :arg1  (x12 / 树木
+                  :location  (x10 / 上
+                        :arg0  (x9 / 山坡
+)))            :manner  (x13 / 不断
+))      :arg2  (x20 / 扩大-01
+            :arg1  (x18 / 土地
+                  :arg0-of  (x16 / 裸露-01
+))            :manner  (x19 / 不断
+))      :duration  (x1_x2_x3 / 一年年
+            :duration  (x5_x6_x7 / 一代代
+)))
+===========================
+树木变成了一栋栋房子，变成了各式各样的工具，变成了应有尽有的家具，还有大量的树木随着屋顶冒出的柴烟消失在天空了。
+(x37 / progression
+      :arg1  (x39 / and
+            :op1  (x2 / 变成-01
+                  :aspect  (x3 / 了
+)                  :arg1  (x1 / 树木
+)                  :arg2  (x7 / 房子
+                        :quant  (x4_x5_x6 / 一栋栋
+)))            :op2  (x9 / 变成-01
+                  :arg1  (x1 / 树木
+)                  :arg2  (x13 / 工具
+                        :arg0-of  (x11 / 各式各样-01
+))                  :aspect  (x10 / 了
+))            :op3  (x15 / 变成-01
+                  :arg1  (x1 / 树木
+)                  :aspect  (x16 / 了
+)                  :arg2  (x19 / 家具
+                        :arg0-of  (x17 / 应有尽有-01
+))))      :arg2  (x32 / 消失-01
+            :arg0  (x24 / 树木
+                  :quant  (x22 / 大量
+))            :accompanier  (x31 / 烟
+                  :mod  (x30 / 柴
+)                  :arg0-of  (x27_x28 / 冒出-01
+                        :arg1  (x26 / 屋顶
+)))            :location  (x34 / 天空
+)            :aspect  (x35 / 了
+)))
+===========================
+不管怎样，家家户户靠着锋利的斧头，日子过得还都不错。
+(x17 / contrast
+      :arg1  (x1_1_2 / 不管-01
+            :arg1  (x1_3_4 / amr-unknown
+))      :arg2  (x11 / 过-02
+            :arg0  (x3 / 家家户户
+)            :manner  (x4 / 靠-01
+                  :arg0  (x3 / 家家户户
+)                  :aspect  (x5 / 着
+)                  :arg1  (x8 / 斧头
+                        :arg0-of  (x6 / 锋利-01
+)))            :arg1  (x10 / 日子
+                  :extent  (x14 / 都
+))            :arg0-of  (x15 / 不错-01
+                  :mod  (x13 / 还
+))))
+===========================
+然而，不知过了多少年，多少代，在一个雨水奇多的八月，大雨没喘气儿，一连下了五天五夜，到第六天黎明，雨才停下来。
+(x43 / contrast
+      :arg2  (x45 / and
+            :op1  (x3_2 / 知-01
+                  :polarity  (x3_1 / -
+)                  :arg1  (x4 / 过-02
+                        :aspect  (x5 / 了
+)                        :arg1  (x51 / and
+                              :op1  (x52 / temporal-quantity
+                                    :unit  (x7 / 年
+)                                    :quant  (x6 / amr-unknown
+))                              :op2  (x53 / tamporal-quantity
+                                    :cunit  (x10 / 代
+)                                    :quant  (x9 / amr-unknown
+)))))            :op2  (x58 / temporal
+                  :arg1  (x59 / and
+                        :op1  (x23 / 喘气儿
+                              :polarity  (x22 / -
+)                              :arg0  (x21 / 大雨
+))                        :op2  (x26 / 下-05
+                              :arg0  (x21 / 大雨
+)                              :manner  (x25 / 一连
+)                              :aspect  (x27 / 了
+)                              :duration  (x73 / and
+                                    :op1  (x74 / temporal-quantity
+                                          :quant  (x28 / 5
+)                                          :unit  (x29 / 天
+))                                    :op2  (x77 / temporal-quantity
+                                          :unit  (x31 / 夜
+)                                          :quant  (x30 / 5
+)))))                  :time  (x66 / date-entity
+                        :month  (x19_1 / 8
+)                        :mod  (x17 / 多-03
+                              :arg0  (x15 / 雨水
+)                              :degree  (x16 / 奇
+))                        :quant  (x13 / 1
+)                        :cunit  (x14 / 个
+))                  :arg2  (x40_x41 / 停-01
+                        :mod  (x39 / 才
+)                        :arg1  (x38 / 雨
+)                        :time  (x36 / 黎明
+                              :time  (x84 / ordinal-entity
+                                    :value  (x34 / 6
+)                                    :unit  (x35 / 天
+)))))))
+===========================
+可是，小村庄，却被咆哮的洪水不知卷到何处。
+(x16 / contrast
+      :arg2  (x11_2 / 知-01
+            :arg1  (x12 / 卷
+                  :arg0  (x10 / 洪水
+                        :arg0-of  (x8 / 咆哮-01
+))                  :destination  (x14 / amr-unknown
+)                  :arg1  (x4 / 村庄
+                        :arg0-of  (x3 / 小-01
+)))            :polarity  (x11_1 / -
+)))
+===========================
+什么都没有了---所有靠斧头得到的一切，包括那些锋利的斧头。
+(x3_2 / 有-01
+      :arg1  (x1 / 什么
+            :extent  (x2 / 都
+)            :arg0-of  (x27 / mean
+                  :arg1  (x11 / 一切
+                        :arg1-of  (x9 / 得到-01
+                              :instrument  (x8 / 斧头
+))                        :extent  (x6 / 所有
+)                        :arg2-of  (x35 / include
+                              :arg1  (x17 / 斧头
+                                    :arg0-of  (x15 / 锋利-01
+)                                    :mod  (x14 / 那些
+))))))      :polarity  (x3_1 / -
+)      :aspect  (x4 / 了
+))
+===========================

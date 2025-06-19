@@ -1,0 +1,357 @@
+听说蜜蜂有辨认方向的能力，无论飞到哪里，它总是可以回到原处。
+(x1 / 听说-01
+      :arg1  (x22 / and
+            :op1  (x3 / 有-01
+                  :arg0  (x2 / 蜜蜂
+)                  :arg1  (x7 / 能力
+                        :arg0-of  (x26 / mean
+                              :arg1  (x4 / 辨认-01
+                                    :arg1  (x5 / 方向
+)))))            :op2  (x29 / condition
+                  :arg1  (x10_x11 / 飞到-01
+                        :arg0  (x2 / 蜜蜂
+)                        :arg1  (x12 / 哪里
+))                  :arg2  (x16 / 可以-03
+                        :mod  (x15 / 总是
+)                        :arg1  (x17 / 回到-01
+                              :arg0  (x2 / 蜜蜂
+)                              :arg1  (x18 / 原处
+))                        :arg0  (x14 / x2
+)))))
+===========================
+我想做个试验。
+(x2 / 想-01
+      :arg0  (x1 / 我
+)      :arg1  (x3 / 做-01
+            :arg1  (x5 / 试验
+                  :cunit  (x4 / 个
+))))
+===========================
+一天，我在我家花园的蜂窝里捉了一些蜜蜂，把它们放在纸袋里。
+(x24 / temporal
+      :arg1  (x10 / 捉-01
+            :aspect  (x11 / 了
+)            :arg0  (x3 / 我
+)            :location  (x8 / 蜂窝
+                  :location  (x6 / 花园
+                        :poss  (x5_2 / 家
+                              :poss  (x5_1 / x3
+))))            :arg1  (x13 / 蜜蜂
+                  :quant  (x12 / 一些
+)))      :time  (x1 / 一天
+)      :arg2  (x17 / 放-01
+            :arg0  (x3 / 我
+)            :arg1  (x16 / x13
+)            :arg2  (x19 / 纸袋
+)))
+===========================
+为了证实飞回花园的蜜蜂是我放飞的，我在它们的背上做了白色的记号。
+(x19 / 做-05
+      :aspect  (x20 / 了
+)      :arg0  (x13 / 我
+)      :location  (x18 / 上
+            :arg0  (x17 / 背-01
+                  :part-of  (x15 / 它们
+)))      :arg1  (x23 / 记号
+            :arg0-of  (x21 / 白色
+))      :purpose  (x2 / 证实-01
+            :arg1  (x10 / 放飞-01
+                  :arg0  (x9 / x13
+                        :mode  (x8_x11 / judgement
+))                  :arg1  (x7 / 蜜蜂
+                        :arg0-of  (x3_x4 / 飞回-01
+                              :arg1  (x5 / 花园
+))))))
+===========================
+然后，我叫小女儿在蜂窝旁等着，自己带着做了记号的二十只蜜蜂，走了两里多路，打开纸袋，把它们放出来。
+(x39 / temporal
+      :arg2  (x4 / 叫-04
+            :arg0  (x3 / 我
+)            :arg1  (x6 / 女儿
+                  :arg0-of  (x5 / 小
+))            :arg2  (x10 / 等-01
+                  :aspect  (x11 / 着
+)                  :location  (x9 / 旁
+                        :arg0  (x8 / 蜂窝
+))                  :arg0  (x6 / 女儿
+)))      :arg3  (x14 / 带-01
+            :aspect  (x15 / 着
+)            :arg0  (x13 / x3
+)            :arg1  (x22 / 蜜蜂
+                  :cunit  (x21 / 只
+)                  :quant  (x20 / 20
+)                  :mod  (x16 / 做
+                        :arg1  (x18 / 记号
+)                        :aspect  (x17 / 了
+))))      :arg4  (x24 / 走-01
+            :aspect  (x25 / 了
+)            :arg1  (x29 / 路
+                  :quant  (x62 / distance-quantity
+                        :quant  (x28 / 多
+                              :op1  (x26 / 两
+))                        :unit  (x27 / 里
+)))            :arg0  (x3 / 我
+))      :arg5  (x31 / 打开-01
+            :arg0  (x3 / 我
+)            :arg1  (x32 / 纸袋
+))      :arg6  (x36 / 放-02
+            :cause-of  (x37 / 出来-01
+                  :arg0  (x35 / x22
+))            :arg0  (x3 / 我
+)            :arg1  (x35 / x22
+)))
+===========================
+那些被闷了好久的蜜蜂向四面飞散，好像在寻找回家的方向。
+(x24 / and
+      :op1  (x10 / 飞-01
+            :direction  (x9 / 四面
+)            :arg0  (x7 / 蜜蜂
+                  :mod  (x1 / 那些
+)                  :arg1-of  (x3 / 闷-02
+                        :aspect  (x4 / 了
+)                        :duration  (x5 / 好久
+)                        :arg0  (x7 / 蜜蜂
+)))            :cause-of  (x11 / 散-02
+                  :arg0  (x7 / 蜜蜂
+)))      :op2  (x13 / 好像-01
+            :arg0  (x15 / 寻找-01
+                  :aspect  (x14 / 在
+)                  :arg0  (x7 / 蜜蜂
+)                  :arg1  (x18 / 方向
+                        :mod  (x16 / 回家
+)))))
+===========================
+这时候起风了，蜜蜂飞得很低，几乎要触到地面，大概这样可以减少阻力。
+(x24 / temporal
+      :arg1  (x2_x3 / 起风
+            :aspect  (x4 / 了
+)            :time  (x1 / 这时候
+))      :arg2  (x29 / and
+            :op1  (x7 / 飞-01
+                  :manner  (x10 / 低-01
+                        :degree  (x9 / 很
+)                        :arg0  (x6 / 蜜蜂
+))                  :arg0  (x6 / 蜜蜂
+))            :op2  (x13 / 要-03
+                  :arg0  (x14 / 触-01
+                        :arg0  (x6 / 蜜蜂
+)                        :arg1  (x16 / 地面
+))                  :manner  (x12 / 几乎
+))            :op3  (x18 / 大概
+                  :arg0  (x20 / 可以-01
+                        :arg0  (x21 / 减少-01
+                              :arg1  (x22 / 阻力
+)                              :arg0  (x19 / x7
+))))))
+===========================
+我想，它们飞得这么低，怎么能看到遥远的家呢？
+(x2 / 想-01
+      :arg0  (x1 / 我
+)      :arg1  (x21 / condition
+            :arg1  (x5 / 飞-01
+                  :cause-of  (x8 / 低-01
+                        :arg0  (x4 / 它们
+)                        :degree  (x7 / 这么
+))                  :arg0  (x4 / 它们
+))            :arg2  (x11 / 能-01
+                  :arg0  (x12 / 看到-01
+                        :arg1  (x15 / 家
+                              :arg0-of  (x13 / 遥远-01
+)))                  :cause  (x10 / amr-unknown
+)                  :mode  (x16_x17 / interrogative
+))))
+===========================
+在回家的路上，我推测蜜蜂可能找不到家了。
+(x7 / 推测-01
+      :arg0  (x6 / 我
+)      :location  (x4 / 路上
+            :mod  (x2 / 回家-01
+))      :arg1  (x9 / 可能-01
+            :arg0  (x22 / possible
+                  :arg0  (x10_x12 / 找到-01
+                        :arg1  (x13 / 家
+)                        :arg0  (x8 / 蜜蜂
+))                  :polarity  (x11 / -
+))            :smood  (x14 / 了
+)))
+===========================
+没等我跨进家门，小女儿就冲过来，脸红红的，看上去很激动。
+(x21 / and
+      :op1  (x23 / condition
+            :arg1  (x2 / 等-01
+                  :polarity  (x1 / -
+)                  :arg1  (x4_x5 / 跨进-01
+                        :arg1  (x6 / 家门
+))                  :arg0  (x9 / 女儿
+                        :arg0-of  (x8 / 小-01
+)))            :arg2  (x11 / 冲-01
+                  :direction  (x12 / 过来-01
+                        :arg0  (x9 / 女儿
+))                  :arg0  (x9 / 女儿
+)))      :op2  (x15 / 红-01
+            :arg0  (x14 / 脸
+                  :part-of  (x9 / 女儿
+)))      :op3  (x17 / 看上去
+            :arg1  (x19 / 激动-01
+                  :degree  (x18 / 很
+)                  :arg0  (x9 / 女儿
+))))
+===========================
+她高声喊道：“有两只蜜蜂飞回来了！
+(x3_x4 / 喊-01
+      :arg0  (x1 / 她
+)      :manner  (x2 / 高声
+)      :arg1  (x6 / 有-03
+            :arg1  (x10 / 飞-01
+                  :cause-of  (x11 / 回来-01
+                        :aspect  (x12 / 了
+)                        :arg0  (x9 / 蜜蜂
+                              :quant  (x7 / 两
+)                              :cunit  (x8 / 只
+)))                  :arg0  (x9 / 蜜蜂
+))            :mode  (x13 / expressive
+)))
+===========================
+它们两点四十分回到蜂窝里，满身都是花粉呢。”
+(x16 / and
+      :op1  (x6 / 回到-01
+            :arg0  (x1 / 它们
+)            :arg1  (x7 / 蜂窝
+)            :time  (x21 / date-entity
+                  :time  (x2_x3_x4_x5 / 14:50
+)))      :op2  (x13 / 花粉
+            :location  (x10 / 满身
+                  :extent  (x11 / 都
+)                  :part-of  (x1 / 它们
+))            :mode  (x14 / expressive
+)))
+===========================
+我放飞蜜蜂的时候是两点整。
+(x11 / date-entity
+      :time  (x7_x8_x9 / 14:00
+)      :domain  (x5 / 时候
+            :time-of  (x2 / 放飞-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x3 / 蜜蜂
+))))
+===========================
+也就是说，在四十分钟的时间里，那两只小蜜蜂飞了两里多路，这还包括了采花粉的时间。
+(x1 / mean
+      :arg1  (x53 / and
+            :op1  (x15 / 飞-01
+                  :aspect  (x16 / 了
+)                  :arg0  (x14 / 蜜蜂
+                        :arg0-of  (x13 / 小-01
+)                        :cunit  (x12 / 只
+)                        :quant  (x11 / 两
+)                        :mod  (x10 / 那
+))                  :duration  (x41 / temporal-quantity
+                        :quant  (x4 / 40
+)                        :unit  (x5 / 分钟
+))                  :quant  (x19 / 多
+                        :op1  (x48 / distance-quantity
+                              :quant  (x17 / 2
+)                              :unit  (x18 / 里
+))))            :op2  (x24 / 包括-01
+                  :arg0  (x22 / 这
+                        :arg0-of  (x56 / mean
+                              :arg1  (x41 / temporal-quantity
+)))                  :mod  (x23 / 还
+)                  :arg1  (x29 / 时间
+                        :duration-of  (x26 / 采-01
+                              :arg0  (x14 / 蜜蜂
+)                              :arg1  (x27 / 花粉
+))))))
+===========================
+天都快黑了，我们还没见到其他蜜蜂飞回来。
+(x10 / 见到-01
+      :arg0  (x7 / 我们
+)      :mod  (x8 / 还
+)      :arg1  (x13 / 飞-01
+            :cause-of  (x14 / 回来-01
+                  :arg0  (x12 / 蜜蜂
+                        :mod  (x11 / 其他
+)))            :arg0  (x12 / 蜜蜂
+))      :time  (x4 / 黑-01
+            :mod  (x3 / 快
+                  :mod  (x2 / 都
+))            :arg0  (x1 / 天
+)            :smood  (x5 / 了
+)))
+===========================
+第二天我检查蜂窝时，又发现了十五只背上有白色记号的蜜蜂。
+(x8 / 发现-01
+      :arg0  (x2 / 我
+)      :arg1  (x17 / 蜜蜂
+            :cunit  (x11 / 只
+)            :quant  (x10 / 15
+)            :mod  (x13 / 有-03
+                  :arg0  (x12 / 背上
+                        :part-of  (x17 / 蜜蜂
+))                  :arg1  (x15 / 记号
+                        :arg0-of  (x14 / 白色
+))))      :time  (x3 / 检查-01
+            :arg0  (x2 / 我
+)            :arg1  (x4 / 蜂窝
+)            :time  (x33 / ordinal-entity
+                  :value  (x1_1_2 / 2
+)                  :unit  (x1_3 / 天
+))))
+===========================
+这样，二十只蜜蜂中，十七只没有迷失方向，准确无误地回到了家。
+(x20 / and
+      :op1  (x1 / 这样
+)      :op2  (x23 / and
+            :op1  (x11 / 迷失-01
+                  :polarity  (x10 / -
+)                  :arg0  (x26 / animal
+                        :quant  (x8 / 17
+)                        :cunit  (x9 / 只
+)                        :arg1-of  (x30 / include-91
+                              :arg2  (x5 / 蜜蜂
+                                    :quant  (x3 / 20
+)                                    :cunit  (x4 / 只
+))))                  :arg1  (x12 / 方向
+))            :op2  (x16 / 回到-01
+                  :aspect  (x17 / 了
+)                  :arg0  (x26 / animal
+)                  :manner  (x14 / 准确无误
+)                  :arg1  (x18 / 家
+))))
+===========================
+尽管它们逆风而飞，沿途都是一些陌生的景物，但它们确确实实飞回来了。
+(x22 / contrast
+      :arg1  (x24 / and
+            :op1  (x5 / 飞-01
+                  :manner  (x3 / 逆风
+)                  :arg0  (x2 / 它们
+))            :op2  (x13 / 景物
+                  :quant  (x10 / 一些
+)                  :arg1-of  (x11 / 陌生-01
+)                  :location  (x7 / 沿途
+                        :extent  (x8 / 都
+))))      :arg2  (x17 / 确实-01
+            :arg0  (x18 / 飞-01
+                  :cause-of  (x19 / 回来-01
+                        :aspect  (x20 / 了
+)                        :arg0  (x16 / x2
+))                  :arg0  (x16 / x2
+))))
+===========================
+蜜蜂靠的不是超常的记忆力，而是一种我无法解释的本能。
+(x19 / contrast
+      :arg1  (x8 / 记忆力
+            :domain  (x24 / thing
+                  :arg1-of  (x2 / 靠-01
+                        :arg0  (x1 / 蜜蜂
+)))            :mod  (x6 / 超常
+))      :arg2  (x17 / 本能
+            :domain  (x24 / thing
+)            :quant  (x11 / 1
+)            :unit  (x12 / 种
+)            :arg1-of  (x15 / 解释-01
+                  :arg1-of  (x14 / 无法-01
+                        :arg0  (x13 / 我
+))                  :arg0  (x13 / 我
+))))
+===========================

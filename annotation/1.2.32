@@ -1,0 +1,324 @@
+兰兰的爷爷是桥梁工程师。
+(x6 / 工程师
+      :mod  (x5 / 桥梁
+)      :domain  (x3 / 爷爷
+            :poss  (x12 / person
+                  :name  ( x1/兰兰 
+))))
+===========================
+有一天，他开着小汽车带兰兰去玩。
+(x10 / 带-02
+      :arg0  (x5 / 他
+)      :time  (x1_x2_x3 / 有一天
+)      :manner  (x6 / 开-03
+            :arg0  (x5 / 他
+)            :aspect  (x7 / 着
+)            :arg1  (x9 / 汽车
+                  :arg0-of  (x8 / 小-01
+)))      :arg1  (x23 / person
+            :name  ( x11/兰兰 
+))      :purpose  (x12 / 去-01
+            :arg1  (x13 / 玩
+)))
+===========================
+在路上，他们遇见一条波浪滚滚的大河。
+(x5 / 遇见-01
+      :arg0  (x4 / 他们
+)      :location  (x2 / 路上
+)      :arg1  (x11 / 大河
+            :quant  (x6 / 1
+)            :cunit  (x7 / 条
+)            :mod  (x9 / 滚滚-01
+                  :arg0  (x8 / 波浪
+))))
+===========================
+爷爷没有停车，一直向大河里开去。
+(x12 / and
+      :op1  (x3 / 停车-01
+            :arg0  (x1 / 爷爷
+)            :polarity  (x2 / -
+))      :op2  (x9_x10 / 开
+            :time  (x5 / 一直
+)            :direction  (x8 / 里
+                  :arg0  (x7 / 大河
+))))
+===========================
+兰兰吓得闭上了眼睛。
+(x4_x5 / 闭上-01
+      :arg0  (x11 / person
+            :name  ( x1/兰兰 
+))      :aspect  (x6 / 了
+)      :arg1  (x7 / 眼睛
+            :part-of  (x11 / person
+))      :cause  (x2 / 吓-01
+            :arg1  (x11 / person
+)))
+===========================
+“兰兰，下车看看大桥吧!”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x12 / person
+                  :name  ( x2/兰兰 
+)))      :op2  (x4 / 下车-01
+            :purpose  (x5 / 看看-01
+                  :arg1  (x6 / 大桥
+)                  :arg0  (x12 / person
+))            :mode  (x7 / imperative
+)            :mode  (x8 / expressive
+)            :arg0  (x12 / person
+)))
+===========================
+听见爷爷的喊声，兰兰才敢睁开眼睛。
+(x13 / condition
+      :arg1  (x1 / 听见-01
+            :arg1  (x4 / 喊声
+                  :source  (x2 / 爷爷
+)))      :arg2  (x8 / 敢-02
+            :arg0  (x19 / person
+                  :name  ( x6/兰兰 
+))            :arg1  (x9_x10 / 睁开-01
+                  :arg1  (x11 / 眼睛
+                        :part-of  (x19 / person
+))                  :arg0  (x19 / person
+))))
+===========================
+她一看，原来是一座架在水里的桥，很像一幢长长的房子。
+(x2_x3 / 看-02
+      :arg0  (x1 / 她
+)      :arg1  (x14 / 桥
+            :quant  (x7 / 1
+)            :cunit  (x8 / 座
+)            :mod  (x5 / 原来
+)            :domain  (x32 / thing
+)            :arg1-of  (x9 / 架-01
+                  :location  (x12 / 里
+                        :arg0  (x11 / 水
+)))            :arg0-of  (x17 / 像-01
+                  :arg1  (x21 / 房子
+                        :arg0-of  (x20 / 长-01
+)                        :quant  (x18 / 1
+)                        :cunit  (x19 / 幢
+))                  :degree  (x16 / 很
+))))
+===========================
+爷爷告诉她，这种桥叫潜水桥，是用特别结实的玻璃砖造的。
+(x2 / 告诉-01
+      :arg0  (x1 / 爷爷
+)      :arg2  (x3 / 她
+)      :arg1  (x24 / and
+            :op1  (x7 / 叫-01
+                  :arg0  (x6 / 桥
+                        :mod  (x5 / 这种
+))                  :arg1  (x8 / 潜水桥
+))            :op2  (x29 / thing
+                  :arg1-of  (x16 / 造-01
+                        :arg2-of  (x11 / 用-01
+                              :arg1  (x15 / 玻璃砖
+                                    :arg0-of  (x13 / 结实-01
+                                          :degree  (x12 / 特别
+)))))                  :domain  (x8 / 潜水桥
+))))
+===========================
+兰兰惊奇地站在潜水桥上，透过玻璃看见大大小小的鱼游来游去，各种各样的船只从桥顶上驶过来划过去。
+(x31 / and
+      :op1  (x4 / 站-01
+            :arg0  (x34 / person
+                  :name  ( x1/兰兰 
+))            :manner  (x2 / 惊奇-01
+                  :arg0  (x34 / person
+))            :arg1  (x7 / 上
+                  :arg0  (x6 / 潜水桥
+)))      :op2  (x11 / 看见-01
+            :arg1  (x37 / and
+                  :op1  (x15_x16_x17_x18 / 游来游去
+                        :arg0  (x14 / 鱼
+                              :arg0-of  (x12 / 大大小小-01
+)))                  :op2  (x39 / and
+                        :op1  (x26 / 驶
+                              :direction  (x27 / 过来-01
+                                    :arg0  (x22 / 船只
+                                          :arg0-of  (x20 / 各种各样
+)))                              :arg1  (x22 / 船只
+))                        :op2  (x28 / 划-01
+                              :direction  (x29 / 过去-01
+                                    :arg0  (x22 / 船只
+))                              :arg1  (x22 / 船只
+))                        :source  (x25 / 上
+)))            :manner  (x9 / 透过-01
+                  :arg1  (x10 / 玻璃
+))            :arg0  (x34 / person
+)))
+===========================
+兰兰看了一会儿，跟爷爷坐上汽车，来到鲜花盛开的原野上。
+(x19 / temporal
+      :arg1  (x2 / 看-02
+            :aspect  (x3 / 了
+)            :duration  (x4 / 一会儿
+)            :arg0  (x26 / person
+                  :name  ( x1/兰兰 
+)))      :arg2  (x8 / 坐-02
+            :arg0  (x26 / person
+)            :accompanier  (x7 / 爷爷
+)            :arg1  (x10 / 汽车
+))      :arg3  (x12 / 来到-01
+            :arg0  (x26 / person
+)            :arg1  (x16 / 原野
+                  :location-of  (x14 / 盛开-01
+                        :arg0  (x13 / 鲜花
+)))))
+===========================
+兰兰下了车，一边采野花一边往前走，又遇到了一条小河。
+(x21 / temporal
+      :arg1  (x2_x4 / 下车-01
+            :arg0  (x24 / person
+                  :name  ( x1/兰兰 
+))            :aspect  (x3 / 了
+))      :arg2  (x27 / and
+            :op1  (x7 / 采-01
+                  :arg0  (x24 / person
+)                  :arg1  (x8 / 野花
+))            :op2  (x12 / 走-01
+                  :direction  (x11 / 前
+)))      :arg3  (x15 / 遇到-01
+            :aspect  (x16 / 了
+)            :arg0  (x24 / person
+)            :arg1  (x19 / 小河
+                  :quant  (x17 / 1
+)                  :cunit  (x18 / 条
+))))
+===========================
+兰兰说:“我想去河对岸玩，可是怎么过去呢?”
+(x2 / 说-01
+      :arg0  (x20 / person
+            :name  ( x1/兰兰 
+))      :arg1  (x22 / and
+            :op1  (x5 / 想-02
+                  :arg0  (x4 / x20
+)                  :arg1  (x6 / 去-01
+                        :arg0  (x4 / x20
+)                        :arg1  (x8 / 对岸
+                              :arg0  (x7 / 河
+))                        :purpose  (x9 / 玩-01
+                              :arg0  (x4 / x20
+))))            :op2  (x13 / 过去
+                  :manner  (x12 / amr-unknown
+)                  :mode  (x14_x15 / interrogative
+)                  :mod  (x11 / 可是
+))))
+===========================
+“别急，我带着桥呢!”
+(x11 / say
+      :arg1  (x13 / causation
+            :arg2  (x3 / 急
+                  :polarity  (x2 / -
+))            :arg1  (x6 / 带-02
+                  :arg0  (x5 / 我
+)                  :aspect  (x7 / 着
+)                  :arg1  (x8 / 桥
+)                  :mode  (x9_x10 / expressive
+))))
+===========================
+爷爷打开皮包，取出一包塑料管子，说“
+(x13 / temporal
+      :arg1  (x2 / 打开-01
+            :arg0  (x1 / 爷爷
+)            :arg1  (x3 / 皮包
+))      :arg2  (x5 / 取出-01
+            :arg0  (x1 / 爷爷
+)            :arg1  (x9 / 管子
+                  :consist-of  (x8 / 塑料
+)                  :quant  (x6 / 1
+)                  :cunit  (x7 / 包
+)))      :arg3  (x11 / 说-01
+            :arg0  (x1 / 爷爷
+)))
+===========================
+这又薄又结实的塑料管子，打进空气就成了一座轻巧的桥。”
+(x22 / say
+      :arg1  (x10_x11 / 打进-02
+            :arg1  (x12 / 空气
+)            :arg2  (x8 / 管子
+                  :consist-of  (x7 / 塑料
+)                  :arg0-of  (x5 / 结实-01
+                        :mod  (x4 / 又
+))                  :arg0-of  (x3 / 薄
+                        :mod  (x2 / 又
+))                  :mod  (x1 / 这
+))            :cause  (x14 / 成-01
+                  :mod  (x13 / 就
+)                  :aspect  (x15 / 了
+)                  :arg1  (x20 / 桥
+                        :arg0-of  (x18 / 轻巧-01
+)                        :quant  (x16 / 1
+)                        :cunit  (x17 / 座
+)))))
+===========================
+兰兰跟着爷爷走上塑料桥。
+(x4_x5 / 走上-01
+      :arg0  (x11 / person
+            :name  ( x1/兰兰 
+))      :arg1  (x7 / 桥
+            :consist-of  (x6 / 塑料
+))      :manner  (x2 / 跟着-01
+            :arg0  (x11 / person
+)            :arg1  (x3 / 爷爷
+)))
+===========================
+这桥又平又稳。
+(x8 / and
+      :op1  (x4 / 平-02
+            :arg0  (x2 / 桥
+                  :mod  (x1 / 这
+)))      :op2  (x6 / 稳-01
+            :arg0  (x2 / 桥
+)))
+===========================
+过了桥，爷爷打开放气孔。
+(x9 / temporal
+      :arg1  (x1 / 过-06
+            :aspect  (x2 / 了
+)            :arg1  (x3 / 桥
+))      :arg2  (x6 / 打开-01
+            :arg0  (x5 / 爷爷
+)            :arg1  (x7 / 放气孔
+)))
+===========================
+哧——塑料桥跑完气变软了，又自动折叠起来。
+(x17 / temporal
+      :arg1  (x1 / 哧
+)      :arg2  (x6 / 完-01
+            :arg0  (x5 / 跑-01
+                  :arg0  (x7 / 气
+                        :location  (x4 / 桥
+                              :consist-of  (x3 / 塑料
+)))))      :arg3  (x8 / 变-01
+            :arg2  (x9 / 软-01
+                  :arg0  (x4 / 桥
+)                  :aspect  (x10 / 了
+))            :arg0  (x4 / 桥
+))      :arg4  (x14_x15 / 折叠
+            :manner  (x13 / 自动
+)))
+===========================
+爷爷把像雨衣一样大小的塑料桥放回提包里。
+(x10_x11 / 放回-01
+      :arg0  (x1 / 爷爷
+)      :arg1  (x9 / 桥
+            :arg0-of  (x3 / 像-01
+                  :arg1  (x4 / 雨衣
+)                  :arg2  (x6 / 大小
+)))      :arg2  (x12 / 提包
+))
+===========================
+爷爷真是一位会变魔术的桥梁专家。
+(x11 / 专家
+      :mod  (x10 / 桥梁
+)      :arg0-of  (x6 / 会-01
+            :arg1  (x7 / 变
+                  :topic  (x8 / 魔术
+)))      :quant  (x4 / 1
+)      :cunit  (x5 / 位
+)      :mod  (x2 / 真
+)      :domain  (x1 / 爷爷
+))
+===========================

@@ -1,0 +1,165 @@
+狮子妈妈生下了两只小狮子。
+(x3_x4 / 生下-01
+      :arg0  (x2 / 妈妈
+            :mod  (x1 / 狮子
+))      :arg1  (x9 / 狮子
+            :quant  (x6 / 2
+)            :cunit  (x7 / 只
+)            :arg0-of  (x8 / 小-01
+))      :aspect  (x5 / 了
+))
+===========================
+一只小狮子整天练习滚、扑、撕、咬，非常刻苦。
+(x6 / 练习-01
+      :arg0  (x4 / 狮子
+            :arg0-of  (x3 / 小-01
+)            :quant  (x1 / 1
+)            :cunit  (x2 / 只
+))      :arg1  (x24 / and
+            :op1  (x7 / 滚
+)            :op2  (x9 / 扑
+)            :op3  (x11 / 撕
+)            :op4  (x13 / 咬
+))      :manner  (x16 / 刻苦
+            :degree  (x15 / 非常
+))      :duration  (x5 / 整天
+))
+===========================
+另一只却懒洋洋地晒太阳，什么也不干。
+(x14 / contrast
+      :arg2  (x16 / and
+            :op1  (x7 / 晒太阳-01
+                  :manner  (x5 / 懒洋洋
+)                  :arg0  (x19 / animal
+                        :mod  (x1 / 另
+)                        :quant  (x2 / 1
+)                        :cunit  (x3 / 只
+)))            :op2  (x12 / 干-01
+                  :polarity  (x11 / -
+)                  :arg0  (x19 / animal
+)                  :arg1  (x9 / 什么
+)                  :mod  (x10 / 也
+))))
+===========================
+一棵小树问懒狮子:“你怎么不学点儿本领啊?，
+(x4 / 问-01
+      :arg0  (x3 / 小树
+            :quant  (x1 / 1
+)            :cunit  (x2 / 棵
+))      :arg2  (x6 / 狮子
+            :arg0-of  (x5 / 懒-01
+))      :arg1  (x11 / 学-01
+            :polarity  (x10 / -
+)            :arg0  (x8 / x6
+)            :arg1  (x13 / 本领
+                  :quant  (x12 / 点儿
+))            :mode  (x14 / expressive
+)            :mode  (x15 / interrogative
+)            :cause  (x9 / amr-unknown
+)))
+===========================
+懒狮子抬起头来，慢吞吞地说:“我才不去吃那苦头呢!”
+(x21 / temporal
+      :arg1  (x3_x4_x6 / 抬起-01
+            :arg0  (x2 / 狮子
+                  :arg0-of  (x1 / 懒-01
+))            :arg1  (x5 / 头
+                  :part-of  (x2 / 狮子
+)))      :arg2  (x10 / 说-01
+            :manner  (x8 / 慢吞吞
+)            :arg0  (x2 / 狮子
+)            :arg1  (x15 / 去-02
+                  :polarity  (x14 / -
+)                  :arg0  (x16 / 吃-01
+                        :arg0  (x12 / x2
+)                        :arg1  (x18 / 苦头
+                              :mod  (x17 / 那
+)))                  :mode  (x19_x20 / expressive
+)                  :mod  (x13 / 才
+))))
+===========================
+小树说:“那你以后怎样生活呢?”
+(x2 / 说-01
+      :arg0  (x1 / 小树
+)      :arg1  (x14 / condition
+            :arg2  (x8 / 生活-01
+                  :arg0  (x5 / 你
+)                  :time  (x6 / 以后
+)                  :manner  (x7 / amr-unknown
+)                  :mode  (x9_x10 / interrogative
+))))
+===========================
+懒狮子说:“我爸爸和妈妈是林中的大王，凭着他们的地位，我会生活得很好!”
+(x3 / 说-01
+      :arg0  (x2 / 狮子
+            :arg0-of  (x1 / 懒-01
+))      :arg1  (x30 / causation
+            :arg1  (x12 / 大王
+                  :range  (x10 / 林中
+)                  :domain  (x7 / and
+                        :op1  (x6 / 爸爸
+                              :poss  (x5 / x2
+))                        :op2  (x8 / 妈妈
+                              :poss  (x5 / x2
+))))            :arg2  (x37 / condition
+                  :arg1  (x14_1 / 凭-01
+                        :aspect  (x14_2 / 着
+)                        :arg0  (x5 / x2
+)                        :arg1  (x17 / 地位
+                              :poss  (x15 / x7
+)))                  :arg2  (x20 / 会-02
+                        :arg0  (x21 / 生活-01
+                              :arg0  (x19 / x2
+)                              :arg0-of  (x24 / 好-01
+                                    :degree  (x23 / 很
+)))                        :mode  (x25 / expressive
+)))))
+===========================
+这话被狮子妈妈听到了，她对懒狮子说:“孩子，将来我们老了，不在了，你靠谁呢?
+(x32 / temporal
+      :arg1  (x6 / 听到-01
+            :arg1  (x2 / 话
+                  :mod  (x1 / 这
+))            :arg0  (x5 / 妈妈
+                  :mod  (x4 / 狮子
+))            :aspect  (x7 / 了
+))      :arg2  (x13 / 说-01
+            :arg0  (x9 / x5
+)            :arg3  (x12 / 狮子
+                  :arg0-of  (x11 / 懒-01
+))            :arg1  (x44 / and
+                  :op1  (x15 / x12
+)                  :op2  (x46 / condition
+                        :arg1  (x47 / and
+                              :op1  (x19 / 老-01
+                                    :aspect  (x20 / 了
+)                                    :arg0  (x18 / 我们
+))                              :time  (x17 / 将来
+)                              :op2  (x23 / 在-01
+                                    :polarity  (x22 / -
+)                                    :aspect  (x24 / 了
+)                                    :arg0  (x18 / 我们
+)))                        :arg2  (x27 / 靠-01
+                              :arg0  (x26 / x12
+)                              :arg1  (x28 / amr-unknown
+)                              :mode  (x29_x30 / interrogative
+))))))
+===========================
+你也应该学会生活的本领，做一只真正的狮子!”
+(x17 / say
+      :arg1  (x3 / 应该-01
+            :arg0  (x20 / and
+                  :op1  (x4_x5 / 学会-01
+                        :arg0  (x1 / 你
+)                        :arg1  (x8 / 本领
+                              :mod  (x6 / 生活-01
+)))                  :op2  (x10 / 做-02
+                        :arg0  (x1 / 你
+)                        :arg1  (x15 / 狮子
+                              :quant  (x11 / 1
+)                              :cunit  (x12 / 只
+)                              :arg0-of  (x13 / 真正-01
+))                        :mode  (x16 / expressive
+)))            :mod  (x2 / 也
+)))
+===========================

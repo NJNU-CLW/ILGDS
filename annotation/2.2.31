@@ -1,0 +1,270 @@
+我们人类只有三四百万年的历史，恐龙却在地球上生活了大约两亿年。
+(x21 / contrast
+      :arg1  (x4 / 有-03
+            :mod  (x3 / 只
+)            :arg0  (x1 / 我们
+                  :arg0-of  (x27 / mean
+                        :arg1  (x2 / 人类
+)))            :arg1  (x8 / 历史
+                  :mod  (x29 / temporal-quantity
+                        :quant  (x30 / between
+                              :op1  (x5_1_3_4 / 3000000
+)                              :op2  (x5_2_3_4 / 4000000
+))                        :unit  (x6 / 年
+))))      :arg2  (x15 / 生活-01
+            :aspect  (x16 / 了
+)            :duration  (x36 / temporal-quantity
+                  :op1  (x17 / 大约
+                        :op1  (x18 / 200000000
+))                  :unit  (x19 / 年
+))            :arg0  (x10 / 恐龙
+)            :location  (x13 / 地球
+)))
+===========================
+人类的历史与恐龙的历史相比，就可短多了。
+(x18 / condition
+      :arg1  (x8 / 相比-01
+            :arg0  (x4 / and
+                  :op1  (x3 / 历史
+                        :poss  (x1 / 人类
+)))            :op2  (x7 / 历史
+                  :poss  (x5 / 恐龙
+)))      :arg2  (x12 / 短-01
+            :degree  (x11 / 可
+)            :degree  (x13 / 多
+)            :smood  (x14 / 了
+)            :arg0  (x3 / 历史
+)))
+===========================
+但是，庞大的恐龙为什么会消失呢？
+(x11 / contrast
+      :arg2  (x7 / 会-02
+            :arg0  (x8 / 消失-01
+                  :arg0  (x5 / 恐龙
+                        :arg0-of  (x3 / 庞大-01
+)))            :cause  (x6 / amr-unknown
+)            :mode  (x9_x10 / interrogative
+)))
+===========================
+一种说法是，有一段时间，地球上突然变的十分寒冷。
+(x14 / 变-01
+      :domain  (x3 / 说法
+            :quant  (x1 / 1
+)            :unit  (x2 / 种
+))      :manner  (x13 / 突然
+)      :duration  (x9 / 时间
+            :quant  (x7 / 1
+)            :cunit  (x8 / 段
+))      :location  (x11 / 地球
+)      :arg2  (x17 / 寒冷
+            :degree  (x16 / 十分
+)            :location  (x11 / 地球
+)))
+===========================
+恐龙没有冬眠的习惯，它们不能像蛇和乌龟那样，借冬眠来躲避寒冷。
+(x21 / causation
+      :arg1  (x2_2 / 有-01
+            :polarity  (x2_1 / -
+)            :arg0  (x1 / 恐龙
+)            :arg1  (x5 / 习惯
+                  :arg0-of  (x27 / mean
+                        :arg1  (x3 / 冬眠
+))))      :arg2  (x8_2 / 能-01
+            :polarity  (x8_1 / -
+)            :arg0  (x9 / 像-01
+                  :arg0  (x7 / x1
+)                  :arg1  (x11 / and
+                        :op1  (x10 / 蛇
+)                        :op2  (x12 / 乌龟
+))                  :arg2  (x15 / 借-01
+                        :arg1  (x16 / 冬眠
+)                        :purpose  (x18 / 躲避-01
+                              :arg1  (x19 / 寒冷
+))))))
+===========================
+加上恐龙身上没有皮毛来保暖，它们耐不住严寒，就慢慢的消失了。
+(x20 / causation
+      :arg1  (x22 / causation
+            :arg1  (x1 / 加上-01
+                  :arg2  (x4_2 / 有-01
+                        :polarity  (x4_1 / -
+)                        :arg0  (x3 / 身上
+                              :part-of  (x2 / 恐龙
+))                        :arg1  (x5 / 皮毛
+                              :purpose  (x7 / 保暖
+))))            :arg2  (x30 / possible
+                  :polarity  (x11 / -
+)                  :arg0  (x10_x11_2 / 耐-01
+                        :arg0  (x9 / x2
+)                        :arg1  (x12 / 严寒
+))))      :arg2  (x17 / 消失-01
+            :arg0  (x2 / 恐龙
+)            :aspect  (x18 / 了
+)            :manner  (x15 / 慢慢
+)))
+===========================
+另一种说法是，宇宙行星撞上了地球，尘埃把太阳遮住了，地球上一片黑暗。
+(x26 / temporal
+      :domain  (x4 / 说法
+            :mod  (x1 / 另-01
+)            :quant  (x2 / 1
+)            :unit  (x3 / 种
+))      :arg1  (x9 / 撞-01
+            :aspect  (x11 / 了
+)            :arg0  (x8 / 行星
+                  :mod  (x7 / 宇宙
+))            :arg1  (x12 / 地球
+))      :arg2  (x17 / 遮住-01
+            :arg0  (x14 / 尘埃
+)            :arg1  (x16 / 太阳
+)            :aspect  (x18 / 了
+))      :arg3  (x24 / 黑暗
+            :location  (x20 / 地球
+)            :quant  (x22 / 1
+)            :cunit  (x23 / 片
+)))
+===========================
+因为没有阳光照射，植物大量枯萎、死亡，那些以植物为食物的恐龙和其他动物，渐渐的死去了。
+(x28 / causation
+      :arg1  (x30 / causation
+            :arg1  (x2_2 / 有-03
+                  :polarity  (x2_1 / -
+)                  :arg1  (x4 / 照射-01
+                        :arg0  (x3 / 阳光
+)))            :arg2  (x35 / and
+                  :op1  (x8 / 枯萎-01
+                        :arg0  (x6 / 植物
+                              :quant  (x7 / 大量
+)))                  :op2  (x10 / 死亡-01
+                        :arg1  (x6 / 植物
+))))      :arg2  (x25 / 死去-01
+            :aspect  (x26 / 了
+)            :manner  (x23 / 渐渐
+)            :arg0  (x19 / and
+                  :op1  (x18 / 恐龙
+                        :arg0-of  (x13_x15 / 以为
+                              :arg1  (x14 / 植物
+)                              :arg2  (x16 / 食物
+)))                  :mod  (x12 / 那些
+)                  :op2  (x21 / 动物
+                        :mod  (x20 / 其他
+)                        :arg0-of  (x13_x15 / 以为
+)))))
+===========================
+随着动物的减少，食肉的恐龙找不到足够的食物，也渐渐地灭绝了。
+(x24 / causation
+      :arg1  (x26 / possible
+            :arg0  (x9_x11 / 找到-01
+                  :polarity  (x10 / -
+)                  :arg0  (x8 / 恐龙
+                        :arg0-of  (x6_1 / 食-01
+                              :arg1  (x6_2 / 肉
+)))                  :arg1  (x14 / 食物
+                        :arg0-of  (x12 / 足够-01
+))))      :time  (x1 / 随着
+            :arg0  (x4 / 减少-01
+                  :arg1  (x2 / 动物
+)))      :arg2  (x19 / 灭绝-01
+            :manner  (x17 / 渐渐
+)            :aspect  (x20 / 了
+)            :mod  (x16 / 也
+)            :arg1  (x8 / 恐龙
+)))
+===========================
+还有其他的种种说法：比如，地球上的哺乳动物越来越多，它们经常偷吃恐龙蛋，使恐龙渐渐灭绝；突然流行的传染病，使恐龙全部死亡；全球气温下降，使恐龙蛋只能孵出雄性的小恐龙……
+(x1_2 / 有-03
+      :mod  (x1_1 / 还
+)      :arg1  (x5 / 说法
+            :quant  (x4 / 种种
+)            :mod  (x2 / 其他
+)            :arg0-of  (x57 / mean
+                  :arg1  (x59 / thing
+                        :example  (x60 / and
+                              :op1  (x61 / causation
+                                    :arg1  (x62 / and
+                                          :op1  (x14 / 多-03
+                                                :mod  (x13 / 越来越
+)                                                :arg0  (x12 / 哺乳动物
+                                                      :location  (x9 / 地球
+)))                                          :op2  (x19 / 吃-01
+                                                :manner  (x18 / 偷
+)                                                :arg0  (x16 / x12
+)                                                :frequency  (x17 / 经常
+)                                                :arg1  (x20 / 恐龙蛋
+)))                                    :arg2  (x22 / 使-01
+                                          :arg1  (x23 / 恐龙
+)                                          :arg2  (x25 / 灭绝-01
+                                                :manner  (x24 / 渐渐
+)                                                :arg1  (x23 / 恐龙
+))))                              :op2  (x32 / 使-01
+                                    :arg0  (x30 / 传染病
+                                          :arg0-of  (x28 / 流行-01
+                                                :manner  (x27 / 突然
+)))                                    :arg1  (x33 / 恐龙
+                                          :extent  (x34 / 全部
+))                                    :arg2  (x35 / 死亡-01
+                                          :arg1  (x33 / 恐龙
+)))                              :op3  (x41 / 使-01
+                                    :arg0  (x39 / 下降-01
+                                          :arg1  (x38 / 气温
+                                                :range  (x37 / 全球
+)))                                    :arg1  (x42 / 恐龙蛋
+)                                    :arg2  (x43_2 / 能-01
+                                          :mod  (x43_1 / 只
+)                                          :arg0  (x44_x45 / 孵出-01
+                                                :arg1  (x49 / 恐龙
+                                                      :arg0-of  (x48 / 小-01
+)                                                      :mod  (x46 / 雄性
+))                                                :arg2  (x42 / 恐龙蛋
+)))))))))
+===========================
+这些说法都有一定的道理，但又不能让人完全信服。
+(x17 / contrast
+      :arg1  (x4 / 有-03
+            :arg0  (x2 / 说法
+                  :mod  (x1 / 这些
+)                  :extent  (x3 / 都
+))            :arg1  (x7 / 道理
+                  :mod  (x5 / 一定
+)))      :arg2  (x11_2 / 能-01
+            :polarity  (x11_1 / -
+)            :mod  (x10 / 又
+)            :arg0  (x12 / 让-02
+                  :arg0  (x2 / 说法
+)                  :arg1  (x13 / 人
+)                  :arg2  (x15 / 信服-01
+                        :degree  (x14 / 完全
+)                        :arg1  (x2 / 说法
+)))))
+===========================
+所以恐龙灭绝这个谜，至今还没能解开。
+(x13 / causation
+      :arg2  (x10 / 能-01
+            :arg0  (x11 / 解开-01
+                  :arg1  (x5 / 谜
+                        :arg0-of  (x18 / mean
+                              :arg1  (x3 / 灭绝-01
+                                    :arg1  (x2 / 恐龙
+)))                        :mod  (x4_1 / 这
+)                        :cunit  (x4_2 / 个
+)))            :time  (x7 / 至今
+)            :mod  (x8 / 还
+)))
+===========================
+今天的人类只能在博物馆或者从电影和书籍中，来想象恐龙往日的辉煌了。
+(x4_2 / 能-01
+      :mod  (x4_1 / 只
+)      :arg0  (x15 / 想象-01
+            :arg0  (x3 / 人类
+                  :time  (x1 / 今天
+))            :arg1  (x19 / 辉煌-01
+                  :time  (x17 / 往日
+)                  :arg0  (x16 / 恐龙
+))            :smood  (x20 / 了
+)            :location  (x7 / or
+                  :op1  (x6 / 博物馆
+)                  :op2  (x10 / and
+                        :op1  (x9 / 电影
+)                        :op2  (x11 / 书籍
+)))))
+===========================

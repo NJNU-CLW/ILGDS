@@ -1,0 +1,257 @@
+远看长城，它像一条长龙，在崇山峻岭之间蜿蜒盘旋。
+(x18 / condition
+      :arg1  (x2 / 看-02
+            :manner  (x1 / 远
+)            :arg1  (x3 / 长城
+))      :arg2  (x24 / and
+            :op1  (x15 / 蜿蜒-01
+                  :arg0  (x3 / 长城
+))            :op2  (x16 / 盘旋-01
+                  :arg0  (x3 / 长城
+))            :location  (x14 / 之间
+                  :arg0  (x13 / 崇山峻岭
+))            :manner  (x6 / 像-01
+                  :arg0  (x5 / x3
+)                  :arg1  (x10 / 龙
+                        :arg0-of  (x9 / 长-02
+)                        :cunit  (x8 / 条
+)                        :quant  (x7 / 1
+)))))
+===========================
+从东头的山海关到西头的嘉峪关，有一万三千多里。
+(x10 / 有-02
+      :source  (x4 / 山海关
+            :location  (x2 / 东头
+))      :destination  (x8 / 嘉峪关
+            :location  (x6 / 西头
+))      :arg1  (x21 / distance-quantity
+            :quant  (x12 / 多
+                  :op1  (x11 / 13000
+))            :unit  (x13 / 里
+)))
+===========================
+从北京出发，不过一百多里就来到长城脚下。
+(x14 / condition
+      :arg1  (x3 / 出发-01
+            :arg1  (x17 / city
+                  :name  ( x2/北京 
+)))      :arg2  (x19 / condition
+            :arg1  (x5_2 / 过-05
+                  :polarity  (x5_1 / -
+)                  :arg1  (x23 / distance-quantity
+                        :unit  (x8 / 里
+)                        :quant  (x7 / 多-01
+                              :op1  (x6 / 100
+))))            :arg2  (x10 / 来到-01
+                  :arg1  (x12 / 脚下
+                        :arg0  (x11 / 长城
+)))))
+===========================
+这一段长城修筑在八达岭上，高大坚固，是用巨大的条石和城砖筑成的。
+(x24 / and
+      :op1  (x5 / 修筑-01
+            :location  (x8 / 上
+                  :arg0  (x7 / 八达岭
+))            :arg2  (x4 / 长城
+                  :mod  (x1 / 这
+)                  :unit  (x3 / 段
+)                  :quant  (x2 / 1
+)))      :op2  (x33 / and
+            :op1  (x10 / 高大-01
+                  :arg0  (x4 / 长城
+))            :op2  (x11 / 坚固-01
+                  :arg0  (x4 / 长城
+)))      :op2  (x20_x21 / 筑成-01
+            :arg1  (x4 / 长城
+)            :arg2  (x18 / and
+                  :op1  (x17 / 条石
+                        :arg0-of  (x15 / 巨大-01
+))                  :op2  (x19 / 城砖
+))            :mode  (x13_x22 / judgement
+)))
+===========================
+城墙顶上铺着方砖十分平整，像很宽的马路，五六匹马可以并行。
+(x21 / and
+      :op1  (x3 / 铺-01
+            :arg2  (x5 / 方砖
+)            :aspect  (x4 / 着
+)            :location  (x2 / 顶上
+                  :arg0  (x1 / 城墙
+)))      :op2  (x7 / 平整-01
+            :arg0  (x2 / 顶上
+)            :degree  (x6 / 十分
+))      :op3  (x9 / 像-01
+            :arg0  (x2 / 顶上
+)            :arg1  (x13 / 马路
+                  :arg0-of  (x11 / 宽-02
+                        :degree  (x10 / 很
+))))      :op4  (x18 / 可以-01
+            :arg0  (x19 / 并行
+                  :arg0  (x17 / 马
+                        :cunit  (x16 / 匹
+)                        :quant  (x38 / or
+                              :op1  (x15_1 / 5
+)                              :op2  (x15_2 / 6
+)))                  :location  (x2 / 顶上
+))))
+===========================
+城墙外沿有两米多高的成排的垛子，垛子上有方形的瞭望口和射口，供瞭望和射击用。
+(x29 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 外沿
+                  :arg0  (x1 / 城墙
+))            :arg1  (x12 / 垛子
+                  :mod  (x9 / 成-01
+                        :arg1  (x10 / 排
+))                  :arg0-of  (x7 / 高-02
+                        :arg1  (x38 / distance-quantity
+                              :quant  (x6 / 多
+                                    :op1  (x4 / 2
+))                              :unit  (x5 / 米
+)))))      :op2  (x16 / 有-03
+            :arg0  (x15 / 上
+                  :arg0  (x14 / x12
+))            :arg1  (x20 / and
+                  :purpose  (x25 / and
+                        :op1  (x24 / 瞭望
+)                        :op2  (x26 / 射击
+))                  :op1  (x19 / 瞭望口
+                        :arg0-of  (x17 / 方形
+))                  :op1  (x21 / 射口
+))))
+===========================
+城墙顶上，每隔三百多米就有一座方形的城台，是屯兵的堡垒。
+(x37 / and
+      :op1  (x10 / 有-03
+            :mod  (x9 / 就
+)            :arg0  (x2 / 顶上
+                  :arg0  (x1 / 城墙
+))            :arg1  (x15 / 城台
+                  :quant  (x11 / 1
+)                  :cunit  (x12 / 座
+)                  :arg0-of  (x13 / 方形
+))            :manner  (x5 / 隔
+                  :mod  (x4 / 每
+)                  :arg1  (x33 / distance-quantity
+                        :unit  (x8 / 米
+)                        :quant  (x7 / 多
+                              :op1  (x6 / 300
+)))))      :op2  (x20 / 堡垒
+            :domain  (x15 / 城台
+)            :location-of  (x18 / 屯兵
+)))
+===========================
+打仗的时候，城台之间可以互相呼应。
+(x7 / 可以-01
+      :time  (x1 / 打仗
+)      :arg0  (x9 / 呼应
+            :manner  (x8 / 互相
+))      :location  (x6 / 之间
+            :arg0  (x5 / 城台
+)))
+===========================
+站在长城上，踏着脚下方砖，扶着墙上的条石，很自然地想起古代修筑长城的劳动人民来。
+(x30 / condition
+      :arg1  (x31 / and
+            :op1  (x1 / 站-01
+                  :arg1  (x4 / 上
+                        :arg0  (x3 / 长城
+)))            :op2  (x6 / 踏-02
+                  :aspect  (x7 / 着
+)                  :arg1  (x9 / 方砖
+                        :location  (x8 / 脚下
+)))            :op3  (x11 / 扶-03
+                  :aspect  (x12 / 着
+)                  :arg1  (x15 / 条石
+                        :location  (x13 / 墙上
+))))      :arg2  (x20 / 想起-01
+            :manner  (x18 / 自然
+                  :degree  (x17 / 很
+))            :arg1  (x26 / 人民
+                  :mod  (x25 / 劳动
+)                  :arg0-of  (x22 / 修筑-01
+                        :arg2  (x23 / 长城
+)                        :time  (x21 / 古代
+)))))
+===========================
+单看这数不清的条石，一块有两三千斤重，那时候没有火车、汽车，没有起重机，就靠着无数的肩膀无数的手，一步一步地抬上这陡峭的山岭。
+(x48 / and
+      :op1  (x2 / 看-02
+            :manner  (x1 / 单
+)            :arg1  (x8 / 条石
+                  :mod  (x3 / 这
+)                  :arg1-of  (x4 / 数-01
+                        :cause-of  (x6 / 清
+)                        :arg0-of  (x55 / possible
+                              :polarity  (x5 / -
+)))))      :op2  (x11 / 有-02
+            :arg0  (x58 / thing
+                  :cunit  (x10_2 / 块
+)                  :quant  (x10_1 / 1
+))            :arg1  (x14 / mass-quantity
+                  :unit  (x13 / 斤
+)                  :quant  (x63 / between
+                        :op1  (x12_1_3 / 2000
+)                        :op2  (x12_2_3 / 3000
+))))      :op3  (x66 / causation
+            :arg1  (x67 / and
+                  :op1  (x18_2 / 有-03
+                        :polarity  (x18_1 / -
+)                        :arg1  (x72 / and
+                              :op1  (x19 / 火车
+))                        :op2  (x21 / 汽车
+))                  :op2  (x23_2 / 有-03
+                        :polarity  (x23_1 / -
+)                        :arg1  (x24 / 起重机
+)))            :time  (x17 / 时候
+                  :mod  (x16 / 那
+))            :arg2  (x41 / 抬-01
+                  :manner  (x27 / 靠-01
+                        :aspect  (x28 / 着
+)                        :arg1  (x81 / and
+                              :op1  (x31 / 肩膀
+                                    :quant  (x29 / 无数
+))                              :op2  (x34 / 手
+                                    :quant  (x32 / 无数
+))))                  :manner  (x36_x37_x38_x39 / 一步一步
+)                  :arg1  (x8 / 条石
+)                  :cause-of  (x42 / 上-01
+                        :arg0  (x8 / 条石
+)                        :arg1  (x46 / 山岭
+                              :mod  (x43 / 这
+)                              :arg0-of  (x44 / 陡峭-01
+))))))
+===========================
+多少劳动人民的血汗和智慧，才凝结成这前不见头、后不见尾的万里长城这样气魄雄伟的工程，在世界历史上是一个伟大的奇迹。
+(x39 / and
+      :op1  (x10 / 凝结-01
+            :arg0  (x6 / and
+                  :op2  (x7 / 智慧
+)                  :op1  (x5 / 血汗
+)                  :poss  (x3 / 人民
+                        :mod  (x2 / 劳动
+)                        :quant  (x1 / amr-unknown
+)))            :arg1  (x26 / 工程
+                  :mod  (x24 / 雄伟-01
+                        :arg0  (x23 / 气魄
+))                  :mod  (x22 / 这样
+)                  :arg0-of  (x21 / 万里长城
+                        :mod  (x12 / 这
+)                        :mod  (x18_2 / 见-01
+                              :polarity  (x18_1 / -
+)                              :arg1  (x19 / 尾
+)                              :location  (x17 / 后
+))                        :mod  (x14_2 / 见-01
+                              :polarity  (x14_1 / -
+)                              :arg1  (x15 / 头
+)                              :location  (x13 / 前
+))))            :mod  (x9 / 才
+))      :op2  (x37 / 奇迹
+            :domain  (x21 / 万里长城
+)            :arg0-of  (x35 / 伟大-01
+)            :cunit  (x34 / 个
+)            :quant  (x33 / 1
+)            :range  (x30 / 历史
+                  :mod  (x29 / 世界
+))))
+===========================

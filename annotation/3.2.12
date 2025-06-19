@@ -1,0 +1,299 @@
+更赢是古时候魏国有名的射箭能手。
+(x8 / 能手
+      :topic  (x7 / 射箭-01
+)      :domain  (x13 / person
+            :name  ( x1/更赢 
+))      :arg0-of  (x5 / 有名-01
+)      :location  (x4 / 魏国
+)      :time  (x3 / 古时候
+))
+===========================
+有一天，更赢跟魏王到郊外去打猎。
+(x10 / 去-01
+      :arg0  (x15 / person
+)      :arg1  (x11 / 打猎
+            :arg0  (x15 / person
+))      :accompanier  (x7 / 魏王
+)      :location  (x9 / 郊外
+)      :time  (x1_x2_x3 / 有一天
+))
+===========================
+一只大雁从远处慢慢地飞来，边飞边鸣。
+(x15 / and
+      :op1  (x8 / 飞来-01
+            :manner  (x6 / 慢慢
+)            :source  (x5 / 远处
+)            :arg0  (x3 / 大雁
+                  :quant  (x1 / 1
+))            :cunit  (x2 / 只
+))      :op2  (x23 / and
+            :op1  (x11 / 飞-01
+                  :arg0  (x3 / 大雁
+))            :op2  (x13 / 鸣-01
+                  :arg0  (x3 / 大雁
+))))
+===========================
+更赢仔细看了看，指着大雁对魏王说:“大王，我不用箭，只要拉一下弓，这只大雁就能掉下来。”
+(x33 / temporal
+      :arg1  (x3_x5 / 看-02
+            :aspect  (x4 / 了
+)            :arg0  (x37 / person
+                  :name  ( x1/更赢 
+))            :manner  (x2 / 仔细
+))      :arg2  (x11 / 说-01
+            :arg0  (x37 / person
+)            :arg3  (x10 / 魏王
+)            :manner  (x7_1 / 指-05
+                  :aspect  (x7_2 / 着
+)                  :arg0  (x37 / person
+)                  :arg2  (x8 / 大雁
+))            :arg1  (x45 / and
+                  :op1  (x13 / x10
+)                  :op2  (x47 / condition
+                        :arg1  (x48 / and
+                              :op1  (x16_2 / 用-01
+                                    :polarity  (x16_1 / -
+)                                    :arg0  (x15 / x37
+)                                    :arg2  (x17 / 箭
+))                              :op2  (x19 / 只要
+                                    :arg0  (x20 / 拉-01
+                                          :arg1  (x23 / 弓
+)                                          :quant  (x21 / 1
+)                                          :cunit  (x22 / 下
+))))                        :arg2  (x29 / 能-01
+                              :arg0  (x30 / 掉-01
+                                    :direction  (x31 / 下来-01
+                                          :arg0  (x27 / x8
+                                                :mod  (x25 / 这
+)                                                :cunit  (x26 / 只
+)))                                    :arg1  (x27 / x8
+)))))))
+===========================
+“是吗?”魏王信不过自己的耳朵，问道，“你有这样的本事?”
+(x20 / causation
+      :arg2  (x11_x12 / 问道-01
+            :arg0  (x5 / 魏王
+)            :arg1  (x28 / and
+                  :op1  (x2 / 是
+                        :mode  (x3_x4 / interrogative
+))                  :op2  (x15 / 有-01
+                        :arg0  (x14 / 你
+)                        :arg1  (x18 / 本事
+                              :mod  (x16 / 这样
+))                        :mode  (x19 / interrogative
+))))      :arg1  (x6_3 / possible
+            :polarity  (x6_2 / -
+)            :arg0  (x6_1 / 信-01
+                  :arg0  (x5 / 魏王
+)                  :arg1  (x9 / 耳朵
+                        :poss  (x7 / x5
+)))))
+===========================
+更赢说:“请让我试一下。”
+(x2 / 说-01
+      :arg0  (x13 / person
+            :name  ( x1/更赢 
+))      :arg1  (x4 / 请-01
+            :arg0  (x13 / person
+)            :arg2  (x5 / 让-02
+                  :arg1  (x6 / x13
+)                  :arg1  (x7 / 试-01
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 下
+)                        :arg0  (x13 / person
+)))))
+===========================
+更赢并不取箭，他左手拿弓，右手拉弦，只听得嘣的一声响，那只大雁直往上飞，拍了两下翅膀，忽然从半空里直掉下来。
+(x47 / temporal
+      :arg1  (x50 / and
+            :op1  (x4 / 取-01
+                  :polarity  (x3 / -
+)                  :arg1  (x5 / 箭
+)                  :mod  (x2 / 并-01
+)                  :arg0  (x55 / person
+                        :name  ( x1/更赢 
+)))            :op2  (x9 / 拿-03
+                  :arg0  (x8 / 左手
+                        :part-of  (x7 / x55
+))                  :arg1  (x10 / 弓
+))            :op3  (x13 / 拉
+                  :arg0  (x12 / 右手
+                        :part-of  (x55 / person
+))                  :arg1  (x14 / 弦
+)))      :arg2  (x17 / 听-01
+            :mod  (x16 / 只
+)            :arg1  (x23 / 响
+                  :cunit  (x22 / 声
+)                  :quant  (x21 / 1
+)                  :arg0-of  (x69 / mean
+                        :arg1  (x19 / 嘣
+))))      :arg3  (x31 / 飞-01
+            :arg0  (x27 / 大雁
+                  :cunit  (x26 / 只
+)                  :mod  (x25 / 那
+))            :direction  (x30 / 上
+                  :manner  (x28 / 直
+)))      :arg4  (x33 / 拍-02
+            :arg0  (x27 / 大雁
+)            :aspect  (x34 / 了
+)            :arg1  (x37 / 翅膀
+)            :cunit  (x36 / 下
+)            :quant  (x35 / 2
+))      :arg5  (x44 / 掉-01
+            :direction  (x45 / 下来-01
+                  :arg0  (x27 / 大雁
+))            :manner  (x39 / 忽然
+)            :source  (x41 / 半空
+)            :manner  (x43 / 直
+)            :arg1  (x27 / 大雁
+)))
+===========================
+“啊!’魏王看了，大吃一惊，“真有这样的本事!’
+(x16 / temporal
+      :arg1  (x5 / 看-02
+            :arg0  (x4 / 魏王
+)            :aspect  (x6 / 了
+))      :arg2  (x8 / 大吃一惊-01
+            :arg0  (x4 / 魏王
+))      :arg3  (x24 / say
+            :arg1  (x11 / 有-01
+                  :manner  (x10 / 真
+)                  :arg1  (x14 / 本事
+                        :mode  (x12 / 这样
+))                  :mode  (x2_x3_x15 / expressive
+))))
+===========================
+更赢笑笑说:“不是我的本事大，是因为我知道，这是一只受过箭伤的鸟。”
+(x29 / temporal
+      :arg1  (x2_x3 / 笑-01
+            :arg0  (x34 / person
+                  :name  ( x1/更赢 
+)))      :arg2  (x4 / 说-01
+            :arg0  (x34 / person
+)            :arg1  (x35 / contrast
+                  :arg1  (x11 / 大-01
+                        :arg0  (x10 / 本事
+                              :poss  (x8 / x34
+))                        :polarity  (x6_x7 / -
+))                  :arg2  (x40 / causation
+                        :arg1  (x16 / 知道-01
+                              :arg0  (x15 / x34
+)                              :mode  (x13 / judgement
+)                              :arg1  (x27 / 鸟
+                                    :domain  (x18 / 这
+)                                    :arg0-of  (x22 / 受-01
+                                          :aspect  (x23 / 过
+)                                          :arg1  (x25 / 伤
+                                                :mod  (x24 / 箭
+)))                                    :quant  (x20 / 1
+)                                    :cunit  (x21 / 只
+)))))))
+===========================
+魏王更加奇怪了，问:“你怎么知道的?”
+(x13 / causation
+      :arg1  (x3 / 奇怪-02
+            :arg0  (x1 / 魏王
+)            :degree  (x2 / 更加
+)            :aspect  (x4 / 了
+))      :arg2  (x6 / 问-01
+            :arg0  (x1 / 魏王
+)            :arg1  (x10 / 知道-01
+                  :smood  (x11 / 的
+)                  :arg0  (x8 / 你
+)                  :cause  (x9 / amr-unknown
+)                  :mode  (x12 / interrogative
+))            :arg2  (x8 / 你
+)))
+===========================
+更赢说:“它飞得慢，叫的声音很悲惨。
+(x2 / 说-01
+      :arg0  (x17 / person
+            :name  ( x1/更赢 
+))      :arg1  (x18 / and
+            :op1  (x5 / 飞-01
+                  :arg0  (x4 / 它
+)                  :arg0-of  (x7 / 慢-01
+))            :op2  (x13 / 悲惨-01
+                  :degree  (x12 / 很
+)                  :arg0  (x11 / 声音
+                        :arg1-of  (x9 / 叫-03
+                              :arg0  (x4 / 它
+))))))
+===========================
+飞得慢，因为它受过箭伤，伤口没有愈合，还在作痛;叫得悲惨，因为它离开同伴，孤单失群，得不到帮助。
+(x37 / and
+      :op1  (x39 / causation
+            :arg1  (x40 / and
+                  :op1  (x7 / 受-01
+                        :arg0  (x6 / 它
+)                        :aspect  (x8 / 过
+)                        :arg1  (x10 / 伤
+                              :mod  (x9 / 箭
+)))                  :op2  (x14 / 愈合-01
+                        :polarity  (x13 / -
+)                        :arg0  (x12 / 伤口
+))                  :op1  (x18 / 作-01
+                        :aspect  (x17 / 在
+)                        :arg0  (x12 / 伤口
+)                        :mod  (x16 / 还
+)                        :arg1  (x19 / 痛-01
+                              :arg0  (x6 / 它
+))))            :arg2  (x1 / 飞-02
+                  :arg0  (x6 / 它
+)                  :arg0-of  (x3 / 慢-01
+)))      :op2  (x53 / causation
+            :arg1  (x57 / and
+                  :op1  (x27 / 离开-01
+                        :arg0  (x26 / x6
+)                        :arg1  (x28 / 同伴
+))                  :op2  (x30 / 孤单-01
+                        :arg0  (x6 / 它
+))                  :op3  (x31 / 失-01
+                        :arg0  (x6 / 它
+)                        :arg1  (x32 / 群
+))                  :op4  (x66 / possible
+                        :arg0  (x34_1_3 / 得到-01
+                              :arg1  (x35 / 帮助
+)                              :arg0  (x6 / 它
+))                        :polarity  (x34_2 / -
+)))            :arg2  (x21 / 叫-03
+                  :manner  (x23 / 悲惨-01
+                        :arg0  (x6 / 它
+))                  :arg0  (x6 / 它
+))))
+===========================
+它一听到弦响，心里很害怕，就拼命往高处飞。
+(x17 / condition
+      :arg1  (x3 / 听到-01
+            :arg0  (x1 / 它
+)            :arg2  (x5 / 响-01
+                  :arg0  (x4 / 弦
+)))      :arg2  (x25 / causation
+            :arg1  (x9 / 害怕-01
+                  :degree  (x8 / 很
+)                  :arg0  (x7 / 心里
+                        :poss  (x1 / 它
+)))            :arg2  (x12 / 拼命
+                  :arg0  (x1 / 它
+)                  :arg1  (x15 / 飞-01
+                        :arg0  (x1 / 它
+)                        :direction  (x14 / 高处
+)))))
+===========================
+它一使劲，伤口又裂开了，就掉了下来。
+(x15 / condition
+      :arg1  (x3 / 使劲-01
+            :arg0  (x1 / 它
+))      :arg2  (x19 / causation
+            :arg1  (x7 / 裂开-01
+                  :mod  (x6 / 又
+)                  :aspect  (x8 / 了
+)                  :arg0  (x5 / 伤口
+                        :poss  (x1 / 它
+)))            :arg2  (x11 / 掉-01
+                  :aspect  (x12 / 了
+)                  :direction  (x13 / 下来-01
+                        :arg0  (x1 / 它
+))                  :arg1  (x1 / 它
+))))
+===========================

@@ -1,0 +1,278 @@
+火红火红的凤凰花开了，傣族人民一年一度的泼水节又到了。
+(x17 / and
+      :op1  (x5 / 开-01
+            :arg1  (x4 / 凤凰花
+                  :arg0-of  (x1_x2 / 火红
+))            :aspect  (x6 / 了
+))      :op2  (x14 / 到-01
+            :aspect  (x15 / 了
+)            :arg0  (x25 / festival
+                  :name  ( x12/泼水节 
+                        :mod  (x10 / 一年一度
+)                        :poss  (x9 / 人民
+                              :mod  (x29 / ethnic-group
+                                    :name  ( x8/傣族 
+)))))            :mod  (x13 / 又
+)))
+===========================
+今年，傣族人民特别高兴，因为敬爱的周恩来总理要和他们一起过泼水节。
+(x20 / causation
+      :arg1  (x13 / 要-03
+            :arg0  (x17 / 过-02
+                  :arg1  (x23 / festival
+                        :name  ( x18/泼水节 
+))                  :manner  (x16 / 一起
+)                  :arg0  (x14 / and
+                        :op1  (x28 / person
+                              :name  ( x11/周恩来 
+)                              :arg0-of  (x30 / have-org-role
+                                    :arg2  (x12 / 总理
+))                              :arg1-of  (x9 / 敬爱-01
+))                        :op2  (x15 / x4
+))))      :arg2  (x6 / 高兴-01
+            :arg0  (x4 / 人民
+                  :mod  (x36 / ethnic-group
+                        :name  ( x3/傣族 
+)))            :time  (x1 / 今年
+)            :degree  (x5 / 特别
+)))
+===========================
+那天早晨，人们敲起象脚鼓，从四面八方赶来了。
+(x11 / 赶来-01
+      :arg0  (x4 / 人们
+)      :manner  (x5_x6 / 敲-01
+            :arg0  (x4 / 人们
+)            :arg1  (x7 / 象脚鼓
+))      :aspect  (x12 / 了
+)      :source  (x10 / 四面八方
+)      :time  (x2 / 早晨
+            :time  (x1 / 那天
+)))
+===========================
+为了欢迎周总理，人们在地上撒满了凤凰花的花瓣，好像铺上了鲜红的地毯。
+(x16 / 好像-01
+      :arg1  (x17_x18 / 铺上-01
+            :aspect  (x19 / 了
+)            :arg2  (x22 / 地毯
+                  :arg0-of  (x20 / 鲜红-01
+)))      :arg0  (x9 / 撒-01
+            :cause-of  (x10 / 满-01
+                  :arg0  (x14 / 花瓣
+                        :part-of  (x12 / 凤凰花
+))                  :arg1  (x8 / 地上
+))            :aspect  (x11 / 了-01
+)            :arg0  (x6 / 人们
+)            :location  (x8 / 地上
+)            :arg1  (x14 / 花瓣
+)            :purpose  (x2 / 欢迎-01
+                  :arg1  (x34 / person
+                        :arg0-of  (x35 / have-org-role
+                              :arg2  (x4 / 总理
+))                        :name  ( x3/周 
+)))))
+===========================
+一条条龙船驶过江面，一串串花炮升上天空。
+(x16 / and
+      :op1  (x5 / 驶过-01
+            :arg0  (x4 / 龙船
+                  :quant  (x1_x2_x3 / 一条条
+))            :path  (x6 / 江面
+))      :op2  (x12 / 升-03
+            :arg1  (x14 / 天空
+)            :arg0  (x11 / 花炮
+                  :quant  (x8_x9_x10 / 一串串
+))))
+===========================
+人们欢呼着：“周总理来了！”
+(x2 / 欢呼-01
+      :arg0  (x1 / 人们
+)      :aspect  (x3 / 着
+)      :arg1  (x7 / 来-01
+            :arg0  (x15 / person
+                  :name  ( x5/周 
+)                  :arg0-of  (x17 / have-org-role
+                        :arg2  (x6 / 总理
+)))            :aspect  (x8 / 了
+)            :mode  (x9 / expressive
+)))
+===========================
+周总理身穿对襟白褂，咖啡色长裤，头上包着一条水红色头巾，笑容满面地来到人群中。
+(x27 / and
+      :op1  (x4 / 穿-01
+            :arg0  (x3 / 身
+                  :part-of  (x31 / person
+                        :name  ( x1/周 
+)                        :arg0-of  (x33 / have-org-role
+                              :arg2  (x2 / 总理
+))))            :arg1  (x38 / and
+                  :op1  (x7 / 褂
+                        :arg0-of  (x6 / 白-01
+)                        :mod  (x5 / 对襟
+))                  :op2  (x10 / 长裤
+                        :arg0-of  (x9 / 咖啡色
+))))      :op2  (x14 / 包-01
+            :aspect  (x15 / 着
+)            :arg1  (x12 / 头
+                  :part-of  (x31 / person
+))            :arg2  (x19 / 头巾
+                  :quant  (x16 / 1
+)                  :cunit  (x17 / 条
+)                  :arg0-of  (x18 / 水红色
+)))      :op3  (x23 / 来到-01
+            :arg0  (x31 / person
+)            :manner  (x21 / 笑容满面
+)            :arg1  (x24 / 人群
+)))
+===========================
+他接过一只象脚鼓，敲着欢乐的鼓点，踩着凤凰花铺成的“地毯”，同傣族人民一起跳舞。
+(x29 / and
+      :op1  (x2 / 接-01
+            :arg1  (x6 / 象脚鼓
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 只
+))            :arg0  (x1 / 他
+))      :op2  (x8 / 敲-01
+            :aspect  (x9 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x12 / 鼓点
+                  :mod  (x10 / 欢乐
+)))      :op3  (x14 / 踩-02
+            :aspect  (x15 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x21 / 地毯
+                  :arg1-of  (x18 / 成-01
+                        :manner  (x17 / 铺-03
+                              :arg1  (x21 / 地毯
+)                              :arg2  (x16 / 凤凰花
+))                        :arg0  (x16 / 凤凰花
+))))      :op4  (x27 / 跳舞-01
+            :manner  (x26 / 一起
+)            :arg0  (x1 / 他
+)            :accompanier  (x25 / 人民
+                  :mod  (x49 / ethnic-group
+                        :name  ( x24/傣族 
+)))))
+===========================
+开始泼水了。
+(x1 / 开始-01
+      :arg1  (x2 / 泼
+            :arg1  (x3 / 水
+))      :smood  (x4 / 了
+))
+===========================
+周总理一手端着盛满清水的银碗，一手拿着柏树枝蘸了水，向人们泼洒，为人们祝福。
+(x31 / and
+      :op1  (x5 / 端-01
+            :arg0  (x4 / 手
+                  :quant  (x3 / 1
+)                  :part-of  (x37 / person
+                        :name  ( x1/周 
+)                        :arg0-of  (x39 / have-org-role
+                              :arg2  (x2 / 总理
+))))            :aspect  (x6 / 着
+)            :arg1  (x11 / 银碗
+                  :mod  (x7 / 盛-02
+                        :cause-of  (x8 / 满-01
+                              :arg0  (x9 / 清水
+)                              :arg1  (x11 / 银碗
+))                        :arg1  (x9 / 清水
+)                        :arg2  (x11 / 银碗
+))))      :op2  (x43 / temporal
+            :arg1  (x15 / 拿-03
+                  :aspect  (x16 / 着
+)                  :arg1  (x18 / 枝
+                        :part-of  (x17 / 柏树
+))                  :arg0  (x14 / 手
+                        :part-of  (x37 / person
+)                        :quant  (x13 / 1
+)))            :arg2  (x19 / 蘸
+                  :arg0  (x37 / person
+)                  :arg1  (x18 / 枝
+)                  :aspect  (x20 / 了
+)                  :arg2  (x21 / 水
+))            :arg3  (x25 / 泼洒-01
+                  :arg0  (x37 / person
+)                  :arg1  (x21 / 水
+)                  :arg2  (x24 / 人们
+)))      :op3  (x29 / 祝福-01
+            :arg0  (x37 / person
+)            :arg1  (x28 / x24
+)))
+===========================
+傣族人民一边欢呼，一边向周总理泼水，祝福他健康长寿。
+(x18 / and
+      :op1  (x4 / 欢呼-01
+            :arg0  (x2 / 人民
+                  :mod  (x22 / ethnic-group
+                        :name  ( x1/傣族 
+))))      :op2  (x10 / 泼-01
+            :arg0  (x2 / 人民
+)            :arg1  (x11 / 水
+)            :arg2  (x26 / person
+                  :name  ( x8/周 
+)                  :arg0-of  (x28 / have-org-role
+                        :arg2  (x9 / 总理
+))))      :op3  (x13 / 祝福-01
+            :arg0  (x2 / 人民
+)            :arg1  (x14 / x26
+)            :arg2  (x32 / and
+                  :op1  (x15 / 健康
+)                  :op2  (x16 / 长寿
+))))
+===========================
+清清的水，泼呀，洒呀！
+(x10 / and
+      :op1  (x4 / 泼-01
+            :arg1  (x2 / 水
+                  :arg0-of  (x1 / 清-01
+))            :mode  (x5 / expressive
+))      :op2  (x7 / 洒-01
+            :arg1  (x2 / 水
+)            :mode  (x8_x9 / expressive
+)))
+===========================
+周总理和傣族人民笑哇，跳哇，是那么开心！
+(x16 / and
+      :op1  (x6 / 笑-01
+            :arg0  (x3 / and
+                  :op1  (x20 / person
+                        :name  ( x1/周 
+)                        :arg0-of  (x23 / have-org-role
+                              :arg2  (x2 / 总理
+)))                  :op2  (x5 / 人民
+                        :mode  (x25 / ethnic-group
+                              :name  ( x4/傣族 
+))))            :mode  (x7 / expressive
+))      :op2  (x9 / 跳-02
+            :arg0  (x3 / and
+)            :mode  (x10 / expressive
+))      :op3  (x14 / 开心-01
+            :mode  (x12 / judgement
+)            :degree  (x13 / 那么
+)            :mode  (x15 / expressive
+)            :arg0  (x3 / and
+)))
+===========================
+多么幸福哇，1961年的泼水节！
+(x2 / 幸福
+      :degree  (x1 / 多么
+)      :mode  (x3_x9 / expressive
+)      :time  (x14 / festival
+            :name  ( x8/泼水节 
+)            :time  (x16 / date-entity
+                  :year  (x5 / 1961
+))))
+===========================
+多么令人难忘啊，1961年的泼水节！
+(x2 / 令-01
+      :arg1  (x3 / 人
+)      :arg2  (x4 / 难忘-01
+            :arg0  (x3 / 人
+)            :arg1  (x15 / festival
+                  :name  ( x9/泼水节 
+                        :time  (x17 / date-entity
+                              :year  (x6_2_3_4_5 / 1961
+)))))      :mode  (x5_x10 / expressive
+)      :degree  (x1 / 多么
+))
+===========================

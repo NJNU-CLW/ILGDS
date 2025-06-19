@@ -1,0 +1,921 @@
+深蓝的天空中挂着一轮金黄的圆月，下面是海边的沙地，都种着一望无际的碧绿的西瓜。
+(x29 / and
+      :op1  (x5 / 挂-01
+            :arg1  (x12 / 月
+                  :arg0-of  (x11 / 圆-01
+)                  :arg0-of  (x9 / 金黄
+)                  :quant  (x7 / 1
+)                  :cunit  (x8 / 轮
+))            :aspect  (x6 / 着
+)            :arg2  (x3 / 天空
+))      :op2  (x18 / 沙地
+            :location  (x16 / 海边
+)            :domain  (x14 / 下面
+))      :op3  (x21 / 种-01
+            :arg1  (x27 / 西瓜
+                  :arg0-of  (x25 / 碧绿
+)                  :arg0-of  (x23 / 一望无际-01
+))            :mod  (x20 / 都
+)            :aspect  (x22 / 着
+)))
+===========================
+其间有一个十一二岁的少年，项带银圈，手捏一柄钢叉，向一匹猹尽力地刺去。
+(x31 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1 / 其间
+)            :arg1  (x8 / 少年
+                  :arg1-of  (x36 / age
+                        :arg2  (x37 / temporal-quantity
+                              :quant  (x38 / between
+                                    :op1  (x5_1_2 / 11
+)                                    :op2  (x5_1_3 / 12
+))                              :unit  (x6 / 岁
+)))                  :quant  (x3 / 1
+)                  :cunit  (x4 / 个
+)))      :op2  (x11 / 带-05
+            :arg0  (x10 / 项
+)            :arg1  (x13 / 圈
+                  :consist-of  (x12 / 银
+)))      :op3  (x16 / 捏-01
+            :arg0  (x15 / 手
+)            :arg1  (x20 / 叉
+                  :consist-of  (x19 / 钢
+)                  :quant  (x17 / 1
+)                  :cunit  (x18 / 柄
+)))      :op4  (x28 / 刺-01
+            :arg1  (x25 / 猹
+                  :quant  (x23 / 1
+)                  :cunit  (x24 / 匹
+))            :manner  (x26 / 尽力
+)))
+===========================
+那猹却将身一扭，反从他的胯下逃走了。
+(x18 / contrast
+      :arg2  (x20 / temporal
+            :arg1  (x7 / 扭-03
+                  :arg0  (x2 / 猹
+                        :mod  (x1 / 那
+))                  :arg1  (x5 / 身
+))            :arg2  (x15 / 逃走-01
+                  :arg0  (x2 / 猹
+)                  :source  (x14 / 下
+                        :arg0  (x13 / 胯
+                              :part-of  (x11 / 他
+)))                  :manner  (x9 / 反
+)                  :aspect  (x16 / 了
+))))
+===========================
+这少年便是闰土。
+(x6 / person
+      :name  ( x4/闰土 
+)      :domain  (x2 / 少年
+            :mod  (x1 / 这
+)))
+===========================
+我认识他时，也不过十多岁，离现在将有三十年了；那时我的父亲还在世，家景也好，我正是一个少爷。
+(x37 / and
+      :op1  (x15 / 有-05
+            :arg0  (x43 / date-interval
+                  :op1  (x2 / 认识-01
+                        :arg0  (x1 / 我
+                              :arg1-of  (x46 / age
+                                    :arg2  (x47 / temporal-quantity
+                                          :quant  (x9 / 10
+                                                :op1  (x9 / 10
+))                                          :unit  (x10 / 岁
+)                                          :mod  (x7 / 不过
+))                                    :mod  (x6 / 也
+)))                        :arg1  (x3 / 他
+))                  :op2  (x13 / 现在
+))            :arg1  (x54 / temporal-quantity
+                  :quant  (x16 / 30
+)                  :unit  (x17 / 年
+))            :aspect  (x18 / 了
+))      :op2  (x25 / 在世-01
+            :arg0  (x23 / 父亲
+                  :poss  (x21 / x1
+))            :time  (x20 / 那时
+))      :op3  (x29 / 好-01
+            :arg0  (x27 / 家景
+)            :mod  (x28 / 也
+))      :op4  (x35 / 少爷
+            :quant  (x33 / 1
+)            :cunit  (x34 / 个
+)            :domain  (x31 / x1
+)))
+===========================
+那一年，我家是一件大祭祀的值年。
+(x12 / 值年
+      :time-of  (x10 / 祭祀
+            :arg0-of  (x9 / 大-01
+))      :quant  (x7 / 1
+)      :cunit  (x8 / 件
+)      :domain  (x5 / 我家
+)      :time  (x1_x2_x3 / 那一年
+))
+===========================
+这祭祀，说是三十多年才能轮到一回，所以很郑重；正月里供祖像，供品很多，祭器很讲究，拜的人也很多，祭器也很要防偷去。
+(x46 / and
+      :op1  (x48 / causation
+            :arg1  (x4_x5 / 说-01
+                  :arg1  (x10 / 能-01
+                        :arg0  (x11_x12 / 轮到-01
+                              :arg1  (x2 / 祭祀
+                                    :mod  (x1 / 这
+)                                    :quant  (x13 / 1
+)                                    :cunit  (x14 / 回
+)))                        :condition  (x56 / temporal-quantity
+                              :quant  (x7 / 多
+                                    :op1  (x6 / 30
+))                              :unit  (x8 / 年
+))))            :arg2  (x18 / 郑重-01
+                  :degree  (x17 / 很
+)))      :op2  (x22 / 供-01
+            :arg1  (x23 / 祖像
+)            :time  (x64 / date-entity
+                  :calendar  (x20_1 / 农历
+)                  :month  (x20 / 1
+)))      :op3  (x26_2 / 多-03
+            :degree  (x26_1 / 很
+)            :arg0  (x25 / 供品
+))      :op4  (x30 / 讲究-01
+            :arg1  (x28 / 祭器
+)            :degree  (x29 / 很
+))      :op5  (x36_2 / 多-03
+            :degree  (x36_1 / 很
+)            :arg0  (x34 / 人
+                  :arg0-of  (x32 / 拜-01
+))            :mod  (x35 / 也
+))      :op6  (x41 / 要-03
+            :arg0  (x42 / 防-02
+                  :arg1  (x43_x44 / 偷-01
+                        :arg1  (x38 / x28
+)))            :degree  (x40 / 很
+)            :mod  (x39 / 也
+)))
+===========================
+我家只有一个忙月我们这里给人做工的分三种：整年给一定人家做工的叫长工；按日给人做工的叫短工；自己也种地，只在过年过节以及收租时候来给一定的人家做工的称忙月），忙不过来，他便对父亲说，可以叫他的儿子闰土来管祭器的。
+(x78 / and
+      :op1  (x3 / 有-01
+            :arg0  (x1 / 我家
+)            :arg1  (x6 / 忙月
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 个
+))            :mod  (x2 / 只
+))      :arg2  (x13 / 分-01
+            :arg0  (x8 / 这里
+                  :mod  (x7 / 我们
+))            :arg1  (x89 / person
+                  :arg0-of  (x11 / 做工-01
+                        :beneficiary  (x10 / 人
+)))            :arg2  (x15 / 种
+                  :quant  (x14 / 3
+)                  :arg0-of  (x94 / mean
+                        :arg1  (x95 / and
+                              :op1  (x23 / 叫-01
+                                    :arg1  (x24 / 长工
+)                                    :arg0  (x98 / person
+                                          :arg0-of  (x21 / 做工-01
+                                                :beneficiary  (x20 / 人家
+                                                      :mod  (x19 / 一定
+))                                                :time  (x17 / 整年
+))))                              :op2  (x32 / 叫-01
+                                    :arg1  (x33 / 短工
+)                                    :arg0  (x105 / person
+                                          :arg0-of  (x30 / 做工-01
+                                                :beneficiary  (x29 / 人
+)                                                :manner  (x26 / 按
+                                                      :arg1  (x27 / 日
+)))))                              :op3  (x111 / and
+                                    :op1  (x37 / 种地-01
+                                          :mod  (x36 / 也
+)                                          :arg0  (x35 / x116
+))                                    :op2  (x54 / 称-01
+                                          :arg2  (x55 / 忙月
+)                                          :arg1  (x116 / person
+                                                :arg0-of  (x52 / 做工-01
+                                                      :beneficiary  (x51 / 人家
+                                                            :mod  (x49 / 一定
+))                                                      :time  (x120 / and
+                                                            :op1  (x41 / 过年
+)                                                            :op2  (x42 / 过节
+)                                                            :op3  (x44 / 收-02
+                                                                  :arg1  (x45 / 租
+))                                                            :mod  (x39 / 只
+))))))))))      :op3  (x127 / causation
+            :arg1  (x57 / 忙
+                  :manner  (x59 / 过来
+)                  :polarity  (x58 / -
+))            :arg2  (x65 / 说-01
+                  :arg0  (x61 / 他
+)                  :arg3  (x64 / 父亲
+)                  :arg1  (x67 / 可以-01
+                        :arg0  (x68 / 叫-04
+                              :arg1  (x71 / 儿子
+                                    :name  ( x72/闰土 
+)                                    :poss  (x69 / x61
+))                              :arg2  (x74 / 管-01
+                                    :arg1  (x75 / 祭器
+)                                    :arg0  (x71 / 儿子
+))                              :arg0  (x61 / 他
+))                        :smood  (x76 / 的
+)))))
+===========================
+我的父亲允许了；我也很高兴，因为我早听到闰土这名字，而且知道他和我仿佛年纪，闰月生的，五行缺土，所以他的父亲叫他闰土。
+(x45 / causation
+      :arg2  (x47 / temporal
+            :arg1  (x4 / 允许-01
+                  :arg0  (x3 / 父亲
+                        :poss  (x1 / 我
+))                  :aspect  (x5 / 了
+))            :arg2  (x10 / 高兴-01
+                  :degree  (x9 / 很
+)                  :arg0  (x7 / x1
+)                  :mod  (x8 / 也
+)))      :arg1  (x56 / progression
+            :arg1  (x15 / 听到-01
+                  :arg0  (x13 / x1
+)                  :time  (x14 / 早
+)                  :arg1  (x18 / 名字
+                        :arg0-of  (x61 / mean
+                              :arg1  (x16 / 闰土
+))                        :mod  (x17 / 这
+)))            :arg2  (x21 / 知道-01
+                  :arg1  (x65 / and
+                        :op1  (x26 / 年纪
+                              :mod  (x25 / 仿佛
+)                              :poss  (x68 / and
+                                    :op1  (x22 / 他
+)                                    :op2  (x24 / x1
+)))                        :op2  (x72 / causation
+                              :arg1  (x73 / and
+                                    :op1  (x29 / 生-01
+                                          :time  (x75 / date-entity
+                                                :calendar  (x28 / 农历
+)                                                :month  (x28_1 / 2
+))                                          :arg1  (x22 / 他
+))                                    :op2  (x34 / 缺-01
+                                          :arg0  (x33 / 行
+                                                :quant  (x32 / 5
+))                                          :arg1  (x35 / 土
+)))                              :arg2  (x41 / 叫-01
+                                    :arg0  (x40 / 父亲
+                                          :poss  (x38 / x22
+))                                    :arg1  (x43 / 闰土
+)                                    :arg2  (x42 / x22
+)))))))
+===========================
+他是能装弶捉小鸟雀的。
+(x3 / 能-01
+      :arg0  (x13 / and
+            :op1  (x4 / 装-01
+                  :arg1  (x5 / 弶
+)                  :arg0  (x1 / 他
+))            :op2  (x6 / 捉-01
+                  :arg1  (x8 / 鸟雀
+                        :arg0-of  (x7 / 小-01
+))                  :arg0  (x1 / 他
+)))      :mode  (x2_x9 / judgement
+))
+===========================
+我于是日日盼望新年，新年到，闰土也就到了。
+(x16 / causation
+      :arg2  (x24 / and
+            :op1  (x4 / 盼望-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x20 / festival
+                        :name  ( x5/新年 
+))                  :time  (x3 / 日日
+))            :op2  (x26 / causation
+                  :arg1  (x8 / 到-01
+                        :arg1  (x7 / x20
+))                  :arg2  (x13 / 到-01
+                        :arg0  (x30 / person
+                              :name  ( x10/闰土 
+))                        :mod  (x12 / 就
+)                        :aspect  (x14 / 了
+)))))
+===========================
+好容易到了年末，有一日，母亲告诉我，闰土来了，我便飞跑地去看。
+(x25 / and
+      :op1  (x2 / 到-01
+            :arg1  (x4 / 年末
+)            :aspect  (x3 / 了
+)            :manner  (x1 / 好容易
+))      :op2  (x39 / temporal
+            :arg1  (x11 / 告诉-01
+                  :arg0  (x10 / 母亲
+)                  :arg2  (x12 / 我
+)                  :time  (x6_x7_x8 / 有一日
+)                  :arg1  (x15 / 来-01
+                        :arg0  (x37 / person
+                              :name  ( x14/闰土 
+))                        :aspect  (x16 / 了
+)))            :arg2  (x23 / 看-02
+                  :arg0  (x18 / x12
+)                  :mod  (x19 / 便
+)                  :manner  (x20 / 飞跑-01
+                        :arg0  (x18 / x12
+)))))
+===========================
+他正在厨房里，紫色的圆脸，头戴一顶小毡帽，颈上套一个明晃晃的银项圈，这可见他的父亲十分爱他，怕他死去，所以在神佛面前许下心愿，用圈子将他套住了。
+(x58 / and
+      :op2  (x9 / 脸
+            :arg0-of  (x8 / 圆-01
+)            :arg0-of  (x6 / 紫色
+))      :op3  (x12 / 戴-01
+            :arg0  (x11 / 头
+)            :arg1  (x16 / 毡帽
+                  :arg0-of  (x15 / 小-01
+)                  :quant  (x13 / 1
+)                  :cunit  (x14 / 顶
+)))      :op4  (x20 / 套-02
+            :arg1  (x26 / 项圈
+                  :consist-of  (x25 / 银
+)                  :arg0-of  (x23 / 明晃晃
+)                  :quant  (x21 / 1
+)                  :cunit  (x22 / 个
+))            :arg2  (x18 / 颈
+))      :op6  (x87 / causation
+            :arg1  (x37 / 怕-01
+                  :arg1  (x39_x40 / 死去-01
+                        :arg0  (x38 / x1
+))                  :arg0  (x32 / 父亲
+                        :poss  (x30 / x1
+)))            :arg2  (x91 / and
+                  :op1  (x47 / 许下-01
+                        :arg1  (x48 / 心愿
+)                        :arg0  (x32 / 父亲
+)                        :location  (x46 / 面前
+                              :arg0  (x96 / and
+                                    :op1  (x44 / 神
+)                                    :op2  (x45 / 佛
+))))                  :op2  (x50 / 用-01
+                        :arg1  (x51 / x26
+)                        :arg2  (x54_x55 / 套-01
+                              :arg2  (x53 / x1
+)                              :arg1  (x51 / x26
+))                        :aspect  (x56 / 了
+)                        :arg0  (x32 / 父亲
+))))      :op5  (x29 / 可见
+            :arg0  (x28 / x20
+)            :arg1  (x34 / 爱-01
+                  :arg0  (x32 / 父亲
+)                  :degree  (x33 / 十分
+)                  :arg1  (x35 / x1
+)))      :op1  (x2_2 / 在-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 厨房
+)            :aspect  (x2_1 / 正
+)))
+===========================
+他见人很怕羞，只是不怕我，没有旁人的时候，便和我说话，于是不到半日，我们便熟识了。
+(x33 / causation
+      :arg1  (x35 / and
+            :op1  (x36 / contrast
+                  :arg1  (x5 / 怕羞
+                        :arg0  (x1 / 他
+)                        :condition  (x2 / 见-01
+                              :arg1  (x3 / 人
+)                              :arg0  (x1 / 他
+))                        :degree  (x4 / 很
+))                  :arg2  (x9 / 怕-01
+                        :arg0  (x1 / 他
+)                        :arg1  (x10 / 我
+)                        :polarity  (x8 / -
+)                        :mod  (x7 / 只是
+)))            :arg2  (x20 / 说话-01
+                  :arg0  (x47 / and
+                        :op1  (x1 / 他
+)                        :op2  (x19 / x10
+))                  :time  (x12_2 / 有-03
+                        :arg1  (x13 / 旁人
+)                        :polarity  (x12_1 / -
+))))      :arg2  (x52 / temporal
+            :arg1  (x24 / 到-01
+                  :polarity  (x23 / -
+)                  :arg1  (x56 / temporal-quantity
+                        :quant  (x25 / 0.5
+)                        :unit  (x26 / 日
+)))            :arg2  (x30 / 熟识-01
+                  :arg0  (x28 / 我们
+)                  :aspect  (x31 / 了
+))))
+===========================
+我们那时候不知道谈些什么，只记得闰土很高兴，说是上城之后，见了许多没有见过的东西。
+(x30 / and
+      :op1  (x5 / 知道-01
+            :arg0  (x1 / 我们
+)            :arg1  (x6 / 谈-01
+                  :arg1  (x8 / amr-unknown
+                        :quant  (x7 / 些
+))                  :arg0  (x1 / 我们
+)                  :time  (x2_x3 / 那时候
+)))      :op2  (x11 / 记得-01
+            :mod  (x10 / 只
+)            :arg1  (x40 / and
+                  :op1  (x14 / 高兴-01
+                        :arg0  (x42 / person
+                              :name  ( x12/闰土 
+))                        :degree  (x13 / 很
+))                  :op2  (x16 / 说-01
+                        :arg1  (x46 / temporal
+                              :arg1  (x18 / 上城
+)                              :arg2  (x21 / 见-01
+                                    :arg1  (x28 / 东西
+                                          :arg1-of  (x25 / 见-01
+                                                :aspect  (x26 / 过
+)                                                :polarity  (x24 / -
+))                                          :quant  (x23 / 许多
+))                                    :aspect  (x22 / 了
+)                                    :arg0  (x42 / person
+)))                        :arg0  (x42 / person
+)))))
+===========================
+第二日，我便要他捕鸟。
+(x6 / 要
+      :arg0  (x4 / 我
+)      :arg1  (x8 / 捕
+            :arg0  (x7 / 他
+)            :arg1  (x9 / 鸟
+))      :arg1  (x8 / 捕
+)      :time  (x17 / ordinal-entity
+            :value  (x1 / 2
+)            :unit  (x2 / 日
+)))
+===========================
+他说：“这不能。
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x5_2 / 能-01
+            :polarity  (x5_1 / -
+)            :arg0  (x4 / 这
+)))
+===========================
+须大雪下了才好。
+(x8 / condition
+      :arg1  (x1 / 须-01
+            :arg0  (x3 / 下-05
+                  :arg0  (x2 / 大雪
+)))      :arg2  (x6 / 好
+))
+===========================
+我们沙地上，下了雪，我扫出一块空地来，用短棒支起一个大竹匾,撒下秕谷，看鸟雀来吃时，我远远地将缚在棒上的绳子只一拉，那鸟雀就罩在竹匾下了。
+(x59 / temporal
+      :arg1  (x5 / 下-05
+            :arg0  (x7 / 雪
+)            :aspect  (x6 / 了
+)            :location  (x2 / 沙地
+                  :poss  (x1 / 我们
+)))      :arg2  (x10_x11 / 扫-01
+            :cause-of  (x14 / 空地
+                  :quant  (x12 / 1
+)                  :cunit  (x13 / 块
+))            :arg0  (x9 / 我
+))      :arg4  (x27_x28 / 撒下-01
+            :arg1  (x29 / 秕谷
+))      :arg3  (x17 / 用-01
+            :arg1  (x19 / 棒
+                  :arg0-of  (x18 / 短-01
+))            :arg2  (x20_x21 / 支-01
+                  :arg1  (x25 / 竹匾
+                        :arg0-of  (x24 / 大-01
+)                        :quant  (x22 / 1
+)                        :cunit  (x23 / 个
+))))      :arg5  (x48 / 拉-01
+            :time  (x31 / 看-02
+                  :arg1  (x34 / 吃-01
+                        :arg1  (x29 / 秕谷
+)                        :arg0  (x32 / 鸟雀
+)))            :manner  (x38 / 远
+)            :arg1  (x45 / 绳子
+                  :arg1-of  (x40 / 缚
+                        :arg2  (x42_x43 / 棒
+)))            :mod  (x46 / 只
+))      :arg6  (x53 / 罩-01
+            :arg1  (x56 / 下
+                  :arg0  (x55 / x25
+))            :arg1  (x51 / x32
+                  :mod  (x50 / 那
+))))
+===========================
+什么都有：稻鸡，角鸡，鹑鸽，蓝背……”
+(x3 / 有-03
+      :arg1  (x1 / 什么
+            :example  (x16 / and
+                  :op1  (x5 / 稻鸡
+)                  :op2  (x7 / 角鸡
+)                  :op3  (x9 / 鹑鸽
+)                  :op4  (x11 / 蓝背
+)))      :mod  (x2 / 都
+))
+===========================
+我于是又很盼望下雪。
+(x8 / causation
+      :arg2  (x5 / 盼望-01
+            :arg0  (x1 / 我
+)            :mod  (x3 / 又
+)            :arg1  (x6 / 下雪
+)            :degree  (x4 / 很
+)))
+===========================
+闰土又对我说：“现在太冷，你夏天到我们这里来。
+(x5 / 说-01
+      :arg0  (x20 / person
+            :name  ( x1/闰土 
+))      :arg3  (x4 / 我
+)      :mod  (x2 / 又
+)      :arg1  (x24 / and
+            :op1  (x9 / 冷
+                  :degree  (x8 / 太
+)                  :time  (x7 / 现在
+))            :op2  (x13 / 到-01
+                  :arg1  (x15 / 这里
+                        :poss  (x14 / 我们
+))                  :arg0  (x11 / x4
+)                  :time  (x12 / 夏天
+))))
+===========================
+我们日里到海边捡贝壳去，红的绿的都有，鬼见怕也有，观音手也有。
+(x25 / and
+      :op1  (x4 / 到-01
+            :arg0  (x1 / 我们
+)            :time  (x2_x3 / 日里
+)            :arg1  (x5 / 海边
+)            :purpose  (x6 / 捡-01
+                  :arg1  (x7 / 贝壳
+)                  :arg0  (x1 / 我们
+)))      :op2  (x15 / 有-03
+            :arg1  (x34 / and
+                  :op1  (x35 / thing
+                        :arg0-of  (x10 / 红-01
+))                  :op2  (x37 / thing
+                        :arg1-of  (x12 / 绿-01
+)))            :mod  (x14 / 都
+))      :op3  (x19 / 有-03
+            :mod  (x18 / 也
+)            :arg1  (x43 / thing
+                  :name  ( x17/鬼见怕 
+)))      :op4  (x23 / 有-03
+            :arg1  (x45 / thing
+                  :name  ( x21/观音手 
+))))
+===========================
+晚上我和爹管西瓜去，你也去。”
+(x13 / say
+      :arg1  (x17 / and
+            :op1  (x5 / 管-01
+                  :arg0  (x3 / and
+                        :op1  (x2 / 我
+)                        :op2  (x4 / 爹
+))                  :arg1  (x6 / 西瓜
+)                  :time  (x1 / 晚上
+))            :op2  (x11 / 去-01
+                  :arg0  (x9 / 你
+))))
+===========================
+“管贼吗？”
+(x6 / say
+      :arg1  (x2 / 管-01
+            :arg1  (x3 / 贼
+)            :mode  (x4_x5 / interrogative
+)))
+===========================
+“不是。
+(x5 / say
+      :arg1  (x3 / 是
+            :polarity  (x2 / -
+)))
+===========================
+走路的人口渴了摘一个瓜吃，我们这里是不算偷的。
+(x19 / condition
+      :arg1  (x21 / causation
+            :arg1  (x4 / 口渴-01
+                  :arg0  (x3 / 人
+                        :arg0-of  (x1 / 走路-01
+))                  :aspect  (x5 / 了
+))            :arg2  (x6 / 摘-01
+                  :arg1  (x9 / 瓜
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 个
+))                  :purpose  (x10 / 吃
+                        :arg0  (x3 / 人
+))))      :arg2  (x15_2 / 算-01
+            :polarity  (x15_1 / -
+)            :arg1  (x16 / 偷
+)            :location  (x13 / 这里
+                  :poss  (x12 / 我们
+))            :mode  (x14_x17 / judgement
+)))
+===========================
+要管的是獾猪，刺猬，猹。
+(x11 / and
+      :op1  (x5 / 獾猪
+)      :op2  (x7 / 刺猬
+)      :op3  (x9 / 猹
+)      :domain  (x16 / thing
+            :arg1-of  (x2 / 管-01
+                  :arg0-of  (x1 / 要-03
+))))
+===========================
+月亮地下，你听，啦啦地响了，猹在咬瓜了。
+(x19 / causation
+      :arg1  (x5 / 听-01
+            :arg0  (x4 / 你
+)            :arg1  (x10 / 响
+                  :manner  (x7_x8 / 啦
+)))      :arg2  (x15 / 咬-01
+            :arg0  (x13 / 猹
+)            :arg1  (x16 / 瓜
+)            :aspect  (x14 / 在
+)            :aspect  (x17 / 了
+))      :location  (x2 / 地下
+            :condition  (x1 / 月亮
+)))
+===========================
+你便捏了胡叉，轻轻地走去……”
+(x11 / say
+      :arg1  (x13 / temporal
+            :arg1  (x3 / 捏-01
+                  :arg0  (x1 / 你
+)                  :arg1  (x5 / 胡叉
+)                  :aspect  (x4 / 了
+)                  :mod  (x2 / 便
+))            :arg2  (x8_x9 / 走去-01
+                  :manner  (x7 / 轻
+)                  :arg0  (x1 / 你
+))))
+===========================
+我那时并不知道这所谓猹的是怎么一件东西—便是现在也没有知道——只是无端地觉得状如小狗而很凶猛。
+(x34 / and
+      :op1  (x5 / 知道-01
+            :arg0  (x1 / 我
+)            :arg1  (x14 / 东西
+                  :quant  (x12 / 1
+)                  :cunit  (x13 / 件
+)                  :mod  (x11 / amr-unknown
+)                  :domain  (x42 / thing
+                        :arg0-of  (x7 / 所谓-01
+                              :arg1  (x8 / 猹
+))                        :mod  (x6 / 这
+)))            :polarity  (x4 / -
+                  :mod  (x3 / 并
+))            :time  (x2 / 那时
+))      :op2  (x49 / concession
+            :arg1  (x17 / 现在
+)            :arg2  (x20 / 知道-01
+                  :polarity  (x19 / -
+)                  :mod  (x18 / 也
+)))      :op3  (x25 / 觉得-01
+            :arg1  (x55 / and
+                  :op1  (x27 / 如-01
+                        :arg1  (x29 / 狗
+                              :arg0-of  (x28 / 小-01
+))                        :arg0  (x26 / 状
+))                  :op2  (x32 / 凶猛-01
+                        :arg0  (x8 / 猹
+)                        :degree  (x31 / 很
+)))            :mod  (x22 / 只是
+)            :manner  (x23 / 无端
+)            :arg0  (x1 / 我
+)))
+===========================
+“它不咬人吗？”
+(x8 / say
+      :arg1  (x4 / 咬-01
+            :arg0  (x2 / 它
+)            :polarity  (x3 / -
+)            :arg1  (x5 / 人
+)            :mode  (x6_x7 / interrogative
+)))
+===========================
+“有胡叉呢。
+(x6 / say
+      :arg1  (x2 / 有-01
+            :arg1  (x3 / 胡叉
+)            :mode  (x4 / expressive
+)))
+===========================
+走到了，看见猹了，你便刺。
+(x13 / temporal
+      :arg1  (x1_x2 / 走到-01
+            :arg0  (x9 / 你
+)            :aspect  (x3 / 了
+))      :arg2  (x18 / condition
+            :arg1  (x5 / 看见-01
+                  :arg1  (x6 / 猹
+)                  :aspect  (x7 / 了
+)                  :arg0  (x9 / 你
+))            :arg2  (x11 / 刺-01
+                  :arg0  (x9 / 你
+))))
+===========================
+这畜生很伶俐，倒向你奔来，反从胯下窜了。
+(x19 / and
+      :op1  (x4 / 伶俐
+            :arg0  (x2 / 畜生
+                  :mod  (x1 / 这
+))            :degree  (x3 / 很
+))      :op2  (x25 / temporal
+            :arg1  (x9_x10 / 奔-01
+                  :arg1  (x8 / 你
+)                  :manner  (x6 / 倒
+)                  :arg0  (x2 / 畜生
+))            :arg2  (x16 / 窜-01
+                  :arg1  (x14_x15 / 胯下
+)                  :mod  (x12 / 反
+)                  :arg0  (x2 / 畜生
+)                  :aspect  (x17 / 了
+))))
+===========================
+它的皮毛是油一般的滑……”
+(x10 / say
+      :arg0  (x8 / 滑-01
+            :arg0  (x3 / 皮毛
+                  :part-of  (x1 / 它
+))            :manner  (x6 / 一般-01
+                  :arg1  (x5 / 油
+))))
+===========================
+我素不知道天下有这许多新鲜事：海边有如许五色的贝壳；西瓜有这样危险的经历，我先前单知道它在水果店里出卖罢了。
+(x48 / and
+      :op1  (x4 / 知道-01
+            :arg0  (x1 / 我
+)            :polarity  (x3 / -
+)            :mod  (x2 / 素
+)            :arg1  (x6 / 有-03
+                  :arg0  (x5 / 天下
+)                  :arg1  (x9 / 新鲜事
+                        :quant  (x8 / 许多
+)                        :mod  (x7 / 这
+)                        :arg0-of  (x47 / mean
+                              :arg1  (x50 / and
+                                    :op1  (x12 / 有-03
+                                          :arg0  (x11 / 海边
+)                                          :arg1  (x17 / 贝壳
+                                                :mod  (x15 / 色
+                                                      :quant  (x14 / 5
+))                                                :quant  (x13 / 如许
+)))                                    :op2  (x20 / 有-05
+                                          :arg0  (x19 / 西瓜
+)                                          :arg1  (x24 / 经历
+                                                :arg0-of  (x22 / 危险-01
+                                                      :mod  (x21 / 这样
+)))))))))      :op2  (x29 / 知道-01
+            :arg0  (x26 / x1
+)            :mod  (x28 / 单
+)            :arg1  (x34 / 出卖-01
+                  :location  (x32_x33_1 / 水果店
+)                  :arg1  (x30 / x19
+))            :smood  (x35 / 罢了
+)            :time  (x27 / 先前
+)))
+===========================
+“我们沙地里，潮汛要来的时候，就有许多跳鱼儿只是跳，都有青蛙似的两个脚……”
+(x27 / say
+      :arg1  (x29 / and
+            :location  (x3 / 沙地
+                  :poss  (x2 / 我们
+))            :time  (x7 / 要-03
+                  :arg0  (x8 / 来-01
+                        :arg0  (x6 / 潮汛
+)))            :op1  (x17 / 跳-01
+                  :mod  (x12 / 就
+)                  :arg0  (x15 / 跳鱼儿
+                        :quant  (x14 / 许多
+)                        :arg1-of  (x13 / 有-03
+)))            :op2  (x20 / 有-01
+                  :arg1  (x25 / 脚
+                        :quant  (x23 / 2
+)                        :cunit  (x24 / 个
+)                        :arg0-of  (x22 / 似的
+                              :arg1  (x21 / 青蛙
+)))                  :mod  (x19 / 都
+)                  :arg0  (x15 / 跳鱼儿
+))))
+===========================
+啊！闰土的心里有无穷无尽的希奇的事，都是我往常的朋友所不知道的。
+(x24 / and
+      :op1  (x1 / 啊
+            :mode  (x2 / expressive
+))      :op2  (x6 / 有-01
+            :arg0  (x5 / 心里
+                  :part-of  (x30 / person
+                        :name  ( x3/闰土 
+)))            :arg1  (x11 / 事
+                  :arg0-of  (x9 / 希奇
+)                  :arg0-of  (x7 / 无穷无尽-01
+)))      :op3  (x35 / thing
+            :arg1-of  (x21 / 知道-01
+                  :polarity  (x20 / -
+)                  :arg0  (x18 / 朋友
+                        :poss  (x15 / 我
+)                        :mod  (x16 / 往常
+)))            :domain  (x11 / 事
+)            :mod  (x13 / 都
+)))
+===========================
+他们不知道一些事，闰土在海边时，他们都和我一样，只看见院子里高墙上的四角的天空。
+(x29 / and
+      :op1  (x3 / 知道-01
+            :arg0  (x1 / 他们
+)            :polarity  (x2 / -
+)            :arg1  (x5 / 事
+                  :quant  (x4 / 一些
+)))      :op2  (x41 / and
+            :op1  (x16 / 一样-02
+                  :arg0  (x12 / x1
+)                  :arg1  (x15 / 我
+)                  :mod  (x13 / 都
+))            :op2  (x19 / 看见-01
+                  :mod  (x18 / 只
+)                  :arg1  (x27 / 天空
+                        :arg0-of  (x25 / 四角
+)                        :location  (x23 / 上
+                              :arg0  (x22 / 高墙
+                                    :location  (x21 / 里
+                                          :arg0  (x20 / 院子
+)))))                  :arg0  (x1 / 他们
+))))
+===========================
+可惜正月过去了，闰土须回家里去。
+(x12 / causation
+      :arg1  (x1 / 可惜-01
+            :arg0  (x3 / 过去-01
+                  :arg0  (x16 / date-entity
+                        :month  (x2_1 / 1
+)                        :calendar  (x2 / 农历
+))                  :aspect  (x4 / 了
+)))      :arg2  (x7 / 须-01
+            :arg0  (x8 / 回家-01
+                  :arg0  (x22 / person
+                        :name  ( x6/闰土 
+)))))
+===========================
+我急得大哭，他也躲到厨房里，哭着不肯出门，但终于被他父亲带走了。
+(x32 / contrast
+      :arg1  (x26 / and
+            :op1  (x2 / 急-01
+                  :manner  (x4 / 大哭
+                        :arg0  (x1 / 我
+))                  :arg0  (x1 / 我
+))            :op2  (x8 / 躲-01
+                  :arg2  (x11 / 里
+                        :arg0  (x10 / 厨房
+))                  :mod  (x7 / 也
+)                  :arg0  (x6 / 他
+))            :op3  (x15_2 / 肯-01
+                  :arg0  (x16 / 出门-01
+                        :arg0  (x6 / 他
+))                  :polarity  (x15_1 / -
+)                  :manner  (x13 / 哭-01
+                        :aspect  (x14 / 着
+)                        :arg0  (x6 / 他
+))                  :arg0  (x6 / 他
+)))      :arg2  (x23 / 带走-01
+            :arg0  (x22 / 父亲
+                  :poss  (x21 / x6
+                        :op2  (x35 / 8
+))                  :arg0  (x6 / 他
+))            :mod  (x19 / 终于
+)))
+===========================
+他后来还托他的父亲带给我一包贝壳和几支很好看的鸟毛，我也曾送他一两次东西，但从此没有再见面。
+(x38 / contrast
+      :arg1  (x41 / and
+            :op1  (x4 / 托-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x7 / 父亲
+                        :poss  (x5 / x1
+))                  :arg2  (x8_x9 / 带给-01
+                        :arg1  (x14 / and
+                              :op1  (x13 / 贝壳
+                                    :quant  (x11 / 1
+)                                    :cunit  (x12 / 包
+))                              :op2  (x20 / 鸟毛
+                                    :arg0-of  (x18 / 好看-01
+                                          :degree  (x17 / 很
+))                                    :quant  (x15 / 几
+)                                    :cunit  (x16 / 支
+)))                        :arg2  (x10 / 我
+))                  :mod  (x3 / 还
+)                  :time  (x2 / 后来
+))            :op2  (x25 / 送-01
+                  :arg0  (x22 / x10
+)                  :arg2  (x26 / x1
+)                  :arg1  (x30 / 东西
+)                  :quant  (x61 / or
+                        :op1  (x27 / 1
+)                        :op2  (x28 / 2
+))                  :unit  (x29 / 次
+)                  :aspect  (x24 / 曾
+)                  :mod  (x23 / 也
+)))      :arg2  (x36 / 见面-01
+            :mod  (x35 / 再
+)            :polarity  (x34 / -
+)            :time  (x33 / 从此
+)            :arg0  (x71 / and
+                  :op1  (x1 / 他
+)                  :op2  (x10 / 我
+))))
+===========================

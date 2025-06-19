@@ -1,0 +1,183 @@
+1985年的植树节，是个令人难忘的日子。
+(x12 / 日子
+      :cunit  (x7 / 个
+)      :arg1-of  (x10 / 难忘-01
+            :arg0  (x9 / 人
+))      :domain  (x4 / 植树节
+            :time  (x20 / date-entity
+                  :year  (x1_x2 / 1985
+))))
+===========================
+这天，万里无云，春风拂面。
+(x9 / and
+      :op1  (x3 / 万里无云
+            :time  (x1 / 这天
+))      :op2  (x6 / 拂-01
+            :arg0  (x5 / 春风
+)            :time  (x1 / 这天
+)            :arg1  (x7 / 面
+)))
+===========================
+在天坛公园植树的人群里，81岁高龄的邓小平爷爷格外引人注目。
+(x16 / 引人注目-01
+      :arg0  (x14 / 爷爷
+            :arg0-of  (x21 / mean
+                  :arg1  (x22 / person
+                        :name  ( x13/邓小平 
+)                        :age  (x11 / 高龄
+                              :arg0-of  (x26 / mean
+                                    :arg1  (x27 / temporal-quantity
+                                          :quant  (x9 / 81
+))))))            :subset-of  (x6 / 人群
+                  :arg0-of  (x4 / 植树-01
+                        :location  (x3 / 公园
+                              :name  ( x2/天坛 
+)))))      :degree  (x15 / 格外
+))
+===========================
+只见他手握铁锹，兴致勃勃地挖着树坑，额头已经布满汗珠，仍不肯休息。
+(x1 / 只见-01
+      :arg1  (x32 / and
+            :op1  (x9 / 挖-01
+                  :aspect  (x10 / 着-01
+)                  :manner  (x7 / 兴致勃勃
+)                  :arg1  (x11 / 树坑
+)                  :arg0  (x2 / 他
+)                  :manner  (x4 / 握-01
+                        :arg0  (x3 / 手
+                              :part-of  (x2 / 他
+))                        :arg1  (x5 / 铁锹
+)))            :op2  (x36 / contrast
+                  :arg1  (x15 / 布满-01
+                        :arg0  (x13 / 额头
+)                        :aspect  (x14 / 已经
+)                        :arg1  (x16 / 汗珠
+))                  :arg2  (x20 / 肯-01
+                        :arg0  (x2 / 他
+)                        :arg1  (x21 / 休息-01
+                              :arg0  (x2 / 他
+))                        :polarity  (x19 / -
+)))))
+===========================
+一个树坑挖好了，邓爷爷挑选了一棵茁壮的柏树苗，小心地移入树坑，又挥锹填了几锹土。
+(x34 / temporal
+      :arg2  (x10 / 挑选-01
+            :arg0  (x8_x9 / 邓爷爷
+)            :aspect  (x11 / 了
+)            :arg1  (x17 / 苗
+                  :mod  (x16 / 柏树
+)                  :arg0-of  (x14 / 茁壮-01
+)                  :quant  (x12 / 1
+)                  :cunit  (x13 / 棵
+)))      :arg3  (x21_x22 / 移入-01
+            :arg0  (x8_x9 / 邓爷爷
+)            :arg1  (x17 / 苗
+)            :arg2  (x23 / x3
+)            :manner  (x19 / 小心
+))      :arg4  (x28 / 填-01
+            :arg0  (x8_x9 / 邓爷爷
+)            :aspect  (x29 / 了
+)            :arg1  (x23 / x3
+)            :manner  (x26 / 挥-01
+                  :arg0  (x8_x9 / 邓爷爷
+)                  :arg1  (x27 / 锹
+))            :manner  (x32 / 土
+                  :quant  (x30 / 几
+)                  :cunit  (x31 / 锹
+)))      :arg1  (x4_x5 / 挖好-01
+            :arg0  (x9 / 爷爷
+                  :name  ( x8/邓 
+))            :arg1  (x3 / 树坑
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 个
+))))
+===========================
+他站到几步之外仔细看看，觉得不很直，连声说：“不行不行！”又走上前把树苗扶正。
+(x29 / causation
+      :arg1  (x31 / temporal
+            :arg1  (x8 / 看看-01
+                  :arg0  (x1 / 他
+)                  :manner  (x7 / 仔细
+)                  :location  (x2_x3 / 站到-01
+                        :arg0  (x1 / 他
+)                        :arg1  (x38 / relative-position
+                              :quant  (x39 / distance-quantity
+                                    :quant  (x4 / 几
+)                                    :cunit  (x5 / 步
+)))))            :arg2  (x10 / 觉得-01
+                  :arg0  (x1 / 他
+)                  :arg2  (x13 / 直
+                        :degree  (x12 / 很
+)                        :polarity  (x11 / -
+))))      :arg2  (x46 / temporal
+            :arg1  (x16 / 说-01
+                  :manner  (x15 / 连声
+)                  :arg0  (x1 / 他
+)                  :arg1  (x49 / and
+                        :op1  (x18_2 / 行
+                              :polarity  (x18_1 / -
+))                        :op2  (x19_2 / 行
+                              :polarity  (x19_1 / -
+))                        :mode  (x20 / expressive
+)))            :arg2  (x22 / 走-01
+                  :purpose  (x26 / 扶-01
+                        :cause-of  (x27 / 正-01
+                              :arg1  (x25 / 树苗
+))                        :arg0  (x1 / 他
+)                        :arg1  (x25 / 树苗
+)                        :manner  (x22_x23 / 走上前
+))                  :arg0  (x1 / 他
+)                  :cause-of  (x23 / 上前-01
+                        :arg0  (x1 / 他
+)))))
+===========================
+一棵绿油油的小柏树栽好了，就像战士一样笔直地站在那里。
+(x21 / and
+      :op1  (x8 / 好-04
+            :arg0  (x7 / 栽
+                  :arg1  (x6 / 柏树
+                        :quant  (x1 / 1
+)                        :cunit  (x2 / 棵
+)                        :arg0-of  (x3 / 绿油油-01
+))                  :aspect  (x9 / 了
+)))      :op2  (x12 / 像-01
+            :arg0  (x6 / 柏树
+)            :arg1  (x13 / 战士
+)            :mod  (x11 / 就
+)            :arg2  (x17 / 站-01
+                  :arg1  (x19 / 那里
+)                  :manner  (x15 / 笔直
+))))
+===========================
+邓爷爷的脸上露了满意的笑容。
+(x5 / 露-01
+      :arg0  (x4 / 脸上
+            :part-of  (x1_x2 / 邓爷爷
+))      :aspect  (x6 / 了
+)      :arg1  (x9 / 笑容
+            :mod  (x7 / 满意-01
+                  :arg0  (x1_x2 / 邓爷爷
+))))
+===========================
+今天，邓小平爷爷亲手栽种的柏树已经长大了，“小平树”成了天坛公园一处美丽的风景。
+(x24 / and
+      :time  (x1 / 今天
+)      :op1  (x10 / 长大-01
+            :aspect  (x11 / 了
+)            :arg0  (x8 / 柏树
+                  :arg1-of  (x6 / 栽种-01
+                        :arg0  (x4 / 爷爷
+                              :arg0-of  (x33 / mean
+                                    :arg1  (x34 / person
+                                          :name  ( x3/邓小平 
+))))                        :manner  (x5 / 亲手
+)))            :aspect  (x9 / 已经
+))      :op2  (x15 / 成-01
+            :arg0  (x13 / 小平树
+)            :arg1  (x22 / 风景
+                  :arg0-of  (x20 / 美丽-01
+                        :cunit  (x19 / 处
+))                  :quant  (x18 / 1
+)                  :location  (x17 / 天坛公园
+))))
+===========================

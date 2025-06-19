@@ -1,0 +1,375 @@
+自从女娲创造了人类，大地上到处是欢歌笑语，人们一直过着快乐幸福的生活。
+(x22 / and
+      :time  (x1 / 自从
+            :arg0  (x3 / 创造-01
+                  :arg0  (x2 / 女娲
+)                  :arg1  (x5 / 人类
+)                  :aspect  (x4 / 了
+)))      :op1  (x11 / 欢歌笑语
+            :location  (x9 / 到处
+                  :arg0  (x7 / 大地
+)))      :op2  (x15 / 过-01
+            :arg0  (x13 / 人们
+)            :duration  (x14 / 一直
+)            :aspect  (x16 / 着
+)            :arg1  (x20 / 生活
+                  :mod  (x37 / 18
+)                  :mod  (x17 / 快乐
+))))
+===========================
+不知过了多少年，一天夜里，女娲突然被一阵“轰隆隆”的巨大响声震醒，她急忙起床，跑到外面一看，天哪，太可怕了!
+(x42 / temporal
+      :arg1  (x1_2 / 知-01
+            :arg1  (x2 / 过-01
+                  :aspect  (x3 / 了
+)                  :duration  (x47 / temporal-quantity
+                        :quant  (x4 / amr-unknown
+)                        :unit  (x5 / 年
+))))      :arg2  (x22 / 震-01
+            :cause-of  (x23 / 醒-01
+                  :arg0  (x11 / 女娲
+))            :time  (x9_1 / 夜
+                  :time  (x7_x8 / 一天
+))            :arg0  (x21 / 响声
+                  :arg0-of  (x20 / 巨大-01
+)                  :arg0-of  (x57 / mean
+                        :arg1  (x17 / 轰隆隆
+))                  :quant  (x14 / 1
+)                  :cunit  (x15 / 阵
+))            :arg1  (x22 / 震-01
+))      :arg3  (x27 / 起床-01
+            :manner  (x26 / expressive
+)            :arg0  (x25 / x11
+))      :arg4  (x29_x30 / 跑到-01
+            :arg0  (x11 / 女娲
+)            :arg1  (x31 / 外面
+)            :purpose  (x32_x33 / 看-02
+                  :arg0  (x11 / 女娲
+)))      :arg5  (x67 / and
+            :op1  (x35 / 天
+                  :mode  (x26 / expressive
+))            :op2  (x39 / 可怕
+                  :smood  (x40 / 了
+)                  :degree  (x38 / 太
+)                  :mode  (x41 / expressive
+))))
+===========================
+远远的天空塌下一大块，露出一个黑黑的大窟窿。
+(x17 / and
+      :op1  (x4 / 塌-02
+            :arg0  (x20 / thing
+                  :quant  (x6 / 1
+)                  :unit  (x8 / 块
+                        :arg0-of  (x7 / 大-01
+)))            :location  (x3 / 天空
+                  :arg0-of  (x1 / 远-01
+)))      :op2  (x10 / 露出-01
+            :arg0  (x3 / 天空
+)            :arg1  (x14 / 窟窿
+                  :quant  (x11_1 / 1
+)                  :arg0-of  (x13 / 大-01
+)                  :arg0-of  (x12 / 黑-01
+)                  :cunit  (x11_2 / 个
+))))
+===========================
+地被震裂了，出现一道道深沟。
+(x14 / and
+      :op1  (x3 / 震
+            :cause-of  (x4 / 裂-01
+                  :arg0  (x1 / 地
+)                  :aspect  (x5 / 了
+))            :arg1  (x1 / 地
+))      :op2  (x7 / 出现-01
+            :arg0  (x1 / 地
+)            :arg1  (x12 / 沟
+                  :arg0-of  (x11 / 深-01
+)                  :quant  (x8_x9_x10 / 一道道
+))))
+===========================
+山冈上燃烧着熊熊大火，田野里到处是洪水。
+(x14 / and
+      :op1  (x3 / 燃烧-01
+            :aspect  (x4 / 着
+)            :location  (x1 / 山冈
+)            :arg1  (x6 / 大火
+                  :arg0-of  (x5 / 熊熊-01
+)))      :op2  (x12 / 洪水
+            :location  (x10 / 到处
+                  :arg0  (x8 / 田野
+))))
+===========================
+许多人被火围困在山顶上，许多人在水里挣扎。
+(x17 / and
+      :op1  (x5 / 围困-01
+            :arg0  (x4 / 火-01
+)            :location  (x7 / 山顶
+)            :arg1  (x2 / 人
+                  :quant  (x1 / 许多
+)))      :op2  (x15 / 挣扎-01
+            :location  (x14 / 里
+                  :arg0  (x13 / 水
+))            :arg0  (x11 / 人
+                  :quant  (x10 / 许多
+))))
+===========================
+女娲难过极了。
+(x2 / 难过-01
+      :degree  (x3_x4 / 极了
+)      :arg0  (x1 / 女娲
+))
+===========================
+她立刻去找雨神，求他下一场雨，把天火熄灭。
+(x3 / 去-01
+      :arg0  (x1 / 她
+)      :arg1  (x4 / 找-01
+            :arg0  (x1 / 她
+)            :arg1  (x5 / 雨神
+)            :arg2  (x7 / 求-02
+                  :arg0  (x1 / 她
+)                  :arg2  (x9 / 下-11
+                        :arg0  (x8 / x5
+)                        :arg1  (x12 / 雨
+                              :quant  (x10 / 1
+)                              :cunit  (x11 / 场
+))                        :purpose  (x16 / 熄灭-01
+                              :arg1  (x15 / 天火
+)))                  :arg1  (x8 / x5
+)))      :time  (x2 / 立刻
+))
+===========================
+又造了船，好救出挣扎在洪水中的人们。
+(x2 / 造-01
+      :aspect  (x3 / 了
+)      :mod  (x1 / 又
+)      :arg1  (x4 / 船
+)      :purpose  (x7 / 救出-01
+            :arg1  (x13 / 人们
+                  :arg0-of  (x8 / 挣扎-01
+                        :location  (x10 / 洪水
+)))))
+===========================
+不久，天火熄灭了，洪水中的人们被救上来了。
+(x16 / and
+      :time  (x1 / 不久
+)      :op1  (x4 / 熄灭-01
+            :arg1  (x3 / 天火
+)            :aspect  (x5 / 了
+))      :op2  (x12 / 救-01
+            :direction  (x13 / 上来-01
+                  :arg0  (x10 / 人们
+                        :location  (x7 / 洪水
+)))            :aspect  (x14 / 了
+)            :arg1  (x10 / 人们
+)))
+===========================
+可是，天上的大窟窿还在喷火。
+(x12 / contrast
+      :arg2  (x9 / 喷-01
+            :mod  (x7 / 还
+)            :aspect  (x8 / 在
+)            :arg0  (x6 / 窟窿
+                  :arg0-of  (x5 / 大-01
+)                  :location  (x3 / 天上
+))            :arg1  (x10 / 火
+)))
+===========================
+女娲决定冒着生命危险，把天补上。
+(x2 / 决定-01
+      :arg0  (x1 / 女娲
+)      :arg1  (x10 / 补-02
+            :arg0  (x1 / 女娲
+)            :manner  (x3 / 冒-01
+                  :aspect  (x4 / 着-01
+)                  :arg0  (x1 / 女娲
+)                  :arg1  (x6 / 危险
+                        :mod  (x5 / 生命
+)))            :arg1  (x9 / 天
+)))
+===========================
+她跑到山上，去寻找补天用的五彩石，她原以为这种石头很多，用不着费多大力气。
+(x27 / and
+      :op1  (x2_x3 / 跑到-01
+            :arg0  (x1 / 她
+)            :arg1  (x4 / 山上
+)            :purpose  (x7 / 寻找-01
+                  :arg0  (x1 / 她
+)                  :arg1  (x12 / 五彩石
+                        :arg1-of  (x10 / 用-01
+                              :arg2  (x8 / 补-02
+                                    :arg1  (x9 / 天
+)                                    :arg2  (x12 / 五彩石
+))))))      :op2  (x16 / 以为-01
+            :time  (x15 / 原
+)            :arg0  (x14 / x1
+)            :arg1  (x40 / causation
+                  :arg1  (x19_2 / 多-03
+                        :arg0  (x18 / 石头
+                              :mod  (x17_1 / 这
+)                              :unit  (x17_2 / 种
+))                        :degree  (x19_1 / 很
+))                  :arg2  (x21_1 / 用-02
+                        :polarity  (x21_2_3 / -
+)                        :arg1  (x22 / 费-01
+                              :arg1  (x25 / 力气
+                                    :quant  (x23_x24 / 多大
+))                              :arg0  (x1 / 她
+))))))
+===========================
+到山上一看，全是一些零零星星的碎块。
+(x13 / temporal
+      :arg1  (x1 / 到-01
+            :arg1  (x2 / 山上
+))      :arg2  (x3_x4 / 看
+)      :arg3  (x11 / 碎块
+            :domain  (x19 / thing
+                  :extent  (x6 / 全
+))            :quant  (x8 / 一些
+)            :arg0-of  (x9 / 零星-01
+)))
+===========================
+她忙了几天几夜，找到红、黄、蓝、白四种颜色的石头，还缺少一种纯青石，于是，她又找啊找啊，终于在一眼清清的泉水中找到了。
+(x46 / temporal
+      :arg1  (x48 / causation
+            :arg1  (x49 / contrast
+                  :arg1  (x50 / temporal
+                        :arg1  (x2 / 忙-01
+                              :aspect  (x3 / 了
+)                              :arg0  (x1 / 她
+)                              :duration  (x64 / and
+                                    :op1  (x65 / temporal-quantity
+                                          :quant  (x4_1 / 几
+)                                          :unit  (x4_2 / 天
+))                                    :op2  (x66 / temporal-quantity
+                                          :quant  (x4_3 / 几
+)                                          :unit  (x4_4 / 夜
+))))                        :arg2  (x6 / 找到-02
+                              :arg0  (x1 / 她
+)                              :arg1  (x18 / 石头
+                                    :mod  (x16 / 颜色
+                                          :quant  (x14 / 4
+)                                          :unit  (x15 / 种
+)                                          :arg0-of  (x59 / mean
+                                                :arg1  (x60 / and
+                                                      :op1  (x7 / 红
+)                                                      :op2  (x9 / 黄
+)                                                      :op3  (x11 / 蓝
+)                                                      :op4  (x13 / 白
+)))))))                  :arg2  (x21 / 缺少-01
+                        :arg1  (x25 / 石
+                              :arg0-of  (x24 / 纯青
+)                              :quant  (x22 / 1
+)                              :unit  (x23 / 种
+))))            :arg2  (x31_x33 / 找-03
+                  :arg0  (x29 / x1
+)                  :mod  (x30 / 又
+)                  :mode  (x32_x34 / expressive
+)))      :arg2  (x43 / 找到-01
+            :aspect  (x44 / 了
+)            :arg0  (x1 / 她
+)            :location  (x41 / 泉水
+                  :arg0-of  (x40 / 清-01
+)                  :quant  (x38 / 1
+)                  :cunit  (x39 / 眼
+))            :time  (x36 / 终于
+)            :arg1  (x25 / 石
+)))
+===========================
+五彩石找齐了，女娲在地上挖个圆坑，把五彩石放在里面，用神火进行冶炼。
+(x24 / temporal
+      :arg1  (x2 / 找-01
+            :cause-of  (x3 / 齐-01
+                  :aspect  (x4 / 了
+)                  :arg0  (x1 / 五彩石
+))            :arg1  (x1 / 五彩石
+))      :arg2  (x9 / 挖-01
+            :arg0  (x6 / 女娲
+)            :location  (x8 / 地上
+)            :arg1  (x12 / 坑
+                  :arg0-of  (x11 / 圆-02
+)                  :cunit  (x10 / 个
+)))      :arg3  (x16 / 放在-01
+            :arg0  (x6 / 女娲
+)            :arg1  (x15 / 五彩石
+)            :arg2  (x17 / 里面
+                  :arg0  (x12 / 坑
+)))      :arg4  (x21 / 进行-01
+            :instrument  (x20 / 神火
+)            :arg0  (x6 / 女娲
+)            :arg1  (x22 / 冶炼-01
+                  :arg0  (x6 / 女娲
+))))
+===========================
+炼了五天五夜，五彩石化成了很稠的液体。
+(x16 / temporal
+      :arg1  (x1 / 炼
+            :aspect  (x2 / 了-01
+)            :duration  (x20 / and
+                  :op1  (x21 / temporal-quantity
+                        :quant  (x3 / 5
+)                        :unit  (x4 / 天
+))                  :op2  (x22 / temporal-quantity
+                        :quant  (x5 / 5
+)                        :unit  (x6 / 夜
+))))      :arg2  (x9 / 化成
+            :aspect  (x10 / 了
+)            :arg0  (x8 / 五彩石
+)            :arg1  (x14 / 液体
+                  :arg0-of  (x12 / 稠
+                        :degree  (x11 / 很
+)))))
+===========================
+女娲把它装在一个大盆里，端到天边，对准那个大黑窟窿，往上一泼，只见金光四射，大窟窿立刻被补好了。
+(x44 / temporal
+      :arg1  (x4 / 装-01
+            :arg0  (x1 / 女娲
+)            :arg1  (x3 / 它
+)            :arg2  (x9 / 盆
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 个
+)                  :arg0-of  (x8 / 大-01
+)))      :arg2  (x13 / 到-01
+            :manner  (x12 / 端-01
+                  :arg0  (x1 / 女娲
+)                  :arg1  (x9 / 盆
+))            :arg1  (x14 / 天边
+)            :arg0  (x1 / 女娲
+))      :arg3  (x24_x25 / 泼-01
+            :direction  (x23 / 上
+)            :manner  (x16 / 对准-01
+                  :arg1  (x20 / 窟窿
+                        :mod  (x17_1 / 那
+)                        :cunit  (x17_2 / 个
+)                        :arg0-of  (x18 / 大-01
+)                        :arg0-of  (x19 / 黑-01
+))                  :arg0  (x1 / 女娲
+))            :arg0  (x1 / 女娲
+))      :arg4  (x27 / 只见-01
+            :arg1  (x30 / 四射-01
+                  :arg0  (x29 / 光
+                        :arg0-of  (x28 / 金
+))))      :arg5  (x37 / 好-04
+            :aspect  (x38 / 了
+)            :arg0  (x36 / 补-02
+                  :arg1  (x33 / 窟窿
+                        :arg0-of  (x32 / 大-01
+))                  :manner  (x34 / 立刻
+))))
+===========================
+现在，人们常常看见天边五彩的云霞，传说那就是女娲补天的地方。
+(x19 / and
+      :op1  (x5 / 看见-01
+            :frequency  (x4 / 常常
+)            :arg0  (x3 / 人们
+)            :arg1  (x9 / 云霞
+                  :arg0-of  (x7 / 五彩
+)                  :location  (x6 / 天边
+))            :time  (x1 / 现在
+))      :op2  (x11 / 传说-01
+            :arg1  (x17 / 地方
+                  :domain  (x12 / x9
+)                  :mod  (x13_1 / 就
+)                  :location-of  (x15_1 / 补-02
+                        :arg1  (x15_2 / 天
+)                        :arg0  (x14 / 女娲
+)))))
+===========================

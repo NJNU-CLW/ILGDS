@@ -1,0 +1,411 @@
+北京的颐和园是美丽的大公园。
+(x8 / 公园
+      :domain  (x12 / park
+            :name  ( x3/颐和园 
+)            :location  (x14 / city
+                  :name  ( x1/北京 
+)))      :arg0-of  (x7 / 大-01
+)      :arg0-of  (x5 / 美丽-01
+))
+===========================
+进了颐和园的大门，绕过大殿，就来到有名的长廊。
+(x16 / temporal
+      :arg1  (x1 / 进-01
+            :aspect  (x2 / 了
+)            :arg1  (x5 / 大门
+                  :part-of  (x21 / park
+                        :name  ( x3/颐和园 
+))))      :arg2  (x7 / 绕过-01
+            :arg1  (x8 / 大殿
+                  :part-of  (x21 / park
+)))      :arg3  (x11 / 来到-01
+            :arg1  (x14 / 长廊
+                  :part-of  (x21 / park
+)                  :arg0-of  (x12 / 有名-01
+))))
+===========================
+绿漆的柱子，红漆的栏杆，一眼望不到头。
+(x17 / and
+      :op1  (x4 / 柱子
+            :mod  (x2 / 漆
+                  :arg1-of  (x1 / 绿-01
+)))      :op2  (x9 / 栏杆
+            :mod  (x7 / 漆-01
+                  :arg0-of  (x6 / 红-01
+)))      :op3  (x25 / possible
+            :arg0-of  (x12 / 望-01
+                  :arg1  (x15 / 头
+)                  :manner  (x11 / 一眼
+))            :polarity  (x13 / -
+)))
+===========================
+这条长廊有七百多米长，分成273间。
+(x14 / and
+      :op1  (x4 / 有-02
+            :arg1  (x8 / distance-quantity
+                  :unit  (x7 / 米
+)                  :quant  (x6 / 多
+                        :op1  (x5 / 700
+)))            :arg0  (x3 / 长廊
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 条
+)))      :op2  (x10 / 分成-01
+            :arg2  (x25 / thing
+                  :quant  (x11 / 273
+)                  :cunit  (x12 / 间
+))            :arg1  (x3 / 长廊
+)))
+===========================
+每一间的横槛上都有五彩的画，画着人物、花草、风景，几千幅画没有哪两幅是相同的。
+(x34 / and
+      :op1  (x8 / 有-03
+            :arg0  (x5 / 横槛
+                  :extent  (x7 / 都
+)                  :mod  (x1 / 每
+)                  :quant  (x2 / 1
+)                  :cunit  (x3 / 间
+))            :arg1  (x11 / 画
+                  :arg0-of  (x9 / 五彩
+)))      :op2  (x13 / 画-01
+            :location  (x11 / 画
+)            :arg1  (x45 / and
+                  :op1  (x15 / 人物
+)                  :op2  (x17 / 花草
+)                  :op3  (x19 / 风景
+))            :aspect  (x14 / 着
+))      :op3  (x29 / 相同-01
+            :arg0  (x51 / thing
+                  :quant  (x26 / 两
+)                  :mod  (x25 / amr-unknown
+)                  :arg1-of  (x24_2 / 有-03
+                        :polarity  (x24_1 / -
+))                  :arg1-of  (x58 / include-91
+                        :arg2  (x23 / x11
+                              :quant  (x21_1 / 几
+                                    :op1  (x21_2 / 1000
+))                              :cunit  (x22 / 幅
+)))                  :cunit  (x27 / 幅
+))            :mode  (x28_x30 / judgement
+)))
+===========================
+长廊两旁栽满了花木，这一种花还没谢，那一种花又开了。
+(x24 / and
+      :op1  (x3 / 栽-01
+            :cause-of  (x4 / 满-02
+                  :aspect  (x5 / 了
+)                  :arg0  (x6 / 花木
+)                  :arg1  (x2 / 两旁
+                        :arg0  (x1 / 长廊
+)))            :arg1  (x6 / 花木
+)            :location  (x2 / 两旁
+))      :op2  (x32 / contrast
+            :arg1  (x14 / 谢
+                  :polarity  (x13 / -
+)                  :mod  (x12 / 还
+)                  :arg0  (x11 / 花
+                        :mod  (x8 / 这
+)                        :unit  (x10 / 种-01
+)                        :quant  (x9 / 1
+)))            :arg2  (x21 / 开-01
+                  :mod  (x20 / 又
+)                  :aspect  (x22 / 了
+)                  :arg1  (x19 / 花
+                        :mod  (x16 / 那
+)                        :unit  (x18 / 种
+)                        :quant  (x17 / 1
+)))))
+===========================
+微风从左边的昆明湖上吹来，使人神清气爽。
+(x10 / 使-01
+      :arg0  (x1 / 微风
+            :arg0-of  (x7 / 吹-02
+                  :source  (x6 / 上
+                        :arg0  (x23 / lake
+                              :name  ( x5/昆明湖 
+                                    :location  (x3 / 左边
+))))))      :arg1  (x11 / 人
+)      :arg2  (x12 / 神清气爽
+            :arg0  (x1 / 微风
+)))
+===========================
+走完长廊，就来到了万寿山脚下。
+(x12 / temporal
+      :arg1  (x2 / 完-01
+            :arg0  (x1 / 走-01
+                  :arg1  (x3 / 长廊
+)))      :arg2  (x6_x7 / 来到-01
+            :aspect  (x8 / 了
+)            :arg1  (x10 / 脚下
+                  :arg0  (x20 / mountain
+                        :name  ( x9/万寿山 
+)))))
+===========================
+抬头一看，一座八角宝塔形的三层建筑耸立在半山腰上，黄色的琉璃瓦闪闪发光。
+(x25 / and
+      :op1  (x2_x3 / 看
+            :manner  (x1 / 抬头
+))      :op2  (x14 / 耸立-01
+            :arg0  (x13 / 建筑
+                  :mod  (x31 / thing
+                        :quant  (x11 / 3
+))                  :cunit  (x12 / 层
+)                  :quant  (x5 / 1
+)                  :cunit  (x6 / 座
+)                  :mod  (x9 / 宝塔形
+)                  :mod  (x8 / 角
+                        :quant  (x7 / 8
+)))            :arg1  (x17 / 上
+                  :arg0  (x16 / 半山腰
+)))      :op3  (x23 / 发光-01
+            :manner  (x22 / 闪闪
+)            :arg0  (x21 / 琉璃瓦
+                  :arg0-of  (x19 / 黄色
+))))
+===========================
+那就是佛香阁。
+(x4 / 佛香阁
+      :domain  (x1 / 那
+)      :mod  (x2 / 就
+))
+===========================
+下面的一排排一气呵成辉煌的宫殿，就是排云殿。
+(x11_x12_x13 / 排云殿
+      :domain  (x7 / 宫殿
+            :location  (x1 / 下面
+)            :quant  (x3 / 一排排
+)            :arg0-of  (x5 / 辉煌-01
+)            :arg1-of  (x4 / 一气呵成-01
+))      :mod  (x9 / 就
+))
+===========================
+登上万寿山，站在佛香阁的前面向下望，颐和园的景色大半收在眼底。
+(x21 / temporal
+      :arg1  (x1 / 登上-01
+            :arg1  (x24 / mountain
+                  :name  ( x2/万寿山 
+)))      :arg2  (x11 / 望-01
+            :manner  (x4 / 站-01
+                  :arg1  (x8 / 前面
+                        :arg0  (x6 / 佛香阁
+)))            :direction  (x10 / 下
+))      :arg3  (x17 / 收-01
+            :arg1  (x15 / 景色
+                  :quant  (x16 / 大半
+)                  :poss  (x34 / park
+                        :name  ( x13/颐和园 
+)))            :location  (x19 / 眼底
+)))
+===========================
+葱郁的树丛，掩映着黄的绿的琉璃瓦屋顶和朱红的宫墙。
+(x5 / 掩映-01
+      :aspect  (x6 / 着
+)      :arg1  (x13 / and
+            :op1  (x12 / 屋顶
+                  :mod  (x11 / 琉璃瓦
+                        :arg1-of  (x9 / 绿-01
+)                        :arg0-of  (x7 / 黄-02
+)))            :op2  (x16 / 宫墙
+                  :arg0-of  (x14 / 朱红
+)))      :arg0  (x3 / 树丛
+            :arg0-of  (x1 / 葱郁
+)))
+===========================
+正前面，昆明湖静得像一面镜子，绿得像一块碧玉。
+(x19 / and
+      :location  (x2 / 前面
+            :mod  (x1 / 正-01
+))      :op1  (x5 / 静-01
+            :degree  (x7 / 像-01
+                  :arg1  (x10 / 镜子
+                        :cunit  (x9 / 面
+)                        :quant  (x8 / 1
+))                  :arg0  (x27 / lake
+                        :name  ( x4/昆明湖 
+)))            :arg0  (x27 / lake
+))      :op2  (x12 / 绿-01
+            :degree  (x14 / 像-01
+                  :arg0  (x27 / lake
+)                  :arg1  (x17 / 碧玉
+                        :cunit  (x16 / 块
+)                        :cunit  (x15 / 1
+)))            :arg1  (x27 / lake
+)))
+===========================
+游船、画舫在湖面慢慢地滑过，几乎不留一点儿痕迹。
+(x17 / and
+      :op1  (x8 / 滑-02
+            :arg1  (x5 / 湖面
+)            :manner  (x6 / 慢慢
+)            :arg0  (x23 / and
+                  :op1  (x1 / 游船
+)                  :op2  (x3 / 画舫
+)))      :op2  (x13 / 留-02
+            :polarity  (x12 / -
+                  :mod  (x11 / 几乎
+))            :arg1  (x15 / 痕迹
+                  :quant  (x14 / 一点儿
+))))
+===========================
+向东远眺，隐隐约约可以望见几座古老的城楼和城里的白塔。
+(x18 / condition
+      :arg1  (x3 / 远眺
+            :direction  (x2 / 东
+))      :arg2  (x6 / 可以-01
+            :arg0  (x7 / 望见-01
+                  :arg1  (x13 / and
+                        :op1  (x12 / 城楼
+                              :arg0-of  (x10 / 古老-01
+)                              :quant  (x8 / 几
+)                              :cunit  (x9 / 座
+))                        :op2  (x16 / 白塔
+                              :location  (x14 / 城里
+))))            :manner  (x5 / 隐约
+)))
+===========================
+从万寿山下来，就是昆明湖。
+(x9 / temporal
+      :arg1  (x3 / 下来
+            :source  (x12 / mountain
+                  :name  ( x2/万寿山 
+)))      :arg2  (x15 / lake
+            :name  ( x7/昆明湖 
+)            :domain  (x16 / thing
+)))
+===========================
+昆明湖围着长长的堤岸，堤上有几座式样不同的石桥，两岸栽着数不清的垂柳。
+(x26 / and
+      :op1  (x2 / 围-01
+            :aspect  (x3 / 着
+)            :arg1  (x30 / lake
+                  :name  ( x1/昆明湖 
+))            :arg2  (x5 / 堤岸
+                  :arg0-of  (x4 / 长-02
+)))      :op2  (x9 / 有-03
+            :arg0  (x8 / 上
+                  :arg0  (x7 / 堤
+))            :arg1  (x15 / 石桥
+                  :quant  (x10 / 几
+)                  :cunit  (x11 / 座
+)                  :mod  (x13 / 不同-01
+                        :arg0  (x12 / 式样
+))))      :op3  (x18 / 栽-01
+            :aspect  (x19 / 着
+)            :arg1  (x24 / 垂柳
+                  :arg1-of  (x20 / 数-01
+                        :cause-of  (x22 / 清
+)                        :arg0-of  (x46 / possible
+                              :polarity  (x21 / -
+))))            :location  (x17 / 两岸
+)))
+===========================
+湖中心有个小岛，远远望去，岛上一片葱绿，树丛中露出宫殿的一角。
+(x23 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 中心
+                  :arg0  (x1 / 湖
+))            :arg1  (x6 / 岛
+                  :arg0-of  (x5 / 小-01
+)                  :cunit  (x4 / 个
+)))      :op2  (x31 / condition
+            :arg1  (x9 / 望去
+                  :manner  (x8 / 远远
+))            :arg2  (x34 / and
+                  :op1  (x14 / 葱绿
+                        :location  (x11 / 岛上
+)                        :cunit  (x13 / 片
+)                        :quant  (x12 / 1
+))                  :op2  (x18 / 露出-01
+                        :arg1  (x21 / 一角
+                              :part-of  (x19 / 宫殿
+))                        :location  (x17 / 中
+                              :arg0  (x16 / 树丛
+))))))
+===========================
+游人走过长长的石桥，就可以去小岛上玩。
+(x13 / condition
+      :arg1  (x2 / 走过-01
+            :arg0  (x1 / 游人
+)            :arg1  (x4 / 石桥
+                  :arg0-of  (x3 / 长-03
+)))      :arg2  (x7 / 可以-01
+            :arg0  (x8 / 去-01
+                  :arg0  (x1 / 游人
+)                  :arg1  (x9 / 小岛
+)                  :purpose  (x11 / 玩-01
+                        :arg0  (x1 / 游人
+)))))
+===========================
+这座石桥有十七个桥洞，叫十七孔桥；桥栏杆上有上百根石柱，柱子都雕刻着小狮子。
+(x26 / and
+      :op1  (x28 / causation
+            :arg1  (x4 / 有-03
+                  :arg0  (x3 / 石桥
+                        :mod  (x1 / 这
+)                        :cunit  (x2 / 座
+))                  :arg1  (x7 / 桥洞
+                        :quant  (x5 / 17
+)                        :cunit  (x6 / 个
+)))            :arg2  (x9 / 叫-01
+                  :arg1  (x10 / 十七孔桥
+)                  :arg0  (x3 / 石桥
+)))      :op2  (x29 / and
+            :op1  (x14 / 有-03
+                  :arg0  (x12 / 桥栏杆
+                        :part-of  (x3 / 石桥
+))                  :arg1  (x17 / 石柱
+                        :cunit  (x16 / 根
+)                        :quant  (x15_1 / 上
+                              :op1  (x15_2 / 100
+))))            :op2  (x21 / 雕刻-01
+                  :location  (x19 / 柱子
+                        :extent  (x20 / 都
+)                        :part-of  (x3 / 石桥
+))                  :aspect  (x22 / 着
+)                  :arg1  (x24 / 狮子
+                        :arg0-of  (x23 / 小-01
+)))))
+===========================
+这么多的狮子，姿态不一，没有哪两只是相同的。
+(x16 / and
+      :op1  (x6 / 姿态不一
+            :arg0  (x4 / 狮子
+                  :arg0-of  (x2 / 多-03
+                        :degree  (x1 / 这么
+))))      :op2  (x13 / 相同-01
+            :arg0  (x23 / thing
+                  :arg1-of  (x8_2 / 有-03
+                        :polarity  (x8_1 / -
+))                  :quant  (x10 / 2
+)                  :mod  (x9 / amr-unknown
+)                  :cunit  (x11 / 只
+))            :mode  (x12_x14 / judgement
+)))
+===========================
+颐和园到处有美丽的景色，说也说不尽，希望你有机会去细细游赏。
+(x22 / causation
+      :arg1  (x24 / and
+            :op1  (x3 / 有-03
+                  :arg0  (x2 / 到处
+                        :arg0  (x28 / park
+                              :name  ( x1/颐和园 
+)))                  :arg1  (x6 / 景色
+                        :arg0-of  (x4 / 美丽-01
+)))            :op2  (x32 / condition
+                  :arg1  (x8 / 说-01
+                        :arg0  (x6 / 景色
+))                  :arg2  (x34 / possible
+                        :polarity  (x11 / -
+)                        :arg0  (x12 / 尽-02
+                              :arg0  (x10 / 说-01
+                                    :arg1  (x6 / 景色
+)                                    :mod  (x9 / 也
+))))))      :arg2  (x14 / 希望-01
+            :arg1  (x16 / 有-01
+                  :arg0  (x15 / 你
+)                  :arg1  (x17 / 机会
+)                  :purpose  (x20 / 游赏-01
+                        :arg1  (x6 / 景色
+)                        :arg0  (x15 / 你
+)                        :manner  (x19 / 细细
+)))))
+===========================

@@ -1,0 +1,704 @@
+大娘，停住您送别的脚步吧！
+(x11 / and
+      :op1  (x1 / 大娘
+)      :op2  (x3_x4 / 停住-01
+            :arg1  (x8 / 脚步
+                  :poss  (x5 / x1
+)                  :mod  (x6 / 送别-01
+                        :arg0  (x5 / x1
+)))            :mode  (x9 / imperative
+)            :mode  (x10 / expressive
+)))
+===========================
+为了帮我们洗补衣服，您已经几夜没合眼了。
+(x13 / 合眼-01
+      :arg0  (x8 / 您
+)      :aspect  (x9 / 已经
+)      :aspect  (x14 / 了
+)      :polarity  (x12 / -
+)      :duration  (x22 / temporal-quantity
+            :quant  (x10 / 几
+)            :unit  (x11 / 夜
+))      :purpose  (x2 / 帮-01
+            :arg1  (x3 / 我们
+)            :arg2  (x27 / and
+                  :op1  (x4 / 洗-01
+                        :arg1  (x6 / 衣服
+)                        :arg0  (x8 / 您
+))                  :op2  (x5 / 补-01
+                        :arg1  (x6 / 衣服
+)                        :arg0  (x8 / 您
+)))            :arg0  (x8 / 您
+)))
+===========================
+您这么大年纪，能支持得住吗？
+(x12 / and
+      :op1  (x4 / 年纪
+            :arg0-of  (x3 / 大-02
+                  :degree  (x2 / 这么
+))            :arg0  (x1 / 您
+))      :op2  (x6 / 能-01
+            :arg0  (x8_x9 / possible
+                  :arg0  (x7 / 支持-01
+                        :arg0  (x1 / 您
+)))            :mode  (x10_x11 / interrogative
+)))
+===========================
+快回家休息吧！
+(x1 / 快-01
+      :arg0  (x2 / 回家
+            :purpose  (x3 / 休息
+))      :mode  (x4 / imperative
+)      :mode  (x5 / expressive
+))
+===========================
+为什么摇头呢？
+(x2 / 摇头
+      :cause  (x1 / amr-unknown
+)      :mode  (x3_x4 / interrogative
+))
+===========================
+难道您担心我们会把您这位朝鲜阿妈妮忘怀？
+(x3 / 担心-01
+      :arg0  (x2 / 您
+)      :arg1  (x5 / 会-02
+            :arg0  (x12 / 忘怀-01
+                  :arg0  (x4 / 我们
+)                  :arg1  (x11 / 阿妈妮
+                        :mod  (x21 / country
+                              :name  ( x10/朝鲜 
+))                        :mod  (x8 / 这
+)                        :cunit  (x9 / 位
+)                        :arg0-of  (x25 / mean
+                              :arg1  (x7 / x2
+)))))      :mod  (x1 / 难道
+)      :mode  (x13 / interrogative
+))
+===========================
+不，永远不会。
+(x6 / and
+      :op1  (x1 / 不
+)      :op2  (x4_2 / 会
+            :polarity  (x4_1 / -
+)            :time  (x3 / 永远
+)))
+===========================
+八年来，您为我们花了多少心血，给了我们多少慈母般的温暖！
+(x21 / and
+      :op1  (x7 / 花-01
+            :arg0  (x4 / 您
+)            :arg1  (x10 / 心血
+                  :quant  (x9 / 多少
+))            :aspect  (x8 / 了
+)            :arg2  (x6 / 我们
+))      :op2  (x12 / 给-01
+            :arg1  (x19 / 温暖
+                  :arg0-of  (x17 / 般-01
+                        :arg1  (x16 / 慈母
+))                  :quant  (x15 / 多少
+))            :arg0  (x4 / 您
+)            :arg2  (x14 / x6
+)            :aspect  (x13 / 了
+))      :mode  (x20 / expressive
+)      :duration  (x37 / temporal-quantity
+            :quant  (x1_1 / 8
+)            :unit  (x1_2 / 年
+)))
+===========================
+记得五次战役的时候，由于敌机的封锁，造成了暂时的供应困难。
+(x1 / 记得-01
+      :arg1  (x22 / causation
+            :arg1  (x11 / 封锁-01
+                  :arg0  (x9 / 敌机
+))            :arg2  (x13 / 造成-01
+                  :arg1  (x18 / 困难-01
+                        :arg0  (x17 / 供应
+)                        :arg0-of  (x15 / 暂时-01
+))                  :arg0  (x11 / 封锁-01
+)))      :time  (x4 / 战役
+            :ord  (x30 / ordinal-entity
+                  :value  (x2 / 5
+)                  :unit  (x3 / 次
+))))
+===========================
+我们空着肚子，在阵地上跟敌人拼了三天三夜。
+(x15 / and
+      :op1  (x2 / 空-02
+            :arg0  (x4 / 肚子
+                  :part-of  (x1 / 我们
+))            :aspect  (x3 / 着
+))      :op2  (x11 / 拼-02
+            :arg1  (x10 / 敌人
+)            :location  (x7 / 阵地
+)            :aspect  (x12 / 了
+)            :duration  (x28 / and
+                  :op1  (x29 / temporal-quantity
+                        :quant  (x13_1 / 3
+)                        :unit  (x13_2 / 天
+))                  :op2  (x32 / temporal-quantity
+                        :quant  (x13_3 / 3
+)                        :unit  (x13_4 / 夜
+)))))
+===========================
+是您带着全村妇女，顶着打糕，冒着炮火，穿过硝烟，送到阵地上来给我们吃。
+(x26 / and
+      :op1  (x3 / 带-03
+            :arg0  (x2 / 您
+)            :arg1  (x6 / 妇女
+                  :range  (x5 / 全村
+))            :aspect  (x4 / 着
+))      :op2  (x8 / 顶-03
+            :arg1  (x10 / 打糕
+)            :aspect  (x9 / 着
+))      :op3  (x12 / 冒-01
+            :arg1  (x14 / 炮火
+)            :aspect  (x13 / 着
+))      :op4  (x16 / 穿过-01
+            :arg1  (x17 / 硝烟
+))      :op5  (x19 / 送到-01
+            :arg1  (x20 / 阵地
+)            :purpose  (x22 / 给-02
+                  :arg1  (x23 / 我们
+)                  :arg2  (x24 / 吃-01
+                        :arg0  (x23 / 我们
+)))))
+===========================
+这真是雪中送炭啊！
+(x3 / 雪中送炭
+      :domain  (x1 / 这
+)      :mode  (x4_x5 / expressive
+))
+===========================
+当时有很多同志感动得流下眼泪。
+(x5 / 感动-01
+      :arg0  (x4 / 同志
+            :quant  (x3 / 很多
+)            :arg1-of  (x2 / 有-03
+))      :time  (x1 / 当时
+)      :cause-of  (x7 / 流下-01
+            :arg1  (x8 / 眼泪
+)            :arg0  (x4 / 同志
+)))
+===========================
+在您的帮助下，我们打胜了那次阻击战。
+(x8 / 打-08
+      :cause-of  (x9 / 胜-01
+            :arg2  (x13 / 阻击战
+                  :mod  (x11 / 那
+)                  :cunit  (x12 / 次
+))            :arg0  (x7 / 我们
+))      :aspect  (x10 / 了
+)      :condition  (x4 / 帮助-01
+            :arg0  (x2 / 您
+)            :arg1  (x7 / 我们
+)))
+===========================
+您在回去的途中，累得昏倒在路旁了。
+(x7 / 累-02
+      :cause-of  (x9 / 昏倒-01
+            :location  (x11 / 路旁
+)            :aspect  (x12 / 了
+)            :arg0  (x1 / 您
+))      :arg1  (x1 / 您
+)      :location  (x5 / 途中
+            :mod  (x3 / 回去-01
+                  :arg0  (x1 / 您
+))))
+===========================
+我们还记得，我们的一个伤员在您家里休养，敌机来了，您丢下自己的小孙孙，把伤员背进了防空洞；当再回去抢救小孙孙的时候，房子已经炸平了。
+(x3 / 记得-01
+      :arg0  (x1 / 我们
+)      :mod  (x2 / 还
+)      :arg1  (x50 / temporal
+            :arg1  (x51 / and
+                  :op1  (x13 / 休养-01
+                        :arg0  (x9 / 伤员
+                              :quant  (x7 / 1
+)                              :cunit  (x8 / 个
+)                              :poss  (x5 / 我们
+))                        :location  (x12 / 家里
+                              :poss  (x11 / 您
+)))                  :op2  (x59 / causation
+                        :arg1  (x16 / 来-01
+                              :arg0  (x15 / 敌机
+)                              :aspect  (x17 / 了
+))                        :arg2  (x63 / and
+                              :op1  (x20 / 丢下-01
+                                    :arg0  (x19 / x11
+)                                    :arg1  (x23 / 小孙孙
+                                          :poss  (x21 / x11
+)))                              :op2  (x27 / 背-03
+                                    :arg1  (x26 / x9
+)                                    :arg0  (x11 / 您
+)                                    :location  (x30 / 防空洞
+)                                    :aspect  (x29 / 了
+)))))            :arg2  (x42 / 炸-01
+                  :cause-of  (x43 / 平-02
+                        :arg0  (x40 / 房子
+))                  :arg1  (x40 / 房子
+)                  :aspect  (x41 / 已经
+)                  :arg0  (x15 / 敌机
+)                  :aspect  (x44 / 了
+)                  :time  (x34 / 回去-01
+                        :arg0  (x11 / 您
+)                        :purpose  (x35 / 抢救-01
+                              :arg1  (x36 / x23
+)                              :arg0  (x11 / 您
+))))))
+===========================
+您为我们失去了唯一的亲人。
+(x4 / 失去-01
+      :arg0  (x1 / 您
+)      :arg1  (x8 / 亲人
+            :arg0-of  (x6 / 唯一
+))      :aspect  (x5 / 了
+)      :cause  (x3 / 我们
+))
+===========================
+您说，这比山还高比海还深的情谊，我们怎么能忘怀？
+(x2 / 说-01
+      :arg0  (x1 / 您
+)      :arg1  (x18 / 能-01
+            :arg0  (x19 / 忘怀-01
+                  :arg1  (x14 / 情谊
+                        :mod  (x4 / 这
+)                        :arg0-of  (x8 / 高-01
+                              :compared-to  (x6 / 山
+)                              :mod  (x7 / 还
+))                        :arg0-of  (x12 / 深-01
+                              :compared-to  (x10 / 海
+)                              :mod  (x11 / 还
+)))                  :arg0  (x16 / 我们
+))            :mod  (x17 / 怎么
+)            :mode  (x20 / interrogative
+)))
+===========================
+小金花，不要哭了，擦干眼泪，再给我们唱个《捣米谣》吧！
+(x24 / temporal
+      :arg1  (x4_2 / 要-03
+            :arg0  (x5 / 哭-01
+                  :arg0  (x30 / person
+                        :name  ( x2/金花 
+)))            :polarity  (x4_1 / -
+)            :aspect  (x6 / 了
+))      :arg2  (x8_x9 / 擦干-01
+            :arg0  (x30 / person
+)            :arg1  (x10 / 眼泪
+))      :arg3  (x15 / 唱-01
+            :arg1  (x35 / song
+                  :name  ( x20/谣 
+)                  :cunit  (x16 / 个
+))            :beneficiary  (x14 / 我们
+)            :arg0  (x30 / person
+)            :mode  (x22 / imperative
+)            :mode  (x23 / expressive
+)))
+===========================
+怎么？心里难过，唱不出来？
+(x11 / multi-sentence
+      :snt1  (x1 / 怎么
+            :mode  (x2 / interrogative
+))      :snt2  (x15 / causation
+            :arg1  (x5 / 难过-01
+                  :arg0  (x3 / 心
+))            :arg2  (x7_x9 / 唱
+                  :polarity  (x8 / -
+)                  :mode  (x10 / interrogative
+))))
+===========================
+你一向是个刚强的孩子啊！
+(x7 / 孩子
+      :arg0-of  (x5 / 刚强
+)      :cunit  (x4 / 个
+)      :domain  (x1 / 你
+)      :mod  (x2 / 一向
+)      :mode  (x8_x9 / expressive
+))
+===========================
+那一回，侦察员老王到敌占区去侦察，被敌人抓住了，关在一所小房子里，有一个班的鬼子看守着。
+(x35 / temporal
+      :arg1  (x8 / 到-01
+            :arg0  (x5 / 侦察员
+                  :name  ( x7/王 
+))            :arg1  (x9 / 敌占区
+)            :purpose  (x11 / 侦察-01
+                  :arg0  (x5 / 侦察员
+)))      :arg2  (x15 / 抓住-01
+            :arg0  (x14 / 敌人
+)            :arg1  (x5 / 侦察员
+)            :aspect  (x16 / 了
+))      :arg3  (x18_x19 / 关在-01
+            :arg2  (x23 / 房子
+                  :arg0-of  (x22 / 小-01
+)                  :quant  (x20 / 1
+)                  :cunit  (x21 / 所
+))            :arg1  (x5 / 侦察员
+)            :arg0  (x14 / 敌人
+))      :arg4  (x32 / 看守-01
+            :arg0  (x31 / 鬼子
+                  :quant  (x27_x28 / 1
+)                  :cunit  (x29 / 班
+)                  :arg1-of  (x26 / 有
+))            :aspect  (x33 / 着
+))      :time  (x1_x2_x3 / 那一回
+))
+===========================
+你妈妈知道了，带着你混进敌占区，偷偷地靠近了关着老王的那所小房子。
+(x26 / temporal
+      :arg1  (x3 / 知道-01
+            :arg0  (x2 / 妈妈
+                  :poss  (x1 / 你
+))            :aspect  (x4 / 了
+))      :arg2  (x6 / 带-03
+            :arg0  (x2 / 妈妈
+)            :arg1  (x8 / x1
+)            :arg2  (x9 / 混进
+                  :arg1  (x10 / 敌占区
+))            :aspect  (x7 / 着
+))      :arg3  (x14 / 靠近-01
+            :arg1  (x24 / 房子
+                  :arg0-of  (x23 / 小-01
+)                  :mod  (x21 / 那
+)                  :cunit  (x22 / 所
+)                  :arg2-of  (x16 / 关-01
+                        :arg1  (x44 / person
+                              :name  ( x19/王 
+))                        :aspect  (x17 / 着
+)))            :manner  (x12 / 偷偷
+)            :aspect  (x15 / 了
+)))
+===========================
+你妈妈故意跟哨兵争吵，引出那个班的敌人。
+(x6 / 争吵-01
+      :arg0  (x4 / and
+            :op1  (x2 / 妈妈
+                  :poss  (x1 / 你
+))            :op2  (x5 / 哨兵
+))      :manner  (x3 / 故意-01
+            :arg0  (x2 / 妈妈
+))      :purpose  (x8 / 引出-01
+            :arg1  (x12 / 敌人
+                  :cunit  (x10 / 班
+                        :mod  (x9_1 / 那
+)                        :cunit  (x9_2 / 个
+)))))
+===========================
+你乘机钻进屋里，解开老王身上的绳索，救出了老王。
+(x18 / temporal
+      :arg1  (x3_x4 / 钻进-01
+            :arg0  (x1 / 你
+)            :manner  (x2 / 乘机-01
+                  :arg0  (x1 / 你
+))            :arg1  (x5 / 屋
+))      :arg2  (x8 / 解开-01
+            :arg1  (x12 / 绳索
+                  :location  (x10 / 身上
+                        :poss  (x27 / person
+                              :name  ( x9/老王 
+))))            :arg0  (x1 / 你
+))      :arg3  (x14 / 救出-01
+            :arg1  (x16 / x27
+)            :aspect  (x15 / 了
+)            :arg0  (x1 / 你
+)))
+===========================
+你回到村里，焦急地等待着妈妈。
+(x11 / and
+      :op1  (x2 / 回到-01
+            :arg0  (x1 / 你
+)            :arg1  (x3 / 村里
+))      :op2  (x7 / 等待-01
+            :arg0  (x1 / 你
+)            :manner  (x5 / 焦急
+                  :arg0  (x1 / 你
+))            :aspect  (x8 / 着
+)            :arg1  (x9 / 妈妈
+)))
+===========================
+第二天传来噩耗，你妈妈拉响手榴弹跟敌人同归于尽了。
+(x2 / 传来-01
+      :arg1  (x3 / 噩耗
+            :arg0-of  (x21 / mean
+                  :arg1  (x22 / temporal
+                        :arg1  (x7_x8 / 拉响
+                              :arg0  (x6 / 妈妈
+                                    :poss  (x5 / 你
+))                              :arg1  (x9 / 手榴弹
+))                        :arg2  (x12 / 同归于尽-01
+                              :arg0  (x10 / and
+                                    :op1  (x6 / 妈妈
+)                                    :op2  (x11 / 敌人
+))                              :aspect  (x13 / 了
+)))))      :time  (x18 / ordinal-entity
+            :value  (x1_1_2 / 2
+)            :unit  (x1_3 / 天
+)))
+===========================
+同志们伤心地痛哭起来，你却把脚一跺，嘴角抽动着，狠狠地说：“妈妈，这个仇我一定要报！”
+(x33 / contrast
+      :arg1  (x5_x6 / 痛哭-01
+            :arg0  (x1_x2 / 同志们
+)            :manner  (x3 / 伤心
+))      :arg2  (x38 / and
+            :op1  (x13 / 跺
+                  :arg1  (x11 / 脚
+)                  :mod  (x12 / 一
+)                  :arg0  (x8 / 你
+))            :op2  (x16_x17 / 抽动-01
+                  :arg0  (x15 / 嘴角
+)                  :aspect  (x18 / 着
+))            :op3  (x22 / 说-01
+                  :arg1  (x47 / and
+                        :op1  (x24 / 妈妈
+)                        :op2  (x29 / 一定
+                              :arg0  (x30 / 要-03
+                                    :arg0  (x31 / 报-04
+                                          :arg1  (x27 / 仇
+                                                :mod  (x26_1 / 这
+)                                                :cunit  (x26_2 / 个
+))                                          :arg0  (x28 / x8
+)))                              :mode  (x32 / expressive
+)))                  :manner  (x20 / 狠
+))))
+===========================
+小金花，你是多么刚强啊！
+(x10 / and
+      :op1  (x12 / person
+            :name  ( x2/金花 
+))      :op2  (x7 / 刚强
+            :arg0  (x4 / x12
+)            :degree  (x6 / 多么
+)            :mode  (x8_x9 / expressive
+)))
+===========================
+可是今天，跟志愿军叔叔分别的今天，你怎么落泪了呢？
+(x17 / contrast
+      :arg2  (x13 / 落泪-01
+            :cause  (x12 / amr-unknown
+)            :arg0  (x11 / 你
+)            :aspect  (x14 / 了
+)            :mode  (x15_x16 / interrogative
+)            :time  (x2 / 今天
+)            :time  (x9 / 今天
+                  :time-of  (x7 / 分别-01
+                        :arg0  (x4 / and
+                              :op1  (x11 / 你
+)                              :op2  (x5_x6 / 志愿军叔叔
+))))))
+===========================
+大嫂，请回去吧！
+(x3 / 请-01
+      :arg1  (x1 / 大嫂
+)      :arg2  (x4 / 回去-01
+            :arg0  (x1 / 大嫂
+))      :mode  (x5 / imperative
+)      :mode  (x6 / expressive
+))
+===========================
+看，您的孩子在您的背上睡熟了。
+(x13 / and
+      :op1  (x1 / 看
+)      :op2  (x10 / 睡熟-01
+            :arg0  (x5 / 孩子
+                  :poss  (x3 / 您
+))            :location  (x9 / 背上
+                  :part-of  (x7 / x3
+))))
+===========================
+山路这样崎岖，您架着双拐，已经送了几十里。
+(x16 / and
+      :op1  (x3 / 崎岖
+            :arg0  (x1 / 山路
+)            :mod  (x2 / 这样
+))      :op2  (x11 / 送-02
+            :arg3  (x22 / distance-quantity
+                  :quant  (x13_1 / 几
+                        :op1  (x13_2 / 10
+))                  :cunit  (x14 / 里
+))            :arg0  (x5 / 您
+)            :aspect  (x12 / 了
+)            :aspect  (x10 / 已经
+)            :manner  (x6 / 架-01
+                  :arg1  (x8 / 双拐
+)                  :aspect  (x7 / 着
+)                  :arg0  (x5 / 您
+))))
+===========================
+就是您一步不送，我们只要想起您的双拐，也永远不会忘怀您对我们的深情厚谊。
+(x25 / concession
+      :arg1  (x6 / 送-02
+            :arg0  (x2 / 您
+)            :arg3  (x29 / distance-quantity
+                  :quant  (x3 / 1
+)                  :unit  (x4 / 步
+))            :polarity  (x5 / -
+))      :arg2  (x33 / condition
+            :arg1  (x10 / 想起-01
+                  :arg0  (x8 / 我们
+)                  :arg1  (x13 / 双拐
+                        :poss  (x11 / x2
+)))            :arg2  (x17_2 / 会-02
+                  :arg0  (x18 / 忘怀-01
+                        :arg1  (x23 / 深情厚谊
+                              :poss  (x19 / x2
+)                              :beneficiary  (x21 / x8
+)))                  :time  (x16 / 永远
+))))
+===========================
+我们清楚地记得，那是1952年的春天，金达莱花开满山野的时候，您知道我们缺少蔬菜，就挎着篮子上山挖野菜。
+(x4 / 记得-01
+      :arg0  (x1 / 我们
+)      :manner  (x2 / 清楚
+)      :arg1  (x37 / causation
+            :time  (x38 / date-entity
+                  :season  (x10 / 春天
+)                  :year  (x8 / 1952
+))            :time  (x13 / 开-01
+                  :cause-of  (x14 / 满
+)                  :arg1  (x12 / 金达莱花
+)                  :location  (x15 / 山野
+))            :arg1  (x20 / 知道-01
+                  :arg0  (x19 / 您
+)                  :arg1  (x22 / 缺少-01
+                        :arg0  (x21 / 我们
+)                        :arg1  (x23 / 蔬菜
+)))            :arg2  (x29 / 上山-01
+                  :manner  (x26 / 挎-01
+                        :arg1  (x28 / 篮子
+)                        :aspect  (x27 / 着
+)                        :arg0  (x19 / 您
+))                  :purpose  (x30 / 挖-01
+                        :arg1  (x31 / 野菜
+)                        :arg0  (x19 / 您
+))                  :arg0  (x19 / 您
+))))
+===========================
+后面山上的野菜挖光了，您又跑到前沿阵地去挖。
+(x18 / causation
+      :arg1  (x5 / 挖-01
+            :cause-of  (x6 / 光
+)            :arg1  (x4 / 野菜
+                  :location  (x2 / 山上
+                        :location  (x1 / 后面
+)))            :aspect  (x7 / 了
+))      :arg2  (x11_x12 / 跑到-01
+            :arg1  (x14 / 阵地
+                  :location  (x13 / 前沿
+))            :arg0  (x9 / 您
+)            :mod  (x10 / 又
+)            :purpose  (x16 / 挖-01
+                  :arg0  (x9 / 您
+))))
+===========================
+不料敌人的一颗炮弹在您的身旁爆炸，您倒在血泊里……
+(x1_2 / 料-01
+      :polarity  (x1_1 / -
+)      :arg1  (x24 / temporal
+            :arg1  (x11 / 爆炸-01
+                  :arg0  (x6 / 炮弹
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 颗
+)                        :poss  (x2 / 敌人
+))                  :location  (x10 / 身旁
+                        :poss  (x8 / 您
+)))            :arg2  (x14 / 倒-01
+                  :arg1  (x13 / x8
+)                  :location  (x16 / 血泊
+))))
+===========================
+伤好以后，您只能靠着双拐走路了。
+(x6 / 只能-01
+      :arg0  (x10 / 走路-01
+            :manner  (x7 / 靠-01
+                  :arg1  (x9 / 双拐
+)                  :aspect  (x8 / 着
+))            :arg0  (x5 / 您
+)            :aspect  (x11 / 了
+))      :time  (x3 / 以后
+            :op1  (x2 / 好-01
+                  :arg0  (x1 / 伤
+))))
+===========================
+您为我们付出了这样高的代价，难道还不足以表达您对中国人民的友谊？
+(x13_2_3 / 足以-01
+      :arg0  (x4 / 付出-01
+            :arg0  (x1 / 您
+)            :arg1  (x9 / 代价
+                  :arg0-of  (x7 / 高-01
+                        :mod  (x6 / 这样
+)))            :aspect  (x5 / 了
+)            :beneficiary  (x3 / 我们
+))      :polarity  (x13_1 / -
+)      :arg1  (x14 / 表达-01
+            :arg1  (x20 / 友谊
+                  :poss  (x15 / x1
+)                  :beneficiary  (x18 / 人民
+                        :mod  (x36 / country
+                              :name  ( x17/中国 
+)))))      :mod  (x11 / 难道
+)      :mod  (x12 / 还
+)      :mode  (x21 / interrogative
+))
+===========================
+再见了，亲人！
+(x1 / 再见-01
+      :arg0  (x4 / 亲人
+)      :aspect  (x2 / 了
+)      :mode  (x5 / expressive
+))
+===========================
+再见了，亲爱的土地！
+(x1 / 再见-01
+      :arg0  (x6 / 土地
+            :arg0-of  (x4 / 亲爱-01
+))      :aspect  (x2 / 了
+)      :mode  (x7 / expressive
+))
+===========================
+列车呀，请慢一点儿开，让我们再看一眼朝鲜的亲人，让我们在这曾经洒过鲜血的土地上再停留片刻。
+(x34 / causation
+      :arg2  (x4 / 请-01
+            :arg2  (x7 / 开-02
+                  :arg1  (x1 / 列车
+                        :mode  (x2 / expressive
+)))            :manner  (x5 / 慢
+                  :degree  (x6 / 一点儿
+)))      :arg1  (x42 / and
+            :op1  (x9 / 让-02
+                  :arg1  (x10 / 我们
+)                  :arg2  (x12 / 看-02
+                        :quant  (x13 / 1
+)                        :cunit  (x14 / 眼
+)                        :mod  (x11 / 再
+)                        :arg1  (x17 / 亲人
+                              :mod  (x50 / country
+                                    :name  ( x15/朝鲜 
+)))))            :op2  (x19 / 让-02
+                  :arg1  (x20 / x10
+)                  :arg2  (x31 / 停留-01
+                        :arg1  (x28 / 土地
+                              :location-of  (x24 / 洒-01
+                                    :arg1  (x26 / 鲜血
+)                                    :aspect  (x25 / 过
+)                                    :aspect  (x23 / 曾经
+))                              :mod  (x22 / 这
+))                        :mod  (x30 / 再
+)                        :duration  (x32 / 片刻
+)))))
+===========================
+再见了，亲人！
+(x1 / 再见-01
+      :aspect  (x2 / 了
+)      :arg0  (x4 / 亲人
+)      :mode  (x5 / expressive
+))
+===========================
+我们的心永远跟你们在一起。
+(x8 / 一起-01
+      :arg0  (x5 / and
+            :op1  (x3 / 心
+                  :part-of  (x1 / 我们
+))            :op2  (x6 / 你们
+))      :time  (x4 / 永远
+))
+===========================

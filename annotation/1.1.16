@@ -1,0 +1,151 @@
+大树旁边的地里种了许多花生。
+(x6 / 种-01
+      :aspect  (x7 / 了
+)      :arg1  (x9 / 花生
+            :quant  (x8 / 许多
+))      :location  (x4 / 地
+            :location  (x1 / 大树
+                  :arg0  (x2 / 旁边
+))))
+===========================
+花生已经开了花，一朵朵金黄色的小花，在阳光下格外鲜艳。
+(x3 / 开-01
+      :aspect  (x4 / 了
+)      :arg0  (x1 / 花生
+)      :arg1  (x5 / 花
+            :arg0-of  (x26 / mean
+                  :arg1  (x13 / 花
+                        :arg0-of  (x12 / 小-01
+)                        :arg0-of  (x10 / 金黄色
+)                        :arg0-of  (x19 / 鲜艳-01
+                              :degree  (x18 / 格外
+))                        :location  (x16 / 阳光
+)                        :mod  (x7_x8_x9 / 一朵朵
+))))      :aspect  (x2 / 已经
+))
+===========================
+小松鼠问鼹鼠：“这是什么花呀？”
+(x3 / 问-01
+      :arg0  (x2 / 松鼠
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x9 / 花
+            :mod  (x8 / amr-unknown
+)            :domain  (x6 / 这
+)            :mode  (x10_x11 / interrogative
+))      :arg2  (x4 / 鼹鼠
+))
+===========================
+鼹鼠说：“这是花生的花。
+(x2 / 说-01
+      :arg0  (x1 / 鼹鼠
+)      :arg1  (x8 / 花
+            :domain  (x4 / 这
+)            :poss  (x6 / 花生
+)))
+===========================
+到了秋天,会结花生,花生可好吃啦!"
+(x14 / and
+      :op1  (x5 / 会-02
+            :arg0  (x6 / 结-01
+                  :arg1  (x7 / 花生
+))            :time  (x1 / 到-01
+                  :aspect  (x2 / 了
+)                  :arg1  (x21 / date-entity
+                        :season  (x3 / 秋天
+))))      :op2  (x11 / 好吃-01
+            :degree  (x10 / 可
+)            :mode  (x12_x13 / expressive
+)            :arg0  (x9 / x7
+)))
+===========================
+小松鼠很高兴,他想:等花结了果,我就把花生摘下来,留着冬天吃。
+(x27 / and
+      :op1  (x4 / 高兴-01
+            :arg0  (x2 / 松鼠
+                  :arg0-of  (x1 / 小-01
+))            :degree  (x3 / 很-01
+))      :op2  (x7 / 想-01
+            :arg0  (x6 / x2
+)            :arg1  (x19 / 摘-01
+                  :arg0  (x15 / x2
+)                  :cause-of  (x20 / 下来-01
+                        :arg0  (x18 / 花生
+))                  :arg1  (x18 / 花生
+)                  :mod  (x16 / 就
+)                  :purpose  (x22 / 留-06
+                        :aspect  (x23 / 着
+)                        :purpose  (x25 / 吃-01
+                              :time  (x49 / date-entity
+                                    :season  (x24 / 冬天
+))                              :arg1  (x18 / 花生
+))                        :arg0  (x15 / x2
+)                        :arg1  (x18 / 花生
+))                  :time  (x9 / 等-01
+                        :arg0  (x15 / x2
+)                        :arg1  (x11 / 结-01
+                              :arg0  (x10 / 花
+)                              :arg1  (x13 / 果
+)                              :aspect  (x12 / 了
+))))))
+===========================
+小松鼠每天都到地里去,看看结花生了没有。
+(x5 / 到-01
+      :mod  (x4 / 都
+)      :arg0  (x2 / 松鼠
+            :arg0-of  (x1 / 小-01
+))      :frequency  (x21 / rate-entity-91
+            :arg2  (x22 / temporal-quantity
+                  :quant  (x3_1 / 1
+)                  :unit  (x3_2 / 天
+)))      :arg1  (x6 / 地
+)      :purpose  (x10 / 看看-01
+            :arg0  (x2 / 松鼠
+)            :arg1  (x11 / 结-01
+                  :arg1  (x12 / 花生
+)                  :mode  (x14 / interrogative
+)                  :aspect  (x13 / 了
+))))
+===========================
+他等啊,等啊,等到花都落光了,也没看见一个花生。
+(x23 / and
+      :op1  (x2 / 等-01
+            :mode  (x3 / expressive
+)            :arg0  (x1 / 他
+))      :op2  (x5 / 等-01
+            :mode  (x6 / expressive
+)            :arg0  (x1 / 他
+))      :op3  (x18 / 看见-01
+            :polarity  (x16_x17 / -
+)            :arg0  (x1 / 他
+)            :arg1  (x21 / 花生
+                  :quant  (x19 / 1
+)                  :cunit  (x20 / 个
+))            :time  (x12 / 落-01
+                  :arg0  (x10 / 花
+)                  :cause-of  (x13 / 光-01
+                        :arg0  (x10 / 花
+))                  :aspect  (x14 / 了
+)                  :arg1-of  (x9 / 到-01
+                        :manner  (x8 / 等
+))                  :mod  (x11 / 都
+))))
+===========================
+小松鼠感到很奇怪,自言自语地说:"是谁把花生摘走了呢?"
+(x20 / and
+      :op1  (x3 / 感到-01
+            :arg0  (x2 / 松鼠
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x5 / 奇怪
+                  :degree  (x4 / 很-01
+)))      :op2  (x9 / 说-01
+            :arg0  (x2 / 松鼠
+)            :manner  (x7 / 自言自语
+)            :arg1  (x15 / 摘-01
+                  :arg1  (x14 / 花生
+)                  :arg0  (x12 / amr-unknown
+)                  :cause-of  (x16 / 走-01
+                        :arg0  (x14 / 花生
+))                  :aspect  (x17 / 了
+)                  :mode  (x18_x19 / interrogative
+))))
+===========================

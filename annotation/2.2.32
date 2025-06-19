@@ -1,0 +1,256 @@
+阿德早早地起了床。
+(x4_x6 / 起床-01
+      :aspect  (x5 / 了
+)      :arg0  (x11 / person
+            :name  ( x1/阿德 
+))      :manner  (x2 / 早早
+))
+===========================
+今天上午10点，他要乘坐21世纪最新的载人飞船，到火星上去旅游，并顺便去月球看望移居到那里的亲人。
+(x7 / 要-03
+      :arg0  (x37 / and
+            :op1  (x8 / 乘坐-01
+                  :arg0  (x6 / 他
+)                  :time  (x40 / date-entity
+                        :time  (x3_x4 / 10:00
+)                        :dayperiod  (x2 / 上午
+)                        :time  (x1 / 今天
+))                  :arg1  (x14 / 飞船
+                        :mod  (x13 / 载人
+)                        :arg0-of  (x11_2 / 新-01
+                              :degree  (x11_1 / 最
+))                        :time  (x50 / date-entity
+                              :century  (x9_x10 / 21
+))))            :op2  (x16 / 到-01
+                  :arg0  (x6 / 他
+)                  :arg1  (x17 / 火星
+)                  :purpose  (x20 / 旅游-01
+                        :arg0  (x6 / 他
+)))            :op3  (x24 / 去-01
+                  :arg0  (x6 / 他
+)                  :arg1  (x25 / 月球
+)                  :manner  (x23 / 顺便
+)                  :purpose  (x26 / 看望-01
+                        :arg0  (x6 / 他
+)                        :arg1  (x31 / 亲人
+                              :arg0-of  (x27 / 移居-01
+                                    :arg1  (x29 / x17
+)))))))
+===========================
+离飞船起飞的时间还有半个小时，怎么打发这段时光呢？
+(x19 / and
+      :op1  (x1 / 离-02
+            :arg0  (x5 / 时间
+                  :time-of  (x3 / 起飞-01
+                        :arg0  (x2 / 飞船
+)))            :arg2  (x25 / temporal-quantity
+                  :quant  (x8_x9 / 0.5
+)                  :unit  (x10 / 小时
+)))      :op2  (x13 / 打发-03
+            :manner  (x12 / amr-unknown
+)            :arg1  (x16 / 时光
+                  :mod  (x14 / 这
+)                  :unit  (x15 / 段
+))            :mode  (x17_x18 / interrogative
+)))
+===========================
+阿德拨通了可视电话，要跟月球上的外婆聊聊天。
+(x16 / and
+      :op1  (x2 / 拨通-01
+            :arg0  (x19 / person
+                  :name  ( x1/阿德 
+))            :arg1  (x4 / 可视电话
+)            :aspect  (x3 / 了
+))      :op2  (x6 / 要-03
+            :arg0  (x12_x13_x14 / 聊天-01
+                  :arg0  (x19 / person
+)                  :accompanier  (x11 / 外婆
+                        :location  (x8 / 月球
+)))))
+===========================
+外婆出现在电话的屏幕上。
+(x2 / 出现-01
+      :arg0  (x6 / 屏幕
+            :part-of  (x4 / 电话
+))      :arg1  (x1 / 外婆
+))
+===========================
+“外婆，您好！两个小时以后就能见到您了。”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x2 / 外婆
+)            :op2  (x4 / 您好
+                  :mode  (x5 / expressive
+))            :op3  (x11 / 能-01
+                  :mod  (x10 / 就
+)                  :time  (x9 / 以后
+                        :op1  (x25 / temporal-quantity
+                              :quant  (x6_x7 / 2
+)                              :unit  (x8 / 小时
+)))                  :arg0  (x12 / 见到-01
+                        :arg1  (x13 / x2
+))                  :smood  (x14 / 了
+))))
+===========================
+“这么快呀！”
+(x6 / say
+      :arg1  (x3 / 快
+            :degree  (x2 / 这么
+)            :mode  (x4_x5 / expressive
+)))
+===========================
+“当然喽！我这次坐的飞船是新型的。”
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x2 / 当然
+                  :mode  (x3_x4 / expressive
+))            :op2  (x19 / thing
+                  :arg0-of  (x11 / 新型
+)                  :domain  (x9 / 飞船
+                        :arg1-of  (x7 / 坐-02
+                              :arg0  (x5 / 我
+)                              :time  (x6 / 这次
+))))))
+===========================
+“外婆，听说月球上的科研人员已研制出了无污染的太阳能汽车，市场上有卖的吗？”
+(x26 / and
+      :op1  (x2 / 外婆
+)      :op2  (x4 / 听说-01
+            :arg1  (x11 / 研制-01
+                  :arg0  (x9 / 人员
+                        :mod  (x8 / 科研
+)                        :location  (x5 / 月球
+))                  :aspect  (x10 / 已
+)                  :arg1  (x17 / 汽车
+                        :mod  (x16 / 太阳能
+)                        :mod  (x14 / 无污染
+))                  :aspect  (x13 / 了
+)))      :op3  (x21 / 有-03
+            :arg0  (x19 / 市场
+)            :mode  (x24_x25 / inrerrogative
+)            :arg1  (x42 / thing
+                  :arg0-of  (x22 / 卖-01
+                        :arg1  (x17 / 汽车
+)))))
+===========================
+“噢！大商场里都有！”
+(x10 / say
+      :arg1  (x8 / 有-03
+            :mode  (x2_x3_x9 / expressive
+)            :location  (x5 / 商场
+                  :extent  (x7 / 都
+)                  :arg0-of  (x4 / 大-01
+))))
+===========================
+阿德打开掌上电脑，进入月球最大的网上销售中心。
+(x14 / temporal
+      :arg1  (x2 / 打开-01
+            :arg0  (x17 / person
+                  :name  ( x1/阿德 
+))            :arg1  (x3 / 掌上电脑
+))      :arg2  (x5 / 进入-01
+            :arg1  (x12 / 中心
+                  :mod  (x11 / 销售
+                        :mod  (x10 / 网上
+))                  :range  (x6 / 月球
+)                  :arg0-of  (x8 / 大-01
+                        :degree  (x7 / 最
+)))))
+===========================
+“我要预订这辆太阳能汽车，下午两点来取……”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x3 / 要-03
+                  :arg0  (x4 / 预订-01
+                        :arg0  (x2 / 我
+)                        :arg1  (x8 / 汽车
+                              :mod  (x7 / 太阳能
+)                              :mod  (x5 / 这
+)                              :cunit  (x6 / 辆
+))))            :op2  (x12 / 来-05
+                  :arg0  (x2 / 我
+)                  :time  (x26 / date-entity
+                        :dayperiod  (x10 / 下午
+)                        :time  (x11 / 14:00
+))                  :arg1  (x13 / 取-01
+                        :arg0  (x2 / 我
+)                        :arg1  (x8 / 汽车
+)))))
+===========================
+“亲爱的旅客，飞船就要起飞了，请系好安全带。”
+(x19 / say
+      :arg1  (x21 / and
+            :op1  (x4 / 旅客
+                  :arg0-of  (x2 / 亲爱-01
+))            :op2  (x8 / 要-03
+                  :mod  (x7 / 就
+)                  :arg0  (x9 / 起飞-01
+                        :arg0  (x6 / 飞船
+))                  :smood  (x10 / 了
+))            :op3  (x12 / 请-01
+                  :arg1  (x4 / 旅客
+)                  :arg2  (x13 / 系-04
+                        :arg1  (x15 / 安全带
+)                        :arg0  (x4 / 旅客
+)                        :arg0-of  (x14 / 好-04
+)))))
+===========================
+“呜——”
+(x4 / say
+      :arg1  (x2 / 呜
+))
+===========================
+飞船长鸣一声飞向太空。
+(x9 / temporal
+      :arg1  (x2 / 长鸣-01
+            :arg0  (x1 / 飞船
+)            :quant  (x3 / 1
+)            :cunit  (x4 / 声
+))      :arg2  (x5 / 飞-02
+            :direction  (x7 / 太空
+)            :arg1  (x1 / 飞船
+)))
+===========================
+这时，阿德的安全带还没系好，他从椅子上滑了下来！
+(x19 / causation
+      :arg1  (x8 / 系-04
+            :polarity  (x7 / -
+                  :mod  (x6 / 还
+))            :arg1  (x5 / 安全带
+                  :poss  (x25 / person
+                        :name  ( x3/阿德 
+)))            :time  (x1 / 这时
+)            :arg0-of  (x9 / 好-04
+))      :arg2  (x15 / 滑-01
+            :direction  (x17 / 下来-01
+                  :arg0  (x11 / x25
+))            :aspect  (x16 / 了
+)            :source  (x14 / 上
+                  :arg0  (x13 / 椅子
+))            :arg0  (x11 / x25
+)            :mode  (x18 / expressive
+)))
+===========================
+“哎呀！”阿德大叫一声。
+(x6 / 叫-03
+      :mod  (x5 / 大
+)      :arg0  (x13 / person
+            :name  ( x4/阿德 
+))      :arg1  (x2 / 哎呀
+            :mode  (x3 / expressive
+))      :quant  (x7 / 1
+)      :cunit  (x8 / 声
+))
+===========================
+睁开眼一看，原来是一场梦。
+(x13 / and
+      :op1  (x4_x5 / 看
+            :manner  (x1_x2 / 睁开-01
+                  :arg1  (x3 / 眼
+)))      :op2  (x7 / 原来-01
+            :arg0  (x11 / 梦
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 场
+)                  :domain  (x22 / thing
+))))
+===========================

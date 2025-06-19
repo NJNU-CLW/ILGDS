@@ -1,0 +1,436 @@
+据有幸飞上太空的宇航员介绍，他们在天际遨游时遥望地球，映入眼帘的是一个晶莹的球体，上面蓝色和白色的纹痕相互交错，周围裹着一层薄薄的水蓝色“纱衣”。
+(x8 / 介绍-01
+      :arg0  (x7 / 宇航员
+            :arg0-of  (x2 / 有幸-01
+                  :arg1  (x3_x4 / 飞上-01
+                        :arg1  (x5 / 太空
+))))      :arg1  (x52 / temporal
+            :arg1  (x15 / 遥望-01
+                  :arg0  (x10 / x7
+)                  :arg1  (x55 / planet
+                        :name  ( x16/地球 
+))                  :time  (x13 / 遨游-01
+                        :arg1  (x12 / 天际
+)                        :arg0  (x10 / x7
+)))            :arg2  (x59 / and
+                  :op1  (x25 / 球体
+                        :arg0-of  (x23 / 晶莹-01
+)                        :quant  (x21 / 1
+)                        :cunit  (x22 / 个
+)                        :domain  (x64 / planet
+                              :arg0-of  (x18 / 映入眼帘
+)))                  :op2  (x34 / 交错-01
+                        :arg0  (x32 / 纹痕
+                              :mod  (x29 / and
+                                    :op1  (x28 / 蓝色
+)                                    :op2  (x30 / 白色
+))                              :location  (x27 / 上面
+))                        :manner  (x33 / 相互
+))                  :op3  (x37 / 裹-01
+                        :arg2  (x44 / 纱衣
+                              :mod  (x42 / 水蓝色
+)                              :arg0-of  (x41 / 薄-01
+)                              :quant  (x39 / 1
+)                              :cunit  (x40 / 层
+))                        :location  (x36 / 周围
+)                        :aspect  (x38 / 着
+)))))
+===========================
+地球，这位人类的母亲，这个生命的摇篮，是那样的美丽壮观，和蔼可亲。
+(x22 / and
+      :op1  (x17 / 美丽-01
+            :arg0  (x26 / planet
+                  :name  ( x1/地球 
+)                  :arg0-of  (x28 / mean
+                        :arg1  (x29 / and
+                              :op1  (x7 / 母亲
+                                    :poss  (x5 / 人类
+)                                    :mod  (x3 / 这
+)                                    :cunit  (x4 / 位
+))                              :op2  (x12 / 摇篮
+                                    :mod  (x10 / 生命
+)                                    :mod  (x9_1 / 这
+)                                    :cunit  (x9_2 / 个
+))))))      :op2  (x18 / 壮观-01
+            :arg0  (x26 / planet
+))      :op3  (x20 / 和蔼可亲-01
+            :arg0  (x26 / planet
+))      :degree  (x15 / 那样
+))
+===========================
+但是，同茫茫宇宙相比，地球是渺小的。
+(x13 / contrast
+      :arg2  (x10 / 渺小-01
+            :arg0  (x8 / 地球
+)            :mode  (x9_x11 / judgement
+)            :compared-to  (x5 / 宇宙
+                  :arg0-of  (x4 / 茫茫-01
+))))
+===========================
+它是一个半径只有六千三百多千米的星球。
+(x12 / 星球
+      :mod  (x6 / 只有
+            :arg0  (x5 / 半径
+)            :arg1  (x18 / distance-quantity
+                  :quant  (x9 / 多
+                        :op1  (x7_x8 / 6300
+))                  :unit  (x10 / 千米
+)))      :quant  (x3 / 1
+)      :cunit  (x4 / 个
+)      :domain  (x1 / 它
+))
+===========================
+在群星璀璨的宇宙中，就像一叶扁舟。
+(x8 / 像-01
+      :arg1  (x11 / 扁舟
+            :quant  (x9 / 1
+)            :cunit  (x10 / 叶
+))      :location  (x4 / 宇宙
+            :arg0-of  (x2 / 群星璀璨
+))      :mod  (x7 / 就
+))
+===========================
+它只有这么大，不会再长大。
+(x11 / and
+      :op1  (x3 / 有-05
+            :arg0  (x1 / 它
+)            :arg2  (x5 / 大
+                  :degree  (x4 / 这么
+))            :mod  (x2 / 只
+))      :op2  (x7_2 / 会-02
+            :polarity  (x7_1 / -
+)            :arg0  (x9 / 长大-01
+                  :mod  (x8 / 再
+)                  :arg0  (x1 / 它
+))))
+===========================
+地球所拥有的自然资料也是有限的。
+(x9 / 有限-01
+      :arg0  (x6 / 资料
+            :mod  (x5 / 自然
+                  :arg1-of  (x3 / 拥有-01
+                        :arg0  (x17 / planet
+                              :name  ( x1/地球 
+)))))      :mode  (x8_x10 / judgement
+)      :mod  (x7 / 也
+))
+===========================
+拿矿物资源来说，它不是上帝的恩赐，而是经过几百万年，甚至几亿年的地质变化才形成的。
+(x27 / and
+      :op1  (x1 / 拿
+            :arg1  (x3 / 资源
+                  :mod  (x2 / 矿物
+))            :purpose  (x4 / 来说
+))      :op2  (x33 / and
+            :op1  (x10 / 恩赐-01
+                  :arg0  (x8 / 上帝
+)                  :domain  (x6 / x3
+)                  :polarity  (x7_1 / -
+))            :op2  (x38 / thing
+                  :arg2-of  (x24 / 形成-01
+                        :condition  (x22 / 变化-01
+                              :arg0  (x21 / 地质
+)                              :duration  (x13 / 经过-01
+                                    :arg1  (x43 / progression
+                                          :arg1  (x44 / temporal-quantity
+                                                :quant  (x14_1 / 几
+                                                      :op1  (x14_2_3 / 1000000
+))                                                :unit  (x15 / 年
+))                                          :arg2  (x49 / temporal-quantity
+                                                :quant  (x18_1 / 几
+                                                      :op1  (x18_2 / 100000000
+))                                                :unit  (x19 / 年
+))))))                  :domain  (x6 / x3
+))))
+===========================
+地球是无私的，它向人类慷慨地提供矿产资源，但是，如果不加节制地开采，必将加速地球上矿产资源的枯竭。
+(x33 / contrast
+      :arg1  (x35 / and
+            :op1  (x3 / 无私-01
+                  :arg0  (x37 / planet
+                        :name  ( x1/地球 
+))                  :mode  (x2_x4 / judgement
+))            :op2  (x11 / 提供-01
+                  :arg0  (x6 / x1
+)                  :arg1  (x13 / 资源
+                        :mod  (x12 / 矿产
+))                  :arg2  (x8 / 人类
+)                  :manner  (x9 / 慷慨-01
+                        :arg0  (x37 / planet
+))))      :arg2  (x46 / condition
+            :arg1  (x22 / 开采-01
+                  :manner  (x20 / 节制
+                        :polarity  (x18 / -
+))                  :arg1  (x13 / 资源
+)                  :arg0  (x8 / 人类
+))            :arg2  (x24 / 必将
+                  :arg0  (x25 / 加速-01
+                        :arg1  (x31 / 枯竭-01
+                              :arg0  (x29 / x13
+                                    :mod  (x28 / 矿产
+)                                    :location  (x26 / x37
+)))))))
+===========================
+人类生活所需要的水资源、森林资源、生物资源、大气资源，本来是可以不断再生，长期给人类作贡献的。
+(x31 / and
+      :op1  (x20 / 可以-01
+            :arg0  (x22 / 再生-01
+                  :arg0-of  (x21 / 不断-01
+)                  :arg0  (x36 / and
+                        :op1  (x7 / 资源
+                              :mod  (x6 / 水
+))                        :op2  (x10 / 资源
+                              :mod  (x9 / 森林
+))                        :op3  (x13 / 资源
+                              :mod  (x12 / 生物
+))                        :op4  (x16 / 资源
+                              :mod  (x15 / 大气
+))                        :arg1-of  (x4 / 需要-01
+                              :arg0  (x2 / 生活-01
+                                    :arg0  (x1 / 人类
+)))))            :mod  (x18 / 本来
+))      :op2  (x27 / 作-01
+            :arg1  (x28 / 贡献-01
+                  :arg2  (x26 / x1
+)                  :arg0  (x36 / and
+))            :time  (x24 / 长期
+)            :arg0  (x36 / and
+)))
+===========================
+但是，因为人们随意毁坏自然资源，不顾后果地滥用化学品，不但使它们不能再生，还造成了一系列生态灾难，给人类生存带来了严重的威胁。
+(x38 / contrast
+      :arg2  (x40 / causation
+            :arg1  (x41 / and
+                  :op1  (x6 / 毁坏-01
+                        :arg0  (x4 / 人们
+)                        :arg1  (x7 / 自然资源
+)                        :manner  (x5 / 随意
+))                  :op2  (x12 / 滥用-01
+                        :manner  (x9_2 / 顾-01
+                              :polarity  (x9_1 / -
+)                              :arg1  (x10 / 后果
+))                        :arg1  (x13 / 化学品
+)                        :arg0  (x4 / 人们
+)))            :arg2  (x52 / and
+                  :op1  (x53 / progression
+                        :arg1  (x16 / 使-01
+                              :arg1  (x17 / 它们
+)                              :arg2  (x18_2 / 能-01
+                                    :arg0  (x19 / 再生-01
+                                          :arg0  (x17 / 它们
+))                                    :polarity  (x18_1 / -
+)))                        :arg2  (x22 / 造成-01
+                              :arg1  (x27 / 灾难
+                                    :mod  (x26 / 生态
+)                                    :quant  (x24 / 1
+)                                    :cunit  (x25 / 系列
+))                              :aspect  (x23 / 了
+)))                  :op2  (x32 / 带来-01
+                        :arg1  (x36 / 威胁
+                              :arg0-of  (x34 / 严重-01
+))                        :aspect  (x33 / 了
+)                        :arg2  (x31 / 生存-01
+                              :arg0  (x30 / 人类
+))))))
+===========================
+有人会说，宇宙空间不是大得很吗，那里有数不清的星球，在地球资源枯竭的时候，我们不能移居到别的星球上去吗？
+(x2 / 会-02
+      :arg0  (x3 / 说-01
+            :arg0  (x1_2 / 人
+                  :arg1-of  (x1_1 / 有-03
+))            :arg1  (x43 / and
+                  :op1  (x8 / 大-01
+                        :degree  (x10 / 很
+)                        :arg0  (x5 / 宇宙空间
+)                        :polarity  (x6_x7_x11 / interrogative
+))                  :op2  (x14 / 有-03
+                        :arg0  (x13 / x5
+)                        :arg1  (x19 / 星球
+                              :quant  (x15_x16_x17 / 数不清
+)))                  :op3  (x29_2 / 能-01
+                        :polarity  (x29_1 / -
+)                        :arg0  (x30 / 移居-01
+                              :arg1  (x33 / 星球
+                                    :mod  (x32 / 别的
+))                              :arg0  (x28 / 我们
+))                        :time  (x24 / 枯竭-01
+                              :mod  (x23 / 资源
+                                    :location  (x60 / planet
+                                          :name  ( x22/地球 
+))))                        :mode  (x36_x37 / interrogative
+)))))
+===========================
+科学家已经证明，至少在以地球为中心的40万亿千米的范围内，没有适合人类居住的第二个星球。
+(x3 / 证明-01
+      :arg0  (x1 / 科学家
+)      :aspect  (x2 / 已经
+)      :arg1  (x19_2 / 有-03
+            :polarity  (x19_1 / -
+)            :arg1  (x26 / 星球
+                  :ord  (x35 / ordinal-entity
+                        :value  (x24 / 2
+)                        :cunit  (x25 / 个
+))                  :arg0-of  (x20 / 适合-01
+                        :arg1  (x22 / 居住-01
+                              :arg0  (x21 / 人类
+))))            :range  (x41 / distance-quantity
+                  :quant  (x12_x13 / 40000000000000
+)                  :unit  (x14 / 千米
+)                  :mod  (x7_x9 / 以为-02
+                        :arg1  (x45 / planet
+                              :name  ( x8/地球 
+))                        :arg2  (x10 / 中心
+))                  :mod  (x5 / 至少
+))))
+===========================
+人类不能指望在破坏了地球以后再移居到别的星球上去。
+(x2_2 / 能-01
+      :arg0  (x3 / 指望-01
+            :arg0  (x1 / 人类
+)            :arg1  (x22 / temporal
+                  :arg1  (x5 / 破坏-01
+                        :arg1  (x24 / planet
+                              :name  ( x7/地球 
+))                        :arg0  (x1 / 人类
+))                  :arg2  (x10 / 移居-01
+                        :arg1  (x13 / 星球
+                              :mod  (x12 / 别的
+))                        :arg0  (x1 / 人类
+))))      :polarity  (x2_1 / -
+))
+===========================
+不错，科学家们提出了许多设想，例如，在火星或者月球上建造移民基地。
+(x21 / and
+      :op1  (x1 / 不错
+)      :op2  (x5 / 提出-01
+            :arg0  (x3_x4 / 科学家们
+)            :arg1  (x8 / 设想
+                  :quant  (x7 / 许多
+)                  :example  (x17 / 建造-01
+                        :arg1  (x19 / 基地
+                              :mod  (x18 / 移民
+))                        :location  (x14 / or
+                              :op1  (x33 / planet
+                                    :name  ( x13/火星 
+))                              :op2  (x35 / planet
+                                    :name  ( x15/月球 
+)))))            :aspect  (x6 / 了
+)))
+===========================
+但是，即使这些设想能实现，也是遥远的事情。
+(x15 / contrast
+      :arg2  (x17 / concession
+            :arg1  (x6 / 能-01
+                  :arg0  (x7 / 实现-01
+                        :arg1  (x5 / 设想
+                              :mod  (x4 / 这些
+))))            :arg2  (x13 / 事情
+                  :arg0-of  (x11 / 遥远-01
+))))
+===========================
+再说，又有多少人能够去居住呢？
+(x1 / 再说-01
+      :arg1  (x7 / 能够-01
+            :arg0  (x9 / 居住-01
+                  :arg0  (x6 / 人
+                        :quant  (x5 / amr-unknown
+)                        :arg1-of  (x4 / 有-03
+                              :mod  (x3 / 又
+))))            :mode  (x10 / interrogative
+)))
+===========================
+“我们这个地球太可爱了，同时又太破碎了！”这是宇航员遨游太空目睹地球时发出的感叹。
+(x26 / 感叹-01
+      :arg1-of  (x24 / 发出-01
+            :arg0  (x18 / 宇航员
+)            :time  (x32 / and
+                  :op1  (x19 / 遨游-01
+                        :arg1  (x20 / 太空
+)                        :arg0  (x18 / 宇航员
+))                  :op2  (x21 / 目睹-01
+                        :arg1  (x36 / planet
+                              :name  ( x22/地球 
+))                        :arg0  (x18 / 宇航员
+))))      :domain  (x16 / 这
+)      :arg1  (x39 / contrast
+            :arg1  (x7 / 可爱-01
+                  :arg0  (x5 / x36
+                        :mod  (x3 / 这
+)                        :cunit  (x4 / 个
+)                        :poss  (x2 / 我们
+))                  :degree  (x6 / 太
+)                  :aspect  (x8 / 了
+))            :arg2  (x13 / 破碎-01
+                  :arg0  (x5 / x36
+)                  :degree  (x12 / 太
+)                  :mod  (x10 / 同时
+)                  :mod  (x11 / 又
+)                  :aspect  (x14 / 了
+))            :mode  (x15 / expressive
+)))
+===========================
+只有一个地球，如果它破坏了，我们别无去处。
+(x17 / and
+      :op1  (x2 / 有-01
+            :mod  (x1 / 只
+)            :arg1  (x21 / planet
+                  :name  ( x5/地球 
+)                  :quant  (x3 / 1
+)                  :cunit  (x4 / 个
+)))      :op2  (x25 / condition
+            :arg1  (x9 / 破坏-01
+                  :arg1  (x8 / x21
+)                  :aspect  (x10 / 了
+))            :arg2  (x14 / 无-01
+                  :arg0  (x12 / 我们
+)                  :arg1  (x15 / 去处
+)                  :mod  (x13 / 别
+))))
+===========================
+如果地球上的各种资源都枯竭了，我们很难从别的地方得到补充。
+(x20 / condition
+      :arg1  (x8 / 枯竭-01
+            :arg0  (x6 / 资源
+                  :mod  (x5_1 / 各
+)                  :unit  (x5_2 / 种
+))            :mod  (x7 / 都
+)            :aspect  (x9 / 了
+)            :location  (x28 / planet
+                  :name  ( x2/地球 
+)))      :arg2  (x13 / 难-01
+            :arg0  (x17 / 得到-01
+                  :arg1  (x18 / 补充
+)                  :source  (x16 / 地方
+                        :mod  (x15 / 别的
+))                  :arg0  (x11 / 我们
+))))
+===========================
+我们要精心地保护地球，保护地球的生态环境。
+(x2 / 要-03
+      :arg0  (x16 / and
+            :op1  (x5 / 保护-01
+                  :arg0  (x1 / 我们
+)                  :arg1  (x22 / planet
+                        :name  ( x6/地球 
+))                  :arg0  (x1 / 我们
+))            :manner  (x3 / 精心
+)            :op2  (x8 / 保护-01
+                  :arg1  (x12 / 环境
+                        :mod  (x11 / 生态
+)                        :location  (x9 / x6
+))                  :arg0  (x1 / 我们
+))))
+===========================
+让地球更好地造福于我们的子孙后代吧！
+(x1 / 让-02
+      :arg1  (x15 / planet
+            :name  ( x2/地球 
+))      :arg2  (x6_x7 / 造福-01
+            :arg1  (x10 / 子孙后代
+                  :poss  (x8 / 我们
+))            :manner  (x4 / 好
+                  :degree  (x3 / 更
+)))      :mode  (x11 / imperative
+)      :mode  (x12 / expressive
+))
+===========================

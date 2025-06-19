@@ -1,0 +1,300 @@
+从前有个商人走失了一只骆驼。
+(x5 / 走失-01
+      :arg0  (x4 / 商人
+            :arg1-of  (x2 / 有-01
+)            :cunit  (x3 / 个
+))      :arg1  (x9 / 骆驼
+            :quant  (x7 / 1
+)            :cunit  (x8 / 只
+))      :aspect  (x6 / 了-01
+)      :time  (x1 / 从前
+))
+===========================
+他找了很多地方都没找到，心里很着急。
+(x14 / causation
+      :arg1  (x16 / temporal
+            :arg1  (x2 / 找-04
+                  :aspect  (x3 / 了
+)                  :arg0  (x1 / 他
+)                  :location  (x5 / 地方
+                        :quant  (x4 / 很多
+)))            :arg2  (x8 / 找到-01
+                  :polarity  (x7 / -
+)                  :mod  (x6 / 都
+)                  :arg0  (x1 / 他
+)))      :arg2  (x12 / 着急-02
+            :arg0  (x10 / 心里
+                  :part-of  (x1 / 他
+))            :degree  (x11 / 很
+)))
+===========================
+这时候，他看见一位老人在前面走，就赶上去问：“老人家，您看见一只骆驼了吗？”
+(x28 / temporal
+      :arg1  (x4 / 看见-01
+            :arg0  (x3 / 他
+)            :arg1  (x10 / 走-01
+                  :arg0  (x7 / 老人
+                        :quant  (x5 / 一
+)                        :cunit  (x6 / 位
+))                  :location  (x9 / 前面
+))            :time  (x1 / 这时候
+))      :arg2  (x13 / 赶-01
+            :direction  (x14_x15 / 上去-01
+                  :arg0  (x3 / 他
+))            :arg0  (x3 / 他
+))      :arg3  (x16 / 问-01
+            :arg0  (x3 / 他
+)            :arg1  (x41 / and
+                  :op1  (x18 / x7
+)                  :op2  (x21 / 看见-01
+                        :arg0  (x20 / x7
+)                        :arg1  (x24 / 骆驼
+                              :quant  (x22 / 1
+)                              :cunit  (x23 / 只
+))                        :aspect  (x25 / 了
+)                        :mode  (x26 / interrogative
+)))            :arg2  (x7 / 老人
+)))
+===========================
+老人说：“你问的那只骆驼，是不是左脚有点跛？”
+(x2 / 说-01
+      :arg0  (x1 / 老人
+)      :arg1  (x16 / 跛
+            :degree  (x15 / 有点
+)            :arg0  (x14 / 左脚
+                  :part-of  (x9 / 骆驼
+                        :arg1-of  (x5 / 问-01
+                              :arg0  (x4 / 你
+)                              :arg2  (x1 / 老人
+))                        :mod  (x7 / 那
+)                        :cunit  (x8 / 只
+)))            :mode  (x11_x12_x13 / interrogative
+)))
+===========================
+“是的。”
+(x8 / say
+      :arg1  (x2 / 是
+            :mode  (x3 / judgement
+)))
+===========================
+“是不是左边驮着蜜，右边驮着米？”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x6 / 驮
+                  :aspect  (x7 / 着
+)                  :location  (x5 / 左边
+                        :arg0  (x25 / animal
+))                  :arg1  (x8 / 蜜
+))            :op2  (x11 / 驮
+                  :aspect  (x12 / 着
+)                  :location  (x10 / 右边
+                        :arg0  (x25 / animal
+))                  :arg1  (x13 / 米
+))            :mode  (x2_x3_x4 / interrogative
+)))
+===========================
+“不错。”
+(x4 / say
+      :arg1  (x2 / 不错
+))
+===========================
+“是不是缺了一颗牙齿？”
+(x11 / say
+      :arg1  (x5 / 缺-01
+            :arg1  (x9 / 牙齿
+                  :quant  (x7 / 1
+)                  :cunit  (x8 / 颗
+))            :aspect  (x6 / 了
+))      :mode  (x2_x3_x4_x10 / interrogative
+))
+===========================
+“对极了！您看见它往哪儿去了？”
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x2 / 对
+                  :degree  (x3_x4 / 极了
+)                  :mode  (x5 / interrogative
+))            :op2  (x7 / 看见-01
+                  :arg0  (x6 / 您
+)                  :arg1  (x11 / 去-01
+                        :arg0  (x8 / 它
+)                        :aspect  (x12 / 了
+)                        :direction  (x10 / amr-unknown
+)                        :mode  (x13 / amr-unknown
+)))))
+===========================
+老人说：“那我可不知道。”
+(x2 / 说-01
+      :arg0  (x1 / 老人
+)      :arg1  (x8 / 知道-01
+            :mod  (x6 / 可
+)            :arg0  (x5 / x1
+)            :polarity  (x7 / -
+)            :arg1  (x4 / 那
+)))
+===========================
+商人忿忿地说：“别哄我了，一定是你把我的骆驼藏起来了。
+(x4 / 说-01
+      :manner  (x2 / 忿忿
+)      :arg0  (x1 / 商人
+)      :arg1  (x26 / and
+            :op1  (x6 / 别-02
+                  :arg0  (x7 / 哄-01
+                        :arg1  (x8 / x1
+)                        :smood  (x9 / 了
+)                        :arg0  (x13 / 你
+)))            :op2  (x11 / 一定
+                  :arg0  (x18_x19 / 藏-01
+                        :arg0  (x13 / 你
+)                        :mode  (x12 / judgement
+)                        :arg1  (x17 / 骆驼
+                              :poss  (x15 / x1
+))                        :aspect  (x20 / 了
+)))))
+===========================
+要不，你怎么会知道得这样详细？”
+(x11 / condition
+      :arg1  (x1 / 要不
+)      :arg2  (x5 / 会-02
+            :arg0  (x6 / 知道-01
+                  :arg0  (x3 / 你
+)                  :arg1  (x21 / thing
+)                  :manner  (x9 / 详细-01
+                        :degree  (x8 / 这样
+)                        :arg0  (x21 / thing
+)))            :mode  (x10 / expressive
+)            :cause  (x4 / amr-unknown
+)))
+===========================
+老人不紧不慢地说：“干吗生气呢，听我说嘛。
+(x4 / 说-01
+      :manner  (x2 / 不紧不慢
+)      :arg0  (x1 / 老人
+)      :arg1  (x19 / and
+            :op1  (x7 / 生气
+                  :cause  (x6 / amr-unknown
+)                  :mode  (x8 / expressive
+))            :op2  (x10 / 听-01
+                  :arg1  (x12 / 说-01
+                        :arg0  (x11 / x1
+))                  :mode  (x13 / expressive
+))))
+===========================
+刚才我看见路上有骆驼的脚印，右边深，左边浅，就知道骆驼的左脚有点跛。
+(x24 / causation
+      :arg1  (x3 / 看见-01
+            :time  (x1 / 刚才
+)            :arg0  (x2 / 我
+)            :arg1  (x29 / and
+                  :op1  (x5 / 有-02
+                        :arg0  (x4 / 路上
+)                        :arg1  (x8 / 脚印
+                              :poss  (x6 / 骆驼
+)))                  :op2  (x11 / 深-02
+                        :arg0  (x35 / thing
+                              :location  (x10 / 右边
+)                              :arg1-of  (x37 / include-91
+                                    :arg2  (x8 / 脚印
+))))                  :op3  (x14 / 浅-01
+                        :arg0  (x39 / thing
+                              :arg1-of  (x40 / include-91
+                                    :arg2  (x8 / 脚印
+))                              :location  (x13 / 左边
+)))))      :arg2  (x17 / 知道-01
+            :arg0  (x2 / 我
+)            :arg1  (x22 / 跛
+                  :degree  (x21 / 有点
+)                  :arg0  (x20 / 左脚
+))))
+===========================
+我又看见路的左边有一些蜜，右边有一些米，我想骆驼驮的一定是这两样东西。
+(x27 / causation
+      :arg1  (x3 / 看见-01
+            :mod  (x2 / 又
+)            :arg0  (x1 / 我
+)            :arg1  (x32 / and
+                  :op1  (x7 / 有-03
+                        :arg0  (x6 / 左边
+                              :arg0  (x4 / 路
+))                        :arg1  (x9 / 蜜
+                              :quant  (x8 / 一些
+)))                  :op2  (x12 / 有-03
+                        :arg0  (x11 / 右边
+                              :arg0  (x4 / 路
+))                        :arg1  (x14 / 米
+                              :quant  (x13 / 一些
+)))))      :arg2  (x17 / 想-01
+            :arg0  (x16 / x1
+)            :arg1  (x21 / 一定
+                  :arg0  (x25 / 东西
+                        :domain  (x46 / thing
+                              :arg1-of  (x19 / 驮
+                                    :arg0  (x18 / 骆驼
+)))                        :mod  (x23 / 这
+)                        :quant  (x24_1 / 2
+)                        :unit  (x24_2 / 样
+)))))
+===========================
+我还看见骆驼啃过的树叶，上面留下了牙齿印，所以知道它缺了一颗牙齿。
+(x25 / causation
+      :arg1  (x3 / 看见-01
+            :mod  (x2 / 还
+)            :arg0  (x1 / 我
+)            :arg1  (x36 / and
+                  :op1  (x8 / 树叶
+                        :arg1-of  (x5 / 啃-01
+                              :aspect  (x6 / 过
+)                              :arg0  (x4 / 骆驼
+)))                  :op2  (x11 / 留下-01
+                        :aspect  (x12 / 了
+)                        :arg1  (x14 / 印
+                              :mod  (x13 / 牙齿
+))                        :location  (x10 / 上面
+                              :arg0  (x8 / 树叶
+)))))      :arg2  (x17 / 知道-01
+            :arg0  (x1 / 我
+)            :arg1  (x19 / 缺-01
+                  :arg0  (x18 / x4
+)                  :aspect  (x20 / 了
+)                  :arg1  (x23 / 牙齿
+                        :quant  (x21 / 1
+)                        :cunit  (x22 / 颗
+)))))
+===========================
+至于骆驼究竟往哪儿去了，应该顺着它的脚印去找。”
+(x17 / say
+      :arg1  (x9 / 应该-01
+            :arg0  (x10 / 顺着
+)            :arg0  (x14 / 去-01
+                  :arg1  (x15 / 找
+)                  :manner  (x10_1 / 顺
+                        :aspect  (x10_2 / 着
+)                        :arg1  (x13 / 脚印
+                              :poss  (x11 / x2
+))))            :topic  (x6 / 去
+                  :arg0  (x2 / 骆驼
+)                  :direction  (x5 / amr-unknown
+                        :mod  (x3 / 究竟
+))                  :smood  (x7 / 了
+))))
+===========================
+商人听了，照老人的指点一路找去，果然找到了走失的骆驼。
+(x20 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x1 / 商人
+)            :aspect  (x3 / 了
+))      :arg2  (x10_x11 / 找-01
+            :arg0  (x1 / 商人
+)            :manner  (x5 / 照-03
+                  :arg0  (x1 / 商人
+)                  :arg1  (x8 / 指点
+                        :poss  (x6 / 老人
+)))            :path  (x9 / 一路
+))      :arg3  (x14 / 找到-01
+            :arg0  (x1 / 商人
+)            :mod  (x13 / 果然
+)            :arg1  (x18 / 骆驼
+                  :arg1-of  (x16 / 走失-01
+))            :aspect  (x15 / 了
+)))
+===========================

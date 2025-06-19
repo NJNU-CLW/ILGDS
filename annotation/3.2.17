@@ -1,0 +1,739 @@
+今天我和克莱谛吵架，并不是因为他得了奖，我嫉妒。
+(x19 / causation
+      :arg2  (x5 / 吵架-01
+            :arg0  (x3 / and
+                  :op1  (x2 / 我
+)                  :op2  (x24 / person
+                        :name  ( x4/克莱谛 
+)))            :time  (x1 / 今天
+))      :arg1  (x35 / causation
+            :arg1  (x12 / 得-01
+                  :aspect  (x13 / 了
+)                  :arg1  (x14 / 奖
+)                  :arg0  (x11 / x24
+))            :arg2  (x17 / 嫉妒-01
+                  :arg0  (x16 / x2
+)                  :arg1  (x12 / 得-01
+))            :polarity  (x8_x9 / -
+)            :mod  (x7 / 并
+)))
+===========================
+早晨，“小石匠”病了，老师叫我替他抄写每月故事。
+(x21 / causation
+      :arg1  (x6 / 病-01
+            :aspect  (x7 / 了
+)            :arg0  (x4 / 石匠
+                  :mod  (x3 / 小
+)))      :arg2  (x10 / 叫-04
+            :arg0  (x9 / 老师
+)            :arg1  (x11 / 我
+                  :arg0-of  (x12 / 替-01
+                        :arg1  (x13 / x4
+)                        :arg2  (x14 / 抄写-01
+                              :arg0  (x11 / 我
+)                              :arg1  (x17 / 故事
+                                    :mod  (x15_x16 / 每月
+))))))      :time  (x1 / 早晨
+))
+===========================
+我正抄着，坐在旁边的克莱谛忽然碰了我的胳膊肘，把墨水滴到笔记本上，本子被弄脏了，字迹也看不清了。
+(x38 / temporal
+      :arg1  (x3 / 抄-02
+            :aspect  (x2 / 正
+)            :aspect  (x4 / 着
+)            :arg0  (x1 / 我
+))      :arg2  (x12 / 碰-01
+            :aspect  (x13 / 了
+)            :arg0  (x46 / person
+                  :name  ( x10/克莱谛 
+)                  :arg0-of  (x6_x7 / 坐在-01
+                        :arg1  (x8 / 旁边
+                              :arg0  (x1 / 我
+))))            :arg1  (x16 / 胳膊肘
+                  :part-of  (x14 / x1
+))            :manner  (x11 / 忽然
+))      :arg3  (x20 / 滴-01
+            :arg0  (x46 / person
+)            :arg2  (x22 / 笔记本
+)            :arg1  (x19 / 墨水
+))      :arg4  (x27_x28 / 弄脏-01
+            :arg0  (x19 / 墨水
+)            :arg1  (x25 / 本子
+)            :aspect  (x29 / 了
+))      :arg5  (x61 / possible
+            :arg0  (x33_x35 / 看清-01
+                  :arg1  (x31 / 字迹
+))            :polarity  (x34 / -
+)            :aspect  (x36 / 了
+)            :mod  (x32 / 也
+)))
+===========================
+我火了，骂了他一句。
+(x11 / causation
+      :arg1  (x2 / 火
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 我
+))      :arg2  (x5 / 骂-01
+            :arg0  (x1 / 我
+)            :aspect  (x6 / 了
+)            :arg1  (x7 / 他
+)            :arg3  (x19 / thing
+                  :unit  (x9 / 句
+)                  :quant  (x8 / 1
+))))
+===========================
+他只微笑着说：“我不是故意的’
+(x5 / 说-01
+      :mod  (x2 / 只
+)      :manner  (x3 / 微笑-01
+            :arg0  (x1 / 他
+)            :aspect  (x4 / 着
+))      :arg0  (x1 / 他
+)      :arg1  (x9 / 故意-01
+            :arg0  (x7 / x1
+)            :polarity  (x8_1 / -
+)            :mode  (x8_2_x10 / judgement
+)))
+===========================
+我本来会相信他的。
+(x3 / 会-02
+      :mod  (x2 / 本来
+)      :arg0  (x4 / 相信-01
+            :arg0  (x1 / 我
+)            :arg1  (x5 / 他
+))      :mode  (x6 / judgement
+))
+===========================
+可是他的笑让我很不高兴心想：“哼，得了奖，有什么了不起！”
+(x23 / contrast
+      :arg2  (x25 / causation
+            :arg1  (x5 / 让-02
+                  :arg0  (x4 / 笑
+                        :poss  (x2 / 他
+))                  :arg1  (x6 / 我
+)                  :arg2  (x9 / 高兴-01
+                        :polarity  (x8 / -
+                              :degree  (x7 / 很
+))                        :arg0  (x6 / 我
+)))            :arg2  (x10 / 心想-01
+                  :arg0  (x6 / 我
+)                  :arg1  (x35 / and
+                        :op1  (x12 / 哼
+)                        :op2  (x18 / 有-06
+                              :arg0  (x14 / 得
+                                    :aspect  (x15 / possible
+)                                    :arg1  (x16 / 奖
+))                              :arg1  (x20 / 了不起
+                                    :mod  (x19 / amr-unknown
+)))                        :mode  (x21 / expressive
+)))))
+===========================
+于是我想报复他。
+(x9 / causation
+      :arg2  (x3 / 想-02
+            :arg0  (x2 / 我
+)            :arg1  (x4 / 报复-01
+                  :arg0  (x2 / 我
+)                  :arg2  (x5 / 他
+))))
+===========================
+过了一会儿，我也碰了他一下，把他的本子也弄脏了。
+(x22 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x3 / 一会儿
+))      :arg2  (x7 / 碰-01
+            :quant  (x10 / 1
+)            :cunit  (x11 / 下
+)            :aspect  (x8 / 了
+)            :arg0  (x5 / 我
+)            :mod  (x6 / 也
+)            :arg1  (x9 / 他
+))      :arg3  (x18_x19 / 弄脏-01
+            :aspect  (x20 / 了
+)            :arg0  (x5 / 我
+)            :arg1  (x16 / 本子
+                  :poss  (x14 / x9
+))            :mod  (x17 / 也
+)))
+===========================
+克莱谛气得脸都红了。
+(x2 / 气-01
+      :cause-of  (x6 / 红-01
+            :aspect  (x7 / 了-01
+)            :arg0  (x4 / 脸
+                  :part-of  (x15 / person
+                        :name  ( x1/克莱谛 
+)))            :mod  (x5 / 都
+))      :arg0  (x15 / person
+))
+===========================
+“你这是故意的！”说着就举起手来，正好被老师看见了，克莱谛急忙缩回手去，说：“我在外边等你！”
+(x35 / temporal
+      :arg1  (x8 / 说-01
+            :aspect  (x9 / 着
+)            :arg0  (x39 / person
+                  :name  ( x21/克莱谛 
+))            :arg1  (x5 / 故意-01
+                  :arg0  (x2 / 你-01
+                        :mod  (x3 / 这
+))                  :mode  (x4_x6 / judgement
+)                  :mode  (x7 / expressive
+)))      :arg2  (x11 / 举起-01
+            :arg0  (x39 / person
+)            :arg1  (x12 / 手
+                  :part-of  (x39 / person
+)))      :arg3  (x18 / 看见-01
+            :arg0  (x17 / 老师
+                  :aspect  (x19 / 了
+))            :manner  (x15 / 正好
+)            :arg1  (x11 / 举起-01
+))      :arg4  (x23 / 缩回-01
+            :arg0  (x39 / person
+)            :arg1  (x24 / x12
+)            :manner  (x22 / 急忙
+))      :arg5  (x27 / 说-01
+            :arg0  (x39 / person
+)            :arg1  (x32 / 等-01
+                  :arg0  (x29 / x39
+)                  :arg1  (x33 / x2
+)                  :location  (x31 / 外边
+)                  :mode  (x34 / expressive
+))))
+===========================
+我觉得很不安，气也全消了。
+(x12 / temporal
+      :arg1  (x2 / 觉得-01
+            :arg0  (x1 / 我
+)            :arg1  (x4 / 不安-01
+                  :degree  (x3 / 很
+)                  :arg0  (x1 / 我
+)))      :arg2  (x9 / 消-01
+            :aspect  (x10 / 了
+)            :arg0  (x6 / 气
+                  :extent  (x8 / 全
+)                  :poss  (x1 / 我
+))            :mod  (x7 / 也
+)))
+===========================
+我很后悔，不该那样做。
+(x3 / 后悔-01
+      :arg0  (x1 / 我
+)      :degree  (x2 / 很
+)      :arg1  (x6 / 该-01
+            :polarity  (x5 / -
+)            :arg0  (x8 / 做-01
+                  :arg0  (x1 / 我
+)                  :mod  (x7 / 那样
+))))
+===========================
+克莱谛是个好人，他绝对不会是故意的。
+(x13 / causation
+      :arg1  (x4 / 好人
+            :domain  (x16 / person
+                  :name  ( x1/克莱谛 
+))            :cunit  (x3 / 个
+))      :arg2  (x8_2 / 会-02
+            :polarity  (x8_1 / -
+                  :degree  (x7 / 绝对
+))            :arg0  (x10 / 故意-01
+                  :mode  (x9_x11 / judgement
+)                  :arg0  (x6 / x16
+))))
+===========================
+我想起那次去他家玩，他帮助父母亲干活。
+(x2 / 想起-01
+      :arg0  (x1 / 我
+)      :arg1  (x10 / 帮助-02
+            :time  (x5 / 去
+                  :arg0  (x1 / 我
+)                  :arg1  (x6_2 / 家
+                        :poss  (x6_1 / 他
+))                  :purpose  (x7 / 玩-01
+                        :arg0  (x1 / 我
+))                  :mod  (x3 / 那
+)                  :cunit  (x4 / 次
+))            :arg1  (x11 / 父母亲
+)            :arg2  (x12 / 干活-01
+                  :arg0  (x9 / x6_1
+))            :arg0  (x9 / x6_1
+)))
+===========================
+服侍生病的母亲的情形。
+(x6 / 情形
+      :arg0-of  (x10 / mean
+            :arg1  (x1 / 服侍-01
+                  :arg1  (x4 / 母亲
+                        :arg0-of  (x2 / 生病-01
+)))))
+===========================
+还有他来我家的时候，我们全家都诚心诚意地欢迎他，父亲又是那么喜欢他的种种情形来。
+(x28 / and
+      :op2  (x25 / 情形
+            :quant  (x23_x24 / 种种
+)            :arg0-of  (x30 / and
+                  :op1  (x13 / 欢迎-01
+                        :arg0  (x9 / 全家
+                              :poss  (x8 / 我们
+)                              :extent  (x10 / 都
+))                        :arg1  (x14 / x2
+)                        :manner  (x11 / 诚心诚意
+))                  :time  (x3 / 来-01
+                        :arg1  (x4_2 / 家
+                              :poss  (x4_1 / 我
+))                        :arg0  (x2 / 他
+))                  :op2  (x20 / 喜欢-01
+                        :degree  (x19 / 那么
+)                        :arg0  (x16 / 父亲
+)                        :mod  (x17 / 又
+)                        :arg1  (x21 / x2
+)                        :mode  (x18 / judgement
+)))))
+===========================
+啊，要是我没有骂他，没有做对不起他的事该有多好！
+(x16 / 该-01
+      :arg0  (x17 / 有-03
+            :arg1  (x19 / 好-01
+                  :degree  (x18 / 多
+)                  :arg0  (x3_x4 / 要是
+                        :arg0  (x26 / and
+                              :op1  (x7 / 骂-01
+                                    :arg0  (x5 / 我
+)                                    :arg1  (x8 / 他
+))                              :op2  (x11 / 做-01
+                                    :arg0  (x5 / 我
+)                                    :arg1  (x15 / 事
+                                          :mod  (x12 / 对不起-02
+                                                :arg1  (x13 / x8
+)))                                    :polarity  (x10 / -
+)))))            :mode  (x1_x20 / expressive
+)))
+===========================
+我又记起父亲“应该知错认错”的话来。
+(x3 / 记-02
+      :arg0  (x1 / 我
+)      :arg1  (x12 / 话
+            :poss  (x5 / 父亲
+)            :arg0-of  (x22 / mean
+                  :arg1  (x7 / 应该-01
+                        :arg0  (x24 / condition
+                              :arg1  (x8 / 知错
+)                              :arg2  (x9 / 认错
+)))))      :mod  (x2 / 又
+))
+===========================
+但是，要我向他承认错误，我觉得太丢脸。
+(x15 / contrast
+      :arg2  (x17 / condition
+            :arg1  (x3 / 要-01
+                  :arg1  (x4 / 我
+)                  :arg2  (x7 / 承认
+                        :arg0  (x4 / 我
+)                        :arg1  (x8 / 错误
+)                        :arg2  (x6 / 他
+)))            :arg2  (x11 / 觉得-01
+                  :arg0  (x10 / x4
+)                  :arg1  (x13 / 丢脸-01
+                        :degree  (x12 / 太
+)                        :arg1  (x4 / 我
+)))))
+===========================
+我用眼角偷偷地看他，见他上衣肩上的线缝都开了，大概是因为扛多了柴的缘故吧。
+(x33 / temporal
+      :arg1  (x6 / 看-02
+            :instrument  (x3 / 眼角
+                  :part-of  (x1 / 我
+))            :arg0  (x1 / 我
+)            :manner  (x4 / 偷偷
+)            :arg1  (x7 / 他
+))      :arg2  (x9 / 见-01
+            :arg0  (x1 / 我
+)            :arg1  (x17 / 开-03
+                  :arg0  (x15 / 缝
+                        :mod  (x14 / 线
+)                        :location  (x12_1 / 肩
+                              :part-of  (x11 / 上衣
+                                    :poss  (x10 / x7
+)))                        :extent  (x16 / 都
+))                  :aspect  (x18 / 了
+)                  :cause  (x20 / 大概
+                        :arg0  (x23 / 扛-01
+                              :arg1  (x26 / 柴
+                                    :arg0-of  (x24 / 多-03
+                                          :aspect  (x25 / 了
+)))                              :arg0  (x7 / 他
+))))))
+===========================
+想到这里，我觉得克莱谛可爱;心里暗暗说：去向他认错吧”，
+(x19 / and
+      :op1  (x5 / 觉得-01
+            :time  (x1 / 想到-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x2 / 这里
+))            :arg1  (x7 / 可爱-01
+                  :arg0  (x25 / person
+                        :name  ( x6/克莱谛 
+)))            :arg0  (x4 / 我
+))      :op2  (x11 / 说-01
+            :manner  (x10 / 暗暗
+)            :arg0  (x9 / 心里
+                  :part-of  (x4 / 我
+))            :arg1  (x13 / 去-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x16 / 认错-01
+                        :arg0  (x4 / 我
+)                        :direction  (x15 / x25
+))                  :mode  (x17 / imperative
+))))
+===========================
+可是“请原谅我”这几个字怎么也说不出来。
+(x17 / contrast
+      :arg2  (x19 / possible
+            :arg0  (x13_x15 / 说出-01
+                  :arg1  (x10 / 字
+                        :mod  (x7 / 这
+)                        :quant  (x8 / 几
+)                        :cunit  (x9 / 个
+)                        :arg0-of  (x29 / mean
+                              :arg1  (x3 / 请-02
+                                    :arg2  (x4 / 原谅-01
+                                          :arg1  (x5 / 我
+)))))                  :manner  (x11 / 怎么
+))            :polarity  (x14 / -
+)            :mod  (x12 / 也
+)))
+===========================
+克莱谛不时用眼睛瞟我，从他的眼里表示出来的不是愤怒，而是悲哀。
+(x21 / and
+      :op1  (x5 / 瞟-01
+            :arg1  (x6 / 我
+)            :arg0  (x25 / person
+                  :name  ( x1/克莱谛 
+))            :instrument  (x4 / 眼睛
+                  :part-of  (x25 / person
+))            :frequency  (x2 / 不时
+))      :op2  (x28 / contrast
+            :arg1  (x16 / 愤怒
+                  :domain  (x30 / thing
+                        :arg1-of  (x12 / 表示-01
+                              :arg1  (x11 / 眼里
+                                    :part-of  (x9 / x25
+)))))            :arg2  (x19 / 悲哀
+                  :domain  (x30 / thing
+))))
+===========================
+他又说:“我在外边等着你!”
+(x3 / 说-01
+      :mod  (x2 / 又
+)      :arg0  (x1 / 他
+)      :arg1  (x8 / 等-01
+            :aspect  (x9 / 着
+)            :arg1  (x10 / 你
+)            :mode  (x11 / expressive
+)            :arg0  (x5 / x1
+)            :location  (x7 / 外边
+)))
+===========================
+我回答说:“我也等着你!
+(x2_x3 / 回答-01
+      :arg0  (x1 / 我
+)      :arg1  (x7 / 等-01
+            :aspect  (x8 / 着
+)            :arg1  (x9 / 你
+)            :mode  (x10 / expressive
+)            :mod  (x6 / 也
+)            :arg0  (x5 / x1
+)))
+===========================
+可我心里却在想着父亲对我说过的话：“要是你错了，别人打你，你千万不要还手，只要防御就是了”
+(x36 / contrast
+      :arg2  (x6 / 想-01
+            :aspect  (x7 / 着
+)            :arg0  (x3 / 心里
+                  :part-of  (x2 / 我
+))            :aspect  (x5 / 在
+)            :arg1  (x14 / 话
+                  :arg1-of  (x11 / 说-01
+                        :arg0  (x8 / 父亲
+)                        :arg3  (x10 / x2
+)                        :aspect  (x12 / 过
+))                  :arg0-of  (x49 / mean
+                        :arg1  (x50 / condition
+                              :arg1  (x51 / causation
+                                    :arg1  (x19 / 错-01
+                                          :arg0  (x18 / x2
+)                                          :aspect  (x20 / 了
+))                                    :arg2  (x23 / 打-02
+                                          :arg1  (x24 / x2
+)                                          :arg0  (x22 / 别人
+)))                              :arg2  (x61 / contrast
+                                    :arg1  (x29 / 还手-01
+                                          :mod  (x27 / 千万
+)                                          :polarity  (x28 / -
+)                                          :arg0  (x26 / x2
+))                                    :arg2  (x32 / 防御-01
+                                          :arg0  (x2 / 我
+)                                          :smood  (x34 / 了
+))))))))
+===========================
+我心想:“我只是防御，决不还手。”
+(x2 / 心想-01
+      :arg0  (x1 / 我
+)      :arg1  (x14 / and
+            :op1  (x6 / 防御-01
+                  :mod  (x5 / 只是
+)                  :arg0  (x4 / x1
+))            :op2  (x9 / 还手-01
+                  :polarity  (x8_2 / -
+                        :mod  (x8_1 / 决
+))                  :arg0  (x1 / 我
+))))
+===========================
+毕竟是心里有事，老师讲的功课我一句也没有听进去。
+(x19 / causation
+      :arg1  (x4 / 有-03
+            :arg0  (x3 / 心里
+                  :part-of  (x11 / 我
+))            :arg1  (x5 / 事
+)            :mod  (x1 / 毕竟
+)            :mode  (x2 / judgement
+))      :arg2  (x16 / 听-01
+            :cause-of  (x17 / 进去-01
+                  :arg0  (x10 / 功课
+                        :arg1-of  (x8 / 讲-01
+                              :arg0  (x7 / 老师
+))                        :quant  (x12 / 1
+)                        :unit  (x13 / 句
+)))            :arg0  (x11 / 我
+)            :polarity  (x15 / -
+)            :mod  (x14 / 也
+)            :arg1  (x10 / 功课
+)))
+===========================
+终于挨到了放学。
+(x2 / 挨
+      :cause-of  (x3 / 到-01
+            :aspect  (x4 / 了
+)            :arg1  (x5 / 放学-01
+))      :time  (x1 / 终于
+))
+===========================
+我独自在街上走着，听见克莱谛从后面跟上来。
+(x15 / temporal
+      :arg1  (x5 / 走-01
+            :aspect  (x6 / 着
+)            :arg0  (x1 / 我
+)            :manner  (x2 / 独自
+)            :location  (x4 / 街上
+))      :arg2  (x8 / 听见-01
+            :arg0  (x1 / 我
+)            :arg1  (x12 / 跟-01
+                  :arg0  (x24 / person
+                        :name  ( x9/克莱谛 
+))                  :source  (x11 / 后面
+)                  :direction  (x13 / 上来
+)                  :arg1  (x1 / 我
+))))
+===========================
+我手里拿着戒尺站住等他。
+(x6 / 站住-01
+      :manner  (x3 / 拿-03
+            :aspect  (x4 / 着
+)            :arg0  (x2 / 手里
+                  :part-of  (x1 / 我
+))            :arg1  (x5 / 戒尺
+))      :arg0  (x1 / 我
+)      :purpose  (x7 / 等-01
+            :arg0  (x1 / 我
+)            :arg1  (x8 / 他
+)))
+===========================
+他走近了我，我举起戒尺。
+(x11 / temporal
+      :arg1  (x2 / 走-01
+            :cause-of  (x3 / 近-01
+                  :aspect  (x4 / 了
+)                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 我
+))            :arg0  (x1 / 他
+))      :arg2  (x8 / 举起-01
+            :arg0  (x7 / x5
+)            :arg1  (x9 / 戒尺
+)))
+===========================
+“不，安利柯！”
+(x7 / say
+      :arg1  (x9 / and
+            :op1  (x2 / 不
+)            :op2  (x11 / person
+                  :name  ( x4/安利柯 
+))            :mode  (x5 / expressive
+)))
+===========================
+克莱谛微笑着用手拨开戒尺，温和地对我说：“让我们像从前那样做好朋友吧！”
+(x25 / temporal
+      :arg1  (x6 / 拨开-01
+            :instrument  (x5 / 手
+)            :arg0  (x29 / person
+                  :name  ( x1/克莱谛 
+))            :arg1  (x7 / 戒尺
+)            :manner  (x2 / 微笑-01
+                  :aspect  (x3 / 着
+)                  :arg0  (x29 / person
+)))      :arg1  (x13 / 说-01
+            :arg3  (x12 / 我
+)            :arg0  (x29 / person
+)            :manner  (x9 / 温和-01
+                  :arg0  (x29 / person
+))            :arg1  (x15 / 让-02
+                  :arg1  (x16 / 我们
+                        :arg0-of  (x39 / mean
+                              :arg1  (x40 / and
+                                    :op1  (x29 / person
+)                                    :op2  (x12 / 我
+))))                  :arg2  (x20 / 做-02
+                        :arg1  (x22 / 朋友
+                              :arg0-of  (x21 / 好-01
+))                        :arg0  (x16 / 我们
+)                        :manner  (x17 / 像-01
+                              :arg1  (x18 / 从前
+)))                  :mode  (x23 / imperative
+)                  :mode  (x24 / expressive
+))))
+===========================
+我愣住了。
+(x2 / 愣住-01
+      :arg0  (x1 / 我
+)      :aspect  (x3 / 了
+))
+===========================
+我觉得有两只手搭在我的肩上。
+(x2 / 觉得-01
+      :arg0  (x1 / 我
+)      :arg1  (x7 / 搭-02
+            :arg1  (x6 / 手
+                  :arg1-of  (x3 / 有
+)                  :part-of  (x1 / 我
+)                  :quant  (x4 / 2
+)                  :cunit  (x5 / 只
+))            :arg2  (x11_1 / 肩
+                  :part-of  (x9 / x1
+))))
+===========================
+“以后我们再不吵架了，好吗？”
+(x11 / say
+      :arg1  (x13 / and
+            :op1  (x5 / 吵架-01
+                  :aspect  (x6 / 了
+)                  :mod  (x4_1 / 再
+)                  :polarity  (x4_2 / -
+)                  :arg0  (x3 / 我们
+)                  :time  (x2 / 以后
+))            :op2  (x8 / 好
+                  :mode  (x9_x10 / interrogative
+))))
+===========================
+“再也不了！再也不了！”我回答说。
+(x13_x14 / 回答-01
+      :arg2  (x18 / and
+            :op1  (x4 / 不
+                  :smood  (x5 / 了
+)                  :mod  (x2 / 再
+)                  :mod  (x3 / 也
+)                  :mode  (x6 / expressive
+))            :op2  (x9 / 不
+                  :smood  (x10 / 了
+)                  :mode  (x11 / expressive
+)                  :mod  (x7 / 再
+)                  :mod  (x8 / 也
+)))      :arg1  (x12 / 我
+))
+===========================
+然后我们就高高兴兴地分手了。
+(x9 / temporal
+      :arg2  (x6 / 分手-01
+            :manner  (x4 / 高兴-01
+                  :arg0  (x2 / 我们
+))            :arg0  (x2 / 我们
+)            :aspect  (x7 / 了
+)))
+===========================
+回到家里，我把这件事告诉了父亲，本想让父亲高兴一下，不料父亲把脸一沉，说：“既然你错了，就应该第一个伸过手去请他原谅，更不应该向一个比你高尚的朋友举起戒尺！”
+(x61 / temporal
+      :arg1  (x1 / 回到-01
+            :arg0  (x4 / 我
+)            :arg1  (x2_1 / 家
+))      :arg2  (x9 / 告诉-01
+            :purpose  (x14 / 想-02
+                  :mod  (x13 / 本
+)                  :arg0  (x4 / 我
+)                  :arg1  (x15 / 让-02
+                        :arg0  (x4 / 我
+)                        :arg1  (x16 / x11
+)                        :arg2  (x17 / 高兴
+                              :duration  (x18_x19 / 一下
+))))            :aspect  (x10 / 了
+)            :arg0  (x4 / 我
+)            :arg1  (x8 / 事
+                  :mod  (x6 / 这
+)                  :cunit  (x7 / 件
+))            :arg2  (x11 / 父亲
+))      :arg3  (x21 / 不料
+            :arg0  (x26 / 沉
+                  :arg0  (x22 / x11
+)                  :arg1  (x24 / 脸
+)))      :arg4  (x28 / 说-01
+            :arg0  (x11 / 父亲
+)            :arg3  (x4 / 我
+)            :arg1  (x85 / condition
+                  :arg1  (x32 / 错-01
+                        :arg0  (x31 / x4
+)                        :aspect  (x33 / 了
+))                  :arg2  (x89 / progression
+                        :arg1  (x36 / 应该-01
+                              :arg0  (x43 / 请-02
+                                    :arg1  (x44 / 他
+)                                    :arg2  (x45 / 原谅-01
+                                          :arg0  (x44 / 他
+)                                          :arg1  (x4 / 我
+))                                    :arg0  (x4 / 我
+)                                    :manner  (x39_x40 / 伸-01
+                                          :arg1  (x41 / 手
+                                                :part-of  (x4 / 我
+))                                          :ord  (x96 / ordinal-entity
+                                                :value  (x37 / 1
+)                                                :cunit  (x38 / 个
+)))))                        :arg2  (x49 / 应该-01
+                              :polarity  (x48 / -
+                                    :degree  (x47 / 更
+))                              :arg0  (x58 / 举起-01
+                                    :arg0  (x4 / 我
+)                                    :arg1  (x59 / 戒尺
+)                                    :direction  (x57 / 朋友
+                                          :arg0-of  (x55 / 高尚-01
+                                                :compared-to  (x54 / x4
+))                                          :quant  (x51 / 1
+)                                          :cunit  (x52 / 个
+)))                              :mode  (x60 / expressive
+))))))
+===========================
+说着从我手里夺过戒尺，折成两段，向墙角扔去。
+(x20 / temporal
+      :arg1  (x1 / 说-01
+            :aspect  (x2 / 着
+))      :arg2  (x6 / 夺-01
+            :arg1  (x8 / 戒尺
+)            :source  (x5_1 / 手
+                  :part-of  (x4 / 我
+)))      :arg3  (x10 / 折-01
+            :cause-of  (x11 / 成-01
+                  :arg0  (x8 / 戒尺
+)                  :arg1  (x31 / thing
+                        :quant  (x12 / 2
+)                        :cunit  (x13 / 段
+)))            :arg1  (x8 / 戒尺
+))      :arg4  (x17 / 扔-01
+            :arg1  (x31 / thing
+)            :arg2  (x16 / 墙角
+)))
+===========================

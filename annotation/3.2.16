@@ -1,0 +1,446 @@
+临近七月，波兰首都华沙和往年一样准备欢庆国庆节。
+(x10 / 准备-02
+      :arg1  (x11 / 欢庆-01
+            :arg1  (x17 / festival
+                  :name  ( x12/国庆节 
+)))      :time  (x1 / 临近-01
+            :arg1  (x20 / date-entity
+                  :month  (x2 / 7
+)))      :arg0  (x5 / 首都
+            :arg0-of  (x23 / mean
+                  :arg1  (x24 / city
+                        :name  ( x6/华沙 
+)))            :poss  (x26 / country
+                  :name  ( x4/波兰 
+))            :arg0-of  (x9 / 一样
+                  :compared-to  (x8 / 往年
+))))
+===========================
+在一所学校的俱乐部里，一些儿童队员正在开会，讨论参加国庆检阅的事。
+(x23 / and
+      :location  (x6 / 俱乐部
+            :poss  (x4 / 学校
+                  :quant  (x2 / 1
+)                  :cunit  (x3 / 所
+)))      :op1  (x14 / 开会-01
+            :arg0  (x11 / 队员
+                  :mod  (x10 / 儿童
+)                  :quant  (x9 / 一些
+))            :tense  (x12_x13 / 正在
+))      :op2  (x16 / 讨论-01
+            :arg0  (x11 / 队员
+)            :arg1  (x21 / 事
+                  :arg0-of  (x36 / mean
+                        :arg1  (x17 / 参加-01
+                              :arg1  (x19 / 检阅
+                                    :mod  (x18 / 国庆
+)))))))
+===========================
+一些事情已经商定，可是从大家的表情可以看出来，还有重要的事情需要商量，但是谁都不愿意第一个开口。
+(x31 / contrast
+      :arg1  (x4 / 商定-01
+            :arg1  (x2 / 事情
+                  :quant  (x1 / 一些
+))            :aspect  (x3 / 已经
+))      :arg2  (x37 / contrast
+            :arg1  (x11 / 可以-01
+                  :arg0  (x12_x13 / 看出-01
+                        :arg1  (x15_2 / 有-03
+                              :mod  (x15_1 / 还
+)                              :arg1  (x19 / 需要-03
+                                    :arg0  (x20 / 商量-01
+                                          :arg1  (x18 / 事情
+                                                :arg0-of  (x16 / 重要-01
+))))))                  :according-to  (x10 / 表情
+                        :poss  (x8 / 大家
+)))            :arg2  (x26 / 愿意-01
+                  :arg0  (x23 / 谁
+                        :extent  (x24 / 都
+))                  :polarity  (x25 / -
+)                  :arg1  (x29 / 开口
+                        :ord  (x53 / ordinal-entity
+                              :value  (x27 / 1
+))                        :cunit  (x28 / 个
+)))))
+===========================
+“队长，”终于有一名队员说话了，“还有一件非常棘手的事。
+(x9 / 说话-01
+      :time  (x4 / 终于
+)      :arg1  (x24 / and
+            :op1  (x2 / 队长
+)            :op2  (x12_2 / 有-03
+                  :mod  (x12_1 / 还
+)                  :arg1  (x18 / 事
+                        :arg0-of  (x16 / 棘手-01
+                              :degree  (x15 / 非常
+))                        :quant  (x13 / 1
+)                        :cunit  (x14 / 件
+))))      :aspect  (x10 / 了
+)      :arg0  (x8 / 队员
+            :quant  (x6 / 1
+)            :cunit  (x7 / 名
+)            :arg0-of  (x5 / 有-03
+)))
+===========================
+游行检阅时博莱克怎么办？“
+(x8 / say
+      :arg1  (x13 / person
+            :name  ( x4/博莱克 
+)            :arg0-of  (x5 / amr-unknown
+                  :time  (x2 / 检阅
+                        :time  (x1 / 游行
+)))            :mode  (x6 / interrogative
+)))
+===========================
+俱乐部里立刻鸦雀无声了。
+(x4 / 鸦雀无声
+      :aspect  (x5 / 了
+)      :time  (x3 / 立刻
+)      :location  (x1 / 俱乐部
+))
+===========================
+事情确实非常难办，因为博莱克左腿截肢了，现在靠拄拐走路。
+(x18 / causation
+      :arg2  (x2 / 确实-01
+            :arg0  (x4 / 难办-01
+                  :arg0  (x1 / 事情
+)                  :degree  (x3 / 非常
+)))      :arg1  (x24 / causation
+            :arg1  (x9 / 截肢-01
+                  :arg1  (x8 / 左腿
+                        :part-of  (x27 / person
+                              :name  ( x7/博莱克 
+)))                  :arg0  (x27 / person
+)                  :aspect  (x10 / 了
+))            :arg2  (x16 / 走路-01
+                  :instrument  (x14 / 拄-01
+                        :arg1  (x15 / 拐
+)                        :arg0  (x27 / person
+))                  :time  (x12 / 现在
+)                  :arg0  (x27 / person
+))))
+===========================
+劝他不去?
+(x1 / 劝-01
+      :arg1  (x2 / 他
+)      :arg2  (x4 / 去-01
+            :arg0  (x2 / 他
+)            :polarity  (x3 / -
+))      :mode  (x5 / interrogative
+))
+===========================
+要不把他放在队尾?
+(x1_x2 / 要不
+      :arg0  (x5 / 放在-01
+            :arg1  (x4 / 他
+)            :arg2  (x6 / 队尾
+))      :mode  (x7 / interrogative
+))
+===========================
+再不就把他藏在队伍中间?
+(x1 / 再不
+      :arg0  (x5 / 藏-01
+            :arg1  (x4 / 他
+)            :mod  (x2 / 就
+)            :location  (x8 / 中间
+                  :arg0  (x7 / 队伍
+)))      :mode  (x9 / interrogative
+))
+===========================
+可是跟他怎么说呢?
+(x8 / contrast
+      :arg2  (x5 / 说-01
+            :arg2  (x3 / 他
+)            :manner  (x4 / amr-unknown
+))      :mode  (x6_x7 / interrogative
+))
+===========================
+谁去跟他说呢?
+(x5 / 说-01
+      :arg0  (x1 / amr-unknown
+)      :arg1  (x4 / 他
+)      :mode  (x6_x7 / interrogative
+))
+===========================
+队长洪亮的声音打破了沉默的局面:队员们!如果把博莱克放在队伍第一排，让大家都能看见他，怎么样?
+(x5 / 打破-01
+      :aspect  (x6 / 了
+)      :arg0  (x4 / 声音
+            :arg0-of  (x2 / 洪亮
+)            :poss  (x1 / 队长
+)            :arg0-of  (x41 / mean
+                  :arg1  (x42 / and
+                        :op1  (x11_x12 / 队员们
+                              :mode  (x13 / expressive
+))                        :op2  (x45 / condition
+                              :arg1  (x46 / causation
+                                    :arg1  (x17_x18 / 放在-01
+                                          :arg1  (x48 / person
+                                                :name  ( x16/博莱克 
+))                                          :arg2  (x50 / thing
+                                                :ord  (x51 / ordinal-entity
+                                                      :value  (x20 / 1
+)                                                      :unit  (x21 / 排
+))                                                :location  (x19 / 队伍
+)))                                    :arg2  (x23 / 让-02
+                                          :arg1  (x24 / 大家
+                                                :extent  (x25 / 都
+))                                          :arg2  (x26 / 能-01
+                                                :arg0  (x27 / 看见-01
+                                                      :arg0  (x24 / 大家
+)                                                      :arg1  (x28 / x48
+)))))                              :arg2  (x30 / amr-unknown
+)                              :mode  (x31 / interrogative
+)))))      :arg1  (x9 / 局面
+            :mod  (x7 / 沉默
+)))
+===========================
+他虽然腿不方便，可仍然是儿童队员，还不是一般的队员!”
+(x19 / say
+      :arg1  (x21 / contrast
+            :arg1  (x5 / 方便-04
+                  :polarity  (x4 / -
+)                  :arg0  (x3 / 腿
+                        :part-of  (x1 / 他
+)))            :arg2  (x26 / progression
+                  :arg1  (x11 / 队员
+                        :domain  (x1 / 他
+)                        :mod  (x10 / 儿童
+)                        :mod  (x8 / 仍然
+))                  :arg2  (x17 / 队员
+                        :domain  (x1 / 他
+)                        :arg0-of  (x15 / 一般-02
+)                        :mode  (x18 / expressive
+)))))
+===========================
+“太棒了!这才叫儿童队呢!
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x3 / 棒
+                  :smood  (x4 / 了
+)                  :degree  (x2 / 太
+)                  :mode  (x5 / expressive
+))            :op2  (x8 / 叫-01
+                  :mod  (x7 / 才
+)                  :arg0  (x6 / 这
+)                  :arg1  (x9 / 儿童队
+)                  :mode  (x10_x11 / expressive
+))))
+===========================
+别的队肯定会羡慕我们，第一排走着一名拄拐的儿童队员。”一个队员大声说。
+(x24 / 说-01
+      :manner  (x23 / 大声
+)      :arg0  (x22 / 队员
+            :quant  (x20 / 1
+)            :cunit  (x21 / 个
+))      :arg1  (x32 / causation
+            :arg2  (x3 / 肯定-02
+                  :arg0  (x4 / 会-02
+                        :arg0  (x5 / 羡慕-01
+                              :arg0  (x2 / 队
+                                    :mod  (x1 / 别的
+))                              :arg1  (x6 / 我们
+))))            :arg1  (x10 / 走-01
+                  :aspect  (x11 / 着
+)                  :arg0  (x18 / 队员
+                        :quant  (x12 / 1
+)                        :cunit  (x13 / 名
+)                        :mod  (x17 / 儿童
+)                        :arg0-of  (x14 / 拄-01
+                              :arg1  (x15 / 拐
+)))                  :location  (x47 / thing
+                        :ord  (x49 / ordinal-entity
+                              :value  (x8 / 1
+)                              :unit  (x9 / 排
+))))))
+===========================
+大家脸上露出笑容，情不自禁地鼓起掌来。
+(x13 / and
+      :op1  (x3 / 露出-01
+            :arg0  (x2_1 / 脸
+                  :part-of  (x1 / 大家
+))            :arg1  (x4 / 笑容
+))      :op2  (x8_x9_x10_x11 / 鼓掌-01
+            :manner  (x6 / 情不自禁
+)            :arg0  (x1 / 大家
+)))
+===========================
+国庆节到了。
+(x2 / 到-01
+      :aspect  (x3 / 了
+)      :arg0  (x8 / festival
+            :name  ( x1/国庆节 
+)))
+===========================
+多么盛大的节日!
+(x4 / 节日
+      :mode  (x5 / expressive
+)      :arg0-of  (x2 / 盛大-01
+            :degree  (x1 / 多么
+)))
+===========================
+多么隆重的检阅!
+(x4 / 检阅
+      :mode  (x5 / expressive
+)      :arg0-of  (x2 / 隆重-01
+            :degree  (x1 / 多么
+)))
+===========================
+街道上人山人海，楼房上彩旗飘扬，主席台上站满了国家领导人和外国贵宾。
+(x21 / and
+      :op1  (x3 / 人山人海
+            :location  (x2 / 上
+                  :arg0  (x1 / 街道
+)))      :op2  (x8 / 飘扬-01
+            :arg0  (x7 / 彩旗
+)            :arg1  (x6 / 上
+                  :arg0  (x5 / 楼房
+)))      :op3  (x12 / 站-01
+            :cause-of  (x13 / 满-01
+                  :aspect  (x14 / 了
+)                  :arg1  (x10 / 主席台
+)                  :arg0  (x17 / and
+                        :op1  (x16 / 领导人
+                              :mod  (x15 / 国家
+))                        :op2  (x19 / 贵宾
+                              :mod  (x18 / 外国
+))))            :arg1  (x10 / 主席台
+)            :arg0  (x17 / and
+)))
+===========================
+步兵过去了，炮兵过去了，青年组织的队伍也通过了主席台。
+(x20 / and
+      :op1  (x2 / 过去-02
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 步兵
+))      :op2  (x6 / 过去-02
+            :arg0  (x5 / 炮兵
+)            :aspect  (x7 / 了
+))      :op3  (x14 / 通过-02
+            :mod  (x13 / 也
+)            :aspect  (x15 / 了
+)            :arg0  (x12 / 队伍
+                  :mod  (x10 / 组织
+                        :mod  (x9 / 青年
+)))            :arg1  (x16 / 主席台
+)))
+===========================
+现在轮到儿童队员了。
+(x2 / 轮到-01
+      :arg1  (x4 / 队员
+            :mod  (x3 / 儿童
+))      :aspect  (x5 / 了
+)      :time  (x1 / 现在
+))
+===========================
+在队伍的第一排，紧跟在队长后面走着一名拄拐的男孩，看来，他肯定忘记了自己在拄拐。
+(x31 / caustaion
+      :arg1  (x11 / 走-01
+            :location  (x7 / 紧跟-01
+                  :arg0  (x18 / 男孩
+                        :quant  (x13 / 1
+)                        :arg0-of  (x15 / 拄-01
+                              :arg1  (x16 / 拐
+))                        :cunit  (x14 / 名
+))                  :arg1  (x9 / 队长
+))            :arg0  (x18 / 男孩
+)            :aspect  (x12 / 着
+)            :location  (x42 / thing
+                  :ord  (x43 / ordinal-entity
+                        :value  (x4 / 1
+))                  :unit  (x5 / 排
+)                  :location  (x2 / 队伍
+)))      :arg2  (x20 / 看来-02
+            :arg0  (x23 / 肯定-02
+                  :arg0  (x24 / 忘记-01
+                        :aspect  (x25 / 了
+)                        :arg0  (x22 / x18
+)                        :arg1  (x28 / 拄-01
+                              :arg0  (x26 / x18
+)                              :arg1  (x29 / x16
+)                              :aspect  (x27 / 在
+))))))
+===========================
+他同全队保持一致，目视右方，睁着大眼睛望着检阅台。
+(x18 / and
+      :op1  (x4 / 保持-01
+            :arg2  (x5 / 一致-01
+                  :arg0  (x23 / and
+                        :op1  (x1 / 他
+)                        :op2  (x3 / 全队
+)))            :arg0  (x1 / 他
+))      :op2  (x7 / 目视-01
+            :arg0  (x1 / 他
+)            :arg1  (x8 / 右方
+))      :op3  (x14 / 望-01
+            :manner  (x10 / 睁-01
+                  :aspect  (x11 / 着
+)                  :arg0  (x1 / 他
+)                  :arg1  (x13 / 眼睛
+                        :arg0-of  (x12 / 大-01
+)                        :part-of  (x1 / 他
+)))            :aspect  (x15 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x16 / 检阅台
+)))
+===========================
+检阅台上的人和成千上万观众的视线都集中在这一队，集中在这位小伙子身上了。
+(x25 / and
+      :op1  (x11 / 集中-01
+            :arg1  (x9 / 视线
+                  :extent  (x10 / 都
+)                  :poss  (x5 / and
+                        :op1  (x4 / 人
+                              :location  (x1 / 检阅台
+))                        :op2  (x7 / 观众
+                              :arg0-of  (x6 / 成千上万-01
+)))                  :poss  (x5 / and
+))            :arg2  (x15 / 队
+                  :mod  (x13 / 这
+))            :arg0  (x5 / and
+))      :op2  (x17 / 集中-01
+            :arg1  (x9 / 视线
+)            :arg0  (x5 / and
+)            :arg2  (x22 / 身上
+                  :poss  (x21 / 小伙子
+                        :mod  (x19 / 这
+)                        :cunit  (x20 / 位
+)))            :smood  (x23 / 了
+)))
+===========================
+“这个小伙子真棒!”一名观众说。
+(x10 / 说-01
+      :arg0  (x9 / 观众
+            :cunit  (x8 / 名
+)            :quant  (x7 / 1
+))      :arg1  (x5 / 棒-01
+            :degree  (x4 / 真
+)            :arg0  (x3 / 小伙子
+                  :mod  (x2_1 / 这
+)                  :cunit  (x2_2 / 个
+))            :mode  (x6 / expressive
+)))
+===========================
+“这些小伙子真棒!”另一名观众纠正说。
+(x12 / 说-01
+      :manner  (x11 / 纠正
+)      :arg1  (x5 / 棒-01
+            :degree  (x4 / 真
+)            :arg0  (x3 / 小伙子
+                  :mod  (x2 / 这些
+)))      :arg0  (x10 / 观众
+            :mod  (x7 / 另
+)            :quant  (x8 / 1
+)            :cunit  (x9 / 名
+)))
+===========================
+长时间的掌声淹没了观众的议论声。
+(x5 / 淹没-01
+      :arg0  (x4 / 掌声
+            :duration  (x2 / 时间
+                  :arg0-of  (x1 / 长-02
+)))      :aspect  (x6 / 了
+)      :arg1  (x9 / 议论声
+            :poss  (x7 / 观众
+)))
+===========================

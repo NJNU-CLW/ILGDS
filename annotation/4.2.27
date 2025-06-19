@@ -1,0 +1,432 @@
+法国大雕塑家罗丹邀请奥地利作家斯蒂芬·茨威格到他家里做客。
+(x5 / 邀请-01
+      :arg0  (x3 / 雕塑家
+            :mod  (x17 / nationality
+                  :name  ( x1/法国 
+))            :arg0-of  (x2 / 大-01
+)            :name  ( x4/罗丹 
+))      :arg1  (x7 / 作家
+            :mod  (x21 / nationality
+                  :name  ( x6/奥地利 
+))            :name  ( x8/斯蒂芬·茨威格 
+))      :arg2  (x9 / 到-01
+            :arg0  (x7 / 作家
+)            :arg1  (x11 / 家里
+                  :poss  (x10 / x3
+))            :purpose  (x12 / 做客-01
+                  :arg0  (x7 / 作家
+))))
+===========================
+饭后，罗丹带着这位挚友参观他的工作室。
+(x4 / 带-03
+      :aspect  (x5 / 着
+)      :arg0  (x18 / person
+            :name  ( x3/罗丹 
+))      :arg1  (x8 / 挚友
+            :mod  (x6 / 这
+)            :cunit  (x7 / 位
+))      :arg2  (x9 / 参观-01
+            :arg0  (x19 / and
+                  :op1  (x18 / person
+)                  :op2  (x8 / 挚友
+))            :arg1  (x12 / 工作室
+                  :poss  (x10 / x18
+))            :time  (x1 / 饭后
+)))
+===========================
+走到一座刚刚完成的塑像前，罗丹掀开搭在上面的湿布，露出一座仪态端庄的女像。
+(x29 / temporal
+      :arg1  (x1_x2 / 走到-01
+            :arg1  (x9 / 前
+                  :arg0  (x8 / 塑像
+                        :arg1-of  (x6 / 完成-01
+                              :time  (x5 / 刚刚
+))                        :cunit  (x4 / 座
+)                        :quant  (x3 / 1
+))))      :arg2  (x12 / 掀开-01
+            :arg0  (x39 / person
+                  :name  ( x11/罗丹 
+))            :arg1  (x18 / 布
+                  :arg0-of  (x17 / 湿-01
+)                  :arg1-of  (x13 / 搭-02
+                        :arg1  (x15 / 上面
+                              :arg0  (x8 / 塑像
+)))))      :arg3  (x20 / 露出-01
+            :arg1  (x27 / 像
+                  :mod  (x26 / 女
+)                  :cunit  (x22 / 座
+)                  :quant  (x21 / 1
+)                  :mod  (x24 / 端庄
+                        :arg0  (x23 / 仪态
+                              :poss  (x27 / 像
+))))))
+===========================
+茨威格不禁拍手叫好，他向罗丹祝贺又一件杰作的诞生。
+(x16 / and
+      :op1  (x2_2 / 禁-01
+            :polarity  (x2_1 / -
+)            :arg0  (x21 / person
+                  :name  ( x1/茨威格 
+))            :arg1  (x3_3_4 / 叫好-01
+                  :manner  (x3_1_2 / 拍手-01
+                        :arg0  (x21 / person
+))                  :arg0  (x21 / person
+)))      :op2  (x8 / 祝贺-01
+            :arg0  (x5 / x21
+)            :arg1  (x28 / person
+                  :name  ( x7/罗丹 
+))            :arg2  (x14 / 诞生-01
+                  :arg0  (x12 / 杰作
+                        :mod  (x9 / 又
+)                        :cunit  (x11 / 件
+)                        :quant  (x10 / 1
+)))))
+===========================
+罗丹自己端详一阵，却皱着眉头，说：“啊！不，还有毛病……左肩偏了点儿，脸上……对不起，请等一等。”
+(x35 / temporal
+      :arg1  (x3 / 端详-01
+            :arg0  (x2 / 自己
+                  :name  ( x1/罗丹 
+)))      :arg2  (x7 / 皱-01
+            :arg0  (x2 / 自己
+)            :aspect  (x8 / 着
+))      :arg3  (x11 / 说-01
+            :arg0  (x2 / 自己
+)            :arg1  (x43 / and
+                  :op1  (x13 / 啊
+)                  :op2  (x15 / 不
+)                  :op3  (x17_2 / 有-03
+                        :mod  (x17_1 / 还
+)                        :arg1  (x18 / 毛病
+))                  :op4  (x47 / and
+                        :op1  (x22 / 偏-01
+                              :aspect  (x23 / 了
+)                              :degree  (x24 / 点儿
+)                              :arg0  (x21 / 肩
+                                    :mod  (x20 / 左
+)))                        :op2  (x26 / 脸上
+))                  :op5  (x50 / and
+                        :op1  (x28 / 对不起
+)                        :op2  (x30 / 请-01
+                              :arg2  (x31_x32_33 / 等
+))))))
+===========================
+他立刻拿起抹刀，修改起来。
+(x10 / temporal
+      :arg1  (x3_x4 / 拿起-01
+            :time  (x2 / 立刻
+)            :arg0  (x1 / 他
+)            :arg1  (x5 / 抹刀
+))      :arg2  (x7_x8 / 修改-01
+            :arg0  (x1 / 他
+)            :instrument  (x5 / 抹刀
+)))
+===========================
+茨威格怕打扰雕塑家工作，悄悄地站在一边。
+(x13 / causation
+      :arg1  (x2 / 怕-01
+            :arg0  (x16 / person
+                  :name  ( x1/茨威格 
+))            :arg1  (x3 / 打扰-01
+                  :arg0  (x16 / person
+)                  :arg1  (x5 / 工作-01
+                        :arg0  (x4 / 雕塑家
+))))      :arg2  (x9 / 站-01
+            :manner  (x7 / 悄悄
+)            :arg0  (x16 / person
+)            :arg1  (x11 / 一边
+)))
+===========================
+只见罗丹一会儿上前，一会儿后退，嘴里叽哩咕噜的，好像跟谁在说悄悄话；忽然眼睛闪着异样的光，似乎在跟谁激烈地争吵。
+(x1 / 只见-01
+      :arg1  (x40 / and
+            :op1  (x4 / 上前-01
+                  :time  (x3 / 一会儿
+)                  :arg0  (x43 / person
+                        :name  ( x2/罗丹 
+)))            :op2  (x7 / 后退-01
+                  :time  (x6 / 一会儿
+)                  :arg0  (x43 / person
+))            :op3  (x51 / and
+                  :op1  (x11_x12 / 叽里咕噜
+                        :mode  (x13 / judgement
+)                        :location  (x9 / 嘴
+                              :part-of  (x43 / person
+)))                  :op2  (x15 / 好像-01
+                        :arg0  (x19 / 说-01
+                              :arg0  (x43 / person
+)                              :arg1  (x20 / 悄悄话
+)                              :aspect  (x18 / 在
+)                              :arg3  (x17 / amr-unknown
+))))            :op4  (x56 / and
+                  :op1  (x24 / 闪
+                        :arg0  (x23 / 眼睛
+)                        :manner  (x22 / 忽然
+)                        :aspect  (x25 / 着
+)                        :arg1  (x28 / 光
+                              :mod  (x26 / 异样
+)))                  :op2  (x30 / 似乎-01
+                        :arg0  (x36 / 争吵-01
+                              :manner  (x34 / 激烈
+)                              :arg0  (x43 / person
+)                              :arg1  (x33 / amr-unknown
+)                              :aspect  (x31 / 在
+))))))
+===========================
+他把地板踩得吱吱响，手不停地挥动……
+(x15 / and
+      :op1  (x4 / 踩-02
+            :cause-of  (x7 / 响-01
+                  :manner  (x6 / 吱吱
+)                  :arg0  (x3 / 地板
+))            :arg1  (x3 / 地板
+)            :arg0  (x1 / 他
+))      :op2  (x13 / 挥动-01
+            :arg1  (x9 / 手
+                  :part-of  (x1 / 他
+))            :manner  (x11 / 停-01
+                  :polarity  (x10 / -
+)                  :arg0  (x1 / 他
+)                  :arg1  (x13 / 挥动-01
+                        :arg0  (x1 / 他
+)))))
+===========================
+一刻钟过去了，半小时过去了，罗丹越干越有劲，情绪更加激动了。
+(x21 / temporal
+      :arg1  (x2 / 过去-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 一刻钟
+))      :arg2  (x7 / 过去-01
+            :arg0  (x27 / temporal-quantity
+                  :unit  (x6 / 小时
+)                  :quant  (x5 / 0.5
+))            :aspect  (x8 / 了
+))      :arg3  (x29 / and
+            :op1  (x11_x13 / 越
+                  :arg0  (x12 / 干-01
+                        :arg0  (x36 / person
+                              :name  ( x10/罗丹 
+)))                  :arg1  (x14 / 有劲-01
+                        :arg0  (x36 / person
+)))            :op2  (x18 / 激动-01
+                  :degree  (x17 / 更加
+)                  :arg0  (x16 / 情绪
+                        :poss  (x36 / person
+))                  :aspect  (x19 / 了
+))))
+===========================
+他像喝醉了酒一样，整个世界对他来讲好像已经消失了——大约过了一个小时，罗丹才停下来，对着女像痴痴地微笑，然后轻轻地吁了口气，重新把湿布披在塑像上。
+(x55 / and
+      :op1  (x57 / and
+            :op1  (x2 / 像-02
+                  :arg1  (x3 / 喝醉-01
+                        :aspect  (x4 / 了
+)                        :arg0  (x1 / x79
+)                        :cause  (x5 / 酒
+))                  :arg0  (x1 / x79
+))            :op2  (x12 / 来讲-01
+                  :arg0  (x9 / 世界
+                        :mod  (x8 / 整个
+))                  :arg1  (x11 / x1
+)                  :arg2  (x13 / 好像-01
+                        :arg0  (x15 / 消失-01
+                              :aspect  (x16 / 了
+)))))      :op2  (x58 / temporal
+            :arg1  (x19 / 过-01
+                  :aspect  (x20 / 了
+)                  :duration  (x73 / temporal-quantity
+                        :quant  (x21 / 1
+)                        :unit  (x23 / 小时
+)))            :arg2  (x27_x28 / 停-01
+                  :mod  (x26 / 才
+)                  :arg0  (x79 / person
+                        :name  ( x25/罗丹 
+)))            :arg3  (x36 / 微笑-01
+                  :manner  (x34 / 痴痴
+)                  :manner  (x30 / 对-01
+                        :aspect  (x31 / 着
+)                        :arg0  (x1 / x79
+))                  :arg1  (x33 / 像
+                        :mod  (x32 / 女
+)))            :arg4  (x41 / 吁
+                  :aspect  (x42 / 了
+)                  :arg0  (x1 / x79
+)                  :manner  (x39 / 轻轻
+)                  :arg1  (x44 / 气
+                        :cunit  (x43 / 口
+)))            :arg5  (x46 / 重新-01
+                  :arg0  (x50 / 披-01
+                        :arg1  (x49 / 布
+                              :arg0-of  (x48 / 湿-01
+))                        :arg0  (x52 / 塑像
+)))))
+===========================
+茨威格见罗丹工作完了，走上前去准备同他交谈。
+(x17 / causation
+      :arg1  (x2 / 见-02
+            :arg0  (x20 / person
+                  :name  ( x1/茨威格 
+))            :arg1  (x5 / 完-01
+                  :arg0  (x4 / 工作-01
+                        :arg0  (x27 / person
+                              :name  ( x3/罗丹 
+)))                  :aspect  (x6 / 了
+)))      :arg2  (x8 / 走-01
+            :arg0  (x20 / person
+)            :purpose  (x12 / 准备-02
+                  :arg0  (x20 / person
+)                  :arg1  (x15 / 交谈-01
+                        :arg0  (x13 / and
+                              :op1  (x20 / person
+)                              :op2  (x14 / x27
+))))            :arg2  (x10 / 前
+)))
+===========================
+罗丹径自走出门去，随手拉上门准备上锁。
+(x14 / temporal
+      :arg1  (x2 / 径自
+)      :arg1  (x3 / 走出-01
+            :manner  (x2 / 径自
+)            :arg0  (x18 / person
+                  :name  ( x1/罗丹 
+))            :arg1  (x4 / 门
+))      :arg2  (x7 / 随手-01
+            :arg0  (x8 / 拉上-01
+                  :arg1  (x9 / 门
+)                  :purpose  (x10 / 准备-02
+                        :arg1  (x11 / 上
+                              :arg1  (x12 / 锁
+)                              :arg0  (x18 / person
+)))                  :arg0  (x18 / person
+))))
+===========================
+茨威格莫名其妙，赶忙叫住罗丹：“喂！亲爱的！朋友，你怎么啦？我还在屋子里呢！”
+(x26 / causation
+      :arg1  (x2 / 莫名其妙-01
+            :arg0  (x29 / person
+                  :name  ( x1/茨威格 
+)))      :arg2  (x31 / and
+            :op1  (x5 / 叫住
+                  :arg0  (x29 / person
+)                  :manner  (x4 / 赶忙
+)                  :arg1  (x34 / person
+                        :name  ( x6/罗丹 
+)))            :op2  (x36 / say
+                  :arg1  (x37 / and
+                        :op1  (x8 / 喂
+)                        :op2  (x10_x11 / 亲爱的
+)                        :op3  (x40 / and
+                              :op1  (x13 / x29
+)                              :op2  (x15 / x29
+                                    :mod  (x16 / amr-unknown
+)                                    :mode  (x17_x18 / interrogative
+)))                        :op4  (x21 / 在-01
+                              :mod  (x20 / 还
+)                              :arg0  (x19 / x29
+)                              :arg1  (x23 / 里
+                                    :arg0  (x22 / 屋子
+))                              :mode  (x24_x25 / expressive
+))))))
+===========================
+罗丹这才猛然想起他的客人来，他推开门，很抱歉地对茨威格说：“哎哟！你看我，简直把你忘记了。
+(x34 / temporal
+      :arg1  (x5 / 想起-01
+            :time  (x2 / 这
+)            :mod  (x3 / 才
+)            :manner  (x4 / 猛然
+)            :arg0  (x40 / person
+                  :name  ( x1/罗丹 
+))            :arg1  (x8 / 客人
+                  :poss  (x6 / x40
+)))      :arg2  (x12 / 推开-01
+            :arg0  (x11 / x40
+)            :arg1  (x13 / 门
+))      :arg3  (x20 / 说-01
+            :manner  (x16 / 抱歉
+                  :degree  (x15 / 很
+))            :arg0  (x40 / person
+)            :arg1  (x52 / and
+                  :op1  (x22 / 哎哟
+                        :mode  (x23 / expressive
+))                  :op2  (x25 / 看-02
+                        :arg0  (x24 / x8
+)                        :arg1  (x26 / x40
+))                  :op3  (x31 / 忘记-01
+                        :aspect  (x32 / 了
+)                        :arg0  (x40 / person
+)                        :arg1  (x30 / x8
+)                        :manner  (x28 / 简直
+)))            :arg3  (x50 / x8
+                  :name  ( x19/茨威格 
+))))
+===========================
+对不起，请不要见怪。”
+(x7 / say
+      :arg1  (x9 / and
+            :op1  (x1 / 对不起
+)            :op2  (x3 / 请-01
+                  :arg2  (x4_2 / 要-03
+                        :polarity  (x4_1 / -
+)                        :arg1  (x5 / 见怪
+)))))
+===========================
+茨威格对这件事有很深的感触。
+(x6 / 有-01
+      :arg1  (x10 / 感触
+            :arg0-of  (x8 / 深-03
+                  :degree  (x7 / 很
+)))      :arg0  (x17 / person
+            :name  ( x1/茨威格 
+))      :cause  (x5 / 事
+            :mod  (x3 / 这
+)            :cunit  (x4 / 件
+)))
+===========================
+他后来回忆说：“那天下午，我在罗丹工作室里学到的，比我多年在学校里学到的还要多。
+(x4 / 说-01
+      :manner  (x3 / 回忆-01
+            :arg0  (x1 / 他
+))      :time  (x2 / 后来
+)      :arg0  (x1 / 他
+)      :arg1  (x29 / 多-03
+            :arg0  (x37 / thing
+                  :arg1-of  (x14_x15 / 学到-01
+                        :arg0  (x9 / x1
+)                        :location  (x12 / 工作室
+                              :poss  (x44 / person
+                                    :name  ( x11/罗丹 
+)))))            :compared-to  (x38 / thing
+                  :arg1-of  (x25_x26 / 学到-01
+                        :arg0  (x19 / x1
+)                        :duration  (x49 / temporal-quantity
+                              :unit  (x21 / 年
+)                              :quant  (x20 / 多
+))                        :location  (x23 / 学校
+)))            :mod  (x28 / 还要
+)            :time  (x7 / 下午
+                  :time  (x6 / 那天
+))))
+===========================
+因为从那时起，我知道人类的一切工作，如果值得去做，而且要做得好，就应该全神贯注。”
+(x28 / say
+      :arg1  (x30 / causation
+            :arg1  (x7 / 知道-01
+                  :time  (x3 / 那时
+)                  :arg0  (x6 / 我
+)                  :arg1  (x34 / condition
+                        :arg1  (x41 / and
+                              :op1  (x14 / 值得-01
+                                    :arg1  (x15 / 去-01
+                                          :arg1  (x16 / 做-01
+                                                :arg1  (x11 / 工作
+                                                      :poss  (x8 / 人类
+)                                                      :mod  (x10 / 一切
+)))))                              :op2  (x19 / 要-03
+                                    :arg0  (x20 / 做-01
+                                          :manner  (x22 / 好-01
+                                                :arg0  (x11 / 工作
+))                                          :arg1  (x11 / 工作
+))))                        :arg2  (x25 / 应该-01
+                              :arg0  (x26 / 全神贯注
+))))))
+===========================

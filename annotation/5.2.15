@@ -1,0 +1,1874 @@
+1935年秋天，红四方面军进入草地，许多同志得了肠胃病。
+(x14 / and
+      :op1  (x5 / 进入-01
+            :arg0  (x17 / military
+                  :name  ( x4/红四方面军 
+))            :arg1  (x6 / 草地
+))      :op2  (x10 / 得-01
+            :arg0  (x9 / 同志
+                  :quant  (x8 / 许多
+))            :aspect  (x11 / 了
+)            :arg1  (x12 / 肠胃病
+))      :time  (x25 / date-entity
+            :year  (x1 / 1935
+)            :season  (x2 / 秋天
+)))
+===========================
+我和两个小同志病得实在跟不上队伍了，指导员派炊事班长照顾我们，让我们走在后面。
+(x26 / causation
+      :arg1  (x7 / 病-01
+            :cause-of  (x10_1_3 / 跟上-01
+                  :polarity  (x10_2 / -
+)                  :arg0  (x2 / and
+                        :op1  (x1 / 我
+)                        :op2  (x6 / 同志
+                              :arg0-of  (x5 / 小-01
+)                              :quant  (x3 / 2
+)                              :cunit  (x4 / 个
+)))                  :arg1  (x11 / 队伍
+)                  :mod  (x9 / 实在
+))            :arg0  (x2 / and
+)            :aspect  (x12 / 了
+))      :arg2  (x40 / and
+            :op1  (x15 / 派-01
+                  :arg0  (x14 / 指导员
+)                  :arg1  (x16 / 炊事班长
+)                  :arg2  (x17 / 照顾-01
+                        :arg1  (x18 / x2
+)                        :arg0  (x16 / 炊事班长
+)))            :op2  (x20 / 让-02
+                  :arg1  (x21 / x2
+)                  :arg2  (x22 / 走-01
+                        :arg1  (x24 / 后面
+)                        :arg0  (x21 / x2
+)))))
+===========================
+炊事班长快四十岁了，个儿挺高，背有点儿驼，四方脸，高颧骨，脸上布满皱纹，两鬓都斑白了。
+(x31 / and
+      :op1  (x1 / 炊事班长
+            :age  (x35 / temporal-quantity
+                  :quant  (x2 / 快
+                        :op1  (x3 / 40
+))                  :cunit  (x4 / 岁
+))            :aspect  (x5 / 了
+))      :op2  (x9 / 高-01
+            :arg0  (x7 / 个儿
+)            :degree  (x8 / 挺
+))      :op3  (x14 / 驼-01
+            :arg0  (x11 / 背
+)            :degree  (x12_x13 / 有点儿
+))      :op4  (x17 / 脸
+            :mod  (x16 / 四方
+))      :op5  (x20 / 颧骨
+            :mod  (x19 / 高-01
+))      :op5  (x23 / 布满-01
+            :arg0  (x22 / 脸上
+)            :arg1  (x24 / 皱纹
+))      :op6  (x28 / 斑白
+            :arg0  (x26 / 两鬓
+)            :extent  (x27 / 都
+)            :aspect  (x29 / 了
+)))
+===========================
+因为全连数他岁数大，他对大家又特别亲，大伙都叫他“老班长”。
+(x23 / causation
+      :arg1  (x25 / and
+            :op1  (x3 / 数
+                  :range  (x2 / 全连
+)                  :arg0  (x6 / 大-02
+                        :arg0  (x5 / 岁数
+                              :poss  (x4 / 他
+))))            :op2  (x13 / 亲-01
+                  :arg0  (x8 / x4
+)                  :arg1  (x10 / 大家
+)                  :degree  (x12 / 特别
+)                  :mod  (x11 / 又
+)))      :arg2  (x17 / 叫-01
+            :arg2  (x15 / 大伙
+)            :arg1  (x21 / 班长
+                  :arg0-of  (x20 / 老-01
+))            :arg0  (x18 / x4
+)            :extent  (x16 / 都
+)))
+===========================
+三个病号走不快，一天只走二十来里路。
+(x15 / and
+      :op1  (x4 / 走-01
+            :manner  (x5_2 / 快
+                  :polarity  (x5_1 / -
+))            :arg0  (x3 / 病号
+                  :quant  (x1 / 3
+)                  :cunit  (x2 / 个
+)))      :op2  (x9 / 走-01
+            :arg1  (x13 / 路
+                  :mod  (x27 / distance-quantity
+                        :quant  (x11 / 来
+                              :op1  (x10 / 20
+))                        :cunit  (x12 / 里
+)))            :mod  (x8 / 只
+)            :duration  (x31 / temporal-quantity
+                  :quant  (x7_1 / 1
+)                  :unit  (x7_2 / 天
+))))
+===========================
+一路上，老班长带我们走一阵歇一阵阵。
+(x6 / 带-03
+      :arg0  (x5 / 班长
+            :arg0-of  (x4 / 老-01
+))      :arg1  (x7 / 我们
+)      :arg2  (x19 / and
+            :op1  (x8 / 走
+                  :duration  (x9 / 一阵
+))            :op2  (x10 / 歇
+                  :duration  (x11 / 一阵
+)))      :location  (x1 / 一路
+))
+===========================
+到了宿营地，他就到处去找野菜，和着青稞面给我们做饭。
+(x20 / temporal
+      :arg1  (x1 / 到-01
+            :arg1  (x3 / 宿营地
+)            :aspect  (x2 / 了
+))      :arg2  (x9 / 找-01
+            :arg1  (x10 / 野菜
+)            :arg0  (x5 / 他
+)            :range  (x7 / 到处
+))      :arg3  (x18 / 做饭-01
+            :manner  (x12 / 和-01
+                  :arg1  (x15 / 面
+                        :mod  (x14 / 青稞
+))                  :aspect  (x13 / 着
+))            :arg0  (x5 / 他
+)            :beneficiary  (x17 / 我们
+)))
+===========================
+不到半个月，两袋青稞面吃完了。
+(x11_x12 / 吃完-01
+      :arg1  (x10 / 面
+            :mod  (x9 / 青稞
+)            :quant  (x7 / 2
+)            :cunit  (x8 / 袋
+))      :aspect  (x13 / 了
+)      :time  (x2 / 到-01
+            :arg1  (x23 / temporal-quantity
+                  :quant  (x3 / 0.5
+)                  :unit  (x5 / 月
+))            :polarity  (x1 / -
+)))
+===========================
+饥饿威胁着我们。
+(x2 / 威胁-01
+      :arg0  (x1 / 饥饿
+)      :aspect  (x3 / 着
+)      :arg1  (x4 / 我们
+))
+===========================
+老班长到处找野菜，挖草根，可是光吃这些东西怎么行呢！
+(x19 / contrast
+      :arg1  (x21 / and
+            :op1  (x4 / 找-01
+                  :arg0  (x2 / 班长
+                        :arg0-of  (x1 / 老-01
+))                  :range  (x3 / 到处
+))            :op2  (x7 / 挖-01
+                  :arg1  (x8 / 草根
+)                  :arg0  (x2 / 班长
+)))      :arg2  (x16 / 行-04
+            :arg0  (x12 / 吃-01
+                  :mod  (x11 / 光
+)                  :arg1  (x14 / 东西
+                        :mod  (x13 / 这些
+)))            :mode  (x17_x18 / expressive
+)            :mod  (x15 / 怎么
+)))
+===========================
+老班长看我们一天天瘦下去，他整夜整夜地合不拢眼。
+(x20 / temporal
+      :arg1  (x3 / 看-02
+            :arg0  (x2 / 班长
+                  :arg0-of  (x1 / 老-01
+))            :arg1  (x8_x9 / 瘦-01
+                  :manner  (x5_x6_x7 / 一天天
+)                  :arg0  (x4 / 我们
+)))      :arg2  (x15_x17 / 合拢-01
+            :polarity  (x16 / -
+)            :arg0  (x11 / x2
+)            :duration  (x12_x13 / 整夜
+)            :arg1  (x18 / 眼
+)))
+===========================
+其实他这些天瘦得比我们还厉害呢。
+(x5 / 瘦-01
+      :manner  (x10 / 厉害
+            :mod  (x9 / 还
+))      :arg0  (x2 / 他
+)      :time  (x4 / 天
+            :mod  (x3 / 这些
+))      :mode  (x11 / expressive
+)      :mod  (x1 / 其实
+))
+===========================
+一天，他在一个水塘边给我们洗衣裳，忽然看见一条鱼跳出水面。
+(x22 / temporal
+      :arg1  (x11 / 洗-01
+            :arg0  (x3 / 他
+)            :location  (x8 / 边
+                  :arg0  (x7 / 水塘
+                        :quant  (x5 / 1
+)                        :cunit  (x6 / 个
+)))            :beneficiary  (x10 / 我们
+)            :arg1  (x12 / 衣裳
+))      :arg2  (x15 / 看见-01
+            :arg1  (x19 / 跳出-01
+                  :arg0  (x18 / 鱼
+                        :quant  (x16 / 1
+)                        :cunit  (x17 / 条
+))                  :arg1  (x20 / 水面
+))            :mod  (x14 / 忽然
+)            :arg0  (x3 / 他
+))      :time  (x1 / 一天
+))
+===========================
+他喜出望外地跑回来，取出一根缝衣针，烧红了，弯成个钓鱼钩。
+(x22 / temporal
+      :arg1  (x4 / 跑-01
+            :arg3  (x5 / 回来
+)            :arg0  (x1 / 他
+)            :manner  (x2 / 喜出望外
+))      :arg2  (x7 / 取出-01
+            :arg1  (x10 / 缝衣针
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 根
+))            :arg0  (x1 / 他
+))      :arg3  (x12 / 烧-01
+            :cause-of  (x13 / 红
+)            :aspect  (x14 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x10 / 缝衣针
+))      :arg4  (x16_x17 / 弯成
+            :arg1  (x20 / 钩
+                  :mod  (x19 / 钓鱼
+)                  :cunit  (x18 / 个
+))))
+===========================
+这天夜里，我们就吃到了新鲜的鱼汤。
+(x6_x7 / 吃到-01
+      :arg0  (x4 / 我们
+)      :arg1  (x11 / 鱼汤
+            :arg0-of  (x9 / 新鲜-01
+))      :aspect  (x8 / 了
+)      :mod  (x5 / 就
+)      :time  (x2 / 夜里
+            :time  (x1 / 这天
+)))
+===========================
+尽管没加作料，可我们觉得没有比这鱼汤更鲜美的了，端起碗来吃了个精光。
+(x27 / concession
+      :arg1  (x3 / 加-01
+            :arg1  (x4 / 作料
+)            :polarity  (x2 / -
+))      :arg2  (x32 / and
+            :op1  (x8 / 觉得-01
+                  :arg0  (x7 / 我们
+)                  :arg1  (x9_2 / 有-03
+                        :arg1  (x43 / thing
+                              :mod  (x10 / 比-01
+                                    :arg1  (x12 / 鱼汤
+                                          :mod  (x11 / 这
+))                                    :arg2  (x14 / 鲜美
+                                          :degree  (x13 / 更
+))))                        :polarity  (x9_1 / -
+))                  :aspect  (x16 / 了
+))            :op2  (x47 / temporal
+                  :arg1  (x18_x19_x21 / 端-01
+                        :arg1  (x20 / 碗
+)                        :arg0  (x7 / 我们
+))                  :arg2  (x22 / 吃-01
+                        :cause-of  (x25 / 精光
+                              :cunit  (x24 / 个
+))                        :aspect  (x23 / 了
+)                        :arg0  (x7 / 我们
+)))))
+===========================
+以后，老班长尽可能找有水塘的地方宿营，把我们安顿好，就带着鱼钩出去了。
+(x28 / temporal
+      :arg1  (x7 / 找-01
+            :arg1  (x11 / 地方
+                  :arg0-of  (x8 / 有-03
+                        :arg1  (x9 / 水塘
+)))            :arg2  (x12 / 宿营
+)            :manner  (x5_x6 / 尽可能
+)            :arg0  (x4 / 班长
+                  :arg0-of  (x3 / 老-01
+)))      :time  (x1 / 以后
+)      :arg2  (x16 / 安顿-01
+            :arg1  (x15 / 我们
+)            :cause-of  (x17 / 好
+)            :arg0  (x4 / 班长
+))      :arg3  (x23 / 出去-01
+            :manner  (x20 / 带-02
+                  :aspect  (x21 / 着
+)                  :arg1  (x22 / 鱼钩
+))            :aspect  (x24 / 了
+)            :arg0  (x4 / 班长
+)))
+===========================
+第二天，他总能端着热气腾腾的鲜鱼野菜汤给我们吃。
+(x5 / 能-01
+      :arg0  (x3 / 他
+)      :frequency  (x4 / 总
+)      :arg0  (x21 / temporal
+            :arg1  (x6 / 端-01
+                  :arg1  (x12 / 汤
+                        :mod  (x24 / and
+                              :op1  (x10 / 鲜鱼
+)                              :op2  (x11 / 野菜
+))                        :arg0-of  (x8 / 热气腾腾-01
+))                  :aspect  (x7 / 着
+))            :arg2  (x13 / 给-02
+                  :arg1  (x14 / 我们
+)                  :arg2  (x15 / 吃-01
+                        :arg0  (x14 / 我们
+))))      :ord  (x32 / ordinal-entity
+            :value  (x1_1_2 / 2
+)            :unit  (x1_3 / 天
+)))
+===========================
+我们虽然还是一天一天衰弱下去，比起光吃草根野菜来毕竟好多啦。
+(x23 / contrast
+      :arg1  (x9_x10 / 衰弱
+            :arg0  (x1 / 我们
+)            :manner  (x5_x6_x7_x8 / 一天一天
+)            :mod  (x3_x4 / 还是
+))      :arg2  (x19 / 好-01
+            :mod  (x12 / 比起-01
+                  :arg1  (x14 / 吃-01
+                        :mod  (x13 / 光
+)                        :arg1  (x33 / and
+                              :op1  (x15 / 草根
+)                              :op2  (x16 / 野菜
+))))            :mod  (x18 / 毕竟
+)            :degree  (x20 / 多
+)            :mode  (x21 / expressive
+)))
+===========================
+可是老班长自己呢，我从来没见他吃过一点儿鱼。
+(x17 / contrast
+      :arg2  (x19 / and
+            :op2  (x10 / 见-01
+                  :arg1  (x12 / 吃-01
+                        :arg0  (x11 / x3
+)                        :arg1  (x15 / 鱼
+                              :quant  (x14 / 一点儿
+))                        :aspect  (x13 / 过
+))                  :polarity  (x9 / -
+)                  :time  (x8 / 从来
+)                  :arg0  (x7 / 我
+))            :op2  (x3 / 班长
+                  :arg0-of  (x2 / 老-01
+)                  :arg0-of  (x33 / mean
+                        :arg1  (x4 / 自己
+)))))
+===========================
+有一次，我禁不住问他：“老班长，您怎么不吃鱼啊？”
+(x7 / 问-01
+      :manner  (x6 / 禁不住
+)      :arg0  (x5 / 我
+)      :arg2  (x8 / 他
+)      :arg1  (x25 / and
+            :op1  (x11 / 班长
+                  :arg0-of  (x10 / 老-01
+))            :op2  (x16 / 吃-01
+                  :arg0  (x13 / x11
+)                  :cause  (x14 / amr-unknown
+)                  :polarity  (x15 / -
+)                  :arg1  (x17 / 鱼
+)                  :mode  (x18_x19 / interrogative
+)))      :time  (x1_x2_x3 / 有一次
+))
+===========================
+他摸了摸嘴，好像回味似的说：“吃过了。
+(x16 / and
+      :op1  (x2_x4 / 摸-01
+            :arg0  (x1 / 他
+)            :aspect  (x3 / 了
+)            :arg1  (x5 / 嘴
+))      :op2  (x10 / 说-01
+            :manner  (x7_x9 / 好像-01
+                  :arg1  (x8 / 回味
+))            :arg1  (x12 / 吃-01
+                  :aspect  (x13 / 过
+)                  :aspect  (x14 / 了
+)                  :arg0  (x1 / 他
+))))
+===========================
+我一起锅就吃，比你们还先吃呢。”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x18 / condition
+                  :arg1  (x3 / 起-01
+                        :arg1  (x4 / 锅
+)                        :arg0  (x1 / 我
+))                  :arg2  (x6 / 吃
+                        :arg0  (x1 / 我
+)))            :op2  (x12 / 吃-01
+                  :ord  (x11 / 先
+)                  :compared-to  (x9 / 你们
+)                  :mod  (x10 / 还
+)                  :mode  (x13 / expressive
+)                  :arg0  (x1 / 我
+))))
+===========================
+我不信，等他收拾完碗筷走了，就悄悄地跟着他。
+(x19 / causation
+      :arg1  (x3 / 信-01
+            :arg0  (x1 / 我
+)            :polarity  (x2 / -
+))      :arg2  (x24 / temporal
+            :arg1  (x5 / 等-01
+                  :arg1  (x26 / temporal
+                        :arg1  (x8 / 完-01
+                              :arg0  (x7 / 收拾-01
+                                    :arg1  (x9 / 碗筷
+)                                    :arg0  (x6 / 他
+)))                        :arg2  (x10 / 走-01
+                              :aspect  (x11 / 了
+)                              :arg0  (x6 / 他
+)))                  :arg0  (x1 / 我
+))            :arg2  (x16 / 跟着-01
+                  :arg1  (x17 / x6
+)                  :manner  (x14 / 悄悄
+)                  :arg0  (x1 / 我
+))))
+===========================
+走近前一看，啊！我不由得呆住了。
+(x14 / temporal
+      :arg1  (x1 / 走近-01
+            :arg1  (x2 / 前
+)            :arg0  (x8 / 我
+))      :arg2  (x4 / 看-02
+            :arg0  (x8 / 我
+))      :arg3  (x19 / and
+            :op1  (x6_x7 / expressive
+)            :op2  (x10_x11 / 呆住
+                  :manner  (x9 / 不由得
+)                  :arg0  (x8 / 我
+)                  :aspect  (x12 / 了
+))))
+===========================
+他坐在那里捧着搪瓷碗，嚼着几根草根和我们吃剩的鱼骨头，嚼了一会儿，就皱紧眉头硬咽下去。
+(x35 / temporal
+      :arg1  (x37 / and
+            :op1  (x2 / 坐-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x4 / 那里
+))            :op2  (x5 / 捧-01
+                  :arg1  (x8 / 碗
+                        :consist-of  (x7 / 搪瓷
+))                  :aspect  (x6 / 着
+))            :op3  (x10 / 嚼-01
+                  :arg1  (x15 / and
+                        :op1  (x14 / 草根
+                              :quant  (x12 / 几
+)                              :cunit  (x13 / 根
+))                        :op2  (x21 / 骨头
+                              :poss  (x20 / 鱼
+)                              :arg1-of  (x17 / 吃-01
+                                    :manner  (x18 / 剩
+)                                    :arg0  (x16 / 我们
+))))                  :aspect  (x11 / 着
+)                  :arg0  (x1 / 他
+)))      :arg2  (x23 / 嚼-01
+            :arg0  (x1 / 他
+)            :duration  (x25 / 一会儿
+)            :aspect  (x24 / 了
+))      :arg3  (x32_x33 / 咽-01
+            :manner  (x28 / 皱
+                  :arg1  (x30 / 眉头
+)                  :manner  (x29 / 紧
+))            :manner  (x31 / 硬
+)            :arg0  (x1 / 他
+)))
+===========================
+我觉得好像有万根钢针扎着喉管，失声喊起来：“老班长，你怎么……”
+(x22 / temporal
+      :arg1  (x2 / 觉得-01
+            :arg0  (x1 / 我
+)            :arg1  (x3 / 好像-01
+                  :arg0  (x8 / 扎-01
+                        :arg0  (x7 / 钢针
+                              :quant  (x5 / 10000
+)                              :cunit  (x6 / 根
+)                              :arg1-of  (x4 / 有-03
+))                        :aspect  (x9 / 着
+)                        :arg1  (x10 / 喉管
+))))      :arg2  (x13_x14 / 喊-01
+            :manner  (x12 / 失声-01
+                  :arg0  (x1 / 我
+))            :arg0  (x1 / 我
+)            :arg1  (x36 / and
+                  :op1  (x17 / 班长
+                        :arg0-of  (x16 / 老-01
+))                  :op2  (x20 / 怎么
+                        :arg0  (x19 / x17
+)))))
+===========================
+老班长猛抬起头，看见我目不转睛地看着他手里的搪瓷碗，就支吾着说：“我，我早就吃过了。
+(x32 / temporal
+      :arg1  (x4 / 抬起-01
+            :arg0  (x2 / 班长
+                  :arg0-of  (x1 / 老-01
+))            :manner  (x3 / 猛
+)            :arg1  (x5 / 头
+))      :arg2  (x7 / 看见
+            :arg1  (x11 / 看
+                  :arg0  (x8 / 我
+)                  :arg1  (x17 / 碗
+                        :consist-of  (x16 / 搪瓷
+)                        :location  (x14 / 手里
+                              :part-of  (x13 / x2
+)))                  :aspect  (x12 / 着
+)                  :manner  (x9 / 目不转睛
+)))      :arg3  (x22 / 说
+            :manner  (x20 / 支吾
+                  :aspect  (x21 / 着
+)                  :arg0  (x2 / 班长
+))            :arg0  (x2 / 班长
+)            :arg1  (x51 / and
+                  :op1  (x24 / x2
+)                  :op2  (x28 / 吃
+                        :arg0  (x26 / x2
+)                        :time  (x27 / 早就
+)                        :aspect  (x29 / 过
+)                        :aspect  (x30 / 了
+)))))
+===========================
+看到碗里还没吃干净，扔了怪可惜的……”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x1 / 看到-01
+                  :arg1  (x6 / 吃
+                        :manner  (x7 / 干净
+)                        :location  (x2 / 碗
+)                        :polarity  (x5 / -
+)                        :mod  (x4 / 还
+)))            :op2  (x12 / 可惜-01
+                  :arg0  (x9 / 扔
+                        :aspect  (x10 / 了
+))                  :degree  (x11 / 怪
+)                  :smood  (x13 / 的
+))))
+===========================
+“不，我全知道了。”我打断了他的话。
+(x18 / and
+      :op1  (x20 / say
+            :arg1  (x21 / and
+                  :op1  (x2 / 不
+)                  :op2  (x6 / 知道-01
+                        :arg0  (x4 / 我
+)                        :extent  (x5 / 全
+)                        :aspect  (x7 / 了
+))))      :op2  (x10 / 打断-01
+            :arg0  (x9 / x4
+)            :arg1  (x14 / 话
+                  :poss  (x12 / 他
+))            :aspect  (x11 / 了
+)))
+===========================
+老班长转身朝两个小同志睡觉的地方看了一眼，一把把我搂到身边，轻声说：“小声点儿，小梁！
+(x36 / temporal
+      :arg1  (x12 / 看-02
+            :quant  (x14 / 1
+)            :cunit  (x15 / 眼
+)            :aspect  (x13 / 了
+)            :arg0  (x2 / 班长
+                  :arg0-of  (x1 / 老-01
+))            :manner  (x3 / 转身-01
+                  :arg0  (x2 / 班长
+))            :direction  (x11 / 地方
+                  :location-of  (x9 / 睡觉-01
+                        :arg0  (x8 / 同志
+                              :quant  (x5 / 2
+)                              :cunit  (x6 / 个
+)                              :arg0-of  (x7 / 小-01
+)))))      :arg2  (x21 / 搂-01
+            :arg1  (x20 / 我
+)            :manner  (x17_x18 / 一把
+)            :destination  (x23 / 身边
+)            :arg0  (x2 / 班长
+))      :arg3  (x26 / 说-01
+            :manner  (x25 / 轻声
+)            :arg0  (x2 / 班长
+)            :arg1  (x59 / and
+                  :op1  (x29 / 声
+                        :arg0-of  (x28 / 小-01
+                              :degree  (x30 / 点儿
+)))                  :op2  (x63 / person
+                        :name  ( x33/梁 
+))                  :mode  (x34 / expressive
+))))
+===========================
+咱俩是党员，你既然知道了，可不要再告诉别人。
+(x16 / and
+      :op1  (x3 / 党员
+            :domain  (x1 / 咱俩
+))      :op2  (x21 / causation
+            :arg1  (x7 / 知道-01
+                  :arg0  (x5 / 你
+)                  :aspect  (x8 / 了
+))            :arg2  (x11_2 / 要-03
+                  :arg0  (x13 / 告诉-01
+                        :arg1  (x14 / 别人
+)                        :mod  (x12 / 再
+)                        :arg0  (x5 / 你
+))                  :polarity  (x11_1 / -
+))))
+===========================
+“可是，你也要爱惜自己啊！”
+(x11 / say
+      :arg2  (x6 / 要-03
+            :arg0  (x7 / 爱惜-01
+                  :arg0  (x4 / 你
+)                  :arg1  (x8 / x4
+))            :mod  (x5 / 也
+)            :mode  (x9_x10 / expressive
+)))
+===========================
+“不要紧，我身体还结实。”
+(x9 / say
+      :arg1  (x11 / causation
+            :arg1  (x7 / 结实-01
+                  :arg0  (x5 / 身体
+                        :part-of  (x4 / 我
+))                  :mod  (x6 / 还
+))            :arg2  (x2_2_3 / 要紧
+                  :polarity  (x2_1 / -
+))))
+===========================
+他抬起头，望着夜色弥漫的草地，好久，才用低沉的声音说，“指导员把你们三个人交给我。
+(x31 / temporal
+      :arg1  (x2_x3 / 抬起-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 头
+))      :arg2  (x6 / 望-01
+            :arg1  (x11 / 草地
+                  :arg0-of  (x9 / 弥漫-01
+                        :arg1  (x8 / 夜色
+)))            :aspect  (x7 / 着
+)            :duration  (x13 / 好久
+))      :arg3  (x20 / 说-01
+            :manner  (x16 / 用-01
+                  :arg1  (x19 / 声音
+                        :arg0-of  (x17 / 低沉
+)))            :arg1  (x28 / 交给-01
+                  :arg0  (x22 / 指导员
+)                  :arg1  (x24 / 你们
+                        :arg0-of  (x50 / mean
+                              :arg1  (x27 / 人
+                                    :quant  (x25 / 3
+)                                    :cunit  (x26 / 个
+))))                  :arg2  (x29 / x1
+))))
+===========================
+他临走的时候说，‘他们年轻。
+(x5 / 说-01
+      :arg0  (x1 / 他
+)      :time  (x2 / 临走-01
+            :arg0  (x1 / 他
+))      :arg1  (x8 / 年轻-01
+            :arg0  (x7 / 他们
+)))
+===========================
+一路上，你是上级，是保姆，是勤务员，无论多么艰苦，也要把他们带出草地’。
+(x27 / say
+      :arg1  (x29 / causation
+            :arg1  (x30 / and
+                  :op1  (x7 / 上级
+                        :domain  (x5 / 你
+))                  :op2  (x10 / 保姆
+                        :domain  (x5 / 你
+))                  :op3  (x13 / 勤务员
+                        :domain  (x5 / 你
+))                  :location  (x1_x2_x3 / 一路
+))            :arg2  (x36 / concession
+                  :arg1  (x17 / 艰苦
+                        :degree  (x16 / 多么
+))                  :arg2  (x20 / 要-03
+                        :arg0  (x23_x24 / 带出-01
+                              :arg1  (x22 / 他们
+)                              :location  (x25 / 草地
+))))))
+===========================
+小梁，你看这草地，无边无涯，没个尽头。
+(x15 / and
+      :op1  (x17 / person
+            :name  ( x2/梁 
+))      :op2  (x5 / 看-02
+            :arg0  (x4 / x17
+)            :arg1  (x7 / 草地
+                  :mod  (x6 / 这
+)))      :op3  (x9 / 无边无涯
+            :arg0  (x7 / 草地
+))      :op4  (x11 / 没-02
+            :arg1  (x13 / 尽头
+                  :cunit  (x12 / 个
+))            :arg0  (x7 / 草地
+)))
+===========================
+我估计，还要二十多天才能走出去。
+(x2 / 估计-01
+      :arg0  (x1 / 我
+)      :arg1  (x16 / condition
+            :arg1  (x4_2 / 要-02
+                  :arg1  (x19 / temporal-quantity
+                        :quant  (x6 / 多
+                              :op1  (x5 / 20
+))                        :cunit  (x7 / 天
+))                  :mod  (x4_1 / 还
+))            :arg2  (x9 / 能-01
+                  :arg0  (x10 / 走-01
+                        :direction  (x11 / 出去
+)))))
+===========================
+熬过这二十多天不简单啊！
+(x8 / 简单-01
+      :arg0  (x1 / 熬-02
+            :arg1  (x15 / temporal-quantity
+                  :quant  (x5 / 多
+                        :op1  (x4 / 20
+))                  :mod  (x3 / 这
+)                  :unit  (x6 / 天
+))            :aspect  (x2 / 过
+))      :polarity  (x7 / -
+)      :mode  (x9_x10 / expressive
+))
+===========================
+眼看你们的身子一天比一天衰弱，只要哪一天吃不上东西，说不定就会起不来。
+(x25 / and
+      :op1  (x1 / 眼看-01
+            :arg1  (x8 / 衰弱
+                  :manner  (x6 / 比-03
+                        :arg0  (x5 / 一天
+)                        :arg1  (x7 / 一天
+))                  :arg0  (x4 / 身子
+                        :part-of  (x2 / 你们
+))))      :op2  (x34 / condition
+            :arg1  (x15 / possible
+                  :arg0  (x13 / 吃-01
+                        :polarity  (x14 / -
+)                        :arg1  (x16 / 东西
+)                        :time  (x12 / 一天
+                              :mod  (x11 / 哪
+))                        :arg0  (x2 / 你们
+)))            :arg2  (x18 / 说不定-01
+                  :arg0  (x20 / 会-02
+                        :arg0  (x44 / possible
+                              :arg0  (x21_x23 / 起来-01
+                                    :polarity  (x22 / -
+)                                    :arg0  (x2 / 你们
+)))))))
+===========================
+真有个三长两短，我怎么去向党报告呢？
+(x17 / condition
+      :arg1  (x2 / 有-03
+            :arg1  (x4 / 三长两短
+                  :cunit  (x3 / 个
+))            :mod  (x1 / 真
+))      :arg2  (x11 / 报告-01
+            :arg0  (x6 / 我
+)            :arg2  (x10 / 党
+)            :mode  (x12_x13 / interrogative
+)            :manner  (x7 / amr-unknown
+)))
+===========================
+难道我能说‘指导员，我把同志们留在草地上，我自己克服了困难出来啦’？”
+(x3 / 能-01
+      :arg0  (x4 / 说-01
+            :arg0  (x2 / 我
+))      :mod  (x1 / 难道
+)      :arg1  (x30 / and
+            :op1  (x6 / 指导员
+)            :op2  (x12_x13 / 留在-01
+                  :arg0  (x8 / x2
+)                  :arg1  (x10_x11 / 同志们
+)                  :arg2  (x14 / 草地
+))            :op3  (x36 / temporal
+                  :arg1  (x19 / 克服-01
+                        :arg0  (x17_x18 / x2
+)                        :arg1  (x21 / 困难
+)                        :aspect  (x20 / 了
+))                  :arg2  (x22 / 出来-01
+                        :arg0  (x2 / 我
+))                  :mode  (x23_x24 / interrogative
+))))
+===========================
+“可是，你总该跟我们一起吃一点儿呀！”
+(x14 / say
+      :arg1  (x16 / contrast
+            :arg2  (x6 / 该-01
+                  :arg0  (x10 / 吃-01
+                        :manner  (x9 / 一起-01
+                              :arg0  (x7 / and
+                                    :op1  (x4 / 你
+)                                    :op2  (x8 / 我们
+)))                        :arg1  (x23 / thing
+                              :quant  (x11 / 一点儿
+))                        :arg0  (x4 / 你
+))                  :frequency  (x5 / 总
+))            :mode  (x12_x13 / expressive
+)))
+===========================
+“不行，太少啦。”
+(x8 / say
+      :arg1  (x10 / causation
+            :arg2  (x2_2 / 行
+                  :polarity  (x2_1 / -
+))            :arg1  (x5 / 少
+                  :degree  (x4 / 太
+)                  :mode  (x6 / expressive
+))))
+===========================
+他轻轻地摇摇头，“小梁，说真的，弄点儿吃的不容易啊！有时候等了半夜，也不见鱼上钩。
+(x31 / temporal
+      :arg1  (x4_x5 / 摇-01
+            :arg0  (x1 / 他
+)            :manner  (x2 / 轻
+)            :arg1  (x6 / 头
+))      :arg2  (x38 / say
+            :arg1  (x39 / and
+                  :op1  (x40 / person
+                        :name  ( x9/梁 
+))                  :op2  (x11 / 说真的
+)                  :op3  (x18 / 容易-01
+                        :arg0  (x13 / 弄-01
+                              :arg1  (x45 / thing
+                                    :arg1-of  (x15 / 吃-01
+)                                    :quant  (x14 / 点儿
+)))                        :polarity  (x17 / -
+)                        :mode  (x19_x20 / expressive
+))                  :op4  (x50 / concession
+                        :arg1  (x22 / 等
+                              :duration  (x24 / 半夜
+)                              :aspect  (x23 / 了
+)                              :time  (x21 / 有时候
+))                        :arg2  (x27_2 / 见-01
+                              :arg1  (x29 / 上钩-01
+                                    :arg0  (x28 / 鱼
+))                              :polarity  (x27_1 / -
+))))))
+===========================
+为了弄一点儿鱼饵，我翻了多少草皮也找不到一条蚯蚓……
+(x20 / contrast
+      :arg1  (x7 / 翻-01
+            :arg0  (x6 / 我
+)            :arg1  (x10 / 草皮
+                  :quant  (x9 / 多少
+))            :aspect  (x8 / 了
+)            :purpose  (x2 / 弄-01
+                  :arg1  (x4 / 鱼饵
+                        :quant  (x3 / 一点儿
+))                  :arg0  (x6 / 我
+)))      :arg2  (x12_x14 / 找到-01
+            :polarity  (x13 / -
+)            :arg1  (x17 / 蚯蚓
+                  :quant  (x15 / 1
+)                  :cunit  (x16 / 条
+))            :arg0  (x6 / 我
+)))
+===========================
+还有，我的眼睛坏了，天色一暗，找野菜就得一棵一棵地摸……”
+(x24 / say
+      :arg1  (x26 / progression
+            :arg2  (x27 / causation
+                  :arg1  (x6 / 坏-01
+                        :arg0  (x5 / 眼睛
+                              :part-of  (x3 / 我
+))                        :aspect  (x7 / 了
+))                  :arg2  (x32 / condition
+                        :arg1  (x11 / 暗
+                              :arg0  (x9 / 天色
+))                        :arg2  (x16 / 得
+                              :arg1  (x22 / 摸-01
+                                    :arg0  (x3 / 我
+)                                    :manner  (x17_x18_x19_x20 / 一棵一棵
+))                              :purpose  (x13 / 找-01
+                                    :arg1  (x14 / 野菜
+)                                    :arg0  (x3 / 我
+)))))))
+===========================
+我再也忍不住了，抢着说：“老班长，以后我帮你一起找。
+(x21 / causation
+      :arg1  (x4_1_3 / 忍住-01
+            :polarity  (x4_2 / -
+)            :arg0  (x1 / 我
+)            :mod  (x2_x3 / 再也
+)            :aspect  (x5 / 了
+))      :arg2  (x9 / 说-01
+            :manner  (x7 / 抢
+                  :aspect  (x8 / 着
+))            :arg1  (x30 / and
+                  :op1  (x12 / 班长
+                        :arg0-of  (x11 / 老-01
+))                  :op2  (x16 / 帮-01
+                        :arg0  (x15 / x1
+)                        :arg1  (x17 / x12
+)                        :arg2  (x19 / 找-01
+                              :manner  (x18 / 一起
+))))))
+===========================
+我看得见。”
+(x4 / say
+      :arg1  (x2_2 / possible
+            :arg0  (x2_1_3 / 看见-01
+                  :arg0  (x1 / 我
+))))
+===========================
+“不，咱们不是早就分好工了吗？
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x2 / 不
+)            :op2  (x8_x10 / 分工-01
+                  :cause-of  (x9 / 好
+)                  :arg0  (x4 / 咱们
+)                  :polarity  (x5 / -
+)                  :time  (x7 / 早就
+)                  :aspect  (x11 / 了
+)                  :mode  (x12_x13 / interrogative
+))))
+===========================
+再说，你的病也不轻，不好好休息会支持不住的。”
+(x19 / say
+      :arg1  (x21 / progression
+            :arg2  (x22 / and
+                  :op1  (x8 / 轻-01
+                        :arg0  (x5 / 病
+                              :poss  (x3 / 你
+))                        :polarity  (x7 / -
+)                        :mod  (x6 / 也
+))                  :op2  (x28 / condition
+                        :arg1  (x12 / 休息-01
+                              :manner  (x11 / 好
+)                              :polarity  (x10 / -
+)                              :arg0  (x3 / 你
+))                        :arg2  (x13 / 会-02
+                              :arg0  (x14 / 支持
+                                    :manner  (x16 / 住
+                                          :polarity  (x15 / -
+))))                        :smood  (x17 / 的
+)))))
+===========================
+我还坚持我的意见。
+(x3 / 坚持-01
+      :arg0  (x1 / 我
+)      :mod  (x2 / 还
+)      :arg1  (x6 / 意见
+            :poss  (x4 / x1
+)))
+===========================
+老班长忽然严厉地说：“小梁同志，共产党员要服从党的分配。
+(x6 / 说-01
+      :arg0  (x2 / 班长
+            :mod  (x1 / 老-01
+))      :manner  (x3 / 忽然
+)      :manner  (x4 / 严厉-01
+            :arg0  (x2 / 班长
+))      :arg1  (x25 / and
+            :op1  (x10 / 同志
+                  :name  ( x9/梁 
+))            :op2  (x13 / 要-03
+                  :arg0  (x14 / 服从-01
+                        :arg0  (x12 / 共产党员
+)                        :arg1  (x17 / 分配-01
+                              :arg0  (x15 / 党
+))))))
+===========================
+你的任务是坚持走路，安定两个小同志的情绪，增强他们的信心！”
+(x21 / say
+      :arg1  (x23 / and
+            :op1  (x5 / 坚持-01
+                  :arg1  (x6 / 走路
+)                  :arg0  (x1 / 你
+))            :op2  (x8 / 安定-01
+                  :arg1  (x14 / 情绪
+                        :poss  (x12 / 同志
+                              :arg0-of  (x11 / 小-01
+)                              :quant  (x9 / 2
+)                              :cunit  (x10 / 个
+)))                  :arg0  (x1 / 你
+))            :op3  (x16 / 增强-01
+                  :arg1  (x19 / 信心
+                        :poss  (x17 / x12
+))                  :arg0  (x1 / 你
+))            :domain  (x3 / 任务
+                  :poss  (x1 / 你
+))            :mode  (x20 / expressive
+)))
+===========================
+望着他那十分严峻的脸，我一句话也说不上来，竟扑倒在他怀里哭了。
+(x29 / temporal
+      :arg1  (x31 / condition
+            :arg1  (x1 / 望-01
+                  :arg1  (x8 / 脸
+                        :arg0-of  (x6 / 严峻-01
+                              :degree  (x5 / 十分
+))                        :mod  (x4 / 那
+)                        :part-of  (x3 / 他
+))                  :aspect  (x2 / 着
+)                  :arg0  (x10 / 我
+))            :arg2  (x17 / possible
+                  :arg0  (x15 / 说-01
+                        :arg1  (x13 / 话
+                              :quant  (x11 / 1
+)                              :cunit  (x12 / 句
+))                        :mod  (x14 / 也
+))                  :polarity  (x16 / -
+)))      :arg2  (x20_x21 / 扑
+            :location  (x25 / 里
+                  :arg0  (x24 / 怀
+                        :poss  (x23 / x3
+)))            :arg0  (x10 / 我
+)            :mod  (x19 / 竟
+))      :arg3  (x26 / 哭-01
+            :arg0  (x10 / 我
+)            :aspect  (x27 / 了
+)))
+===========================
+第二天，老班长端来的鱼汤特别少，每个搪瓷碗里只有小半条猫鱼，上面漂着一丁点儿野菜。
+(x29 / and
+      :op1  (x10 / 少-01
+            :arg0  (x8 / 鱼汤
+                  :arg1-of  (x5_x6 / 端来-01
+                        :arg0  (x4 / 班长
+                              :arg0-of  (x3 / 老-01
+))))            :degree  (x9 / 特别
+))      :op2  (x17 / 有-03
+            :arg0  (x14 / 碗
+                  :consist-of  (x13 / 搪瓷
+)                  :mod  (x12_1 / 每
+)                  :cunit  (x12_2 / 个
+))            :mod  (x16 / 只
+)            :arg1  (x21 / 鱼
+                  :cunit  (x19 / 条
+)                  :quant  (x18 / 小半
+)))      :op3  (x24 / 漂-01
+            :arg0  (x27 / 野菜
+                  :quant  (x26 / 一丁点儿
+))            :aspect  (x25 / 着
+)            :location  (x23 / 上面
+))      :time  (x51 / ordinal-entity
+            :value  (x1_1_2 / 2
+)            :unit  (x1_3 / 天
+)))
+===========================
+他笑着说：“吃吧，就是少了点儿。
+(x4 / 说-01
+      :manner  (x2 / 笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 他
+))      :arg0  (x1 / 他
+)      :arg1  (x19 / and
+            :op1  (x6 / 吃
+                  :mode  (x7 / imperative
+))            :op2  (x10 / 少
+                  :mod  (x9 / 就是
+)                  :degree  (x12 / 点儿
+)                  :aspect  (x11 / 了
+))))
+===========================
+唉！一条好大的鱼已经上了钩，又跑了！
+(x18 / multi-sentence
+      :snt1  (x1 / 唉
+            :mode  (x2 / expressive
+))      :snt2  (x22 / contrast
+            :arg1  (x10_x12 / 上钩-01
+                  :arg0  (x8 / 鱼
+                        :quant  (x3 / 1
+)                        :cunit  (x4 / 条
+)                        :arg0-of  (x6 / 大-01
+                              :degree  (x5 / 好
+)))                  :aspect  (x9 / 已经
+)                  :aspect  (x11 / 了
+))            :arg2  (x15 / 跑-01
+                  :arg0  (x8 / 鱼
+)                  :aspect  (x16 / 了
+)                  :mod  (x14 / 又
+)                  :aspect  (x17 / expressive
+))))
+===========================
+我端起搪瓷碗，觉得这个碗有千斤重，怎么也送不到嘴边。
+(x23 / and
+      :op1  (x2_x3 / 端起
+            :arg0  (x1 / 我
+)            :arg1  (x5 / 碗
+                  :consist-of  (x4 / 搪瓷
+)))      :op2  (x7 / 觉得-01
+            :arg1  (x31 / causation
+                  :arg1  (x14 / 重-03
+                        :arg0  (x10 / 碗
+)                        :arg1  (x35 / mass-quantity
+                              :quant  (x12 / 1000
+)                              :unit  (x13 / 斤
+))))            :arg2  (x18_x20 / 送到-01
+                  :polarity  (x19 / -
+)                  :arg2  (x21 / 嘴边
+)                  :mod  (x17 / 也
+)                  :manner  (x16 / 怎么
+)                  :arg1  (x10 / 碗
+)                  :arg0  (x1 / 我
+))))
+===========================
+两个小同志不知道为什么，也端着碗不往嘴边送。
+(x6 / 知道-01
+      :arg1  (x20 / contrast
+            :arg1  (x10 / 端-01
+                  :arg0  (x4 / 同志
+                        :arg0-of  (x3 / 小-01
+)                        :quant  (x1 / 2
+)                        :cunit  (x2 / 个
+))                  :arg1  (x12 / 碗
+)                  :aspect  (x11 / 着
+))            :mod  (x9 / 也
+)            :arg2  (x16 / 送-02
+                  :arg3  (x15 / 嘴边
+)                  :polarity  (x13 / -
+)                  :arg0  (x4 / 同志
+))            :cause  (x7 / amr-unknown
+))      :polarity  (x5 / -
+))
+===========================
+老班长看到这情况，收敛了笑容，眉头拧成疙瘩。
+(x16 / temporal
+      :arg1  (x3 / 看到-01
+            :arg0  (x2 / 班长
+                  :arg0-of  (x1 / 老-01
+))            :arg1  (x5 / 情况
+                  :mod  (x4 / 这
+)))      :arg2  (x7 / 收敛-01
+            :arg1  (x9 / 笑容
+)            :aspect  (x8 / 了
+)            :arg0  (x2 / 班长
+))      :arg3  (x12 / 拧-01
+            :arg1  (x11 / 眉头
+)            :cause-of  (x13 / 成-01
+                  :arg1  (x14 / 疙瘩
+)                  :arg0  (x11 / 眉头
+))))
+===========================
+他说：“怎么了，吃不下？要是不吃，咱们就走不出这草地。
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x27 / and
+            :op1  (x4 / 怎么
+                  :aspect  (x5 / 了
+))            :op2  (x7_x9 / 吃下-01
+                  :polarity  (x8 / -
+)                  :mode  (x10 / interrogative
+))            :op3  (x34 / condition
+                  :arg1  (x14 / 吃
+                        :polarity  (x13 / -
+))                  :arg2  (x18_x20 / 走出-01
+                        :arg0  (x16 / 咱们
+)                        :arg1  (x22 / 草地
+                              :mod  (x21 / 这
+))                        :polarity  (x19 / -
+)))))
+===========================
+同志们，为了革命，你们必须吃下去。
+(x12 / and
+      :op1  (x1_x2 / 同志们
+)      :op2  (x8 / 必须-02
+            :arg0  (x9_x10 / 吃
+                  :arg0  (x7 / x1_x2
+))            :purpose  (x5 / 革命
+)))
+===========================
+小梁，你不要太脆弱！”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x12 / person
+                  :name  ( x2/梁 
+))            :op2  (x5_2 / 要-03
+                  :arg0  (x7 / 脆弱-01
+                        :degree  (x6 / 太
+)                        :arg0  (x4 / x12
+))                  :polarity  (x5_1 / -
+)                  :mode  (x8 / expressive
+))))
+===========================
+最后这句话是严厉的，意思只有我知道。
+(x14 / and
+      :op1  (x6 / 严厉-01
+            :arg0  (x4 / 话
+                  :mod  (x2 / 这
+)                  :cunit  (x3 / 句
+)                  :ord  (x1 / 最后
+))            :mode  (x5_x7 / judgement
+))      :op2  (x12 / 知道-01
+            :arg0  (x11 / 我
+                  :mod  (x10 / 只有
+))            :arg1  (x9 / 意思
+)))
+===========================
+我把碗端到嘴边，泪珠大颗大颗地落在热气腾腾的鱼汤里。
+(x23 / and
+      :op1  (x4 / 端-01
+            :arg0  (x1 / 我
+)            :arg1  (x3 / 碗
+)            :location  (x6 / 嘴边
+))      :op2  (x14_x15 / 落在-01
+            :arg0  (x8 / 泪珠
+)            :manner  (x9_x10_x11_x12 / 大颗
+)            :arg1  (x18 / 鱼汤
+                  :arg0-of  (x16 / 热气腾腾-01
+))))
+===========================
+我悄悄背转身，擦擦眼睛，大口大口地咽着鱼汤。
+(x18 / temporal
+      :arg1  (x4 / 转身-01
+            :arg0  (x3 / 背
+                  :part-of  (x1 / 我
+))            :manner  (x2 / 悄悄-01
+                  :arg0  (x1 / 我
+)))      :arg2  (x6 / 擦-01
+            :arg1  (x7 / 眼睛
+)            :arg0  (x1 / 我
+))      :arg3  (x14 / 咽-01
+            :arg1  (x16 / 鱼汤
+)            :manner  (x9_x10_x11_x12 / 大口
+)            :arg0  (x1 / 我
+)))
+===========================
+老班长看着我们吃完，脸上的皱纹舒展开了，嘴边露出了一丝笑意。
+(x25 / causation
+      :arg1  (x3 / 看-02
+            :arg0  (x2 / 班长
+                  :arg0-of  (x1 / 老-01
+))            :aspect  (x4 / 着
+)            :arg1  (x7 / 完-01
+                  :arg0  (x6 / 吃-01
+                        :arg0  (x5 / 我们
+))))      :arg2  (x34 / and
+            :op1  (x12 / 舒展-01
+                  :arg1  (x11 / 皱纹
+                        :location  (x9 / 脸上
+))                  :cause-of  (x13 / 开
+)                  :aspect  (x14 / 了
+))            :op2  (x17 / 露出-01
+                  :arg1  (x21 / 笑意
+                        :quant  (x19 / 1
+)                        :cunit  (x20 / 丝
+))                  :aspect  (x18 / 了
+)                  :location  (x16 / 嘴边
+))))
+===========================
+可是我的心里好像塞了铅块似的，沉重极了。
+(x15 / contrast
+      :arg2  (x17 / and
+            :op1  (x6_x10 / 好像-01
+                  :arg0  (x7 / 塞-01
+                        :arg1  (x9 / 铅块
+)                        :arg2  (x4 / 心
+                              :part-of  (x2 / 我
+))                        :aspect  (x8 / 了
+)))            :op2  (x12 / 沉重-01
+                  :degree  (x13 / 极了
+)                  :arg0  (x4 / 心
+))))
+===========================
+挨了一天又一天，渐渐接近草地的边了，我们的病却越来越重。
+(x23 / contrast
+      :arg1  (x25 / and
+            :op1  (x1 / 挨-01
+                  :arg1  (x3_x4_x5_x6_x7 / 一天又一天
+)                  :aspect  (x2 / 了
+))            :op2  (x10 / 接近-01
+                  :arg1  (x13 / 边
+                        :poss  (x11 / 草地
+))                  :manner  (x9 / 渐渐
+)                  :aspect  (x14 / 了
+)))      :arg2  (x21 / 重-02
+            :arg0  (x18 / 病
+                  :poss  (x16 / 我们
+))            :mod  (x20 / 越来越
+)))
+===========================
+我还能勉强挺着走路，那两个小同志连直起腰来的力气也没有了。
+(x25 / contrast
+      :arg1  (x3 / 能-01
+            :arg0  (x7 / 走路-01
+                  :manner  (x5 / 挺
+                        :aspect  (x6 / 着
+))                  :arg0  (x1 / 我
+))            :mod  (x4 / 勉强
+)            :mod  (x2 / 还
+))      :arg2  (x34 / concession
+            :arg1  (x20 / 力气
+                  :mod  (x16_x18 / possible
+                        :arg0  (x15 / 直-01
+                              :arg0  (x17 / 腰
+                                    :part-of  (x13 / 同志
+                                          :arg0-of  (x12 / 小-01
+)                                          :quant  (x10 / 2
+)                                          :cunit  (x11 / 个
+)                                          :mod  (x9 / 那
+))))))            :arg2  (x22_2 / 有-01
+                  :polarity  (x22_1 / -
+)                  :arg1  (x20 / 力气
+))            :aspect  (x23 / 了
+)))
+===========================
+老班长虽然瘦得只剩皮包骨头，眼睛深深地陷了下去，还一直用饱满的情绪鼓励着我们。
+(x27 / contrast
+      :arg1  (x29 / and
+            :op1  (x4 / 瘦-01
+                  :arg1  (x7 / 剩-01
+                        :arg1  (x8 / 皮包骨头
+)                        :arg0  (x2 / 班长
+                              :arg0-of  (x1 / 老-01
+))                        :mod  (x6 / 只
+))                  :arg0  (x2 / 班长
+)))      :op2  (x13 / 陷-01
+            :arg1  (x15 / 下去
+)            :arg0  (x10 / 眼睛
+)            :manner  (x11 / 深
+)            :aspect  (x14 / 了
+))      :arg2  (x23 / 鼓励-01
+            :arg1  (x25 / 我们
+)            :manner  (x19 / 用-01
+                  :arg1  (x22 / 情绪
+                        :arg0-of  (x20 / 饱满-01
+)))            :mod  (x18 / 一直
+)            :aspect  (x24 / 着
+)            :arg0  (x2 / 班长
+)))
+===========================
+我们就这样扶一段，搀一段，终于走到草地边上。
+(x18 / temporal
+      :arg1  (x20 / and
+            :op1  (x4 / 扶-01
+                  :location  (x22 / thing
+                        :quant  (x5 / 1
+)                        :cunit  (x6 / 段
+))                  :arg0  (x1 / 我们
+))            :manner  (x3 / 这样
+)            :mod  (x2 / 就
+)            :op2  (x8 / 搀-01
+                  :arg0  (x1 / 我们
+)                  :location  (x29 / thing
+                        :quant  (x9 / 1
+)                        :cunit  (x10 / 段
+))))      :arg2  (x13_x14 / 走到-01
+            :arg1  (x16 / 边上
+                  :arg0  (x15 / 草地
+))            :mod  (x12 / 终于
+)            :arg0  (x1 / 我们
+)))
+===========================
+远处，重重叠叠的山峰已经看得见了。
+(x7_2 / possible
+      :arg0  (x7_1_3 / 看见-01
+            :arg1  (x5 / 山峰
+                  :arg0-of  (x3 / 重叠-01
+)))      :aspect  (x6 / 已经
+)      :aspect  (x8 / 了
+)      :location  (x1 / 远处
+))
+===========================
+这天上午，老班长快活地说：“同志们，咱们在这儿停一下，好好弄点儿吃的，鼓一鼓劲，一口气走出草地去。”
+(x8 / 说-01
+      :arg0  (x5 / 班长
+            :arg0-of  (x4 / 老-01
+))      :manner  (x6 / 快活
+)      :time  (x41 / date-entity
+            :dayperiod  (x2 / 上午
+)            :day  (x1 / 这天
+))      :arg1  (x44 / and
+            :op1  (x10_x11 / 同志们
+)            :op2  (x16_x17 / 停-01
+                  :arg0  (x13 / 咱们
+)                  :location  (x15 / 这儿
+))            :op3  (x20 / 弄-01
+                  :manner  (x19 / 好好
+)                  :arg1  (x52 / thing
+                        :arg1-of  (x22 / 吃-01
+)                        :quant  (x21 / 点儿
+)))            :op4  (x25_x26_x27 / 鼓-01
+                  :arg0  (x28 / 劲
+))            :op5  (x31_x32 / 走出-01
+                  :arg1  (x33 / 草地
+)                  :manner  (x30 / 一口气
+))))
+===========================
+说罢，他就拿起鱼钩找水塘去了。
+(x14 / temporal
+      :arg1  (x2 / 罢-01
+            :arg0  (x1 / 说
+))      :arg2  (x6_x7 / 拿起-01
+            :arg0  (x4 / 他
+)            :arg1  (x8 / 鱼钩
+)            :mod  (x5 / 就
+))      :arg3  (x9 / 找-01
+            :arg1  (x10 / 水塘
+)            :aspect  (x12 / 了
+)            :arg0  (x4 / 他
+)))
+===========================
+我们的精神特别好，四处去找野菜，拾干草，好像过节似的。
+(x19 / and
+      :op1  (x5 / 好-01
+            :arg0  (x3 / 精神
+                  :poss  (x1 / 我们
+))            :degree  (x4 / 特别
+))      :op2  (x9 / 找-01
+            :arg1  (x10 / 野菜
+)            :range  (x7 / 四处
+)            :arg0  (x1 / 我们
+))      :op3  (x12 / 拾-01
+            :arg1  (x13 / 干草
+)            :arg0  (x1 / 我们
+))      :op4  (x15_x17 / 好像-01
+            :arg0  (x16 / 过节-01
+                  :arg0  (x1 / 我们
+))))
+===========================
+但是过了好久，还不见老班长回来。
+(x13 / contrast
+      :arg2  (x8 / 见-01
+            :arg1  (x11 / 回来-01
+                  :arg0  (x10 / 班长
+                        :arg0-of  (x9 / 老-01
+)))            :polarity  (x7 / -
+)            :mod  (x6 / 还
+)            :time  (x2 / 过-02
+                  :arg1  (x4 / 好久
+)                  :aspect  (x3 / 了
+))))
+===========================
+我们四面寻找，最后在一个水塘旁边找到了他，他已经昏迷不醒了。
+(x20 / temporal
+      :arg1  (x3 / 寻找-01
+            :arg0  (x1 / 我们
+)            :range  (x2 / 四面
+))      :arg2  (x25 / and
+            :op1  (x11 / 找到-01
+                  :arg1  (x13 / 他
+)                  :aspect  (x12 / 了
+)                  :location  (x10 / 旁边
+                        :arg0  (x9 / 水塘
+                              :quant  (x7 / 1
+)                              :cunit  (x8 / 个
+)))                  :time  (x5 / 最后
+))            :op2  (x17 / 昏迷不醒
+                  :arg0  (x15 / x13
+)                  :aspect  (x16 / 已经
+)                  :aspect  (x18 / 了
+))))
+===========================
+我们都着慌了。
+(x3_x4 / 着慌-01
+      :arg0  (x1 / 我们
+)      :extent  (x2 / 都
+)      :aspect  (x5 / 了
+))
+===========================
+过雪山的时候有过不少这样的例子，战士用惊人的毅力支持着自己的生命，但是一倒下去就再也起不来了。
+(x5 / 有-03
+      :arg1  (x10 / 例子
+            :mod  (x8 / 这样
+)            :quant  (x7 / 不少
+)            :arg0-of  (x43 / mean
+                  :arg1  (x44 / contrast
+                        :arg1  (x17 / 支持-01
+                              :arg0  (x12 / 战士
+)                              :arg1  (x21 / 生命
+                                    :poss  (x19 / x12
+))                              :instrument  (x16 / 毅力
+                                    :arg0-of  (x14 / 惊人-01
+)))                        :arg2  (x51 / condition
+                              :arg1  (x25 / 倒-01
+                                    :direction  (x26 / 下去
+)                                    :arg1  (x12 / 战士
+))                              :arg2  (x30_x32 / 起来-01
+                                    :polarity  (x31 / -
+)                                    :aspect  (x33 / 了
+)                                    :mod  (x28 / 再
+)                                    :mod  (x29 / 也
+)                                    :arg0  (x12 / 战士
+))))))      :aspect  (x6 / 过
+)      :time  (x1 / 过-05
+            :arg1  (x2 / 雪山
+)))
+===========================
+要挽救老班长，最好的办法是让他赶快吃些东西。
+(x20 / condition
+      :arg1  (x1 / 要-03
+            :arg0  (x2 / 挽救-01
+                  :arg1  (x4 / 班长
+                        :arg0-of  (x3 / 老-01
+))))      :arg2  (x11 / 让-02
+            :arg1  (x12 / x4
+)            :arg2  (x14 / 吃-01
+                  :arg1  (x16 / 东西
+                        :quant  (x15 / 些
+))                  :manner  (x13 / 赶快
+)                  :arg0  (x12 / x4
+))            :domain  (x9 / 办法
+                  :arg0-of  (x7 / 好-01
+                        :degree  (x6 / 最
+)))))
+===========================
+我们立即分了工，我去钓鱼，剩下的一个人照料老班长，一个人生火。
+(x26 / and
+      :op1  (x3_x5 / 分工-01
+            :arg0  (x1 / 我们
+)            :time  (x2 / 立即
+)            :aspect  (x4 / 了
+))      :op2  (x9 / 钓鱼-01
+            :arg0  (x7 / 我
+))      :op3  (x16 / 照料-01
+            :arg0  (x15 / 人
+                  :quant  (x13 / 1
+)                  :cunit  (x14 / 个
+)                  :arg1-of  (x11 / 剩下-01
+))            :arg1  (x18 / 班长
+                  :arg0-of  (x17 / 老-01
+)))      :op4  (x23_x24 / 生火-01
+            :arg0  (x22 / 人
+                  :quant  (x20 / 1
+)                  :cunit  (x21 / 个
+))))
+===========================
+我蹲在水边，心里不停地念叨：“鱼啊！快些来吧！这是挽救一个革命战士的生命啊！”
+(x32 / and
+      :op1  (x2 / 蹲-01
+            :arg0  (x1 / 我
+)            :arg1  (x4 / 水边
+))      :op2  (x11 / 念叨-01
+            :arg0  (x6_x7 / 心里
+)            :manner  (x8_x9 / 不停
+)            :arg1  (x40 / and
+                  :op1  (x13 / 鱼
+                        :mode  (x14_x15 / expressive
+))                  :op2  (x16 / 快
+                        :arg0  (x18 / 来-01
+                              :arg0  (x13 / 鱼
+))                        :mod  (x17 / 些
+)                        :mode  (x19 / imperative
+)                        :mode  (x20 / expressive
+))                  :op3  (x23 / 挽救-01
+                        :arg1  (x29 / 生命
+                              :poss  (x27 / 战士
+                                    :mod  (x26 / 革命
+)                                    :quant  (x24 / 1
+)                                    :cunit  (x25 / 个
+)))                        :domain  (x21 / 这
+)                        :mode  (x30_x31 / expressive
+)))))
+===========================
+可是越性急，鱼越不上钩。
+(x11 / contrast
+      :arg1  (x2_x6 / 越
+            :arg0  (x3 / 性急
+)            :arg1  (x8_x9 / 上钩-01
+                  :arg0  (x5 / 鱼
+)                  :polarity  (x7 / -
+))))
+===========================
+等了好久，好容易看到漂在水面的芦秆动了一下，赶紧掣起钓竽，总算钓上来一条两寸长的小鱼。
+(x35 / temporal
+      :arg1  (x1 / 等
+            :duration  (x3 / 好久
+)            :aspect  (x2 / 了
+))      :arg2  (x6 / 看到-01
+            :arg1  (x12 / 动-01
+                  :arg1  (x11 / 芦秆
+                        :arg0-of  (x7 / 漂-01
+                              :location  (x9 / 水面
+)))                  :frequency  (x14 / 一下
+)                  :aspect  (x13 / 了
+))            :manner  (x5 / 好容易
+))      :arg3  (x17_x18 / 掣-01
+            :arg1  (x19 / 钓竽
+)            :manner  (x16 / 赶紧
+))      :arg4  (x22 / 钓-01
+            :arg1  (x31 / 鱼
+                  :arg0-of  (x30 / 小-01
+)                  :mod  (x28 / 长-02
+                        :arg1  (x54 / distance-quantity
+                              :quant  (x26 / 2
+))                        :unit  (x27 / 寸
+))                  :quant  (x24 / 1
+)                  :cunit  (x25 / 条
+))            :direction  (x23 / 上来
+)            :mod  (x21 / 总算
+)))
+===========================
+当我俯下身子，把鱼汤送到老班长嘴边的时候，老班长已经奄奄一息了。
+(x21 / 奄奄一息-01
+      :arg0  (x19 / 班长
+            :arg0-of  (x18 / 老-01
+))      :aspect  (x20 / 已经
+)      :aspect  (x22 / 了
+)      :time  (x30 / temporal
+            :arg1  (x3_x4 / 俯下
+                  :arg0  (x2 / 我
+)                  :arg1  (x5 / 身子
+))            :arg2  (x10_x11 / 送到-01
+                  :arg1  (x8_x9 / 鱼汤
+)                  :arg2  (x14 / 嘴边
+                        :part-of  (x13 / x19
+                              :arg0-of  (x12 / 老
+))))))
+===========================
+他微微地睁开眼睛，看见我端着的鱼汤，头一句话就说：“小梁，别浪费东西了。
+(x28 / temporal
+      :arg1  (x4_x5 / 睁开-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 眼睛
+)            :manner  (x2 / 微
+))      :arg2  (x8 / 看见-01
+            :arg1  (x13 / 鱼汤
+                  :arg1-of  (x10 / 端-01
+                        :arg0  (x9 / 我
+)                        :aspect  (x11 / 着
+))))      :arg3  (x18 / 说-01
+            :arg1  (x16 / 一句话
+                  :ord  (x43 / ordinal-entity
+                        :value  (x15 / 1
+))                  :arg0-of  (x46 / mean
+                        :arg1  (x24 / 浪费-01
+                              :arg0  (x48 / person
+                                    :name  ( x21/梁 
+))                              :polarity  (x23 / -
+)                              :arg1  (x25 / 东西
+)                              :aspect  (x26 / 了
+))))            :mod  (x17 / 就
+)))
+===========================
+我……我不行啦。
+(x4_2 / 行-03
+      :arg0  (x1_x3 / 我
+)      :polarity  (x4_1 / -
+)      :mode  (x5 / expressive
+))
+===========================
+你们吃吧！还有二十多里路，吃完了，一定要走出草地去！”
+(x22 / multi-sentence
+      :snt1  (x2 / 吃-01
+            :arg0  (x1 / 你们
+)            :mode  (x3_x4 / expressive
+))      :snt2  (x27 / and
+            :op1  (x5 / 还有-01
+                  :arg1  (x9 / 路
+                        :quant  (x7 / 多
+                              :op1  (x6 / 20
+))                        :cunit  (x8 / 里
+)))            :op2  (x33 / condition
+                  :arg1  (x12 / 完-01
+                        :arg0  (x11 / 吃-01
+)                        :aspect  (x13 / 了
+))                  :arg2  (x15 / 一定
+                        :arg0  (x16 / 要-03
+                              :arg0  (x17_x18 / 走出-01
+                                    :arg1  (x19 / 草地
+)))                        :mode  (x21 / expressive
+)))))
+===========================
+“老班长，你吃啊！
+(x10 / say
+      :arg1  (x12 / and
+            :op1  (x3 / 班长
+                  :arg0-of  (x2 / 老-01
+))            :op2  (x6 / 吃-01
+                  :arg0  (x5 / x3
+)                  :mode  (x7_x8 / expressive
+))))
+===========================
+我们抬也要把你抬出草地去！”
+(x12 / say
+      :arg1  (x14 / concession
+            :arg1  (x2 / 抬-01
+                  :arg0  (x1 / 我们
+))            :arg2  (x4 / 要-03
+                  :arg0  (x7 / 抬-01
+                        :arg0  (x1 / 我们
+)                        :arg1  (x6 / 你
+)                        :location  (x8_x10 / 出去-02
+                              :arg1  (x9 / 草地
+))))            :mode  (x11 / expressive
+)))
+===========================
+我几乎要哭出来了。
+(x3 / 要-03
+      :arg0  (x4_x5 / 哭-01
+            :arg0  (x1 / 我
+))      :mod  (x2 / 几乎
+)      :aspect  (x6 / 了
+))
+===========================
+“不，你们吃吧。
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x2 / 不
+)            :op2  (x5 / 吃-01
+                  :arg0  (x4 / 你们
+)                  :mode  (x6 / imperative
+))))
+===========================
+你们一定要走出草地去！
+(x2 / 一定
+      :arg0  (x3 / 要-03
+            :arg0  (x4_x5 / 走出-01
+                  :arg0  (x1 / 你们
+)                  :arg1  (x6 / 草地
+)))      :mode  (x8 / expressive
+))
+===========================
+见着指导员，告诉他，我没完成党交给我的任务，没把你们照顾好。
+(x23 / condition
+      :arg1  (x1 / 见-01
+            :arg1  (x3 / 指导员
+)            :aspect  (x2 / 着
+))      :arg2  (x5 / 告诉-01
+            :arg2  (x6 / x3
+)            :arg1  (x30 / and
+                  :op1  (x10 / 完成
+                        :arg0  (x8 / 我
+)                        :polarity  (x9 / -
+)                        :arg1  (x15 / 任务
+                              :arg1-of  (x12 / 交给-01
+                                    :arg0  (x11 / 党
+)                                    :arg2  (x13 / x8
+))))                  :op2  (x20 / 照顾-01
+                        :manner  (x21 / 好
+)                        :polarity  (x17 / -
+)                        :arg0  (x8 / 我
+)                        :arg1  (x19 / 你们
+)))))
+===========================
+看，你们都瘦得……”
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1 / 看
+)            :op2  (x5 / 瘦-01
+                  :arg0  (x3 / 你们
+)                  :extent  (x4 / 都
+))))
+===========================
+老班长用粗糙的手抚摸着我的头。
+(x7 / 抚摸-01
+      :arg0  (x2 / 班长
+            :arg0-of  (x1 / 老-01
+))      :instrument  (x3 / 用-01
+            :arg1  (x6 / 手
+                  :arg0-of  (x4 / 粗糙-01
+)))      :aspect  (x8 / 着
+)      :arg1  (x11 / 头
+            :part-of  (x9 / 我
+)))
+===========================
+突然间，他的手垂了下去。
+(x7 / 垂
+      :arg0  (x6 / 手
+            :part-of  (x4 / 他
+))      :time  (x1_x2 / 突然间
+)      :aspect  (x8 / 了
+)      :direction  (x9 / 下去
+))
+===========================
+“老班长！老班长！”我们叫起来。
+(x9_x10 / 叫-03
+      :arg0  (x8 / 我们
+)      :arg1  (x15 / and
+            :op1  (x3 / 班长
+                  :arg0-of  (x2 / 老-01
+)                  :mode  (x4 / expressive
+))            :op2  (x6 / x3
+                  :arg0-of  (x5 / 老-01
+)                  :mode  (x7 / expressive
+))))
+===========================
+但是老班长，他，他的眼睛慢慢地闭上了。
+(x16 / contrast
+      :arg2  (x18 / and
+            :op1  (x3 / 班长
+                  :arg0-of  (x2 / 老-01
+))            :op2  (x5 / x3
+)            :op3  (x12_x13 / 闭上-01
+                  :arg1  (x9 / 眼睛
+                        :part-of  (x7 / x3
+))                  :manner  (x10 / 慢
+)                  :aspect  (x14 / 了
+))))
+===========================
+我们扑在老班长身上，抽噎着，很久很久。
+(x16 / and
+      :op1  (x2 / 扑-01
+            :arg0  (x1 / 我们
+)            :arg1  (x6 / 身上
+                  :part-of  (x5 / 班长
+                        :arg0-of  (x4 / 老-01
+))))      :op2  (x8 / 抽噎-01
+            :aspect  (x9 / 着
+                  :duration  (x12_x14 / 久
+                        :degree  (x11_x13 / 很
+)))            :arg0  (x1 / 我们
+)))
+===========================
+擦干了眼泪，我把老班长留下的鱼钩小心地包起来，放在贴身的衣兜里。
+(x23 / temporal
+      :arg1  (x1_x2 / 擦干-01
+            :arg1  (x4 / 眼泪
+)            :aspect  (x3 / 了
+)            :arg0  (x6 / 我
+))      :arg2  (x15 / 包起来
+            :arg0  (x6 / 我
+)            :arg1  (x12 / 鱼钩
+                  :arg1-of  (x10 / 留下-01
+                        :arg0  (x9 / 班长
+                              :arg0-of  (x8 / 老-01
+))))            :manner  (x13 / 小心
+))      :arg3  (x17 / 放在-01
+            :arg2  (x21 / 里
+                  :arg0  (x20 / 衣兜
+                        :arg0-of  (x18 / 贴身
+)))            :arg1  (x12 / 鱼钩
+)            :arg0  (x6 / 我
+)))
+===========================
+我想，等革命胜利以后，一定要把它送到革命烈士纪念馆去，让我们的子子孙孙都来瞻仰它。
+(x2 / 想-01
+      :arg0  (x1 / 我
+)      :arg1  (x32 / temporal
+            :arg1  (x4 / 等-01
+                  :arg1  (x6 / 胜利-01
+                        :arg0  (x5 / 革命
+)))            :arg2  (x9 / 一定
+                  :arg0  (x10 / 要-03
+                        :arg0  (x13_x14 / 送到-01
+                              :arg1  (x12 / 它
+)                              :arg2  (x40 / museum
+                                    :name  ( x17/纪念馆 
+)))))            :arg3  (x20 / 让-02
+                  :arg1  (x23 / 子孙
+                        :poss  (x21 / 我们
+))                  :arg2  (x26 / 瞻仰-01
+                        :arg1  (x27 / x12
+)                        :extent  (x24 / 都
+)                        :arg0  (x23 / 子孙
+)))))
+===========================
+在这个长满了红锈的鱼钩上，闪烁着灿烂的金色的光芒！
+(x13 / 闪烁-01
+      :arg0  (x19 / 光芒
+            :arg0-of  (x17 / 金色
+)            :arg0-of  (x15 / 灿烂-01
+))      :aspect  (x14 / 着
+)      :location  (x9_x10 / 鱼钩
+            :mod  (x2_1 / 这
+)            :cunit  (x2_2 / 个
+)            :arg0-of  (x3_x4 / 长满-01
+                  :arg1  (x6_x7 / 红锈
+)))      :mode  (x20 / expressive
+))
+===========================

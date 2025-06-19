@@ -1,0 +1,542 @@
+说到恐龙，人们往往想到凶猛的霸王龙或者笨重、迟钝的马门溪龙；谈起鸟类，我们头脑中自然会浮现轻灵的鸽子或者五彩斑斓的孔雀。
+(x36 / and
+      :op1  (x38 / condition
+            :arg1  (x1_x2 / 说到-01
+                  :arg1  (x3 / 恐龙
+))            :arg2  (x7 / 想到-01
+                  :arg0  (x5 / 人们
+)                  :frequency  (x6 / 往往
+)                  :arg1  (x11 / or
+                        :op1  (x10 / 霸王龙
+                              :arg0-of  (x8 / 凶猛-01
+))                        :op2  (x16 / 马门溪龙
+                              :arg0-of  (x14 / 迟钝-01
+)                              :arg0-of  (x12 / 笨重
+)))))      :op2  (x39 / condition
+            :arg1  (x18 / 谈起-01
+                  :arg1  (x19 / 鸟类
+))            :arg2  (x25 / 会-02
+                  :arg0  (x26 / 浮现-01
+                        :arg1  (x22 / 头脑
+                              :part-of  (x21 / 我们
+))                        :arg1  (x30 / or
+                              :op1  (x29 / 鸽子
+                                    :arg0-of  (x27 / 轻灵
+))                              :op2  (x33 / 孔雀
+                                    :arg0-of  (x31 / 五彩斑斓
+))))                  :manner  (x24 / 自然
+))))
+===========================
+二者似乎毫不相干，但近年来发现的大量化石显示：在中生代时期，恐龙的一支经过漫长的演化，最终变成了凌空翱翔的鸟儿。
+(x34 / contrast
+      :arg1  (x2 / 似乎-01
+            :arg0  (x3 / 毫不相干
+                  :arg0  (x1 / 二者
+)))      :arg2  (x11 / 显示-01
+            :arg0  (x10 / 化石
+                  :arg1-of  (x7 / 发现-01
+                        :time  (x6 / 近年来
+))                  :quant  (x9 / 大量
+))            :arg1  (x44 / temporal
+                  :time  (x14 / 中生代
+)                  :arg1  (x21 / 经过-01
+                        :arg1  (x24 / 演化-01
+                              :arg0-of  (x22 / 漫长-01
+)                              :arg0  (x49 / animal
+                                    :unit  (x20 / 支
+)                                    :arg1-of  (x51 / include
+                                          :arg2  (x17 / 恐龙
+))                                    :quant  (x19 / 1
+)))                        :arg0  (x49 / animal
+))                  :arg2  (x27 / 变成-01
+                        :time  (x26 / 最终
+)                        :aspect  (x28 / 了
+)                        :arg1  (x49 / animal
+)                        :arg2  (x32 / 鸟儿
+                              :arg0-of  (x30 / 翱翔-01
+                                    :manner  (x29 / 凌空-01
+                                          :arg0  (x32 / 鸟儿
+))))))))
+===========================
+早在19世纪，英国学者赫胥黎就注意到恐龙和鸟类在骨骼结构上有许多相似之处。
+(x10 / 注意-02
+      :arg0  (x7 / 学者
+            :name  ( x8/赫胥黎 
+)            :mod  (x31 / nationality
+                  :name  ( x6/英国 
+)))      :time  (x29 / date-entity
+            :era  (x3 / 19
+))      :arg1  (x19 / 有-03
+            :arg1  (x23 / 处
+                  :mod  (x21 / 相似
+)                  :quant  (x20 / 许多
+))            :arg0  (x17 / 结构
+                  :poss  (x13 / and
+                        :op1  (x12 / 恐龙
+)                        :op2  (x14 / 鸟类
+))                  :mod  (x16 / 骨骼
+))))
+===========================
+在研究了大量恐龙和鸟类化石之后，科学家们提出，鸟类不仅和恐龙有亲缘关系，而且很可能就是一种小型恐龙的后裔。
+(x13 / 提出-01
+      :time  (x9 / 之后
+            :arg0  (x2 / 研究-01
+                  :aspect  (x3 / 了
+)                  :arg1  (x6 / and
+                        :op1  (x5 / 恐龙
+)                        :quant  (x4 / 大量
+)                        :op2  (x8 / 化石
+                              :mod  (x7 / 鸟类
+)))))      :arg0  (x11_x12 / 科学家们
+)      :arg1  (x48 / progression
+            :arg1  (x19 / 有-01
+                  :arg0  (x17 / and
+                        :op1  (x15 / x7
+)                        :op2  (x18 / x5
+))                  :arg1  (x21 / 关系
+                        :mod  (x20 / 亲缘
+)))            :arg2  (x25 / 可能-01
+                  :degree  (x24 / 很
+)                  :arg0  (x33 / 后裔
+                        :domain  (x15 / x7
+)                        :poss  (x31 / 恐龙
+                              :mod  (x30 / 小型
+)                              :unit  (x29 / 种
+)                              :quant  (x28 / 1
+))                        :mod  (x26 / 就
+)))))
+===========================
+根据这一假说，一些与鸟类亲缘关系较近的恐龙应该长有羽毛，但相关化石一直没有被找到。
+(x28 / contrast
+      :arg1  (x15 / 应该-01
+            :according-to  (x4 / 假说
+                  :mod  (x2 / 这
+)                  :quant  (x3 / 1
+))            :arg0  (x16 / 长-01
+                  :arg1  (x18 / 羽毛
+)                  :arg0  (x14 / 恐龙
+                        :quant  (x6 / 一些
+)                        :mod  (x12 / 近-01
+                              :arg0  (x14 / 恐龙
+)                              :according-to  (x10 / 关系
+                                    :mod  (x9 / 亲缘
+))                              :arg1  (x8 / 鸟类
+)))))      :arg2  (x26 / 找到-01
+            :arg1  (x22 / 化石
+                  :mod  (x21 / 相关
+))            :time  (x23 / 一直
+)            :polarity  (x24 / -
+)))
+===========================
+20世纪末期，我国科学家在辽宁西部首次发现了保存有羽毛印痕的恐龙化石，顿时使全世界的研究者们欣喜若狂。
+(x30 / and
+      :time  (x3 / 末期
+            :arg0  (x33 / date-entity
+                  :era  (x1 / 20
+)))      :op1  (x12 / 发现-01
+            :mod  (x42 / ordinal-entity
+                  :value  (x10 / 1
+)                  :unit  (x11 / 次
+))            :aspect  (x13 / 了
+)            :arg0  (x6 / 科学家
+)            :arg1  (x20 / 化石
+                  :mod  (x19 / 恐龙
+)                  :location  (x14 / 保存-01
+                        :arg1  (x17 / 印痕
+                              :mod  (x16 / 羽毛
+))))            :location  (x9 / 西部
+                  :poss  (x51 / province
+                        :name  ( x8/辽宁 
+))))      :op2  (x23 / 使-01
+            :manner  (x22 / 顿时
+)            :arg1  (x26_x27 / 研究者们
+                  :range  (x24 / 全世界
+))            :arg2  (x28 / 欣喜若狂-01
+                  :arg0  (x26_x27 / 研究者们
+))))
+===========================
+辽西的发现向世人展示了恐龙长羽毛的证据，给这幅古生物学家们描绘的画卷涂上了“点睛之笔。
+(x28 / and
+      :op1  (x6 / 展示-01
+            :aspect  (x7 / 了
+)            :arg0  (x3 / 发现-01
+                  :location  (x1 / 辽西
+))            :beneficiary  (x5 / 世人
+)            :arg1  (x12 / 证据
+                  :mod  (x9 / 长-01
+                        :arg1  (x10 / 羽毛
+)                        :arg0  (x8 / 恐龙
+))))      :op2  (x22 / 涂-01
+            :arg2  (x21 / 画卷
+                  :arg1-of  (x19 / 描绘-01
+                        :arg0  (x17_x18 / 古生物学家们
+)                        :cunit  (x16 / 幅
+))                  :mod  (x15 / 这
+))            :arg1  (x26 / 点睛之笔
+)            :aspect  (x24 / 了
+)))
+===========================
+恐龙是如何飞向蓝天的呢？
+(x4 / 飞-01
+      :arg0  (x1 / 恐龙
+)      :direction  (x6 / 蓝天
+)      :manner  (x3 / amr-unknown
+            :mode  (x2_x7 / judgement
+))      :mode  (x8_x9 / interrogative
+))
+===========================
+让我们穿越时空隧道，访问中生代的地球，看看这一演化过程吧！
+(x1 / 让-02
+      :arg1  (x23 / and
+            :op1  (x3 / 穿越-01
+                  :arg0  (x2 / 我们
+)                  :arg1  (x5 / 隧道
+                        :mod  (x4 / 时空
+)))            :op2  (x7 / 访问-01
+                  :arg0  (x2 / 我们
+)                  :arg1  (x10 / 地球
+                        :time  (x8 / 中生代
+)))            :op3  (x12 / 看看-01
+                  :arg0  (x2 / 我们
+)                  :arg1  (x16 / 过程
+                        :mod  (x13 / 这
+)                        :mod  (x15 / 演化
+)                        :quant  (x14 / 1
+))))      :mode  (x17 / imperative
+)      :mode  (x18 / expressive
+))
+===========================
+地球上的第一种恐龙大约出现在两亿三千万年前，它和狗一般大小，像鸵鸟一样用两条后腿支撑身体。
+(x31 / and
+      :op1  (x8 / 出现-01
+            :arg1  (x6 / 恐龙
+                  :mod  (x40 / ordinal-entity
+                        :unit  (x5 / 种
+)                        :value  (x4 / 1
+))                  :location  (x1 / 地球
+))            :mod  (x7 / 大约
+)            :time  (x13 / 前
+                  :arg0  (x37 / temporal-quantity
+                        :unit  (x12 / 年
+)                        :quant  (x10_x11 / 230000000
+))))      :op2  (x18 / 一般-01
+            :arg0  (x15 / x6
+)            :arg1  (x17 / 狗
+)            :according-to  (x19 / 大小
+))      :op3  (x28 / 支撑-01
+            :arg1  (x29 / 身体
+                  :part-of  (x6 / 恐龙
+))            :arg0  (x6 / 恐龙
+)            :manner  (x24 / 用-01
+                  :arg2-of  (x21 / 像-01
+                        :arg1  (x22 / 鸵鸟
+))                  :arg1  (x27 / 后腿
+                        :quant  (x25 / 2
+)                        :cunit  (x26 / 条
+)))))
+===========================
+数千万年后，它的后代繁衍成一个形态各异的庞大家族：有些恐龙像它们的祖先一样两足奔跑，有些恐龙则用四足行走；有些恐龙身长几十米，重达数十吨，有些恐龙则身材小巧，体重不足几公斤；有些恐龙凶猛异常，是茹毛饮血的食肉动物，有些恐龙则温顺可爱，以植物为食。
+(x9 / 繁衍-01
+      :cause-of  (x10 / 成-01
+            :arg1  (x15 / 家族
+                  :arg0-of  (x14 / 庞大-01
+)                  :arg0-of  (x12 / 形态各异
+)                  :quant  (x11 / 1
+)                  :quant  (x11_1 / 1
+)                  :cunit  (x11_2 / 个
+)                  :arg0-of  (x96 / mean
+                        :arg1  (x97 / and
+                              :op1  (x98 / contrast
+                                    :arg1  (x26 / 奔跑
+                                          :manner  (x25 / 足
+                                                :quant  (x24 / 2
+))                                          :arg2-of  (x19 / 像-01
+                                                :arg0  (x18 / 恐龙
+                                                      :quant  (x17 / 有些
+))                                                :arg1  (x22 / 祖先
+                                                      :poss  (x20 / x18
+))))                                    :arg2  (x34 / 行走-01
+                                          :manner  (x33 / 足
+                                                :quant  (x32 / 四
+))                                          :arg0  (x29 / 恐龙
+                                                :quant  (x28 / 有些
+))))                              :op2  (x99 / contrast
+                                    :arg1  (x115 / and
+                                          :op1  (x38 / 身长
+                                                :arg0  (x37 / 恐龙
+                                                      :quant  (x36 / 有些
+))                                                :arg1  (x119 / distance-quantity
+                                                      :unit  (x40 / 米
+)                                                      :quant  (x39_1 / 几
+                                                            :op1  (x39_2 / 10
+))))                                          :op2  (x42_x43 / 重达
+                                                :arg0  (x37 / 恐龙
+)                                                :arg1  (x123 / mass-quantity
+                                                      :unit  (x45 / 吨
+)                                                      :quant  (x44_1 / 数
+                                                            :op1  (x44_2 / 10
+)))))                                    :arg2  (x128 / and
+                                          :op1  (x51 / 小巧
+                                                :arg0  (x50 / 身材
+                                                      :poss  (x48 / 恐龙
+                                                            :quant  (x47 / 有些
+))))                                          :op2  (x54 / 不足-02
+                                                :arg1  (x134 / mass-quantity
+                                                      :unit  (x56 / 公斤
+)                                                      :quant  (x55 / 几
+))                                                :arg0  (x53 / 体重
+                                                      :poss  (x48 / 恐龙
+)))))                              :op3  (x114 / contrast
+                                    :arg1  (x138 / and
+                                          :op1  (x60 / 凶猛-01
+                                                :degree  (x61 / 异常
+)                                                :arg0  (x59 / 恐龙
+                                                      :quant  (x58 / 有些
+)))                                          :op2  (x67 / 动物
+                                                :mod  (x66 / 食肉
+)                                                :domain  (x59 / 恐龙
+)                                                :arg0-of  (x64 / 茹毛饮血
+)))                                    :arg2  (x146 / and
+                                          :op1  (x147 / and
+                                                :op1  (x72 / 温顺
+                                                      :arg0  (x70 / 恐龙
+                                                            :quant  (x69 / 有些
+)))                                                :op2  (x73 / 可爱-01
+                                                      :arg0  (x70 / 恐龙
+)))                                          :op2  (x75_x77 / 以为-01
+                                                :arg0  (x59 / 恐龙
+)                                                :arg1  (x76 / 植物
+)                                                :arg2  (x78 / 食
+)))))))            :arg0  (x8 / 后代
+                  :poss  (x6 / 它
+)))      :arg0  (x8 / 后代
+)      :time  (x4 / 后
+            :arg0  (x86 / temporal-quantity
+                  :unit  (x3 / 年
+)                  :quant  (x1 / 数
+                        :op1  (x2 / 10000000
+)))))
+===========================
+其中，一些猎食性恐龙的身体逐渐变小，长得也越来越像鸟类：骨骼中空，身体轻盈；脑颅膨大，行动敏捷；前肢越来越长，能像鸟冀一样拍打；它们的体表长出了美丽的羽毛，不再披着鳞片或鳞甲。
+(x62 / and
+      :op1  (x9 / 变-01
+            :arg2  (x10 / 小-01
+                  :arg0  (x7 / 身体
+                        :part-of  (x5 / 恐龙
+                              :mod  (x4 / 猎食性
+)                              :quant  (x3 / 一些
+)                              :mod  (x1 / 其中
+))))            :arg0  (x7 / 身体
+)            :manner  (x8 / 逐渐
+))      :op2  (x12 / 长-03
+            :cause-of  (x18 / 像-01
+                  :degree  (x15_x16_x17 / 越来越
+)                  :arg1  (x19 / 鸟类
+)                  :mod  (x14 / 也
+))            :arg0  (x5 / 恐龙
+)            :arg0-of  (x77 / mean
+                  :arg1  (x78 / and
+                        :op1  (x79 / and
+                              :op1  (x22 / 中空
+                                    :arg0  (x21 / 骨骼
+                                          :part-of  (x5 / 恐龙
+)))                              :op2  (x25 / 轻盈-01
+                                    :arg0  (x24 / 身体
+                                          :part-of  (x5 / 恐龙
+))))                        :op2  (x84 / and
+                              :op1  (x28 / 膨大
+                                    :arg0  (x27 / 脑颅
+                                          :part-of  (x5 / 恐龙
+)))                              :op2  (x31 / 敏捷-01
+))                        :op3  (x89 / and
+                              :op1  (x38 / 长-02
+                                    :degree  (x35_x36_x37 / 越来越
+)                                    :arg0  (x34 / 肢
+                                          :mod  (x33 / 前
+)                                          :part-of  (x5 / 恐龙
+)))                              :op2  (x40 / 能-01
+                                    :arg0  (x44 / 拍打-01
+                                          :manner  (x41 / 像-01
+                                                :arg1  (x42 / 鸟冀
+)                                                :arg0  (x34 / 肢
+)))))                        :op4  (x98 / and
+                              :op1  (x49_x50 / 长出-01
+                                    :aspect  (x51 / 了
+)                                    :arg0  (x54 / 羽毛
+                                          :arg0-of  (x52 / 美丽-01
+))                                    :location  (x48 / 体表
+                                          :poss  (x46 / x5
+)))                              :op2  (x57 / 披-01
+                                    :polarity  (x56 / -
+)                                    :aspect  (x58 / 着
+)                                    :arg1  (x60 / or
+                                          :op1  (x59 / 鳞片
+)                                          :op2  (x61 / 鳞甲
+))                                    :arg0  (x5 / 恐龙
+)))))))
+===========================
+它们中的一些种类可能为了躲避敌害或寻找食物而转移到树上生存。
+(x6 / 可能-01
+      :arg0  (x14 / 转移-01
+            :purpose  (x10 / or
+                  :op1  (x8 / 躲避-01
+                        :arg1  (x9 / 敌害
+)                        :arg0  (x5 / 种类
+                              :arg1-of  (x24 / include-91
+                                    :arg2  (x1 / 它们
+))                              :quant  (x4 / 一些
+)))                  :op2  (x11 / 寻找-01
+                        :arg1  (x12 / 食物
+)                        :arg0  (x5 / 种类
+)))            :arg1  (x5 / 种类
+)            :arg2  (x16 / 树上
+                  :location-of  (x17 / 生存-01
+                        :arg0  (x5 / 种类
+)))))
+===========================
+这些树栖的恐龙在树木之间跳跃、降落，慢慢具备了滑翔能力，并最终能够主动飞行。
+(x25 / temporal
+      :arg1  (x27 / and
+            :op1  (x9 / 跳跃-01
+                  :arg0  (x5 / 恐龙
+                        :arg0-of  (x3 / 栖
+                              :location  (x2 / 树
+))                        :mod  (x1 / 这些
+)))            :op2  (x11 / 降落-01
+                  :arg0  (x5 / 恐龙
+))            :location  (x8 / 之间
+                  :arg0  (x7 / 树木
+)))      :arg2  (x14 / 具备-01
+            :manner  (x13 / 慢慢
+)            :aspect  (x15 / 了
+)            :arg0  (x5 / 恐龙
+)            :arg1  (x17 / 能力
+                  :mod  (x16 / 滑翔
+)))      :arg3  (x21 / 能够-01
+            :arg0  (x5 / 恐龙
+)            :time  (x20 / 最终
+)            :mod  (x19 / 并
+)            :arg1  (x23 / 飞行-01
+                  :manner  (x22 / 主动-01
+                        :arg0  (x5 / 恐龙
+))                  :arg0  (x5 / 恐龙
+))))
+===========================
+不过，有些科学家认为，飞行并非始于树栖生活过程。
+(x15 / contrast
+      :arg2  (x5 / 认为-01
+            :arg1  (x9 / 始于-01
+                  :polarity  (x8 / -
+)                  :arg0  (x7 / 飞行
+)                  :arg1  (x13 / 过程
+                        :mod  (x12 / 生活
+                              :mod  (x11 / 栖
+                                    :location  (x10 / 树
+)))))            :arg0  (x4 / 科学家
+                  :quant  (x3 / 有些
+))))
+===========================
+他们推测，一种生活在地面上的带羽毛恐龙，在奔跑过程中学会了飞翔。
+(x2 / 推测-01
+      :arg0  (x1 / 他们
+)      :arg1  (x19 / 学会-01
+            :arg0  (x13 / 恐龙
+                  :arg0-of  (x11 / 带-01
+                        :arg1  (x12 / 羽毛
+))                  :unit  (x5 / 种-01
+)                  :quant  (x4 / 1
+)                  :arg0-of  (x6 / 生活-01
+                        :arg1  (x8 / 地面
+)))            :aspect  (x20 / 了
+)            :arg1  (x21 / 飞翔
+)            :location  (x17 / 过程
+                  :mod  (x16 / 奔跑-01
+                        :arg0  (x13 / 恐龙
+)))))
+===========================
+不管怎样，有一点毋庸置疑：原本不会飞的恐龙最终变成了天之骄子—鸟类，它们飞向了蓝天，从此开辟了一个崭新的生活天地。
+(x35 / concession
+      :arg1  (x1 / 不管怎样
+)      :arg2  (x5 / 毋庸置疑-01
+            :arg1  (x4 / 一点
+                  :arg1-of  (x3 / 有-03
+)                  :arg0-of  (x41 / mean
+                        :arg1  (x42 / temporal
+                              :arg1  (x43 / and
+                                    :op1  (x14 / 变成-01
+                                          :aspect  (x45 / 15
+)                                          :time  (x13 / 最终
+)                                          :arg1  (x12 / 恐龙
+                                                :arg0-of  (x9 / 会-01
+                                                      :mod  (x7 / 原本
+)                                                      :polarity  (x8 / -
+)                                                      :arg1  (x10 / 飞
+                                                            :arg0  (x12 / 恐龙
+))))                                          :aspect  (x15 / 了
+)                                          :arg2  (x16 / 天之骄子
+                                                :arg0-of  (x54 / mean
+                                                      :arg1  (x18 / 鸟类
+))))                                    :op2  (x21_x22 / 飞向-01
+                                          :aspect  (x23 / 了
+)                                          :arg0  (x20 / x12
+)                                          :arg1  (x24 / 蓝天
+)))                              :arg2  (x27 / 开辟-01
+                                    :time  (x26 / 从此
+)                                    :aspect  (x28 / 了
+)                                    :arg1  (x33 / 天地
+                                          :mod  (x32 / 生活
+)                                          :arg0-of  (x30 / 崭新-01
+)                                          :quant  (x29_1 / 1
+)                                          :cunit  (x29_2 / 个
+))))))))
+===========================
+亿万年前，一种带羽毛的恐龙脱离同类，飞向蓝天，演化出今天的鸟类大家族。
+(x24 / and
+      :time  (x2_2 / 前
+            :arg0  (x27 / temporal-quantity
+                  :unit  (x2_1 / 年
+)                  :quant  (x1 / 100000000
+)))      :op1  (x10 / 脱离-01
+            :arg0  (x9 / 恐龙
+                  :quant  (x4 / 1
+)                  :unit  (x5 / 种-01
+)                  :arg0-of  (x6 / 带-01
+                        :arg1  (x7 / 羽毛
+)))            :arg1  (x11 / 同类
+))      :op2  (x13_x14 / 飞向-01
+            :arg1  (x15 / 蓝天
+)            :arg0  (x9 / 恐龙
+))      :op3  (x17 / 演化-02
+            :arg1  (x22 / 大家族
+                  :time  (x19 / 今天
+)                  :mod  (x21 / 鸟类
+))))
+===========================
+科学家们希望能够重现这一历史进程。
+(x3 / 希望-01
+      :arg1  (x4 / 能够-01
+            :arg0  (x5 / 重现-01
+                  :arg1  (x9 / 进程
+                        :mod  (x8 / 历史
+)                        :mod  (x6 / 这
+)                        :quant  (x7 / 1
+))))      :arg0  (x1_x2 / 科学家
+))
+===========================
+随着越来越多精美化石的发现，他们离这一愿望的实现已越来越近了。
+(x22 / 近-01
+      :degree  (x19_x20_x21 / 越来越
+)      :time  (x9 / 发现-01
+            :arg1  (x7 / 化石
+                  :arg0-of  (x6 / 精美-01
+)                  :arg0-of  (x5 / 多-03
+                        :degree  (x2_x3_x4 / 越来越
+))))      :aspect  (x23 / 了
+)      :aspect  (x18 / 已
+)      :arg0  (x11 / 他们
+)      :arg1  (x17 / 实现-01
+            :arg1-of  (x15 / 愿望
+                  :mod  (x13 / 这
+)                  :quant  (x14 / 1
+))))
+===========================

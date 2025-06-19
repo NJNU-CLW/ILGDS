@@ -1,0 +1,396 @@
+院子里有一棵小柳树和一棵小枣树。
+(x3 / 有-03
+      :arg1  (x7 / and
+            :op1  (x6 / 柳树
+                  :arg0-of  (x5 / 小-01
+)                  :quant  (x4_1 / 1
+)                  :cunit  (x4_2 / 棵
+))            :op2  (x10 / 枣树
+                  :quant  (x8_1 / 1
+)                  :cunit  (x8_2 / 棵
+)                  :arg0-of  (x9 / 小-01
+)))      :arg0  (x1 / 院子
+))
+===========================
+小柳树的腰细细的，树枝绿绿的，真好看。
+(x13 / and
+      :op1  (x5 / 细-01
+            :arg0  (x4 / 腰
+                  :part-of  (x2 / 柳树
+                        :arg0-of  (x1 / 小-01
+))))      :op2  (x8 / 绿-01
+            :arg1  (x7 / 树枝
+                  :part-of  (x2 / 柳树
+)))      :op3  (x11 / 好看-01
+            :degree  (x10 / 真
+)            :arg0  (x2 / 柳树
+)))
+===========================
+小柳树看看小枣树，树枝弯弯曲曲的，一点儿也不好看，小柳树说：“喂，小枣树，你的树枝多难看哪！你看我，多漂亮！”
+(x39 / temporal
+      :arg1  (x41 / and
+            :op1  (x3 / 看看-01
+                  :arg0  (x2 / 柳树
+                        :arg0-of  (x1 / 小-01
+))                  :arg1  (x5 / 枣树
+                        :arg0-of  (x4 / 小-01
+)))            :op2  (x8_x9 / 弯曲-01
+                  :arg0  (x7 / 树枝
+                        :part-of  (x5 / 枣树
+)))            :op3  (x14 / 好看-01
+                  :polarity  (x13 / -
+)                  :arg0  (x5 / 枣树
+)                  :mod  (x11 / 一点儿
+)                  :mod  (x12 / 也
+)))      :arg2  (x18 / 说-01
+            :arg0  (x17 / x2
+                  :arg0-of  (x16 / 小-01
+))            :arg3  (x5 / 枣树
+)            :arg1  (x56 / progression
+                  :arg1  (x57 / and
+                        :op1  (x20 / 喂
+)                        :op3  (x29 / 难看-01
+                              :degree  (x28 / 多-03
+)                              :arg0  (x27 / 树枝
+                                    :part-of  (x25 / x5
+))                              :mode  (x30_x31 / expressive
+))                        :op2  (x23 / x5
+                              :arg0-of  (x22 / 小-01
+)))                  :arg2  (x67 / and
+                        :op1  (x33 / 看-02
+                              :arg0  (x32 / x5
+)                              :arg1  (x34 / x2
+))                        :op2  (x37 / 漂亮-01
+                              :arg0  (x34 / x2
+)                              :degree  (x36 / 多
+)                              :mode  (x38 / expressive
+))))))
+===========================
+春天，小柳树发芽儿了。
+(x5 / 发芽-01
+      :arg0  (x4 / 柳树
+            :arg0-of  (x3 / 小
+))      :aspect  (x6 / 了
+)      :time  (x15 / date-entity
+            :season  (x1 / 春天
+)))
+===========================
+过了几天，小柳树的芽儿变成小叶子，她穿上一身浅绿色的衣服，真美！
+(x24 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x28 / temporal-quantity
+                  :quant  (x3_1 / 几
+)                  :unit  (x3_2 / 天
+)))      :arg2  (x9 / 变成-01
+            :arg1  (x8 / 芽儿
+                  :part-of  (x6 / 柳树
+                        :arg0-of  (x5 / 小-01
+)))            :arg2  (x11 / 叶子
+                  :arg0-of  (x10 / 小-01
+)))      :arg3  (x38 / and
+            :op1  (x14_x15 / 穿上-01
+                  :arg0  (x13 / x6
+)                  :arg1  (x19 / 衣服
+                        :quant  (x16_1 / 1
+)                        :cunit  (x16_2 / 身
+)                        :arg0-of  (x17 / 浅绿色
+)))            :op2  (x22 / 美-01
+                  :degree  (x21 / 真
+)                  :mode  (x23 / expressive
+)                  :arg0  (x13 / x6
+))))
+===========================
+她看看小枣树，小枣树还是光秃秃的。
+(x12 / and
+      :op1  (x2 / 看看-01
+            :arg0  (x1 / 她
+)            :arg1  (x4 / 枣树
+                  :arg0-of  (x3 / 小-01
+)))      :op2  (x9 / 光秃秃
+            :arg0  (x7 / x4
+                  :arg0-of  (x6 / 小-01
+))            :mode  (x8_x10 / judgement
+)))
+===========================
+小柳树说：“喂，小枣树，你怎么不长叶子呀？你看我，多漂亮！”
+(x3 / 说-01
+      :arg0  (x2 / 柳树
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x28 / progression
+            :arg1  (x29 / and
+                  :op1  (x5 / 喂
+)                  :op2  (x8 / 枣树
+                        :arg0-of  (x7 / 小-01
+))                  :op3  (x13 / 长-01
+                        :arg0  (x10 / x8
+)                        :polarity  (x12 / 不
+)                        :cause  (x11 / amr-unknown
+)                        :arg1  (x14 / 叶子
+)                        :mode  (x15_x16 / interrogative
+)))            :arg2  (x39 / and
+                  :op1  (x18 / 看-02
+                        :arg0  (x17 / x8
+)                        :arg1  (x19 / x2
+))                  :op2  (x22 / 漂亮-01
+                        :degree  (x21 / 多
+)                        :arg0  (x19 / x2
+)                        :mode  (x23 / expressive
+))))      :arg3  (x8 / 枣树
+))
+===========================
+又过了好些日子，小枣树才长出了小小的叶子。
+(x16 / temporal
+      :arg1  (x2 / 过
+            :mod  (x1 / 又
+)            :aspect  (x3 / 了
+)            :duration  (x21 / temporal-quantity
+                  :quant  (x4 / 好些
+)                  :unit  (x5 / 日子
+)))      :arg2  (x10_x11 / 长出-01
+            :aspect  (x12 / 了
+)            :mod  (x9 / 才
+)            :arg0  (x8 / 枣树
+                  :arg0-of  (x7 / 小-01
+))            :arg1  (x14 / 叶子
+                  :arg0-of  (x13 / 小-01
+))))
+===========================
+这时候，小柳树的叶子已经长得又细又长了。
+(x8 / 长-03
+      :arg0  (x6 / 叶子
+            :part-of  (x4 / 柳树
+                  :arg0-of  (x3 / 小-01
+)))      :arg1  (x28 / and
+            :op1  (x11 / 细-01
+                  :arg0  (x6 / 叶子
+))            :op2  (x13 / 长-02
+                  :arg0  (x6 / 叶子
+))))
+===========================
+她在微风里得意地跳起舞来。
+(x7_x8 / 跳-02
+      :arg0  (x1 / 她
+)      :manner  (x5 / 得意-01
+            :arg0  (x1 / 她
+))      :arg1  (x9 / 舞
+)      :location  (x3 / 微风
+))
+===========================
+到了秋天，小枣树结了许多又大又红的枣子。
+(x7 / 结-01
+      :arg0  (x6 / 枣树
+            :arg0-of  (x5 / 小-01
+))      :aspect  (x8 / 了
+)      :time  (x1 / 到-01
+            :aspect  (x2 / 了
+)            :arg1  (x23 / date-entity
+                  :season  (x3 / 秋天
+)))      :arg1  (x15 / 枣子
+            :arg0-of  (x13 / 红-01
+                  :mod  (x12 / 又
+))            :arg0-of  (x11 / 大-01
+                  :mod  (x10 / 又
+))            :quant  (x9 / 许多
+)))
+===========================
+大家把枣子打下来，坐在院子里，高高兴兴地吃起来。
+(x17 / temporal
+      :arg1  (x4 / 打-02
+            :arg0  (x1 / 大家
+)            :arg1  (x3 / 枣子
+)            :direction  (x5 / 下来-01
+                  :arg0  (x3 / 枣子
+)))      :arg2  (x7 / 坐-01
+            :arg0  (x1 / 大家
+)            :arg1  (x9 / 院子
+))      :arg3  (x14_x15 / 吃-01
+            :manner  (x12 / 高高兴兴
+                  :arg0  (x1 / 大家
+))            :arg0  (x1 / 大家
+)            :arg1  (x3 / 枣子
+)))
+===========================
+小柳树看看自己，什么也没结。
+(x11 / and
+      :op1  (x3 / 看看-01
+            :arg0  (x2 / 柳树
+                  :arg0-of  (x1 / 小
+))            :arg1  (x4 / x2
+))      :op2  (x9 / 结-01
+            :polarity  (x8 / -
+)            :mod  (x7 / 也
+)            :arg1  (x6 / 什么
+)            :arg0  (x4 / x2
+)))
+===========================
+她想：从前我总是说枣树不好看，这回她该说我啦！
+(x2 / 想-01
+      :arg0  (x1 / 她
+)      :arg1  (x23 / progression
+            :arg1  (x7 / 说-01
+                  :manner  (x6 / 总是
+)                  :arg0  (x5 / x1
+)                  :arg1  (x10 / 好看-01
+                        :polarity  (x9 / -
+)                        :arg0  (x8 / 枣树
+))                  :time  (x4 / 从前
+))            :arg2  (x15 / 该-01
+                  :time  (x12_x13 / 这回
+)                  :arg0  (x16 / 说-01
+                        :arg0  (x14 / x8
+)                        :arg1  (x17 / x1
+))                  :mode  (x18_x19 / expressive
+))))
+===========================
+可是过了一天又一天，小枣树什么也没说。
+(x15 / contrast
+      :arg2  (x17 / temporal
+            :arg1  (x2 / 过
+                  :aspect  (x3 / 了
+)                  :duration  (x20 / and
+                        :op1  (x21 / temporal-quantity
+                              :quant  (x4_1 / 1
+)                              :unit  (x4_2 / 天
+))                        :op2  (x24 / temporal-quantity
+                              :quant  (x6_1 / 1
+)                              :unit  (x6_2 / 天
+))))            :arg2  (x13 / 说-01
+                  :arg1  (x10 / 什么
+)                  :arg0  (x9 / 枣树
+                        :arg0-of  (x8 / 小-01
+))                  :mod  (x11 / 也
+)                  :polarity  (x12 / -
+))))
+===========================
+小柳树实在忍不住了，她问小枣树：“你怎么不说我呀？”
+(x19 / causation
+      :arg2  (x8 / 问-01
+            :arg0  (x7 / x2
+)            :arg2  (x10 / 枣树
+                  :arg0-of  (x9 / 小-01
+))            :arg1  (x15 / 说-01
+                  :arg0  (x12 / x10
+)                  :polarity  (x14 / -
+)                  :arg1  (x16 / x7
+)                  :cause  (x13 / amr-unknown
+)                  :mode  (x17_x18 / interrogative
+)))      :arg1  (x38 / possible
+            :arg0  (x4_1_3 / 忍住-01
+                  :polarity  (x4_2 / -
+)                  :aspect  (x5 / 了
+)                  :degree  (x3 / 实在
+)                  :arg0  (x2 / 柳树
+                        :arg0-of  (x1 / 小-01
+)))            :polarity  (x4_2 / -
+)))
+===========================
+小枣树不明白，问道：“说你什么呀？”
+(x13 / causation
+      :arg1  (x4 / 明白-01
+            :polarity  (x3 / -
+)            :arg0  (x2 / 枣树
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x6 / 问道-01
+            :arg0  (x2 / 枣树
+)            :arg1  (x8 / 说-01
+                  :arg1  (x9 / 你
+                        :mod  (x10 / amr-unknown
+))                  :mode  (x11_x12 / interrogative
+))))
+===========================
+小柳树低下头，说：“说我不会结枣子呗……”
+(x17 / temporal
+      :arg2  (x7 / 说-01
+            :arg0  (x2 / 柳树
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x9 / 说-01
+                  :arg1  (x12 / 会-01
+                        :arg1  (x13 / 结-01
+                              :arg1  (x14 / 枣子
+)                              :arg0  (x10 / x2
+))                        :polarity  (x11 / -
+)                        :arg0  (x10 / x2
+))                  :mode  (x15 / expressive
+)))      :arg1  (x3_x4 / 低-02
+            :arg0  (x2 / 柳树
+)            :arg1  (x5 / 头
+)))
+===========================
+小枣树温和地说：“你虽然不会结枣子，可是一到春天，你就发芽长叶，比我绿得早；到了秋天，你比我落叶晚。
+(x5 / 说-01
+      :manner  (x3 / 温和
+)      :arg0  (x2 / 枣树
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x46 / contrast
+            :arg1  (x10 / 会-01
+                  :polarity  (x9 / -
+)                  :arg1  (x11 / 结-01
+                        :arg1  (x12 / 枣子
+)                        :arg0  (x7 / 你-01
+))                  :arg0  (x7 / 你-01
+))            :arg2  (x52 / and
+                  :op1  (x56 / condition
+                        :arg1  (x16 / 到-01
+                              :arg1  (x58 / date-entity
+                                    :season  (x17 / 春天
+)))                        :arg2  (x60 / and
+                              :op1  (x21 / 发芽-01
+                                    :arg0  (x19 / x7
+))                              :op2  (x22 / 长-01
+                                    :arg1  (x23 / 叶
+)                                    :arg0  (x19 / x7
+))                              :op3  (x25 / 比-01
+                                    :arg0  (x19 / x7
+)                                    :arg1  (x26 / x2
+)                                    :arg2  (x29 / 早-01
+                                          :arg0  (x27 / 绿-01
+                                                :arg0  (x19 / x7
+))))))                  :op2  (x36 / 比-01
+                        :arg0  (x35 / x7
+)                        :arg1  (x37 / x2
+)                        :arg2  (x39 / 晚-01
+                              :arg0  (x38 / 落叶
+))                        :time  (x31 / 到-01
+                              :aspect  (x32 / 了
+)                              :arg1  (x76 / date-entity
+                                    :season  (x33 / 秋天
+)))))))
+===========================
+再说，你长得也比我快，等你长大了，人们在树阴下乘凉，那有多好啊！”
+(x30 / say
+      :arg1  (x1 / 再说-01
+            :arg1  (x32 / causation
+                  :arg1  (x9 / 快-01
+                        :arg0  (x4 / 长-03
+                              :arg0  (x3 / 你
+))                        :compared-to  (x8 / 我
+)                        :mod  (x6 / 也
+))                  :arg2  (x23 / 有-05
+                        :arg0  (x22 / 那
+                              :arg0-of  (x44 / mean
+                                    :arg1  (x45 / temporal
+                                          :arg1  (x11 / 等-01
+                                                :arg1  (x13 / 长大-01
+                                                      :aspect  (x14 / 了
+)                                                      :arg0  (x12 / x3
+)))                                          :arg2  (x20 / 乘凉-01
+                                                :arg0  (x16 / 人们
+)                                                :location  (x18 / 树阴
+)))))                        :arg1  (x25 / 好-01
+                              :degree  (x24 / 多
+))                        :mode  (x26_x27 / expressive
+)))))
+===========================
+小柳树听了，不好意思地笑了。
+(x11 / temporal
+      :arg1  (x3 / 听-01
+            :arg0  (x2 / 柳树
+                  :arg0-of  (x1 / 小-01
+))            :aspect  (x4 / 了
+))      :arg2  (x8 / 笑-01
+            :aspect  (x9 / 了-01
+)            :manner  (x6 / 不好意思
+)            :arg0  (x2 / 柳树
+)))
+===========================

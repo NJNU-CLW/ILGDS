@@ -1,0 +1,439 @@
+猫的性格实在有些古怪。
+(x6 / 古怪-01
+      :quant  (x5 / 有些
+)      :arg0  (x3 / 性格
+            :poss  (x1 / 猫
+))      :degree  (x4 / 实在
+))
+===========================
+说它老实吧，它的确有时候很乖。
+(x18 / causation
+      :arg2  (x1 / 说-01
+            :arg1  (x3 / 老实-01
+                  :arg0  (x2 / 它
+))            :mode  (x4 / expressive
+))      :arg1  (x10 / 乖-01
+            :degree  (x9 / 很
+)            :arg0  (x6 / x2
+)            :mod  (x7 / 的确
+)            :time  (x8 / 有时候
+)))
+===========================
+它会找个暖和的地方，成天睡大觉，无忧无虑，什么事也不过问。
+(x2 / 会-02
+      :arg0  (x23 / temporal
+            :arg1  (x3 / 找-03
+                  :arg0  (x1 / 它
+)                  :arg1  (x7 / 地方
+                        :mod  (x5 / 暖和
+)                        :cunit  (x4 / 个
+)))            :arg2  (x29 / and
+                  :op1  (x10 / 睡-01
+                        :arg0  (x1 / 它
+)                        :duration  (x9 / 成天
+)                        :arg1  (x11 / 大觉
+))                  :op2  (x13 / 无忧无虑
+                        :arg0  (x1 / 它
+))                  :op3  (x19 / 过问-01
+                        :arg1  (x16 / 事
+                              :mod  (x15 / amr-unknown
+))                        :mod  (x17 / 也
+)                        :polarity  (x18 / -
+)                        :arg0  (x1 / 它
+)))))
+===========================
+可是，它决定要出去玩玩，就会出走一天一夜，任凭谁怎么呼唤，它也不肯回来。
+(x28 / contrast
+      :arg2  (x30 / condition
+            :arg1  (x4 / 决定-01
+                  :arg0  (x3 / 它
+)                  :arg1  (x5 / 要
+                        :arg0  (x6 / 出去-01
+                              :purpose  (x7 / 玩-01
+                                    :arg0  (x3 / 它
+))                              :arg0  (x3 / 它
+))))            :arg2  (x10 / 会-01
+                  :arg0  (x44 / and
+                        :op1  (x11 / 出走-01
+                              :duration  (x39 / and
+                                    :op1  (x13 / 天
+                                          :quant  (x12 / 1
+))                                    :op2  (x15 / 夜
+                                          :quant  (x14 / 1
+)))                              :arg0  (x3 / 它
+)))                  :op2  (x45 / concession
+                        :arg1  (x17 / 任凭-01
+                              :arg1  (x18 / amr-unknown
+)                              :arg2  (x20 / 呼唤
+                                    :manner  (x19 / amr-unknown
+)))                        :arg2  (x25 / 肯-01
+                              :polarity  (x24 / -
+)                              :arg0  (x22 / x3
+)                              :arg1  (x26 / 回来-01
+                                    :arg0  (x22 / x3
+))                              :mod  (x23 / 也
+))))))
+===========================
+说它贪玩吧，的确是呀，要不怎么会一天一夜不回家呢？
+(x21 / causation
+      :arg2  (x23 / condition
+            :arg1  (x1 / 说-01
+                  :arg1  (x3 / 贪玩
+                        :arg0  (x2 / 它
+))                  :mode  (x4 / expressive
+))            :arg2  (x7 / 是
+                  :mod  (x6 / 的确
+)                  :mode  (x8 / expressive
+)))      :arg1  (x31 / condition
+            :arg1  (x10 / 要不
+)            :arg2  (x12 / 会-02
+                  :cause  (x11 / amr-unknown
+)                  :arg0  (x18 / 回家-01
+                        :polarity  (x17 / -
+)                        :duration  (x37 / and
+                              :op1  (x14 / 天
+                                    :quant  (x13 / 1
+))                              :op2  (x16 / 夜
+                                    :quant  (x15 / 1
+))))                  :mode  (x19_x20 / interrogative
+))))
+===========================
+可是，它听到老鼠的一点响动，又是多么尽职。
+(x15 / contrast
+      :arg2  (x17 / condition
+            :arg1  (x4 / 听到-01
+                  :arg0  (x3 / 它
+)                  :arg1  (x8 / 响动
+                        :poss  (x5 / 老鼠
+)                        :quant  (x7 / 一点
+)))            :arg2  (x13 / 尽职-01
+                  :mod  (x10 / 又
+)                  :degree  (x12 / 多么
+)                  :arg0  (x3 / 它
+)                  :mode  (x11 / judgement
+))))
+===========================
+它屏息凝视，一连就是几个钟头，非把老鼠等出来不可！
+(x19 / and
+      :op1  (x3 / 凝视-01
+            :manner  (x2 / 屏息-01
+                  :arg0  (x1 / 它
+))            :arg0  (x1 / 它
+)            :duration  (x24 / temporal-quantity
+                  :quant  (x8 / 几
+)                  :unit  (x10 / 钟头
+)))      :op2  (x15 / 等-01
+            :arg1  (x16 / 出来-01
+                  :arg0  (x14 / x1
+))            :mode  (x18 / expressive
+)            :arg0  (x14 / x1
+)))
+===========================
+它要是高兴，能比谁都温柔可亲：用身子蹭你的腿，把脖子伸出来让你给它抓痒，或是在你写作的时候，跳上桌来，在稿纸上踩印几朵小梅花。
+(x52 / condition
+      :arg1  (x4 / 高兴-01
+            :arg0  (x1 / 它
+))      :arg2  (x6 / 能-01
+            :arg0  (x57 / and
+                  :compared-to  (x8 / amr-unknown
+                        :extent  (x9 / 都
+))                  :op1  (x10 / 温柔-01
+                        :arg0  (x1 / 它
+))                  :op2  (x11 / 可亲-01
+                        :arg0  (x1 / 它
+))                  :arg0-of  (x62 / mean
+                        :arg1  (x63 / or
+                              :op1  (x64 / and
+                                    :op1  (x15 / 蹭-01
+                                          :arg0  (x1 / 它
+)                                          :instrument  (x14 / 身子
+                                                :part-of  (x1 / 它
+))                                          :arg1  (x18 / 腿
+                                                :part-of  (x16 / 你
+)))                                    :op2  (x22_x23 / 伸出-01
+                                          :arg1  (x21 / 脖子
+                                                :part-of  (x1 / 它
+))                                          :purpose  (x24 / 让-02
+                                                :arg1  (x16 / 你
+)                                                :arg2  (x28_x29 / 抓痒
+                                                      :arg1  (x27 / x1
+)))))                              :op2  (x65 / temporal
+                                    :arg1  (x38 / 跳-01
+                                          :destination  (x39_2 / 桌
+))                                    :time  (x34 / 写作-01
+                                          :arg9  (x33 / x16
+))                                    :arg2  (x45 / 踩-02
+                                          :cause-of  (x46 / 印-01
+                                                :arg1  (x50 / 梅花
+                                                      :arg0-of  (x49 / 小-01
+)                                                      :cunit  (x48 / 朵
+)                                                      :quant  (x47 / 几
+))                                                :arg0  (x1 / 它
+)                                                :location  (x43 / 稿纸
+))                                          :arg1  (x43 / 稿纸
+)                                          :arg0  (x1 / 它
+))))))))
+===========================
+它还会丰富多腔地叫唤，长短不同，粗细各异，变化多端。
+(x3 / 会-01
+      :arg1  (x6 / 叫唤-01
+            :manner  (x4 / 丰富多腔
+)            :arg0  (x1 / 它
+)            :mod  (x9 / 不同-01
+                  :arg0  (x8 / 长短
+))            :mod  (x12 / 各异
+                  :arg0  (x11 / 粗细
+))            :arg0-of  (x14 / 变化多端-01
+))      :mod  (x2 / 还
+)      :arg0  (x1 / 它
+))
+===========================
+在不叫的时候，它还会咕噜咕噜地给自己解闷。
+(x9 / 会-02
+      :time  (x3 / 叫-03
+            :polarity  (x2 / -
+)            :arg0  (x7 / 它
+))      :arg0  (x15 / 解-02
+            :arg1  (x16 / 闷
+)            :manner  (x10_x11 / 咕噜
+)            :arg0  (x7 / 它
+)            :beneficiary  (x14 / x7
+))      :mod  (x8 / 还
+))
+===========================
+这可都凭它的高兴。
+(x4 / 凭-01
+      :arg0  (x1 / 这
+            :extent  (x3 / 都
+))      :mod  (x2 / 可
+)      :arg1  (x7 / 高兴-01
+            :poss  (x5 / 它
+)))
+===========================
+它若是不高兴啊，无论谁说多少好话，它也一声不出。
+(x20 / condition
+      :arg1  (x4 / 高兴-01
+            :arg0  (x1 / 它
+)            :polarity  (x3 / -
+)            :mode  (x5 / expressive
+))      :arg2  (x26 / concession
+            :arg1  (x9 / 说-01
+                  :arg0  (x8 / amr-unknown
+)                  :arg1  (x11 / 好话
+                        :quant  (x10 / amr-unknown
+)))            :arg2  (x18 / 出
+                  :arg1  (x32 / thing
+                        :quant  (x15 / 1
+)                        :cunit  (x16 / 声
+))                  :polarity  (x17 / -
+)                  :arg0  (x13 / x1
+)                  :mod  (x14 / 也
+))))
+===========================
+它什么都怕，总想藏起来。
+(x11 / causation
+      :arg1  (x4 / 怕-01
+            :arg0  (x1 / 它
+)            :arg1  (x2 / 什么
+                  :extent  (x3 / 都
+)))      :arg2  (x7 / 想-01
+            :frequency  (x6 / 总-01
+)            :arg0  (x1 / 它
+)            :arg1  (x8_x9 / 藏-01
+                  :arg0  (x1 / 它
+))))
+===========================
+可是它又那么勇猛，不要说见着小虫和老鼠，就是遇上蛇也敢斗一斗。
+(x25 / contrast
+      :arg2  (x27 / causation
+            :arg2  (x5 / 勇猛
+                  :degree  (x4 / 那么
+)                  :arg0  (x2 / 它
+)                  :mod  (x3 / 又
+))            :arg1  (x33 / condition
+                  :arg1  (x34 / progression
+                        :arg1  (x9 / 见-01
+                              :aspect  (x10 / 着
+)                              :arg1  (x13 / and
+                                    :op1  (x12 / 虫
+                                          :arg0-of  (x11 / 小-01
+))                                    :op2  (x14 / 老鼠
+))                              :arg0  (x2 / 它
+))                        :arg2  (x17 / 遇上-01
+                              :arg1  (x18 / 蛇
+)                              :arg0  (x2 / 它
+)))                  :arg2  (x20 / 敢
+                        :arg0  (x2 / 它
+)                        :mod  (x19 / 也
+)                        :arg1  (x21_x22_x23 / 斗-01
+                              :arg0  (x2 / 它
+))))))
+===========================
+小猫满月的时候更可爱，腿脚还不稳，可是已经学会淘气。
+(x19 / causation
+      :arg2  (x7 / 可爱-01
+            :degree  (x6 / 更
+)            :time  (x3 / 满月-01
+                  :arg0  (x2 / 猫
+                        :arg0-of  (x1 / 小-01
+)))            :arg0  (x2 / 猫
+))      :arg1  (x26 / contrast
+            :arg1  (x12 / 稳-01
+                  :mod  (x10 / 还
+)                  :polarity  (x11 / -
+)                  :arg0  (x9 / 腿脚
+                        :part-of  (x2 / 猫
+)))            :arg2  (x16 / 学会-01
+                  :aspect  (x15 / 已经
+)                  :arg0  (x2 / 猫
+)                  :arg1  (x17 / 淘气-01
+                        :arg0  (x2 / 猫
+)))))
+===========================
+一根鸡毛，一个线团，都是它的好玩具，耍个没完没了。
+(x20 / and
+      :op1  (x14 / 玩具
+            :arg0-of  (x13 / 好-01
+)            :domain  (x25 / and
+                  :extent  (x9 / 都
+)                  :op1  (x3 / 鸡毛
+                        :quant  (x1 / 1
+)                        :cunit  (x2 / 根
+))                  :op2  (x7 / 团-01
+                        :consist-of  (x6 / 线
+)                        :quant  (x5_1 / 1
+)                        :cunit  (x5_2 / 个
+)))            :poss  (x11 / 它
+))      :op2  (x16 / 耍
+            :arg0  (x11 / 它
+)            :arg1  (x14 / 玩具
+)            :arg0-of  (x18 / 没完没了-01
+)))
+===========================
+一玩起来，它不知要摔多少跟头，但是跌倒了马上起来，再跑再跌。
+(x23 / contrast
+      :arg1  (x25 / condition
+            :arg1  (x2_x3 / 玩-01
+                  :arg0  (x5 / 它
+))            :arg2  (x6 / 不知-01
+                  :arg1  (x7 / 要-01
+                        :arg0  (x8 / 摔-03
+                              :arg1  (x10 / 跟头
+                                    :quant  (x9 / amr-unknown
+))                              :arg0  (x5 / 它
+)))))      :arg2  (x26 / temporal
+            :arg1  (x34 / condition
+                  :arg1  (x13 / 跌倒-01
+                        :aspect  (x14 / 了
+)                        :arg0  (x5 / 它
+))                  :arg2  (x16 / 起来
+                        :time  (x15 / 马上
+)                        :arg0  (x5 / 它
+)))            :arg2  (x19 / 跑-01
+                  :mod  (x18 / 再-01
+)                  :arg0  (x5 / 它
+))            :arg3  (x21 / 跌-02
+                  :mod  (x20 / 再
+)                  :arg0  (x5 / 它
+))))
+===========================
+它的头撞在门上，桌腿上，撞疼了也不哭。
+(x20 / and
+      :op1  (x4 / 撞-01
+            :location  (x23 / and
+                  :op1  (x6 / 门
+)                  :op2  (x10 / 腿
+                        :part-of  (x9 / 桌
+)))            :arg1  (x3 / 头
+                  :part-of  (x1 / 它
+)))      :op2  (x29 / condition
+            :arg1  (x13 / 撞-01
+                  :cause-of  (x14 / 疼-02
+                        :arg0  (x3 / 头
+)                        :aspect  (x15 / 了
+))                  :arg1  (x3 / 头
+))            :arg2  (x18 / 哭-01
+                  :arg0  (x1 / 它
+)                  :mod  (x16 / 也
+)                  :polarity  (x17 / -
+))))
+===========================
+它的胆子越来越大，逐渐开辟新的游戏场所。
+(x16 / and
+      :op1  (x7 / 大-01
+            :degree  (x4_x5_x6 / 越来越
+)            :arg0  (x3 / 胆子
+                  :poss  (x1 / 它
+)))      :op2  (x10 / 开辟-01
+            :manner  (x9 / 逐渐
+)            :arg0  (x1 / 它
+)            :arg1  (x14 / 场所
+                  :mod  (x13 / 游戏
+)                  :arg0-of  (x11 / 新-01
+))))
+===========================
+它到院子里来了。
+(x2 / 到-01
+      :arg1  (x4 / 里
+            :arg0  (x3 / 院子
+))      :aspect  (x6 / 了
+)      :arg0  (x1 / 它
+))
+===========================
+院中的花草可遭了殃。
+(x5_x7 / 遭殃-01
+      :aspect  (x6 / 了
+)      :arg0  (x3 / 花草
+            :location  (x1 / 院中
+))      :mod  (x4 / 可
+))
+===========================
+它在花盆里摔跤，抱着花枝打秋千，所过之处，枝折花落。
+(x23 / and
+      :op1  (x5 / 摔跤-01
+            :arg0  (x1 / 它
+)            :location  (x3 / 花盆
+))      :op2  (x10 / 打
+            :arg0  (x1 / 它
+)            :manner  (x7 / 抱-01
+                  :aspect  (x8 / 着
+)                  :arg0  (x1 / 它
+)                  :arg1  (x9 / 花枝
+))            :arg1  (x11 / 秋千
+))      :op3  (x33 / and
+            :op1  (x19 / 折-01
+                  :arg1  (x18 / 枝
+))            :op2  (x21 / 落-02
+                  :arg0  (x20 / 花
+))            :location  (x16 / 处
+                  :location-of  (x14 / 过-05
+                        :arg0  (x1 / 它
+)))))
+===========================
+你见了，绝不会责打它，它是那么生气勃勃，天真可爱！
+(x18 / causation
+      :arg2  (x20 / condition
+            :arg1  (x2 / 见-01
+                  :arg0  (x1 / 你
+)                  :aspect  (x3 / 了
+))            :arg2  (x5_3 / 会-02
+                  :polarity  (x5_1_2 / -
+)                  :arg0  (x26 / and
+                        :op1  (x6 / 责
+                              :arg0  (x1 / 你
+)                              :arg1  (x8 / 它
+))                        :op2  (x7 / 打-02
+                              :arg0  (x1 / 你
+)                              :arg1  (x8 / 它
+)))))      :arg1  (x30 / and
+            :op1  (x13 / 生气勃勃-01
+                  :arg0  (x10 / x8
+)                  :degree  (x12 / 那么
+))            :op2  (x33 / and
+                  :op1  (x15 / 天真-01
+                        :arg0  (x8 / 它
+))                  :op2  (x16 / 可爱-01
+                        :arg0  (x8 / 它
+)))            :mode  (x11 / judgement
+)))
+===========================

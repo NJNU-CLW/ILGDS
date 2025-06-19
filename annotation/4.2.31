@@ -1,0 +1,402 @@
+有一天，名医扁鹊去拜见蔡桓公。
+(x6 / 去-01
+      :arg0  (x4 / 名医
+            :name  ( x5/扁鹊 
+))      :time  (x1_x2 / 有一天
+)      :arg1  (x7 / 拜见-01
+            :arg0  (x4 / 名医
+)            :arg1  (x16 / person
+                  :name  ( x8/蔡桓公 
+))))
+===========================
+扁鹊在蔡桓公身边站了一会儿，说：“大王，据我看来，您皮肤上有点小病。
+(x25 / temporal
+      :arg1  (x5 / 站-01
+            :aspect  (x6 / 了
+)            :arg0  (x29 / person
+                  :name  ( x1/扁鹊 
+))            :duration  (x7 / 一会儿
+)            :arg1  (x4 / 身边
+                  :arg0  (x32 / person
+                        :name  ( x3/蔡桓公 
+))))      :arg2  (x9 / 说-01
+            :arg0  (x29 / person
+)            :arg3  (x32 / person
+)            :arg1  (x37 / and
+                  :op1  (x11 / x32
+)                  :op2  (x15 / 看来-01
+                        :arg0  (x14 / x29
+)                        :arg1  (x20 / 有-03
+                              :arg0  (x18 / 皮肤
+                                    :part-of  (x17 / x32
+))                              :arg1  (x23 / 病
+                                    :arg0-of  (x22 / 小-01
+)                                    :quant  (x21 / 点
+)))))))
+===========================
+要是不治，恐怕会向体内发展。”
+(x12 / say
+      :arg1  (x14 / condition
+            :arg1  (x4 / 治
+                  :polarity  (x3 / -
+))            :arg2  (x6 / 恐怕-01
+                  :arg1  (x10 / 发展
+                        :direction  (x9 / 体内
+)))))
+===========================
+蔡桓公说：“我的身体很好，什么病也没有。”
+(x2 / 说-01
+      :arg0  (x17 / person
+            :name  ( x1/蔡桓公 
+))      :arg1  (x19 / and
+            :op1  (x8 / 好-01
+                  :degree  (x7 / 很
+)                  :arg0  (x6 / 身体
+                        :part-of  (x4 / x17
+)))            :op2  (x13_2 / 有-03
+                  :polarity  (x13_1 / 1
+)                  :arg1  (x11 / 病
+                        :mod  (x10 / amr-unknown
+))                  :mod  (x12 / 也
+))))
+===========================
+扁鹊走后，蔡桓公对左右的人说：“这些做医生的，总喜欢给没有病的人治病。
+(x10 / 说-01
+      :time  (x3 / 后
+            :arg0  (x2 / 走-01
+                  :arg0  (x32 / person
+                        :name  ( x1/扁鹊 
+))))      :arg0  (x34 / person
+            :name  ( x5/蔡桓公 
+))      :arg3  (x9 / 人
+            :location  (x7 / 左右
+                  :arg0  (x34 / person
+)))      :arg1  (x18 / 喜欢-01
+            :arg0  (x40 / person
+                  :arg0-of  (x13 / 做-02
+                        :arg1  (x14 / 医生
+))                  :quant  (x12 / 这些
+))            :frequency  (x17 / 总
+)            :arg1  (x24 / 治病-01
+                  :arg0  (x40 / person
+)                  :arg1  (x23 / 人
+                        :arg0-of  (x20_2 / 有-01
+                              :polarity  (x20_1 / -
+)                              :arg1  (x21 / 病
+))))))
+===========================
+医治没有病的人，才容易显示自己的高明！”
+(x14 / say
+      :arg1  (x22 / condition
+            :arg1  (x1 / 医治
+                  :arg1  (x5 / 人
+                        :arg0-of  (x2_2 / 有
+                              :polarity  (x2_1 / -
+)                              :arg1  (x3 / 病
+))))            :arg2  (x8 / 容易-01
+                  :arg0  (x9 / 显示-01
+                        :arg1  (x12 / 高明
+                              :poss  (x10 / 自己
+)))                  :mode  (x13 / expressive
+))))
+===========================
+过了十来天，扁鹊又来拜见蔡桓公，说道：“您的病已经发展到皮肉之间了，要不治还会加深。”
+(x32 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x36 / temporal-quantity
+                  :unit  (x5 / 天
+)                  :quant  (x4 / 来
+                        :op1  (x3 / 10
+))))      :arg2  (x9 / 来-05
+            :arg1  (x10 / 拜见-01
+                  :arg1  (x42 / person
+                        :name  ( x11/蔡桓公 
+))                  :arg0  (x43 / person
+                        :name  ( x7/扁鹊 
+)))            :arg0  (x43 / person
+)            :mod  (x8 / 又
+))      :arg3  (x13 / 说道-01
+            :arg0  (x43 / person
+)            :arg1  (x48 / causation
+                  :arg1  (x19 / 发展-02
+                        :arg1  (x17 / 病
+                              :poss  (x15 / x42
+))                        :aspect  (x18 / 已经
+)                        :aspect  (x23 / 了
+)                        :arg3  (x22 / 之间
+                              :arg0  (x21 / 皮肉
+)))                  :arg2  (x56 / condition
+                        :arg1  (x27 / 治
+                              :polarity  (x26 / -
+))                        :arg2  (x30 / 加深-01
+                              :mod  (x28 / 还
+)                              :arg1  (x17 / 病
+))))))
+===========================
+蔡桓公听了很不高兴，没有理睬他。
+(x12 / causation
+      :arg1  (x6 / 高兴-01
+            :polarity  (x5 / -
+                  :degree  (x4 / 很
+))            :cause  (x2 / 听-01
+                  :arg0  (x18 / person
+                        :name  ( x1/蔡桓公 
+))                  :aspect  (x3 / 了-02
+))            :arg0  (x18 / person
+))      :arg2  (x9 / 理睬-01
+            :arg0  (x18 / person
+)            :arg1  (x10 / 他
+)            :polarity  (x8 / -
+)))
+===========================
+扁鹊又退了出去。
+(x3 / 退-02
+      :cause-of  (x5 / 出去-01
+            :arg0  (x11 / person
+                  :name  ( x1/扁鹊 
+)))      :aspect  (x4 / 了
+)      :arg0  (x11 / person
+)      :mod  (x2 / 又
+))
+===========================
+十来天后，扁鹊再一次来拜见，对蔡桓公说：“您的病已经发展到肠胃里，再不治会更加严重。”
+(x32 / and
+      :time  (x4 / 后
+            :arg0  (x35 / temporal-quantity
+                  :unit  (x3 / 天
+)                  :quant  (x2 / 来-01
+                        :op1  (x1 / 10
+))))      :op1  (x10 / 来-05
+            :unit  (x9 / 次
+)            :quant  (x8 / 1
+)            :arg0  (x42 / person
+                  :name  ( x6/扁鹊 
+))            :arg1  (x11 / 拜见-01
+                  :arg0  (x42 / person
+)                  :arg1  (x44 / person
+                        :name  ( x14/蔡桓公 
+)))            :mod  (x7 / 再
+))      :op2  (x15 / 说-01
+            :arg0  (x42 / person
+)            :arg3  (x44 / person
+)            :arg1  (x49 / causation
+                  :arg1  (x21 / 发展-02
+                        :arg1  (x19 / 病
+                              :poss  (x17 / x44
+))                        :arg3  (x23 / 肠胃
+)                        :aspect  (x20 / 已经
+))                  :arg2  (x55 / condition
+                        :arg1  (x27 / 治
+                              :polarity  (x26 / -
+))                        :arg2  (x30 / 严重-01
+                              :arg0  (x19 / 病
+)                              :degree  (x29 / 更加
+))))))
+===========================
+蔡桓公听了非常不高兴，扁鹊连忙退了出来。
+(x14 / causation
+      :arg1  (x6 / 高兴-01
+            :polarity  (x5 / 不
+                  :degree  (x4 / 非常
+))            :arg0  (x19 / person
+                  :name  ( x1/蔡桓公 
+))            :cause  (x2 / 听-01
+                  :arg0  (x19 / person
+)                  :aspect  (x3 / 了
+)))      :arg2  (x10 / 退-02
+            :cause-of  (x12 / 出来-01
+                  :arg0  (x27 / person
+                        :name  ( x8/扁鹊 
+)))            :aspect  (x11 / 了
+)            :manner  (x9 / 连忙
+)            :arg0  (x27 / person
+)))
+===========================
+又过了十几天，扁鹊老远望见蔡桓公，只看了几眼，就掉头跑了。
+(x23 / temporal
+      :arg1  (x2 / 过
+            :aspect  (x3 / 了
+)            :mod  (x1 / 又
+)            :duration  (x28 / temporal-quantity
+                  :unit  (x5 / 天
+)                  :quant  (x4_2 / 几
+                        :op1  (x4_1 / 10
+))))      :arg2  (x9 / 望见-01
+            :location  (x8 / 老远
+)            :arg0  (x34 / person
+                  :name  ( x7/扁鹊 
+))            :arg1  (x35 / person
+                  :name  ( x10/蔡桓公 
+)))      :arg3  (x38 / condition
+            :arg1  (x13 / 看-02
+                  :cunit  (x16 / 眼
+)                  :mod  (x12 / 只
+)                  :aspect  (x14 / 了
+)                  :quant  (x15 / 几
+)                  :arg0  (x34 / person
+))            :arg2  (x20 / 跑-01
+                  :manner  (x19 / 掉头-01
+                        :arg0  (x34 / person
+))                  :arg0  (x34 / person
+)                  :aspect  (x21 / 了
+))))
+===========================
+蔡桓公觉得奇怪，派人去问他：“扁鹊，你这次见了大王，为什么一声不响，就悄悄地跑掉了？”
+(x29 / causation
+      :arg1  (x2 / 觉得-01
+            :arg0  (x32 / person
+                  :name  ( x1/蔡桓公 
+))            :arg1  (x3 / 奇怪
+))      :arg2  (x5 / 派-01
+            :arg0  (x32 / person
+)            :arg1  (x6 / 人
+)            :arg2  (x8 / 问-01
+                  :arg0  (x6 / 人
+)                  :arg2  (x9 / x40
+)                  :arg1  (x39 / and
+                        :op1  (x40 / person
+                              :name  ( x11/扁鹊 
+))                        :op2  (x41 / and
+                              :time  (x15 / 见-01
+                                    :aspect  (x16 / 了
+)                                    :arg1  (x17 / 大王
+)                                    :arg0  (x13 / x40
+)                                    :time  (x14 / 这次
+))                              :op1  (x20 / 一声不响
+)                              :op2  (x25_x26 / 跑-01
+                                    :aspect  (x27 / 了
+)                                    :arg0  (x9 / x40
+)                                    :manner  (x23 / 悄悄
+)                                    :mod  (x22 / 就
+))                              :cause  (x19 / amr-unknown
+))                        :mode  (x28 / interrogative
+)))))
+===========================
+扁鹊解释道：“皮肤病用热水敷烫就能够治好：发展到皮肉之间，用扎针的方法可以治好；即使发展到肠胃里，服几剂汤药也还能治好；一旦深入骨髓，只能等死，医生再也无能为力了。
+(x2_x3 / 解释-01
+      :arg0  (x61 / person
+            :name  ( x1/扁鹊 
+))      :arg3  (x62 / progression
+            :arg1  (x70 / condition
+                  :arg1  (x8 / 敷烫
+                        :instrument  (x7 / 热水
+))                  :arg2  (x10 / 能够-01
+                        :arg0  (x11 / 治-02
+                              :cause-of  (x12 / 好-06
+                                    :arg0  (x5 / 皮肤病
+))                              :arg1  (x5 / 皮肤病
+))))            :arg2  (x72 / condition
+                  :arg1  (x14 / 发展-02
+                        :arg3  (x17 / 之间
+                              :arg0  (x16 / 皮肉
+)))                  :arg2  (x76 / condition
+                        :arg1  (x19 / 用-01
+                              :arg1  (x22 / 方法
+                                    :arg0-of  (x79 / mean
+                                          :arg1  (x20 / 扎针
+))))                        :arg2  (x23 / 可以-01
+                              :arg0  (x24 / 治
+                                    :cause-of  (x25 / 好
+)))))            :arg3  (x84 / concession
+                  :arg1  (x28 / 发展-02
+                        :arg3  (x30 / 肠胃
+))                  :arg2  (x87 / condition
+                        :arg1  (x33 / 服
+                              :arg1  (x36 / 汤药
+                                    :quant  (x34 / 几
+)                                    :cunit  (x35 / 剂
+)))                        :arg2  (x39 / 能-01
+                              :mod  (x37 / 也
+)                              :mod  (x38 / 还
+)                              :arg0  (x40 / 治
+                                    :cause-of  (x41 / 好
+)))))            :arg4  (x97 / condition
+                  :arg1  (x44 / 深入-02
+                        :arg1  (x45 / 骨髓
+))                  :arg2  (x101 / and
+                        :op1  (x47_2 / 能-01
+                              :mod  (x47_1 / 只
+)                              :arg0  (x48 / 等-01
+                                    :arg1  (x49 / 死
+)))                        :op2  (x104 / concession
+                              :arg1  (x51 / 医生
+)                              :arg2  (x54 / 无能为力
+                                    :arg0  (x51 / 医生
+)                                    :aspect  (x55 / 了
+)))))))
+===========================
+现在大王的病已经深入骨髓，所以我不再请求给他医治！”
+(x17 / say
+      :arg1  (x19 / causation
+            :arg1  (x6 / 深入-01
+                  :arg1  (x7 / 骨髓
+)                  :aspect  (x5 / 已经
+)                  :arg0  (x4 / 病
+                        :poss  (x2 / 大王
+))                  :time  (x1 / 现在
+)))      :arg2  (x12 / 请求-01
+            :polarity  (x11 / -
+)            :arg0  (x10 / 我
+)            :arg2  (x15 / 医治-01
+                  :arg1  (x14 / x2
+)                  :arg0  (x10 / 我
+))))
+===========================
+五六天之后，蔡桓公浑身疼痛，派人去请扁鹊给他治病。
+(x19 / causation
+      :time  (x4 / 之后-01
+            :arg0  (x22 / temporal-quantity
+                  :quant  (x23 / between
+                        :op1  (x1 / 5
+)                        :op2  (x2 / 6
+))                  :unit  (x3 / 天
+)))      :arg1  (x8 / 疼痛
+            :arg0  (x7 / 浑身
+                  :poss  (x29 / person
+                        :name  ( x6/蔡桓公 
+))))      :arg2  (x10 / 派-01
+            :arg0  (x29 / person
+)            :arg1  (x11 / 人
+)            :arg2  (x13 / 请-01
+                  :arg1  (x34 / person
+                        :name  ( x14/扁鹊 
+))                  :arg2  (x17 / 治病-01
+                        :arg1  (x16 / x29
+)                        :arg0  (x34 / person
+)))))
+===========================
+扁鹊早知道蔡桓公要来请他，几天前就跑到秦国去了。
+(x20 / causation
+      :arg1  (x3 / 知道-01
+            :time  (x2 / 早
+)            :arg0  (x24 / person
+                  :name  ( x1/扁鹊 
+))            :arg1  (x5 / 要-03
+                  :arg0  (x6 / 来-05
+                        :arg1  (x7 / 请-01
+                              :arg1  (x8 / x24
+)                              :arg0  (x30 / person
+                                    :name  ( x4/蔡桓公 
+)))                        :arg0  (x30 / person
+))))      :arg2  (x14_x15 / 跑到-01
+            :arg0  (x24 / person
+)            :time  (x12 / 前
+                  :arg0  (x34 / temporal-quantity
+                        :unit  (x11 / 天
+)                        :quant  (x10 / 几
+)))            :arg1  (x37 / country
+                  :name  ( x16/秦国 
+))            :aspect  (x18 / 了
+)))
+===========================
+不久，蔡桓公病死了。
+(x4 / 病-01
+      :cause-of  (x5 / 死-01
+            :aspect  (x6 / 了
+)            :arg0  (x12 / person
+                  :name  ( x3/蔡桓公 
+)))      :arg0  (x12 / person
+)      :time  (x1 / 不久
+))
+===========================

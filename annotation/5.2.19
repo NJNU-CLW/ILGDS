@@ -1,0 +1,1095 @@
+周瑜看到诸葛亮挺有才干，心里很妒忌。
+(x13 / causation
+      :arg1  (x2 / 看到-01
+            :arg0  (x16 / person
+                  :name  ( x1/周瑜 
+))            :arg1  (x5 / 有-01
+                  :arg0  (x19 / person
+                        :name  ( x3/诸葛亮 
+))                  :arg1  (x6 / 才干
+)                  :degree  (x4 / 挺
+)))      :arg2  (x11 / 妒忌-01
+            :degree  (x10 / 很
+)            :arg0  (x8_x9 / 心里
+)))
+===========================
+有一天，周瑜请诸葛亮商议军事，说：“我们就要跟曹军交战。
+(x20 / and
+      :op1  (x5 / 请-01
+            :arg0  (x23 / person
+                  :name  ( x4/周瑜 
+))            :arg1  (x25 / person
+                  :name  ( x6/诸葛亮 
+))            :arg2  (x7 / 商议-01
+                  :arg1  (x8 / 军事
+)))      :time  (x1_x2 / 有一天
+)      :op2  (x10 / 说-01
+            :arg0  (x23 / person
+)            :arg1  (x13_2 / 要-03
+                  :arg0  (x16 / 交战-01
+                        :arg0  (x14 / and
+                              :op1  (x12 / 我们
+)                              :op2  (x36 / military
+                                    :name  ( x15/曹军 
+))))                  :mod  (x13_1 / 就
+))))
+===========================
+水上交战，用什么兵器最好？”
+(x10 / say
+      :arg1  (x13 / condition
+            :arg1  (x2 / 交战
+                  :location  (x1 / 水上
+))            :arg2  (x8 / 好-01
+                  :arg0  (x4 / 用-01
+                        :arg1  (x6 / 兵器
+                              :mod  (x5 / amr-unknown
+)))                  :degree  (x7 / 最
+)                  :mode  (x9 / interrogative
+))))
+===========================
+诸葛亮说：“用弓箭最好。”
+(x2 / 说-01
+      :arg0  (x11 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x7 / 好-01
+            :arg0  (x4 / 用-01
+                  :arg1  (x5 / 弓箭
+))            :degree  (x6 / 最
+)))
+===========================
+周瑜说：“对，先生跟我想的一样。
+(x2 / 说-01
+      :arg0  (x15 / person
+            :name  ( x1/周瑜 
+))      :arg1  (x17 / and
+            :op1  (x4 / 对
+)            :op2  (x11 / 一样-01
+                  :arg0  (x21 / thing
+                        :arg1-of  (x9 / 想-02
+                              :arg0  (x7 / and
+                                    :op1  (x6 / 先生
+)                                    :op2  (x8 / x15
+)))))))
+===========================
+现在军中缺箭，想请先生负责赶造十万支。
+(x15 / causation
+      :arg1  (x3 / 缺-01
+            :arg0  (x2 / 军中
+)            :arg1  (x4 / 箭
+)            :time  (x1 / 现在
+))      :arg2  (x6 / 想-02
+            :arg1  (x7 / 请-01
+                  :arg1  (x8 / 先生
+)                  :arg2  (x9 / 负责-01
+                        :arg1  (x11 / 造-01
+                              :manner  (x10 / 赶
+)                              :arg1  (x27 / thing
+                                    :dcopy  (x4 / 箭
+)                                    :quant  (x12 / 100000
+)                                    :cunit  (x13 / 支
+)))                        :arg0  (x8 / 先生
+)))))
+===========================
+这是公事，希望先生不要推却。”
+(x10 / say
+      :arg1  (x12 / causation
+            :arg1  (x3 / 公事
+                  :domain  (x1 / 这
+))            :arg2  (x5 / 希望-01
+                  :arg1  (x7_2 / 要-03
+                        :arg0  (x8 / 推却-01
+                              :arg0  (x6 / 先生
+))                        :polarity  (x7_1 / -
+)))))
+===========================
+诸葛亮说：“都督委托，当然照办。
+(x2 / 说-01
+      :arg0  (x12 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x15 / causation
+            :arg1  (x5 / 委托-01
+                  :arg0  (x17 / person
+                        :arg0-of  (x18 / have-org-role-91
+                              :arg2  (x4 / 都督
+))))            :arg1  (x8 / 照办-01
+                  :manner  (x7 / 当然
+)                  :arg0  (x12 / person
+))))
+===========================
+不知道这十万支箭什么时候用？”
+(x11 / say
+      :arg1  (x2 / 知道-01
+            :polarity  (x1 / -
+)            :arg1  (x9 / 用-01
+                  :arg1  (x6 / 箭
+                        :quant  (x4 / 100000
+)                        :cunit  (x5 / 支
+)                        :mod  (x3 / 这
+))                  :time  (x7_x8 / amr-unknown
+)                  :mode  (x10 / interrogative
+))))
+===========================
+周瑜问：“十天造得好吗？”
+(x2 / 问-01
+      :arg0  (x12 / person
+            :name  ( x1/周瑜 
+))      :arg1  (x6 / possible
+            :arg0  (x5_x7 / 造好
+                  :duration  (x16 / temporal-quantity
+                        :quant  (x4_1 / 10
+)                        :cunit  (x4_2 / 天
+)))            :mode  (x8_x9 / interrogative
+)))
+===========================
+诸葛亮说：“既然就要交战，十天造好，必然误了大事。”
+(x2 / 说-01
+      :arg0  (x19 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x21 / condition
+            :arg1  (x5_2 / 要-03
+                  :arg0  (x6 / 交战
+)                  :mod  (x5_1 / 就
+))            :arg2  (x25 / condition
+                  :arg1  (x9_x10 / 造好
+                        :duration  (x27 / temporal-quantity
+                              :quant  (x8_1 / 10
+)                              :unit  (x8_2 / 天
+)))                  :arg2  (x12 / 必然-01
+                        :arg0  (x13 / 误-01
+                              :arg1  (x15 / 大事
+)                              :aspect  (x14 / 了
+))))))
+===========================
+周瑜问：“先生预计几天可以造好？”
+(x2 / 问-01
+      :arg0  (x14 / person
+            :name  ( x1/周瑜 
+))      :arg1  (x5 / 预计-01
+            :arg0  (x4 / 先生
+)            :arg1  (x8 / 可以-01
+                  :arg0  (x9_x10 / 造好
+                        :duration  (x20 / temporal-quantity
+                              :quant  (x6 / amr-unknown
+)                              :unit  (x7 / 天
+))))            :mode  (x11 / interrogative
+)))
+===========================
+诸葛亮说：“只要三天。”
+(x2 / 说-01
+      :arg0  (x10 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x4 / 只要
+            :arg1  (x13 / temporal-quantity
+                  :quant  (x5 / 3
+)                  :cunit  (x6 / 天
+))))
+===========================
+周瑜说：“军情紧急，可不能开玩笑。”
+(x2 / 说-01
+      :arg0  (x13 / person
+            :name  ( x1/周瑜 
+))      :arg1  (x15 / causation
+            :arg1  (x5 / 紧急-01
+                  :arg0  (x4 / 军情
+))            :arg2  (x8_2 / 能-01
+                  :arg0  (x9 / 开玩笑
+)                  :polarity  (x8_1 / -
+)                  :mod  (x7 / 可
+))))
+===========================
+诸葛亮说：“怎么敢跟都督开玩笑？
+(x2 / 说-01
+      :arg0  (x13 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x5 / 敢-01
+            :arg0  (x8 / 开玩笑-01
+                  :arg1  (x18 / person
+                        :arg0-of  (x19 / have-org-role-91
+                              :arg2  (x7 / 都督
+))))            :mode  (x9 / interrogative
+)            :mod  (x4 / 怎么
+)))
+===========================
+我愿意立下军令状，三天造不好，甘受惩罚。”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x2 / 愿意-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x3_x4 / 立下-01
+                        :arg1  (x5 / 军令状
+)                        :arg0  (x1 / 我
+)))            :op2  (x22 / condition
+                  :arg1  (x8 / 造
+                        :cause-of  (x9_2 / 好
+                              :polarity  (x9_1 / -
+))                        :duration  (x26 / temporal-quantity
+                              :quant  (x7_1 / 3
+)                              :unit  (x7_2 / 天
+)))                  :arg2  (x11 / 甘-01
+                        :arg1  (x12 / 受-03
+                              :arg1  (x13 / 惩罚
+)                              :arg0  (x1 / 我
+))                        :arg0  (x1 / 我
+)))))
+===========================
+周瑜很高兴，叫诸葛亮当面立下军令状，又摆了酒席招待他。
+(x19 / and
+      :op1  (x3 / 高兴-01
+            :arg0  (x22 / person
+                  :name  ( x1/周瑜 
+))            :degree  (x2 / 很
+))      :op2  (x5 / 叫-04
+            :arg1  (x26 / person
+                  :name  ( x6/诸葛亮 
+))            :arg1  (x8_x9 / 立下-01
+                  :arg1  (x10 / 军令状
+)                  :arg0  (x26 / person
+)                  :manner  (x7 / 当面
+)))      :op3  (x13 / 摆-02
+            :arg1  (x15 / 酒席
+)            :purpose  (x16 / 招待-01
+                  :arg1  (x17 / x26
+))            :arg0  (x22 / person
+)            :aspect  (x14 / 了
+)            :mod  (x12 / 又
+)))
+===========================
+诸葛亮说：“今天来不及了。
+(x2 / 说-01
+      :arg0  (x10 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x5 / 来不及
+            :time  (x4 / 今天
+)            :aspect  (x6 / 了
+)))
+===========================
+从明天起，到第三天，请派五百个军士到江边来搬箭。”
+(x20 / say
+      :arg1  (x9 / 请-01
+            :arg2  (x10 / 派-01
+                  :arg1  (x13 / 军士
+                        :quant  (x11 / 500
+)                        :cunit  (x12 / 个
+))                  :arg2  (x14 / 到-01
+                        :arg1  (x15 / 江边
+)                        :purpose  (x17 / 搬-01
+                              :arg1  (x18 / 箭
+)                              :arg0  (x13 / 军士
+))))            :time  (x31 / and
+                  :op1  (x2 / 明天
+)                  :op2  (x33 / ordinal-entity
+                        :value  (x6 / 3
+)                        :unit  (x7 / 天
+)))))
+===========================
+诸葛亮喝了几杯酒就走了。
+(x11 / temporal
+      :arg1  (x2 / 喝-01
+            :arg0  (x14 / person
+                  :name  ( x1/诸葛亮 
+))            :aspect  (x3 / 了
+)            :arg1  (x6 / 酒
+                  :quant  (x4 / 几
+)                  :unit  (x5 / 杯
+)))      :arg2  (x8 / 走-01
+            :arg0  (x14 / person
+)            :aspect  (x9 / 了
+)))
+===========================
+鲁肃对周瑜说：“十万支箭，三天怎么造得成呢？诸葛亮说的是假话吧？”
+(x4 / 说-01
+      :arg0  (x26 / person
+            :name  ( x1/鲁肃 
+))      :arg3  (x28 / person
+            :name  ( x3/周瑜 
+))      :arg1  (x30 / and
+            :op1  (x13 / possible
+                  :arg0  (x12_x14 / 造成
+                        :manner  (x11 / amr-unknown
+)                        :arg1  (x8 / 箭
+                              :quant  (x6 / 100000
+)                              :cunit  (x7 / 支
+))                        :duration  (x37 / temporal-quantity
+                              :quant  (x10_1 / 3
+)                              :unit  (x10_2 / 天
+))                        :mode  (x15_x16 / interrogative
+)))            :op2  (x21 / 假话
+                  :domain  (x42 / thing
+                        :arg1-of  (x18 / 说-01
+                              :arg0  (x44 / person
+                                    :name  ( x17/诸葛亮 
+))))                  :mode  (x22 / expressive
+)                  :mode  (x23 / interrogative
+))))
+===========================
+周瑜说：“是他自己说的，我可没逼他。
+(x2 / 说-01
+      :arg0  (x18 / person
+            :name  ( x1/周瑜 
+))      :arg1  (x20 / and
+            :op1  (x7 / 说-01
+                  :mode  (x4_x8 / judgement
+)                  :arg0  (x5 / x18
+                        :arg0-of  (x30 / mean
+                              :arg1  (x6 / 自己
+))))            :op2  (x13 / 逼-02
+                  :arg0  (x10 / x18
+)                  :arg1  (x14 / x18
+)                  :polarity  (x12 / -
+)                  :mod  (x11 / 可
+))))
+===========================
+我得吩咐军匠们，叫他们故意迟延，造箭用的材料，不给他准备齐全。
+(x2 / 得
+      :arg0  (x3 / 吩咐-01
+            :arg0  (x1 / 我
+)            :arg1  (x4_x5_x6 / 军匠们
+)            :arg2  (x30 / and
+                  :op1  (x8 / 叫-04
+                        :arg1  (x9 / 他们
+)                        :arg2  (x11 / 迟延-01
+                              :arg1  (x17 / 材料
+                                    :arg1-of  (x15 / 用-01
+                                          :arg2  (x13 / 造-01
+                                                :arg1  (x14 / 箭
+))))                              :manner  (x10 / 故意
+)))                  :op2  (x20 / 给-02
+                        :arg1  (x21 / 他
+)                        :arg2  (x23 / 齐全-01
+                              :arg0  (x22 / 准备
+))                        :polarity  (x19 / -
+)))))
+===========================
+到时候造不成，定他的罪，他就没话可说了。
+(x20 / temporal
+      :arg1  (x3_x5 / 造成
+            :polarity  (x4 / -
+)            :time  (x1_x2 / 到时候
+))      :arg2  (x7 / 定-02
+            :arg1  (x10 / 罪
+                  :poss  (x8 / 他
+)))      :arg3  (x14 / 没
+            :arg0  (x12 / x8
+)            :arg1  (x15 / 话
+)            :purpose  (x16 / 可
+                  :arg1  (x17 / 说
+))            :mod  (x13 / 就
+)            :aspect  (x18 / 了
+)))
+===========================
+你去探听探听，看他怎么打算，回来报告我。”
+(x15 / say
+      :arg1  (x17 / temporal
+            :arg1  (x2 / 去-01
+                  :arg0  (x1 / 你
+)                  :purpose  (x3_x4 / 探听-01
+                        :arg0  (x1 / 你
+)))            :arg2  (x6 / 看-02
+                  :arg1  (x9 / 打算
+                        :arg0  (x7 / 他
+)                        :manner  (x8 / 怎么
+)))            :arg3  (x11 / 回来-01
+                  :arg0  (x1 / 你
+))            :arg4  (x12 / 报告-01
+                  :arg2  (x13 / 我
+)                  :arg0  (x1 / 你
+))))
+===========================
+鲁肃见了诸葛亮。
+(x2 / 见-01
+      :arg0  (x8 / person
+            :name  ( x1/鲁肃 
+))      :arg1  (x10 / person
+            :name  ( x4/诸葛亮 
+))      :aspect  (x3 / 了
+))
+===========================
+诸葛亮说：“三天之内要造十万支箭，得请你帮帮我的忙。”
+(x2 / 说-01
+      :arg0  (x23 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x25 / causation
+            :arg1  (x6 / 要-03
+                  :arg0  (x7 / 造-01
+                        :arg1  (x10 / 箭
+                              :quant  (x8 / 100000
+)                              :cunit  (x9 / 支
+)))                  :duration  (x5 / 之内
+                        :arg0  (x32 / temporal-quantity
+                              :quant  (x4_1 / 3
+)                              :unit  (x4_2 / 天
+))))            :arg2  (x12 / 得
+                  :arg0  (x13 / 请-01
+                        :arg1  (x14 / 你
+)                        :arg2  (x15_x16_x19 / 帮忙-01
+                              :arg1  (x17 / 我
+))))))
+===========================
+鲁肃说：“都是你自己找的，我怎么帮得了你的忙？”
+(x2 / 说-01
+      :arg0  (x22 / person
+            :name  ( x1/鲁肃 
+))      :arg1  (x24 / and
+            :op1  (x8 / 找-01
+                  :extent  (x4 / 都
+)                  :mode  (x5_x9 / judgement
+)                  :arg0  (x6 / 你
+                        :arg0-of  (x36 / mean
+                              :arg1  (x7 / 自己
+))))            :op2  (x14_x15 / possible
+                  :arg0  (x13_x18 / 帮忙-01
+                        :arg1  (x16 / x6
+)                        :arg0  (x11 / x22
+)                        :manner  (x12 / 怎么
+))                  :mode  (x19 / interrogative
+))))
+===========================
+诸葛亮说：“你借给我二十条船，每条船上要三十名军士。
+(x2 / 说-01
+      :arg0  (x22 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x24 / and
+            :op1  (x5 / 借-02
+                  :arg0  (x4 / 你
+)                  :arg2  (x7 / x22
+)                  :arg1  (x10 / 船
+                        :quant  (x8 / 20
+)                        :cunit  (x9 / 条
+)))            :op2  (x15 / 要-01
+                  :arg1  (x18 / 军士
+                        :quant  (x16 / 30
+)                        :cunit  (x17 / 名
+))                  :location  (x14 / 船上
+                        :mod  (x12 / 每
+)                        :cunit  (x13 / 条
+)))))
+===========================
+船用青布幔子遮起来，还要一千多个草把子，排在船的两边。
+(x22 / and
+      :op1  (x6_x7 / 遮-01
+            :arg1  (x1 / 船
+)            :instrument  (x5 / 幔子
+                  :consist-of  (x4 / 布
+                        :mod  (x3 / 青
+))))      :op2  (x9_2 / 要-01
+            :mod  (x9_1 / 还
+)            :arg1  (x14 / 把子
+                  :consist-of  (x13 / 草
+)                  :quant  (x11 / 多
+                        :op1  (x10 / 1000
+))                  :cunit  (x12 / 个
+)))      :op3  (x16 / 排-01
+            :location  (x20 / 两边
+                  :arg0  (x18 / 船
+))            :arg0  (x14 / 把子
+)))
+===========================
+我自有妙用。
+(x2_2 / 有-01
+      :arg0  (x1 / 我
+)      :mod  (x2_1 / 自
+)      :arg1  (x4 / 用
+            :arg0-of  (x3 / 妙-01
+)))
+===========================
+第三天管保有十万支箭。
+(x3 / 管保-01
+      :arg1  (x4 / 有-03
+            :arg1  (x7 / 箭
+                  :quant  (x5 / 100000
+)                  :cunit  (x6 / 支
+)))      :time  (x15 / ordinal-entity
+            :value  (x1 / 3
+)            :unit  (x2 / 天
+)))
+===========================
+不过不能让都督知道，他要是知道了，我的计划就完了。”
+(x21 / say
+      :arg1  (x23 / contrast
+            :arg2  (x24 / causation
+                  :arg2  (x2_2 / 能-01
+                        :polarity  (x2_1 / -
+)                        :arg0  (x3 / 让-02
+                              :arg1  (x28 / person
+                                    :arg0-of  (x29 / have-org-role-91
+                                          :arg2  (x4 / 都督
+)))                              :arg2  (x5 / 知道
+))))            :arg1  (x32 / condition
+                  :arg1  (x9 / 知道-01
+                        :arg0  (x7 / x28
+)                        :aspect  (x10 / 了
+))                  :arg2  (x16 / 完-01
+                        :arg0  (x14 / 计划
+                              :poss  (x12 / 我
+))                        :aspect  (x17 / 了
+)))))
+===========================
+鲁肃答应了。
+(x2 / 答应-01
+      :arg0  (x7 / person
+            :name  ( x1/鲁肃 
+))      :aspect  (x3 / 了-01
+))
+===========================
+他不知道诸葛亮借船有什么用，回来报告周瑜，果然不提借船的事，只说诸葛亮不用竹子、翎毛、胶漆这些材料。
+(x37 / and
+      :op1  (x3 / 知道-01
+            :arg0  (x1 / 他
+)            :polarity  (x2 / -
+)            :arg1  (x7 / 有-05
+                  :arg0  (x5 / 借
+                        :arg0  (x45 / person
+                              :name  ( x4/诸葛亮 
+))                        :arg1  (x6 / 船
+))                  :arg1  (x9 / 用
+                        :mod  (x8 / 什么
+))))      :op2  (x17 / 提-04
+            :arg0  (x1 / 他
+)            :arg1  (x21 / 事
+                  :topic  (x18 / 借-01
+                        :arg1  (x19 / 船
+)))            :polarity  (x16 / -
+)            :mod  (x15 / 果然
+)            :time  (x11 / 回来-01
+                  :purpose  (x12 / 报告-01
+                        :arg2  (x51 / person
+                              :name  ( x13/周瑜 
+))                        :arg0  (x1 / 他
+))                  :arg0  (x1 / 他
+)))      :op3  (x24 / 说-01
+            :mod  (x23 / 只
+)            :arg1  (x26_2 / 用-01
+                  :polarity  (x26_1 / -
+)                  :arg0  (x63 / person
+                        :name  ( x25/诸葛亮 
+))                  :arg1  (x33 / 材料
+                        :mod  (x32 / 这些
+)                        :example  (x65 / and
+                              :op1  (x27 / 竹子
+)                              :op2  (x29 / 翎毛
+)                              :op3  (x31 / 胶漆
+))))            :arg0  (x1 / 他
+)))
+===========================
+周瑜疑惑起来，说：“到了第三天，看他怎么办！”
+(x16 / temporal
+      :arg1  (x2_x3 / 疑惑-01
+            :arg0  (x19 / person
+                  :name  ( x1/周瑜 
+)))      :arg2  (x5 / 说-01
+            :arg1  (x12 / 看-02
+                  :arg1  (x14 / 怎么办
+                        :arg0  (x13 / 他
+))                  :time  (x7 / 到-01
+                        :arg1  (x26 / ordinal-entity
+                              :ord  (x9 / 3
+)                              :unit  (x10 / 天
+))                        :aspect  (x8 / 了
+))                  :mode  (x15 / expressive
+))))
+===========================
+鲁肃私自拨了二十条快船，每条船上配三十名军士，照诸葛亮说的，布置好青布幔子和草把子，等诸葛亮调度。
+(x36 / and
+      :op1  (x3 / 拨-01
+            :arg0  (x39 / person
+                  :name  ( x1/鲁肃 
+))            :manner  (x2 / 私自
+)            :arg1  (x8 / 船
+                  :mod  (x7 / 快
+)                  :quant  (x5 / 20
+)                  :cunit  (x6 / 条
+))            :aspect  (x4 / 了
+))      :op2  (x13 / 配-03
+            :arg0  (x12 / 船
+                  :mod  (x10 / 每
+))            :arg1  (x16 / 军士
+                  :quant  (x14 / 30
+)                  :cunit  (x15 / 名
+)))      :op3  (x53 / temporal
+            :arg1  (x18 / 照-03
+                  :arg0  (x39 / person
+)                  :arg1  (x55 / thing
+                        :arg1-of  (x20 / 说-01
+                              :arg0  (x57 / person
+                                    :name  ( x19/诸葛亮 
+))))                  :arg2  (x23 / 布置-02
+                        :cause-of  (x24 / 好
+)                        :arg1  (x28 / and
+                              :op1  (x27 / 幔子
+                                    :consist-of  (x26 / 布
+                                          :arg0-of  (x25 / 青
+)))                              :op2  (x30 / 把子
+                                    :consist-of  (x29 / 草
+)))                        :arg0  (x39 / person
+)))            :arg2  (x32 / 等-01
+                  :arg1  (x34 / 调度-01
+                        :arg0  (x33 / x57
+)))))
+===========================
+第一天，不见诸葛亮有什么动静；第二天，仍然不见诸葛亮有什么动静；直到第三天四更时候，诸葛亮秘密地把鲁肃请到船里。
+(x36 / and
+      :op1  (x4_2 / 见-01
+            :arg1  (x6 / 有-05
+                  :arg0  (x40 / person
+                        :name  ( x5/诸葛亮 
+))                  :arg1  (x8 / 动静
+                        :mod  (x7 / 什么
+)))            :time  (x45 / ordinal-entity
+                  :value  (x1 / 1
+)                  :unit  (x2 / 天
+))            :polarity  (x4_1 / -
+))      :op2  (x14_2 / 见-01
+            :arg1  (x16 / 有-05
+                  :arg0  (x50 / person
+                        :name  ( x15/诸葛亮 
+))                  :arg1  (x18 / 动静
+                        :mod  (x17 / 什么
+)))            :polarity  (x14_1 / -
+)            :mod  (x13 / 仍然
+)            :time  (x57 / ordinal-entity
+                  :value  (x10 / 2
+)                  :unit  (x11 / 天
+)))      :op3  (x31 / 请-01
+            :arg0  (x61 / person
+                  :name  ( x26/诸葛亮 
+))            :arg1  (x64 / person
+                  :name  ( x30/鲁肃 
+))            :arg2  (x32 / 到-01
+                  :arg1  (x34 / 里
+                        :arg0  (x33 / 船
+)))            :manner  (x27 / 秘密
+)            :time  (x20 / 直到-01
+                  :arg1  (x71 / ordinal-entity
+                        :value  (x21 / 3
+)                        :unit  (x22 / 天
+))                  :time  (x23 / 四更
+))))
+===========================
+鲁肃问他：“你叫我来做什么？”
+(x2 / 问-01
+      :arg0  (x14 / person
+            :name  ( x1/鲁肃 
+))      :arg2  (x3 / 他
+)      :arg1  (x6 / 叫-04
+            :arg0  (x5 / x3
+)            :arg1  (x7 / x14
+)            :arg2  (x9 / 做-01
+                  :arg1  (x10 / amr-unknown
+)                  :arg0  (x7 / x14
+))            :mode  (x11 / interrogative
+)))
+===========================
+诸葛亮说：“请你一起去取箭。”
+(x2 / 说-01
+      :arg0  (x13 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x4 / 请-01
+            :arg1  (x5 / 你
+)            :arg2  (x8 / 取-01
+                  :arg1  (x9 / 箭
+)                  :manner  (x6 / 一起
+))))
+===========================
+鲁肃问：“哪里去取？”
+(x2 / 问-01
+      :arg0  (x10 / person
+            :name  ( x1/鲁肃 
+))      :arg1  (x6 / 取-01
+            :location  (x4 / amr-unknown
+)            :mode  (x7 / interrogative
+)))
+===========================
+诸葛亮说：“不用问，去了就知道。”
+(x2 / 说-01
+      :arg0  (x14 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x16 / and
+            :op1  (x4_2 / 用-02
+                  :arg1  (x5 / 问
+)                  :polarity  (x4_1 / -
+))            :op2  (x20 / condition
+                  :arg1  (x7 / 去
+                        :aspect  (x8 / 了
+))                  :arg2  (x10 / 知道
+))))
+===========================
+诸葛亮吩咐把二十条船用绳索连接起来，朝北岸开去。
+(x2 / 吩咐-01
+      :arg0  (x21 / person
+            :name  ( x1/诸葛亮 
+))      :arg1  (x23 / temporal
+            :arg1  (x9_x10 / 连接-01
+                  :arg1  (x6 / 船
+                        :quant  (x4 / 20
+)                        :cunit  (x5 / 条
+))                  :instrument  (x8 / 绳索
+))            :arg2  (x14_x15 / 开-02
+                  :direction  (x13 / 北岸
+))))
+===========================
+这时候大雾漫天，江上连面对面都看不清。
+(x13 / causation
+      :arg1  (x3 / 漫天
+            :arg0  (x2 / 大雾
+)            :time  (x1 / 这时候
+))      :arg2  (x18 / concession
+            :arg1  (x7 / 面对面
+)            :location  (x5 / 江上
+)            :arg2  (x9_x11 / 看清-01
+                  :polarity  (x10 / -
+))))
+===========================
+天还没亮，船已经靠近曹军的水寨。
+(x8 / 靠近-01
+      :time  (x4 / 亮-02
+            :arg0  (x1 / 天
+)            :polarity  (x3 / -
+)            :mod  (x2 / 还
+))      :arg0  (x6 / 船
+)      :arg1  (x11 / 水寨
+            :poss  (x24 / military
+                  :name  ( x9/曹军 
+)))      :aspect  (x7 / 已经
+))
+===========================
+诸葛亮下令把船头朝西，船尾朝东，一字摆开，又叫船上的军士一边擂鼓，一边大声呐喊。
+(x29 / temporal
+      :arg1  (x2 / 下令-01
+            :arg0  (x32 / person
+                  :name  ( x1/诸葛亮 
+))            :arg1  (x34 / and
+                  :op1  (x5 / 朝-01
+                        :arg0  (x4 / 船头
+)                        :arg1  (x6 / 西
+))                  :op2  (x9 / 朝-01
+                        :arg0  (x8 / 船尾
+)                        :arg1  (x10 / 东
+))                  :op3  (x14 / 摆开-01
+                        :manner  (x13 / 字
+                              :arg0-of  (x43 / mean
+                                    :arg1  (x12 / 一
+))))))      :arg2  (x17 / 叫-04
+            :arg1  (x20 / 军士
+                  :location  (x18 / 船上
+))            :arg2  (x48 / and
+                  :op1  (x22 / 擂鼓
+)                  :op2  (x27 / 呐喊-01
+                        :manner  (x26 / 声
+                              :arg0-of  (x25 / 大-01
+))                        :arg0  (x20 / 军士
+)))            :arg0  (x32 / person
+)))
+===========================
+鲁肃吃惊地说：“如果曹兵出来，怎么办？”
+(x4 / 说-01
+      :arg0  (x14 / person
+            :name  ( x1/鲁肃 
+))      :manner  (x2 / 吃惊-01
+            :arg0  (x14 / person
+))      :arg1  (x17 / condition
+            :arg1  (x8 / 出来-01
+                  :arg0  (x22 / military
+                        :name  ( x7/曹兵 
+)))            :arg2  (x10 / amr-unknown
+                  :mode  (x11 / interrogative
+))))
+===========================
+诸葛亮笑着说：“雾这样大，曹操一定不敢派兵出来。
+(x4 / 说-01
+      :arg0  (x19 / person
+            :name  ( x1/诸葛亮 
+))      :manner  (x2 / 笑-01
+            :arg0  (x19 / person
+)            :aspect  (x3 / 着
+))      :arg1  (x23 / causation
+            :arg1  (x8 / 大-01
+                  :arg0  (x6 / 雾
+)                  :mod  (x7 / 这样
+))            :arg2  (x11 / 一定
+                  :arg0  (x13 / 敢-02
+                        :arg0  (x29 / person
+                              :name  ( x10/曹操 
+))                        :arg1  (x14 / 派兵-01
+                              :cause-of  (x15 / 出来
+)                              :arg0  (x29 / person
+))))))
+===========================
+我们只管饮酒取乐，天亮了就回去。”
+(x13 / say
+      :arg1  (x16 / and
+            :op1  (x2 / 只管
+                  :arg0  (x1 / 我们
+)                  :arg1  (x18 / and
+                        :op1  (x3 / 饮酒-01
+                              :arg0  (x1 / 我们
+))                        :op2  (x4 / 取乐-01
+                              :arg0  (x1 / 我们
+))))            :op2  (x9 / 回去-01
+                  :time  (x6 / 天亮-01
+                        :aspect  (x7 / 了
+))                  :arg0  (x1 / 我们
+))))
+===========================
+曹操听到鼓声和呐喊声，就下令说：“江上雾很大，敌人忽然来攻，我们看不清虚实，不要轻易出动。
+(x31 / temporal
+      :arg1  (x2 / 听到-01
+            :arg0  (x34 / person
+                  :name  ( x1/曹操 
+))            :arg1  (x4 / and
+                  :op1  (x3 / 鼓声
+)                  :op2  (x5 / 呐喊声
+)))      :arg2  (x39 / and
+            :op1  (x8 / 下令
+)            :op2  (x9 / 说-01
+                  :arg1  (x42 / causation
+                        :arg1  (x43 / and
+                              :op1  (x14 / 大-01
+                                    :arg0  (x12 / 雾
+                                          :location  (x11 / 江上
+))                                    :degree  (x13 / 很
+))                              :op2  (x19 / 攻-01
+                                    :arg0  (x16 / 敌人
+)                                    :manner  (x17 / 忽然
+))                              :op3  (x22_x24 / 看清-01
+                                    :arg0  (x21 / 我们
+)                                    :polarity  (x23 / -
+)                                    :arg1  (x25 / 虚实
+)))                        :arg2  (x27_2 / 要-03
+                              :polarity  (x27_1 / -
+)                              :arg0  (x29 / 出动-01
+                                    :manner  (x28 / 轻易
+)                                    :arg0  (x21 / 我们
+)))))))
+===========================
+只叫弓弩手朝他们射箭，不让他们近前。”
+(x15 / say
+      :arg1  (x17 / contrast
+            :arg1  (x2 / 叫-04
+                  :arg1  (x3_x4 / 弓弩手
+)                  :arg2  (x7 / 射箭-01
+                        :direction  (x6 / 他们
+))                  :mod  (x1 / 只
+))            :arg2  (x10 / 让-02
+                  :arg1  (x11 / 他们
+)                  :polarity  (x9 / -
+)                  :arg2  (x12 / 近
+                        :direction  (x13 / 前
+)))))
+===========================
+他派人去旱寨调来六千名弓弩手，到江边支援水军。
+(x17 / and
+      :op1  (x2 / 派-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 人
+)            :arg2  (x4 / 去-01
+                  :arg1  (x23 / county
+                        :name  ( x5/旱寨 
+)))            :purpose  (x6_x7 / 调来-01
+                  :arg1  (x10 / 弓弩手
+                        :quant  (x8 / 6000
+)                        :cunit  (x9 / 名
+))))      :op2  (x12 / 到-01
+            :arg1  (x13 / 江边
+)            :purpose  (x14 / 支援-01
+                  :arg1  (x15 / 水军
+)                  :arg0  (x10 / 弓弩手
+))            :arg0  (x10 / 弓弩手
+)))
+===========================
+一万多名弓弩手一齐朝江中放箭，箭好像下雨一样。
+(x16 / and
+      :op1  (x8 / 放-02
+            :arg0  (x4 / 弓弩手
+                  :quant  (x2 / 多
+                        :op1  (x1 / 10000
+))                  :cunit  (x3 / 名
+))            :arg1  (x9 / 箭
+)            :manner  (x5 / 一齐
+)            :direction  (x7 / 江中
+))      :op2  (x12_x14 / 好像-01
+            :arg0  (x11 / 箭
+)            :arg1  (x13 / 下雨
+)))
+===========================
+诸葛亮又下令把船掉过来，船头朝东，船尾朝西，仍旧擂鼓呐喊，逼近曹军水寨受箭。
+(x27 / and
+      :op1  (x3 / 下令-01
+            :arg0  (x30 / person
+                  :name  ( x1/诸葛亮 
+))            :mod  (x2 / 又
+)            :arg1  (x36 / and
+                  :op1  (x6 / 掉
+                        :arg1  (x5 / 船
+)                        :direction  (x7 / 过来
+))                  :op2  (x10 / 朝-01
+                        :arg0  (x9 / 船头
+)                        :arg1  (x11 / 东
+))                  :op3  (x14 / 朝-01
+                        :arg0  (x13 / 船尾
+)                        :arg1  (x15 / 西
+))                  :op4  (x43 / and
+                        :op1  (x18 / 擂鼓
+)                        :op2  (x19 / 呐喊
+)                        :mod  (x17 / 仍旧
+))))      :op2  (x21 / 逼近-01
+            :arg1  (x23 / 水寨
+                  :poss  (x49 / military
+                        :name  ( x22/曹军 
+)))            :purpose  (x24 / 受-04
+                  :arg1  (x25 / 箭
+))))
+===========================
+天渐渐亮了，雾还没有散。
+(x9 / 散-01
+      :arg1  (x6 / 雾
+)      :polarity  (x8 / -
+)      :mod  (x7 / 还
+)      :time  (x3 / 亮-02
+            :arg0  (x1 / 天
+)            :manner  (x2 / 渐渐
+)            :aspect  (x4 / 了
+)))
+===========================
+这时候，船两边的草把子上都插满了箭。
+(x10 / 插-01
+      :arg1  (x13 / 箭
+)      :cause-of  (x11 / 满-01
+            :arg0  (x13 / 箭
+))      :aspect  (x12 / 了
+)      :extent  (x9 / 都
+)      :arg2  (x7 / 把子
+            :consist-of  (x6 / 草
+)            :location  (x4 / 两边
+                  :poss  (x3 / 船
+)))      :time  (x1 / 这时候
+))
+===========================
+诸葛亮吩咐军士们齐声高喊“谢谢曹丞相的箭”，接着叫二十条船驶回南岸。
+(x23 / temporal
+      :arg1  (x2 / 吩咐-01
+            :arg0  (x26 / person
+                  :name  ( x1/诸葛亮 
+))            :arg1  (x3_x4 / 军士们
+)            :arg2  (x6 / 高喊-01
+                  :manner  (x5 / 齐声
+)                  :arg1  (x8 / 谢谢-01
+                        :arg2  (x12 / 箭
+                              :poss  (x33 / person
+                                    :arg0-of  (x34 / have-org-role-91
+                                          :arg2  (x10 / 丞相
+                                                :name  ( x9/曹 
+))))))))      :arg2  (x15 / 叫-02
+            :arg1  (x18 / 船
+                  :quant  (x16 / 20
+)                  :cunit  (x17 / 条
+))            :arg2  (x19 / 驶
+                  :direction  (x21 / 南岸
+))            :arg0  (x26 / person
+)))
+===========================
+曹操知道上了当，可是这边的船顺风顺水，已经驶出二十多里，要追也来不及了。
+(x26 / contrast
+      :arg1  (x2 / 知道-01
+            :arg0  (x29 / person
+                  :name  ( x1/曹操 
+))            :arg1  (x3_x5 / 上当-01
+                  :aspect  (x4 / 了
+)))      :arg2  (x33 / and
+            :op1  (x35 / and
+                  :op1  (x11 / 顺风-01
+                        :arg0  (x10 / 船
+                              :location  (x8 / 这边
+)))                  :op2  (x12 / 顺水
+))            :op2  (x15 / 驶出
+                  :aspect  (x14 / 已经
+)                  :arg1  (x41 / distance-quantity
+                        :quant  (x17 / 多
+                              :op1  (x16 / 20
+))                        :cunit  (x18 / 里
+)))            :op3  (x45 / concession
+                  :arg1  (x20 / 要-03
+                        :arg0  (x21 / 追
+))                  :arg2  (x23 / 来不及-01
+                        :aspect  (x24 / 了
+)                        :arg1  (x21 / 追
+)))))
+===========================
+二十条船靠岸的时候，周瑜派来的五百个军士正好来到江边搬箭。
+(x16 / 来到-01
+      :arg0  (x14 / 军士
+            :quant  (x12 / 500
+)            :cunit  (x13 / 个
+)            :arg1-of  (x9_x10 / 派-01
+                  :arg0  (x30 / person
+                        :name  ( x8/周瑜 
+))))      :arg1  (x17 / 江边
+)      :purpose  (x18 / 搬-01
+            :arg1  (x19 / 箭
+)            :arg0  (x14 / 军士
+))      :time  (x4 / 靠岸-01
+            :arg0  (x3 / 船
+                  :quant  (x1 / 20
+)                  :cunit  (x2 / 条
+)))      :mod  (x15 / 正好
+))
+===========================
+每条船大约有五六千支箭，二十条船总共有十万多支。
+(x19 / and
+      :op1  (x5 / 有-03
+            :arg0  (x3 / 船
+                  :mod  (x1 / 每
+)                  :cunit  (x2 / 条
+))            :mod  (x4 / 大约
+)            :arg1  (x8 / 箭
+                  :quant  (x27 / and
+                        :op1  (x6_1_3 / 5000
+)                        :op2  (x6_2_3 / 6000
+))                  :cunit  (x7 / 支
+)))      :op2  (x14 / 有-03
+            :arg0  (x12 / 船
+                  :quant  (x10 / 20
+)                  :cunit  (x11 / 条
+))            :arg1  (x36 / thing
+                  :dcopy  (x8 / 箭
+)                  :quant  (x16 / 多
+                        :op1  (x15 / 100000
+))                  :cunit  (x17 / 支
+))))
+===========================
+鲁肃见了周瑜，告诉他借箭的经过。
+(x13 / and
+      :op1  (x2 / 见-01
+            :arg0  (x16 / person
+                  :name  ( x1/鲁肃 
+))            :arg1  (x18 / person
+                  :name  ( x4/周瑜 
+))            :aspect  (x3 / 了
+))      :op2  (x6 / 告诉-01
+            :arg1  (x11 / 经过
+                  :mod  (x8 / 借-02
+                        :arg1  (x9 / 箭
+)))            :arg2  (x7 / x18
+)))
+===========================
+周瑜长叹一声，说：“诸葛亮神机妙算，我真比不上他！”
+(x16 / temporal
+      :arg1  (x2 / 长叹-01
+            :arg0  (x19 / person
+                  :name  ( x1/周瑜 
+))            :quant  (x3 / 1
+)            :cunit  (x4 / 声
+))      :arg2  (x6 / 说-01
+            :arg0  (x19 / person
+)            :arg1  (x24 / and
+                  :op1  (x9 / 神机妙算
+                        :arg0  (x26 / person
+                              :name  ( x8/诸葛亮 
+)))                  :op2  (x28 / possible
+                        :arg0  (x13_1 / 比-02
+                              :arg0  (x11 / x19
+)                              :arg1  (x14 / x26
+)                              :mod  (x12 / 真
+))                        :polarity  (x13_2 / -
+)                        :mode  (x15 / expressive
+)))))
+===========================

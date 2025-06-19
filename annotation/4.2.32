@@ -1,0 +1,894 @@
+唐朝的时候，青藏高原上有一个地方叫吐蕃，在今天的西藏一带。
+(x20 / and
+      :op1  (x11 / 叫-01
+            :arg0  (x10 / 地方
+                  :arg1-of  (x7 / 有-03
+                        :arg0  (x5 / 青藏高原
+))                  :cunit  (x9 / 个
+)                  :quant  (x8 / 1
+))            :arg1  (x12 / 吐蕃
+))      :op2  (x14 / 在-01
+            :arg0  (x10 / 地方
+)            :arg1  (x18 / 一带
+                  :arg0  (x33 / province
+                        :name  ( x17/西藏 
+)                        :time  (x15 / 今天
+))))      :time  (x1 / 唐朝
+))
+===========================
+吐蕃有个年轻的首领，叫松赞干布，他听说唐朝皇帝有个女儿叫文成公主，既漂亮又聪明，就派大臣到唐朝去求婚。
+(x35 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1 / 吐蕃
+)            :arg1  (x6 / 首领
+                  :arg0-of  (x4 / 年轻-01
+)                  :cunit  (x3 / 个
+)))      :op2  (x8 / 叫
+            :arg0  (x6 / 首领
+)            :arg1  (x9 / 松赞干布
+))      :op3  (x43 / causation
+            :arg1  (x12 / 听说-01
+                  :arg0  (x11 / x6
+)                  :arg1  (x46 / and
+                        :op1  (x15 / 有-01
+                              :arg0  (x14 / 皇帝
+                                    :location  (x13 / 唐朝
+))                              :arg1  (x17 / 女儿
+                                    :cunit  (x16 / 个
+)))                        :op2  (x18 / 叫-01
+                              :arg0  (x17 / 女儿
+)                              :arg1  (x20 / 公主
+                                    :mod  (x19 / 文成
+)))                        :op3  (x55 / and
+                              :op1  (x23 / 漂亮-01
+                                    :arg0  (x17 / 女儿
+))                              :op2  (x25 / 聪明-01
+                                    :arg0  (x17 / 女儿
+)))))            :arg2  (x28 / 派-01
+                  :arg0  (x6 / 首领
+)                  :arg1  (x29 / 大臣
+)                  :arg2  (x30 / 到-01
+                        :arg1  (x31 / 唐朝
+)                        :arg0  (x29 / 大臣
+)                        :purpose  (x33 / 求婚-01
+                              :arg0  (x6 / 首领
+)                              :arg1  (x17 / 女儿
+))))))
+===========================
+唐朝皇帝接见了吐蕃的使臣，想试一试他的智慧。
+(x17 / and
+      :op1  (x3 / 接见-01
+            :arg0  (x2 / 皇帝
+                  :location  (x1 / 唐朝
+))            :aspect  (x4 / 了
+)            :arg1  (x7 / 使臣
+                  :location  (x5 / 吐蕃
+)))      :op2  (x9 / 想-02
+            :arg0  (x2 / 皇帝
+)            :arg1  (x10_x11_x12 / 试-01
+                  :arg0  (x2 / 皇帝
+)                  :arg1  (x15 / 智慧
+                        :poss  (x13 / x7
+)))))
+===========================
+他派人牵来一百匹小马和一百匹母马，让使臣认出哪一匹小马是哪一匹母马生的。
+(x33 / temporal
+      :arg1  (x2 / 派-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 人
+)            :arg2  (x4 / 牵-01
+                  :arg1  (x10 / and
+                        :op1  (x9 / 马
+                              :arg0-of  (x8 / 小-01
+)                              :quant  (x6 / 100
+)                              :cunit  (x7 / 匹
+))                        :op2  (x14 / 马
+                              :mod  (x13 / 母
+)                              :quant  (x11 / 100
+)                              :cunit  (x12 / 匹
+)))                  :arg0  (x3 / 人
+)))      :arg2  (x16 / 让-02
+            :arg0  (x1 / 他
+)            :arg1  (x17 / 使臣
+)            :arg2  (x18 / 认出-01
+                  :arg0  (x17 / 使臣
+)                  :arg1  (x51 / thing
+                        :arg1-of  (x30 / 生-01
+                              :arg0  (x29 / 马
+                                    :mod  (x28 / 母
+)                                    :mod  (x25 / amr-unknown
+)                                    :quant  (x26 / 1
+)                                    :cunit  (x27 / 匹
+)))                        :domain  (x23 / 马
+                              :arg0-of  (x22 / 小-01
+)                              :cunit  (x21 / 匹
+)                              :quant  (x20 / 1
+)                              :mod  (x19 / amr-unknown
+))))))
+===========================
+使臣一点儿也不着急。
+(x5 / 着急-01
+      :polarity  (x4 / -
+            :degree  (x2 / 一点儿
+))      :arg0  (x1 / 使臣
+)      :mod  (x3 / 也
+))
+===========================
+他先把小马和母马分开，分别拴在两个地方过夜。
+(x19 / temporal
+      :arg1  (x9 / 分开-01
+            :arg0  (x1 / 他
+)            :time  (x2 / 先-01
+)            :arg1  (x6 / and
+                  :op1  (x5 / 马
+                        :arg0-of  (x4 / 小-01
+))                  :op2  (x8 / 马
+                        :mod  (x7 / 母
+))))      :arg2  (x12 / 拴-01
+            :manner  (x11 / 分别
+)            :arg1  (x6 / and
+)            :arg2  (x16 / 地方
+                  :quant  (x14 / 2
+)                  :cunit  (x15 / 个
+)))      :arg3  (x17 / 过夜-01
+            :arg0  (x6 / and
+)))
+===========================
+第二天早上，他把一匹母马放到小马群里，小马一见自己的妈妈来了，立刻就跑过去吃奶。
+(x34 / temporal
+      :arg1  (x11 / 放到-01
+            :arg0  (x5 / 他
+)            :arg1  (x10 / 马
+                  :mod  (x9 / 母
+)                  :cunit  (x8 / 匹
+)                  :quant  (x7 / 1
+))            :arg2  (x14 / 群
+                  :mod  (x13 / 马
+                        :arg0-of  (x12 / 小-01
+))))      :time  (x3 / 早上
+            :time  (x38 / ordinal-quantity
+                  :value  (x1 / 2
+)                  :unit  (x2 / 天
+)))      :arg2  (x49 / causation
+            :arg1  (x20 / 见-01
+                  :arg0  (x18 / 马
+                        :arg0-of  (x17 / 小-01
+))                  :arg1  (x24 / 来-01
+                        :aspect  (x25 / 了
+)                        :arg0  (x23 / 妈妈
+                              :poss  (x21 / x18
+))))            :arg2  (x29 / 跑-01
+                  :direction  (x30 / 过去-01
+                        :arg0  (x13 / 马
+))                  :purpose  (x31 / 吃-01
+                        :arg1  (x32 / 奶
+)                        :arg0  (x18 / 马
+))                  :manner  (x27 / 立刻
+)                  :arg0  (x13 / 马
+))))
+===========================
+这样一匹一匹地放母马，每匹小马很快地找到了自己的妈妈。
+(x24 / temporal
+      :arg1  (x7 / 放-01
+            :manner  (x2_x3_x4_x5 / 一匹一匹
+)            :mod  (x1 / 这样
+)            :arg1  (x9 / 马
+                  :mod  (x8 / 母
+)))      :arg2  (x18 / 找到-01
+            :manner  (x16 / 快
+                  :degree  (x15 / 很
+))            :aspect  (x19 / 了
+)            :arg1  (x22 / 妈妈
+                  :poss  (x20 / x14
+))            :arg0  (x14 / 马
+                  :mod  (x11 / 每
+)                  :arg0-of  (x13 / 小-01
+)                  :cunit  (x12 / 匹
+))))
+===========================
+接着又来了五百个姑娘，她们穿着一样的衣服，头上戴着一样的花。
+(x24 / and
+      :op1  (x3 / 来-01
+            :time  (x1 / 接着
+)            :aspect  (x4 / 了
+)            :mod  (x2 / 又
+)            :arg0  (x7 / 姑娘
+                  :cunit  (x6 / 个
+)                  :quant  (x5 / 500
+)))      :op2  (x10 / 穿-01
+            :arg0  (x9 / x7
+)            :aspect  (x11 / 着
+)            :arg1  (x14 / 衣服
+                  :arg0-of  (x12 / 一样-01
+)))      :op3  (x18 / 戴-01
+            :arg1  (x22 / 花
+                  :arg0-of  (x20 / 一样-01
+))            :aspect  (x19 / 着
+)            :arg2  (x16 / 头
+                  :part-of  (x7 / 姑娘
+))            :arg0  (x7 / 姑娘
+)))
+===========================
+皇帝让使臣认出哪一个是文成公主。
+(x2 / 让-02
+      :arg0  (x1 / 皇帝
+)      :arg1  (x3 / 使臣
+)      :arg2  (x4 / 认出-01
+            :arg0  (x3 / 使臣
+)            :arg1  (x10 / 公主
+                  :domain  (x18 / person
+                        :quant  (x6 / 1
+)                        :cunit  (x7 / 个
+)                        :mod  (x5 / amr-unknown
+))                  :mod  (x9 / 文成
+))))
+===========================
+使臣看过每一个姑娘，发现有两只蜜蜂总是在一个姑娘的头上飞来飞去。
+(x24 / and
+      :op1  (x2 / 看-02
+            :arg0  (x1 / 使臣
+)            :arg1  (x7 / 姑娘
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 个
+)                  :mod  (x4 / 每
+))            :aspect  (x3 / 过
+))      :op2  (x9 / 发现-01
+            :arg0  (x1 / 使臣
+)            :arg1  (x22 / 飞来飞去
+                  :arg0  (x13 / 蜜蜂
+                        :arg1-of  (x10 / 有-03
+)                        :quant  (x11 / 2
+)                        :cunit  (x12 / 只
+))                  :frequency  (x14 / 总是
+)                  :location  (x21 / 上
+                        :arg0  (x20 / 头
+                              :part-of  (x18 / 姑娘
+                                    :quant  (x16 / 1
+)                                    :cunit  (x17 / 个
+)))))))
+===========================
+他仔细一看，原来这个姑娘头上戴的是鲜花，其他姑娘戴的都是绢花。
+(x24 / temporal
+      :arg1  (x4 / 看-02
+            :manner  (x2 / 仔细
+)            :arg0  (x1 / 他
+))      :arg2  (x29 / contrast
+            :arg1  (x14 / 鲜花
+                  :domain  (x31 / thing
+                        :arg1-of  (x11 / 戴-01
+                              :arg2  (x9 / 头
+                                    :part-of  (x8 / 姑娘
+                                          :mod  (x7_1 / 这
+)                                          :cunit  (x7_2 / 个
+)))                              :arg0  (x8 / 姑娘
+))))            :manner  (x6 / 原来
+)            :arg2  (x22 / 绢花
+                  :domain  (x40 / thing
+                        :extent  (x20 / 都
+)                        :arg1-of  (x18 / 戴-01
+                              :arg0  (x17 / 姑娘
+                                    :mod  (x16 / 其他
+)))))))
+===========================
+他断定这个戴鲜花的姑娘一定是文成公主。
+(x2 / 断定-01
+      :arg0  (x1 / 他
+)      :arg1  (x8 / 一定
+            :arg0  (x11 / 公主
+                  :mod  (x10 / 文成
+)                  :domain  (x7 / 姑娘
+                        :mod  (x3_1 / 这
+)                        :cunit  (x3_2 / 个
+)                        :arg1-of  (x4 / 戴-01
+                              :arg1  (x5 / 鲜花
+))))))
+===========================
+唐朝皇帝见这些都难不住吐蕃的使臣，心里很高兴。
+(x16 / causation
+      :arg1  (x3 / 见-01
+            :arg0  (x2 / 皇帝
+                  :location  (x1 / 唐朝
+))            :arg1  (x21 / possible
+                  :arg0  (x6_1 / 难-01
+                        :cause-of  (x6_3 / 住
+                              :arg0  (x9 / 使臣
+                                    :location  (x7 / 吐蕃
+)))                        :arg0  (x4 / 这些
+                              :extent  (x5 / 都
+)))                  :polarity  (x6_2 / -
+)))      :arg2  (x14 / 高兴-01
+            :arg0  (x11 / 心
+                  :part-of  (x2 / 皇帝
+))            :degree  (x13 / 很
+)))
+===========================
+他想：一个使臣都这么聪明能干，不用说，他们的首领就更聪明能干了，于是就答应了松赞干布的请求。
+(x2 / 想-01
+      :arg0  (x1 / 他
+)      :arg1  (x34 / causation
+            :arg1  (x36 / causation
+                  :arg1  (x37 / and
+                        :op1  (x9 / 聪明-01
+                              :degree  (x8 / 这么
+)                              :arg0  (x6 / 使臣
+                                    :cunit  (x5 / 个
+)                                    :quant  (x4 / 1
+)))                        :op2  (x10 / 能干-01
+                              :degree  (x8 / 这么
+)                              :arg0  (x6 / 使臣
+))                        :mod  (x7 / 都
+))                  :arg2  (x38 / and
+                        :smood  (x21 / 了
+)                        :op2  (x20 / 能干-01
+                              :degree  (x18 / 更
+)                              :arg0  (x16 / 首领
+                                    :poss  (x14 / 他们
+)))                        :op1  (x19 / 聪明-01
+                              :degree  (x18 / 更
+)                              :arg0  (x16 / 首领
+))))            :arg2  (x25 / 答应-01
+                  :aspect  (x26 / 了
+)                  :arg0  (x1 / 他
+)                  :arg1  (x29 / 请求-01
+                        :arg0  (x56 / person
+                              :name  ( x27/松赞干布 
+))))))
+===========================
+文成公主出发去吐蕃了。
+(x3 / 出发-01
+      :arg0  (x2 / 公主
+            :mod  (x1 / 文成
+))      :arg1  (x4 / 去
+            :arg0  (x2 / 公主
+)            :arg1  (x5 / 吐蕃
+))      :aspect  (x6 / 了
+))
+===========================
+她从京城带上青稞豌豆、油菜、小麦、荞麦等种子和各种耕种技术，还有许多铁匠、木匠、石匠，也跟着文成公主一起进藏了。
+(x37 / and
+      :op1  (x4 / 带上-01
+            :arg0  (x1 / 她
+)            :source  (x3 / 京城
+)            :arg1  (x15 / and
+                  :op1  (x14 / 种子
+                        :arg0-of  (x47 / mean
+                              :arg1  (x48 / and
+                                    :op1  (x5 / 青稞
+)                                    :op2  (x6 / 豌豆
+)                                    :op3  (x8 / 油菜
+)                                    :op4  (x10 / 小麦
+)                                    :op5  (x12 / 荞麦
+)                                    :op6  (x13 / 等
+))))                  :op2  (x18 / 技术
+                        :mod  (x17 / 耕种
+)                        :mod  (x16 / 各种
+))))      :op2  (x33 / 进-01
+            :manner  (x32 / 一起-01
+                  :arg0  (x72 / and
+                        :op1  (x65 / and
+                              :quant  (x21 / 许多
+)                              :op1  (x22 / 铁匠
+                                    :arg0-of  (x20_2 / 有-03
+                                          :mod  (x20_1 / 还
+)))                              :op2  (x24 / 木匠
+                                    :arg0-of  (x20_2 / 有-03
+))                              :op3  (x26 / 石匠
+                                    :arg0-of  (x20_2 / 有-03
+))                              :op2  (x31 / x1
+                                    :mod  (x30 / 文成
+)))))            :manner  (x29_1 / 跟-01
+                  :aspect  (x29_2 / 着
+)                  :arg1  (x31 / x1
+))            :arg1  (x61 / province
+                  :name  ( x34/藏 
+))            :aspect  (x35 / 了
+)            :mod  (x28 / 也
+)            :arg0  (x65 / and
+)))
+===========================
+半路上，文成公主在一个叫路纳的地方遇到了一条河，过不去。
+(x21 / and
+      :location  (x1 / 半路
+)      :op1  (x13 / 遇到-01
+            :arg0  (x5 / 公主
+                  :mod  (x4 / 文成
+))            :aspect  (x14 / 了
+)            :arg1  (x17 / 河
+                  :quant  (x15 / 1
+)                  :cunit  (x16 / 条
+))            :location  (x12 / 地方
+                  :arg0-of  (x9 / 叫-01
+                        :arg1  (x10 / 路纳
+))                  :quant  (x7 / 1
+)                  :cunit  (x8 / 个
+)))      :op2  (x36 / possible
+            :arg0  (x19_1_3 / 过去-02
+                  :arg0  (x5 / 公主
+))            :polarity  (x19_2 / -
+)))
+===========================
+公主找了一段树干横在上面，搭了一座桥。
+(x17 / temporal
+      :arg1  (x2 / 找-01
+            :arg0  (x1 / 公主
+)            :aspect  (x3 / 了
+)            :arg1  (x6 / 树干
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 段
+))            :arg2  (x7 / 横-01
+                  :arg0  (x6 / 树干
+)                  :arg1  (x9 / 上面
+)))      :arg2  (x11 / 搭-03
+            :arg0  (x1 / 公主
+)            :aspect  (x12 / 了
+)            :arg1  (x15 / 桥
+                  :quant  (x13 / 1
+)                  :cunit  (x14 / 座
+))))
+===========================
+后来，老百姓就把公主亲手搭的这座桥叫做“内地桥”。
+(x13 / 叫做-01
+      :arg2  (x3 / 老百姓
+)      :time  (x1 / 后来
+)      :arg0  (x12 / 桥
+            :mod  (x10 / 这
+)            :cunit  (x11 / 座
+)            :arg1-of  (x8 / 搭-03
+                  :manner  (x7 / 亲手
+)                  :arg0  (x6 / 公主
+)))      :mod  (x4 / 就
+)      :arg1  (x15 / 内地桥
+))
+===========================
+文成公主过河以后，一只小鸟飞来，说：“公主，公主，这儿是片沼泽地，不好走。”
+(x27 / and
+      :op1  (x10 / 飞来-01
+            :arg0  (x9 / 小鸟
+                  :quant  (x7 / 1
+)                  :cunit  (x8 / 只
+)))      :op2  (x12 / 说-01
+            :arg0  (x9 / 小鸟
+)            :arg1  (x39 / and
+                  :op1  (x14 / x2
+)                  :op2  (x16 / x2
+)                  :op3  (x42 / causation
+                        :arg1  (x21 / 沼泽地
+                              :domain  (x18 / 这儿
+)                              :cunit  (x20 / 片
+))                        :arg2  (x25 / 走
+                              :arg0-of  (x24 / 好
+                                    :polarity  (x23 / -
+))))))      :time  (x5 / 以后
+            :arg0  (x3 / 过
+                  :arg0  (x2 / 公主
+                        :mod  (x1 / 文成
+))                  :arg1  (x4 / 河
+))))
+===========================
+文成公主听了，剪了一把羊毛洒在地上，就走过去了。
+(x20 / temporal
+      :arg1  (x3 / 听-01
+            :arg0  (x2 / 公主
+                  :mod  (x1 / 文成
+))            :aspect  (x4 / 了
+))      :arg2  (x6 / 剪-01
+            :arg0  (x2 / 公主
+)            :aspect  (x7 / 了
+)            :arg2  (x10 / 羊毛
+                  :cunit  (x9 / 把
+)                  :quant  (x8 / 1
+)))      :arg3  (x11 / 洒-01
+            :arg0  (x2 / 公主
+)            :arg1  (x10 / 羊毛
+)            :arg2  (x13 / 地上
+))      :arg4  (x16 / 走-01
+            :cause-of  (x17 / 过去-02
+                  :aspect  (x18 / 了
+)                  :arg0  (x2 / 公主
+))            :arg0  (x2 / 公主
+)))
+===========================
+大家说，因为文成公主撒了这把羊毛，所以路纳这个地方的牛羊一直都长得又肥又壮。
+(x2 / 说-01
+      :arg0  (x1 / 大家
+)      :arg1  (x32 / causation
+            :arg1  (x7 / 撒-01
+                  :arg0  (x6 / 公主
+                        :mod  (x5 / 文成
+))                  :aspect  (x8 / 了
+)                  :arg1  (x11 / 羊毛
+                        :cunit  (x10 / 把
+)                        :mod  (x9 / 这
+)))            :arg2  (x22 / 长-03
+                  :arg1  (x42 / and
+                        :op1  (x25 / 肥
+                              :arg0  (x45 / and
+                                    :op1  (x18 / 牛
+)                                    :op2  (x19 / 羊
+                                          :location  (x16 / 地方
+                                                :cunit  (x15_2 / 个
+)                                                :name  ( x14/路纳 
+)))                                    :extent  (x21 / 都
+)))                        :op2  (x27 / 壮-01
+                              :arg1  (x45 / and
+)))                  :time  (x20 / 一直
+))))
+===========================
+文成公主到了达尤龙真这个地方的时候，可恶的乌鸦飞来说了坏话。
+(x19 / and
+      :time  (x3 / 到-01
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 公主
+                  :mod  (x1 / 文成
+))            :arg1  (x7 / 地方
+                  :mod  (x6_1 / 这
+)                  :cunit  (x6_2 / 个
+)                  :name  ( x5/达尤龙真 
+)))      :op1  (x14 / 飞来-01
+            :arg0  (x13 / 乌鸦
+                  :arg0-of  (x11 / 可恶-01
+)))      :op2  (x15 / 说-01
+            :aspect  (x16 / 了
+)            :arg0  (x13 / 乌鸦
+)            :arg1  (x17 / 坏话
+)))
+===========================
+它问：“公主，你要到哪儿去呀？”
+(x2 / 问-01
+      :arg0  (x1 / 它
+)      :arg1  (x16 / and
+            :op1  (x4 / 公主
+)            :op2  (x7 / 要-03
+                  :arg0  (x8 / 到-01
+                        :arg0  (x6 / x4
+)                        :arg1  (x9 / amr-unknown
+))                  :mode  (x11_x12 / interrogative
+))))
+===========================
+文成公主说：“我要去找松赞干布。”
+(x3 / 说-01
+      :arg0  (x2 / 公主
+            :mod  (x1 / 文成
+))      :arg1  (x6 / 要-03
+            :arg0  (x7 / 去-01
+                  :arg0  (x5 / x2
+)                  :arg1  (x8 / 找-01
+                        :arg0  (x2 / 公主
+)                        :arg1  (x19 / person
+                              :name  ( x9/松赞干布 
+))))))
+===========================
+“哎呀，松赞干布已经死了，你还去干什么？”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x2 / 哎呀
+)            :op2  (x6 / 死-01
+                  :arg0  (x21 / person
+                        :name  ( x4/松赞干布 
+))                  :aspect  (x5 / 已经
+)                  :aspect  (x7 / 了
+))            :op3  (x11 / 去-01
+                  :arg0  (x9 / 你
+)                  :mod  (x10 / 还
+)                  :arg1  (x12 / 干-01
+                        :arg0  (x9 / 你
+)                        :arg1  (x13 / amr-unknown
+))                  :mode  (x14 / interrogative
+))))
+===========================
+公主听说松赞干布死了，心里有说不出的难过。
+(x16 / causation
+      :arg1  (x2 / 听说-01
+            :arg0  (x1 / 公主
+)            :arg1  (x4 / 死-01
+                  :arg0  (x21 / person
+                        :name  ( x3/松赞干布 
+))                  :aspect  (x5 / 了
+)))      :arg2  (x9 / 有-03
+            :arg0  (x7 / 心
+                  :part-of  (x1 / 公主
+))            :arg1  (x14 / 难过-01
+                  :arg1-of  (x10_x12 / 说出-01
+                        :arg0-of  (x28 / possible
+                              :polarity  (x11 / -
+))))))
+===========================
+她就在达尤龙真修了一座石屋子住了下来，还咬破了指头，在石壁上写了血书来纪念松赞干布。
+(x31 / temporal
+      :arg1  (x5 / 修-01
+            :arg0  (x1 / 她
+)            :location  (x4 / 达尤龙真
+)            :aspect  (x6 / 了
+)            :arg1  (x10 / 屋子
+                  :quant  (x7 / 1
+)                  :consist-of  (x9 / 石
+)                  :cunit  (x8 / 座
+))            :mod  (x2 / 就-01
+))      :arg2  (x11_x13 / 住-01
+            :arg0  (x1 / 她
+)            :aspect  (x12 / 了
+)            :arg1  (x10 / 屋子
+))      :arg3  (x16 / 咬-01
+            :cause-of  (x17 / 破-01
+                  :aspect  (x18 / 了
+)                  :arg0  (x1 / 她
+)                  :arg1  (x19 / 指头
+                        :part-of  (x1 / 她
+)))            :arg0  (x1 / 她
+)            :arg1  (x19 / 指头
+))      :arg4  (x24 / 写-01
+            :arg0  (x1 / 她
+)            :aspect  (x25 / 了
+)            :arg1  (x26 / 血书
+)            :purpose  (x28 / 纪念-01
+                  :arg1  (x53 / person
+                        :name  ( x29/松赞干布 
+)))            :arg2  (x22 / 石壁
+)))
+===========================
+公主心里难过，没有心思梳妆，脸边的头发散了也不理会。
+(x20 / causation
+      :arg1  (x4 / 难过-01
+            :arg0  (x2 / 心
+                  :part-of  (x1 / 公主
+)))      :arg2  (x25 / and
+            :op1  (x6_2 / 有-01
+                  :polarity  (x6_1 / -
+)                  :arg0  (x1 / 公主
+)                  :arg1  (x7 / 心思
+)                  :purpose  (x8 / 梳妆-01
+                        :arg0  (x1 / 公主
+)))            :op2  (x30 / condition
+                  :arg1  (x14 / 散-01
+                        :aspect  (x15 / 了
+)                        :arg1  (x13 / 头发
+                              :part-of  (x1 / 公主
+)                              :location  (x11 / 边
+                                    :arg0  (x10 / 脸
+                                          :part-of  (x1 / 公主
+)))))                  :arg2  (x18 / 理会-01
+                        :polarity  (x17 / -
+)                        :arg0  (x1 / 公主
+)                        :arg1  (x14 / 散-01
+)))))
+===========================
+因此，这个地方北岸的树木稀，南岸的树木密，两边长得不一样。
+(x21 / causation
+      :arg2  (x23 / and
+            :op1  (x8 / 稀-01
+                  :arg0  (x7 / 树木
+                        :location  (x5 / 北岸
+                              :location  (x4 / 地方
+                                    :mod  (x3_1 / 这
+)                                    :cunit  (x3_2 / 个
+)))))            :op2  (x13 / 密-01
+                  :arg0  (x12 / 树木
+                        :location  (x10 / 南岸
+                              :location  (x4 / 地方
+))))            :op3  (x16 / 长-03
+                  :manner  (x19 / 一样-01
+                        :polarity  (x18 / -
+)                        :arg0  (x15 / 两边
+                              :arg0-of  (x37 / mean
+                                    :arg1  (x38 / and
+                                          :op1  (x7 / 树木
+)                                          :op2  (x12 / 树木
+)))))                  :location  (x15 / 两边
+))))
+===========================
+过了一些日子，文成公主想：即使松赞干布真是去世了，我也要去看看！
+(x22 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x4 / 日子
+                  :quant  (x3 / 一些
+)))      :arg2  (x8 / 想-01
+            :arg0  (x7 / 公主
+                  :mod  (x6 / 文成
+))            :arg1  (x31 / concession
+                  :arg1  (x13 / 去世-01
+                        :mod  (x12 / 真是
+)                        :arg0  (x34 / person
+                              :name  ( x11/松赞干布 
+))                        :aspect  (x14 / 了
+))                  :arg2  (x18 / 要-03
+                        :arg0  (x19 / 去-01
+                              :arg1  (x20 / 看看-01
+                                    :arg0  (x16 / x7
+))                              :arg0  (x16 / x7
+))))))
+===========================
+正巧这个时候，神鸟天鹅从远方飞来，说：“公主，公主，不要难过，快到拉萨去吧，松赞干布的身体很健康！
+(x33 / and
+      :time  (x3 / 时候
+            :mod  (x2 / 这个
+)            :manner  (x1 / 正巧
+))      :op1  (x9 / 飞来-01
+            :arg0  (x5 / 神鸟
+                  :arg0-of  (x40 / mean
+                        :arg1  (x6 / 天鹅
+)))            :source  (x8 / 远方
+))      :op2  (x11 / 说-01
+            :arg0  (x5 / 神鸟
+)            :arg1  (x44 / and
+                  :op1  (x13 / 公主
+)                  :op3  (x17_2 / 要-03
+                        :polarity  (x17_1 / -
+)                        :arg0  (x18 / 难过-01
+                              :arg0  (x13 / 公主
+)))                  :op2  (x15 / x13
+)                  :op4  (x21 / 到-01
+                        :time  (x20 / 快
+)                        :arg1  (x53 / city
+                              :name  ( x22/拉萨 
+))                        :mode  (x24 / imperative
+)                        :arg0  (x15 / x13
+))                  :op5  (x30 / 健康-01
+                        :degree  (x29 / 很
+)                        :arg0  (x28 / 身体
+                              :part-of  (x59 / person
+                                    :name  ( x26/松赞干布 
+)))                        :mode  (x31 / expressive
+)))))
+===========================
+公主，公主，快到拉萨去吧，一切都会吉祥如意！
+(x15 / and
+      :op1  (x1 / 公主
+)      :op2  (x3 / x1
+)      :op3  (x6 / 到-01
+            :time  (x5 / 快
+)            :arg0  (x1 / 公主
+)            :arg1  (x21 / city
+                  :name  ( x7/拉萨 
+))            :mode  (x9 / imperative
+))      :op4  (x12_2 / 会-02
+            :arg0  (x13 / 吉祥如意-01
+                  :arg0  (x11 / 一切
+                        :extent  (x12_1 / 都
+)))            :mode  (x14 / expressive
+)))
+===========================
+文成公主听了，十分感激神鸟天鹅，马上就动身前往拉萨。
+(x17 / temporal
+      :arg1  (x3 / 听-01
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 公主
+                  :mod  (x1 / 文成
+)))      :arg2  (x7 / 感激-01
+            :degree  (x6 / 十分
+)            :arg0  (x2 / 公主
+)            :arg1  (x8 / 神鸟
+                  :arg0-of  (x26 / mean
+                        :arg1  (x9 / 天鹅
+))))      :arg3  (x13 / 动身-01
+            :mod  (x12 / 就
+)            :time  (x11 / 马上
+)            :purpose  (x14 / 前往-01
+                  :arg1  (x32 / city
+                        :name  ( x15/拉萨 
+))                  :arg0  (x2 / 公主
+))            :arg0  (x2 / 公主
+)))
+===========================
+走着走着，乃巴山又把路挡住了，大家走起来很不方便。
+(x20 / and
+      :op1  (x1_x3 / 走-01
+            :aspect  (x2_x4 / 着
+)            :arg0  (x13 / 大家
+))      :op2  (x10 / 挡住-01
+            :aspect  (x11 / 了
+)            :arg1  (x9 / 路
+)            :mod  (x7 / 又
+)            :arg0  (x29 / mountain
+                  :name  ( x6/乃巴山 
+)))      :op3  (x31 / condition
+            :arg1  (x14_x15 / 走-01
+                  :arg0  (x13 / 大家
+))            :arg2  (x18 / 方便
+                  :polarity  (x17 / -
+                        :degree  (x16 / 很
+)))))
+===========================
+文成公主就把乃巴山背到旁边去。
+(x6 / 背-03
+      :arg0  (x2 / 公主
+            :mod  (x1 / 文成
+))      :arg1  (x15 / mountain
+            :name  ( x5/乃巴山 
+))      :cause-of  (x7 / 到-01
+            :arg0  (x15 / mountain
+)            :arg1  (x8 / 旁边
+))      :mod  (x3 / 就
+))
+===========================
+直到现在，乃巴山下还有公主的脚印。
+(x6_2 / 有-03
+      :mod  (x6_1 / 还
+)      :arg1  (x9 / 脚印
+            :poss  (x7 / 公主
+))      :arg0  (x5 / 下
+            :arg0  (x17 / mountain
+                  :name  ( x4/乃巴山 
+)))      :time  (x2 / 现在
+))
+===========================
+就这样，文成公主和她的随从们，跨过一条条大河，翻过一座座高山，走了一程又一程，终于来到了西藏。
+(x38 / temporal
+      :arg1  (x12 / 跨过-01
+            :arg1  (x17 / 河
+                  :arg0-of  (x16 / 大-01
+)                  :quant  (x13_x14_x15 / 一条条
+))            :arg0  (x6 / and
+                  :op1  (x5 / 公主
+                        :mod  (x4 / 文成
+))                  :op2  (x9_x10 / 随从们
+                        :poss  (x7 / x5
+))))      :arg2  (x19 / 翻过-01
+            :arg0  (x6 / and
+)            :arg1  (x23 / 高山
+                  :quant  (x20_x21_x22 / 一座座
+)                  :quant  (x20_x21_x22 / 一座座
+)))      :arg3  (x25 / 走-01
+            :arg0  (x6 / and
+)            :aspect  (x26 / 了
+)            :quant  (x27_x28_x29_x30_x31 / 一程又一程
+))      :arg4  (x34 / 来到-01
+            :aspect  (x35 / 了
+                  :arg1  (x56 / province
+                        :name  ( x36/西藏 
+)))            :time  (x33 / 终于
+)            :arg0  (x6 / and
+))      :mod  (x2 / 这样
+))
+===========================
+年轻的松赞干布在拉萨隆重地迎接这位美丽的公主，和她结成了夫妻。
+(x21 / and
+      :op1  (x8 / 迎接-01
+            :manner  (x6 / 隆重
+)            :location  (x25 / city
+                  :name  ( x5/拉萨 
+))            :arg0  (x27 / person
+                  :arg0-of  (x1 / 年轻-01
+)                  :name  ( x3/松赞干布 
+))            :arg1  (x13 / 公主
+                  :mod  (x9 / 这
+)                  :cunit  (x10 / 位
+)                  :arg0-of  (x11 / 美丽-01
+)))      :op2  (x17 / 结成-01
+            :aspect  (x18 / 了
+)            :arg0  (x27 / person
+)            :arg1  (x16 / x13
+)            :arg2  (x19 / 夫妻
+)))
+===========================
+从此，西藏和内地的往来更加密切了！
+(x9 / 密切-01
+      :degree  (x8 / 更加
+)      :aspect  (x10 / 了
+)      :mode  (x11 / expressive
+)      :arg0  (x7 / 往来-02
+            :arg0  (x4 / and
+                  :op1  (x20 / province
+                        :name  ( x3/西藏 
+))                  :op2  (x5 / 内地
+)))      :time  (x1 / 从此
+))
+===========================
+也就是从那时候起，西藏有了五谷，老百姓学会了耕种和其他技艺。
+(x21 / and
+      :op1  (x9 / 有-01
+            :aspect  (x10 / 了
+)            :arg1  (x11 / 五谷
+)            :arg0  (x33 / province
+                  :name  ( x8/西藏 
+)))      :op2  (x14 / 学会-01
+            :aspect  (x15 / 了
+)            :arg0  (x13 / 老百姓
+)            :arg1  (x17 / and
+                  :op1  (x16 / 耕种
+)                  :op2  (x19 / 技艺
+                        :mod  (x18 / 其他
+))))      :time  (x5 / 时候
+            :mod  (x4 / 那
+)))
+===========================

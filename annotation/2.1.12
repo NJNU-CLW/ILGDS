@@ -1,0 +1,165 @@
+青蛙坐在井里。
+(x2 / 坐-01
+      :arg0  (x1 / 青蛙
+)      :arg1  (x5 / 里
+            :arg0  (x4 / 井
+)))
+===========================
+小鸟飞来，落在井沿上。
+(x10 / temporal
+      :arg1  (x2 / 飞来-01
+            :arg0  (x1 / 小鸟
+))      :arg2  (x4 / 落-05
+            :arg0  (x1 / 小鸟
+)            :arg1  (x7 / 沿
+                  :poss  (x6 / 井
+))))
+===========================
+青蛙问小鸟：“你从哪儿来呀？”
+(x2 / 问-01
+      :arg0  (x1 / 青蛙
+)      :arg2  (x3 / 小鸟
+)      :arg1  (x8 / 来-01
+            :arg0  (x5 / x3
+)            :arg2  (x7 / amr-unknown
+)            :mode  (x9_x10 / interrogative
+)))
+===========================
+小鸟回答说：“我从天上来，飞了一百多里，口渴了，下来找点水喝。”
+(x2_x3 / 回答-01
+      :arg0  (x1 / 小鸟
+)      :arg2  (x28 / and
+            :op1  (x8 / 来-01
+                  :arg0  (x5 / x1
+)                  :arg2  (x7 / 天上
+))            :op2  (x10 / 飞-01
+                  :aspect  (x11 / 了
+)                  :arg0  (x5 / x1
+)                  :mod  (x42 / distance-quantity
+                        :unit  (x14 / 里
+)                        :quant  (x13 / 多
+                              :op1  (x12 / 100
+))))            :op3  (x34 / causation
+                  :arg1  (x16 / 口渴-01
+                        :aspect  (x17 / 了
+)                        :arg0  (x5 / x1
+))                  :arg2  (x19 / 下来-01
+                        :purpose  (x20 / 找-03
+                              :arg0  (x5 / x1
+)                              :arg1  (x22 / 水
+                                    :quant  (x21 / 点
+))                              :arg2  (x23 / 喝-01
+                                    :arg0  (x5 / x1
+)                                    :arg1  (x22 / 水
+)))                        :arg0  (x5 / x1
+)))))
+===========================
+青蛙说：“朋友，别说大话了！
+(x2 / 说
+      :arg0  (x1 / 青蛙
+)      :arg1  (x13 / and
+            :op1  (x4 / 朋友
+)            :op2  (x7_1 / 说-01
+                  :arg0  (x4 / 朋友
+)                  :arg1  (x7_2_3 / 大话
+)                  :polarity  (x6 / -
+)                  :mode  (x8 / imperative
+)                  :mode  (x9 / expressive
+))))
+===========================
+天不过井口那么大，还用飞那么远吗？”
+(x14 / say
+      :arg1  (x16 / causation
+            :arg1  (x5 / 大-01
+                  :degree  (x4 / 那么
+)                  :compared-to  (x3 / 井口
+)                  :arg0  (x1 / 天
+))            :arg2  (x8 / 用-02
+                  :arg1  (x9 / 飞
+                        :cause-of  (x11 / 远
+                              :degree  (x10 / 那么
+)))                  :mod  (x7 / 还
+)                  :mode  (x11_x12 / interrogative
+))))
+===========================
+小鸟说：“你弄错了。
+(x2 / 说-01
+      :arg0  (x1 / 小鸟
+)      :arg1  (x5_x6 / 弄错-01
+            :arg0  (x4 / 你
+)            :aspect  (x7 / 了
+)))
+===========================
+天无边无际，大得很哪！”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x2 / 无边无际
+                  :arg0  (x1 / 天
+))            :op2  (x4 / 大-01
+                  :degree  (x6 / 很
+)                  :mode  (x7_x8 / expressive
+)                  :arg0  (x1 / 天
+))))
+===========================
+青蛙笑了，说：“朋友，我天天坐在井里，一抬头就看见天。
+(x22 / temporal
+      :arg1  (x2 / 笑-01
+            :aspect  (x3 / 了-01
+)            :arg0  (x1 / 青蛙
+))      :arg2  (x5 / 说-01
+            :arg1  (x28 / and
+                  :op1  (x7 / 朋友
+)                  :op2  (x11 / 坐-01
+                        :arg0  (x9 / x1
+)                        :frequency  (x10 / 天天
+)                        :location  (x14 / 里
+                              :arg0  (x13 / 井
+)))                  :op3  (x35 / condition
+                        :arg1  (x17 / 抬头-01
+                              :arg0  (x9 / x1
+))                        :arg2  (x19 / 看见-01
+                              :arg1  (x20 / 天
+)                              :arg0  (x9 / x1
+))))            :arg0  (x1 / 青蛙
+)))
+===========================
+我不会弄错的。”
+(x8 / say
+      :arg1  (x3 / 会-01
+            :polarity  (x2 / -
+)            :arg0  (x4_x5 / 弄错-01
+                  :arg0  (x1 / 我
+))            :mode  (x6 / judgement
+)))
+===========================
+小鸟也笑了，说：“朋友，你是弄错了。
+(x16 / temporal
+      :arg1  (x3 / 笑-01
+            :aspect  (x4 / 了
+)            :mod  (x2 / 也
+)            :arg0  (x1 / 小鸟
+))      :arg2  (x6 / 说-01
+            :arg0  (x1 / 小鸟
+)            :arg1  (x23 / and
+                  :op1  (x8 / 朋友
+)                  :op2  (x12_x13 / 弄错-01
+                        :aspect  (x14 / 了
+)                        :arg0  (x10 / x8
+)                        :mode  (x11 / judgement
+)))))
+===========================
+不信，你跳出井口来看一看吧。”
+(x13 / say
+      :arg1  (x15 / condition
+            :arg1  (x2 / 信-01
+                  :polarity  (x1 / -
+)                  :arg0  (x4 / 你
+))            :arg2  (x5 / 跳出-02
+                  :arg0  (x4 / 你
+)                  :arg1  (x6 / 井口
+)                  :purpose  (x7 / 来-06
+                        :arg0  (x8_x9_x10 / 看-02
+                              :arg0  (x4 / 你
+)))                  :mode  (x11 / imperative
+))))
+===========================

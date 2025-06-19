@@ -1,0 +1,529 @@
+1910年的一天，年轻的魏格纳因病住进了医院。
+(x13_x14 / 住进-01
+      :time  (x4_x5 / 一天
+            :time  (x20 / date-entity
+                  :year  (x1 / 1910
+)))      :arg0  (x22 / person
+            :name  ( x9/魏格纳 
+)            :arg0-of  (x7 / 年轻-01
+))      :aspect  (x14 / 了
+)      :arg1  (x15 / 医院
+)      :cause  (x11 / 病
+))
+===========================
+病房洁白、宁静，就连穿着白大褂的医生也是脚步轻轻。
+(x17 / and
+      :op1  (x2 / 洁白
+            :location  (x1 / 病房
+))      :op2  (x4 / 宁静
+            :location  (x1 / 病房
+))      :op3  (x15 / 轻-01
+            :arg0  (x14 / 脚步
+                  :poss  (x11 / 医生
+                        :arg0-of  (x8_1 / 穿-01
+                              :aspect  (x8_2 / 着
+)                              :arg1  (x9 / 白大褂
+))))            :mode  (x13 / judgement
+)            :mod  (x12 / 也
+)))
+===========================
+魏格纳性格豪放，天性好动，在静谧舒适的病房里坐卧不安，就像软禁在牢宠中的困兽一般。
+(x27 / causation
+      :arg1  (x29 / and
+            :op1  (x3 / 豪放
+                  :arg0  (x2 / 性格
+                        :poss  (x32 / person
+                              :name  ( x1/魏格纳 
+))))            :op2  (x6 / 好动
+                  :arg0  (x5 / 天性
+                        :poss  (x32 / person
+))))      :arg2  (x36 / and
+            :op1  (x14 / 坐卧不安
+                  :arg0  (x32 / person
+)                  :location  (x12 / 病房
+                        :arg0-of  (x10 / 舒适-01
+)                        :arg0-of  (x9 / 静谧-01
+)))            :op2  (x17 / 像-01
+                  :mod  (x16 / 就
+)                  :arg1  (x23 / 困兽
+                        :arg1-of  (x18 / 软禁-01
+                              :location  (x20 / 牢宠
+)))                  :arg0  (x32 / person
+))))
+===========================
+他常常耐着性子，面对墙上的地图呆呆地出神。
+(x14 / and
+      :frequency  (x2 / 常常
+)      :op1  (x3 / 耐-02
+            :aspect  (x4 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x5 / 性子
+))      :op2  (x12 / 出神-01
+            :manner  (x11_1_2 / 呆呆
+)            :manner  (x7 / 面对-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x10 / 地图
+                        :location  (x8 / 墙上
+)))            :arg1  (x1 / 他
+)))
+===========================
+实在无聊了，魏格纳就站起来，用食指在地图上画着各个大陆的海岸线，借此消磨时光。
+(x27 / condition
+      :arg1  (x2 / 无聊-01
+            :aspect  (x3 / 了
+)            :degree  (x1 / 实在
+)            :arg0  (x34 / person
+                  :name  ( x5/魏格纳 
+)))      :arg2  (x32 / temporal
+            :arg1  (x7_x8 / 站-01
+                  :arg0  (x34 / person
+))            :arg2  (x15 / 画-01
+                  :instrument  (x11 / 食指
+                        :part-of  (x34 / person
+))                  :arg0  (x34 / person
+)                  :aspect  (x16 / 着
+)                  :arg1  (x20 / 海岸线
+                        :poss  (x18 / 大陆
+                              :mod  (x17 / 各个
+)))                  :purpose  (x24 / 消磨-01
+                        :arg1  (x25 / 时光
+)                        :arg0  (x34 / person
+))                  :location  (x13 / 地图
+))))
+===========================
+他画完了大洋洲，又画南极洲；画完了非洲，又画南美洲。
+(x18 / temporal
+      :arg1  (x20 / temporal
+            :arg1  (x2_1 / 完-01
+                  :aspect  (x3_2 / 了
+)                  :arg0  (x2 / 画-01
+                        :arg1  (x27 / continent
+                              :name  ( x4/大洋洲 
+))                        :arg0  (x1 / 他
+)))            :arg2  (x7 / 画-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x31 / continent
+                        :name  ( x8/南极洲 
+))))      :arg2  (x21 / temporal
+            :arg1  (x11_1 / 完-01
+                  :aspect  (x11_2 / 了
+)                  :arg0  (x10 / 画-01
+                        :arg0  (x1 / 他
+)                        :arg1  (x34 / continent
+                              :name  ( x12/非洲 
+))))            :arg2  (x15 / 画-01
+                  :arg1  (x36 / continent
+                        :name  ( x16/南美洲 
+))                  :arg0  (x1 / 他
+))))
+===========================
+突然，他的手指慢了下来，停在地图上南美上巴西的一块突出的部分，眼睛却盯住非洲西海岸呈直角凹进的几内亚湾。
+(x35 / contrast
+      :arg1  (x37 / temporal
+            :arg1  (x6_x8 / 慢-01
+                  :aspect  (x7 / 了
+)                  :manner  (x1 / 突然
+)                  :arg0  (x5 / 手续
+                        :part-of  (x3 / 他
+)))            :arg2  (x10 / 停-01
+                  :arg1  (x5 / 手续
+)                  :location  (x21 / 部分
+                        :quant  (x18_1 / 1
+)                        :arg0-of  (x19 / 突出
+)                        :cunit  (x18_2 / 块
+)                        :poss  (x49 / country
+                              :name  ( x16/巴西 
+)                              :poss  (x51 / continent
+                                    :name  ( x14/南美 
+)                                    :location  (x12 / 地图
+))))))      :arg2  (x25 / 盯住-01
+            :arg0  (x23 / 眼睛
+                  :part-of  (x3 / 他
+))            :arg1  (x56 / bay
+                  :name  ( x33/几内亚湾 
+                        :location  (x28 / 海岸
+                              :mod  (x27 / 西
+)                              :location  (x63 / continent
+                                    :name  ( x26/非洲 
+))))                  :arg0-of  (x31 / 凹进
+                        :manner  (x29 / 呈-01
+                              :arg1  (x30 / 直角
+))))))
+===========================
+瞧！这两个地方的形状竟是这般不可思议的吻合！
+(x15 / and
+      :op1  (x1 / 瞧
+            :mode  (x2 / expressive
+))      :op2  (x13 / 吻合-01
+            :arg0-of  (x11 / 不可思议-01
+)            :degree  (x10 / 这般
+)            :arg0  (x8 / 形状
+                  :poss  (x6 / 地方
+                        :cunit  (x5 / 个
+)                        :quant  (x4 / 2
+)                        :mod  (x3 / 这
+)))            :mode  (x14 / expressive
+)            :mode  (x9 / judgement
+)))
+===========================
+魏格纳被自己偶然的发现惊呆了！
+(x7 / 惊呆-01
+      :aspect  (x8 / 了
+)      :arg0  (x6 / 发现
+            :arg0-of  (x4 / 偶然-01
+)            :poss  (x3 / x15
+))      :arg1  (x15 / person
+            :name  ( x1/魏格纳 
+))      :mode  (x9 / expressive
+))
+===========================
+他精神大振，仔细端详着美洲和非洲大陆形状上的不同点。
+(x18 / and
+      :op1  (x4 / 振
+            :degree  (x3 / 大
+)            :arg1  (x2 / 精神
+                  :poss  (x1 / 他
+)))      :op2  (x7 / 端详-01
+            :aspect  (x8 / 着
+)            :arg0  (x1 / 他
+)            :manner  (x6 / 仔细
+)            :arg1  (x16 / 不同点
+                  :topic  (x13 / 形状
+                        :poss  (x12 / 大陆
+                              :location  (x10 / and
+                                    :op1  (x31 / continent
+                                          :name  ( x9/美洲 
+))                                    :op2  (x32 / continent
+                                          :name  ( x11/非洲 
+))))))))
+===========================
+果然，巴西东海岸的每一个突出的部分，都能在非洲西海岸找到形状相似的海湾；同时，巴西的每个海湾，又能在非洲找到相应的突出部分。
+(x1 / 果然
+      :arg0  (x45 / and
+            :op1  (x14 / 能-01
+                  :arg0  (x19 / 找到-01
+                        :arg1  (x23 / 海湾
+                              :mod  (x21 / 相似-01
+                                    :arg0  (x20 / 形状
+)))                        :location  (x18 / 海岸
+                              :mod  (x17 / 西
+)                              :location  (x55 / continent
+                                    :name  ( x16/非洲 
+))))                  :topic  (x11 / 部分
+                        :arg0-of  (x9 / 突出
+)                        :quant  (x8_1 / 1
+)                        :cunit  (x8_2 / 个
+)                        :mod  (x7 / 每
+)                        :location  (x5 / 海岸
+                              :mod  (x4 / 东
+)                              :location  (x69 / country
+                                    :name  ( x3/巴西 
+)))                        :extent  (x13 / 都
+)))            :op2  (x33 / 能-01
+                  :arg0  (x36 / 找到-01
+                        :arg1  (x40 / 部分
+                              :arg0-of  (x39 / 突出
+)                              :arg1-of  (x37 / 相应-01
+                                    :arg0  (x30 / 海湾
+                                          :mod  (x29_1 / 每
+)                                          :cunit  (x29_2 / 个
+)                                          :location  (x76 / country
+                                                :name  ( x27/巴西 
+)))))                        :location  (x60 / continent
+                              :name  ( x35/非洲 
+)))                  :mod  (x32 / 又
+)                  :topic  (x30 / 海湾
+))))
+===========================
+“这不会是一种巧合吧？”
+(x11 / say
+      :arg1  (x4 / 会-02
+            :arg0  (x8 / 巧合
+                  :domain  (x2 / 这
+)                  :quant  (x6 / 1
+)                  :cunit  (x7 / 种
+))            :polarity  (x3 / -
+)            :mode  (x9_x10 / interrogative
+)))
+===========================
+魏格纳兴奋极了，将地图上一块块陆地进行了比较，结果发现，从海岸的相似情形看，地球上所有的大陆块都能够较好的吻合在一起。
+(x40 / temporal
+      :arg1  (x2 / 兴奋-01
+            :degree  (x3_x4 / 极了
+)            :arg0  (x44 / person
+                  :name  ( x1/魏格纳 
+)))      :arg2  (x11 / 进行-01
+            :aspect  (x12 / 了
+)            :arg1  (x13 / 比较-01
+                  :arg1  (x10 / 陆地
+                        :quant  (x9 / 一块块
+)                        :location  (x7 / 地图
+))                  :arg0  (x44 / person
+))            :arg0  (x44 / person
+))      :arg3  (x16 / 发现-01
+            :arg0  (x44 / person
+)            :arg1  (x55 / according-to
+                  :arg0  (x22 / 情形
+                        :mod  (x21 / 相似-01
+                              :arg0-of  (x19 / 海岸
+)))                  :arg1  (x32 / 能够-01
+                        :arg0  (x36 / 吻合-01
+                              :arg0  (x30 / 块
+                                    :extent  (x31 / 都
+)                                    :mod  (x29 / 大陆
+)                                    :extent  (x27 / 所有
+)                                    :location  (x25 / 地球
+))                              :degree  (x34 / 好
+                                    :degree  (x33 / 较
+))                              :cause-of  (x38 / 一起-01
+                                    :arg0  (x30 / 块
+)))))))
+===========================
+于是，这位年轻人的脑海里形成了一个崭新的奇想：在太古时代，地球上所有的陆地都是连在一起的，后来因为不断漂移，才分成今天的各个大陆，它们的海岸线才会惊人地吻合。
+(x54 / causation
+      :arg2  (x9 / 形成-01
+            :location  (x7 / 脑海
+                  :poss  (x5 / 年轻人
+                        :mod  (x3 / 这
+)                        :cunit  (x4 / 位
+)))            :aspect  (x10 / 了
+)            :arg1  (x14 / 奇想
+                  :arg0-of  (x12 / 崭新-01
+)                  :cunit  (x11_2 / 个
+)                  :quant  (x11_1 / 1
+)                  :arg0-of  (x67 / mean
+                        :arg1  (x68 / causation
+                              :arg1  (x69 / temporal
+                                    :arg1  (x27 / 连-01
+                                          :cause-of  (x29 / 一起-01
+                                                :arg0  (x24 / 陆地
+                                                      :extent  (x25 / 都
+)                                                      :extent  (x22 / 所有
+)                                                      :location  (x20 / 地球
+)))                                          :arg1  (x24 / 陆地
+)                                          :time  (x77 / date-entity
+                                                :era  (x17 / 太古
+)))                                    :arg2  (x38_x39 / 分成-01
+                                          :cause  (x35 / 漂移
+                                                :manner  (x34 / 不断
+))                                          :arg2  (x43 / 大陆
+                                                :mod  (x42 / 各个
+)                                                :time  (x40 / 今天
+))                                          :mod  (x37 / 才
+)))                              :arg2  (x49 / 会-02
+                                    :mod  (x48 / 才
+)                                    :arg0  (x52 / 吻合-01
+                                          :arg0  (x47 / 海岸线
+                                                :poss  (x45 / x43
+))                                          :manner  (x50 / 惊人
+))))))))
+===========================
+第二天一早，他叩开了著名科学家柯彭教授的大门，把自己这个想法告诉了他。
+(x23 / temporal
+      :time  (x3 / 一早
+            :time  (x26 / ordinal-entity
+                  :value  (x1 / 2
+)                  :unit  (x2 / 天
+)))      :arg1  (x6 / 叩开
+            :aspect  (x7 / 了
+)            :arg0  (x5 / 他
+)            :arg1  (x13 / 大门
+                  :poss  (x9 / 科学家
+                        :arg0-of  (x34 / mean
+                              :arg1  (x11 / 教授
+                                    :name  ( x10/柯彭 
+)))                        :arg0-of  (x8 / 著名-01
+))))      :arg2  (x19 / 告诉-01
+            :aspect  (x20 / 了
+)            :arg0  (x5 / 他
+)            :arg1  (x18 / 想法
+                  :mod  (x17_1 / 这
+)                  :cunit  (x17_2 / 个
+)                  :poss  (x16 / x5
+))            :arg2  (x21 / x9
+)))
+===========================
+教授肯定了他的假想有道理，并说也曾有人提起过，但都没有足够的事实加以证明。
+(x27 / and
+      :op1  (x2 / 肯定-01
+            :arg0  (x1 / 教授
+)            :aspect  (x3 / 了
+)            :arg1  (x7 / 有
+                  :arg0  (x6 / 假想
+)                  :arg1  (x8 / 道理
+)))      :op2  (x11 / 说
+            :arg0  (x1 / 教授
+)            :arg1  (x36 / contrast
+                  :arg1  (x15 / 提起-01
+                        :aspect  (x16 / 过
+)                        :aspect  (x13 / 曾
+)                        :arg0  (x14_2 / 人
+                              :arg1-of  (x14_1 / 有-03
+))                        :mod  (x12 / 也
+))                  :arg2  (x20_2 / 有-03
+                        :arg1  (x23 / 事实
+                              :arg0-of  (x21 / 足够-01
+))                        :purpose  (x24 / 加以-01
+                              :arg0  (x25 / 证明
+))                        :mod  (x19 / 都
+)                        :polarity  (x20_1 / -
+)))            :arg3  (x4 / 他
+)))
+===========================
+教授劝他打消念头，不必为此枉费心机。
+(x2 / 劝-01
+      :arg0  (x1 / 教授
+)      :arg1  (x3 / 他
+)      :arg2  (x15 / and
+            :op1  (x4 / 打消-01
+                  :arg0  (x3 / 他
+)                  :arg1  (x5 / 念头
+))            :op2  (x7_2 / 必-01
+                  :polarity  (x7_1 / -
+)                  :arg0  (x9 / 枉费心机
+                        :purpose  (x8_2 / 此
+)))))
+===========================
+魏格纳并不是一个轻易改变自己想法的人。
+(x11 / 人
+      :domain  (x15 / person
+            :name  ( x1/魏格纳 
+))      :polarity  (x3 / -
+)      :mod  (x2 / 并
+)      :quant  (x5_1 / 1
+)      :cunit  (x5_2 / 个
+)      :arg0-of  (x7 / 改变-01
+            :manner  (x6 / 轻易
+)            :arg1  (x9 / 想法
+                  :poss  (x8 / 自己
+))))
+===========================
+开始在各大洲之间的联系和对比中进行考察，在浩如烟海的资料中寻找大陆漂移的证据。
+(x1 / 开始-01
+      :arg1  (x28 / and
+            :op1  (x12 / 进行-01
+                  :location  (x9 / and
+                        :op1  (x8 / 联系-03
+                              :arg1  (x5 / 洲
+                                    :mod  (x3 / 各
+)                                    :arg0-of  (x4 / 大-01
+)))                        :op2  (x10 / 对比-01
+                              :arg1  (x5 / 洲
+))))            :op2  (x20 / 寻找-01
+                  :location  (x18 / 资料
+                        :arg0-of  (x16 / 浩如烟海-01
+))                  :arg1  (x24 / 证据
+                        :topic  (x22 / 漂移-01
+                              :arg0  (x21 / 大陆
+))))))
+===========================
+一次，他看到一份材料，里面提到南美洲和非洲大陆上的古生物化石有一定的相似性。
+(x25 / and
+      :op1  (x5 / 看到-01
+            :arg0  (x4 / 他
+)            :arg1  (x8 / 材料
+                  :cunit  (x7 / 份
+)                  :quant  (x6 / 1
+))            :time  (x1_x2 / 一次
+))      :op2  (x11 / 提到-01
+            :location  (x10 / 里面
+                  :arg0  (x8 / 材料
+))            :arg1  (x20 / 有-03
+                  :arg1  (x23 / 相似性
+                        :arg0-of  (x21 / 一定
+))                  :topic  (x19 / 化石
+                        :mod  (x18 / 古生物
+)                        :location  (x15 / 大陆
+                              :location  (x13 / and
+                                    :op1  (x41 / continent
+                                          :name  ( x12/南美洲 
+))                                    :op2  (x43 / continent
+                                          :name  ( x14/非洲 
+))))))))
+===========================
+一种叫中龙的爬行动物，既见于巴西东部，也见于非洲西南部，显然，这些动物当时生活在同一块大陆上，否则，即使是插上翅膀也难以飞渡重洋。
+(x43 / and
+      :op1  (x45 / and
+            :op1  (x9 / 见于-01
+                  :arg0  (x6 / 爬行动物
+                        :arg0-of  (x3 / 叫-01
+                              :arg1  (x4 / 中龙
+))                        :quant  (x1 / 1
+)                        :unit  (x2 / 种
+))                  :arg1  (x12 / 部
+                        :mod  (x11 / 东
+)                        :location  (x55 / country
+                              :name  ( x10/巴西 
+))))            :op2  (x15 / 见于-01
+                  :arg1  (x17 / 西南部
+                        :location  (x58 / continent
+                              :name  ( x16/非洲 
+)))))      :op2  (x61 / orx
+            :op1  (x24 / 生活-01
+                  :arg0  (x22 / 动物
+                        :mod  (x21 / 这些
+))                  :time  (x23 / 当时
+)                  :arg1  (x28 / 大陆
+                        :unit  (x27 / 块
+)                        :arg0-of  (x26 / 同一
+)))            :op2  (x69 / concession
+                  :arg1  (x35 / 插-01
+                        :arg1  (x37 / 翅膀
+)                        :mode  (x34 / judgement
+))                  :arg2  (x39 / 难以
+                        :arg1  (x40 / 飞渡
+                              :arg1  (x41 / 重洋
+))))))
+===========================
+这个重要的发现大大鼓舞了他。
+(x6 / 鼓舞-01
+      :degree  (x5 / 大大
+)      :arg0  (x4 / 发现
+            :mod  (x1_1 / 这
+)            :cunit  (x1_2 / 个
+)            :arg0-of  (x2 / 重要-01
+))      :aspect  (x7 / 了
+)      :arg1  (x8 / 他
+))
+===========================
+他充满信心，又做了很多考证工作。
+(x12 / and
+      :op1  (x2 / 充满-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 信心
+))      :op2  (x6 / 做-01
+            :arg0  (x1 / 他
+)            :aspect  (x7 / 了
+)            :arg1  (x10 / 工作
+                  :topic  (x9 / 考证-01
+)                  :quant  (x8 / 很多
+))))
+===========================
+1912年，在法兰克福召开的地质学会上，魏格纳作了题为《大陆与海洋的起源》的演讲，提出了关于大陆漂移的假说，引起了地质界的震动。
+(x39 / and
+      :time  (x43 / date-entity
+            :year  (x1 / 1912
+))      :location  (x9_1 / 会
+            :topic  (x8 / 地质学
+)            :arg1-of  (x6 / 召开-01
+                  :location  (x47 / city
+                        :name  ( x5/法兰克福 
+))))      :op1  (x12 / 作-04
+            :arg0  (x50 / person
+                  :name  ( x11/魏格纳 
+))            :aspect  (x13 / 了
+)            :arg1  (x23 / 演讲
+                  :mod  (x14 / 题为-01
+                        :arg1  (x16_x17_x18_x19_x20 / 大陆与海洋的起源
+))))      :op2  (x25 / 提出-01
+            :arg0  (x50 / person
+)            :aspect  (x26 / 了
+)            :arg1  (x31 / 假说
+                  :topic  (x29 / 漂移-01
+                        :arg0  (x28 / 大陆
+))))      :op3  (x33 / 引起-01
+            :aspect  (x34 / 了
+)            :arg1  (x37 / 震动-01
+                  :arg1  (x35 / 地质界
+))))
+===========================

@@ -1,0 +1,741 @@
+舞台对我有着神奇的吸引力。
+(x4_1 / 有-06
+      :arg0  (x1 / 舞台
+)      :aspect  (x4_2 / 着
+)      :arg1  (x7 / 吸引力
+            :arg0-of  (x5 / 神奇-01
+))      :beneficiary  (x3 / 我
+))
+===========================
+我还没有出生时，便和舞台结下了不解之缘。
+(x10 / 结下-01
+      :arg1  (x12 / 不解之缘
+)      :arg0  (x8 / and
+            :op1  (x1 / 我
+)            :op2  (x9 / 舞台
+))      :aspect  (x11 / 了
+)      :time  (x4 / 出生-01
+            :arg0  (x1 / 我
+)            :polarity  (x3 / -
+                  :mod  (x2 / 还
+)))      :mod  (x7 / 便
+))
+===========================
+我的母亲是评剧演员新凤霞。
+(x6 / 演员
+      :name  ( x7/新凤霞 
+)      :mod  (x5 / 评剧
+)      :domain  (x3 / 母亲
+            :poss  (x1 / 我
+)))
+===========================
+据说，我在娘胎时，就“登台唱戏”了——母亲在台上唱，我在她肚子里唱。
+(x1 / 据说-01
+      :arg0  (x30 / and
+            :op1  (x32 / temporal
+                  :arg1  (x11 / 登台-01
+                        :arg0  (x3 / 我
+))                  :arg2  (x12 / 唱戏-01
+                        :arg0  (x3 / 我
+))                  :aspect  (x34 / 14
+)                  :mod  (x9 / 就
+)                  :time  (x6 / 胎
+                        :poss  (x5 / 娘
+)))            :op2  (x39 / and
+                  :op1  (x19 / 唱-01
+                        :arg0  (x16 / 母亲
+)                        :location  (x18 / 台上
+))                  :op2  (x26 / 唱-01
+                        :arg0  (x21 / x3
+)                        :location  (x24 / 肚子
+                              :poss  (x23 / x16
+))))))
+===========================
+肚子里暗无天日，又无观众，没情绪，不过瘾，我便“大闹天宫”—那天，母亲唱完戏，来不及卸妆，就被送到医院迎接我的降生。
+(x42 / and
+      :op1  (x44 / causation
+            :arg1  (x45 / and
+                  :op1  (x3 / 暗无天日
+                        :location  (x1 / 肚子
+))                  :op2  (x6 / 无
+                        :arg1  (x7 / 观众
+))                  :op3  (x9 / 没-02
+                        :arg1  (x10 / 情绪
+))                  :op4  (x13 / 过瘾
+                        :polarity  (x12 / -
+)))            :arg2  (x19 / 闹-01
+                  :arg1  (x20 / 天宫
+)                  :manner  (x18 / 大
+)                  :arg0  (x15 / 我
+)))      :op2  (x58 / temporal
+            :arg1  (x25_x26 / 唱完
+                  :arg0  (x24 / 母亲
+)                  :arg1  (x27 / 戏
+))            :arg2  (x29 / 来不及-01
+                  :arg1  (x30 / 卸妆
+)                  :arg0  (x24 / 母亲
+))            :arg3  (x34_x35 / 送到-01
+                  :arg0  (x65 / person
+)                  :arg2  (x36 / 医院
+)                  :purpose  (x37 / 迎接-01
+                        :arg1  (x40 / 降生-01
+                              :arg0  (x38 / x15
+)))                  :arg1  (x24 / 母亲
+))))
+===========================
+为了能够早日尽情演唱，我等不及十月怀胎期满，提早来到了人间。
+(x20 / temporal
+      :arg1  (x8 / 等不及
+            :arg0  (x7 / 我
+)            :arg1  (x11 / 期满-01
+                  :arg0  (x10 / 怀胎-01
+                        :duration  (x26 / temporal-quantity
+                              :quant  (x9_1 / 10
+)                              :unit  (x9_2 / 月
+)))))      :arg2  (x13 / 提早-01
+            :arg1  (x14 / 来到-01
+                  :arg1  (x16 / 人间
+)                  :aspect  (x15 / 了
+)                  :arg0  (x7 / 我
+))            :arg0  (x7 / 我
+))      :purpose  (x2 / 能够-01
+            :arg0  (x5 / 演唱
+                  :manner  (x4 / 尽情
+                        :arg0  (x7 / 我
+))                  :time  (x3 / 早日
+)                  :arg0  (x7 / 我
+))))
+===========================
+一出世，我就亮开了嗓门，憋了七个月，这回总算过足了瘾，全病房的观众都为我喝彩。
+(x34 / and
+      :op1  (x36 / condition
+            :arg1  (x2 / 出世-01
+                  :arg0  (x4 / 我
+))            :arg2  (x6_x7 / 亮-02
+                  :arg0  (x4 / 我
+)                  :arg1  (x9 / 嗓门
+)                  :aspect  (x8 / 了
+)))      :op2  (x11 / 憋-01
+            :duration  (x43 / temporal-quantity
+                  :quant  (x13_x14 / 7
+)                  :unit  (x15 / 月
+))            :aspect  (x12 / 了
+)            :arg0  (x4 / 我
+))      :op3  (x20_x23 / 过瘾-01
+            :time  (x1_x18 / 这回
+)            :mod  (x19 / 总算
+)            :aspect  (x22 / 了
+)            :manner  (x21 / 足
+)            :arg0  (x4 / 我
+))      :op4  (x32 / 喝彩
+            :arg0  (x28 / 观众
+                  :location  (x26 / 病房
+                        :extent  (x25 / 全
+)))            :extent  (x29 / 都
+)            :beneficiary  (x31 / x4
+)))
+===========================
+我刚会走路，就在小床上模仿母亲“演戏”。
+(x16 / temporal
+      :arg1  (x3 / 会-01
+            :arg0  (x1 / 我
+)            :time  (x2 / 刚
+)            :arg1  (x4 / 走路
+))      :arg2  (x11 / 模仿-01
+            :arg1  (x12 / 母亲
+)            :arg2  (x14 / 演戏
+)            :location  (x9 / 床
+                  :arg0-of  (x8 / 小-01
+))            :arg0  (x1 / 我
+)))
+===========================
+身上围着一条大毛巾，摇摇晃晃走几步，两手上下左右比画着，嘴里呀呀地乱唱。
+(x26 / and
+      :op1  (x2 / 围-01
+            :arg1  (x1 / 身上
+)            :arg2  (x7 / 毛巾
+                  :arg0-of  (x6 / 大-01
+)                  :quant  (x4 / 1
+)                  :cunit  (x5 / 条
+))            :aspect  (x3 / 着-01
+))      :op2  (x10 / 走
+            :quant  (x11 / 几
+)            :unit  (x12 / 步
+)            :manner  (x9 / 摇摇晃晃
+))      :op3  (x17 / 比画-01
+            :arg0  (x15 / 手
+                  :quant  (x14 / 2
+))            :direction  (x16 / 上下左右
+)            :aspect  (x18 / 着
+))      :op4  (x24 / 唱-01
+            :arg0  (x20 / 嘴里
+)            :manner  (x21 / 呀呀
+)            :manner  (x23 / 乱
+)))
+===========================
+爷爷、奶奶还有小花猫，都是我的观众。
+(x13 / 观众
+      :poss  (x11 / 我
+)      :domain  (x18 / and
+            :op1  (x1 / 爷爷
+)            :op2  (x3 / 奶奶
+)            :op3  (x7 / 猫
+                  :mod  (x6 / 花
+)                  :arg0-of  (x5 / 小-01
+)))      :extent  (x9 / 都
+))
+===========================
+“演出”中途，哪位观众要离开“剧场”，都会引起我的不满。
+(x14_2 / 会-02
+      :arg0  (x15 / 引起-01
+            :arg1  (x18 / 不满-01
+                  :arg0  (x16 / 我
+))            :arg0  (x9 / 要-03
+                  :arg0  (x10 / 离开-01
+                        :arg0  (x8 / 观众
+                              :mod  (x6 / amr-unknown
+)                              :cunit  (x7 / 位
+))                        :arg1  (x12 / 剧场
+))))      :extent  (x14_1 / 都
+)      :time  (x4 / 中途
+            :arg0  (x2 / 演出
+)))
+===========================
+一次，小花猫看得兴起，竟蹿上了床。
+(x17 / causation
+      :arg1  (x7 / 看-01
+            :manner  (x9 / 兴起
+)            :arg0  (x6 / 猫
+                  :mod  (x5 / 花
+)                  :arg0-of  (x4 / 小-01
+)))      :arg2  (x12 / 蹿-01
+            :destination  (x15 / 床
+)            :aspect  (x14 / 了
+)            :arg0  (x6 / 猫
+))      :time  (x1_x2 / 一次
+))
+===========================
+我为赶它下“台”，脚下没留神，一个倒栽葱，摔下床来，直摔得我眼冒金星，半天没缓过劲儿来。
+(x34 / causation
+      :arg1  (x3 / 赶-02
+            :arg1  (x4 / 它
+)            :arg0  (x1 / 我
+)            :arg2  (x5 / 下
+                  :arg1  (x7 / 台
+)))      :arg2  (x41 / temporal
+            :arg1  (x11 / 留神-01
+                  :polarity  (x10 / -
+)                  :arg1  (x9 / 脚下
+)                  :arg0  (x1 / 我
+))            :arg2  (x16 / 摔-03
+                  :source  (x18 / 床
+)                  :manner  (x14 / 倒栽葱
+                        :quant  (x13_1 / 1
+)                        :cunit  (x13_2 / 个
+))                  :result  (x50 / and
+                        :op1  (x22 / 摔-03
+                              :cause-of  (x25 / 眼冒金星
+                                    :arg0  (x24 / x1
+))                              :mod  (x21 / 直
+)                              :arg0  (x1 / 我
+))                        :op2  (x29_x30_x31 / 缓过劲儿
+                              :polarity  (x28 / -
+)                              :time  (x27 / 半天
+)))                  :arg0  (x1 / 我
+))))
+===========================
+后来，更多的时间是跟随母亲演出。
+(x20 / temporal
+      :arg2  (x8 / 跟随-01
+            :arg1  (x10 / 演出-01
+                  :arg0  (x9 / 母亲
+))            :time  (x6 / 时间
+                  :arg0-of  (x4 / 多-03
+                        :degree  (x3 / 更
+)))))
+===========================
+无论多么远的剧场，无论演出到多晚，我是场场必到，直至演出结束。
+(x23 / condition
+      :arg1  (x25 / and
+            :op1  (x5 / 剧场
+                  :arg0-of  (x3 / 远-01
+                        :degree  (x2 / 多么
+)))            :op2  (x11 / 晚-01
+                  :degree  (x10 / 多-01
+)                  :arg0  (x8 / 演出-01
+)))      :arg2  (x32 / and
+            :op1  (x16 / 必-01
+                  :arg0  (x17 / 到-01
+                        :arg0  (x13 / 我
+))                  :frequency  (x15 / 场场
+))            :op2  (x19 / 直至-01
+                  :arg0  (x21 / 结束-01
+                        :arg1  (x20 / 演出
+)))))
+===========================
+每次演出，我一定要到台上去看，即使被挤在厚厚的幕布里,憋闷得满头是汗，也兴味盎然。
+(x31 / and
+      :op1  (x5 / 一定
+            :arg0  (x6 / 要-03
+                  :arg0  (x7 / 到-01
+                        :arg1  (x8_x9 / 台上
+)                        :arg0  (x4 / 我
+))                  :arg0  (x11 / 看-02
+                        :arg1  (x2 / 演出
+                              :frequency  (x1 / 每次
+))                        :arg0  (x4 / 我
+))))      :op2  (x40 / concession
+            :arg1  (x41 / and
+                  :op1  (x15 / 挤-03
+                        :arg1  (x18 / 幕布
+                              :arg0-of  (x17 / 厚-02
+))                        :arg0  (x4 / 我
+))                  :op2  (x21 / 憋闷
+                        :cause-of  (x25 / 汗
+                              :location  (x23 / 满头
+))))            :arg2  (x29 / 盎然-01
+                  :arg0  (x28 / 兴味
+))))
+===========================
+母亲演唱的许多戏文，演唱时的身段、板眼，就这样在不知不觉中学会了。
+(x19 / 学会-01
+      :condition  (x17 / 不知不觉
+)      :aspect  (x20 / 了
+)      :mod  (x15 / 这样
+)      :mod  (x14 / 就
+)      :arg1  (x28 / and
+            :op1  (x5 / 戏文
+                  :quant  (x4 / 许多
+)                  :arg1-of  (x2 / 演唱-01
+                        :arg0  (x1 / 母亲
+)))            :op2  (x34 / and
+                  :op1  (x10 / 身段
+)                  :op2  (x12 / 板眼
+)                  :time  (x7 / 演唱-01
+                        :arg0  (x1 / 母亲
+)))))
+===========================
+母亲的学生来我家学戏，忘词的时候，趁母亲不在，会向我请教：“小霜霜，这句词是怎么唱来着？”
+(x36 / temporal
+      :arg1  (x4 / 来-01
+            :arg0  (x3 / 学生
+                  :poss  (x1 / 母亲
+))            :arg1  (x5 / 我家
+)            :purpose  (x6 / 学-01
+                  :arg1  (x7 / 戏
+)                  :arg0  (x3 / 学生
+)))      :arg2  (x44 / condition
+            :arg1  (x14 / 趁-01
+                  :arg1  (x17 / 在-01
+                        :polarity  (x16 / -
+)                        :arg0  (x15 / x1
+))                  :arg0  (x3 / 学生
+))            :time  (x9 / 忘-01
+                  :arg1  (x10 / 词
+)                  :arg0  (x3 / 学生
+))            :arg2  (x19 / 会-01
+                  :arg0  (x22 / 请教-01
+                        :arg2  (x21 / 我
+)                        :arg1  (x54 / and
+                              :op1  (x55 / person
+                                    :name  ( x25/霜霜 
+)                                    :arg0-of  (x24 / 小
+))                              :op2  (x32 / 唱-01
+                                    :arg1  (x29 / 词
+                                          :mod  (x27 / 这
+)                                          :cunit  (x28 / 句
+))                                    :manner  (x31 / amr-unknown
+)                                    :mode  (x33_x34_x35 / interrogative
+)))                        :arg0  (x3 / 学生
+)))))
+===========================
+我六岁的时候，父母亲为了造就一个了真正的小新凤霞，让我正式拜师学艺。
+(x17 / 让-02
+      :arg0  (x7 / 父母亲
+)      :arg1  (x18 / x1
+)      :arg2  (x20 / 拜师-01
+            :purpose  (x21 / 学艺-01
+                  :arg0  (x18 / x1
+))            :manner  (x19 / 正式
+)            :arg0  (x18 / x1
+))      :purpose  (x9 / 造就-01
+            :arg1  (x31 / person
+                  :name  ( x15/新凤霞 
+)                  :arg0-of  (x14 / 小-01
+)                  :arg0-of  (x12 / 真正-01
+)                  :quant  (x10_1 / 1
+)                  :cunit  (x10_2 / 个
+))            :aspect  (x11 / 了
+))      :time  (x1 / 我
+            :age  (x39 / temporal-quantity
+                  :quant  (x2 / 6
+)                  :unit  (x3 / 岁
+))))
+===========================
+师傅是一位身高近两米的黑脸大汉，往我面一站，像一堵墙。
+(x25 / and
+      :op1  (x12 / 大汉
+            :mod  (x11 / 黑脸
+)            :quant  (x3 / 1
+)            :cunit  (x4 / 位
+)            :mod  (x6 / 高-02
+                  :arg0  (x5 / 身
+)                  :arg1  (x31 / distance-quantity
+                        :quant  (x7 / 近
+                              :op1  (x8 / 2
+))                        :unit  (x9 / 米
+)))            :domain  (x1 / 师傅
+))      :op2  (x20 / 像-01
+            :arg0  (x18 / 站-01
+                  :arg1  (x16 / 面
+                        :arg0  (x15 / 我
+))                  :arg0  (x1 / 师傅
+))            :arg1  (x23 / 墙
+                  :quant  (x21 / 1
+)                  :cunit  (x22 / 堵
+))))
+===========================
+“霜霜，鞠躬，叫师傅，以后每星期跟着师傅练三次毯子功。”
+(x21 / say
+      :arg1  (x23 / and
+            :op1  (x24 / temporal
+                  :arg1  (x5 / 鞠躬-01
+                        :arg0  (x26 / person
+                              :name  ( x3/霜 
+)))                  :arg1  (x7 / 叫-06
+                        :arg1  (x8 / 师傅
+)                        :arg0  (x26 / person
+)))            :op2  (x13 / 跟着-01
+                  :arg1  (x14 / 师傅
+)                  :purpose  (x15 / 练-01
+                        :arg1  (x18_x19 / 毯子功
+)                        :frequency  (x34 / rate-entity-91
+                              :arg1  (x16 / 3
+                                    :unit  (x17 / 次
+))                              :arg3  (x37 / temporal-quantity
+                                    :quant  (x11 / 1
+)                                    :unit  (x12 / 星期
+)))                        :arg0  (x26 / person
+))                  :time  (x10 / 以后
+))))
+===========================
+母亲一反平常对我溺爱娇宠的态度，绷着脸对我说。
+(x19 / and
+      :op1  (x3 / 反-02
+            :arg1  (x10 / 态度
+                  :mod  (x23 / and
+                        :op1  (x7 / 溺爱-01
+                              :arg1  (x6 / 我
+))                        :op2  (x8 / 娇宠-01
+                              :arg1  (x6 / 我
+)))                  :time  (x4 / 平常
+))            :arg0  (x1 / 母亲
+))      :op2  (x17 / 说-01
+            :arg3  (x16 / x6
+)            :manner  (x12 / 绷-02
+                  :arg0  (x14 / 脸
+)                  :aspect  (x13 / 着
+))            :arg0  (x1 / 母亲
+)))
+===========================
+于是，我的舞台从床上转移到了铺着练功毯的院子里。
+(x20 / temporal
+      :arg2  (x9 / 转移-01
+            :arg1  (x5 / 舞台
+                  :poss  (x3 / 我
+))            :arg3  (x7 / 床
+)            :arg2  (x17 / 院子
+                  :arg2-of  (x12 / 铺
+                        :arg1  (x14_x15 / 练功毯
+)                        :aspect  (x13 / 着
+)))            :aspect  (x11 / 了
+)))
+===========================
+全家人都惊讶地发现，我这个被宠坏了的小公主，不知从哪儿来了一股狠劲儿。
+(x5 / 发现-01
+      :arg0  (x1 / 全家人
+)      :arg1  (x16_2 / 知-01
+            :polarity  (x16_1 / -
+)            :arg0  (x14 / 公主
+                  :arg0-of  (x13 / 小-01
+)                  :arg1-of  (x10 / 宠坏-01
+                        :arg0  (x35 / person
+)                        :aspect  (x11 / 了
+))                  :mod  (x8_1 / 这
+)                  :cunit  (x8_2 / 个
+)                  :arg0-of  (x41 / mean
+                        :arg1  (x7 / 我
+)))            :arg1  (x19 / 来-01
+                  :arg0  (x24 / 劲儿
+                        :arg0-of  (x23 / 狠-01
+)                        :quant  (x21 / 1
+)                        :cunit  (x22 / 股
+))                  :aspect  (x20 / 了
+)                  :arg2  (x18 / amr-unknown
+)))      :manner  (x3 / 惊讶-01
+            :arg0  (x1 / 全家人
+))      :extent  (x2 / 都
+))
+===========================
+六岁的小女孩柔弱的身体成了黑脸大汉手中的一块生面团，翻过来、搁过去、立起来、横过去，伸、拉、压、拽，为所欲为，奶奶看不过我被整得满脸的泪水和汗水，每次都目不忍视地躲到里屋。
+(x65 / and
+      :op1  (x67 / and
+            :op1  (x9 / 成-01
+                  :arg0  (x8 / 身体
+                        :arg0-of  (x6 / 柔弱-01
+)                        :part-of  (x5 / 女孩
+                              :arg0-of  (x4 / 小-01
+)                              :age  (x73 / temporal-quantity
+                                    :quant  (x1 / 6
+)                                    :unit  (x2 / 岁
+))))                  :arg1  (x17 / 面团
+                        :arg0-of  (x16 / 生-03
+)                        :quant  (x15_1 / 1
+)                        :cunit  (x15_2 / 块
+)                        :location  (x13 / 手中
+                              :part-of  (x12 / 大汉
+                                    :mod  (x11 / 黑脸
+))))                  :aspect  (x10 / 了
+))            :op2  (x85 / and
+                  :op1  (x19 / 翻-02
+                        :direction  (x20 / 过来
+)                        :arg1  (x8 / 身体
+))                  :op2  (x21 / 搁-01
+                        :direction  (x22 / 过去
+)                        :arg1  (x8 / 身体
+)                        :arg0  (x12 / 大汉
+))                  :op3  (x24 / 立-02
+                        :direction  (x25 / 起来
+)                        :arg1  (x8 / 身体
+))                  :op4  (x27 / 横-01
+                        :direction  (x28 / 过去
+)                        :arg0  (x8 / 身体
+))                  :op5  (x30 / 伸-01
+                        :arg0  (x12 / 大汉
+)                        :arg1  (x8 / 身体
+))                  :op6  (x32 / 拉-01
+                        :arg0  (x12 / 大汉
+)                        :arg1  (x8 / 身体
+))                  :op7  (x34 / 压-03
+                        :arg0  (x12 / 大汉
+)                        :arg1  (x8 / 身体
+))                  :op8  (x36 / 拽-01
+                        :arg0  (x12 / 大汉
+)                        :arg1  (x8 / 身体
+)))            :op3  (x38 / 为所欲为-01
+                  :arg0  (x12 / 大汉
+))            :op4  (x100 / causation
+                  :arg1  (x43 / possible
+                        :arg0  (x41 / 看-01
+                              :arg1  (x46 / 整-01
+                                    :arg0  (x12 / 大汉
+)                                    :arg1  (x44 / x5
+)                                    :cause-of  (x52 / and
+                                          :op1  (x51 / 泪水
+)                                          :op2  (x53 / 汗水
+)                                          :location  (x48_x49 / 满脸
+)))                              :arg0  (x40 / 奶奶
+))                        :polarity  (x42 / -
+))                  :arg2  (x61 / 躲-01
+                        :arg2  (x63 / 里屋
+)                        :manner  (x57_x58_x59 / 目不忍视
+)                        :extent  (x56 / 都
+)                        :frequency  (x55 / 每次
+)                        :arg0  (x40 / 奶奶
+)))))
+===========================
+我自己倒从没叫过苦、喊过疼——让观众看我哭哭啼啼地演戏，像什么话呀？
+(x26 / causation
+      :arg1  (x21_x23 / 像话-01
+            :mod  (x22 / 什么
+)            :arg0  (x13 / 让-02
+                  :arg1  (x14 / 观众
+)                  :arg2  (x15 / 看-02
+                        :arg1  (x19 / 演戏-01
+                              :arg0  (x16 / x1
+)                              :manner  (x17 / 哭哭啼啼
+))))            :mode  (x24_x25 / interrogative
+))      :arg2  (x37 / and
+            :op1  (x5 / 叫-03
+                  :arg1  (x7 / 苦
+)                  :aspect  (x6 / 过-01
+)                  :polarity  (x4 / -
+)                  :arg0  (x1 / 我
+                        :arg0-of  (x48 / mean
+                              :arg1  (x2 / 自己
+))))            :op2  (x9 / 喊-01
+                  :arg1  (x11 / 疼
+)                  :aspect  (x10 / 过
+)                  :arg0  (x1_x2 / 我自己
+)                  :polarity  (x4 / -
+))            :mod  (x3 / 倒
+)))
+===========================
+暑去寒来，几年后，我就可以下腰到地，双手倒抓住脚腕；或一手抓住举过头顶的脚心，做前后翻，跑虎跳，其他基本功的动作更不在话下。
+(x48 / progression
+      :arg1  (x23 / or
+            :op1  (x51 / and
+                  :op1  (x11 / 可以-01
+                        :arg0  (x12_x13 / 下腰
+                              :arg0  (x9 / 我
+)                              :destination  (x15 / 地
+)))                  :op2  (x19 / 抓住-01
+                        :manner  (x18 / 倒
+)                        :arg1  (x20_x21 / 脚腕
+)                        :arg0  (x17_2 / 手
+                              :quant  (x17_1 / 2
+))))            :op2  (x60 / and
+                  :op1  (x26 / 抓住-01
+                        :arg0  (x25 / 手
+                              :quant  (x24 / 1
+))                        :arg1  (x31 / 脚心
+                              :arg1-of  (x27_x28 / 举过-01
+                                    :arg2  (x29 / 头顶
+))))                  :op2  (x33 / 做-01
+                        :arg1  (x70 / and
+                              :op1  (x34_x35 / 前后翻
+)                              :op2  (x37_x38_x39 / 跑虎跳
+))                        :arg0  (x9 / 我
+))))      :arg2  (x46 / 不在话下
+            :arg0  (x44 / 动作
+                  :mod  (x42 / 基本功
+                        :mod  (x41 / 其他
+))))      :time  (x7 / 后
+            :op1  (x78 / temporal-quantity
+                  :quant  (x6_1 / 几
+)                  :unit  (x6_2 / 年
+)))      :time  (x81 / and
+            :op1  (x2 / 去-02
+                  :arg0  (x1 / 暑
+))            :op2  (x4 / 来-01
+                  :arg0  (x3 / 寒
+))))
+===========================
+我的观众不断增多。
+(x5 / 增多-01
+      :arg0  (x3 / 观众
+            :poss  (x1 / 我
+))      :manner  (x4 / 不断
+))
+===========================
+有一次，表演艺术大师赵丹和漫画家张乐平来我家，自然要看我的表演。
+(x22 / temporal
+      :arg1  (x12 / 来-01
+            :arg1  (x13 / 我家
+)            :arg0  (x9 / and
+                  :op1  (x7 / 大师
+                        :mod  (x6 / 艺术
+                              :topic  (x5 / 表演-01
+))                        :name  ( x8/赵丹 
+))                  :op2  (x10 / 漫画家
+                        :name  ( x11/张乐平 
+))))      :time  (x1_x2_x3 / 有一次
+)      :arg0  (x16 / 要-03
+            :arg0  (x17 / 看-02
+                  :arg1  (x20 / 表演
+                        :poss  (x18 / 我
+))                  :arg0  (x9 / and
+))            :mod  (x15 / 自然
+)))
+===========================
+我演到一半时，两个人开始窃窃私语。
+(x10 / 开始-01
+      :arg1  (x11 / 窃窃私语
+)      :arg0  (x9 / 人
+            :quant  (x7 / 2
+)            :cunit  (x8 / 个
+))      :time  (x2 / 演-01
+            :arg0  (x1 / 我
+)            :arg1  (x4 / 一半
+)))
+===========================
+身为主演的我大为不满，竟然出了戏，跑到他们面前，提出抗议：“不许说话，不然下次看你们演戏，我也说话。”
+(x34 / temporal
+      :arg1  (x36 / contrast
+            :arg1  (x6 / 不满-01
+                  :degree  (x5 / 大为
+)                  :arg0  (x4 / 我
+                        :arg0-of  (x1 / 身为-01
+                              :arg1  (x2 / 主演-01
+))))            :arg2  (x9 / 出-01
+                  :aspect  (x10 / 了-01
+)                  :arg1  (x11 / 戏
+)                  :arg0  (x4 / 我
+)))      :arg2  (x13_x14 / 跑到-01
+            :arg1  (x16 / 面前
+                  :arg0  (x15 / 他们
+))            :arg0  (x4 / 我
+))      :arg3  (x18 / 提出-01
+            :arg1  (x19 / 抗议
+                  :arg0-of  (x50 / mean
+                        :arg1  (x24 / orx
+                              :op1  (x21_2 / 许-01
+                                    :polarity  (x21_1 / -
+)                                    :arg2  (x22 / 说话
+                                          :arg0  (x27 / 你们
+)))                              :op2  (x55 / condition
+                                    :arg2  (x32 / 说话-01
+                                          :arg0  (x30 / x4
+)                                          :mod  (x31 / 也
+))                                    :arg1  (x26 / 看-02
+                                          :arg1  (x28 / 演戏-01
+                                                :arg0  (x27 / 你们
+))                                          :time  (x25 / 下次
+)                                          :arg0  (x30 / x4
+))))))            :arg0  (x4 / 我
+)))
+===========================
+事后妈妈批评我没有风度，我说：“您不是常说要老实做人，认真演戏吗？”
+(x24 / temporal
+      :arg1  (x3 / 批评-02
+            :arg0  (x2 / 妈妈
+)            :arg1  (x4 / 我
+)            :arg2  (x5_2 / 有-06
+                  :polarity  (x5_1 / -
+)                  :arg1  (x6 / 风度
+)                  :arg0  (x4 / 我
+))            :time  (x1 / 事后
+))      :arg2  (x9 / 说-02
+            :arg0  (x8 / x4
+)            :arg1  (x15 / 说-01
+                  :frequency  (x14 / 常
+)                  :arg0  (x11 / x2
+)                  :arg1  (x16 / 要-03
+                        :arg0  (x40 / and
+                              :op1  (x18 / 做人
+                                    :manner  (x17 / 老实
+))                              :op2  (x21 / 演戏
+                                    :manner  (x20 / 认真
+))))                  :polarity  (x12 / -
+)                  :mode  (x22_x23 / interrogative
+))))
+===========================
+妈妈听了无言以对。
+(x6 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x1 / 妈妈
+)            :aspect  (x3 / 了-02
+))      :arg2  (x4 / 无言以对-01
+            :arg0  (x1 / 妈妈
+)))
+===========================
+我在舞台上慢慢长大，舞台如一炉火，炼就了我的勇气和毅力。
+(x23 / and
+      :op1  (x6 / 长大-01
+            :manner  (x5 / 慢慢
+)            :arg0  (x1 / 我
+)            :location  (x3 / 舞台
+))      :op2  (x14_x15 / 炼-01
+            :arg0  (x8 / 舞台
+)            :aspect  (x16 / 了
+)            :arg1  (x20 / and
+                  :op1  (x19 / 勇气
+)                  :op2  (x21 / 毅力
+)                  :poss  (x17 / x1
+))            :manner  (x9 / 如-01
+                  :arg1  (x12 / 火
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 炉
+))                  :arg0  (x8 / 舞台
+))))
+===========================

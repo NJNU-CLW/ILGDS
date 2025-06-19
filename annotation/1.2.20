@@ -1,0 +1,141 @@
+古时候有个孩子，叫司马光。
+(x9 / and
+      :op1  (x2 / 有-06
+            :arg1  (x4 / 孩子
+                  :cunit  (x3 / 个
+))            :time  (x1 / 古时候
+))      :op2  (x6 / 叫-01
+            :arg0  (x4 / 孩子
+)            :arg1  (x14 / person
+                  :name  ( x7/司马光 
+))))
+===========================
+有一回，他跟几个小朋友在花园里玩。
+(x1 / 有-06
+      :arg1  (x17 / thing
+            :arg0-of  (x18 / mean
+                  :arg1  (x13 / 玩-01
+                        :arg0  (x6 / and
+                              :op1  (x5 / 他
+)                              :op2  (x9 / 小朋友
+                                    :quant  (x7 / 几
+)                                    :cunit  (x8 / 个
+)))                        :location  (x11 / 花园
+)))            :quant  (x2 / 1
+)            :cunit  (x3 / 回
+)))
+===========================
+花园里有假山，假山下面有一口大水缸，缸里装满了水。
+(x21 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 里
+                  :arg0  (x1 / 花园
+))            :arg1  (x4 / 假山
+))      :op2  (x8 / 有-03
+            :arg0  (x7 / 下面
+                  :arg0  (x6 / x4
+))            :arg1  (x12 / 水缸
+                  :arg0-of  (x11 / 大-01
+)                  :quant  (x9 / 1
+)                  :cunit  (x10 / 口
+)))      :op3  (x16_x17 / 装满-01
+            :arg1  (x19 / 水
+)            :arg2  (x14 / x12
+)            :aspect  (x18 / 了
+)))
+===========================
+有个小朋友爬到假山上去玩，一不小心，掉进了大水缸,别的小朋友都慌了，有的吓哭了，有的叫着喊着，跑去找大人。
+(x40 / temporal
+      :arg1  (x1 / 有-06
+            :arg1  (x3 / 小朋友
+                  :cunit  (x2 / 个
+)                  :arg0-of  (x4_x5 / 爬到-01
+                        :arg1  (x7_1 / 上
+                              :arg0  (x6 / 假山
+))                        :purpose  (x8 / 玩-01
+                              :arg0  (x3 / 小朋友
+))                        :arg0  (x3 / 小朋友
+))))      :arg2  (x12_x13 / 掉进-01
+            :manner  (x10 / 一不小心
+)            :arg0  (x3 / 小朋友
+)            :arg1  (x16 / 水缸
+                  :arg0-of  (x15 / 大-01
+))            :aspect  (x14 / 了
+))      :arg3  (x21 / 慌-01
+            :aspect  (x22 / 了
+)            :arg0  (x19 / 小朋友
+                  :extent  (x20 / 都
+)                  :mod  (x18 / 别的
+))            :arg0-of  (x75 / mean
+                  :arg1  (x60 / and
+                        :op1  (x25 / 吓-01
+                              :cause-of  (x26 / 哭-01
+                                    :aspect  (x27 / 了
+)                                    :arg0  (x61 / person
+                                          :arg1-of  (x59 / include-91
+                                                :arg1  (x19 / 小朋友
+))))                              :arg1  (x61 / person
+))                        :op2  (x73 / and
+                              :op1  (x30 / 叫-01
+                                    :aspect  (x31 / 着
+)                                    :arg0  (x62 / person
+                                          :arg1-of  (x76 / include-91
+                                                :arg2  (x19 / 小朋友
+))))                              :op2  (x32 / 喊-01
+                                    :aspect  (x33 / 着
+)                                    :arg0  (x62 / person
+))                              :op3  (x35 / 跑-01
+                                    :purpose  (x37 / 找-01
+                                          :arg0  (x62 / person
+)                                          :arg1  (x38 / 大人
+))))))))
+===========================
+司马光没有慌，他举起一块石头，使劲砸那口缸，几下子就把缸砸破了。
+(x25 / and
+      :op1  (x3 / 慌-01
+            :polarity  (x2 / -
+)            :arg0  (x29 / person
+                  :name  ( x1/司马光 
+)))      :op2  (x31 / temporal
+            :arg1  (x6 / 举起-01
+                  :arg0  (x5 / x29
+)                  :arg1  (x8 / 石头
+                        :quant  (x7_1 / 1
+)                        :cunit  (x7_2 / 块
+)))            :arg2  (x11 / 砸-01
+                  :arg0  (x5 / x29
+)                  :arg1  (x8 / 石头
+)                  :manner  (x10 / 使劲-01
+                        :arg0  (x29 / person
+))                  :arg2  (x14 / 缸
+                        :mod  (x12 / 那
+)                        :cunit  (x13 / 口
+)))            :arg3  (x21 / 砸-01
+                  :cause-of  (x22 / 破-01
+                        :aspect  (x23 / 了
+)                        :arg1  (x20 / x14
+))                  :arg0  (x5 / x29
+)                  :arg2  (x20 / x14
+)                  :mod  (x18 / 就
+)                  :quant  (x16 / 几
+)                  :cunit  (x17 / 下子
+)                  :arg1  (x8 / 石头
+))))
+===========================
+缸里的水流出来了，掉进缸里的小朋友得救了。
+(x18 / causation
+      :arg1  (x5 / 流-01
+            :direction  (x6 / 出来-01
+                  :arg0  (x4 / 水
+                        :location  (x2 / 里
+                              :arg0  (x1 / 缸
+))))            :arg0  (x4 / 水
+)            :aspect  (x7 / 了
+))      :arg2  (x15 / 得救-01
+            :arg0  (x14 / 小朋友
+                  :arg0-of  (x9_x10 / 掉进-01
+                        :arg1  (x12 / 里
+                              :arg0  (x11 / x1
+))))            :aspect  (x16 / 了
+)))
+===========================

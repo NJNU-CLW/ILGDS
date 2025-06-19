@@ -1,0 +1,337 @@
+一位教育家来到一所小学，请校长找来三个学生，让他们做个游戏。
+(x23 / temporal
+      :arg1  (x4 / 来到-01
+            :arg0  (x3 / 教育家
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 位
+))            :arg1  (x7 / 小学
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 所
+)))      :arg2  (x9 / 请
+            :arg0  (x3 / 教育家
+)            :arg1  (x10 / 校长
+)            :arg2  (x11_x12 / 找来-01
+                  :arg0  (x10 / 校长
+)                  :arg1  (x15 / 学生
+                        :quant  (x13 / 3
+)                        :cunit  (x14 / 个
+))))      :arg3  (x17 / 让-02
+            :arg1  (x18 / x15
+)            :arg2  (x19 / 做-01
+                  :arg0  (x18 / x15
+)                  :arg1  (x21 / 游戏
+                        :cunit  (x20 / 个
+)))))
+===========================
+这位教育家从手提包里拿出一个瓶子，又取出三个系着绳子的小铅锤。
+(x26 / temporal
+      :arg1  (x7_x8 / 拿出-01
+            :arg0  (x3 / 教育家
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 位
+))            :arg1  (x10 / 瓶子
+                  :quant  (x9_1 / 1
+)                  :cunit  (x10_2 / 个
+))            :source  (x5 / 手提包
+))      :arg2  (x13 / 取出-01
+            :arg0  (x3 / 教育家
+)            :arg1  (x21 / 铅锤
+                  :arg0-of  (x20 / 小-01
+)                  :location-of  (x16 / 系-04
+                        :aspect  (x17 / 着
+)                        :arg1  (x18 / 绳子
+))                  :quant  (x14 / 3
+)                  :cunit  (x15 / 个
+))))
+===========================
+他把瓶子放在地上，把三个小铅锤分给三个学生，让他们拿着绳子头，先后把铅锤放到瓶子里。
+(x33 / temporal
+      :arg1  (x4_x5 / 放在-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 瓶子
+)            :arg2  (x6 / 地上
+))      :arg2  (x13_x14 / 分给-01
+            :arg0  (x1 / 他
+)            :arg1  (x12 / 铅锤
+                  :arg0-of  (x11 / 小-01
+)                  :quant  (x9 / 3
+)                  :cunit  (x10 / 个
+))            :arg2  (x17 / 学生
+                  :cunit  (x16 / 个
+)                  :quant  (x15 / 3
+)))      :arg3  (x19 / 让-02
+            :arg0  (x1 / 他
+)            :arg1  (x20 / x17
+)            :arg2  (x51 / and
+                  :op1  (x21 / 拿-03
+                        :arg0  (x20 / x17
+)                        :aspect  (x22 / 着
+)                        :arg1  (x24 / 头
+                              :part-of  (x23 / 绳子
+                                    :arg2  (x13_x14 / 分给-01
+))))                  :op2  (x29 / 放到-01
+                        :arg0  (x17 / 学生
+)                        :manner  (x26 / 先后
+)                        :arg2  (x30 / 瓶子
+)                        :arg1  (x28 / x12
+)))))
+===========================
+他对三个学生说：“这个瓶子是一口井，不过现在井里没有水。
+(x6 / 说-01
+      :arg0  (x1 / 他
+)      :arg3  (x5 / 学生
+            :quant  (x3 / 3
+)            :cunit  (x4 / 个
+))      :arg1  (x28 / contrast
+            :arg1  (x13 / 井
+                  :domain  (x9 / 瓶子
+                        :mod  (x8_1 / 这
+)                        :cunit  (x8_2 / 个
+))                  :quant  (x11 / 1
+)                  :cunit  (x12 / 口
+))            :arg2  (x19_2 / 有-03
+                  :arg1  (x20 / 水
+)                  :polarity  (x19_1 / -
+)                  :arg0  (x17 / x13
+)                  :time  (x16 / 现在
+))))
+===========================
+你们手里拿着的铅锤代表你们自己。
+(x7 / 代表-01
+      :arg0  (x6 / 铅锤
+            :arg1-of  (x3 / 拿-03
+                  :aspect  (x4 / 着
+)                  :arg0  (x2_1 / 手
+                        :part-of  (x1 / 你们
+))))      :arg1  (x9 / 自己
+            :arg0-of  (x15 / mean
+                  :arg1  (x8 / x1
+))))
+===========================
+井口很窄，一次只能上来一个人。”
+(x12 / say
+      :arg1  (x14 / causation
+            :arg1  (x3 / 窄-01
+                  :degree  (x2 / 很
+)                  :arg0  (x1 / 井口
+))            :arg2  (x21 / condition
+                  :arg1  (x22 / thing
+                        :quant  (x5 / 1
+)                        :cunit  (x6 / 次
+))                  :arg2  (x7_2 / 能-01
+                        :mod  (x7_1 / 只
+)                        :arg0  (x8 / 上来-01
+                              :arg0  (x10 / 人
+                                    :quant  (x9_1 / 1
+)                                    :cunit  (x9_2 / 个
+)))))))
+===========================
+说完，他又问：“记住了吗’
+(x11 / temporal
+      :arg1  (x1_2 / 完-01
+            :arg0  (x1_1 / 说-01
+                  :arg0  (x3 / 他
+)))      :arg2  (x5 / 问-01
+            :arg0  (x3 / 他
+)            :arg1  (x7 / 记住-01
+                  :aspect  (x8 / 了
+)                  :mode  (x9 / interrogative
+))))
+===========================
+三个学生齐声回答：“记住了”
+(x5 / 回答-01
+      :manner  (x4 / 齐声
+)      :arg0  (x3 / 学生
+            :quant  (x1 / 3
+)            :cunit  (x2 / 个
+))      :arg2  (x7 / 记住
+            :aspect  (x8 / 了
+)))
+===========================
+教育家拿起茶杯向“井”里灌水，他一边灌，一边喊：“危险！快上来！一……二……”
+(x30 / and
+      :op1  (x32 / temporal
+            :arg1  (x2_x3 / 拿起-01
+                  :arg0  (x1 / 教育家
+)                  :arg1  (x4 / 茶杯
+))            :arg2  (x10 / 灌-01
+                  :arg0  (x1 / 教育家
+)                  :arg1  (x11 / 水
+)                  :arg2  (x7 / 井
+)))      :op2  (x39 / and
+            :op1  (x15 / 灌-01
+                  :arg0  (x13 / x1
+)                  :arg1  (x11 / 水
+)                  :arg2  (x7 / 井
+))            :op2  (x18 / 喊-01
+                  :arg0  (x1 / 教育家
+)                  :arg1  (x43 / and
+                        :op1  (x20 / 危险
+                              :mode  (x21 / expressive
+))                        :op2  (x23_x24 / 上来
+                              :mode  (x25 / expressive
+)                              :manner  (x22 / 快
+))                        :op3  (x26 / 一
+)                        :op4  (x28 / 二
+)))))
+===========================
+一个女孩低声对两个同伴说：“快！你第一，你第二，我最后。”
+(x8 / 说-01
+      :arg0  (x2 / 女孩
+            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+))      :arg3  (x7 / 同伴
+            :quant  (x5 / 2
+)            :cunit  (x6 / 个
+))      :manner  (x3 / 低声
+)      :arg1  (x30 / and
+            :op1  (x10 / 快
+                  :mode  (x11 / expressive
+))            :op2  (x33 / and
+                  :op1  (x12 / 你
+                        :ord  (x35 / ordinal-entity
+                              :value  (x13 / 1
+)))                  :op2  (x15 / 你
+                        :ord  (x38 / ordinal-entity
+                              :value  (x16 / 2
+)))                  :op3  (x18 / x2
+                        :ord  (x41 / ordinal-entity
+                              :value  (x19 / 最后
+))))))
+===========================
+三字同出口，三个学生就顺利地把小铅锤一个一个提了出来。
+(x20 / temporal
+      :arg1  (x3_1 / 出-01
+            :arg0  (x1_2 / 字
+                  :quant  (x1_1 / 3
+))            :manner  (x2 / 同
+)            :arg1  (x3_2 / 口
+))      :arg2  (x16 / 提-01
+            :aspect  (x17 / 了
+)            :cause-of  (x18 / 出来-01
+                  :arg0  (x13 / 铅锤
+                        :arg0-of  (x12 / 小-01
+)))            :arg0  (x7 / 学生
+                  :cunit  (x6 / 个
+)                  :quant  (x5 / 3
+))            :manner  (x14_x15 / 一个一个
+)            :manner  (x9 / 顺利
+)            :arg1  (x13 / 铅锤
+)))
+===========================
+教育家问这个女孩：“你刚才跟他俩说了什么？”
+(x2 / 问-01
+      :arg0  (x1 / 教育家
+)      :arg1  (x4 / 女孩
+            :mod  (x3_1 / 这
+)            :cunit  (x3_2 / 个
+))      :arg1  (x10 / 说-01
+            :aspect  (x11 / 了
+)            :arg0  (x6 / x4
+)            :time  (x7 / 刚才
+)            :arg3  (x9 / 他俩
+)            :arg1  (x12 / amr-unknown
+)            :mode  (x13 / interrogative
+)))
+===========================
+女孩如实地告诉了他。“
+(x3 / 告诉-01
+      :manner  (x2_1_2 / 如实
+)      :aspect  (x4 / 了
+)      :arg0  (x1 / 女孩
+)      :arg2  (x5 / 他
+))
+===========================
+你为什么要这样做呢？”教育家又问。
+(x11 / 问-01
+      :mod  (x10 / 又
+)      :arg0  (x9 / 教育家
+)      :arg1  (x4 / 要-03
+            :arg0  (x6 / 做-01
+                  :arg0  (x2 / 你
+)                  :mod  (x5 / 这样
+))            :cause  (x3 / amr-unknown
+)            :mode  (x7_x8 / interrogative
+)))
+===========================
+女孩不假思索地说：“有了危险，应该让别人先出去。”
+(x4 / 说-01
+      :manner  (x2 / 不假思索
+)      :arg0  (x1 / 女孩
+)      :arg1  (x20 / condition
+            :arg1  (x6 / 有-03
+                  :aspect  (x7 / 了
+)                  :arg1  (x8 / 危险
+))            :arg2  (x10 / 应该-01
+                  :arg0  (x11 / 让-02
+                        :arg1  (x12 / 别人
+)                        :arg2  (x14 / 出去-01
+                              :arg0  (x12 / 别人
+)                              :time  (x13 / 先
+))))))
+===========================
+这位教育家激动地抱起女孩，好久才放下。
+(x14 / temporal
+      :arg1  (x6 / 抱-01
+            :arg0  (x3 / 教育家
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 位
+))            :arg1  (x8 / 女孩
+)            :manner  (x4 / 激动-01
+)            :duration  (x10 / 好久
+))      :arg2  (x12 / 放下-01
+            :arg0  (x3 / 教育家
+)            :arg1  (x8 / 女孩
+)            :mod  (x11 / 才
+)))
+===========================
+他对校长说：“这个实验我做过许多次，每次孩子们都争着往外拉铅锤，结果铅锤都堵瓶口，一个也拉不出来。
+(x4 / 说-01
+      :arg0  (x1 / 他
+)      :arg3  (x3 / 校长
+)      :arg1  (x41 / contrast
+            :arg1  (x9 / 做-01
+                  :arg1  (x7 / 实验-01
+                        :mod  (x6_1 / 这
+)                        :cunit  (x6_2 / 个
+))                  :aspect  (x10 / 过
+)                  :arg0  (x8 / x1
+)                  :unit  (x12 / 次
+)                  :quant  (x11 / 许多
+))            :arg2  (x52 / causation
+                  :arg1  (x22 / 拉-01
+                        :arg0  (x15_x16 / 孩子们
+                              :extent  (x17 / 都
+))                        :arg1  (x23 / 铅锤
+)                        :direction  (x21 / 外
+)                        :manner  (x18 / 争-01
+                              :aspect  (x19 / 着
+)                              :arg0  (x15_x16 / 孩子们
+))                        :frequency  (x14 / 每次
+))                  :arg2  (x62 / causation
+                        :arg1  (x28 / 堵-02
+                              :arg0  (x26 / x23
+                                    :extent  (x27 / 都
+))                              :arg1  (x29 / 瓶口
+))                        :arg2  (x67 / possible
+                              :arg0  (x33_x35 / 拉出-01
+                                    :arg1  (x70 / thing
+                                          :quant  (x31_1 / 1
+)                                          :cunit  (x31_2 / 个
+)                                          :arg1-of  (x74 / include-91
+                                                :arg2  (x23 / 铅锤
+))))                              :polarity  (x34 / -
+)                              :mod  (x32 / 也
+))))))
+===========================
+今天，我的实验终于获得了成功。”
+(x11 / say
+      :arg1  (x7 / 获得-01
+            :time  (x1 / 今天
+)            :mod  (x6 / 终于
+)            :aspect  (x8 / 了
+)            :arg0  (x5 / 实验
+                  :poss  (x3 / 我
+))            :arg1  (x9 / 成功
+)))
+===========================

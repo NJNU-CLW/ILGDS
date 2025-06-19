@@ -1,0 +1,900 @@
+那是一个普通的冬日。
+(x7 / 冬日
+      :arg0-of  (x5 / 普通-01
+)      :quant  (x3 / 1
+)      :cunit  (x4 / 个
+)      :domain  (x1 / 那
+))
+===========================
+我和朋友相约来到翠湖时，海鸥正飞得热闹。
+(x11 / 飞-01
+      :arg0  (x9 / 海鸥
+)      :manner  (x13 / 热闹
+)      :time  (x4 / 相约-01
+            :arg0  (x2 / and
+                  :op1  (x1 / 我
+)                  :op2  (x3 / 朋友
+))            :arg1  (x5 / 来到-01
+                  :arg1  (x6 / 翠湖
+)))      :aspect  (x10 / 正
+))
+===========================
+在喂海鸥的人群中很容易认出那位老人。
+(x9 / 认出-01
+      :arg1  (x11 / 老人
+            :mod  (x10_1 / 那
+)            :cunit  (x10_2 / 位
+))      :manner  (x8 / 容易
+            :degree  (x7 / 很
+))      :range  (x5 / 人群
+            :arg0-of  (x2 / 喂-01
+                  :arg2  (x3 / 海鸥
+))))
+===========================
+他背已经驼了，穿一身褪色的过时布衣，背一个褪色的蓝布包，连装鸟食的大塑料袋也用得褪了色。
+(x35 / and
+      :op1  (x4 / 驼-01
+            :arg0  (x2 / 背-01
+                  :part-of  (x1 / 他
+))            :aspect  (x5 / 了
+)            :aspect  (x3 / 已经
+))      :op2  (x7 / 穿
+            :arg1  (x12 / 布衣
+                  :arg0-of  (x11 / 过时-01
+)                  :arg0-of  (x9 / 褪色-01
+)                  :quant  (x8_1 / 1
+)                  :cunit  (x8_2 / 身
+))            :arg0  (x1 / 他
+))      :op3  (x14 / 背-01
+            :arg1  (x20 / 布包
+                  :arg0-of  (x19 / 蓝-01
+)                  :arg0-of  (x17 / 褪色-01
+)                  :quant  (x15 / 1
+)                  :cunit  (x16 / 个
+))            :arg0  (x1 / 他
+))      :op4  (x54 / concession
+            :arg1  (x27 / 塑料袋
+                  :arg2-of  (x23 / 装-01
+                        :arg1  (x24 / 鸟食
+))                  :arg0-of  (x26 / 大
+))            :arg2  (x29 / 用-01
+                  :cause-of  (x31 / 褪-01
+                        :arg0  (x33 / 色
+)                        :aspect  (x32 / 了
+))                  :arg0  (x1 / 他
+))))
+===========================
+朋友告诉我，这位老人每天步行二十余里，从城郊赶到翠湖，只为了给海鸥送餐，跟海鸥相伴。
+(x2 / 告诉-01
+      :arg0  (x1 / 朋友
+)      :arg2  (x3 / 我
+)      :arg1  (x34 / and
+            :op1  (x9 / 步行-01
+                  :arg0  (x7 / 老人
+                        :mod  (x5 / 这
+)                        :cunit  (x6 / 位
+))                  :quant  (x37 / distance-quantity
+                        :quant  (x11 / 余
+                              :op1  (x10 / 20
+))                        :cunit  (x12 / 里
+))                  :frequency  (x42 / rate-entity-91
+                        :arg3  (x43 / temporal-quantity
+                              :quant  (x8_1 / 1
+)                              :unit  (x8_2 / 天
+))))            :op2  (x16 / 赶到-01
+                  :source  (x15 / 城郊
+)                  :arg1  (x50 / lake
+                        :name  ( x17/翠湖 
+))                  :arg0  (x7 / 老人
+))            :purpose  (x52 / and
+                  :op1  (x23 / 送-01
+                        :arg1  (x24 / 餐
+)                        :arg2  (x22 / 海鸥
+)                        :arg0  (x7 / 老人
+))                  :mod  (x19 / 只
+)                  :op2  (x28 / 相伴-01
+                        :arg0  (x27 / x22
+)))))
+===========================
+人少的地方，是他喂海鸥的领地。
+(x11 / 领地
+      :location-of  (x8 / 喂-01
+            :arg0  (x7 / 他
+)            :arg1  (x9 / 海鸥
+))      :domain  (x4 / 地方
+            :location-of  (x2 / 少-01
+                  :arg0  (x1 / 人
+))))
+===========================
+老人把饼干丁很小心地放在湖边的围栏上，退开一步，撮起嘴向鸥群呼唤。
+(x28 / temporal
+      :arg1  (x8 / 放-01
+            :arg0  (x1 / 老人
+)            :arg1  (x4 / 丁
+                  :mod  (x3 / 饼干
+))            :arg2  (x12 / 围栏
+                  :location  (x10 / 湖边
+))            :manner  (x6 / 小心-01
+                  :degree  (x5 / 很
+)                  :arg0  (x1 / 老人
+)))      :arg2  (x15_x16 / 退-02
+            :quant  (x17 / 1
+)            :unit  (x18 / 步
+)            :arg0  (x1 / 老人
+))      :arg3  (x26 / 呼唤-01
+            :arg1  (x25 / 群
+                  :mod  (x24 / 鸥
+))            :arg0  (x1 / 老人
+)            :manner  (x20_x21 / 撮-01
+                  :arg1  (x22 / 嘴
+                        :part-of  (x1 / 老人
+)))))
+===========================
+立刻便有一群海鸥应声而来，几下就扫得干干净净。
+(x18 / temporal
+      :arg1  (x9 / 来-01
+            :arg0  (x6 / 海鸥
+                  :quant  (x4 / 1
+)                  :unit  (x5 / 群
+)                  :arg1-of  (x3 / 有-03
+))            :manner  (x7 / 应声-01
+                  :arg0  (x6 / 海鸥
+))            :time  (x1 / 立刻
+)            :mod  (x2 / 便
+))      :arg2  (x14 / 扫
+            :cause-of  (x16 / 干净
+)            :condition  (x32 / thing
+                  :quant  (x11 / 几
+)                  :cunit  (x12 / 下
+))))
+===========================
+老人顺着栏杆边走边放，海鸥依他的节奏起起落落，排成一片翻飞的白色，飞成一篇有声有色的乐谱。
+(x31 / temporal
+      :arg1  (x33 / and
+            :op1  (x5 / 走-01
+                  :arg0  (x1 / 老人
+))            :op2  (x7 / 放-01
+                  :arg0  (x1 / 老人
+))            :manner  (x2_1 / 顺-01
+                  :aspect  (x2_2 / 着
+)                  :arg0  (x1 / 老人
+)                  :arg1  (x3 / 栏杆
+)))      :arg2  (x14 / 起落-01
+            :arg0  (x9 / 海鸥
+)            :manner  (x10 / 依-01
+                  :arg1  (x13 / 节奏
+                        :poss  (x11 / x1
+))                  :arg0  (x9 / 海鸥
+)))      :arg3  (x16 / 排成-01
+            :arg1  (x21 / 白色
+                  :quant  (x17 / 1
+)                  :cunit  (x18 / 片
+)                  :arg0-of  (x19 / 翻飞-01
+))            :arg0  (x9 / 海鸥
+))      :arg4  (x23 / 飞-01
+            :cause-of  (x29 / 乐谱
+                  :arg0-of  (x27 / 有声有色-01
+)                  :quant  (x25 / 1
+)                  :cunit  (x26 / 篇
+))            :arg0  (x9 / 海鸥
+)))
+===========================
+在海鸥的鸣叫声里，老人抑扬顿挫地唱着什么。
+(x11 / 唱-01
+      :arg1  (x13 / amr-unknown
+)      :aspect  (x12 / 着
+)      :arg0  (x8 / 老人
+)      :manner  (x9 / 抑扬顿挫
+)      :condition  (x5 / 声
+            :mod  (x4 / 鸣叫-01
+                  :arg0  (x2 / 海鸥
+))))
+===========================
+侧耳细听，原来是亲昵得变了调的地方话—“独脚”“灰头”“红嘴”“老沙”“公主”……
+(x28 / condition
+      :arg1  (x3 / 听-01
+            :manner  (x1 / 侧耳
+)            :manner  (x2 / 细
+))      :arg2  (x14 / 话
+            :mod  (x13 / 地方
+)            :arg0-of  (x7 / 亲昵
+                  :manner  (x9 / 变-01
+                        :arg1  (x11 / 调-01
+)                        :aspect  (x10 / 了
+)))            :domain  (x39 / thing
+)            :mod  (x5 / 原来
+)            :arg0-of  (x41 / mean
+                  :arg1  (x42 / and
+                        :op1  (x16_x17 / 独脚
+)                        :op2  (x19_x20 / 灰头
+)                        :op3  (x22 / 红嘴
+)                        :op4  (x24 / 老沙
+)                        :op5  (x26 / 公主
+)))))
+===========================
+“您给海鸥取了名？”我忍不住问。
+(x10_1_3 / 忍住-01
+      :polarity  (x10_2 / -
+)      :arg0  (x9 / 我
+)      :arg1  (x11 / 问-01
+            :arg1  (x5_x7 / 取名-01
+                  :arg0  (x2 / 您
+)                  :arg2  (x4 / 海鸥
+)                  :aspect  (x6 / 了
+)                  :mode  (x8 / interrogative
+))            :arg0  (x9 / 我
+)))
+===========================
+老人回头看了我一眼，依然俯身向着海鸥：“当然，哪个都有个名儿。”
+(x22 / temporal
+      :arg1  (x2 / 回头-01
+            :arg0  (x1 / 老人
+))      :arg2  (x3 / 看-02
+            :quant  (x6 / 1
+)            :cunit  (x7 / 眼
+)            :arg1  (x5 / 我
+)            :arg0  (x1 / 老人
+)            :aspect  (x4 / 了
+))      :arg3  (x10 / 俯身-01
+            :direction  (x12 / 海鸥
+)            :mod  (x9 / 依然
+)            :arg0  (x1 / 老人
+))      :arg4  (x35 / say
+            :arg1  (x36 / and
+                  :op1  (x14 / 当然
+)                  :op2  (x18 / 有-01
+                        :arg1  (x20 / 名儿
+                              :cunit  (x19 / 个
+))                        :arg0  (x40 / animal
+                              :dcopy  (x12 / 海鸥
+)                              :mod  (x16_1 / 哪
+)                              :cunit  (x16_2 / 个
+))                        :extent  (x17 / 都
+)))))
+===========================
+“您认得出它们？”
+(x7 / say
+      :arg1  (x3_x4 / 认得-01
+            :arg0  (x2 / 您
+)            :arg1  (x5 / 它们
+)            :mode  (x6 / interrogative
+)))
+===========================
+相同的白色翅膀在阳光下飞快闪过，我怀疑老人能否看得清。
+(x20 / causation
+      :arg1  (x9 / 闪-01
+            :arg0  (x4 / 翅膀
+                  :arg0-of  (x3 / 白色
+)                  :arg0-of  (x1 / 相同-01
+))            :condition  (x6 / 阳光
+)            :manner  (x8 / 飞快
+)            :aspect  (x10 / 过
+))      :arg2  (x13 / 怀疑-01
+            :arg0  (x12 / 我
+)            :arg1  (x15 / 能否-01
+                  :arg0  (x16_x17_x18 / 看清-01
+                        :arg0  (x14 / 老人
+)))))
+===========================
+“你看你看！那个脚上有环的是老沙！”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x3 / 看-02
+                  :arg0  (x2 / 你
+))            :op2  (x5 / 看-02
+                  :arg0  (x4 / x2
+))            :mode  (x6 / expressive
+)            :op3  (x14 / 老沙
+                  :domain  (x25 / animal
+                        :part  (x8 / 脚
+                              :arg0-of  (x10 / 有-03
+                                    :arg1  (x11 / 环
+)))                        :mod  (x7_1 / 那
+)                        :cunit  (x7_2 / 个
+))                  :mode  (x15 / expressive
+))))
+===========================
+老人得意地指给我看，他忽然对着水面大喊了一声：“独脚！老沙！起来一下！”
+(x28 / temporal
+      :arg1  (x4 / 指-02
+            :arg0  (x1 / 老人
+)            :manner  (x2 / 得意-01
+                  :arg0  (x1 / 老人
+))            :beneficiary  (x6 / 我
+)            :purpose  (x7 / 看-02
+                  :arg0  (x6 / 我
+)))      :arg2  (x14 / 大喊-01
+            :arg0  (x9 / x1
+)            :direction  (x13 / 水面
+)            :mod  (x10 / 忽然
+)            :quant  (x16 / 1
+)            :cunit  (x17 / 声
+))      :arg3  (x51 / and
+            :op1  (x52 / and
+                  :op1  (x43 / animal
+                        :name  ( x20/脚 
+)                        :mode  (x21 / expressive
+))                  :op2  (x45 / animal
+                        :name  ( x23/沙 
+)                        :mode  (x24 / expressive
+)))            :op2  (x25_x26 / 起来-02
+                  :mode  (x27 / expressive
+)                  :arg0  (x52 / and
+))))
+===========================
+水面上应声跃起两只海鸥，向老人飞来。
+(x13 / temporal
+      :arg1  (x4 / 跃起
+            :arg0  (x7 / 海鸥
+                  :quant  (x5 / 2
+)                  :cunit  (x6 / 只
+))            :manner  (x3 / 应声
+)            :location  (x1 / 水面
+))      :arg2  (x11 / 飞来-01
+            :arg1  (x10 / 老人
+)            :arg0  (x7 / 海鸥
+)))
+===========================
+一只海鸥脚上果然闪着金属的光，另一只飞过来在老人手上啄食。
+(x23 / and
+      :op1  (x7 / 闪-01
+            :arg0  (x11 / 光-01
+                  :poss  (x9 / 金属
+))            :aspect  (x8 / 着
+)            :arg1  (x4 / 脚
+                  :part-of  (x3 / 海鸥
+                        :quant  (x1 / 1
+)                        :cunit  (x2 / 只
+)))            :mod  (x6 / 果然
+))      :op2  (x34 / temporal
+            :arg1  (x16 / 飞-01
+                  :direction  (x17 / 过来
+)                  :arg0  (x37 / animal
+                        :mod  (x13 / 另
+)                        :quant  (x14 / 1
+)                        :cunit  (x15 / 只
+)))            :arg2  (x21 / 啄食-01
+                  :location  (x20 / 手上
+                        :part-of  (x19 / 老人
+))                  :arg0  (x37 / animal
+))))
+===========================
+它只有一只脚，停落时不得不扇动翅膀保持平衡。
+(x17 / causation
+      :arg1  (x3 / 有-01
+            :arg0  (x1 / 它
+)            :mod  (x2 / 只
+)            :arg1  (x6 / 脚
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 只
+)))      :arg2  (x11 / 不得不
+            :arg0  (x12 / 扇动-01
+                  :arg1  (x13 / 翅膀
+)                  :purpose  (x14 / 保持-01
+                        :arg1  (x15 / 平衡
+)                        :arg0  (x1 / 它
+))                  :arg0  (x1 / 它
+))            :time  (x8_x9 / 停落-01
+                  :arg0  (x1 / 它
+))))
+===========================
+看来它就是独脚，老人边给它喂食边对它亲昵地说着话。
+(x22 / and
+      :op1  (x1 / 看来-01
+            :arg1  (x26 / animal
+                  :domain  (x2 / 它
+)                  :name  ( x5/脚 
+)))      :op2  (x28 / and
+            :op1  (x11 / 喂-01
+                  :arg0  (x7 / 老人
+)                  :arg1  (x12 / 食
+)                  :arg2  (x10 / x2
+))            :op2  (x18_x20 / 说话-01
+                  :arg0  (x7 / 老人
+)                  :manner  (x16 / 亲昵
+)                  :aspect  (x19 / 着
+)                  :arg1  (x15 / x2
+))))
+===========================
+谈起海鸥，老人的眼睛立刻生动起来。
+(x11 / condition
+      :arg1  (x1 / 谈起-01
+            :arg1  (x2 / 海鸥
+)            :arg0  (x4 / 老人
+))      :arg2  (x8_x9 / 生动-01
+            :arg0  (x6 / 眼睛
+                  :part-of  (x4 / 老人
+))            :time  (x7 / 立刻
+)))
+===========================
+“海鸥最重情义，心细着呢。
+(x11 / say
+      :arg1  (x13 / and
+            :op1  (x4 / 重-01
+                  :arg0  (x2 / 海鸥
+)                  :arg1  (x5 / 情义
+)                  :degree  (x3 / 最
+))            :op2  (x8 / 细-01
+                  :arg0  (x7 / 心
+)                  :mode  (x9 / expressive
+))))
+===========================
+前年有一只海鸥，飞离昆明前一天，连连在我帽子上歇落了五次，我以为它是跟我闹着玩，后来才晓得它是跟我告别。
+(x40 / temporal
+      :arg1  (x17_x18 / 歇落
+            :arg0  (x5 / 海鸥
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 只
+)                  :arg1-of  (x2 / 有-03
+)                  :arg0  (x1 / 前年
+))            :time  (x10 / 前一天
+                  :time-of  (x7_x8 / 飞离
+                        :arg1  (x50 / city
+                              :name  ( x9/昆明 
+))))            :manner  (x12 / 连连
+)            :location  (x15 / 帽子
+                  :poss  (x14 / 我
+))            :frequency  (x55 / rate-entity-91
+                  :quant  (x20 / 5
+)                  :unit  (x21 / 次
+))            :aspect  (x19 / 了
+))      :arg2  (x24 / 以为-01
+            :arg0  (x23 / x14
+)            :arg1  (x29 / 闹着玩
+                  :arg0  (x27 / and
+                        :op1  (x25 / x5
+)                        :op2  (x28 / x14
+))))      :arg3  (x33 / 晓得-01
+            :arg1  (x38 / 告别-01
+                  :arg0  (x34 / x5
+)                  :arg1  (x37 / x14
+))            :time  (x31 / 后来
+)            :arg0  (x37 / x14
+)))
+===========================
+它去年没有来，今年也没有来……
+(x14 / progression
+      :arg1  (x4 / 来-01
+            :arg0  (x1 / 它
+)            :polarity  (x3 / -
+)            :time  (x2 / 去年
+))      :arg2  (x9 / 来-01
+            :arg0  (x1 / 它
+)            :polarity  (x8 / -
+)            :mod  (x7 / 也
+)            :time  (x6 / 今年
+)))
+===========================
+海鸥是吉祥鸟、幸福鸟！
+(x10 / and
+      :op1  (x4 / 鸟
+            :mod  (x3 / 吉祥
+))      :op2  (x7 / 鸟
+            :mod  (x6 / 幸福
+))      :domain  (x1 / 海鸥
+)      :mode  (x8 / expressive
+))
+===========================
+古人说‘白鸥飞处带诗来’，十多年前，海鸥一来，我就知道咱们的福气来了。
+(x28 / and
+      :op1  (x2 / 说-01
+            :arg0  (x1 / 古人
+)            :arg1  (x7_x9 / 带来-01
+                  :arg1  (x8 / 诗
+)                  :arg0  (x6 / 处
+                        :location-of  (x5 / 飞-01
+                              :arg0  (x4 / 白鸥
+)))))      :op2  (x37 / condition
+            :arg1  (x17 / 来-01
+                  :arg0  (x15 / 海鸥
+))            :time  (x13 / 前
+                  :op1  (x42 / temporal-quantity
+                        :quant  (x12_1 / 多
+                              :op1  (x11 / 10
+))                        :unit  (x12_2 / 年
+)))            :arg2  (x21 / 知道-01
+                  :arg0  (x19 / 我
+)                  :arg1  (x25 / 来-01
+                        :arg0  (x24 / 福气
+                              :poss  (x22 / 咱们
+))                        :aspect  (x26 / 了
+)))))
+===========================
+你看它们那小模样！啧啧……”
+(x10 / say
+      :arg1  (x12 / and
+            :op1  (x2 / 看-02
+                  :arg0  (x1 / 你
+)                  :arg1  (x6 / 模样
+                        :arg0-of  (x5 / 小-01
+)                        :mod  (x4 / 那
+)                        :poss  (x3 / 它们
+))                  :mode  (x7 / expressive
+))            :op2  (x8 / 啧啧
+)))
+===========================
+海鸥听见老人唤，马上飞了过来，把他团团围住，引得路人都驻足观看。
+(x33 / causation
+      :arg1  (x24 / condition
+            :arg1  (x2 / 听见-01
+                  :arg0  (x1 / 海鸥
+)                  :arg1  (x4 / 唤-01
+                        :arg1  (x1 / 海鸥
+)                        :arg0  (x3 / 老人
+)))            :arg2  (x35 / temporal
+                  :arg1  (x7 / 飞-01
+                        :direction  (x9 / 过来
+)                        :aspect  (x8 / 了
+)                        :time  (x6 / 马上
+)                        :arg0  (x1 / 海鸥
+))                  :arg2  (x14 / 围住-01
+                        :arg1  (x12 / x3
+)                        :arg0  (x1 / 海鸥
+)                        :manner  (x13 / 团团
+))))      :arg2  (x16 / 引得
+            :arg1  (x20 / 观看-01
+                  :arg0  (x17 / 路人
+)                  :manner  (x19 / 驻足-01
+                        :arg0  (x17 / 路人
+))                  :extent  (x18 / 都
+))))
+===========================
+太阳偏西，老人的塑料袋空了。
+(x11 / and
+      :op1  (x2 / 偏-01
+            :arg0  (x1 / 太阳
+)            :arg1  (x3 / 西
+))      :op2  (x8 / 空-01
+            :arg0  (x7 / 塑料袋
+                  :poss  (x5 / 老人
+))            :aspect  (x9 / 了
+)))
+===========================
+“时候不早了，再过一会儿它们就要回去啦。
+(x15 / say
+      :arg1  (x17 / causation
+            :arg1  (x4 / 早-01
+                  :arg0  (x2 / 时候
+)                  :polarity  (x3 / -
+)                  :aspect  (x5 / 了
+))            :arg2  (x22 / temporal
+                  :arg1  (x8 / 过-02
+                        :arg1  (x9 / 一会儿
+)                        :mod  (x7 / 再
+))                  :arg2  (x11_2 / 要-03
+                        :mod  (x11_1 / 就
+)                        :arg0  (x12 / 回去-01
+                              :arg0  (x10 / 它们
+))                        :mode  (x13 / expressive
+)))))
+===========================
+听说它们歇在滇池里，可惜我去不了。”老人望着高空盘旋的鸥群，眼睛里带着企盼。
+(x29 / and
+      :op1  (x31 / say
+            :arg1  (x32 / contrast
+                  :arg1  (x1 / 听说-01
+                        :arg1  (x3 / 歇-01
+                              :arg1  (x35 / lake
+                                    :name  ( x5/滇池 
+))                              :arg0  (x2 / 它们
+)))                  :arg2  (x8 / 可惜-01
+                        :arg0  (x12 / possible
+                              :arg0  (x10 / 去-01
+                                    :arg0  (x9 / 我
+))                              :polarity  (x11 / -
+)))))      :op2  (x15 / 望-01
+            :arg0  (x14 / x9
+)            :arg1  (x21 / 群
+                  :mod  (x20 / 鸥
+)                  :arg0-of  (x18 / 盘旋-01
+                        :location  (x17 / 高空
+)))            :aspect  (x16 / 着
+))      :op3  (x25 / 带-01
+            :arg0  (x23 / 眼睛
+)            :arg1  (x27 / 企盼-01
+                  :arg0  (x14 / x9
+))            :aspect  (x26 / 着
+)))
+===========================
+朋友告诉我，十多年了，一到冬天，老人每天必来，和海鸥就像亲人一样。
+(x2 / 告诉-01
+      :arg0  (x1 / 朋友
+)      :arg1  (x29 / condition
+            :arg1  (x10 / 到-01
+                  :arg1  (x31 / date-entity
+                        :season  (x11 / 冬天
+))                  :arg2  (x33 / and
+                        :op1  (x15 / 必-01
+                              :arg0  (x16 / 来-01
+                                    :arg0  (x13 / 老人
+))                              :frequency  (x37 / rate-entity-91
+                                    :arg3  (x38 / temporal-quantity
+                                          :quant  (x14_1 / 1
+)                                          :unit  (x14_2 / 天
+))))                        :op2  (x21_x23 / 像-01
+                              :arg0  (x19 / 海鸥
+)                              :arg1  (x22 / 亲人
+))))            :time  (x45 / temporal-quantity
+                  :quant  (x6_1 / 多
+                        :op1  (x5 / 10
+))                  :unit  (x6_2 / 年
+)                  :aspect  (x7 / 了
+))))
+===========================
+没想到十多天后，忽然有人告诉我们：老人去世了。
+(x2 / 想到-01
+      :polarity  (x1 / -
+)      :arg1  (x9 / 告诉-01
+            :arg0  (x8_2 / 人
+                  :arg1-of  (x8_1 / 有-03
+))            :arg2  (x10 / 我们
+)            :arg1  (x13 / 去世-01
+                  :arg0  (x12 / 老人
+)                  :aspect  (x14 / 了
+))            :mod  (x7 / 忽然
+)            :time  (x5 / 后
+                  :arg0  (x28 / temporal-quantity
+                        :quant  (x4_1 / 多
+                              :op1  (x3 / 10
+))                        :unit  (x4_2 / 天
+)))))
+===========================
+听到这个消息，我们仿佛又看见老人和海鸥在翠湖边相依相随……
+(x18 / temporal
+      :arg1  (x1 / 听到-01
+            :arg1  (x3 / 消息
+                  :mod  (x2_1 / 这
+)                  :cunit  (x2_2 / 个
+)))      :arg2  (x6 / 仿佛-01
+            :arg0  (x8 / 看见-01
+                  :arg0  (x5 / 我们
+)                  :arg1  (x27 / and
+                        :op1  (x15 / 相依-01
+                              :arg0  (x10 / and
+                                    :op1  (x9 / 老人
+)                                    :op2  (x11 / 海鸥
+)))                        :op2  (x16 / 相随-01
+                              :arg0  (x10 / and
+))                        :location  (x14 / 边
+                              :arg0  (x34 / lake
+                                    :name  ( x13/翠湖 
+))))                  :mod  (x7 / 又
+))))
+===========================
+我们把老人最后一次喂海鸥的照片放大，带到了翠湖边。
+(x18 / temporal
+      :arg1  (x11 / 放大-01
+            :arg0  (x1 / 我们
+)            :arg1  (x10 / 照片
+                  :mod  (x7 / 喂-01
+                        :arg0  (x3 / 老人
+)                        :arg2  (x8 / 海鸥
+)                        :ord  (x26 / ordinal-entity
+                              :value  (x5 / 1
+)                              :unit  (x6 / 次
+)                              :mod  (x4 / 最后
+)))))      :arg2  (x13 / 带到-01
+            :arg2  (x16 / 边
+                  :arg0  (x32 / lake
+                        :name  ( x15/翠湖 
+)))            :aspect  (x14 / 了
+)            :arg0  (x1 / 我们
+)            :arg1  (x10 / 照片
+)))
+===========================
+意想不到的事情发生了——群海鸥突然飞来，围着老人的遗像翻飞盘旋，连声鸣叫，叫声和姿势与平时大不一样，像是发生了什么大事。
+(x4 / 发生-01
+      :arg0  (x3 / 事情
+            :arg1-of  (x1 / 意想不到-01
+)            :arg0-of  (x42 / mean
+                  :arg1  (x31 / 像-01
+                        :arg0  (x45 / temporal
+                              :arg1  (x10 / 飞来-01
+                                    :arg0  (x8 / 海鸥
+)                                    :mod  (x9 / 突然
+))                              :arg2  (x49 / and
+                                    :op1  (x16 / 翻飞-01
+                                          :arg0  (x8 / 海鸥
+))                                    :op2  (x17 / 盘旋-01
+                                          :arg0  (x8 / 海鸥
+))                                    :manner  (x12_1 / 围-01
+                                          :arg1  (x15 / 遗像
+                                                :poss  (x13 / 老人
+))                                          :aspect  (x12_2 / 着
+)))                              :arg3  (x57 / contrast
+                                    :arg1  (x20 / 鸣叫-01
+                                          :manner  (x19 / 连声
+)                                          :arg0  (x8 / 海鸥
+))                                    :arg2  (x29 / 一样-02
+                                          :polarity  (x28 / -
+                                                :degree  (x27 / 大
+))                                          :arg0  (x23 / and
+                                                :op1  (x22 / 叫声
+)                                                :op2  (x24 / 姿势
+))                                          :arg1  (x66 / thing
+                                                :dcopy  (x23 / and
+)                                                :time  (x26 / 平时
+)))))                        :arg1  (x33 / 发生-01
+                              :arg0  (x36 / 大事
+                                    :mod  (x35 / 什么
+))                              :aspect  (x34 / 了
+)))))      :aspect  (x5 / 了
+))
+===========================
+我们非常惊异，急忙从老人的照片旁退开，为海鸥们让出了一片空地。
+(x24 / temporal
+      :arg1  (x3 / 惊异-01
+            :arg0  (x1 / 我们
+)            :degree  (x2 / 非常
+))      :arg2  (x11_x12 / 退-02
+            :arg0  (x1 / 我们
+)            :manner  (x5 / 急忙
+)            :source  (x10 / 旁
+                  :arg0  (x9 / 照片
+                        :poss  (x7 / 老人
+)))            :purpose  (x17_x18 / 让出-01
+                  :arg1  (x22 / 空地
+                        :quant  (x20 / 1
+)                        :cunit  (x21 / 片
+))                  :aspect  (x19 / 了
+)                  :beneficiary  (x15_x16 / 海鸥们
+)                  :arg0  (x1 / 我们
+))))
+===========================
+海鸥们急速扇动翅膀，轮流飞到老人遗像前的空中，像是前来瞻仰遗容的亲属。
+(x16 / 像-01
+      :arg0  (x26 / and
+            :op1  (x4 / 扇动-01
+                  :arg0  (x1_x2 / 海鸥们
+)                  :arg1  (x5 / 翅膀
+)                  :manner  (x3 / 急速
+))            :op2  (x8_x9 / 飞到-01
+                  :arg1  (x14 / 空中
+                        :mod  (x12 / 前
+                              :arg0  (x11 / 遗像
+                                    :poss  (x10 / 老人
+))))                  :manner  (x7 / 轮流-01
+                        :arg0  (x1_x2 / 海鸥们
+))                  :arg0  (x1_x2 / 海鸥们
+)))      :arg1  (x22 / 亲属
+            :arg0-of  (x18 / 前来-01
+                  :arg1  (x19 / 瞻仰-01
+                        :arg1  (x20 / 遗容
+)                        :arg0  (x1_x2 / 海鸥们
+))                  :arg0  (x1_x2 / 海鸥们
+))))
+===========================
+照片上的老人默默地注视着周围盘旋翻飞的海鸥们，注视着与他相伴了多少个冬天的“儿女”们……过了一会儿，海鸥纷纷落地，竟在老人遗像前后站成了两行。
+(x50 / temporal
+      :arg1  (x52 / and
+            :op1  (x7 / 注视-01
+                  :arg0  (x4 / 老人
+                        :location  (x1 / 照片
+))                  :manner  (x5 / 默默
+)                  :aspect  (x8 / 着
+)                  :arg1  (x13_x14 / 海鸥们
+                        :arg0-of  (x11 / 翻飞-01
+)                        :arg0-of  (x10 / 盘旋-01
+)                        :location  (x9 / 周围
+)))            :op2  (x16 / 注视
+                  :arg1  (x27_x29 / 儿女们
+                        :arg0-of  (x20 / 相伴-01
+                              :arg1  (x19 / x4
+)                              :duration  (x24 / 冬天
+                                    :quant  (x22 / amr-unknown
+)                                    :cunit  (x23 / 个
+))                              :aspect  (x21 / 了
+)))                  :aspect  (x17 / 着-01
+)))      :arg2  (x31 / 过-02
+            :arg1  (x33 / 一会儿
+)            :aspect  (x32 / 了
+))      :arg3  (x37 / 落地-01
+            :arg0  (x35 / 海鸥
+)            :manner  (x36 / 纷纷
+))      :arg4  (x44 / 站-01
+            :cause-of  (x48 / 行
+                  :quant  (x47 / 2
+))            :aspect  (x46 / 了
+)            :arg1  (x43 / 前后
+                  :arg0  (x42 / 遗像
+                        :poss  (x41 / x4
+)))            :mod  (x39 / 竟
+)            :arg0  (x35 / 海鸥
+)))
+===========================
+它们肃立不动，像是为老人守灵的白翼天使。
+(x6 / 像-01
+      :arg0  (x4 / 动-01
+            :polarity  (x3 / -
+)            :manner  (x2 / 肃立-01
+                  :arg0  (x1 / 它们
+))            :arg1  (x1 / 它们
+))      :arg1  (x15 / 天使
+            :mod  (x14 / 翼
+                  :arg0-of  (x13 / 白-01
+)                  :arg0-of  (x10_x11 / 守灵-01
+                        :arg1  (x9 / 老人
+)))))
+===========================
+当我们不得不去收起遗像的时候，海鸥们像炸了营似的朝遗像扑过来。
+(x19 / 扑-02
+      :direction  (x20 / 过来
+)      :arg0  (x10_x11 / 海鸥们
+)      :manner  (x12_x16 / 像
+            :arg1  (x13 / 炸-01
+                  :arg1  (x15 / 营
+)                  :aspect  (x14 / 了
+)))      :direction  (x18 / 遗像
+)      :time  (x3 / 不得不
+            :arg0  (x5 / 收起-01
+                  :arg1  (x6 / 遗像
+)                  :arg0  (x2 / 我们
+))))
+===========================
+它们大声鸣叫着，翅膀扑得那样近，我们好不容易才从这片飞动的白色旋涡中脱出身来。……在为老人举行的葬礼上，我们抬着那幅遗像缓缓向灵堂走去。
+(x47 / multi-sentence
+      :snt1  (x49 / and
+            :op1  (x3 / 鸣叫-01
+                  :arg0  (x1 / 它们
+)                  :manner  (x2 / 大声
+)                  :aspect  (x4 / 着
+))            :op2  (x7 / 扑-01
+                  :manner  (x10 / 近
+                        :mod  (x9 / 那样
+))                  :arg0  (x6 / 翅膀
+))            :op3  (x13 / 好不容易
+                  :arg0  (x23_x24_x25_x26 / 脱身-01
+                        :arg0  (x12 / 我们
+)                        :mod  (x14 / 才
+)                        :source  (x21 / 旋涡
+                              :arg0-of  (x20 / 白色
+)                              :arg0-of  (x18 / 飞动
+)                              :mod  (x16 / 这
+)                              :cunit  (x17 / 片
+)))))      :snt2  (x44_x45 / 走去-01
+            :arg0  (x36 / x12
+)            :arg1  (x43 / 灵堂
+)            :manner  (x41 / 缓缓-01
+                  :arg0  (x36 / x12
+))            :manner  (x37 / 抬-01
+                  :arg1  (x40 / 遗像
+                        :mod  (x39_1 / 那
+)                        :cunit  (x39_2 / 幅
+))                  :aspect  (x38 / 着
+)                  :arg0  (x36 / x12
+))            :location  (x33 / 葬礼
+                  :arg1-of  (x31 / 举行-01
+                        :beneficiary  (x30 / 老人
+)                        :arg0  (x36 / x12
+)))))
+===========================
+老人背着那个蓝布包，撮着嘴，好像还在呼唤着海鸥们。
+(x12 / 好像-01
+      :arg0  (x22 / and
+            :op1  (x2 / 背
+                  :arg0  (x1 / 老人
+)                  :arg1  (x6 / 包
+                        :consist-of  (x5 / 蓝布
+)                        :mod  (x4_1 / 那
+)                        :cunit  (x4_2 / 个
+))                  :aspect  (x3 / 着-01
+))            :op2  (x8 / 撮-01
+                  :arg1  (x10 / 嘴
+)                  :aspect  (x9 / 着
+)                  :arg0  (x1 / 老人
+)))      :arg1  (x15 / 呼唤-01
+            :arg1  (x17_x18 / 海鸥们
+)            :aspect  (x16 / 着
+)            :aspect  (x14 / 在
+)            :mod  (x13 / 还
+)))
+===========================
+他的心里，一定是飞翔的鸥群。
+(x10 / 群
+      :mod  (x9 / 鸥
+)      :arg0-of  (x7 / 飞翔
+)      :domain  (x3 / 心里
+            :poss  (x1 / 他
+))      :mod  (x5 / 一定
+))
+===========================

@@ -1,0 +1,649 @@
+不少人看到过象，都说象是很大的动物。
+(x16 / and
+      :op1  (x3 / 看到-01
+            :arg0  (x2 / 人
+                  :quant  (x1 / 不少
+))            :aspect  (x4 / 过
+)            :arg1  (x5 / 象
+))      :op2  (x8 / 说-01
+            :arg1  (x14 / 动物
+                  :arg0-of  (x12 / 大-01
+                        :degree  (x11 / 很
+))                  :domain  (x9 / x5
+                        :mod  (x7 / 都
+)))            :arg0  (x2 / 人
+)))
+===========================
+其实还有比象大得多的动物，那就是鲸。
+(x15 / and
+      :op1  (x2_2 / 有-03
+            :arg1  (x9 / 动物
+                  :arg0-of  (x5 / 大-01
+                        :degree  (x7 / 多
+)                        :compared-to  (x4 / 象
+)))            :mod  (x2_1 / 还
+)            :mod  (x1 / 其实
+))      :op2  (x13 / 鲸
+            :domain  (x11 / x9
+)))
+===========================
+目前已知最大的鲸约十六万公斤重，最小的也有两千公斤。
+(x21 / and
+      :op1  (x11 / 重-03
+            :arg0  (x7 / 鲸
+                  :arg0-of  (x5 / 大-01
+                        :degree  (x4 / 最
+))                  :arg1-of  (x3 / 知-01
+                        :aspect  (x2 / 已
+)))            :arg1  (x29 / mass-quantity
+                  :quant  (x8 / 约
+                        :op1  (x9 / 160000
+))                  :unit  (x10 / 公斤
+))            :time  (x1 / 目前
+))      :op2  (x17 / 有-02
+            :arg0  (x35 / animal
+                  :arg0-of  (x14 / 小-01
+                        :degree  (x13 / 最
+))                  :dcopy  (x7 / 鲸
+))            :mod  (x16 / 也
+)            :arg1  (x39 / mass-quantity
+                  :quant  (x18 / 2000
+)                  :unit  (x19 / 公斤
+))))
+===========================
+我国发现过一头近四万公斤重的鲸，约十七米长，一条舌头就有十几头大肥猪那么重。
+(x32 / and
+      :op1  (x2 / 发现-01
+            :arg0  (x1 / 我国
+)            :arg1  (x11 / 鲸
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 头
+)                  :arg0-of  (x9 / 重-03
+                        :arg1  (x40 / mass-quantity
+                              :quant  (x6 / 近
+                                    :op1  (x7 / 40000
+))                              :unit  (x8 / 公斤
+))))            :aspect  (x3 / 过
+))      :op2  (x16 / 长-02
+            :arg1  (x46 / distance-quantity
+                  :quant  (x13 / 约
+                        :op1  (x14 / 17
+))                  :unit  (x15 / 米
+)))      :op3  (x22 / 有-02
+            :arg0  (x20 / 舌头
+                  :quant  (x18 / 1
+)                  :cunit  (x19 / 条
+))            :arg1  (x28 / 重
+                  :mod  (x26 / 肥猪
+                        :quant  (x23_2 / more-than
+                              :op1  (x23_1 / 10
+))                        :cunit  (x24 / 头
+)                        :arg0-of  (x25 / 大-01
+))                  :degree  (x27 / 那么
+))            :mod  (x21 / 就
+)))
+===========================
+它要是张开嘴，人站在它嘴里，举起手来还摸不到它的上腭，四个人围着桌子坐在它的嘴里看书，还显得宽敞。
+(x41 / condition
+      :arg1  (x3 / 张开-01
+            :arg0  (x1 / 它
+)            :arg1  (x4 / 嘴
+))      :arg2  (x46 / and
+            :op1  (x7 / 站-01
+                  :arg0  (x6 / 人
+)                  :arg1  (x10 / 嘴里
+                        :part-of  (x9 / x1
+)))            :op2  (x51 / condition
+                  :arg1  (x12_x14 / 举起-01
+                        :arg1  (x13 / 手
+)                        :arg0  (x6 / 人
+))                  :arg2  (x16_x18 / 摸到-01
+                        :polarity  (x17 / -
+)                        :arg1  (x21 / 上腭
+                              :part-of  (x19 / x1
+))                        :arg0  (x6 / 人
+)))            :op3  (x38 / 显得-01
+                  :arg1  (x39 / 宽敞
+)                  :mod  (x37 / 还
+)                  :arg0  (x61 / and
+                        :op1  (x26 / 围-01
+                              :arg1  (x28 / 桌子
+)                              :arg0  (x25 / 人
+                                    :quant  (x23 / 4
+)                                    :cunit  (x24 / 个
+))                              :aspect  (x27 / 着
+))                        :op2  (x29 / 坐-01
+                              :arg1  (x33 / 嘴里
+                                    :part-of  (x31 / x1
+))                              :arg0  (x25 / 人
+))                        :op3  (x34 / 看-02
+                              :arg1  (x35 / 书
+)                              :arg0  (x25 / 人
+))))))
+===========================
+鲸生活在海洋里，因为体形像鱼，许多人管它叫鲸鱼。
+(x19 / and
+      :op1  (x2 / 生活-01
+            :arg0  (x1 / 鲸
+)            :arg1  (x4 / 海洋
+))      :op2  (x24 / causation
+            :arg1  (x9 / 像-01
+                  :arg0  (x8 / 体形
+)                  :arg1  (x10 / 鱼
+))            :arg2  (x14 / 管
+                  :arg0  (x13 / 人
+                        :quant  (x12 / 许多
+))                  :arg1  (x15 / x1
+)                  :arg2  (x16 / 叫-01
+                        :arg1  (x17 / 鲸鱼
+)                        :arg0  (x15 / x1
+)))))
+===========================
+其实它不属于鱼类，而是哺乳动物。
+(x11 / contrast
+      :arg1  (x4 / 属于-01
+            :arg0  (x2 / 它
+)            :polarity  (x3 / -
+)            :arg1  (x5 / 鱼类
+)            :mod  (x1 / 其实
+))      :arg2  (x9 / 哺乳动物
+            :domain  (x2 / 它
+)))
+===========================
+在很远的古代，鲸的祖先跟牛羊的祖先一样。
+(x15 / 一样-01
+      :arg0  (x10 / and
+)      :op1  (x9 / 祖先
+            :poss  (x7 / 鲸
+)            :op2  (x14 / 祖先
+                  :poss  (x23 / and
+                        :op1  (x11 / 牛
+)                        :op2  (x12 / 羊
+))))      :time  (x5 / 古代
+            :arg0-of  (x3 / 远-01
+                  :degree  (x2 / 很
+))))
+===========================
+后来环境发生了变化，鲸的祖先生活在靠近陆地的浅海里。
+(x18 / causation
+      :arg1  (x3 / 发生-01
+            :arg0  (x5 / 变化
+)            :aspect  (x4 / 了
+)            :arg1  (x2 / 环境
+)            :time  (x1 / 后来
+))      :arg2  (x10 / 生活-01
+            :arg0  (x9 / 祖先
+                  :poss  (x7 / 鲸
+))            :arg1  (x15 / 浅海
+                  :arg0-of  (x12 / 靠近-01
+                        :arg1  (x13 / 陆地
+)))))
+===========================
+又经过了很长很长的年代，它们的前肢和尾巴渐渐变成了鳍，后肢完全退化了，整个身子成了鱼的样子，适应了海洋的生活。
+(x42 / temporal
+      :arg2  (x2 / 经过-01
+            :arg1  (x9 / 年代
+                  :arg0-of  (x5_x7 / 长-02
+                        :degree  (x4_x6 / 很
+)))            :aspect  (x3 / 了
+))      :arg3  (x18 / 变成-01
+            :arg1  (x15 / and
+                  :op1  (x14 / 肢
+                        :mod  (x13 / 前
+))                  :op2  (x16 / 尾巴
+)                  :part-of  (x11 / 它们
+))            :manner  (x17 / 渐渐
+)            :aspect  (x19 / 了
+)            :arg2  (x20 / 鳍
+))      :arg4  (x25 / 退化-01
+            :arg0  (x23 / 肢
+                  :mod  (x22 / 后
+))            :manner  (x24 / 完全
+)            :aspect  (x26 / 了
+))      :arg4  (x63 / and
+            :op1  (x30 / 成-01
+                  :arg0  (x29 / 身子
+                        :mod  (x28 / 整个
+))                  :arg1  (x34 / 样子
+                        :poss  (x32 / 鱼
+))                  :aspect  (x31 / 了
+))            :op2  (x36 / 适应-01
+                  :arg1  (x40 / 生活-01
+                        :arg1  (x38 / 海洋
+)                        :arg0  (x11 / 它们
+))                  :aspect  (x37 / 了
+)                  :arg0  (x11 / 它们
+))))
+===========================
+鲸的种类很多，总的来说可以分为两大类：一类是须鲸，没有牙齿；一类是齿鲸，有锋利的牙齿。
+(x29 / and
+      :op1  (x4_2 / 多-03
+            :degree  (x4_1 / 很
+)            :arg0  (x3 / 种类
+                  :mod  (x1 / 鲸
+)))      :op2  (x7 / 可以-01
+            :arg0  (x8 / 分为-01
+                  :arg2  (x11 / 类
+                        :quant  (x9 / 2
+)                        :arg0-of  (x10 / 大-04
+)                        :arg0-of  (x40 / mean
+                              :arg1  (x42 / and
+                                    :op1  (x43 / and
+                                          :op1  (x15 / 须鲸
+                                                :domain  (x13 / 一类
+))                                          :op2  (x17_2 / 有-01
+                                                :arg1  (x18 / 牙齿
+)                                                :polarity  (x17_1 / -
+)                                                :arg0  (x15 / 须鲸
+)))                                    :op2  (x49 / and
+                                          :op1  (x22 / 齿鲸
+                                                :domain  (x20 / 一类
+))                                          :op2  (x24 / 有-01
+                                                :arg1  (x27 / 牙齿
+                                                      :arg0-of  (x25 / 锋利-01
+))                                                :arg0  (x22 / 齿鲸
+)))))))            :mod  (x6 / 总的来说
+)))
+===========================
+鲸的身子这么大，它们吃什么呢？
+(x12 / and
+      :op1  (x5 / 大-01
+            :degree  (x4 / 这么
+)            :arg0  (x3 / 身子
+                  :poss  (x1 / 鲸
+)))      :op2  (x8 / 吃-01
+            :arg1  (x9 / amr-unknown
+)            :mode  (x10_x11 / interrogative
+)            :arg0  (x7 / x1
+)))
+===========================
+须鲸主要吃虾和小鱼。
+(x3 / 吃-01
+      :arg0  (x1 / 须鲸
+)      :mod  (x2 / 主要
+)      :arg1  (x5 / and
+            :op1  (x4 / 虾
+)            :op2  (x7 / 鱼
+                  :arg0-of  (x6 / 小-01
+))))
+===========================
+它们在海洋里游的时候，张着大嘴，把许多小鱼连同海水一齐吸进嘴里，然后闭上嘴，把海水从须板中间滤出来，把小鱼小虾吞进肚子里，一顿就可以吃两千多公斤。
+(x57 / temporal
+      :time  (x5 / 游-01
+            :arg0  (x1 / 它们
+)            :arg1  (x3 / 海洋
+))      :arg1  (x9 / 张-01
+            :arg0  (x1 / 它们
+)            :arg1  (x12 / 嘴
+                  :arg0-of  (x11 / 大-01
+))            :aspect  (x10 / 着
+))      :arg2  (x21 / 吸-01
+            :destination  (x23 / 嘴里
+)            :arg1  (x18_x20 / and
+                  :op1  (x17 / 鱼
+                        :arg0-of  (x16 / 小-01
+)                        :quant  (x15 / 许多
+))                  :op2  (x19 / 海水
+))            :arg0  (x1 / 它们
+))      :arg3  (x26_x27_x28 / 闭嘴-01
+            :arg0  (x1 / 它们
+))      :arg4  (x35 / 滤
+            :arg1  (x31 / 海水
+)            :direction  (x36 / 出来
+)            :source  (x34 / 中间
+                  :arg0  (x33 / 须板
+))            :arg0  (x1 / 它们
+))      :arg5  (x43 / 吞-01
+            :arg1  (x81 / and
+                  :op1  (x40 / 鱼
+                        :arg0-of  (x39 / 小-01
+))                  :op2  (x42 / 虾
+                        :arg0-of  (x41 / 小-01
+)))            :location  (x46 / 里
+                  :arg0  (x45 / 肚子
+))            :arg0  (x1 / 它们
+))      :arg6  (x51 / 可以-01
+            :arg0  (x52 / 吃-01
+                  :arg1  (x96 / rate-entity-91
+                        :arg1  (x91 / mass-quantity
+                              :quant  (x54 / 多
+                                    :op1  (x53 / 2000
+))                              :unit  (x55 / 公斤
+)))                  :arg2  (x49 / 顿
+                        :quant  (x48 / 1
+))                  :arg0  (x1 / 它们
+))            :mod  (x50 / 就
+)))
+===========================
+齿鲸主要吃大鱼和海兽。
+(x3 / 吃-01
+      :mod  (x2 / 主要
+)      :arg1  (x5 / and
+            :op1  (x4 / 大鱼
+)            :op2  (x6 / 海兽
+))      :arg0  (x1 / 齿鲸
+))
+===========================
+它们遇到大鱼和海兽，就凶猛地扑上去，用锋利的牙齿咬住，很快就吃掉了。
+(x27 / temporal
+      :arg1  (x2 / 遇到-01
+            :arg0  (x1 / 它们
+)            :arg1  (x5 / and
+                  :op1  (x4 / 鱼
+                        :arg0-of  (x3 / 大-01
+))                  :op2  (x6 / 海兽
+)))      :arg2  (x11_x12 / 扑-02
+            :manner  (x9 / 凶猛
+                  :arg0  (x1 / 它们
+))            :arg0  (x1 / 它们
+))      :arg3  (x14 / 用-01
+            :arg1  (x17 / 牙齿
+                  :arg0-of  (x15 / 锋利-01
+))            :arg2  (x18_x19 / 咬-01
+                  :arg1  (x5 / and
+)                  :arg0  (x1 / 它们
+))            :arg0  (x1 / 它们
+))      :arg4  (x23_x24 / 吃掉-01
+            :time  (x21 / 很快
+)            :aspect  (x25 / 了
+)            :arg0  (x1 / 它们
+)            :arg1  (x5 / and
+)))
+===========================
+有种号称“海中之虎”的虎鲸，常常好几十头结成一群，围住一头三十多吨重的长须鲸，几个小时就能把它吃光。
+(x36 / and
+      :op1  (x1 / 有-03
+            :arg1  (x8 / 虎鲸
+                  :arg0-of  (x3 / 号称-01
+                        :arg1  (x5 / 海中之虎
+))                  :cunit  (x2 / 种
+)))      :op2  (x13 / 结成-01
+            :arg2  (x15 / 群
+                  :quant  (x14 / 一
+))            :arg1  (x46 / animal
+                  :dcopy  (x8 / 虎鲸
+)                  :cunit  (x12 / 头
+)                  :quant  (x11_2 / 几
+                        :op1  (x11_3 / 10
+)                        :mod  (x11_1 / 好
+)))            :frequency  (x10 / 常常
+))      :op3  (x17 / 围住-01
+            :arg1  (x25 / 长须鲸
+                  :arg0-of  (x23 / 重-03
+                        :arg1  (x55 / mass-quantity
+                              :quant  (x21 / 多
+                                    :op1  (x20 / 30
+))                              :cunit  (x22 / 吨
+)))                  :quant  (x18 / 1
+)                  :cunit  (x19 / 头
+))            :arg0  (x8 / 虎鲸
+))      :op3  (x31 / 能-01
+            :arg0  (x34 / 吃光-01
+                  :arg1  (x33 / x25
+)                  :arg0  (x8 / 虎鲸
+))            :time  (x64 / temporal-quantity
+                  :quant  (x27_x28 / 几
+)                  :unit  (x29 / 小时
+))            :mod  (x30 / 就
+)))
+===========================
+鲸跟牛羊一样用肺呼吸，这也说明它不属于鱼类。
+(x18 / causation
+      :arg1  (x6 / 用-01
+            :arg0  (x1 / 鲸
+)            :manner  (x5 / 一样-02
+                  :arg1  (x23 / and
+                        :op1  (x3 / 牛
+)                        :op2  (x4 / 羊
+))                  :arg0  (x1 / 鲸
+))            :arg1  (x7 / 肺
+)            :arg2  (x8 / 呼吸-01
+                  :arg0  (x1 / 鲸
+)))      :arg2  (x12 / 说明-01
+            :arg0  (x10 / x6
+)            :arg1  (x15 / 属于-01
+                  :arg0  (x13 / x1
+)                  :polarity  (x14 / -
+)                  :arg1  (x16 / 鱼类
+))            :mod  (x11 / 也
+)))
+===========================
+鲸的鼻孔长在脑袋顶上，呼气的时候浮出海面，从鼻孔喷出来的气形成一股水柱，就像花园里的喷泉一样；等肺里吸足了气，再潜入水中。
+(x47 / and
+      :op1  (x4 / 长-01
+            :location  (x7_1 / 顶
+                  :mod  (x6 / 脑袋
+))            :arg1  (x3 / 鼻孔
+                  :part-of  (x1 / 鲸
+)))      :op2  (x55 / temporal
+            :arg1  (x13_x14 / 浮出-01
+                  :time  (x9 / 呼-01
+                        :arg1  (x10 / 气
+)                        :arg0  (x1 / 鲸
+))                  :arg0  (x3 / 鼻孔
+)                  :arg1  (x15 / 海面
+))            :arg2  (x67 / and
+                  :op1  (x23 / 形成-01
+                        :arg1  (x22 / 气
+                              :arg1-of  (x19_x20 / 喷-01
+                                    :source  (x18 / 鼻孔
+)))                        :arg2  (x26 / 水柱
+                              :quant  (x24 / 1
+)                              :cunit  (x25 / 股
+)))                  :op2  (x29_x33 / 像-01
+                        :arg1  (x32 / 喷泉
+                              :location  (x30_1_2 / 花园
+))                        :arg0  (x26 / 水柱
+)))            :arg3  (x35 / 等-01
+                  :arg1  (x38 / 吸-01
+                        :cause-of  (x39 / 足
+)                        :arg1  (x41 / 气
+)                        :aspect  (x40 / 了
+)                        :arg0  (x36 / 肺
+))                  :arg0  (x1 / 鲸
+))            :arg4  (x44 / 潜入-01
+                  :arg1  (x45 / 水中
+)                  :arg0  (x1 / 鲸
+))))
+===========================
+鲸隔一定的时间必须呼吸一次。
+(x6 / 必须-02
+      :arg0  (x7 / 呼吸-01
+            :manner  (x2 / 隔-01
+                  :arg1  (x5 / 时间
+                        :mod  (x3 / 一定
+)))            :quant  (x8 / 1
+)            :cunit  (x9 / 次
+)            :arg0  (x1 / 鲸
+)))
+===========================
+不同种类的鲸，喷出的气形成的水柱也不一样：须鲸的水柱是垂直的，又细又高；齿鲸的水柱是倾斜的，又粗又矮。
+(x41 / and
+      :op1  (x15 / 一样-01
+            :polarity  (x14 / -
+)            :arg0  (x12 / 水柱
+                  :arg2-of  (x10 / 形成-01
+                        :arg1  (x9 / 气
+                              :arg1-of  (x6_x7 / 喷-01
+                                    :arg0  (x4 / 鲸
+                                          :mod  (x2 / 种类
+                                                :arg0-of  (x1_2 / 同-01
+                                                      :polarity  (x1_1 / -
+))))))))            :mod  (x13 / 也
+))      :op2  (x54 / and
+            :op1  (x21 / 垂直-01
+                  :arg0  (x19 / 水柱
+                        :poss  (x17 / 须鲸
+))                  :mode  (x20_x22 / judgement
+))            :op2  (x25 / 细-01
+                  :arg0  (x19 / 水柱
+))            :op3  (x27 / 高-01
+                  :arg0  (x19 / 水柱
+)))      :op3  (x65 / and
+            :op1  (x33 / 倾斜-01
+                  :arg1  (x31 / 水柱
+                        :poss  (x29 / 齿鲸
+))                  :mode  (x32_x34 / judgement
+))            :op2  (x37 / 粗-01
+                  :arg0  (x31 / 水柱
+))            :op3  (x39 / 矮-01
+                  :arg0  (x31 / 水柱
+))))
+===========================
+有经验的人根据水柱的形状，就可以判断鲸的种类和大小。
+(x11 / 可以-01
+      :arg0  (x12 / 判断-01
+            :arg1  (x16 / and
+                  :op1  (x15 / 种类
+                        :mod  (x13 / 鲸
+))                  :op2  (x17 / 大小
+                        :mod  (x13 / 鲸
+)))            :arg0  (x4 / 人
+                  :arg0-of  (x1 / 有-05
+                        :arg1  (x2 / 经验
+)))            :manner  (x5 / 根据
+                  :arg1  (x8 / 形状
+                        :mod  (x6 / 水柱
+)))))
+===========================
+鲸每天都要睡觉，睡觉的时候，总是几头聚在一起。
+(x18 / and
+      :op1  (x4 / 要-03
+            :arg0  (x5 / 睡觉-01
+                  :arg0  (x1 / 鲸
+)                  :frequency  (x23 / rate-entity-91
+                        :arg3  (x24 / temporal-quantity
+                              :quant  (x2_1 / 1
+)                              :unit  (x2_2 / 天
+))))            :mod  (x3 / 都
+))      :op2  (x14 / 聚-01
+            :cause-of  (x16 / 一起
+)            :arg0  (x30 / animal
+                  :dcopy  (x1 / 鲸
+)                  :quant  (x12 / 几
+)                  :cunit  (x13 / 头
+))))
+===========================
+它们通常会找一个比较安全的地方，头朝里，尾巴向外，围成一圈，静静地浮在海面上。
+(x30 / and
+      :op1  (x3 / 会-02
+            :arg0  (x4 / 找-01
+                  :arg0  (x1 / 它们
+)                  :arg1  (x9 / 地方
+                        :arg0-of  (x7 / 安全-01
+                              :degree  (x6 / 比较
+))                        :quant  (x5_1 / 1
+)                        :cunit  (x5_2 / 个
+))))      :op2  (x12 / 朝-01
+            :arg0  (x11 / 头
+)            :arg1  (x13 / 里
+))      :op3  (x16 / 向-01
+            :arg0  (x15 / 尾巴
+)            :arg1  (x17 / 外
+))      :op4  (x19 / 围-01
+            :cause-of  (x22 / 圈
+                  :quant  (x21 / 1
+))            :arg0  (x1 / 它们
+))      :op5  (x25 / 浮-01
+            :arg2  (x27 / 海面
+)            :manner  (x24 / 静
+)            :arg0  (x1 / 它们
+)))
+===========================
+如果听到什么声响，它们立即四散游开。
+(x12 / condition
+      :arg1  (x2 / 听到-01
+            :arg1  (x4 / 声响
+                  :mod  (x3 / 什么
+))            :arg0  (x6 / 它们
+))      :arg1  (x9 / 游-01
+            :cause-of  (x10 / 开
+)            :manner  (x8 / 四散-01
+                  :arg0  (x6 / 它们
+))            :mod  (x7 / 立即
+)            :arg0  (x6 / 它们
+)))
+===========================
+鲸是胎生的，幼鲸靠吃母鲸的奶长大，这些特征也说明鲸是哺乳动物。
+(x25 / causation
+      :arg1  (x27 / and
+            :op1  (x4 / 生-01
+                  :manner  (x3 / 胎
+)                  :arg0  (x1 / 鲸
+)                  :mode  (x2_x5 / judgement
+))            :op2  (x15 / 长大-01
+                  :arg0  (x8 / 鲸
+                        :mod  (x7 / 幼
+))                  :manner  (x9 / 靠-01
+                        :arg1  (x10 / 吃-01
+                              :arg1  (x14 / 奶
+                                    :poss  (x12 / 鲸
+                                          :mod  (x11 / 母
+)))                              :arg0  (x8 / 鲸
+))                        :arg0  (x8 / 鲸
+))))      :arg2  (x20 / 说明-01
+            :arg0  (x18 / 特征
+                  :mod  (x17 / 这些
+))            :mod  (x19 / 也
+)            :arg1  (x23 / 哺乳动物
+                  :domain  (x21 / 鲸
+))))
+===========================
+长须鲸刚生下来就有十多米长，七千公斤重，一天能长三十公斤到五十公斤，两三年就可以长成大鲸。
+(x35 / and
+      :op1  (x11 / 长-02
+            :arg0  (x1_x2 / 长须鲸
+)            :arg1  (x39 / distance-quantity
+                  :quant  (x9 / 多
+                        :op1  (x8 / 10
+))                  :unit  (x10 / 米
+))            :time  (x4_x5 / 生
+                  :mod  (x3 / 刚
+)                  :arg1  (x1_x2 / 长须鲸
+)))      :op2  (x15 / 重-03
+            :arg0  (x1_x2 / 长须鲸
+)            :arg1  (x46 / mass-quantity
+                  :quant  (x13 / 7000
+)                  :cunit  (x14 / 公斤
+))            :time  (x4_x5 / 生
+))      :op3  (x18 / 能-01
+            :arg1  (x19 / 长-03
+                  :arg1  (x51 / mass-quantity
+                        :quant  (x22 / between
+                              :op1  (x20 / 30
+)                              :op2  (x23 / 50
+))                        :unit  (x21_x24 / 公斤
+))                  :time  (x56 / temporal-quantity
+                        :quant  (x17_1 / 1
+)                        :unit  (x17_2 / 天
+))))      :op4  (x29 / 可以-01
+            :arg0  (x30_x31 / 长成-01
+                  :arg1  (x33 / 鲸
+                        :arg0-of  (x32 / 大-01
+))                  :time  (x63 / temporal-quantity
+                        :quant  (x64 / between
+                              :op1  (x26_1 / 2
+)                              :op2  (x26_2 / 3
+))                        :unit  (x27 / 年
+))                  :mod  (x28 / 就
+)                  :arg0  (x1_x2 / 长须鲸
+))))
+===========================
+鲸的寿命很长，一般可以活几十年到一百年。
+(x16 / and
+      :op1  (x5 / 长-02
+            :arg0  (x3 / 寿命
+                  :poss  (x1 / 鲸
+))            :degree  (x4 / 很
+))      :op2  (x8 / 可以-01
+            :arg0  (x9 / 活-01
+                  :arg1  (x24 / temporal-quantity
+                        :quant  (x12 / between
+                              :op1  (x10_1 / 几
+                                    :op1  (x10_2 / 10
+))                              :op2  (x13 / 100
+))                        :unit  (x11_x14 / 年
+))                  :arg0  (x1 / 鲸
+))            :mod  (x7 / 一般
+)))
+===========================

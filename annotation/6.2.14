@@ -1,0 +1,1117 @@
+天冷极了，下着雪，又快黑了。
+(x15 / and
+      :op1  (x2 / 冷-01
+            :arg0  (x1 / 天
+)            :degree  (x3 / 极
+)            :aspect  (x4 / 了
+))      :op2  (x6 / 下-05
+            :arg0  (x8 / 雪
+)            :aspect  (x7 / 着
+))      :op3  (x11 / 快-01
+            :arg0  (x12 / 黑
+)            :aspect  (x13 / 了
+)))
+===========================
+这是一年的最后一天——大年夜。
+(x6 / 一天
+      :domain  (x1 / 这
+)      :mod  (x5 / 最后
+)      :time  (x16 / temporal-quantity
+            :quant  (x3_1 / 1
+)            :unit  (x3_2 / 年
+))      :arg0-of  (x19 / mean
+            :arg1  (x20 / festival
+                  :name  ( x8/大年夜 
+))))
+===========================
+在这又冷又黑的晚上，一个乖巧的小女孩，赤着脚在街上走着。
+(x22 / 走-01
+      :arg0  (x15 / 女孩
+            :arg0-of  (x14 / 小-01
+)            :arg0-of  (x12 / 乖巧
+)            :quant  (x10 / 1
+)            :cunit  (x11 / 个
+))      :manner  (x17 / 赤
+            :arg1  (x19 / 脚
+)            :aspect  (x18 / 着
+))      :location  (x21 / 街上
+)      :aspect  (x23 / 着
+)      :time  (x8 / 晚上
+            :arg0-of  (x4 / 冷-01
+)            :arg0-of  (x6 / 黑-01
+)            :mod  (x2 / 这
+)))
+===========================
+她从家里出来的时候还穿着一双拖鞋，但是有什么用呢？
+(x20 / contrast
+      :arg1  (x8 / 穿-01
+            :arg0  (x1 / 她
+)            :arg1  (x12 / 拖鞋
+                  :quant  (x10 / 1
+)                  :unit  (x11 / 双
+))            :aspect  (x9 / 着
+)            :mod  (x7 / 还
+)            :time  (x4 / 出来-01
+                  :source  (x3 / 家里
+)                  :arg0  (x1 / 她
+)))      :arg2  (x15 / 有-05
+            :arg1  (x17 / 用
+                  :mod  (x16 / amr-unknown
+)                  :arg0  (x12 / 拖鞋
+))            :mode  (x18_x19 / interrogative
+)))
+===========================
+那是一双很大的拖鞋——那么大，一向是她妈妈穿的。
+(x20 / and
+      :op1  (x8 / 拖鞋
+            :quant  (x3 / 1
+)            :unit  (x4 / 双
+)            :arg0-of  (x6 / 大-01
+                  :degree  (x5 / 很
+))            :domain  (x1 / 那
+))      :op2  (x11 / 大
+            :degree  (x10 / 那么
+)            :arg0  (x8 / 拖鞋
+))      :op3  (x30 / thing
+            :arg1-of  (x17 / 穿-01
+                  :arg0  (x16 / 妈妈
+                        :poss  (x15 / 她
+)))            :domain  (x8 / 拖鞋
+)            :mod  (x13 / 一向
+)))
+===========================
+她穿过马路的时候，两辆马车飞快地冲过来，吓得她把鞋都跑掉了。
+(x26 / causation
+      :arg1  (x13 / 冲-01
+            :direction  (x14 / 过来
+)            :arg0  (x10 / 马车
+                  :quant  (x8 / 2
+)                  :cunit  (x9 / 辆
+))            :manner  (x11 / 飞快
+)            :time  (x2_x3 / 穿过-01
+                  :arg0  (x1 / 她
+)                  :arg1  (x4 / 马路
+)))      :arg2  (x16 / 吓-01
+            :cause-of  (x22 / 跑-01
+                  :cause-of  (x23 / 掉-01
+                        :arg0  (x18 / x1
+)                        :arg1  (x20 / 鞋
+))                  :mod  (x21 / 都
+)                  :aspect  (x24 / 了
+)                  :arg0  (x18 / x1
+))))
+===========================
+一只怎么也找不着，另一只叫一个男孩捡起来拿着跑了。
+(x23 / and
+      :op1  (x5 / 找-01
+            :cause-of  (x7 / 着
+)            :polarity  (x6 / -
+)            :mod  (x4 / 也
+)            :arg1  (x30 / thing
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 只
+))            :mod  (x3 / 怎么
+))      :op2  (x34 / temporal
+            :arg1  (x16_x17 / 捡-01
+                  :arg0  (x15 / 男孩
+                        :quant  (x13 / 1
+)                        :cunit  (x14 / 个
+))                  :arg1  (x44 / thing
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 只
+)                        :mod  (x9 / 另
+)))            :arg2  (x20 / 跑-01
+                  :aspect  (x21 / 了
+)                  :manner  (x18 / 拿-03
+                        :aspect  (x19 / 着
+)                        :arg1  (x44 / thing
+)                        :arg0  (x15 / 男孩
+))                  :arg0  (x15 / 男孩
+))))
+===========================
+他说，将来他有了孩子可以拿它当摇篮。
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x18 / condition
+            :arg1  (x6 / 有-01
+                  :arg1  (x8 / 孩子
+)                  :aspect  (x7 / 了
+)                  :time  (x4 / 将来
+)                  :arg0  (x5 / x1
+))            :arg2  (x9 / 可以-01
+                  :arg0  (x12 / 当-06
+                        :arg1  (x11 / 它
+)                        :arg2  (x13 / 摇篮
+)))))
+===========================
+小女孩只好赤着脚走，一双小脚冻得红一块青一块的。
+(x23 / and
+      :op1  (x7 / 走-01
+            :arg0  (x2 / 女孩
+                  :arg0-of  (x1 / 小-01
+))            :manner  (x4 / 赤
+                  :aspect  (x5 / 着
+)                  :arg1  (x6 / 脚
+))            :mod  (x3 / 只好
+))      :op2  (x13 / 冻-01
+            :arg0  (x12 / 脚
+                  :arg0-of  (x11 / 小-01
+)                  :quant  (x9 / 1
+)                  :unit  (x10 / 双
+))            :cause-of  (x37 / and
+                  :op1  (x15 / 红-01
+                        :quant  (x16 / 1
+)                        :cunit  (x17 / 块
+)                        :arg0  (x12 / 脚
+))                  :op2  (x18 / 青
+                        :quant  (x19 / 1
+)                        :cunit  (x20 / 块
+)                        :arg0  (x12 / 脚
+)))            :smood  (x21 / 的
+)))
+===========================
+她的旧围裙里兜着许多火柴，手里还拿着一把。
+(x18 / progression
+      :arg1  (x6 / 兜-01
+            :arg0  (x4 / 围裙
+                  :arg0-of  (x3 / 旧-01
+)                  :poss  (x1 / 她-01
+))            :arg1  (x9 / 火柴
+                  :quant  (x8 / 许多
+))            :aspect  (x7 / 着-01
+))      :arg2  (x13 / 拿-01
+            :arg1  (x28 / thing
+                  :quant  (x15 / 1
+)                  :cunit  (x16 / 把
+))            :arg0  (x11 / 手里
+)            :aspect  (x14 / 着
+)))
+===========================
+这一整天，谁也没买过她一根火柴，谁也没给过她一个硬币。
+(x24 / and
+      :op1  (x7 / 买-01
+            :arg0  (x4 / 谁
+)            :mod  (x5 / 也
+)            :aspect  (x8 / 过
+)            :polarity  (x6 / -
+)            :arg1  (x12 / 火柴
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 根
+))            :arg2  (x9 / 她
+))      :op2  (x17 / 给-01
+            :arg0  (x14 / 谁
+)            :arg1  (x22 / 硬币
+                  :quant  (x20 / 1
+)                  :cunit  (x21 / 个
+))            :mod  (x15 / 也
+)            :polarity  (x16 / -
+)            :aspect  (x18 / 过
+)            :arg2  (x19 / x9
+))      :time  (x2 / 一整天
+            :mod  (x1 / 这
+)))
+===========================
+可怜的小女孩！
+(x4 / 女孩
+      :arg0-of  (x3 / 小-01
+)      :arg0-of  (x1 / 可怜-01
+)      :mode  (x5 / expressive
+))
+===========================
+她又冷又饿，哆哆嗦嗦地向前走。
+(x13 / and
+      :op1  (x3 / 冷-01
+            :arg0  (x1 / 她
+))      :op2  (x5 / 饿-01
+            :arg0  (x1 / 她
+))      :op3  (x11 / 走-01
+            :direction  (x10 / 前
+)            :arg0  (x1 / 她
+)            :manner  (x7 / 哆嗦-01
+                  :arg0  (x1 / 她
+))))
+===========================
+雪花落在她的金黄的长头发上，那头发打成卷儿披在肩上，看上去很美丽，不过她没注意这些。
+(x31 / contrast
+      :arg1  (x33 / and
+            :op1  (x2 / 落-02
+                  :arg0  (x1 / 雪花
+)                  :arg1  (x9 / 头发
+                        :arg0-of  (x8 / 长-02
+)                        :arg0-of  (x6 / 金黄
+)                        :poss  (x4 / 她
+)))            :op2  (x21 / 看上去
+                  :arg0  (x17 / 披-01
+                        :arg1  (x13 / x9
+                              :mod  (x12 / 那
+))                        :manner  (x14 / 打成
+                              :cause-of  (x15_x16 / 卷
+))                        :location  (x19 / 肩上
+))                  :arg1  (x23 / 美丽-01
+                        :degree  (x22 / 很
+)                        :arg0  (x13 / x9
+))))      :arg2  (x28 / 注意-01
+            :arg1  (x29 / 这些
+)            :polarity  (x27 / -
+)            :arg0  (x26 / x4
+)))
+===========================
+每个窗子里都透出灯光来，街上飘着一股烤鹅的香味，因为这是大年夜——她可忘不了这个。
+(x29 / and
+      :op1  (x31 / causation
+            :arg1  (x32 / festival
+                  :name  ( x22/大年夜 
+)                  :domain  (x20 / 这
+))            :arg2  (x35 / and
+                  :op1  (x5_x7 / 透-01
+                        :arg0  (x2 / 窗子
+                              :mod  (x1_1 / 每
+)                              :cunit  (x1_2 / 个
+))                        :mod  (x4 / 都
+)                        :arg1  (x6 / 灯光
+))                  :op2  (x10 / 飘-01
+                        :arg1  (x9 / 街上
+)                        :arg0  (x17 / 香味
+                              :mod  (x14 / 烤-01
+                                    :arg1  (x15 / 鹅
+))                              :quant  (x12 / 1
+)                              :cunit  (x13 / 股
+))                        :aspect  (x11 / 着
+))))      :op2  (x26 / 忘不了
+            :mod  (x25 / 可
+)            :arg0  (x24 / 她
+)            :arg1  (x27 / x22
+)))
+===========================
+她在一座房子的墙角里坐下来，蜷着腿缩成一团。
+(x20 / temporal
+      :arg1  (x9_x10 / 坐-01
+            :arg0  (x1 / 她
+)            :arg1  (x7 / 墙角
+                  :location  (x5 / 房子
+                        :quant  (x3 / 1
+)                        :cunit  (x4 / 座
+))))      :arg2  (x12 / 蜷-01
+            :arg0  (x14 / 腿
+)            :aspect  (x13 / 着
+))      :arg3  (x15 / 缩-01
+            :manner  (x18 / 团
+                  :quant  (x17 / 1
+))            :arg0  (x1 / 她
+)))
+===========================
+她觉得更冷了。
+(x2_x3 / 觉得-01
+      :arg0  (x1 / 她
+)      :arg1  (x5 / 冷-02
+            :degree  (x4 / 更
+)            :arg0  (x1 / 她
+))      :aspect  (x6 / 了
+))
+===========================
+她不敢回家，因为她没卖掉一根火柴，没挣到一个钱，爸爸一定会打她的。
+(x30 / causation
+      :arg1  (x32 / and
+            :op1  (x10_x11 / 卖掉-01
+                  :arg0  (x8 / x1
+)                  :polarity  (x9 / -
+)                  :arg1  (x14 / 火柴
+                        :quant  (x12 / 1
+)                        :cunit  (x13 / 根
+)))            :op2  (x17_x18 / 挣-01
+                  :arg1  (x21 / 钱
+                        :cunit  (x20 / 个
+)                        :quant  (x19 / 1
+))                  :polarity  (x16 / -
+)                  :arg0  (x8 / x1
+))            :op3  (x24 / 一定
+                  :arg0  (x25 / 会-02
+                        :arg0  (x26 / 打-02
+                              :arg1  (x27 / x1
+)                              :arg0  (x23 / 爸爸
+)))                  :smood  (x28 / 的
+)))      :arg2  (x3 / 敢-02
+            :arg1  (x4 / 回-01
+                  :arg1  (x5 / 家
+)                  :arg0  (x1 / 她
+))            :polarity  (x2 / -
+)))
+===========================
+再说，家里跟街上一样冷。
+(x7 / 冷-01
+      :arg0  (x3 / 家里
+)      :manner  (x6 / 一样-02
+            :arg1  (x5 / 街上
+)))
+===========================
+他们头上只有个房顶，虽然最大的裂缝已经用草和破布堵住了，风还是可以灌进来。
+(x28 / and
+      :op1  (x4 / 只有
+            :arg0  (x6 / 房顶
+                  :cunit  (x5 / 个
+))            :location  (x2 / 头
+                  :part-of  (x1 / 他们
+)))      :op2  (x35 / contrast
+            :arg1  (x19 / 堵住-01
+                  :arg1  (x12 / 裂缝
+                        :arg0-of  (x10 / 大-01
+                              :degree  (x9 / 最
+)))                  :instrument  (x16 / and
+                        :op1  (x15 / 草
+)                        :op2  (x18 / 布
+                              :arg1-of  (x17 / 破-02
+)))                  :aspect  (x13 / 已经
+)                  :aspect  (x20 / 了
+))            :arg2  (x24 / 可以-01
+                  :arg0  (x25 / 灌-01
+                        :direction  (x26 / 进来
+)                        :arg1  (x22 / 风
+)))))
+===========================
+她的一双小手几乎冻僵了。
+(x8 / 冻-01
+      :arg0  (x6 / 手
+            :arg0-of  (x5 / 小-01
+)            :quant  (x3 / 1
+)            :unit  (x4 / 双
+)            :poss  (x1 / 她
+))      :manner  (x9 / 僵
+)      :aspect  (x10 / 了
+)      :mod  (x7 / 几乎
+))
+===========================
+啊，哪怕一根小小的火柴，对她也是有好处的！
+(x18 / and
+      :op1  (x1 / 啊
+)      :op2  (x14 / 有-05
+            :arg1  (x15 / 好处
+)            :arg0  (x8 / 火柴
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 根
+)                  :arg0-of  (x6 / 小-01
+))            :beneficiary  (x11 / 她
+)            :mod  (x12 / 也
+)            :mode  (x13_x16 / judgement
+)            :mode  (x17 / expressive
+)))
+===========================
+她敢从成把的火柴里抽出一根，在墙上擦燃了，来暖和暖和自己的小手吗？
+(x2 / 敢-02
+      :arg1  (x30 / temporal
+            :arg1  (x9 / 抽出-01
+                  :arg1  (x33 / thing
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 根
+))                  :arg2  (x7 / 火柴
+                        :mod  (x4 / 成
+)                        :cunit  (x5 / 把
+)))            :arg2  (x15 / 擦-01
+                  :location  (x14 / 墙上
+)                  :cause-of  (x16 / 燃-01
+                        :arg1  (x33 / thing
+))                  :aspect  (x17 / 了
+)                  :purpose  (x20_x21 / 暖和-02
+                        :arg1  (x25 / 手
+                              :arg0-of  (x24 / 小-01
+)                              :part-of  (x22 / x1
+)))                  :arg0  (x1 / 她
+)))      :arg0  (x1 / 她
+)      :mode  (x26_x27 / interrogative
+))
+===========================
+她终于抽出了一根。
+(x3 / 抽出-01
+      :arg0  (x1 / 她
+)      :mod  (x2 / 终于
+)      :arg1  (x12 / thing
+            :quant  (x5 / 1
+)            :cunit  (x6 / 根
+))      :aspect  (x4 / 了
+))
+===========================
+哧！火柴燃起来了，冒出火焰来了！
+(x14 / and
+      :op1  (x1 / 哧
+            :mode  (x2 / expressive
+))      :op2  (x4_x5 / 燃-01
+            :arg1  (x3 / 火柴
+)            :aspect  (x6 / 了
+))      :op3  (x8_x9_x11 / 冒出-01
+            :arg0  (x10 / 火焰
+)            :aspect  (x12 / 了
+)            :mode  (x13 / expressive
+)))
+===========================
+她把小手拢在火焰上。
+(x5 / 拢-01
+      :arg0  (x1 / 她
+)      :arg1  (x4 / 手
+            :part-of  (x3 / 小-01
+))      :location  (x7 / 火焰
+))
+===========================
+多么温暖多么明亮的火焰啊，简直像一支小小的蜡烛！
+(x10 / 像-01
+      :arg0  (x6 / 火焰
+            :arg0-of  (x2 / 温暖-01
+                  :degree  (x1 / 多么
+))            :arg0-of  (x4 / 明亮-01
+                  :degree  (x3 / 多么
+))            :mode  (x7 / expressive
+))      :mod  (x9 / 简直
+)      :arg1  (x15 / 蜡烛
+            :quant  (x11 / 1
+)            :cunit  (x12 / 支
+)            :arg0-of  (x13 / 小-01
+))      :mode  (x16 / expressive
+))
+===========================
+这是一道奇异的火光！
+(x7 / 火光
+      :arg0-of  (x5 / 奇异
+)      :quant  (x3 / 1
+)      :cunit  (x4 / 道
+)      :domain  (x1 / 这
+)      :mode  (x8 / expressive
+))
+===========================
+小女孩觉得自己好像坐在一个大火炉前面，火炉装着闪亮的铜脚和铜把手，烧得旺旺的，暖烘烘的，多么舒服啊！
+(x38 / and
+      :op1  (x3_x4 / 觉得-01
+            :arg1  (x6 / 好像-01
+                  :arg0  (x7_x8 / 坐在-01
+                        :arg1  (x13 / 前面
+                              :arg0  (x12 / 火炉
+                                    :arg0-of  (x11 / 大-01
+)                                    :quant  (x9 / 1
+)                                    :cunit  (x10 / 个
+)))                        :arg0  (x5 / x2
+)))            :arg0  (x2 / 女孩
+                  :arg0-of  (x1 / 小-01
+)))      :op2  (x16 / 装-02
+            :arg0  (x15 / 火炉
+)            :arg1  (x22 / and
+                  :op1  (x21 / 脚
+                        :consist-of  (x20 / 铜
+)                        :arg0-of  (x18 / 闪亮-01
+))                  :op2  (x24 / 把手
+                        :consist-of  (x23 / 铜
+)))            :aspect  (x17 / 着
+))      :op3  (x26 / 烧-01
+            :manner  (x28_x29 / 旺
+)            :manner  (x31_x32 / 暖烘烘
+)            :arg1  (x15 / 火炉
+))      :op4  (x35 / 舒服-01
+            :degree  (x34 / 多么
+)            :mode  (x36_x37 / expressive
+)            :arg0  (x2 / 女孩
+)))
+===========================
+哎，这是怎么回事呢？
+(x10 / and
+      :op1  (x1 / 哎
+)      :op2  (x5_x6_x7 / 怎么回事-01
+            :arg0  (x3 / 这
+)            :mode  (x8_x9 / interrogative
+)))
+===========================
+她刚把脚伸出去，想让脚也暖和一下下，火柴灭了，火炉不见了。
+(x26 / temporal
+      :arg1  (x5 / 伸-01
+            :direction  (x6_x7 / 出去
+)            :arg0  (x1 / 她
+)            :arg1  (x4 / 脚
+)            :time  (x2 / 刚
+)            :purpose  (x10 / 让-02
+                  :arg1  (x11 / 脚
+)                  :arg2  (x13_x14_x15_x16 / 暖和-02
+                        :arg1  (x11 / 脚
+))                  :mod  (x12 / 也
+)))      :arg2  (x39 / and
+            :op1  (x19 / 灭-01
+                  :arg1  (x18 / 火柴
+)                  :aspect  (x20 / 了
+))            :op2  (x23_2 / 见-01
+                  :arg1  (x22 / 火炉
+)                  :polarity  (x23_1 / -
+)                  :aspect  (x24 / 了
+))))
+===========================
+她坐在那儿，手里只有一根烧过了的火柴梗。
+(x17 / and
+      :op1  (x2 / 坐-01
+            :arg1  (x4 / 那儿
+)            :arg0  (x1 / 她
+))      :op2  (x7 / 只有-01
+            :arg1  (x15 / 梗
+                  :mod  (x14 / 火柴
+)                  :quant  (x8 / 1
+)                  :cunit  (x9 / 根
+)                  :arg1-of  (x10 / 烧-01
+                        :aspect  (x11 / 过
+)                        :aspect  (x12 / 了
+)))            :arg0  (x6 / 手里
+)))
+===========================
+她又擦了一根。
+(x3 / 擦-01
+      :arg0  (x1 / 她
+)      :mod  (x2 / 又
+)      :arg1  (x12 / thing
+            :quant  (x5 / 1
+)            :cunit  (x6 / 根
+))      :aspect  (x4 / 了
+))
+===========================
+火柴燃起来了，发出亮光来了。
+(x11 / and
+      :op1  (x2_x3 / 燃-01
+            :arg1  (x1 / 火柴
+)            :aspect  (x4 / 了
+))      :op2  (x6_x8 / 发出-02
+            :arg1  (x7 / 亮光
+)            :aspect  (x9 / 了
+)            :arg0  (x1 / 火柴
+)))
+===========================
+亮光落在墙上，那儿忽然变得像薄纱那么透明，她可以一直看到屋里。
+(x21 / causation
+      :arg1  (x23 / temporal
+            :arg1  (x2 / 落-02
+                  :arg0  (x1 / 亮光
+)                  :arg1  (x4 / 墙上
+))            :arg2  (x8_x9 / 变得-01
+                  :location  (x6 / 那儿
+)                  :mod  (x7 / 忽然
+)                  :arg1  (x10 / 像-01
+                        :arg1  (x11 / 薄纱
+)                        :arg2  (x13 / 透明-01
+                              :degree  (x12 / 那么
+)                              :arg0  (x6 / 那儿
+)))))      :arg2  (x16 / 可以-01
+            :arg0  (x18 / 看到-01
+                  :arg1  (x19 / 屋里
+)                  :arg0  (x15 / 她
+)                  :manner  (x17 / 一直
+))))
+===========================
+桌上铺着雪白的台布，摆着精致的盘子和碗，肚子里填满了苹果和梅子的烤鹅正冒着香气。
+(x32 / and
+      :op1  (x2 / 铺-02
+            :arg1  (x6 / 台布
+                  :arg0-of  (x4 / 雪白-01
+))            :aspect  (x3 / 着
+)            :arg0  (x1 / 桌上
+))      :op2  (x8 / 摆-01
+            :arg1  (x13 / and
+                  :op1  (x12 / 盘子
+                        :arg0-of  (x10 / 精致-01
+))                  :op2  (x14 / 碗
+                        :arg0-of  (x10 / 精致-01
+)))            :aspect  (x9 / 着
+))      :op3  (x28 / 冒-02
+            :arg0  (x30 / 香气
+)            :arg1  (x26 / 鹅
+                  :mod  (x25 / 烤
+)                  :mod  (x18_x19 / 填满-01
+                        :arg1  (x16 / 肚子
+                              :part-of  (x26 / 鹅
+))                        :arg2  (x22 / and
+                              :op1  (x21 / 苹果
+)                              :op2  (x23 / 梅子
+))                        :aspect  (x20 / 了
+)))            :aspect  (x27 / 正
+)            :aspect  (x29 / 着
+)))
+===========================
+更妙的是这只鹅从盘子里跳下来，背上插着刀和叉摇摇摆摆地在地板上走着，一直向这个穷苦的小女孩走来。
+(x39 / temporal
+      :arg1  (x11 / 跳-01
+            :direction  (x12 / 下来
+)            :arg0  (x7 / 鹅
+                  :cunit  (x6 / 只
+)                  :mod  (x5 / 这
+))            :source  (x9 / 盘子
+))      :arg2  (x26 / 走-01
+            :aspect  (x27 / 着
+)            :arg1  (x24 / 地板
+)            :manner  (x16 / 插-01
+                  :arg1  (x19 / and
+                        :op1  (x18 / 刀
+)                        :op2  (x20 / 叉
+))                  :aspect  (x17 / 着
+)                  :arg2  (x14_x15 / 背上
+))            :arg0  (x7 / 鹅
+)            :manner  (x21 / 摇摆
+))      :arg3  (x36_x37 / 走来-01
+            :direction  (x35 / 女孩
+                  :arg0-of  (x34 / 小-01
+)                  :arg0-of  (x32 / 穷苦
+)                  :mod  (x31_1 / 这
+)                  :cunit  (x31_2 / 个
+))            :manner  (x29 / 一直
+)            :arg0  (x7 / 鹅
+))      :domain  (x65 / thing
+            :arg0-of  (x2 / 妙-01
+                  :degree  (x1 / 更
+))))
+===========================
+这时候，火柴灭了，她面前只有一堵又厚又冷的墙。
+(x19 / and
+      :op1  (x4 / 灭-01
+            :arg1  (x3 / 火柴
+)            :aspect  (x5 / 了
+)            :time  (x1 / 这时候
+))      :op2  (x9 / 只有-01
+            :arg1  (x17 / 墙
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 堵-01
+)                  :arg0-of  (x13 / 厚-02
+)                  :arg0-of  (x15 / 冷-01
+))            :location  (x8 / 面前
+                  :arg0  (x7 / 她
+))))
+===========================
+她又擦着了一根火柴。
+(x3 / 擦-01
+      :cause-of  (x4 / 着-01
+)      :arg0  (x1 / 她
+)      :arg1  (x8 / 火柴
+            :quant  (x6 / 1
+)            :cunit  (x7 / 根
+))      :mod  (x2 / 又
+)      :aspect  (x5 / 了
+))
+===========================
+这一回，她坐在美丽的圣诞树下。
+(x6 / 坐-01
+      :arg0  (x5 / 她
+)      :arg1  (x10 / 圣诞树
+            :arg0-of  (x8 / 美丽-01
+))      :time  (x1_x2_x3 / 这一回
+))
+===========================
+这棵圣诞树，比她去年圣诞节透过富商家的玻璃门看到的还要大，还要美。
+(x24 / and
+      :op1  (x18_2 / 要-03
+            :arg0  (x19 / 大-01
+                  :arg0  (x3 / 圣诞树
+                        :mod  (x1 / 这
+)                        :cunit  (x2 / 棵
+))                  :compared-to  (x30 / thing
+                        :arg1-of  (x16 / 看到-01
+                              :time  (x32 / festival
+                                    :name  ( x8/圣诞节 
+)                                    :time  (x7 / 去年
+))                              :arg0  (x6 / 她-01
+)                              :manner  (x9_x10 / 透过-01
+                                    :arg1  (x15 / 门
+                                          :consist-of  (x14 / 玻璃
+)                                          :location  (x12 / 家
+                                                :poss  (x11 / 富商
+)))))))            :mod  (x18_1 / 还
+))      :op2  (x21_2 / 要-03
+            :arg0  (x22 / 美-01
+                  :arg0  (x3 / 圣诞树
+))            :mod  (x21_1 / 还
+)))
+===========================
+翠绿的树枝上点着几千支明晃晃的蜡烛，许多幅美丽的彩色画片，跟挂在商店橱窗里的一个样，在向她眨眼睛。
+(x35 / and
+      :op1  (x5 / 点-01
+            :arg1  (x11 / 蜡烛
+                  :quant  (x7_1 / 几
+                        :op1  (x7_2 / 1000
+))                  :cunit  (x8 / 支
+)                  :arg0-of  (x9 / 明晃晃
+))            :aspect  (x6 / 着
+)            :location  (x3 / 树枝
+                  :arg0-of  (x1 / 翠绿-01
+)))      :op2  (x27 / 一样-02
+            :arg0  (x18 / 画片
+                  :mod  (x17 / 彩色
+)                  :arg0-of  (x15 / 美丽-01
+)                  :cunit  (x14 / 幅
+)                  :quant  (x13 / 许多
+))            :arg1  (x52 / thing
+                  :arg1-of  (x21 / 挂-01
+                        :arg2  (x24 / 橱窗
+                              :location  (x23 / 商店
+)))))      :op3  (x32 / 眨-01
+            :arg1  (x33 / 眼睛
+)            :direction  (x31 / 她
+)            :aspect  (x29 / 在
+)            :arg0  (x35 / and
+)))
+===========================
+小女孩向画片伸出手去。
+(x5_x6_x8 / 伸出-01
+      :arg0  (x2 / 女孩
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x7 / 手
+)      :direction  (x4 / 画片
+))
+===========================
+这时候，火柴又灭了。
+(x5 / 灭-01
+      :arg1  (x3 / 火柴
+)      :mod  (x4 / 又
+)      :aspect  (x6 / 了
+)      :time  (x1 / 这时候
+))
+===========================
+只见圣诞树上的烛光越升越高，最后成了在天空中闪烁的星星。
+(x1 / 只见
+      :arg1  (x23 / temporal
+            :arg2  (x12 / 成-01
+                  :arg1  (x19 / 星星
+                        :arg0-of  (x17 / 闪烁-01
+)                        :location  (x15 / 天空
+))                  :aspect  (x13 / 了
+)                  :time  (x11 / 最后
+)                  :arg0  (x5 / 烛光
+                        :location  (x2 / 圣诞树
+)))            :arg1  (x6_x8 / 越
+                  :arg0  (x7 / 升-01
+                        :arg0  (x5 / 烛光
+))                  :arg1  (x9 / 高-01
+                        :arg0  (x5 / 烛光
+)))))
+===========================
+有一颗星星落下来了，在天空中划出了一道细长的红光。
+(x21 / temporal
+      :arg1  (x5 / 落-02
+            :arg0  (x4 / 星星
+                  :quant  (x2 / 1
+)                  :cunit  (x3 / 颗
+)                  :arg1-of  (x1 / 有
+))            :direction  (x6 / 下来
+)            :aspect  (x7 / 了
+))      :arg1  (x12_x13 / 划出-01
+            :arg1  (x19 / 红光
+                  :arg0-of  (x17 / 细长
+)                  :quant  (x15 / 1
+)                  :cunit  (x16 / 道
+))            :aspect  (x14 / 了
+)            :location  (x10 / 天空
+)            :arg0  (x4 / 星星
+)))
+===========================
+“有一个什么人快要死了。”小女孩说。
+(x13 / 说-01
+      :arg0  (x12 / 女孩
+            :arg0-of  (x11 / 小-01
+))      :arg1  (x7_2 / 要-03
+            :arg0  (x8 / 死-01
+                  :arg0  (x6 / 人
+                        :mod  (x5 / 什么
+)                        :quant  (x3 / 1
+)                        :cunit  (x4 / 个
+)                        :arg1-of  (x2 / 有-03
+)))            :mod  (x7_1 / 快
+)            :aspect  (x9 / 了
+)))
+===========================
+唯一疼她的奶奶活着的时候告诉过她：一颗星星落下来，就有一个灵魂要到上帝那儿去了。
+(x10 / 告诉-01
+      :arg0  (x5 / 奶奶
+            :arg0-of  (x2 / 疼-01
+                  :arg1  (x3 / 她
+)                  :manner  (x1 / 唯一
+)))      :time  (x6 / 活-02
+            :arg0  (x5 / 奶奶
+)            :aspect  (x7 / 着
+))      :aspect  (x11 / 过
+)      :arg2  (x12 / x3
+)      :arg1  (x43 / condition
+            :arg1  (x17 / 落-02
+                  :direction  (x18 / 下来
+)                  :arg0  (x16 / 星星
+                        :quant  (x14 / 1
+)                        :cunit  (x15 / 颗
+)))            :arg2  (x25 / 要-03
+                  :arg0  (x26 / 到-01
+                        :arg0  (x24 / 灵魂
+                              :quant  (x22 / 1
+)                              :cunit  (x23 / 个
+)                              :arg1-of  (x21 / 有-03
+))                        :arg1  (x27 / 上帝
+))                  :aspect  (x30 / 了
+))))
+===========================
+她在墙上又擦着了一根火柴。
+(x5 / 擦-01
+      :arg0  (x1 / 她
+)      :arg1  (x10 / 火柴
+            :quant  (x8 / 1
+)            :cunit  (x9 / 根
+))      :cause-of  (x6 / 着
+)      :mod  (x4 / 又
+)      :location  (x3 / 墙上
+)      :aspect  (x7 / 了
+))
+===========================
+这一回，火柴把周围全照亮了。
+(x9 / 照亮-01
+      :arg0  (x5 / 火柴
+)      :arg1  (x7 / 周围
+)      :extent  (x8 / 全
+)      :aspect  (x10 / 了
+)      :time  (x1_x2_x3 / 这一回
+))
+===========================
+奶奶出现在亮光里，是那么温和，那么慈爱。
+(x14 / and
+      :op1  (x2 / 出现-01
+            :arg0  (x4 / 亮光
+)            :arg0  (x1 / 奶奶
+))      :op2  (x19 / and
+            :op1  (x9 / 温和-01
+                  :degree  (x8 / 那么
+))            :op2  (x12 / 慈爱
+                  :degree  (x11 / 那么
+))            :domain  (x1 / 奶奶
+)))
+===========================
+“奶奶！”小女孩叫起来，“啊！请把我带走吧！
+(x6_x7 / 叫-03
+      :arg0  (x5 / 女孩
+            :arg0-of  (x4 / 小-01
+))      :arg1  (x23 / and
+            :op1  (x2 / 奶奶
+                  :mode  (x3 / expressive
+))            :op2  (x9 / 啊
+                  :mode  (x10 / expressive
+))            :op3  (x11 / 请-01
+                  :arg2  (x14_x15 / 带走-01
+                        :arg1  (x13 / x5
+))                  :mode  (x16 / imperative
+)                  :mode  (x17 / expressive
+)                  :arg0  (x13 / x5
+)                  :arg1  (x2 / 奶奶
+))))
+===========================
+我知道，火柴一灭，您就会不见的，像那暖和的火炉，喷香的烤鹅，美丽的圣诞树一个样，就会不见的！”
+(x36 / say
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 我
+)            :arg1  (x41 / and
+                  :op1  (x42 / condition
+                        :arg1  (x6 / 灭-01
+                              :arg0  (x4 / 火柴
+))                        :arg2  (x10 / 会-02
+                              :arg0  (x12 / 见-01
+                                    :arg1  (x8 / 您
+)                                    :polarity  (x11 / -
+))                              :smood  (x13 / 的
+)))                  :op2  (x31 / 会-02
+                        :arg0  (x33 / 见-01
+                              :polarity  (x32 / -
+)                              :arg1  (x8 / 您
+))                        :smood  (x34 / 的
+)                        :mod  (x30 / 就
+)                        :manner  (x15_x28 / 像-01
+                              :arg1  (x56 / and
+                                    :op1  (x19 / 火炉
+                                          :arg0-of  (x17 / 暖和-01
+)                                          :mod  (x16 / 那
+))                                    :op2  (x23 / 烤鹅
+                                          :arg0-of  (x21 / 喷香
+))                                    :op3  (x27 / 圣诞树
+                                          :arg0-of  (x25 / 美丽-01
+))))                        :mode  (x35 / expressive
+)))))
+===========================
+她赶紧擦着了一大把火柴，要把奶奶留住。
+(x3 / 擦-01
+      :cause-of  (x4 / 着
+)      :arg1  (x9 / 火柴
+            :quant  (x6 / 1
+)            :cunit  (x8 / 把
+                  :mod  (x7 / 大
+)))      :arg0  (x1 / 她
+)      :manner  (x2 / 赶紧
+)      :aspect  (x5 / 了
+)      :purpose  (x11 / 要-03
+            :arg0  (x14 / 留住-01
+                  :arg1  (x13 / 奶奶
+)                  :arg0  (x1 / 她
+))))
+===========================
+一大把火柴发出强烈的光，照得跟白天一样明亮。
+(x17 / and
+      :op1  (x5 / 发出-02
+            :arg0  (x4 / 火柴
+                  :quant  (x1 / 1
+)                  :cunit  (x3 / 把-01
+                        :mod  (x2 / 大
+)))            :arg1  (x8 / 光
+                  :arg0-of  (x6 / 强烈-01
+)))      :op2  (x10 / 照-01
+            :cause-of  (x15 / 明亮
+                  :manner  (x14 / 一样
+                        :arg1  (x13 / 白天
+)))            :arg0  (x8 / 光
+)))
+===========================
+奶奶从来没有像现在这样高大，这样美丽。
+(x4 / 像-02
+      :arg1  (x14 / and
+            :op2  (x10 / 美丽-01
+                  :mod  (x9 / 这样
+)                  :arg0  (x1 / 奶奶
+))            :op1  (x7 / 高大-01
+                  :mod  (x6 / 这样
+)                  :arg0  (x1 / 奶奶
+))            :time  (x5 / 现在
+))      :polarity  (x3 / -
+)      :arg0  (x1 / 奶奶
+)      :time  (x2 / 从来
+))
+===========================
+奶奶把小女孩抱起来，搂在怀里。
+(x18 / temporal
+      :arg1  (x5 / 抱-01
+            :direction  (x6 / 起来
+)            :arg0  (x1 / 奶奶
+)            :arg1  (x4 / 女孩
+                  :arg0-of  (x3 / 小-01
+)))      :arg2  (x8 / 搂-01
+            :location  (x10 / 怀里
+)            :arg0  (x1 / 奶奶
+)            :arg1  (x4 / 女孩
+)))
+===========================
+她俩在光明和快乐中飞走了，越飞越高，飞到那没有寒冷，没有饥饿，也没有痛苦的地方去了。
+(x33 / temporal
+      :arg1  (x7_x8 / 飞-02
+            :arg0  (x1 / 她俩
+)            :location  (x4 / and
+                  :op1  (x3 / 光明-01
+)                  :op2  (x5 / 快乐-01
+))            :aspect  (x9 / 了
+))      :arg3  (x16 / 飞-01
+            :aspect  (x31 / 了
+)            :arg0  (x1 / 她俩
+)            :destination  (x29 / 地方
+                  :mod  (x18 / 那
+)                  :arg0-of  (x19_2 / 有-03
+                        :polarity  (x19_1 / -
+)                        :arg1  (x20 / 寒冷
+))                  :arg0-of  (x22_2 / 有-03
+                        :polarity  (x22_1 / -
+)                        :arg1  (x23 / 饥饿
+))                  :arg0-of  (x26_2 / 有-03
+                        :arg1  (x27 / 痛苦
+)                        :polarity  (x26_1 / -
+))))      :arg2  (x11_x13 / 越
+            :arg0  (x12 / 飞-01
+                  :arg0  (x1 / 她俩
+))            :arg1  (x14 / 高
+                  :arg0  (x1 / 她俩
+))))
+===========================
+第二天清晨，这个小女孩坐在墙角里，两腮通红，嘴上带着微笑。
+(x22 / and
+      :op1  (x7 / 坐-01
+            :arg0  (x6 / 女孩
+                  :arg0-of  (x5 / 小-01
+)                  :mod  (x4_1 / 这
+)                  :cunit  (x4_2 / 个
+))            :arg1  (x9 / 墙角
+))      :op2  (x14 / 通红-01
+            :arg0  (x13 / 腮
+                  :quant  (x12 / 2
+)))      :op3  (x18 / 带-01
+            :arg0  (x16 / 嘴
+)            :arg1  (x20 / 微笑
+)            :aspect  (x19 / 着
+))      :time  (x2 / 清晨
+            :ord  (x43 / ordinal-entity
+                  :value  (x1_1_2 / 2
+)                  :unit  (x1_3 / 天
+))))
+===========================
+她死了，在旧年的大年夜冻死了。
+(x16 / and
+      :op1  (x2 / 死-01
+            :arg0  (x1 / 她
+)            :aspect  (x3 / 了
+))      :op2  (x9 / 冻死-01
+            :time  (x19 / festival
+                  :name  ( x8/大年夜 
+)                  :time  (x6 / 旧年
+))            :aspect  (x10 / 了
+)            :arg1  (x1 / 她
+)))
+===========================
+新年的太阳升起来了，照在她小小的尸体上。
+(x16 / and
+      :op1  (x4 / 升-02
+            :arg0  (x3 / 太阳
+                  :time  (x1 / 新年
+))            :direction  (x5 / 起来
+)            :aspect  (x6 / 了
+))      :op2  (x8 / 照-01
+            :arg1  (x13 / 尸体
+                  :arg0-of  (x11 / 小-01
+)                  :poss  (x10 / 她
+))            :arg0  (x3 / 太阳
+)))
+===========================
+小女孩坐在那儿，手里还捏着一把烧过了的火柴梗。
+(x20 / and
+      :op1  (x3 / 坐-01
+            :arg0  (x2 / 女孩
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x5 / 那儿
+))      :op2  (x9 / 捏-01
+            :arg0  (x7 / 手里
+)            :arg1  (x18 / 梗
+                  :mod  (x17 / 火柴
+)                  :arg1-of  (x13 / 烧-01
+                        :aspect  (x14 / 过
+)                        :aspect  (x15 / 了
+))                  :quant  (x11 / 1
+)                  :cunit  (x12 / 把
+))            :aspect  (x10 / 着
+)            :mod  (x8 / 还
+)))
+===========================
+“她想给自己暖和一下下。”人们说。
+(x11 / 说-01
+      :arg0  (x10 / 人们
+)      :arg1  (x3 / 想-01
+            :arg1  (x6_x7_x8 / 暖和-02
+                  :arg1  (x5 / x2
+)                  :arg0  (x2 / 她
+))            :arg0  (x2 / 她
+)))
+===========================
+谁也不知道她曾经看到过多么美丽的东西，她曾经多么幸福，跟着她奶奶一起走向新年的幸福中去。
+(x4 / 知道-01
+      :arg0  (x1 / amr-unknown
+)      :polarity  (x3 / -
+)      :mod  (x2 / 也
+)      :arg1  (x37 / and
+            :op1  (x7_x8 / 看到-01
+                  :arg0  (x5 / 她
+)                  :arg1  (x13 / 东西
+                        :arg0-of  (x11 / 美丽-01
+                              :degree  (x10 / 多么
+)))                  :aspect  (x9 / 过
+)                  :time  (x6 / 曾经
+))            :op2  (x18 / 幸福-01
+                  :arg0  (x15 / x5
+)                  :degree  (x17 / 多么
+)                  :time  (x16 / 曾经
+))            :op2  (x25 / 走向-01
+                  :arg1  (x28 / 幸福
+                        :mod  (x26 / 新年
+))                  :manner  (x20_x24 / 跟-01
+                        :arg1  (x23 / 奶奶
+                              :poss  (x22 / x5
+))                        :aspect  (x21 / 着
+)                        :arg0  (x15 / x5
+)))))
+===========================

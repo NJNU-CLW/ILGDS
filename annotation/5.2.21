@@ -1,0 +1,986 @@
+海外有一国土，名曰傲来国。
+(x10 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1 / 海外
+)            :arg1  (x4 / 国土
+                  :quant  (x3 / 1
+)))      :op2  (x7 / 曰-01
+            :arg0  (x6 / 名
+)            :arg1  (x8 / 傲来国
+)))
+===========================
+国近大海，海中有一座名山，唤为花果山。
+(x16 / and
+      :op1  (x2 / 近-01
+            :arg0  (x1 / 国
+)            :arg1  (x3 / 大海
+))      :op2  (x7 / 有-03
+            :arg0  (x6 / 中
+                  :arg0  (x5 / 海
+))            :arg1  (x10 / 名山
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 座
+)))      :op3  (x12 / 唤-01
+            :arg1  (x28 / mountain
+                  :name  ( x14/花果山 
+))))
+===========================
+那座山正当顶上，有一块仙石，其石有三丈六尺五寸高，有二丈四尺围圆。
+(x31 / and
+      :op1  (x7 / 有-03
+            :arg0  (x5 / 顶上
+                  :arg0  (x3 / 山
+                        :mod  (x1 / 那
+)                        :cunit  (x2 / 座
+))                  :mod  (x4 / 正当
+))            :arg1  (x10 / 仙石
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 块
+)))      :op2  (x14 / 有-05
+            :arg0  (x13 / x10
+                  :mod  (x12 / 其
+))            :arg1  (x21 / 高-02
+                  :arg1  (x46 / distance-quantity
+                        :quant  (x47 / and
+                              :op1  (x15 / 3
+                                    :cunit  (x16 / 丈
+))                              :op2  (x17 / 6
+                                    :cunit  (x18 / 尺
+))                              :op3  (x19 / 5
+                                    :cunit  (x20 / 寸
+))))))      :op3  (x23 / 有-05
+            :arg1  (x29 / 圆
+                  :arg1  (x56 / distance-quantity
+                        :quant  (x57 / and
+                              :op1  (x24 / 2
+                                    :cunit  (x25 / 丈
+))                              :op2  (x26 / 4
+                                    :cunit  (x27 / 尺
+)))))))
+===========================
+四面更无树木遮阴，左右倒有芝兰相衬。
+(x14 / contrast
+      :arg1  (x3 / 无-02
+            :arg0  (x1 / 四面
+)            :arg1  (x5 / 遮阴
+                  :arg0  (x4 / 树木
+))            :degree  (x2 / 更
+))      :arg2  (x9 / 有-03
+            :arg1  (x11_x12 / 衬-01
+                  :arg0  (x10 / 芝兰
+))            :arg0  (x7 / 左右
+)            :mod  (x8 / 倒
+)))
+===========================
+盖自开辟以来，每受天真地秀，日精月华，感之既久，遂有灵通之意。
+(x29 / causation
+      :arg1  (x31 / and
+            :op1  (x7 / 受-01
+                  :arg1  (x33 / and
+                        :op1  (x8_x9_x10_x11 / 天真地秀
+)                        :op2  (x13_x14_x15_x16 / 日精月华
+))                  :frequency  (x6 / 每
+))            :op2  (x18 / 感-01
+                  :arg1  (x21 / 久
+                        :arg0  (x19 / 之
+)                        :mod  (x20 / 既
+))))      :time  (x3 / 开辟
+            :mod  (x1 / 盖
+))      :arg2  (x24 / 有-05
+            :arg1  (x27 / 意
+                  :mod  (x25 / 灵通
+))))
+===========================
+内育仙胞，一日迸裂，产一石卵，似圆球样大。
+(x19 / and
+      :op1  (x2 / 育
+            :arg1  (x4 / 胞
+                  :mod  (x3 / 仙
+))            :location  (x1 / 内
+))      :op2  (x7 / 迸裂
+            :time  (x6 / 一日
+))      :op3  (x9 / 产
+            :arg1  (x12 / 卵
+                  :mod  (x11 / 石
+)                  :quant  (x10 / 1
+)                  :arg0-of  (x14 / 似
+                        :arg1  (x15 / 圆球
+)))))
+===========================
+因见风，化作一个石猴。
+(x11 / causation
+      :arg1  (x2 / 见-01
+            :arg1  (x3 / 风
+))      :arg2  (x5 / 化作-01
+            :arg2  (x9 / 猴
+                  :mod  (x8 / 石
+)                  :quant  (x6 / 1
+)                  :cunit  (x7 / 个
+))))
+===========================
+那猴在山中，却会行走跳跃，食草木，饮涧泉，采山花，觅树果；与狼虫为伴，虎豹为群，獐鹿为友，猕猿为亲；夜宿石崖之下，朝游峰洞之中。
+(x72 / and
+      :op1  (x55 / and
+            :op1  (x3 / 在-01
+                  :arg0  (x2 / 猴
+                        :mod  (x1 / 那
+))                  :arg1  (x5 / 中
+                        :arg0  (x4 / 山
+)))            :op2  (x8 / 会-02
+                  :arg0  (x63 / and
+                        :op1  (x9 / 行走
+)                        :op2  (x10 / 跳跃
+))                  :mod  (x7 / 却
+))            :op3  (x12 / 食-01
+                  :arg1  (x13 / 草木
+)                  :arg0  (x2 / 猴
+))            :op4  (x15 / 饮-01
+                  :arg1  (x16_x17 / 涧泉
+)                  :arg0  (x2 / 猴
+))            :op5  (x19 / 采-01
+                  :arg1  (x20 / 山花
+)                  :arg0  (x2 / 猴
+))            :op6  (x22 / 觅-01
+                  :arg1  (x23_x24 / 树果
+)                  :arg0  (x2 / 猴
+)))      :op2  (x81 / and
+            :op1  (x29_x30 / 为伴
+                  :accompanier  (x78 / and
+                        :op1  (x27 / 狼
+)                        :op2  (x28 / 虫
+)))            :op2  (x34_x35 / 为群
+                  :accompanier  (x83 / and
+                        :op1  (x32 / 虎
+)                        :op2  (x33 / 豹
+)))            :op3  (x39_x40 / 为友
+                  :accompanier  (x87 / and
+                        :op1  (x37 / 獐
+)                        :op2  (x38 / 鹿
+)))            :op4  (x44_x45 / 为亲
+                  :accompanier  (x91 / and
+                        :op1  (x42 / 猕
+)                        :op2  (x43 / 猿
+))))      :op3  (x94 / and
+            :op1  (x47 / 夜宿-01
+                  :arg1  (x49 / 之下
+                        :arg0  (x48 / 石崖
+))                  :arg0  (x2 / 猴
+))            :op2  (x51 / 朝游
+                  :arg1  (x53 / 之中
+                        :arg0  (x52 / 峰洞
+))                  :arg0  (x2 / 猴
+))))
+===========================
+一朝天气炎热，与群猴避暑，都在松阴之下顽耍。
+(x17 / causation
+      :arg1  (x3 / 炎热-01
+            :arg0  (x2 / 天气
+                  :time  (x1 / 一朝
+)))      :arg2  (x22 / and
+            :op1  (x8 / 避暑-01
+                  :arg0  (x5 / and
+                        :op2  (x7 / 猴
+                              :mod  (x6 / 群
+))))            :op2  (x15 / 顽耍
+                  :location  (x14 / 之下
+                        :arg0  (x12_x13 / 松阴
+))                  :extent  (x10 / 都
+))))
+===========================
+一群猴子耍了一会，却去那山涧中洗澡。
+(x15 / temporal
+      :arg1  (x4 / 耍-01
+            :arg0  (x3 / 猴子
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 群
+))            :duration  (x6 / 一会
+)            :aspect  (x5 / 了
+))      :arg2  (x9 / 去-01
+            :arg1  (x11 / 山涧
+                  :mod  (x10 / 那
+))            :purpose  (x13 / 洗澡-01
+                  :arg0  (x3 / 猴子
+))            :mod  (x8 / 却
+)            :arg0  (x3 / 猴子
+)))
+===========================
+见那股涧水奔流，真个似滚瓜涌溅。
+(x9 / 似-01
+      :arg0  (x6 / 奔流-01
+            :arg0  (x4_x5 / 涧水
+                  :mod  (x2 / 那
+)                  :cunit  (x3 / 股
+)                  :arg1-of  (x1 / 见-01
+)))      :degree  (x8 / 真个
+)      :arg1  (x12_x13 / 涌溅
+            :manner  (x10_x11 / 滚瓜
+)))
+===========================
+古云：“禽有禽言，兽有兽语。”
+(x1 / 古云
+      :arg1  (x15 / and
+            :op1  (x4 / 有-01
+                  :arg0  (x3 / 禽
+)                  :arg1  (x6 / 言
+                        :poss  (x5 / x3
+)))            :op2  (x9 / 有-01
+                  :arg0  (x8 / 兽
+)                  :arg1  (x11 / 语
+))))
+===========================
+众猴都道：“这股水不知是哪里的水。
+(x4 / 道
+      :arg0  (x2 / 猴
+            :mod  (x1 / 众
+))      :extent  (x3 / 都
+)      :arg1  (x9_2 / 知-01
+            :polarity  (x9_1 / -
+)            :arg1  (x13 / 水
+                  :location  (x11 / amr-unknown
+)                  :domain  (x8 / 水
+                        :mod  (x6 / 这
+)                        :cunit  (x7 / 股
+)))))
+===========================
+我们今日赶闲无事，顺涧边往上溜头寻看源流，耍子去耶！”
+(x24 / say
+      :arg1  (x42 / and
+            :op1  (x26 / causation
+                  :arg1  (x27 / and
+                        :op1  (x3_x4 / 赶闲
+)                        :op2  (x5 / 无-01
+                              :arg0  (x1 / 我们
+)                              :arg1  (x6 / 事
+))                        :time  (x2 / 今日
+))                  :arg2  (x33 / and
+                        :op1  (x15 / 寻-01
+                              :arg1  (x17 / 源流
+))                        :op2  (x16 / 看-02
+                              :arg1  (x17 / 源流
+))                        :manner  (x8 / 顺
+                              :arg1  (x10 / 边
+                                    :arg0  (x9 / 涧
+))                              :direction  (x12 / 上
+))                        :manner  (x13_x14 / 溜头
+)))            :op2  (x19 / 耍-01
+                  :arg0  (x1 / 我们
+)                  :mode  (x22_x23 / expressive
+))))
+===========================
+喊一声，都拖男挈女，唤弟呼兄，一齐跑来，顺涧爬山，直至源流之处，乃是一股瀑布飞泉。
+(x35 / temporal
+      :arg1  (x1 / 喊-01
+            :quant  (x2 / 1
+)            :cunit  (x3 / 声
+))      :arg2  (x17 / 跑-01
+            :direction  (x18 / 来
+)            :manner  (x16 / 一齐
+)            :extent  (x5 / 都
+)            :manner  (x44 / and
+                  :op1  (x6 / 拖-02
+                        :arg1  (x7 / 男
+))                  :op2  (x8 / 挈
+                        :arg1  (x9 / 女
+)))            :manner  (x50 / and
+                  :op1  (x11 / 唤-01
+                        :arg1  (x12 / 弟
+))                  :op2  (x13 / 呼-01
+                        :arg1  (x14 / 兄
+))))      :arg3  (x22 / 爬山
+            :manner  (x20 / 顺-01
+                  :arg1  (x21 / 涧
+)))      :arg4  (x24 / 直至-01
+            :arg1  (x25 / 源流
+))      :arg5  (x60 / and
+            :op1  (x32 / 瀑布
+)            :op2  (x33 / 飞泉
+)            :quant  (x30 / 1
+)            :cunit  (x31 / 股
+)))
+===========================
+众猴拍手称扬道：“好水！好水！原来此处远通山脚之下，直接大海之波。”
+(x27 / and
+      :op1  (x3 / 拍手-01
+            :arg0  (x2 / 猴
+                  :mod  (x1 / 众
+)))      :op2  (x4_x5 / 称扬
+            :arg0  (x2 / 猴
+)            :arg1  (x33 / and
+                  :op1  (x9 / 水
+                        :arg0-of  (x8 / 好-01
+)                        :mode  (x10 / expressive
+))                  :op2  (x12 / 水
+                        :arg0-of  (x11 / 好-01
+)                        :mode  (x13 / expressive
+))                  :op3  (x17 / 通-01
+                        :manner  (x16 / 远
+)                        :arg0  (x15 / 此处
+)                        :mod  (x14 / 原来
+)                        :arg1  (x19 / 之下
+                              :arg0  (x18 / 山脚
+)))                  :op4  (x22 / 接-02
+                        :manner  (x21 / 直
+)                        :arg0  (x25 / 波
+                              :poss  (x23 / 大海
+))))))
+===========================
+又道：“哪一个有本事的，钻进去寻个源头出来，不伤身体者，我等即拜他为王。”
+(x2 / 道
+      :mod  (x1 / 又
+)      :arg1  (x34 / condition
+            :arg1  (x21 / 者
+                  :arg0-of  (x19 / 伤-01
+                        :arg1  (x20 / 身体
+)                        :polarity  (x18 / -
+))                  :arg0-of  (x7 / 有-01
+                        :arg1  (x8 / 本事
+))                  :quant  (x5 / 1
+)                  :cunit  (x6 / 个
+)                  :mod  (x4 / amr-unknown
+)                  :mod  (x11 / 钻进
+                        :purpose  (x13 / 寻-01
+                              :arg1  (x15 / 源头
+                                    :cunit  (x14 / 个
+)))))            :arg2  (x26 / 拜-01
+                  :arg1  (x27 / x21
+)                  :arg0  (x23_x24 / 我等
+)                  :purpose  (x28 / 为-01
+                        :arg0  (x27 / x21
+)                        :arg1  (x29 / 王
+))                  :mod  (x25 / 即
+))))
+===========================
+连呼了三声，忽见丛杂中跳出一个石猴，应声高叫道：“我进去！我进去！”
+(x28 / temporal
+      :arg1  (x2 / 呼-01
+            :manner  (x1 / 连
+)            :quant  (x4 / 3
+)            :cunit  (x5 / 声
+)            :aspect  (x3 / 了
+))      :arg2  (x8 / 见-01
+            :arg1  (x11 / 跳出-01
+                  :arg0  (x15 / 猴
+                        :mod  (x14 / 石
+)                        :quant  (x12 / 1
+)                        :cunit  (x13 / 个
+))                  :arg1  (x9 / 丛杂
+))            :mod  (x7 / 忽
+))      :arg3  (x19 / 叫-03
+            :manner  (x17 / 应声
+)            :manner  (x18 / 高
+)            :arg1  (x46 / and
+                  :op1  (x23 / 进去-01
+                        :arg0  (x22 / x15
+)                        :mode  (x24 / expressive
+))                  :op2  (x26 / 进去-01
+                        :arg0  (x25 / x15
+)                        :mode  (x27 / expressive
+)))))
+===========================
+他瞑目蹲身，将身一纵，径跳入瀑布泉中，忽睁睛抬头观看，那里边却无水无波，明明朗朗的一架桥梁。
+(x39 / temporal
+      :arg1  (x2 / 瞑
+            :arg1  (x3 / 目
+)            :arg0  (x1 / 他
+))      :arg2  (x4 / 蹲-01
+            :arg0  (x5 / 身
+))      :arg3  (x10 / 纵-01
+            :arg0  (x8 / 身
+))      :arg4  (x13_x14 / 跳入-01
+            :arg1  (x16 / 泉
+                  :mod  (x15 / 瀑布
+))            :manner  (x12 / 径
+)            :arg0  (x1 / 他
+))      :arg5  (x20 / 睁-01
+            :arg1  (x21 / 睛
+)            :arg0  (x1 / 他
+))      :arg6  (x23 / 观看-01
+            :manner  (x22 / 抬头-01
+                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)            :arg1  (x56 / and
+                  :op1  (x57 / and
+                        :op1  (x28 / 无-02
+                              :arg0  (x26 / 里边
+                                    :mod  (x25 / 那
+))                              :arg1  (x29 / 水
+))                        :op2  (x30 / 无-02
+                              :arg1  (x31 / 波
+)                              :arg0  (x26 / 里边
+)))                  :op2  (x37 / 桥梁
+                        :quant  (x35 / 1
+)                        :cunit  (x36 / 架
+)                        :arg0-of  (x33 / 明朗-01
+)))))
+===========================
+他住了身，定了神，仔细再看，原来是座铁板桥。
+(x20 / temporal
+      :arg1  (x22 / and
+            :op1  (x2 / 住
+                  :arg0  (x1 / 他
+)                  :arg1  (x4 / 身
+)                  :aspect  (x3 / 了
+))            :op2  (x6 / 定-03
+                  :arg1  (x8 / 神
+)                  :aspect  (x7 / 了
+)                  :arg0  (x1 / 他
+))            :op3  (x12 / 看-02
+                  :mod  (x11 / 再
+)                  :manner  (x10 / 仔细
+)))      :arg2  (x18 / 桥
+            :consist-of  (x17 / 铁板
+)            :cunit  (x16 / 座
+)            :mod  (x14 / 原来
+)))
+===========================
+桥下之水，冲贯于石窍之间，倒挂流出去，遮闭了桥门。
+(x23 / and
+      :op1  (x6_x7 / 冲贯
+            :arg0  (x4 / 水
+                  :location  (x2 / 下
+                        :arg0  (x1 / 桥
+)))            :location  (x11 / 之间
+                  :arg0  (x10 / 窍
+                        :mod  (x9 / 石
+))))      :op3  (x17_x18 / 遮蔽-01
+            :arg1  (x21 / 门
+                  :mod  (x20 / 桥
+))            :aspect  (x19 / 了
+)            :arg0  (x4 / 水
+))      :op2  (x14 / 流-01
+            :manner  (x13 / 倒挂-02
+                  :arg0  (x4 / 水
+))            :direction  (x15 / 出去
+)            :arg0  (x4 / 水
+)))
+===========================
+却又欠身上桥头，再走再看，却似有人家住处一般，真个好所在。
+(x24 / temporal
+      :arg1  (x5 / 上-01
+            :arg1  (x6 / 桥头
+)            :manner  (x3 / 欠
+                  :arg1  (x4 / 身
+))            :mod  (x2 / 又
+)            :mod  (x1 / 却
+))      :arg2  (x32 / and
+            :op1  (x9 / 走
+                  :mod  (x8 / 再
+))            :op2  (x11 / 看
+                  :mod  (x10 / 再
+)))      :arg3  (x37 / and
+            :op1  (x14_x18 / 似-01
+                  :arg1  (x15 / 有-03
+                        :arg1  (x17 / 住处
+                              :poss  (x16 / 人家
+)))                  :mod  (x13 / 却
+))            :op2  (x22 / 所在
+                  :arg0-of  (x21 / 好-01
+)                  :degree  (x20 / 真个
+))))
+===========================
+石猴看罢多时，跳过桥中间，左右观看，只见正当中有一石碣。
+(x24 / temporal
+      :arg1  (x4 / 罢-01
+            :arg0  (x3 / 看-02
+                  :arg0  (x2 / 猴
+                        :mod  (x1 / 石
+)))            :duration  (x5 / 多时
+))      :arg2  (x7_x8 / 跳过
+            :arg1  (x10 / 中间
+                  :arg0  (x9 / 桥
+)))      :arg3  (x13 / 观看
+            :manner  (x12 / 左右
+))      :arg4  (x15 / 只见-01
+            :arg1  (x17 / 有-03
+                  :arg0  (x16 / 正当中
+)                  :arg1  (x20 / 碣
+                        :consist-of  (x19 / 石
+)                        :quant  (x18 / 1
+)))))
+===========================
+碣上有一行楷书大字，镌着“花果山福地，水帘洞洞天”。
+(x18 / and
+      :op1  (x3 / 有-03
+            :arg0  (x1 / 碣
+)            :arg1  (x7 / 大字
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 行
+)                  :mod  (x6 / 楷书
+)))      :op2  (x9 / 镌
+            :arg1  (x27 / and
+                  :op1  (x13 / 福地
+                        :mod  (x29 / mountain
+                              :name  ( x12/花果山 
+)))                  :op2  (x16 / 洞天
+                        :mod  (x32 / location
+                              :name  ( x15/水帘洞 
+))))            :aspect  (x10 / 着
+)))
+===========================
+石猴喜不自胜，忽抽身往外便走，复瞑目蹲身，跳出水外，打了两个呵呵道：“大造化！大造化！”
+(x39 / temporal
+      :arg1  (x3_x4_x5_x6 / 喜不自胜
+            :arg0  (x2 / 猴
+                  :mod  (x1 / 石
+)))      :arg2  (x14 / 走-01
+            :direction  (x12 / 外
+)            :manner  (x9_x10 / 抽身-01
+                  :arg0  (x2 / 猴
+))            :mod  (x8 / 忽
+))      :arg3  (x48 / and
+            :op1  (x17 / 瞑
+                  :arg1  (x18 / 目
+))            :op2  (x19 / 蹲-01
+                  :arg0  (x20 / 身
+)))      :arg4  (x22 / 跳出-01
+            :arg1  (x24 / 外
+                  :arg0  (x23 / 水
+)))      :arg5  (x26 / 打-03
+            :arg1  (x30 / 呵呵
+                  :quant  (x28 / 2
+)                  :cunit  (x29 / 个
+))            :aspect  (x27 / 了
+))      :arg6  (x31 / 道
+            :arg1  (x62 / and
+                  :op1  (x34 / 造化
+                        :arg0-of  (x33 / 大-01
+)                        :mode  (x35 / expressive
+))                  :op2  (x37 / 造化
+                        :arg0-of  (x36 / 大-01
+)                        :mode  (x38 / expressive
+)))))
+===========================
+众猴把他围住，问道：“里面怎么样？
+(x13 / temporal
+      :arg1  (x5 / 围住-01
+            :arg0  (x2 / 猴
+                  :mod  (x1 / 众
+))            :arg1  (x4 / 他
+))      :arg2  (x7 / 问道-01
+            :arg0  (x2 / 猴
+)            :arg1  (x10 / 怎么样-01
+                  :arg0  (x9 / 里面
+)                  :mode  (x11 / interrogative
+))))
+===========================
+水有多深？”
+(x6 / say
+      :arg1  (x2 / 有-05
+            :arg0  (x1 / 水
+)            :arg1  (x4 / 深-02
+                  :arg1  (x3 / amr-unknown
+)                  :arg0  (x1 / 水
+))            :mode  (x5 / interrogative
+)))
+===========================
+石猴道：“没水！没水！
+(x3 / 道
+      :arg0  (x2 / 猴
+            :mod  (x1 / 石
+))      :arg1  (x16 / and
+            :op1  (x5 / 没-01
+                  :arg0  (x6 / 水
+)                  :mode  (x7 / expressive
+))            :op2  (x8 / 没-01
+                  :arg0  (x9 / 水
+)                  :mode  (x10 / expressive
+))))
+===========================
+原来是一座铁板桥。
+(x6 / 桥
+      :consist-of  (x5 / 铁板
+)      :quant  (x3 / 1
+)      :cunit  (x4 / 座
+)      :mod  (x1 / 原来
+))
+===========================
+桥那边是一座天造地设的家当。”
+(x10 / say
+      :arg1  (x8 / 家当
+            :arg0-of  (x6 / 天造地设
+)            :quant  (x4 / 1
+)            :cunit  (x5 / 座
+)            :location  (x2 / 那边
+                  :arg0  (x1 / 桥
+))))
+===========================
+众猴道：“怎见得是个家当？”
+(x3 / 道
+      :arg0  (x2 / 猴
+            :mod  (x1 / 众
+))      :arg1  (x6_x7 / 见得
+            :arg1  (x10 / 家当
+                  :domain  (x17 / thing
+)                  :cunit  (x9 / 个
+))            :cause  (x5 / amr-unknown
+)            :mode  (x11 / interrogative
+)))
+===========================
+石猴笑道：“这股水乃是桥下冲贯石窍，倒挂下来遮闭门户的。
+(x3_x4 / 笑道-01
+      :arg0  (x2 / 猴
+            :mod  (x1 / 石
+))      :arg1  (x28 / and
+            :op1  (x12_x13 / 冲贯
+                  :arg0  (x8 / 水
+                        :mod  (x6 / 这
+)                        :cunit  (x7 / 股
+))                  :location  (x11 / 下
+                        :arg0  (x10 / 桥
+)))            :op2  (x17 / 倒挂-01
+                  :direction  (x18 / 下来
+)                  :purpose  (x19_x20 / 遮闭
+                        :arg1  (x21 / 门户
+))                  :arg1  (x8 / 水
+))            :mode  (x9_x22 / judgement
+)))
+===========================
+桥边有花有树，乃是一座石房。
+(x14 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 边
+                  :arg0  (x1 / 桥
+))            :arg1  (x4 / 花
+))      :op2  (x5 / 有-03
+            :arg1  (x6 / 树
+)            :arg0  (x2 / 边
+))      :op3  (x12 / 房
+            :consist-of  (x11 / 石
+)            :quant  (x9 / 1
+)            :cunit  (x10 / 座
+)))
+===========================
+房内有石锅、石灶、石碗、石盆、石床、石凳。
+(x3 / 有-03
+      :arg0  (x2 / 内
+            :arg0  (x1 / 房
+))      :arg1  (x26 / and
+            :op1  (x5 / 锅
+                  :consist-of  (x4 / 石
+))            :op2  (x8 / 灶
+                  :consist-of  (x7 / 石
+))            :op3  (x11 / 碗
+                  :consist-of  (x10 / 石
+))            :op4  (x14 / 盆
+                  :consist-of  (x13 / 石
+))            :op5  (x17 / 床
+                  :consist-of  (x16 / 石
+))            :op6  (x20 / 凳
+                  :consist-of  (x19 / 石
+))))
+===========================
+中间一块石碣上，镌着‘花果山福地，水帘洞洞天’。
+(x8 / 镌
+      :location  (x5 / 碣
+            :consist-of  (x4 / 石
+)            :quant  (x2 / 1
+)            :cunit  (x3 / 块
+)            :location  (x1 / 中间
+))      :aspect  (x9 / 着
+)      :arg1  (x25 / and
+            :op1  (x12 / 福地
+                  :mod  (x27 / mountain
+                        :name  ( x11/花果山 
+)))            :op2  (x15 / 洞天
+                  :mod  (x30 / location
+                        :name  ( x14/水帘洞 
+)))))
+===========================
+真个是我们安身之处。
+(x6 / 处
+      :arg1-of  (x4 / 安身-01
+            :arg0  (x3 / 我们
+))      :domain  (x12 / thing
+)      :degree  (x1 / 真个
+))
+===========================
+里面且是宽阔，容得千百口老小。
+(x12 / and
+      :op1  (x4 / 宽阔-01
+            :arg0  (x1 / 里面
+)            :mod  (x2 / 且
+))      :op2  (x7 / possible
+            :arg0  (x6 / 容-04
+                  :arg1  (x10 / 老小
+                        :quant  (x20 / and
+                              :op1  (x8_1 / 1000
+)                              :op2  (x8_2 / 100
+))                        :cunit  (x9 / 口
+)))))
+===========================
+我们都进去住，也省得受老天之气。”
+(x14 / say
+      :arg1  (x16 / causation
+            :arg1  (x3 / 进去-01
+                  :arg0  (x1 / 我们
+)                  :extent  (x2 / 都
+)                  :purpose  (x4 / 住
+                        :arg0  (x1 / 我们
+)))            :arg2  (x7_x8 / 省得-01
+                  :arg1  (x9 / 受-03
+                        :arg1  (x12 / 气
+                              :poss  (x10 / 老天
+))))))
+===========================
+众猴听得，个个欢喜。
+(x10 / temporal
+      :arg1  (x3_x4 / 听-01
+            :arg0  (x2 / 猴
+                  :mod  (x1 / 众
+)))      :arg2  (x8 / 欢喜-01
+            :arg0  (x16 / animal
+                  :refer  (x2 / 猴
+)                  :quant  (x6_x7 / 个个
+))))
+===========================
+都道：“你还先走，带我们进去，进去！”
+(x2 / 道
+      :extent  (x1 / 都
+)      :arg1  (x18 / temporal
+            :arg1  (x7 / 走-01
+                  :arg0  (x4 / 你
+)                  :ord  (x6 / 先
+)                  :mod  (x5 / 还
+))            :arg2  (x9 / 带-03
+                  :arg1  (x10 / 我们
+)                  :arg2  (x11_x13 / 进去
+)                  :mode  (x14 / expressive
+)                  :arg0  (x4 / 你
+))))
+===========================
+石猴却又瞑目蹲身，往里一跳，叫道：“都随我进来！进来！”
+(x25 / temporal
+      :arg1  (x27 / and
+            :op1  (x5 / 瞑
+                  :arg1  (x6 / 目
+)                  :arg0  (x2 / 猴
+                        :mod  (x1 / 石
+)))            :op2  (x7 / 蹲-01
+                  :arg0  (x8 / 身
+))            :mod  (x3 / 却
+)            :mod  (x4 / 又
+))      :arg2  (x13 / 跳-01
+            :mod  (x12 / 一
+)            :direction  (x11 / 里
+))      :arg3  (x15_x16 / 叫道
+            :arg1  (x40 / and
+                  :op1  (x19 / 随-01
+                        :arg1  (x20 / x2
+)                        :extent  (x18 / 都
+)                        :arg2  (x21 / 进来
+)                        :mode  (x22 / expressive
+))                  :op2  (x23 / 进来
+                        :mode  (x24 / expressive
+)))))
+===========================
+那些猴有胆大的，都跳进去了；胆小的，一个个伸头缩颈，抓耳挠腮，大声叫喊，缠一会儿，也都进去了。
+(x39 / and
+      :op1  (x8 / 跳-01
+            :arg0  (x42 / animal
+                  :arg0-of  (x4 / 胆大
+)                  :arg1-of  (x44 / include-91
+                        :arg2  (x2 / 猴
+                              :mod  (x1 / 那些
+))))            :direction  (x9 / 进去
+)            :aspect  (x10 / 了
+))      :op2  (x49 / and
+            :op1  (x50 / and
+                  :op1  (x18 / 伸-01
+                        :arg1  (x19 / 头
+)                        :arg0  (x55 / animal
+                              :arg0-of  (x12 / 胆小-01
+)                              :quant  (x15_x16_x17 / 一个个
+)                              :arg1-of  (x71 / include-91
+                                    :arg2  (x2 / 猴
+))))                  :op2  (x20 / 缩-01
+                        :arg1  (x21 / 颈
+)                        :arg0  (x55 / animal
+)))            :op2  (x58 / and
+                  :op1  (x23 / 抓-01
+                        :arg1  (x24 / 耳
+)                        :arg0  (x55 / animal
+))                  :op2  (x25 / 挠-01
+                        :arg1  (x26 / 腮
+)                        :arg0  (x55 / animal
+)))            :op3  (x29 / 叫喊-02
+                  :manner  (x28 / 大声
+)                  :arg0  (x55 / animal
+))            :op4  (x31 / 缠-01
+                  :duration  (x32 / 一会儿
+)                  :arg0  (x55 / animal
+))            :op5  (x36 / 进去-01
+                  :extent  (x35 / 都
+)                  :mod  (x34 / 也
+)                  :aspect  (x37 / 了
+)                  :arg0  (x55 / animal
+))))
+===========================
+跳过桥头，一个个抢盆夺碗，占灶争床，搬过来，移过去，正是猴性顽劣，再无一个宁时，只搬得力倦神疲方止。
+(x47 / temporal
+      :arg1  (x1_x2 / 跳过
+            :arg1  (x3 / 桥头
+))      :arg2  (x52 / and
+            :op1  (x8 / 抢-04
+                  :arg1  (x9 / 盆
+)                  :arg0  (x57 / animal
+                        :quant  (x5_x6_x7 / 一个个
+)))            :op2  (x10 / 夺-01
+                  :arg1  (x11 / 碗
+)                  :arg0  (x57 / animal
+)))      :arg3  (x61 / and
+            :op1  (x13 / 占-02
+                  :arg1  (x14 / 灶
+)                  :arg0  (x57 / animal
+))            :op2  (x15 / 争-01
+                  :arg1  (x16 / 床
+)                  :arg0  (x57 / animal
+)))      :arg4  (x18 / 搬-01
+            :direction  (x19 / 过来
+)            :arg0  (x57 / animal
+))      :arg5  (x21 / 移-01
+            :direction  (x22 / 过去
+))      :arg6  (x69 / causation
+            :arg1  (x27_x28 / 顽劣-01
+                  :arg0  (x26 / 性
+                        :poss  (x25 / 猴
+)))            :arg2  (x73 / and
+                  :op1  (x31 / 无-01
+                        :arg1  (x35 / 时
+                              :arg0-of  (x34 / 宁
+)                              :quant  (x32 / 1
+)                              :cunit  (x33 / 个
+))                        :mod  (x30 / 再
+))                  :op2  (x81 / condition
+                        :arg1  (x38 / 搬-01
+                              :cause-of  (x82 / and
+                                    :op1  (x41 / 倦
+                                          :arg0  (x40 / 力
+))                                    :op2  (x43 / 疲-01
+                                          :arg0  (x42 / 神
+)))                              :mod  (x37 / 只
+))                        :arg2  (x45 / 止
+)))))
+===========================
+石猴端坐上面道：“列位呵，‘人而无信，不知其可’。
+(x19 / temporal
+      :arg1  (x3 / 端坐-01
+            :arg0  (x2 / 猴
+                  :mod  (x1 / 石
+))            :location  (x4 / 上面
+))      :arg2  (x5 / 道
+            :arg1  (x26 / and
+                  :op1  (x7 / 列位
+                        :mode  (x8 / expressive
+))                  :op2  (x29 / condition
+                        :arg1  (x12 / 无-01
+                              :arg0  (x10 / 人
+)                              :arg1  (x13 / 信
+))                        :arg2  (x15_2 / 知-01
+                              :polarity  (x15_1 / -
+)                              :arg1  (x17 / 可
+                                    :arg0  (x16 / 其
+)))))))
+===========================
+你们才说有本事进得来，出得去，不伤身体者，就拜他为王。
+(x3 / 说-01
+      :arg0  (x1 / 你们
+)      :mod  (x2 / 才
+)      :arg1  (x29 / condition
+            :arg1  (x17 / 者
+                  :arg0-of  (x4 / 有-01
+                        :arg1  (x5 / 本事
+)                        :purpose  (x33 / and
+                              :op1  (x7 / possible
+                                    :arg0  (x6_x8 / 进来
+))                              :op2  (x11 / possible
+                                    :arg0  (x10_x12 / 出去
+))))                  :mod  (x15 / 伤-01
+                        :arg1  (x16 / 身体
+)                        :polarity  (x14 / -
+)))            :arg2  (x20 / 拜
+                  :arg1  (x21 / x17
+)                  :arg2  (x23 / 王
+))))
+===========================
+我如今进来又出去，出去又进来，寻了这一个洞天与列位安眠稳睡，各享成家之福，何不拜我为王？”
+(x36 / say
+      :arg1  (x38 / causation
+            :arg1  (x39 / and
+                  :op1  (x40 / temporal
+                        :arg1  (x3 / 进来-01
+                              :arg0  (x1 / 我
+))                        :arg2  (x5 / 出去-01
+                              :arg0  (x1 / 我
+))                        :time  (x2 / 如今
+))                  :op2  (x45 / temporal
+                        :arg1  (x7 / 出去-01
+                              :arg0  (x1 / 我
+))                        :arg2  (x9 / 进来-01
+                              :arg0  (x1 / 我
+)))                  :op3  (x11 / 寻-01
+                        :arg1  (x16 / 洞天
+                              :quant  (x14 / 1
+)                              :cunit  (x15 / 个
+)                              :mod  (x13 / 这
+))                        :aspect  (x12 / 了
+)                        :purpose  (x54 / and
+                              :op1  (x19_x20 / 安眠-01
+                                    :accompanier  (x18 / 列位
+))                              :op2  (x21_x22 / 稳睡
+                                    :accompanier  (x18 / 列位
+))                              :op3  (x25 / 享-01
+                                    :arg1  (x28 / 福
+                                          :mod  (x26 / 成家
+))                                    :manner  (x24 / 各
+))))                  :arg2  (x31 / 拜-01
+                        :arg1  (x32 / x1
+)                        :arg2  (x34 / 王
+)                        :cause  (x30 / amr-unknown
+)                        :mode  (x35 / interrogative
+)))))
+===========================
+众猴听说，即拱伏无违。
+(x11 / condition
+      :arg1  (x3 / 听说-01
+            :arg0  (x2 / 猴
+)            :mod  (x1 / 众
+))      :arg2  (x6_x7 / 拱伏
+            :manner  (x9 / 违-01
+                  :polarity  (x8 / -
+)                  :arg0  (x2 / 猴
+))))
+===========================
+一个个序齿排班，朝上礼拜，都称“千岁大王”。
+(x19 / and
+      :op1  (x5_x6 / 排班
+            :manner  (x4 / 序齿
+)            :arg0  (x23 / animal
+                  :quant  (x1_x2_x3 / 一个个
+)))      :op2  (x10 / 礼拜
+            :direction  (x9 / 上
+))      :op3  (x13 / 称-01
+            :extent  (x12 / 都
+)            :arg2  (x15_x16_x17 / 千岁大王
+)            :arg0  (x23 / animal
+)))
+===========================
+自此，石猴高登王位，将“石”字隐了，遂称美猴王。
+(x21 / and
+      :op1  (x6 / 登-02
+            :arg0  (x4 / 猴
+                  :consist-of  (x3 / 石
+))            :manner  (x5 / 高
+)            :arg1  (x7 / 王位
+))      :op2  (x28 / temporal
+            :arg1  (x14 / 隐
+                  :arg1  (x13 / 字
+                        :arg0-of  (x31 / mean
+                              :arg1  (x11 / 石
+)))                  :aspect  (x15 / 了
+)                  :arg0  (x4 / 猴
+))            :arg2  (x18 / 称-01
+                  :arg2  (x19 / 美猴王
+)                  :arg1  (x4 / 猴
+)))      :time  (x1 / 自此
+))
+===========================

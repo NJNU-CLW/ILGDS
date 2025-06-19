@@ -1,0 +1,372 @@
+“六一”儿童节快到了，商场里的玩具柜台前挤满了人，都是父母带着孩子来买玩具的。
+(x29 / causation
+      :arg1  (x6 / 到-01
+            :arg1  (x32 / festival
+                  :name  ( x4/儿童节 
+))            :aspect  (x7 / 了-01
+)            :time  (x5 / 快
+))      :arg2  (x37 / and
+            :op1  (x14 / 挤满-01
+                  :arg0  (x16 / 人
+                        :extent  (x18 / 都
+))                  :aspect  (x15 / 了
+)                  :arg1  (x13_2 / 前
+                        :arg0  (x12_x13_1 / 玩具柜台
+                              :location  (x9 / 商场
+))))            :op2  (x24 / 来-05
+                  :arg1  (x25 / 买-01
+                        :arg1  (x26 / 玩具
+)                        :arg0  (x20 / 父母
+                              :accompanier  (x23 / 孩子
+)))                  :arg0  (x20 / 父母
+)                  :mode  (x19_x27 / judgement
+))))
+===========================
+柜台前有个小男孩，只要看到谁买小汽车，他就马上跟过去，目不转睛地盯着柜台上跑动的汽车，眼里闪着兴奋的光芒。
+(x38 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 前
+                  :arg0  (x1 / 柜台
+))            :arg1  (x6 / 男孩
+                  :cunit  (x4 / 个
+)                  :arg0-of  (x5 / 小-01
+)))      :op2  (x46 / condition
+            :arg1  (x9 / 看到-01
+                  :arg1  (x11 / 买-01
+                        :arg0  (x10 / 谁
+)                        :arg1  (x12 / 小汽车
+))                  :arg0  (x6 / 男孩
+))            :arg2  (x52 / and
+                  :op1  (x17 / 跟-01
+                        :time  (x16 / 马上
+)                        :arg0  (x14 / x6
+)                        :direction  (x18 / 过去-01
+                              :arg0  (x14 / x6
+)))                  :op2  (x22 / 盯-01
+                        :manner  (x20 / 目不转睛
+)                        :aspect  (x23 / 着
+)                        :arg0  (x6 / 男孩
+)                        :arg1  (x29 / 汽车
+                              :arg0-of  (x26_x27 / 跑-01
+)                              :location  (x25 / 上
+                                    :arg0  (x24 / 柜台
+))))                  :op3  (x32 / 闪-01
+                        :aspect  (x33 / 着
+)                        :arg0  (x36 / 光芒
+                              :mod  (x34 / 兴奋
+))                        :arg1  (x31 / 眼里
+                              :part-of  (x6 / 男孩
+))))))
+===========================
+他是多么喜欢小汽车啊！
+(x4 / 喜欢-01
+      :mode  (x2 / judgement
+)      :degree  (x3 / 多么
+)      :arg0  (x1 / 他
+)      :arg1  (x5 / 小汽车
+)      :mode  (x6_x7 / expressive
+))
+===========================
+售货员阿姨问他：“谁带你来的？”
+(x3 / 问-01
+      :arg0  (x2 / 阿姨
+            :arg0-of  (x15 / mean
+                  :arg1  (x1 / 售货员
+)))      :arg2  (x4 / 他
+)      :arg1  (x7 / 带-03
+            :arg0  (x6 / amr-unknown
+)            :arg1  (x8 / x4
+)            :arg2  (x9 / 来-01
+                  :arg0  (x8 / x4
+))            :smood  (x10 / 的
+)            :mode  (x11 / interrogative
+)))
+===========================
+“妈妈。”
+(x4 / say
+      :arg1  (x2 / 妈妈
+))
+===========================
+阿姨看他身边并没有大人，又问：“你妈妈在哪儿？”
+(x17 / temporal
+      :arg1  (x2 / 看-02
+            :arg0  (x1 / 阿姨
+)            :arg1  (x6_2 / 有-03
+                  :polarity  (x6_1 / -
+)                  :arg0  (x4 / 身边
+                        :arg0  (x3 / 他
+))                  :mod  (x5 / 并
+)                  :arg1  (x7 / 大人
+)))      :arg2  (x10 / 问-01
+            :arg0  (x1 / 阿姨
+)            :arg2  (x3 / 他
+)            :arg1  (x14 / 在-01
+                  :arg0  (x13 / 妈妈
+                        :poss  (x12 / x3
+))                  :arg1  (x15 / amr-unknown
+)                  :mode  (x16 / interrogative
+))))
+===========================
+“在那儿！”孩子用手指向药品柜台。
+(x12 / and
+      :op1  (x14 / say
+            :arg1  (x2 / 在-01
+                  :arg1  (x3 / 那儿
+)                  :mode  (x4 / expressive
+)))      :op2  (x7_2_x8 / 指向-01
+            :arg0  (x5 / 孩子
+)            :instrument  (x7_1 / 手
+                  :part-of  (x5 / 孩子
+))            :arg1  (x10 / 柜台
+                  :mod  (x9 / 药品
+))))
+===========================
+“妈妈在买药，让你在这儿等她，是吗？”
+(x17 / say
+      :arg1  (x19 / and
+            :mode  (x14_x15_x16 / interrogative
+)            :op1  (x4 / 买-01
+                  :arg0  (x2 / 妈妈
+)                  :aspect  (x3 / 在
+)                  :arg1  (x5 / 药
+))            :op2  (x7 / 让-02
+                  :arg1  (x8 / 你
+)                  :arg2  (x11 / 等-01
+                        :location  (x10 / 这儿
+)                        :arg0  (x8 / 你
+)                        :arg1  (x12 / x2
+)))))
+===========================
+男孩点点头，又专心地看起小汽车来。
+(x12 / temporal
+      :arg1  (x2 / 点头-01
+            :arg0  (x1 / 男孩
+))      :arg2  (x7 / 看-02
+            :arg1  (x9 / 小汽车
+)            :arg0  (x1 / 男孩
+)            :manner  (x5 / 专心
+)))
+===========================
+过了一会儿，男孩的妈妈来了，说：“小兵，咱们回家吧！”
+(x19 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了-01
+)            :duration  (x3 / 一会儿
+))      :arg2  (x8 / 来-01
+            :arg0  (x7 / 妈妈
+                  :poss  (x5 / 男孩
+))            :aspect  (x9 / 了
+))      :arg3  (x11 / 说-01
+            :arg0  (x7 / 妈妈
+)            :arg1  (x29 / and
+                  :op1  (x31 / person
+                        :name  ( x13/小兵 
+))                  :op2  (x16 / 回家-01
+                        :mode  (x17 / imperative
+)                        :mode  (x18 / expressive
+)                        :arg0  (x15 / 咱们
+)))))
+===========================
+阿姨忍不住对他妈妈说：“孩子在这儿站半天了，您就给他买辆小汽车吧！。”
+(x26 / causation
+      :arg2  (x6 / 说-01
+            :arg0  (x1 / 阿姨
+                  :arg0  (x8 / x4
+))            :arg3  (x5 / 妈妈
+                  :poss  (x4 / 他
+))            :arg1  (x35 / causation
+                  :arg1  (x11 / 站-01
+                        :duration  (x12 / 半天
+)                        :arg1  (x10 / 这儿
+)                        :aspect  (x13 / 了
+)                        :arg0  (x8 / x4
+))                  :arg2  (x19 / 买-01
+                        :arg0  (x15 / x5
+)                        :arg1  (x21 / 小汽车
+                              :cunit  (x20 / 辆
+))                        :beneficiary  (x18 / x4
+)                        :mode  (x22 / imperative
+)                        :mode  (x23 / expressive
+))))      :arg1  (x49 / possible
+            :polarity  (x2_2 / -
+)            :arg0  (x2_1_3 / 忍住-01
+                  :arg0  (x1 / 阿姨
+))))
+===========================
+“不，我只看看，不要妈妈买。”男孩抢着说。
+(x15 / 说-01
+      :manner  (x13 / 抢
+            :aspect  (x14 / 着
+))      :arg0  (x12 / 男孩
+)      :arg1  (x22 / and
+            :op1  (x2 / 不
+)            :op2  (x6 / 看看-01
+                  :mod  (x5 / 只
+)                  :arg0  (x4 / x12
+))            :op3  (x8_2 / 要-04
+                  :polarity  (x8_1 / -
+)                  :arg0  (x4 / x12
+)                  :arg1  (x9 / 妈妈
+)                  :arg2  (x10 / 买-01
+                        :arg0  (x9 / 妈妈
+)))))
+===========================
+孩子的妈妈叹了口气，说：“他爸爸常年病着，家里生活不富裕。
+(x22 / temporal
+      :arg1  (x4 / 叹-02
+            :arg0  (x3 / 妈妈
+                  :poss  (x1 / 孩子
+))            :arg1  (x7 / 气
+                  :cunit  (x6 / 口
+))            :aspect  (x5 / 了
+))      :arg2  (x9 / 说-01
+            :arg0  (x3 / 妈妈
+)            :arg1  (x31 / causation
+                  :arg1  (x14 / 病-01
+                        :duration  (x13 / 常年
+)                        :aspect  (x15 / 着
+)                        :arg0  (x12 / 爸爸
+                              :poss  (x11 / x1
+)))                  :arg2  (x20 / 富裕-01
+                        :polarity  (x19 / -
+)                        :arg0  (x18 / 生活
+                              :range  (x17 / 家里
+))))))
+===========================
+孩子心疼我，什么也不让我给他买……”
+(x14 / say
+      :arg1  (x16 / causation
+            :arg1  (x2 / 心疼-01
+                  :arg0  (x1 / 孩子
+)                  :arg1  (x3 / 我
+))            :arg2  (x8 / 让-02
+                  :polarity  (x7 / -
+)                  :arg0  (x1 / 孩子
+)                  :arg1  (x9 / 我
+)                  :arg2  (x12 / 买-01
+                        :arg0  (x9 / 我
+)                        :beneficiary  (x11 / 他
+)                        :arg1  (x5 / 什么
+                              :extent  (x6 / 也
+))))))
+===========================
+听着听着，售货员阿姨的眼圈红了，说：“多懂事的孩子呀！这样吧，我买辆小汽车，送给他作节日礼物。”
+(x35 / temporal
+      :arg1  (x1_x3 / 听-01
+            :aspect  (x2_x4 / 着
+)            :arg0  (x7 / 阿姨
+                  :arg0-of  (x42 / mean
+                        :arg1  (x6 / 售货员
+))))      :arg2  (x10 / 红-01
+            :arg0  (x9 / 眼圈
+                  :part-of  (x7 / 阿姨
+))            :aspect  (x11 / 了
+))      :arg3  (x13 / 说-01
+            :arg0  (x7 / 阿姨
+)            :arg1  (x46 / and
+                  :op1  (x18 / 孩子
+                        :mode  (x19_x20 / expressive
+)                        :arg0-of  (x16 / 懂事-01
+                              :degree  (x15 / 多
+)))                  :op2  (x21 / 这样
+                        :mode  (x22 / expressive
+)                        :arg0-of  (x53 / mean
+                              :arg1  (x54 / temporal
+                                    :arg1  (x25 / 买-01
+                                          :arg0  (x24 / x7
+)                                          :arg1  (x27 / 小汽车
+                                                :cunit  (x26 / 辆
+)                                                :arg0-of  (x31 / 作-02
+                                                      :arg1  (x33 / 礼物
+                                                            :mod  (x32 / 节日
+)))))                                    :arg2  (x29 / 送给-01
+                                          :arg0  (x7 / 阿姨
+)                                          :arg2  (x30 / 他
+)                                          :arg1  (x27 / 小汽车
+))))))))
+===========================
+“不，谢谢，我不要。”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x2 / 不
+)            :op2  (x4 / 谢谢
+)            :op3  (x7_2 / 要-01
+                  :polarity  (x7_1 / -
+)                  :arg0  (x6 / 我
+))))
+===========================
+男孩拉着妈妈的手，走出了商场。
+(x13 / and
+      :op1  (x2 / 拉-01
+            :arg0  (x1 / 男孩
+)            :aspect  (x3 / 着
+)            :arg1  (x6 / 手
+                  :part-of  (x4 / 妈妈
+)))      :op2  (x8_x9 / 走出-02
+            :arg0  (x1 / 男孩
+)            :aspect  (x10 / 了
+)            :arg1  (x11 / 商场
+)))
+===========================
+回到家里，售货员阿姨对自己的女儿说起这件事。
+(x16 / temporal
+      :arg1  (x1 / 回到-01
+            :arg0  (x5 / 阿姨
+                  :arg0-of  (x20 / mean
+                        :arg1  (x4 / 售货员
+)))            :arg1  (x2 / 家里
+))      :arg2  (x10 / 说-01
+            :arg0  (x5 / 阿姨
+)            :arg3  (x9 / 女儿
+                  :poss  (x7 / x5
+))            :arg1  (x14 / 事
+                  :mod  (x12 / 这
+)                  :cunit  (x13 / 件
+))))
+===========================
+女儿听了，连忙从玩具里找出一辆漂亮的小汽车，请妈妈带给那个男孩。
+(x24 / temporal
+      :arg1  (x2 / 听-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 女儿
+))      :arg2  (x9_x10 / 找出-01
+            :arg0  (x1 / 女儿
+)            :manner  (x5 / 连忙
+)            :source  (x7 / 玩具
+)            :arg1  (x15 / 小汽车
+                  :arg0-of  (x13 / 漂亮-01
+)                  :quant  (x11 / 1
+)                  :cunit  (x12 / 辆
+)))      :arg3  (x17 / 请-01
+            :arg0  (x1 / 女儿
+)            :arg1  (x18 / 妈妈
+)            :arg2  (x19_x20 / 带给-01
+                  :arg0  (x18 / 妈妈
+)                  :arg1  (x15 / 小汽车
+)                  :arg2  (x22 / 男孩
+                        :mod  (x21_1 / 那
+)                        :cunit  (x21_2 / 个
+)))))
+===========================
+售货员阿姨天天盼着再见到那个男孩，好把小汽车送给他。
+(x4 / 盼-01
+      :aspect  (x5 / 着
+)      :arg0  (x2 / 阿姨
+            :arg0-of  (x22 / mean
+                  :arg1  (x1 / 售货员
+)))      :arg1  (x7 / 见到-01
+            :mod  (x6 / 再
+)            :arg1  (x9 / 男孩
+                  :cunit  (x8_2 / 个
+)                  :mod  (x8_1 / 那
+))            :arg0  (x2 / 阿姨
+)            :purpose  (x14 / 送给-01
+                  :arg0  (x2 / 阿姨
+)                  :arg1  (x13 / 小汽车
+)                  :arg2  (x15 / x9
+)))      :frequency  (x32 / rate-entity-91
+            :arg3  (x34 / temporal-quantity
+                  :quant  (x35 / 1
+)                  :unit  (x3 / 天
+))))
+===========================

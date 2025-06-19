@@ -1,0 +1,653 @@
+我父亲是走街串巷卖糖葫芦的。
+(x5 / 卖-01
+      :mode  (x3_x7 / judgement
+)      :arg1  (x6 / 糖葫芦
+)      :manner  (x4 / 走街串巷
+)      :arg0  (x2 / 父亲
+            :poss  (x1 / 我
+)))
+===========================
+他做的糖葫芦在天津非常有名。
+(x8 / 有名-01
+      :degree  (x7 / 非常
+)      :location  (x13 / city
+            :name  ( x6/天津 
+))      :arg0  (x4 / 糖葫芦
+            :arg1-of  (x2 / 做-05
+                  :arg0  (x1 / 他
+))))
+===========================
+父亲的糖葫芦做得好，用的都是最好的材料。
+(x17 / and
+      :op1  (x4 / 做-05
+            :arg1  (x3 / 糖葫芦
+                  :poss  (x1 / 父亲
+))            :arg0  (x1 / 父亲
+)            :cause-of  (x6 / 好-01
+                  :arg0  (x3 / 糖葫芦
+)))      :op2  (x15 / 材料
+            :domain  (x26 / thing
+                  :arg1-of  (x8 / 用-01
+)                  :extent  (x10 / 都
+))            :arg0-of  (x13 / 好-01
+                  :degree  (x12 / 最
+))))
+===========================
+早晨起来，父亲去市上买来红果、海棠、山药、红小豆等，先把这些东西洗干净。
+(x26 / temporal
+      :arg1  (x2 / 起来-01
+            :arg0  (x4 / 父亲
+)            :time  (x1 / 早晨
+))      :arg2  (x5 / 去-01
+            :arg1  (x6 / 市
+)            :arg0  (x4 / 父亲
+)            :purpose  (x8 / 买-01
+                  :arg0  (x4 / 父亲
+)                  :arg1  (x34 / and
+                        :op1  (x10 / 红果
+)                        :op2  (x12 / 海棠
+)                        :op3  (x14 / 山药
+)                        :op4  (x16 / 红小豆
+)                        :op5  (x17 / 等
+))))      :arg3  (x23 / 洗-01
+            :time  (x19 / 先
+)            :cause-of  (x24 / 干净-01
+                  :arg0  (x22 / x34
+                        :mod  (x21 / 这些
+)))            :arg0  (x4 / 父亲
+)            :arg1  (x22 / x34
+)))
+===========================
+红果、海棠去了把儿和尾，有一点儿掉皮损伤的都要挑出来，选出上好的在阳光下晾晒。
+(x29 / temporal
+      :arg1  (x4 / 去-03
+            :arg0  (x7 / and
+                  :op1  (x6 / 把儿
+                        :part-of  (x3 / 海棠
+)                        :part-of  (x1 / 红果
+))                  :op2  (x8 / 尾
+                        :part-of  (x1 / 红果
+)                        :part-of  (x1 / 红果
+)))            :aspect  (x5 / 了
+))      :arg2  (x17 / 要-03
+            :arg0  (x18 / 挑-01
+                  :cause-of  (x19 / 出来-01
+                        :op2  (x42 / thing
+                              :extent  (x16 / 都
+)                              :arg0-of  (x10 / 有-03
+                                    :arg1  (x45 / or
+                                          :op1  (x12 / 掉-01
+                                                :arg1  (x13 / 皮
+))                                          :op2  (x14 / 损伤-01
+                                                :arg1  (x42 / thing
+))))))                  :arg1  (x42 / thing
+)))      :arg3  (x21 / 选出-01
+            :arg1  (x50 / thing
+                  :arg0-of  (x22 / 上好
+)))      :arg4  (x27 / 晾晒-01
+            :arg1  (x50 / thing
+)            :location  (x26 / 下
+                  :arg0  (x25 / 阳光
+))))
+===========================
+青丝、玫瑰也是要上等的。
+(x6 / 要-03
+      :mode  (x5_x8 / judgement
+)      :arg0  (x7 / 上等-01
+            :arg0  (x14 / and
+                  :op1  (x1 / 青丝
+)                  :op2  (x3 / 玫瑰
+)))      :mod  (x4 / 也
+))
+===========================
+蘸糖葫芦必须用冰糖，绵白糖不行，蘸出来不亮。
+(x20 / condition
+      :arg1  (x1 / 蘸
+            :arg1  (x2 / 糖葫芦
+))      :arg2  (x24 / contrast
+            :arg1  (x3 / 必须-02
+                  :arg0  (x4 / 用-01
+                        :arg1  (x5 / 冰糖
+)))            :arg2  (x26 / causation
+                  :arg2  (x9 / 行-04
+                        :polarity  (x8 / -
+)                        :arg0  (x7 / 绵白糖
+))                  :arg1  (x30 / condition
+                        :arg1  (x11_x12 / 蘸
+)                        :arg2  (x14 / 亮
+                              :polarity  (x13 / -
+))))))
+===========================
+煮糖用铜锅，铁锅煮出的糖发黑。
+(x13 / causation
+      :arg2  (x15 / condition
+            :arg1  (x1 / 煮-01
+                  :arg1  (x2 / 糖
+))            :arg2  (x3 / 用-02
+                  :arg1  (x4 / 铜锅
+)))      :arg1  (x11 / 发黑-01
+            :arg0  (x10 / 糖
+                  :arg0-of  (x8 / 出-01
+                        :manner  (x7 / 煮-01
+                              :instrument  (x6 / 铁锅
+)                              :arg1  (x10 / 糖
+))))))
+===========================
+小时候，我给父亲当帮手，把炉火闷好，再把一块大理石板洗擦干净，擦上油备用。
+(x29 / and
+      :time  (x1 / 小时候
+)      :op1  (x6 / 当-01
+            :beneficiary  (x5 / 父亲
+)            :arg0  (x3 / 我
+)            :arg1  (x7 / 帮手
+))      :op2  (x36 / temporal
+            :arg2  (x40 / and
+                  :cause-of  (x22 / 干净-01
+                        :arg0  (x19 / 板
+                              :consist-of  (x18 / 大理石
+)                              :quant  (x16 / 1
+)                              :cunit  (x17 / 块
+)))                  :op1  (x20 / 洗-01
+                        :arg1  (x19 / 板
+))                  :op2  (x21 / 擦-01
+                        :arg1  (x19 / 板
+)))            :arg3  (x24 / 擦-01
+                  :location  (x18 / 大理石
+)                  :arg1  (x26 / 油
+)                  :purpose  (x27 / 备用
+))            :arg1  (x12 / 好-04
+                  :arg0  (x10 / 炉火
+)                  :arg0  (x11 / 闷
+                        :arg1  (x10 / 炉火
+)))))
+===========================
+串糖葫芦的竹签，由我一根根削好、洗净、晾干，然后一捆捆放在父亲手边。
+(x27 / temporal
+      :arg2  (x14 / 洗-01
+            :arg0  (x7 / 我
+)            :arg1  (x15 / 净-01
+                  :arg0  (x4 / 竹签
+                        :instrument-of  (x1 / 串-01
+                              :arg1  (x2 / 糖葫芦
+))                        :quant  (x8_x9_x10 / 一根根
+))))      :arg3  (x17 / 晾干-01
+            :arg0  (x7 / 我
+)            :arg1  (x4 / 竹签
+))      :arg4  (x23 / 放在-01
+            :manner  (x20_x21_x22 / 一捆捆
+)            :arg2  (x25 / 手边
+                  :arg0  (x24 / 父亲
+))            :arg0  (x7 / 我
+)            :arg1  (x4 / 竹签
+))      :arg1  (x12 / 好-04
+            :arg0  (x4 / 竹签
+)            :arg0  (x11 / 削-01
+                  :arg1  (x4 / 竹签
+)                  :arg0  (x7 / 我
+))))
+===========================
+父亲把糖煮开，等能拉出丝来，火候就算到家了。
+(x19 / temporal
+      :arg1  (x4 / 煮-01
+            :arg1  (x5 / 开
+                  :arg0  (x3 / 糖
+))            :arg1  (x3 / 糖
+)            :arg0  (x1 / 父亲
+))      :arg2  (x25 / condition
+            :arg1  (x8 / 能-01
+                  :arg0  (x9 / 拉-01
+                        :arg1  (x11 / 丝
+)))            :arg2  (x15_2 / 算-01
+                  :arg0  (x14 / 火候
+)                  :arg1  (x16 / 到家
+                        :aspect  (x17 / 了
+)))))
+===========================
+父亲把锅端下来，放在备好的架子上，我在一边往父亲手里递串好的葫芦，父亲接过来在糖锅里滚蘸、蘸好了一手递给我，一手接过我递过去的没蘸的。
+(x53 / temporal
+      :arg1  (x4 / 端-01
+            :cause-of  (x5 / 下来
+                  :arg0  (x3 / 锅
+))            :arg0  (x1 / 父亲
+)            :arg1  (x3 / 锅
+))      :arg2  (x7 / 放在-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x3 / 锅
+)            :arg2  (x10 / 架子
+                  :arg1-of  (x8 / 备好-01
+)))      :arg3  (x20 / 递-01
+            :arg0  (x13 / 我
+)            :location  (x15 / 一边
+)            :arg1  (x24 / 葫芦
+                  :arg0-of  (x22 / 好-04
+                        :arg0  (x21 / 串-01
+                              :arg1  (x24 / 葫芦
+))))            :arg2  (x18 / 手
+                  :part-of  (x17 / x1
+)))      :arg5  (x33 / 蘸
+            :location  (x30 / 糖锅
+)            :arg1  (x24 / 葫芦
+)            :manner  (x32 / 滚
+))      :arg6  (x76 / condition
+            :arg2  (x80 / and
+                  :op1  (x39 / 递给-01
+                        :arg0  (x38 / 一手
+                              :part-of  (x1 / 父亲
+))                        :arg2  (x40 / x13
+)                        :arg1  (x24 / 葫芦
+))                  :op2  (x43 / 接-01
+                        :arg0  (x42 / 一手
+                              :part-of  (x1 / 父亲
+))                        :arg1  (x87 / thing
+                              :arg1-of  (x50 / 蘸
+                                    :polarity  (x49 / -
+))                              :arg1-of  (x46 / 递-01
+                                    :arg0  (x45 / x13
+)))))            :arg1  (x36 / 好-04
+                  :arg0  (x24 / 葫芦
+)                  :aspect  (x37 / 了
+)                  :arg0  (x35 / 蘸
+)))      :arg4  (x27_x28 / 接过-01
+            :arg0  (x26 / x1
+)            :arg1  (x24 / 葫芦
+)))
+===========================
+我的节奏掌握得正好，一点儿不耽误，父亲很高兴。
+(x16 / causation
+      :arg1  (x19 / causation
+            :arg1  (x4 / 掌握-01
+                  :manner  (x6 / 正好
+)                  :arg1  (x3 / 节奏
+                        :poss  (x1 / 我
+))                  :arg0  (x1 / 我
+))            :arg2  (x10 / 耽误
+                  :polarity  (x9 / 不
+                        :degree  (x8 / 一点儿
+))))      :arg2  (x14 / 高兴-01
+            :degree  (x13 / 很
+)            :arg0  (x12 / 父亲
+)))
+===========================
+父亲教我在石板上甩出“糖风”来，那是在糖葫芦尖上薄薄的一片糖。
+(x26 / and
+      :op1  (x2 / 教-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x3 / 我
+)            :arg2  (x7 / 甩
+                  :arg1  (x10 / 糖风
+)                  :location  (x5 / 石板
+)))      :op2  (x24 / 糖
+            :quant  (x22 / 1
+)            :unit  (x23 / 片
+)            :domain  (x14 / x10
+)            :location  (x18 / 尖
+                  :arg0  (x17 / 糖葫芦
+))            :arg0-of  (x20 / 薄-01
+)))
+===========================
+过年的糖葫芦，要甩出长长的糖风。
+(x14 / condition
+      :arg1  (x3 / 糖葫芦
+            :time  (x1 / 过年
+))      :arg2  (x5 / 要-03
+            :arg0  (x6 / 甩
+                  :arg1  (x10 / 糖风
+                        :arg0-of  (x8 / 长-02
+)))))
+===========================
+父亲甩的可漂亮了，好像聚宝盆上的光圈。
+(x14 / and
+      :op1  (x5 / 漂亮-01
+            :degree  (x4 / 可
+)            :aspect  (x6 / 了
+)            :arg0  (x19 / thing
+                  :arg1-of  (x2 / 甩
+                        :arg0  (x1 / 父亲
+))))      :op2  (x8 / 好像-01
+            :arg0  (x19 / thing
+)            :arg1  (x12 / 光圈
+                  :location  (x9 / 聚宝盆
+))))
+===========================
+父亲说：“我的糖葫芦糖蘸得均匀，越薄越见功夫，吃一口让人叫好，蘸出的糖葫芦不怕冷不怕热不怕潮，这叫万年牢。”
+(x2 / 说-01
+      :arg0  (x1 / 父亲
+)      :arg1  (x46 / and
+            :op1  (x8 / 蘸
+                  :manner  (x10 / 均匀-01
+                        :arg0  (x7 / 糖
+))                  :arg1  (x6 / 糖葫芦
+                        :poss  (x4 / x1
+))                  :arg2  (x7 / 糖
+))            :op2  (x12_x14 / 越
+                  :arg0  (x13 / 薄
+)                  :arg1  (x15 / 见-01
+                        :arg1  (x16 / 功夫
+)))            :op3  (x55 / condition
+                  :arg1  (x18 / 吃
+                        :quant  (x19 / 1
+)                        :cunit  (x20 / 口
+))                  :arg2  (x21 / 让-02
+                        :arg1  (x22 / 人
+)                        :arg2  (x23 / 叫好-01
+                              :arg0  (x22 / 人
+))))            :op3  (x62 / and
+                  :op1  (x30 / 怕-01
+                        :polarity  (x29 / -
+)                        :arg0  (x28 / 糖葫芦
+                              :arg0-of  (x25 / 蘸
+))                        :arg1  (x31 / 冷
+))                  :op2  (x33 / 怕-01
+                        :polarity  (x32 / -
+)                        :arg1  (x34 / 热
+)                        :arg0  (x28 / 糖葫芦
+))                  :op3  (x36 / 怕-01
+                        :polarity  (x35 / -
+)                        :arg1  (x37 / 潮
+)                        :arg0  (x28 / 糖葫芦
+)))            :op4  (x40 / 叫-01
+                  :arg0  (x39 / 这
+)                  :arg1  (x41 / 万年牢
+))))
+===========================
+父亲的认真劲儿，在卖糖葫芦的人当中出了名，人称“小辫儿糖四”，因为清代父亲受过宫廷里做糖货的师傅传授，一直留着辫子提篮叫卖糖葫芦。
+(x41 / and
+      :op1  (x43 / and
+            :op1  (x12_x14 / 出名-01
+                  :aspect  (x13 / 了
+)                  :arg0  (x4 / 劲儿
+                        :mod  (x3 / 认真
+)                        :poss  (x1 / 父亲
+))                  :location  (x11 / 当中
+                        :arg0  (x10 / 人
+                              :arg0-of  (x7 / 卖-01
+                                    :arg1  (x8 / 糖葫芦
+)))))            :op2  (x16 / 人称
+                  :arg1  (x18 / 小辫儿糖四
+)                  :arg0  (x1 / 父亲
+)))      :op2  (x55 / causation
+            :arg1  (x31 / 传授-01
+                  :arg0  (x30 / 师傅
+                        :arg0-of  (x27 / 做-05
+                              :arg1  (x28 / 糖货
+)                              :location  (x25 / 宫廷
+)))                  :time  (x21 / 清代
+)                  :arg1  (x22 / x1
+))            :arg2  (x38 / 叫卖-01
+                  :manner  (x34 / 留-02
+                        :arg0  (x1 / 父亲
+)                        :aspect  (x35 / 着
+)                        :arg1  (x36 / 辫子
+))                  :arg0  (x1 / 父亲
+)                  :arg1  (x39 / 糖葫芦
+)                  :manner  (x37 / 提篮
+)                  :time  (x33 / 一直
+))))
+===========================
+后来天津南市旧日租界的一家大字号，托人邀请父亲去他们柜上做糖葫芦，每月有工钱，虽然不多，总比走街串巷强多了。
+(x35 / and
+      :op1  (x12 / 邀请-01
+            :manner  (x11 / 托人
+)            :arg0  (x9 / 大字号
+                  :location  (x4_2_x5 / 日租界
+                        :arg0-of  (x4_1 / 旧-01
+)                        :location  (x3 / 南市
+                              :location  (x45 / city
+                                    :name  ( x2/天津 
+))))                  :quant  (x7 / 1
+)                  :cunit  (x8 / 家
+))            :time  (x1 / 后来
+)            :arg1  (x13 / 父亲
+)            :arg2  (x17 / 做-05
+                  :location  (x16 / 柜上
+                        :poss  (x15 / x9
+))                  :arg0  (x13 / 父亲
+)                  :arg1  (x18 / 糖葫芦
+)))      :op2  (x21 / 有-03
+            :frequency  (x54 / rate-entity
+                  :arg2  (x55 / temporal-quantity
+                        :quant  (x20_1 / 1
+)                        :unit  (x20_2 / 月
+)))            :arg1  (x22 / 工钱
+))      :op3  (x59 / contrast
+            :arg1  (x26 / 多-03
+                  :arg0  (x22 / 工钱
+)                  :polarity  (x25 / -
+))            :arg2  (x31 / 强
+                  :degree  (x32 / 多
+                        :aspect  (x33 / 了
+))                  :compared-to  (x30 / 走街串巷
+))))
+===========================
+做大买卖的老板都有一套生意经，变着法儿多赚钱，父亲对老板定价太高心里不满意，对老板的行为也看不下去。
+(x38 / and
+      :op1  (x7 / 有-01
+            :arg0  (x5 / 老板
+                  :extent  (x6 / 都
+)                  :arg0-of  (x1 / 做-01
+                        :arg1  (x3 / 买卖
+                              :arg0-of  (x2 / 大-01
+))))            :arg1  (x10 / 生意经
+                  :cunit  (x9 / 套
+)                  :quant  (x8 / 1
+)))      :op2  (x15 / 多-01
+            :arg1  (x16 / 赚钱-02
+                  :arg0  (x5 / 老板
+))            :arg0  (x5 / 老板
+)            :manner  (x12 / 变-01
+                  :aspect  (x13 / 着
+)                  :arg0  (x14 / 法儿
+)))      :op3  (x55 / and
+            :op1  (x27 / 满意-01
+                  :polarity  (x26 / possible
+                        :polarity  (x35 / -
+))                  :arg1  (x23 / 高-01
+                        :degree  (x22 / 太
+)                        :arg0  (x21 / 定价-01
+                              :arg0  (x20 / 老板
+)))                  :arg0  (x24 / 心
+                        :part-of  (x18 / 父亲
+)))            :op2  (x36 / possible
+                  :arg0  (x34 / 看-02
+                        :arg0  (x18 / 父亲
+)                        :arg1  (x32 / 行为
+                              :poss  (x30 / x20
+)))                  :polarity  (x35 / -
+)                  :mod  (x33 / 也
+))))
+===========================
+他还像过去那样认真选料，一点儿不马虎。
+(x14 / and
+      :op1  (x7 / 选-02
+            :manner  (x6 / 认真-01
+                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)            :arg1  (x8 / 料
+)            :mod  (x2 / 还
+)            :manner  (x3 / 像
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 那样
+                        :time  (x4 / 过去
+))))      :op2  (x12 / 马虎
+            :polarity  (x11 / 不
+                  :degree  (x10 / 一点儿
+))))
+===========================
+老板嫌他扔得太多，让他少扔点儿、掺点儿假，他不听。
+(x23 / contrast
+      :arg1  (x25 / causation
+            :arg1  (x2 / 嫌-01
+                  :arg0  (x1 / 老板
+)                  :arg1  (x4 / 扔-01
+                        :arg1  (x29 / thing
+                              :arg0-of  (x7 / 多-01
+                                    :degree  (x6 / 太
+)))                        :arg0  (x3 / 他
+)))            :arg2  (x9 / 让-02
+                  :arg0  (x1 / 老板
+)                  :arg1  (x3 / 他
+)                  :arg2  (x39 / and
+                        :op1  (x12 / 扔-01
+                              :arg0  (x3 / 他
+)                              :manner  (x12 / 扔-01
+))                        :op2  (x15_x17 / 掺假-01
+                              :degree  (x16 / 点儿
+)                              :arg0  (x3 / 他
+)))))      :arg2  (x21 / 听-01
+            :arg0  (x19 / x3
+)            :polarity  (x20 / -
+)))
+===========================
+老板给他派的下手，他也不满意，嫌那个下手不熟练，动作太慢。
+(x23 / causation
+      :arg2  (x11 / 满意-01
+            :mod  (x9 / 也
+)            :arg0  (x8 / 他
+)            :arg1  (x6 / 下手
+                  :arg1-of  (x4 / 派-01
+                        :arg0  (x1 / 老板
+)                        :beneficiary  (x3 / x8
+)))            :polarity  (x10 / -
+))      :arg1  (x13 / 嫌-01
+            :arg0  (x8 / 他
+)            :arg1  (x35 / and
+                  :op1  (x17 / 熟练-01
+                        :arg0  (x15 / x6
+                              :mod  (x14_1 / 那
+)                              :cunit  (x14_2 / 个
+))                        :polarity  (x16 / -
+))                  :op2  (x21 / 慢-01
+                        :degree  (x20 / 太
+)                        :arg0  (x19 / 动作
+                              :poss  (x15 / x6
+))))))
+===========================
+他常说：“还不如我闺女呢，太慢了！”
+(x3 / 说-01
+      :arg0  (x1 / 他
+)      :frequency  (x2 / 常
+)      :arg1  (x19 / and
+            :op1  (x6 / 不如-01
+                  :arg1  (x8 / 闺女
+                        :poss  (x7 / x1
+))                  :mod  (x5 / 还
+)                  :mode  (x9 / expressive
+))            :op2  (x12 / 慢
+                  :degree  (x11 / 太
+)                  :smood  (x13 / 了
+)                  :mode  (x14 / expressive
+))))
+===========================
+干了不到一年，父亲就辞去了这份工作，仍然提篮叫卖。
+(x20 / condition
+      :arg1  (x4 / 到-01
+            :arg0  (x1 / 干
+                  :aspect  (x2 / 了
+))            :arg1  (x25 / temporal-quantity
+                  :quant  (x5 / 1
+)                  :unit  (x6 / 年
+))            :polarity  (x3 / -
+))      :arg2  (x29 / temporal
+            :arg1  (x10 / 辞去-01
+                  :arg0  (x8 / 父亲
+)                  :aspect  (x11 / 了-01
+)                  :arg1  (x14 / 工作
+                        :mod  (x12 / 这
+)                        :cunit  (x13 / 份
+)))            :arg2  (x18 / 叫卖-01
+                  :manner  (x17 / 提篮
+)                  :manner  (x16 / 仍然
+)                  :arg0  (x8 / 父亲
+))))
+===========================
+自己吃苦不怕，他说，凭着良心做买卖才是正路，不能做亏心买卖。
+(x6 / 说-01
+      :arg0  (x5 / 他
+)      :arg1  (x26 / and
+            :op1  (x3_2 / 怕-01
+                  :arg1  (x2 / 吃苦-01
+                        :arg0  (x1 / 自己
+)))            :op2  (x14 / 正路
+                  :domain  (x10 / 做-01
+                        :arg1  (x11 / 买卖
+)                        :manner  (x8_1 / 凭-01
+                              :aspect  (x8_2 / 着
+)                              :arg1  (x9 / 良心
+)))                  :mod  (x12 / 才
+))            :op3  (x16_2 / 能-01
+                  :polarity  (x16_1 / -
+)                  :arg0  (x17 / 做-01
+                        :arg1  (x19 / 买卖
+                              :mod  (x18 / 亏心
+))))))
+===========================
+“公平买卖走正道，顾客点头说声好，回头再来这是宝，做生意讲实在是万年牢。”
+(x27 / say
+      :arg1  (x29 / and
+            :op1  (x30 / and
+                  :op1  (x2 / 公平-01
+                        :arg0  (x3 / 买卖
+))                  :op2  (x4 / 走-01
+                        :arg1  (x5 / 正道
+)))            :op2  (x35 / and
+                  :op1  (x8 / 点头-01
+                        :arg0  (x7 / 顾客
+))                  :op2  (x9 / 说-01
+                        :arg1  (x11 / 好
+                              :cunit  (x10 / 声
+))                        :arg0  (x7 / 顾客
+)))            :op3  (x41 / and
+                  :op1  (x15 / 来
+                        :mod  (x14 / 再
+)                        :manner  (x13 / 回头
+))                  :op2  (x18 / 宝
+                        :domain  (x16 / 这
+)))            :op4  (x25 / 万年牢
+                  :domain  (x22 / 讲-02
+                        :time  (x20 / 做-01
+                              :arg1  (x21 / 生意
+))                        :arg1  (x23 / 实在
+)))))
+===========================
+父亲教导我做万年牢，就是要做个可靠的人，实实在在的人。
+(x2 / 教导-01
+      :arg0  (x1 / 父亲
+)      :arg1  (x3 / 我
+)      :arg2  (x4 / 做-02
+            :arg0  (x3 / 我
+)            :arg1  (x5 / 万年牢
+                  :arg0-of  (x29 / mean
+                        :arg1  (x8 / 要-03
+                              :arg0  (x9 / 做-02
+                                    :arg1  (x31 / and
+                                          :op1  (x13 / 人
+                                                :cunit  (x10 / 个
+)                                                :arg0-of  (x11 / 可靠-01
+))                                          :op2  (x17 / 人
+                                                :arg0-of  (x15 / 实在-01
+)))))))))
+===========================
+无论做什么事都要讲究认真，讲究实在。
+(x13 / condition
+      :arg1  (x2 / 做-01
+            :arg1  (x4 / 事
+                  :mod  (x3 / 什么
+)                  :extent  (x5 / 都
+)))      :arg2  (x18 / and
+            :op1  (x7 / 讲究-01
+                  :arg1  (x8 / 认真
+))            :op2  (x10 / 讲究-01
+                  :arg1  (x11 / 实在
+))))
+===========================
+父亲的教导使我一生受益。
+(x4 / 使-01
+      :arg0  (x3 / 教导-01
+            :arg0  (x1 / 父亲
+))      :arg1  (x5 / 我
+)      :arg1  (x7 / 受益-01
+            :arg0  (x5 / 我
+)            :arg1  (x3 / 教导-01
+)            :time  (x6 / 一生
+)))
+===========================

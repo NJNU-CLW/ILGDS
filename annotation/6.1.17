@@ -1,0 +1,174 @@
+有的人活着，他已经死了；有的人死了，他还活着。
+(x21 / and
+      :op1  (x23 / contrast
+            :arg1  (x3 / 活-01
+                  :arg0  (x2 / 人
+                        :mod  (x1 / 有的
+))                  :aspect  (x4 / 着-01
+))            :arg2  (x8 / 死-01
+                  :arg0  (x6 / x2
+)                  :aspect  (x9 / 了
+)                  :aspect  (x7 / 已经
+)))      :op2  (x32 / contrast
+            :arg1  (x13 / 死-01
+                  :arg0  (x12 / 人
+                        :mod  (x11 / 有的
+))                  :aspect  (x14 / 了
+))            :arg2  (x18 / 活-01
+                  :arg0  (x16 / x12
+)                  :mod  (x17 / 还
+)                  :aspect  (x19 / 着
+))))
+===========================
+有的人骑在人民头上：“呵，我多伟大！”
+(x18 / and
+      :op1  (x3 / 骑-01
+            :arg0  (x2 / 人
+                  :mod  (x1 / 有的
+))            :arg1  (x6 / 头
+                  :part-of  (x5 / 人民
+)))      :op2  (x24 / say
+            :arg1  (x25 / and
+                  :op1  (x9 / 呵
+)                  :op2  (x13 / 伟大-01
+                        :arg0  (x11 / x2
+)                        :degree  (x12 / 多
+)                        :mode  (x14 / expressive
+)))))
+===========================
+有的人俯下身子给人民当牛马。
+(x3_x4 / 俯下
+      :arg0  (x2 / 人
+            :mod  (x1 / 有的
+))      :arg1  (x5 / 身子
+)      :purpose  (x8 / 当-02
+            :arg1  (x9 / 牛马
+)            :beneficiary  (x7 / 人民
+)            :arg0  (x2 / 人
+)))
+===========================
+有的人把名字刻入石头，想“不朽”；有的人情愿作野草，等着地下的火烧。
+(x36 / contrast
+      :arg1  (x5 / 刻-01
+            :arg0  (x2 / 人
+                  :mod  (x1 / 有的
+))            :arg1  (x4 / 名字
+)            :arg2  (x7 / 石头
+)            :purpose  (x9 / 想-02
+                  :arg1  (x11 / 不朽-01
+                        :arg0  (x2 / 人
+))                  :arg0  (x2 / 人
+)))      :arg2  (x38 / and
+            :op1  (x15 / 情愿-01
+                  :arg0  (x14 / 人
+                        :mod  (x13 / 有的
+))                  :arg1  (x16 / 作
+                        :arg1  (x17 / 野草
+)))            :op2  (x19 / 等-01
+                  :arg1  (x24 / 烧-01
+                        :arg1  (x23 / 火
+)                        :location  (x21 / 地下
+))                  :aspect  (x20 / 着
+)                  :arg0  (x14 / 人
+))))
+===========================
+有的人他活着别人就不能活；有的人他活着为了多数人更好地活。
+(x25 / contrast
+      :arg1  (x27 / condition
+            :arg1  (x4 / 活-01
+                  :aspect  (x5 / 着-01
+)                  :arg0  (x2 / 人
+                        :mod  (x1 / 有的
+)                        :arg0-of  (x47 / mean
+                              :arg1  (x3 / 他
+))))            :arg2  (x9 / 能-02
+                  :arg0  (x10 / 活-01
+                        :arg0  (x6 / 别人
+))                  :polarity  (x8 / -
+)))      :arg2  (x15 / 活-01
+            :aspect  (x16 / 着
+)            :purpose  (x23 / 活-01
+                  :manner  (x21 / 好
+                        :degree  (x20 / 更
+))                  :arg0  (x19 / 人
+                        :quant  (x18 / 多数
+)))            :arg0  (x13 / 人
+                  :mod  (x12 / 有的
+)                  :arg0-of  (x50 / mean
+                        :arg1  (x14 / 他
+)))))
+===========================
+骑在人民头上的人民把他摔垮；给人民作牛马的人民永远记住他！把名字刻入石头的名字比尸首烂得更早；只在春风吹到的地方到处是青青的野草。
+(x49 / multi-sentence
+      :snt1  (x51 / and
+            :op1  (x52 / causation
+                  :arg1  (x1 / 骑-01
+                        :arg0  (x54 / person
+)                        :arg1  (x4 / 头
+                              :part-of  (x3 / 人民
+)))                  :arg2  (x10 / 摔-02
+                        :arg0  (x7 / x3
+)                        :arg1  (x9 / x54
+)                        :arg2  (x11 / 垮
+)))            :op2  (x61 / causation
+                  :arg1  (x15 / 作-02
+                        :arg0  (x63 / person
+)                        :arg1  (x16_1_2 / 牛马
+)                        :beneficiary  (x14 / x3
+))                  :arg2  (x19 / 记住-01
+                        :arg0  (x17 / x3
+)                        :arg1  (x20 / x63
+)                        :time  (x18 / 永远
+)                        :mode  (x21 / expressive
+))))      :snt2  (x71 / and
+            :op1  (x31 / 烂-01
+                  :manner  (x34 / 早
+                        :degree  (x33 / 更
+)                        :compared-to  (x30 / 尸首
+))                  :arg0  (x28 / 名字
+                        :poss  (x77 / person
+                              :arg0-of  (x24 / 刻-01
+                                    :arg1  (x23 / 名字
+)                                    :arg2  (x26 / 石头
+)))))            :op2  (x47 / 野草
+                  :arg0-of  (x45 / 青
+)                  :mod  (x43 / 到处
+)                  :location  (x42 / 地方
+                        :arg1-of  (x39 / 吹-02
+                              :arg0  (x38 / 春风
+)                              :mod  (x36 / 只
+))))))
+===========================
+他活着别人就不能活的人，他的下场可以看到；他活着为了多数人更好地活的人，群众把他抬举得很高，很高。
+(x42 / and
+      :op1  (x48 / and
+            :op1  (x10 / 人
+                  :mod  (x50 / condition
+                        :arg1  (x2 / 活-01
+                              :arg0  (x1 / 他
+)                              :aspect  (x3 / 着
+))                        :arg2  (x7 / 能-01
+                              :arg0  (x8 / 活-01
+                                    :arg0  (x4 / 别人
+))                              :polarity  (x6 / -
+))))            :op2  (x15 / 可以-01
+                  :arg0  (x16 / 看到-01
+                        :arg1  (x14 / 下场
+))                  :poss  (x12 / x10
+)))      :op2  (x58 / and
+            :op1  (x29 / 人
+                  :mod  (x19 / 活-01
+                        :arg0  (x18 / 他
+)                        :aspect  (x20 / 着
+)                        :purpose  (x27 / 活-01
+                              :manner  (x25 / 好
+                                    :degree  (x24 / 更
+))                              :arg0  (x23 / 人
+                                    :quant  (x22 / 多数
+)))))            :op2  (x34 / 抬举-01
+                  :arg0  (x31 / 群众
+)                  :arg1  (x33 / x29
+)                  :manner  (x37_x40 / 高
+                        :degree  (x36_x39 / 很
+)))))
+===========================

@@ -1,0 +1,678 @@
+卡罗尔一直想有一只小猫。
+(x3 / 想-02
+      :arg1  (x4 / 有-01
+            :arg0  (x13 / person
+                  :name  ( x1/卡罗尔 
+))            :arg1  (x8 / 猫
+                  :arg0-of  (x7 / 小-01
+)                  :cunit  (x6 / 只
+)                  :quant  (x5 / 1
+)))      :arg0  (x13 / person
+)      :time  (x2 / 一直
+))
+===========================
+爸爸对卡罗尔说：“那我们就在报上登个广告吧。”
+(x4 / 说-01
+      :arg0  (x1 / 爸爸
+)      :arg3  (x20 / person
+            :name  ( x3/卡罗尔 
+))      :arg1  (x22 / condition
+            :arg2  (x12 / 登-01
+                  :arg0  (x7 / 我们
+)                  :arg1  (x14 / 广告
+                        :cunit  (x13 / 个
+))                  :mode  (x15 / expressive
+)                  :arg2  (x10 / 报
+)                  :mod  (x8 / 就
+))))
+===========================
+广告登出来了，是这样写的：我们非常需要一只小猫。
+(x19 / and
+      :op1  (x2 / 登-01
+            :cause-of  (x3 / 出来-01
+                  :arg0  (x1 / 广告
+))            :aspect  (x4 / 了
+)            :arg1  (x1 / 广告
+))      :op2  (x25 / thing
+            :arg1-of  (x8 / 写-01
+                  :mod  (x7 / 这样
+))            :domain  (x1 / 广告
+)            :arg0-of  (x28 / mean
+                  :arg1  (x13 / 需要-01
+                        :degree  (x12 / 非常
+)                        :arg0  (x11 / 我们
+)                        :arg1  (x17 / 猫
+                              :arg0-of  (x16 / 小-01
+)                              :quant  (x14 / 1
+)                              :cunit  (x15 / 只
+))))))
+===========================
+我们会给它安排一个舒适的家，会很好地照顾它。
+(x18 / and
+      :op1  (x2 / 会-02
+            :arg0  (x5 / 安排-01
+                  :arg0  (x1 / 我们
+)                  :arg1  (x9 / 家
+                        :arg0-of  (x7 / 舒适-01
+)                        :quant  (x6_1 / 1
+)                        :cunit  (x6_2 / 个
+))                  :arg2  (x4 / 它
+)))      :op2  (x11 / 会-02
+            :arg0  (x15 / 照顾-01
+                  :manner  (x13 / 好
+                        :degree  (x12 / 很
+))                  :arg0  (x1 / 我们
+)                  :arg1  (x16 / x4
+))))
+===========================
+请问您有多余的小猫吗？
+(x1 / 请问-01
+      :arg2  (x3 / 有-01
+            :arg0  (x2 / 您
+)            :arg1  (x7 / 猫
+                  :arg0-of  (x6 / 小-01
+)                  :arg0-of  (x4 / 多余-01
+))            :mode  (x8_x9 / interrogative
+))      :arg1  (x2 / 您
+))
+===========================
+卡罗尔端出一碟牛奶，还有一碟点心。
+(x3 / 出-01
+      :manner  (x2 / 端-01
+            :arg0  (x17 / person
+                  :name  ( x1/卡罗尔 
+))            :arg1  (x24 / and
+                  :op1  (x6 / 牛奶
+                        :quant  (x4 / 1
+)                        :unit  (x5 / 碟
+))                  :op2  (x11 / 点心
+                        :unit  (x10 / 碟
+)                        :quant  (x9 / 1
+)))))
+===========================
+她又把旧的软垫放在一个篮子里，就待在家里等起小猫来。
+(x33 / temporal
+      :arg1  (x35 / and
+            :op2  (x8 / 放在-01
+                  :arg0  (x1 / 她
+)                  :arg1  (x7 / 垫
+                        :arg0-of  (x6 / 软-01
+)                        :arg0-of  (x4 / 旧-01
+))                  :arg2  (x10 / 篮子
+                        :cunit  (x9_2 / 个
+)                        :quant  (x9_1 / 1
+))))      :arg2  (x36 / and
+            :op1  (x14 / 待-03
+                  :arg0  (x1 / 她
+)                  :arg1  (x16 / 家里
+))            :op1  (x17_x18 / 等-01
+                  :arg0  (x1 / 她
+)                  :arg1  (x20 / 猫
+                        :arg0-of  (x19 / 小-01
+)))))
+===========================
+丁零零，门铃响了，进来的是一个提着篮子的男孩。
+(x17 / and
+      :op1  (x1 / 丁零零
+)      :op2  (x4 / 响-01
+            :arg0  (x3 / 门铃
+)            :aspect  (x5 / 了
+))      :op3  (x15 / 男孩
+            :domain  (x24 / person
+                  :arg0-of  (x7 / 进来-01
+))            :arg0-of  (x11 / 提-01
+                  :aspect  (x12 / 着
+)                  :arg1  (x13 / 篮子
+))            :quant  (x10_1 / 1
+)            :cunit  (x10_2 / 个
+)))
+===========================
+他说：“我家的猫生了三只小猫，我送给你一只。
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x24 / causation
+            :arg1  (x7 / 生-01
+                  :arg0  (x6 / 猫
+                        :poss  (x4 / 我家
+))                  :aspect  (x8 / 了
+)                  :arg1  (x12 / 猫
+                        :quant  (x9 / 3
+)                        :arg0-of  (x11 / 小-01
+)                        :cunit  (x10 / 只
+)))            :arg2  (x15 / 送-01
+                  :arg0  (x14 / x1
+)                  :arg2  (x17 / 你
+)                  :arg1  (x36 / animal
+                        :arg1-of  (x37 / include-91
+                              :arg2  (x12 / 猫
+))                        :quant  (x18 / 1
+)                        :cunit  (x19 / 只
+)))))
+===========================
+它叫伯洛。”
+(x5 / say
+      :arg1  (x2 / 叫-01
+            :arg0  (x1 / 它
+)            :arg1  (x11 / animal
+                  :name  ( x3/伯洛 
+))))
+===========================
+这是一只黑白相间的花猫。“
+(x11 / say
+      :arg1  (x9 / 猫
+            :domain  (x1 / 这
+)            :quant  (x3 / 1
+)            :arg0-of  (x8 / 花
+)            :cunit  (x4 / 只
+)            :mod  (x6 / 相间-01
+                  :arg0  (x5 / 黑白
+))))
+===========================
+卡罗尔接过小猫，送走了男孩。
+(x11 / temporal
+      :arg1  (x2 / 接过-01
+            :arg0  (x14 / person
+                  :name  ( x1/卡罗尔 
+))            :arg1  (x4 / 猫
+                  :arg0-of  (x3 / 小-01
+)))      :arg2  (x6_x7 / 送走-01
+            :arg0  (x14 / person
+)            :arg1  (x9 / 男孩
+)            :aspect  (x8 / 了
+)))
+===========================
+小猫喵喵叫着，卡罗尔说：“别难过，我会像你妈妈一样照顾你的。”
+(x23 / temporal
+      :arg1  (x4 / 叫-03
+            :manner  (x3 / 喵喵
+)            :arg0  (x2 / 猫
+                  :arg0-of  (x1 / 小-01
+))            :aspect  (x5 / 着
+))      :arg2  (x8 / 说-01
+            :arg0  (x31 / person
+                  :name  ( x7/卡罗尔 
+))            :arg1  (x33 / causation
+                  :arg1  (x10 / 别-02
+                        :arg0  (x11 / 难过
+))                  :arg1  (x14 / 会-02
+                        :arg0  (x15 / 像-01
+                              :arg0  (x13 / x31
+)                              :arg1  (x17 / 妈妈
+                                    :poss  (x16 / x2
+))                              :arg2  (x19 / 照顾-01
+                                    :arg1  (x20 / x2
+)                                    :arg0  (x13 / x31
+)))                        :smood  (x21 / 的
+)))))
+===========================
+卡罗尔让小猫喝牛奶，吃点心，还给它玩绒线团。
+(x28 / and
+      :op1  (x2 / 让-02
+            :arg0  (x21 / person
+                  :name  ( x1/卡罗尔 
+))            :arg2  (x23 / and
+                  :op1  (x5 / 喝
+                        :arg1  (x6 / 牛奶
+))                  :op2  (x8 / 吃
+                        :arg1  (x9 / 点心
+)))            :arg1  (x4 / 猫
+                  :arg0-of  (x3 / 小-01
+)))      :op2  (x11_2 / 给-02
+            :arg0  (x21 / person
+)            :arg1  (x12 / x4
+)            :arg2  (x13 / 玩-01
+                  :arg0  (x12 / x4
+)                  :arg1  (x15 / 团
+                        :consist-of  (x14 / 绒线
+)))))
+===========================
+丁零零，门铃又响了，一个小女孩抱着一只小猫走进来。
+(x20 / and
+      :op1  (x1 / 丁零零
+)      :op2  (x5 / 响-01
+            :mod  (x4 / 又
+)            :aspect  (x6 / 了
+)            :arg0  (x3 / 门铃
+))      :op3  (x17 / 走-01
+            :direction  (x18 / 进来-01
+                  :arg0  (x10 / 女孩
+                        :arg0-of  (x9 / 小-01
+)                        :quant  (x8_1 / 1
+)                        :cunit  (x8_2 / 个
+)))            :arg0  (x10 / 女孩
+)            :manner  (x11 / 抱-01
+                  :aspect  (x12 / 着
+)                  :arg0  (x10 / 女孩
+)                  :arg1  (x16 / 猫
+                        :quant  (x13 / 1
+)                        :arg0-of  (x15 / 小-01
+)                        :cunit  (x14 / 只
+)))))
+===========================
+她说：“这是我送给你的小猫。”
+(x2 / 说-01
+      :arg0  (x1 / 她
+)      :arg1  (x12 / 猫
+            :domain  (x4 / 这
+)            :arg0-of  (x11 / 小-01
+)            :arg1-of  (x7 / 送-01
+                  :arg0  (x6 / x1
+)                  :arg2  (x9 / 你
+))))
+===========================
+说完，她放下小猫，跟她妈妈一起走了。
+(x16 / temporal
+      :arg1  (x1_2 / 完-01
+            :arg0  (x1_1 / 说-01
+))      :arg2  (x4_x5 / 放下-01
+            :arg0  (x3 / 她
+)            :arg1  (x7 / 猫
+                  :arg0-of  (x6 / 小-01
+)))      :arg3  (x13 / 走-01
+            :manner  (x12 / 一起
+)            :accompanier  (x11 / 妈妈
+                  :poss  (x10 / x3
+))            :arg0  (x3 / 她
+)            :aspect  (x14 / 了
+)))
+===========================
+不一会儿，门铃又响了，进来一位叔叔，真滑稽，他的每个衣袋里都有一只小猫。
+(x28 / and
+      :op1  (x5 / 响-01
+            :time  (x1 / 不一会儿
+)            :arg0  (x3 / 门铃
+)            :mod  (x4 / 又
+)            :aspect  (x6 / 了
+))      :op2  (x8 / 进来-01
+            :arg0  (x11 / 叔叔
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 位
+)))      :op3  (x14 / 滑稽-01
+            :arg0  (x22 / 有-03
+                  :arg0  (x19 / 衣袋
+                        :mod  (x18 / 每个
+)                        :poss  (x16 / x11
+)                        :extent  (x21 / 都
+))                  :arg1  (x26 / 猫
+                        :quant  (x23 / 1
+)                        :cunit  (x24 / 只
+)                        :arg0-of  (x25 / 小-01
+)))            :degree  (x13 / 真
+)))
+===========================
+他一蹲下，小猫就扑扑地一个个跳出来，朝屋里跑。
+(x18 / condition
+      :arg2  (x21 / and
+            :op1  (x11 / 跳-01
+                  :direction  (x12 / 出来-01
+                        :arg0  (x6 / 猫
+                              :arg0-of  (x5 / 小-01
+)                              :quant  (x10 / 一个个
+)))                  :arg0  (x6 / 猫
+)                  :manner  (x8 / 扑扑
+))            :op2  (x16 / 跑-01
+                  :arg0  (x6 / 猫
+)                  :arg3  (x15 / 屋里
+)))      :arg1  (x3 / 蹲-01
+            :arg0  (x1 / 他
+)))
+===========================
+卡罗尔笑了，小猫们真是太有趣了。
+(x13 / causation
+      :arg2  (x2 / 笑-01
+            :aspect  (x3 / 了
+)            :arg0  (x17 / person
+                  :name  ( x1/卡罗尔 
+)))      :arg1  (x10 / 有趣-01
+            :arg0  (x6_x7 / 猫们
+                  :arg0-of  (x5 / 小-01
+))            :aspect  (x11 / 了-01
+)            :degree  (x9 / 太
+)            :degree  (x8 / 真是
+)))
+===========================
+打这以后，门铃一直响个不停，好多小猫都来了，什么样的都有。
+(x24 / and
+      :time  (x3 / 以后
+            :op1  (x1 / 打
+                  :arg0  (x2 / 这
+)))      :op1  (x7 / 响-01
+            :time  (x6 / 一直
+)            :arg0  (x5 / 门铃
+)            :arg1-of  (x10 / 停-01
+                  :polarity  (x9 / -
+)))      :op2  (x16 / 来-01
+            :aspect  (x17 / 了
+)            :arg0  (x14 / 猫
+                  :extent  (x15 / 都
+)                  :arg0-of  (x13 / 小-01
+)                  :quant  (x12 / 好多
+)))      :op3  (x22 / 有-03
+            :arg1  (x41 / animal
+                  :mod  (x19 / 什么样
+)                  :extent  (x21 / 都
+))))
+===========================
+晚上，家里可不得了了，小猫在钢琴上跳来跳去，丁丁冬冬响成一片。
+(x21 / and
+      :time  (x1 / 晚上
+)      :op1  (x5 / 不得了
+            :location  (x3 / 家里
+)            :degree  (x4 / 可
+)            :smood  (x6 / 了
+))      :op2  (x13 / 跳来跳去
+            :arg0  (x9 / 猫
+                  :arg0-of  (x8 / 小-01
+))            :location  (x12 / 上
+                  :arg0  (x11 / 钢琴
+)))      :op3  (x17 / 成-03
+            :arg0  (x15 / 丁丁冬冬
+)            :manner  (x16 / 响-01
+                  :arg0  (x11 / 钢琴
+))            :arg1  (x36 / thing
+                  :quant  (x18 / 1
+)                  :cunit  (x19 / 片
+))))
+===========================
+小猫钻进抽屉里、橱柜里。
+(x3 / 钻进-01
+      :arg1  (x12 / and
+            :op1  (x5 / 里
+                  :arg0  (x4 / 抽屉
+))            :op2  (x8 / 里
+                  :arg0  (x7 / 橱柜
+)))      :arg0  (x2 / 猫
+            :arg0-of  (x1 / 小-01
+)))
+===========================
+有人从门外进来，门后会突然扑出一只小猫，吓人一大跳。
+(x22 / condition
+      :arg1  (x4 / 进来-01
+            :arg0  (x1 / 有人
+)            :source  (x3 / 门外
+))      :arg2  (x28 / causation
+            :arg1  (x8 / 会-02
+                  :arg0  (x10 / 扑-01
+                        :location  (x7 / 后
+                              :arg0  (x6 / 门
+))                        :arg0  (x15 / 猫
+                              :arg0-of  (x14 / 小-01
+)                              :quant  (x12 / 1
+)                              :cunit  (x13 / 只
+))))            :arg2  (x17_1 / 吓-01
+                  :arg0  (x15 / 猫
+)                  :arg1  (x17_2 / 人
+)                  :cause-of  (x20 / 跳-01
+                        :arg0  (x17_2 / 人
+)))))
+===========================
+爸爸从自己的每只拖鞋里都捉出一只小猫来。
+(x10 / 捉-01
+      :arg0  (x1 / 爸爸
+)      :source  (x8 / 里
+            :arg0  (x7 / 拖鞋
+                  :mod  (x5 / 每
+)                  :cunit  (x6 / 只
+)                  :poss  (x3 / x1
+))            :extent  (x9 / 都
+))      :arg1  (x15 / 猫
+            :quant  (x12 / 1
+)            :arg0-of  (x14 / 小-01
+)            :cunit  (x13 / 只
+)))
+===========================
+他摇着头，说：“太多啦，太多啦！这可不行，得想个办法。”
+(x25 / and
+      :op1  (x2 / 摇-01
+            :arg0  (x1 / 他
+)            :aspect  (x3 / 着
+)            :arg1  (x4 / 头
+                  :part-of  (x1 / 他
+)))      :op2  (x6 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x32 / and
+                  :op1  (x9 / 多
+                        :degree  (x8 / 太
+)                        :mode  (x10 / expressive
+))                  :op2  (x13 / 多
+                        :degree  (x12 / 太
+)                        :mode  (x14_x15 / expressive
+))                  :op3  (x18 / 不行-01
+                        :degree  (x17 / 可
+)                        :arg0  (x16 / 这
+)))            :op4  (x20 / 得
+                  :arg0  (x21 / 想-01
+                        :arg1  (x23 / 办法
+                              :cunit  (x22 / 个
+))))))
+===========================
+第二天，爸爸又在报纸上登了个广告：免费赠送小猫。
+(x9 / 登-01
+      :time  (x21 / ordinal-entity
+            :value  (x1 / 2
+)            :unit  (x2 / 天
+))      :mod  (x5 / 又
+)      :aspect  (x10 / 了
+)      :arg0  (x4 / 爸爸
+)      :arg2  (x7 / 报纸
+)      :arg1  (x12 / 广告
+            :cunit  (x11 / 个
+)            :arg0-of  (x30 / mean
+                  :arg1  (x15 / 赠送-01
+                        :arg1  (x17 / 猫
+                              :arg0-of  (x16 / 小-01
+)                              :cost  (x14 / 免费
+))))))
+===========================
+请赶快来挑选。
+(x1 / 请-01
+      :arg2  (x3 / 来-05
+            :arg1  (x4 / 挑选
+)            :manner  (x2 / 赶快
+)))
+===========================
+人们从四面八方赶来了。
+(x4 / 赶来-01
+      :aspect  (x5 / 了
+)      :arg0  (x1 / 人们
+)      :source  (x3 / 四面八方
+))
+===========================
+卡罗尔很伤心，整整一天，她都在和小猫告别。
+(x16 / causation
+      :arg1  (x3 / 伤心-01
+            :arg0  (x20 / person
+                  :name  ( x1/卡罗尔 
+))            :degree  (x2 / 很
+))      :arg2  (x14 / 告别-01
+            :arg0  (x8 / x20
+)            :arg1  (x13 / 猫
+)            :duration  (x26 / temporal-quantity
+                  :extent  (x9 / 都
+)                  :quant  (x6_1 / 1
+)                  :unit  (x6_2 / 天
+)                  :mod  (x5 / 整整
+))))
+===========================
+天快黑了，奶奶打来一个电话，叫卡罗尔去帮个忙。
+(x7 / 打-01
+      :arg1  (x10 / 电话
+            :quant  (x9_1 / 1
+)            :cunit  (x9_2 / 个
+)            :arg0-of  (x29 / mean
+                  :arg1  (x12 / 叫-04
+                        :arg0  (x6 / 奶奶
+)                        :arg1  (x31 / person
+                              :name  ( x13/卡罗尔 
+))                        :arg2  (x14 / 去-01
+                              :arg1  (x15 / 帮-01
+                                    :arg0  (x31 / person
+))                              :arg2  (x17 / 忙
+                                    :cunit  (x16 / 个
+))))))      :arg0  (x6 / 奶奶
+)      :time  (x3 / 黑-01
+            :arg0  (x1 / 天
+)            :aspect  (x4 / 了-01
+)            :time  (x2 / 快
+)))
+===========================
+卡罗尔出门的时候，家里还有三只小猫，等她回来的时候，一只小猫也没有了。
+(x27 / contrast
+      :arg1  (x7_2 / 有-03
+            :mod  (x7_1 / 还
+)            :arg0  (x6 / 家里
+)            :arg1  (x11 / 猫
+                  :arg0-of  (x10 / 小-01
+)                  :quant  (x8 / 3
+)                  :cunit  (x9 / 只
+))            :time  (x2 / 出门-01
+                  :arg0  (x34 / person
+                        :name  ( x1/卡罗尔 
+))))      :arg2  (x24_2 / 有-03
+            :polarity  (x24_1 / -
+)            :aspect  (x25 / 了
+)            :arg1  (x22 / 猫
+                  :arg0-of  (x21 / 小-01
+)                  :quant  (x19 / 1
+)                  :cunit  (x20 / 只
+))            :time  (x13 / 等-01
+                  :arg1  (x15 / 回来-01
+                        :arg0  (x14 / x34
+)))))
+===========================
+妈妈说：“我都给弄糊涂了，怎么把所有的小猫全送人了？我是想留下一只的。”
+(x2 / 说-01
+      :arg0  (x1 / 妈妈
+)      :arg1  (x33 / and
+            :op1  (x7 / 弄-02
+                  :cause-of  (x8 / 糊涂-01
+                        :arg0  (x4 / x1
+                              :extent  (x5 / 都
+))                        :aspect  (x9 / 了
+))                  :arg1  (x4 / x1
+))            :op2  (x18 / 送-01
+                  :arg1  (x19 / 人
+)                  :arg0  (x16 / 猫
+                        :extent  (x17 / 全
+)                        :arg0-of  (x15 / 小-01
+)                        :mod  (x13 / 所有
+))                  :aspect  (x20 / 了
+)                  :cause  (x11 / amr-unknown
+)                  :mode  (x21 / interrogative
+))            :op3  (x24 / 想-01
+                  :mode  (x23_x28 / judgement
+)                  :arg0  (x22 / x1
+)                  :arg1  (x25 / 留下-01
+                        :arg1  (x53 / animal
+                              :quant  (x26 / 1
+)                              :cunit  (x27 / 只
+))))))
+===========================
+卡罗尔眼泪都流出来了。
+(x4 / 流-01
+      :arg0  (x2 / 眼泪
+            :poss  (x11 / person
+                  :name  ( x1/卡罗尔 
+))            :extent  (x3 / 都
+))      :direction  (x5 / 出来-01
+            :aspect  (x6 / 了
+)            :arg0  (x2 / 眼泪
+)))
+===========================
+屋里什么声音都没有了，冷冷清清的，连滴滴答答的钟声都听得见。
+(x20 / and
+      :op1  (x5_2 / 有-03
+            :polarity  (x5_1 / -
+)            :aspect  (x6 / 了
+)            :arg0  (x1 / 屋里
+)            :arg1  (x3 / 声音
+                  :mod  (x2 / 什么
+)                  :extent  (x4 / 都
+)))      :op2  (x8_x9 / 冷清-01
+            :arg0  (x1 / 屋里
+))      :op3  (x17 / possible
+            :arg0  (x16_x18 / 听见-01
+                  :arg1  (x14 / 钟声
+                        :mod  (x12 / 滴答
+)                        :extent  (x15 / 都
+)))))
+===========================
+忽然她听见了喵喵的叫声，一只黑白相间的花猫从厨房里跑出来。
+(x22 / temporal
+      :arg1  (x3 / 听见-01
+            :arg1  (x7 / 叫声
+                  :mod  (x5 / 喵喵
+))            :aspect  (x4 / 了
+)            :manner  (x1 / 忽然
+)            :arg0  (x2 / 她
+))      :arg2  (x19 / 跑-01
+            :arg0  (x15 / 猫
+                  :arg0-of  (x14 / 花
+)                  :mod  (x12 / 相间-01
+                        :arg0  (x11 / 黑白
+))                  :quant  (x9 / 1
+)                  :cunit  (x10 / 只
+))            :direction  (x20 / 出来-01
+                  :arg0  (x15 / 猫
+))            :source  (x17 / 厨房
+)))
+===========================
+卡罗尔高兴地叫了起来：“啊！是伯洛！”
+(x4_x6 / 叫-03
+      :aspect  (x5 / 了
+)      :arg0  (x16 / person
+            :name  ( x1/卡罗尔 
+))      :manner  (x2 / 高兴-01
+            :arg0  (x16 / person
+))      :arg1  (x19 / animal
+            :name  ( x11/伯洛 
+)            :mode  (x10 / judgement
+)            :mode  (x8_x9_x12 / expressive
+)))
+===========================
+伯洛亲热地用身子蹭着卡罗尔的手，好像在说：“我藏起来，是不愿意给送掉，我想和你在一起。”
+(x34 / and
+      :op1  (x6 / 蹭-01
+            :aspect  (x7 / 着
+)            :arg0  (x38 / animal
+                  :name  ( x1/伯洛 
+))            :arg1  (x10 / 手
+                  :part-of  (x41 / person
+                        :name  ( x8/卡罗尔 
+)))            :manner  (x4 / 用-01
+                  :arg0  (x38 / animal
+)                  :arg1  (x5 / 身子
+                        :part-of  (x38 / animal
+)))            :manner  (x2 / 亲热
+))      :op2  (x12 / 好像-01
+            :arg0  (x14 / 说-01
+                  :aspect  (x13 / 在
+)                  :arg1  (x49 / causation
+                        :arg1  (x28 / 想-02
+                              :arg0  (x27 / x38
+)                              :arg1  (x31_x32 / 在一起-01
+                                    :arg0  (x29 / and
+                                          :op1  (x27 / x38
+)                                          :op2  (x30 / x41
+))))                        :arg2  (x51 / causation
+                              :arg1  (x22 / 愿意-01
+                                    :polarity  (x21 / -
+)                                    :arg1  (x24_x25 / 送-01
+                                          :arg1  (x38 / animal
+)))                              :arg2  (x17_x18 / 藏-01
+                                    :arg0  (x16 / x38
+)))))))
+===========================
+卡罗尔终于有了一只她自己的小猫。
+(x3 / 有-01
+      :aspect  (x4 / 了
+)      :arg0  (x16 / person
+            :name  ( x1/卡罗尔 
+))      :mod  (x2 / 终于
+)      :arg1  (x11 / 猫
+            :poss  (x7_x8 / 她自己
+)            :arg0-of  (x10 / 小-01
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 只
+)))
+===========================

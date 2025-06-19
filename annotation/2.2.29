@@ -1,0 +1,313 @@
+晚上，满天的星星像无数珍珠撒在碧玉盘里。
+(x6 / 像-01
+      :time  (x1 / 晚上
+)      :arg0  (x5 / 星星
+            :mod  (x3 / 满天
+))      :arg1  (x8 / 珍珠
+            :quant  (x7 / 无数
+))      :arg2  (x9 / 撒
+            :destination  (x12 / 盘
+                  :mod  (x11 / 碧玉
+))))
+===========================
+一个孩子坐在院子里，靠着奶奶，仰起头，指着天空数星星。
+(x21 / and
+      :op1  (x3 / 坐-01
+            :arg0  (x2 / 孩子
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+))            :arg1  (x6 / 里
+                  :arg0  (x5 / 院子
+)))      :op2  (x8 / 靠-01
+            :aspect  (x9 / 着
+)            :arg0  (x2 / 孩子
+)            :arg1  (x10 / 奶奶
+))      :op3  (x12 / 仰-01
+            :arg0  (x2 / 孩子
+)            :arg1  (x14 / 头
+))      :op4  (x16_1 / 指-02
+            :aspect  (x16_2 / 着
+)            :arg0  (x2 / 孩子
+)            :arg1  (x17 / 天空
+))      :op5  (x18 / 数-01
+            :arg0  (x2 / 孩子
+)            :arg1  (x19 / 星星
+)))
+===========================
+一颗，两颗，一直数到了几百颗。
+(x14 / and
+      :op1  (x16 / thing
+            :quant  (x1 / 1
+)            :cunit  (x2 / 颗
+))      :op2  (x17 / thing
+            :op2  (x4 / 2
+)            :cunit  (x5 / 颗
+))      :op3  (x8 / 数
+            :manner  (x7 / 一直
+)            :cause-of  (x9 / 到-02
+                  :aspect  (x10 / 了
+)                  :arg1  (x26 / thing
+                        :quant  (x11_1 / 几
+                              :op1  (x11_2 / 100
+))                        :cunit  (x12 / 颗
+)))))
+===========================
+奶奶笑着说；“傻孩子，又在数星星了。
+(x4 / 说-01
+      :manner  (x2 / 笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 奶奶
+))      :arg0  (x1 / 奶奶
+)      :arg1  (x20 / and
+            :op1  (x7 / 孩子
+                  :arg0-of  (x6 / 傻-01
+))            :op2  (x11 / 数-01
+                  :manner  (x9 / 又
+)                  :aspect  (x10 / 在
+)                  :arg1  (x12 / 星星
+)                  :arg0  (x7 / 孩子
+))            :smood  (x13 / 了
+)))
+===========================
+那么多星星，一闪一闪地乱动，眼都看花了，你能数的清吗？”
+(x25 / say
+      :arg1  (x27 / and
+            :op1  (x3 / 星星
+                  :arg0-of  (x2 / 多-03
+                        :degree  (x1 / 那么
+)))            :op2  (x10 / 乱动-01
+                  :manner  (x5_x6_x7_x8 / 一闪一闪
+)                  :arg0  (x3 / 星星
+))            :op3  (x14 / 看-02
+                  :cause-of  (x15 / 花
+                        :aspect  (x16 / 了
+)                        :mod  (x13 / 都
+)                        :arg0  (x12 / 眼
+))                  :arg0  (x12 / 眼
+)                  :arg1  (x3 / 星星
+))            :op4  (x19 / 能-01
+                  :arg0  (x21 / possible
+                        :arg0  (x20 / 数-01
+                              :arg0  (x18 / 你
+)                              :arg1  (x3 / 星星
+)                              :cause-of  (x22 / 清-03
+                                    :arg0  (x3 / 星星
+))))                  :mode  (x23_x24 / interrogative
+))))
+===========================
+孩子说：“奶奶，能看的见，就能数的清，星星是在动，可不是乱动。
+(x2 / 说-03
+      :arg0  (x1 / 孩子
+)      :arg1  (x31 / and
+            :op1  (x4 / 奶奶
+)            :op2  (x33 / condition
+                  :arg1  (x6 / 能-01
+                        :arg0  (x8 / possible
+                              :arg0  (x7_x9 / 看见
+)))                  :arg2  (x12 / 能-01
+                        :arg0  (x14 / possible
+                              :arg0  (x13 / 数
+                                    :cause-of  (x15 / 清
+)))))            :op3  (x42 / contrast
+                  :arg1  (x20 / 动-01
+                        :mode  (x18 / judgement
+)                        :aspect  (x19 / 在
+)                        :arg1  (x17 / 星星
+))                  :arg2  (x26 / 动-01
+                        :polarity  (x23_x24 / -
+)                        :manner  (x25 / 乱
+)                        :arg1  (x17 / 星星
+)))))
+===========================
+您看，这颗星和那颗星，中间总是隔那么远。”
+(x18 / say
+      :arg1  (x20 / and
+            :op1  (x2 / 看-03
+                  :arg0  (x1 / 您
+))            :op2  (x14 / 隔-01
+                  :manner  (x13 / 总是
+)                  :arg0  (x7 / and
+                        :op1  (x6 / 星
+                              :mod  (x4 / 这
+)                              :cunit  (x5 / 颗
+))                        :op2  (x10 / 星
+                              :mod  (x8 / 那
+)                              :cunit  (x9 / 颗
+)))                  :mod  (x16 / 远
+                        :degree  (x15 / 那么
+)))))
+===========================
+爷爷走过来，说：“孩子，你看的很仔细。
+(x14 / temporal
+      :arg1  (x2_1 / 走-01
+            :arg0  (x1 / 爷爷
+)            :direction  (x2_2_3 / 过来-01
+                  :arg0  (x1 / 爷爷
+)))      :arg2  (x4 / 说-01
+            :arg0  (x1 / 爷爷
+)            :arg1  (x21 / and
+                  :op1  (x6 / 孩子
+)                  :op2  (x9 / 看-02
+                        :cause-of  (x12 / 仔细-01
+                              :degree  (x11 / 很
+)                              :arg0  (x8 / x6
+))                        :arg0  (x8 / x6
+)))))
+===========================
+天上的星星是在动，可是看起来它们之间的距离好像是不变的。
+(x20 / contrast
+      :arg1  (x6 / 动-01
+            :aspect  (x5 / 在
+)            :arg1  (x3 / 星星
+                  :location  (x1 / 天上
+))            :mode  (x4 / judgement
+))      :arg2  (x9 / 看起来
+            :arg0  (x14 / 好像-01
+                  :arg0  (x17 / 变
+                        :polarity  (x16 / -
+)                        :mode  (x15_x18 / judgement
+)                        :arg0  (x13 / 距离-01
+                              :arg0  (x10 / 它们
+))))))
+===========================
+我们的祖先把它们分成一组一组的，还给起了名字。”
+(x20 / say
+      :arg1  (x22 / and
+            :op1  (x6_x7 / 分成-01
+                  :arg0  (x3 / 祖先
+                        :poss  (x1 / 我们
+))                  :arg1  (x5 / 它们
+)                  :arg2  (x27 / thing
+                        :mod  (x8_x9_x10_x11 / 一组一组
+)))            :op2  (x16 / 起-07
+                  :arg0  (x3 / 祖先
+)                  :arg1  (x5 / 它们
+)                  :arg2  (x18 / 名字
+)                  :aspect  (x17 / 了
+))))
+===========================
+爷爷停了停，指着北边的天空，说：“你看，那七颗星，连起来像把勺子，叫北斗七星。
+(x30 / temporal
+      :arg1  (x2_x4 / 停-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 爷爷
+))      :arg2  (x6_1 / 指-02
+            :arg0  (x1 / 爷爷
+)            :aspect  (x6_2 / 着
+)            :arg1  (x9 / 天空
+                  :location  (x7 / 北边
+)))      :arg3  (x11 / 说
+            :arg0  (x1 / 爷爷
+)            :arg1  (x40 / and
+                  :op1  (x14 / 看-02
+                        :arg0  (x13 / 你
+))                  :op2  (x44 / condition
+                        :arg1  (x21_x22 / 连-01
+                              :arg1  (x19 / 星
+                                    :mod  (x16 / 那
+)                                    :cunit  (x18 / 颗
+)                                    :quant  (x17 / 7
+)))                        :arg2  (x23 / 像-01
+                              :arg1  (x25 / 勺子
+                                    :cunit  (x24 / 把
+))))                  :op3  (x27 / 叫-01
+                        :arg1  (x28 / 北斗七星
+)                        :arg0  (x19 / 星
+)))))
+===========================
+勺口对着的那颗星，就是北极星。
+(x11 / 北极星
+      :domain  (x8 / 星
+            :cunit  (x7 / 颗
+)            :mod  (x6 / 那
+)            :arg1-of  (x3 / 对-01
+                  :aspect  (x4 / 着
+)                  :arg0  (x2 / 口
+                        :part-of  (x1 / 勺
+))))      :mod  (x10_1 / 就
+))
+===========================
+北斗七星总是绕着北极星转。”
+(x8 / say
+      :arg1  (x6 / 转-04
+            :manner  (x3 / 绕-01
+                  :aspect  (x4 / 着
+)                  :arg0  (x1 / 北斗七星
+)                  :arg1  (x5 / 北极星
+))            :arg1  (x1 / 北斗七星
+)            :manner  (x2 / 总是
+)))
+===========================
+爷爷说的话是真的吗？
+(x6 / 真-01
+      :arg0  (x4 / 话
+            :arg1-of  (x2 / 说-01
+                  :arg0  (x1 / 爷爷
+)))      :mode  (x5_x7 / judgement
+)      :mode  (x9 / interrogative
+))
+===========================
+这个孩子一夜没睡好，几次起来看星星，他看清楚了，北斗七星果然绕着北极星慢慢的转动。
+(x29 / and
+      :op1  (x6 / 睡-01
+            :polarity  (x5 / -
+)            :duration  (x34 / temporal-quantity
+                  :quant  (x3 / 1
+)                  :unit  (x4 / 夜
+))            :arg0  (x2 / 孩子
+                  :mod  (x1_1 / 这
+)                  :cunit  (x1_2 / 个
+))            :arg0-of  (x7 / 好-01
+))      :op2  (x11 / 起来-01
+            :unit  (x10 / 次
+)            :quant  (x9 / 几
+)            :purpose  (x12 / 看-02
+                  :arg1  (x13 / 星星
+)                  :arg0  (x2 / 孩子
+))            :arg0  (x2 / 孩子
+))      :op3  (x16 / 看-02
+            :cause-of  (x17 / 清楚
+)            :smood  (x18 / 了
+)            :arg0  (x15 / x2
+))      :op4  (x27 / 转动-01
+            :mod  (x21 / 果然
+)            :manner  (x22 / 绕-01
+                  :aspect  (x23 / 着
+)                  :arg0  (x20 / 北斗七星
+)                  :arg1  (x24 / 北极星
+))            :arg1  (x20 / 北斗七星
+)            :manner  (x25 / 慢慢
+)))
+===========================
+这个数星星的孩子名叫张衡，是汉朝人。
+(x14 / and
+      :op1  (x7 / 叫-01
+            :arg0  (x6 / 名
+                  :poss  (x5 / 孩子
+                        :arg0-of  (x2 / 数-01
+                              :arg1  (x3 / 星星
+))                        :mod  (x1_1 / 这
+)                        :cunit  (x1_2 / 个
+)))            :arg1  (x23 / person
+                  :name  ( x8/张衡 
+)))      :op2  (x12 / 人
+            :time  (x26 / dynasty
+                  :name  ( x11/汉朝 
+))            :domain  (x5 / 孩子
+)))
+===========================
+他长大后刻苦钻研天文，成了著名的天文学家。
+(x14 / and
+      :op1  (x5 / 钻研-01
+            :time  (x3 / 后
+                  :op1  (x2 / 长大-01
+                        :arg0  (x1 / 他
+)))            :arg0  (x1 / 他
+)            :arg1  (x6 / 天文
+))      :op2  (x8 / 成-01
+            :aspect  (x9 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x12 / 天文学家
+                  :arg0-of  (x10 / 著名-01
+))))
+===========================

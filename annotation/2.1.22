@@ -1,0 +1,165 @@
+假如我有一枝马良的神笔，我要给窗前的小树画一个红红的太阳。
+(x22 / condition
+      :arg1  (x3 / 有-01
+            :arg0  (x2 / 我
+)            :arg1  (x8 / 神笔
+                  :quant  (x4 / 1
+)                  :poss  (x28 / person
+                        :name  ( x6/马良 
+))                  :cunit  (x5 / 枝
+)))      :arg2  (x11 / 要-03
+            :arg0  (x17 / 画-01
+                  :arg0  (x10 / x2
+)                  :beneficiary  (x16 / 树
+                        :arg0-of  (x15 / 小-01
+)                        :location  (x13 / 窗前
+))                  :arg1  (x20 / 太阳
+                        :quant  (x18_1 / 1
+)                        :cunit  (x18_2 / 个
+)                        :arg0-of  (x19 / 红-01
+)))))
+===========================
+让小树在冬天也能快活地成长，不会在寒冷的北风里缩着身子，轻轻叹息。
+(x1 / 让-02
+      :arg1  (x3 / 树
+            :arg0-of  (x2 / 小-01
+))      :arg2  (x29 / and
+            :op1  (x7 / 能-01
+                  :arg0  (x10 / 成长-01
+                        :manner  (x8 / 快活
+)                        :arg0  (x3 / 树
+)))            :time  (x31 / date-entity
+                  :season  (x5 / 冬天
+))            :op2  (x12_2 / 会-02
+                  :polarity  (x12_1 / -
+)                  :arg0  (x37 / and
+                        :op1  (x18 / 缩-01
+                              :aspect  (x19 / 着
+)                              :arg0  (x3 / 树
+)                              :arg1  (x20 / 身子
+                                    :part-of  (x3 / 树
+)))                        :op2  (x23 / 叹息-01
+                              :manner  (x22 / 轻轻
+))                        :location  (x16 / 北风
+                              :arg0-of  (x14 / 寒冷-01
+))))))
+===========================
+假如我有一枝马良的神笔，我要给树上的小鸟画许多好吃的谷粒。
+(x23 / condition
+      :arg1  (x3 / 有-01
+            :arg0  (x2 / 我
+)            :arg1  (x8 / 神笔
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 枝
+)                  :poss  (x30 / person
+                        :name  ( x6/马良 
+))))      :arg2  (x11 / 要-03
+            :arg0  (x16 / 画-01
+                  :beneficiary  (x15 / 小鸟
+                        :location  (x13 / 树上
+))                  :arg0  (x10 / x2
+)                  :arg1  (x21 / 粒
+                        :mod  (x20 / 谷
+)                        :arg0-of  (x18 / 好吃-01
+)                        :quant  (x17 / 许多
+)))))
+===========================
+鸟妈妈再也不用到遥远的地方去寻食，让小鸟呆在家里苦苦等待，饿得哭泣。
+(x25 / and
+      :op1  (x5_2 / 用-02
+            :polarity  (x5_1 / -
+)            :arg0  (x2 / 妈妈
+                  :mod  (x1 / 鸟
+))            :mod  (x4 / 也
+)            :mod  (x3 / 再
+)            :arg1  (x6 / 到-01
+                  :purpose  (x10 / 去-01
+                        :arg1  (x11 / 寻食
+)                        :arg0  (x2 / 妈妈
+))                  :arg0  (x2 / 妈妈
+)                  :arg1  (x9 / 地方
+                        :arg0-of  (x7 / 遥远-01
+))))      :op2  (x13 / 让-02
+            :arg1  (x14 / 小鸟
+)            :arg2  (x40 / and
+                  :op1  (x19 / 等待-01
+                        :manner  (x18 / 苦苦
+)                        :arg0  (x14 / 小鸟
+))                  :location  (x17 / 家里
+)                  :op2  (x21 / 饿-01
+                        :cause-of  (x23 / 哭泣-01
+                              :arg0  (x14 / 小鸟
+))                        :arg0  (x14 / 小鸟
+)))))
+===========================
+假如我有一枝马良的神笔，我一定给不幸的朋友西西画一双好腿，还他一个健康的身体。
+(x30 / condition
+      :arg1  (x3 / 有-01
+            :arg0  (x2 / 我
+)            :arg1  (x8 / 神笔
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 枝
+)                  :poss  (x37 / person
+                        :name  ( x6/马良 
+))))      :arg2  (x11 / 一定
+            :arg0  (x40 / and
+                  :op1  (x17 / 画-01
+                        :beneficiary  (x15 / 朋友
+                              :arg0-of  (x43 / mean
+                                    :arg1  (x44 / person
+                                          :name  ( x16/西西 
+)))                              :arg0-of  (x13 / 不幸-01
+))                        :arg1  (x21 / 腿
+                              :quant  (x18 / 1
+)                              :arg0-of  (x20 / 好-01
+)                              :cunit  (x19 / 双
+))                        :arg0  (x10 / x2
+))                  :op2  (x23 / 还-01
+                        :arg1  (x28 / 身体
+                              :arg0-of  (x26 / 健康-01
+)                              :quant  (x25_1 / 1
+)                              :cunit  (x25_2 / 个
+))                        :arg2  (x24 / 他
+)))))
+===========================
+他再也不会只坐在屋里望着窗外的小树和飞燕，而是和我们一起在操场上奔跑，在草地上游戏。
+(x33 / contrast
+      :arg1  (x5 / 会-02
+            :polarity  (x4 / -
+)            :arg0  (x37 / and
+                  :op1  (x7 / 坐-01
+                        :mod  (x6 / 只
+)                        :arg0  (x1 / 他
+)                        :arg1  (x9 / 屋里
+))                  :op2  (x10 / 望-01
+                        :aspect  (x11 / 着
+)                        :arg0  (x1 / 他
+)                        :arg1  (x16 / and
+                              :op1  (x15 / 树
+                                    :arg0-of  (x14 / 小-01
+))                              :op2  (x17 / 飞燕
+)                              :location  (x12 / 窗外
+))))            :mod  (x2 / 再
+)            :mod  (x3 / 也
+))      :arg2  (x51 / and
+            :op1  (x26 / 奔跑-01
+                  :location  (x24 / 操场
+)                  :arg0  (x1 / 他
+)                  :accompanier  (x21 / 我们
+))            :op2  (x31 / 游戏-01
+                  :location  (x29 / 草地
+)                  :arg0  (x1 / 他
+)                  :accompanier  (x21 / 我们
+))))
+===========================
+假如我有一枝马良的神笔……
+(x10 / condition
+      :arg1  (x3 / 有-01
+            :arg0  (x2 / 我
+)            :arg1  (x8 / 神笔
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 枝
+)                  :poss  (x17 / person
+                        :name  ( x6/马良 
+)))))
+===========================

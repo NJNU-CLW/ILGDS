@@ -1,0 +1,389 @@
+有一年冬天，列宁在郊外养病他每天到公园散步。
+(x14 / and
+      :op1  (x7 / 养病-01
+            :arg0  (x18 / person
+                  :name  ( x4/列宁 
+))            :location  (x6 / 郊外
+))      :op2  (x12 / 散步-01
+            :arg0  (x8 / x18
+)            :location  (x11 / 公园
+)            :frequency  (x27 / rate-entity
+                  :arg3  (x28 / temporal-quantity
+                        :quant  (x9_1 / 1
+)                        :unit  (x9_2 / 天
+))))      :time  (x21 / date-entity
+            :season  (x2 / 冬天
+                  :time  (x1 / 有一年
+))))
+===========================
+公园里有一棵高大的白桦树，树上有三只灰雀:两只胸脯是粉红的，一只胸脯是深红的。
+(x29 / and
+      :op1  (x31 / and
+            :op1  (x3 / 有-03
+                  :arg0  (x1 / 公园
+)                  :arg1  (x7 / 白桦树
+                        :arg0-of  (x5 / 高大-01
+)                        :quant  (x4_1 / 1
+)                        :cunit  (x4_2 / 棵
+)))            :op2  (x10 / 有-03
+                  :arg0  (x9 / 树上
+)                  :arg1  (x13 / 灰雀
+                        :quant  (x11 / 3
+)                        :cunit  (x12 / 只
+))))      :op2  (x43 / and
+            :op1  (x19 / 粉红
+                  :arg0  (x17 / 胸脯
+                        :part-of  (x46 / animal
+                              :quant  (x15 / 2
+)                              :cunit  (x16 / 只
+)                              :arg1-of  (x50 / include-91
+                                    :arg2  (x13 / 灰雀
+))))                  :mode  (x18_x20 / judgement
+))            :op2  (x26 / 深红
+                  :mode  (x25_x27 / judgement
+)                  :arg0  (x24 / 胸脯
+                        :part-of  (x54 / animal
+                              :arg1-of  (x55 / include-91
+                                    :arg2  (x13 / 灰雀
+))                              :quant  (x22 / 1
+))))))
+===========================
+它们在树枝间来回跳动，婉转地歌唱，非常惹人喜爱。
+(x17 / and
+      :op1  (x6 / 跳动-01
+            :manner  (x5 / 来回
+)            :location  (x4 / 间
+                  :arg0  (x3 / 树枝
+))            :arg0  (x1 / 它们
+))      :op2  (x10 / 歌唱-01
+            :manner  (x8 / 婉转
+)            :arg0  (x1 / 它们
+))      :op3  (x13 / 惹-01
+            :arg0  (x1 / 它们
+)            :degree  (x12 / 非常
+)            :arg1  (x14 / 人
+)            :cause-of  (x15 / 喜爱-01
+                  :arg0  (x14 / 人
+)                  :arg1  (x1 / 它们
+))))
+===========================
+列宁每次走到白桦树下，都要停下来，仰望这三只欢快的灰雀，还经常给它们带来面包渣和谷粒。
+(x31 / and
+      :op1  (x33 / temporal
+            :arg1  (x3_x4 / 走到-01
+                  :mod  (x2 / 每次
+)                  :arg0  (x36 / person
+                        :name  ( x1/列宁 
+))                  :arg1  (x6 / 下-01
+                        :arg0  (x5 / 白桦树
+)))            :arg2  (x9 / 要-03
+                  :mod  (x8 / 都
+)                  :arg0  (x10_x11 / 停下-01
+                        :arg0  (x36 / person
+)))            :arg3  (x13 / 仰望-01
+                  :arg0  (x36 / person
+)                  :arg1  (x19 / 灰雀
+                        :arg0-of  (x17 / 欢快
+)                        :mod  (x14 / 这
+)                        :quant  (x15 / 3
+)                        :cunit  (x16 / 只
+))))      :op2  (x25 / 带来-01
+            :arg0  (x36 / person
+)            :arg1  (x28 / and
+                  :op1  (x27 / 渣
+                        :mod  (x26 / 面包
+))                  :op2  (x29 / 谷粒
+))            :frequency  (x22 / 经常
+)            :arg2  (x24 / x19
+)))
+===========================
+一天，列宁又来到公园，走到白桦树下，发现那只深红的灰雀不见了。
+(x22 / temporal
+      :arg1  (x5 / 来到-01
+            :mod  (x4 / 又
+)            :arg0  (x26 / person
+                  :name  ( x3/列宁 
+))            :arg1  (x6 / 公园
+))      :time  (x1 / 一天
+)      :arg2  (x8_x9 / 走到-01
+            :arg0  (x26 / person
+)            :arg1  (x11 / 下
+                  :arg0  (x10 / 白桦树
+)))      :arg3  (x13 / 发现-01
+            :arg0  (x26 / person
+)            :arg1  (x19 / 不见-01
+                  :arg0  (x18 / 灰雀
+                        :arg0-of  (x16 / 深红
+)                        :mod  (x14 / 那
+)                        :cunit  (x15 / 只
+))                  :aspect  (x20 / 了
+))))
+===========================
+他在周围的树林中找遍了，也没有找到。
+(x15 / temporal
+      :arg1  (x7_x8 / 找遍-01
+            :arg0  (x1 / 他
+)            :arg1  (x5 / 树林
+                  :location  (x3 / 周围
+))            :aspect  (x9 / 了
+))      :arg2  (x13 / 找到-01
+            :mod  (x11 / 也
+)            :arg0  (x1 / 他
+)))
+===========================
+这时，列宁看见一个小男孩，就问:“孩子，你看见过一只深红色胸脯灰雀吗？"
+(x25 / temporal
+      :arg1  (x4 / 看见-01
+            :time  (x1 / 这时
+)            :arg0  (x29 / person
+                  :name  ( x3/列宁 
+))            :arg1  (x7 / 男孩
+                  :arg0-of  (x6 / 小-01
+)                  :quant  (x5_1 / 1
+)                  :cunit  (x5_2 / 个
+)))      :arg2  (x10 / 问-01
+            :arg0  (x29 / person
+)            :arg1  (x36 / and
+                  :op2  (x15 / 看见-01
+                        :aspect  (x16 / 过
+)                        :arg0  (x14 / x7
+)                        :arg1  (x22 / 灰雀
+                              :part  (x21 / 胸脯
+                                    :arg0-of  (x20 / 红色
+                                          :mod  (x19 / 深
+)))                              :quant  (x17 / 1
+)                              :cunit  (x18 / 只
+))                        :mode  (x23_x24 / interrogative
+))                  :op1  (x12 / x7
+))))
+===========================
+男孩说:“没……我没看见。”
+(x2 / 说-01
+      :arg0  (x1 / 男孩
+)      :arg1  (x13 / and
+            :op1  (x4 / 没-01
+)            :op2  (x8 / 看见-01
+                  :polarity  (x7 / -
+)                  :arg0  (x6 / x1
+))))
+===========================
+列宁说:“一定是飞走了或者是冻死了。
+(x2 / 说-01
+      :arg0  (x16 / person
+            :name  ( x1/列宁 
+))      :arg1  (x4 / 一定
+            :arg0  (x9 / or
+                  :op1  (x6 / 飞-01
+                        :cause-of  (x7 / 走-01
+                              :aspect  (x8 / 了
+)                              :arg0  (x26 / animal
+))                        :arg0  (x26 / animal
+))                  :op2  (x11 / 冻死-01
+                        :aspect  (x12 / 了
+)                        :arg0  (x26 / animal
+)))))
+===========================
+天气严寒,它怕冷。“
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x2 / 严寒
+                  :arg0  (x1 / 天气
+))            :op2  (x5 / 怕-01
+                  :arg0  (x4 / 它
+)                  :arg1  (x6 / 冷
+))))
+===========================
+那个男孩本来想告诉列宁灰雀没有死，但又不敢讲。
+(x17 / contrast
+      :arg1  (x4 / 想-01
+            :mod  (x3 / 本来
+)            :arg0  (x2 / 男孩
+                  :mod  (x1_1 / 那
+)                  :cunit  (x1_2 / 个
+))            :arg1  (x5 / 告诉-01
+                  :arg0  (x2 / 男孩
+)                  :arg1  (x9 / 死-01
+                        :arg0  (x7 / 灰雀
+))                  :arg2  (x29 / person
+                        :name  ( x6/列宁 
+))))      :arg2  (x14 / 敢-02
+            :mod  (x12 / 又
+)            :arg0  (x2 / 男孩
+)            :arg1  (x15 / 讲-01
+                  :arg0  (x2 / 男孩
+))))
+===========================
+列宁自言自语地说:”多好的灰雀呀，可惜再也飞不回来了。”
+(x4 / 说-01
+      :manner  (x2 / 自言自语
+)      :arg0  (x23 / person
+            :name  ( x1/列宁 
+))      :arg1  (x25 / and
+            :op1  (x9 / 灰雀
+                  :arg0-of  (x7 / 好-01
+                        :degree  (x6 / 多
+))                  :mode  (x10 / expressive
+))            :op2  (x12 / 可惜-01
+                  :arg0  (x31 / possible
+                        :arg0  (x15 / 飞-01
+                              :direction  (x17 / 回来-01
+                                    :arg0  (x9 / 灰雀
+))                              :arg0  (x9 / 灰雀
+))                        :polarity  (x16 / -
+)                        :smood  (x18 / 了
+)                        :mod  (x13 / 再
+)                        :mod  (x14 / 也
+)))))
+===========================
+男孩看看列宁，说:“会飞回来的，一定会飞回来的。
+(x18 / temporal
+      :arg1  (x2 / 看看-01
+            :arg0  (x1 / 男孩
+)            :arg1  (x22 / person
+                  :name  ( x3/列宁 
+)))      :arg2  (x5 / 说-01
+            :arg0  (x1 / 男孩
+)            :arg1  (x25 / and
+                  :op1  (x7 / 会-02
+                        :arg0  (x8 / 飞-01
+                              :direction  (x9 / 回来-01
+                                    :arg0  (x35 / animal
+))                              :arg0  (x35 / animal
+))                        :smood  (x10 / 的
+))                  :op2  (x12 / 一定
+                        :arg0  (x13 / 会-02
+                              :arg0  (x14 / 飞-01
+                                    :arg0  (x35 / animal
+))                              :direction  (x15 / 回来-01
+                                    :arg0  (x35 / animal
+)))                        :smood  (x16 / 的
+)))))
+===========================
+它还活着。”
+(x6 / say
+      :arg1  (x3 / 活-01
+            :mod  (x2 / 还
+)            :aspect  (x4 / 着
+)            :arg0  (x1 / 它
+)))
+===========================
+列宁问:会飞回来?”
+(x2 / 问-01
+      :arg0  (x10 / person
+            :name  ( x1/列宁 
+))      :arg1  (x4 / 会-02
+            :arg0  (x5 / 飞-01
+                  :direction  (x6 / 回来-01
+                        :arg0  (x16 / animal
+))                  :arg0  (x16 / animal
+))            :mode  (x7 / interrogative
+)))
+===========================
+“一定会飞回来!”男孩肯定地说。
+(x10 / 说-01
+      :arg0  (x7 / 男孩
+)      :manner  (x8 / 肯定
+)      :arg1  (x2 / 一定
+            :arg0  (x3 / 会-02
+                  :arg0  (x4 / 飞-01
+                        :direction  (x5 / 回来-01
+                              :arg0  (x20 / animal
+))                        :arg0  (x20 / animal
+)))))
+===========================
+第二天，列宁来到白桦树下，果然又看到那只灰雀欢蹦乱跳地在枝头歌唱。
+(x20 / temporal
+      :time  (x22 / ordinal-entity
+            :value  (x1_1_2 / 2
+)            :unit  (x1_3 / 天
+))      :arg1  (x4 / 来到-01
+            :arg0  (x29 / person
+                  :name  ( x3/列宁 
+))            :arg1  (x6 / 下
+                  :arg0  (x5 / 白桦树
+)))      :arg2  (x10 / 看到-01
+            :mod  (x8 / 果然
+)            :mod  (x9 / 又
+)            :arg0  (x29 / person
+)            :arg1  (x18 / 歌唱-01
+                  :arg0  (x13 / 灰雀
+                        :cunit  (x12 / 只
+)                        :mod  (x11 / 那
+))                  :location  (x17 / 枝头
+)                  :manner  (x14 / 欢蹦乱跳
+))))
+===========================
+那个男孩站在白桦树旁，低着头。
+(x12 / and
+      :op1  (x3 / 站-01
+            :arg0  (x2 / 男孩
+                  :mod  (x1_1 / 那
+)                  :cunit  (x1_2 / 个
+))            :arg1  (x6 / 旁
+                  :arg0  (x5 / 白桦树
+)))      :op2  (x8 / 低-02
+            :arg0  (x2 / 男孩
+)            :aspect  (x9 / 着
+)            :arg1  (x10 / 头
+                  :part-of  (x2 / 男孩
+))))
+===========================
+列宁看看男孩，又看看灰雀，微笑着说:“你好!灰雀，昨天你到哪儿去了?”
+(x24 / temporal
+      :arg1  (x2 / 看看-01
+            :arg0  (x28 / person
+                  :name  ( x1/列宁 
+))            :arg1  (x3 / 男孩
+))      :arg2  (x6 / 看看-01
+            :arg0  (x28 / person
+)            :arg1  (x7 / 灰雀
+))      :arg3  (x11 / 说-01
+            :manner  (x9 / 微笑-01
+                  :aspect  (x10 / 着
+)                  :arg0  (x28 / person
+))            :arg0  (x28 / person
+)            :arg1  (x35 / and
+                  :op1  (x13 / 你好
+                        :mode  (x14 / expressive
+))                  :op2  (x15 / x7
+)                  :op3  (x19 / 到-01
+                        :arg0  (x18 / x7
+)                        :time  (x17 / 昨天
+)                        :arg1  (x20 / amr-unknown
+)                        :aspect  (x22 / 了
+)                        :mode  (x23 / interrogative
+)))))
+===========================
+当然,灰雀没有告诉列宁昨天它去哪儿了。
+(x5 / 告诉-01
+      :mod  (x1 / 当然
+)      :arg0  (x3 / 灰雀
+)      :polarity  (x4 / -
+)      :arg1  (x9 / 去-01
+            :aspect  (x11 / 了
+)            :arg0  (x8 / x3
+)            :arg1  (x10 / amr-unknown
+)            :time  (x7 / 昨天
+))      :arg2  (x23 / person
+            :name  ( x6/列宁 
+)))
+===========================
+列宁也没有再问那个男孩,因为他已经知道,男孩是诚实的。
+(x19 / causation
+      :arg2  (x5 / 问-01
+            :mod  (x4 / 再
+)            :polarity  (x3 / -
+)            :mod  (x2 / 也
+)            :arg0  (x25 / person
+                  :name  ( x1/列宁 
+))            :arg2  (x7 / 男孩
+                  :cunit  (x6_2 / 个
+)                  :mod  (x6_1 / 那
+)))      :arg1  (x12 / 知道-01
+            :aspect  (x11 / 已经
+)            :arg0  (x10 / x25
+)            :arg1  (x16 / 诚实-01
+                  :arg0  (x14 / x7
+)                  :mode  (x15_x17 / judgement
+))))
+===========================

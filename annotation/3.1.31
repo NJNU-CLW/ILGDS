@@ -1,0 +1,356 @@
+上小学的时候，我们班有位叫英子的同学。
+(x8 / 有-03
+      :arg0  (x7 / 班
+            :poss  (x6 / 我们
+))      :time  (x1 / 上
+            :arg1  (x2 / 小学
+))      :arg1  (x13 / 同学
+            :arg0-of  (x10 / 叫-01
+)            :arg1  (x11 / 英子
+)            :cunit  (x9 / 位
+)))
+===========================
+她很文静，总是默默地坐在教室的一角。
+(x14 / and
+      :op1  (x3 / 文静
+            :arg0  (x1 / 她
+)            :degree  (x2 / 很-01
+))      :op2  (x8 / 坐-01
+            :manner  (x6 / 默默
+)            :arg0  (x1 / 她
+)            :mod  (x5 / 总是
+)            :arg1  (x12 / 一角
+                  :part-of  (x10 / 教室
+))))
+===========================
+上课前，她早早地就来到教室，下课后，她又总是最后一个离开。
+(x21 / and
+      :arg1  (x8 / 来到-01
+            :arg0  (x4 / 她
+)            :arg1  (x9 / 教室
+)            :time  (x2 / 前
+                  :op1  (x1 / 上课
+))            :mod  (x7 / 就
+)            :manner  (x5 / 早早
+))      :op2  (x19 / 离开-01
+            :arg0  (x14 / x4
+)            :mod  (x15 / 又
+)            :mod  (x16 / 总是
+)            :ord  (x34 / ordinal-entity
+                  :value  (x17 / 最后
+)                  :cunit  (x18 / 个
+))))
+===========================
+因为她得过小儿麻痹症，腿脚落下了残疾，不愿意让别人看见她走路的姿势。
+(x22 / causation
+      :arg1  (x24 / causation
+            :arg1  (x3 / 得
+                  :aspect  (x4 / 过
+)                  :arg0  (x2 / 她
+)                  :arg1  (x30 / disease
+                        :name  ( x5/小儿麻痹症 
+)))            :arg2  (x8 / 落下-01
+                  :arg0  (x7 / 腿脚
+                        :part-of  (x2 / 她
+))                  :aspect  (x9 / 了
+)                  :arg1  (x10 / 残疾
+)))      :arg2  (x13 / 愿意-01
+            :polarity  (x12 / -
+)            :arg0  (x2 / 她
+)            :arg1  (x14 / 让-02
+                  :arg1  (x15 / 别人
+)                  :arg2  (x16 / 看见-01
+                        :arg0  (x15 / 别人
+)                        :arg1  (x20 / 姿势
+                              :mod  (x18 / 走路-01
+                                    :arg0  (x17 / x2
+)))))))
+===========================
+一天，老师让同学们轮流上讲台讲故事。
+(x4 / 让-02
+      :arg0  (x3 / 老师
+)      :arg1  (x5_x6 / 同学们
+)      :time  (x1 / 一天
+)      :arg2  (x18 / temporal
+            :arg1  (x8 / 上-03
+                  :arg0  (x5_x6 / 同学们
+)                  :arg1  (x9 / 讲台
+))            :manner  (x7 / 轮流-01
+                  :arg0  (x5_x6 / 同学们
+))            :arg2  (x10 / 讲-01
+                  :arg0  (x5_x6 / 同学们
+)                  :arg1  (x11 / 故事
+))))
+===========================
+轮到英子的时候，全班四十多双眼睛一齐投向了那个角落，英子立刻把头低了下去。
+(x28 / causation
+      :arg1  (x13 / 投向-01
+            :arg2  (x16 / 角落
+                  :mod  (x15_1 / 那
+)                  :cunit  (x15_2 / 个
+))            :aspect  (x14 / 了
+)            :manner  (x12 / 一齐
+)            :time  (x1_x2 / 轮到-01
+                  :arg1  (x37 / person
+                        :name  ( x3/英子 
+)))            :arg1  (x11 / 眼睛
+                  :cunit  (x10 / 双
+)                  :quant  (x9 / 多
+                        :op1  (x8 / 40
+))                  :range  (x7 / 全班
+)))      :arg2  (x22 / 低-02
+            :direction  (x24 / 下去
+)            :arg0  (x46 / person
+                  :name  ( x18/x3 
+))            :manner  (x19 / 立刻
+)            :arg1  (x21 / 头
+                  :part-of  (x37 / person
+))))
+===========================
+老师是刚刚调来的，还不知道英子的情况。
+(x14 / causation
+      :arg1  (x16 / person
+            :domain  (x1 / 老师
+)            :arg1-of  (x4 / 调来-01
+                  :time  (x3 / 刚刚
+)))      :arg2  (x9 / 知道-01
+            :arg0  (x1 / 老师
+)            :arg1  (x12 / 情况
+                  :poss  (x22 / person
+                        :name  ( x10/英子 
+)))            :polarity  (x8 / -
+)            :mod  (x7 / 还
+)))
+===========================
+英子犹豫了一会儿，慢吞吞地站了起来，眼圈红红的。
+(x15 / temporal
+      :arg1  (x2 / 犹豫-01
+            :aspect  (x3 / 了
+)            :arg0  (x19 / person
+                  :name  ( x1/英子 
+))            :duration  (x4 / 一会儿
+))      :arg2  (x22 / and
+            :op2  (x13 / 红-01
+                  :arg0  (x12 / 眼圈
+                        :part-of  (x19 / person
+)))            :op1  (x8_x9 / 站-01
+                  :arg0  (x19 / person
+)                  :manner  (x6 / 慢吞吞
+))))
+===========================
+在全班同学的注视下，她终于一摇一晃地走上了讲台。
+(x12_x13 / 走上-01
+      :aspect  (x14 / 了
+)      :arg0  (x8 / 她
+            :arg1-of  (x5 / 注视-01
+                  :arg0  (x3 / 同学
+                        :range  (x2 / 全班
+))))      :time  (x9 / 终于
+)      :arg1  (x15 / 讲台
+)      :manner  (x10 / 一摇一晃
+))
+===========================
+就在英子刚刚站定的那一刻，教室里骤然间响起了掌声，那掌声热烈而持久。
+(x25 / and
+      :op1  (x15 / 响起-01
+            :aspect  (x16 / 了
+)            :arg0  (x17 / 掌声
+)            :location  (x11 / 教室
+)            :manner  (x13 / 骤然
+)            :time  (x5_x6 / 站-01
+                  :arg0  (x35 / person
+                        :name  ( x3/英子 
+))                  :time  (x4 / 刚刚
+)))      :op2  (x22 / and
+            :op1  (x21 / 热烈-01
+                  :arg0  (x20 / x17
+                        :mod  (x19 / 那
+)))            :op2  (x23 / 持久-01
+                  :arg0  (x20 / x17
+))))
+===========================
+在掌声里，我们看到，英子的泪水流了下来。
+(x6 / 看到-01
+      :arg0  (x5 / 我们
+)      :arg1  (x11 / 流-01
+            :direction  (x13 / 下来-01
+                  :arg0  (x10 / 泪水
+                        :source  (x21 / person
+                              :name  ( x8/英子 
+))))            :arg0  (x10 / 泪水
+))      :location  (x2 / 掌声
+))
+===========================
+掌声渐渐平息，英子也镇定了情绪，开始讲述自己的一个小故事。
+(x21 / temporal
+      :arg1  (x23 / and
+            :op1  (x3 / 平息-01
+                  :arg0  (x1 / 掌声
+)                  :manner  (x2 / 渐渐
+))            :op2  (x7 / 镇定-01
+                  :aspect  (x8 / 了
+)                  :arg0  (x29 / person
+                        :name  ( x5/英子 
+))                  :arg1  (x9 / 情绪
+)))      :arg2  (x11 / 开始-01
+            :arg0  (x29 / person
+)            :arg1  (x12 / 讲述-01
+                  :arg0  (x29 / person
+)                  :arg1  (x17 / 故事
+                        :poss  (x13 / 自己
+)                        :arg0-of  (x16 / 小-01
+)                        :quant  (x15_1 / 1
+)                        :cunit  (x15_2 / 个
+)))))
+===========================
+她的普通话说得很好，声音也十分动听。
+(x14 / and
+      :op1  (x4 / 说-01
+            :arg1  (x3 / 普通话
+                  :poss  (x1 / 她
+))            :arg0  (x1 / 她
+)            :arg0-of  (x7 / 好-01
+                  :degree  (x5 / 得
+)))      :op2  (x12 / 动听
+            :arg0  (x9 / 声音
+                  :poss  (x1 / 她
+))            :degree  (x11 / 十分
+)))
+===========================
+故事讲完了，教室里又响起了热烈的掌声。
+(x14 / temporal
+      :arg1  (x3_1 / 完-01
+            :arg0  (x2 / 讲-01
+                  :arg1  (x1 / 故事
+))            :aspect  (x3_2 / 了
+))      :arg2  (x8 / 响起-01
+            :aspect  (x9 / 了
+)            :mod  (x7 / 又
+)            :arg1  (x12 / 掌声
+                  :arg0-of  (x10 / 热烈-01
+))            :location  (x5 / 教室
+)))
+===========================
+英子向大家深深地鞠了一躬，然后，在掌声里一摇一晃地走下了讲台。
+(x22 / temporal
+      :arg1  (x5_x8 / 鞠躬-01
+            :arg0  (x25 / person
+                  :name  ( x1/英子 
+))            :quant  (x7 / 1
+)            :aspect  (x6 / 了
+)            :manner  (x4_1_2 / 深深
+)            :direction  (x3 / 大家
+))      :arg2  (x17_x18 / 走下-01
+            :aspect  (x19 / 了
+)            :arg0  (x25 / person
+)            :arg1  (x20 / 讲台
+)            :manner  (x15 / 一摇一晃
+                  :arg0  (x25 / person
+))            :location  (x13 / 掌声
+)))
+===========================
+从那以后，英子就像变了一个人似的，不再像以前那么忧郁。
+(x20 / causation
+      :arg2  (x7 / 像-02
+            :arg0  (x23 / person
+                  :name  ( x5/英子 
+))            :mod  (x6 / 就
+)            :arg1  (x8 / 变-01
+                  :aspect  (x9 / 了
+)                  :arg2  (x11 / 人
+                        :quant  (x10_1 / 1
+)                        :cunit  (x10_2 / 个
+))))      :time  (x3 / 以后
+            :op1  (x2 / 那
+))      :arg1  (x15 / 像-01
+            :arg1  (x16 / 以前
+)            :arg2  (x18 / 忧郁
+                  :degree  (x17 / 那么
+))))
+===========================
+她和同学们一起游戏说笑，甚至在一次联欢会上，还让同学们教她跳舞。
+(x24 / progression
+      :arg1  (x26 / and
+            :manner  (x5 / 一起-01
+                  :arg0  (x2 / and
+                        :op1  (x1 / 她
+)                        :op2  (x3_x4 / 同学们
+)))            :op1  (x6 / 游戏-01
+                  :arg0  (x2 / and
+))            :op2  (x7 / 说笑-01
+                  :arg0  (x2 / and
+)))      :arg2  (x17 / 让-02
+            :arg0  (x1 / 她
+)            :mod  (x16 / 还
+)            :location  (x13 / 联欢会
+                  :quant  (x11 / 1
+)                  :cunit  (x12 / 次
+))            :arg1  (x18_x19 / x3_x4
+)            :arg2  (x20 / 教-01
+                  :arg0  (x3_x4 / 同学们
+)                  :arg1  (x21 / x1
+)                  :arg2  (x22 / 跳舞
+))))
+===========================
+几年以后，我们上了不同的中学。
+(x6 / 上
+      :arg0  (x5 / 我们
+)      :aspect  (x7 / 了
+)      :arg1  (x10 / 中学
+            :arg0-of  (x8 / 不同-01
+))      :time  (x3 / 以后
+            :op1  (x19 / temporal-quantity
+                  :quant  (x1 / 几
+)                  :unit  (x2 / 年
+))))
+===========================
+英子给我来信说：“我永远不会忘记那掌声，因为它使我明白，同学们并没有歧视我。
+(x4 / 来信-01
+      :source-of  (x5 / 说-01
+            :arg1  (x31 / causation
+                  :arg2  (x9_2 / 会-02
+                        :arg0  (x10 / 忘记-01
+                              :arg0  (x7 / x36
+)                              :arg1  (x12 / 掌声
+                                    :mod  (x11 / 那
+)))                        :polarity  (x9_1 / -
+)                        :time  (x8 / 永远
+))                  :arg1  (x16 / 使-01
+                        :arg0  (x15 / x12
+)                        :arg1  (x17 / x36
+)                        :arg2  (x18 / 明白-01
+                              :arg0  (x17 / x36
+)                              :arg1  (x24 / 歧视-01
+                                    :arg0  (x20_x21 / 同学们
+)                                    :mod  (x22 / 并
+)                                    :arg1  (x25 / x36
+))))))      :arg0  (x36 / person
+            :name  ( x1/英子 
+))      :arg1  (x3 / 我
+))
+===========================
+大家的掌声给了我极大的鼓励，使我鼓起勇气微笑着面对生活。”
+(x21 / say
+      :arg1  (x23 / causation
+            :arg1  (x4 / 给-01
+                  :aspect  (x5 / 了
+)                  :arg0  (x3 / 掌声
+                        :source  (x1 / 大家
+))                  :arg1  (x9 / 鼓励
+                        :arg0-of  (x7_2 / 大-01
+                              :degree  (x7_1 / 极
+)))                  :arg2  (x6 / 我
+))            :arg2  (x11 / 使-01
+                  :arg0  (x9 / 鼓励
+)                  :arg1  (x12 / x6
+)                  :arg2  (x13_x14 / 鼓起-01
+                        :arg0  (x12 / x6
+)                        :arg1  (x15 / 勇气
+)                        :purpose  (x18 / 面对-01
+                              :manner  (x16 / 微笑-01
+                                    :aspect  (x17 / 着
+)                                    :arg0  (x6 / 我
+))                              :arg0  (x6 / 我
+)                              :arg1  (x19 / 生活
+))))))
+===========================

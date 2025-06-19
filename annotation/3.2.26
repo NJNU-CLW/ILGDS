@@ -1,0 +1,357 @@
+秋天到了，果农们又高兴又发愁。
+(x12 / and
+      :op1  (x2 / 到-01
+            :arg0  (x15 / date-entity
+                  :season  (x1 / 秋天
+))            :aspect  (x3 / 了
+))      :op2  (x18 / and
+            :op1  (x8 / 高兴-01
+                  :arg0  (x5_x6 / 果农们
+))            :op2  (x10 / 发愁-01
+                  :arg0  (x5_x6 / 果农们
+))))
+===========================
+高兴的是水果又丰收啦，发愁的是需要做的事太多了。
+(x20 / contrast
+      :arg1  (x1 / 高兴-01
+            :arg1  (x6 / 丰收-01
+                  :arg0  (x4 / 水果
+)                  :mod  (x5 / 又
+)                  :mode  (x7 / expressive
+)))      :arg2  (x9 / 发愁-01
+            :arg1  (x17 / 多-03
+                  :arg0  (x15 / 事
+                        :arg1-of  (x13 / 做-01
+                              :arg1-of  (x12 / 需要-04
+)))                  :degree  (x16 / 太
+)                  :smood  (x18 / 了
+))))
+===========================
+要把果子从树上摘下来，要把它们运到很远的地方去卖，实在忙不过来。
+(x26 / causation
+      :arg1  (x29 / progression
+            :arg1  (x1 / 要-03
+                  :arg0  (x6 / 摘-01
+                        :direction  (x7 / 下来-01
+                              :arg0  (x3 / 果子
+))                        :arg1  (x3 / 果子
+)                        :source  (x5 / 树上
+)))            :arg2  (x9 / 要-03
+                  :arg0  (x12 / 运-02
+                        :arg1  (x11 / x3
+)                        :arg2  (x17 / 地方
+                              :arg0-of  (x15 / 远-01
+                                    :degree  (x14 / 很
+)))                        :purpose  (x19 / 卖-01
+                              :arg1  (x3 / 果子
+)))))      :arg2  (x24 / possible
+            :arg0  (x22 / 忙
+)            :mod  (x21 / 实在
+)            :polarity  (x23 / -
+)))
+===========================
+你会想，可以让机器人来帮忙呀。
+(x2 / 会-02
+      :arg0  (x3 / 想-01
+            :arg0  (x1 / 你
+)            :arg1  (x5 / 可以-01
+                  :arg0  (x6 / 让-02
+                        :arg1  (x7 / 机器人
+)                        :arg2  (x8 / 来-05
+                              :arg1  (x9 / 帮忙-01
+                                    :arg0  (x7 / 机器人
+))                              :arg0  (x7 / 机器人
+)))                  :mode  (x10 / expressive
+))))
+===========================
+是的，现在已经有了会干农活的机器人。
+(x14 / and
+      :op1  (x1_x2 / 是的
+)      :op2  (x6 / 有-03
+            :aspect  (x7 / 了
+)            :aspect  (x5 / 已经
+)            :time  (x4 / 现在
+)            :arg1  (x12 / 机器人
+                  :arg0-of  (x8 / 会-02
+                        :arg1  (x9 / 干-01
+                              :arg0  (x12 / 机器人
+)                              :arg1  (x10 / 农活
+))))))
+===========================
+它们能把成熟的果子从树上摘下来，整齐地装进纸箱，然后运到指定的地方。
+(x2 / 能-01
+      :arg0  (x27 / temporal
+            :arg1  (x9 / 摘-01
+                  :arg0  (x1 / 它们
+)                  :arg1  (x6 / 果子
+                        :arg0-of  (x4 / 成熟-01
+))                  :direction  (x10 / 下来-01
+                        :arg0  (x6 / 果子
+))                  :source  (x8 / 树上
+))            :arg2  (x14 / 装-01
+                  :manner  (x12 / 整齐
+)                  :arg0  (x1 / 它们
+)                  :arg1  (x6 / 果子
+)                  :arg2  (x16 / 纸箱
+))            :arg3  (x19 / 运-02
+                  :arg0  (x1 / 它们
+)                  :arg1  (x6 / 果子
+)                  :arg2  (x23 / 地方
+                        :arg1-of  (x21 / 指定-01
+)))))
+===========================
+这些机器人这么聪明能干，看来真是果农的好帮手呢!
+(x15 / causation
+      :arg1  (x17 / and
+            :op1  (x4 / 聪明-01
+                  :mod  (x3 / 这么
+)                  :arg0  (x2 / 机器人
+                        :mod  (x1 / 这些
+)))            :op2  (x5 / 能干-01
+                  :mod  (x3 / 这么
+)                  :arg0  (x2 / 机器人
+)))      :arg2  (x7 / 看来-02
+            :arg0  (x12 / 帮手
+                  :domain  (x2 / 机器人
+)                  :arg0-of  (x11 / 好-01
+)                  :poss  (x9 / 果农
+)                  :degree  (x8_1 / 真
+)                  :mode  (x13_x14 / expressive
+))))
+===========================
+可是果农还是不太满意。
+(x8 / contrast
+      :arg2  (x6 / 满意-01
+            :mod  (x3 / 还是
+)            :degree  (x5 / 太
+                  :polarity  (x4 / -
+))            :arg0  (x2 / 果农
+)))
+===========================
+如果没有电，他们是要“罢工”的，果园那么大，到处是果树,不可能让机器人拖着长长的电线走来走去。
+(x34 / and
+      :op1  (x36 / condition
+            :arg1  (x2_2 / 有-03
+                  :polarity  (x2_1 / -
+)                  :arg1  (x3 / 电
+))            :arg2  (x9 / 罢工-01
+                  :arg0  (x5 / 他们
+)                  :mode  (x6_x11 / judgement
+)))      :op2  (x37 / causation
+            :arg1  (x38 / and
+                  :op1  (x15 / 大-01
+                        :degree  (x14 / 那么
+)                        :arg0  (x13 / 果园
+))                  :op2  (x19 / 果树
+                        :range  (x17 / 到处
+)))            :arg2  (x22 / 可能-01
+                  :polarity  (x21 / -
+)                  :arg0  (x23 / 让-02
+                        :arg1  (x24 / x5
+)                        :arg2  (x54 / and
+                              :manner  (x25 / 拖-03
+                                    :aspect  (x26 / 着
+)                                    :arg0  (x24 / x5
+)                                    :arg1  (x28 / 电线
+                                          :arg0-of  (x27 / 长-02
+)))                              :op1  (x29 / 走-01
+                                    :direction  (x30 / 来
+)                                    :arg0  (x5 / 他们
+))                              :op2  (x31 / 走-01
+                                    :direction  (x32 / 去
+)                                    :arg0  (x5 / 他们
+)))))))
+===========================
+你会想,可以用电池呀!
+(x2 / 会-02
+      :arg0  (x3 / 想-01
+            :arg0  (x1 / 你
+)            :arg1  (x5 / 可以-01
+                  :arg0  (x6 / 用-01
+                        :arg1  (x7 / 电池
+))                  :mode  (x8_x9 / expressive
+))))
+===========================
+那就得经常给机器人充电或者换新电池。
+(x13 / condition
+      :arg2  (x3 / 得
+            :arg0  (x8 / or
+                  :op1  (x7 / 充电-01
+                        :arg0  (x6 / 机器人
+))                  :op2  (x9 / 换-01
+                        :arg1  (x11 / 电池
+                              :arg0-of  (x10 / 新-01
+))                        :arg2  (x6 / 机器人
+))                  :frequency  (x4 / 经常
+))))
+===========================
+因为电池很快就用完的,没电了,机器人就会"饿倒"。
+(x20 / causation
+      :arg1  (x22 / condition
+            :arg1  (x23 / temporal
+                  :arg2  (x31 / 有-03
+                        :polarity  (x9 / -
+)                        :aspect  (x11 / 了
+)                        :arg1  (x10 / 电
+))                  :arg1  (x6 / 完-01
+                        :arg0  (x5 / 用-01
+                              :mod  (x4 / 就
+)                              :arg1  (x2 / 电池
+))                        :time  (x3_2 / 快
+                              :degree  (x3_1 / 很
+))                        :mode  (x7 / judgement
+)))            :arg2  (x15 / 会-02
+                  :arg0  (x17 / 饿-01
+                        :cause-of  (x18 / 倒-01
+                              :arg1  (x13 / 机器人
+))                        :arg0  (x13 / 机器人
+)))))
+===========================
+让果农在一片密密的果树林里一个个地去找"饿倒"了的机器人,那可太麻烦了。
+(x30 / condition
+      :arg1  (x1 / 让-02
+            :arg1  (x2 / 果农
+)            :arg2  (x14 / 去-01
+                  :arg1  (x15 / 找-03
+                        :arg1  (x22 / 机器人
+                              :arg0-of  (x17 / 饿-01
+                                    :cause-of  (x18 / 倒-01
+                                          :arg1  (x22 / 机器人
+)                                          :aspect  (x20 / 了
+))))                        :arg0  (x2 / 果农
+))                  :manner  (x10_x11_x12 / 一个个
+)                  :location  (x8 / 林
+                        :mod  (x7 / 果树
+)                        :arg0-of  (x6 / 密-01
+)                        :quant  (x4 / 1
+)                        :cunit  (x5 / 片
+))))      :arg2  (x27 / 麻烦
+            :degree  (x26 / 太
+)            :smood  (x28 / 了
+)            :mod  (x25 / 可
+)))
+===========================
+能不能让机器人自己充电呢?
+(x9 / or
+      :op1  (x1 / 能-01
+            :arg0  (x3 / 让-02
+                  :arg1  (x5 / 自己
+                        :arg0-of  (x16 / mean
+                              :arg1  (x4 / 机器人
+)))                  :arg2  (x6 / 充电-01
+                        :arg0  (x5 / 自己
+))))      :op2  (x2_2 / 能-01
+            :polarity  (x2_1 / -
+)            :arg0  (x3 / 让-02
+))      :mode  (x7_x8 / interrogative
+))
+===========================
+科学家正在研究这样的机器人,他们只要"吃"树上掉下的水果就可以干活。
+(x22 / and
+      :op1  (x3 / 研究-01
+            :aspect  (x2 / 正在
+)            :arg0  (x1 / 科学家
+)            :arg1  (x6 / 机器人
+                  :mod  (x4 / 这样
+)))      :op2  (x30 / condition
+            :arg1  (x11 / 吃-01
+                  :arg0  (x8 / x6
+)                  :arg1  (x17 / 水果
+                        :arg0-of  (x14_x15 / 掉下-01
+                              :location  (x13 / 树上
+))))            :arg2  (x19 / 可以-01
+                  :arg0  (x20 / 干活-01
+                        :arg0  (x6 / 机器人
+)))))
+===========================
+这种机器人的肚子里,如果装了特殊的电池,就可以把吃进去的水果变成糖,再把糖变成电。
+(x31 / condition
+      :arg1  (x9 / 装-01
+            :arg1  (x13 / 电池
+                  :arg0-of  (x11 / 特殊-01
+))            :aspect  (x10 / 了
+)            :arg2  (x6 / 里
+                  :arg0  (x5 / 肚子
+                        :part-of  (x3 / 机器人
+                              :unit  (x2 / 种
+)                              :mod  (x1 / 这
+)))))      :arg2  (x16 / 可以-01
+            :arg0  (x44 / temporal
+                  :arg1  (x22 / 变成-01
+                        :arg2  (x23 / 糖
+)                        :arg1  (x21 / 水果
+                              :arg1-of  (x18 / 吃-01
+                                    :arg0  (x3 / 机器人
+))))                  :arg2  (x28 / 变成-01
+                        :arg1  (x27 / x23
+)                        :arg2  (x29 / 电
+)))))
+===========================
+在收获的季节里,这些机器人只要捡掉在地上的水果吃,就能不停的工作。
+(x25 / condition
+      :arg1  (x10 / 捡-01
+            :purpose  (x16 / 吃-01
+)            :arg0  (x8 / 机器人
+                  :mod  (x7 / 这些
+))            :arg1  (x15 / 水果
+                  :arg1-of  (x11 / 掉-01
+                        :location  (x13 / 地上
+))))      :arg2  (x19 / 能-01
+            :arg0  (x23 / 工作-01
+                  :manner  (x21 / 停
+                        :polarity  (x20 / -
+))                  :arg0  (x8 / 机器人
+)))      :time  (x4 / 季节
+            :mod  (x2 / 收获
+)))
+===========================
+有了这种"吃"水果的机器人,果农们就轻松多了,只要坐在办公室里指挥他们就行了,要是有机器人报告,地上的水果不够吃了,主人就会立刻告诉它,从树上摘些果子“吃”吧。
+(x59 / causation
+      :arg2  (x61 / condition
+            :arg1  (x1 / 有-03
+                  :aspect  (x2 / 了
+)                  :arg1  (x9 / 机器人
+                        :arg0-of  (x5 / 吃-01
+                              :arg1  (x7 / 水果
+))                        :mod  (x3_1 / 这
+)                        :unit  (x3_2 / 种
+)))            :arg2  (x14 / 轻松-01
+                  :arg0  (x11_x12 / 果农们
+)                  :degree  (x15 / 多
+)                  :smood  (x16 / 了
+)))      :arg1  (x76 / and
+            :op1  (x77 / condition
+                  :arg1  (x23 / 指挥-02
+                        :manner  (x19 / 坐-01
+                              :arg0  (x11_x12 / 果农们
+)                              :arg1  (x21 / 办公室
+))                        :arg0  (x11_x12 / 果农们
+)                        :arg1  (x24 / x9
+))                  :arg2  (x26 / 行
+                        :smood  (x27 / 了
+)))            :op2  (x84 / condition
+                  :arg1  (x33 / 报告-01
+                        :arg0  (x32 / 机器人
+)                        :arg1  (x38_2 / 够-01
+                              :arg0  (x37 / 水果
+                                    :location  (x35 / 地上
+))                              :polarity  (x38_1 / -
+                                    :arg0  (x37 / 水果
+))                              :arg1  (x39 / 吃-01
+                                    :arg1  (x37 / 水果
+)                                    :arg0  (x32 / 机器人
+))                              :smood  (x40 / 了
+)))                  :arg2  (x44 / 会-02
+                        :arg0  (x46 / 告诉-01
+                              :time  (x45 / 立刻
+)                              :arg0  (x42 / 主人
+)                              :arg2  (x47 / x32
+)                              :arg1  (x51 / 摘-01
+                                    :source  (x50 / 树上
+)                                    :arg1  (x53 / 果子
+                                          :quant  (x52 / 些
+))                                    :purpose  (x55 / 吃-01
+                                          :arg1  (x53 / 果子
+))                                    :mode  (x57 / imperative
+)))))))
+===========================

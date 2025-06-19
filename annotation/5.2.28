@@ -1,0 +1,864 @@
+非洲真是一个色彩斑斓的世界啊！
+(x7 / 世界
+      :arg0-of  (x5 / 色彩斑斓-01
+)      :quant  (x3 / 1
+)      :cunit  (x4 / 个
+)      :domain  (x15 / continent
+            :name  ( x1/非洲 
+))      :mode  (x8_x9 / expressive
+))
+===========================
+蓝天、骄阳、绿树、红土、鲜花，以及皮肤油黑发亮的非洲人，构成了七彩的非洲！
+(x18 / 构成-01
+      :arg0  (x26 / and
+            :op1  (x1 / 蓝天
+)            :op2  (x3 / 骄阳
+)            :op3  (x5 / 绿树
+)            :op4  (x7 / 红土
+)            :op5  (x9 / 鲜花
+)            :op6  (x16 / 非洲人
+                  :mod  (x33 / and
+                        :op1  (x13 / 油黑
+                              :arg0  (x12 / 皮肤
+                                    :part  (x16 / 非洲人
+)))                        :op2  (x14 / 发亮-01
+                              :arg0  (x12 / 皮肤
+)))))      :arg1  (x37 / continent
+            :name  ( x22/非洲 
+)            :arg0-of  (x20 / 七彩
+))      :mode  (x23 / expressive
+))
+===========================
+作为彩色之源的赤道骄阳，是那么炽热、那么明亮。
+(x16 / and
+      :op1  (x11 / 炽热-01
+            :arg0  (x7 / 骄阳
+                  :mod  (x6 / 赤道
+)                  :arg0-of  (x1 / 作为-02
+                        :arg1  (x4 / 源
+                              :poss  (x2 / 彩色
+))))            :degree  (x10 / 那么
+))      :op2  (x14 / 明亮-01
+            :degree  (x13 / 那么
+)            :arg0  (x7 / 骄阳
+)))
+===========================
+金灿灿的阳光，映照得天空格外的蓝，好似透明的蓝宝石。
+(x17 / and
+      :op1  (x5 / 映照-01
+            :arg0  (x3 / 阳光
+                  :arg0-of  (x1 / 金灿灿
+))            :arg1  (x7 / 天空
+)            :cause-of  (x10 / 蓝-01
+                  :arg0-of  (x8 / 格外
+)                  :arg0  (x7 / 天空
+)))      :op2  (x12 / 好似-01
+            :arg1  (x15 / 蓝宝石
+                  :arg0-of  (x13 / 透明-01
+))            :arg0  (x7 / 天空
+)))
+===========================
+到了旱季，蓝天之上没有一丝云彩，浩瀚的天穹显得并不十分高远，蔚蓝的天和湛蓝的海，在地平线上交汇，你会觉得非洲的蓝天似乎离我们更近些。
+(x47 / causation
+      :time  (x1 / 到-01
+            :arg1  (x3 / 旱季
+)            :aspect  (x2 / 了
+))      :arg1  (x52 / and
+            :op1  (x7_2 / 有-03
+                  :polarity  (x7_1 / -
+)                  :arg1  (x10 / 云彩
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 丝
+))                  :arg0  (x5 / 蓝天
+))            :op2  (x15 / 显得-01
+                  :arg0  (x14 / 天穹
+                        :arg0-of  (x12 / 浩瀚
+))                  :arg1  (x19 / 高远
+                        :degree  (x18 / 十分
+)                        :polarity  (x17 / -
+                              :mod  (x16 / 并
+))))            :op3  (x32 / 交汇-01
+                  :arg0  (x24 / and
+                        :op1  (x23 / 天
+                              :arg0-of  (x21 / 蔚蓝
+))                        :op2  (x27 / 海
+                              :arg0-of  (x25 / 湛蓝-01
+)))                  :location  (x30 / 地平线
+)))      :arg2  (x35 / 会-02
+            :arg0  (x36 / 觉得-01
+                  :arg0  (x34 / 你
+)                  :arg1  (x40 / 似乎-01
+                        :arg0  (x41 / 离-02
+                              :arg0  (x39 / 蓝天
+                                    :location  (x79 / continent
+                                          :name  ( x37/非洲 
+)))                              :arg1  (x42 / 我们
+)                              :arg2  (x44 / 近
+                                    :degree  (x43 / 更
+)                                    :degree  (x45 / 些
+)))))))
+===========================
+充沛的阳光和雨水，使得除了沙漠之外的非洲大地，繁花似锦，绿海荡波，满眼是绿色，处处是花海。
+(x7 / 使得-01
+      :arg0  (x4 / and
+            :op1  (x3 / 阳光
+                  :arg0-of  (x1 / 充沛-01
+))            :op2  (x5 / 雨水
+                  :arg0-of  (x1 / 充沛-01
+)))      :arg1  (x13 / 大地
+            :location  (x38 / continent
+                  :name  ( x12/非洲 
+)                  :arg0-of  (x8_x10 / 除了
+                        :arg1  (x9 / 沙漠
+))))      :arg2  (x43 / and
+            :op1  (x15 / 繁花似锦
+                  :arg0  (x13 / 大地
+))            :op2  (x19_x20 / 荡波
+                  :arg0  (x18 / 海
+                        :arg0-of  (x17 / 绿-01
+)))            :op3  (x24 / 绿色
+                  :range  (x22 / 满眼
+))            :op4  (x29 / 海
+                  :mod  (x28 / 花
+)                  :range  (x26 / 处处
+))))
+===========================
+无论是乡村、市郊还是城里，到处开放着五颜六色的花，不过大多是野花，比我们栽在盆里的花还要硕大，还要茂盛，还要鲜艳。
+(x37 / contrast
+      :arg1  (x9 / 开放-01
+            :arg0  (x13 / 花
+                  :arg0-of  (x11 / 五颜六色-01
+))            :aspect  (x10 / 着
+)            :range  (x8 / 到处
+)            :location  (x44 / and
+                  :op1  (x2 / 乡村
+)                  :op2  (x4 / 市郊
+)                  :op3  (x6 / 城里
+)))      :arg2  (x48 / and
+            :op1  (x18 / 野花
+                  :quant  (x16 / 大多
+)                  :domain  (x13 / 花
+))            :op2  (x51 / and
+                  :op1  (x29 / 硕大-01
+                        :arg0  (x18 / 野花
+))                  :op2  (x32 / 茂盛
+                        :arg0  (x18 / 野花
+))                  :op3  (x35 / 鲜艳-01
+                        :arg0  (x18 / 野花
+))                  :compared-to  (x27 / 花
+                        :arg1-of  (x22 / 栽-01
+                              :arg0  (x21 / 我们
+)                              :location  (x24 / 盆
+))))))
+===========================
+非洲的花之所以多，是因为那里的花开花，草开花，灌木开花，许多树也开花。
+(x25 / causation
+      :arg1  (x27 / and
+            :op1  (x12 / 开花-01
+                  :arg0  (x11 / 花
+))            :op2  (x15 / 开花-01
+                  :arg0  (x14 / 草
+))            :op3  (x18 / 开花-01
+                  :arg0  (x17 / 灌木
+))            :op4  (x23 / 开花-01
+                  :arg0  (x21 / 树
+                        :quant  (x20 / 许多
+)))            :location  (x9 / x1
+))      :arg2  (x5 / 多-03
+            :arg0  (x3 / 花
+                  :location  (x40 / continent
+                        :name  ( x1/非洲 
+)))))
+===========================
+芒果树开的是星星点点的白花，仙人树开的是金灿灿的黄花，玉兰树高擎着白色或白里透青的玉杯，火炬树绽开的花朵比绿叶还多，一棵似一团火，一排似一片霞。
+(x54 / and
+      :op1  (x7 / 白花
+            :arg0-of  (x5 / 星星点点
+)            :domain  (x58 / thing
+                  :arg1-of  (x2 / 开-01
+                        :arg0  (x1 / 芒果树
+))))      :op2  (x15 / 黄花
+            :arg0-of  (x13 / 金灿灿
+)            :domain  (x63 / thing
+                  :arg1-of  (x10 / 开-01
+                        :arg0  (x9 / 仙人树
+))))      :op3  (x19 / 擎-01
+            :arg0  (x17 / 玉兰树
+)            :manner  (x18 / 高
+)            :arg1  (x29 / 杯
+                  :consist-of  (x28 / 玉
+)                  :mod  (x22 / or
+                        :op1  (x21 / 白色
+)                        :op2  (x25 / 透-01
+                              :arg1  (x26 / 青
+)                              :condition  (x23 / 白
+)))))      :op4  (x38 / 多-03
+            :arg0  (x34 / 花朵
+                  :arg0-of  (x32 / 绽开-01
+)                  :poss  (x31 / 火炬树
+))            :mod  (x37 / 还
+)            :compared-to  (x36 / 绿叶
+))      :op5  (x42 / 似-01
+            :arg1  (x45 / 火
+                  :quant  (x43 / 1
+)                  :cunit  (x44 / 团
+))            :arg0  (x86 / thing
+                  :quant  (x40 / 1
+)                  :cunit  (x41 / 棵
+)))      :op6  (x49 / 似-01
+            :arg1  (x52 / 霞
+                  :quant  (x50 / 1
+)                  :cunit  (x51 / 片
+))            :arg0  (x93 / thing
+                  :dcopy  (x86 / thing
+)                  :quant  (x47 / 1
+)                  :cunit  (x48 / 排
+))))
+===========================
+到了开花季节，一条条街道，都成了彩色的长河。
+(x12 / 成-01
+      :arg0  (x9 / 街道
+            :quant  (x6_x7_x8 / 一条条
+))      :arg1  (x16 / 长河
+            :arg0-of  (x14 / 彩色
+))      :aspect  (x13 / 了
+)      :extent  (x11 / 都
+)      :time  (x1 / 到-01
+            :arg1  (x4 / 季节
+                  :time-of  (x3 / 开花
+))            :aspect  (x2 / 了
+)))
+===========================
+人在街上走，就像置身于花海深处。
+(x7 / 像-01
+      :arg0  (x4 / 走-01
+            :arg0  (x1 / 人
+)            :location  (x3 / 街上
+))      :mod  (x6 / 就
+)      :arg1  (x8 / 置身-01
+            :arg1  (x11 / 深处
+                  :arg0  (x10 / 花海
+))            :arg0  (x1 / 人
+)))
+===========================
+还有一种叫做花树的树，更是妙不可言，远远望去，树上像是开满五彩缤纷的花，非常壮观。
+(x27 / and
+      :op1  (x10 / 妙不可言-01
+            :arg0  (x7 / 树
+                  :arg1-of  (x4 / 叫做-01
+                        :arg2  (x5 / 花树
+))                  :quant  (x2 / 1
+)                  :unit  (x3 / 种
+)                  :mod  (x1 / 还有
+)))      :op2  (x16 / 像-01
+            :arg0  (x18 / 开-01
+                  :manner  (x19 / 满
+)                  :arg1  (x22 / 花
+                        :arg0-of  (x20 / 五彩缤纷-01
+))                  :arg0  (x15 / 树上
+))            :condition  (x13 / 望去-01
+                  :manner  (x12 / 远远
+)                  :arg1  (x7 / 树
+)))      :op3  (x25 / 壮观-01
+            :arg0  (x7 / 树
+)            :degree  (x24 / 非常
+)))
+===========================
+走近一看，却是满树的彩叶，紫的、黄的、绿的、红的，好似含情脉脉的少女，向人们频频点头。
+(x35 / and
+      :op1  (x37 / contrast
+            :arg1  (x3 / 看-02
+                  :manner  (x1 / 走近-01
+))            :arg2  (x11 / 叶
+                  :arg0-of  (x10 / 彩
+                        :arg0-of  (x44 / include-91
+                              :arg1  (x45 / and
+                                    :op1  (x13 / 紫
+)                                    :op2  (x16 / 黄
+)                                    :op3  (x19 / 绿
+)                                    :op4  (x22 / 红
+))))                  :poss  (x8 / 树
+)                  :manner  (x7 / 满
+)))      :op2  (x25 / 好似-01
+            :arg0  (x11 / 叶
+)            :arg1  (x28 / 少女
+                  :arg0-of  (x26 / 含情脉脉
+)))      :op3  (x33 / 点头-01
+            :direction  (x31 / 人们
+)            :frequency  (x32 / 频频
+)            :arg0  (x28 / 少女
+)))
+===========================
+非洲不仅植物世界是彩色的，动物世界也是彩色的。
+(x16 / progression
+      :arg1  (x19 / thing
+            :mod  (x6 / 彩色
+)            :domain  (x4 / 世界
+                  :mod  (x3 / 植物
+)                  :location  (x22 / continent
+                        :name  ( x1/非洲 
+))))      :arg2  (x24 / thing
+            :mod  (x13 / 彩色
+)            :domain  (x10 / 世界
+                  :mod  (x9 / 动物
+))))
+===========================
+在扎伊尔维龙加天然动物园里，有七彩的巨蟒、黑白相间的斑马，有数不清的红羽鸟、各种颜色交织的五彩鸟，有美丽温顺的梅花鹿，更有非洲雄狮、河马、金钱豹和象群。
+(x46 / and
+      :op1  (x6 / 有-03
+            :arg0  (x49 / zoo
+                  :name  ( x3/维龙加天然动物园 
+)                  :location  (x51 / country
+                        :name  ( x2/扎伊尔 
+)))            :arg1  (x53 / and
+                  :op1  (x9 / 巨蟒
+                        :arg0-of  (x7 / 七彩
+))                  :op2  (x14 / 斑马
+                        :mod  (x12 / 相间-01
+                              :arg0  (x11 / 黑白
+)))))      :op2  (x16 / 有-03
+            :arg1  (x60 / and
+                  :op1  (x21 / 红羽鸟
+                        :quant  (x63 / possible
+                              :arg1  (x17 / 数-01
+                                    :cause-of  (x19 / 清
+))                              :polarity  (x18 / -
+)))                  :op2  (x27 / 五彩鸟
+                        :mod  (x23_1 / 各
+)                        :cunit  (x23_2 / 种
+)                        :mod  (x25 / 交织-01
+                              :arg0  (x24 / 颜色
+))))            :arg0  (x49 / zoo
+))      :op3  (x29 / 有-03
+            :arg0  (x49 / zoo
+)            :arg1  (x33 / 梅花鹿
+                  :arg0-of  (x31 / 温顺
+)                  :arg0-of  (x30 / 美丽-01
+)))      :op4  (x36 / 有-03
+            :arg1  (x75 / and
+                  :op1  (x38 / 雄狮
+                        :mod  (x77 / continent
+                              :name  ( x37/非洲 
+)))                  :op2  (x40 / 河马
+)                  :op3  (x42 / 金钱豹
+)                  :op4  (x44 / 象群
+))            :arg0  (x49 / zoo
+)))
+===========================
+也许你会说，这些动物在我国的动物园大都会看到。
+(x1 / 也许
+      :arg0  (x3 / 会-02
+            :arg0  (x4 / 说-01
+                  :arg0  (x2 / 你
+)                  :arg1  (x13 / 会-02
+                        :arg0  (x14 / 看到-01
+                              :arg1  (x7 / 动物
+                                    :mod  (x6 / 这些
+))                              :location  (x11 / 动物园
+                                    :mod  (x9 / 我国
+)))                        :mod  (x12 / 大都
+)))))
+===========================
+可是多达一万四千多种的非洲蝴蝶，只有在非洲才能大饱眼福。
+(x17 / contrast
+      :arg2  (x19 / conditon
+            :arg1  (x20 / continent
+                  :name  ( x13/非洲 
+))            :arg2  (x15 / 大饱眼福
+                  :arg1  (x9 / 蝴蝶
+                        :mod  (x24 / continent
+                              :name  ( x8/非洲 
+))                        :mod  (x2 / 多-02
+                              :arg1  (x3 / 达-01
+                                    :arg1  (x5 / 多
+                                          :op1  (x4 / 14000
+))))                        :unit  (x6 / 种
+)))))
+===========================
+仅仅是被人称为蝴蝶王国的刚果，蝴蝶就有几千种。
+(x13 / 有-03
+      :arg1  (x11 / 蝴蝶
+            :quant  (x14_1 / 几
+                  :op1  (x14_2 / 1000
+))            :unit  (x15 / 种
+))      :mod  (x12 / 就
+)      :location  (x24 / country
+            :name  ( x9/刚果 
+)            :arg0-of  (x26 / mean
+                  :arg1  (x7 / 王国
+                        :mod  (x6 / 蝴蝶
+)                        :arg2-of  (x5 / 称为-01
+                              :arg0  (x4 / 人
+)                              :arg1  (x24 / country
+                                    :mod  (x1 / 仅仅
+)))))))
+===========================
+单单在一家大宾馆我们就看到几百种蝴蝶。
+(x9 / 看到-01
+      :arg0  (x7 / 我们
+)      :arg1  (x12 / 蝴蝶
+            :quant  (x10_1 / 几
+                  :op1  (x10_2 / 100
+))            :unit  (x11 / 种
+))      :mod  (x8 / 就
+)      :location  (x6 / 宾馆
+            :arg0-of  (x5 / 大-01
+)            :quant  (x3 / 1
+)            :cunit  (x4 / 家
+)            :mod  (x1 / 单单
+)))
+===========================
+那些蝴蝶经过防腐处理，制成了精美的工艺品。
+(x13 / temporal
+      :arg1  (x3 / 经过-01
+            :arg0  (x2 / 蝴蝶
+                  :mod  (x1 / 那些
+))            :arg1  (x5 / 处理-01
+                  :manner  (x4 / 防腐
+)))      :arg2  (x7 / 制成-01
+            :arg1  (x11 / 工艺品
+                  :arg0-of  (x9 / 精美-01
+))            :arg2  (x2 / 蝴蝶
+)            :aspect  (x8 / 了
+)))
+===========================
+其颜色不仅有赤橙黄绿青蓝紫，而且在不断地变幻着，交织着，渗透着，辉映着，令你目不暇接，不住地发出赞叹。
+(x39 / and
+      :op1  (x41 / progression
+            :arg1  (x4 / 有-05
+                  :arg0  (x2 / 颜色
+                        :poss  (x1 / 其
+))                  :arg1  (x45 / and
+                        :op1  (x5 / 赤
+)                        :op2  (x6 / 橙
+)                        :op3  (x7 / 黄
+)                        :op4  (x8 / 绿
+)                        :op5  (x9 / 青
+)                        :op6  (x10 / 蓝
+)                        :op7  (x11 / 紫
+)))            :arg2  (x53 / and
+                  :op1  (x17 / 变幻-01
+                        :aspect  (x18 / 着
+)                        :arg0  (x2 / 颜色
+))                  :op2  (x20 / 交织-01
+                        :aspect  (x21 / 着
+)                        :arg0  (x2 / 颜色
+))                  :op3  (x23 / 渗透-01
+                        :aspect  (x24 / 着
+)                        :arg0  (x2 / 颜色
+))                  :op4  (x26 / 辉映-01
+                        :aspect  (x27 / 着
+)                        :arg0  (x2 / 颜色
+))                  :manner  (x15 / 不断
+)                  :aspect  (x14 / 在
+)))      :op2  (x29 / 令-01
+            :arg1  (x30 / 你
+)            :arg0  (x53 / and
+)            :arg2  (x66 / and
+                  :op1  (x31 / 目不暇接
+)                  :op2  (x36 / 发出-02
+                        :arg0  (x30 / 你
+)                        :arg1  (x37 / 赞叹
+)                        :manner  (x33_x34 / 不住
+)))))
+===========================
+这还是凝固的色彩呢，你若到盛产蝴蝶的刚果奥旺多省，置身于五彩缤纷的蝴蝶世界，细细聆听这彩色小天使飞翔的轻微音韵，简直如同步入仙境。
+(x41 / and
+      :op1  (x6 / 色彩
+            :domain  (x1 / 这
+)            :mod  (x2 / 还
+)            :mode  (x7 / expressive
+)            :arg1-of  (x4 / 凝固-01
+))      :op2  (x48 / condition
+            :arg1  (x56 / and
+                  :op1  (x11 / 到-01
+                        :arg0  (x9 / 你
+)                        :arg1  (x51 / street-address
+                              :arg1  (x52 / country
+                                    :name  ( x15/刚果 
+))                              :arg3  (x54 / province
+                                    :name  ( x16/奥旺多省 
+))                              :arg0-of  (x12 / 盛产
+                                    :arg1  (x13 / 蝴蝶
+))))                  :op2  (x18 / 置身-01
+                        :arg1  (x23 / 世界
+                              :mod  (x22 / 蝴蝶
+)                              :arg0-of  (x20 / 五彩缤纷-01
+))                        :arg0  (x9 / 你
+))                  :op3  (x26 / 聆听-01
+                        :arg1  (x34 / 音韵
+                              :arg0-of  (x33 / 轻微-01
+)                              :mod  (x31 / 飞翔-01
+                                    :arg0  (x30 / 天使
+                                          :arg0-of  (x29 / 小-01
+)                                          :mod  (x28 / 彩色
+)                                          :mod  (x27 / 这
+))))                        :manner  (x25 / 细细
+)                        :arg0  (x9 / 你
+)))            :arg2  (x37 / 如同-01
+                  :arg1  (x38 / 步入-01
+                        :arg1  (x39 / 仙境
+)                        :arg0  (x9 / 你
+))                  :arg0  (x56 / and
+)                  :mod  (x36 / 简直
+))))
+===========================
+非洲的自然景观是彩色的，非洲人的日常生活也无一不是彩色的。
+(x22 / and
+      :op1  (x25 / thing
+            :mod  (x6 / 彩色
+)            :domain  (x4 / 景观
+                  :mod  (x3 / 自然
+)                  :location  (x28 / continent
+                        :name  ( x1/非洲 
+))))      :op2  (x30 / thing
+            :mod  (x19 / 彩色
+)            :domain  (x13 / 生活
+                  :mod  (x12 / 日常
+)                  :poss  (x10 / 人
+                        :mod  (x35 / continent
+                              :name  ( x9/非洲 
+))))            :polarity  (x17 / -
+)            :polarity  (x15 / -
+)            :quant  (x16 / 1
+)))
+===========================
+他们特别注重服装颜色的鲜亮耀眼。
+(x3 / 注重
+      :arg0  (x1 / 他们
+)      :degree  (x2 / 特别
+)      :arg1  (x14 / and
+            :op1  (x7 / 鲜亮
+                  :arg0  (x5 / 颜色
+                        :poss  (x4 / 服装
+)))            :op2  (x8 / 耀眼-01
+                  :arg0  (x5 / 颜色
+))))
+===========================
+不管男女老少都喜欢穿花衣服，妇女则更讲究颜色的搭配，喜欢颜色有较大的反差，那些蓝底白花、黄底红花、红绿相间的大花布，最为畅销。
+(x55 / causation
+      :arg1  (x46 / progression
+            :arg1  (x4 / 喜欢-01
+                  :arg0  (x2 / 男女老少
+)                  :arg1  (x5 / 穿-01
+                        :arg1  (x7 / 衣服
+                              :arg0-of  (x6 / 花
+)))                  :extent  (x3 / 都
+))            :arg2  (x54 / and
+                  :op1  (x12 / 讲究-01
+                        :arg0  (x9 / 妇女
+)                        :arg1  (x15 / 搭配-01
+)                        :degree  (x11 / 更
+                              :arg1  (x13 / 颜色
+)))                  :op2  (x17 / 喜欢-01
+                        :arg1  (x19 / 有-05
+                              :arg0  (x18 / 颜色
+)                              :arg1  (x23 / 反差
+                                    :arg0-of  (x21 / 大-01
+                                          :degree  (x20 / 较
+)))))))      :arg2  (x44 / 畅销-01
+            :degree  (x43 / 最为
+)            :arg0  (x41 / 花布
+                  :arg0-of  (x40 / 大-01
+)                  :mod  (x72 / and
+                        :op1  (x26_x27_x28_x29 / 蓝底白花
+)                        :op2  (x31_x32_x33_x34 / 黄底红花
+)                        :op3  (x38 / 相间-01
+                              :arg0  (x36_x37 / 红绿
+)))                  :mod  (x25 / 那些
+))))
+===========================
+你在节日的市场上放眼望去，看到的是花花绿绿的衣服交汇成的彩色河流。
+(x22 / temporal
+      :arg1  (x8 / 望去-01
+            :manner  (x7 / 放眼
+)            :arg0  (x1 / 你
+)            :location  (x5 / 市场
+                  :time  (x3 / 节日
+)))      :arg2  (x20 / 河流
+            :mod  (x19 / 彩色
+)            :result-of  (x16 / 交汇-01
+                  :arg0  (x15 / 衣服
+                        :arg0-of  (x13 / 花绿
+)))            :domain  (x34 / thing
+                  :arg1-of  (x10 / 看到-01
+                        :arg0  (x1 / 你
+)))))
+===========================
+在富裕人家的餐桌上，牛排上有殷红的血，水果沙拉五光十色，各种饮料像是流动的颜色；在不太宽裕的家庭，木薯是粉红的，香蕉是金黄的，西瓜是红沙瓤的，取之不尽的芒果则黄中透红。
+(x59 / and
+      :op1  (x61 / and
+            :op1  (x10 / 有-05
+                  :arg0  (x8 / 牛排
+)                  :arg1  (x13 / 血
+                        :arg0-of  (x11 / 殷红
+)))            :op2  (x17 / 五光十色
+                  :arg0  (x16 / 沙拉
+                        :mod  (x15 / 水果
+)))            :op3  (x21 / 像-01
+                  :arg0  (x20 / 饮料
+                        :mod  (x19_1 / 各
+)                        :unit  (x19_2 / 种
+))                  :arg1  (x25 / 颜色
+                        :arg0-of  (x23 / 流动-01
+)))            :location  (x5 / 餐桌
+                  :poss  (x3 / 人家
+                        :arg0-of  (x2 / 富裕-01
+))))      :op2  (x78 / and
+            :op1  (x36 / 粉红
+                  :arg0  (x34 / 木薯
+)                  :mode  (x35_x37 / judgement
+))            :op2  (x41 / 金黄
+                  :arg0  (x39 / 香蕉
+)                  :mode  (x40_x42 / judgement
+))            :op3  (x85 / thing
+                  :refer  (x44 / 西瓜
+)                  :mod  (x47 / 沙瓤
+                        :arg0-of  (x46 / 红-01
+))                  :domain  (x44 / 西瓜
+))            :op4  (x56 / 透-01
+                  :arg1  (x57 / 红
+)                  :arg0  (x52 / 芒果
+                        :arg0-of  (x50 / 取之不尽-01
+))                  :condition  (x54 / 黄
+))))
+===========================
+非洲人的住房，虽然大都是不甚宽大的白铁顶房屋，但许多房子掩映在绿树红花之中。
+(x28 / contrast
+      :arg1  (x15 / 房屋
+            :part  (x14 / 顶
+                  :consist-of  (x13 / 白铁
+))            :arg0-of  (x11 / 宽大
+                  :polarity  (x9 / -
+)                  :degree  (x10 / 甚
+))            :domain  (x4 / 住房
+                  :poss  (x2 / 人
+                        :mod  (x38 / continent
+                              :name  ( x1/非洲 
+))))            :mod  (x7 / 大都
+))      :arg2  (x20 / 掩映-01
+            :arg1  (x19 / 房子
+                  :quant  (x18 / 许多
+))            :location  (x26 / 之中
+                  :arg0  (x45 / and
+                        :op1  (x23 / 树
+                              :arg1-of  (x22 / 绿-01
+))                        :op2  (x25 / 花
+                              :arg0-of  (x24 / 红-01
+))))))
+===========================
+你若住在宾馆里，房内房外皆是五颜六色。
+(x16 / condition
+      :arg1  (x3 / 住-01
+            :arg0  (x1 / 你
+)            :arg1  (x5 / 宾馆
+))      :arg2  (x14 / 五颜六色
+            :arg0  (x22 / and
+                  :op1  (x9 / 内
+                        :arg0  (x8 / 房
+))                  :op2  (x11 / 外
+                        :arg0  (x10 / x8
+)))            :extent  (x12 / 皆
+)))
+===========================
+在扎伊尔戈马的卡里布宾馆，满眼都是鲜花爬满的围墙，鲜花点缀的庭院，鲜花铺满的小径。
+(x27 / and
+      :op1  (x14 / 围墙
+            :arg0-of  (x11_x12 / 爬满-01
+                  :arg1  (x10 / 鲜花
+)))      :op2  (x19 / 庭院
+            :arg1-of  (x17 / 点缀-01
+                  :arg2  (x16 / 鲜花
+)))      :op3  (x25 / 小径
+            :location-of  (x22 / 铺-02
+                  :arg1  (x21 / 鲜花
+)                  :cause-of  (x23 / 满
+)))      :mod  (x7 / 满眼
+)      :location  (x41 / hotel
+            :name  ( x5/卡里布宾馆 
+)            :location  (x43 / street-address
+                  :arg1  (x44 / country
+                        :name  ( x2/扎伊尔 
+))                  :arg4  (x47 / city
+                        :name  ( x3/戈马 
+))))      :extent  (x8 / 都
+))
+===========================
+在这个城市的乐尼拉宾馆，大堂和餐厅的装饰都是和大自然融为一体的。
+(x16 / 融为一体
+      :arg0  (x14 / and
+            :op1  (x11 / 装饰
+                  :poss  (x8 / and
+                        :op1  (x7 / 大堂
+)                        :op2  (x9 / 餐厅
+)))            :op2  (x15 / 大自然
+))      :mode  (x13_x17 / judgement
+)      :extent  (x12 / 都
+)      :location  (x29 / hotel
+            :name  ( x5/乐尼拉宾馆 
+)            :location  (x3 / 城市
+                  :mod  (x2_1 / 这
+)                  :cunit  (x2_2 / 个
+))))
+===========================
+最具特色的是，门厅陈列着大小不一的三个独木舟，舟为黑红色，是用上好的木材凿成的，舟里种着绿草红花。
+(x40 / and
+      :op1  (x8 / 陈列
+            :arg1  (x16 / 独木舟
+                  :quant  (x14 / 3
+)                  :cunit  (x15 / 个
+)                  :mod  (x12 / 一
+                        :arg0  (x10 / 大小
+)                        :polarity  (x11 / -
+)))            :arg2  (x7 / 门厅
+)            :aspect  (x9 / 着
+))      :op2  (x19 / 为-01
+            :arg0  (x18 / x16
+)            :arg1  (x20 / 黑红色
+))      :op3  (x27_x28 / 凿成
+            :arg1  (x26 / 木材
+                  :arg0-of  (x24 / 上好
+)                  :mode  (x22_x29 / judgement
+))            :arg2  (x18 / x16
+))      :op4  (x33 / 种-01
+            :arg1  (x61 / and
+                  :op1  (x36 / 草
+                        :arg1-of  (x35 / 绿-01
+))                  :op2  (x38 / 花
+                        :arg0-of  (x37 / 红-01
+)))            :aspect  (x32 / 里
+)            :location  (x31 / 舟
+))      :domain  (x68 / thing
+            :arg0-of  (x2 / 具-01
+                  :arg1  (x3 / 特色
+)                  :degree  (x1 / 最
+))))
+===========================
+置身这座宾馆，仿佛回到了大自然的怀抱，沉醉在一种古朴、悠远的境界之中。
+(x6 / 仿佛-01
+      :arg0  (x30 / and
+            :op1  (x7 / 回到-01
+                  :arg1  (x11 / 怀抱
+                        :poss  (x9 / 大自然
+))                  :aspect  (x8 / 了
+))            :op2  (x13 / 沉醉-01
+                  :arg1  (x21 / 境界
+                        :arg0-of  (x19 / 悠远-01
+)                        :arg0-of  (x17 / 古朴-01
+)                        :quant  (x15 / 1
+)                        :unit  (x16 / 种
+))))      :condition  (x1 / 置身-01
+            :arg1  (x4 / 宾馆
+                  :mod  (x2 / 这
+)                  :cunit  (x3 / 座
+))))
+===========================
+非洲的艺术也是彩色的。
+(x6 / 彩色
+      :arg0  (x3 / 艺术
+            :mod  (x12 / continent
+                  :name  ( x1/非洲 
+)))      :mod  (x4 / 也
+)      :mode  (x5_x7 / judgement
+))
+===========================
+非洲人的绘画——无论是木雕挂画、沙画，还是龟壳画、蝴蝶画，是彩色的；非洲人的工艺品，无论是黑木雕、灰木雕，还是象牙雕，是彩色的；非洲人强悍、粗犷的音乐、舞蹈更是彩色的。
+(x86 / progression
+      :arg1  (x56 / and
+            :op1  (x21 / 彩色
+                  :arg0  (x4 / 绘画
+                        :poss  (x2 / 人
+                              :mod  (x61 / continent
+                                    :name  ( x1/非洲 
+))))                  :arg1-of  (x79 / include-91
+                        :arg2  (x63 / and
+                              :op1  (x8 / 挂画
+)                              :op2  (x11 / 画
+                                    :mod  (x10 / 沙
+))                              :op3  (x15 / 画
+                                    :mod  (x14 / 龟壳
+))                              :op4  (x18 / 画
+                                    :mod  (x17 / 蝴蝶
+))))                  :mode  (x20_x22 / judgement
+))            :op2  (x40 / 彩色
+                  :arg0  (x27 / 工艺品
+                        :poss  (x25 / x2
+                              :mod  (x75 / continent
+                                    :name  ( x24/非洲 
+)))                        :arg1-of  (x77 / include-91
+                              :arg2  (x78 / and
+                                    :op1  (x31 / 木雕
+                                          :arg0-of  (x30 / 黑-01
+))                                    :op2  (x34 / 木雕
+                                          :arg0-of  (x33 / 灰
+))                                    :op3  (x37 / 象牙雕
+))))                  :mode  (x39_x41 / judgement
+)))      :arg2  (x53 / 彩色
+            :arg0  (x89 / and
+                  :op1  (x49 / 音乐
+                        :arg0-of  (x47 / 粗犷
+)                        :arg0-of  (x45 / 强悍-01
+)                        :poss  (x44 / 人
+                              :mod  (x94 / continent
+                                    :name  ( x43/非洲 
+))))                  :op2  (x51 / 舞蹈
+))            :mode  (x52_2_x54 / judgement
+)))
+===========================
+如果你有幸参加他们的簧火晚会，看到熊熊燃烧的火焰旁身穿花衣裙欢跳的人群，不，那是流动的、五彩的旋律，你就会更深地领悟非洲彩色的美，非洲彩色的涌动与无限的活力。
+(x56 / condition
+      :arg1  (x58 / and
+            :op1  (x3 / 有幸-01
+                  :arg0  (x2 / 你
+)                  :arg1  (x4 / 参加-01
+                        :arg1  (x8 / 晚会
+                              :mod  (x7 / 簧火
+)                              :poss  (x5 / 他们
+))                        :arg0  (x2 / 你
+)))            :op2  (x10 / 看到-01
+                  :arg1  (x22 / 人群
+                        :arg0-of  (x20 / 跳-01
+                              :manner  (x19 / 欢
+))                        :arg0-of  (x16 / 身穿-01
+                              :arg1  (x18 / 衣裙
+                                    :arg0-of  (x17 / 花
+)))                        :location  (x15 / 旁
+                              :arg0  (x14 / 火焰
+                                    :arg0-of  (x12 / 燃烧-01
+                                          :manner  (x11 / 熊熊
+))))                        :polarity  (x24 / -
+)))            :op3  (x33 / 旋律
+                  :arg0-of  (x31 / 五彩
+)                  :arg0-of  (x28 / 流动
+)                  :domain  (x26 / x22
+)))      :arg2  (x37 / 会-02
+            :arg0  (x41 / 领悟-01
+                  :manner  (x39 / 深
+                        :degree  (x38 / 更
+))                  :arg1  (x85 / and
+                        :op1  (x45 / 美
+                              :poss  (x43 / 彩色
+                                    :mod  (x90 / continent
+                                          :name  ( x42/非洲 
+))))                        :op2  (x50 / 涌动-01
+                              :arg0  (x48 / x43
+                                    :mod  (x94 / continent
+                                          :name  ( x47/非洲 
+))))                        :op3  (x54 / 活力
+                              :arg0-of  (x52 / 无限-01
+)))                  :arg0  (x35 / x2
+))))
+===========================
+啊，非洲，好一个多姿多彩的世界！
+(x12 / and
+      :op1  (x1 / expressive
+)      :op2  (x15 / continent
+            :name  ( x3/非洲 
+))      :op3  (x10 / 世界
+            :arg0-of  (x8 / 多姿多彩-01
+)            :quant  (x6 / 1
+)            :cunit  (x7 / 个
+)            :mod  (x5 / 好
+)            :mode  (x11 / expressive
+)))
+===========================

@@ -1,0 +1,254 @@
+法国科学家朗志万，有一次向几个小朋友提了一个奇怪的问题：“一个杯子装满了水，再放进别的东西，水就会漫出来。
+(x12 / 提-01
+      :aspect  (x13 / 了
+)      :arg0  (x2 / 科学家
+            :name  ( x3/朗志万 
+)            :mod  (x44 / nationality
+                  :name  ( x1/法国 
+)))      :arg1  (x17 / 问题
+            :mode  (x15 / 奇怪
+)            :quant  (x14_1 / 1
+)            :cunit  (x14_2 / 个
+)            :arg0-of  (x53 / mean
+                  :arg1  (x54 / condition
+                        :arg1  (x21 / 装满-01
+                              :arg1  (x23 / 水
+)                              :arg2  (x20 / 杯子
+                                    :quant  (x19_1 / 1
+))                              :aspect  (x22 / 了
+)                              :cunit  (x19_2 / 个
+))                        :arg2  (x59 / condition
+                              :arg1  (x26_x27 / 放进-01
+                                    :mod  (x25 / 再
+)                                    :arg1  (x29 / 东西
+                                          :mod  (x28 / 别的
+))                                    :arg2  (x20 / 杯子
+))                              :arg2  (x33 / 会-02
+                                    :arg0  (x34 / 漫-01
+                                          :arg0  (x31 / 水
+)                                          :direction  (x35 / 出来-01
+                                                :arg0  (x31 / 水
+))))))))      :time  (x5_x6_x7 / 有一次
+)      :beneficiary  (x11 / 小朋友
+            :quant  (x9 / 几
+)            :cunit  (x10 / 个
+)))
+===========================
+如果放进一条金鱼，却不是这样。
+(x13 / contrast
+      :arg2  (x15 / condition
+            :arg1  (x2_x3 / 放进-01
+                  :arg1  (x6 / 金鱼
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 条
+)))            :arg2  (x11 / 这样
+                  :domain  (x21 / thing
+))))
+===========================
+这是为什么？”
+(x5 / say
+      :arg1  (x1 / 这
+            :cause  (x3 / amr-unknwon
+)            :mode  (x4 / interrogative
+)))
+===========================
+一个小朋友说：“因为金鱼身上有鳞。”
+(x3 / 说-01
+      :arg0  (x2 / 小朋友
+            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+))      :arg1  (x16 / causation
+            :arg1  (x8 / 有-06
+                  :arg0  (x7 / 身上
+                        :part-of  (x6 / 金鱼
+))                  :arg1  (x9 / 鳞
+                        :part-of  (x6 / 金鱼
+)))))
+===========================
+另一个小朋友说：“一定是金鱼把水喝下去了。”
+(x4 / 说-01
+      :arg0  (x3 / 小朋友
+            :quant  (x2_1 / 1
+)            :cunit  (x2_2 / 个
+)            :mod  (x1 / 另
+))      :arg1  (x6 / 一定
+            :arg0  (x11_x12 / 喝-01
+                  :arg0  (x8 / 金鱼
+)                  :arg1  (x10 / 水
+))            :mode  (x7 / judgement
+)))
+===========================
+伊琳娜觉得他们都没说对，但自己又想不出道理来。
+(x18 / contrast
+      :arg1  (x2 / 觉得-01
+            :arg0  (x21 / person
+                  :name  ( x1/伊琳娜 
+))            :arg1  (x6 / 说-01
+                  :arg0  (x3 / 他们
+                        :extent  (x4 / 都
+))                  :polarity  (x5 / -
+)                  :arg1  (x34 / thing
+                        :arg0-of  (x7 / 对-02
+))))      :arg2  (x28 / possible
+            :arg0  (x12_x14 / 想出-01
+                  :arg0  (x10 / x21
+)                  :mod  (x11 / 又
+)                  :arg1  (x15 / 道理
+))            :polarity  (x13 / -
+)))
+===========================
+她回到家里问妈妈。
+(x7 / temporal
+      :arg1  (x2 / 回到-01
+            :arg0  (x1 / 她
+)            :arg1  (x3 / 家里
+))      :arg2  (x4 / 问-01
+            :arg0  (x1 / 她
+)            :arg1  (x5 / 妈妈
+)))
+===========================
+妈妈说：“不能光想，你动手做做看！”
+(x2 / 说-01
+      :arg0  (x1 / 妈妈
+)      :arg1  (x17 / and
+            :op1  (x4_2 / 能-01
+                  :polarity  (x4_1 / -
+)                  :arg0  (x6 / 想-01
+                        :manner  (x5 / 光
+)                        :arg0  (x8 / 你
+)))            :op2  (x9 / 动手-01
+                  :purpose  (x10_x11_x12 / 做做看
+)                  :arg0  (x8 / 你
+)                  :mode  (x13 / expressive
+))))
+===========================
+伊琳娜找来一条金鱼，把它放进一个装满水的杯子里。
+(x19 / temporal
+      :arg1  (x2_x3 / 找来-01
+            :arg0  (x22 / person
+                  :name  ( x1/伊琳娜 
+))            :arg1  (x6 / 金鱼
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 条
+)))      :arg2  (x10_x11 / 放进-01
+            :arg0  (x22 / person
+)            :arg1  (x9 / x6
+)            :arg2  (x17 / 里
+                  :arg0  (x16 / 杯子
+                        :quant  (x12_1 / 1
+)                        :cunit  (x12_2 / 个
+)                        :arg2-of  (x13 / 装满-01
+                              :arg1  (x14 / 水
+))))))
+===========================
+哎呀，和朗志万说的不一样，水漫出来了。
+(x8 / 一样-02
+      :polarity  (x7 / -
+)      :arg0  (x18 / thing
+            :arg0-of  (x19 / mean
+                  :arg1  (x11 / 漫-01
+                        :arg0  (x10 / 水
+)                        :aspect  (x13 / 了
+)                        :direction  (x12 / 出来-01
+                              :arg0  (x10 / 水
+)))))      :arg1  (x24 / thing
+            :arg1-of  (x5 / 说-01
+                  :arg0  (x26 / person
+                        :name  ( x4/朗志万 
+))))      :mode  (x1 / expressive
+))
+===========================
+伊琳娜越想越生气，第二天一早就去问朗志万：“您怎么可以提这样的问题，来哄骗我们小朋友呢？”
+(x29 / causation
+      :arg1  (x2_x4 / 越
+            :arg0  (x3 / 想-01
+                  :arg0  (x34 / person
+                        :name  ( x1/伊琳娜 
+)))            :arg1  (x5 / 生气-01
+                  :arg0  (x34 / person
+)))      :arg2  (x11 / 去-01
+            :arg1  (x12 / 问-01
+                  :arg0  (x34 / person
+)                  :arg2  (x38 / person
+                        :name  ( x13/朗志万 
+))                  :arg1  (x17 / 可以-01
+                        :arg0  (x18 / 提
+                              :arg0  (x15 / x38
+)                              :arg1  (x21 / 问题
+                                    :mod  (x19 / 这样
+))                              :purpose  (x24 / 哄骗-01
+                                    :arg0  (x15 / x38
+)                                    :arg1  (x26 / 小朋友
+                                          :arg0-of  (x52 / mean
+                                                :arg1  (x25 / 我们
+)))))                        :mode  (x27_x28 / interrogative
+)                        :cause  (x16 / amr-unknown
+)))            :arg0  (x34 / person
+)            :mod  (x10 / 就
+)            :time  (x9 / 一早
+                  :time  (x42 / ordinal-entity
+                        :value  (x7 / 2
+)                        :unit  (x8 / 天
+)))))
+===========================
+朗志万听了，哈哈大笑。
+(x7 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x11 / person
+                  :name  ( x1/朗志万 
+))            :aspect  (x3 / 了
+))      :arg2  (x5 / 哈哈大笑-01
+            :arg0  (x11 / person
+)))
+===========================
+他说：“我不是哄骗你们。
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x7 / 哄骗-01
+            :polarity  (x5_x6 / -
+)            :arg0  (x4 / x1
+)            :arg1  (x8 / 你们
+)))
+===========================
+我是想让你们知道，科学家的话，也不一定都是对的，要动手做做看。”
+(x26 / say
+      :arg1  (x3 / 想-02
+            :mode  (x2 / judgement
+)            :arg0  (x1 / 我
+)            :arg1  (x4 / 让-02
+                  :arg0  (x1 / 我
+)                  :arg1  (x5 / 你们
+)                  :arg2  (x6 / 知道-01
+                        :arg0  (x5 / 你们
+)                        :arg1  (x34 / causation
+                              :arg1  (x14 / 一定
+                                    :arg0  (x17 / 对-02
+                                          :mode  (x16_x18 / judgement
+)                                          :arg0  (x10 / 话
+                                                :poss  (x8 / 科学家
+)))                                    :polarity  (x13 / 不
+)                                    :mod  (x12 / 也
+))                              :arg2  (x20 / 要-03
+                                    :arg0  (x21 / 动手-01
+                                          :purpose  (x22_x23_24 / 做做看
+))))))))
+===========================
+伊琳娜听懂了朗志万的话，高兴地笑了。
+(x14 / causation
+      :arg1  (x2 / 听-01
+            :arg0  (x17 / person
+                  :name  ( x1/伊琳娜 
+))            :cause-of  (x3 / 懂-01
+                  :aspect  (x4 / 了
+)                  :arg0  (x17 / person
+)                  :arg1  (x7 / 话
+                        :poss  (x22 / person
+                              :name  ( x5/朗志万 
+))))            :arg1  (x7 / 话
+))      :arg2  (x11 / 笑-01
+            :manner  (x9 / 高兴-01
+                  :arg0  (x17 / person
+))            :aspect  (x12 / 了
+)            :arg0  (x17 / person
+)))
+===========================

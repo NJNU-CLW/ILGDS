@@ -1,0 +1,923 @@
+一场暴雨刚刚过去，碧空如洗，海面上波涛起伏。
+(x16 / temporal
+      :arg1  (x5 / 过去-01
+            :arg0  (x3 / 暴雨
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 场
+))            :time  (x4 / 刚刚
+))      :arg2  (x8 / 如-01
+            :arg0  (x7 / 碧空
+)            :arg1  (x9 / 洗
+))      :arg3  (x14 / 起伏-01
+            :arg0  (x13 / 波涛
+                  :location  (x11 / 海面
+))))
+===========================
+船有节奏地前后晃荡着。
+(x6 / 晃荡
+      :arg0  (x1 / 船
+)      :direction  (x5 / 前后
+)      :manner  (x2 / 有-05
+            :arg1  (x3 / 节奏
+)            :arg0  (x6 / 晃荡
+                  :aspect  (x7 / 着
+))))
+===========================
+陪我同船前往宝石岛的，是个矮墩墩的战士，宝石岛观察通讯站的信号兵，姓高，刚从黑龙江回来。
+(x29 / and
+      :op1  (x13 / 战士
+            :arg0-of  (x11 / 矮墩墩
+)            :cunit  (x10 / 个
+)            :domain  (x34 / person
+                  :arg0-of  (x1 / 陪-01
+                        :arg1  (x2 / 我
+)                        :arg2  (x5 / 前往-01
+                              :arg1  (x38 / island
+                                    :time  (x6 / 宝石岛
+))                              :manner  (x4 / 船
+                                    :mod  (x3 / 同
+))))))      :op2  (x19 / x13
+            :mod  (x17 / 通讯站
+                  :mod  (x16 / 观察
+)                  :location  (x47 / island
+                        :name  ( x15/宝石岛 
+)))            :arg0-of  (x21 / 姓-01
+                  :arg1  (x22 / 高
+))            :arg0-of  (x27 / 回来-01
+                  :arg1  (x52 / province
+                        :name  ( x26/黑龙江 
+))                  :time  (x24 / 刚
+))))
+===========================
+小高在码头上有说有笑，这时候不吭声了，紧闭着嘴唇，两眼直发愣。
+(x22 / contrast
+      :arg1  (x5 / 有说有笑
+            :arg0  (x25 / person
+                  :name  ( x1/小高 
+))            :location  (x3 / 码头
+))      :arg2  (x28 / and
+            :op1  (x9 / 吭声-01
+                  :polarity  (x8 / -
+)                  :aspect  (x10 / 了
+)                  :time  (x7 / 这时候
+)                  :arg0  (x25 / person
+))            :op2  (x13 / 闭-01
+                  :arg1  (x15 / 嘴唇
+)                  :manner  (x12 / 紧
+)                  :aspect  (x14 / 着
+)                  :arg0  (x25 / person
+))            :op3  (x20 / 发愣-01
+                  :arg0  (x18 / 眼
+                        :quant  (x17 / 2
+)                        :part-of  (x25 / person
+))                  :mod  (x19 / 直
+))))
+===========================
+他把他的大提包扔在一边，怀里紧紧地抱着一只纸箱子。
+(x21 / and
+      :op1  (x7 / 扔-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 提包
+                  :poss  (x3 / x1
+)                  :arg0-of  (x5 / 大-01
+))            :arg2  (x9 / 一边
+))      :op2  (x14 / 抱-01
+            :arg0  (x11 / 怀里
+                  :part-of  (x1 / 他
+))            :arg1  (x19 / 箱子
+                  :consist-of  (x18 / 纸
+)                  :quant  (x16 / 1
+)                  :cunit  (x17 / 只
+))            :aspect  (x15 / 着
+)            :manner  (x12 / 紧
+)))
+===========================
+为了调节一下沉闷的气氛，我有意地同他开玩笑：“我猜这只纸箱里，一定装着好吃的东西。
+(x14 / 开玩笑-01
+      :arg0  (x9 / 我
+)      :arg1  (x13 / 他
+)      :manner  (x10 / 有意-01
+            :arg0  (x9 / 我
+))      :arg0-of  (x35 / mean
+            :arg1  (x17 / 猜-01
+                  :arg0  (x16 / x9
+)                  :arg1  (x23 / 一定
+                        :arg0  (x24 / 装-01
+                              :arg1  (x28 / 东西
+                                    :arg0-of  (x26 / 好吃-01
+))                              :aspect  (x25 / 着
+)                              :arg2  (x20 / 纸箱
+                                    :mod  (x18 / 这
+)                                    :cunit  (x19 / 只
+))))))      :purpose  (x2_x3_x4 / 调节-01
+            :arg1  (x7 / 气氛
+                  :arg0-of  (x5 / 沉闷-01
+))            :arg0  (x9 / 我
+)))
+===========================
+从家乡带来的吧？”
+(x8 / say
+      :arg1  (x3 / 带来-02
+            :arg1  (x11 / thing
+)            :arg2  (x2 / 家乡
+))      :mode  (x5_x6 / interrogative
+))
+===========================
+小高淡淡地一笑：“不，不能吃。”
+(x16 / and
+      :op1  (x3_x4 / 笑-01
+            :arg0  (x13 / person
+                  :name  ( x1/小高 
+))            :manner  (x2_1_2 / 淡
+))      :op2  (x19 / say
+            :arg1  (x20 / and
+                  :op1  (x6 / 不
+)                  :op2  (x8_2 / 能-01
+                        :polarity  (x8_1 / -
+)                        :arg0  (x9 / 吃
+)))))
+===========================
+“我才不信呢！”我一副认真的样子，“快公开吧，让我也尝尝。”
+(x24 / and
+      :op1  (x26 / say
+            :op1  (x5 / 信-01
+                  :arg0  (x2 / 我
+)                  :mod  (x3 / 才
+)                  :polarity  (x4 / -
+)                  :mode  (x6_x7 / expressive
+))            :op2  (x15 / 快
+                  :arg0  (x16 / 公开
+)                  :mode  (x17 / imperative
+))            :op3  (x19 / 让-02
+                  :arg1  (x20 / x2
+)                  :arg2  (x22 / 尝-01
+                        :mod  (x21 / 也
+)                        :arg0  (x20 / x2
+))))      :op2  (x13 / 样子
+            :arg0-of  (x11 / 认真-01
+                  :arg0  (x8 / x2
+))            :quant  (x9 / 1
+)            :cunit  (x10 / 副
+)            :poss  (x8 / x2
+)))
+===========================
+小高有点急了：“真不能吃。
+(x15 / temporal
+      :arg1  (x3 / 急
+            :arg0  (x12 / person
+                  :name  ( x1/小高 
+))            :degree  (x2 / 有点
+))      :arg2  (x17 / say
+            :arg1  (x7_2 / 能-01
+                  :polarity  (x7_1 / -
+)                  :degree  (x6 / 真
+)                  :arg0  (x8 / 吃
+))))
+===========================
+里面装的是一些小昆虫，蝴蝶呀什么的，一打开就飞跑了。”
+(x20 / say
+      :arg1  (x22 / causation
+            :arg1  (x23 / and
+                  :op1  (x7 / 昆虫
+                        :arg0-of  (x6 / 小-01
+))                  :op2  (x9 / 蝴蝶
+                        :mode  (x10 / expressive
+))                  :op3  (x11 / amr-unknown
+                        :smood  (x12 / 的
+))                  :domain  (x30 / animal
+                        :arg1-of  (x2 / 装-01
+                              :arg2  (x1 / 里面
+))))            :arg2  (x33 / condition
+                  :arg1  (x15 / 打开
+)                  :arg2  (x17 / 飞跑-01
+                        :arg0  (x23 / and
+)                        :aspect  (x18 / 了
+)))))
+===========================
+从没听说过战士探亲回来带这种东西的。
+(x2 / 听说-01
+      :arg1  (x7 / 带-02
+            :arg1  (x10 / 东西
+                  :mod  (x8 / 这
+)                  :unit  (x9 / 种
+))            :arg0  (x4 / 战士
+)            :time  (x6 / 回来-01
+                  :cause  (x5 / 探亲-01
+                        :arg0  (x4 / 战士
+))                  :arg0  (x4 / 战士
+)))      :aspect  (x3 / 过
+)      :polarity  (x1_2 / -
+)      :time  (x1_1 / 从
+)      :smood  (x11 / 的
+))
+===========================
+我正想问个水落石出，可是小高的嘴唇又闭紧了，脸色比先前还难看。
+(x23 / contrast
+      :arg1  (x4 / 问-01
+            :arg0  (x1 / 我
+)            :aspect  (x2 / 正
+)            :cause-of  (x6 / 水落石出
+))      :arg2  (x29 / and
+            :op1  (x13 / 闭-01
+                  :manner  (x14 / 紧
+)                  :arg1  (x11 / 嘴唇
+                        :part-of  (x33 / person
+                              :name  ( x9/小高 
+)))                  :mod  (x12 / 又
+)                  :aspect  (x15 / 了
+))            :op2  (x21 / 难看-01
+                  :arg0  (x17 / 脸色
+                        :compared-to  (x39 / thing
+                              :dcopy  (x17 / 脸色
+)                              :time  (x19 / 先前
+)))                  :mod  (x20 / 还
+))))
+===========================
+我知道晕船是什么滋味，便打住了。
+(x12 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 我
+)            :arg1  (x6 / 滋味
+                  :mod  (x5 / 什么
+)                  :domain  (x3 / 晕船
+)))      :arg2  (x9 / 打住-01
+            :arg0  (x1 / 我
+)            :aspect  (x10 / 了
+)))
+===========================
+傍晚，船把我们送到宝石岛。
+(x6_x7 / 送到
+      :arg1  (x5 / 我们
+)      :instrument  (x3 / 船
+)      :arg2  (x14 / island
+            :name  ( x8/宝石岛 
+))      :time  (x1 / 傍晚
+))
+===========================
+当岛顶的灯塔放射出雪亮的光芒的时候，观察通讯站站长拉着我，说：“走，参加我们的晚会去。”
+(x32 / temporal
+      :arg1  (x17 / 拉-01
+            :arg0  (x36 / person
+                  :arg0-of  (x37 / have-org-role-91
+                        :arg2  (x16 / 站长
+)                        :arg1  (x15 / 通讯站
+                              :mod  (x14 / 观察
+))))            :arg1  (x19 / 我
+)            :aspect  (x18 / 着
+))      :arg2  (x21 / 说-01
+            :arg1  (x43 / and
+                  :op1  (x23 / 走
+)                  :op2  (x25 / 参加-01
+                        :arg1  (x28 / 晚会
+                              :poss  (x26 / 我们
+))                        :arg0  (x19 / 我
+))))      :time  (x6_x7 / 放射-01
+            :arg0  (x10 / 光芒
+                  :arg0-of  (x8 / 雪亮-01
+)                  :arg1  (x5 / 灯塔
+                        :location  (x3 / 顶
+                              :arg0  (x2 / 岛
+))))))
+===========================
+这真是个特别的晚会。
+(x6 / 晚会
+      :arg0-of  (x4 / 特别-01
+)      :domain  (x1 / 这
+)      :cunit  (x3 / 个
+))
+===========================
+黑板上用仿宋体写着“尝瓜会”三个大字，小讲台上的白瓷盘里放着一个大西瓜。
+(x30 / and
+      :op1  (x5 / 写-01
+            :arg1  (x14 / 大字
+                  :quant  (x12 / 3
+)                  :cunit  (x13 / 个
+)                  :arg0-of  (x8_x9_x10 / 尝瓜会
+))            :aspect  (x6 / 着
+)            :manner  (x4 / 仿宋体
+)            :arg2  (x1 / 黑板
+))      :op2  (x23 / 放-01
+            :arg1  (x28 / 西瓜
+                  :arg0-of  (x27 / 大-01
+)                  :quant  (x25 / 1
+)                  :cunit  (x26 / 个
+))            :aspect  (x24 / 着
+)            :arg2  (x21 / 瓷盘
+                  :arg0-of  (x20 / 白-01
+)                  :location  (x17 / 讲台
+                        :arg0-of  (x16 / 小-01
+)))))
+===========================
+站长右手托起那个大西瓜，笑呵呵地说：“同志们，这是我们岛上结的第一个西瓜。
+(x27 / temporal
+      :arg1  (x3_x4 / 托-03
+            :arg1  (x7 / 西瓜
+                  :arg0-of  (x6 / 大-01
+)                  :mod  (x5_1 / 那
+)                  :cunit  (x5_2 / 个
+))            :arg0  (x2 / 右手
+                  :part-of  (x35 / person
+                        :arg0-of  (x36 / have-org-role-91
+                              :arg2  (x1 / 站长
+)))))      :arg2  (x11 / 说-01
+            :manner  (x9 / 笑呵呵
+)            :arg0  (x35 / person
+)            :arg1  (x40 / and
+                  :op1  (x13_x14 / 同志们
+)                  :op2  (x25 / x7
+                        :ord  (x43 / ordinal-entity
+                              :value  (x23 / 1
+)                              :cunit  (x24 / 个
+))                        :arg1-of  (x21 / 结-01
+                              :location  (x19 / 岛
+                                    :poss  (x18 / 我们
+)))                        :domain  (x16 / 这
+)))))
+===========================
+今晚，我们开个尝瓜会表示庆祝，大家来分享自己的劳动果实。”
+(x22 / say
+      :arg1  (x24 / and
+            :op1  (x4 / 开-03
+                  :arg0  (x3 / 我们
+)                  :arg1  (x8 / 会
+                        :topic  (x6 / 尝-01
+                              :arg1  (x7 / 瓜
+))                        :cunit  (x5 / 个
+))                  :purpose  (x9 / 表示-01
+                        :arg1  (x10 / 庆祝
+))                  :time  (x1 / 今晚
+))            :op2  (x14 / 分享-01
+                  :arg0  (x12 / 大家
+)                  :arg1  (x18 / 果实
+                        :mod  (x17 / 劳动
+)                        :poss  (x15 / 自己
+)))))
+===========================
+在一片欢笑声中，我了解到这个西瓜不平常的来历。
+(x8_x9 / 了解-01
+      :arg0  (x7 / 我
+)      :arg1  (x15 / 来历
+            :arg0-of  (x13 / 平常-01
+                  :polarity  (x12 / -
+))            :poss  (x11 / 西瓜
+                  :mod  (x10_1 / 这
+)                  :cunit  (x10_2 / 个
+)))      :condition  (x4 / 欢笑声
+            :cunit  (x2 / 1
+)            :cunit  (x3 / 片
+)))
+===========================
+两年前，战士们来到宝石岛上建，建立起这个新的阵地。
+(x19 / temporal
+      :arg1  (x7 / 来到-01
+            :arg0  (x5_x6 / 战士们
+)            :arg1  (x23 / island
+                  :name  ( x8/宝石岛 
+))            :time  (x3 / 前
+                  :op1  (x26 / temporal-quantity
+                        :quant  (x1 / 2
+)                        :unit  (x2 / 年
+))))      :arg2  (x12_x13 / 建立-01
+            :arg1  (x17 / 阵地
+                  :arg0-of  (x15 / 新-01
+)                  :mod  (x14_1 / 这
+)                  :cunit  (x14_2 / 个
+))))
+===========================
+他们在岩石下、小路旁，垒出一块块“海岛田”，把从家乡带来的蔬菜种子，连同自己建岛爱岛的深情一起播种下去。
+(x40 / temporal
+      :arg1  (x9_x10 / 垒-01
+            :arg0  (x1 / 他们
+)            :arg1  (x44 / thing
+                  :name  ( x16/田 
+                        :quant  (x11_x12_x13 / 一块块
+)))            :location  (x47 / and
+                  :op1  (x4 / 下
+                        :arg0  (x3 / 岩石
+))                  :op2  (x7 / 旁
+                        :arg0  (x6 / 小路
+))))      :op2  (x35 / 播种-01
+            :arg1  (x24 / 种子
+                  :mod  (x23 / 蔬菜
+)                  :arg1-of  (x21 / 带来-01
+                        :arg2  (x20 / 家乡
+)                        :arg0  (x1 / 他们
+))                  :accompanier  (x33 / 深情-01
+                        :arg0  (x27 / x1
+)                        :mod  (x59 / and
+                              :op1  (x28 / 建-01
+                                    :arg1  (x29 / 岛
+)                                    :arg0  (x27 / x1
+))                              :op2  (x30 / 爱-01
+                                    :arg1  (x31 / x29
+)                                    :arg0  (x27 / x1
+)))))            :direction  (x36 / 下去
+)            :arg0  (x1 / 他们
+)))
+===========================
+去年，站长和战士们撒下了几颗西瓜子。
+(x7_x8 / 撒下-01
+      :arg0  (x4 / and
+            :op1  (x3 / 站长
+)            :op2  (x5_x6 / 战士们
+))      :arg1  (x13 / 子
+            :poss  (x12 / 西瓜
+)            :quant  (x10 / 几
+)            :cunit  (x11 / 颗
+))      :aspect  (x9 / 了
+)      :time  (x1 / 去年
+))
+===========================
+瓜苗出土了，瓜秧了，还开了一朵朵小黄花。
+(x18 / temporal
+      :arg1  (x2 / 出土-01
+            :arg1  (x1 / 瓜苗
+)            :aspect  (x3 / 了
+))      :arg2  (x9 / 开-01
+            :arg1  (x16 / 花
+                  :arg0-of  (x15 / 黄-02
+)                  :arg0-of  (x14 / 小-01
+)                  :quant  (x11_x12_x13 / 一朵朵
+))            :mod  (x8 / 还
+)))
+===========================
+可是到了收获季节，竟连一个小瓜也没结。
+(x17 / contrast
+      :arg2  (x19 / contrast
+            :arg1  (x2 / 到-01
+                  :arg1  (x5 / 季节
+                        :time-of  (x4 / 收获
+))                  :aspect  (x3 / 了
+))            :arg2  (x24 / concession
+                  :arg1  (x12 / 瓜
+                        :arg0-of  (x11 / 小-01
+)                        :quant  (x9 / 1
+)                        :cunit  (x10 / 个
+))                  :arg2  (x15 / 结-01
+                        :polarity  (x14 / -
+)                        :arg1  (x12 / 瓜
+)))))
+===========================
+有些战士灰心了，撅着嘴巴，说：“西瓜嫌我们的岛艰苦，不愿在这里安家。”
+(x25 / temporal
+      :arg1  (x3 / 灰心
+            :arg0  (x2 / 战士
+                  :mod  (x1 / 有些
+))            :aspect  (x4 / 了
+))      :arg2  (x6 / 撅-01
+            :arg0  (x2 / 战士
+)            :arg1  (x8 / 嘴巴
+)            :aspect  (x7 / 着
+))      :arg3  (x10 / 说-01
+            :arg0  (x2 / 战士
+)            :arg1  (x35 / causation
+                  :arg1  (x13 / 嫌-01
+                        :arg0  (x12 / 西瓜
+)                        :arg1  (x17 / 艰苦-01
+                              :arg0  (x16 / 岛
+                                    :poss  (x14 / x2
+))))                  :arg2  (x20 / 愿-01
+                        :polarity  (x19 / -
+)                        :arg1  (x23 / 安家-01
+                              :location  (x22 / x16
+)                              :arg0  (x12 / 西瓜
+))                        :arg0  (x12 / 西瓜
+)))))
+===========================
+为什么瓜秧开了花不结瓜？
+(x10 / contrast
+      :arg1  (x3 / 开-01
+            :arg0  (x2 / 瓜秧
+)            :arg1  (x5 / 花
+)            :aspect  (x4 / 了
+))      :arg2  (x7 / 结-01
+            :arg1  (x8 / 瓜
+)            :polarity  (x6 / -
+)            :arg0  (x2 / 瓜秧
+))      :cause  (x1 / amr-unknown
+)      :mode  (x9 / interrogative
+))
+===========================
+是水浇得不够，是肥施得不足，还是土壤根本不行？
+(x18 / or
+      :op1  (x5_2 / 够-01
+            :arg0  (x3 / 浇
+                  :instrument  (x2 / 水
+))            :polarity  (x5_1 / -
+))      :op2  (x11_2 / 足-02
+            :polarity  (x11_1 / -
+)            :arg0  (x9 / 施
+                  :arg1  (x8 / 肥
+)))      :op3  (x16_2 / 行-04
+            :arg0  (x14 / 土壤
+)            :polarity  (x16_1 / -
+)            :mod  (x15 / 根本
+))      :mode  (x17 / interrogative
+))
+===========================
+一位雷达兵懂一些农业知识，他找到了答案：西瓜开了花要授粉。
+(x21 / causation
+      :arg1  (x4 / 懂-01
+            :arg0  (x3 / 雷达兵
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 位
+))            :arg1  (x7 / 知识
+                  :mod  (x6 / 农业
+)                  :quant  (x5 / 一些
+)))      :arg2  (x10 / 找到-01
+            :arg0  (x9 / x3
+)            :arg1  (x12 / 答案
+                  :arg0-of  (x34 / mean
+                        :arg1  (x18 / 要-03
+                              :arg0  (x19 / 授粉-01
+                                    :arg0  (x14 / 西瓜
+))                              :condition  (x15 / 开-01
+                                    :arg1  (x17 / 花
+)                                    :aspect  (x16 / 了
+)))))            :aspect  (x11 / 了
+)))
+===========================
+小岛远离大陆，没有蜜蜂，也没有别的昆虫。
+(x13 / causation
+      :arg1  (x2 / 远离-01
+            :arg0  (x1 / 小岛
+)            :arg1  (x3 / 大陆
+))      :arg2  (x18 / and
+            :op1  (x5_2 / 有-03
+                  :arg1  (x6 / 蜜蜂
+)                  :polarity  (x5_1 / -
+)                  :arg0  (x1 / 小岛
+))            :op2  (x9_2 / 有-03
+                  :arg1  (x11 / 昆虫
+                        :mod  (x10 / 别的
+))                  :polarity  (x9_1 / -
+)                  :mod  (x8 / 也
+)                  :arg0  (x1 / 小岛
+))))
+===========================
+西瓜花没授粉，当然结不了瓜。
+(x11 / contrast
+      :arg1  (x3 / 授粉-01
+            :arg0  (x1 / 西瓜花
+)            :polarity  (x2 / -
+))      :arg2  (x8 / possible
+            :arg0  (x6 / 结-01
+                  :polarity  (x7 / -
+)                  :arg1  (x9 / 瓜
+)                  :arg0  (x1 / 西瓜花
+))            :mod  (x5 / 当然
+)))
+===========================
+经他一说，大家才明白了。
+(x11 / causation
+      :arg1  (x1 / 经-01
+            :arg1  (x4 / 说-01
+                  :arg0  (x2 / 他
+)                  :mod  (x3 / 一
+)))      :arg2  (x8 / 明白-01
+            :arg0  (x6 / 大家
+)            :aspect  (x9 / 了
+)))
+===========================
+今年瓜秧开了花，他们仔仔细细地给每一朵雌花都进行了人工授粉。
+(x21 / and
+      :op1  (x3 / 开-01
+            :arg0  (x2 / 瓜秧
+)            :aspect  (x4 / 了
+)            :arg1  (x5 / 花
+)            :time  (x1 / 今年
+))      :op2  (x16 / 进行-01
+            :arg1  (x19 / 授粉-01
+                  :manner  (x18 / 人工
+)                  :arg1  (x14 / 雌花
+                        :mod  (x11 / 每
+)                        :quant  (x12 / 1
+)                        :cunit  (x13 / 朵
+))                  :manner  (x8 / 仔细-01
+                        :arg0  (x7 / 他们
+))                  :arg0  (x7 / 他们
+))            :arg0  (x7 / 他们
+)            :aspect  (x17 / 了
+)            :mod  (x15 / 都
+)))
+===========================
+小瓜果然结了不少，水灵灵的，真惹人喜爱。
+(x16 / and
+      :op1  (x4 / 结-01
+            :arg1  (x2 / 瓜
+                  :arg0-of  (x1 / 小-01
+))            :manner  (x6_2 / 少
+                  :polarity  (x6_1 / -
+))            :aspect  (x5 / 了
+)            :mod  (x3 / 果然
+))      :op2  (x8 / 水灵
+            :smood  (x9 / 的
+)            :arg0  (x2 / 瓜
+))      :op3  (x12 / 惹-02
+            :arg1  (x14 / 喜爱-01
+                  :arg0  (x13 / 人
+)                  :arg1  (x2 / 瓜
+))            :mod  (x11 / 真
+)            :arg0  (x2 / 瓜
+)))
+===========================
+谁料一阵暴雨过后，巨浪扑上了小岛，把小瓜一个个打掉了。
+(x1_2 / 料-01
+      :arg0  (x1_1 / 谁
+)      :arg1  (x29 / temporal
+            :arg1  (x4 / 暴雨
+                  :quant  (x2 / 1
+)                  :cunit  (x3 / 阵
+))            :arg2  (x33 / causation
+                  :arg1  (x8_x9 / 扑-01
+                        :arg0  (x7 / 巨浪
+)                        :arg1  (x11 / 小岛
+)                        :aspect  (x10 / 了
+))                  :arg2  (x19 / 打-02
+                        :arg1  (x15 / 瓜
+                              :arg0-of  (x14 / 小-01
+)                              :quant  (x16_x17_x18 / 一个个
+))                        :cause-of  (x20 / 掉-01
+                              :arg0  (x15 / 瓜
+))                        :aspect  (x21 / 了
+)                        :arg0  (x7 / 巨浪
+)))))
+===========================
+后来一检查，只有大石头后边的一根瓜秧上，还残存着一个小瓜。
+(x23 / tempoal
+      :arg2  (x25 / condition
+            :arg1  (x3 / 检查
+)            :arg2  (x16 / 残存-01
+                  :arg0  (x21 / 瓜
+                        :arg0-of  (x20 / 小-01
+)                        :quant  (x18 / 1
+)                        :cunit  (x19 / 个
+))                  :mod  (x15 / 还
+)                  :aspect  (x17 / 着
+)                  :location  (x12 / 瓜秧
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 根
+)                        :location  (x8 / 后边
+                              :arg0  (x7 / 石头
+                                    :arg0-of  (x6 / 大-01
+)))                        :mod  (x5 / 只有
+)))))
+===========================
+他们像抚养婴儿似的照看着这个小瓜，浇水，施肥，一点也不敢马虎。
+(x25 / and
+      :op1  (x6 / 照看-01
+            :arg0  (x1 / 他们
+)            :arg1  (x11 / 瓜
+                  :arg0-of  (x10 / 小-01
+)                  :mod  (x8 / 这
+)                  :cunit  (x9 / 个
+))            :aspect  (x7 / 着
+)            :manner  (x2_x5 / 像-01
+                  :arg1  (x3 / 抚养-01
+                        :arg1  (x4 / 婴儿
+))))      :op2  (x13 / 浇水-01
+            :arg1  (x11 / 瓜
+)            :arg0  (x1 / 他们
+))      :op3  (x15 / 施肥-01
+            :arg0  (x1 / 他们
+)            :arg1  (x11 / 瓜
+))      :op4  (x20 / 敢-02
+            :arg1  (x21 / 马虎
+)            :arg0  (x1 / 他们
+)            :polarity  (x19 / -
+                  :degree  (x17 / 一点
+))            :mod  (x18 / 也
+)))
+===========================
+奇迹终于出现了，这个岛上成熟了第一个西瓜。
+(x15 / and
+      :op1  (x3 / 出现-01
+            :arg1  (x1 / 奇迹
+)            :mod  (x2 / 终于
+)            :aspect  (x4 / 了
+))      :op2  (x9 / 成熟-01
+            :arg0  (x13 / 西瓜
+                  :ord  (x23 / ordinal-entity
+                        :value  (x11 / 1
+)                        :cunit  (x12 / 个
+)))            :aspect  (x10 / 了
+)            :location  (x7 / 岛
+                  :mod  (x6_1 / 这
+)                  :cunit  (x6_2 / 个
+))))
+===========================
+站长把大西瓜切成薄薄的小片，盛在白瓷盘里，送到每一个战士跟前。
+(x25 / temporal
+      :arg1  (x5_x6 / 切成-01
+            :arg0  (x1 / 站长
+)            :arg1  (x4 / 西瓜
+                  :arg0-of  (x3 / 大-01
+))            :arg2  (x31 / thing
+                  :dcopy  (x4 / 西瓜
+)                  :unit  (x9 / 片
+                        :arg0-of  (x8 / 小-01
+)                        :arg0-of  (x7_1_2 / 薄-01
+))))      :arg2  (x11 / 盛-02
+            :arg1  (x4 / 西瓜
+)            :arg2  (x14 / 瓷盘
+                  :arg0-of  (x13 / 白-01
+))            :arg0  (x1 / 站长
+))      :arg3  (x17_x18 / 送到-01
+            :arg2  (x23 / 跟前
+                  :mod  (x22 / 战士
+                        :quant  (x20 / 1
+)                        :cunit  (x21 / 个
+)                        :mod  (x19 / 每
+)))            :arg0  (x1 / 站长
+)))
+===========================
+战士们都笑着，用两个指头捏起一小片来，细细地端详着，轻轻地闻着，慢慢地咬着，不住发出啧啧的赞叹声。
+(x38 / temporal
+      :arg1  (x4 / 笑-01
+            :arg0  (x1_x2 / 战士们
+)            :aspect  (x5 / 着
+)            :extent  (x3 / 都
+))      :arg2  (x11_x12_x16 / 捏-01
+            :arg1  (x47 / thing
+                  :quant  (x13 / 一
+)                  :unit  (x15 / 片
+                        :mod  (x14 / 小
+)))            :instrument  (x10 / 指头
+                  :quant  (x8 / 2
+)                  :cunit  (x9 / 个
+))            :arg0  (x1_x2 / 战士们
+))      :arg3  (x20 / 端详-01
+            :manner  (x18 / 细细
+)            :aspect  (x21 / 着
+)            :arg0  (x1_x2 / 战士们
+)            :arg1  (x47 / thing
+))      :arg4  (x24 / 闻-01
+            :manner  (x23_1_2 / 轻
+)            :arg1  (x47 / thing
+)            :arg0  (x1_x2 / 战士们
+))      :arg5  (x29 / 咬-01
+            :manner  (x27 / 慢
+)            :aspect  (x30 / 着
+)            :arg0  (x1_x2 / 战士们
+)            :arg1  (x47 / thing
+))      :arg6  (x33 / 发出-01
+            :arg1  (x36 / 赞叹声
+                  :mod  (x34 / 啧啧
+))            :frequency  (x32 / 不住
+)            :arg0  (x1_x2 / 战士们
+)))
+===========================
+好像有一股甘泉，流进了每个战士的心田。
+(x1 / 好像-01
+      :arg1  (x7_x8 / 流进-01
+            :arg0  (x5 / 甘泉
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 股
+)                  :arg1-of  (x2 / 有-03
+))            :arg1  (x13 / 心田
+                  :part-of  (x11 / 战士
+                        :mod  (x10_1 / 每
+)                        :cunit  (x10_2 / 个
+)))            :aspect  (x9 / 了
+)))
+===========================
+我推推坐在身旁的小高，笑着说“你那个纸箱的秘密，现在该公开了。”
+(x25 / temporal
+      :arg1  (x2 / 推-01
+            :arg0  (x1 / 我
+)            :arg1  (x29 / person
+                  :name  ( x7/小高 
+)                  :arg0-of  (x3_x4 / 坐在-01
+                        :arg1  (x5 / 身旁
+))))      :arg2  (x11 / 说-01
+            :manner  (x9 / 笑-01
+                  :aspect  (x10 / 着
+)                  :arg0  (x1 / 我
+))            :arg0  (x1 / 我
+)            :arg1  (x20 / 该-01
+                  :arg0  (x21 / 公开-01
+                        :arg1  (x17 / 秘密
+                              :mod  (x15 / 纸箱
+                                    :mod  (x14_1 / 那
+)                                    :cunit  (x14_2 / 个
+))                              :poss  (x13 / x29
+))                        :arg0  (x13 / x29
+))                  :time  (x19 / 现在
+)                  :aspect  (x22 / 了
+))))
+===========================
+小高说：“你早就明白了嘛。”
+(x2 / 说-01
+      :arg0  (x13 / person
+            :name  ( x1/小高 
+))      :arg1  (x6 / 明白-01
+            :time  (x5 / 早就
+)            :aspect  (x7 / 了
+)            :arg0  (x4 / 你
+)            :mode  (x8 / expressive
+)))
+===========================
+“这么说，你真想让那些蝴蝶呀什么的在这里安家？”
+(x19 / say
+      :arg1  (x21 / and
+            :op1  (x3 / 说
+                  :mod  (x2 / 这么
+))            :op2  (x7 / 想-01
+                  :arg0  (x5 / 你
+)                  :arg1  (x8 / 让-02
+                        :arg1  (x28 / and
+                              :op1  (x10 / 蝴蝶
+                                    :mode  (x11 / expressive
+))                              :op2  (x12 / amr-unknown
+                                    :smood  (x13 / 的
+))                              :quant  (x9 / 那些
+))                        :arg2  (x16 / 安家-01
+                              :location  (x15 / 这里
+)                              :arg0  (x28 / and
+))                        :arg0  (x5 / 你
+))                  :mod  (x6 / 真
+)                  :mode  (x17 / interrogative
+))))
+===========================
+小高点点头告诉我，晚饭以前，他已经把纸箱里的小昆虫全放了。
+(x21 / temporal
+      :arg1  (x2 / 点头-01
+            :arg0  (x24 / person
+                  :name  ( x1/小高 
+)))      :arg2  (x3 / 告诉-01
+            :arg0  (x24 / person
+)            :arg2  (x4 / 我
+)            :arg1  (x18 / 放-02
+                  :arg0  (x9 / x24
+)                  :extent  (x17 / 全
+)                  :arg1  (x16 / 昆虫
+                        :arg0-of  (x15 / 小-01
+)                        :location  (x12 / 纸箱
+))                  :aspect  (x19 / 了
+)                  :time  (x7 / 以前
+                        :op1  (x6 / 晚饭
+)))))
+===========================
+他笑嘻嘻地说：“我就不相信，这些小精灵会不爱我们祖国的海岛，会不愿在这里安居乐业。”
+(x4 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x9 / 相信-01
+            :arg0  (x6 / x1
+)            :polarity  (x8 / -
+)            :mod  (x7 / 就
+)            :arg1  (x36 / and
+                  :op1  (x13 / 会-02
+                        :arg0  (x15 / 爱-01
+                              :arg0  (x12 / 小精灵
+                                    :mod  (x11 / 这些
+))                              :polarity  (x14 / -
+)                              :arg1  (x19 / 海岛
+                                    :poss  (x17 / 祖国
+                                          :poss  (x16 / 我们
+)))))                  :op2  (x21 / 会-02
+                        :arg0  (x23 / 愿-01
+                              :arg1  (x26 / 安居乐业-01
+                                    :arg0  (x12 / 小精灵
+)                                    :location  (x25 / x19
+))                              :arg0  (x12 / 小精灵
+)))))      :manner  (x2 / 笑嘻嘻
+))
+===========================
+第二天我醒来时，天已经放亮了。
+(x13 / temporal
+      :arg1  (x4 / 醒来-01
+            :arg0  (x3 / 我
+)            :ord  (x17 / ordinal-entity
+                  :value  (x1 / 2
+)                  :unit  (x2 / 天
+)))      :arg2  (x9_x10 / 放亮
+            :arg0  (x7 / 天
+)            :aspect  (x8 / 已经
+)            :aspect  (x11 / 了
+)))
+===========================
+我忽然发现玻璃窗上停着一只蝴蝶，正对着朝阳，扇动着它那对彩色的翅膀。
+(x26 / and
+      :op1  (x3 / 发现-01
+            :arg0  (x1 / 我
+)            :mod  (x2 / 忽然
+)            :arg1  (x6 / 停-01
+                  :arg1  (x10 / 蝴蝶
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 只
+))                  :aspect  (x7 / 着
+)                  :location  (x4 / 玻璃窗
+)))      :op2  (x13 / 对
+            :arg1  (x15 / 朝阳
+)            :aspect  (x14 / 着
+)            :mod  (x12 / 正
+))      :op3  (x17 / 扇动-01
+            :arg1  (x24 / 翅膀
+                  :arg0-of  (x22 / 彩色
+)                  :mod  (x20 / 那
+)                  :unit  (x21 / 对
+)                  :poss  (x19 / x10
+))            :aspect  (x18 / 着
+)            :arg0  (x10 / 蝴蝶
+)))
+===========================

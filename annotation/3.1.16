@@ -1,0 +1,319 @@
+玩耍常常被认为是浪费时间的行为，但在科学史上，有许多伟大的发现是在玩耍中产生的。
+(x28 / contrast
+      :arg1  (x4 / 认为-01
+            :frequency  (x2 / 常常
+)            :arg1-of  (x9 / 行为
+                  :domain  (x1 / 玩耍
+)                  :mod  (x6 / 浪费-01
+                        :arg1  (x7 / 时间
+))))      :arg2  (x16 / 有-03
+            :arg0  (x13 / 科学史
+)            :arg1  (x25 / 产生-01
+                  :location  (x23 / 玩耍
+)                  :arg1  (x20 / 发现
+                        :quant  (x17 / 许多
+)                        :arg0-of  (x18 / 伟大-01
+))                  :mode  (x21_x26 / judgement
+))))
+===========================
+荷兰的列文虎克喜欢玩镜片。
+(x4 / 喜欢-01
+      :arg0  (x10 / person
+            :name  ( x3/列文虎克 
+)            :mod  (x12 / nationality
+                  :name  ( x1/荷兰 
+)))      :arg1  (x5 / 玩-01
+            :arg1  (x6 / 镜片
+)            :arg0  (x10 / person
+)))
+===========================
+列文虎克的工作是看守大门，并定时到钟楼去敲钟。
+(x16 / and
+      :domain  (x3 / 工作
+            :poss  (x19 / person
+                  :name  ( x1/列文虎克 
+)))      :op1  (x5 / 看守-01
+            :arg1  (x6 / 大门
+))      :op2  (x10 / 到-01
+            :manner  (x9 / 定时
+)            :arg1  (x11 / 钟楼
+)            :purpose  (x13 / 敲-01
+                  :arg1  (x14 / 钟
+))))
+===========================
+这份工作相当清闲，他待着没事，就一边看门，一边磨起了镜片。
+(x24 / causation
+      :arg1  (x5 / 清闲
+            :arg0-of  (x3 / 工作
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 份
+))            :degree  (x4 / 相当
+))      :arg2  (x31 / condition
+            :arg1  (x32 / and
+                  :op1  (x8 / 待-01
+                        :aspect  (x9 / 着
+)                        :arg0  (x7 / 他
+))                  :op2  (x10 / 没-02
+                        :arg0  (x7 / 他
+)                        :arg1  (x11 / 事
+)))            :arg2  (x38 / and
+                  :op1  (x15 / 看
+                        :arg1  (x16 / 门
+)                        :arg0  (x7 / 他
+))                  :op2  (x19_x20 / 磨-01
+                        :aspect  (x21 / 了
+)                        :arg0  (x7 / 他
+)                        :arg1  (x22 / 镜片
+)))))
+===========================
+他把厚玻璃的四周磨薄，做成放大镜，用来看细微的东西，或者阅读字很小的书籍。
+(x27 / temporal
+      :arg1  (x7 / 磨-01
+            :cause-of  (x8 / 薄-01
+                  :arg0  (x6 / 四周
+                        :part-of  (x4 / 玻璃
+                              :arg0-of  (x3 / 厚
+))))            :arg0  (x1 / 他
+)            :arg1  (x6 / 四周
+))      :arg2  (x10 / 做成-02
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 玻璃
+)            :arg2  (x11 / 放大镜
+))      :arg3  (x13_x14_1 / 用来-01
+            :arg0  (x1 / 他
+)            :arg1  (x11 / 放大镜
+)            :arg2  (x19 / or
+                  :op1  (x14_2 / 看-02
+                        :arg1  (x17 / 东西
+                              :arg0-of  (x15 / 细微-01
+))                        :arg0  (x1 / 他
+))                  :op2  (x20 / 阅读-01
+                        :arg0  (x1 / 他
+)                        :arg1  (x25 / 书籍
+                              :mod  (x23 / 小-01
+                                    :arg0  (x21 / 字
+)                                    :degree  (x22 / 很
+)))))))
+===========================
+有一次，列文虎克又在玩放大镜。
+(x8 / 玩-01
+      :time  (x1_x2_x3 / 有一次
+)      :arg0  (x14 / person
+            :name  ( x5/列文虎克 
+))      :aspect  (x7 / 在
+)      :mod  (x6 / 又
+)      :arg1  (x9 / 放大镜
+))
+===========================
+他突然想到：把两片放大镜放在一起，会怎么样呢？
+(x3 / 想到-01
+      :arg0  (x1 / 他
+)      :manner  (x2 / 突然
+)      :arg1  (x21 / condition
+            :arg1  (x9 / 放-01
+                  :arg1  (x8 / 放大镜
+                        :unit  (x7 / 片
+)                        :quant  (x6 / 2
+))                  :arg2  (x11 / 一起-01
+                        :arg0  (x8 / 放大镜
+)))            :arg2  (x14 / amr-unknown
+                  :mode  (x15_x16 / interrogative
+))))
+===========================
+他一试，啊，不得了，蚊子的腿看上去像兔子的腿。
+(x18 / temporal
+      :arg1  (x2_x3 / 试-01
+            :arg0  (x1 / 他
+))      :arg2  (x7 / 不得了-01
+            :arg0  (x12 / 看上去
+                  :arg0  (x11 / 腿
+                        :part-of  (x9 / 蚊子
+))                  :arg1  (x13 / 像-01
+                        :arg0  (x11 / 腿
+)                        :arg2  (x16 / 腿
+                              :part-of  (x14 / 兔子
+))))            :mode  (x5 / expressive
+)))
+===========================
+他越玩越带劲，就把一片放大镜固定，让另一片放大镜可以随意调节，这样就做成了一架简单的显微镜。
+(x33 / temporal
+      :arg1  (x2_x4 / 越
+            :arg0  (x3 / 玩-01
+                  :arg0  (x1 / 他
+))            :arg1  (x5 / 带劲
+))      :arg2  (x12 / 固定-01
+            :arg0  (x1 / 他
+)            :arg1  (x11 / 放大镜
+                  :quant  (x9 / 1
+)                  :unit  (x10 / 片
+)))      :arg3  (x14 / 让-02
+            :arg0  (x1 / 他
+)            :arg1  (x18 / 放大镜
+                  :mod  (x15 / 另
+)                  :quant  (x16 / 1
+)                  :unit  (x17 / 片
+))            :arg2  (x19 / 可以-03
+                  :arg0  (x18 / 放大镜
+)                  :arg1  (x21 / 调节
+                        :manner  (x20 / 随意
+))))      :arg4  (x49 / condition
+            :arg1  (x23 / 这样
+)            :arg2  (x25 / 做成-01
+                  :aspect  (x26 / 了
+)                  :arg0  (x1 / 他
+)                  :arg1  (x31 / 显微镜
+                        :quant  (x27 / 1
+)                        :cunit  (x28 / 架
+)                        :arg0-of  (x29 / 简单-01
+)))))
+===========================
+他用显微镜观察水，看见水里有许多小生命挤来挤去；观察牙齿，看见里面有一种从来没有见过的小东西。
+(x32 / and
+      :op1  (x34 / temporal
+            :arg1  (x4 / 观察-01
+                  :instrument  (x3 / 显微镜
+)                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 水
+))            :arg2  (x7 / 看见-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x10 / 有-03
+                        :arg0  (x8 / 水
+)                        :arg1  (x14 / 挤来挤去
+                              :arg0  (x13 / 生命
+                                    :quant  (x11 / 许多
+)                                    :arg0-of  (x12 / 小-01
+))))))      :op2  (x46 / temporal
+            :arg1  (x16 / 观察-01
+                  :arg0  (x1 / 他
+)                  :instrument  (x3 / 显微镜
+)                  :arg1  (x17 / 牙齿
+))            :arg2  (x19 / 看见-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x21 / 有-03
+                        :arg0  (x20 / 里面
+                              :arg0  (x17 / 牙齿
+))                        :arg1  (x30 / 东西
+                              :arg0-of  (x29 / 小-01
+)                              :arg1-of  (x26 / 见-01
+                                    :aspect  (x27 / 过
+)                                    :time  (x24 / 从来
+))                              :quant  (x22 / 1
+)                              :unit  (x23 / 种
+))))))
+===========================
+他发现，除了我们平时看到的世界，还有另一个平时看不到的世界。
+(x2 / 发现-01
+      :arg0  (x1 / 他
+)      :arg1  (x11_2 / 有-03
+            :mod  (x11_1 / 还
+)            :arg1  (x17 / 世界
+                  :mod  (x12 / 另
+)                  :quant  (x13_1 / 1
+)                  :cunit  (x13_2 / 个
+)                  :mod  (x29 / possible
+                        :polarity  (x15_2 / -
+)                        :arg0  (x15_1_3 / 看到-01
+)                        :time  (x14 / 平时
+)))            :arg0-of  (x4 / 除了
+                  :arg1  (x9 / 世界
+                        :arg1-of  (x7 / 看到-01
+                              :arg0  (x5 / 我们
+)                              :time  (x6 / 平时
+))))))
+===========================
+那是一个“小人国”。
+(x6 / 国
+      :mod  (x5 / 小人
+)      :domain  (x1 / 那
+)      :quant  (x3_1 / 1
+)      :cunit  (x3_2 / 个
+))
+===========================
+“小人国”里的“居民”，比地球上的居民要多得多。
+(x10 / 比-01
+      :arg0  (x8 / 居民
+            :location  (x3 / 国
+                  :mod  (x2 / 小人
+)))      :arg1  (x14 / 居民
+            :location  (x11 / 地球
+))      :arg2  (x16_x17_x18 / 多
+))
+===========================
+列文虎克玩放大镜，玩出了大名堂。
+(x11 / and
+      :op1  (x2 / 玩-01
+            :arg0  (x18 / person
+                  :name  ( x1/列文虎克 
+))            :arg1  (x3 / 放大镜
+))      :op2  (x5 / 玩-01
+            :cause-of  (x6 / 出-01
+                  :aspect  (x7 / 了
+)                  :arg0  (x9 / 名堂
+                        :arg0-of  (x8 / 大-01
+)))            :arg0  (x18 / person
+)            :arg1  (x3 / 放大镜
+)))
+===========================
+他最早发现了微生物，发现了一个全新的世界。
+(x15 / and
+      :op1  (x4 / 发现-01
+            :arg0  (x1 / 他
+)            :aspect  (x5 / 了
+)            :arg1  (x6 / 微生物
+)            :time  (x3 / 早
+                  :degree  (x2 / 最
+)))      :op2  (x8 / 发现-01
+            :aspect  (x9 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x13 / 世界
+                  :arg0-of  (x11 / 全新-01
+)                  :quant  (x10_1 / 1
+)                  :cunit  (x10_2 / 个
+))))
+===========================
+英国皇家学会知道了他的发现，聘请他为皇家学会会员。
+(x15 / temporal
+      :arg1  (x3 / 知道-01
+            :aspect  (x4 / 了
+)            :arg0  (x19 / organization
+                  :name  ( x2/皇家学会 
+))            :arg1  (x7 / 发现
+                  :poss  (x5 / 他
+)))      :arg2  (x9 / 聘请-02
+            :arg0  (x19 / organization
+)            :arg1  (x10 / 他
+)            :arg2  (x30 / person
+                  :arg0-of  (x25 / have-org-role-91
+                        :arg1  (x26 / organization
+                              :name  ( x12/x1_x2 
+))                        :arg2  (x13 / 会员
+)))))
+===========================
+连英国女王和俄国沙皇也千里迢迢前去拜访他，欣赏他的“玩具”，并从“玩具”里观看新世界里的“居民”。
+(x34 / temporal
+      :arg1  (x9_x10 / 前去-01
+            :arg0  (x4 / and
+                  :op1  (x40 / person
+                        :arg0-of  (x42 / have-org-role-91
+                              :arg2  (x2_x3 / 英国女王
+)))                  :op2  (x41 / person
+                        :arg0-of  (x43 / have-org-role-91
+                              :arg2  (x5_x6 / 俄国沙皇
+)))                  :mod  (x1 / 连
+))            :purpose  (x11 / 拜访-01
+                  :arg0  (x4 / and
+)                  :arg1  (x12 / 他
+))            :mod  (x7 / 也
+)            :manner  (x8 / 千里迢迢
+))      :arg2  (x14 / 欣赏-01
+            :arg0  (x4 / and
+)            :arg1  (x18 / 玩具
+                  :poss  (x15 / x12
+)))      :arg3  (x26 / 观看-01
+            :source  (x25 / 里
+                  :arg0  (x23 / x18
+))            :arg1  (x32 / 居民
+                  :location  (x28 / 世界
+                        :arg0-of  (x27 / 新-01
+)))))
+===========================

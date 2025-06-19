@@ -1,0 +1,328 @@
+一个星期天，宋耀如一家用过早餐，准备到一位朋友家去。
+(x19 / temporal
+      :time  (x21 / date-entity
+            :weekday  (x2 / 星期天
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+)))      :arg1  (x7 / 用
+            :arg0  (x6 / 家
+                  :poss  (x28 / person
+                        :name  ( x4/宋耀如 
+))                  :quant  (x5 / 1
+))            :aspect  (x8 / 过
+                  :arg0  (x6 / 家
+))            :arg1  (x9 / 早餐
+))      :arg2  (x11 / 准备-02
+            :arg0  (x6 / 家
+)            :arg1  (x12 / 到-01
+                  :arg1  (x16 / 家
+                        :poss  (x15 / 朋友
+                              :quant  (x13 / 1
+)                              :cunit  (x14 / 位
+))))))
+===========================
+二女儿宋庆龄显得特别高兴。
+(x4 / 显得-01
+      :arg1  (x6 / 高兴-01
+            :degree  (x5 / 特别
+)            :arg0  (x2 / 女儿
+                  :name  ( x3/宋庆龄 
+)                  :ord  (x17 / ordinal-entity
+                        :value  (x1 / 2
+))))      :arg0  (x2 / 女儿
+))
+===========================
+她早就盼着到这位伯伯家去了。
+(x3 / 盼-01
+      :time  (x2 / 早就
+)      :aspect  (x4 / 着
+)      :arg0  (x1 / 她
+)      :arg1  (x5 / 到-01
+            :arg1  (x9 / 家
+                  :poss  (x8 / 伯伯
+                        :mod  (x6 / 这
+)                        :cunit  (x7 / 位
+)))            :aspect  (x11 / 了
+)))
+===========================
+伯伯家养的鸽子，尖尖的嘴巴，红红的眼睛，漂亮极啦！
+(x17 / and
+      :op1  (x8 / 嘴巴
+            :part-of  (x5 / 鸽子
+                  :arg1-of  (x3 / 养-01
+                        :arg0  (x2 / 家
+                              :poss  (x1 / 伯伯
+))))            :arg0-of  (x7 / 尖
+))      :op2  (x11 / 眼睛
+            :arg0-of  (x10 / 红-01
+)            :part-of  (x5 / 鸽子
+))      :op3  (x13 / 漂亮-01
+            :degree  (x14 / 极
+)            :mode  (x16 / expressive
+)            :arg0  (x5 / 鸽子
+)))
+===========================
+伯伯还说准备送她一只呢！
+(x3 / 说-01
+      :arg0  (x1 / 伯伯
+)      :mod  (x2 / 还
+)      :arg1  (x4 / 准备-02
+            :arg0  (x1 / 伯伯
+)            :arg1  (x5 / 送-01
+                  :arg0  (x1 / 伯伯
+)                  :arg1  (x18 / animal
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 只
+))                  :arg2  (x6 / 她
+)))      :mode  (x9_x10 / expressive
+))
+===========================
+她刚走到门口，忽然想起，小珍今天上午要来找她学叠花篮。
+(x21 / temporal
+      :arg1  (x3_x4 / 走到-01
+            :arg0  (x1 / 她
+)            :time  (x2 / 刚
+)            :arg1  (x5 / 门口
+))      :arg2  (x8 / 想起-01
+            :manner  (x7 / 忽然
+)            :arg0  (x1 / 她
+)            :arg1  (x13 / 要-03
+                  :arg0  (x14 / 来-05
+                        :arg0  (x31 / person
+                              :name  ( x10/小珍 
+))                        :time  (x12 / 上午
+                              :time  (x11 / 今天
+))                        :arg1  (x15 / 找-01
+                              :arg0  (x31 / person
+)                              :arg1  (x16 / x1
+)                              :arg2  (x17 / 学-01
+                                    :arg0  (x31 / person
+)                                    :arg1  (x18 / 叠
+                                          :arg1  (x19 / 花篮
+))))))))
+===========================
+父亲见庆龄停住了脚步，奇怪地问：“庆龄，你怎么不走啦？”
+(x21 / temporal
+      :arg1  (x2 / 见-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x4_x5 / 停住-01
+                  :aspect  (x6 / 了
+)                  :arg1  (x7 / 脚步
+)                  :arg0  (x28 / person
+                        :name  ( x3/庆龄 
+))))      :arg2  (x11 / 问-01
+            :manner  (x9 / 奇怪
+)            :arg0  (x1 / 父亲
+)            :arg1  (x32 / and
+                  :op1  (x33 / person
+                        :name  ( x13/x3 
+))                  :op2  (x18 / 走-01
+                        :arg0  (x15 / x28
+)                        :polarity  (x17 / -
+)                        :mode  (x19_x20 / interrogative
+)                        :manner  (x16 / amr-unknown
+)))))
+===========================
+“爸爸，我昨天和小珍约好了，今天她来我们家，我教她叠花篮。”庆龄说。
+(x25 / 说-01
+      :arg0  (x29 / person
+            :name  ( x24/庆龄 
+))      :arg1  (x30 / and
+            :op1  (x2 / 爸爸
+)            :op2  (x8 / 约-01
+                  :arg0  (x4 / x29
+)                  :arg1  (x34 / person
+                        :name  ( x7/小珍 
+))                  :aspect  (x10 / 了
+)                  :arg2  (x38 / temporal
+                        :arg1  (x14 / 来-01
+                              :arg0  (x13 / x34
+)                              :arg1  (x16 / 家
+                                    :poss  (x15 / 我们
+)))                        :time  (x12 / 今天
+)                        :arg2  (x19 / 教-01
+                              :arg0  (x18 / x29
+)                              :arg1  (x20 / x34
+)                              :arg2  (x21 / 叠
+                                    :arg1  (x22 / 花篮
+))))                  :time  (x5 / 昨天
+)                  :arg0-of  (x9 / 好-04
+))))
+===========================
+“你不是一直想去伯伯家吗？改天再教小珍吧”
+(x19 / say
+      :arg1  (x21 / causation
+            :arg1  (x6 / 想-01
+                  :time  (x5 / 一直
+)                  :arg0  (x2 / 你
+)                  :polarity  (x3_x4 / -
+)                  :arg1  (x7 / 去-01
+                        :arg1  (x9 / 家
+                              :poss  (x8 / 伯伯
+))                        :arg0  (x2 / 你
+))                  :mode  (x10_x11 / interrigative
+))            :arg2  (x14 / 教-01
+                  :time  (x12 / 改天
+)                  :mod  (x13 / 再
+)                  :arg1  (x33 / person
+                        :name  ( x15/小珍 
+))                  :mode  (x16 / imperative
+)                  :arg0  (x2 / 你
+))))
+===========================
+父亲说完，拉起庆龄的手就要走。
+(x14 / temporal
+      :arg1  (x3 / 完-01
+            :arg0  (x2 / 说-01
+                  :arg0  (x1 / 父亲
+)))      :arg2  (x5 / 拉-01
+            :arg0  (x1 / 父亲
+)            :arg1  (x9 / 手
+                  :part-of  (x21 / person
+                        :name  ( x7/庆龄 
+))))      :arg3  (x11 / 要-03
+            :arg0  (x12 / 走-01
+                  :arg0  (x1 / 父亲
+))))
+===========================
+“不行！不行！小珍来了会扑空的，那多不好啊！”
+(x19 / say
+      :arg1  (x21 / and
+            :op1  (x2_2 / 行
+                  :polarity  (x2_1 / -
+)                  :mode  (x3 / expressive
+))            :op2  (x4_2 / 行
+                  :polarity  (x4_1 / -
+)                  :mode  (x5 / expressive
+))            :op3  (x26 / condition
+                  :arg1  (x7 / 来-01
+                        :arg0  (x28 / person
+                              :name  ( x6/小珍 
+))                        :aspect  (x8 / 了
+))                  :arg2  (x9 / 会-02
+                        :arg0  (x10 / 扑空-01
+                              :arg0  (x28 / person
+))                        :mode  (x11 / judgement
+)))            :op4  (x15_2 / 好-01
+                  :polarity  (x15_1 / -
+                        :degree  (x14 / 多
+))                  :arg0  (x13 / 那
+)                  :mode  (x16_17 / expressive
+))))
+===========================
+庆龄边说边把手抽回来。
+(x10 / and
+      :op1  (x3 / 说-01
+            :arg0  (x15 / person
+                  :name  ( x1/庆龄 
+)))      :op2  (x7 / 抽-03
+            :direction  (x8 / 回来-01
+                  :arg0  (x6 / 手
+                        :part-of  (x15 / person
+)))            :arg0  (x15 / person
+)            :arg1  (x6 / 手
+)))
+===========================
+“那……回来你去小珍家解释一下，表示歉意，明天再教她叠花篮，好吗？”妈妈在一旁说。
+(x28 / 说-01
+      :arg0  (x25 / 妈妈
+)      :location  (x27 / 一旁
+)      :arg1  (x35 / condition
+            :arg2  (x36 / and
+                  :op1  (x37 / temporal
+                        :arg1  (x4 / 回来-01
+                              :arg0  (x5 / 你
+))                        :arg2  (x6 / 去-01
+                              :arg0  (x5 / 你
+)                              :arg1  (x8 / 家
+                                    :poss  (x43 / person
+                                          :name  ( x7/小珍 
+))))                        :arg3  (x45 / and
+                              :op1  (x9_x10 / 解释-01
+                                    :arg0  (x5 / 你
+))                              :op2  (x12 / 表示-01
+                                    :arg0  (x5 / 你
+)                                    :arg1  (x13 / 歉意
+))))                  :op2  (x17 / 教-01
+                        :time  (x15 / 明天
+)                        :mod  (x16 / 再
+)                        :arg1  (x18 / x43
+)                        :arg2  (x19 / 叠
+                              :arg1  (x20 / 花篮
+)))                  :op3  (x22 / 好
+                        :mode  (x23_x24 / interrogative
+)))))
+===========================
+“不，妈妈。
+(x6 / say
+      :arg1  (x8 / and
+            :op1  (x2 / 不
+)            :op2  (x4 / 妈妈
+)))
+===========================
+如果我忘记了这件事，明天见到她时，可以道歉；可是我并没有忘记，我不能失信啊！”
+(x28 / say
+      :arg1  (x30 / contrast
+            :arg1  (x31 / condition
+                  :arg1  (x3 / 忘记-01
+                        :aspect  (x4 / 了
+)                        :arg0  (x2 / 我
+)                        :arg1  (x7 / 事
+                              :cunit  (x6 / 件
+)                              :mod  (x5 / 这
+)))                  :arg2  (x14 / 可以-01
+                        :arg0  (x15 / 道歉
+)                        :time  (x10 / 见到-01
+                              :time  (x9 / 明天
+)                              :arg0  (x2 / 我
+)                              :arg1  (x11 / 她
+))))            :arg2  (x32 / causation
+                  :arg1  (x21 / 忘记-01
+                        :mod  (x19 / 并
+)                        :polarity  (x20 / -
+)                        :arg0  (x18 / x2
+))                  :arg2  (x24_2 / 能-01
+                        :arg0  (x25 / 失信-01
+                              :arg0  (x23 / x2
+))                        :mode  (x26_x27 / expressive
+)))))
+===========================
+“我明白了，我们的庆龄是个守信用的孩子。”
+(x15 / say
+      :arg1  (x3 / 明白-01
+            :arg0  (x2 / 我
+)            :aspect  (x4 / 了
+)            :arg1  (x13 / 孩子
+                  :arg0-of  (x11_1 / 守-02
+                        :arg1  (x11_2_3 / 信用
+))                  :cunit  (x10 / 个
+)                  :domain  (x24 / person
+                        :name  ( x8/庆龄 
+                              :poss  (x6 / 我们
+))))))
+===========================
+妈妈望着庆龄笑了笑，说，“那你就留下来吧”庆龄点点头，甜甜地笑了。
+(x24 / temporal
+      :arg1  (x26 / and
+            :op1  (x2 / 望-01
+                  :aspect  (x3 / 着-01
+)                  :arg0  (x1 / 妈妈
+)                  :arg1  (x30 / person
+                        :name  ( x4/庆龄 
+)))            :op2  (x5_x7 / 笑-01
+                  :aspect  (x6 / 了
+)))      :arg2  (x9 / 说-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x35 / condition
+                  :arg2  (x14 / 留下来-01
+                        :arg0  (x12 / x30
+)                        :mode  (x15 / imperative
+))))      :arg3  (x18 / 点头-01
+            :arg0  (x40 / person
+                  :name  ( x17/x4 
+)))      :arg4  (x21 / 笑-01
+            :aspect  (x22 / 了
+)            :manner  (x20 / 甜甜地
+)            :arg0  (x30 / person
+)))
+===========================

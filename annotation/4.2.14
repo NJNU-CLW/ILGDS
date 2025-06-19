@@ -1,0 +1,1282 @@
+战斗刚刚结束，一小队德国兵进了村庄。
+(x14 / temporal
+      :arg1  (x3 / 结束-01
+            :arg1  (x1 / 战斗
+)            :time  (x2 / 刚刚
+))      :arg2  (x10 / 进-01
+            :aspect  (x11 / 了
+)            :arg0  (x9 / 兵
+                  :poss  (x23 / country
+                        :name  ( x8/德国 
+                              :unit  (x7 / 队
+                                    :arg0-of  (x6 / 小-01
+))))                  :quant  (x5 / 1
+))            :arg1  (x12 / 村庄
+)))
+===========================
+大道两旁全是黑色的碎瓦。
+(x8 / 瓦
+      :arg0-of  (x7 / 碎-01
+)      :location  (x2 / 两旁
+            :extent  (x3 / 全-01
+)            :arg0  (x1 / 大道
+))      :arg0-of  (x5 / 黑色
+))
+===========================
+空旷的花园里，烧焦的树垂头丧气地弯着腰。
+(x12 / 弯-01
+      :arg0  (x9 / 树
+            :arg0-of  (x7 / 焦
+                  :cause  (x6 / 烧-01
+                        :arg1  (x9 / 树
+))))      :manner  (x10 / 垂头丧气-01
+            :arg0  (x9 / 树
+))      :aspect  (x13 / 着-01
+)      :arg1  (x14 / 腰
+            :part-of  (x9 / 树
+))      :location  (x3 / 花园
+            :arg0-of  (x1 / 空旷-01
+)))
+===========================
+夜莺的歌声打破了夏日的沉寂。
+(x4 / 打破-01
+      :aspect  (x5 / 了
+)      :arg0  (x3 / 歌声
+            :poss  (x1 / 夜莺
+))      :arg1  (x8 / 沉寂
+            :time  (x6 / 夏日
+)))
+===========================
+这歌声停了一会儿，接着又用一股新的劲头唱起来。
+(x18 / temporal
+      :arg1  (x3 / 停-01
+            :aspect  (x4 / 了-01
+)            :duration  (x5 / 一会儿
+)            :arg1  (x2 / 歌声
+                  :mod  (x1 / 这
+)))      :arg2  (x15_x16 / 唱
+            :manner  (x9 / 用-01
+                  :mod  (x8 / 又
+)                  :arg1  (x14 / 劲头
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 股
+)                        :arg0-of  (x12 / 新-01
+)))))
+===========================
+士兵们和军官注意听着，开始注视周围的灌木丛和挂在道旁的白桦树枝。
+(x23 / and
+      :op1  (x5 / 注意-01
+            :arg0  (x3 / and
+                  :op1  (x1_x2 / 士兵们
+)                  :op2  (x4 / 军官
+))            :arg1  (x6 / 听-01
+                  :arg0  (x3 / and
+)                  :aspect  (x7 / 着
+)))      :op2  (x9 / 开始-01
+            :arg0  (x3 / and
+)            :arg1  (x10 / 注视-01
+                  :arg0  (x3 / and
+)                  :arg1  (x14 / and
+                        :op1  (x13 / 灌木丛
+                              :location  (x11 / 周围
+))                        :op2  (x21 / 树枝
+                              :mod  (x20 / 白桦
+)                              :arg1-of  (x15 / 挂-01
+                                    :arg2  (x18 / 旁
+                                          :arg0  (x17 / 道
+))))))))
+===========================
+他们发现就在很近很近的地方，有个孩子坐在河岸边上，耷拉着两条腿。
+(x2 / 发现-01
+      :arg0  (x1 / 他们
+)      :arg1  (x29 / and
+            :op1  (x15 / 坐-02
+                  :location  (x10 / 地方
+                        :arg0-of  (x6_x8 / 近-01
+                              :degree  (x5_x7 / 很
+)))                  :arg0  (x14 / 孩子
+                        :cunit  (x13 / 个
+)                        :arg1-of  (x12 / 有-03
+))                  :arg1  (x18 / 边上
+                        :arg0  (x17 / 河岸
+)))            :op2  (x20 / 耷拉-01
+                  :aspect  (x21 / 着
+)                  :arg0  (x24 / 腿
+                        :quant  (x22 / 2
+)                        :cunit  (x23 / 条
+)))))
+===========================
+他光着头，穿一件颜色跟树叶差不多的绿上衣，手里拿着一块木头，不知在削什么。
+(x31 / and
+      :op1  (x2 / 光-01
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x4 / 头
+                  :part-of  (x1 / 他
+)))      :op2  (x6 / 穿-01
+            :arg0  (x1 / 他
+)            :arg1  (x15 / 上衣
+                  :arg1-of  (x14 / 绿-01
+)                  :quant  (x7 / 1
+)                  :cunit  (x8 / 件
+)                  :mod  (x12 / 差不多
+                        :arg0  (x9 / 颜色
+                              :poss  (x15 / 上衣
+))                        :arg1  (x11 / 树叶
+))))      :op3  (x19 / 拿-03
+            :arg0  (x17 / 手
+                  :part-of  (x1 / 他
+))            :aspect  (x20 / 着
+)            :arg1  (x23 / 木头
+                  :cunit  (x22 / 块
+)                  :quant  (x21 / 1
+)))      :op4  (x26 / 知-01
+            :polarity  (x25 / -
+)            :arg1  (x28 / 削-01
+                  :arg0  (x1 / 他
+)                  :aspect  (x27 / 在
+)                  :arg1  (x29 / amr-unknown
+))))
+===========================
+“喂，你来！”军官叫那个孩子。
+(x12 / and
+      :op1  (x14 / say
+            :arg1  (x18 / and
+                  :op1  (x2 / 喂-01
+)                  :op2  (x5 / 来-01
+                        :arg0  (x4 / 你
+)                        :mode  (x6 / expressive
+))))      :op2  (x8 / 叫-04
+            :arg0  (x7 / 军官
+)            :arg1  (x10 / x4
+                  :mod  (x9_1 / 那
+)                  :cunit  (x9_2 / 个
+))))
+===========================
+孩子赶紧把小刀放到衣袋里，抖了抖衣服上的木屑，走到军官跟前。
+(x22 / temporal
+      :arg1  (x5 / 放到-01
+            :arg0  (x1 / 孩子
+)            :arg1  (x4 / 小刀
+)            :arg2  (x6 / 衣袋
+)            :manner  (x2 / 赶紧
+))      :arg2  (x9_x11 / 抖-02
+            :aspect  (x10 / 了
+)            :arg0  (x1 / 孩子
+)            :arg1  (x15 / 木屑
+                  :location  (x12 / 衣服
+)))      :arg3  (x17_x18 / 走到-01
+            :arg0  (x1 / 孩子
+)            :arg1  (x20 / 跟前
+                  :arg0  (x19 / 军官
+))))
+===========================
+“呶，让我看看！”军官说。
+(x10 / 说-01
+      :arg0  (x9 / 军官
+)      :arg1  (x15 / and
+            :op1  (x2 / 呶
+)            :op2  (x4 / 让-02
+                  :arg1  (x5 / x9
+)                  :mode  (x8 / expressive
+)                  :arg2  (x6_x7 / 看看-01
+                        :arg0  (x5 / x9
+)))))
+===========================
+孩子从嘴里掏出一个小玩意儿，递给他，用快活的蓝眼睛望着他。
+(x24 / temporal
+      :arg1  (x5 / 掏-01
+            :arg1  (x10 / 玩意儿
+                  :quant  (x7 / 1
+)                  :arg0-of  (x9 / 小-01
+)                  :cunit  (x8 / 个
+))            :arg0  (x1 / 孩子
+)            :source  (x3 / 嘴
+                  :part-of  (x1 / 孩子
+)))      :arg2  (x12 / 递给-01
+            :arg0  (x1 / 孩子
+)            :arg1  (x10 / 玩意儿
+)            :arg2  (x13 / 他
+))      :arg3  (x20 / 望-01
+            :instrument  (x19 / 眼睛
+                  :arg0-of  (x18 / 蓝-01
+)                  :mod  (x16 / 快活
+))            :aspect  (x21 / 着
+)            :arg1  (x22 / x13
+)))
+===========================
+那是个白桦树皮做的口哨。
+(x8 / 口哨
+      :domain  (x1 / 那
+)      :consist-of  (x5 / 皮
+            :mod  (x4 / 白桦树
+))      :cunit  (x3 / 个
+))
+===========================
+“挺巧！小孩子，你做得挺巧哇。”
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x3 / 巧
+                  :degree  (x2 / 挺
+)                  :mode  (x4 / expressive
+))            :op2  (x5 / 小孩子
+)            :op3  (x11 / 巧-01
+                  :degree  (x10 / 挺
+)                  :arg0  (x26 / thing
+                        :arg1-of  (x8 / 做-05
+                              :manner  (x11 / 巧-01
+                                    :mode  (x12 / expressive
+))                              :arg0  (x7 / x5
+))))))
+===========================
+军官点了点头。
+(x2_x4_x5 / 点头-01
+      :arg0  (x1 / 军官
+)      :aspect  (x3 / 了
+))
+===========================
+转眼间，他那阴沉的脸上闪出一种冷笑的光，“谁教你这样吹哨子的？”
+(x25 / temporal
+      :arg1  (x9 / 闪-01
+            :arg0  (x15 / 光
+                  :mod  (x13 / 冷笑
+)                  :unit  (x12 / 种
+)                  :quant  (x11 / 1
+))            :arg1  (x7 / 脸
+                  :arg0-of  (x5 / 阴沉-01
+)                  :part-of  (x3 / 他
+)                  :mod  (x4 / 那
+))            :time  (x1 / 转眼间
+))      :arg2  (x36 / say
+            :arg1  (x18 / 教-01
+                  :arg0  (x17 / amr-unknown
+)                  :mode  (x24 / interrogative
+)                  :arg1  (x19 / 你
+)                  :arg2  (x21 / 吹-01
+                        :mod  (x20 / 这样
+)                        :arg0  (x19 / 你
+)                        :arg1  (x22 / 哨子
+))                  :mode  (x23 / judgement
+))))
+===========================
+“我自己学的。
+(x7 / say
+      :arg1  (x4 / 学-01
+            :arg0  (x2_x3 / 我自己
+)            :mode  (x5 / judgement
+)))
+===========================
+我还会学杜鹃叫呢。”
+(x9 / say
+      :arg1  (x3 / 会-01
+            :mod  (x2 / 还
+)            :arg0  (x4 / 学-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x6 / 叫-03
+                        :arg0  (x5 / 杜鹃
+)))            :arg0  (x1 / 我
+)))
+===========================
+孩子学了几声杜鹃叫。
+(x2 / 学
+      :arg0  (x1 / 孩子
+)      :arg1  (x7 / 叫
+            :mod  (x6 / 杜鹃
+)            :quant  (x4 / 几
+)            :cunit  (x5 / 声
+))      :aspect  (x3 / 了
+))
+===========================
+接着又把哨子塞到嘴里吹起来。
+(x12 / temporal
+      :arg2  (x9_x10 / 吹-01
+            :arg1  (x4 / 哨子
+)            :mod  (x2 / 又
+)            :manner  (x5 / 塞-01
+                  :arg2  (x7 / 嘴
+)                  :arg1  (x4 / 哨子
+))))
+===========================
+“村子里就剩下你一个了吗？”军官继续盘问他。
+(x22 / and
+      :op1  (x24 / say
+            :arg1  (x5 / 剩下-01
+                  :arg2  (x6 / 你
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 个
+))                  :aspect  (x9 / 了
+)                  :mod  (x4 / 就
+)                  :location  (x2 / 村子
+)                  :mode  (x10_x11 / interrogative
+)))      :op2  (x13 / 继续-01
+            :arg0  (x12 / 军官
+)            :arg1  (x14 / 盘问-01
+                  :arg0  (x12 / 军官
+)                  :arg1  (x15 / 他
+))))
+===========================
+“怎么会就剩下我一个？这里有麻雀、乌鸦、猫头鹰，多着呢。
+(x22 / say
+      :arg1  (x24 / and
+            :op1  (x3 / 会-02
+                  :arg0  (x5 / 剩下-01
+                        :mod  (x4 / 就
+)                        :arg1  (x6 / 我
+                              :quant  (x7 / 1
+)                              :cunit  (x8 / 个
+)))                  :cause  (x2 / amr-unknown
+)                  :mode  (x9 / interrogative
+))            :op2  (x11 / 有-03
+                  :arg0  (x10 / 这里
+)                  :arg1  (x34 / and
+                        :op1  (x12 / 麻雀
+)                        :op2  (x14 / 乌鸦
+)                        :op3  (x16 / 猫头鹰
+)))            :op3  (x18 / 多
+                  :aspect  (x19 / 着
+)                  :mode  (x20 / expressive
+))))
+===========================
+夜莺倒是只有我一个！
+(x8 / condition
+      :arg1  (x1 / 夜莺
+)      :arg2  (x3_2 / 有-03
+            :mod  (x3_1 / 只
+)            :arg1  (x4 / 我
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 个
+)))      :mode  (x7 / expressive
+))
+===========================
+“你这个坏家伙！”军官打断孩子的话，“我是问你这里有没有人。”
+(x22 / temporal
+      :arg1  (x24 / say
+            :arg1  (x5 / 家伙
+                  :arg0-of  (x28 / mean
+                        :arg1  (x2 / 你
+))                  :arg0-of  (x4 / 坏-01
+)                  :mod  (x3_1 / 这
+)                  :cunit  (x3_2 / 个
+)                  :mode  (x6 / expressive
+)))      :arg2  (x8 / 打断-01
+            :arg0  (x7 / 军官
+)            :arg1  (x11 / 话
+                  :poss  (x9 / x5
+)))      :arg3  (x26 / say
+            :arg1  (x15 / 问-01
+                  :mode  (x14 / judgement
+)                  :arg0  (x13 / x7
+)                  :arg1  (x40 / or
+                        :op1  (x18 / 有-03
+                              :arg0  (x17 / 这里
+)                              :arg1  (x20 / 人
+))                        :op2  (x19_2 / 有-03
+                              :polarity  (x19_1 / -
+)                              :arg1  (x20 / 人
+)                              :arg0  (x17 / 这里
+)))                  :arg2  (x16 / x5
+))))
+===========================
+“人呢？战争一开始这里就没有人了。”小孩不慌不忙地回答，“刚刚一开火，村子就着火了，大家都喊：‘野兽来了，野兽来了’——就都跑了。”
+(x17 / 回答-01
+      :manner  (x15 / 不慌不忙
+)      :arg0  (x14 / 小孩
+)      :arg2  (x63 / and
+            :op1  (x48 / and
+                  :op1  (x2 / 人
+                        :mode  (x3_x4 / interrogative
+))                  :op2  (x51 / condition
+                        :arg1  (x7 / 开始-02
+                              :arg0  (x5 / 战争
+))                        :arg2  (x10_2 / 有-03
+                              :polarity  (x10_1 / -
+)                              :arg0  (x8 / 这里
+)                              :aspect  (x12 / 了
+)                              :arg1  (x11 / 人
+))))            :op2  (x64 / condition
+                  :arg1  (x21 / 开火
+                        :time  (x19 / 刚刚
+))                  :arg2  (x67 / and
+                        :op1  (x25 / 着火-01
+                              :arg0  (x23 / 村子
+)                              :aspect  (x26 / 了
+))                        :op2  (x30 / 喊-01
+                              :arg0  (x28 / 大家
+                                    :extent  (x29 / 都
+)                                    :extent  (x41 / 都
+))                              :arg1  (x73 / and
+                                    :op1  (x33 / 来-01
+                                          :arg0  (x32 / 野兽
+)                                          :aspect  (x34 / 了
+))                                    :op2  (x37 / 来-01
+                                          :arg0  (x36 / 野兽
+)                                          :aspect  (x38 / 了
+))))                        :op3  (x42 / 跑-01
+                              :mod  (x40 / 就
+)                              :aspect  (x43 / 了
+)                              :arg0  (x28 / 大家
+))))))
+===========================
+“蠢东西！”军官想着，轻蔑地微笑了一下下。
+(x16 / and
+      :op1  (x6 / 想-01
+            :arg1  (x3 / 东西
+                  :mode  (x4 / expressive
+)                  :arg0-of  (x2 / 蠢
+))            :arg0  (x5 / 军官
+)            :aspect  (x7 / 着
+))      :op2  (x11 / 微笑-01
+            :aspect  (x12 / 了
+)            :manner  (x9 / 轻蔑-01
+                  :arg0  (x5 / 军官
+))            :arg0  (x5 / 军官
+)            :quant  (x13_1 / 1
+)            :unit  (x13_2 / 下
+)))
+===========================
+“呶，你认识往苏蒙塔斯村去的路吗？那个村子大概是叫这个名字吧？”
+(x22 / say
+      :arg1  (x24 / and
+            :op1  (x2 / 呶
+)            :op2  (x5 / 认识-01
+                  :arg0  (x4 / 你
+)                  :arg1  (x10 / 路
+                        :mod  (x8 / 去-01
+                              :arg1  (x31 / county
+                                    :name  ( x7/苏蒙塔斯村 
+))))                  :mode  (x11_x12 / interrogative
+))            :op3  (x17 / 叫-01
+                  :arg0  (x14 / 村子
+                        :mod  (x13_1 / 那
+)                        :cunit  (x13_2 / 个
+))                  :mode  (x16 / judgement
+)                  :mod  (x15 / 大概
+)                  :arg1  (x19 / 名字
+                        :mod  (x18_1 / 这
+)                        :cunit  (x18_2 / 个
+))                  :mode  (x20_x21 / interrogative
+))))
+===========================
+“怎么会不认识！”孩子很有信心地回答，“我和叔叔常到磨坊那儿的堤坝上去钓鱼。
+(x12 / 回答-01
+      :arg0  (x7 / 孩子
+)      :manner  (x9 / 有-01
+            :degree  (x8 / 很
+)            :arg1  (x10 / 信心
+)            :arg0  (x7 / 孩子
+))      :arg2  (x33 / and
+            :op1  (x3 / 会-02
+                  :cause  (x2 / amr-unknown
+)                  :arg0  (x5 / 认识-01
+                        :polarity  (x4 / -
+))                  :mode  (x6 / expressive
+))            :op2  (x18 / 到-01
+                  :frequency  (x17 / 常
+)                  :arg1  (x22 / 堤坝
+                        :location  (x20 / 那儿
+                              :arg0-of  (x43 / mean
+                                    :arg1  (x19 / 磨坊
+))))                  :arg0  (x15 / and
+                        :op1  (x14 / x7
+)                        :op2  (x16 / 叔叔
+))                  :purpose  (x25 / 钓鱼-01
+                        :arg0  (x15 / and
+)))))
+===========================
+那儿的狗鱼可凶呢，能吃小鹅！”
+(x13 / and
+      :op1  (x5 / 凶-01
+            :degree  (x4 / 可
+)            :arg0  (x3 / 狗鱼
+                  :location  (x1 / 那儿
+))            :mode  (x6 / expressive
+))      :op2  (x8 / 能-01
+            :arg0  (x9 / 吃-01
+                  :arg0  (x3 / 狗鱼
+)                  :arg1  (x11 / 鹅
+                        :arg0-of  (x10 / 小-01
+)))            :mode  (x12 / expressive
+)))
+===========================
+“好啦，好啦，带我们去吧。
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x2 / 好
+                  :mode  (x3 / expressive
+))            :op2  (x5 / 好
+                  :mode  (x6 / expressive
+))            :op3  (x10 / 去
+                  :mode  (x11 / imperative
+)                  :manner  (x8 / 带-02
+                        :arg1  (x9 / 我们
+)))))
+===========================
+要是你带路带得对，我就把这个小东西送给你。”
+(x17 / say
+      :arg1  (x19 / condition
+            :arg1  (x4 / 带-02
+                  :cause-of  (x6 / 对-01
+                        :arg0  (x3 / 带路-01
+                              :arg0  (x2 / 你
+))))            :arg2  (x14 / 送给-01
+                  :arg0  (x8 / 我
+)                  :arg1  (x13 / 东西
+                        :mod  (x11_1 / 这
+)                        :cunit  (x11_2 / 个
+)                        :arg0-of  (x12 / 小-01
+))                  :arg2  (x15 / x2
+))))
+===========================
+军官说着，指了指他的打火机，“要是你把我们带到别处去，我就把你的脑袋拧下来。
+(x30 / temporal
+      :arg1  (x2 / 说-01
+            :arg0  (x1 / 军官
+)            :aspect  (x3 / 着
+))      :arg2  (x5_x7 / 指-02
+            :aspect  (x6 / 了
+)            :arg0  (x1 / 军官
+)            :arg1  (x10 / 打火机
+                  :poss  (x8 / x1
+)))      :arg3  (x39 / say
+            :arg1  (x41 / condition
+                  :arg1  (x16_x17 / 带到-01
+                        :arg0  (x13 / 你
+)                        :arg1  (x15 / 我们
+)                        :arg2  (x18 / 别处
+))                  :arg2  (x27_x28 / 拧-01
+                        :arg0  (x21 / x1
+)                        :arg0  (x21 / x1
+)                        :arg1  (x26 / 脑袋
+                              :part-of  (x24 / x13
+))))))
+===========================
+听懂了吗？”
+(x8 / say
+      :arg1  (x1_x2 / 听懂-01
+            :aspect  (x3 / 了
+)            :mode  (x4_x5 / interrogative
+)))
+===========================
+队伍出发了，行军灶打头，跟着就是小孩和军官，俩人并排着走。
+(x21 / and
+      :op1  (x2 / 出发-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 队伍
+))      :op2  (x7 / 打头-01
+            :arg0  (x6 / 灶
+                  :mod  (x5 / 行军
+)))      :op3  (x12 / and
+            :op1  (x11 / 小孩
+)            :op2  (x13 / 军官
+)            :domain  (x32 / person
+                  :arg0-of  (x9_1 / 跟-01
+                        :aspect  (x9_2 / 着
+)                        :arg1  (x6 / 灶
+))                  :aspect  (x9_2 / 着
+))            :mod  (x10_1 / 就
+))      :op4  (x19 / 走-01
+            :manner  (x17 / 并排
+                  :aspect  (x18 / 着
+))            :arg0  (x16 / x12
+                  :quant  (x15 / 2
+))))
+===========================
+小孩有时候学夜莺唱，有时候学杜鹃叫，胳膊一甩一甩地打着路旁的树枝，有时侯弯下腰去拾球果，还用脚把球果踢起来。
+(x40 / and
+      :op1  (x3 / 学
+            :arg1  (x5 / 唱-01
+                  :arg0  (x4 / 夜莺
+))            :arg0  (x1 / 小孩
+)            :time  (x2 / 有时候
+))      :op2  (x8 / 学
+            :time  (x7 / 有时候
+)            :arg0  (x1 / 小孩
+)            :arg1  (x10 / 叫-03
+                  :arg0  (x9 / 杜鹃
+)))      :op3  (x18 / 打
+            :manner  (x13_x14_x15_x16 / 一甩一甩
+)            :arg0  (x12 / 胳膊
+                  :part-of  (x1 / 小孩
+))            :aspect  (x19 / 着
+)            :arg1  (x22 / 树枝
+                  :location  (x20 / 路旁
+)))      :op4  (x25 / 弯-01
+            :time  (x24 / 有时侯
+)            :arg1  (x27 / 腰
+                  :part-of  (x1 / 小孩
+))            :arg0  (x1 / 小孩
+)            :purpose  (x29 / 拾-01
+                  :arg1  (x30 / 球果
+)                  :arg0  (x1 / 小孩
+)))      :op5  (x37_x38 / 踢-01
+            :arg1  (x36 / x30
+)            :arg0  (x1 / 小孩
+)            :instrument  (x34 / 脚
+)))
+===========================
+他好像把身边的军官完全忘了。
+(x2 / 好像-01
+      :arg0  (x8 / 忘-01
+            :degree  (x7 / 完全
+)            :aspect  (x9 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x6 / 军官
+                  :location  (x4 / 身边
+                        :arg0  (x1 / 他
+)))))
+===========================
+森林越来越密。
+(x3 / 密-01
+      :arg0  (x1 / 森林
+)      :degree  (x2 / 越来越
+))
+===========================
+弯弯曲曲的小路穿过密密的白桦树林，穿过杂草丛生的空地，又爬上了长满古松的小山。
+(x25 / temporal
+      :arg1  (x4 / 穿过-01
+            :arg0  (x3 / 小路
+                  :arg0-of  (x1 / 弯曲-01
+))            :arg1  (x8 / 树林
+                  :mod  (x7 / 白桦
+)                  :arg0-of  (x5 / 密-01
+)))      :arg2  (x10 / 穿过-01
+            :arg0  (x3 / 小路
+)            :arg1  (x13 / 空地
+                  :location-of  (x11 / 杂草丛生
+)))      :arg3  (x16 / 爬-01
+            :mod  (x15 / 又
+)            :arg0  (x3 / 小路
+)            :arg1  (x23 / 山
+                  :arg0-of  (x19 / 长满-01
+                        :arg1  (x20 / 古松
+))                  :arg0-of  (x22 / 小-01
+))            :aspect  (x18 / 了
+)))
+===========================
+“你们这里有游击队吗？”军官突然问。
+(x10 / 问-01
+      :manner  (x9 / 突然
+)      :arg0  (x8 / 军官
+)      :arg1  (x4 / 有-03
+            :arg0  (x3 / 这里
+                  :poss  (x2 / 你们
+))            :arg1  (x5 / 游击队
+)            :mode  (x6_x7 / interrogative
+)))
+===========================
+“你说的是一种蘑菇吗？没有，我们这里没有这种蘑菇。
+(x19 / say
+      :arg1  (x21 / and
+            :op1  (x8 / 蘑菇
+                  :domain  (x23 / thing
+                        :arg1-of  (x3 / 说-01
+                              :arg0  (x2 / 你
+)))                  :unit  (x7 / 种
+)                  :quant  (x6 / 1
+)                  :mode  (x9_x10 / interrogative
+))            :op2  (x11 / 没有
+)            :op3  (x15_2 / 有-03
+                  :polarity  (x15_1 / -
+)                  :arg0  (x14 / 这里
+                        :poss  (x13 / 我们
+))                  :arg1  (x17 / 蘑菇
+                        :mod  (x16_1 / 这
+)                        :unit  (x16_2 / 种
+)))))
+===========================
+这里只有红蘑菇、白蘑菇，还有洋蘑菇。”孩子回答。
+(x14 / 回答-01
+      :arg0  (x13 / 孩子
+)      :arg2  (x19 / and
+            :op1  (x2_2 / 有-03
+                  :mod  (x2_1 / 只
+)                  :arg0  (x1 / 这里
+)                  :arg1  (x25 / and
+                        :op1  (x4 / 蘑菇
+                              :arg0-of  (x3 / 红-01
+))                        :op2  (x7 / 蘑菇
+                              :arg0-of  (x6 / 白-01
+))))            :op2  (x9_2 / 有-03
+                  :mod  (x9_1 / 还
+)                  :arg0  (x1 / 这里
+)                  :arg1  (x11 / 蘑菇
+                        :mod  (x10 / 洋
+)))))
+===========================
+军官觉得从孩子嘴里什么也问不出来，就不再问了。
+(x18 / causation
+      :arg1  (x2 / 觉得-01
+            :arg0  (x1 / 军官
+)            :arg1  (x22 / possible
+                  :polarity  (x10 / -
+)                  :arg0  (x9 / 问-01
+                        :cause-of  (x11 / 出来-01
+                              :arg0  (x7 / amr-unknown
+)                              :source  (x5 / 嘴
+                                    :part-of  (x4 / 孩子
+)))                        :arg1  (x4 / 孩子
+))))      :arg2  (x15 / 问-01
+            :aspect  (x16 / 了
+)            :polarity  (x14 / -
+)            :arg0  (x1 / 军官
+)            :arg2  (x4 / 孩子
+)))
+===========================
+树林深处，有几个游击队员埋伏在那里，树旁架着冲锋枪。
+(x19 / and
+      :location  (x2 / 深处
+            :arg0  (x1 / 树林
+))      :op1  (x9 / 埋伏-01
+            :arg0  (x8 / 队员
+                  :arg1-of  (x4 / 有-03
+)                  :mod  (x7 / 游击
+)                  :quant  (x5 / 几
+)                  :cunit  (x6 / 个
+))            :location  (x11 / 那里
+))      :op2  (x15 / 架-01
+            :aspect  (x16 / 着
+)            :arg1  (x17 / 冲锋枪
+)            :location  (x14 / 旁
+                  :arg0  (x13 / 树
+))))
+===========================
+他们从树枝缝里往外望，能够看见曲折的小路。
+(x16 / condition
+      :arg1  (x8 / 望-01
+            :direction  (x7 / 外
+)            :arg0  (x1 / 他们
+)            :source  (x4 / 缝
+                  :poss  (x3 / 树枝
+)))      :arg2  (x10 / 能够-01
+            :arg0  (x11 / 看见-01
+                  :arg0  (x1 / 他们
+)                  :arg1  (x14 / 小路
+                        :arg0-of  (x12 / 曲折-01
+)))))
+===========================
+他们不时说几句简单的话，小心地拨开树枝，聚精会神地盯着远方。
+(x21 / and
+      :op1  (x3 / 说-01
+            :frequency  (x2 / 不时
+)            :arg0  (x1 / 他们
+)            :arg1  (x8 / 话-01
+                  :arg0-of  (x6 / 简单-01
+)                  :quant  (x4 / 几
+)                  :unit  (x5 / 句
+)))      :op2  (x12 / 拨开-01
+            :manner  (x10 / 小心-01
+)            :arg0  (x1 / 他们
+)            :arg1  (x13 / 树枝
+))      :op3  (x17 / 盯-01
+            :manner  (x15 / 聚精会神
+)            :aspect  (x18 / 着
+)            :arg0  (x1 / 他们
+)            :arg1  (x19 / 远方
+)))
+===========================
+“你们听见了吗？”一个游击队员突然说。
+(x12 / 说-01
+      :manner  (x11 / 突然
+)      :arg0  (x10 / 队员
+            :quant  (x7 / 1
+)            :cunit  (x8 / 个
+)            :mod  (x9 / 游击
+))      :arg1  (x3 / 听见-01
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 你们
+)            :mode  (x5_x6 / interrogative
+)))
+===========================
+他伸直了腰，好像有什么鸟的叫声，透过树叶的沙沙声，模模糊糊地传来。
+(x24 / and
+      :op1  (x2 / 伸-01
+            :cause-of  (x3 / 直-01
+                  :arg0  (x5 / 腰
+                        :part-of  (x1 / 他
+))                  :aspect  (x4 / 了
+))            :arg0  (x1 / 他
+)            :arg1  (x5 / 腰
+))      :op2  (x7 / 好像-01
+            :arg0  (x8 / 有-03
+                  :arg1  (x22 / 传来-01
+                        :manner  (x20 / 模糊
+)                        :arg1  (x42 / and
+                              :op1  (x12 / 叫声
+                                    :poss  (x10 / 鸟
+)                                    :mod  (x9 / amr-unknown
+))                              :op2  (x18 / 声
+                                    :arg0-of  (x40 / mean
+                                          :arg1  (x17 / 沙沙
+))                                    :arg0-of  (x14 / 透过-01
+                                          :arg1  (x15 / 树叶
+))))))))
+===========================
+他侧着头，往叫声那边仔细听，“夜莺！”
+(x14 / and
+      :op1  (x2 / 侧-01
+            :arg0  (x1 / 他
+)            :aspect  (x3 / 着-01
+)            :arg1  (x4 / 头
+                  :part-of  (x1 / 他
+)))      :op2  (x10 / 听-01
+            :direction  (x8 / 那边
+                  :location-of  (x7 / 叫声
+))            :manner  (x9 / 仔细
+)            :arg0  (x1 / 他
+))      :op3  (x24 / say
+            :arg1  (x12 / 夜莺
+                  :mode  (x13 / expressive
+))))
+===========================
+“没听错吗？”另一个游击队员说。
+(x11 / 说-01
+      :arg0  (x10 / 队员
+            :mod  (x7 / 另
+)            :quant  (x8_1 / 1
+)            :cunit  (x8_2 / 个
+)            :mod  (x9 / 游击
+))      :arg1  (x4 / 错-01
+            :arg0  (x3 / 听
+)            :polarity  (x2 / -
+)            :mode  (x5_x6 / interrogative
+)))
+===========================
+他紧张起来仔细听，可又什么也听不见了。
+(x16 / and
+      :op1  (x2_x3 / 紧张-01
+            :arg0  (x1 / 他
+))      :op2  (x5 / 听-01
+            :manner  (x4 / 仔细
+)            :arg0  (x1 / 他
+))      :op3  (x22 / possible
+            :arg0  (x11_x13 / 听见-01
+                  :aspect  (x14 / 了
+)                  :arg1  (x9 / amr-unknown
+)                  :arg0  (x1 / 他
+))            :polarity  (x12 / -
+)            :mod  (x7 / 可
+)            :mod  (x8 / 又
+)            :mod  (x10 / 也
+)))
+===========================
+他从大树桩下边掏出四个手榴弹，放在跟前以防万一。
+(x16 / temporal
+      :arg1  (x6 / 掏-01
+            :arg1  (x10 / 手榴弹
+                  :quant  (x8 / 4
+)                  :cunit  (x9 / 个
+))            :arg0  (x1 / 他
+)            :source  (x5 / 下边
+                  :arg0  (x4 / 树桩
+                        :arg0-of  (x3 / 大-01
+))))      :arg2  (x12 / 放在-01
+            :arg2  (x13 / 跟前
+                  :arg0  (x1 / 他
+))            :arg1  (x10 / 手榴弹
+)            :arg0  (x1 / 他
+)            :purpose  (x14 / 以防万一
+)))
+===========================
+“这回你听见了没有？”
+(x9 / say
+      :arg1  (x5 / 听见-01
+            :time  (x3 / 回
+                  :mod  (x2 / 这
+))            :aspect  (x6 / 了
+)            :mode  (x7_x8 / interrogative
+)            :arg0  (x4 / 你
+)))
+===========================
+夜莺的歌声越来越响了。
+(x5 / 响
+      :aspect  (x6 / 了
+)      :arg0  (x3 / 歌声
+            :poss  (x1 / 夜莺
+))      :degree  (x4 / 越来越
+))
+===========================
+那个最先听到夜莺叫的凝神地站着，好像钉在那里似的。
+(x18 / and
+      :op1  (x9 / 站-01
+            :manner  (x7 / 凝神-01
+                  :arg0  (x22 / person
+                        :mod  (x1_1 / 那
+)                        :cunit  (x1_2 / 个
+)                        :arg0-of  (x3 / 听到-01
+                              :time  (x2 / 最先
+)                              :arg1  (x5 / 叫-03
+                                    :arg0  (x4 / 夜莺
+)))))            :arg0  (x22 / person
+)            :aspect  (x10 / 着
+))      :op2  (x12 / 好像-01
+            :arg0  (x22 / person
+)            :arg1  (x13 / 钉-01
+                  :arg2  (x15 / 那里
+))))
+===========================
+他注意数着一声一声的鸟叫：“一，二，三，四……”
+(x21 / and
+      :op1  (x2 / 注意-01
+            :arg1  (x3 / 数-01
+                  :aspect  (x4 / 着
+)                  :arg0  (x1 / 他
+)                  :arg1  (x11 / 叫-03
+                        :arg0  (x10 / 鸟
+)                        :quant  (x5_x6_x7_x8 / 一声一声
+)))            :arg0  (x1 / 他
+))      :op2  (x27 / say
+            :arg1  (x31 / and
+                  :op1  (x13 / 一
+)                  :op2  (x15 / 二
+)                  :op3  (x17 / 三
+)                  :op4  (x19 / 四
+))))
+===========================
+一边数一边用手打着拍子。
+(x10 / and
+      :op1  (x2 / 数
+)      :op2  (x6 / 打
+            :aspect  (x7 / 着
+)            :instrument  (x5 / 手
+)            :arg1  (x8 / 拍子
+)))
+===========================
+夜莺的叫声停止了。
+(x4 / 停止-01
+      :arg1  (x3 / 叫声
+            :poss  (x1 / 夜莺
+))      :aspect  (x5 / 了
+))
+===========================
+“32个鬼子……”那个人说。
+(x8 / 说-01
+      :arg0  (x7 / 人
+            :mod  (x6_1 / 那
+)            :cunit  (x6_2 / 个
+))      :arg1  (x4 / 鬼子
+            :cunit  (x3 / 个
+)            :quant  (x2 / 32
+)))
+===========================
+只有游击队员才知道这鸟叫的意思。
+(x12 / condition
+      :arg1  (x3 / 队员
+            :mod  (x2 / 游击
+))      :arg2  (x5 / 知道-01
+            :arg1  (x10 / 意思
+                  :poss  (x8 / 叫-03
+                        :arg0  (x7 / 鸟
+                              :mod  (x6 / 这
+))))            :arg0  (x3 / 队员
+)))
+===========================
+接着传来两声杜鹃叫。
+(x8 / temporal
+      :arg2  (x2 / 传来-01
+            :arg1  (x6 / 叫-03
+                  :quant  (x3 / 2
+)                  :cunit  (x4 / 声
+)                  :arg0  (x5 / 杜鹃
+))))
+===========================
+“两挺机关枪。”他又补充说。
+(x9 / 说-01
+      :manner  (x8 / 补充
+)      :mod  (x7 / 又
+)      :arg0  (x6 / 他
+)      :arg1  (x4 / 机关枪
+            :cunit  (x3 / 挺
+)            :quant  (x2 / 2
+)))
+===========================
+“对付得了！”一个满脸胡子的汉子端着冲锋枪说。
+(x15 / 说-01
+      :arg0  (x11 / 汉子
+            :mod  (x9 / 胡子
+                  :location  (x8 / 脸
+                        :mod  (x7 / 满
+)))            :quant  (x6_1 / 1
+)            :cunit  (x6_2 / 个
+))      :arg1  (x4 / possible
+            :arg0  (x2 / 对付-01
+)            :mode  (x5 / expressive
+)))
+===========================
+他理了理挂在腰间的子弹袋。
+(x2_x4 / 理-01
+      :aspect  (x3 / 了
+)      :arg0  (x1 / 他
+)      :arg1  (x11 / 袋
+            :mod  (x10 / 子弹
+)            :arg1-of  (x5 / 挂-01
+                  :arg0  (x1 / 他
+)                  :arg2  (x8 / 间
+                        :arg0  (x7 / 腰
+                              :part-of  (x1 / 他
+))))))
+===========================
+“应该对付得了！”
+(x7 / say
+      :arg0  (x2 / 应该-01
+            :mode  (x6 / expressive
+)            :arg0  (x5 / possible
+                  :arg0  (x3 / 对付
+))))
+===========================
+听鸟叫的那个人回答，“我和斯切潘叔叔把他们放过去，等你们开了火，我们在后边加油。
+(x7 / 回答-01
+      :arg0  (x6 / 人
+            :mod  (x5_1 / 那
+)            :cunit  (x5_2 / 个
+)            :arg0-of  (x1 / 听-01
+                  :arg1  (x3 / 叫-03
+                        :arg0  (x2 / 鸟
+))))      :arg2  (x33 / temporal
+            :arg1  (x15 / 放-01
+                  :arg0  (x10 / and
+                        :op1  (x9 / x6
+)                        :op2  (x12 / 叔叔
+                              :name  ( x11/斯切潘 
+)))                  :arg1  (x14 / 他们
+)                  :cause-of  (x16 / 过去-02
+                        :arg0  (x14 / 他们
+)))            :arg2  (x18 / 等-01
+                  :arg1  (x20_x22 / 开火-01
+                        :aspect  (x21 / 了
+)                        :arg0  (x19 / 你们
+)))            :arg3  (x27 / 加油-01
+                  :arg0  (x24 / 我们
+)                  :location  (x26 / 后边
+))))
+===========================
+如果我们出了什么事，你们可不要忘了小夜莺……”
+(x16 / say
+      :arg1  (x18 / condition
+            :arg1  (x3 / 出
+                  :aspect  (x4 / 了
+)                  :arg0  (x2 / 我们
+)                  :arg1  (x6 / 事
+                        :mod  (x5 / amr-unknown
+)))            :arg2  (x9 / 可-01
+                  :arg0  (x10_2 / 要-03
+                        :polarity  (x10_1 / -
+)                        :arg0  (x11 / 忘-01
+                              :aspect  (x12 / 了
+)                              :arg0  (x8 / 你们
+)                              :arg1  (x14 / 夜莺
+                                    :arg0-of  (x13 / 小-01
+)))))))
+===========================
+过了几分钟，德国兵在松树林后边出现了。
+(x15 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x19 / temporal-quantity
+                  :quant  (x3 / 几
+)                  :unit  (x4 / 分钟
+)))      :arg2  (x12 / 出现-01
+            :aspect  (x13 / 了
+)            :arg1  (x7 / 兵
+                  :mod  (x23 / nationality
+                        :name  ( x6/德国 
+)))            :arg0  (x11 / 后边
+                  :arg0  (x10 / 林
+                        :mod  (x9 / 松树
+)))))
+===========================
+夜莺还是兴致勃勃地唱着，但是对藏在寂静森林里的人们来说，那歌声已经没有什么新鲜的意思了。
+(x29 / contrast
+      :arg1  (x5 / 唱-01
+            :aspect  (x6 / 着
+)            :manner  (x3 / 兴致勃勃-01
+                  :arg0  (x1 / 夜莺
+))            :arg0  (x1 / 夜莺
+)            :mod  (x2 / 还是
+))      :arg2  (x17 / 来说-01
+            :arg0  (x5 / 唱-01
+)            :arg1  (x16 / 人们
+                  :arg0-of  (x10 / 藏
+                        :location  (x13 / 森林
+                              :arg0-of  (x12 / 寂静-01
+))))            :arg2  (x22_2 / 有-03
+                  :polarity  (x22_1 / -
+)                  :arg0  (x20 / 歌声
+                        :mod  (x19 / 那
+))                  :aspect  (x21 / 已经
+)                  :arg1  (x26 / 意思
+                        :arg0-of  (x24 / 新鲜-01
+                              :mod  (x23 / amr-unknown
+)))                  :smood  (x27 / 了
+))))
+===========================
+德国兵走到林中空地上的时候，突然从松树林里发出一声口哨响，像回声一样回答了孩子。
+(x29 / and
+      :time  (x3_x4 / 走到-01
+            :arg0  (x2 / 兵
+                  :mod  (x33 / nationality
+                        :name  ( x1/德国 
+)))            :arg1  (x6 / 空地
+                  :location  (x5 / 林中
+)))      :op1  (x16 / 发出-01
+            :arg1  (x20 / 响
+                  :mod  (x19 / 口哨
+)                  :quant  (x17 / 1
+)                  :cunit  (x18 / 声
+))            :manner  (x11 / 突然
+)            :source  (x14 / 林
+                  :mod  (x13 / 松树
+)))      :op2  (x25 / 回答-01
+            :manner  (x22 / 像
+                  :arg1  (x23 / 回声
+))            :aspect  (x26 / 了
+)            :arg3  (x27 / 孩子
+)            :arg0  (x20 / 响
+)))
+===========================
+孩子突然站住，转了个身，钻到树林里不见了。
+(x18 / temporal
+      :arg1  (x3 / 站住-01
+            :arg0  (x1 / 孩子
+)            :manner  (x2 / 突然
+))      :arg2  (x5 / 转-04
+            :aspect  (x6 / 了
+)            :arg0  (x1 / 孩子
+)            :arg1  (x8 / 身
+                  :part-of  (x1 / 孩子
+)))      :arg3  (x10 / 钻-02
+            :arg1  (x12 / 树林
+)            :arg0  (x1 / 孩子
+))      :arg4  (x14_x15 / 不见-01
+            :aspect  (x16 / 了
+)            :arg0  (x1 / 孩子
+)))
+===========================
+枪声打破了林中的寂静。
+(x2 / 打破-01
+      :aspect  (x3 / 了-01
+)      :arg0  (x1 / 枪声
+)      :arg1  (x6 / 寂静
+            :location  (x4 / 林中
+)))
+===========================
+军官还没来得及抓起手枪，就滚到了路边的尘埃里。
+(x17 / condition
+      :arg1  (x4 / 来得及
+            :arg0  (x5 / 抓起-01
+                  :arg0  (x1 / 军官
+)                  :arg1  (x6 / 手枪
+))            :polarity  (x3 / -
+)            :mod  (x2 / 还-01
+))      :arg2  (x9_x10 / 滚到-01
+            :arg0  (x1 / 军官
+)            :arg1  (x14 / 尘埃
+                  :location  (x12 / 路边
+))            :aspect  (x11 / 了
+)))
+===========================
+被冲锋枪打伤的德国兵一个跟一个地倒下。
+(x13 / 倒下-01
+      :manner  (x7_x8_x9_10_x11 / 一个跟一个
+)      :arg0  (x6 / 兵
+            :arg1-of  (x3 / 打伤-01
+                  :arg0  (x2 / 冲锋枪
+))            :mod  (x21 / nationality
+                  :name  ( x5/德国 
+))))
+===========================
+呻吟声、叫喊声、断断续续的口令声充满了树林。
+(x11 / 充满-01
+      :arg0  (x17 / and
+            :op1  (x2 / 声
+                  :mod  (x1 / 呻吟
+))            :op2  (x5 / 声
+                  :mod  (x4 / 叫喊
+))            :op3  (x10 / 声
+                  :mod  (x9 / 口令
+)                  :arg0-of  (x7 / 断断续续-01
+)))      :arg1  (x13 / 树林
+)      :aspect  (x12 / 了
+))
+===========================
+第二天，在被烧毁的村子的围墙旁边，在那小路分岔的地方，孩子又穿着那件绿上衣，坐在原来那河岸边削什么东西，并且不时回过头去，望望那通向村子的几条道路，好像在等谁似的。
+(x60 / and
+      :location  (x18 / 地方
+            :mod  (x16 / 分岔
+                  :arg0  (x15 / 小路
+))            :mod  (x14 / 那
+)            :location  (x11 / 旁边
+                  :arg0  (x10 / 围墙
+                        :poss  (x8 / 村子
+)                        :arg1-of  (x6 / 烧毁-01
+))))      :time  (x1_x2 / 第二天
+)      :op1  (x22 / 穿-01
+            :mod  (x21 / 又
+)            :arg0  (x20 / 孩子
+)            :arg1  (x27 / 上衣
+                  :arg1-of  (x26 / 绿-01
+)                  :cunit  (x25 / 件
+)                  :mod  (x24 / 那
+))            :aspect  (x23 / 着
+))      :op2  (x29 / 坐-01
+            :arg1  (x34 / 岸边
+                  :arg0  (x33 / 河
+)                  :mod  (x32 / 那
+)                  :arg0-of  (x31 / 原来-01
+))            :arg0  (x20 / 孩子
+))      :op3  (x35 / 削-01
+            :arg0  (x20 / 孩子
+)            :arg1  (x37 / 东西
+                  :mod  (x36 / amr-unknown
+)))      :op4  (x41 / 回过
+            :arg1  (x42 / 头
+)            :frequency  (x40 / 不时
+)            :arg0  (x20 / 孩子
+))      :op5  (x45 / 望-01
+            :arg1  (x52 / 道路
+                  :mod  (x46 / 那
+)                  :cunit  (x51 / 条
+)                  :quant  (x50 / 几
+)                  :arg0-of  (x47 / 通向-01
+                        :arg1  (x48 / 村子
+)))            :arg0  (x20 / 孩子
+))      :op6  (x54 / 好像-01
+            :arg0  (x56 / 等-01
+                  :aspect  (x55 / 在
+)                  :arg0  (x20 / 孩子
+)                  :arg1  (x57 / amr-unknown
+)))      :op4  (x41_x42_x43 / 回头
+            :arg0  (x20 / 孩子
+)            :frequency  (x40 / 不时
+)))
+===========================
+从孩子的嘴里飞出宛转的夜莺的歌声。
+(x6 / 飞-01
+      :arg0  (x12 / 歌声
+            :poss  (x10 / 夜莺
+)            :arg0-of  (x8 / 宛转
+))      :source  (x4 / 嘴
+            :part-of  (x2 / 孩子
+)))
+===========================
+这歌声，即使是听惯了鸟叫的人也觉察不出跟真夜莺的有什么两样。
+(x25 / concession
+      :arg1  (x12 / 人
+            :arg0-of  (x6 / 听-01
+                  :cause-of  (x7 / 惯-01
+                        :aspect  (x8 / 了
+)                        :arg0  (x12 / 人
+)                        :arg1  (x10 / 叫-03
+                              :arg0  (x9 / 鸟
+)))                  :arg1  (x10 / 叫-03
+)))      :arg2  (x16 / possible
+            :arg0  (x14 / 觉察-01
+                  :arg1  (x21 / 有-03
+                        :compared-to  (x19 / 夜莺
+                              :arg0-of  (x18 / 真-01
+))                        :arg1  (x23 / 两样
+                              :mod  (x22 / amr-unknown
+))                        :arg0  (x2 / 歌声
+                              :mod  (x1 / 这
+))))            :polarity  (x15 / -
+)))
+===========================

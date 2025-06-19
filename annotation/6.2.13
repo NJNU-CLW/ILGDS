@@ -1,0 +1,550 @@
+周总理在第一次“文代”大会上作了报告。
+(x10 / 作-01
+      :arg0  (x16 / person
+            :arg0-of  (x17 / have-org-role-91
+                  :arg2  (x1 / 周总理
+)))      :arg1  (x12 / 报告
+)      :location  (x8 / 大会
+            :topic  (x6 / 文代
+)            :ord  (x22 / ordinal-entity
+                  :value  (x3 / 1
+)                  :unit  (x4 / 次
+)))      :aspect  (x11 / 了
+))
+===========================
+《人民文学》杂志要发表这个报告，由我把记录稿作了整理，送给总理审阅。
+(x33 / temporal
+      :arg1  (x6 / 要-03
+            :arg0  (x7 / 发表-01
+                  :arg0  (x5 / magazine
+                        :name  ( x3/文学 
+))                  :arg1  (x9 / 报告
+                        :mod  (x8_1 / 这
+)                        :cunit  (x8_2 / 个
+))))      :arg2  (x11 / 由-01
+            :arg0  (x12 / 我
+)            :arg1  (x15 / 作-01
+                  :arg1  (x17 / 整理-01
+                        :arg1  (x14 / 记录稿
+)                        :arg0  (x12 / 我
+))                  :aspect  (x16 / 了
+)))      :arg4  (x19 / 送-01
+            :arg1  (x42 / person
+                  :arg0-of  (x43 / have-org-role-91
+                        :arg2  (x21 / 总理
+)))            :purpose  (x22 / 审阅-01
+                  :arg0  (x42 / person
+)                  :arg1  (x14 / 记录稿
+))            :arg0  (x12 / 我
+)))
+===========================
+这一天，总理办公室通知我去中南海政务院。
+(x5 / 通知-01
+      :arg0  (x14 / organization
+            :name  ( x4/办公室 
+))      :arg1  (x6 / 我
+)      :arg2  (x7 / 去-01
+            :arg1  (x18 / organization
+                  :name  ( x8/中南海政务院 
+)))      :time  (x1 / 这一天
+))
+===========================
+我走进总理的办公室。
+(x2_x3 / 走进-01
+      :arg0  (x1 / 我
+)      :arg1  (x6 / 办公室
+            :poss  (x12 / person
+                  :arg0-of  (x13 / have-org-role-91
+                        :arg2  (x4 / 总理
+)))))
+===========================
+那是一间高大的宫殿式的房子，室内陈设极其简单，一张不大的写字台，两把小转椅，一盏台灯，如此而已。
+(x34 / and
+      :op1  (x9 / 房子
+            :quant  (x3 / 1
+)            :cunit  (x4 / 间
+)            :arg0-of  (x5 / 高大-01
+)            :mod  (x7 / 宫殿式
+)            :domain  (x1 / 那
+))      :op2  (x14 / 简单-01
+            :arg0  (x12 / 陈设
+                  :location  (x11 / 室内
+)                  :arg0-of  (x47 / mean
+                        :arg1  (x48 / and
+                              :op1  (x20 / 写字台
+                                    :arg0-of  (x18_2 / 大-01
+                                          :polarity  (x18_1 / -
+))                                    :quant  (x16 / 1
+)                                    :cunit  (x17 / 张
+))                              :op2  (x25 / 转椅
+                                    :arg0-of  (x24 / 小-01
+)                                    :quant  (x22 / 2
+)                                    :cunit  (x23 / 把
+))                              :op3  (x29 / 台灯
+                                    :quant  (x27 / 1
+)                                    :cunit  (x28 / 盏
+)))))            :degree  (x13 / 极其
+))      :op3  (x32 / 而已
+            :arg0  (x31 / 如此
+)))
+===========================
+总理见了我，指着写字台上一尺来高的一叠文件，说：“我今晚要批这些文件。
+(x28 / temporal
+      :arg1  (x2 / 见-01
+            :arg0  (x31 / person
+                  :arg0-of  (x32 / have-org-role-91
+                        :arg2  (x1 / 总理
+)))            :aspect  (x3 / 了
+)            :arg1  (x4 / 我
+))      :arg2  (x6 / 指-05
+            :arg1  (x17 / 文件
+                  :quant  (x15 / 1
+)                  :cunit  (x16 / 叠
+)                  :location  (x8 / 写字台
+)                  :quant  (x13 / 高
+                        :cunit  (x11 / 尺
+)                        :quant  (x12 / 来
+                              :op1  (x10 / 1
+))))            :arg0  (x31 / person
+))      :arg3  (x19 / 说-01
+            :arg1  (x23 / 要-03
+                  :arg0  (x24 / 批-01
+                        :arg0  (x21 / x31
+)                        :arg1  (x26 / 文件
+                              :mod  (x25 / 这些
+)))                  :time  (x22 / 今晚
+))            :arg0  (x31 / person
+)))
+===========================
+你们送来的稿子，我放在最后。
+(x8_x9 / 放在-01
+      :arg0  (x7 / 我
+)      :arg1  (x5 / 稿子
+            :arg1-of  (x2_x3 / 送来-01
+                  :arg0  (x1 / 你们
+)))      :arg2  (x10 / 最后
+))
+===========================
+你到隔壁值班室去睡一觉，到时候叫你。”我就到值班室去睡了。
+(x23 / temporal
+      :arg1  (x25 / say
+            :arg1  (x26 / temporal
+                  :arg1  (x2 / 到-01
+                        :arg1  (x4 / 值班室
+                              :location  (x3 / 隔壁
+))                        :arg0  (x1 / 你
+)                        :purpose  (x6 / 睡-01
+                              :arg1  (x8 / 觉
+                                    :quant  (x7 / 1
+))))                  :arg2  (x34 / condition
+                        :arg1  (x10 / 到-02
+                              :arg1  (x11 / 时候
+))                        :arg2  (x12 / 叫-02
+                              :arg1  (x13 / x1
+)))))      :arg2  (x17 / 到-01
+            :arg0  (x18 / 值班室
+)            :arg0  (x15 / x1
+)            :purpose  (x20 / 睡-01
+                  :arg0  (x15 / x1
+))            :aspect  (x21 / 了
+)))
+===========================
+不知到了什么时候，值班室的同志把我叫醒。
+(x15 / and
+      :op1  (x2 / 知-01
+            :polarity  (x1 / -
+)            :arg1  (x3 / 到-02
+                  :arg1  (x6 / 时候
+                        :mod  (x5 / amr-unknown
+))                  :aspect  (x4 / 了
+)))      :op2  (x13 / 叫醒-01
+            :arg0  (x10 / 同志
+                  :location  (x8 / 值班室
+))            :arg1  (x12 / 我
+)))
+===========================
+他对我说：“总理叫你去。”
+(x4 / 说-01
+      :arg0  (x1 / 他
+)      :arg3  (x3 / 我
+)      :arg1  (x7 / 叫-04
+            :arg0  (x16 / person
+                  :arg0-of  (x17 / have-org-role-91
+                        :arg2  (x6 / 总理
+)))            :arg1  (x8 / x3
+)            :arg2  (x9 / 去-01
+                  :arg0  (x8 / x3
+))))
+===========================
+我立刻起来，揉揉朦胧的睡眼，走进总理的办公室。
+(x15 / temporal
+      :arg1  (x3 / 起来-01
+            :time  (x2 / 立刻
+)            :arg0  (x1 / 我
+))      :arg2  (x5 / 揉-01
+            :arg1  (x8 / 睡眼
+                  :arg0-of  (x6 / 朦胧-01
+))            :arg0  (x1 / 我
+))      :arg3  (x10 / 走进-01
+            :arg1  (x13 / 办公室
+                  :poss  (x25 / person
+                        :arg0-of  (x26 / have-org-role-91
+                              :arg2  (x11 / 总理
+))))            :arg0  (x1 / 我
+)))
+===========================
+总理招呼我坐在他的写字台对面，要我陪他审阅我整理的记录稿，其实是备咨询的意思。
+(x28 / temporal
+      :arg1  (x2 / 招呼-01
+            :arg0  (x31 / person
+                  :arg0-of  (x32 / have-org-role-91
+                        :arg2  (x1 / 总理
+)))            :arg1  (x4 / 坐-01
+                  :arg0  (x3 / 我
+)                  :arg1  (x9 / 对面
+                        :arg0  (x8 / 写字台
+                              :poss  (x6 / x31
+)))))      :arg2  (x11 / 要-03
+            :arg0  (x15 / 审阅-01
+                  :arg0  (x14 / x31
+)                  :accompanier  (x12 / x3
+)                  :arg1  (x19 / 记录稿
+                        :arg1-of  (x17 / 整理-01
+                              :arg0  (x16 / x3
+)))                  :arg0-of  (x22_x25_x26 / mean
+                        :arg1  (x23 / 备-01
+                              :arg1  (x24 / 咨询
+))))))
+===========================
+他一句一句地审阅，看完一句就用笔在那一句后面画上一个小圆圈。
+(x28 / and
+      :op1  (x7 / 审阅-01
+            :manner  (x2_x3_x4_x5 / 一句一句
+)            :arg0  (x1 / 他
+))      :op2  (x33 / condition
+            :arg1  (x9_x10 / 看完-01
+                  :arg1  (x35 / thing
+                        :quant  (x11 / 1
+)                        :cunit  (x12 / 句
+))                  :arg0  (x1 / 他
+))            :arg2  (x21_x22 / 画上-01
+                  :arg1  (x26 / 圆圈
+                        :arg0-of  (x25 / 小-01
+)                        :quant  (x23 / 1
+)                        :cunit  (x24 / 个
+)                        :location  (x20 / 后面
+                              :arg0  (x44 / thing
+                                    :quant  (x18 / 1
+)                                    :cunit  (x19 / 句
+)                                    :mod  (x17 / 那
+))))                  :instrument  (x15 / 笔
+)                  :arg0  (x1 / 他
+))))
+===========================
+他不是浏览一遍就算了，而是一边看一边思索，有时停笔想一想，有时问我一两句。
+(x30 / and
+      :op1  (x8 / 算-03
+            :arg0  (x4 / 浏览
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 遍
+)                  :arg0  (x1 / 他
+))            :mod  (x7 / 就-01
+)            :aspect  (x9 / 了
+)            :polarity  (x2 / -
+))      :op2  (x40 / and
+            :op1  (x13 / 看-02
+                  :arg0  (x1 / 他
+))            :op2  (x15 / 思索-01
+                  :arg0  (x1 / 他
+)))      :op3  (x18 / 停-01
+            :arg1  (x19 / 笔
+)            :purpose  (x20_x21_x22 / 想-01
+                  :arg0  (x1 / 他
+))            :time  (x17 / 有时
+))      :op4  (x25 / 问-01
+            :arg1  (x48 / thing
+                  :quant  (x50 / or
+                        :op1  (x27_1 / 1
+)                        :op2  (x27_2 / 2
+))                  :cunit  (x28 / 句
+))            :arg2  (x26 / 我
+)            :arg0  (x1 / 他
+)))
+===========================
+夜很静，经过相当长的时间总理才审阅完，把稿子交给了我。
+(x21 / and
+      :op1  (x3 / 静-01
+            :arg0  (x1 / 夜
+)            :degree  (x2 / 很
+))      :op2  (x26 / temporal
+            :arg1  (x13 / 完-01
+                  :arg0  (x12 / 审阅-01
+                        :arg0  (x29 / person
+                              :arg0-of  (x30 / have-org-role-91
+                                    :arg2  (x10 / 总理
+)))                        :duration  (x9 / 时间
+                              :arg0-of  (x7 / 长-02
+                                    :degree  (x6 / 相当
+)))                        :arg1  (x16 / 稿子
+)))            :arg2  (x17 / 交给-01
+                  :arg1  (x16 / 稿子
+)                  :arg2  (x19 / 我
+)                  :aspect  (x18 / 了
+)                  :arg0  (x29 / person
+))))
+===========================
+这时候，值班室的同志送来两杯热腾腾的绿茶，一小碟花生米，放在写字台上。
+(x25 / temporal
+      :arg1  (x6_x7 / 送来-01
+            :arg0  (x5 / 同志
+                  :location  (x3 / 值班室
+))            :arg1  (x30 / and
+                  :op1  (x13 / 茶
+                        :arg1-of  (x12 / 绿-01
+)                        :arg0-of  (x10 / 热腾腾-01
+)                        :quant  (x8 / 2
+)                        :unit  (x9 / 杯
+))                  :op2  (x18 / 花生米
+                        :quant  (x15 / 1
+)                        :cunit  (x17 / 碟
+                              :arg0-of  (x16 / 小-01
+))))            :time  (x1 / 这时候
+))      :arg2  (x20 / 放-01
+            :arg2  (x22 / 写字台
+)            :arg1  (x30 / and
+)            :arg0  (x5 / 同志
+)))
+===========================
+总理让我跟他一起喝茶，吃花生米。
+(x2 / 让-02
+      :arg0  (x15 / person
+            :arg0-of  (x16 / have-org-role-91
+                  :arg2  (x1 / 总理
+)))      :arg1  (x3 / 我
+)      :arg2  (x20 / and
+            :op1  (x7 / 喝-01
+                  :arg1  (x8 / 茶
+)                  :arg0  (x4_x6 / and
+                        :op1  (x3 / 我
+)                        :op2  (x5 / x15
+)))            :op2  (x10 / 吃-01
+                  :arg0  (x11 / 花生米
+)                  :arg0  (x4_x6 / and
+))))
+===========================
+花生米并不多，可以数得清颗数，好像并没有因为多了一个人而增加了分量。
+(x27 / and
+      :op1  (x29 / causaiton
+            :arg1  (x4 / 多-03
+                  :arg0  (x1 / 花生米
+)                  :polarity  (x3 / -
+                        :mod  (x2 / 并
+)))            :arg2  (x6 / 可以-01
+                  :arg0  (x35 / possible
+                        :arg0  (x7_x8_x9 / 数-01
+                              :arg1  (x10_x11 / 颗数
+)))))      :op2  (x13 / 好像-01
+            :arg0  (x23 / 增加-01
+                  :arg1  (x25 / 分量
+)                  :aspect  (x24 / 了
+)                  :polarity  (x15 / -
+                        :mod  (x14 / 并
+))                  :cause  (x17 / 多-01
+                        :arg1  (x21 / 人
+                              :quant  (x19 / 1
+)                              :cunit  (x20 / 个
+))                        :aspect  (x18 / 了
+)))))
+===========================
+喝了一会儿茶，就听见公鸡喔喔地叫明了。
+(x16 / temporal
+      :arg1  (x1 / 喝-01
+            :arg1  (x4 / 茶
+)            :aspect  (x2 / 了
+)            :duration  (x3 / 一会儿
+))      :arg2  (x7 / 听见-01
+            :arg1  (x12_x13 / 叫鸣
+                  :arg0  (x8 / 公鸡
+)                  :manner  (x9_x10 / 喔喔
+))            :aspect  (x14 / 了
+)))
+===========================
+总理站起来对我说：“我要去休息了。
+(x14 / temporal
+      :arg1  (x2 / 站-01
+            :direction  (x3 / 起来
+)            :arg0  (x20 / person
+                  :arg0-of  (x21 / have-org-role-91
+                        :arg2  (x1 / 总理
+))))      :arg2  (x6 / 说-01
+            :arg3  (x5 / x20
+)            :arg1  (x9 / 要-03
+                  :arg0  (x10 / 去-01
+                        :arg1  (x11 / 休息-01
+                              :arg0  (x5 / x20
+))                        :arg0  (x8 / x20
+))                  :aspect  (x12 / 了
+))))
+===========================
+上午睡一觉，下午还要参加活动。
+(x11 / temporal
+      :arg1  (x2 / 睡-01
+            :arg1  (x4 / 觉
+                  :quant  (x3 / 1
+))            :time  (x16 / date-entity
+                  :dayperiod  (x1 / 上午
+)))      :arg2  (x7_2 / 要-03
+            :mod  (x7_1 / 还
+)            :arg0  (x8 / 参加-01
+                  :arg1  (x9 / 活动
+))            :time  (x22 / date-entity
+                  :dayperiod  (x6 / 下午
+))))
+===========================
+你也回去睡觉吧。”
+(x7 / say
+      :arg1  (x3 / 回去-01
+            :arg0  (x1 / 你
+)            :mod  (x2 / 也
+)            :purpose  (x4 / 睡觉-01
+                  :arg0  (x1 / 你
+)))      :mode  (x5 / imperative
+))
+===========================
+我也站起来，没留意把小转椅的上部带歪了。
+(x18 / temporal
+      :arg1  (x3 / 站-01
+            :direction  (x4 / 起来
+)            :arg0  (x1 / 我
+)            :mod  (x2 / 也
+))      :arg2  (x24 / causation
+            :arg1  (x7 / 留意
+                  :polarity  (x6 / -
+))            :arg2  (x14 / 带
+                  :cause-of  (x15 / 歪-01
+                        :arg0  (x12_x13 / 上部
+                              :part-of  (x10 / 转椅
+                                    :arg0-of  (x9 / 小-01
+))))                  :arg0  (x1 / 我
+))))
+===========================
+总理过来把转椅扶正，就走到里面去了。
+(x14 / temporal
+      :arg1  (x2 / 过来-01
+            :arg0  (x17 / person
+                  :arg0-of  (x18 / have-org-role-91
+                        :arg2  (x1 / 总理
+)))            :purpose  (x5 / 扶正-01
+                  :arg1  (x4 / 转椅
+)                  :arg0  (x17 / person
+)))      :arg2  (x8 / 走-01
+            :direction  (x10 / 里面
+)            :aspect  (x12 / 了
+)            :arg0  (x17 / person
+)))
+===========================
+在回来的路上，我不断地想，不断地对自己说：“这就是我们的总理。
+(x23 / and
+      :op1  (x9 / 想-01
+            :arg0  (x6 / 我
+)            :manner  (x7 / 不断
+))      :op2  (x15 / 说-01
+            :arg3  (x14 / x6
+)            :manner  (x11 / 不断
+)            :arg1  (x31 / person
+                  :arg0-of  (x32 / have-org-role-91
+                        :arg2  (x21 / 总理
+))                  :poss  (x19 / 我们
+)                  :domain  (x17 / 这
+))            :arg0  (x6 / 我
+))      :location  (x4 / 路上
+            :location-of  (x2 / 回来-01
+)))
+===========================
+我看见了他一夜的工作。他是多么劳苦，多么简朴！”
+(x18 / say
+      :arg1  (x20 / and
+            :op1  (x2 / 看见-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x8 / 工作-01
+                        :duration  (x24 / temporal-quantity
+                              :quant  (x5 / 1
+)                              :unit  (x6 / 夜
+))                        :arg0  (x4 / 他
+))                  :aspect  (x3 / 了
+))            :op2  (x30 / and
+                  :op1  (x13 / 劳苦
+                        :arg0  (x10 / x4
+)                        :degree  (x12 / 多么
+))                  :op2  (x16 / 简朴-01
+                        :degree  (x15 / 多么
+)                        :arg0  (x10 / x4
+))                  :mode  (x17 / expressive
+))))
+===========================
+在以后的日子里，我经常这样想，我想高声对全世界说，好像全世界都能听见我的声音：“看啊，这就是我们中华人民共和国的总理。
+(x10 / 想-01
+      :arg0  (x7 / 我
+)      :frequency  (x8 / 经常
+)      :mod  (x9 / 这样
+)      :arg1  (x48 / and
+            :op1  (x13 / 想-02
+                  :arg1  (x18 / 说-01
+                        :arg3  (x17 / 全世界
+)                        :manner  (x14_x15 / 高声
+)                        :arg1  (x51 / and
+                              :op1  (x29 / 看
+                                    :mode  (x30 / expressive
+))                              :op2  (x54 / person
+                                    :arg0-of  (x55 / have-org-role-91
+                                          :arg2  (x37 / 总理
+)                                          :arg1  (x57 / country
+                                                :name  ( x35/中华人民共和国 
+)))                                    :poss  (x34 / 我们
+)                                    :domain  (x32 / 这
+))))                  :arg0  (x12 / x7
+))            :op2  (x20 / 好像-01
+                  :arg0  (x23 / 能-01
+                        :arg0  (x24 / 听见-01
+                              :arg1  (x27 / 声音
+                                    :poss  (x25 / x7
+))                              :arg0  (x21 / 全世界
+))                        :extent  (x22 / 都
+))))      :time  (x4 / 日子
+            :mod  (x2 / 以后
+)))
+===========================
+我看见了他一夜的工作。
+(x2 / 看见-01
+      :arg0  (x1 / 我
+)      :arg1  (x8 / 工作-01
+            :arg0  (x4 / 他
+)            :duration  (x15 / temporal-quantity
+                  :quant  (x5 / 1
+)                  :unit  (x6 / 夜
+)))      :aspect  (x3 / 了
+))
+===========================
+他每个夜晚都是这样工作的。
+(x7 / 工作-01
+      :arg0  (x1 / 他
+)      :manner  (x6 / 这样
+)      :extent  (x4 / 都
+)      :mode  (x5_x8 / judgement
+)      :time  (x3 / 夜晚
+            :quant  (x2_1 / 每
+)            :cunit  (x2_2 / 个
+)))
+===========================
+你们看见过这样的总理吗？”
+(x9 / say
+      :arg1  (x2 / 看见-01
+            :arg0  (x1 / 你们
+)            :aspect  (x3 / 过
+)            :arg1  (x14 / person
+                  :arg0-of  (x15 / have-org-role-91
+                        :arg2  (x6 / 总理
+))                  :mod  (x4 / 这样
+))            :mode  (x7_x8 / interrogative
+)))
+===========================

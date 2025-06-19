@@ -1,0 +1,1907 @@
+武松在路上行了几日，来到阳谷县地面，离县城还远。
+(x17 / and
+      :op1  (x4 / 行-01
+            :arg0  (x20 / person
+                  :name  ( x1/武松 
+))            :location  (x3 / 路上
+)            :aspect  (x5 / 了
+)            :duration  (x24 / temporal-quantity
+                  :quant  (x6_1 / 几
+)                  :unit  (x6_2 / 日
+)))      :op2  (x8 / 来到-01
+            :arg1  (x10 / 地面
+                  :location  (x29 / county
+                        :name  ( x9/阳谷县 
+))))      :op3  (x15 / 远-01
+            :arg1  (x13 / 县城
+)            :mod  (x14 / 还
+)            :arg0  (x10 / 地面
+)))
+===========================
+正是晌午时候，武松走得肚中饥渴，望见前面有一家酒店，门前挑着一面旗，上头写着五个字：“三碗不过冈”。
+(x39 / and
+      :time  (x2 / 晌午
+)      :op1  (x48 / temporal
+            :arg1  (x6 / 走-01
+                  :cause-of  (x10 / 饥渴-01
+                        :arg0  (x8 / 肚
+))                  :arg0  (x45 / person
+                        :name  ( x5/武松 
+)))            :arg2  (x12 / 望见-01
+                  :arg1  (x17 / 酒店
+                        :quant  (x15 / 1
+)                        :cunit  (x16 / 家
+)                        :arg1-of  (x14 / 有-03
+                              :arg0  (x13 / 前面
+)))                  :arg0  (x45 / person
+)))      :op2  (x20 / 挑-03
+            :arg1  (x24 / 旗
+                  :quant  (x22 / 1
+)                  :cunit  (x23 / 面
+))            :location  (x19 / 门前
+)            :aspect  (x21 / 着
+))      :op3  (x27 / 写-01
+            :arg1  (x31 / 字
+                  :quant  (x29 / 5
+)                  :cunit  (x30 / 个
+)                  :arg0-of  (x66 / mean
+                        :arg1  (x36 / 过-05
+                              :arg1  (x37 / 冈
+)                              :condition  (x69 / thing
+                                    :quant  (x33 / 3
+)                                    :cunit  (x34 / 碗
+))                              :polarity  (x35 / -
+))))            :aspect  (x28 / 着
+)            :arg2  (x26 / 上头
+)))
+===========================
+武松走进店里坐下，把哨棒靠在一边，叫道：“主人家，快拿酒来吃。”
+(x23 / temporal
+      :arg1  (x2 / 走进-01
+            :arg0  (x26 / person
+                  :name  ( x1/武松 
+))            :arg1  (x3 / 店里
+))      :arg2  (x4 / 坐下-01
+            :arg0  (x26 / person
+))      :arg3  (x8 / 靠-03
+            :arg0  (x7 / 哨棒
+)            :arg1  (x10 / 一边
+))      :arg4  (x12_x13 / 叫-03
+            :arg0  (x26 / person
+)            :arg1  (x17 / 快
+                  :arg0  (x18 / 拿-01
+                        :arg0  (x15 / 主人家
+)                        :arg1  (x19 / 酒
+)                        :purpose  (x21 / 吃-01
+                              :arg1  (x19 / 酒
+))))))
+===========================
+只见店家拿了三只碗，一双筷子，一盘熟菜，放在武松面前，满满筛了一碗酒。
+(x1 / 只见-01
+      :arg1  (x30 / temporal
+            :arg1  (x3 / 拿-01
+                  :arg0  (x2 / 店家
+)                  :arg1  (x33 / and
+                        :op1  (x7 / 碗
+                              :quant  (x5 / 3
+)                              :cunit  (x6 / 只
+))                        :op2  (x11 / 筷子
+                              :quant  (x9 / 1
+)                              :unit  (x10 / 双
+))                        :op3  (x15 / 熟菜
+                              :quant  (x13 / 1
+)                              :cunit  (x14 / 盘
+)))                  :aspect  (x4 / 了
+))            :arg2  (x17 / 放在-01
+                  :arg2  (x19 / 面前
+                        :arg0  (x46 / person
+                              :name  ( x18/武松 
+)))                  :arg1  (x33 / and
+)                  :arg0  (x2 / 店家
+))            :arg3  (x22 / 筛-01
+                  :arg1  (x26 / 酒
+                        :quant  (x24 / 1
+)                        :cunit  (x25 / 碗
+))                  :aspect  (x23 / 了
+)                  :manner  (x21 / 满
+))))
+===========================
+武松拿起碗来一饮而尽，叫道：“这酒真有气力！
+(x21 / temporal
+      :arg1  (x2_x3 / 拿起-01
+            :arg0  (x24 / person
+                  :name  ( x1/武松 
+))            :arg1  (x4 / 碗
+))      :arg2  (x6_x7_x8_x9 / 一饮而尽
+            :arg0  (x24 / person
+))      :arg3  (x11_x12 / 叫-03
+            :arg1  (x17 / 有-05
+                  :arg1  (x18 / 气力
+)                  :arg0  (x15 / 酒
+                        :mod  (x14 / 这
+))                  :degree  (x16 / 真
+)                  :mode  (x19 / expressive
+))))
+===========================
+主人家，有饱肚的拿些来吃。”
+(x12 / say
+      :arg1  (x7 / 拿-02
+            :arg1  (x15 / thing
+                  :arg2-of  (x4 / 饱
+                        :arg1  (x5 / 肚
+))                  :arg1-of  (x3 / 有-03
+)                  :quant  (x8 / 些
+))            :arg0  (x1 / 主人家
+)            :purpose  (x10 / 吃-01
+                  :arg1  (x15 / thing
+))))
+===========================
+店家道：“只有熟牛肉。”
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x4 / 只有-01
+            :arg0  (x6 / 牛肉
+                  :arg0-of  (x5 / 熟-01
+))))
+===========================
+武松道：“好的切二三斤来。”
+(x2 / 道
+      :arg0  (x13 / person
+            :name  ( x1/武松 
+))      :arg1  (x15 / and
+            :op1  (x4 / 好
+                  :smood  (x5 / 的
+))            :op2  (x6 / 切-01
+                  :arg1  (x19 / thing
+                        :quant  (x20 / and
+                              :op1  (x7_1 / 2
+)                              :op2  (x7_2 / 3
+))                        :cunit  (x8 / 斤
+)))))
+===========================
+店家切了二斤熟牛肉，装了一大盘子，拿来放在武松面前，再筛一碗酒。
+(x27 / temporal
+      :arg1  (x2 / 切-01
+            :arg0  (x1 / 店家
+)            :arg1  (x7 / 牛肉
+                  :arg0-of  (x6 / 熟-01
+)                  :quant  (x4 / 2
+)                  :unit  (x5 / 斤
+))            :aspect  (x3 / 了
+))      :arg2  (x9 / 装-01
+            :arg2  (x13 / 盘子
+                  :quant  (x11 / 1
+)                  :arg0-of  (x12 / 大-01
+))            :arg1  (x7 / 牛肉
+)            :arg0  (x1 / 店家
+))      :arg3  (x15_x16 / 拿来-01
+            :arg1  (x7 / 牛肉
+)            :arg0  (x1 / 店家
+))      :arg4  (x17 / 放在-01
+            :arg2  (x19 / 面前
+                  :arg0  (x43 / person
+                        :name  ( x18/武松 
+)))            :arg1  (x7 / 牛肉
+)            :arg0  (x1 / 店家
+))      :arg5  (x22 / 筛-01
+            :arg1  (x25 / 酒
+                  :quant  (x23 / 1
+)                  :cunit  (x24 / 碗
+))            :arg0  (x1 / 店家
+)))
+===========================
+武松吃了道：“好酒！”
+(x9 / temporal
+      :arg1  (x2 / 吃-01
+            :arg0  (x12 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+))      :arg2  (x4 / 道
+            :arg0  (x12 / person
+)            :arg1  (x7 / 酒
+                  :arg0-of  (x6 / 好-01
+)                  :mode  (x8 / expressive
+))))
+===========================
+店家又筛了一碗。
+(x3 / 筛-01
+      :arg0  (x1 / 店家
+)      :arg1  (x11 / thing
+            :quant  (x5 / 1
+)            :cunit  (x6 / 碗
+))      :aspect  (x4 / 了
+)      :mod  (x2 / 又
+))
+===========================
+恰好吃了三碗酒，店家再也不来筛了。
+(x16 / causation
+      :arg1  (x2 / 吃-01
+            :arg1  (x6 / 酒
+                  :quant  (x4 / 3
+)                  :cunit  (x5 / 碗
+))            :aspect  (x3 / 了
+)            :mod  (x1 / 恰好
+))      :arg2  (x13 / 筛-01
+            :arg0  (x8 / 店家
+)            :polarity  (x11 / -
+)            :mod  (x9 / 再
+)            :mod  (x10 / 也
+)            :aspect  (x14 / 了
+)))
+===========================
+武松敲着桌子叫道：“主人家，怎么不来筛酒？”
+(x5_x6 / 叫-03
+      :arg0  (x18 / person
+            :name  ( x1/武松 
+))      :manner  (x2 / 敲
+            :arg1  (x4 / 桌子
+)            :aspect  (x3 / 着
+)            :arg0  (x18 / person
+))      :arg1  (x13 / 筛-01
+            :arg0  (x8 / 主人家
+)            :arg1  (x14 / 酒
+)            :polarity  (x11 / -
+)            :cause  (x10 / amr-unknonw
+)            :mode  (x15 / interrogative
+)))
+===========================
+店家道：“客官，要肉就添来。”
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x15 / condition
+            :arg1  (x6 / 要-01
+                  :arg0  (x4 / 客官
+)                  :arg1  (x7 / 肉
+))            :arg2  (x9 / 添-01
+                  :arg1  (x7 / 肉
+))))
+===========================
+武松道：“酒也要，肉也再切些来。”
+(x2 / 道
+      :arg0  (x17 / person
+            :name  ( x1/武松 
+))      :arg1  (x19 / and
+            :op1  (x6 / 要-01
+                  :mod  (x5 / 也
+)                  :arg1  (x4 / 酒
+))            :op2  (x11 / 切-01
+                  :arg1  (x8 / 肉
+                        :quant  (x12 / 些
+))                  :mod  (x9 / 也
+)                  :mod  (x10 / 再
+))))
+===========================
+店家道：“肉就添来，酒却不添了。”
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x18 / contrast
+            :arg1  (x19 / condition
+                  :arg1  (x4 / 肉
+)                  :arg2  (x6 / 添-01
+                        :arg1  (x4 / 肉
+)))            :arg2  (x12 / 添-01
+                  :arg1  (x9 / 酒
+)                  :polarity  (x11 / -
+)                  :aspect  (x13 / 了
+))))
+===========================
+武松道：“这可奇怪了！
+(x2 / 道
+      :arg0  (x12 / person
+            :name  ( x1/武松 
+))      :arg1  (x6 / 奇怪-01
+            :arg0  (x4 / 这
+)            :mod  (x5 / 可
+)            :aspect  (x7 / 了
+)            :mode  (x8 / expressive
+)))
+===========================
+你如何不肯卖酒给我吃？”
+(x13 / say
+      :arg1  (x3_2 / 肯-01
+            :arg0  (x1 / 你
+)            :arg1  (x4 / 卖-01
+                  :arg1  (x5 / 酒
+)                  :arg0  (x1 / 你
+)                  :purpose  (x6 / 给-02
+                        :arg1  (x7 / 我
+)                        :arg2  (x8 / 吃-01
+                              :arg1  (x5 / 酒
+)                              :arg0  (x7 / 我
+))))            :mode  (x9 / interrogative
+)            :cause  (x2 / amr-unknown
+)))
+===========================
+店家道：“客官，你应该看见，我门前旗上明明写着‘三碗不过冈’。”
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x27 / and
+            :op1  (x4 / 客官
+)            :op2  (x7 / 应该-01
+                  :arg0  (x8 / 看见-01
+                        :arg0  (x6 / x4
+)                        :arg1  (x15 / 写-01
+                              :arg2  (x12 / 旗
+                                    :location  (x11 / 门前
+                                          :poss  (x10 / x1
+)))                              :mod  (x14 / 明明
+)                              :aspect  (x16 / 着
+)                              :arg1  (x21 / 过-05
+                                    :arg1  (x22 / 冈
+)                                    :condition  (x40 / thing
+                                          :quant  (x18 / 3
+)                                          :cunit  (x19 / 碗
+))                                    :polarity  (x20 / -
+)))))))
+===========================
+武松道：“怎么叫做‘三碗不过冈’？”
+(x2 / 道
+      :arg0  (x15 / person
+            :name  ( x1/武松 
+))      :arg1  (x5 / 叫做-01
+            :arg1  (x4 / amr-unknown
+)            :arg2  (x10 / 过-05
+                  :arg1  (x11 / 冈
+)                  :polarity  (x9 / -
+)                  :condition  (x22 / thing
+                        :quant  (x7 / 3
+)                        :cunit  (x8 / 碗
+)))            :mode  (x12 / interrogative
+)))
+===========================
+店家道：“我家的酒虽然是村里的酒，可是比得上老酒的滋味。
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x24 / contrast
+            :arg1  (x11 / 酒
+                  :poss  (x9 / 村里
+)                  :domain  (x6 / 酒
+                        :poss  (x4 / 我家
+)))            :arg2  (x15 / possible
+                  :arg0  (x14 / 比-01
+                        :arg0  (x6 / 酒
+)                        :arg1  (x19 / 滋味
+                              :mod  (x17 / 老酒
+))))))
+===========================
+但凡客人来我店中，吃了三碗的，就醉了，过不得前面的山冈去。
+(x25 / condition
+      :arg1  (x27 / person
+            :arg0-of  (x8 / 吃-01
+                  :arg1  (x29 / thing
+                        :quant  (x10 / 3
+)                        :cunit  (x11 / 碗
+))                  :aspect  (x9 / 了
+))            :arg2-of  (x2 / 客人
+                  :arg0-of  (x3 / 来-01
+                        :arg1  (x5 / 店
+                              :poss  (x4 / 我
+)))))      :arg2  (x37 / and
+            :op1  (x15 / 醉-01
+                  :arg0  (x27 / person
+)                  :aspect  (x16 / 了
+))            :op2  (x19_2 / possible
+                  :arg0  (x18 / 过-05
+                        :arg1  (x22 / 山冈
+                              :location  (x20 / 前面
+)))                  :polarity  (x19_1 / -
+))))
+===========================
+因此叫做‘三碗不过冈’。
+(x10 / causation
+      :arg2  (x2 / 叫做-01
+            :arg2  (x7 / 过-05
+                  :arg1  (x8 / 冈
+)                  :condition  (x15 / thing
+                        :quant  (x4 / 3
+)                        :cunit  (x5 / 碗
+))                  :polarity  (x6 / -
+))))
+===========================
+过往客人都知道，只吃三碗，就不再问。”
+(x15 / say
+      :arg1  (x4 / 知道-01
+            :arg0  (x2 / 客人
+                  :arg0-of  (x1 / 过往-01
+))            :extent  (x3 / 都
+)            :arg1  (x21 / temporal
+                  :arg1  (x7 / 吃-01
+                        :mod  (x6 / 只
+)                        :arg1  (x24 / thing
+                              :quant  (x8 / 3
+)                              :cunit  (x9 / 碗
+)))                  :arg2  (x13 / 问-01
+                        :polarity  (x12_1 / -
+)                        :mod  (x12_2 / 再
+)))))
+===========================
+武松笑道：“原来这样。
+(x2_x3 / 笑道-01
+      :arg0  (x10 / person
+            :name  ( x1/武松 
+))      :arg1  (x6 / 这样
+            :mod  (x5 / 原来
+)))
+===========================
+我吃了三碗，如何不醉？”
+(x11 / say
+      :arg1  (x13 / contrast
+            :arg1  (x2 / 吃-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x16 / thing
+                        :quant  (x4 / 3
+)                        :cunit  (x5 / 碗
+))                  :aspect  (x3 / 了
+))            :arg2  (x9 / 醉-01
+                  :polarity  (x8 / -
+)                  :cause  (x7 / amr-unknown
+)                  :mode  (x10 / interrogative
+)                  :arg1  (x1 / 我
+))))
+===========================
+店家道：“我这酒叫做‘透瓶香’，又叫做‘出门倒’。
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x22 / and
+            :op1  (x7 / 叫做-01
+                  :arg1  (x6 / 酒
+                        :mod  (x5 / 这
+)                        :poss  (x4 / 我
+))                  :arg2  (x11 / 香
+                        :manner  (x9 / 透
+                              :arg1  (x10 / 瓶
+))))            :op2  (x14 / 叫做-01
+                  :arg2  (x17 / 倒
+                        :time  (x16 / 出门
+))                  :arg1  (x6 / 酒
+))))
+===========================
+初入口时只觉得好吃，一会儿就醉倒了。”
+(x14 / say
+      :arg1  (x16 / contrast
+            :arg1  (x5 / 觉得-01
+                  :arg1  (x6 / 好吃
+)                  :mod  (x4 / 只
+)                  :time  (x2 / 入口
+                        :time  (x1 / 初
+)))            :arg2  (x10 / 醉
+                  :cause-of  (x11 / 倒
+)                  :aspect  (x12 / 了
+)                  :time  (x8 / 一会儿
+))))
+===========================
+武松从身边拿出些银子来，叫道：“别胡说！
+(x16 / temporal
+      :arg1  (x4_x7 / 拿出-01
+            :arg0  (x19 / person
+                  :name  ( x1/武松 
+))            :source  (x3 / 身边
+)            :arg1  (x6 / 银子
+                  :quant  (x5 / 些
+)))      :arg2  (x9_x10 / 叫-03
+            :arg1  (x13 / 胡说
+                  :polarity  (x12 / -
+)                  :mode  (x14 / expressive
+))))
+===========================
+难道不付你钱！
+(x3 / 付-01
+      :arg1  (x5 / 钱
+)      :arg2  (x4 / 你
+)      :polarity  (x2 / -
+)      :mod  (x1 / 难道
+)      :mode  (x6 / expressive
+))
+===========================
+再筛三碗来！”
+(x7 / say
+      :arg1  (x2 / 筛-01
+            :mod  (x1 / 再
+)            :arg1  (x11 / thing
+                  :quant  (x3 / 3
+)                  :cunit  (x4 / 碗
+))            :mode  (x6 / expressive
+)))
+===========================
+店家无奈，只好又给武松筛酒。
+(x11 / causation
+      :arg1  (x2 / 无奈-01
+            :arg0  (x1 / 店家
+))      :arg2  (x8 / 筛-01
+            :arg1  (x9 / 酒
+)            :beneficiary  (x18 / person
+                  :name  ( x7/武松 
+))            :mod  (x5 / 又
+)            :mod  (x4 / 只好
+)            :arg0  (x1 / 店家
+)))
+===========================
+武松前后共吃了十八碗。
+(x4 / 吃-01
+      :arg0  (x11 / person
+            :name  ( x1/武松 
+))      :mod  (x2 / 前后
+)      :mod  (x3 / 共
+)      :aspect  (x5 / 了
+)      :arg1  (x16 / thing
+            :quant  (x6 / 18
+)            :cunit  (x7 / 碗
+)))
+===========================
+吃完了，提着哨棒就走。
+(x11 / temporal
+      :arg1  (x2 / 完-01
+            :arg0  (x1 / 吃
+)            :aspect  (x3 / 了
+))      :arg2  (x9 / 走
+            :manner  (x5 / 提-02
+                  :arg1  (x7 / 哨棒
+)                  :aspect  (x6 / 着
+))))
+===========================
+店家赶出来叫道：“客官哪里去？”
+(x12 / temporal
+      :arg1  (x2 / 赶-01
+            :direction  (x3_x4 / 出来
+)            :arg0  (x1 / 店家
+))      :arg2  (x5_x6 / 叫-03
+            :arg0  (x1 / 店家
+)            :arg1  (x10 / 去-01
+                  :arg0  (x8 / 客官
+)                  :arg1  (x9 / amr-unknown
+)                  :mode  (x11 / interrogative
+))))
+===========================
+武松站住了问道：“叫我做什么，我又不少你酒钱！”
+(x19 / temporal
+      :arg1  (x2 / 站住-01
+            :arg0  (x22 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+))      :arg2  (x4 / 问道-01
+            :arg0  (x22 / person
+)            :arg1  (x26 / causation
+                  :arg2  (x6 / 叫
+                        :arg1  (x7 / x22
+)                        :purpose  (x8 / 做-01
+                              :arg1  (x9 / 什么
+)))                  :arg1  (x14 / 少-01
+                        :arg1  (x17 / 钱
+                              :mod  (x16 / 酒
+))                        :beneficiary  (x15 / 你
+)                        :arg0  (x11 / x22
+)                        :polarity  (x13 / -
+)                        :mod  (x12 / 又
+)                        :mode  (x18 / expressive
+)))))
+===========================
+店家叫道：“我是好意，你回来看看这抄下来的官府的榜文。”
+(x2_x3 / 叫-03
+      :arg0  (x1 / 店家
+)      :arg1  (x24 / and
+            :op1  (x7 / 好意
+                  :arg0  (x5 / 我
+))            :op2  (x10 / 回来-01
+                  :arg0  (x9 / 你
+)                  :purpose  (x11_x12 / 看-02
+                        :arg1  (x19 / 榜文
+                              :poss  (x17 / 官府
+)                              :arg1-of  (x14_x15 / 抄-02
+)                              :mod  (x13 / 这
+))))))
+===========================
+武松道：“什么榜文？”
+(x2 / 道
+      :arg0  (x9 / person
+            :name  ( x1/武松 
+))      :arg1  (x5 / 榜文
+            :mod  (x4 / amr-unknown
+)            :mode  (x6 / interrogative
+)))
+===========================
+店家道：“如今前面景阳冈上有只吊睛白额大虫，天晚了出来伤人，已经伤了三二十条大汉性命。
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x33 / and
+            :op1  (x8 / 有-03
+                  :arg1  (x12 / 大虫
+                        :mod  (x11 / 白额
+)                        :mod  (x10 / 吊睛
+)                        :cunit  (x9 / 只
+)                        :arg0  (x6 / 景阳冈
+                              :location  (x5 / 前面
+)))                  :time  (x4 / 如今
+))            :op2  (x17 / 出来-01
+                  :time  (x15 / 晚-01
+                        :arg0  (x14 / 天
+)                        :aspect  (x16 / 了
+))                  :purpose  (x18 / 伤-01
+                        :arg1  (x19 / 人
+)))            :op3  (x22 / 伤-01
+                  :arg1  (x28 / 性命
+                        :poss  (x27 / 大汉
+                              :quant  (x51 / and
+                                    :op1  (x24_x25_2 / 30
+)                                    :op2  (x25 / 20
+))                              :cunit  (x26 / 条
+)))                  :aspect  (x23 / 了
+)                  :aspect  (x21 / 已经
+))))
+===========================
+官府限期叫猎户去捉。
+(x2 / 限期-01
+      :arg0  (x1 / 官府
+)      :arg1  (x3 / 叫-04
+            :arg1  (x4 / 猎户
+)            :arg2  (x6 / 捉-01
+                  :arg0  (x4 / 猎户
+))))
+===========================
+冈下路口都有榜文，教往来客人结伙成队趁午间过冈，其余时候不许过冈。
+(x4 / 有-03
+      :arg0  (x2 / 路口
+            :location  (x1 / 冈下
+))      :extent  (x3 / 都
+)      :arg1  (x5 / 榜文
+            :topic  (x30 / and
+                  :op1  (x7 / 教
+                        :arg1  (x9 / 客人
+                              :arg0-of  (x8 / 往来-01
+)                              :arg2  (x14 / 过-05
+                                    :arg1  (x15 / 冈
+)                                    :manner  (x10 / 结伙-01
+                                          :arg0  (x9 / 客人
+))                                    :manner  (x11 / 成队
+)                                    :time  (x13 / 午间
+))))                  :op2  (x20 / 许-01
+                        :arg2  (x21 / 过-05
+                              :arg1  (x22 / 冈
+))                        :polarity  (x19 / -
+)                        :time  (x18 / 时候
+                              :mod  (x17 / 其余
+))))))
+===========================
+单身客人一定要结伴才能过冈。
+(x3 / 一定
+      :arg0  (x4 / 要-03
+            :arg0  (x13 / condition
+                  :arg1  (x5 / 结伴-01
+                        :arg0  (x2 / 客人
+                              :mod  (x1 / 单身
+)))                  :arg2  (x7 / 过-05
+                        :arg1  (x8 / 冈
+)                        :arg0  (x2 / 客人
+)))))
+===========================
+这时候天快晚了，你还过冈，岂不白白送了自家性命？
+(x20 / and
+      :op1  (x22 / progression
+            :arg1  (x4 / 晚-01
+                  :arg0  (x2 / 天
+)                  :mod  (x3 / 快
+)                  :aspect  (x5 / 了
+)                  :time  (x1 / 这时候
+))            :arg2  (x9 / 过-05
+                  :arg0  (x7 / 你
+)                  :arg1  (x10 / 冈
+)))      :op2  (x14 / 送-02
+            :arg2  (x17 / 性命
+                  :poss  (x16 / 自家
+))            :mod  (x13 / 白白
+)            :mod  (x12 / 岂不
+)            :mode  (x18 / interrogative
+)))
+===========================
+不如就在我家歇了，等明日凑了三二十人，一齐好过冈。”
+(x21 / say
+      :arg1  (x23 / and
+            :op1  (x1 / 不如-01
+                  :arg1  (x5 / 歇
+                        :location  (x4 / 我家
+))                  :mod  (x2 / 就-01
+)                  :aspect  (x6 / 了
+))            :op2  (x29 / temporal
+                  :arg1  (x8 / 等-01
+                        :arg1  (x10 / 凑-01
+                              :arg0  (x14 / 人
+                                    :quant  (x33 / and
+                                          :op1  (x12_x13_2 / 30
+)                                          :op2  (x13 / 20
+)))                              :aspect  (x11 / 了
+)                              :time  (x9 / 明日
+)))                  :arg2  (x17 / 好-04
+                        :arg0  (x18 / 过-05
+                              :arg1  (x19 / 冈
+)                              :manner  (x16 / 一齐
+))))))
+===========================
+武松听了，笑道：“我是清河县人，这条景阳冈少说也走过了一二十遭，几时听说有大虫！
+(x31 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x34 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+))      :arg2  (x5_x6 / 笑道-01
+            :arg1  (x57 / contrast
+                  :arg1  (x38 / and
+                        :op1  (x11 / 人
+                              :domain  (x8 / x34
+)                              :location  (x41 / county
+                                    :name  ( x10/清河县 
+)))                        :op2  (x19 / 走过-01
+                              :arg1  (x46 / mountain
+                                    :name  ( x15/景阳冈 
+)                                    :mod  (x13 / 这
+)                                    :cunit  (x14 / 条
+))                              :quant  (x48 / and
+                                    :op1  (x21_x22_2 / 10
+)                                    :op2  (x22 / 20
+)                                    :mod  (x17 / 说
+                                          :mod  (x16 / 少
+)))                              :cunit  (x23 / 遭
+)                              :aspect  (x20 / 了
+)                              :mod  (x18 / 也
+)))                  :arg2  (x26 / 听说-01
+                        :time  (x25 / amr-unknown
+)                        :arg1  (x27 / 有-03
+                              :arg1  (x28 / 大虫
+))                        :mode  (x29 / expressive
+)))))
+===========================
+你别说这样的话来吓我。
+(x3 / 说-01
+      :polarity  (x2 / -
+)      :arg0  (x1 / 你
+)      :arg1  (x6 / 话
+            :mod  (x4 / 这样
+))      :purpose  (x8 / 吓-01
+            :arg1  (x9 / 我
+)))
+===========================
+就有大虫，我也不怕。”
+(x9 / say
+      :arg1  (x11 / concession
+            :arg1  (x2 / 有-03
+                  :arg1  (x3 / 大虫
+))            :arg2  (x7_2 / 怕-01
+                  :polarity  (x7_1 / -
+)                  :arg0  (x5 / 我
+)                  :mod  (x6 / 也
+)                  :arg1  (x3 / 大虫
+))))
+===========================
+店家道：“我是好意救你，你不信，进来看官府的榜文。”
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x23 / causation
+            :arg1  (x24 / contrast
+                  :arg1  (x7 / 救-01
+                        :arg0  (x4 / x1
+)                        :arg1  (x8 / 你
+)                        :manner  (x6 / 好意
+))                  :arg2  (x12 / 信-01
+                        :arg0  (x10 / x8
+)                        :polarity  (x11 / -
+)))            :arg2  (x14 / 进来-01
+                  :purpose  (x15 / 看-02
+                        :arg1  (x18 / 榜文
+                              :poss  (x16 / 官府
+))                        :arg0  (x8 / 你
+))                  :arg0  (x8 / 你
+))))
+===========================
+武松道：“就真的有虎，我也不怕。
+(x2 / 道
+      :arg0  (x16 / person
+            :name  ( x1/武松 
+))      :arg1  (x18 / concession
+            :arg1  (x7 / 有-03
+                  :arg1  (x8 / 虎
+)                  :mod  (x5_x6 / 真的
+))            :arg2  (x12_2 / 怕-01
+                  :arg0  (x10 / x16
+)                  :mod  (x11 / 也
+)                  :arg1  (x8 / 虎
+))))
+===========================
+你留我在家里歇，莫不是半夜三更要谋我钱财，害我性命，却把大虫吓唬我？”
+(x25 / say
+      :arg1  (x27 / contrast
+            :arg1  (x28 / and
+                  :op1  (x2 / 留-05
+                        :arg0  (x1 / 你
+)                        :arg1  (x3 / 我
+)                        :arg2  (x5 / 家里
+)                        :purpose  (x6 / 歇
+))                  :op2  (x10 / 要-03
+                        :arg0  (x35 / and
+                              :op1  (x11 / 谋-01
+                                    :arg1  (x13 / 钱财
+                                          :poss  (x12 / x3
+)))                              :op2  (x15 / 害-01
+                                    :arg1  (x17 / 性命
+                                          :poss  (x16 / x3
+))))                        :time  (x9 / 半夜三更
+)                        :mod  (x8 / 莫不是
+)))            :arg2  (x22 / 吓唬-01
+                  :arg1  (x23 / x3
+)                  :instrument  (x21 / 大虫
+)                  :arg0  (x1 / 你
+)                  :mode  (x24 / interrogative
+))))
+===========================
+店家道：“我是一片好心，你反当做恶意。
+(x2 / 道
+      :arg0  (x1 / 店家
+)      :arg1  (x18 / contrast
+            :arg1  (x8 / 好心
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 片
+)                  :arg0  (x4 / x1
+))            :arg2  (x12 / 当做-01
+                  :arg0  (x10 / 你
+)                  :arg2  (x13 / 恶意
+)                  :arg1  (x8 / 好心
+)                  :mod  (x11 / 反
+))))
+===========================
+你不相信我，请你自己走吧！”
+(x12 / say
+      :arg1  (x15 / causation
+            :arg1  (x3 / 相信-01
+                  :arg0  (x1 / 你
+)                  :arg1  (x4 / 我
+)                  :polarity  (x2 / -
+))            :arg2  (x6 / 请-01
+                  :arg1  (x7_x8 / 你自己
+)                  :arg2  (x9 / 走-01
+                        :arg0  (x7_x8 / 你自己
+))                  :mode  (x10 / imperative
+)                  :mode  (x11 / expressive
+))))
+===========================
+一面说一面摇着头，走进店里去了。
+(x13 / temporal
+      :arg1  (x15 / and
+            :op1  (x2 / 说-01
+                  :manner  (x1 / 一面
+))            :op2  (x4 / 摇-01
+                  :arg1  (x6 / 头
+)                  :aspect  (x5 / 着
+)))      :arg2  (x8 / 走进-01
+            :arg1  (x9 / 店里
+)            :aspect  (x11 / 了
+)))
+===========================
+武松提了哨棒，大踏步走上景阳冈来。
+(x12 / temporal
+      :arg1  (x2 / 提-01
+            :arg1  (x4 / 哨棒
+)            :arg0  (x16 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+))      :arg2  (x7_x8 / 走上-01
+            :arg1  (x20 / mountain
+                  :name  ( x9/景阳冈 
+))            :manner  (x6 / 大踏步
+)            :arg0  (x16 / person
+)))
+===========================
+大约走了四五里路，来到冈下，看见一棵大树，树干上刮去了皮，一片白，上面写着两行字。
+(x35 / temporal
+      :arg1  (x2 / 走-01
+            :arg1  (x7 / 路
+                  :mod  (x39 / distance-quantity
+                        :unit  (x6 / 里
+)                        :quant  (x1 / 大约
+                              :op1  (x46 / and
+                                    :op1  (x4 / 4
+)                                    :op2  (x5 / 5
+)))))            :aspect  (x3 / 了
+))      :arg2  (x9 / 来到-01
+            :arg1  (x10_2 / 下
+                  :arg0  (x10_1 / 冈
+)))      :arg3  (x52 / and
+            :op1  (x12 / 看见-01
+                  :arg1  (x15 / 大树
+                        :quant  (x13 / 1
+)                        :cunit  (x14 / 棵
+)))            :op2  (x19_x20 / 刮去
+                  :arg1  (x22 / 皮
+)                  :aspect  (x21 / 了
+)                  :location  (x17 / 树干
+))            :op3  (x26 / 白
+                  :quant  (x24 / 1
+)                  :cunit  (x25 / 片
+))            :op4  (x29 / 写-01
+                  :arg1  (x33 / 字
+                        :quant  (x31 / 2
+)                        :cunit  (x32 / 行
+))                  :aspect  (x30 / 着
+)                  :arg2  (x28 / 上面
+))))
+===========================
+武松抬头看时，上面写道：“近因景阳冈大虫伤人，但有过往客商，可趁午间结伙成队过冈，请勿自误。”
+(x34 / temporal
+      :arg1  (x3 / 看-02
+            :manner  (x2 / 抬头-01
+                  :arg0  (x38 / person
+                        :name  ( x1/武松 
+)))            :arg0  (x38 / person
+))      :arg2  (x7 / 写道-01
+            :arg2  (x6 / 上面
+)            :arg1  (x42 / and
+                  :op1  (x43 / causation
+                        :arg1  (x13 / 伤-01
+                              :arg0  (x12 / 大虫
+)                              :arg1  (x14 / 人
+)                              :location  (x47 / mountain
+                                    :name  ( x11/景阳冈 
+))                              :time  (x9 / 近
+))                        :arg2  (x21 / 可-01
+                              :arg0  (x26 / 过-05
+                                    :arg1  (x27 / 冈
+)                                    :arg0  (x19 / 客商
+                                          :arg0-of  (x18 / 过往-01
+)                                          :arg1-of  (x17 / 有-03
+))                                    :mod  (x16 / 但
+)                                    :manner  (x24 / 结伙-01
+                                          :arg0  (x19 / 客商
+))                                    :manner  (x25 / 成队
+))                              :time  (x22 / 趁-01
+                                    :arg1  (x23 / 午间
+)                                    :arg0  (x19 / 客商
+))))                  :op2  (x29 / 请-01
+                        :arg2  (x32 / 误
+                              :manner  (x31 / 自
+)                              :polarity  (x30 / -
+))))))
+===========================
+武松看了，笑道：“这是店家的诡计，吓唬那些胆小的人到他家里去歇。
+(x25 / temporal
+      :arg1  (x2 / 看-02
+            :arg0  (x28 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+))      :arg2  (x5_x6 / 笑道-01
+            :arg0  (x28 / person
+)            :arg1  (x12 / 诡计
+                  :poss  (x10 / 店家
+)                  :domain  (x8 / 这
+)                  :purpose  (x14 / 吓唬-01
+                        :arg1  (x18 / 人
+                              :arg0-of  (x16 / 胆小-01
+)                              :quant  (x15 / 那些
+))                        :purpose  (x39 / temporal
+                              :arg1  (x19 / 到-01
+                                    :arg1  (x21 / 家里
+                                          :poss  (x20 / x10
+))                                    :arg0  (x18 / 人
+))                              :arg2  (x23 / 歇-01
+                                    :arg0  (x18 / 人
+)))))))
+===========================
+我怕什么！”
+(x5 / say
+      :arg1  (x2 / 怕-01
+            :arg0  (x1 / 我
+)            :arg1  (x3 / 什么
+)            :mode  (x4 / expressive
+)))
+===========================
+武松拖着哨棒走上冈来。
+(x5_x6 / 走上-01
+      :arg0  (x12 / person
+            :name  ( x1/武松 
+))      :manner  (x2 / 拖-03
+            :arg1  (x4 / 哨棒
+)            :aspect  (x3 / 着
+)            :arg0  (x12 / person
+))      :arg1  (x7 / 冈
+))
+===========================
+这时天快晚了，一轮红日慢慢地落下山去。
+(x17 / causation
+      :arg1  (x3 / 快
+            :arg0  (x4 / 晚-01
+                  :arg0  (x2 / 天
+))            :aspect  (x5 / 了
+)            :time  (x1 / 这时
+))      :arg2  (x12 / 落-02
+            :direction  (x13_x15 / 下去
+)            :manner  (x10 / 慢
+)            :arg0  (x9 / 红日
+                  :quant  (x7 / 1
+)                  :cunit  (x8 / 轮
+))            :arg1  (x14 / 山
+)))
+===========================
+武松趁着酒兴，只管走上冈来。
+(x12 / causation
+      :arg1  (x2 / 趁-01
+            :arg0  (x15 / person
+                  :name  ( x1/武松 
+))            :arg1  (x4 / 酒兴
+)            :aspect  (x3 / 着
+))      :arg2  (x7_x8 / 走上-01
+            :arg1  (x9 / 冈
+)            :mod  (x6 / 只管
+)            :arg0  (x15 / person
+)))
+===========================
+不到半里路，看见一座破烂的山神庙。
+(x14 / condition
+      :arg1  (x2 / 到-01
+            :arg1  (x5 / 路
+                  :mod  (x18 / distance-quantity
+                        :quant  (x3 / 0.5
+)                        :unit  (x4 / 里
+)))            :polarity  (x1 / -
+))      :arg2  (x7 / 看见-01
+            :arg1  (x12 / 山神庙
+                  :arg0-of  (x10 / 破烂-01
+)                  :quant  (x8 / 1
+)                  :cunit  (x9 / 座
+))))
+===========================
+走到庙前，看见庙门上贴着一张榜文，上面盖着官府的印信。
+(x24 / temporal
+      :arg1  (x1_x2 / 走到-01
+            :arg1  (x4 / 前
+                  :arg0  (x3 / 庙
+)))      :arg2  (x29 / and
+            :op1  (x6 / 看见-01
+                  :arg1  (x13 / 榜文
+                        :quant  (x11 / 1
+)                        :unit  (x12 / 张
+)                        :arg1-of  (x9 / 贴-01
+                              :arg2  (x7 / 庙门
+))))            :op2  (x16 / 盖-03
+                  :arg1  (x20 / 印信
+                        :poss  (x18 / 官府
+))                  :aspect  (x40 / vx17
+)                  :location  (x15 / 上面
+))))
+===========================
+武松读了才知道真的有虎。
+(x11 / temporal
+      :arg2  (x5 / 知道-01
+            :arg1  (x8 / 有-03
+                  :arg1  (x9 / 虎
+)                  :mod  (x6_x7 / 真的
+)))      :arg1  (x2 / 读-01
+            :arg0  (x14 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+)))
+===========================
+武松想：“转身回酒店吧，一定会叫店家耻笑，算不得好汉，不能回去。”
+(x2 / 想-01
+      :arg0  (x23 / person
+            :name  ( x1/武松 
+))      :arg1  (x25 / causation
+            :arg1  (x26 / condition
+                  :arg1  (x5 / 回-01
+                        :manner  (x4 / 转身
+)                        :arg1  (x6 / 酒店
+)                        :mode  (x7 / expressive
+))                  :arg2  (x31 / and
+                        :op1  (x9 / 一定
+                              :arg0  (x10 / 会-02
+                                    :arg0  (x11 / 叫-04
+                                          :arg1  (x12 / 店家
+)                                          :arg2  (x13 / 耻笑-01
+                                                :arg0  (x12 / 店家
+)                                                :arg1  (x23 / person
+)))))                        :op2  (x37 / possible
+                              :arg0  (x15_1 / 算-01
+                                    :polarity  (x15_2 / -
+)                                    :arg1  (x16 / 好汉
+)))))            :arg2  (x18_2 / 能-01
+                  :polarity  (x18_1 / -
+)                  :arg0  (x19 / 回去-01
+                        :arg0  (x23 / person
+)                        :arg1  (x6 / 酒店
+)))))
+===========================
+细想了一回，说道：“怕什么，只管上去，看看怎么样。”
+(x19 / temporal
+      :arg1  (x2 / 想-01
+            :manner  (x1 / 细
+)            :quant  (x4 / 1
+)            :cunit  (x5 / 回
+)            :aspect  (x3 / 了
+))      :arg2  (x7 / 说道-01
+            :arg1  (x27 / and
+                  :op1  (x9 / 怕-01
+                        :arg1  (x10 / 什么
+))                  :op2  (x13 / 上去
+                        :mod  (x12 / 只管
+))                  :op3  (x15_x16 / 看-02
+                        :arg1  (x17 / 怎么样
+)))))
+===========================
+武松一面走，一面把毡笠儿掀在脊梁上，把哨棒插在腰间。
+(x20 / and
+      :op1  (x3 / 走-01
+            :arg0  (x23 / person
+                  :name  ( x1/武松 
+))            :mod  (x2 / 一面
+))      :op2  (x26 / and
+            :op1  (x8 / 掀
+                  :arg1  (x7 / 毡笠儿
+)                  :arg0  (x23 / person
+)                  :location  (x10 / 脊梁
+))            :mod  (x5 / 一面
+)            :op2  (x15 / 插-01
+                  :arg1  (x14 / 哨棒
+)                  :arg2  (x18 / 间
+                        :arg0  (x17 / 腰
+))                  :arg0  (x23 / person
+))))
+===========================
+回头一看，红日渐渐地坠下去了。
+(x12 / temporal
+      :arg1  (x3 / 看-02
+            :manner  (x1 / 回头
+))      :arg2  (x8 / 坠-01
+            :arg0  (x5 / 红日
+)            :direction  (x9 / 下去-01
+                  :arg0  (x5 / 红日
+))            :manner  (x6 / 渐渐
+)            :aspect  (x10 / 了
+)))
+===========================
+这正是十月间天气，日短夜长，天容易黑。
+(x16 / and
+      :op1  (x5 / 天气
+            :time  (x19 / date-entity
+                  :month  (x3 / 10
+))            :domain  (x1 / 这
+))      :op2  (x22 / and
+            :op1  (x8 / 短-01
+                  :arg0  (x7 / 日
+))            :op2  (x10 / 长-02
+                  :arg0  (x9 / 夜
+)))      :op3  (x13 / 容易-01
+            :arg0  (x14 / 黑-01
+                  :arg0  (x12 / 天
+))))
+===========================
+武松自言自语道：“哪儿有什么大虫！
+(x2_x3 / 自言自语
+      :arg0  (x13 / person
+            :name  ( x1/武松 
+))      :topic  (x6 / 有-03
+            :arg0  (x5 / amr-unknown
+)            :arg1  (x8 / 大虫
+                  :mod  (x7 / 什么
+))            :mode  (x9 / expressive
+)))
+===========================
+是人自己害怕了，不敢上山。”
+(x11 / say
+      :arg1  (x13 / causation
+            :arg1  (x4 / 害怕-01
+                  :arg0  (x2_x3 / 人自己
+)                  :aspect  (x5 / 了
+))            :arg2  (x8 / 敢-01
+                  :polarity  (x7 / -
+)                  :arg0  (x9 / 上山-01
+                        :arg0  (x2_x3 / 人自己
+)))))
+===========================
+武松走了一程，酒力发作，热起来了，一只手提着哨棒，一只手把胸膛敞开，踉踉跄跄，奔过乱树林来。
+(x36 / temporal
+      :arg1  (x2 / 走-01
+            :arg1  (x5 / 程
+                  :quant  (x4 / 1
+))            :aspect  (x3 / 了
+)            :arg0  (x42 / person
+                  :name  ( x1/武松 
+)))      :arg2  (x8 / 发作-01
+            :arg0  (x7 / 酒力
+))      :arg3  (x10_x11 / 热-03
+            :aspect  (x12 / 了
+)            :arg1  (x42 / person
+))      :arg4  (x48 / and
+            :op1  (x17 / 提-01
+                  :arg0  (x16 / 手
+                        :quant  (x14 / 1
+)                        :cunit  (x15 / 只
+))                  :arg1  (x19 / 哨棒
+)                  :aspect  (x18 / 着
+))            :op2  (x26 / 敞开-01
+                  :arg1  (x25 / 胸膛
+)                  :arg0  (x23 / 手
+                        :quant  (x21 / 1
+)                        :cunit  (x22 / 只
+))))      :arg5  (x30 / 奔-01
+            :arg1  (x33 / 树林
+                  :arg1-of  (x32 / 乱-01
+))            :manner  (x28 / 踉踉跄跄
+)            :arg0  (x42 / person
+)))
+===========================
+见一块光滑的大青石，武松把哨棒靠在一边，躺下来想睡一觉。
+(x23 / temporal
+      :arg1  (x1 / 见-01
+            :arg1  (x7 / 青石
+                  :arg0-of  (x6 / 大-01
+)                  :arg0-of  (x4 / 光滑-01
+)                  :quant  (x2 / 1
+)                  :cunit  (x3 / 块
+))            :arg0  (x32 / person
+                  :name  ( x9/武松 
+)))      :arg2  (x12 / 靠
+            :arg0  (x32 / person
+)            :arg1  (x11 / 哨棒
+)            :arg2  (x14 / 一边
+))      :arg3  (x16 / 躺-01
+            :purpose  (x18 / 想-02
+                  :arg1  (x19 / 睡-01
+                        :arg1  (x21 / 觉
+                              :quant  (x20 / 1
+))                        :arg0  (x32 / person
+)))            :direction  (x17 / 下来
+)            :arg0  (x32 / person
+)))
+===========================
+忽然起了一阵狂风。
+(x2 / 起-03
+      :arg0  (x6 / 狂风
+            :quant  (x4 / 1
+)            :cunit  (x5 / 阵
+))      :aspect  (x3 / 了
+)      :mod  (x1 / 忽然
+))
+===========================
+那一阵风过了，只听见乱树背后扑地一声响，跳出一只吊睛白额大虫来。
+(x27 / temporal
+      :arg1  (x5 / 过-03
+            :arg0  (x4 / 风
+                  :mod  (x1 / 那
+)                  :quant  (x2 / 1
+)                  :cunit  (x3 / 阵
+))            :aspect  (x6 / 了
+))      :arg2  (x9 / 听见-01
+            :arg1  (x17 / 响
+                  :quant  (x15 / 1
+)                  :cunit  (x16 / 声
+)                  :manner  (x13 / 扑
+)                  :location  (x12 / 背后
+                        :arg0  (x11 / 树
+                              :arg0-of  (x10 / 乱-01
+))))            :mod  (x8 / 只
+))      :arg3  (x19 / 跳出-02
+            :arg0  (x24 / 大虫
+                  :mod  (x22 / 吊睛
+)                  :mod  (x23 / 白额
+)                  :quant  (x20 / 1
+)                  :cunit  (x21 / 只
+))))
+===========================
+武松见了，叫声：“啊呀！”
+(x11 / temporal
+      :arg1  (x2 / 见-01
+            :arg0  (x14 / person
+                  :name  ( x1/武松 
+))            :aspect  (x3 / 了
+))      :arg2  (x5 / 叫-02
+            :arg1  (x8_x9 / 啊呀
+                  :mode  (x10 / expressive
+))))
+===========================
+从青石上翻身下来，把哨棒拿在手里，闪在青石旁边。
+(x18 / temporal
+      :arg1  (x5 / 下来
+            :manner  (x4 / 翻身
+)            :source  (x3 / 上
+                  :arg0  (x2 / 青石
+)))      :arg2  (x9 / 拿-03
+            :arg1  (x8 / 哨棒
+)            :location  (x11 / 手里
+))      :arg3  (x13 / 闪
+            :location  (x16 / 旁边
+                  :arg0  (x15 / 青石
+))))
+===========================
+那只大虫又饥又渴，把两只前爪在地下按了一按，望上一扑，从半空里蹿下来。
+(x32 / temporal
+      :arg1  (x34 / and
+            :op1  (x5 / 饥
+                  :arg0  (x3 / 大虫
+                        :mod  (x1 / 那
+)                        :cunit  (x2 / 只
+)))            :op2  (x7 / 渴-01
+                  :arg0  (x3 / 大虫
+)))      :arg2  (x16_x18_x19 / 按-01
+            :arg1  (x13 / 爪
+                  :mod  (x12 / 前
+)                  :quant  (x10 / 2
+)                  :cunit  (x11 / 只
+))            :location  (x15 / 地下
+)            :aspect  (x17 / 了
+)            :arg0  (x3 / 大虫
+))      :arg3  (x24 / 扑-02
+            :mod  (x23 / 一
+)            :direction  (x22 / 上
+)            :arg0  (x3 / 大虫
+))      :arg4  (x29 / 蹿-01
+            :source  (x27 / 半空
+)            :direction  (x30 / 下来
+)            :arg0  (x3 / 大虫
+)))
+===========================
+武松吃那一惊，酒都变做冷汗出了。
+(x17 / causation
+      :arg1  (x2_x3_x4_x5 / 吃惊-01
+            :arg0  (x20 / person
+                  :name  ( x1/武松 
+)))      :arg2  (x12 / 出-01
+            :arg0  (x7 / 酒
+)            :manner  (x9_x10 / 变-01
+                  :arg2  (x11 / 冷汗
+)                  :extent  (x8 / 都
+)                  :arg1  (x7 / 酒
+))            :aspect  (x13 / 了
+)))
+===========================
+说时迟，那时快，武松见大虫扑来，一闪，闪在大虫背后。
+(x22 / temporal
+      :time  (x24 / and
+            :op1  (x3 / 迟
+                  :time  (x1 / 说
+))            :op2  (x6 / 快
+                  :time  (x5 / 那时
+)))      :arg1  (x9 / 见-01
+            :arg1  (x11_x12 / 扑-02
+                  :arg0  (x10 / 大虫
+))            :arg0  (x32 / person
+                  :name  ( x8/武松 
+)))      :arg2  (x15 / 闪-01
+            :mod  (x14 / 一
+)            :arg0  (x32 / person
+))      :arg3  (x17 / 闪-01
+            :arg1  (x20 / 背后
+                  :arg0  (x19 / 大虫
+))))
+===========================
+大虫背后看人最难，就把前爪搭在地下，把腰胯一掀。
+(x22 / causation
+      :arg1  (x6 / 难-01
+            :arg0  (x3 / 看-02
+                  :manner  (x2 / 背后
+)                  :arg0  (x1 / 大虫
+)                  :arg1  (x4 / 人
+))            :degree  (x5 / 最
+))      :arg2  (x30 / and
+            :op1  (x12 / 搭-02
+                  :arg1  (x11 / 爪
+                        :mod  (x10 / 前
+))                  :arg2  (x14 / 地下
+))            :op2  (x20 / 掀
+                  :arg1  (x36 / and
+                        :op1  (x17 / 腰
+)                        :op2  (x18 / 胯
+))                  :mod  (x19 / 一
+))))
+===========================
+武松一闪，又闪在一边。
+(x10 / temporal
+      :arg1  (x3 / 闪-01
+            :arg0  (x13 / person
+                  :name  ( x1/武松 
+))            :mod  (x2 / 一
+))      :arg2  (x6 / 闪-01
+            :arg1  (x8 / 一边
+)            :mod  (x5 / 又
+)))
+===========================
+大虫见掀他不着，吼一声，就像半天里起了个霹雳,震得那山冈也动了，接着把铁棒似的虎尾倒竖起来一剪。
+(x40 / temporal
+      :arg1  (x42 / causation
+            :arg1  (x2 / 见-01
+                  :arg0  (x1 / 大虫
+)                  :arg1  (x45 / possible
+                        :arg0  (x3 / 掀
+                              :polarity  (x5 / -
+)                              :arg1  (x4 / 他
+))))            :arg2  (x49 / and
+                  :op1  (x8 / 吼
+                        :quant  (x9 / 1
+)                        :cunit  (x10 / 声
+))                  :op2  (x13 / 像-01
+                        :arg1  (x16 / 起-03
+                              :arg0  (x19 / 霹雳
+                                    :cunit  (x18 / 个
+))                              :aspect  (x17 / 了
+)                              :location  (x14 / 半天
+))                        :arg0  (x8 / 吼
+))                  :op3  (x21 / 震
+                        :cause-of  (x26 / 动-01
+                              :arg1  (x24 / 山冈
+                                    :mod  (x23 / 那
+))                              :mod  (x25 / 也
+)                              :aspect  (x27 / 了
+)))))      :arg2  (x35_x36 / 竖-01
+            :arg1  (x33 / 虎尾
+                  :mod  (x32 / 似的
+                        :arg1  (x31 / 铁棒
+))))      :arg3  (x38 / 剪
+            :mod  (x37 / 一
+)))
+===========================
+武松一闪，又闪在一边。
+(x10 / temporal
+      :arg1  (x3 / 闪-01
+            :arg0  (x13 / person
+                  :name  ( x1/武松 
+))            :mod  (x2 / 一
+))      :arg2  (x6 / 闪-01
+            :arg0  (x13 / person
+)            :arg1  (x8 / 一边
+)            :mod  (x5 / 又
+)))
+===========================
+原来大虫抓人，只是一扑，一掀，一剪，三般都抓不着，劲儿先就泄了一半。
+(x30 / and
+      :op1  (x32 / and
+            :op1  (x8 / 扑
+                  :mod  (x7 / 一
+))            :op2  (x11 / 掀
+                  :mod  (x10 / 一
+))            :op3  (x14 / 剪
+                  :mod  (x13 / 一
+))            :domain  (x3 / 抓
+                  :arg0  (x2 / 大虫
+)                  :arg1  (x4 / 人
+)                  :mod  (x1 / 原来
+)))      :op2  (x43 / temporal
+            :arg1  (x44 / contrast
+                  :arg1  (x17 / 般
+                        :quant  (x16 / 3
+))                  :arg2  (x21 / possible
+                        :arg0  (x19 / 抓
+                              :polarity  (x20 / -
+))                        :extent  (x18 / 都
+)))            :arg2  (x26 / 泄-01
+                  :arg1  (x23 / 劲儿
+                        :quant  (x28 / 0.5
+))                  :ord  (x24 / 先
+)                  :aspect  (x27 / 了
+))))
+===========================
+那只大虫剪不着，再吼了一声，一兜兜回来。
+(x19 / temporal
+      :arg1  (x6 / possible
+            :arg0  (x4 / 剪-01
+                  :polarity  (x5 / -
+)                  :arg0  (x3 / 大虫
+                        :mod  (x1 / 那
+)                        :cunit  (x2 / 只
+))))      :arg2  (x9 / 吼-01
+            :quant  (x11 / 1
+)            :cunit  (x12 / 声
+)            :aspect  (x10 / 了
+)            :arg0  (x3 / 大虫
+))      :arg3  (x17 / 回来-01
+            :quant  (x14_x15_x16 / 一兜兜
+)))
+===========================
+武松见大虫翻身回来，就双手抡起哨棒，使尽平生气力，从半空劈下来。
+(x23 / temporal
+      :arg1  (x2 / 见-01
+            :arg0  (x26 / person
+                  :name  ( x1/武松 
+))            :arg1  (x5 / 回来-01
+                  :manner  (x4 / 翻身
+)                  :arg0  (x3 / 大虫
+)))      :arg2  (x9_x10 / 抡-01
+            :arg0  (x8 / 双手
+)            :arg1  (x11 / 哨棒
+))      :arg3  (x13 / 使-02
+            :manner  (x14 / 尽
+)            :arg1  (x16 / 气力
+                  :mod  (x15 / 平生
+)))      :arg4  (x20 / 劈
+            :direction  (x21 / 下来
+)            :source  (x19 / 半空
+)))
+===========================
+只听见一声响，簌地把那树连枝带叶打下来。
+(x19 / temporal
+      :arg1  (x2 / 听见-01
+            :mod  (x1 / 只
+)            :arg1  (x5 / 响
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 声
+)))      :arg2  (x16 / 打-02
+            :arg1  (x11 / 树
+                  :mod  (x10 / 那
+))            :manner  (x7 / 簌
+)            :manner  (x12_x13_x14_x15 / 连枝带叶
+)            :direction  (x17 / 下来
+)))
+===========================
+定睛一看，一棒劈不着大虫，原来打急了，却打在树上，把那条哨棒折做两截，只拿着一半在手里。
+(x38 / temporal
+      :arg1  (x3 / 看-02
+            :mod  (x2 / 一
+)            :manner  (x1 / 定睛
+))      :arg2  (x43 / causation
+            :arg2  (x9 / possible
+                  :arg0  (x7 / 劈-01
+                        :polarity  (x8 / -
+)                        :arg1  (x10 / 大虫
+)                        :arg0  (x6 / 棒
+                              :quant  (x5 / 1
+))))            :arg1  (x51 / contrast
+                  :arg1  (x13 / 打-02
+                        :manner  (x14 / 急
+)                        :aspect  (x15 / 了
+))                  :arg2  (x18 / 打-02
+                        :location  (x20 / 树上
+))))      :arg3  (x26 / 折-01
+            :arg1  (x25 / 哨棒
+                  :mod  (x23 / 那
+)                  :cunit  (x24 / 条
+))            :cause-of  (x61 / thing
+                  :refer  (x25 / 哨棒
+)                  :quant  (x28 / 2
+)                  :cunit  (x29 / 截
+)))      :arg4  (x32 / 拿-03
+            :mod  (x31 / 只
+)            :arg1  (x66 / thing
+                  :refer  (x25 / 哨棒
+)                  :mod  (x34 / 一半
+))            :location  (x36 / 手里
+)            :aspect  (x33 / 着
+)))
+===========================
+那只大虫咆哮着，发起性来，翻身又扑过来。
+(x16 / temporal
+      :arg1  (x4 / 咆哮-01
+            :arg0  (x3 / 大虫
+                  :mod  (x1 / 那
+)                  :cunit  (x2 / 只
+))            :aspect  (x5 / 着
+))      :arg2  (x7 / 发起-01
+            :arg1  (x8 / 性
+))      :arg3  (x11 / 翻身-01
+            :arg0  (x3 / 大虫
+))      :arg4  (x13 / 扑-02
+            :direction  (x14 / 过来
+)            :arg0  (x3 / 大虫
+)))
+===========================
+武松又一跳，退了十步远。
+(x12 / temporal
+      :arg1  (x4 / 跳-01
+            :mod  (x3 / 一
+)            :arg0  (x16 / person
+                  :name  ( x1/武松 
+))            :mod  (x2 / 又
+))      :arg2  (x6 / 退
+            :degree  (x10 / 远
+                  :quant  (x8 / 10
+)                  :unit  (x9 / 步
+))            :aspect  (x7 / 了
+)))
+===========================
+那只大虫恰好把两只前爪搭在武松面前。
+(x10 / 搭-02
+      :arg0  (x3 / 大虫
+            :mod  (x1 / 那
+)            :cunit  (x2 / 只
+))      :arg1  (x9 / 爪
+            :mod  (x8 / 前
+)            :quant  (x6 / 2
+)            :cunit  (x7 / 只
+))      :mod  (x4 / 恰好
+)      :arg2  (x13 / 面前
+            :arg0  (x26 / person
+                  :name  ( x12/武松 
+))))
+===========================
+武松把半截哨棒丢在一边，两只手就势把大虫顶花皮揪住，按下地去。
+(x26 / temporal
+      :arg1  (x6 / 丢-01
+            :arg0  (x29 / person
+                  :name  ( x1/武松 
+))            :arg1  (x5 / 哨棒
+                  :quant  (x3 / 0.5
+)                  :cunit  (x4 / 截
+))            :arg2  (x8 / 一边
+))      :arg2  (x18_x19 / 揪-01
+            :arg0  (x12 / 手
+                  :quant  (x10 / 2
+)                  :cunit  (x11 / 只
+))            :manner  (x13_x14 / 就势
+)            :arg1  (x16 / 大虫
+))      :arg3  (x21 / 按-01
+            :location  (x23 / 地
+)            :direction  (x22_x24 / 下
+)            :arg0  (x29 / person
+)            :arg1  (x16 / 大虫
+)))
+===========================
+那只大虫想要挣扎，武松使尽气力按定，哪里肯放半点儿松！
+(x22 / contrast
+      :arg1  (x4 / 想-02
+            :arg1  (x5 / 要-03
+                  :arg0  (x6 / 挣扎-01
+                        :arg0  (x3 / 大虫
+                              :mod  (x1 / 那
+)                              :cunit  (x2 / 只
+))))            :arg0  (x3 / 大虫
+))      :arg2  (x31 / and
+            :op1  (x9 / 使-02
+                  :arg0  (x33 / person
+                        :name  ( x8/武松 
+))                  :arg1  (x11 / 气力
+)                  :purpose  (x12 / 按
+                        :cause-of  (x13 / 定
+))                  :manner  (x10 / 尽-02
+                        :arg0  (x11 / 气力
+)))            :op2  (x16 / 肯-01
+                  :mod  (x15 / 哪里
+)                  :mode  (x21 / expressive
+)                  :arg0  (x33 / person
+)                  :arg1  (x17_x20 / 放松
+                        :degree  (x18_19 / 半点儿
+)))))
+===========================
+武松把脚往大虫面门上眼睛里只顾乱踢。
+(x10 / 只顾-01
+      :arg0  (x18 / person
+            :name  ( x1/武松 
+))      :arg1  (x12 / 踢-01
+            :manner  (x11 / 乱
+)            :direction  (x9 / 里
+                  :arg0  (x8 / 眼睛
+                        :direction  (x6 / 面门
+                              :part-of  (x5 / 大虫
+))))            :arg0  (x3 / 脚
+)))
+===========================
+那只大虫咆哮起来，不住地扒身底下的泥，扒起了两堆黄泥，成了一个土坑。
+(x29 / temporal
+      :arg1  (x4_x5 / 咆哮-01
+            :arg0  (x3 / 大虫
+                  :mod  (x1 / 那
+)                  :cunit  (x2 / 只
+)))      :arg2  (x35 / and
+            :op1  (x10 / 扒-02
+                  :arg1  (x14 / 泥
+                        :location  (x12 / 底下
+                              :arg0  (x11 / 身
+)))                  :manner  (x7_x8 / 不住
+))            :op2  (x16 / 扒
+                  :cause-of  (x21 / 黄泥
+                        :quant  (x19 / 2
+)                        :cunit  (x20 / 堆
+))                  :cunit  (x18 / 了
+))            :op3  (x23 / 成-01
+                  :arg2  (x27 / 土坑
+                        :quant  (x25 / 1
+)                        :cunit  (x26 / 个
+))                  :aspect  (x24 / 了
+))))
+===========================
+武松把那只大虫一直按下黄泥坑里去。
+(x7 / 按-01
+      :arg0  (x15 / person
+            :name  ( x1/武松 
+))      :arg1  (x5 / 大虫
+            :mod  (x3 / 那
+)            :cunit  (x4 / 只
+))      :manner  (x6 / 一直
+)      :location  (x9 / 黄泥坑
+))
+===========================
+那只大虫叫武松弄得没有一些气力了。
+(x4 / 叫
+      :arg0  (x3 / 大虫
+            :mod  (x1 / 那
+)            :cunit  (x2 / 只
+))      :arg1  (x18 / person
+            :name  ( x5/武松 
+))      :arg2  (x6 / 弄
+            :cause-of  (x8_2 / 有-05
+                  :arg1  (x10 / 气力
+                        :quant  (x9 / 一些
+))                  :polarity  (x8_1 / -
+))            :aspect  (x11 / 了
+)))
+===========================
+武松用左手紧紧地揪住大虫的顶花皮，空出右手来，提起铁锤般大小的拳头，使尽平生气力只顾打。
+(x31 / temporal
+      :arg1  (x6_x7 / 揪-01
+            :arg0  (x34 / person
+                  :name  ( x1/武松 
+))            :instrument  (x3 / 左手
+)            :manner  (x4 / 紧
+)            :arg1  (x10 / 顶花皮
+                  :part-of  (x8 / 大虫
+)))      :arg2  (x12_x13 / 空出-01
+            :arg1  (x14 / 右手
+))      :arg3  (x17 / 提起-02
+            :arg1  (x22 / 拳头
+                  :mod  (x20 / 大小
+                        :mod  (x19 / 般-01
+                              :arg1  (x18 / 铁锤
+)                              :arg0  (x22 / 拳头
+))))            :arg0  (x34 / person
+))      :arg4  (x24_x25 / 使尽-01
+            :arg1  (x27 / 气力
+                  :mod  (x26 / 平生
+))            :purpose  (x28 / 只顾-01
+                  :arg1  (x29 / 打
+)                  :arg0  (x34 / person
+))            :arg0  (x34 / person
+)))
+===========================
+打了五六十拳，那只大虫眼看，口里，鼻子里，耳朵里，都迸出鲜血来，一点儿也不能动弹了，只剩下口里喘气。
+(x39 / temporal
+      :arg1  (x1 / 打-02
+            :arg1  (x5 / 拳
+                  :quant  (x43 / and
+                        :op1  (x3_x4_2 / 50
+)                        :op2  (x4 / 60
+)))            :aspect  (x2 / 了
+))      :arg2  (x47 / and
+            :op1  (x10 / 眼看-01
+                  :arg1  (x22_x23 / 迸出
+                        :arg0  (x24 / 鲜血
+)                        :location  (x51 / and
+                              :op1  (x12 / 口
+)                              :op2  (x15 / 鼻子
+)                              :op3  (x18 / 耳朵
+)                              :part-of  (x9 / 大虫
+                                    :mod  (x7 / 那
+)                                    :cunit  (x8 / 只
+)))                        :extent  (x21 / 都
+)))            :op2  (x30 / 能-01
+                  :arg0  (x31 / 动弹-01
+                        :arg0  (x9 / 大虫
+))                  :polarity  (x29 / -
+)                  :degree  (x27 / 一点儿
+)                  :mod  (x28 / 也
+)                  :aspect  (x32 / 了
+))            :op3  (x35 / 剩下-01
+                  :arg1  (x37 / 喘气-01
+                        :arg0  (x36 / 口里
+))                  :mod  (x34 / 只
+))))
+===========================
+武松放了手，去树边找那条打折的哨棒，只怕大虫不死，用棒子又打了一回，眼看那大虫气儿都没了，才丢开哨棒。
+(x41 / temporal
+      :arg1  (x2_x4 / 放手-01
+            :aspect  (x3 / 了
+)            :arg0  (x45 / person
+                  :name  ( x1/武松 
+)))      :arg2  (x6 / 去-01
+            :arg1  (x8 / 边
+                  :arg0  (x7 / 树
+))            :purpose  (x9 / 找-01
+                  :arg1  (x14 / 哨棒
+                        :arg1-of  (x12 / 打折
+)                        :mod  (x10 / 那
+)                        :cunit  (x11 / 条
+))))      :arg3  (x55 / causation
+            :arg1  (x16 / 只怕
+                  :arg1  (x19 / 死-01
+                        :arg0  (x17 / 大虫
+)                        :polarity  (x18 / -
+)))            :arg2  (x24 / 打-02
+                  :instrument  (x22 / 棒子
+)                  :mod  (x23 / 又
+)                  :aspect  (x25 / 了
+)                  :quant  (x26 / 1
+)                  :cunit  (x27 / 回
+)))      :arg4  (x66 / condition
+            :arg1  (x29 / 眼看-01
+                  :arg1  (x34 / 没
+                        :arg0  (x31 / x17
+                              :mod  (x30 / 那
+))                        :arg1  (x32 / 气儿
+)                        :extent  (x33 / 都
+)))            :arg2  (x38 / 丢开-01
+                  :arg1  (x39 / 哨棒
+)                  :arg0  (x45 / person
+))))
+===========================
+武松心里想道：“我就把这只死大虫拖下冈去。”
+(x4_x5 / 想-01
+      :arg0  (x2 / 心
+            :part-of  (x22 / person
+                  :name  ( x1/武松 
+)))      :arg1  (x14 / 拖-02
+            :arg0  (x7 / x22
+)            :arg1  (x13 / 大虫
+                  :arg0-of  (x12 / 死-01
+)                  :mod  (x10 / 这
+)                  :cunit  (x11 / 只
+))            :mod  (x8 / 就
+)            :location  (x16 / 冈
+)))
+===========================
+就血泊里用双手来提，哪里提得动！
+(x14 / contrast
+      :arg1  (x7 / 提-02
+            :arg0  (x5 / 双手
+                  :location  (x2 / 血泊
+)))      :arg2  (x11_x12 / possible
+            :arg0  (x10 / 提
+                  :polarity  (x9 / -
+))            :mode  (x13 / expressive
+)))
+===========================
+原来武松使尽了气力，手脚都酥软了。
+(x14 / causation
+      :arg1  (x3_x4 / 使尽-01
+            :arg0  (x17 / person
+                  :name  ( x2/武松 
+))            :aspect  (x5 / 了
+)            :arg1  (x6 / 气力
+)            :mod  (x1 / 原来
+))      :arg2  (x10_x11 / 酥软
+            :arg0  (x8 / 手脚
+)            :extent  (x9 / 都
+)            :aspect  (x12 / 了
+)))
+===========================
+武松回到青石上坐了半歇，想道：“天色看看黑了，如果再跳出一只大虫来，却怎么斗得过？还是先下冈去，明早再来理会。”
+(x43 / temporal
+      :arg1  (x2 / 回到-01
+            :arg0  (x46 / person
+                  :name  ( x1/武松 
+))            :arg1  (x3 / 青石
+))      :arg2  (x5 / 坐-01
+            :duration  (x7_x8 / 半歇
+)            :aspect  (x6 / 了
+)            :arg0  (x46 / person
+))      :arg3  (x10_x11 / 想-01
+            :arg1  (x53 / causation
+                  :arg1  (x54 / and
+                        :op1  (x15 / 黑-01
+                              :arg0  (x13 / 天色
+)                              :aspect  (x16 / 了-02
+)                              :mod  (x14 / 看看
+))                        :arg2  (x58 / condition
+                              :arg1  (x20 / 跳出-01
+                                    :arg0  (x23 / 大虫
+                                          :quant  (x21 / 1
+)                                          :cunit  (x22 / 只
+)))                              :arg2  (x29 / possible
+                                    :arg0  (x28_x30 / 斗过
+                                          :manner  (x27 / amr-unknown
+)))))                  :arg2  (x66 / temporal
+                        :arg1  (x34 / 下-01
+                              :arg1  (x35 / 冈
+)                              :ord  (x33 / 先
+))                        :arg2  (x41 / 理会
+                              :mod  (x39 / 再
+)                              :time  (x38 / 明早
+))))))
+===========================
+武松在石头边找到了毡笠儿，转过乱树林边，一步步挨下冈来。
+(x22 / temporal
+      :arg1  (x5 / 找到-01
+            :arg0  (x25 / person
+                  :name  ( x1/武松 
+))            :location  (x4 / 边
+                  :arg0  (x3 / 石头
+))            :arg1  (x7 / 毡笠儿
+)            :aspect  (x6 / 了
+))      :arg2  (x9 / 转过
+            :arg1  (x12 / 边
+                  :arg0  (x11 / 树林
+                        :arg1-of  (x10 / 乱-01
+))))      :arg3  (x17 / 挨-02
+            :arg1  (x19 / 冈
+)            :manner  (x14_x15_x16 / 一步步
+)            :arg0  (x25 / person
+)))
+===========================

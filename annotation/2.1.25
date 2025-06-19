@@ -1,0 +1,96 @@
+清晨，林中谁最快乐？
+(x6 / 快乐-01
+      :degree  (x5 / 最
+)      :arg0  (x4 / amr-unknown
+)      :mode  (x7 / interrogative
+)      :range  (x3_1 / 林
+)      :time  (x1 / 清晨
+))
+===========================
+是可爱的小鸟，叽叽喳喳，蹦蹦跳跳，一会儿唱歌，一会儿梳理蓬松的羽毛。
+(x19 / causation
+      :arg2  (x4 / 小鸟
+            :arg0-of  (x2 / 可爱-01
+)            :domain  (x23 / animal
+))      :arg1  (x24 / and
+            :op1  (x6 / 叽叽喳喳
+                  :arg0  (x4 / 小鸟
+))            :op2  (x8 / 蹦蹦跳跳-01
+                  :arg0  (x4 / 小鸟
+))            :op3  (x11 / 唱歌-01
+                  :time  (x10 / 一会儿
+)                  :arg0  (x4 / 小鸟
+))            :op4  (x14 / 梳理-01
+                  :arg0  (x4 / 小鸟
+)                  :arg1  (x17 / 羽毛
+                        :arg0-of  (x15 / 蓬松
+))                  :time  (x13 / 一会儿
+))))
+===========================
+清晨，林中谁最活跃？
+(x6 / 活跃-01
+      :range  (x3_1 / 林
+)      :arg0  (x4 / amr-unknown
+)      :degree  (x5 / 最
+)      :mode  (x7 / interrogative
+)      :time  (x1 / 清晨
+))
+===========================
+是机灵的小鸟，扑棱棱，飞来飞去，捕捉害虫，保护翠绿的树苗。
+(x18 / causation
+      :arg2  (x4 / 小鸟
+            :arg0-of  (x2 / 机灵-01
+)            :domain  (x22 / animal
+)            :mode  (x1 / judgement
+))      :arg1  (x23 / and
+            :op1  (x6 / 扑棱棱
+)            :op2  (x8 / 飞来飞去
+                  :arg0  (x4 / 小鸟
+))            :op3  (x10 / 捕捉-01
+                  :arg0  (x4 / 小鸟
+)                  :arg1  (x11 / 害虫
+))            :op4  (x13 / 保护-01
+                  :arg0  (x4 / 小鸟
+)                  :arg1  (x16 / 树苗
+                        :arg0-of  (x14 / 翠绿-01
+)))))
+===========================
+清晨，林中谁来得最早？是“红领巾”来放鸟巢。
+(x18 / multi-sentence
+      :snt1  (x8 / 早-01
+            :arg0  (x5 / 来-01
+                  :arg0  (x4 / amr-unknown
+))            :time  (x1 / 清晨
+)            :range  (x3_1 / 林
+)            :degree  (x7 / 最
+)            :mode  (x9 / interrogative
+))      :snt2  (x14 / 来-05
+            :arg0  (x12 / 红领巾
+)            :arg1  (x15 / 放-01
+                  :arg0  (x12 / 红领巾
+)                  :arg1  (x16 / 鸟巢
+))            :domain  (x31 / thing
+)))
+===========================
+崭新的木牌上写着：“请爱护小鸟！”
+(x5 / 写-01
+      :aspect  (x6 / 着
+)      :arg2  (x4 / 上
+            :arg0  (x3 / 木牌
+                  :arg0-of  (x1 / 崭新-01
+)))      :arg1  (x8 / 请-01
+            :arg2  (x9 / 爱护-01
+                  :arg1  (x10 / 小鸟
+))            :mode  (x11 / expressive
+)))
+===========================
+鸟在枝头高唱：“‘红领巾’真好！”
+(x4 / 高唱-01
+      :arg0  (x1 / 鸟
+)      :location  (x3 / 枝头
+)      :arg1  (x9 / 好-01
+            :degree  (x8 / 真
+)            :arg0  (x6 / 红领巾
+)            :mode  (x10 / expressive
+)))
+===========================

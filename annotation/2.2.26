@@ -1,0 +1,197 @@
+1922年，列宁住在莫斯科附近的一座小山上。
+(x5 / 住-01
+      :arg0  (x17 / person
+            :name  ( x4/列宁 
+))      :time  (x19 / date-entity
+            :year  (x1 / 1922
+))      :arg1  (x13_1 / 山
+            :arg0-of  (x12 / 小-01
+)            :quant  (x10 / 1
+)            :cunit  (x11 / 座
+)            :location  (x8 / 附近-01
+                  :arg0  (x26 / city
+                        :name  ( x7/莫斯科 
+)))))
+===========================
+当地有个养蜂的人，列宁常常派人去请他来谈天。
+(x18 / and
+      :op1  (x2 / 有-03
+            :arg0  (x1 / 当地
+)            :arg1  (x6 / 人
+                  :arg0-of  (x4 / 养蜂
+)                  :cunit  (x3 / 个
+)))      :op2  (x10 / 派-01
+            :arg0  (x26 / person
+                  :name  ( x8/列宁 
+))            :arg1  (x11 / 人
+)            :purpose  (x13 / 请-01
+                  :arg0  (x11 / 人
+)                  :arg1  (x14 / x6
+                        :arg2  (x15 / 来-05
+                              :arg0  (x14 / x6
+)                              :arg1  (x16 / 谈天-01
+                                    :arg0  (x14 / x6
+)))))            :frequency  (x9 / 常常
+)))
+===========================
+有一回，列宁想找那个人谈谈怎样养蜂。
+(x6 / 想-02
+      :arg0  (x18 / person
+            :name  ( x5/列宁 
+))      :arg1  (x7 / 找-01
+            :arg0  (x18 / person
+)            :arg1  (x10 / 人
+                  :mod  (x8 / 那
+)                  :cunit  (x9 / 个
+))            :arg2  (x11_x12 / 谈-01
+                  :arg0  (x10 / 人
+)                  :arg1  (x14 / 养蜂
+                        :manner  (x13 / amr-unknown
+))))      :time  (x1_x2_x3 / 有一回
+))
+===========================
+可是往常派去找他的人到莫斯科去了，别人都不知道他住在哪里，列宁就亲自去找。
+(x29 / causation
+      :arg1  (x31 / and
+            :arg2  (x31 / and
+                  :op1  (x9 / 到-01
+                        :arg0  (x8 / 人
+                              :arg1-of  (x3 / 派-01
+                                    :purpose  (x5 / 找-01
+                                          :arg0  (x8 / 人
+)                                          :arg1  (x6 / 他
+))                                    :time  (x2 / 往常
+)))                        :aspect  (x12 / 了-01
+)                        :arg1  (x38 / city
+                              :name  ( x10/莫斯科 
+)))                  :op2  (x17 / 知道-01
+                        :polarity  (x16 / -
+)                        :arg0  (x14 / 别人
+                              :extent  (x15 / 都
+))                        :arg1  (x19 / 住-01
+                              :arg0  (x18 / x6
+)                              :arg1  (x21 / amr-unknown
+)))))      :arg2  (x26 / 去-01
+            :arg0  (x51 / person
+                  :name  ( x23/列宁 
+))            :manner  (x25 / 亲自
+)            :arg1  (x27 / 找-01
+                  :arg0  (x51 / person
+)                  :arg1  (x6 / 他
+))))
+===========================
+列宁一边走一边看，发现路边的花丛里有许多蜜蜂。
+(x16 / and
+      :op1  (x18 / and
+            :op1  (x3 / 走-01
+                  :arg0  (x21 / person
+                        :name  ( x1/列宁 
+)))            :op2  (x5 / 看-02
+                  :arg0  (x21 / person
+)))      :op2  (x7 / 发现-01
+            :arg0  (x21 / person
+)            :arg1  (x12 / 有-03
+                  :arg0  (x10 / 花丛
+                        :location  (x8 / 路边
+))                  :arg1  (x14 / 蜜蜂
+                        :quant  (x13 / 许多
+)))))
+===========================
+他仔细观察，只见那些蜜蜂采了蜜就飞进附近的一个园子里，园子旁边有一所小房子。
+(x29 / and
+      :op1  (x3 / 观察-01
+            :arg0  (x1 / 他
+)            :manner  (x2 / 仔细
+))      :op2  (x6 / 见-01
+            :mod  (x5 / 只
+)            :arg0  (x1 / 他
+)            :arg1  (x36 / temporal
+                  :arg1  (x9 / 采-01
+                        :arg0  (x8 / 蜜蜂
+                              :mod  (x7 / 那些
+))                        :aspect  (x10 / 了
+)                        :arg1  (x11 / 蜜
+))                  :arg2  (x13_x14 / 飞进-01
+                        :arg0  (x8 / 蜜蜂
+)                        :arg1  (x18 / 园子
+                              :location  (x15 / 附近
+)                              :quant  (x17_1 / 1
+)                              :cunit  (x17_2 / 个
+)))))      :op3  (x23 / 有-03
+            :arg0  (x22 / 旁边
+                  :arg0  (x21 / 园子
+))            :arg1  (x27 / 房子
+                  :arg0-of  (x26 / 小-01
+)                  :quant  (x24 / 1
+)                  :cunit  (x25 / 所
+))))
+===========================
+列宁走到那所房子跟前，敲了敲门，开门的果然就是那个养蜂的人。
+(x22 / temporal
+      :arg1  (x2 / 走-01
+            :arg2  (x7 / 跟前
+                  :arg0  (x6 / 房子
+                        :mod  (x4 / 那
+)                        :cunit  (x5 / 所
+)))            :arg0  (x27 / person
+                  :name  ( x1/列宁 
+)))      :arg2  (x9_x11_1 / 敲-01
+            :aspect  (x10 / 了
+)            :arg1  (x11_2 / 门
+)            :arg0  (x27 / person
+))      :arg3  (x20 / 人
+            :arg0-of  (x18 / 养蜂
+)            :mod  (x17_1 / 那
+)            :cunit  (x17_2 / 个
+)            :domain  (x38 / person
+                  :arg0-of  (x13 / 开门-01
+))            :mod  (x15 / 果然
+)            :mod  (x16_1 / 就
+)))
+===========================
+养蜂的人看见列宁，惊讶地说：“您好，列宁同志，是谁把您领到这儿来的？”
+(x25 / causation
+      :arg1  (x4 / 看见-01
+            :arg0  (x3 / 人
+                  :arg0-of  (x1 / 养蜂
+))            :arg1  (x30 / person
+                  :name  ( x5/列宁 
+)))      :arg2  (x9 / 说-01
+            :manner  (x7 / 惊讶-01
+                  :arg0  (x3 / 人
+))            :arg0  (x3 / 人
+)            :arg1  (x34 / and
+                  :op1  (x11 / 您好
+)                  :op2  (x14 / 同志
+                        :name  ( x13/x5 
+))                  :op3  (x20_1 / 领-01
+                        :arg0  (x17 / amr-unknown
+)                        :arg1  (x19 / x30
+)                        :mode  (x16_x23 / judgement
+)                        :arg2  (x20_2 / 到-01
+                              :arg0  (x30 / person
+)                              :arg1  (x21 / 这儿
+))                        :mode  (x24 / interrogative
+)))))
+===========================
+列宁笑着说：“我有向导，是您的蜜蜂把我引到这儿来的。”
+(x4 / 说-01
+      :manner  (x2 / 笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x26 / person
+                  :name  ( x1/列宁 
+)))      :arg0  (x26 / person
+)      :arg1  (x28 / and
+            :op1  (x7 / 有-01
+                  :arg0  (x6 / x26
+)                  :arg1  (x8 / 向导
+))            :op2  (x16 / 引-01
+                  :mode  (x10_x20 / judgement
+)                  :arg0  (x13 / 蜜蜂
+                        :poss  (x11 / 您
+))                  :arg1  (x15 / x26
+)                  :arg2  (x17 / 到-01
+                        :arg0  (x26 / person
+)                        :arg1  (x18 / 这儿
+)))))
+===========================

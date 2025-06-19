@@ -1,0 +1,356 @@
+下午放学的时候，随着一声春雷，下起了大雨。
+(x11 / 下-11
+      :arg1  (x14 / 大雨
+)      :aspect  (x13 / 了
+)      :time  (x2 / 放学
+            :time  (x1 / 下午
+))      :accompanier  (x9 / 春雷
+            :quant  (x7 / 1
+)            :cunit  (x8 / 声
+)))
+===========================
+四年级的小林和同学们一起，顶着大雨往家走。
+(x15 / 走-01
+      :arg0  (x5 / and
+            :ord  (x20 / ordinal-entity
+                  :value  (x1 / 4
+)                  :unit  (x2 / 年级
+))            :op1  (x27 / person
+                  :name  ( x4/小林 
+))            :op2  (x6_x7 / 同学们
+))      :arg2  (x14 / 家
+)      :manner  (x10 / 顶-02
+            :aspect  (x11 / 着
+)            :arg1  (x12 / 大雨
+)            :arg0  (x5 / and
+))      :manner  (x8 / 一起
+))
+===========================
+小林的雨衣刚过膝盖，雨水顺着雨衣的下摆流到裤腿上，被风一吹，冷极了。
+(x26 / causation
+      :arg1  (x5 / 过-06
+            :mod  (x4 / 刚
+)            :arg0  (x3 / 雨衣
+                  :poss  (x31 / person
+                        :name  ( x1/小林 
+)))            :arg1  (x6 / 膝盖
+                  :part-of  (x1 / 小林
+)))      :arg2  (x34 / temporal
+            :arg1  (x13 / 流-01
+                  :path  (x12 / 下摆
+                        :part-of  (x10 / x3
+))                  :arg0  (x8 / 雨水
+)                  :arg1  (x15 / 裤腿
+))            :arg2  (x20_x21 / 吹-02
+                  :arg0  (x19 / 风
+)                  :arg1  (x31 / person
+))            :arg3  (x23_1 / 冷-02
+                  :degree  (x23_2_x24 / 极了
+)                  :arg0  (x31 / person
+))))
+===========================
+晚上，小林躺在床上想：得把雨衣改一改，不能再让雨水流到裤腿上了。
+(x27 / and
+      :op1  (x4 / 躺-01
+            :arg0  (x31 / person
+                  :name  ( x3/小林 
+))            :arg1  (x6 / 床
+))      :time  (x1 / 晚上
+)      :op2  (x8 / 想-01
+            :arg0  (x31 / person
+)            :arg1  (x10 / 得
+                  :arg0  (x13_x14_x15 / 改-01
+                        :arg1  (x12 / 雨衣
+))                  :purpose  (x17_2 / 能-01
+                        :arg0  (x19 / 让-02
+                              :arg1  (x20 / 雨水
+)                              :mod  (x18 / 再
+)                              :arg2  (x21 / 流-01
+                                    :arg0  (x20 / 雨水
+)                                    :arg1  (x23 / 裤腿
+)))                        :polarity  (x17_1 / -
+)                        :smood  (x25 / 了
+)))))
+===========================
+怎样才能解决这个难题呢？小林一直在想啊想……
+(x12_x14 / 想-01
+      :mode  (x13 / expressive
+)      :arg0  (x20 / person
+            :name  ( x9/小林 
+))      :aspect  (x11 / 在
+)      :time  (x10 / 一直
+)      :arg1  (x3 / 能-01
+            :mod  (x2 / 才
+)            :arg0  (x4 / 解决-01
+                  :arg0  (x6 / 难题
+                        :mod  (x5_1 / 这
+)                        :cunit  (x5_2 / 个
+)))            :manner  (x1 / amr-unknown
+)            :mode  (x7_x8 / interrogative
+)))
+===========================
+“六一”儿童节联欢会上，女同学表演舞蹈。
+(x10 / 表演-01
+      :arg0  (x9 / 同学
+            :mod  (x8 / 女
+))      :arg1  (x11 / 舞蹈
+)      :location  (x5 / 联欢会
+            :mod  (x19 / festival
+                  :name  ( x4/儿童节 
+))))
+===========================
+随着优美的乐曲，小演员们旋转起来，五颜六色的裙子徐徐张开，就像一把把花伞。
+(x26 / temporal
+      :arg1  (x9_x10 / 旋转-01
+            :arg1  (x7_x8 / 演员们
+                  :arg0-of  (x6 / 小-01
+)))      :arg2  (x19 / 像-01
+            :arg0  (x16 / 张开-01
+                  :arg1  (x14 / 裙子
+                        :arg0-of  (x12 / 五颜六色-01
+))                  :manner  (x15 / 徐徐
+))            :mod  (x18 / 就
+)            :arg1  (x24 / 伞
+                  :quant  (x20_x21_x22 / 一把把
+)                  :arg0-of  (x23 / 花
+)))      :accompanier  (x4 / 乐曲
+            :arg0-of  (x2 / 优美-01
+)))
+===========================
+在小林的眼中，“花伞”渐渐模糊，变成了下摆张开的一件件雨衣。
+(x22 / temporal
+      :location  (x4 / 眼中
+            :poss  (x24 / person
+                  :name  ( x2/小林 
+)))      :arg1  (x10 / 模糊-01
+            :arg1  (x7 / 伞
+                  :arg0-of  (x6 / 花
+))            :manner  (x9 / 渐渐
+))      :arg2  (x12 / 变成-01
+            :arg1  (x7 / 伞
+)            :aspect  (x13 / 了
+)            :arg2  (x20 / 雨衣
+                  :quant  (x17_x18_x19 / 一件件
+)                  :mod  (x15 / 张开-01
+                        :arg1  (x14 / 下摆
+                              :part-of  (x20 / 雨衣
+))))))
+===========================
+当天晚上，他用粗铁丝弯了一个大圈圈，把它缝在雨衣的下沿，新式雨衣就做成了。
+(x28 / temporal
+      :time  (x2 / 晚上
+            :time  (x1 / 当天
+))      :arg1  (x8 / 弯-01
+            :arg0  (x4 / 他
+)            :arg1  (x7 / 铁丝
+                  :arg0-of  (x6 / 粗-01
+))            :cause-of  (x12 / 圈圈
+                  :quant  (x10_1 / 1
+)                  :arg0-of  (x11 / 大-01
+)                  :cunit  (x10_2 / 个
+))            :aspect  (x9 / 了
+))      :arg2  (x16 / 缝-01
+            :arg1  (x15 / x12
+)            :destination  (x20 / 下沿
+                  :part-of  (x18 / 雨衣
+))            :arg0  (x4 / 他
+))      :arg3  (x25 / 做成-01
+            :aspect  (x26 / 了
+)            :arg1  (x23 / 雨衣
+                  :mod  (x22 / 新式
+))))
+===========================
+他还没来得及高兴，问题又来了：这样的雨衣怎么叠起来呢？
+(x20 / temporal
+      :arg1  (x4 / 来得及
+            :arg0  (x1 / 他
+)            :mod  (x2 / 还
+)            :polarity  (x3 / -
+)            :arg1  (x5 / 高兴-01
+                  :arg0  (x1 / 他
+)))      :arg2  (x9 / 来-01
+            :aspect  (x10 / 了
+)            :mod  (x8 / 又
+)            :arg0  (x7 / 问题
+                  :arg0-of  (x31 / mean
+                        :arg1  (x16_x17 / 叠
+                              :arg1  (x14 / 雨衣
+                                    :mod  (x12 / 这样
+))                              :manner  (x15 / amr-unknown
+)                              :mode  (x18_x19 / interrogative
+))))))
+===========================
+放暑假了，小林和同学去游泳。
+(x14 / and
+      :op1  (x1 / 放
+            :aspect  (x3 / 了
+)            :arg0  (x2 / 暑假
+))      :op2  (x8 / 去-01
+            :arg0  (x6 / and
+                  :op1  (x21 / person
+                        :name  ( x5/小林 
+))                  :op2  (x7 / 同学
+))            :arg1  (x9 / 游泳-01
+                  :arg0  (x6 / and
+))))
+===========================
+换好游泳裤，他拿出塑料救生圈开始吹气，叠起来的救生圈渐渐变成了圆环形的塑料气囊。
+(x26 / temporal
+      :arg2  (x6_x7 / 拿出-01
+            :arg0  (x5 / 他
+)            :arg1  (x9 / 救生圈
+                  :consist-of  (x8 / 塑料
+)))      :arg3  (x10 / 开始-01
+            :arg1  (x11 / 吹-01
+                  :arg1  (x12 / 气-01
+))            :arg0  (x5 / 他
+))      :arg4  (x19 / 变成-01
+            :manner  (x18 / 渐渐
+)            :aspect  (x20 / 了
+)            :arg1  (x17 / 救生圈
+                  :arg1-of  (x14_x15 / 叠
+))            :arg2  (x24 / 气囊
+                  :consist-of  (x23 / 塑料
+)                  :arg0-of  (x21 / 圆环形
+)))      :arg1  (x2 / 好-04
+            :arg0  (x1 / 换-03
+                  :arg1  (x3 / 游泳裤
+)                  :arg0  (x5 / 他
+))))
+===========================
+小林眼睛一亮，心想：用能够充气的塑料环代替铁丝圈，不就能叠起来了吗？
+(x26 / and
+      :op1  (x3_x4 / 亮-01
+            :arg0  (x2 / 眼睛
+                  :part-of  (x30 / person
+                        :name  ( x1/小林 
+))))      :op2  (x6 / 心想-01
+            :arg0  (x30 / person
+)            :arg1  (x33 / condition
+                  :arg1  (x14 / 代替-01
+                        :arg2  (x13 / 环
+                              :consist-of  (x12 / 塑料
+)                              :mod  (x9 / 能够-01
+                                    :arg0  (x10 / 充气-01
+                                          :arg1  (x13 / 环
+))))                        :arg1  (x16 / 圈
+                              :consist-of  (x15 / 铁丝
+)))                  :arg2  (x20 / 能-01
+                        :arg0  (x21_x22 / 叠
+)                        :polarity  (x18 / -
+)                        :smood  (x23 / 了
+)                        :mode  (x24_x25 / interrogative
+)))))
+===========================
+他没心思游泳了，换好衣服就往家跑。
+(x15 / causation
+      :arg1  (x2 / 没-02
+            :purpose  (x4 / 游泳-01
+                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)            :arg1  (x3 / 心思
+)            :smood  (x5 / 了
+))      :arg2  (x23 / temporal
+            :arg2  (x13 / 跑-01
+                  :arg3  (x12 / 家
+)                  :arg0  (x1 / 他
+))            :arg1  (x8 / 好-04
+                  :arg0  (x7 / 换-03
+                        :arg1  (x9 / 衣服
+)                        :arg0  (x1 / 他
+)))))
+===========================
+回到家里，小林剪下救生圈的气门儿，买了塑料膜，又请塑料加工店的叔叔帮忙压成一个气囊。
+(x26 / temporal
+      :arg1  (x1 / 回到-01
+            :arg0  (x29 / person
+                  :name  ( x4/小林 
+))            :arg1  (x2 / 家里
+))      :arg2  (x5 / 剪-01
+            :arg2  (x9 / 气门儿
+                  :part-of  (x7 / 救生圈
+))            :arg0  (x29 / person
+))      :arg3  (x11 / 买-01
+            :aspect  (x12 / 了
+)            :arg0  (x29 / person
+)            :arg1  (x13 / 塑料膜
+))      :arg4  (x16 / 请-01
+            :arg0  (x29 / person
+)            :arg1  (x19 / 叔叔
+                  :location  (x17 / 塑料加工店
+))            :arg2  (x20 / 帮忙-01
+                  :arg0  (x19 / 叔叔
+)                  :arg1  (x29 / person
+)                  :arg2  (x21 / 压-03
+                        :cause-of  (x22 / 成-01
+                              :arg1  (x24 / 气囊
+                                    :cunit  (x23_2 / 个
+)                                    :quant  (x23_1 / 1
+))                              :arg0  (x13 / 塑料膜
+))                        :arg0  (x19 / 叔叔
+)                        :arg1  (x13 / 塑料膜
+)))))
+===========================
+气囊吹起来，和充了气的自行车内胎差不多。
+(x12 / 差不多
+      :arg0  (x2_x3 / 吹-01
+            :arg1  (x1 / 气囊
+))      :arg1  (x11 / 内胎
+            :mod  (x10 / 自行车
+)            :arg1-of  (x6_x8 / 充气-01
+                  :aspect  (x7 / 了
+))))
+===========================
+爸爸帮着小林把气囊粘在雨衣的下摆里面。
+(x2 / 帮-01
+      :aspect  (x3 / 着
+)      :arg0  (x1 / 爸爸
+)      :arg1  (x18 / person
+            :name  ( x4/小林 
+))      :arg2  (x7 / 粘-01
+            :arg0  (x1 / 爸爸
+)            :arg1  (x6 / 气囊
+)            :arg2  (x12 / 里面
+                  :arg0  (x11 / 下摆
+                        :part-of  (x10 / 的
+)))))
+===========================
+充气雨衣做好了。
+(x3 / 做好-01
+      :arg1  (x2 / 雨衣
+            :mod  (x1 / 充气
+))      :aspect  (x4 / 了
+))
+===========================
+充起气来往身上一穿，嘿！
+(x12 / temporal
+      :arg2  (x7_x8 / 穿-01
+            :arg0  (x6 / 身上
+))      :mode  (x10_x11 / expressive
+)      :arg1  (x1_x2 / 充-01
+            :arg1  (x3 / 气-01
+)))
+===========================
+别提多棒了！
+(x1_1 / 别-02
+      :arg0  (x1_2 / 提-01
+            :arg1  (x3 / 棒
+                  :degree  (x2 / 多
+)))      :smood  (x4 / 了
+)      :mode  (x5 / expressive
+))
+===========================
+在儿童用品展览会上，小林发明的充气雨衣受到大家的称赞。
+(x12 / 受到-01
+      :arg0  (x11 / 雨衣
+            :mod  (x10 / 充气
+)            :arg1-of  (x8 / 发明-01
+                  :arg0  (x26 / person
+                        :name  ( x7/小林 
+))))      :arg1  (x15 / 称赞-01
+            :arg1  (x13 / 大家
+))      :location  (x4 / 展览会
+            :mod  (x3 / 用品
+                  :mod  (x2 / 儿童
+))))
+===========================

@@ -1,0 +1,451 @@
+一语未了，只听后院中有人笑声，说：“我来迟了，不曾迎接远客。”
+(x28 / temporal
+      :arg1  (x4 / 了
+            :arg0  (x2 / 语
+)            :polarity  (x3 / -
+)            :quant  (x1 / 1
+))      :arg2  (x7 / 听-01
+            :arg1  (x13 / 声
+                  :mod  (x12 / 笑
+)                  :poss  (x11 / 人
+                        :arg1-of  (x10 / 有
+                              :arg0  (x8 / 后院
+))))            :mod  (x6 / 只
+))      :arg3  (x15 / 说-01
+            :arg1  (x41 / causation
+                  :arg1  (x19 / 迟-01
+                        :aspect  (x20 / 了
+)                        :arg0  (x18 / 来-01
+                              :arg0  (x17 / x11
+)))                  :arg2  (x23 / 迎接-01
+                        :arg1  (x24 / 远客
+)                        :polarity  (x22 / -
+)                        :arg0  (x17 / x11
+)))))
+===========================
+黛玉纳罕道：这些人个个皆敛声屏气，恭肃严整如此，这来者系谁，这样放诞无礼。
+(x2_x3 / 纳罕
+      :arg0  (x30 / person
+            :name  ( x1/黛玉 
+))      :arg1  (x32 / contrast
+            :arg1  (x33 / and
+                  :op1  (x34 / and
+                        :op1  (x10 / 敛声
+                              :arg0  (x6 / 人
+                                    :mod  (x5 / 这些
+)                                    :quant  (x7_x8 / 个个
+)))                        :op2  (x11 / 屏气-01
+                              :arg0  (x6 / 人
+))                        :extent  (x9 / 皆
+))                  :op2  (x41 / and
+                        :op1  (x13 / 恭肃
+)                        :op2  (x14 / 严整
+)                        :mod  (x15 / 如此
+)))            :arg2  (x45 / and
+                  :op1  (x21 / amr-unknown
+                        :domain  (x19 / 者
+                              :arg0-of  (x18 / 来-01
+)                              :mod  (x17 / 这
+)))                  :op2  (x49 / and
+                        :op1  (x24 / 放诞
+                              :arg0  (x19 / 者
+))                        :op2  (x25 / 无礼
+                              :arg0  (x19 / 者
+))                        :degree  (x23 / 这样
+)))))
+===========================
+心下想时，只见一群媳妇丫环围拥着一个人，从后房门进来。
+(x6 / 只见
+      :arg1  (x25 / temporal
+            :arg1  (x12 / 拥
+                  :arg0  (x27 / and
+                        :op1  (x9 / 媳妇
+)                        :op2  (x10 / 丫环
+)                        :quant  (x7 / 1
+)                        :cunit  (x8 / 群
+))                  :manner  (x11 / 围
+)                  :arg1  (x16 / 人
+                        :quant  (x14 / 1
+)                        :cunit  (x15 / 个
+))                  :aspect  (x13 / 着
+))            :arg2  (x21 / 进来-01
+                  :source  (x20 / 房门
+                        :location  (x19 / 后
+))                  :arg0  (x16 / 人
+)))      :time  (x3 / 想-01
+            :arg0  (x1 / 心
+)))
+===========================
+这个人打扮与众姑娘不同，彩绣辉煌，恍若神妃仙子：头上戴着金丝八宝攒珠髻，绾着朝阳五凤挂珠钗；项下戴着赤金盘螭璎珞圈；裙边系着豆绿宫绦双鱼比目玫瑰佩；身上穿着缕金百蝶穿花大红洋缎窄裉袄，外罩五彩刻丝石青银鼠褂，下罩翡翠撒花洋绉裙。
+(x51 / and
+      :op1  (x7_2 / 同-01
+            :polarity  (x7_1 / -
+)            :arg0  (x3 / 打扮-01
+                  :arg1  (x4 / and
+                        :op1  (x2 / 人
+                              :mod  (x1_1 / 这
+)                              :cunit  (x1_2 / 个
+))                        :op2  (x6 / 姑娘
+                              :mod  (x5 / 众
+)))))      :op2  (x10 / 辉煌-01
+            :arg0  (x9 / 彩绣
+))      :op3  (x12 / 恍若-01
+            :arg1  (x66 / and
+                  :op1  (x13 / 神妃
+)                  :op2  (x14 / 仙子
+))            :arg0  (x2 / 人
+))      :op4  (x18 / 戴-01
+            :arg2  (x16 / 头
+)            :arg1  (x20 / 金丝八宝攒珠髻
+)            :aspect  (x19 / 着
+))      :op5  (x22 / 绾
+            :arg1  (x24 / 朝阳五凤挂珠钗
+)            :aspect  (x23 / 着
+))      :op6  (x28 / 戴-01
+            :arg1  (x30 / 赤金盘螭璎珞圈
+)            :aspect  (x29 / 着
+)            :arg2  (x26 / 项
+))      :op7  (x34 / 系-04
+            :arg0  (x33 / 边
+                  :poss  (x32 / 裙
+))            :arg1  (x36 / 豆绿宫绦双鱼比目玫瑰佩
+)            :aspect  (x35 / 着
+))      :op8  (x39 / 穿-01
+            :arg0  (x38 / 身上
+)            :arg1  (x41 / 缕金百蝶穿花大红洋缎窄裉袄
+)            :aspect  (x40 / 着
+))      :op9  (x44 / 罩-01
+            :arg2  (x45 / 五彩刻丝石青银鼠褂
+)            :location  (x43 / 外
+))      :op10  (x48 / 罩-01
+            :arg2  (x49 / 翡翠撒花洋绉裙
+)            :location  (x47 / 下
+)))
+===========================
+一双丹凤三角眼，两弯柳叶吊梢眉。
+(x14 / and
+      :op1  (x5 / 眼
+            :mod  (x4 / 三角
+)            :mod  (x3 / 丹凤
+)            :quant  (x1 / 1
+)            :unit  (x2 / 双
+))      :op2  (x12 / 眉
+            :mod  (x10_x11 / 吊梢
+)            :mod  (x9 / 柳叶
+)            :quant  (x7 / 2
+)            :cunit  (x8 / 弯
+)))
+===========================
+身量苗条，体格风骚，粉面含春威不露，丹唇未启笑先闻。
+(x23 / and
+      :op1  (x2 / 苗条-01
+            :arg0  (x1 / 身量
+))      :op2  (x5 / 风骚
+            :arg0  (x4 / 体格
+))      :op3  (x29 / contrast
+            :arg1  (x9 / 含-01
+                  :arg0  (x8 / 面
+                        :arg0-of  (x7 / 粉-01
+))                  :arg1  (x10 / 春
+))            :arg2  (x13 / 露-01
+                  :arg1  (x11 / 威
+)                  :polarity  (x12 / -
+)))      :op4  (x37 / contrast
+            :arg1  (x18 / 启-01
+                  :arg1  (x16 / 唇
+                        :mod  (x15 / 丹
+))                  :polarity  (x17 / -
+))            :arg2  (x21 / 闻-01
+                  :arg1  (x19 / 笑
+)                  :time  (x20 / 先
+))))
+===========================
+黛玉连忙起身接见。
+(x6 / temporal
+      :arg1  (x3 / 起身-01
+            :arg0  (x9 / person
+                  :name  ( x1/黛玉 
+))            :manner  (x2 / 连忙
+))      :arg2  (x4 / 接见-01
+            :arg0  (x9 / person
+)))
+===========================
+贾母笑道：“你不认得他。
+(x3_x4 / 笑道-01
+      :arg0  (x2 / 母
+            :name  ( x1/贾 
+))      :arg1  (x8 / 认得-01
+            :arg0  (x6 / 你
+)            :polarity  (x7 / -
+)            :arg1  (x9 / 他
+)))
+===========================
+他是我们这里有名的一个泼皮破落户儿，南省俗谓作辣子，你只叫他‘凤辣子’，就是了。”…
+(x39 / and
+      :op1  (x10 / 破落户儿
+            :mod  (x9 / 泼皮
+)            :quant  (x7 / 1
+)            :cunit  (x8 / 个
+)            :arg0-of  (x5 / 有名-01
+)            :location  (x4 / 这里
+                  :poss  (x3 / 我们
+))            :domain  (x1 / 他
+))      :op2  (x14 / 谓
+            :mod  (x13 / 俗
+)            :arg1  (x16 / 辣子
+)            :location  (x12 / 南省
+))      :op3  (x20 / 叫-01
+            :arg0  (x18 / 你
+)            :mod  (x19 / 只
+)            :arg2  (x21 / x1
+)            :arg1  (x23 / 凤辣子
+)            :smood  (x25 / 就是
+)            :aspect  (x26 / 了
+)))
+===========================
+这熙凤携着黛玉的手，上下细细的打量了一回，便仍送至贾母身边坐下，因笑道：“天下真有这样标致的人物，我今儿才算见了。
+(x45 / temporal
+      :arg1  (x3 / 携-01
+            :arg0  (x48 / person
+                  :name  ( x2/熙凤 
+)                  :mod  (x1 / 这
+))            :aspect  (x4 / 着
+)            :arg1  (x7 / 手
+                  :part-of  (x53 / person
+                        :name  ( x5/黛玉 
+))))      :arg2  (x12 / 打量-01
+            :quant  (x14 / 1
+)            :cunit  (x15 / 回
+)            :aspect  (x13 / 了
+)            :manner  (x10 / 细
+)            :range  (x9 / 上下
+))      :arg3  (x19 / 送-02
+            :arg1  (x23 / 身边
+                  :poss  (x22 / 母
+                        :name  ( x21/贾 
+)))            :mod  (x18 / 仍
+))      :arg4  (x24 / 坐下-01
+            :arg0  (x53 / person
+))      :arg5  (x27_x28 / 笑道-01
+            :arg1  (x68 / and
+                  :op1  (x32 / 有-03
+                        :arg1  (x36 / 人物
+                              :arg0-of  (x34 / 标致
+)                              :mod  (x33 / 这样
+))                        :arg0  (x30 / 天下
+)                        :mod  (x31 / 真
+))                  :op2  (x42 / 见-01
+                        :arg0  (x38 / x48
+)                        :arg1  (x53 / person
+)                        :mod  (x40 / 才
+)                        :mod  (x41 / 算
+)                        :time  (x39 / 今儿
+)                        :aspect  (x43 / 了
+)))))
+===========================
+况且这通身的气派，竟不像老祖宗的外孙女儿，竟是个嫡亲的孙女。
+(x20 / progression
+      :arg2  (x22 / contrast
+            :arg1  (x9 / 像-01
+                  :arg0  (x5 / 气派
+                        :mod  (x3 / 通身
+)                        :mod  (x2 / 这
+))                  :arg1  (x12 / 外孙女儿
+                        :poss  (x10 / 老祖宗
+))                  :polarity  (x8 / -
+)                  :mod  (x7 / 竟
+))            :arg2  (x18 / 孙女
+                  :mod  (x16 / 嫡亲
+)                  :cunit  (x15 / 个
+))))
+===========================
+怨不得老祖宗天天口头心头，一时不忘。
+(x1_x2 / 怨不得
+      :arg0  (x11 / 忘-01
+            :arg0  (x16 / and
+                  :op1  (x6 / 口头
+)                  :op2  (x7 / 心头
+)                  :poss  (x3 / 老祖宗
+))            :polarity  (x10 / -
+)            :time  (x9 / 一时
+)            :frequency  (x4_x5 / 天天
+)))
+===========================
+只可怜我这妹妹这样命苦，怎么姑妈偏就去世了。”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x2 / 可怜-01
+                  :arg1  (x7 / 命苦-01
+                        :arg0  (x5 / 妹妹
+                              :mod  (x4 / 这
+)                              :poss  (x3 / 我
+))                        :mod  (x6 / 这样
+))                  :mod  (x1 / 只
+))            :op2  (x13 / 去世-01
+                  :arg0  (x10 / 姑妈
+)                  :mod  (x11 / 偏
+)                  :mod  (x12 / 就
+)                  :cause  (x9 / amr-unknown
+)                  :aspect  (x14 / 了
+))))
+===========================
+说着，便用帕拭泪。
+(x9 / temporal
+      :arg1  (x1 / 说-01
+            :aspect  (x2 / 着
+))      :arg2  (x5 / 用-01
+            :arg1  (x6 / 帕
+)            :arg2  (x7 / 拭泪
+)))
+===========================
+贾母笑道：“我才好了，你倒来招我。
+(x3_x4 / 笑道-01
+      :arg0  (x2 / 母
+            :name  ( x1/贾 
+))      :arg1  (x21 / contrast
+            :arg1  (x8 / 好-01
+                  :arg0  (x6 / x2
+)                  :mod  (x7 / 才
+)                  :aspect  (x9 / 了
+))            :arg2  (x14 / 招-02
+                  :arg0  (x11 / 你
+)                  :arg1  (x15 / x2
+)                  :mod  (x12 / 倒
+))))
+===========================
+你妹妹远路才来，身子又弱，也才劝住了，快再休提前话。”
+(x24 / say
+      :arg1  (x26 / and
+            :op1  (x6 / 来-01
+                  :arg2  (x4 / 路
+                        :arg0-of  (x3 / 远-01
+))                  :arg0  (x2 / 妹妹
+                        :poss  (x1 / 你
+))                  :mod  (x5 / 才
+))            :op2  (x10 / 弱-01
+                  :arg0  (x8 / 身子
+)                  :mod  (x9 / 又
+))            :op3  (x14_x15 / 劝-01
+                  :aspect  (x16 / 了
+)                  :mod  (x13 / 才
+)                  :mod  (x12 / 也
+)                  :arg1  (x2 / 妹妹
+))            :op4  (x18 / 快
+                  :arg0  (x21 / 提-04
+                        :arg1  (x22 / 前话
+)                        :polarity  (x20 / -
+)                        :mod  (x19 / 再
+)))))
+===========================
+这熙凤听了，忙转悲为喜道：“正是呢，我一见了妹妹，一心都在他身上了，又是喜欢，又是伤心，竟忘记了老祖宗，该打该打。”
+(x44 / temporal
+      :arg1  (x3 / 听-01
+            :arg0  (x47 / person
+                  :name  ( x2/熙凤 
+))            :mod  (x1 / 这
+)            :aspect  (x4 / 了
+))      :arg2  (x7 / 转悲为喜
+            :manner  (x6 / 忙
+))      :arg3  (x8 / 道
+            :arg1  (x74 / causation
+                  :arg1  (x55 / contrast
+                        :arg1  (x56 / and
+                              :op1  (x10 / 正是
+                                    :mode  (x11 / expressive
+))                              :op2  (x59 / condition
+                                    :arg1  (x15 / 见-01
+                                          :arg0  (x13 / x47
+)                                          :arg1  (x17 / 妹妹
+)                                          :aspect  (x16 / 了
+))                                    :arg2  (x21 / 在-01
+                                          :arg0  (x19 / 一心
+)                                          :arg1  (x23 / 身上
+                                                :poss  (x22 / x17
+))                                          :extent  (x20 / 都
+)                                          :aspect  (x24 / 了
+)))                              :op3  (x28 / 喜欢-01
+                                    :mod  (x26 / 又
+)                                    :arg0  (x47 / person
+))                              :op4  (x32 / 伤心-01
+                                    :mod  (x30 / 又
+)                                    :arg0  (x47 / person
+)))                        :arg2  (x35 / 忘记-01
+                              :arg1  (x37 / 老祖宗
+)                              :aspect  (x36 / 了
+)                              :arg0  (x47 / person
+)))                  :arg2  (x39_x41 / 该-01
+                        :arg1  (x40_x42 / 打-01
+                              :arg1  (x47 / person
+))))            :arg0  (x47 / person
+)))
+===========================
+又忙携黛玉之手，问：“妹妹几岁了？
+(x16 / temporal
+      :arg1  (x3 / 携-01
+            :arg1  (x6 / 手
+                  :part-of  (x20 / person
+                        :name  ( x4/黛玉 
+)))            :manner  (x2 / 忙
+)            :mod  (x1 / 又
+))      :arg2  (x8 / 问-01
+            :arg1  (x25 / age
+                  :arg1  (x10 / x20
+)                  :arg2  (x27 / temporal-quantity
+                        :quant  (x11 / amr-unknown
+)                        :unit  (x12 / 岁
+))                  :aspect  (x13 / 了
+)                  :mode  (x14 / interrogative
+))))
+===========================
+可也上过学？
+(x3 / 上-02
+      :arg1  (x5 / 学
+)      :aspect  (x4 / 过
+)      :mod  (x2 / 也
+)      :mod  (x1 / 可
+)      :mode  (x6 / interrogative
+))
+===========================
+现吃什么药？
+(x2 / 吃-01
+      :arg1  (x4 / 药
+            :mod  (x3 / amr-unknown
+))      :time  (x1 / 现
+)      :mode  (x5 / interrogative
+))
+===========================
+在这里不要想家。
+(x4 / 要-03
+      :arg0  (x5 / 想-03
+            :arg1  (x6 / 家
+))      :polarity  (x3 / -
+)      :location  (x2 / 这里
+))
+===========================
+要什么吃的，什么玩的，只管告诉我。
+(x14 / condition
+      :arg1  (x1 / 要-01
+            :arg1  (x17 / and
+                  :op1  (x18 / thing
+                        :arg1-of  (x3 / 吃-01
+)                        :mod  (x2 / 什么
+))                  :op2  (x21 / thing
+                        :arg1-of  (x7 / 玩-01
+)                        :mod  (x6 / 什么
+))))      :arg2  (x10 / 只管
+            :arg0  (x11 / 告诉-01
+                  :arg2  (x12 / 我
+))))
+===========================
+丫头老婆们不好了，也只管告诉我。”
+(x12 / say
+      :arg1  (x14 / condition
+            :arg1  (x4_2 / 好-01
+                  :arg0  (x1_x2_x3 / 丫头老婆们
+)                  :polarity  (x4_1 / -
+)                  :aspect  (x5 / 了
+))            :arg2  (x8 / 只管
+                  :arg0  (x9 / 告诉-01
+                        :arg2  (x10 / 我
+)))))
+===========================

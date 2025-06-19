@@ -1,0 +1,366 @@
+我国东北的小兴安岭，有数不清的红松、白桦树……
+(x6 / 有-03
+      :arg0  (x17 / forest
+            :name  ( x4/小兴安岭 
+                  :location  (x19 / country-region
+                        :name  ( x2/东北 
+                              :location  (x1 / 我国
+)))))      :arg1  (x22 / and
+            :op1  (x11 / 红松
+                  :arg1-of  (x7 / 数-01
+                        :cause-of  (x9 / 清
+)                        :arg0-of  (x27 / possible
+                              :polarity  (x8 / -
+))))            :op2  (x13 / 白桦树
+                  :arg1-of  (x7 / 数-01
+))))
+===========================
+几百里连成一片，就像绿色的海洋。
+(x11 / and
+      :op1  (x3 / 连成一片
+            :arg0  (x14 / thing
+                  :quant  (x15 / distance-quantity
+                        :quant  (x1_1 / 几
+                              :op1  (x1_2 / 100
+))                        :unit  (x2 / 里
+))))      :op2  (x6 / 像-03
+            :mod  (x5 / 就
+)            :arg0  (x14 / thing
+)            :arg1  (x9 / 海洋
+                  :arg0-of  (x7 / 绿色-01
+)))      :op1  (x3_1 / 连-01
+            :cause-of  (x3_2 / 成-01
+                  :arg1  (x3_3_4 / 一片
+                        :quant  (x15 / distance-quantity
+)))            :arg0  (x3_3_4 / 一片
+)))
+===========================
+春天，树木抽出新的枝条，长出嫩绿的叶子山上的积雪融化了，雪水汇成小溪，淙淙地流着。
+(x30 / and
+      :op1  (x4 / 抽出
+            :arg0  (x3 / 树木
+)            :arg1  (x7 / 枝条
+                  :arg0-of  (x5 / 新-01
+)))      :op2  (x9_x10 / 长出-01
+            :arg0  (x13 / 叶子
+                  :arg0-of  (x11 / 嫩绿
+)))      :op3  (x17 / 融化-01
+            :aspect  (x18 / 了
+)            :arg1  (x16 / 积雪
+                  :location  (x14 / 山上
+)))      :time  (x35 / date-entity
+            :season  (x1 / 春天
+))      :op4  (x21 / 汇-01
+            :arg1  (x20 / 雪水
+)            :cause-of  (x22 / 成-01
+                  :arg0  (x20 / 雪水
+)                  :arg1  (x23 / 小溪
+)))      :op5  (x27 / 流-01
+            :aspect  (x28 / 着
+)            :manner  (x25 / 淙淙
+)))
+===========================
+溪里涨满了春水。
+(x3 / 涨-01
+      :cause-of  (x4 / 满-01
+            :aspect  (x5 / 了-01
+)            :arg1  (x1 / 溪
+)            :arg0  (x6 / 春水
+))      :arg1  (x6 / 春水
+)      :location  (x1 / 溪
+))
+===========================
+小鹿在溪边散步，它们有的俯下身子喝水，有的侧着脑袋欣赏自己映在水里的影子。
+(x27 / and
+      :op1  (x4 / 散步-01
+            :arg0  (x1 / 小鹿
+)            :location  (x3 / 溪边
+))      :op2  (x11 / 喝-01
+            :manner  (x8 / 俯
+                  :direction  (x9 / 下
+)                  :arg0  (x35 / animal
+                        :arg1-of  (x36 / include-91
+                              :arg2  (x6 / x1
+))                        :mod  (x7 / 有的
+))                  :arg1  (x10 / 身子
+                        :part-of  (x35 / animal
+)))            :arg0  (x35 / animal
+))      :op3  (x18 / 欣赏-01
+            :manner  (x15 / 侧-01
+                  :aspect  (x16 / 着
+)                  :arg1  (x17 / 脑袋
+                        :part-of  (x41 / animal
+                              :arg1-of  (x42 / include-91
+                                    :arg2  (x6 / x1
+))                              :mod  (x14 / 有的
+)))                  :arg0  (x41 / animal
+))            :arg0  (x41 / animal
+)            :arg1  (x25 / 影子
+                  :arg0-of  (x20 / 映-01
+                        :arg1  (x22 / 水
+))                  :poss  (x19 / x41
+))))
+===========================
+夏天，树木长得葱葱笼笼，密密层层的枝叶把森林封得严严实实的，挡住了人们的视线，遮住了蓝蓝的天空。
+(x31 / and
+      :op1  (x4 / 长-01
+            :arg1  (x6 / 葱葱笼笼
+                  :arg0  (x3 / 树木
+))            :arg0  (x3 / 树木
+))      :time  (x34 / date-entity
+            :season  (x1 / 夏天
+))      :op2  (x13 / 封-02
+            :arg0  (x10 / 枝叶
+                  :arg0-of  (x8 / 密密层层
+)                  :part-of  (x3 / 树木
+))            :arg1  (x12 / 森林
+)            :manner  (x15_x16 / 严实
+))      :op3  (x18 / 挡住-01
+            :aspect  (x19 / 了
+)            :arg0  (x10 / 枝叶
+)            :arg1  (x22 / 视线
+                  :poss  (x20 / 人们
+)))      :op4  (x24 / 遮住-01
+            :aspect  (x25 / 了
+)            :arg0  (x10 / 枝叶
+)            :arg1  (x29 / 天空
+                  :arg0-of  (x26_x27_x28 / 蓝-01
+))))
+===========================
+早晨，雾从山谷里升起来，整个森林浸在乳白色的浓雾里。
+(x19 / and
+      :op1  (x7 / 升-02
+            :direction  (x8 / 起来-02
+                  :arg0  (x3 / 雾
+))            :arg0  (x3 / 雾
+)            :source  (x5 / 山谷
+))      :time  (x1 / 早晨
+)      :op2  (x12 / 浸-01
+            :arg1  (x11 / 森林
+                  :mod  (x10 / 整个
+))            :arg2  (x16 / 浓雾
+                  :arg0-of  (x14 / 乳白色
+))))
+===========================
+太阳出来了，千万缕像利剑一样的金光，穿过树梢，照射在工人宿舍门前的草地上。
+(x25 / temporal
+      :arg1  (x2 / 出来-01
+            :aspect  (x3 / 了-01
+)            :arg0  (x1 / 太阳
+))      :arg2  (x13 / 穿过-01
+            :arg0  (x11 / 金光
+                  :arg0-of  (x7 / 像-02
+                        :arg1  (x8 / 利剑
+))                  :quant  (x5 / 千万
+)                  :cunit  (x6 / 缕
+))            :arg1  (x14 / 树梢
+))      :arg3  (x16 / 照射-01
+            :arg0  (x11 / 金光
+)            :location  (x22 / 草地
+                  :location  (x20 / 门前
+                        :arg0  (x19 / 宿舍
+                              :poss  (x18 / 工人
+))))))
+===========================
+草地上盛开着各种各样的野花，红的、白的、黄的、紫的，真像个美丽的大花坛。
+(x29 / and
+      :op1  (x3 / 盛开-01
+            :aspect  (x4 / 着
+)            :location  (x1 / 草地
+)            :arg1  (x7 / 野花
+                  :mod  (x5 / 各种各样
+)                  :example  (x39 / and
+                        :op1  (x40 / thing
+                              :arg0-of  (x9 / 红-01
+))                        :op2  (x41 / thing
+                              :arg0-of  (x12 / 白-01
+))                        :op3  (x44 / thing
+                              :arg0-of  (x15 / 黄-02
+))                        :op4  (x46 / thing
+                              :arg0-of  (x18 / 紫-01
+)))))      :op2  (x22 / 像-01
+            :arg0  (x1 / 草地
+)            :arg1  (x27 / 花坛
+                  :arg0-of  (x26 / 大-01
+)                  :cunit  (x23 / 个
+)                  :arg0-of  (x24 / 美丽-01
+))            :degree  (x21 / 真
+)))
+===========================
+秋天，白桦和棕树的叶子变黄了，松柏显得更苍翠了。
+(x18 / and
+      :op1  (x8 / 变-01
+            :arg1  (x7 / 叶子
+                  :part-of  (x4 / and
+                        :op1  (x3 / 白桦
+)                        :op2  (x5 / 棕树
+)))            :arg2  (x9 / 黄-02
+                  :aspect  (x10 / 了
+)                  :arg0  (x7 / 叶子
+)))      :time  (x27 / date-entity
+            :season  (x1 / 秋天
+))      :op2  (x13 / 显得-01
+            :arg0  (x12 / 松柏
+)            :arg1  (x15 / 苍翠
+                  :degree  (x14 / 更
+))            :smood  (x16 / 了
+)))
+===========================
+秋风吹来，落叶在林间飞舞。
+(x10 / temporal
+      :arg1  (x2 / 吹-02
+            :arg0  (x1 / 秋风
+)            :direction  (x3 / 来-01
+                  :arg0  (x1 / 秋风
+)))      :arg2  (x8 / 飞舞-01
+            :arg0  (x5 / 落叶
+)            :location  (x7 / 林间
+)))
+===========================
+这时候，森林向人们献出了酸甜可口的山葡萄，又香又脆的榛子，鲜嫩的蘑菇和木耳，还有人参等名贵药材。
+(x6_x7 / 献出-01
+      :arg0  (x3 / 森林
+)      :time  (x1 / 这时候
+)      :beneficiary  (x5 / 人们
+)      :aspect  (x8 / 了
+)      :arg1  (x40 / and
+            :op1  (x13 / 葡萄
+                  :mod  (x12 / 山
+)                  :arg0-of  (x9 / 酸甜
+)                  :arg0-of  (x10 / 可口-01
+))            :op2  (x20 / 榛子
+                  :arg0-of  (x16 / 香-01
+)                  :arg0-of  (x18 / 脆
+))            :op3  (x25 / and
+                  :op1  (x24 / 蘑菇
+                        :arg0-of  (x22 / 鲜嫩
+))                  :op2  (x26 / 木耳
+                        :arg0-of  (x22 / 鲜嫩
+)))            :op4  (x32 / 药材
+                  :arg0-of  (x31 / 名贵-01
+)                  :example  (x51 / and
+                        :op1  (x29 / 人参
+)                        :op2  (x30 / 等
+)))))
+===========================
+冬天，雪花在空中飞舞。
+(x6 / 飞舞-01
+      :location  (x5 / 空中
+)      :arg0  (x3 / 雪花
+)      :time  (x12 / date-entity
+            :season  (x1 / 冬天
+)))
+===========================
+树上积满了白雪。
+(x2 / 积-01
+      :arg1  (x5 / 白雪
+)      :cause-of  (x3 / 满-01
+            :aspect  (x4 / 了
+)            :arg0  (x5 / 白雪
+)            :arg1  (x1 / 树上
+))      :location  (x1 / 树上
+))
+===========================
+地上的雪厚厚的，又松又软，常常没过膝盖。
+(x16 / and
+      :op1  (x4 / 厚-02
+            :arg0  (x3 / 雪
+                  :location  (x1 / 地上
+)))      :op2  (x19 / and
+            :op1  (x7 / 松
+                  :arg0  (x3 / 雪
+))            :op2  (x9 / 软-01
+                  :arg0  (x3 / 雪
+)))      :op3  (x12 / 没
+            :arg0  (x3 / 雪
+)            :frequency  (x11 / 常常
+)            :arg1  (x14 / 膝盖
+)))
+===========================
+西北风呼呼地刮过树梢。
+(x3 / 刮-02
+      :arg0  (x1 / 西北风
+)      :manner  (x2 / 呼呼地
+)      :path  (x5 / 树梢
+))
+===========================
+紫貂和黑熊不得不躲进各自的洞里。
+(x4 / 不得不
+      :arg0  (x5 / 躲-01
+            :arg2  (x10 / 里
+                  :arg0  (x9 / 洞
+                        :poss  (x7 / x2
+)))            :arg0  (x2 / and
+                  :op1  (x1 / 紫貂
+)                  :op1  (x3 / 黑熊
+))))
+===========================
+紫貂捕到一只野兔当美餐，黑熊只好用舌头舔着自己又肥又厚的脚掌。
+(x24 / and
+      :op1  (x2 / 捕-01
+            :arg0  (x1 / 紫貂
+)            :arg1  (x6 / 野兔
+                  :arg2-of  (x7 / 当-01
+                        :arg1  (x8 / 美餐
+))                  :quant  (x4 / 1
+)                  :cunit  (x5 / 只
+)))      :op2  (x14 / 舔-01
+            :arg0  (x10 / 黑熊
+)            :mod  (x11 / 只好
+)            :instrument  (x13 / 舌头
+                  :part-of  (x10 / 黑熊
+))            :aspect  (x15 / 着
+)            :arg1  (x22 / 脚掌
+                  :part-of  (x16 / x10
+)                  :arg0-of  (x18 / 肥
+)                  :arg0-of  (x20 / 厚-02
+))))
+===========================
+松鼠靠秋天收藏在树洞里的松子过日子，有时候还到枝头散散步，看看春天是不是快要来临。
+(x28 / and
+      :op1  (x11 / 过日子
+            :arg0  (x1 / 松鼠
+)            :manner  (x2 / 靠-01
+                  :arg0  (x1 / 松鼠
+)                  :arg1  (x10 / 松子
+                        :arg1-of  (x4 / 收藏-02
+                              :arg2  (x7 / 洞
+                                    :mod  (x6 / 树
+))                              :time  (x37 / date-entity
+                                    :season  (x3 / 秋天
+))))))      :op2  (x17_x18 / 散步-01
+            :location  (x16 / 枝头
+)            :mod  (x14 / 还
+)            :time  (x13 / 有时候
+)            :purpose  (x20 / 看看-01
+                  :arg0  (x1 / 松鼠
+)                  :arg1  (x25_2 / 要-03
+                        :time  (x25_1 / 快
+)                        :arg0  (x26 / 来临-01
+                              :arg0  (x48 / date-entity
+                                    :season  (x21 / 春天
+)))                        :mode  (x22_x23_x24 / interrogative
+)))            :arg0  (x1 / 松鼠
+)))
+===========================
+小兴安岭一年四季景色诱人，是一座美丽的大花园，也是一座巨大的宝库。
+(x22 / and
+      :op1  (x4 / 诱人-01
+            :arg0  (x3 / 景色
+                  :poss  (x27 / forest
+                        :name  ( x1/小兴安岭 
+)))            :time  (x2 / 一年四季
+))      :op2  (x12 / 花园
+            :arg0-of  (x11 / 大-01
+)            :arg0-of  (x9 / 美丽-01
+)            :quant  (x7 / 1
+)            :cunit  (x8 / 座
+)            :domain  (x27 / forest
+))      :op3  (x20 / 宝库
+            :arg0-of  (x18 / 巨大-01
+)            :quant  (x16 / 1
+)            :cunit  (x17 / 座
+)            :mod  (x14 / 也
+)            :domain  (x27 / forest
+)))
+===========================

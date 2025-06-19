@@ -1,0 +1,511 @@
+1986年9月，在拉丁美洲的马拉那河上，举行了一次特殊的葬礼。
+(x12 / 举行-01
+      :arg1  (x18 / 葬礼
+            :arg0-of  (x16 / 特殊-01
+)            :quant  (x14 / 1
+)            :cunit  (x15 / 次
+))      :aspect  (x13 / 了
+)      :location  (x27 / river
+            :name  ( x9/马拉那河 
+)            :location  (x29 / continent
+                  :name  ( x7/拉丁美洲 
+)))      :time  (x31 / date-entity
+            :year  (x1_x2 / 1986
+)            :month  (x3_x4 / 9
+)))
+===========================
+当时的巴西总统菲格雷特穿着黑色礼服，亲自主持了这个特殊的葬礼。
+(x19 / and
+      :op1  (x6 / 穿-01
+            :arg0  (x22 / person
+                  :arg0-of  (x23 / have-org-role-91
+                        :arg2  (x4 / 总统
+)                        :arg1  (x25 / country
+                              :name  ( x3/巴西 
+)))                  :time  (x1 / 当时
+)                  :name  ( x5/菲格雷特 
+))            :arg1  (x9 / 礼服
+                  :arg0-of  (x8 / 黑色
+))            :aspect  (x7 / 着
+))      :op2  (x12 / 主持-01
+            :arg1  (x17 / 葬礼
+                  :mod  (x14_1 / 这
+)                  :cunit  (x14_2 / 个
+)                  :arg0-of  (x15 / 特殊-01
+))            :manner  (x11 / 亲自
+)            :aspect  (x13 / 了
+)))
+===========================
+这个葬礼是为一条瀑布——塞特凯达斯大瀑布举行的。
+(x12 / 举行-01
+      :arg1  (x2 / 葬礼
+            :mod  (x1_1 / 这
+)            :cunit  (x1_2 / 个
+))      :beneficiary  (x7 / 瀑布
+            :name  ( x11/瀑布 
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 条
+))      :mode  (x3_x13 / judgement
+))
+===========================
+事情是这样的。
+(x3 / 这样-01
+      :arg0  (x1 / 事情
+)      :mode  (x2_x4 / judgement
+))
+===========================
+在拉丁美洲的巴西与巴拉圭两国的交界处，有一条巴拉那河，河上有一条世界著名的大瀑布——塞特凯达斯大瀑布。
+(x32 / and
+      :op1  (x12 / 有-03
+            :arg0  (x10 / 交界处
+                  :mod  (x8 / 国
+                        :quant  (x7 / 2
+)                        :arg0-of  (x38 / mean
+                              :arg1  (x41 / and
+                                    :op1  (x39 / country
+                                          :name  ( x4/巴西 
+))                                    :op2  (x42 / country
+                                          :name  ( x6/巴拉圭 
+))))                        :location  (x44 / continent
+                              :name  ( x2/拉丁美洲 
+))))            :arg1  (x46 / river
+                  :name  ( x15/巴拉那河 
+)                  :quant  (x13 / 1
+)                  :cunit  (x14 / 条
+)))      :op2  (x19 / 有-03
+            :arg0  (x17 / x46
+)            :arg1  (x26 / 瀑布
+                  :arg0-of  (x25 / 大-01
+)                  :arg0-of  (x23 / 著名-01
+                        :range  (x22 / 世界
+))                  :quant  (x20 / 1
+)                  :cunit  (x21 / 条
+)                  :name  ( x30/瀑布 
+))))
+===========================
+这条瀑布曾经是世界上流量最大的瀑布，汹涌的河水紧贴悬崖咆哮而下，滔滔不绝，一泻千里。
+(x27 / and
+      :op1  (x12 / 瀑布
+            :mod  (x10 / 大-04
+                  :degree  (x9 / 最
+)                  :arg0  (x8 / 流量
+)                  :range  (x6 / 世界
+))            :domain  (x3 / 瀑布
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 条
+))            :aspect  (x4 / 曾经
+))      :op2  (x38 / and
+            :op1  (x21 / 下-03
+                  :manner  (x19 / 咆哮
+)                  :manner  (x17 / 紧贴-01
+                        :arg2  (x18 / 悬崖
+))                  :arg0  (x16 / 河水
+                        :arg0-of  (x14 / 汹涌-01
+)))            :op2  (x23 / 滔滔不绝-01
+                  :arg0  (x16 / 河水
+))            :op3  (x25 / 一泻千里
+                  :arg0  (x16 / 河水
+))))
+===========================
+尤其是每年汛期，大瀑布的气势更是雄伟壮观，每秒钟有1万立方米的水从几十米的高处飞流直下，落地撞开万朵莲花，溅起的水雾飘飘洒洒，水声震耳欲聋。
+(x45 / and
+      :time  (x4 / 汛期
+            :frequency  (x49 / rate-entity-91
+                  :arg2  (x50 / temporal-quantity
+                        :quant  (x3_1 / 1
+)                        :unit  (x3_2 / 年
+)))            :mod  (x1 / 尤其
+))      :op1  (x54 / and
+            :op1  (x11 / 雄伟-01
+                  :arg0  (x9 / 气势
+                        :poss  (x7 / 瀑布
+                              :arg0-of  (x6 / 大-04
+))))            :op2  (x12 / 壮观-01
+                  :arg0  (x9 / 气势
+))            :degree  (x10 / 更
+))      :op2  (x27 / 飞流直下
+            :source  (x26 / 高处
+                  :mod  (x63 / distance-quantity
+                        :quant  (x23_1 / 几
+                              :op1  (x23_2 / 10
+))                        :unit  (x24 / 米
+)))            :arg0  (x21 / 水
+                  :quant  (x69 / volume-quantity
+                        :quant  (x17_x18 / 10000
+)                        :unit  (x19 / 立方米
+))                  :arg1-of  (x16 / 有-03
+))            :frequency  (x73 / rate-entity-91
+                  :arg2  (x74 / temporal-quantity
+                        :quant  (x14 / 1
+)                        :unit  (x15 / 秒钟
+))))      :op3  (x77 / temporal
+            :arg1  (x29 / 落地
+)            :arg2  (x30 / 撞
+                  :cause-of  (x31 / 开-01
+                        :arg1  (x34 / 莲花
+                              :quant  (x32 / 万
+)                              :cunit  (x33 / 朵
+))))            :arg3  (x40 / 飘洒-01
+                  :arg0  (x39 / 水雾
+                        :arg1-of  (x36_x37 / 溅-01
+)))            :arg4  (x43 / 震耳欲聋-01
+                  :arg0  (x42 / 水声
+))))
+===========================
+据说在30千米外，瀑布的巨响还清晰可闻。
+(x1 / 据说-01
+      :arg0  (x11 / 清晰-01
+            :manner  (x12 / 可-01
+                  :arg0  (x13 / 闻-01
+                        :arg0  (x9 / 巨响
+                              :poss  (x7 / 瀑布
+))))            :arg0  (x9 / 巨响
+))      :location  (x22 / relative-position
+            :arg0  (x5 / 外
+)            :quant  (x3 / 30
+)            :unit  (x4 / 千米
+)))
+===========================
+长期以来，塞特凯达斯瀑布一直是巴西和巴拉圭人民的骄傲。
+(x12 / 骄傲
+      :poss  (x10 / 人民
+            :mod  (x8 / and
+                  :op1  (x18 / country
+                        :name  ( x7/巴西 
+))                  :op2  (x20 / country
+                        :name  ( x9/巴拉圭 
+))))      :domain  (x22 / river
+            :name  ( x4/瀑布 
+))      :time  (x1 / 长期以来
+)      :mod  (x5 / 一直
+))
+===========================
+世界各地的观光者纷至沓来，在这从天而降的巨大水帘面前，置身于细细的水雾之中，感受这世外桃源的清新空气。
+(x36 / and
+      :op1  (x5 / 纷至沓来-01
+            :arg0  (x4 / 观光者
+                  :mod  (x2 / 各地
+                        :range  (x1 / 世界
+))))      :op2  (x18 / 置身-01
+            :arg1  (x21 / 水雾
+                  :arg0-of  (x20 / 细-01
+)))      :op3  (x24 / 感受-01
+            :location  (x16 / 面前
+                  :arg0  (x15 / 水帘
+                        :arg0-of  (x14 / 巨大-01
+)                        :arg0-of  (x12 / 降-01
+                              :arg3  (x10 / 天
+))                        :mod  (x8 / 这
+)))            :arg1  (x29 / 空气
+                  :arg0-of  (x28 / 清新-01
+)                  :location  (x26 / 世外桃源
+                        :mod  (x25 / 这
+)))))
+===========================
+游客们常常为此陶醉不已，流连忘返。
+(x10 / and
+      :op1  (x5 / 陶醉-01
+            :degree  (x6 / 不已
+)            :arg0  (x1_x2 / 游客们
+))      :op2  (x8 / 流连忘返-01
+            :arg0  (x1_x2 / 游客们
+))      :cause  (x4 / 为此
+)      :frequency  (x3 / 常常
+))
+===========================
+但这雄奇的景观，竟然在逐渐消失。
+(x12 / contrast
+      :arg2  (x10 / 消失-01
+            :arg0  (x5 / 景观
+                  :arg0-of  (x3 / 雄奇
+)                  :mod  (x2 / 这
+))            :manner  (x9 / 逐渐
+)            :mod  (x7 / 竟然
+)            :aspect  (x8 / 在
+)))
+===========================
+20世纪80年代初，为了发电，瀑布上游建起了一座世界上最大的水电站——伊泰普水电站。
+(x12 / 建起-01
+      :arg1  (x21 / 水电站
+            :arg0-of  (x19 / 大-04
+                  :degree  (x18 / 最
+)                  :range  (x16 / 世界
+))            :quant  (x14 / 1
+)            :cunit  (x15 / 座
+)            :name  ( x23/伊泰普水电站 
+))      :location  (x11 / 上游
+            :arg0  (x10 / 瀑布
+))      :purpose  (x8 / 发电
+)      :time  (x37 / date-entity
+            :decade  (x3_x4 / 80
+)            :century  (x1_x2 / 20
+)            :mod  (x5 / 初
+)))
+===========================
+水电站高高的拦河大坝截住了大量的河水，使塞特凯达斯大瀑布水源大减。
+(x12 / 使-01
+      :arg0  (x6 / 截住-01
+            :arg0  (x5 / 大坝
+                  :arg0-of  (x3 / 拦-01
+                        :arg1  (x4 / 河
+))                  :arg0-of  (x2 / 高-01
+)                  :location  (x1 / 水电站
+))            :arg1  (x10 / 河水
+                  :quant  (x8 / 大量
+))            :aspect  (x7 / 了
+))      :arg1  (x16 / 水源
+            :poss  (x32 / river
+                  :name  ( x15/瀑布 
+)))      :arg2  (x18 / 减-02
+            :degree  (x17 / 大
+)            :arg0  (x16 / 水源
+)))
+===========================
+而且，周围的许多工人用水毫无节制，再加上沿河两岸的森林被滥砍滥伐，水土大量流失，大瀑布水量逐年减少。
+(x31 / progression
+      :arg2  (x33 / causation
+            :arg1  (x49 / and
+                  :op1  (x9 / 节制-01
+                        :polarity  (x8 / -
+)                        :arg1  (x7 / 用水-01
+                              :arg0  (x6 / 工人
+                                    :quant  (x5 / 许多
+)                                    :location  (x3 / 周围
+))))                  :op2  (x41 / and
+                        :op1  (x18 / 滥砍
+                              :arg0  (x47 / person
+)                              :arg1  (x16 / 森林
+                                    :location  (x14 / 两岸
+                                          :arg0  (x13 / 沿河
+))))                        :op2  (x19 / 滥伐-01
+                              :arg1  (x16 / 森林
+)                              :arg0  (x47 / person
+))))            :arg2  (x50 / and
+                  :op1  (x23 / 流失-01
+                        :arg1  (x21 / 水土
+                              :quant  (x22 / 大量
+)))                  :op2  (x29 / 减少-01
+                        :arg1  (x27 / 水量
+                              :poss  (x26 / 瀑布
+                                    :arg0-of  (x25 / 大-04
+)))                        :manner  (x28 / 逐年
+)))))
+===========================
+几年过去，塞特凯达斯大瀑布逐渐枯竭，即使在汛期，也见不到昔日雄奇的气势。
+(x23 / and
+      :op1  (x8 / 枯竭-01
+            :manner  (x7 / 逐渐
+)            :arg0  (x28 / river
+                  :name  ( x6/瀑布 
+))            :time  (x2 / 过去-01
+                  :arg0  (x31 / temporal-quantity
+                        :quant  (x1_1 / 几
+)                        :unit  (x1_2 / 年
+))))      :op2  (x34 / concession
+            :arg1  (x12 / 汛期
+)            :arg2  (x15_x17 / 见到-01
+                  :arg1  (x21 / 气势
+                        :arg0-of  (x19 / 雄奇
+)                        :time  (x18 / 昔日
+))                  :polarity  (x16 / -
+))))
+===========================
+它在群山之中无奈地垂下了头，像生命垂危的老人，形容枯槁，奄奄一息。
+(x22 / and
+      :op1  (x7_x8 / 垂
+            :arg0  (x1 / 它
+)            :arg1  (x10 / 头
+)            :aspect  (x9 / 了
+)            :manner  (x5 / 无奈
+)            :location  (x3 / 群山
+))      :op2  (x30 / and
+            :op1  (x18 / 形容枯槁
+                  :arg0  (x1 / 它
+))            :op2  (x20 / 奄奄一息-01
+                  :arg0  (x1 / 它
+))            :manner  (x12 / 像-01
+                  :arg1  (x16 / 老人
+                        :mod  (x14 / 垂危
+                              :arg0  (x13 / 生命
+)))                  :arg0  (x1 / 它
+))))
+===========================
+游人们常常乘兴而来，失望而去。
+(x10 / contrast
+      :arg1  (x4 / 乘兴而来-01
+            :arg0  (x1_x2 / 游人们
+))      :frequency  (x3 / 常常
+)      :arg2  (x8 / 去-02
+            :manner  (x6 / 失望-01
+                  :arg0  (x1_x2 / 游人们
+))            :arg0  (x1_x2 / 游人们
+)))
+===========================
+科学家们预测，过不了多久，瀑布将完全消失。
+(x3 / 预测-01
+      :arg0  (x1_x2 / 科学家们
+)      :arg1  (x18 / temporal
+            :arg1  (x5 / 过-02
+                  :arg1  (x8 / 多久
+)                  :polarity  (x6 / -
+)                  :aspect  (x7 / 了
+))            :arg2  (x13 / 消失-01
+                  :tense  (x11 / 将
+)                  :arg0  (x10 / 瀑布
+)                  :mod  (x12 / 完全
+))))
+===========================
+消息传开，世人震惊，同时也唤起了人们保护环境的责任心。
+(x17 / temporal
+      :arg1  (x2 / 传开-01
+            :arg0  (x1 / 消息
+))      :arg2  (x22 / and
+            :op1  (x5 / 震惊-01
+                  :arg0  (x4 / 世人
+))            :op2  (x9 / 唤起-01
+                  :arg1  (x15 / 责任心
+                        :mod  (x12 / 保护-01
+                              :arg0  (x11 / 人们
+)                              :arg1  (x13 / 环境
+)))                  :aspect  (x10 / 了
+)                  :mod  (x7 / 同时
+))))
+===========================
+1986年8月下旬，来自世界各地的几十名生态学、环境学的专家、教授，以及大批热爱大自然的人汇集在大瀑布脚下。
+(x27 / 汇集-02
+      :arg0  (x35 / and
+            :op1  (x17 / 专家
+                  :arg0-of  (x7 / 来自-01
+                        :arg1  (x9 / 各地
+                              :range  (x8 / 世界
+))))            :op2  (x19 / 教授
+                  :arg0-of  (x7 / 来自-01
+))            :mod  (x13 / 生态学
+)            :mod  (x15 / 环境学
+)            :quant  (x11_1 / 几
+                  :op1  (x11_2 / 10
+))            :unit  (x12 / 名
+)            :op3  (x26 / 人
+                  :arg0-of  (x23 / 热爱-01
+                        :arg1  (x24 / 大自然
+))                  :quant  (x22 / 大批
+)))      :arg2  (x31 / 脚下
+            :arg0  (x30 / 瀑布
+                  :arg0-of  (x29 / 大-01
+)))      :time  (x53 / date-entity
+            :year  (x1_x2 / 1986
+)            :month  (x3_x4 / 8
+)            :monthperiod  (x5 / 下旬
+)))
+===========================
+他们模仿当地印第安人为他们的酋长举行葬礼的仪式，一起哀悼将要消失的大瀑布。
+(x15 / 哀悼-01
+      :arg1  (x20 / 瀑布
+            :arg0-of  (x19 / 大-04
+)            :arg0-of  (x17 / 消失
+                  :tense  (x16 / 将要
+)))      :manner  (x14 / 一起
+)      :arg0  (x1 / 他们
+)      :manner  (x2 / 模仿-01
+            :arg1  (x4 / 印第安人
+                  :location  (x3 / 当地
+))            :arg2  (x12 / 仪式
+                  :mod  (x9 / 举行-01
+                        :arg1  (x10 / 葬礼
+)                        :beneficiary  (x36 / person
+                              :arg0-of  (x37 / have-org-role-91
+                                    :arg2  (x8 / 酋长
+))                              :poss  (x6 / x1
+))))))
+===========================
+9月下旬，巴西总统菲格雷特也投身到这一行动中。
+(x9 / 投身-01
+      :arg0  (x18 / person
+            :arg0-of  (x19 / have-org-role-91
+                  :arg2  (x6 / 总统
+)                  :arg1  (x21 / country
+                        :name  ( x5/巴西 
+)))            :name  ( x7/菲格雷特 
+))      :mod  (x8 / 也
+)      :arg1  (x13 / 行动
+            :mod  (x11 / 这
+)            :quant  (x12 / 1
+))      :time  (x28 / date-entity
+            :month  (x1_x2 / 9
+)            :monthperiod  (x3 / 下旬
+)))
+===========================
+那天，他特意穿上参加葬礼才穿的黑色礼服，主持了这个为瀑布举行的特别的葬礼。
+(x26 / and
+      :op1  (x5_x6 / 穿上-01
+            :arg0  (x3 / 他
+)            :mod  (x4 / 特意
+)            :arg1  (x13 / 礼服
+                  :arg0-of  (x12 / 黑色
+)                  :arg1-of  (x10 / 穿-01
+                        :condition  (x7 / 参加-01
+                              :arg1  (x8 / 葬礼
+)))))      :op2  (x15 / 主持-01
+            :arg1  (x24 / 葬礼
+                  :mod  (x17_1 / 这
+)                  :cunit  (x17_2 / 个
+)                  :arg1-of  (x20 / 举行-01
+                        :beneficiary  (x19 / 瀑布
+))                  :arg0-of  (x22 / 特别-01
+))            :aspect  (x16 / 了
+)            :arg0  (x3 / 他
+))      :time  (x1 / 那天
+))
+===========================
+菲格雷特总统用饱含深情的语调，讲述了塞特凯达斯大瀑布曾经给巴西和其他国家人民带来的骄傲与欢乐，号召人们立即行动起来，维护生态平衡，爱护我们生存的地球，使大瀑布的悲剧不再重演！
+(x51 / and
+      :op1  (x3 / 用-01
+            :arg0  (x54 / person
+                  :arg0-of  (x55 / have-org-role-91
+                        :arg2  (x2 / 总统
+))                  :name  ( x1/菲格雷特 
+))            :arg1  (x7 / 语调
+                  :arg0-of  (x4 / 饱含-01
+                        :arg1  (x5 / 深情
+)))            :arg2  (x9 / 讲述-01
+                  :arg1  (x24 / and
+                        :op1  (x23 / 骄傲
+                              :arg1-of  (x21 / 带来-01
+                                    :arg2  (x20 / 人民
+                                          :mod  (x17 / and
+                                                :op1  (x68 / country
+                                                      :name  ( x16/巴西 
+))                                                :op2  (x19 / 国家
+                                                      :mod  (x18 / 其他
+))))                                    :arg0  (x72 / rive
+                                          :name  ( x13/瀑布 
+))                                    :aspect  (x14 / 曾经
+)))                        :op2  (x25 / 欢乐
+                              :arg1-of  (x21 / 带来-01
+)))                  :aspect  (x10 / 了
+)))      :op2  (x27 / 号召-01
+            :arg1  (x28 / 人们
+)            :arg2  (x78 / and
+                  :op1  (x30_x31 / 行动-01
+                        :arg0  (x28 / 人们
+))                  :op2  (x33 / 维护-01
+                        :arg1  (x35 / 平衡-01
+                              :arg0  (x34 / 生态
+))                        :arg0  (x28 / 人们
+)                        :arg0  (x28 / 人们
+))                  :op3  (x37 / 爱护-01
+                        :arg1  (x84 / planet
+                              :name  ( x41/地球 
+)                              :location  (x39 / 生存-01
+                                    :arg0  (x38 / 我们
+))))                  :purpose  (x43 / 使-01
+                        :arg1  (x47 / 悲剧
+                              :poss  (x45 / 瀑布
+                                    :arg0-of  (x44 / 大-01
+)))                        :arg2  (x49 / 重演-01
+                              :arg1  (x47 / 悲剧
+)                              :polarity  (x48_1 / -
+)                              :mod  (x48_2 / 再
+))                        :mode  (x50 / interrogative
+)))))
+===========================

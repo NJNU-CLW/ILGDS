@@ -1,0 +1,840 @@
+时间：第二次世界大战期间
+(x1 / 时间
+      :arg0-of  (x9 / mean
+            :arg1  (x6 / 期间
+                  :mod  (x11 / war
+                        :name  ( x5/世界大战 
+                              :ord  (x3_x4 / 2
+))))))
+===========================
+地点：法国，伯诺德夫人家中
+(x1 / 地点
+      :arg0-of  (x10 / mean
+            :arg1  (x7 / 家中
+                  :poss  (x6 / 夫人
+                        :name  ( x5/伯诺德 
+))                  :location  (x14 / country
+                        :name  ( x3/法国 
+)))))
+===========================
+人物：伯诺德夫人（法国的一位家庭妇女）杰克（伯诺德夫人的儿子）杰奎琳（伯诺德夫人的女儿）三个德国军官（一个少校，两个中尉）
+(x1 / 人物
+      :arg0-of  (x41 / mean
+            :arg1  (x42 / and
+                  :op1  (x4 / 夫人
+                        :name  ( x3/伯诺德 
+)                        :arg0-of  (x46 / mean
+                              :arg1  (x10 / 家庭妇女
+                                    :quant  (x8 / 1
+)                                    :cunit  (x9 / 位
+)                                    :mod  (x49 / country
+))))                  :op2  (x17 / 儿子
+                        :poss  (x15 / x4
+                              :name  ( x14/伯诺德 
+))                        :name  ( x12/杰克 
+))                  :op3  (x24 / 女儿
+                        :poss  (x22 / x4
+                              :name  ( x21/伯诺德 
+))                        :name  ( x19/杰奎琳 
+))                  :op4  (x29 / 军官
+                        :mod  (x60 / country
+                              :name  ( x28/德国 
+))                        :quant  (x26 / x3
+)                        :cunit  (x27 / 个
+)                        :arg0-of  (x64 / mean
+                              :arg1  (x65 / and
+                                    :op1  (x33 / 少校
+                                          :quant  (x31 / 1
+)                                          :cunit  (x32 / 个
+))                                    :op2  (x37 / 中尉
+                                          :quant  (x35 / 2
+)                                          :cunit  (x36 / 个
+))))))))
+===========================
+一个初冬的夜晚，屋外的风猛烈地吹着。
+(x12 / 吹-02
+      :time  (x18 / date-entity
+            :dayperiod  (x5 / 夜晚
+                  :quant  (x1 / 1
+)                  :cunit  (x2 / 个
+))            :season  (x3 / 初冬
+))      :manner  (x10 / 猛烈
+)      :arg0  (x9 / 风
+            :location  (x7 / 屋外
+))      :aspect  (x13 / 着
+))
+===========================
+伯诺德夫人家里，昏暗的光线，一张孤零零的长桌，坐在桌边的伯诺德夫人正小心翼翼地将一个个小金属管封在一小截蜡烛中。
+(x38 / and
+      :op1  (x7 / 光线
+            :arg0-of  (x5 / 昏暗-01
+))      :op2  (x13 / 长桌
+            :quant  (x9 / 1
+)            :cunit  (x10 / 张
+)            :arg0-of  (x11 / 孤零零
+))      :location  (x3 / 家里
+            :poss  (x2 / 夫人
+                  :name  ( x1/伯诺德 
+)))      :op3  (x30 / 封-02
+            :arg1  (x29 / 金属管
+                  :quant  (x25_x26_x27 / 一个个
+)                  :arg0-of  (x28 / 小
+))            :manner  (x22 / 小心翼翼-01
+                  :arg0  (x20 / 夫人
+                        :name  ( x19/伯诺德 
+)                        :arg0-of  (x15 / 坐-01
+                              :arg1  (x17 / 桌边
+))))            :arg0  (x20 / 夫人
+)            :aspect  (x21 / 正
+)            :location  (x36 / 中
+                  :arg0  (x35 / 蜡烛
+                        :quant  (x32 / 1
+)                        :cunit  (x34 / 截
+                              :mod  (x33 / 小
+))))))
+===========================
+伯诺德夫人看来，只有这地方是安全的，不至于被该死的德国佬发现。
+(x3 / 看来-01
+      :arg0  (x2 / 夫人
+            :name  ( x1/伯诺德 
+))      :arg1  (x24 / and
+            :op1  (x9 / 安全-01
+                  :arg0  (x7 / 地方
+                        :mod  (x6 / 这
+)                        :mod  (x5 / 只有
+))                  :mode  (x8_x10 / judgement
+))            :op2  (x12 / 不至于-01
+                  :arg1  (x18 / 发现-01
+                        :arg0  (x17 / 佬
+                              :mod  (x33 / country
+                                    :name  ( x16/德国 
+))                              :arg0-of  (x14 / 该死-01
+))))))
+===========================
+杰奎琳（一边嚼着糖果，一边天真地问）妈妈，这是什么啊？
+(x20 / and
+      :op1  (x4 / 嚼-01
+            :arg0  (x23 / person
+                  :name  ( x1/杰奎琳 
+))            :arg1  (x6 / 糖果
+)            :aspect  (x5 / 着
+))      :op2  (x11 / 问-01
+            :manner  (x9 / 天真
+)            :arg0  (x23 / person
+)            :arg1  (x29 / and
+                  :op1  (x13 / 妈妈
+)                  :op2  (x17 / amr-unknown
+                        :domain  (x15 / 这
+)                        :mode  (x18_x19 / interrogative
+)))))
+===========================
+伯诺德夫人（面容严肃）非常重要的一个秘密，亲爱的，所以对谁也不能讲。
+(x25 / say
+      :arg0  (x2 / 夫人
+            :name  ( x1/伯诺德 
+))      :arg1  (x30 / causation
+            :arg1  (x12 / 秘密
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 个
+)                  :arg0-of  (x8 / 重要-01
+                        :degree  (x7 / 非常
+)))            :arg2  (x22 / 能-01
+                  :arg0  (x23 / 讲-01
+                        :arg0  (x14_x15 / 亲爱的
+)                        :arg2  (x19 / 谁
+))                  :mod  (x20 / 也
+)                  :polarity  (x21 / -
+))))
+===========================
+杰克我知道，在下星期二米德叔叔来之前，我们得保证那东西完好无损。
+(x20 / and
+      :op1  (x22 / person
+            :name  ( x1/杰克 
+))      :op2  (x3 / 知道-01
+            :arg0  (x2 / 我
+)            :arg1  (x14 / 得
+                  :arg0  (x15 / 保证-01
+                        :arg1  (x18 / 完好无损-01
+                              :arg0  (x17 / 东西
+                                    :mod  (x16 / 那
+)))                        :arg0  (x13 / 我们
+))                  :time  (x11 / 之前
+                        :op1  (x10 / 来-01
+                              :arg0  (x9 / 叔叔
+                                    :name  ( x8/米德 
+))                              :time  (x36 / date-entity
+                                    :weekday  (x7 / 星期二
+                                          :mod  (x6 / 下
+))))))))
+===========================
+对吧？（有点儿得意地看了妹妹一眼）
+(x14 / say
+      :arg1  (x1 / 对
+            :mode  (x2_x3 / interrogative
+)))
+===========================
+杰奎琳（嘟起了嘴）我当然也知道。
+(x13 / say
+      :arg0  (x15 / person
+            :name  ( x1/杰奎琳 
+))      :arg1  (x11 / 知道-01
+            :arg0  (x8 / x15
+)            :mod  (x9 / 当然
+)            :mod  (x10 / 也
+)))
+===========================
+米德叔叔最喜欢我了，今天他还给我带来了糖果。
+(x17 / progression
+      :arg1  (x4 / 喜欢-01
+            :arg0  (x2 / 叔叔
+                  :name  ( x1/米德 
+))            :degree  (x3 / 最
+)            :arg1  (x5 / 我
+)            :aspect  (x6 / 了
+))      :arg2  (x13 / 带来-01
+            :arg0  (x9 / x2
+)            :arg1  (x15 / 糖果
+)            :arg2  (x12 / x5
+)            :time  (x8 / 今天
+)            :aspect  (x14 / 了
+)))
+===========================
+可是妈妈，米德叔叔为什么穿着德国佬的衣服呢？
+(x14 / contrast
+      :arg2  (x16 / and
+            :op1  (x2 / 妈妈
+)            :op2  (x7_1 / 穿-01
+                  :aspect  (x7_2 / 着
+)                  :arg0  (x5 / 叔叔
+                        :name  ( x4/米德 
+))                  :cause  (x6 / amr-unknown
+)                  :arg1  (x11 / 衣服
+                        :poss  (x9 / 佬
+                              :mod  (x25 / country
+                                    :name  ( x8/德国 
+))))                  :mode  (x12_x13 / interrogative
+))))
+===========================
+伯诺德夫人这时已经把那半截蜡烛插在一个烛台上，摆在餐桌最显眼的地方。
+(x25 / temporal
+      :arg1  (x10 / 插-01
+            :arg0  (x2 / 夫人
+                  :name  ( x1/伯诺德 
+))            :arg1  (x9 / 蜡烛
+                  :cunit  (x8 / 截
+)                  :quant  (x7 / 0.5
+)                  :mod  (x6 / 那
+))            :time  (x3 / 这时
+)            :aspect  (x4 / 已经
+)            :arg2  (x14 / 烛台
+                  :quant  (x12 / 1
+)                  :cunit  (x13 / 个
+)))      :arg2  (x17_x18 / 摆在-01
+            :arg2  (x23 / 地方
+                  :arg0-of  (x21 / 显眼-01
+                        :degree  (x20 / 最
+))                  :location  (x19 / 餐桌
+))            :arg0  (x2 / 夫人
+)            :arg1  (x9 / 蜡烛
+)))
+===========================
+伯诺德夫人杰克，杰奎琳，有些事情以后给你们慢慢解释。
+(x15 / say
+      :arg0  (x2 / 夫人
+            :name  ( x1/伯诺德 
+))      :arg1  (x19 / and
+            :op1  (x20 / person
+                  :name  ( x3/杰克 
+))            :op2  (x22 / person
+                  :name  ( x5/杰奎琳 
+))            :op3  (x13 / 解释-01
+                  :arg1  (x8 / 事情
+                        :mod  (x7 / 有些
+))                  :arg2  (x11 / 你们
+)                  :time  (x9 / 以后
+)                  :manner  (x12 / 慢慢
+))))
+===========================
+现在你们两个要好好地记着：这支蜡烛是一个非常重要的东西，从现在开始，我们得为它的安全负责。
+(x5 / 要-01
+      :arg0  (x8 / 记-02
+            :arg0  (x2 / 你们
+                  :quant  (x3 / 2
+)                  :cunit  (x4 / 个
+))            :aspect  (x9 / 着-01
+)            :manner  (x6 / 好好
+)            :arg1  (x49 / causation
+                  :arg1  (x20 / 东西
+                        :arg0-of  (x18 / 重要-01
+                              :degree  (x17 / 非常
+))                        :quant  (x15 / 1
+)                        :cunit  (x16 / 个
+)                        :domain  (x13 / 蜡烛
+                              :mod  (x11 / 这
+)                              :cunit  (x12 / 支
+)))                  :arg2  (x27 / 得
+                        :time  (x24 / 开始
+                              :time  (x23 / 现在
+))                        :arg0  (x32 / 负责-01
+                              :arg0  (x26 / 我们
+)                              :arg1  (x31 / 安全
+                                    :poss  (x29 / x13
+))))))      :time  (x1 / 现在
+))
+===========================
+为了有一天能把德国佬赶出去，我们得不惜代价守住它，懂吗？
+(x22 / and
+      :op1  (x12 / 得
+            :arg0  (x13 / 不惜-01
+                  :arg0  (x11 / 我们
+)                  :arg1  (x14 / 代价
+)                  :purpose  (x15_x16 / 守住-01
+                        :arg1  (x17 / 它
+)                        :arg0  (x11 / 我们
+)))            :purpose  (x4 / 能-01
+                  :arg0  (x8 / 赶-02
+                        :arg1  (x7 / 佬
+                              :mod  (x32 / country
+                                    :name  ( x6/德国 
+)))                        :direction  (x9 / 出去
+))                  :time  (x2_x3 / 有一天
+)))      :op2  (x19 / 懂
+            :mode  (x20_x21 / interrogative
+)))
+===========================
+杰克（像个男子汉似的挺挺胸脯）放心吧，妈妈。
+(x16 / say
+      :arg0  (x18 / person
+            :name  ( x1/杰克 
+))      :arg1  (x11 / 放心-01
+            :arg0  (x14 / 妈妈
+)            :mode  (x12 / imperative
+)))
+===========================
+杰奎琳（点点头）妈妈，我懂。
+(x12 / say
+      :arg0  (x14 / person
+            :name  ( x1/杰奎琳 
+))      :arg1  (x16 / and
+            :op1  (x7 / 妈妈
+)            :op2  (x10 / 懂-01
+                  :arg0  (x9 / x1
+))))
+===========================
+我真讨厌德国佬。
+(x3 / 讨厌-01
+      :arg0  (x1 / 我
+)      :degree  (x2 / 真
+)      :arg1  (x5 / 佬
+            :mod  (x12 / country
+                  :name  ( x4/德国 
+))))
+===========================
+伯诺德夫人（凝视着烛台喃喃自语）不惜一切代价，包括我们的生命。
+(x19 / say
+      :arg0  (x2 / 夫人
+            :name  ( x1/伯诺德 
+))      :arg1  (x10 / 不惜-01
+            :arg1  (x12 / 代价
+                  :mod  (x11 / 一切
+)                  :arg1-of  (x14 / include-91
+                        :arg2  (x17 / 生命
+                              :poss  (x15 / 我们
+))))))
+===========================
+过了不久，嘭嘭嘭嘭，一阵阵粗暴的敲门声，三个德国军官例行检查来了。
+(x26 / temporal
+      :arg1  (x13 / 声
+            :mod  (x12 / 敲门
+)            :mod  (x10 / 粗暴
+)            :quant  (x8_x9 / 一阵阵
+)            :arg0-of  (x32 / mean
+                  :arg1  (x5_x6 / 嘭嘭嘭嘭
+)))      :time  (x1 / 过-01
+            :arg1  (x3 / 不久
+)            :aspect  (x2 / 了
+))      :arg2  (x19 / 例行-01
+            :arg0  (x18 / 军官
+                  :mod  (x40 / country
+                        :name  ( x17/德国 
+))                  :quant  (x15 / 3
+)                  :cunit  (x16 / 个
+))            :arg1  (x20 / 检查-01
+                  :arg0  (x18 / 军官
+))            :aspect  (x22 / 了
+)))
+===========================
+很奇怪，检查完了，他们都没有要走的意思，也许是因为外面风太大了。
+(x24 / causation
+      :arg1  (x15 / 也许
+            :arg0  (x21 / 大-01
+                  :arg0  (x19 / 风
+                        :location  (x18 / 外面
+))                  :degree  (x20 / 太
+))            :aspect  (x22 / 了
+))      :arg2  (x2 / 奇怪-01
+            :degree  (x1 / 很
+)            :arg0  (x35 / contrast
+                  :arg1  (x5_1 / 完-01
+                        :arg0  (x4 / 检查-01
+                              :arg0  (x7 / 他们
+))                        :aspect  (x5_2 / 了
+))                  :arg2  (x9_2 / 有-01
+                        :arg0  (x7 / 他们
+)                        :polarity  (x9_1 / -
+)                        :extent  (x8 / 都
+)                        :arg1  (x13 / 意思
+                              :mod  (x10 / 要
+                                    :arg0  (x11 / 走-01
+                                          :arg0  (x7 / 他们
+))))))))
+===========================
+中尉甲好黑的屋子，为什么不点蜡烛呢？
+(x14 / say
+      :arg0  (x16 / person
+            :arg0-of  (x17 / have-org-role-91
+                  :arg2  (x1 / 中尉
+))            :name  ( x2/甲 
+))      :arg1  (x20 / and
+            :op1  (x6 / 屋子
+                  :arg0-of  (x4 / 黑-01
+                        :degree  (x3 / 好
+)))            :op2  (x10 / 点-01
+                  :arg1  (x11 / 蜡烛
+)                  :cause  (x8 / amr-unknown
+)                  :polarity  (x9 / -
+)                  :mode  (x12_x13 / interrogative
+))))
+===========================
+（点燃了那个藏有秘密的蜡烛）
+(x2 / 点燃-01
+      :arg1  (x8 / 蜡烛
+            :mod  (x4_1 / 那
+)            :cunit  (x4_2 / 个
+)            :arg0-of  (x5 / 藏有-01
+                  :arg1  (x6 / 秘密
+)))      :aspect  (x3 / 了
+))
+===========================
+伯诺德夫人（急忙取出一盏油灯）太对不起了，先生们，忘了点灯。
+(x21 / temporal
+      :arg1  (x5 / 取出-01
+            :arg0  (x2 / 夫人
+                  :name  ( x1/伯诺德 
+))            :manner  (x4 / 急忙
+)            :arg1  (x8 / 油灯
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 盏
+)))      :arg2  (x30 / say
+            :arg1  (x31 / causation
+                  :arg2  (x11 / 对不起-01
+                        :arg0  (x2 / 夫人
+)                        :arg1  (x14_x15 / 先生们
+)                        :aspect  (x12 / 了
+)                        :degree  (x10 / 太
+))                  :arg1  (x17 / 忘-01
+                        :arg1  (x19 / 点灯-01
+                              :arg0  (x2 / 夫人
+))                        :aspect  (x18 / 了
+)                        :arg0  (x2 / 夫人
+)))            :arg0  (x2 / 夫人
+)))
+===========================
+瞧，这灯亮些，可以把这个昏暗的小蜡烛熄了。（吹熄了蜡烛）
+(x24 / temporal
+      :arg1  (x26 / say
+            :arg1  (x27 / causation
+                  :arg1  (x1 / 瞧-01
+                        :arg1  (x5 / 亮-02
+                              :arg0  (x4 / 灯
+                                    :mod  (x3 / 这
+))                              :degree  (x6 / 些
+)))                  :arg2  (x8 / 可以-01
+                        :arg0  (x15 / 熄-01
+                              :arg0  (x14 / 蜡烛
+                                    :arg0-of  (x13 / 小-01
+)                                    :arg0-of  (x11 / 昏暗-01
+)                                    :mod  (x10_1 / 这
+)                                    :cunit  (x10_2 / 个
+)))                        :aspect  (x16 / 了
+))))      :arg2  (x18 / 吹-01
+            :cause-of  (x19 / 熄-01
+                  :arg1  (x21 / 蜡烛
+))            :aspect  (x20 / 了
+)            :arg1  (x21 / 蜡烛
+)))
+===========================
+中尉甲（不耐烦地）晚上这么黑，多点支蜡烛也好嘛。
+(x19 / say
+      :arg0  (x23 / person
+            :arg0-of  (x24 / have-org-role-91
+                  :arg2  (x1 / 中尉
+))            :name  ( x2/甲 
+))      :manner  (x4 / 不耐烦-01
+            :arg0  (x23 / person
+))      :arg1  (x26 / causation
+            :arg1  (x9 / 黑
+                  :time  (x7 / 晚上
+)                  :degree  (x8 / 这么
+))            :arg2  (x16 / 好-01
+                  :arg0  (x12 / 点-01
+                        :manner  (x11 / 多
+)                        :arg1  (x14 / 蜡烛
+                              :cunit  (x13 / 支
+)))                  :mod  (x15 / 也
+)                  :mode  (x17 / expressive
+))))
+===========================
+（又把那个快要烧到金属管的蜡烛点燃）更亮了一些，不是吗？
+(x22 / temporal
+      :arg2  (x11 / 点燃-01
+            :arg1  (x10 / 蜡烛
+                  :arg0-of  (x6_x7 / 烧到-01
+                        :arg2  (x8 / 金属管
+)                        :arg0-of  (x5 / 快要
+))                  :mod  (x4_1 / 那
+)                  :cunit  (x4_2 / 个
+)))      :arg3  (x36 / say
+            :arg1  (x14 / 亮
+                  :degree  (x13 / 更
+)                  :degree  (x16 / 一些
+)                  :aspect  (x15 / 了
+)                  :mode  (x18_x19_x20_x21 / interrogative
+))))
+===========================
+杰克（若无其事地走到桌前，端起烛台）天真冷。
+(x17 / temporal
+      :arg1  (x5_x6 / 走到-01
+            :arg0  (x20 / person
+                  :name  ( x1/杰克 
+))            :arg1  (x7_2 / 前
+                  :arg0  (x7_1 / 桌
+))            :manner  (x3 / 若无其事
+))      :arg2  (x9_x10 / 端-01
+            :arg1  (x11 / 烛台
+)            :arg0  (x20 / person
+))      :arg3  (x29 / say
+            :arg1  (x15 / 冷-01
+                  :arg0  (x13 / 天
+)                  :degree  (x14 / 真
+))            :arg0  (x20 / person
+)))
+===========================
+先生们，我去柴房抱些柴来生个火吧。
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x1_x2 / 先生们
+)            :op2  (x20 / temporal
+                  :arg1  (x5 / 去-01
+                        :arg0  (x4 / 我
+)                        :arg1  (x6 / 柴房
+))                  :arg2  (x7 / 抱-01
+                        :arg1  (x9 / 柴
+                              :quant  (x8 / 些
+)))                  :arg3  (x11 / 生
+                        :arg1  (x13 / 火
+                              :cunit  (x12 / 个
+)))                  :mode  (x14 / imperative
+))))
+===========================
+中尉乙（厉声）难道你不用蜡烛就不行吗？（一把夺回烛台）
+(x21 / temporal
+      :arg1  (x23 / say
+            :arg0  (x24 / person
+                  :arg0-of  (x25 / have-org-role
+                        :arg2  (x1 / 中尉
+))                  :name  ( x2/乙 
+))            :arg1  (x6 / 难道
+                  :arg0  (x12_2 / 行
+                        :polarity  (x12_1 / -
+)                        :arg0  (x9 / 用-01
+                              :arg0  (x7 / 你
+)                              :arg1  (x10 / 蜡烛
+)                              :polarity  (x8 / -
+)))                  :mode  (x13_x14 / interrogative
+)))      :arg2  (x17_x18 / 夺回-01
+            :manner  (x15_x16 / 一把
+)            :arg1  (x19 / 烛台
+)            :arg0  (x24 / person
+)))
+===========================
+杰克无奈地去柴房，下。
+(x15 / and
+      :op1  (x4 / 去-01
+            :arg0  (x11 / person
+                  :name  ( x1/杰克 
+))            :manner  (x2 / 无奈-01
+                  :arg0  (x11 / person
+))            :arg1  (x5 / 柴房
+))      :op2  (x7 / 下-01
+            :arg0  (x11 / person
+)))
+===========================
+伯诺德夫人（不动声色地慢慢说道）先生，要知道，柴房里很黑……
+(x7 / 说道-01
+      :arg0  (x2 / 夫人
+            :name  ( x1/伯诺德 
+))      :manner  (x4 / 不动声色
+)      :manner  (x6 / 慢-01
+            :arg0  (x2 / 夫人
+))      :arg1  (x28 / and
+            :op1  (x9 / 先生
+)            :op2  (x11 / 要-03
+                  :arg0  (x12 / 知道-01
+                        :arg0  (x9 / 先生
+)                        :arg1  (x17 / 黑-01
+                              :arg0  (x15 / 里
+                                    :arg0  (x14 / 柴房
+))                              :degree  (x16 / 很
+))))))
+===========================
+中尉乙（瞥了她一眼，不满地）夫人，在自己家里，应该相信您的儿子有足够的能力应付那了如指掌的小柴房。
+(x35 / temporal
+      :arg1  (x4 / 瞥
+            :arg0  (x38 / person
+                  :arg0-of  (x39 / have-org-role-91
+                        :arg2  (x1 / 中尉
+))                  :name  ( x2/乙 
+))            :arg1  (x6 / 她
+)            :quant  (x7 / 1
+)            :cunit  (x8 / 眼
+))      :arg2  (x45 / say
+            :arg0  (x38 / person
+)            :arg1  (x46 / and
+                  :op1  (x13 / 夫人
+)                  :op2  (x19 / 应该-01
+                        :arg0  (x20 / 相信
+                              :arg0  (x13 / 夫人
+)                              :arg1  (x24 / 有-01
+                                    :arg0  (x23 / 儿子
+                                          :poss  (x21 / x13
+))                                    :arg1  (x27 / 能力
+                                          :arg0-of  (x25 / 足够-01
+))                                    :purpose  (x28 / 应付-01
+                                          :arg1  (x33 / 柴房
+                                                :arg0-of  (x32 / 小-01
+)                                                :mod  (x29 / 那
+)                                                :mod  (x30 / 了如指掌
+)))))))            :manner  (x10 / 不满-01
+                  :arg0  (x38 / person
+)                  :arg0  (x38 / person
+))))
+===========================
+难道他会从柴房里搬来一窝兔子吗？
+(x1 / 难道
+      :arg0  (x3 / 会-02
+            :arg0  (x7_x8 / 搬来-01
+                  :arg0  (x2 / 他
+)                  :arg1  (x11 / 兔子
+                        :quant  (x9 / 1
+)                        :cunit  (x10 / 窝
+))                  :arg3  (x5 / 柴房
+)))      :mode  (x12_x13 / interrogative
+))
+===========================
+蜡烛越燃越短。
+(x2_x4 / 越
+      :arg0  (x3 / 燃-01
+            :arg1  (x1 / 蜡烛
+))      :arg1  (x5 / 短-01
+            :arg0  (x1 / 蜡烛
+)))
+===========================
+杰奎琳打了个懒懒的哈欠，走到少校面前。
+(x14 / temporal
+      :arg1  (x2 / 打
+            :arg0  (x17 / person
+                  :name  ( x1/杰奎琳 
+))            :aspect  (x3 / 了
+)            :arg1  (x7 / 哈欠
+                  :mod  (x5 / 懒
+)                  :cunit  (x4 / 个
+)))      :arg2  (x9_x10 / 走到-01
+            :arg1  (x12 / 面前
+                  :arg0  (x25 / person
+                        :arg0-of  (x26 / have-org-role-91
+                              :arg2  (x11 / 少校
+))))            :arg0  (x17 / person
+)))
+===========================
+杰奎琳司令官先生，天晚了，楼上黑，我可以拿一盏灯上楼睡觉吗？（她宝石般的眼睛在烛光下显得异常可爱）
+(x34 / and
+      :op1  (x36 / say
+            :arg0  (x37 / person
+                  :name  ( x1/杰奎琳 
+))            :arg1  (x39 / and
+                  :op1  (x3 / 先生
+                        :arg0-of  (x41 / have-org-role-91
+                              :arg2  (x2 / 司令官
+)))                  :op2  (x43 / causation
+                        :arg1  (x44 / and
+                              :op1  (x6 / 晚-01
+                                    :arg0  (x5 / 天
+)                                    :aspect  (x7 / 了
+))                              :op2  (x10 / 黑
+                                    :location  (x9 / 楼上
+)))                        :arg2  (x13 / 可以-01
+                              :arg0  (x51 / temporal
+                                    :arg1  (x14 / 拿-03
+                                          :arg1  (x17 / 灯
+                                                :quant  (x15 / 1
+)                                                :cunit  (x16 / 盏
+))                                          :arg0  (x12 / x37
+))                                    :arg2  (x18 / 上楼-01
+                                          :arg0  (x12 / x37
+)                                          :purpose  (x19 / 睡觉-01
+                                                :arg0  (x12 / x37
+))))                              :mode  (x20_x21 / interrogative
+)))))      :op2  (x30 / 显得-01
+            :arg0  (x26 / 眼睛
+                  :part-of  (x22 / x37
+)                  :arg0-of  (x24 / 般-01
+                        :arg1  (x23 / 宝石
+)))            :arg1  (x32 / 可爱-01
+                  :degree  (x31 / 异常
+)                  :arg0  (x26 / 眼睛
+))            :condition  (x28 / 烛光
+)))
+===========================
+少校（看着她那粉嘟嘟的小脸蛋，笑了）当然可以，美丽的小天使。
+(x23 / temporal
+      :arg1  (x3 / 看-01
+            :arg0  (x26 / person
+                  :arg0-of  (x27 / have-org-role-91
+                        :arg2  (x1 / 少校
+)))            :aspect  (x4 / 着
+)            :arg1  (x10 / 脸蛋
+                  :arg0-of  (x9 / 小-01
+)                  :part-of  (x5 / 她
+)                  :mod  (x7 / 粉嘟嘟
+)                  :mod  (x6 / 那
+)))      :arg2  (x12 / 笑-01
+            :arg0  (x26 / person
+)            :aspect  (x13 / 了
+))      :arg3  (x37 / say
+            :arg0  (x26 / person
+)            :arg1  (x39 / and
+                  :op1  (x16 / 可以
+                        :manner  (x15 / 当然
+))                  :op2  (x21 / 天使
+                        :arg0-of  (x20 / 小-01
+)                        :arg0-of  (x18 / 美丽-01
+)))))
+===========================
+我也有一个像你这么大的女儿，和你一样可爱，她叫玛琳娜。
+(x22 / and
+      :op1  (x3 / 有-01
+            :arg0  (x1 / 我
+)            :arg1  (x11 / 女儿
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 个
+)                  :arg0-of  (x6 / 像-01
+                        :arg1  (x7 / 你
+)                        :arg2  (x9 / 大
+                              :degree  (x8 / 这么
+))))            :mod  (x2 / 也
+))      :op2  (x15 / 一样-01
+            :arg1  (x14 / 你
+)            :arg0  (x11 / 女儿
+)            :arg2  (x16 / 可爱
+))      :op3  (x19 / 叫-01
+            :arg0  (x18 / x11
+)            :arg1  (x20 / 玛琳娜
+)))
+===========================
+杰奎琳（笑容像百合花一样纯洁）我觉得她一定非常想您，司令官先生。
+(x20 / and
+      :op1  (x4_x6 / 像-01
+            :arg0  (x3 / 笑容
+                  :poss  (x24 / person
+                        :name  ( x1/杰奎琳 
+)))            :arg1  (x5 / 百合花
+)            :arg2  (x7 / 纯洁
+))      :op2  (x28 / say
+            :arg0  (x24 / person
+)            :arg1  (x29 / and
+                  :op1  (x10 / 觉得-01
+                        :arg0  (x9 / x24
+)                        :arg1  (x12 / 一定
+                              :arg0  (x14 / 想-03
+                                    :arg0  (x11 / 她
+)                                    :arg1  (x15 / 您
+)                                    :degree  (x13 / 非常
+))))                  :op2  (x18 / 先生
+                        :arg0-of  (x38 / have-org-role-91
+                              :arg2  (x17 / 司令官
+))))))
+===========================
+和您聊天真有趣，可是我实在太困了。
+(x14 / contrast
+      :arg1  (x5 / 有趣-01
+            :arg0  (x3 / 聊天
+                  :accompanier  (x2 / 您
+))            :degree  (x4 / 真
+))      :arg2  (x11 / 困-02
+            :arg0  (x8 / 我
+)            :degree  (x10 / 太
+)            :mod  (x9 / 实在
+)            :aspect  (x12 / 了
+)))
+===========================
+少校那么，晚安，小姑娘。
+(x9 / say
+      :arg0  (x11 / person
+            :arg0-of  (x12 / have-org-role-91
+                  :arg2  (x1 / 少校
+)))      :arg1  (x4 / 晚安-01
+            :arg0  (x7 / 姑娘
+                  :arg0-of  (x6 / 小-01
+))))
+===========================
+杰奎琳晚安，各位先生。
+(x7 / say
+      :arg0  (x9 / person
+            :name  ( x1/杰奎琳 
+))      :arg1  (x2 / 晚安-01
+            :arg0  (x5 / 先生
+                  :mod  (x4_1 / 各
+)                  :cunit  (x4_2 / 位
+))))
+===========================
+晚安，妈妈。
+(x1 / 晚安-01
+      :arg0  (x3 / 妈妈
+))
+===========================
+伯诺德夫人（温柔地）晚安，亲爱的。
+(x12 / say
+      :arg0  (x2 / 夫人
+            :name  ( x1/伯诺德 
+))      :manner  (x4 / 温柔-01
+            :arg0  (x2 / 夫人
+))      :arg1  (x7 / 晚安-01
+            :arg0  (x18 / person
+                  :mod  (x9_x10 / 亲爱的
+))))
+===========================
+杰奎琳慢慢端着蜡烛走上楼去。
+(x6 / 走-01
+      :arg0  (x13 / person
+            :name  ( x1/杰奎琳 
+))      :manner  (x3 / 端-01
+            :arg1  (x5 / 蜡烛
+)            :aspect  (x4 / 着
+)            :arg0  (x13 / person
+))      :manner  (x2 / 慢
+)      :arg1  (x7_x8 / 上楼-01
+            :arg0  (x13 / person
+)))
+===========================
+在踏上最后一级楼梯时蜡烛灭了。
+(x9 / 灭-01
+      :aspect  (x10 / 了
+)      :time  (x2 / 踏上-01
+            :arg1  (x6 / 楼梯
+                  :ord  (x3 / 最后
+)                  :quant  (x4 / 1
+)                  :cunit  (x5 / 级
+)))      :arg1  (x8 / 蜡烛
+))
+===========================

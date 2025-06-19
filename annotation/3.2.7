@@ -1,0 +1,300 @@
+有一年春天，在欧洲瑞士的一个车站，一列漂亮舒适的空调列车正准备启程，站台上站满了送行的人。
+(x34 / and
+      :time  (x36 / date-entity
+            :season  (x4 / 春天
+                  :time  (x1_x2_x3 / 有一年
+)))      :location  (x12 / 车站
+            :cunit  (x11 / 个
+)            :quant  (x10 / 1
+)            :location  (x42 / country
+                  :name  ( x8/瑞士 
+)                  :location  (x44 / world-region
+                        :name  ( x7/欧洲 
+))))      :op1  (x22 / 准备-01
+            :aspect  (x21 / 正
+)            :arg0  (x20 / 列车
+                  :mod  (x19 / 空调
+)                  :arg0-of  (x17 / 舒适-01
+)                  :arg0-of  (x16 / 漂亮-01
+)                  :cunit  (x15 / 列
+))            :arg1  (x23 / 启程-01
+                  :arg0  (x20 / 列车
+)))      :op2  (x27 / 站-01
+            :cause-of  (x28 / 满-01
+                  :aspect  (x29 / 了
+)                  :arg0  (x32 / 人
+                        :arg0-of  (x30 / 送行-01
+))                  :arg1  (x25 / 站台
+))            :arg0  (x32 / 人
+)            :arg1  (x25 / 站台
+)))
+===========================
+他们送的是一批特殊的客人——燕子。
+(x9 / 客人
+      :domain  (x15 / thing
+            :arg1-of  (x2 / 送-02
+                  :arg0  (x1 / 他们
+)))      :arg0-of  (x18 / mean
+            :arg1  (x11 / 燕子
+))      :quant  (x5 / 1
+)      :cunit  (x6 / 批
+)      :arg0-of  (x7 / 特殊-01
+))
+===========================
+燕子是候鸟，能长途飞行，怎么还用专列送呢?
+(x16 / causation
+      :arg1  (x18 / causation
+            :arg1  (x3 / 候鸟
+                  :domain  (x1 / 燕子
+))            :arg2  (x5 / 能-01
+                  :arg0  (x7 / 飞行-01
+                        :arg0  (x1 / 燕子
+)                        :manner  (x6 / 长途
+))))      :arg2  (x13 / 送-02
+            :arg1  (x1 / 燕子
+)            :instrument  (x12 / 专列
+)            :mod  (x10 / 还
+)            :cause  (x9 / amr-unknown
+)            :mode  (x14_x15 / interrogative
+)))
+===========================
+事情是这样的:这年春天，成千上万只燕子从南方飞回北方时，在瑞士境内遇到了麻烦。
+(x1 / 事情
+      :mod  (x3 / 这样
+            :arg0-of  (x31 / mean
+                  :arg1  (x23 / 遇到-01
+                        :time  (x15_x16 / 飞回-01
+                              :arg0  (x12 / 燕子
+                                    :quant  (x10 / 成千上万
+)                                    :cunit  (x11 / 只
+))                              :arg1  (x17 / 北方
+)                              :source  (x14 / 南方
+)                              :time  (x41 / date-entity
+                                    :season  (x8 / 春天
+                                          :time  (x7 / 年
+                                                :mod  (x6 / 这
+)))))                        :aspect  (x24 / 了
+)                        :arg1  (x25 / 麻烦
+)                        :arg0  (x12 / 燕子
+)                        :location  (x22 / 境内
+                              :poss  (x46 / country
+                                    :name  ( x21/瑞士 
+))))))      :mode  (x2_x4 / judgement
+))
+===========================
+当地气温骤降，风雪不止，几乎所有昆虫都被冻死了。
+(x17 / causation
+      :arg1  (x19 / and
+            :op1  (x3 / 骤降-01
+                  :arg0  (x2 / 气温
+                        :range  (x1 / 当地
+)))            :op2  (x6_2 / 止-02
+                  :arg1  (x5 / 风雪
+                        :range  (x1 / 当地
+))))      :arg2  (x13 / 冻-02
+            :cause-of  (x14 / 死-01
+                  :aspect  (x15 / 了
+)                  :arg0  (x10 / 昆虫
+                        :mod  (x9 / 所有
+                              :mod  (x8 / 几乎
+))                        :extent  (x11 / 都
+)))            :arg1  (x10 / 昆虫
+)))
+===========================
+燕子经过长途跋涉，已经非常疲劳，再加上找不到食物，饥寒交迫，濒临死亡。
+(x21 / causation
+      :arg1  (x23 / progression
+            :arg1  (x24 / causation
+                  :arg1  (x2 / 经过-01
+                        :arg0  (x1 / 燕子
+)                        :arg1  (x3 / 长途跋涉
+                              :arg0  (x1 / 燕子
+)))                  :arg2  (x7 / 疲劳-01
+                        :arg0  (x1 / 燕子
+)                        :degree  (x6 / 非常
+)                        :aspect  (x5 / 已经
+)))            :arg2  (x10 / 加上-01
+                  :arg1  (x32 / possible
+                        :arg0  (x11_x13 / 找到-01
+                              :arg1  (x14 / 食物
+)                              :arg0  (x1 / 燕子
+))                        :polarity  (x12 / -
+))))      :arg2  (x36 / and
+            :op1  (x16 / 饥寒交迫
+                  :arg0  (x1 / 燕子
+))            :op2  (x18 / 濒临-01
+                  :arg0  (x1 / 燕子
+)                  :arg1  (x19 / 死亡
+))))
+===========================
+瑞士政府知道了这个情况，决定用火车把这些燕子送到温暖的地方。
+(x18 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x1_3_4 / 政府
+                  :mod  (x26 / country
+                        :name  ( x1_1_2/瑞士 
+)))            :arg1  (x5 / 情况
+                  :mod  (x4_1 / 这
+)                  :cunit  (x4_2 / 个
+))            :aspect  (x3 / 了
+))      :arg2  (x7 / 决定-01
+            :arg0  (x1_3_4 / 政府
+)            :arg1  (x13 / 送到-01
+                  :instrument  (x9 / 火车
+)                  :arg0  (x1_3_4 / 政府
+)                  :arg1  (x12 / 燕子
+                        :mod  (x11 / 这些
+))                  :arg2  (x16 / 地方
+                        :arg0-of  (x14 / 温暖-01
+)))))
+===========================
+于是，政府通过电视和广播呼吁人们立即行动起来，寻找燕子，把它们送到火车站。
+(x23 / causation
+      :arg2  (x8 / 呼吁-01
+            :arg0  (x3 / 政府
+)            :medium  (x6 / and
+                  :op1  (x5 / 电视
+)                  :op2  (x7 / 广播
+))            :arg1  (x9 / 人们
+)            :arg2  (x31 / temporal
+                  :arg1  (x11_x12 / 行动-01
+                        :arg0  (x9 / 人们
+)                        :arg1  (x14 / 寻找-01
+                              :arg0  (x9 / 人们
+)                              :arg1  (x15 / 燕子
+))                        :time  (x10 / 立即
+))                  :arg2  (x19_x20 / 送到-01
+                        :arg0  (x9 / 人们
+)                        :arg1  (x18 / x15
+)                        :arg2  (x21 / 火车站
+)))))
+===========================
+听到消息后，居民们纷纷走出家门，冒着料峭的春寒，顶着满天飞舞的大雪，踏着冻得坚硬的山路，四处寻找冻僵的燕子。
+(x38 / temporal
+      :arg1  (x1 / 听到-01
+            :arg1  (x2 / 消息
+)            :arg0  (x5_x6 / 居民们
+))      :arg2  (x8_x9 / 走出-02
+            :arg0  (x5_x6 / 居民们
+)            :manner  (x7 / 纷纷
+)            :arg1  (x10 / 家门
+))      :arg3  (x47 / and
+            :op1  (x12 / 冒-01
+                  :aspect  (x13 / 着
+)                  :arg0  (x5_x6 / 居民们
+)                  :arg1  (x16 / 春寒
+                        :arg0-of  (x14 / 料峭
+)))            :op2  (x18 / 顶-02
+                  :arg0  (x5_x6 / 居民们
+)                  :aspect  (x19 / 看
+)                  :arg1  (x22 / 大雪
+                        :arg0-of  (x20 / 满天飞舞
+)))            :op3  (x24 / 踏-02
+                  :aspect  (x25 / 着
+)                  :arg0  (x5_x6 / 居民们
+)                  :arg1  (x30 / 山路
+                        :arg0-of  (x28 / 坚硬-01
+                              :cause  (x26 / 冻-01
+                                    :arg1  (x30 / 山路
+)))))            :op4  (x33 / 寻找-01
+                  :arg0  (x5_x6 / 居民们
+)                  :arg1  (x36 / 燕子
+                        :arg0-of  (x34 / 冻僵-01
+))                  :location  (x32 / 四处
+))))
+===========================
+一个叫贝蒂的小姑娘，听到广播后，和爸爸妈妈一起，在覆盖着皑皑白雪的山间岩缝里，四处寻找冻僵的燕子。
+(x34 / temporal
+      :arg1  (x8_x9 / 听到-01
+            :arg0  (x6 / 小姑娘
+                  :arg0-of  (x3 / 叫-01
+                        :arg1  (x4 / 贝蒂
+))                  :quant  (x1 / 1
+)                  :cunit  (x2 / 个
+))            :arg1  (x10 / 广播
+))      :arg2  (x29 / 寻找-01
+            :arg0  (x6 / 小姑娘
+)            :accompanier  (x44 / and
+                  :op1  (x14 / 爸爸
+)                  :op2  (x15 / 妈妈
+))            :arg1  (x32 / 燕子
+                  :arg0-of  (x30 / 冻僵-01
+))            :location  (x28 / 四处
+                  :location  (x26 / 里
+                        :arg0  (x25 / 岩缝
+                              :location  (x24 / 山间
+)                              :arg1-of  (x19 / 覆盖-01
+                                    :aspect  (x20 / 着
+)                                    :arg0  (x22 / 白雪
+                                          :arg0-of  (x21 / 皑皑
+))))))))
+===========================
+一天下来，她一个人就救护了十几只燕子。
+(x10 / 救护-01
+      :duration  (x19 / temporal-quantity
+            :quant  (x1 / 1
+)            :unit  (x2 / 天
+))      :aspect  (x11 / 了
+)      :mod  (x9 / 就
+)      :arg0  (x5 / 她
+            :quant  (x6 / 1
+)            :cunit  (x8 / 人
+))      :arg1  (x14 / 燕子
+            :quant  (x12_2 / 几
+                  :op1  (x12_1 / 10
+))            :cunit  (x13 / 只
+)))
+===========================
+她的脸冻得通红。
+(x4 / 冻-02
+      :cause-of  (x6 / 通红-01
+            :arg0  (x3 / 脸
+                  :part-of  (x1 / 她
+)))      :arg1  (x3 / 脸
+))
+===========================
+手冻得僵硬，但她一点也不在乎。
+(x12 / contrast
+      :arg1  (x2 / 冻-02
+            :arg1  (x1 / 手
+)            :cause-of  (x4 / 僵硬
+                  :arg0  (x1 / 手
+)))      :arg2  (x10_2_3 / 在乎-01
+            :arg0  (x7 / 她
+)            :polarity  (x10_1 / -
+)            :mod  (x9 / 也
+)            :degree  (x8 / 一点
+)))
+===========================
+列车开动了。
+(x2 / 开动-01
+      :arg1  (x1 / 列车
+)      :aspect  (x3 / 了
+))
+===========================
+载着燕子的列车，带着人类的友情驶向远方。
+(x12_x13 / 驶向-01
+      :arg0  (x5 / 列车
+            :arg0-of  (x1 / 载-01
+                  :aspect  (x2 / 着-02
+)                  :arg1  (x3 / 燕子
+)))      :arg1  (x14 / 远方
+)      :manner  (x7 / 带-02
+            :arg1  (x11 / 友情
+                  :poss  (x9 / 人类
+))            :aspect  (x8 / 着
+)            :arg0  (x5 / 列车
+)))
+===========================
+燕子在车厢里叽叽喳喳，仿佛在向人类致谢。
+(x15 / and
+      :op1  (x5 / 叽叽喳喳
+            :arg0  (x1 / 燕子
+)            :location  (x3 / 车厢
+))      :op2  (x7 / 仿佛-01
+            :arg0  (x11 / 致谢-01
+                  :arg1  (x10 / 人类
+)                  :aspect  (x8 / 在
+))            :arg0  (x1 / 燕子
+)))
+===========================

@@ -1,0 +1,281 @@
+我常常想，生命是什么呢？
+(x3 / 想-01
+      :frequency  (x2 / 常常
+)      :arg0  (x1 / 我
+)      :arg1  (x7 / amr-unknown
+            :domain  (x5 / 生命
+)            :mode  (x8_x9 / interrogative
+)))
+===========================
+夜晚，我在灯下写稿，一只飞蛾不停地在我头顶上飞来飞去，骚扰着我。
+(x25 / and
+      :time  (x1 / 夜晚
+)      :op1  (x7 / 写稿
+            :arg0  (x3 / 我
+))      :location  (x6 / 下
+            :arg0  (x5 / 灯
+))      :op2  (x32 / and
+            :manner  (x12 / 不停
+)            :op1  (x18 / 飞来-01
+                  :arg0  (x11 / 飞蛾
+                        :quant  (x9 / 1
+)                        :cunit  (x10 / 只
+)))            :op2  (x19 / 飞去-01
+                  :arg0  (x11 / 飞蛾
+))            :location  (x17 / 上
+                  :arg0  (x16 / 头顶
+                        :part-of  (x15 / x3
+))))      :op3  (x21 / 骚扰-01
+            :aspect  (x22 / 着
+)            :arg1  (x23 / x3
+)            :arg0  (x11 / 飞蛾
+)))
+===========================
+趁它停下的时候，我一伸手捉住了它。
+(x10 / 捉住-01
+      :aspect  (x11 / 了
+)      :manner  (x9 / 伸手-01
+            :arg0  (x7 / 我
+))      :arg0  (x7 / 我
+)      :arg1  (x12 / 它
+)      :time  (x1 / 趁-01
+            :arg0  (x7 / 我
+)            :arg1  (x3 / 停下-01
+                  :arg1  (x2 / 它
+))))
+===========================
+只要我的手指稍一用力，它就不能动弹了。
+(x16 / condition
+      :arg1  (x7 / 用力
+            :degree  (x5 / 稍
+)            :arg0  (x4 / 手指
+                  :part-of  (x2 / 我
+)))      :arg2  (x12 / 能-01
+            :polarity  (x11 / -
+)            :arg0  (x9 / 它
+)            :arg1  (x13 / 动弹-01
+                  :arg0  (x9 / 它
+)                  :aspect  (x14 / 了
+))))
+===========================
+但它挣扎着，极力鼓动双翅，我感到一股生命的力量在我手中跃动，那样强烈！那样鲜明！
+(x29 / contrast
+      :arg2  (x31 / and
+            :op1  (x3 / 挣扎-01
+                  :arg0  (x2 / 它
+)                  :aspect  (x4 / 着
+))            :op2  (x7 / 鼓动-01
+                  :manner  (x6 / 极力
+)                  :arg1  (x9 / 翅
+                        :quant  (x8 / 2
+))                  :arg0  (x2 / 它
+))            :op3  (x12 / 感到-01
+                  :arg0  (x11 / 我
+)                  :arg1  (x21 / 跃动
+                        :arg0  (x17 / 力量
+                              :mod  (x15 / 生命
+                                    :cunit  (x14 / 股
+))                              :quant  (x13 / 1
+))                        :location  (x20 / 手中
+                              :part-of  (x19 / x11
+))))            :op4  (x24 / 强烈
+                  :mod  (x23 / 那样
+)                  :mode  (x25 / expressive
+))            :op5  (x27 / 鲜明
+                  :mod  (x26 / 那样
+)                  :mode  (x28 / expressive
+))))
+===========================
+飞蛾那种求生的欲望令我震惊，我忍不住放了它！
+(x16 / causation
+      :arg2  (x27 / possible
+            :polarity  (x11_2_3 / -
+)            :mode  (x15 / expressive
+)            :arg0  (x11_1_3 / 忍住-01
+                  :arg0  (x10 / x7
+)                  :arg1  (x12 / 放-01
+                        :arg0  (x7 / 我
+)                        :aspect  (x13 / 了
+)                        :arg1  (x14 / x1
+))))      :arg1  (x8 / 震惊-01
+            :arg0  (x5 / 欲望
+                  :mod  (x3 / 求生-01
+)                  :poss  (x1 / 飞蛾
+)                  :mod  (x2_1 / 那
+)                  :unit  (x2_2 / 种
+))            :arg1  (x7 / 我
+)))
+===========================
+墙角的砖逢中掉进一粒香瓜子，过了几天，竟然冒出一截小瓜苗。
+(x24 / temporal
+      :arg1  (x5_x6 / 掉进-01
+            :arg0  (x10 / 瓜子
+                  :arg0-of  (x9 / 香
+)                  :quant  (x7 / 1
+)                  :cunit  (x8 / 粒
+))            :arg1  (x3 / 砖逢
+                  :location  (x1 / 墙角
+)))      :arg2  (x12 / 过
+            :duration  (x34 / temporal-quantity
+                  :quant  (x14 / 几
+)                  :unit  (x15 / 天
+))            :aspect  (x13 / 了
+))      :arg3  (x18 / 冒出-01
+            :manner  (x17 / 竟然
+)            :arg0  (x22 / 瓜苗
+                  :arg0-of  (x21 / 小-01
+)                  :quant  (x19 / 1
+)                  :cunit  (x20 / 截
+))            :arg1  (x10 / 瓜子
+)))
+===========================
+那小小的种子里，包含着一种多么强的生命力啊！
+(x7 / 包含-01
+      :aspect  (x8 / 着
+)      :arg0  (x4 / 种子
+            :arg0-of  (x2 / 小-01
+)            :mod  (x1 / 那
+))      :arg1  (x14 / 生命力
+            :arg0-of  (x12 / 强-01
+                  :degree  (x11 / 多么
+))            :quant  (x9 / 1
+)            :unit  (x10 / 种
+))      :mode  (x15_x16 / expressive
+))
+===========================
+竟使它可以冲破坚硬的外壳在没有阳光、没有泥土的砖逢中，不屈向上，茁壮生长，即使它仅仅只活了几天。
+(x34 / concession
+      :arg2  (x2 / 使-01
+            :arg1  (x3 / 它
+)            :arg2  (x4 / 可以-01
+                  :arg0  (x39 / and
+                        :op1  (x5 / 冲破-01
+                              :arg0  (x3 / 它
+)                              :arg1  (x8 / 外壳
+                                    :arg0-of  (x6 / 坚硬-01
+)))                        :op2  (x20 / 向上-01
+                              :arg0  (x3 / 它
+)                              :manner  (x19 / 不屈
+)                              :location  (x16 / 砖逢
+                                    :arg0-of  (x13_2 / 有-03
+                                          :arg1  (x14 / 泥土
+)                                          :polarity  (x13_1 / -
+))                                    :arg0-of  (x10_2 / 有-03
+                                          :polarity  (x10_1 / -
+)                                          :arg1  (x11 / 阳光
+))))                        :op3  (x23 / 生长-01
+                              :arg0  (x3 / 它
+)                              :manner  (x22 / 茁壮-01
+                                    :arg0  (x3 / 它
+)))))            :manner  (x1 / 竟
+))      :arg1  (x29 / 活-01
+            :mod  (x28 / 只
+)            :mod  (x27 / 仅仅
+)            :aspect  (x30 / 了
+)            :arg0  (x26 / x3
+)            :duration  (x60 / temporal-quantity
+                  :quant  (x31 / 几
+)                  :cunit  (x32 / 天
+))))
+===========================
+有一次，我用医生的听诊器，静听自己的心跳，那一声声沉稳而有规律的跳动，给我极大的震撼，这就是我的生命，单单属于我的。
+(x44 / and
+      :op1  (x11 / 静听-01
+            :arg0  (x5 / 我
+)            :arg1  (x14 / 心跳
+                  :poss  (x12 / x5
+))            :instrument  (x9 / 听诊器
+                  :poss  (x7 / 医生
+))            :time  (x1_x2_x3 / 有一次
+))      :op2  (x27 / 给-01
+            :arg0  (x25 / 跳动
+                  :arg0-of  (x22 / 有-01
+                        :arg1  (x23 / 规律
+))                  :arg0-of  (x20 / 沉稳-01
+)                  :mod  (x16 / 那
+)                  :quant  (x17_x18_x19 / 一声声
+))            :arg1  (x31 / 震撼
+                  :arg0-of  (x29_2 / 大-01
+                        :degree  (x29_1 / 极
+)))            :arg2  (x28 / x5
+))      :op3  (x37 / 生命
+            :domain  (x33 / 这
+)            :poss  (x35 / x5
+)            :mod  (x34_1 / 就
+))      :op4  (x40 / 属于-01
+            :manner  (x39 / 单单
+)            :arg1  (x41 / 我
+)            :arg0  (x37 / 生命
+)            :mode  (x42 / judgement
+)))
+===========================
+我可以好好地使用它，也可以白白地糟蹋它。
+(x15 / and
+      :op1  (x2 / 可以-01
+            :arg0  (x5 / 使用-01
+                  :manner  (x3 / 好好
+)                  :arg1  (x6 / 它
+)                  :arg0  (x1 / 我
+)))      :op2  (x9 / 可以-01
+            :arg0  (x12 / 糟蹋-01
+                  :manner  (x10 / 白白
+)                  :arg0  (x1 / 我
+)                  :arg1  (x13 / x6
+))))
+===========================
+一切全由自己决定，我必须对自己负责。
+(x15 / and
+      :op1  (x5 / 决定-01
+            :arg0  (x4 / 自己
+)            :arg1  (x1 / 一切
+                  :extent  (x2 / 全-01
+)))      :op2  (x8 / 必须-02
+            :arg0  (x11 / 负责-01
+                  :arg2  (x10 / x4
+)                  :arg0  (x7 / x4
+))))
+===========================
+虽然生命短暂，但是，我们却可以让有限的生命体现出无限的价值。
+(x20 / contrast
+      :arg1  (x3 / 短暂-01
+            :arg0  (x2 / 生命
+))      :arg2  (x9 / 可以-01
+            :arg0  (x10 / 让-02
+                  :arg0  (x7 / 我们
+)                  :arg1  (x13 / 生命
+                        :arg0-of  (x11 / 有限-01
+))                  :arg2  (x14 / 体现-01
+                        :arg0  (x13 / 生命
+)                        :arg1  (x18 / 价值
+                              :arg0-of  (x16 / 无限-01
+))))))
+===========================
+于是，我下定决心，一定要珍惜生命，决不让它白白流失，使自己活得更加光彩有力。
+(x26 / causation
+      :arg2  (x4 / 下定-01
+            :arg0  (x3 / 我
+)            :arg1  (x5 / 决心-01
+                  :arg1  (x31 / and
+                        :op1  (x7 / 一定
+                              :arg0  (x8 / 要-03
+                                    :arg0  (x9 / 珍惜-01
+                                          :arg1  (x10 / 生命
+)                                          :arg0  (x3 / 我
+))))                        :op2  (x13 / 让-02
+                              :polarity  (x12 / -
+)                              :arg1  (x14 / x10
+)                              :arg0  (x3 / 我
+)                              :arg2  (x16 / 流失-01
+                                    :arg1  (x14 / x10
+)                                    :manner  (x15 / 白白
+)))                        :op3  (x18 / 使-01
+                              :arg1  (x19 / x3
+)                              :arg2  (x20 / 活-01
+                                    :manner  (x44 / and
+                                          :op1  (x23 / 光彩
+                                                :degree  (x22 / 更加
+))                                          :op2  (x24 / 有力
+                                                :degree  (x22 / 更加
+)))                                    :arg0  (x19 / x3
+)))))))
+===========================

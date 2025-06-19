@@ -1,0 +1,519 @@
+卡罗纳的母亲病得很厉害，卡罗纳很多天没来上学了。
+(x17 / causation
+      :arg1  (x4 / 病-01
+            :arg0  (x3 / 母亲
+                  :poss  (x23 / person
+                        :name  ( x1/卡罗纳 
+)))            :arg0-of  (x7 / 厉害-01
+                  :degree  (x6 / 很
+)))      :arg2  (x13 / 来-05
+            :arg1  (x14 / 上学-01
+                  :arg0  (x32 / person
+                        :name  ( x9/卡罗纳 
+)))            :aspect  (x15 / 了
+)            :polarity  (x12 / -
+)            :duration  (x29 / temporal-quantity
+                  :unit  (x11 / 天
+)                  :quant  (x10 / 很多
+))            :arg0  (x32 / person
+)))
+===========================
+昨天上午，我们刚走进教室，老师就对大家说：“卡罗纳的母亲去世了，这个可怜的孩子遭到了巨大的不幸。
+(x32 / temporal
+      :arg1  (x6_x7 / 走进-01
+            :arg0  (x4 / 我们
+)            :arg1  (x8 / 教室
+)            :time  (x5 / 刚
+))      :time  (x2 / 上午
+            :time  (x1 / 昨天
+))      :arg2  (x14 / 说-01
+            :arg0  (x10 / 老师
+)            :arg3  (x13 / x4
+)            :arg1  (x43 / causation
+                  :arg1  (x19 / 去世-01
+                        :arg0  (x18 / 母亲
+                              :poss  (x46 / person
+                                    :name  ( x16/卡罗纳 
+)))                        :aspect  (x20 / 了
+))                  :arg2  (x26 / 遭到-01
+                        :aspect  (x27 / 了
+)                        :arg0  (x25 / x46
+                              :arg0-of  (x23 / 可怜-01
+)                              :mod  (x22_1 / 这
+)                              :cunit  (x22_2 / 个
+))                        :arg1  (x30 / 不幸
+                              :arg0-of  (x28 / 巨大-01
+))))))
+===========================
+他明天要来上课，孩子们，你们要庄重严肃，热情地对待他。
+(x20 / and
+      :op1  (x3 / 要-03
+            :arg0  (x4 / 来-05
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 上课-01
+                        :arg0  (x1 / 他
+)))            :time  (x2 / 明天
+))      :op2  (x7_x8 / 孩子们
+)      :op3  (x11 / 要-03
+            :arg0  (x17 / 对待-01
+                  :arg0  (x10 / x7_x8
+)                  :arg1  (x18 / x1
+)                  :manner  (x15 / 热情-01
+                        :arg0  (x7_x8 / 孩子们
+))                  :manner  (x13 / 严肃-01
+                        :arg0  (x7_x8 / 孩子们
+))                  :manner  (x12 / 庄重-01
+                        :arg0  (x7_x8 / 孩子们
+)))))
+===========================
+任何人都不许跟他开玩笑，不许在他面前放声大笑！”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x3 / 不许-01
+                  :arg1  (x1 / 任何人
+                        :extent  (x2 / 都
+))                  :arg2  (x6 / 开玩笑-01
+                        :arg1  (x5 / 他
+)                        :arg0  (x1 / 任何人
+)))            :op2  (x8 / 不许-01
+                  :arg1  (x1 / 任何人
+)                  :arg2  (x13 / 大笑-01
+                        :manner  (x12 / 放声
+)                        :arg0  (x1 / 任何人
+)                        :location  (x11 / 面前
+                              :arg0  (x10 / x5
+)))                  :mode  (x14 / expressive
+))))
+===========================
+今天上午，可怜的卡罗纳来到了学校。
+(x7 / 来到-01
+      :aspect  (x8 / 了
+)      :arg0  (x14 / person
+            :name  ( x6/卡罗纳 
+)            :arg0-of  (x4 / 可怜-01
+))      :arg1  (x9 / 学校
+)      :time  (x2 / 上午
+            :time  (x1 / 今天
+)))
+===========================
+他面容灰白，眼睛哭红了，两腿站不稳，好像他自己也大病了一场似的。
+(x27 / and
+      :op1  (x3 / 灰白
+            :arg0  (x2 / 面容
+                  :poss  (x1 / 他
+)))      :op2  (x6 / 哭-01
+            :cause-of  (x7 / 红-01
+                  :aspect  (x8 / 了
+)                  :arg0  (x5 / 眼睛
+                        :part-of  (x1 / 他
+)))            :arg0  (x1 / 他
+))      :op3  (x36 / possible
+            :arg0  (x12 / 站-01
+                  :manner  (x14 / 稳-01
+)                  :arg0  (x11 / 腿
+                        :part-of  (x1 / 他
+)                        :quant  (x10 / 2
+)))            :polarity  (x13 / -
+))      :op3  (x16 / 好像-01
+            :arg1  (x21 / 病-01
+                  :manner  (x20 / 大
+                        :mod  (x19 / 也
+))                  :aspect  (x22 / 了
+)                  :arg0  (x18 / 自己
+                        :arg0-of  (x47 / mean
+                              :arg1  (x17 / x1
+)))                  :quant  (x23 / 1
+)                  :cunit  (x24 / 场
+))))
+===========================
+我心里不由得泛起一阵同情和怜悯，大家都屏息凝神地望着他。
+(x19 / and
+      :op1  (x4 / 泛起-01
+            :manner  (x3 / 不由得
+)            :arg1  (x2 / 心里
+                  :poss  (x1 / 我
+))            :arg1  (x7 / and
+                  :cunit  (x5_2 / 阵
+)                  :quant  (x5_1 / 1
+)                  :op1  (x6 / 同情-01
+)                  :op2  (x8 / 怜悯
+)))      :op2  (x15 / 望-01
+            :manner  (x31 / and
+                  :op1  (x12 / 屏息-01
+                        :arg0  (x10 / 大家
+                              :extent  (x11 / 都
+)))                  :op2  (x13 / 凝神-01
+                        :arg0  (x10 / 大家
+)))            :arg0  (x10 / 大家
+)            :aspect  (x16 / 着
+)            :arg1  (x17 / 他
+)))
+===========================
+卡罗纳走进教室，突然放声大哭起来。
+(x14 / temporal
+      :arg1  (x2_x3 / 走进-01
+            :arg0  (x17 / person
+                  :name  ( x1/卡罗纳 
+))            :arg1  (x4 / 教室
+))      :arg2  (x9_x10 / 哭-01
+            :arg0  (x17 / person
+)            :manner  (x8 / 大
+)            :manner  (x7 / 放声
+)            :manner  (x6 / 突然
+)))
+===========================
+他一定是想起了往日的情景。
+(x2 / 一定
+      :arg0  (x4 / 想起-01
+            :arg0  (x1 / 他
+)            :aspect  (x5 / 了
+)            :arg1  (x8 / 情景
+                  :time  (x6 / 往日
+))            :mode  (x3 / judgement
+)))
+===========================
+那时候，母亲差不多每天都来接他；要考试了，母亲总是俯下身来向他千叮咛万嘱咐。
+(x26 / and
+      :op1  (x8 / 来-05
+            :arg0  (x4 / 母亲
+)            :arg1  (x9 / 接-01
+                  :arg1  (x10 / 他
+)                  :arg0  (x4 / 母亲
+))            :frequency  (x6 / 每天
+                  :extent  (x7 / 都
+))            :mod  (x5 / 差不多
+)            :time  (x2 / 时候
+                  :mod  (x1 / 那
+)))      :op2  (x24 / 千叮咛万嘱咐
+            :beneficiary  (x23 / x10
+)            :arg0  (x16 / x4
+)            :frequency  (x17 / 总是
+)            :manner  (x18 / 俯
+                  :arg9  (x4 / 母亲
+)                  :arg1  (x20 / 身
+                        :part-of  (x4 / 母亲
+)))            :time  (x12 / 要-03
+                  :arg0  (x13 / 考试
+)                  :smood  (x14 / 了
+))))
+===========================
+老师把卡罗纳拉到自己胸前，对他说：“哭吧，痛痛快快地哭吧，可怜的孩子！但你要坚强！
+(x31 / temporal
+      :arg1  (x3_x4 / 拉到-01
+            :arg0  (x1 / 老师
+)            :arg1  (x35 / person
+                  :name  ( x3/卡罗纳 
+))            :arg2  (x7 / 胸前
+                  :arg0  (x6 / x1
+)))      :arg2  (x11 / 说-01
+            :arg0  (x1 / 老师
+)            :arg3  (x10 / x35
+)            :arg1  (x42 / and
+                  :op1  (x13 / 哭
+                        :mode  (x14 / imperative
+))                  :op2  (x18 / 哭
+                        :mode  (x19 / imperative
+)                        :manner  (x16 / 痛快
+))                  :op3  (x23 / x35
+                        :arg0-of  (x21 / 可怜
+)                        :mode  (x24 / expressive
+))                  :op4  (x27 / 要-03
+                        :arg0  (x28 / 坚强-01
+                              :arg0  (x26 / x35
+))                        :mode  (x29 / expressive
+)))))
+===========================
+你母亲已不在这个世界上了，但她能看见你，她依然爱着你，她还生活在你身边。
+(x30 / contrast
+      :arg1  (x5 / 在-01
+            :arg0  (x2 / 母亲
+                  :poss  (x1 / 你
+))            :aspect  (x3 / 已
+)            :polarity  (x4 / -
+)            :arg1  (x7 / 世界
+                  :mod  (x6_1 / 这
+)                  :cunit  (x6_2 / 个
+))            :aspect  (x9 / 了
+))      :arg2  (x41 / and
+            :op1  (x13 / 能-01
+                  :arg0  (x14 / 看见-01
+                        :arg0  (x12 / x2
+)                        :arg1  (x15 / x1
+)))            :op2  (x19 / 爱-01
+                  :aspect  (x20 / 着
+)                  :arg0  (x17 / x2
+)                  :arg1  (x21 / x1
+)                  :mod  (x18 / 依然
+))            :op3  (x25 / 生活-01
+                  :mod  (x24 / 还
+)                  :arg0  (x23 / x2
+)                  :arg1  (x28 / 身边
+                        :arg0  (x27 / x1
+)))))
+===========================
+孩子，你要坚强哟！”
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1 / 孩子
+)            :op2  (x4 / 要-03
+                  :arg0  (x5 / 坚强-01
+                        :arg0  (x3 / x1
+))                  :mode  (x6 / imperative
+)                  :mode  (x7 / expressive
+))))
+===========================
+老师说完，卡罗纳回到座位上，挨着我坐下。
+(x14 / temporal
+      :arg1  (x3 / 完-01
+            :arg0  (x2 / 说-01
+                  :arg0  (x1 / 老师
+)))      :arg2  (x6 / 回到-01
+            :arg0  (x20 / person
+                  :name  ( x5/卡罗纳 
+))            :arg1  (x7 / 座位
+))      :arg3  (x12 / 坐下-01
+            :manner  (x10 / 挨着
+                  :arg1  (x11 / 我
+)                  :arg0  (x20 / person
+))            :arg0  (x20 / person
+)))
+===========================
+卡罗纳翻开书，当他看到一幅母亲拉着儿子的手的插图时，突然双手抱住脑袋，趴在桌子上号啕大哭。
+(x31 / temporal
+      :arg1  (x2 / 翻开-01
+            :arg0  (x34 / person
+                  :name  ( x1/卡罗纳 
+))            :arg1  (x3 / 书-01
+))      :arg2  (x22 / 抱-01
+            :time  (x7 / 看到
+                  :arg0  (x6 / x34
+)                  :arg1  (x17 / 插图
+                        :mod  (x11 / 拉-04
+                              :arg0  (x10 / 母亲
+)                              :aspect  (x12 / 着
+)                              :arg1  (x15 / 手
+                                    :part-of  (x13 / 儿子
+)))                        :quant  (x8 / 1
+)                        :cunit  (x9 / 幅
+)))            :manner  (x20 / 突然
+)            :arg0  (x21 / 双手
+                  :part-of  (x34 / person
+))            :arg1  (x24 / 脑袋
+                  :part-of  (x34 / person
+)))      :arg3  (x29 / 号啕大哭
+            :manner  (x26 / 趴在-01
+                  :arg0  (x34 / person
+)                  :arg1  (x27 / 桌子
+))            :arg0  (x34 / person
+)))
+===========================
+老师暗示大家暂时别管他，开始上课。
+(x12 / temporal
+      :arg1  (x2 / 暗示-01
+            :arg0  (x1 / 老师
+)            :arg2  (x3 / 大家
+)            :arg1  (x6 / 管-02
+                  :time  (x4 / 暂时
+)                  :polarity  (x5 / -
+)                  :arg1  (x7 / 他
+)))      :arg2  (x9 / 开始-01
+            :arg1  (x10 / 上课-01
+                  :arg0  (x1 / 老师
+))            :arg0  (x1 / 老师
+)))
+===========================
+我本想跟他说几句话，但不知说什么才好，就把一只手放在他的肩膀上，脸贴在他的耳朵上，对他说：“卡罗纳，别哭了。”
+(x47 / causation
+      :arg1  (x49 / contrast
+            :arg1  (x3 / 想-01
+                  :manner  (x2 / 本-01
+)                  :arg0  (x1 / 我
+)                  :arg1  (x6 / 说-01
+                        :arg1  (x9 / 话
+                              :unit  (x8 / 句
+)                              :quant  (x7 / 几
+))                        :arg3  (x5 / x79
+)))            :arg2  (x12_2 / 知-01
+                  :polarity  (x12_1 / -
+)                  :arg0  (x1 / 我
+)                  :arg1  (x16 / 好-01
+                        :mod  (x15 / 才
+)                        :arg0  (x13 / 说-01
+                              :arg0  (x1 / 我
+)                              :arg1  (x14 / amr-unknown
+)))))      :arg2  (x64 / and
+            :op1  (x23 / 放在-01
+                  :arg1  (x22 / 手
+                        :quant  (x20 / 1
+)                        :cunit  (x21 / 只
+)                        :part-of  (x1 / 我
+))                  :arg0  (x1 / 我
+)                  :arg2  (x26 / 肩膀
+                        :part-of  (x24 / x79
+)))            :op2  (x30 / 贴
+                  :arg1  (x29 / 脸
+                        :part-of  (x1 / 我
+))                  :arg0  (x1 / 我
+)                  :arg2  (x34 / 耳朵
+                        :part-of  (x32 / x79
+)))            :op3  (x39 / 说-01
+                  :arg3  (x38 / x79
+)                  :arg0  (x1 / 我
+)                  :arg1  (x77 / and
+                        :op1  (x79 / person
+                              :name  ( x41/卡罗纳 
+))                        :op2  (x44 / 哭-01
+                              :polarity  (x43 / -
+)                              :arg0  (x5 / x79
+)                              :mode  (x45 / imperative
+))))))
+===========================
+他什么也没说，也没有抬起头来，只是把他的手放在我的手上。
+(x24 / and
+      :op1  (x5 / 说-01
+            :arg1  (x2 / 什么
+)            :arg0  (x1 / 他
+)            :polarity  (x4 / -
+)            :mod  (x3 / 也
+))      :op2  (x9_x10_x11_x12 / 抬头-01
+            :arg0  (x1 / 他
+)            :polarity  (x8 / -
+))      :op3  (x19 / 放在-01
+            :arg1  (x18 / 手
+                  :part-of  (x16 / x1
+))            :arg1  (x22_2 / 上
+                  :arg0  (x22_1 / 手
+                        :part-of  (x20 / 我
+)))))
+===========================
+放学的时候，大家围在他身边，谁都没有说话，只用关切的目光默默地看着他。
+(x26 / and
+      :op1  (x6 / 围-01
+            :arg1  (x9 / 身边
+                  :arg0  (x8 / 他
+))            :arg2  (x5 / 大家
+))      :time  (x1 / 放学
+)      :op2  (x14 / 说话-01
+            :arg0  (x11 / 谁
+                  :extent  (x12 / 都
+))            :polarity  (x13 / -
+))      :op3  (x22 / 看-02
+            :manner  (x20 / 默默
+)            :aspect  (x23 / 着
+)            :arg1  (x24 / x8
+)            :arg0  (x5 / 大家
+)            :instrument  (x19 / 目光
+                  :mod  (x17 / 关切
+))))
+===========================
+我看见母亲在等我，跑过去扑进她的怀抱。
+(x16 / causation
+      :arg1  (x2 / 看见-01
+            :arg1  (x5 / 等-01
+                  :aspect  (x4 / 在
+)                  :arg0  (x3 / 母亲
+)                  :arg1  (x6 / x1
+))            :arg0  (x1 / 我
+))      :arg2  (x8 / 跑-01
+            :arg0  (x1 / 我
+)            :direction  (x9 / 过去-02
+                  :arg0  (x1 / 我
+)))      :arg3  (x10 / 扑-02
+            :cause-of  (x11 / 进-01
+                  :arg1  (x14 / 怀抱
+                        :poss  (x12 / x3
+))                  :arg0  (x1 / 我
+))            :arg0  (x1 / 我
+)))
+===========================
+母亲把我推开了，她目不转睛地望着卡罗纳。
+(x14 / temporal
+      :arg1  (x4 / 推开-01
+            :aspect  (x5 / 了
+)            :arg1  (x3 / 我
+)            :arg0  (x1 / 母亲
+))      :arg2  (x10 / 望-01
+            :aspect  (x11 / 着
+)            :arg0  (x7 / x1
+)            :manner  (x8 / 目不转睛
+)            :arg1  (x24 / person
+                  :name  ( x12/卡罗纳 
+))))
+===========================
+当时我并不明白母亲的用意。
+(x5 / 明白-01
+      :polarity  (x4 / -
+)      :mod  (x3 / 并
+)      :arg0  (x2 / 我
+)      :arg1  (x8 / 用意
+            :poss  (x6 / 母亲
+))      :time  (x1 / 当时
+))
+===========================
+过了一会儿，我发现卡罗纳独自站在一边端详着我，他的目光里充满着无法形容的悲哀，那神情仿佛在说：“你可以拥抱妈妈，我却再也不能了。”
+(x45 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x3 / 一会儿
+))      :arg2  (x50 / and
+            :op1  (x6 / 发现-01
+                  :arg0  (x5 / 我
+)                  :arg1  (x12 / 端详-01
+                        :aspect  (x13 / 着
+)                        :manner  (x9 / 站-01
+                              :arg1  (x11 / 一边
+)                              :manner  (x8 / 独自
+)                              :arg0  (x59 / person
+                                    :name  ( x7/卡罗纳 
+)))                        :arg0  (x59 / person
+)                        :arg1  (x14 / x5
+)))            :op2  (x20 / 充满-01
+                  :aspect  (x21 / 着
+)                  :arg0  (x25 / 悲哀
+                        :arg0-of  (x22 / 无法-01
+                              :arg1  (x23 / 形容-01
+                                    :arg1  (x25 / 悲哀
+))))                  :arg1  (x18 / 目光
+                        :poss  (x16 / x59
+)))            :op3  (x29 / 仿佛-01
+                  :arg0  (x31 / 说
+                        :arg0  (x28 / 神情
+                              :mod  (x27 / 那
+))                        :aspect  (x30 / 在
+)                        :arg1  (x74 / contrast
+                              :arg1  (x34 / 可以-01
+                                    :arg0  (x35 / 拥抱-01
+                                          :arg0  (x33 / x5
+)                                          :arg1  (x36 / 妈妈
+)))                              :arg2  (x42_2 / 能-01
+                                    :polarity  (x42_1 / -
+)                                    :aspect  (x43 / 了
+)                                    :mod  (x40 / 再
+)                                    :mod  (x41 / 也
+)                                    :arg0  (x84 / 拥抱-01
+                                          :arg0  (x38 / x5
+))))))))
+===========================
+我恍然大悟，没去拉母亲的手，却拉起卡罗纳的手，和他一块儿回家去。
+(x24 / causation
+      :arg1  (x2 / 恍然大悟
+            :arg0  (x1 / 我
+))      :arg2  (x28 / and
+            :op1  (x29 / contrast
+                  :arg1  (x5 / 去-01
+                        :arg1  (x6 / 拉-01
+                              :arg0  (x1 / 我
+)                              :arg1  (x9 / 手
+                                    :part-of  (x7 / 母亲
+)))                        :polarity  (x4 / -
+)                        :arg0  (x1 / 我
+))                  :arg2  (x12 / 拉-01
+                        :arg0  (x1 / 我
+)                        :arg1  (x16 / 手
+                              :part-of  (x38 / person
+                                    :name  ( x14/卡罗纳 
+)))))            :op2  (x21_x22 / 回家-01
+                  :arg0  (x1 / 我
+)                  :accompanier  (x19 / x38
+))))
+===========================

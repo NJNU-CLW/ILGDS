@@ -1,0 +1,448 @@
+国王的御厨里有两个罐子，一个是陶的，一个是铁的。
+(x20 / and
+      :op1  (x5 / 有-03
+            :arg0  (x3 / 御厨
+                  :poss  (x1 / 国王
+))            :arg1  (x8 / 罐子
+                  :quant  (x6 / 两
+)                  :cunit  (x7 / 个
+)))      :op2  (x28 / thing
+            :consist-of  (x12 / 陶
+)            :domain  (x30 / thing
+                  :quant  (x10_1 / 1
+)                  :cunit  (x10_2 / 个
+)                  :arg1-of  (x33 / include
+                        :arg2  (x8 / 罐子
+))))      :op3  (x34 / thing
+            :consist-of  (x17 / 铁
+)            :domain  (x36 / thing
+                  :arg1-of  (x37 / include
+                        :arg2  (x8 / 罐子
+))                  :quant  (x15_1 / 1
+))            :cunit  (x15_2 / 个
+)))
+===========================
+骄傲的铁罐看不起陶罐常常奚落它。
+(x11 / causation
+      :arg1  (x5 / 看不起-01
+            :arg0  (x4 / 罐
+                  :consist-of  (x3 / 铁
+)                  :arg0-of  (x1 / 骄傲-01
+))            :arg1  (x6 / 陶罐
+))      :arg2  (x8 / 奚落-01
+            :frequency  (x7 / 常常
+)            :arg0  (x4 / 罐
+)            :arg1  (x9 / x6
+)))
+===========================
+“你敢碰我吗？陶罐子！”铁罐傲慢地问。
+(x15 / 问-01
+      :manner  (x13 / 傲慢-01
+            :arg0  (x12 / 罐
+                  :consist-of  (x11 / 铁
+)))      :arg0  (x12 / 罐
+)      :arg1  (x22 / and
+            :op1  (x3 / 敢-02
+                  :arg0  (x2 / 你
+)                  :arg1  (x4 / 碰-01
+                        :arg0  (x2 / 你
+)                        :arg1  (x5 / x12
+))                  :mode  (x6_x7 / interrogative
+))            :op2  (x9 / x2
+                  :consist-of  (x8 / 陶
+)                  :mode  (x10 / expressive
+))))
+===========================
+“不敢，铁罐兄弟。”陶罐谦虚地回答。
+(x12 / 回答-01
+      :manner  (x10 / 谦虚-01
+            :arg0  (x9 / 陶罐
+))      :arg0  (x9 / 陶罐
+)      :arg2  (x18 / and
+            :op1  (x3 / 敢-02
+                  :polarity  (x2 / -
+)                  :arg0  (x9 / 陶罐
+))            :op2  (x7 / 兄弟
+                  :arg0-of  (x22 / mean
+                        :arg1  (x6 / 罐
+                              :consist-of  (x5 / 铁
+))))))
+===========================
+“我就知道你不敢，懦弱的东西！’铁罐说，带着更加轻蔑的神气。
+(x15 / 说-01
+      :arg0  (x14 / 罐
+            :consist-of  (x13 / 铁
+))      :arg1  (x28 / and
+            :op1  (x4 / 知道-01
+                  :mod  (x3 / 就
+)                  :arg0  (x2 / x14
+)                  :arg1  (x7 / 敢-02
+                        :polarity  (x6 / -
+)                        :arg0  (x5 / 你
+)))            :op2  (x11 / x5
+                  :arg0-of  (x9 / 懦弱
+)                  :mode  (x12 / expressive
+)))      :manner  (x17 / 带-01
+            :aspect  (x18 / 着
+)            :arg0  (x14 / 罐
+)            :arg1  (x22 / 神气
+                  :mod  (x20 / 轻蔑
+                        :degree  (x19 / 更加
+)))))
+===========================
+“我确实不敢碰你，但并不是懦弱。”陶罐争辩说，“我们生来就是盛东西的，并不是来互相碰撞的。
+(x17 / 说-01
+      :manner  (x16 / 争辩
+)      :arg0  (x15 / 陶罐
+)      :arg1  (x41 / and
+            :op1  (x42 / contrast
+                  :arg1  (x5 / 敢-02
+                        :polarity  (x4 / -
+)                        :arg0  (x2 / x15
+)                        :mod  (x3 / 确实
+)                        :arg1  (x6 / 碰-01
+                              :arg0  (x15 / 陶罐
+)                              :arg1  (x7 / 你
+)))                  :arg2  (x13 / 懦弱
+                        :arg0  (x15 / 陶罐
+)                        :polarity  (x10_x11_x12 / -
+)))            :op2  (x51 / contrast
+                  :arg1  (x52 / thing
+                        :arg2-of  (x23 / 盛-02
+                              :arg1  (x24 / 东西
+))                        :domain  (x19 / 我们
+)                        :time  (x20 / 生来
+)                        :mod  (x21 / 就
+))                  :arg2  (x30 / 来-05
+                        :arg1  (x32 / 碰撞-02
+                              :manner  (x31 / 互相
+)                              :arg0  (x19 / 我们
+))                        :smood  (x33 / 的
+)                        :polarity  (x27_x28_x29 / -
+)                        :arg0  (x19 / 我们
+)))))
+===========================
+说到盛东西，我不见得比你差。
+(x12 / condition
+      :arg1  (x1_x2 / 说到-01
+            :arg1  (x3 / 盛-02
+                  :arg1  (x4 / 东西
+)))      :arg2  (x7 / 不见得-01
+            :arg0  (x10 / 差-02
+                  :arg0  (x6 / 我
+)                  :compared-to  (x9 / 你
+))))
+===========================
+再说……”
+(x3 / say
+      :arg1  (x1 / 再说
+))
+===========================
+“住嘴！”铁罐恼怒了，“你怎么敢和我相提并论！你等着吧，要不了几天，你就会破成碎片，我却永远在这里，什么也不怕。”
+(x42 / and
+      :op1  (x7 / 恼怒-01
+            :aspect  (x8 / 了
+)            :arg0  (x6 / 罐
+                  :consist-of  (x5 / 铁
+)))      :op2  (x45 / say
+            :arg1  (x46 / and
+                  :op1  (x2 / 住
+                        :arg1  (x3 / 嘴
+))                  :op2  (x12 / 敢-02
+                        :cause  (x11 / amr-unknown
+)                        :arg0  (x10 / 你
+)                        :arg1  (x15 / 相提并论-01
+                              :arg0  (x10 / 你
+)                              :arg1  (x65 / and
+                                    :op1  (x10 / 你
+)                                    :op2  (x14 / x6
+)))                        :mode  (x16 / expressive
+))                  :op3  (x18 / 等-01
+                        :aspect  (x19 / 着
+)                        :mode  (x20 / imperative
+)                        :arg0  (x17 / x10
+))                  :op4  (x51 / contrast
+                        :arg1  (x52 / temporal
+                              :arg1  (x22_3 / possible
+                                    :arg0  (x22_1 / 要-06
+                                          :arg0  (x56 / temporal-quantity
+                                                :quant  (x23_1 / 几
+)                                                :unit  (x23_2 / 天
+)))                                    :polarity  (x22_2 / -
+))                              :arg2  (x27 / 会-02
+                                    :arg0  (x28 / 破-02
+                                          :arg0  (x25 / 你
+)                                          :degree  (x29 / 成-01
+                                                :arg0  (x10 / 你
+)                                                :arg1  (x30 / 碎片
+)))))                        :arg2  (x76 / and
+                              :op1  (x35 / 在-01
+                                    :arg0  (x32 / 我
+)                                    :arg1  (x36 / 这里
+))                              :op2  (x40_2 / 怕-01
+                                    :mod  (x39 / 也
+)                                    :polarity  (x40_1 / -
+)                                    :arg0  (x10 / 你
+)                                    :arg1  (x38 / 什么
+)))))))
+===========================
+‘何必这样说呢’陶罐说，“我们还是和睦相处吧，有什么可吵的呢！’
+(x8 / 说-01
+      :arg0  (x7 / 陶罐
+)      :arg1  (x25 / and
+            :op1  (x4 / 说
+                  :mod  (x3 / 这样
+)                  :cause  (x2 / amr-unknown
+)                  :mode  (x5 / expressive
+))            :op2  (x31 / causation
+                  :arg2  (x12 / 和睦相处-01
+                        :mod  (x11 / 还是
+)                        :arg0  (x10 / 我们
+)                        :mode  (x13 / imperative
+))                  :arg1  (x17 / 可
+                        :arg0  (x18 / 吵
+                              :cause  (x16 / amr-unknown
+                                    :arg1-of  (x15 / 有-03
+)))                        :smood  (x19 / 的
+)                        :mode  (x20_x21 / expressive
+)))))
+===========================
+“和你在一起，我感到羞耻，你算什么东西！”铁罐说，“走着瞧吧，总有一天，我要把你碰成碎片！”
+(x17 / 说-01
+      :arg1  (x37 / and
+            :op1  (x40 / causation
+                  :arg2  (x41 / condition
+                        :arg1  (x4 / 在
+                              :arg1  (x5 / 一起-01
+                                    :arg0  (x45 / and
+                                          :op1  (x16 / 铁罐
+)                                          :op2  (x3 / 你
+)))                              :arg0  (x45 / and
+))                        :arg2  (x8 / 感到-01
+                              :arg0  (x7 / x16
+)                              :arg1  (x9 / 羞耻
+)))                  :arg1  (x12 / 算-01
+                        :arg0  (x11 / x3
+)                        :arg1  (x14 / 东西
+                              :mod  (x13 / amr-unknown
+))                        :mode  (x15 / expressive
+))))      :arg0  (x16 / 铁罐
+)      :op2  (x54 / and
+            :op1  (x19 / 走着瞧
+                  :mode  (x20 / imperative
+))            :op2  (x28 / 要-03
+                  :arg0  (x31 / 碰-01
+                        :cause-of  (x32 / 成-01
+                              :arg1  (x33 / 碎片
+)                              :arg0  (x30 / x3
+))                        :arg0  (x27 / x16
+                              :op1  (x39 / causation
+))                        :arg1  (x30 / x3
+))                  :time  (x23_x24_x25 / 有一天
+                        :mod  (x22 / 总
+))                  :mode  (x34 / expressive
+))))
+===========================
+陶罐不再理会铁罐。
+(x3 / 理会-01
+      :polarity  (x2 / -
+)      :arg0  (x1 / 陶罐
+)      :arg1  (x4 / 铁罐
+))
+===========================
+时间在流逝，世界上发生了许多事情。
+(x12 / and
+      :op1  (x3 / 流逝-01
+            :arg0  (x1 / 时间
+)            :aspect  (x2 / 在
+))      :op2  (x7 / 发生-01
+            :range  (x5 / 世界
+)            :aspect  (x8 / 了
+)            :arg0  (x10 / 事情
+                  :quant  (x9 / 许多
+))))
+===========================
+王朝覆灭，宫殿倒塌，两个罐子遗落在荒凉的场地上，上面覆盖了厚厚的尘土。
+(x23 / and
+      :op1  (x2 / 覆灭-01
+            :arg0  (x1 / 王朝
+))      :op2  (x5 / 倒塌-01
+            :arg0  (x4 / 宫殿
+))      :op3  (x10 / 遗落-01
+            :arg0  (x9 / 罐子
+)            :location  (x14 / 场地
+                  :mod  (x12 / 荒凉
+)))      :op4  (x18 / 覆盖-01
+            :aspect  (x19 / 了
+)            :arg0  (x21 / 尘土
+                  :arg0-of  (x20 / 厚-02
+))            :arg1  (x17 / 上面
+                  :arg0  (x14 / 场地
+))))
+===========================
+许多年代过去了。
+(x3 / 过去-01
+      :aspect  (x4 / 了
+)      :arg0  (x2 / 年代
+            :quant  (x1 / 许多
+)))
+===========================
+有一天，人们来到这里，掘开厚厚的堆积物，发现了那个陶罐。
+(x19 / temporal
+      :arg1  (x6 / 来到-01
+            :arg0  (x5 / 人们
+)            :arg1  (x7 / 这里
+))      :time  (x1_x2_x3 / 有一天
+)      :arg2  (x9_x10 / 掘开-01
+            :arg0  (x5 / 人们
+)            :arg1  (x12 / 堆积物
+                  :arg0-of  (x11 / 厚-02
+)))      :arg3  (x14 / 发现-01
+            :aspect  (x15 / 了
+)            :arg0  (x5 / 人们
+)            :arg1  (x17 / 陶罐
+                  :cunit  (x16_2 / 个
+)                  :mod  (x16_1 / 那
+))))
+===========================
+“哟，这里有一个罐子”一个人惊讶地说。
+(x13 / 说-01
+      :arg0  (x10 / 人
+            :quant  (x9_1 / 1
+)            :cunit  (x9_2 / 个
+))      :manner  (x11 / 惊讶-01
+            :arg0  (x10 / 人
+))      :arg1  (x5 / 有-03
+            :arg0  (x4 / 这里
+)            :arg1  (x7 / 罐子
+                  :quant  (x6_1 / 1
+)                  :cunit  (x6_2 / 个
+))            :mode  (x2 / expressive
+)))
+===========================
+“真的，一个陶罐！”其他的人都高兴地叫起来。
+(x14_x15 / 叫-03
+      :manner  (x12 / 高兴-01
+            :arg0  (x10 / 人
+                  :mod  (x8 / 其他
+)                  :extent  (x11 / 都
+)))      :arg0  (x10 / 人
+)      :arg1  (x22 / and
+            :op1  (x2 / 真
+                  :mode  (x3 / judgement
+))            :op2  (x6 / 陶罐
+                  :quant  (x5_1 / 1
+)                  :cunit  (x5_2 / 个
+))))
+===========================
+捧起陶罐，倒掉里面的泥土，擦洗干净，它还是那样光洁，朴素美观。
+(x21 / temporal
+      :arg1  (x1 / 捧-01
+            :arg1  (x3 / 陶罐
+))      :arg2  (x5 / 倒掉-02
+            :arg1  (x8 / 泥土
+                  :location  (x6 / 里面
+                        :arg0  (x3 / 陶罐
+))))      :arg3  (x10 / 擦洗-01
+            :cause-of  (x11 / 干净-01
+                  :arg0  (x3 / 陶罐
+))            :arg1  (x3 / 陶罐
+))      :arg4  (x31 / and
+            :op1  (x16 / 光洁
+                  :mod  (x15 / 那样
+)                  :arg0  (x13 / x3
+))            :op2  (x18 / 朴素-01
+                  :arg0  (x3 / 陶罐
+))            :op3  (x19 / 美观
+                  :arg0  (x3 / 陶罐
+))            :mod  (x14 / 还是
+)))
+===========================
+“多美的陶罐！”一个人说，“小心点儿，千万别把它碰坏了，这是古代的东西，很有价值的。”
+(x9 / 说-01
+      :arg0  (x8 / 人
+            :quant  (x7_1 / 1
+)            :cunit  (x7_2 / 个
+))      :arg1  (x38 / and
+            :op1  (x5 / 陶罐
+                  :arg0-of  (x3 / 美-01
+                        :degree  (x2 / 多
+))                  :mode  (x6 / expressive
+))            :op2  (x40 / causation
+                  :arg2  (x11 / 小心-01
+                        :degree  (x12 / 点儿
+)                        :arg1  (x15 / 别-02
+                              :arg0  (x18 / 碰-01
+                                    :cause-of  (x19 / 坏-01
+                                          :arg0  (x17 / x5
+))                                    :arg1  (x17 / x5
+))                              :degree  (x14 / 千万
+)))                  :arg1  (x44 / causation
+                        :arg1  (x26 / 东西
+                              :domain  (x22 / x5
+)                              :time  (x24 / 古代
+))                        :arg2  (x29 / 有-01
+                              :degree  (x28 / 很
+)                              :arg1  (x30 / 价值
+)                              :mode  (x31 / judgement
+)                              :arg0  (x5 / 陶罐
+))))))
+===========================
+“谢谢你们！”陶罐兴奋地说，“我的兄弟铁罐就在我旁边，请你们把它也掘出来吧，它一定闷得够受了。”
+(x8 / 说-01
+      :manner  (x6 / 兴奋-01
+            :arg0  (x5 / 陶罐
+))      :arg0  (x5 / 陶罐
+)      :arg1  (x40 / and
+            :op1  (x2 / 谢谢-01
+                  :arg0  (x5 / 陶罐
+)                  :arg1  (x3 / 你们
+))            :op2  (x42 / causation
+                  :arg1  (x15 / 在-01
+                        :arg0  (x13 / 铁罐
+                              :arg0-of  (x45 / mean
+                                    :arg1  (x12 / 兄弟
+                                          :poss  (x10 / x5
+))))                        :arg1  (x17 / 旁边
+                              :arg0  (x16 / x5
+)))                  :arg2  (x19 / 请-01
+                        :arg0  (x5 / 陶罐
+)                        :arg1  (x20 / x3
+)                        :arg2  (x24 / 掘-01
+                              :arg0  (x3 / 你们
+)                              :arg1  (x22 / x13
+)                              :mod  (x23 / 也
+)                              :cause-of  (x25 / 出来-01
+                                    :arg0  (x22 / x13
+)))                        :mode  (x26 / imperative
+)))            :op3  (x29 / 一定
+                  :arg0  (x30 / 闷-01
+                        :arg0  (x28 / x13
+)                        :degree  (x32 / 够-01
+                              :arg1  (x33 / 受
+)                              :aspect  (x34 / 了
+))))))
+===========================
+人们立即动手，翻来覆去，把土都掘遍了，但是，连铁罐的影子也没见到。
+(x25 / contrast
+      :arg1  (x27 / temporal
+            :arg1  (x3 / 动手-01
+                  :arg0  (x1 / 人们
+))            :arg2  (x5 / 翻来覆去
+                  :arg0  (x1 / 人们
+)))      :arg3  (x10 / 掘-01
+            :arg1  (x8 / 土-01
+                  :extent  (x9 / 都
+))            :smood  (x12 / 了
+)            :manner  (x11 / 遍-01
+                  :arg1  (x8 / 土-01
+)                  :arg0  (x1 / 人们
+))            :arg0  (x1 / 人们
+))      :arg2  (x22 / 见到-01
+            :polarity  (x21 / -
+)            :mod  (x20 / 也
+)            :arg1  (x19 / 影子
+                  :poss  (x17 / 铁罐
+))            :arg0  (x1 / 人们
+)))
+===========================

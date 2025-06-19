@@ -1,0 +1,345 @@
+20世纪是一个呼风唤雨的世纪。
+(x7 / 世纪
+      :domain  (x11 / date-entity
+            :century  (x1 / 20
+))      :quant  (x4_1 / 1
+)      :cunit  (x4_2 / 个
+)      :mod  (x5 / 呼风唤雨
+))
+===========================
+是谁来呼风唤雨呢？当然是人类；靠什么呼风唤雨呢？靠的是现代科学技术。
+(x22 / and
+      :op1  (x24 / and
+            :op1  (x3 / 来-05
+                  :arg0  (x2 / amr-unknown
+                        :mode  (x1 / judgement
+))                  :arg1  (x4 / 呼风唤雨-01
+                        :arg0  (x2 / amr-unknown
+))                  :mode  (x5_x6 / interrogative
+))            :op2  (x9 / 人类
+                  :domain  (x31 / person
+)                  :mod  (x7 / 当然
+)))      :op2  (x33 / and
+            :op1  (x13 / 呼风唤雨
+                  :arg0-of  (x11 / 靠-01
+                        :arg1  (x12 / amr-unknown
+))                  :mode  (x14_x15 / interrogative
+))            :op2  (x20 / 科学技术
+                  :domain  (x39 / thing
+                        :arg1-of  (x16 / 靠-01
+))                  :mod  (x19 / 现代
+))))
+===========================
+在20世纪一百年的时间里，人类利用现代科学技术获得那么多奇迹般的、出乎意料的发现和发明。
+(x14 / 获得-01
+      :time  (x7 / 时间
+            :duration  (x30 / temporal-quantity
+                  :quant  (x4_x5_1 / 100
+)                  :unit  (x5_2 / 年
+))            :time  (x34 / date-entity
+                  :era  (x2 / 20
+)))      :arg0  (x10 / 人类
+)      :manner  (x11 / 利用-01
+            :arg0  (x10 / 人类
+)            :arg1  (x13 / 科学技术
+                  :mod  (x12 / 现代
+)))      :arg1  (x24 / and
+            :op1  (x23 / 发现
+                  :arg0-of  (x21 / 出乎意料-01
+)                  :arg0-of  (x18 / resemble
+                        :arg1  (x17 / 奇迹
+))                  :arg0-of  (x16 / 多-01
+                        :degree  (x15 / 那么
+)))            :op2  (x25 / 发明
+                  :arg0-of  (x21 / 出乎意料-01
+)                  :arg0-of  (x18 / resemble
+)                  :arg0-of  (x16 / 多-01
+))))
+===========================
+正是这些发现和发明，使人类的生活大大改观，其改变的程度超过了人类历史上百万年的总和。
+(x27 / and
+      :op1  (x7 / 使-01
+            :arg0  (x4 / and
+                  :op1  (x3 / 发现
+)                  :op2  (x5 / 发明
+)                  :quant  (x2 / 这些
+))            :arg1  (x10 / 生活-01
+                  :poss  (x8 / 人类
+))            :arg2  (x12 / 改观-01
+                  :manner  (x11 / 大大
+)                  :arg0  (x10 / 生活-01
+)))      :op2  (x18 / 超过-01
+            :arg0  (x17 / 程度
+                  :mod  (x15 / 改变-01
+                        :arg1  (x14 / x10
+)))            :aspect  (x19 / 了
+)            :arg1  (x25 / 总和
+                  :mod  (x21 / 历史
+                        :duration  (x48 / temporal-quantity
+                              :quant  (x22_1 / 上
+                                    :op1  (x22_2_3 / 1000000
+))                              :unit  (x23 / 年
+))                        :poss  (x20 / 人类
+)))))
+===========================
+人类在上百万年的历史中，一直生活在一个依赖自然的农耕社会。
+(x10 / 生活-01
+      :time  (x9 / 一直
+)      :arg0  (x1 / 人类
+)      :location  (x6 / 历史
+            :quant  (x24 / temporal-quantity
+                  :quant  (x3_1 / 上
+                        :op1  (x3_2_3 / 1000000
+))                  :unit  (x4 / 年
+)))      :arg1  (x17 / 社会
+            :quant  (x12_1 / 1
+)            :cunit  (x12_2 / 个
+)            :mod  (x16 / 农耕
+)            :mod  (x13 / 依赖-01
+                  :arg1  (x14 / 自然
+))))
+===========================
+那时没有电灯，没有电视，没有收音机，也没有汽车。
+(x15 / and
+      :time  (x1 / 那时
+)      :op1  (x2_2 / 有-03
+            :polarity  (x2_1 / -
+)            :arg1  (x3 / 电灯
+))      :op2  (x5_2 / 有-03
+            :polarity  (x5_1 / -
+)            :arg1  (x6 / 电视
+))      :op3  (x8_2 / 有-03
+            :polarity  (x8_1 / -
+)            :arg1  (x9 / 收音机
+))      :op4  (x12_2 / 有-03
+            :polarity  (x12_1 / -
+)            :arg1  (x13 / 汽车
+)))
+===========================
+人们只能在神话中用“千里眼”“顺风耳”和腾云驾雾的神仙，来寄托自己的美好愿望。
+(x2_2 / 能-01
+      :mod  (x2_1 / 只
+)      :arg0  (x17 / 来-05
+            :manner  (x6 / 用-01
+                  :arg1  (x29 / and
+                        :op1  (x8 / 千里眼
+)                        :op2  (x10 / 顺风耳
+)                        :op3  (x15 / 神仙
+                              :arg0-of  (x13 / 腾云驾雾
+)))                  :location  (x4 / 神话
+))            :arg0  (x1 / 人们
+)            :arg1  (x18 / 寄托-01
+                  :arg1  (x22 / 愿望
+                        :mod  (x21 / 美好
+)                        :poss  (x19 / x1
+)))))
+===========================
+我们的祖先大概谁也没有料到，在最近的一百年中，他们的那么多幻想纷纷变成了现实。
+(x4 / 大概
+      :arg0  (x8 / 料到-01
+            :arg0  (x5 / amr-unknown
+                  :arg1-of  (x31 / include-91
+                        :arg2  (x3 / 祖先
+                              :poss  (x1 / 我们
+))))            :arg1  (x23 / 变成-01
+                  :time  (x35 / temporal-quantity
+                        :quant  (x13 / 100
+)                        :unit  (x14 / 年
+)                        :time  (x11 / 最近
+))                  :aspect  (x24 / 了
+)                  :arg2  (x25 / 现实
+)                  :manner  (x22 / 纷纷
+)                  :arg1  (x21 / 幻想
+                        :arg0-of  (x20 / 多-03
+                              :degree  (x19 / 那么
+))                        :poss  (x17 / x3
+)))))
+===========================
+20世纪的成就，真可以用“忽如一夜春风来，千树万树梨花开”来形容。
+(x7 / 可以-01
+      :mod  (x6 / 真
+)      :arg0  (x25 / 形容-01
+            :arg1  (x4 / 成就
+                  :time  (x32 / date-entity
+                        :era  (x1 / 20
+)))             :manner  (x8 / 用-01
+                  :arg1  (x10_x11_x12_x13_x14_ / 忽如一夜春风来，千树万树梨花开
+))))
+===========================
+20世纪，人类登上月球，潜入深海，洞察百亿光年外的天体，探索原子核世界的奥秘；20世纪，电视、程控电话、因特网以及民航飞机、高速火车、远洋船舶等，日益把人类居住的星球变成联系紧密的“地球村”。
+(x58 / and
+      :op1  (x60 / and
+            :time  (x61 / date-entity
+                  :era  (x1 / 20
+))            :op1  (x5_x6 / 登上-01
+                  :arg0  (x4 / 人类
+)                  :arg1  (x7 / 月球
+))            :op2  (x9 / 潜入-01
+                  :arg0  (x4 / 人类
+)                  :arg1  (x10 / 深海
+))            :op3  (x12 / 洞察-01
+                  :arg0  (x4 / 人类
+)                  :arg1  (x17 / 天体
+                        :location  (x15 / 外
+                              :arg0  (x4 / 人类
+)                              :mod  (x71 / distance-quantity
+                                    :unit  (x14 / 光年
+)                                    :quant  (x13 / 10000000000
+)))))            :op4  (x19 / 探索-01
+                  :arg0  (x4 / 人类
+)                  :arg1  (x23 / 奥秘
+                        :location  (x21 / 世界
+                              :mod  (x20 / 原子核
+)))))      :op2  (x51 / 变成-01
+            :arg1  (x50 / 星球
+                  :arg1-of  (x48 / 居住-01
+                        :arg0  (x47 / 人类
+)))            :manner  (x45 / 日益
+)            :time  (x84 / date-entity
+                  :era  (x25 / 20
+))            :arg0  (x34 / and
+                  :op1  (x87 / and
+                        :op1  (x28 / 电视
+)                        :op2  (x31 / 电话
+                              :mod  (x30 / 程控
+))                        :op3  (x33 / 因特网
+))                  :op2  (x88 / and
+                        :op1  (x36 / 飞机
+                              :mod  (x35 / 民航
+))                        :op2  (x39 / 火车
+                              :mod  (x38 / 高速
+))                        :op3  (x42 / 船舶
+                              :mod  (x41 / 远洋
+)))                  :op3  (x43 / 等
+))            :arg2  (x56 / 地球村
+                  :mod  (x53 / 紧密-01
+                        :arg0  (x52 / 联系
+)))))
+===========================
+人类生活的舒适和方便，是连过去的王公贵族也不敢想的。
+(x20 / thing
+      :domain  (x5 / and
+            :op1  (x4 / 舒适-01
+                  :arg0  (x2 / 生活-01
+                        :arg0  (x1 / 人类
+)))            :op2  (x6 / 方便-03
+                  :arg0  (x2 / 生活-01
+)))      :arg1-of  (x17 / 想
+            :arg1-of  (x16 / 敢
+                  :mod  (x14 / 也
+)                  :polarity  (x15 / -
+)                  :arg0  (x13 / 贵族
+                        :mod  (x12 / 王公
+)                        :time  (x10 / 过去
+)))            :arg0  (x13 / 贵族
+)))
+===========================
+科学在改变着人类的精神文化生活，也在改变着人类的物质生活。
+(x20 / and
+      :op1  (x3 / 改变-01
+            :arg0  (x1 / 科学
+)            :aspect  (x2 / 在
+)            :aspect  (x4 / 着
+)            :arg1  (x9 / 生活-01
+                  :mod  (x8 / 文化
+                        :arg0  (x5 / 人类
+)                        :mod  (x7 / 精神
+))))      :op2  (x13 / 改变-01
+            :aspect  (x12 / 在
+)            :aspect  (x14 / 着
+)            :arg1  (x18 / 生活-01
+                  :arg0  (x15 / 人类
+)                  :mod  (x17 / 物质
+))))
+===========================
+1923年，英国数学家、哲学家伯特兰·罗素说：“归根到底，是科学使得我们这个时代不同于以往的任何时代。”
+(x9 / 说-01
+      :arg0  (x28 / person
+            :arg0-of  (x29 / mean
+                  :arg1  (x5 / 数学家
+))            :arg0-of  (x30 / mean
+                  :arg1  (x7 / 哲学家
+))            :location  (x33 / country
+                  :name  ( x4/英国 
+))            :name  ( x8/伯特兰·罗素 
+))      :time  (x36 / date-entity
+            :year  (x1 / 1923
+))      :arg1  (x11 / 归根到底-01
+            :arg0  (x15 / 使得-01
+                  :arg0  (x14 / 科学
+                        :mode  (x13 / judgement
+))                  :arg1  (x18 / 时代
+                        :mod  (x17_1 / 这
+)                        :cunit  (x17_2 / 个
+)                        :poss  (x16 / 我们
+))                  :arg2  (x19 / 不同-01
+                        :arg0  (x48 / and
+                              :op1  (x18 / 时代
+))                        :op2  (x24 / 时代
+                              :mod  (x23 / 任何
+)                              :time  (x21 / 以往
+))))))
+===========================
+八十多年后，这段话依然适用。
+(x9 / 依然-01
+      :arg0  (x10 / 适用-01
+            :arg0  (x8 / 话
+                  :unit  (x7 / 段
+)                  :mod  (x6 / 这
+)))      :time  (x4 / 后
+            :arg0  (x20 / temporal-quantity
+                  :quant  (x2 / 多
+                        :op1  (x1 / 80
+))                  :unit  (x3 / 年
+))))
+===========================
+回顾20世纪的百年历程，科学的确是在创造着一个又一个神话，科学正在为人类创造着比以往任何时代都要美好的生活。
+(x35 / and
+      :op1  (x1 / 回顾-01
+            :arg1  (x6 / 历程
+                  :mod  (x39 / temporal-quantity
+                        :unit  (x5_2 / 年
+)                        :quant  (x5_1 / 100
+))                  :time  (x42 / date-entity
+                        :era  (x2 / 20
+))))      :op2  (x12 / 创造-01
+            :mode  (x10 / judgement
+)            :aspect  (x11 / 在
+)            :manner  (x9 / 的确
+)            :aspect  (x13 / 着
+)            :arg0  (x8 / 科学
+)            :arg1  (x17 / 神话
+                  :mod  (x14_x15_x16 / 一个又一个
+)))      :op3  (x23 / 创造-01
+            :arg0  (x19 / 科学
+)            :beneficiary  (x22 / 人类
+)            :aspect  (x20 / 正在
+)            :aspect  (x24 / 着
+)            :arg1  (x33 / 生活
+                  :arg0-of  (x31 / 美好
+                        :compared-to  (x28 / 时代
+                              :time  (x26 / 以往
+)                              :mod  (x27 / 任何
+)                              :extent  (x29 / 都
+))))))
+===========================
+在新的世纪里，现代科学技术必将继续创造一个个奇迹，不断改善我们的生活。
+(x9_1 / 必-01
+      :arg0  (x23 / and
+            :op1  (x10 / 继续-01
+                  :tense  (x9_2 / 将
+)                  :arg0  (x8 / 科学技术
+                        :mod  (x7 / 现代
+))                  :arg1  (x11 / 创造-01
+                        :arg0  (x8 / 科学技术
+)                        :arg1  (x13 / 奇迹
+                              :quant  (x12 / 一个个
+))))            :op2  (x15 / 不断-01
+                  :arg0  (x16 / 改善-01
+                        :arg0  (x8 / 科学技术
+)                        :arg1  (x19 / 生活
+                              :poss  (x17 / 我们
+)))))      :time  (x4 / 世纪
+            :arg0-of  (x2 / 新-01
+)))
+===========================

@@ -1,0 +1,213 @@
+下了一天一夜的大雪。
+(x1 / 下-11
+      :arg1  (x8 / 大雪
+)      :aspect  (x2 / 了
+)      :duration  (x19 / and
+            :op1  (x20 / temporal-quantity
+                  :quant  (x3 / 1
+)                  :unit  (x4 / 天
+))            :op2  (x23 / temporal-quantity
+                  :quant  (x5 / 1
+)                  :unit  (x6 / 夜
+))))
+===========================
+房子上、树上、地上一片白。
+(x9 / 白
+      :extent  (x13 / and
+            :op1  (x1 / 房子
+)            :op2  (x4 / 树上
+)            :op3  (x6 / 地上
+))      :quant  (x7 / 1
+)      :cunit  (x8 / 片
+))
+===========================
+兔妈妈要出去找吃的。
+(x3 / 要-05
+      :arg0  (x2 / 妈妈
+            :poss  (x1 / 兔
+))      :arg1  (x4 / 出去-01
+            :arg0  (x2 / 妈妈
+)            :purpose  (x5 / 找-01
+                  :arg0  (x2 / 妈妈
+)                  :arg1  (x6 / 吃的
+))))
+===========================
+她堆了一个漂亮的雪孩子,让他和小白兔一起玩。
+(x19 / temporal
+      :arg1  (x2 / 堆-02
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 她
+)            :arg1  (x9 / 孩子
+                  :consist-of  (x8 / 雪
+)                  :arg0-of  (x6 / 漂亮-01
+)                  :quant  (x4 / 1
+)                  :cunit  (x5 / 个
+)))      :arg2  (x11 / 让-02
+            :arg0  (x1 / 她
+)            :arg1  (x13 / and
+                  :op1  (x12 / 他
+)                  :op2  (x15 / 白兔
+                        :arg0-of  (x14 / 小-01
+)))            :arg2  (x17 / 玩-01
+                  :manner  (x16 / 一起
+)                  :arg0  (x13 / and
+)                  :arg1  (x9 / 孩子
+))))
+===========================
+看着可爱的雪孩子，小白兔真高兴。
+(x11 / 高兴-01
+      :arg0  (x9 / 白兔
+            :arg0-of  (x8 / 小-01
+))      :degree  (x10 / 真
+)      :cause  (x1 / 看-02
+            :arg0  (x9 / 白兔
+)            :aspect  (x2 / 着
+)            :arg1  (x6 / 孩子
+                  :consist-of  (x5 / 雪
+)                  :arg0-of  (x3 / 可爱-01
+))))
+===========================
+他和雪孩子又唱又跳,玩的很开心。
+(x15 / and
+      :op1  (x17 / and
+            :op1  (x6 / 唱-01
+                  :arg0  (x2 / and
+                        :op1  (x1 / 他
+)                        :op2  (x4 / 孩子
+                              :consist-of  (x3 / 雪
+))))            :op2  (x8 / 跳-01
+                  :arg0  (x2 / and
+)))      :op2  (x13 / 开心-01
+            :degree  (x12 / 很
+)            :arg1  (x10 / 玩
+)            :arg0  (x2 / and
+)))
+===========================
+小白兔玩累了，就回家休息。
+(x11 / temporal
+      :arg2  (x18 / temporal
+            :arg1  (x8 / 回家-01
+                  :mod  (x7 / 就
+)                  :arg0  (x2 / 白兔
+                        :arg0-of  (x1 / 小-01
+)))            :arg2  (x9 / 休息-01
+                  :arg0  (x2 / 白兔
+)))      :arg1  (x4 / 累-02
+            :aspect  (x5 / 了
+)            :arg0  (x3 / 玩-01
+                  :arg0  (x2 / 白兔
+))            :arg1  (x2 / 白兔
+)))
+===========================
+屋子里很冷,他往火里加了一些柴,就上床睡觉了。
+(x26 / temporal
+      :arg1  (x28 / causation
+            :arg1  (x4 / 冷
+                  :degree  (x3 / 很
+)                  :location  (x1 / 屋子
+))            :arg2  (x10 / 加-01
+                  :arg0  (x6 / 他
+)                  :arg1  (x13 / 柴
+                        :quant  (x12 / 一些
+))                  :arg2  (x8 / 火
+)                  :aspect  (x11 / 了
+)))      :arg2  (x35 / temporal
+            :arg1  (x16 / 上-01
+                  :arg0  (x6 / 他
+)                  :arg1  (x17 / 床
+)                  :mod  (x15 / 就
+))            :arg2  (x18 / 睡觉-01
+                  :aspect  (x19 / 了
+)                  :arg0  (x6 / 他
+))))
+===========================
+火把旁边的柴堆烧着了。
+(x5 / 烧着-01
+      :arg0  (x1_1 / 火
+)      :arg1  (x4 / 柴堆
+            :location  (x2 / 旁边
+))      :aspect  (x6 / 了
+))
+===========================
+小白兔睡得正香,一点儿也不知道。
+(x13 / causation
+      :arg1  (x3 / 睡-01
+            :manner  (x6 / 香
+                  :mod  (x5 / 正-01
+))            :arg0  (x2 / 白兔
+                  :arg0-of  (x1 / 小-01
+)))      :arg2  (x11 / 知道-01
+            :arg0  (x2 / 白兔
+)            :polarity  (x10 / -
+)            :arg1  (x8 / 一点儿
+)            :mod  (x9 / 也
+)))
+===========================
+雪孩子看见小白兔家着火了,就飞快地跑了过去。
+(x17 / temporal
+      :arg1  (x3 / 看见-01
+            :arg0  (x2 / 孩子
+                  :consist-of  (x1 / 雪
+))            :arg1  (x7 / 着火-01
+                  :arg0  (x6 / 家
+                        :poss  (x5 / 白兔
+                              :arg0-of  (x4 / 小
+)))                  :aspect  (x8 / 了
+)))      :arg2  (x13 / 跑-01
+            :arg0  (x2 / 孩子
+)            :manner  (x11 / 飞快
+)            :mod  (x10 / 就
+)            :cause-of  (x15 / 过去-02
+                  :arg0  (x2 / 孩子
+))            :aspect  (x14 / 了
+)))
+===========================
+雪孩子从大火中救出了小白兔,自己却化了。
+(x17 / contrast
+      :arg1  (x6 / 救-01
+            :arg0  (x2 / 孩子
+                  :consist-of  (x1 / 雪
+))            :arg1  (x10 / 白兔
+                  :arg0-of  (x9 / 小-01
+))            :cause-of  (x7 / 出-01
+                  :arg0  (x10 / 白兔
+)                  :arg1  (x4 / 大火
+))            :aspect  (x8 / 了
+))      :arg2  (x14 / 化-01
+            :arg1  (x12 / x2
+)            :aspect  (x15 / 了
+)))
+===========================
+雪孩子哪里去了呢?
+(x4 / 去-01
+      :arg0  (x2 / 孩子
+            :consist-of  (x1 / 雪
+))      :aspect  (x5 / 了
+)      :arg1  (x3 / amr-unknown
+)      :mode  (x6_x7 / interrogative
+))
+===========================
+他飞到了空中,成了一朵白云,一朵很美很美的白云。
+(x22 / temporal
+      :arg1  (x2 / 飞-01
+            :arg0  (x1 / 他
+)            :cause-of  (x3 / 到-01
+                  :aspect  (x4 / 了
+)                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 空中
+)))      :arg2  (x7 / 成-01
+            :arg0  (x1 / 他
+)            :arg1  (x11 / 白云
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 朵
+)                  :arg0-of  (x34 / mean
+                        :arg1  (x20 / 白云
+                              :arg0-of  (x18 / 美-01
+                                    :degree  (x17 / 很
+))                              :arg0-of  (x16 / 美-01
+                                    :degree  (x15 / 很
+))                              :quant  (x13 / 1
+)                              :cunit  (x14 / 朵
+))))            :aspect  (x8 / 了
+)))
+===========================

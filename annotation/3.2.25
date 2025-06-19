@@ -1,0 +1,402 @@
+“太好啦!太好啦!”
+(x10 / say
+      :arg1  (x12 / and
+            :op1  (x3 / 好
+                  :degree  (x2 / 太
+)                  :mode  (x4_x5 / expressive
+))            :op2  (x7 / 好
+                  :degree  (x6 / 太
+)                  :mode  (x8_x9 / expressive
+))))
+===========================
+听妈妈说，我家的电脑可以上网了。
+(x1 / 听-01
+      :arg1  (x3 / 说-01
+            :arg0  (x2 / 妈妈
+)            :arg1  (x8 / 可以-03
+                  :smood  (x10 / 了
+)                  :arg0  (x7 / 电脑
+                        :poss  (x5 / 我家
+))                  :arg1  (x9 / 上网
+))))
+===========================
+我情不自禁地欢呼起来。
+(x4_x5 / 欢呼-01
+      :manner  (x2 / 情不自禁
+)      :arg0  (x1 / 我
+))
+===========================
+电脑网络这个新鲜玩意儿，到底是怎样的呢?
+(x6 / 玩意儿
+      :arg0-of  (x5 / 新鲜-01
+)      :arg0-of  (x19 / mean
+            :arg1  (x2 / 网络
+                  :mod  (x1 / 电脑
+)))      :mod  (x3 / 这
+)      :cunit  (x4 / 个
+)      :mod  (x10 / amr-unknown
+            :mod  (x8 / 到底
+)            :mode  (x9_x11 / judgement
+))      :mode  (x12_x13 / interrogative
+))
+===========================
+爸爸告诉我，电脑网络如同一个遍布全球的蜘蛛网，把每个国家、每座城市甚至每个家庭连在了一起。
+(x2 / 告诉-01
+      :arg0  (x1 / 爸爸
+)      :arg2  (x3 / 我
+)      :arg1  (x37 / causation
+            :arg2  (x7 / 如同-01
+                  :arg0  (x6 / 网络
+                        :mod  (x5 / 电脑
+))                  :arg1  (x13 / 蜘蛛网
+                        :arg0-of  (x10 / 遍布-01
+                              :arg1  (x11 / 全球
+))                        :quant  (x8 / 1
+)                        :cunit  (x9 / 个
+)))            :arg1  (x27 / 连-01
+                  :arg0  (x6 / 网络
+)                  :arg1  (x46 / progression
+                        :arg1  (x18 / 国家
+                              :cunit  (x17 / 个
+)                              :mod  (x16 / 每
+))                        :arg2  (x22 / 城市
+                              :cunit  (x21 / 座
+)                              :mod  (x20 / 每
+))                        :arg3  (x26 / 家庭
+                              :cunit  (x25 / 个
+)                              :mod  (x24 / 每
+)))                  :cause-of  (x30 / 一起-01
+                        :arg0  (x46 / progression
+))                  :aspect  (x29 / 了
+))))
+===========================
+进入网络，就好像跨上了信息高速路。
+(x11 / condition
+      :arg1  (x1 / 进入-01
+            :arg1  (x2 / 网络-01
+))      :arg2  (x5 / 好像-01
+            :arg0  (x6 / 跨上-01
+                  :aspect  (x7 / 了-01
+)                  :arg1  (x9 / 高速路
+                        :mod  (x8 / 信息
+)))))
+===========================
+可以迅速找到所需要的各种信息，可以用电子信箱和全世界的小朋友建立联系，还可以进行网上购物。
+(x27 / and
+      :op1  (x1 / 可以-01
+            :arg0  (x3 / 找到-01
+                  :manner  (x2 / 迅速-01
+)                  :arg1  (x8 / 信息
+                        :mod  (x7 / 各种
+)                        :arg1-of  (x5 / 需要-01
+))))      :op2  (x10 / 可以-01
+            :arg1  (x18 / 建立-01
+                  :arg1  (x19 / 联系-01
+                        :arg1  (x17 / 小朋友
+                              :range  (x15 / 全世界
+)))                  :instrument  (x13 / 信箱
+                        :mod  (x12 / 电子
+))))      :op3  (x22 / 可以-01
+            :arg0  (x23 / 进行-01
+                  :arg1  (x25 / 购物
+                        :mod  (x24 / 网上
+)))))
+===========================
+有了网络，五湖四海的人随时可以交流，咱们的地球就成了一个小村庄。
+(x23 / causation
+      :arg1  (x25 / causation
+            :arg1  (x1 / 有-03
+                  :aspect  (x2 / 了
+)                  :arg1  (x3 / 网络
+))            :arg2  (x9 / 可以-01
+                  :arg0  (x10 / 交流
+                        :arg0  (x7 / 人
+                              :range  (x5 / 五湖四海
+)))                  :time  (x8 / 随时
+)))      :arg2  (x16 / 成-01
+            :aspect  (x17 / 了
+)            :arg0  (x14 / 地球
+                  :poss  (x12 / 咱们
+))            :arg1  (x21 / 村庄
+                  :quant  (x18 / 1
+)                  :cunit  (x19 / 个
+)                  :arg0-of  (x20 / 小-01
+))))
+===========================
+网络真的这么神奇?
+(x5 / 神奇-01
+      :degree  (x4 / 这么
+)      :arg0  (x1 / 网络
+)      :degree  (x2 / 真
+)      :mode  (x6 / interrogative
+))
+===========================
+我带着好奇心，迫不及待地叫妈妈打开电脑，进入一个卡通网站，不一会儿，孙悟空出现在电脑屏幕上。
+(x28 / temporal
+      :arg1  (x2 / 带-01
+            :arg0  (x1 / 我
+)            :arg1  (x4 / 好奇心
+)            :aspect  (x3 / 着
+))      :arg2  (x8 / 叫-04
+            :manner  (x6 / 迫不及待
+)            :arg0  (x1 / 我
+)            :arg1  (x9 / 妈妈
+)            :arg2  (x10 / 打开-01
+                  :arg0  (x9 / 妈妈
+)                  :arg1  (x11 / 电脑
+)))      :arg3  (x13 / 进入-01
+            :arg1  (x17 / 网站
+                  :mod  (x16 / 卡通
+)                  :cunit  (x15 / 个
+)                  :quant  (x14 / 1
+)))      :arg4  (x19 / 不一会儿
+)      :arg5  (x22 / 出现-01
+            :arg0  (x25 / 屏幕
+                  :part-of  (x24 / x11
+))            :arg1  (x48 / person
+                  :name  ( x21/孙悟空 
+))))
+===========================
+我目不转睛地盯着屏幕，米老鼠、唐老鸭、花木兰、黑猫警长，都笑眯眯地看着我，还伴着音乐做着各种有趣的动作。
+(x35 / and
+      :op1  (x4 / 盯-01
+            :arg0  (x1 / 我
+)            :aspect  (x5 / 着
+)            :manner  (x2 / 目不转睛
+)            :arg1  (x6 / 屏幕
+))      :op2  (x20 / 看-02
+            :arg0  (x43 / and
+                  :extent  (x17 / 都
+)                  :op1  (x56 / person
+                        :name  ( x8/米老鼠 
+))                  :op2  (x57 / person
+                        :name  ( x10/唐老鸭 
+))                  :op3  (x58 / person
+                        :name  ( x12/花木兰 
+))                  :op4  (x62 / person
+                        :name  ( x15/警长 
+)))            :manner  (x18 / 笑眯眯
+)            :aspect  (x21 / 着
+)            :arg1  (x22 / x1
+))      :op3  (x28 / 做-01
+            :aspect  (x29 / 着
+)            :arg1  (x33 / 动作
+                  :mod  (x30 / 各种
+)                  :arg0-of  (x31 / 有趣-01
+))            :manner  (x25 / 伴-01
+                  :arg0  (x43 / and
+)                  :arg1  (x27 / 音乐
+)                  :aspect  (x26 / 着
+))            :arg0  (x43 / and
+)))
+===========================
+“真神了!”我不由得赞叹起来。
+(x8_x9 / 赞叹-01
+      :arg2  (x3 / 神
+            :degree  (x2 / 真-01
+)            :smood  (x4 / 了-01
+)            :mode  (x5 / expressive
+))      :manner  (x7 / 不由得
+)      :arg0  (x6 / 我
+))
+===========================
+妈妈还带我访问了其他一些网站，里面的内容太丰富了:有体育新闻，有动物天地，有科技博览，还有音乐欣赏……真是应有尽有。
+(x34 / and
+      :op1  (x5 / 访问-01
+            :aspect  (x6 / 了
+)            :arg0  (x1 / 妈妈
+)            :mod  (x2 / 还
+)            :accompanier  (x4 / 我
+)            :arg1  (x9 / 网站
+                  :mod  (x7 / 其他
+)                  :quant  (x8 / 一些
+)))      :op2  (x15 / 丰富-01
+            :degree  (x14 / 太
+)            :smood  (x16 / 了
+)            :arg0  (x13 / 内容
+                  :location  (x11 / 里面
+                        :arg0  (x9 / 网站
+)))            :arg0-of  (x49 / mean
+                  :arg1  (x50 / and
+                        :op1  (x18 / 有-03
+                              :arg0  (x13 / 内容
+)                              :arg1  (x19 / 体育新闻
+))                        :op2  (x21 / 有-03
+                              :arg1  (x22 / 动物天地
+)                              :arg0  (x13 / 内容
+))                        :op3  (x24 / 有-03
+                              :arg1  (x25 / 科技博览
+)                              :arg0  (x13 / 内容
+))                        :op4  (x27_2 / 有-03
+                              :mod  (x27_1 / 还
+)                              :arg1  (x28 / 音乐欣赏
+)                              :arg0  (x13 / 内容
+))                        :op5  (x32 / 应有尽有
+                              :degree  (x30 / 真
+)                              :mode  (x31 / judgement
+))))))
+===========================
+我感到地球一下子变小了，知识的大门向我敞开了。
+(x2 / 感到-01
+      :arg0  (x1 / 我
+)      :arg1  (x20 / and
+            :op2  (x5 / 变-01
+                  :manner  (x4 / 一下子
+)                  :arg0  (x3 / 地球
+)                  :arg2  (x6 / 小-01
+                        :aspect  (x7 / 了
+)                        :arg0  (x3 / 地球
+)))            :op2  (x14 / 敞开-01
+                  :arg1  (x11 / 大门
+                        :mod  (x9 / 知识
+))                  :aspect  (x15 / 了
+)                  :direction  (x13 / x1
+))))
+===========================
+妈妈还教我发电子邮件。
+(x3 / 教-01
+      :arg0  (x1 / 妈妈
+)      :mod  (x2 / 还-01
+)      :arg1  (x4 / 我
+)      :arg2  (x5 / 发-01
+            :arg1  (x6 / 电子邮件
+)))
+===========================
+我试着给远在国外的表姐发了一个贺卡。
+(x2 / 试-01
+      :aspect  (x3 / 着
+)      :arg0  (x1 / 我
+)      :arg1  (x9 / 发-02
+            :arg0  (x1 / 我
+)            :arg1  (x13 / 贺卡
+                  :cunit  (x12 / 个
+)                  :quant  (x11 / 1
+))            :arg2  (x8 / 表姐
+                  :location  (x6 / 国外
+))))
+===========================
+站在一旁的爸爸对我说:“过去寄一封信，对方要好几天才能收到，多慢啊!
+(x8 / 说-01
+      :arg0  (x5 / 爸爸
+            :arg0-of  (x1 / 站-01
+                  :arg1  (x3 / 一旁
+)))      :arg3  (x7 / 我
+)      :arg1  (x34 / causation
+            :arg1  (x35 / condition
+                  :arg1  (x11 / 寄-01
+                        :time  (x10 / 过去
+)                        :arg1  (x14 / 信
+                              :quant  (x12 / 1
+)                              :cunit  (x13 / 封
+)))                  :arg2  (x22 / 能-01
+                        :mod  (x21 / 才
+)                        :arg0  (x23 / 收到-01
+                              :arg0  (x16 / 对方
+)                              :arg1  (x14 / 信
+))                        :time  (x50 / 后
+                              :arg0  (x51 / temporal-quantity
+                                    :quant  (x19 / 几
+                                          :degree  (x18 / 好
+))                                    :unit  (x20 / 天
+)))))            :arg2  (x26 / 慢
+                  :degree  (x25 / 多
+)                  :mode  (x27_x28 / expressive
+))))
+===========================
+现在发一个电子邮件，对方几秒钟就能收到，真快啊!”
+(x19 / say
+      :arg1  (x21 / causation
+            :arg1  (x22 / condition
+                  :arg1  (x2 / 发-02
+                        :arg1  (x6 / 邮件
+                              :mod  (x5 / 电子
+)                              :quant  (x3 / 1
+)                              :cunit  (x4 / 个
+))                        :time  (x1 / 现在
+))                  :arg2  (x12 / 能-01
+                        :time  (x30 / 后
+                              :arg0  (x31 / temporal-quantity
+                                    :quant  (x9 / 几
+)                                    :unit  (x10 / 秒
+)))                        :arg0  (x13 / 收到-01
+                              :arg1  (x6 / 邮件
+)                              :arg0  (x8 / 对方
+))))            :arg2  (x16 / 快
+                  :degree  (x15 / 真
+)                  :mode  (x17_x18 / expressive
+))))
+===========================
+妈妈说:“是呀，发电子邮件还能节约纸张、保护环境呢!”
+(x2 / 说-01
+      :arg0  (x1 / 妈妈
+)      :arg1  (x22 / and
+            :op1  (x4 / 是
+                  :mode  (x5 / expressive
+))            :op2  (x11 / 能-01
+                  :mod  (x10 / 还
+)                  :arg0  (x27 / and
+                        :op1  (x12 / 节约-01
+                              :arg1  (x13 / 纸张
+)                              :arg0  (x7 / 发-02
+                                    :arg1  (x9 / 邮件
+                                          :mod  (x8 / 电子
+))))                        :op2  (x15 / 保护-01
+                              :arg1  (x16 / 环境
+)                              :arg0  (x7 / 发-02
+)))                  :mode  (x17_x18 / expressive
+))))
+===========================
+我恋恋不舍地下了网，心思还在那新奇的网络世界里!
+(x18 / and
+      :op1  (x4 / 下-04
+            :aspect  (x5 / 了
+)            :arg0  (x1 / 我
+)            :manner  (x2 / 恋恋不舍-01
+                  :arg0  (x1 / 我
+))            :arg1  (x6 / 网
+))      :op2  (x10 / 在-01
+            :mod  (x9 / 还
+)            :arg0  (x8 / 心思
+                  :poss  (x1 / 我
+))            :arg1  (x16 / 里
+                  :arg0  (x15 / 世界
+                        :mod  (x14 / 网络
+)                        :mod  (x11 / 那
+)                        :arg0-of  (x12 / 新奇-01
+)))            :mode  (x17 / expressive
+)))
+===========================
+爸爸说:“今天用到的，只是网络功能的一点点，网络还有很多很多用处呢!”
+(x2 / 说-02
+      :arg0  (x1 / 爸爸
+)      :arg1  (x27 / and
+            :op1  (x11 / 功能
+                  :quant  (x13_x14_x15 / 一点点
+)                  :mod  (x10 / 网络
+)                  :domain  (x32 / thing
+                        :arg1-of  (x5_x6 / 用到-01
+                              :time  (x4 / 今天
+)))                  :mod  (x9_1 / 只
+))            :op2  (x18_2 / 有
+                  :arg0  (x17 / x10
+)                  :mod  (x18_1 / 还-01
+)                  :arg1  (x21 / 用处
+                        :arg0-of  (x19_2_x20_2 / 多-03
+                              :degree  (x19_2_x20_1 / 很
+)))                  :mode  (x22_x23 / expressive
+))))
+===========================
+我听了更加喜欢这个新朋友了。
+(x12 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x1 / 我
+)            :aspect  (x3 / 了
+))      :arg2  (x5 / 喜欢-01
+            :degree  (x4 / 更加
+)            :arg1  (x9 / 朋友
+                  :mod  (x6 / 这
+)                  :arg0-of  (x8 / 新-01
+)                  :cunit  (x7 / 个
+))            :smood  (x10 / 了
+)))
+===========================

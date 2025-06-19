@@ -1,0 +1,278 @@
+河北省赵县的洨河上，有一座世界闻名的石拱桥，叫安济桥，又叫赵州桥。
+(x22 / and
+      :op1  (x7 / 有-03
+            :arg0  (x5 / 上
+                  :arg0  (x26 / river
+                        :name  ( x4/洨河 
+                              :location  (x28 / location
+                                    :name  ( x2/赵县 
+)                                    :location  (x30 / province
+                                          :name  ( x1/河北省 
+))))))            :arg1  (x13 / 石拱桥
+                  :quant  (x8 / 1
+)                  :cunit  (x9 / 座
+)                  :arg0-of  (x11 / 闻名-01
+                        :arg1  (x10 / 世界
+))))      :op2  (x15 / 叫-01
+            :arg0  (x13 / 石拱桥
+)            :arg1  (x16 / 安济桥
+))      :op3  (x19 / 叫-01
+            :mod  (x18 / 又
+)            :arg0  (x13 / 石拱桥
+)            :arg1  (x20 / 赵州桥
+)))
+===========================
+它是隋朝的石匠李春设计和参加建造的，到现在已经有一千三百多年了。
+(x21 / and
+      :op1  (x8 / and
+            :op1  (x7 / 设计-01
+                  :arg0  (x5 / 石匠
+                        :time  (x29 / dynasty
+                              :name  ( x3/隋朝 
+))                        :name  ( x6/李春 
+))                  :arg1  (x1 / 它
+))            :op2  (x9 / 参加-01
+                  :arg1  (x10 / 建造-01
+                        :arg1  (x1 / 它
+))                  :arg0  (x6 / 李春
+))            :mode  (x2_x11 / judgement
+))      :op2  (x16 / 有
+            :arg1  (x35 / temporal-quantity
+                  :quant  (x18_1 / 多
+                        :op1  (x17 / 1300
+))                  :unit  (x18_2 / 年
+))            :smood  (x19 / 了
+)            :arg0  (x13 / 到
+                  :arg1  (x14 / 现在
+))            :aspect  (x15 / 已经
+)))
+===========================
+赵州桥非常雄伟。
+(x3 / 雄伟-01
+      :degree  (x2 / 非常
+)      :arg0  (x8 / bridge
+            :name  ( x1/赵州桥 
+)))
+===========================
+桥长五十多米，有九米多宽，中间行车马，两旁走人。
+(x21 / and
+      :op1  (x2 / 长-02
+            :arg0  (x1 / 桥
+)            :arg1  (x25 / distance-quantity
+                  :quant  (x4 / 多
+                        :op1  (x3 / 50
+))                  :unit  (x5 / 米
+)))      :op2  (x7_x11 / 宽-01
+            :arg1  (x31 / distance-quantity
+                  :quant  (x10 / 多
+                        :op1  (x8 / 9
+))                  :unit  (x9 / 米
+)))      :op3  (x14 / 行-01
+            :arg0  (x15 / 车马
+)            :location  (x13 / 中间
+                  :arg0  (x1 / 桥
+)))      :op4  (x18 / 走-01
+            :arg0  (x19 / 人
+)            :location  (x17 / 两旁
+                  :arg0  (x1 / 桥
+))))
+===========================
+这么长的桥，全部用石头砌成，下面没有桥墩，只有一个拱形的大桥洞，横跨在三十七米多宽的河面上。
+(x33 / and
+      :op1  (x9 / 砌-01
+            :cause-of  (x10 / 成-01
+                  :arg1  (x4 / 桥
+                        :extent  (x6 / 全部
+)                        :arg0-of  (x2 / 长-02
+                              :degree  (x1 / 这么
+))))            :arg1  (x4 / 桥
+)            :instrument  (x8 / 石头
+))      :op2  (x13_2 / 有-03
+            :polarity  (x13_1 / -
+)            :arg0  (x12 / 下面
+                  :arg0  (x4 / 桥
+)))      :op3  (x16_2 / 有-03
+            :mod  (x16_1 / 只
+)            :arg1  (x21 / 桥洞
+                  :mod  (x18 / 拱形
+)                  :arg0-of  (x20 / 大-01
+)                  :quant  (x17_1 / 1
+)                  :cunit  (x17_2 / 个
+))            :arg0  (x12 / 下面
+))      :op4  (x23 / 横跨-01
+            :arg0  (x4 / 桥
+)            :arg1  (x30 / 河面
+                  :arg0-of  (x28 / 宽-01
+                        :arg1  (x55 / distance-quantity
+                              :quant  (x27 / 多
+                                    :op1  (x25 / 37
+))                              :unit  (x26 / 米
+))))))
+===========================
+大桥洞顶上的左右两边，还各有两个拱形的小桥洞。
+(x10 / 有-03
+      :mod  (x8 / 还
+)      :mod  (x9 / 各
+)      :arg0  (x5 / 左右
+            :arg0-of  (x23 / mean
+                  :arg1  (x6 / 两边
+))            :arg0  (x3 / 顶上
+                  :poss  (x2 / 洞
+                        :mod  (x1 / 大桥
+))))      :arg1  (x16 / 桥洞
+            :arg0-of  (x15 / 小-01
+)            :mod  (x13 / 拱形
+)            :cunit  (x12 / 个
+)            :quant  (x11 / 2
+)))
+===========================
+平时，河水从大桥洞流过，发大水的时候，河水还可以从四个小桥洞流过。
+(x26 / and
+      :op1  (x7 / 流-01
+            :cause-of  (x8 / 过-05
+                  :arg0  (x3 / 河水
+)                  :arg1  (x6 / 桥洞
+                        :arg0-of  (x5 / 大-01
+)))            :arg0  (x3 / 河水
+)            :time  (x1 / 平时
+))      :op2  (x17 / 可以-01
+            :mod  (x16 / 还
+)            :arg0  (x23 / 流-01
+                  :cause-of  (x24 / 过-05
+                        :arg0  (x15 / 河水
+)                        :arg1  (x22 / 桥洞
+                              :quant  (x19 / 4
+)                              :arg0-of  (x21 / 小-01
+)                              :cunit  (x20 / 个
+)))                  :arg0  (x15 / 河水
+))))
+===========================
+这种设计，在建桥史上是一个创举，既减轻了流水对桥身的冲击力，使桥不容易被大水冲毁，又减轻了桥身的重量，节省了石料。
+(x40 / causation
+      :arg2  (x10 / 创举
+            :domain  (x2 / 设计
+                  :mod  (x1_1 / 这
+)                  :cunit  (x1_2 / 种
+))            :unit  (x9_2 / 个
+)            :range  (x6 / 史
+                  :topic  (x5 / 建桥
+))            :quant  (x9_1 / 1
+))      :arg1  (x50 / and
+            :op1  (x21 / 使-01
+                  :arg0  (x13 / 减轻-01
+                        :aspect  (x14 / 了
+)                        :arg1  (x19 / 冲击力
+                              :arg0  (x15 / 流水
+)                              :arg1  (x17 / 桥身
+)))                  :arg1  (x22 / 桥
+)                  :arg2  (x24 / 容易-01
+                        :arg0  (x27 / 冲毁-01
+                              :arg1  (x22 / 桥
+)                              :arg0  (x26 / 大水
+))                        :polarity  (x23 / -
+)))            :op2  (x36 / 节省-01
+                  :aspect  (x37 / 了
+)                  :arg0  (x30 / 减轻-01
+                        :aspect  (x31 / 了
+)                        :arg1  (x34 / 重量
+                              :poss  (x32 / 桥身
+)))                  :arg1  (x38 / 石料
+))))
+===========================
+这座桥不但坚固而且美观。
+(x9 / and
+      :op1  (x5 / 坚固-01
+            :arg0  (x3 / 桥
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 座
+)))      :op2  (x7 / 美观
+            :arg0  (x3 / 桥
+)))
+===========================
+桥面两侧有石栏，栏板上雕着精美的图案：有的刻着两条相互缠绕的龙，嘴里吐出美丽的水花；有的刻着两条飞龙，前爪相互抵着，各自回首遥望；还有的刻着双龙戏珠。
+(x55 / and
+      :op1  (x3 / 有-03
+            :arg0  (x2 / 两侧
+                  :arg0  (x1 / 桥面
+))            :arg1  (x4 / 石栏
+))      :op2  (x8 / 雕
+            :arg1  (x12 / 图案
+                  :arg0-of  (x10 / 精美-01
+)                  :arg0-of  (x67 / mean
+                        :arg1  (x68 / and
+                              :op1  (x15 / 刻-01
+                                    :aspect  (x16 / 着
+)                                    :arg2  (x71 / thing
+                                          :mod  (x14 / 有的
+))                                    :arg1  (x25_x26 / 吐出-01
+                                          :arg0  (x24 / 嘴里
+                                                :part-of  (x22 / 龙
+                                                      :quant  (x17 / 2
+)                                                      :cunit  (x18 / 条
+)                                                      :arg0-of  (x20 / 缠绕-01
+                                                            :manner  (x19 / 相互
+))))                                          :arg1  (x29 / 水花
+                                                :arg0-of  (x27 / 美丽-01
+))))                              :op2  (x32 / 刻-01
+                                    :aspect  (x74 / 33
+)                                    :arg1  (x81 / and
+                                          :op1  (x41 / 抵-03
+                                                :aspect  (x42 / 着
+)                                                :manner  (x40 / 相互
+)                                                :arg0  (x39 / 爪
+                                                      :mod  (x38 / 前
+)                                                      :part-of  (x36 / 飞龙
+                                                            :quant  (x34 / 2
+)                                                            :cunit  (x35 / 条
+))))                                          :op2  (x46 / 遥望-01
+                                                :manner  (x45 / 回首-01
+                                                      :arg0  (x36 / 飞龙
+))                                                :manner  (x44 / 各自
+)                                                :arg0  (x36 / 飞龙
+)))                                    :arg2  (x79 / thing
+                                          :mod  (x31 / 有的
+)))                              :op3  (x50 / 刻-01
+                                    :aspect  (x51 / 着
+)                                    :arg2  (x100 / thing
+                                          :mod  (x48_x49 / 还有的
+))                                    :arg1  (x52 / 双龙戏珠
+)))))            :aspect  (x9 / 着
+)            :location  (x6 / 栏板
+                  :part-of  (x4 / 石栏
+))))
+===========================
+所有的龙似乎都在游动，真像活了一样。
+(x15 / and
+      :op1  (x4 / 似乎-01
+            :arg0  (x7 / 游动-01
+                  :aspect  (x6 / 在
+)                  :arg0  (x3 / 龙
+                        :extent  (x5 / 都
+)                        :extent  (x1 / 所有
+))))      :op2  (x10 / 像-02
+            :arg1  (x11 / 活-04
+                  :aspect  (x12 / 了
+)                  :arg0  (x3 / 龙
+))            :degree  (x9 / 真
+)            :arg0  (x3 / 龙
+)))
+===========================
+赵州桥表现了劳动人民的智慧和才干，是我国宝贵的历史遗产。
+(x18 / and
+      :op1  (x2 / 表现-01
+            :aspect  (x3 / 了
+)            :arg0  (x22 / bridge
+                  :name  ( x1/赵州桥 
+))            :arg1  (x8 / and
+                  :op1  (x7 / 智慧
+                        :poss  (x5 / 人民
+                              :mod  (x4 / 劳动
+)))                  :op2  (x9 / 才干
+                        :poss  (x5 / 人民
+))))      :op2  (x16 / 遗产
+            :mod  (x15 / 历史
+)            :domain  (x22 / bridge
+)            :arg0-of  (x13 / 宝贵-01
+)            :poss  (x12 / 我国
+)))
+===========================

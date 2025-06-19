@@ -1,0 +1,282 @@
+鸭先生的小屋前有一条长长的小路，路上铺着花花绿绿鹅卵石，路旁开着五颜六色的鲜花。
+(x25 / and
+      :op1  (x6 / 有-03
+            :arg0  (x5 / 前
+                  :arg0  (x4 / 小屋
+                        :poss  (x2 / 先生
+                              :name  ( x1/鸭 
+))))            :arg1  (x10 / 小路
+                  :arg0-of  (x9 / 长-02
+)                  :quant  (x7 / 1
+)                  :cunit  (x8 / 条
+)))      :op2  (x13 / 铺-03
+            :aspect  (x14 / 着
+)            :arg1  (x12 / 路上
+)            :arg2  (x16 / 鹅卵石
+                  :arg0-of  (x15 / 花花绿绿-01
+)))      :op3  (x19 / 开-01
+            :aspect  (x20 / 着
+)            :arg1  (x23 / 鲜花
+                  :arg0-of  (x21 / 五颜六色
+))            :location  (x18 / 路旁
+)))
+===========================
+兔姑娘轻轻地从小路上走过，说：“啊，多美的小路啊！”
+(x19 / temporal
+      :arg1  (x7 / 走过-01
+            :arg0  (x2 / 姑娘
+                  :name  ( x1/兔 
+))            :arg1  (x5 / 小路
+)            :manner  (x3 / 轻轻地
+))      :arg2  (x9 / 说-01
+            :arg0  (x2 / 姑娘
+)            :arg1  (x16 / 小路
+                  :arg0-of  (x14 / 美-01
+                        :degree  (x13 / 多
+))                  :mode  (x17_x18 / expressive
+)                  :mode  (x11 / expressive
+))))
+===========================
+鹿先生慢慢地从小路上走过，说：“啊，多美的小路啊！”
+(x26 / temporal
+      :arg1  (x8 / 走过-01
+            :arg0  (x2 / 先生
+                  :name  ( x1/鹿 
+))            :manner  (x3 / 慢慢
+)            :arg1  (x6 / 小路
+))      :arg2  (x10 / 说-01
+            :arg0  (x2 / 先生
+)            :arg1  (x17 / 小路
+                  :arg0-of  (x15 / 美
+                        :degree  (x14 / 多
+))                  :mode  (x18_x19 / expressive
+)                  :mode  (x12 / expressive
+))))
+===========================
+朋友们都喜欢在美丽的小路上散散步，说说话。
+(x4 / 喜欢-01
+      :arg0  (x1_x2 / 朋友们
+)      :mod  (x3 / 都
+)      :arg1  (x18 / and
+            :op1  (x10 / 散步-01
+                  :arg0  (x1_x2 / 朋友们
+)                  :location  (x8 / 小路
+                        :arg0-of  (x6 / 美丽-01
+)))            :op2  (x12 / 说话-01
+                  :arg0  (x1_x2 / 朋友们
+)                  :location  (x8 / 小路
+))))
+===========================
+可是过了不久，小路上堆积了许多垃圾，苍蝇在小路上嗡嗡地飞来飞去，美丽的小路不见了。
+(x27 / contrast
+      :arg2  (x29 / and
+            :op1  (x2 / 过
+                  :aspect  (x3 / 了
+)                  :duration  (x4 / 不久
+))            :op2  (x8 / 堆积-01
+                  :arg1  (x11 / 垃圾
+                        :quant  (x10 / 许多
+))                  :aspect  (x9 / 了
+)                  :arg2  (x6 / 小路
+))            :op3  (x19 / 飞来飞去
+                  :arg0  (x13 / 苍蝇
+)                  :manner  (x17 / 嗡嗡
+)                  :location  (x15 / 小路
+))            :op4  (x24 / 不见-01
+                  :aspect  (x25 / 了
+)                  :arg0  (x23 / 小路
+                        :arg0-of  (x21 / 美丽-01
+)))))
+===========================
+兔姑娘又从小路上走过，皱起了眉头，说：“呀，美丽的小路怎么不见了？”
+(x25 / temporal
+      :arg1  (x7 / 走过-01
+            :arg0  (x2 / 姑娘
+                  :name  ( x1/兔 
+))            :mod  (x3 / 又
+)            :arg1  (x5 / 小路
+))      :arg2  (x9 / 皱-01
+            :arg0  (x2 / 姑娘
+)            :arg1  (x12 / 眉头
+)            :aspect  (x11 / 了
+)            :direction  (x10 / 起
+))      :arg3  (x14 / 说-01
+            :arg0  (x2 / 姑娘
+)            :arg1  (x22_2 / 见-01
+                  :polarity  (x22_1 / -
+)                  :mode  (x23_x24 / interrogative
+)                  :arg1  (x20 / 小路
+                        :arg0-of  (x18 / 美丽-01
+))                  :cause  (x21 / amr-unknown
+)                  :mode  (x16 / expressive
+))))
+===========================
+鹿先生又从小路上走过，捂上了鼻子，说：“咦，美丽的小路哪儿去了？”
+(x25 / temporal
+      :arg1  (x7 / 走过-01
+            :mod  (x3 / 又
+)            :arg0  (x2 / 先生
+                  :name  ( x1/鹿 
+))            :arg1  (x5 / 小路
+))      :arg3  (x14 / 说-01
+            :arg1  (x22 / 去-01
+                  :arg0  (x20 / 小路
+                        :arg0-of  (x18 / 美丽-01
+))                  :arg1  (x21 / amr-unknown
+)                  :mode  (x16 / expressive
+)                  :mode  (x23_x24 / interrogative
+))            :arg0  (x2 / 先生
+))      :arg2  (x9_x10 / 捂-01
+            :arg0  (x2 / 先生
+)            :aspect  (x11 / 了
+)            :arg1  (x12 / 鼻子
+                  :part-of  (x2 / 先生
+))))
+===========================
+鸭先生也叫起来：“天哪！我的美丽的小路呢？
+(x4_x5 / 叫-03
+      :arg0  (x2 / 先生
+            :name  ( x1/鸭 
+))      :manner  (x3 / 也
+)      :arg1  (x14 / 小路
+            :mode  (x7_x8_x9 / expressive
+)            :mode  (x15_x16 / interrogative
+)            :arg0-of  (x12 / 美丽-01
+)            :poss  (x10 / x2
+)))
+===========================
+他看着看着，忽然一拍脑袋说：“这都怪我！我一定要把美丽的小路找回来！”
+(x28 / temporal
+      :arg1  (x30 / and
+)      :arg2  (x8_x9 / 拍-01
+            :arg0  (x1 / 他
+)            :arg1  (x10 / 脑袋
+                  :part-of  (x1 / 他
+))            :manner  (x7 / 忽然
+))      :arg3  (x11 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x36 / and
+                  :op1  (x15 / 怪-01
+                        :mod  (x14 / 都
+)                        :arg1  (x16 / x1
+)                        :arg2  (x13 / 这
+)                        :mode  (x17 / expressive
+))                  :op2  (x19 / 一定
+                        :arg0  (x20 / 要-03
+                              :arg0  (x25 / 找-03
+                                    :cause-of  (x26 / 回来
+)                                    :arg1  (x24 / 小路
+                                          :arg0-of  (x22 / 美丽-01
+))))                        :mode  (x27 / expressive
+)))))
+===========================
+鸭先生推来一辆小车，拿来一把扫帚，认真地清扫小路上的垃圾。
+(x23 / temporal
+      :arg1  (x25 / and
+            :op1  (x3_x4 / 推来-01
+                  :arg0  (x2 / 先生
+                        :name  ( x1/鸭 
+))                  :arg1  (x7 / 小车
+                        :quant  (x5 / 1
+)                        :cunit  (x6 / 辆
+)))            :op2  (x9_x10 / 拿来-01
+                  :arg0  (x2 / 先生
+)                  :arg1  (x13 / 扫帚
+                        :quant  (x11 / 1
+)                        :cunit  (x12 / 把
+))))      :arg2  (x17 / 清扫-01
+            :arg0  (x2 / 先生
+)            :manner  (x15 / 认真-02
+                  :arg0  (x2 / 先生
+))            :arg1  (x21 / 垃圾
+                  :location  (x18 / 小路
+))))
+===========================
+兔姑娘和鹿先生看见了，也赶来帮忙。
+(x13 / temporal
+      :arg1  (x6 / 看见-01
+            :aspect  (x7 / 了
+)            :arg0  (x3 / and
+                  :op1  (x2 / 姑娘
+                        :name  ( x1/兔 
+))                  :op2  (x5 / 先生
+                        :name  ( x4/鹿 
+))))      :arg2  (x11 / 帮忙-01
+            :arg0  (x3 / and
+)            :manner  (x10 / 赶来-01
+                  :arg0  (x3 / and
+))            :mod  (x9 / 也
+)))
+===========================
+他们提着洒水壶，给花儿浇浇水，给小路洗洗澡。
+(x15 / and
+      :op1  (x6 / 给-01
+            :arg0  (x1 / 他们
+)            :arg2  (x7_x8 / 花儿
+)            :arg3  (x9 / 浇水-01
+                  :arg0  (x1 / 他们
+)                  :arg1  (x7_x8 / 花儿
+))            :manner  (x2 / 提-01
+                  :aspect  (x3 / 着
+)                  :arg0  (x1 / 他们
+)                  :arg1  (x4 / 洒水壶
+)))      :op2  (x11 / 给-01
+            :arg0  (x1 / 他们
+)            :arg2  (x12 / 小路
+)            :arg3  (x13 / 洗澡-01
+                  :arg0  (x1 / 他们
+)                  :arg1  (x12 / 小路
+))            :manner  (x2 / 提-01
+)))
+===========================
+没过多久，一条干干净净的小路又出现了。
+(x11 / 出现-01
+      :mod  (x10 / 又
+)      :arg1  (x9 / 小路
+            :arg0-of  (x7 / 干干净净
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 条
+))      :aspect  (x12 / 了
+)      :time  (x2 / 过
+            :polarity  (x1 / -
+)            :time  (x3 / 多久
+)))
+===========================
+兔姑娘说：“美丽的小路好香啊！”
+(x3 / 说-01
+      :arg0  (x2 / 姑娘
+            :name  ( x1/兔 
+))      :arg1  (x9 / 香-01
+            :degree  (x8 / 好
+)            :arg0  (x7 / 小路
+                  :arg0-of  (x5 / 美丽-01
+))            :mode  (x10_x11 / expressive
+)))
+===========================
+鹿先生说：“美丽的小路好漂亮啊！”
+(x3 / 说-01
+      :arg0  (x2 / 先生
+            :name  ( x1/鹿 
+))      :arg1  (x9 / 漂亮-01
+            :degree  (x8 / 好
+)            :arg0  (x7 / 小路
+                  :arg0-of  (x5 / 美丽-01
+))            :mode  (x10_x11 / expressive
+)))
+===========================
+鸭先生对朋友们说：“让美丽的小路一直和我们在一起吧!"
+(x6 / 说-01
+      :arg0  (x2 / 先生
+            :name  ( x1/鸭 
+))      :arg3  (x4_x5 / 朋友们
+)      :arg1  (x8 / 让-02
+            :arg1  (x11 / 小路
+                  :arg0-of  (x9 / 美丽-01
+))            :arg2  (x15_x16 / 在一起-01
+                  :arg0  (x13 / and
+                        :op1  (x11 / 小路
+)                        :op2  (x14 / 我们
+))                  :time  (x12 / 一直
+)                  :mode  (x17_x18 / imperative
+))))
+===========================

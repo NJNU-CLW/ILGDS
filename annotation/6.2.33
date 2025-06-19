@@ -1,0 +1,722 @@
+我爱到天安门广场走走，尤其是晚上。
+(x11 / progression
+      :arg1  (x2 / 爱-01
+            :arg0  (x1 / 我
+)            :arg1  (x5 / 走
+                  :arg0  (x1 / 我
+)                  :location  (x4 / 天安门广场
+)))      :arg2  (x9 / 晚上
+            :time-of  (x5 / 走
+)))
+===========================
+广场上千万盏灯静静地照耀着天安门广场周围的宏伟建筑，使人心头感到光明，感到温暖。
+(x25 / and
+      :op1  (x19 / 感到-01
+            :arg1  (x20 / 光明
+)            :arg0  (x18 / 心头
+                  :part-of  (x17 / 人
+)))      :op2  (x22 / 感到-01
+            :arg1  (x23 / 温暖
+))      :cause  (x8 / 照耀-01
+            :arg0  (x5 / 灯
+                  :quant  (x3 / 千万
+)                  :cunit  (x4 / 盏
+)                  :location  (x1 / 广场
+))            :manner  (x6 / 静静
+)            :arg1  (x14 / 建筑
+                  :arg0-of  (x13 / 宏伟-01
+)                  :location  (x11 / 周围
+                        :arg0  (x10 / 天安门广场
+)))            :aspect  (x9 / 着
+)))
+===========================
+清明节前的一个晚上，我又漫步在广场上，忽然背后传来一声赞叹：“多好啊！”
+(x26 / temporal
+      :arg1  (x10 / 漫步-01
+            :arg0  (x8 / 我
+)            :location  (x12 / 广场
+)            :mod  (x9 / 又
+))      :arg2  (x17 / 传来-01
+            :arg1  (x20 / 赞叹
+                  :quant  (x18 / 1
+)                  :cunit  (x19 / 声
+)                  :arg0-of  (x38 / mean
+                        :arg1  (x23 / 好
+                              :degree  (x22 / 多
+)                              :mode  (x24_x25 / expressive
+))))            :arg0  (x16 / 背后
+)            :time  (x15 / 忽然
+))      :time  (x6 / 晚上
+            :quant  (x4 / 1
+)            :cunit  (x5 / 个
+)            :time  (x2 / 前
+                  :op1  (x47 / festival
+                        :name  ( x1/清明节 
+)))))
+===========================
+我心头微微一震，是什么时候听到过这句话来着？
+(x18 / and
+      :op1  (x5 / 震-01
+            :arg0  (x2 / 心头
+                  :part-of  (x1 / 我
+))            :manner  (x3 / 微
+))      :op2  (x10 / 听到-01
+            :arg1  (x14 / 话
+                  :mod  (x12 / 这
+)                  :cunit  (x13 / 句
+))            :aspect  (x11 / 过
+)            :time  (x8_x9 / amr-unknown
+)            :mode  (x15_x16_x17 / interrogative
+)            :arg0  (x1 / 我
+)))
+===========================
+噢，对了，那是很久以前了。
+(x13 / and
+      :op1  (x1 / 噢
+)      :op2  (x3 / 对
+            :aspect  (x4 / 了
+))      :op3  (x10 / 以前
+            :duration  (x9 / 久
+                  :degree  (x8 / 很
+))            :domain  (x6 / 那
+)            :aspect  (x11 / 了
+)))
+===========================
+于是，我沉入了深深的回忆。
+(x11 / temporal
+      :arg2  (x4_x5 / 沉入-01
+            :arg1  (x9 / 回忆
+                  :arg0-of  (x7 / 深-03
+))            :aspect  (x6 / 了
+)            :arg0  (x3 / 我
+)))
+===========================
+1947年的初秋，当时我是战地记者。
+(x11 / person
+      :arg0-of  (x13 / have-org-role-91
+            :arg2  (x9 / 记者
+                  :mod  (x8 / 战地
+)))      :domain  (x6 / 我
+)      :time  (x5 / 当时
+)      :time  (x18 / date-entity
+            :year  (x1 / 1947
+)            :season  (x3 / 初秋
+)))
+===========================
+挺进豫皖苏平原的我军部队，把国民党军57师紧紧地包围在一个叫沙土集的村子里。
+(x14 / 包围-01
+      :arg0  (x5 / 部队
+            :poss  (x4 / 我军
+)            :arg0-of  (x1 / 挺进-01
+                  :arg1  (x29 / country-region
+                        :name  ( x2/豫皖苏平原 
+))))      :manner  (x12 / 紧紧
+)      :location  (x21 / 村子
+            :name  ( x19/沙土集 
+)            :quant  (x16 / 1
+)            :cunit  (x17 / 个
+))      :arg1  (x31 / military
+            :name  ( x9/军 
+)            :superset-of  (x11 / 师
+                  :ord  (x34 / ordinal-entity
+                        :value  (x10 / 57
+)))))
+===========================
+激烈的围歼战就要开始了。
+(x5_2 / 要-03
+      :arg0  (x6 / 开始-01
+            :arg0  (x4 / 战
+                  :mod  (x3 / 围歼
+)                  :arg0-of  (x1 / 激烈-01
+)))      :mod  (x5_1 / 就
+)      :aspect  (x7 / 了
+))
+===========================
+天黑的时候，我摸进一片茂密的沙柳林，在匆匆挖成的交通沟里找到了突击连，来到了郝副营长的身边。
+(x35 / temporal
+      :arg1  (x8 / 进-01
+            :manner  (x7 / 摸
+)            :arg0  (x6 / 我
+)            :arg1  (x14 / 林
+                  :consist-of  (x13 / 沙柳
+)                  :arg0-of  (x11 / 茂密
+)                  :quant  (x9 / 1
+)                  :cunit  (x10 / 片
+)))      :arg2  (x24 / 找到-01
+            :location  (x22 / 沟
+                  :mod  (x21 / 交通
+)                  :arg1-of  (x18 / 挖-01
+                        :cause-of  (x19 / 成
+)                        :manner  (x17 / 匆匆
+)))            :aspect  (x25 / 了
+)            :arg1  (x52 / military
+                  :name  ( x27/连 
+))            :arg0  (x6 / 我
+))      :arg3  (x29 / 来到-01
+            :arg1  (x33 / 身边
+                  :arg0  (x56 / person
+                        :arg0-of  (x57 / have-org-role-91
+                              :arg2  (x31_2_3_4 / 副营长
+))                        :name  ( x31/郝副营长
+)))            :aspect  (x30 / 了
+)            :arg0  (x6 / 我
+))      :time  (x2 / 黑-01
+            :arg0  (x1 / 天
+)))
+===========================
+郝副营长是一位著名的战斗英雄，虽然只有22岁，已经打过不少仗了。
+(x22 / and
+      :op1  (x8 / 英雄
+            :mod  (x7 / 战斗
+)            :arg0-of  (x5 / 著名-01
+)            :quant  (x3 / 1
+)            :cunit  (x4 / 位-01
+)            :domain  (x29 / person
+                  :arg0-of  (x30 / have-org-role-91
+                        :arg2  (x1_2_3_4 / 副营长
+))                  :name  ( x1/郝副营长
+)))      :op2  (x33 / contrast
+            :arg2  (x16 / 打-12
+                  :arg1  (x19 / 仗
+                        :quant  (x18 / 不少
+))                  :aspect  (x17 / 过
+)                  :aspect  (x15 / 已经
+)                  :aspect  (x20 / 了
+)                  :arg0  (x29 / person
+))           :arg1  (x1 / 郝副营长
+                  :age  (x36 / temporal-quantity
+                        :quant  (x12 / 22
+)                        :unit  (x13 / 岁
+))                  :mod  (x11 / 只有
+))))
+===========================
+今晚就由他带领突击连去攻破守敌的围墙，为全军打通歼灭敌军的道路。
+(x5 / 带领-01
+      :arg0  (x4 / 他
+)      :arg1  (x25 / military
+            :name  ( x7/连 
+))      :arg2  (x9 / 攻破-01
+            :arg1  (x12 / 围墙
+                  :poss  (x10 / 守敌
+)))      :time  (x1 / 今晚
+)      :mod  (x2 / 就
+)      :purpose  (x16 / 打通-01
+            :arg1  (x20 / 道路
+                  :mod  (x17 / 歼灭-01
+                        :arg1  (x18 / 敌军
+)))            :beneficiary  (x15 / 全军
+)            :arg0  (x4 / 他
+)))
+===========================
+大约一切准备工作都完成了，这会儿，他正倚着交通沟的胸墙坐着，一手拿着火柴盒，夹着自制的烟卷，一手轻轻地划着火柴。
+(x41 / temporal
+      :arg1  (x6 / 完成-01
+            :arg1  (x4 / 工作
+                  :mod  (x3 / 准备
+                        :mod  (x2 / 一切
+)))            :extent  (x5 / 都
+)            :aspect  (x7 / 了
+)            :mod  (x1 / 大约
+))      :arg2  (x50 / and
+            :op1  (x20 / 坐-01
+                  :aspect  (x21 / 着
+)                  :arg0  (x11 / 他
+)                  :manner  (x13 / 倚-01
+                        :arg1  (x18_x19 / 胸墙
+                              :location  (x16 / 沟
+                                    :mod  (x15 / 交通
+)))                        :aspect  (x14 / 着
+)                        :aspect  (x12 / 正
+)                        :arg0  (x11 / 他
+)))            :op2  (x60 / and
+                  :op1  (x24 / 拿-03
+                        :arg0  (x23 / 一手
+)                        :arg1  (x26 / 火柴盒
+)                        :aspect  (x25 / 着
+))                  :op2  (x28 / 夹-02
+                        :arg1  (x32 / 烟卷
+                              :arg1-of  (x30 / 自制-01
+))                        :aspect  (x29 / 着
+)                        :arg0  (x11 / 他
+)))            :op3  (x37 / 划-01
+                  :arg0  (x34 / 一手
+)                  :arg1  (x39 / 火柴
+)                  :aspect  (x38 / 着
+)                  :manner  (x35 / 轻轻
+))            :time  (x9 / 这会儿
+)))
+===========================
+他并没有点烟，却借着微弱的亮光看摆在双膝上的一本破旧的书。
+(x26 / contrast
+      :arg1  (x4 / 点-01
+            :arg0  (x1 / 他
+)            :polarity  (x3 / -
+                  :mod  (x2 / 并-01
+))            :arg1  (x5 / 烟
+))      :arg2  (x8 / 借-01
+            :arg1  (x12 / 亮光
+                  :arg0-of  (x10 / 微弱-01
+))            :aspect  (x9 / 着
+)            :purpose  (x13 / 看-02
+                  :arg1  (x24 / 书
+                        :quant  (x20 / 1
+)                        :cunit  (x21 / 本
+)                        :arg0-of  (x22 / 破旧-01
+)                        :arg1-of  (x14_x15 / 摆在-01
+                              :arg2  (x17 / 膝
+                                    :quant  (x16 / 双
+))))                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)))
+===========================
+书上有一幅插图，画的是一盏吊着的电灯，一个孩子正在灯下聚精会神地读书。
+(x34 / and
+      :op1  (x3 / 有-03
+            :arg0  (x1 / 书
+)            :arg1  (x6 / 插图
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 幅
+)))      :op2  (x36 / and
+            :op1  (x16 / 电灯
+                  :quant  (x11 / 1
+)                  :cunit  (x12 / 盏
+)                  :arg1-of  (x13 / 吊-01
+                        :aspect  (x14 / 着
+)))            :op2  (x25 / 读-01
+                  :arg0  (x19 / 孩子
+                        :quant  (x18_1 / 1
+)                        :cunit  (x18_2 / 个
+))                  :arg1  (x26 / 书
+)                  :manner  (x23 / 聚精会神
+)                  :location  (x21 / 灯
+))            :domain  (x50 / thing
+                  :arg1-of  (x8 / 画-01
+))))
+===========================
+他注视着那幅图，默默地沉思着。
+(x13 / and
+      :op1  (x2 / 注视-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 图
+                  :mod  (x4 / 那
+)                  :cunit  (x5 / 幅
+))            :aspect  (x3 / 着-03
+))      :op2  (x10 / 沉思-01
+            :manner  (x8 / 默默
+)            :aspect  (x11 / 着
+)            :arg0  (x1 / 他
+)))
+===========================
+“多好啊！”他在自言自语。
+(x8 / 自言自语
+      :arg0  (x6 / 他
+)      :aspect  (x7 / 在
+)      :arg0-of  (x14 / mean
+            :arg1  (x15 / say
+                  :arg1  (x3 / 好-03
+                        :degree  (x2 / 多-01
+)                        :mode  (x4_x5 / expressive
+)))))
+===========================
+突然，他凑到我的耳朵边轻轻地问：“记者，你见过电灯吗？”
+(x22 / temporal
+      :arg1  (x4 / 凑-03
+            :arg0  (x3 / 他
+)            :arg1  (x9 / 边
+                  :arg0  (x8 / 耳朵
+                        :part-of  (x6 / 我
+)))            :manner  (x1 / 突然
+))      :arg2  (x12 / 问-01
+            :manner  (x10 / 轻轻
+)            :arg1  (x31 / and
+                  :op2  (x17 / 见-01
+                        :arg0  (x16 / x6
+)                        :arg1  (x19 / 电灯
+)                        :aspect  (x18 / 过
+)                        :mode  (x20_x21 / interrogative
+))                  :op1  (x14 / x6
+))            :arg0  (x3 / 他
+)))
+===========================
+我不由得一愣，摇了摇头，说：“没见过。”
+(x17 / temporal
+      :arg1  (x4 / 愣
+            :arg0  (x1 / 我
+)            :manner  (x2 / 不由得
+))      :arg2  (x6_x8 / 摇-01
+            :arg1  (x9 / 头
+)            :aspect  (x7 / 了
+)            :arg0  (x1 / 我
+))      :arg3  (x11 / 说-01
+            :arg1  (x14 / 见-01
+                  :polarity  (x13 / -
+)                  :aspect  (x15 / 过
+)                  :arg0  (x1 / 我
+))            :arg0  (x1 / 我
+)))
+===========================
+我说的是真话。
+(x6 / 话
+      :arg0-of  (x5 / 真-01
+)      :domain  (x11 / thing
+            :arg1-of  (x2 / 说-01
+                  :arg0  (x1 / 我
+))))
+===========================
+我从小生活在农村，真的没见过电灯。
+(x15 / causation
+      :arg1  (x4 / 生活-01
+            :arg0  (x1 / 我
+)            :time  (x2_x3 / 从小
+)            :arg1  (x6 / 农村
+))      :arg2  (x11 / 见-01
+            :aspect  (x12 / 过
+)            :arg1  (x13 / 电灯
+)            :polarity  (x10 / -
+)            :mod  (x8_x9 / 真的
+)            :arg0  (x1 / 我
+)))
+===========================
+“听说一按电钮，那玩意儿就亮了，很亮很亮。”
+(x18 / say
+      :arg1  (x2 / 听说-01
+            :arg1  (x21 / condition
+                  :arg1  (x4 / 按-01
+                        :arg1  (x5 / 电钮
+)))            :arg2  (x25 / and
+                  :op1  (x10 / 亮-01
+                        :arg0  (x8 / 玩意儿
+                              :mod  (x7 / 那
+))                        :aspect  (x11 / 了-01
+))                  :op2  (x14_x16 / 亮-02
+                        :degree  (x13_x15 / 很
+)                        :arg0  (x8 / 玩意儿
+)))))
+===========================
+他又划着一根火柴，点燃了烟，又望了一眼图画，深情地说：“赶明儿胜利了，咱们也能用上电灯，让孩子们都在那样亮的灯光底下学习，该多好啊！”
+(x52 / temporal
+      :arg1  (x3 / 划-01
+            :arg1  (x7 / 火柴
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 根
+))            :aspect  (x4 / 着
+)            :arg0  (x1 / 他
+)            :mod  (x2 / 又
+))      :arg2  (x9 / 点燃-01
+            :arg1  (x11 / 烟
+)            :aspect  (x10 / 了
+)            :arg0  (x1 / 他
+))      :arg3  (x14 / 望-01
+            :arg1  (x18 / 图画
+)            :aspect  (x15 / 了
+)            :quant  (x16 / 1
+)            :cunit  (x17 / 眼
+)            :arg0  (x1 / 他
+))      :arg4  (x22 / 说-01
+            :manner  (x20 / 深情
+)            :arg1  (x71 / temporal
+                  :arg1  (x25 / 胜利
+                        :time  (x24 / 赶明儿
+)                        :aspect  (x26 / 了
+))                  :arg2  (x75 / and
+                        :op1  (x30 / 能-01
+                              :arg0  (x31_x32 / 用上-01
+                                    :arg1  (x33 / 电灯
+)                                    :arg0  (x28 / 咱们
+))                              :mod  (x29 / 也
+))                        :op2  (x47 / 该-01
+                              :arg0  (x49 / 好-01
+                                    :arg0  (x35 / 让-02
+                                          :arg1  (x36_x37 / 孩子们
+)                                          :arg2  (x45 / 学习-01
+                                                :extent  (x38 / 都
+)                                                :condition  (x43 / 灯光
+                                                      :arg0-of  (x41 / 亮-02
+)                                                      :mod  (x40 / 那样
+))                                                :arg0  (x36_x37 / 孩子们
+)))                                    :degree  (x48 / 多
+)                                    :mode  (x50_x51 / expressive
+)))))            :arg0  (x1 / 他
+)))
+===========================
+他把头靠在胸墙上，望着漆黑的夜空，完全陷入了对未来的憧憬里。
+(x25 / temporal
+      :arg1  (x4 / 靠-03
+            :arg1  (x6 / 胸墙
+)            :arg0  (x3 / 头
+                  :part-of  (x1 / 他
+)))      :arg2  (x9 / 望-01
+            :arg1  (x13 / 夜空
+                  :arg0-of  (x11 / 漆黑-01
+))            :aspect  (x10 / 着
+)            :arg0  (x1 / 他
+))      :arg3  (x16_x17 / 陷入-01
+            :arg1  (x22 / 憧憬-01
+                  :arg1  (x20 / 未来
+)                  :arg0  (x1 / 他
+))            :aspect  (x18 / 了
+)            :degree  (x15 / 完全
+)            :arg0  (x1 / 他
+)))
+===========================
+半个小时以后，我刚回到团指挥所，战斗就打响了。
+(x18 / temporal
+      :arg1  (x8 / 回-01
+            :arg1  (x21 / organization
+                  :name  ( x11/指挥所 
+)                  :mod  (x10 / 团
+))            :time  (x7 / 刚
+)            :arg0  (x6 / 我
+))      :arg2  (x15 / 打响-01
+            :arg1  (x13 / 战斗
+)            :aspect  (x16 / 了
+))      :time  (x4 / 以后
+            :op1  (x30 / temporal-quantity
+                  :quant  (x1_x2 / 0.5
+)                  :unit  (x3 / 小时
+))))
+===========================
+三发绿色的信号弹升上天空，接着就是震天动地的炸药包爆炸声。
+(x17 / temporal
+      :arg1  (x6 / 升-03
+            :arg1  (x8 / 天空
+)            :arg0  (x5 / 信号弹
+                  :arg0-of  (x3 / 绿色-01
+)                  :quant  (x1 / 3
+)                  :cunit  (x2 / 发
+)))      :arg2  (x15 / 爆炸声
+            :mod  (x14 / 炸药包
+)            :arg0-of  (x12 / 震天动地
+)))
+===========================
+守敌的围墙被炸开一个缺口，突击连马上冲了进去。
+(x18 / temporal
+      :arg1  (x5_x6 / 炸开-01
+            :arg0  (x21 / person
+)            :arg1  (x3 / 围墙
+                  :purpose  (x1 / 守敌
+))            :arg2  (x9 / 缺口
+                  :quant  (x7 / 1
+)                  :cunit  (x8 / 个
+)))      :arg2  (x14 / 冲-01
+            :arg0  (x28 / military
+                  :name  ( x12/连 
+))            :time  (x13 / 马上
+)            :direction  (x16 / 进去
+)            :aspect  (x15 / 了
+)))
+===========================
+没想到后续部队遭到敌人炮火猛烈的阻击，在黑暗里找不到突破口，和突击连失去了联系。
+(x27 / temporal
+      :arg1  (x2 / 想到-01
+            :arg1  (x5 / 遭到-01
+                  :arg0  (x4 / 部队
+                        :mod  (x3 / 后续
+))                  :arg1  (x10 / 阻击-01
+                        :arg0  (x6 / 敌人
+)                        :arg2  (x7 / 炮火
+)                        :manner  (x8 / 猛烈
+)))            :polarity  (x1 / -
+))      :arg2  (x15_x17 / 找到-01
+            :arg1  (x18 / 突破口
+)            :polarity  (x16 / -
+)            :condition  (x13 / 黑暗
+)            :arg0  (x4 / 部队
+))      :arg3  (x23 / 失去-01
+            :arg1  (x25 / 联系-01
+                  :arg1  (x44 / military
+                        :name  ( x22/连 
+)))            :arg0  (x4 / 部队
+)))
+===========================
+整个团指挥所的人都焦急地钻出了地堡，望着黑魆魆的围墙。
+(x20 / and
+      :op1  (x9 / 钻
+            :source  (x12 / 地堡
+)            :aspect  (x11 / 了
+)            :arg0  (x5 / 人
+                  :poss  (x28 / organization
+                        :name  ( x3/指挥所 
+)                        :mod  (x2 / 团-01
+                              :mod  (x1 / 整个
+))))            :extent  (x6 / 都
+)            :manner  (x7 / 焦急
+))      :op2  (x14 / 望-01
+            :arg1  (x18 / 围墙
+                  :arg0-of  (x16 / 黑魆魆
+))            :aspect  (x15 / 着
+)            :arg0  (x5 / 人
+)))
+===========================
+突然，黑暗里出现一星火光，一闪，又一闪。
+(x20 / temporal
+      :arg1  (x5 / 出现-01
+            :arg0  (x3 / 黑暗
+)            :arg1  (x8 / 火光
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 星
+))            :manner  (x1 / 突然
+))      :arg2  (x11 / 闪
+            :mod  (x10 / 一
+))      :arg3  (x15 / 闪
+            :mod  (x14 / 一
+)))
+===========================
+这火光虽然微弱，对于寻找突破口的部队来说己经足够亮了。
+(x17 / contrast
+      :arg1  (x4 / 微弱-01
+            :arg0  (x2 / 火光
+                  :mod  (x1 / 这
+)))      :arg2  (x11 / 来说-01
+            :arg1  (x10 / 部队
+                  :arg0-of  (x7 / 寻找-01
+                        :arg1  (x8 / 突破口
+)))            :arg2  (x14 / 亮-02
+                  :aspect  (x12 / 己经
+)                  :degree  (x13 / 足够
+)                  :aspect  (x15 / 了
+)                  :arg0  (x2 / 火光
+))            :arg0  (x2 / 火光
+)))
+===========================
+战士们靠着这微弱的火光冲进了围墙，响起了一片喊杀声。
+(x22 / temporal
+      :arg1  (x9_x10 / 冲进-01
+            :arg0  (x1_x2 / 战士们
+)            :arg1  (x12 / 围墙
+)            :aspect  (x11 / 了-01
+)            :condition  (x3 / 靠-01
+                  :arg1  (x8 / 火光
+                        :arg0-of  (x6 / 微弱-01
+)                        :mod  (x5 / 这
+))                  :aspect  (x4 / 着-01
+)))      :arg2  (x14 / 响起-01
+            :arg0  (x20 / 声
+                  :mod  (x18_x19 / 喊杀
+)                  :quant  (x16 / 1
+)                  :cunit  (x17 / 片
+))            :aspect  (x15 / 了
+)            :arg0  (x1_x2 / 战士们
+)))
+===========================
+后来才知道，在这千钧一发的时刻，是郝副营长划着了火柴，点燃了那本书，举得高高的，为后续部队照亮了前进的路。
+(x3 / 知道-01
+      :time  (x1 / 后来
+)      :arg1  (x41 / temporal
+            :arg1  (x13 / 划着
+                  :arg0  (x43 / person
+                        :arg0-of  (x44 / have-org-role-91
+                              :arg2  (x12_2_3_4 / 副营长
+))                        :name  ( x12/郝副营长
+))                  :arg1  (x15 / 火柴
+)                  :aspect  (x14 / 了
+)                  :time  (x9 / 时刻
+                        :arg0-of  (x7 / 千钧一发
+)                        :mod  (x6 / 这
+)))            :arg2  (x17 / 点燃-01
+                  :arg1  (x21 / 书
+                        :mod  (x19 / 那
+)                        :cunit  (x20 / 本
+))                  :aspect  (x18 / 了
+)                  :arg0  (x43 / person
+))            :arg3  (x23 / 举-03
+                  :manner  (x25_x26 / 高
+)                  :arg0  (x43 / person
+))            :arg4  (x31_x32 / 照亮-01
+                  :arg1  (x36 / 路
+                        :mod  (x34 / 前进
+))                  :aspect  (x33 / 了
+)                  :beneficiary  (x30 / 部队
+                        :mod  (x29 / 后续
+)))))
+===========================
+可是，火光暴露了他自己，他被敌人的机枪打中了。
+(x18 / contrast
+      :arg2  (x20 / causation
+            :arg1  (x4 / 暴露-01
+                  :arg0  (x3 / 火光
+)                  :aspect  (x5 / 了
+)                  :arg1  (x6 / 他
+                        :arg0-of  (x31 / mean
+                              :arg1  (x7 / 自己
+))))            :arg2  (x14_x15 / 打中-01
+                  :arg1  (x9 / x6
+)                  :arg0  (x13 / 机枪
+                        :poss  (x11 / 敌人
+))                  :aspect  (x16 / 了
+))))
+===========================
+这一仗，我们消灭了敌人的一个整编师。
+(x6 / 消灭-01
+      :arg0  (x5 / 我们
+)      :arg1  (x13 / 师
+            :mod  (x12 / 整编
+)            :quant  (x10 / 1
+)            :cunit  (x11 / 个
+)            :poss  (x8 / 敌人
+))      :aspect  (x7 / 了
+)      :time  (x3 / 仗-01
+            :mod  (x1 / 这
+)            :quant  (x2 / 1
+)))
+===========================
+战斗结束后，我们把郝副营长埋在茂密的沙柳丛里。
+(x22 / temporal
+      :arg1  (x2 / 结束-01
+            :arg1  (x1 / 战斗
+))      :arg2  (x10 / 埋-01
+            :arg2  (x14 / 沙柳丛
+                  :arg0-of  (x12 / 茂密
+))            :arg0  (x5 / 我们
+)            :arg1  (x26 / person
+                  :arg0-of  (x27 / have-org-role-91
+                        :arg2  (x8_x9 / 副营长
+))                  :name  ( x7/郝 
+))))
+===========================
+这位年轻的战友不惜自己的性命，为了让孩子们能够在电灯底下学习，他自己却没有来得及见一见电灯。
+(x31 / contrast
+      :arg1  (x6 / 不惜-01
+            :arg1  (x9 / 性命
+                  :poss  (x7 / x5
+))            :arg0  (x5 / 战友
+                  :arg0-of  (x3 / 年轻-01
+)                  :mod  (x1 / 这
+)                  :cunit  (x2 / 位-01
+))            :purpose  (x12 / 让-02
+                  :arg1  (x13_x14 / 孩子们
+)                  :arg2  (x15 / 能够-01
+                        :arg0  (x19 / 学习-01
+                              :condition  (x17 / 电灯
+)                              :arg0  (x13_x14 / 孩子们
+)))))      :arg2  (x25 / 来得及
+            :arg1  (x26_x27_x28 / 见-01
+                  :arg0  (x21_x22 / x5
+)                  :arg1  (x29 / 电灯
+))            :polarity  (x24 / -
+)))
+===========================
+事情已经过去很长时间了。
+(x3 / 过去-01
+      :arg0  (x1 / 事情
+)      :aspect  (x2 / 已经
+)      :duration  (x6 / 时间
+            :arg0-of  (x5 / 长-02
+                  :degree  (x4 / 很
+)))      :aspect  (x7 / 了
+))
+===========================
+在天安门前璀璨的华灯下，我又想起这位亲爱的战友来。
+(x11_x17 / 想起-01
+      :arg0  (x9 / 我
+)      :arg1  (x16 / 战友
+            :arg0-of  (x14 / 亲爱-01
+)            :mod  (x12 / 这
+)            :cunit  (x13 / 位
+))      :mod  (x10 / 又
+)      :condition  (x6 / 华灯
+            :arg0-of  (x4 / 璀璨
+)            :location  (x3 / 前
+                  :arg0  (x2 / 天安门
+))))
+===========================

@@ -1,0 +1,599 @@
+中南海，毛泽东的卧室。
+(x5 / 卧室
+      :arg0-of  (x9 / mean
+            :arg1  (x1 / 中南海
+))      :poss  (x11 / person
+            :name  ( x3/毛泽东 
+)))
+===========================
+写字台上，放着一封从
+(x4 / 放-01
+      :arg1  (x11 / thing
+            :quant  (x6 / 1
+)            :cunit  (x7 / 封
+))      :aspect  (x5 / 着
+)      :location  (x1 / 写字台
+))
+===========================
+朝鲜前线志愿军总部发来的、由司令员彭德怀拟定的电报。
+(x10 / 电报
+      :arg1-of  (x2 / 发来-01
+            :arg0  (x16 / military
+                  :name  ( x1/朝鲜前线志愿军总部 
+)))      :arg1-of  (x8 / 拟定-01
+            :arg0  (x20 / person
+                  :arg0-of  (x21 / have-org-role-91
+                        :arg2  (x6 / 司令员
+))                  :name  ( x7/彭德怀 
+))))
+===========================
+主席勋鉴：今晨，我“志司”指挥部遭敌机狂轰滥炸，洪学智、毛岸英将我送入安全地域。
+(x24 / and
+      :op1  (x2 / 勋鉴
+            :arg0  (x27 / person
+                  :arg0-of  (x28 / have-org-role-91
+                        :arg2  (x1 / 主席
+))))      :op2  (x30 / causation
+            :arg1  (x11 / 遭-01
+                  :arg0  (x10 / 指挥部
+                        :name  ( x8/志司 
+)                        :poss  (x6 / 我
+))                  :time  (x4 / 今晨
+)                  :arg1  (x13 / 狂轰滥炸
+                        :arg0  (x12 / 敌机
+)))            :arg2  (x20 / 送入-01
+                  :arg0  (x39 / and
+                        :op1  (x40 / person
+                              :name  ( x15/洪学智 
+))                        :op2  (x42 / person
+                              :name  ( x17/毛岸英 
+)))                  :arg2  (x22 / 地域
+                        :arg0-of  (x21 / 安全-01
+))                  :arg1  (x19 / 我
+))))
+===========================
+尔后，岸英又返回指挥部取作战图。
+(x11 / temporal
+      :arg2  (x5 / 返回-01
+            :arg0  (x14 / person
+                  :name  ( x3/岸英 
+))            :arg1  (x6 / 指挥部
+)            :purpose  (x7 / 取-01
+                  :arg1  (x9 / 图
+                        :mod  (x8 / 作战
+))                  :arg0  (x14 / person
+))            :time  (x1 / 尔后
+)))
+===========================
+慌中未能劝告住他，致使被敌机的汽油弹击中。
+(x8 / 致使-01
+      :arg1  (x3_2 / 能-01
+            :arg0  (x4_x5 / 劝告-01
+                  :arg2  (x6 / 他
+))            :polarity  (x3_1 / -
+)            :condition  (x1 / 慌
+))      :arg2  (x13 / 击中-01
+            :arg0  (x12 / 汽油弹
+                  :poss  (x10 / 敌机
+))            :arg1  (x6 / 他
+))      :arg1  (x6 / 他
+))
+===========================
+主席的爱子、我们“志司”的好参谋岸英同志为了人民的事业光荣殉职……
+(x19 / 殉职-01
+      :manner  (x18 / 光荣
+)      :arg0  (x13 / 同志
+            :name  ( x12/岸英 
+)            :arg0-of  (x26 / mean
+                  :arg1  (x27 / and
+                        :op1  (x3 / 爱子
+                              :poss  (x29 / person
+                                    :arg0-of  (x30 / have-org-role-91
+                                          :arg2  (x1 / 主席
+))))                        :op2  (x33 / person
+                              :arg0-of  (x34 / have-org-role-91
+                                    :arg2  (x11 / 参谋
+)                                    :arg1  (x7 / 志司
+                                          :poss  (x5 / 我们
+)))                              :mod  (x10 / 好
+)))))      :cause  (x17 / 事业
+            :poss  (x15 / 人民
+)))
+===========================
+从收到这封电报起，毛泽东整整一天没说一句话，只是一支又一支地吸着烟。
+(x26 / temporal
+      :arg1  (x2 / 收到-01
+            :arg1  (x5 / 电报
+                  :mod  (x3 / 这
+)                  :cunit  (x4 / 封
+)))      :arg2  (x32 / and
+            :op1  (x12 / 说-01
+                  :arg0  (x34 / person
+                        :name  ( x8/毛泽东 
+))                  :arg1  (x13_3 / 话
+                        :quant  (x13_1 / 1
+)                        :cunit  (x13_2 / 句
+)                        :polarity  (x11 / -
+)                        :duration  (x40 / temporal-quantity
+                              :quant  (x10_1 / 1
+)                              :unit  (x10_2 / 天
+)                              :mod  (x9 / 整
+))))            :op2  (x22 / 吸-01
+                  :arg1  (x24 / 烟
+)                  :aspect  (x23 / 着
+)                  :mod  (x15 / 只是
+)                  :manner  (x16_x17_x18_x19_x20 / 一支又一支
+)                  :arg0  (x34 / person
+))))
+===========================
+桌子上的饭菜已经热了几次，还是原封不动地放在那里。
+(x18 / contrast
+      :arg1  (x6 / 热-03
+            :arg1  (x4 / 饭菜
+                  :location  (x1 / 桌子
+))            :aspect  (x5 / 已经
+)            :aspect  (x7 / 了
+)            :quant  (x8 / 几
+)            :unit  (x9 / 次
+))      :arg2  (x14_x15 / 放在-01
+            :arg2  (x16 / 那里
+)            :manner  (x12 / 原封不动
+)            :mod  (x11 / 还是
+)            :arg1  (x4 / 饭菜
+)))
+===========================
+岸英是他最心爱的长子。
+(x7 / 长子
+      :arg1-of  (x5 / 心爱-01
+            :arg0  (x3 / 他
+)            :degree  (x4 / 最
+))      :domain  (x15 / person
+            :name  ( x1/岸英 
+)))
+===========================
+当年，地下党的同志们冒着生命危险找到了岸英，把孩子送到他身边。
+(x22 / temporal
+      :arg1  (x11 / 找到-01
+            :arg0  (x5_x6 / 同志们
+                  :mod  (x32 / political-party
+                        :name  ( x3/地下党 
+)))            :arg1  (x26 / person
+                  :name  ( x13/岸英 
+))            :manner  (x7 / 冒-01
+                  :arg1  (x10 / 危险-01
+                        :arg0  (x9 / 生命
+))                  :arg0  (x5_x6 / 同志们
+))            :time  (x1 / 当年
+))      :arg2  (x17_x18 / 送到-01
+            :arg1  (x16 / x26
+)            :arg2  (x20 / 身边
+                  :poss  (x19 / 他
+))            :arg0  (x5_x6 / 同志们
+)))
+===========================
+后来岸英去苏联留学。
+(x5 / 留学-01
+      :arg0  (x9 / person
+            :name  ( x2/岸英 
+))      :arg1  (x11 / country
+            :name  ( x4/苏联 
+))      :time  (x1 / 后来
+))
+===========================
+在国外的大学毕业后，他又亲自把爱子送到农村锻炼。
+(x18 / temporal
+      :arg1  (x5 / 毕业-01
+            :arg1  (x4 / 大学
+                  :location  (x2 / 国外
+))            :arg0  (x12 / 爱子
+))      :arg2  (x13_x14 / 送到-01
+            :arg2  (x15 / 农村
+)            :arg1  (x12 / 爱子
+)            :arg0  (x8 / 他
+)            :manner  (x10 / 亲自
+)            :purpose  (x16 / 锻炼-01
+                  :arg1  (x12 / 爱子
+))))
+===========================
+那一次次的分离，岸英不都平平安安回到自己的身边来了吗？
+(x18 / concession
+      :arg1  (x4 / 分离
+            :quant  (x2 / 一次次
+)            :mod  (x1 / 那
+))      :arg2  (x10 / 回到-01
+            :arg0  (x28 / person
+                  :name  ( x6/岸英 
+))            :arg1  (x13 / 身边
+                  :poss  (x11 / 自己
+))            :polarity  (x7 / -
+)            :manner  (x9 / 平安
+)            :aspect  (x15 / 了
+)            :mode  (x16_x17 / interrogative
+)))
+===========================
+这次怎么会……
+(x2 / 怎么会
+      :mod  (x1_1 / 这
+)      :unit  (x1_2 / 次
+))
+===========================
+“岸英！岸英！”
+(x6 / say
+      :arg1  (x8 / and
+            :op1  (x9 / person
+                  :name  ( x2/岸英 
+)                  :mode  (x3 / expressive
+))            :op2  (x4 / x9
+                  :mode  (x5 / expressive
+))))
+===========================
+主席用食指按着紧锁的眉头，情不自禁地喃喃着；
+(x18 / temporal
+      :arg1  (x2 / 用-01
+            :arg0  (x21 / person
+                  :arg0-of  (x22 / have-org-role-91
+                        :arg2  (x1 / 主席
+)))            :arg1  (x3 / 食指
+)            :arg2  (x4 / 按-01
+                  :arg1  (x9 / 眉头
+                        :arg1-of  (x6_x7 / 紧锁-01
+))                  :aspect  (x5 / 着
+)                  :arg0  (x21 / person
+)))      :arg2  (x13 / 喃喃
+            :arg0  (x21 / person
+)            :manner  (x11 / 情不自禁
+)            :aspect  (x14 / 着
+)))
+===========================
+“主席，”秘书走进来，小声说，“彭老总来电，说岸英是主席的长子，请求破格将遗体运回国。”
+(x29 / temporal
+      :arg1  (x5 / 走-01
+            :arg0  (x4 / 秘书
+)            :direction  (x6 / 进来
+))      :arg2  (x9 / 说-01
+            :manner  (x8 / 小声
+)            :arg0  (x4 / 秘书
+)            :arg1  (x36 / and
+                  :op1  (x37 / person
+                        :arg0-of  (x38 / have-org-role-91
+                              :arg2  (x2 / 主席
+)))                  :op2  (x13 / 来电-02
+                        :arg0  (x12 / 老总
+                              :name  ( x11/彭 
+))                        :arg1  (x43 / causation
+                              :arg1  (x20 / 长子
+                                    :poss  (x18 / x37
+)                                    :domain  (x46 / person
+                                          :name  ( x16/岸英 
+)))                              :arg2  (x22 / 请求-01
+                                    :arg2  (x26 / 运回-01
+                                          :arg1  (x25 / 遗体
+)                                          :arg2  (x27 / 国
+)                                          :manner  (x23 / 破格
+))))))))
+===========================
+秘书又凑近主席，轻声说：“朝鲜金日成首相来电，向主席表示慰问，他说岸英同志是为朝鲜人民的解放事业牺牲的，也是朝鲜人民的儿子，他要求把岸英葬在朝鲜。”
+(x48 / temporal
+      :arg2  (x3 / 凑近-01
+            :arg0  (x1 / 秘书
+)            :arg1  (x52 / person
+                  :arg0-of  (x53 / have-org-role-91
+                        :arg2  (x4 / 主席
+))))      :arg3  (x7 / 说-01
+            :manner  (x6 / 轻声
+)            :arg0  (x1 / 秘书
+)            :arg1  (x57 / and
+                  :op1  (x12 / 来电-01
+                        :arg0  (x59 / person
+                              :arg0-of  (x60 / have-org-role-91
+                                    :arg1  (x61 / country
+                                          :name  ( x9/朝鲜 
+))                                    :arg2  (x11 / 首相
+))                              :name  ( x10/金日成 
+))                        :purpose  (x16 / 表示-01
+                              :arg1  (x17 / 慰问
+)                              :arg2  (x15 / x53
+)                              :arg0  (x59 / person
+)))                  :op2  (x20 / 说-01
+                        :arg0  (x19 / x59
+)                        :arg1  (x70 / causation
+                              :arg1  (x71 / and
+                                    :op1  (x30 / 牺牲-01
+                                          :arg1  (x22 / 同志
+                                                :name  ( x21/岸英 
+))                                          :cause  (x29 / 事业
+                                                :mod  (x28 / 解放-01
+                                                      :arg0  (x26 / 人民
+                                                            :mod  (x24 / x61
+))))                                          :mode  (x23_x31 / judgement
+))                                    :op2  (x38 / 儿子
+                                          :poss  (x36 / x26
+                                                :mod  (x35 / x61
+))                                          :domain  (x22 / 同志
+)                                          :mod  (x33 / 也
+)))                              :arg2  (x41 / 要求-01
+                                    :arg0  (x40 / x59
+)                                    :arg1  (x44 / 葬
+                                          :arg1  (x43 / x22
+)                                          :location  (x46 / x61
+))))))))
+===========================
+主席仰起头望着天花板，强忍着心中的悲痛，目光中流露出无限的眷恋。
+(x23 / temporal
+      :arg1  (x2_x3 / 仰-01
+            :arg0  (x27 / person
+                  :arg0-of  (x28 / have-org-role-91
+                        :arg2  (x1 / 主席
+)))            :arg1  (x4 / 头
+))      :arg2  (x5 / 望-01
+            :arg1  (x7 / 天花板
+)            :aspect  (x6 / 着
+)            :arg0  (x27 / person
+))      :arg3  (x9 / 强忍
+            :arg1  (x13 / 悲痛
+                  :mod  (x11 / 心中
+))            :aspect  (x10 / 着
+)            :arg0  (x27 / person
+))      :arg4  (x17_x18 / 流露-01
+            :arg0  (x15 / 目光
+)            :arg1  (x21 / 眷恋
+                  :arg0-of  (x19 / 无限-01
+))))
+===========================
+岸英奔赴朝鲜时，他因为工作繁忙，未能见上一面，谁知竟成了永别！
+(x22 / contrast
+      :arg1  (x24 / causation
+            :arg1  (x9 / 繁忙-01
+                  :arg0  (x8 / 工作-01
+                        :arg0  (x6 / 他
+))                  :time  (x2 / 奔赴-01
+                        :arg0  (x35 / person
+                              :name  ( x1/岸英 
+))                        :arg1  (x37 / country
+                              :name  ( x3/朝鲜 
+))))            :arg2  (x11_2 / 能-01
+                  :arg0  (x12_x13 / 见-01
+                        :quant  (x14_1 / 1
+)                        :cunit  (x14_2 / 面
+)                        :arg0  (x6 / 他
+)                        :arg1  (x35 / person
+))                  :polarity  (x11_1 / -
+)))      :arg2  (x16 / 谁知-01
+            :arg0  (x18 / 成-03
+                  :mod  (x17 / 竟
+)                  :arg1  (x20 / 永别
+)                  :aspect  (x19 / 了
+))            :mode  (x21 / expressive
+)))
+===========================
+“儿子活着不能相见，就让我见见遗体吧！”主席想。
+(x18 / 想-01
+      :arg0  (x22 / person
+            :arg0-of  (x23 / have-org-role-91
+                  :arg2  (x17 / 主席
+)))      :arg1  (x25 / condition
+            :arg1  (x6 / 能-01
+                  :arg0  (x7 / 相见-01
+                        :arg0  (x2 / 儿子
+))                  :time  (x3 / 活-01
+                        :arg0  (x2 / 儿子
+)                        :aspect  (x4 / 着
+))                  :polarity  (x5 / -
+))            :arg2  (x10 / 让-02
+                  :arg1  (x11 / x22
+)                  :arg2  (x12_x13 / 见-01
+                        :arg1  (x14 / 遗体
+)                        :arg0  (x11 / x22
+))                  :mode  (x15 / imperative
+)                  :mode  (x16 / expressive
+))))
+===========================
+然而，这种想法很快被打消了。
+(x10 / contrast
+      :arg2  (x7 / 打消-01
+            :arg0  (x13 / person
+)            :arg1  (x4 / 想法
+                  :mod  (x3_1 / 这
+)                  :unit  (x3_2 / 种
+))            :time  (x5 / 很快
+)            :aspect  (x8 / 了
+)))
+===========================
+他像是自我安慰地说道：“我的儿子死了，我当然很悲痛，可是，战争嘛，总是要死人的。
+(x7 / 说道-01
+      :arg0  (x1 / 他
+)      :manner  (x2 / 像-02
+            :arg1  (x5 / 安慰
+                  :manner  (x4 / 自我
+)))      :arg1  (x37 / contrast
+            :arg1  (x38 / causation
+                  :arg1  (x12 / 死-01
+                        :arg0  (x11 / 儿子
+                              :poss  (x9 / x1
+))                        :aspect  (x13 / 了
+))                  :arg2  (x18 / 悲痛-01
+                        :arg0  (x15 / x1
+)                        :degree  (x17 / 很
+)                        :mod  (x16 / 当然
+)))            :arg2  (x47 / condition
+                  :arg1  (x22 / 战争
+                        :mode  (x23 / expressive
+))                  :arg2  (x26 / 要-03
+                        :arg0  (x27 / 死-01
+                              :arg0  (x28 / 人
+))                        :mod  (x25 / 总是
+)                        :smood  (x29 / 的
+)))))
+===========================
+朝鲜战场上我们有多少优秀儿女献出了生命，他们的父母难道就不悲痛吗？
+(x23 / contrast
+      :arg1  (x9 / 献出-01
+            :arg0  (x8 / 儿女
+                  :arg0-of  (x7 / 优秀-01
+)                  :quant  (x6 / amr-unknown
+))            :arg1-of  (x5 / 有-01
+                  :arg0  (x4 / 我们
+))            :location  (x2 / 战场
+                  :mod  (x32 / country
+                        :name  ( x1/朝鲜 
+)))            :aspect  (x10 / 了
+)            :arg1  (x11 / 生命
+))      :arg2  (x16 / 难道
+            :arg0  (x19 / 悲痛-01
+                  :arg0  (x15 / 父母
+                        :poss  (x13 / x8
+))                  :polarity  (x18 / -
+)                  :mod  (x17 / 就
+))            :mode  (x20_x21 / interrogative
+)))
+===========================
+他们就不想再见一见儿子的遗容吗？
+(x4 / 想-02
+      :arg0  (x1 / 他们
+)      :mod  (x2 / 就
+)      :polarity  (x3 / -
+)      :mod  (x5 / 再
+)      :arg1  (x6_x7_x8 / 见-01
+            :arg1  (x11 / 遗容
+                  :poss  (x9 / 儿子
+))            :arg0  (x1 / 他们
+))      :mode  (x12_x13 / interrogative
+))
+===========================
+岸英是我的儿子，也是朝鲜人民的儿子，就尊重朝鲜人民的意愿吧。”
+(x22 / say
+      :arg1  (x24 / causation
+            :arg1  (x25 / progression
+                  :arg1  (x5 / 儿子
+                        :poss  (x3 / 我
+)                        :domain  (x28 / person
+                              :name  ( x1/岸英 
+)))                  :arg2  (x12 / 儿子
+                        :poss  (x10 / 人民
+                              :mod  (x32 / country
+                                    :name  ( x9/朝鲜 
+)))                        :domain  (x28 / person
+)))            :arg2  (x15 / 尊重-01
+                  :arg1  (x19 / 意愿
+                        :poss  (x17 / x10
+                              :mod  (x16 / x32
+)))                  :mode  (x20 / imperative
+))))
+===========================
+秘书将电报记录稿交主席签字的一瞬间，主席下意识地踌躇了一会儿，那神情分明在说，岸英难道真的不在了？
+(x33 / and
+      :op1  (x14 / 踌躇-01
+            :arg0  (x36 / person
+                  :arg0-of  (x37 / have-org-role-91
+                        :arg2  (x11 / 主席
+)))            :manner  (x12 / 下意识
+)            :aspect  (x15 / 了
+)            :duration  (x16 / 一会儿
+)            :time  (x9 / 一瞬间
+                  :mod  (x5 / 交-01
+                        :arg0  (x1 / 秘书
+)                        :arg1  (x4 / 记录稿
+                              :mod  (x3 / 电报
+))                        :arg2  (x6 / x36
+)                        :purpose  (x7 / 签字-01
+                              :arg0  (x6 / x36
+)))))      :op2  (x22 / 说-01
+            :arg0  (x19 / 神情
+                  :mod  (x18 / 那
+))            :manner  (x20 / 分明
+)            :aspect  (x21 / 在
+)            :arg1  (x29 / 在-03
+                  :arg0  (x48 / person
+                        :name  ( x24/岸英 
+))                  :mod  (x26_x27 / 真的
+)                  :mod  (x25 / 难道
+)                  :polarity  (x28 / -
+)                  :aspect  (x30 / 了
+)                  :mode  (x31 / interrogative
+))))
+===========================
+父子真的不能相见了？
+(x5 / 能-01
+      :arg0  (x6 / 相见-01
+            :arg0  (x1 / 父子
+))      :polarity  (x4 / -
+)      :mode  (x2_x3 / 真的
+)      :aspect  (x7 / 了
+)      :mode  (x8 / interrogative
+))
+===========================
+主席黯然的目光转向窗外，右手指指写字台，示意秘书将电文稿放在上面。
+(x19 / temporal
+      :arg1  (x5 / 转向-01
+            :arg1  (x4 / 目光
+                  :poss  (x23 / person
+                        :arg0-of  (x24 / have-org-role-91
+                              :arg2  (x1 / 主席
+)))                  :arg0-of  (x2 / 黯然
+))            :arg2  (x6 / 窗外
+))      :arg2  (x9 / 指-05
+            :arg1  (x10 / 写字台
+)            :arg0  (x8 / 右手
+))      :arg3  (x12 / 示意-01
+            :arg1  (x16 / 放在-01
+                  :arg1  (x15 / 电文稿
+)                  :arg2  (x17 / 上面
+)                  :arg0  (x13 / 秘书
+))            :arg2  (x13 / 秘书
+)            :arg0  (x23 / person
+)))
+===========================
+第二天早上，秘书来到毛主席的卧室。
+(x6 / 来到-01
+      :arg0  (x5 / 秘书
+)      :arg1  (x10 / 卧室
+            :poss  (x16 / person
+                  :arg0-of  (x17 / have-org-role-91
+                        :arg2  (x8 / 主席
+))                  :name  ( x7/毛 
+)))      :time  (x20 / date-entity
+            :dayperiod  (x3 / 早上
+)            :day  (x22 / ordinal-entity
+                  :value  (x1 / 2
+)                  :unit  (x2 / 天
+))))
+===========================
+毛主席已经出去了，放在枕头上的电文稿写着一行醒目的大字：青山处处埋忠骨，何须马革裹尸还。
+(x29 / and
+      :op1  (x4 / 出去-01
+            :arg0  (x32 / person
+                  :arg0-of  (x33 / have-org-role-91
+                        :arg2  (x2 / 主席
+))                  :name  ( x1/毛 
+))            :aspect  (x3 / 已经
+)            :aspect  (x5 / 了
+))      :op2  (x12 / 写-01
+            :arg2  (x11 / 电文稿
+                  :arg1-of  (x7 / 放在-01
+                        :arg2  (x8 / 枕头
+)))            :arg1  (x17 / 大字
+                  :arg0-of  (x15 / 醒目-01
+)                  :quant  (x14_1 / 1
+)                  :cunit  (x14_2 / 行
+)                  :arg0-of  (x47 / mean
+                        :arg1  (x48 / and
+                              :op1  (x21 / 埋-01
+                                    :arg1  (x23 / 骨
+                                          :mod  (x22 / 忠
+))                                    :arg2  (x19 / 青山
+)                                    :range  (x20 / 处处
+))                              :op2  (x27 / 还
+                                    :manner  (x26 / 马革裹尸
+)                                    :polarity  (x25 / -
+)))))            :aspect  (x13 / 着
+)            :arg0  (x32 / person
+)))
+===========================
+电文稿下是被泪水打湿的枕巾。
+(x9 / 枕巾
+      :arg1-of  (x6_x7 / 打湿-01
+            :arg0  (x5 / 泪水
+))      :location  (x2 / 下
+            :arg0  (x1 / 电文稿
+)))
+===========================

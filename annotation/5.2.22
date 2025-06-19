@@ -1,0 +1,257 @@
+“要不——摔跤。”
+(x6 / say
+      :arg1  (x8 / orx
+            :arg2  (x4 / 摔跤
+)))
+===========================
+“是吗？”
+(x5 / say
+      :arg1  (x2 / 是
+            :mode  (x3_x4 / interrogative
+)))
+===========================
+小胖墩儿跳起来，立刻退后两步，一闪身脱了单褂儿，叉着腰说，“来吧，是一叉一搂的，还是随便摔？”
+(x37 / temporal
+      :arg1  (x3 / 跳-01
+            :arg0  (x2 / 胖墩儿
+                  :arg0-of  (x1 / 小-01
+))            :direction  (x4 / 起来
+))      :arg2  (x7 / 退后
+            :mod  (x6 / 立刻
+)            :quant  (x8 / 2
+)            :unit  (x9 / 步
+))      :arg3  (x14 / 脱-01
+            :manner  (x12 / 闪
+                  :arg0  (x13 / 身
+))            :arg1  (x16 / 单褂儿
+)            :aspect  (x15 / 了
+))      :arg4  (x21 / 说-01
+            :manner  (x18_x20 / 叉腰
+                  :aspect  (x19 / 着
+))            :arg1  (x55 / and
+                  :op1  (x23 / 来
+                        :mode  (x24 / imperative
+))                  :op2  (x58 / or
+                        :op1  (x59 / and
+                              :op1  (x28 / 叉
+)                              :op2  (x30 / 搂
+))                        :op2  (x35 / 摔
+                              :manner  (x34 / 随便
+))                        :mode  (x36 / interrogative
+)))))
+===========================
+小嘎子在家里跟人摔跤，一向仗着手疾眼快，从不单凭力气，自然不跟他一叉一搂。
+(x29 / and
+      :op1  (x7 / 摔跤-01
+            :arg0  (x5 / and
+                  :op1  (x33 / person
+                        :name  ( x2/嘎子 
+))                  :op2  (x6 / 人
+))            :location  (x4 / 家里
+))      :op2  (x37 / causation
+            :arg1  (x38 / and
+                  :op1  (x10 / 仗-01
+                        :arg1  (x12 / 手疾眼快
+)                        :time  (x9 / 一向
+)                        :arg0  (x33 / person
+)                        :aspect  (x11 / 着
+))                  :op2  (x17 / 凭-01
+                        :arg1  (x18 / 力气
+)                        :polarity  (x15 / -
+                              :mod  (x14 / 从
+))                        :manner  (x16 / 单
+)))            :arg2  (x48 / and
+                  :op1  (x25 / 叉-01
+                        :arg0  (x23 / 他
+))                  :op2  (x27 / 搂-01
+                        :arg0  (x23 / 他
+))                  :polarity  (x21 / -
+))))
+===========================
+俩人把“枪”和“鞭”放在门墩上，各自虎势儿一站，公鸡鹐架似的对起阵来。
+(x29 / temporal
+      :arg1  (x11 / 放在-01
+            :arg0  (x2 / 人
+                  :quant  (x1 / 2
+))            :arg1  (x7 / and
+                  :op1  (x5 / 枪
+)                  :op2  (x9 / 鞭
+))            :arg2  (x13 / 上
+                  :arg0  (x12 / 门墩
+)))      :arg2  (x18 / 站-01
+            :manner  (x16 / 虎势儿
+))      :arg3  (x24_x25_x26_x27 / 对阵-01
+            :manner  (x23 / 似的
+                  :arg1  (x21_x22 / 鹐架
+                        :arg0  (x20 / 公鸡
+)))            :arg0  (x2 / 人
+)))
+===========================
+起初，小嘎子精神抖擞，欺负对手傻大黑粗，动转不灵，围着他猴儿似的蹦来蹦去，总想使巧招，下冷绊子，仿佛很占了上风。
+(x43 / temporal
+      :arg1  (x5 / 精神抖擞
+            :arg0  (x46 / person
+                  :name  ( x4/嘎子 
+))            :time  (x1 / 起初
+))      :arg2  (x7 / 欺负-01
+            :arg1  (x50 / and
+                  :op1  (x9 / 傻-01
+                        :arg0  (x8 / 对手
+))                  :op2  (x10 / 大-01
+                        :arg0  (x8 / 对手
+))                  :op3  (x11 / 黑-01
+                        :arg0  (x8 / 对手
+))                  :op4  (x12 / 粗-01
+                        :arg0  (x8 / 对手
+))                  :op5  (x16_2 / 灵
+                        :arg0  (x14_x15 / 动转
+)                        :polarity  (x16_1 / -
+))))      :arg3  (x22_x24 / 蹦
+            :direction  (x23_x25 / 来去
+)            :manner  (x18 / 围着
+                  :arg1  (x19 / x8
+))            :manner  (x21 / 似的
+                  :arg1  (x20 / 猴儿
+)))      :arg4  (x65 / and
+            :op1  (x28 / 想-02
+                  :arg1  (x67 / and
+                        :op1  (x29 / 使-02
+                              :arg1  (x31 / 招
+                                    :arg0-of  (x30 / 巧-01
+)))                        :op2  (x33 / 下-10
+                              :arg1  (x35 / 绊子
+                                    :arg0-of  (x34 / 冷-01
+))))                  :arg0  (x46 / person
+))            :op2  (x37 / 仿佛-01
+                  :arg0  (x39 / 占-02
+                        :arg1  (x41 / 上风
+)                        :aspect  (x40 / 了
+)                        :degree  (x38 / 很
+)                        :arg0  (x46 / person
+)))))
+===========================
+可是小胖墩儿也是个摔跤的惯手，塌着腰，合了裆，鼓着眼珠子，不露一点儿破绽。
+(x28 / contrast
+      :arg2  (x30 / and
+            :op1  (x9 / 惯手
+                  :arg0-of  (x7 / 摔跤-01
+)                  :cunit  (x6 / 个
+)                  :domain  (x34 / person
+                        :name  ( x3/胖墩儿 
+                              :arg0-of  (x2 / 小-01
+)))                  :mod  (x4 / 也
+))            :op2  (x11 / 塌
+                  :arg0  (x13 / 腰
+)                  :aspect  (x11 / 塌
+))            :op3  (x15 / 合-05
+                  :arg1  (x17 / 裆
+)                  :aspect  (x16 / 了
+))            :op4  (x19 / 鼓
+                  :arg1  (x21 / 眼珠子
+)                  :aspect  (x20 / 着
+))            :op5  (x24 / 露-01
+                  :arg1  (x26 / 破绽
+                        :quant  (x25 / 一点儿
+))                  :polarity  (x23 / -
+)                  :arg0  (x34 / person
+))))
+===========================
+两个人走马灯似的转了三四圈，终于三抓两挠，揪在了一起。
+(x23 / temporal
+      :arg1  (x6 / 转-04
+            :quant  (x26 / and
+                  :op1  (x8 / 3
+)                  :op2  (x9 / 4
+))            :cunit  (x10 / 圈
+)            :arg0  (x3 / 人
+                  :quant  (x1 / 2
+)                  :cunit  (x2 / 个
+))            :manner  (x5 / 似的
+                  :arg1  (x4 / 走马灯
+)))      :arg2  (x13_x14_x15_x16 / 三抓两挠
+            :mod  (x12 / 终于
+))      :arg3  (x18 / 揪-01
+            :cause-of  (x21 / 一起
+)            :aspect  (x20 / 了
+)            :arg0  (x3 / 人
+)))
+===========================
+这一来，小嘎子可上了当：小胖墩儿膀大腰粗，一身牛劲儿，任你怎样推拉拽顶，硬是扳不动他。
+(x35 / and
+      :op1  (x37 / causation
+            :arg1  (x1 / 这一来
+)            :arg2  (x6_x8 / 上当-01
+                  :arg0  (x40 / person
+                        :name  ( x4/嘎子 
+))                  :aspect  (x7 / 了
+)))      :op2  (x43 / and
+            :op1  (x13 / 大-01
+                  :arg0  (x12 / 膀
+                        :part-of  (x46 / person
+                              :name  ( x11/胖墩儿 
+                                    :arg0-of  (x10 / 小-01
+)))))            :op2  (x15 / 粗-01
+                  :arg0  (x14 / 腰
+                        :part-of  (x46 / person
+)))            :op2  (x19 / 劲儿
+                  :mod  (x18 / 牛
+)                  :arg0  (x17 / 一身
+))            :op4  (x21 / 任-02
+                  :arg1  (x55 / and
+                        :op1  (x24 / 推-01
+                              :arg0  (x22 / 你
+))                        :op2  (x25 / 拉-01
+                              :arg0  (x22 / 你
+))                        :op3  (x26 / 拽-01
+                              :arg0  (x22 / 你
+))                        :op4  (x27 / 顶-01
+                              :arg0  (x22 / 你
+))                        :mod  (x23 / 怎样
+)))            :op5  (x32 / possible
+                  :arg0  (x30 / 扳-01
+                        :arg1  (x33 / x46
+))                  :polarity  (x31 / -
+)                  :mod  (x29 / 硬是
+))))
+===========================
+小嘎子已有些沉不住气，刚想用脚腕子去钩他的腿，不料反给他把脚别住了。
+(x30 / causation
+      :arg1  (x5_x7_x8 / 沉住气-01
+            :polarity  (x6 / -
+)            :arg0  (x34 / person
+                  :name  ( x2/嘎子 
+))            :degree  (x4 / 有些
+)            :aspect  (x3 / 已
+))      :arg2  (x38 / contrast
+            :arg1  (x11 / 想-02
+                  :arg1  (x15 / 钩
+                        :arg1  (x18 / 腿
+                              :part-of  (x16 / 他
+)))                  :instrument  (x13 / 脚腕子
+))            :arg2  (x20_2 / 料-01
+                  :arg1  (x26_x27 / 别住
+                        :arg1  (x25 / 脚
+)                        :arg0  (x23 / x16
+))                  :polarity  (x20_1 / -
+)                  :aspect  (x28 / 了
+))))
+===========================
+胖墩儿趁势往旁侧里一推，咕咚一声，小嘎子摔了个仰面朝天。
+(x23 / temporal
+      :arg1  (x7 / 推-01
+            :arg0  (x27 / person
+                  :name  ( x1/胖墩儿 
+))            :direction  (x4 / 旁侧
+)            :manner  (x2 / 趁势
+))      :arg2  (x11 / 声
+            :quant  (x10 / 1
+)            :arg0-of  (x32 / mean
+                  :arg1  (x9 / 咕咚
+)))      :arg3  (x15 / 摔-01
+            :arg0  (x35 / person
+                  :name  ( x14/嘎子 
+))            :cause-of  (x18_x19_x20_x21 / 仰面朝天
+                  :cunit  (x17 / 个
+))            :aspect  (x16 / 了
+)))
+===========================

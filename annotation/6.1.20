@@ -1,0 +1,1278 @@
+西双版纳曾经有过威风凛凛的象兵。
+(x3 / 有-03
+      :arg0  (x12 / country-region
+            :name  ( x1/西双版纳 
+))      :aspect  (x4 / 过
+)      :arg1  (x8 / 兵
+            :mod  (x7 / 象
+)            :arg0-of  (x5 / 威风凛凛
+))      :aspect  (x2 / 曾经
+))
+===========================
+所谓象兵，就是骑着大象作战的士兵。
+(x11 / 士兵
+      :arg0-of  (x9 / 作战-01
+            :manner  (x6 / 骑-01
+                  :arg1  (x8 / 大象
+)                  :aspect  (x7 / 着
+)))      :domain  (x3 / 兵
+            :mod  (x2 / 象
+)            :arg1-of  (x1 / 所谓-01
+)))
+===========================
+士兵骑象杀敌，战象用一长鼻劈敌，用象蹄踩敌，一大群战象，排山倒海般地扑向敌人，势不可当。
+(x35 / and
+      :op1  (x4 / 杀敌-01
+            :arg0  (x1 / 士兵
+)            :manner  (x2 / 骑-01
+                  :arg1  (x3 / 象
+)                  :arg0  (x1 / 士兵
+)))      :op2  (x8 / 用-01
+            :arg1  (x11 / 鼻
+                  :arg0-of  (x10 / 长-02
+)                  :quant  (x9 / 1
+))            :arg0  (x7 / 象
+                  :mod  (x6 / 战
+))            :arg2  (x12 / 劈-01
+                  :arg1  (x13 / 敌
+)                  :arg0  (x11 / 鼻
+)))      :op3  (x15 / 用-01
+            :arg1  (x17 / 蹄
+                  :part-of  (x16 / 象
+))            :arg2  (x18 / 踩-01
+                  :arg1  (x19 / x13
+)                  :arg0  (x17 / 蹄
+))            :arg0  (x7 / 象
+))      :op4  (x29_x30 / 扑向-01
+            :arg1  (x31 / x13
+)            :manner  (x27 / 般-01
+                  :arg1  (x26 / 排山倒海
+))            :arg0  (x24 / x3
+                  :mod  (x23 / 战
+)                  :quant  (x21 / 1
+)                  :cunit  (x22_2 / 群
+                        :mod  (x22_1 / 大
+))))      :op5  (x33 / 势不可当
+            :arg0  (x24 / x3
+)))
+===========================
+1943年，象兵在西双版纳打洛江畔和日寇打了一仗。
+(x11 / 打-12
+      :arg1  (x14 / 仗
+            :quant  (x13 / 1
+))      :aspect  (x12 / 了
+)      :arg0  (x9 / and
+            :op1  (x4 / 兵
+                  :mod  (x3 / 象
+))            :op2  (x10 / 日寇
+))      :location  (x8 / 畔
+            :arg0  (x27 / river
+                  :name  ( x7/打洛江 
+))            :location  (x29 / country-region
+                  :name  ( x6/西双版纳 
+)))      :time  (x31 / date-entity
+            :year  (x1 / 1943
+)))
+===========================
+战斗结束后，鬼子扔下了七十多具尸体，我方八十多头战象全部中弹倒地。
+(x23 / and
+      :time  (x3 / 后
+            :op1  (x2 / 结束-01
+                  :arg1  (x1 / 战斗
+)))      :op1  (x6 / 扔下-01
+            :arg0  (x5 / 鬼子
+)            :arg1  (x11 / 尸体
+                  :quant  (x9 / 多
+                        :op1  (x8 / 70
+))                  :cunit  (x10 / 具
+))            :aspect  (x7 / 了
+))      :op2  (x21 / 倒地-01
+            :cause  (x20 / 中弹-01
+                  :arg0  (x18 / 象
+                        :mod  (x17 / 战
+)                        :quant  (x15 / 多
+                              :op1  (x14 / 80
+))                        :poss  (x13 / 我方
+)                        :cunit  (x16 / 头
+)))            :arg0  (x18 / 象
+)            :mod  (x19 / 全部
+)))
+===========================
+人们在打洛江边挖了一个巨坑，隆重埋葬阵亡的战象。
+(x18 / temporal
+      :arg1  (x5 / 挖-01
+            :arg1  (x9 / 坑
+                  :arg0-of  (x8 / 巨
+)                  :quant  (x7_1 / 1
+)                  :cunit  (x7_2 / 个
+))            :aspect  (x6 / 了
+)            :arg0  (x1 / 人们
+)            :location  (x4 / 边
+                  :arg0  (x28 / river
+                        :name  ( x3/打洛江 
+))))      :arg2  (x12 / 埋葬-01
+            :arg1  (x16 / 象
+                  :mod  (x15 / 战
+)                  :arg0-of  (x13 / 阵亡-01
+))            :manner  (x11 / 隆重
+)            :arg0  (x1 / 人们
+)))
+===========================
+在搬运战象的尸体时，人们发现一头浑身是血的公象还在喘息，就把它运回寨子，治好伤养了起来。
+(x36 / temporal
+      :time  (x2 / 搬运-01
+            :arg1  (x6 / 尸体
+                  :poss  (x4 / 象
+                        :mod  (x3 / 战
+)))            :arg0  (x9 / 人们
+))      :arg1  (x10 / 发现-01
+            :arg0  (x9 / 人们
+)            :arg1  (x21 / 喘息-01
+                  :arg0  (x18 / 象
+                        :mod  (x17 / 公
+)                        :mod  (x15 / 血
+                              :range  (x13 / 浑身
+))                        :quant  (x11 / 1
+)                        :cunit  (x12 / 头
+))                  :aspect  (x20 / 在
+)                  :mod  (x19 / 还
+)))      :arg2  (x26 / 运回-01
+            :arg1  (x25 / x18
+)            :arg2  (x27 / 寨子
+)            :arg0  (x9 / 人们
+))      :arg3  (x29 / 治-02
+            :arg1  (x31 / 伤
+)            :cause-of  (x30 / 好
+)            :arg0  (x9 / 人们
+))      :arg4  (x32_x34 / 养-01
+            :aspect  (x33 / 了
+)            :arg1  (x25 / x18
+)            :arg0  (x9 / 人们
+)))
+===========================
+村民们从不叫它搬运东西，它整天优哉游哉地在寨子里闲逛，到东家要串香蕉，到西家喝筒泉水。
+(x30 / causation
+      :arg1  (x4 / 叫-04
+            :arg0  (x1_x2 / 村民们
+)            :polarity  (x3_2 / -
+)            :mod  (x3_1 / 从
+)            :arg1  (x5 / 它
+)            :arg2  (x6 / 搬运-01
+                  :arg1  (x7 / 东西
+)                  :arg0  (x5 / 它
+)))      :arg2  (x40 / and
+            :op1  (x16 / 闲逛-01
+                  :arg0  (x9 / x5
+)                  :manner  (x11 / 优哉游哉
+)                  :time  (x10 / 整天
+)                  :location  (x14 / 寨子
+))            :op2  (x18 / 到-01
+                  :arg1  (x19 / 东家
+)                  :purpose  (x20 / 要-01
+                        :arg1  (x22 / 香蕉
+                              :cunit  (x21 / 串
+))                        :arg0  (x9 / x5
+)                        :arg2  (x19 / 东家
+))                  :arg0  (x9 / x5
+))            :op3  (x24 / 到-01
+                  :arg1  (x25 / 西家
+)                  :arg0  (x9 / x5
+)                  :purpose  (x26 / 喝-01
+                        :arg1  (x28 / 泉水
+                              :cunit  (x27 / 筒
+))                        :arg0  (x9 / x5
+)))))
+===========================
+它叫嘎羧，负责饲养它的是波农丁。
+(x12 / and
+      :op1  (x2 / 叫-01
+            :arg0  (x1 / 它
+)            :arg1  (x3 / 嘎羧
+))      :op2  (x17 / person
+            :name  ( x10/波农丁 
+)            :domain  (x19 / person
+                  :arg0-of  (x5 / 负责-01
+                        :arg1  (x6 / 饲养-01
+                              :arg1  (x7 / x1
+)                              :arg0  (x17 / person
+))))))
+===========================
+二十多年过去，嘎羧五十多岁了。
+(x11 / age
+      :time  (x3 / 过去-01
+            :arg0  (x14 / temporal-quantity
+                  :quant  (x2_1 / 多
+                        :op1  (x1 / 20
+))                  :unit  (x2_2 / 年
+)))      :arg1  (x18 / animal
+            :name  ( x5/嘎羧 
+))      :arg2  (x20 / temporal-quantity
+            :quant  (x7 / 多
+                  :op1  (x6 / 50
+))            :unit  (x8 / 岁
+))      :aspect  (x9 / 了
+))
+===========================
+它显得很衰老，整天卧在树阴下打瞌睡。
+(x14 / and
+      :op1  (x2 / 显得-01
+            :arg0  (x1 / 它
+)            :arg1  (x4 / 衰老
+                  :degree  (x3 / 很
+)))      :op2  (x7 / 卧
+            :arg0  (x1 / 它
+)            :location  (x11 / 下
+                  :arg0  (x9_x10 / 树阴
+))            :time  (x6 / 整天
+))      :op3  (x12 / 打瞌睡-01
+            :arg0  (x1 / 它
+)))
+===========================
+有一天，嘎羧躺在地上拒绝进食，要揪住它的鼻子摇晃好一阵，它才会艰难地睁开眼睛，朝你看一眼。
+(x35 / and
+      :op1  (x5 / 躺-01
+            :arg0  (x38 / animal
+                  :name  ( x4/嘎羧 
+))            :arg1  (x7 / 地上
+))      :op2  (x8 / 拒绝-01
+            :arg1  (x9 / 进食
+)            :arg0  (x38 / animal
+))      :op3  (x43 / condition
+            :arg1  (x11 / 要-03
+                  :arg0  (x45 / temporal
+                        :arg1  (x12_x13 / 揪-01
+                              :arg1  (x16 / 鼻子
+                                    :part-of  (x14 / x38
+)))                        :arg2  (x17 / 摇晃-01
+                              :duration  (x19 / 一阵
+                                    :mod  (x18 / 好
+))                              :arg0  (x16 / 鼻子
+))))            :arg2  (x23 / 会-02
+                  :arg0  (x53 / temporal
+                        :arg1  (x26_x27 / 睁开-01
+                              :arg0  (x21 / x38
+)                              :arg1  (x28 / 眼睛
+)                              :manner  (x24 / 艰难
+))                        :arg2  (x32 / 看-02
+                              :quant  (x33_1 / 1
+)                              :cunit  (x33_2 / 眼
+)                              :direction  (x31 / 你
+)                              :arg0  (x21 / x38
+)))))      :time  (x1_x2 / 有一天
+))
+===========================
+波农丁对我说：“太阳要落山了，火塘要熄灭了，嘎羧要走黄泉路啦。”
+(x4 / 说-01
+      :arg0  (x26 / person
+            :name  ( x1/波农丁 
+))      :arg3  (x3 / 我
+)      :arg1  (x29 / and
+            :op1  (x7 / 要-03
+                  :arg0  (x8_x9 / 落山
+                        :arg0  (x6 / 太阳
+))                  :aspect  (x10 / 了
+))            :op2  (x13 / 要-03
+                  :arg0  (x14 / 熄灭-01
+                        :arg1  (x12 / 火塘
+))                  :aspect  (x15 / 了
+))            :op3  (x18 / 要-03
+                  :arg1  (x19 / 走-01
+                        :arg0  (x40 / animal
+                              :name  ( x17/嘎羧 
+))                        :arg1  (x21 / 路
+                              :mod  (x20 / 黄泉
+)))                  :mode  (x22 / expressive
+))))
+===========================
+第二天早晨，嘎羧突然十分亢奋，两只眼睛烧得通红，见到波农丁，呕呕地轻吼着，象蹄急促地踏着地面，鼻尖指向堆放杂物的阁楼，像是想得到阁楼上的什么东西。
+(x52 / temporal
+      :arg1  (x7 / 亢奋-01
+            :arg0  (x55 / animal
+                  :name  ( x4/嘎羧 
+))            :degree  (x6 / 十分
+)            :mod  (x5 / 突然
+))      :arg2  (x12 / 烧-01
+            :manner  (x14 / 通红-01
+                  :arg0  (x11 / 眼睛
+                        :quant  (x9 / 2
+)                        :cunit  (x10 / 只
+)))            :arg1  (x11 / 眼睛
+))      :arg3  (x16 / 见到-01
+            :arg1  (x65 / person
+                  :name  ( x17/波农丁 
+))            :arg0  (x55 / animal
+))      :arg4  (x23 / 吼-01
+            :manner  (x22 / 轻
+)            :aspect  (x24 / 着
+)            :manner  (x19_x20 / 呕
+)            :arg0  (x55 / animal
+))      :arg5  (x30 / 踏-02
+            :arg0  (x27 / 蹄
+                  :part-of  (x26 / x55
+))            :aspect  (x31 / 着
+)            :arg1  (x32 / 地面
+)            :manner  (x28 / 急促
+))      :arg6  (x77 / and
+            :op1  (x36 / 指向-01
+                  :arg0  (x35 / 尖
+                        :mod  (x34 / 鼻
+))                  :arg1  (x40 / 阁楼
+                        :arg2-of  (x37 / 堆放-01
+                              :arg1  (x38 / 杂物
+))))            :op2  (x42 / 像-01
+                  :arg1  (x44 / 想-02
+                        :arg1  (x45 / 得到-01
+                              :arg1  (x50 / 东西
+                                    :mod  (x49 / amr-unknown
+)                                    :location  (x46 / 阁楼
+))                              :arg0  (x55 / animal
+))                        :arg0  (x55 / animal
+))))      :time  (x2 / 早晨
+            :ord  (x91 / ordinal-entity
+                  :value  (x1_1_2 / 2
+)                  :unit  (x1_3 / 天
+))))
+===========================
+阁楼上有半箩谷种和两串玉米。
+(x3 / 有-03
+      :arg0  (x1 / 阁楼
+)      :arg1  (x7 / and
+            :op1  (x6 / 谷种
+                  :quant  (x4 / 0.5
+)                  :cunit  (x5 / 箩
+))            :op2  (x10 / 玉米
+                  :quant  (x8 / 2
+)                  :cunit  (x9 / 串
+))))
+===========================
+我以为它精神好转想吃东西了，就把两串玉米扔下去。
+(x19 / temporal
+      :arg1  (x2 / 以为-01
+            :arg0  (x1 / 我
+)            :arg1  (x23 / and
+                  :op1  (x5 / 好转-01
+                        :arg0  (x4 / 精神
+                              :poss  (x3 / 它
+)))                  :op2  (x6 / 想-02
+                        :arg1  (x7 / 吃-01
+                              :arg1  (x8 / 东西
+)                              :arg0  (x3 / 它
+))                        :aspect  (x9 / 了
+)                        :arg0  (x3 / 它
+))))      :arg2  (x16 / 扔-01
+            :direction  (x17 / 下去
+)            :arg1  (x15 / 玉米
+                  :quant  (x13 / 2
+)                  :cunit  (x14 / 串
+))            :arg0  (x1 / 我
+)))
+===========================
+嘎羧用鼻尖钩住，像丢垃圾似的甩出象房，继续焦躁不安地仰头吼叫。
+(x25 / temporal
+      :arg1  (x2 / 用-01
+            :arg0  (x28 / animal
+                  :name  ( x1/嘎羧 
+))            :arg1  (x4 / 尖
+                  :mod  (x3 / 鼻
+))            :arg2  (x5_x6 / 钩
+))      :arg2  (x12_x13 / 甩-01
+            :arg2  (x15 / 房
+                  :mod  (x14 / 象
+))            :manner  (x8_x11 / 像
+                  :arg1  (x9 / 丢-01
+                        :arg1  (x10 / 垃圾
+)                        :arg0  (x28 / animal
+)))            :arg0  (x28 / animal
+))      :arg3  (x17 / 继续-01
+            :arg1  (x23 / 吼叫-01
+                  :manner  (x21 / 仰-01
+                        :arg1  (x22 / 头
+)                        :arg0  (x28 / animal
+))                  :manner  (x19 / 不安-01
+                        :arg0  (x28 / animal
+))                  :manner  (x18 / 焦躁-01
+                        :arg0  (x28 / animal
+))                  :arg0  (x28 / animal
+))            :arg0  (x28 / animal
+)))
+===========================
+破篾席里面有一件类似马鞍的东西，我漫不经心地一脚把它踢下楼去。
+(x25 / and
+      :op1  (x5 / 有-03
+            :arg0  (x4 / 里面
+                  :arg0  (x3 / 席
+                        :mod  (x2 / 篾
+)                        :arg0-of  (x1 / 破-03
+)))            :arg1  (x11 / 东西
+                  :arg0-of  (x8 / 类似-01
+                        :arg1  (x9 / 马鞍
+))                  :quant  (x6 / 1
+)                  :cunit  (x7 / 件
+)))      :op2  (x20 / 踢-01
+            :arg0  (x13 / 我
+)            :manner  (x14 / 漫不经心
+)            :quant  (x16 / 1
+)            :cunit  (x17 / 脚
+)            :arg1  (x19 / x11
+)            :direction  (x22 / 楼
+)))
+===========================
+没想到，嘎羧见了，一下子安静下来，用鼻子呼呼吹去上面的灰尘，鼻尖久久地在上面摩挲着，眼睛里泪光闪闪，像是见到久别重逢的老朋友。
+(x2 / 想到-01
+      :polarity  (x1 / -
+)      :arg1  (x45 / temporal
+            :arg1  (x5 / 见-01
+                  :arg0  (x47 / animal
+                        :name  ( x4/嘎羧 
+))                  :aspect  (x6 / 了
+))            :arg2  (x9_x10 / 安静-01
+                  :arg0  (x47 / animal
+)                  :mod  (x8 / 一下子
+))            :arg3  (x53 / and
+                  :op1  (x12 / 用-01
+                        :arg1  (x13 / 鼻子
+)                        :arg2  (x15_x16 / 吹-01
+                              :arg1  (x19 / 灰尘
+                                    :location  (x17 / 上面
+))                              :manner  (x14 / 呼
+))                        :arg0  (x47 / animal
+))                  :op2  (x27 / 摩挲-01
+                        :aspect  (x28 / 着
+)                        :arg0  (x22 / 尖
+                              :mod  (x21 / x13
+))                        :time  (x23 / 久
+)                        :location  (x26 / 上面
+))                  :op3  (x33 / 闪-01
+                        :arg0  (x32 / 泪光
+)                        :arg1  (x30 / 眼睛
+))                  :op4  (x35 / 像-01
+                        :arg1  (x37 / 见到-01
+                              :arg1  (x40 / 老朋友
+                                    :arg0-of  (x38 / 久别重逢
+))                              :arg0  (x47 / animal
+))))))
+===========================
+“哦，原来它是要自己的象鞍啊。”
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x2 / 哦
+)            :op2  (x7 / 要-01
+                  :arg0  (x5 / 它
+)                  :arg1  (x11 / 鞍
+                        :mod  (x10 / 象
+)                        :poss  (x8 / x5
+))                  :mode  (x12 / expressive
+)                  :mod  (x4 / 原来
+))))
+===========================
+波农丁恍然大悟，“这就是它当年披挂的鞍子，给它治伤时，我把象鞍从它身上解下来扔到小阁楼上了。
+(x35 / temporal
+      :arg1  (x2 / 恍然大悟-01
+            :arg0  (x38 / person
+                  :name  ( x1/波农丁 
+)))      :arg2  (x40 / say
+            :arg1  (x41 / and
+                  :op1  (x10_x11 / 鞍子
+                        :arg1-of  (x8 / 披挂-01
+                              :arg0  (x6 / 它
+)                              :time  (x7 / 当年
+))                        :domain  (x4 / 这
+))                  :op2  (x47 / temporal
+                        :time  (x15 / 治-02
+                              :arg1  (x16 / 伤
+)                              :beneficiary  (x14 / x6
+))                        :arg1  (x26 / 解-01
+                              :arg0  (x19 / x38
+)                              :arg1  (x22 / x10_x11
+                                    :mod  (x21 / 象
+))                              :source  (x25 / 身上
+                                    :poss  (x24 / x6
+))                              :direction  (x27 / 下来
+))                        :arg2  (x28_x29 / 扔到-01
+                              :arg1  (x31 / 阁楼
+                                    :arg0-of  (x30 / 小-01
+))                              :arg2  (x22 / x10_x11
+)                              :arg0  (x19 / x38
+))))))
+===========================
+唉，整整二十六年了，它还记得那么牢。”
+(x13 / say
+      :op1  (x1 / 唉
+)      :op2  (x16 / temporal-quantity
+            :quant  (x4_1_2_3 / 26
+)            :unit  (x4_2 / 年
+)            :aspect  (x5 / 了
+)            :mod  (x3 / 整
+))      :op3  (x9 / 记得-01
+            :manner  (x11 / 牢
+                  :degree  (x10 / 那么
+))            :mod  (x8 / 还
+)            :arg0  (x7 / 它
+)))
+===========================
+象鞍上留着弹洞，似乎还有斑斑血迹，混合着一股皮革、硝烟、战尘和血液的奇特气味；象鞍的中央有一个莲花状的座垫，四周镶着一圈银铃，还缀着杏黄色的流苏。
+(x57 / and
+      :op1  (x4 / 留-01
+            :arg0  (x7 / 洞
+                  :mod  (x6 / 弹
+))            :arg1  (x2 / 鞍
+                  :mod  (x1 / 象
+))            :aspect  (x5 / 着
+))      :op2  (x9 / 似乎-01
+            :arg0  (x10_2 / 有-03
+                  :mod  (x10_1 / 还
+)                  :arg1  (x12 / 血迹
+                        :arg0-of  (x11 / 斑斑-01
+))))      :op3  (x14 / 混合-01
+            :arg1  (x28 / 气味
+                  :mod  (x27 / 奇特
+)                  :mod  (x73 / and
+                        :op1  (x18 / 皮革
+)                        :op2  (x20 / 硝烟
+)                        :op3  (x22_x23 / 战尘
+)                        :op4  (x25 / 血液
+))))      :op4  (x34 / 有-03
+            :arg0  (x33 / 中央
+                  :arg0  (x31 / x2
+                        :mod  (x30 / 象
+)))            :arg1  (x39_x40 / 座垫
+                  :mod  (x37 / 状
+                        :mod  (x36 / 莲花
+))                  :quant  (x35_1 / 1
+)                  :cunit  (x35_2 / 个
+)))      :op5  (x43 / 镶-01
+            :arg0  (x48 / 铃
+                  :consist-of  (x47 / 银
+)                  :quant  (x45 / 1
+)                  :cunit  (x46 / 圈
+))            :aspect  (x44 / 着
+)            :location  (x42 / 四周
+))      :op6  (x51 / 缀-01
+            :arg2  (x55 / 流苏
+                  :arg0-of  (x53 / 杏黄色
+))            :aspect  (x52 / 着
+)            :mod  (x50 / 还
+)            :arg1  (x31 / x2
+)))
+===========================
+二十六个春秋过去，象鞍已经破旧了，仍显出凝重华贵；嘎羧披挂上象鞍，平添了一股英武豪迈的气概。
+(x32 / and
+      :op1  (x34 / contrast
+            :arg1  (x9 / 破旧-01
+                  :time  (x4 / 过去-01
+                        :arg0  (x3 / 春秋
+                              :quant  (x1 / 26
+)                              :cunit  (x2 / 个
+)))                  :arg0  (x7 / 鞍
+                        :mod  (x6 / 象
+))                  :aspect  (x8 / 已经
+)                  :aspect  (x10 / 了
+))            :arg2  (x13 / 显出-01
+                  :arg1  (x45 / and
+                        :op1  (x14 / 凝重
+)                        :op2  (x15 / 华贵
+))                  :arg0  (x7 / 鞍
+)))      :op2  (x23 / 平添-01
+            :arg1  (x30 / 气概
+                  :mod  (x28 / 豪迈
+)                  :mod  (x27 / 英武
+)                  :quant  (x25 / 1
+)                  :cunit  (x26 / 股
+))            :aspect  (x24 / 了
+)            :arg0  (x18_x19 / 披挂-01
+                  :arg0  (x56 / animal
+                        :name  ( x17/嘎羧 
+))                  :arg1  (x21 / x7
+                        :mod  (x20 / 象
+)))))
+===========================
+波农丁皱着眉头，伤感地说：“它要离开我们去象冢了。”
+(x19 / and
+      :op1  (x2 / 皱-01
+            :arg0  (x22 / person
+                  :name  ( x1/波农丁 
+))            :arg1  (x4 / 眉头
+)            :aspect  (x3 / 着
+))      :op2  (x8 / 说-01
+            :manner  (x6 / 伤感-01
+                  :arg0  (x22 / person
+))            :arg1  (x11 / 要-03
+                  :arg0  (x29 / temporal
+                        :arg1  (x12 / 离开-01
+                              :arg0  (x10 / 它
+)                              :arg1  (x13 / 我们
+))                        :arg2  (x14 / 去-01
+                              :arg1  (x16 / 冢
+                                    :mod  (x15 / 象
+))                              :arg0  (x10 / 它
+)))                  :aspect  (x17 / 了
+))            :arg0  (x22 / person
+)))
+===========================
+大象是一种很有灵性的动物，每群象都有一个象冢，除了横遭不幸暴毙荒野的，它们都能准确地预感到自己的死期，在死神降临前的半个月左右，会独自走到遥远而又神秘的象冢里去。
+(x63 / and
+      :op1  (x9 / 动物
+            :arg0-of  (x6 / 有-06
+                  :degree  (x5 / 很
+)                  :arg1  (x7 / 灵性
+))            :quant  (x3 / 1
+)            :unit  (x4 / 种
+)            :domain  (x1 / 大象
+))      :op2  (x15 / 有-01
+            :arg0  (x13 / 象
+                  :mod  (x11 / 每
+)                  :cunit  (x12 / 群
+))            :mod  (x14 / 都
+)            :arg1  (x18 / 冢
+                  :mod  (x17 / 象
+)                  :quant  (x16_1 / 1
+)                  :cunit  (x16_2 / 个
+)))      :op3  (x30 / 能-01
+            :arg0  (x33_x34 / 预感-01
+                  :arg0  (x28 / x13
+                        :arg2-of  (x20 / 除了
+                              :arg1  (x86 / animal
+                                    :arg0-of  (x24 / 暴毙
+                                          :location  (x25 / 荒野
+)                                          :cause  (x22 / 遭-01
+                                                :manner  (x21 / 横
+)                                                :arg1  (x23 / 不幸
+)                                                :arg0  (x86 / animal
+))))))                  :arg1  (x37 / 死期
+                        :poss  (x35 / x13
+)))            :mod  (x29 / 都
+))      :op4  (x49 / 会-02
+            :time  (x42 / 前
+                  :op1  (x41 / 降临-01
+                        :arg0  (x40 / 死神
+))                  :quant  (x99 / temporal-quantity
+                        :quant  (x47 / 左右
+                              :op1  (x44_x45 / 0.5
+))                        :unit  (x46 / 月
+)))            :arg0  (x51_x52 / 走到-01
+                  :arg1  (x59 / 冢
+                        :mod  (x58 / 象
+)                        :arg0-of  (x56 / 神秘-01
+)                        :arg0-of  (x53 / 遥远-01
+))                  :manner  (x50 / 独自
+)                  :arg0  (x28 / x13
+))))
+===========================
+嘎羧要走的消息长了翅膀似的传遍全寨，男女老少都来为嘎羧送行。
+(x20 / temporal
+      :arg1  (x10 / 传遍-01
+            :arg1  (x5 / 消息
+                  :mod  (x2 / 要-03
+                        :arg0  (x3 / 走-07
+                              :arg0  (x25 / animal
+                                    :name  ( x1/嘎羧 
+)))))            :manner  (x9 / 似-01
+                  :arg1  (x6 / 长-01
+                        :arg1  (x8 / 翅膀
+)                        :aspect  (x7 / 了
+)))            :arg2  (x11 / 全寨
+))      :arg2  (x18 / 送行-01
+            :arg1  (x17 / x25
+)            :arg0  (x13 / 男女老少
+)            :mod  (x14 / 都
+)))
+===========================
+许多人泣不成声。
+(x3 / 泣不成声
+      :arg0  (x2 / 人
+            :quant  (x1 / 许多
+)))
+===========================
+村长在嘎羧脖子上系了一条洁白的纱巾，四条象腿上绑了四块黑布。
+(x27 / and
+      :op1  (x6 / 系-04
+            :arg0  (x30 / person
+                  :arg0-of  (x31 / have-org-role-91
+                        :arg2  (x1 / 村长
+)))            :arg1  (x13 / 巾
+                  :consist-of  (x12 / 纱
+)                  :arg0-of  (x10 / 洁白
+)                  :quant  (x8 / 1
+)                  :cunit  (x9 / 条
+))            :aspect  (x7 / 了
+)            :location  (x4 / 脖子
+                  :part-of  (x40 / animal
+                        :name  ( x3/嘎羧 
+))))      :op2  (x20 / 绑-01
+            :arg1  (x18 / 腿
+                  :part-of  (x17 / 象
+)                  :quant  (x15 / 4
+)                  :cunit  (x16 / 条
+))            :arg2  (x25 / 布
+                  :arg0-of  (x24 / 黑-01
+)                  :quant  (x22 / 4
+)                  :cunit  (x23 / 块
+))            :aspect  (x21 / 了
+)))
+===========================
+老人和孩子捧着香蕉、甘蔗和糯米粑粑，送到嘎羧嘴边，它什么也没吃，只喝了一点水，绕着寨子走了三圈。
+(x37 / temporal
+      :arg1  (x4 / 捧-01
+            :arg0  (x2 / and
+                  :op1  (x1 / 老人
+)                  :op2  (x3 / 孩子
+))            :aspect  (x5 / 着
+)            :arg1  (x44 / and
+                  :op1  (x6 / 香蕉
+)                  :op2  (x8 / 甘蔗
+)                  :op3  (x11 / 粑粑
+                        :consist-of  (x10 / 糯米
+))))      :arg2  (x13 / 送到-01
+            :arg1  (x44 / and
+)            :arg2  (x15 / 嘴边
+                  :poss  (x51 / animal
+                        :name  ( x14/嘎羧 
+)))            :arg0  (x2 / and
+))      :arg3  (x21 / 吃-01
+            :arg0  (x17 / x51
+)            :arg1  (x18 / 什么
+)            :mod  (x19 / 也
+)            :polarity  (x20 / -
+))      :arg4  (x24 / 喝-01
+            :mod  (x23 / 只
+)            :arg1  (x27 / 水
+                  :quant  (x26 / 一点
+))            :aspect  (x25 / 了
+)            :arg0  (x17 / x51
+))      :arg5  (x32 / 走-01
+            :quant  (x34 / 3
+)            :cunit  (x35 / 圈
+)            :aspect  (x33 / 了
+)            :manner  (x29 / 绕-01
+                  :aspect  (x30 / 着
+)                  :arg1  (x31 / 寨子
+)                  :arg0  (x17 / x51
+))            :arg0  (x17 / x51
+)))
+===========================
+日落西山，天色苍茫，在一片唏嘘声中，嘎羧开始上路。
+(x18 / and
+      :op1  (x1 / 日落
+            :location  (x2 / 西山
+))      :op2  (x5 / 苍茫
+            :arg0  (x4 / 天色
+))      :op3  (x15 / 开始-01
+            :arg0  (x25 / animal
+                  :name  ( x14/嘎羧 
+))            :arg1  (x16 / 上路-01
+                  :arg0  (x25 / animal
+))            :condition  (x11 / 声
+                  :mod  (x10 / 唏嘘
+)                  :quant  (x8 / 1
+)                  :cunit  (x9 / 片
+))))
+===========================
+我和波农丁悄悄地跟在嘎羧后面，想看个究竟。
+(x5 / 跟-01
+      :arg0  (x2 / and
+            :op1  (x1 / 我
+)            :op2  (x19 / person
+                  :name  ( x3/波农丁 
+)))      :manner  (x4 / 悄
+)      :arg1  (x23 / animal
+            :name  ( x7/嘎羧 
+))      :purpose  (x10 / 想-02
+            :arg1  (x11 / 看-02
+                  :manner  (x13 / 究竟
+                        :cunit  (x12 / 个
+))                  :arg0  (x2 / and
+))            :arg0  (x2 / and
+)))
+===========================
+嘎羧走了整整一夜，天亮时，来到打洛江畔。
+(x15 / temporal
+      :arg1  (x2 / 走-01
+            :aspect  (x3 / 了
+)            :arg0  (x19 / animal
+                  :name  ( x1/嘎羧 
+))            :duration  (x21 / temporal-quantity
+                  :quant  (x5 / 1
+)                  :unit  (x6 / 夜
+)                  :mod  (x4 / 整
+)))      :arg2  (x11 / 来到-01
+            :arg1  (x13 / 畔
+                  :arg0  (x27 / river
+                        :name  ( x12/打洛江 
+)))            :arg0  (x19 / animal
+)            :time  (x8 / 天亮
+)))
+===========================
+它站在江滩的卵石上，久久凝望着清波荡漾的江面。
+(x18 / and
+      :op1  (x2 / 站-01
+            :arg0  (x1 / 它
+)            :arg1  (x6 / 卵石
+                  :location  (x4 / 江滩
+)))      :op2  (x10 / 凝望-01
+            :time  (x9 / 久
+)            :arg1  (x16 / 江面
+                  :mod  (x14 / 荡漾-01
+                        :arg0  (x13 / 波
+                              :arg0-of  (x12 / 清-01
+))))            :aspect  (x11 / 着
+)            :arg0  (x1 / 它
+)))
+===========================
+然后，它踩着哗哗流淌的江水，走到一块龟形礁石上亲了又亲，许久，又昂起头来，向着天边那轮火红的朝阳，呕——呕——发出震耳欲聋的吼叫。
+(x47 / temporal
+      :arg2  (x4 / 踩-02
+            :arg0  (x3 / 它
+)            :arg1  (x9 / 江水
+                  :arg1-of  (x7 / 流淌-01
+                        :manner  (x6 / 哗
+)))            :aspect  (x5 / 着
+))      :arg3  (x11_x12 / 走到-01
+            :arg1  (x16 / 礁石
+                  :mod  (x15 / 形
+                        :mod  (x14 / 龟
+))                  :quant  (x13_1 / 1
+)                  :cunit  (x13_2 / 块
+))            :arg0  (x3 / 它
+))      :arg4  (x18_x21 / 亲-02
+            :aspect  (x19 / 了
+)            :mod  (x20 / 又
+)            :arg0  (x3 / 它
+))      :arg5  (x26 / 昂起-01
+            :arg1  (x27 / 头
+)            :arg0  (x3 / 它
+)            :time  (x23 / 许久
+))      :arg6  (x42 / 发出-02
+            :arg1  (x45 / 吼叫-01
+                  :arg0-of  (x43 / 震耳欲聋-01
+)                  :arg0-of  (x71 / mean
+                        :arg1  (x38_x40 / 呕
+))                  :arg0  (x3 / 它
+))            :direction  (x36 / 朝阳
+                  :arg0-of  (x34 / 火红
+)                  :mod  (x32 / 那
+)                  :cunit  (x33 / 轮
+)                  :location  (x31 / 天边
+))            :arg0  (x3 / 它
+)))
+===========================
+这时，它身体膨胀起来，四条腿皮肤紧绷绷地发亮，一双眼睛炯炯有神，吼声激越悲壮，惊得江里的鱼儿扑喇喇跳出水面。
+(x35 / and
+      :op1  (x5_x6 / 膨胀-01
+            :arg0  (x4 / 身体
+                  :poss  (x3 / 它
+)))      :op2  (x14 / 发亮-01
+            :arg0  (x11 / 皮肤
+                  :poss  (x10 / 腿
+                        :quant  (x8 / 4
+)                        :cunit  (x9 / 条
+)))            :manner  (x12 / 紧绷绷
+))      :op3  (x19 / 炯炯有神
+            :arg0  (x18 / 眼睛
+                  :quant  (x16 / 1
+)                  :unit  (x17 / 双
+)))      :op4  (x50 / and
+            :op1  (x22 / 激越
+                  :arg0  (x21 / 吼声
+))            :op2  (x23 / 悲壮-01
+                  :arg0  (x21 / 吼声
+)))      :op5  (x25 / 惊-01
+            :cause-of  (x32 / 跳出-01
+                  :arg1  (x33 / 水面
+)                  :arg0  (x30 / 鱼儿
+                        :location  (x27 / 江
+))                  :manner  (x31 / 扑喇喇
+))            :arg0  (x21 / 吼声
+))      :time  (x1 / 这时
+))
+===========================
+“我想起来了，二十六年前，我们就是在这里把嘎羧抬上岸的。”波农丁说。
+(x21 / 说-01
+      :arg0  (x25 / person
+            :name  ( x20/波农丁 
+))      :arg1  (x3_x4 / 想起-01
+            :aspect  (x5 / 了
+)            :arg0  (x2 / x25
+)            :arg1  (x16 / 抬-01
+                  :arg1  (x32 / animal
+                        :name  ( x15/嘎羧 
+))                  :destination  (x17 / 上岸
+)                  :arg0  (x10 / 我们
+)                  :location  (x13 / 这里
+)                  :mode  (x11_2_x18 / judgement
+)                  :mod  (x11_1 / 就
+)                  :time  (x8_2 / 前
+                        :op1  (x40 / temporal-quantity
+                              :quant  (x7 / 26
+)                              :unit  (x8_1 / 年
+))))))
+===========================
+原来嘎羧是要回到当年曾经浴血搏杀的战场！
+(x4 / 要-03
+      :arg0  (x5 / 回到-01
+            :arg0  (x17 / animal
+                  :name  ( x2/嘎羧 
+))            :arg1  (x11 / 战场
+                  :mod  (x9 / 搏杀-01
+                        :manner  (x8 / 浴血-01
+                              :arg0  (x17 / animal
+))                        :arg0  (x17 / animal
+)                        :aspect  (x7 / 曾经
+)                        :time  (x6 / 当年
+))))      :mod  (x1 / 原来
+)      :mode  (x12 / expressive
+))
+===========================
+太阳升到了槟榔树梢，嘎羧离开了打洛江，钻进一条草木茂盛的箐沟。
+(x21 / temporal
+      :arg1  (x2_x3 / 升到-01
+            :arg0  (x1 / 太阳
+)            :arg1  (x6_2 / 梢
+                  :mod  (x5_x6_1 / 槟榔树
+))            :aspect  (x4 / 了
+))      :arg2  (x9 / 离开-01
+            :arg0  (x31 / animal
+                  :name  ( x8/嘎羧 
+))            :aspect  (x10 / 了
+)            :arg1  (x34 / river
+                  :name  ( x11/打洛江 
+)))      :arg3  (x13 / 钻进-01
+            :arg1  (x19 / 箐沟
+                  :mod  (x17 / 茂盛
+                        :arg0  (x16 / 草木
+))                  :quant  (x14 / 1
+)                  :cunit  (x15 / 条
+))            :arg0  (x31 / animal
+)))
+===========================
+在一块平缓的向阳的小山坡上，它突然停了下来。
+(x13_x15 / 停-01
+      :arg1  (x11 / 它
+)      :mod  (x12 / 突然
+)      :aspect  (x14 / 了
+)      :location  (x8 / 山坡
+            :arg0-of  (x7 / 小-01
+)            :arg0-of  (x5 / 向阳-01
+)            :arg0-of  (x3 / 平缓-01
+)            :quant  (x2_1 / 1
+)            :cunit  (x2_2 / 块
+)))
+===========================
+“哦，这里就是埋葬八十多头战象的地方，我记得很清楚，喏，那儿还有一块碑。”波农丁悄悄地说。
+(x29 / 说-01
+      :arg0  (x33 / person
+            :name  ( x27/波农丁 
+))      :manner  (x28 / 悄
+)      :arg1  (x36 / and
+            :op1  (x2 / 哦
+)            :op2  (x16 / 记得-01
+                  :cause-of  (x18 / 清楚
+                        :degree  (x17 / 很
+))                  :arg0  (x15 / x33
+)                  :arg1  (x13 / 地方
+                        :location-of  (x6 / 埋葬-01
+                              :arg1  (x11 / 象
+                                    :mod  (x10 / 战
+)                                    :quant  (x8 / 多
+                                          :op1  (x7 / 80
+))                                    :cunit  (x9 / 头
+)))                        :domain  (x4 / 这里
+)))            :op3  (x20 / 喏
+)            :op4  (x23_2 / 有-03
+                  :mod  (x23_1 / 还
+)                  :arg1  (x25 / 碑
+                        :quant  (x24_1 / 1
+)                        :cunit  (x24_2 / 块
+))                  :arg0  (x22 / 那儿
+))))
+===========================
+我顺着他手指的方向望去，荒草丛中，果然竖着一块石碑，镌刻着三个金箔剥落、字迹有点模糊的大字：百象冢。
+(x37 / and
+      :op1  (x8_x9 / 望-01
+            :arg0  (x1 / 我
+)            :arg1  (x2 / 顺-01
+                  :arg1  (x7 / 方向
+                        :arg1-of  (x5 / 指-05
+                              :arg0  (x4 / 手
+                                    :part-of  (x3 / 他
+))))                  :arg0  (x1 / 我
+)))      :op2  (x15 / 竖-01
+            :arg1  (x18 / 石碑
+                  :quant  (x17_1 / 1
+)                  :cunit  (x17_2 / 块
+))            :arg2  (x12 / 丛中
+                  :mod  (x11 / 荒草
+))            :mod  (x14 / 果然
+)            :aspect  (x16 / 着
+))      :op3  (x20 / 镌刻-01
+            :arg0  (x31 / 大字
+                  :arg1-of  (x57 / mean
+                        :arg1  (x33_x34_x35 / 百象冢
+))                  :mod  (x29 / 模糊-01
+                        :arg1  (x27 / 字迹
+)                        :degree  (x28 / 有点
+))                  :quant  (x22 / 3
+)                  :cunit  (x23 / 个
+)                  :mod  (x25 / 剥落-01
+                        :arg2  (x24 / 金箔
+)))            :arg1  (x18 / 石碑
+)            :aspect  (x21 / 着
+)))
+===========================
+嘎羧来到石碑前，选了一块平坦的草地，一对象牙就像两支铁镐，在地上挖掘起来。
+(x27 / temporal
+      :arg0  (x2 / 来到-01
+            :arg0  (x30 / animal
+                  :name  ( x1/嘎羧 
+))            :arg1  (x4 / 前
+                  :arg0  (x3 / 石碑
+)))      :arg2  (x6 / 选-02
+            :arg1  (x11 / 草地
+                  :arg0-of  (x9 / 平坦-01
+)                  :quant  (x8_1 / 1
+)                  :cunit  (x8_2 / 块
+))            :aspect  (x7 / 了
+)            :arg0  (x30 / animal
+))      :arg3  (x24_x25 / 挖掘-01
+            :location  (x23 / 地上
+)            :arg0  (x15 / 象牙
+                  :quant  (x13 / 1
+)                  :unit  (x14 / 对
+)                  :arg0-of  (x17 / 像-01
+                        :arg1  (x20 / 铁镐
+                              :quant  (x18 / 2
+)                              :cunit  (x19 / 支
+))                        :mod  (x16 / 就
+)))))
+===========================
+它已经好几天没吃东西了，又经过长途跋涉，体力不济，挖一阵就喘息一阵。
+(x22 / causation
+      :arg1  (x24 / and
+            :op1  (x5 / 吃-01
+                  :polarity  (x4 / -
+)                  :arg0  (x1 / 它
+)                  :aspect  (x2 / 已经
+)                  :duration  (x29 / temporal-quantity
+                        :quant  (x3_2 / 天
+                              :mod  (x3_1 / 好
+))                        :unit  (x3_2 / 天
+))                  :arg1  (x6 / 东西
+)                  :aspect  (x7 / 了
+))            :op2  (x10 / 经过-01
+                  :arg1  (x11 / 长途跋涉
+)                  :arg0  (x1 / 它
+)))      :arg2  (x37 / and
+            :op1  (x14 / 不济
+                  :arg0  (x13 / 体力
+))            :op2  (x40 / condition
+                  :arg1  (x16 / 挖-01
+                        :duration  (x17 / 一阵
+)                        :arg0  (x1 / 它
+))                  :arg2  (x19 / 喘息-01
+                        :duration  (x20 / 一阵
+)                        :arg0  (x1 / 它
+)))))
+===========================
+嘎羧从早晨一直挖到中午，终于挖出了一个椭圆形的浅坑。
+(x19 / temporal
+      :arg1  (x5 / 挖-01
+            :duration  (x22 / date-interval
+                  :op1  (x23 / date-entity
+                        :dayperiod  (x3 / 早晨
+))                  :op2  (x25 / date-entity
+                        :dayperiod  (x7 / 中午
+)))            :mod  (x4 / 一直
+)            :arg0  (x28 / animal
+                  :name  ( x1/嘎羧 
+)))      :arg2  (x10_x11 / 挖出-01
+            :arg1  (x17 / 坑
+                  :arg0-of  (x16 / 浅-01
+)                  :mod  (x14 / 椭圆形
+)                  :quant  (x13_1 / 1
+)                  :cunit  (x13_2 / 个
+))            :aspect  (x12 / 了
+)            :mod  (x9 / 终于
+)            :arg0  (x28 / animal
+)))
+===========================
+它滑下坑去，在坑里继续挖，用鼻子卷着土块抛出坑；我们躲在远处，看着它的身体一寸一寸地往下沉。
+(x38 / and
+      :op1  (x40 / temporal
+            :arg1  (x2 / 滑-02
+                  :arg0  (x1 / 它
+)                  :arg1  (x4 / 坑
+)                  :direction  (x3_x4 / 下去
+))            :arg2  (x10 / 继续-01
+                  :arg1  (x11 / 挖-01
+                        :arg0  (x1 / 它
+))                  :arg0  (x1 / 它
+)                  :location  (x8 / x4
+))            :arg3  (x13 / 用-01
+                  :arg1  (x14 / 鼻子
+)                  :arg2  (x15 / 卷-01
+                        :arg1  (x17 / 土块
+)                        :arg0  (x14 / 鼻子
+))                  :arg0  (x1 / 它
+)                  :purpose  (x18_x19 / 抛出-01
+                        :location  (x20 / 坑
+)                        :arg1  (x17 / 土块
+)                        :arg0  (x1 / 它
+))))      :op2  (x23 / 躲-01
+            :arg0  (x22 / 我们
+)            :arg2  (x25 / 远处
+))      :op3  (x27 / 看-02
+            :arg1  (x36_2 / 沉-01
+                  :arg0  (x31 / 身体
+                        :poss  (x29 / x1
+))                  :direction  (x36_1 / 下
+)                  :manner  (x32_x33 / 一寸一寸
+))            :aspect  (x28 / 着
+)            :arg0  (x22 / 我们
+)))
+===========================
+太阳落山了，月亮升起来了，它仍在埋头挖着。
+(x18 / and
+      :op1  (x2_x3 / 落山
+            :arg0  (x1 / 太阳
+)            :aspect  (x4 / 了
+))      :op2  (x7_x8 / 升-02
+            :arg0  (x6 / 月亮
+)            :aspect  (x9 / 了
+))      :op3  (x15 / 挖-01
+            :arg0  (x11 / 它
+)            :aspect  (x13 / 在
+)            :manner  (x14 / 埋头-01
+                  :arg0  (x11 / 它
+))            :aspect  (x16 / 着
+)            :mod  (x12 / 仍
+)))
+===========================
+半夜，嘎羧的脊背从坑沿沉下去不见了，象牙掘土的冬冬声越来越稀，长鼻抛土的节奏也越来越慢。
+(x33 / and
+      :op1  (x9 / 沉-01
+            :arg0  (x5 / 脊背
+                  :part-of  (x37 / animal
+                        :name  ( x3/嘎羧 
+)))            :source  (x8 / 沿
+                  :mod  (x7 / 坑
+))            :direction  (x10 / 下去
+))      :op2  (x11_2 / 见-01
+            :polarity  (x11_1 / -
+)            :arg1  (x5 / 脊背
+)            :aspect  (x12 / 了
+))      :op3  (x21 / 稀-01
+            :degree  (x20 / 越来越
+)            :arg0  (x19 / 声
+                  :mod  (x18 / 冬冬
+)                  :mod  (x15 / 掘-01
+                        :arg0  (x14 / 象牙
+)                        :arg1  (x16 / 土
+))))      :op4  (x31 / 慢-01
+            :degree  (x30 / 越来越
+)            :arg0  (x28 / 节奏
+                  :mod  (x25 / 抛-01
+                        :arg0  (x24 / 鼻
+                              :arg0-of  (x23 / 长-02
+))                        :arg1  (x26 / 土
+)))            :mod  (x29 / 也
+))      :time  (x1 / 半夜
+))
+===========================
+鸡叫头遍时，终于，一切都平静下来，什么声音也没有了。
+(x20 / and
+      :op1  (x11_x12 / 平静-02
+            :arg0  (x9 / 一切
+)            :mod  (x10 / 都
+))      :op2  (x17_2 / 有-03
+            :polarity  (x17_1 / -
+)            :mod  (x16 / 也
+)            :arg1  (x15 / 声音
+                  :mod  (x14 / 什么
+))            :aspect  (x18 / 了
+))      :time  (x2 / 叫-03
+            :arg0  (x1 / 鸡
+)            :ord  (x33 / ordinal-entity
+                  :value  (x3 / 1
+)                  :cunit  (x4 / 遍
+))))
+===========================
+我和波农丁耐心地等到东方吐白，走到坑边查看。
+(x18 / temporal
+      :arg1  (x6_x7 / 等到-01
+            :arg0  (x2 / and
+                  :op1  (x1 / 我
+)                  :op2  (x23 / person
+                        :name  ( x3/波农丁 
+)))            :manner  (x4 / 耐心-01
+                  :arg0  (x2 / and
+))            :arg1  (x9 / 吐-01
+                  :arg1  (x10 / 白
+)                  :arg0  (x8 / 东方
+)))      :arg2  (x12_x13 / 走到-01
+            :arg1  (x15 / 边
+                  :arg0  (x14 / 坑
+))            :arg0  (x2 / and
+)            :purpose  (x16 / 查看-01
+                  :arg0  (x2 / and
+))))
+===========================
+土坑约有三米深，嘎羧卧在坑底，侧着脸，鼻子盘在腿弯，一只眼睛睁得老大，凝望着天空。
+(x33 / and
+      :op1  (x3 / 有-06
+            :mod  (x2 / 约
+)            :arg0  (x1 / 土坑
+)            :arg1  (x6 / 深-02
+                  :arg1  (x39 / distance-quantity
+                        :quant  (x4 / 3
+)                        :unit  (x5 / 米
+))                  :arg0  (x1 / 土坑
+)))      :op2  (x9 / 卧
+            :location  (x11 / 坑底
+)            :arg0  (x44 / animal
+                  :name  ( x8/嘎羧 
+)))      :op3  (x13 / 侧-01
+            :arg1  (x15 / 脸
+)            :aspect  (x14 / 着
+)            :arg0  (x44 / animal
+))      :op4  (x18 / 盘-02
+            :arg1  (x17 / 鼻子
+)            :location  (x20 / 腿弯
+))      :op5  (x25 / 睁-01
+            :arg1  (x24 / 眼睛
+                  :quant  (x22 / 1
+)                  :cunit  (x23 / 只
+))            :manner  (x27_2 / 大-01
+                  :degree  (x27_1 / 老
+)))      :op6  (x29 / 凝望-01
+            :arg1  (x31 / 天空
+)            :aspect  (x30 / 着
+)            :arg0  (x24 / 眼睛
+)))
+===========================
+它死了。
+(x2 / 死-01
+      :arg0  (x1 / 它
+)      :aspect  (x3 / 了
+))
+===========================
+它没有到祖宗留下的象冢。
+(x3 / 到-01
+      :arg0  (x1 / 它
+)      :polarity  (x2 / -
+)      :arg1  (x8 / 冢
+            :mod  (x7 / 象
+)            :arg1-of  (x5 / 留下-01
+                  :arg0  (x4 / 祖宗
+))))
+===========================
+它和曾经并肩战斗的同伴们躺在了一起。
+(x9 / 躺-01
+      :cause-of  (x12 / 一起
+)      :arg0  (x2 / and
+            :op1  (x1 / 它
+)            :op2  (x7_x8 / 同伴们
+                  :arg0-of  (x5 / 战斗-01
+                        :manner  (x4 / 并肩
+)                        :aspect  (x3 / 曾经
+))))      :aspect  (x11 / 了
+))
+===========================

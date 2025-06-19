@@ -1,0 +1,383 @@
+李四光是我国著名的地质学家。
+(x6 / 地质学家
+      :domain  (x10 / person
+            :name  ( x1/李四光 
+))      :arg0-of  (x4 / 著名-01
+)      :range  (x3 / 我国
+))
+===========================
+小时候，他喜欢和小伙伴一起玩捉迷藏的游戏。
+(x4 / 喜欢-01
+      :time  (x1 / 小时候
+)      :arg0  (x3 / 他
+)      :arg1  (x8 / 玩-01
+            :accompanier  (x6 / 小伙伴
+)            :manner  (x7 / 一起
+)            :arg1  (x11 / 游戏
+                  :arg0-of  (x21 / mean
+                        :arg1  (x9 / 捉迷藏
+)))            :arg0  (x3 / 他
+)))
+===========================
+每次他都爱藏在一块大石头的后面。
+(x4 / 爱-01
+      :arg0  (x2 / 他
+)      :frequency  (x1 / 每次
+)      :mod  (x3 / 都
+)      :arg1  (x5 / 藏-01
+            :arg0  (x2 / 他
+)            :arg1  (x11 / 后面
+                  :arg0  (x9 / 石头
+                        :quant  (x7_1 / 1
+)                        :cunit  (x7_2 / 块
+)                        :arg0-of  (x8 / 大-01
+)))))
+===========================
+这块巨石孤零零地立在草地上。
+(x5 / 立-02
+      :arg1  (x2 / 巨石
+            :mod  (x1_1 / 这
+)            :cunit  (x1_2 / 块
+))      :manner  (x3 / 孤零零
+)      :arg2  (x7 / 草地
+))
+===========================
+一听到小伙伴的脚步声，他就悄悄围着大石头躲闪。
+(x16 / condition
+      :arg1  (x2 / 听到-01
+            :arg1  (x5 / 脚步声
+                  :poss  (x3 / 小伙伴
+))            :arg0  (x7 / 他
+))      :arg2  (x14 / 躲闪-01
+            :arg0  (x7 / 他
+)            :manner  (x10 / 围-01
+                  :aspect  (x11 / 着
+)                  :arg1  (x13 / 石头
+                        :arg0-of  (x12 / 大-01
+))                  :arg0  (x7 / 他
+))            :manner  (x9 / 悄悄
+)))
+===========================
+大石头把他的身影遮得严严实实的，小伙伴围着石头转来转去，也找不到他。
+(x23 / causation
+      :arg1  (x7 / 遮-01
+            :arg0  (x2 / 石头
+                  :arg0-of  (x1 / 大-01
+))            :arg1  (x6 / 身影
+                  :poss  (x4 / 他
+))            :manner  (x9_x10 / 严实
+))      :arg2  (x31 / and
+            :op1  (x15 / 转来转去
+                  :arg0  (x12 / 小伙伴
+)                  :manner  (x13_1 / 围-01
+                        :aspect  (x13_2 / 着
+)                        :arg1  (x14 / 石头
+)                        :arg0  (x12 / 小伙伴
+)))            :op2  (x34 / possible
+                  :polarity  (x19 / -
+)                  :arg0  (x18_x20 / 找到-01
+                        :arg0  (x12 / 小伙伴
+)                        :arg1  (x21 / x4
+))                  :mod  (x17 / 也
+))))
+===========================
+时间长了，他对这块大石头发生了兴趣：这么大的一块石头，是从哪儿来的呢？
+(x27 / temporal
+      :arg1  (x2 / 长-02
+            :arg0  (x1 / 时间
+)            :aspect  (x3 / 了
+))      :arg2  (x10 / 发生-01
+            :aspect  (x11 / 了
+)            :arg0  (x12 / 兴趣
+                  :topic  (x9 / 石头
+                        :mod  (x7_1 / 这
+)                        :cunit  (x7_2 / 块
+)                        :arg0-of  (x8 / 大-01
+))                  :arg0-of  (x40 / mean
+                        :arg1  (x23 / 来-01
+                              :source  (x22 / amr-unknown
+)                              :arg0  (x18 / x9
+                                    :quant  (x17_1 / 1
+)                                    :arg0-of  (x15 / 大-01
+                                          :degree  (x14 / 这么
+))                                    :cunit  (x17_2 / 块
+))                              :mode  (x20_x24 / judgement
+)                              :mode  (x25_x26 / interrogative
+))))            :arg1  (x5 / 他
+)))
+===========================
+李四光跑去问老师，老师想了想，说：“这块石头恐怕有几百年的历史了，我小的时候它就在那儿了。”
+(x34 / temporal
+      :arg1  (x3 / 去-01
+            :manner  (x2 / 跑-01
+                  :arg0  (x38 / person
+                        :name  ( x1/李四光 
+)))            :arg0  (x38 / person
+)            :arg1  (x4 / 问-01
+                  :arg0  (x38 / person
+)                  :arg2  (x5 / 老师
+)))      :arg2  (x8_x10 / 想-01
+            :arg0  (x7 / x5
+)            :aspect  (x9 / 了
+))      :arg3  (x12 / 说-01
+            :arg0  (x5 / 老师
+)            :arg1  (x46 / and
+                  :op1  (x17 / 有-03
+                        :mod  (x16 / 恐怕
+)                        :arg0  (x15 / 石头
+                              :cunit  (x14_2 / 块
+)                              :mod  (x14_1 / 这
+))                        :arg1  (x21 / 历史
+                              :duration  (x53 / temporal-quantity
+                                    :unit  (x19 / 年
+)                                    :quant  (x18_1 / 几
+                                          :op1  (x19_2 / 100
+))))                        :smood  (x22 / 了
+))                  :op2  (x30 / 在-01
+                        :arg0  (x28 / x15
+)                        :arg1  (x31 / 那儿
+)                        :aspect  (x32 / 了
+)                        :time  (x27 / 时候
+                              :time-of  (x25 / 小-01
+                                    :arg0  (x24 / 我
+)))))))
+===========================
+“是谁把它放在那儿的呢？”
+(x11 / say
+      :arg1  (x6 / 放在-01
+            :arg0  (x3 / amr-unknown
+)            :arg1  (x5 / 它
+)            :arg2  (x7 / 那儿
+)            :mode  (x2_x8 / judgement
+)            :mode  (x9_x10 / interrogative
+)))
+===========================
+“听说天上常常掉下来陨石，也许它就是从天上掉下来的吧！”
+(x20 / say
+      :arg1  (x22 / and
+            :op1  (x2 / 听说-01
+                  :arg0  (x5 / 掉-01
+                        :direction  (x6 / 下来-01
+                              :arg0  (x7 / 陨石
+))                        :arg1  (x7 / 陨石
+)                        :source  (x3 / 天上
+)                        :frequency  (x4 / 常常
+)))            :op2  (x9 / 也许
+                  :arg0  (x15 / 掉-01
+                        :arg0  (x10 / 它
+)                        :direction  (x16 / 下来-01
+                              :arg0  (x10 / 它
+))                        :mode  (x12_x17 / judgement
+)                        :mod  (x11 / 就
+)                        :source  (x14 / 天上
+))                  :mode  (x18_x19 / expressive
+))))
+===========================
+“这么重的大石头从天上掉下来，力量一定非常大。
+(x31 / say
+      :arg1  (x26 / causation
+            :arg1  (x9 / 掉-01
+                  :direction  (x10 / 下来-01
+                        :arg0  (x6 / 石头
+                              :arg0-of  (x5 / 大-01
+)                              :arg0-of  (x3 / 重-02
+                                    :degree  (x2 / 这么
+))))                  :arg1  (x6 / 石头
+)                  :source  (x8 / 天上
+))            :arg2  (x13 / 一定
+                  :arg0  (x15 / 大-04
+                        :degree  (x14 / 非常
+)                        :arg0  (x12 / 力量
+)))))
+===========================
+它应该把草地砸一个很深很深的大坑。
+(x2 / 应该-02
+      :arg0  (x5 / 砸-01
+            :arg1  (x1 / 它
+)            :arg2  (x4 / 草地
+)            :cause-of  (x12 / 大坑
+                  :arg0-of  (x8_x10 / 深-02
+                        :degree  (x7_x9 / 很
+))                  :quant  (x6_1 / 1
+)                  :cunit  (x6_2 / 个
+))))
+===========================
+可它为什么没卧进土里去呢？”
+(x12 / say
+      :arg1  (x14 / contrast
+            :arg2  (x5 / 卧
+                  :cause-of  (x6 / 进-01
+                        :arg0  (x2 / 它
+)                        :arg1  (x7 / 土
+))                  :polarity  (x4 / -
+)                  :cause  (x3 / amr-unknown
+)                  :mode  (x10_x11 / interrogative
+)                  :arg0  (x2 / 它
+))))
+===========================
+“这我可说不上来了。”
+(x9 / say
+      :arg1  (x12 / contrast
+            :arg1  (x2 / 这
+)            :arg2  (x5_3_x6 / possible
+                  :polarity  (x5_2 / -
+)                  :arg0  (x5_1 / 说-01
+                        :smood  (x7 / 了
+)                        :arg0  (x3 / 我
+)))))
+===========================
+李四光又跑去问爸爸，爸爸也说不清楚。
+(x14 / temporal
+      :arg2  (x3 / 跑-01
+            :purpose  (x5 / 问-01
+                  :arg0  (x18 / person
+                        :name  ( x1/李四光 
+))                  :arg1  (x6 / 爸爸
+))            :arg0  (x18 / person
+))      :arg3  (x21 / possible
+            :arg0  (x10 / 说-01
+                  :arg0  (x8 / x6
+)                  :cause-of  (x12 / 清楚
+))            :mod  (x9 / 也
+)            :polarity  (x11 / -
+)))
+===========================
+这块突兀的大石头到底是怎么来的？
+(x9 / 来-01
+      :arg0  (x5 / 石头
+            :arg0-of  (x4 / 大-01
+)            :arg0-of  (x2 / 突兀-01
+)            :mod  (x1_1 / 这
+)            :cunit  (x1_2 / 块
+))      :mod  (x6 / 到底
+)      :mode  (x7_x10 / judgement
+)      :mode  (x11 / interrogative
+)      :manner  (x8 / amr-unknown
+))
+===========================
+为什么它的四周都是平整的土地，没有一块石头呢？
+(x16 / and
+      :op1  (x9 / 土地
+            :arg0-of  (x7 / 平整-01
+)            :location  (x4 / 四周
+                  :extent  (x5 / 都
+)                  :arg0  (x2 / 它
+))            :cause  (x1 / amr-unknown
+))      :op1  (x11_2 / 有-03
+            :arg0  (x4 / 四周
+)            :arg1  (x13 / 石头
+                  :quant  (x12_1 / 1
+)                  :cunit  (x12_2 / 块
+))            :polarity  (x11_1 / -
+)            :cause  (x1 / amr-unknown
+))      :mode  (x14_15 / interrogative
+))
+===========================
+这个问题李四光想了许多年。
+(x4 / 想-01
+      :aspect  (x5 / 了
+)      :arg0  (x12 / person
+            :name  ( x3/李四光 
+))      :arg1  (x2 / 问题
+            :mod  (x1_1 / 这
+)            :cunit  (x1_2 / 个
+))      :duration  (x17 / temporal-quantity
+            :quant  (x6 / 许多
+)            :unit  (x7 / 年
+)))
+===========================
+直到他长大以后到英国学习了地质学，才明白冰川可以推动巨大的石头旅行几百里甚至上千里。
+(x26 / condition
+      :arg1  (x1 / 直到-01
+            :arg0  (x5 / 到-01
+                  :arg1  (x30 / country
+                        :name  ( x6/英国 
+))                  :arg0  (x2 / 他
+)                  :time  (x4 / 以后
+                        :op1  (x3 / 长大-01
+                              :arg0  (x2 / 他
+)))))      :arg2  (x12 / 明白-01
+            :arg0  (x2 / 他
+)            :arg1  (x14 / 可以-03
+                  :arg0  (x13 / 冰川
+)                  :arg1  (x15 / 推动-01
+                        :arg0  (x13 / 冰川
+)                        :arg1  (x18 / 石头
+                              :arg0-of  (x16 / 巨大-01
+))                        :arg2  (x19 / 旅行-01
+                              :arg0  (x18 / 石头
+)                              :quant  (x43 / between
+                                    :op1  (x44 / distance-quantity
+                                          :unit  (x21 / 里
+)                                          :quant  (x20_1 / 几
+                                                :op1  (x20_2 / 100
+)))                                    :op2  (x48 / distance-quantity
+                                          :quant  (x23_1 / 上
+                                                :op1  (x23_2 / 1000
+))                                          :unit  (x24 / 里
+))))))))
+===========================
+后来，李四光回到家乡，专门考察了这块大石头。
+(x14 / temporal
+      :arg2  (x4 / 回到-01
+            :arg0  (x19 / person
+                  :name  ( x3/李四光 
+))            :arg1  (x5 / 家乡
+))      :arg3  (x8 / 考察-01
+            :manner  (x7 / 专门
+)            :arg0  (x19 / person
+)            :arg1  (x12 / 石头
+                  :arg0-of  (x11 / 大-01
+)                  :mod  (x10_1 / 这
+)                  :cunit  (x10_2 / 块
+))            :aspect  (x9 / 了
+)))
+===========================
+他终于弄明白了，这块大石头是从遥远的秦岭被冰川带到这里来的。
+(x3 / 弄-03
+      :cause-of  (x4 / 明白-01
+            :arg0  (x1 / 他
+)            :arg1  (x17_x18 / 带到-01
+                  :arg0  (x16 / 冰川
+)                  :arg1  (x9 / 石头
+                        :arg0-of  (x8 / 大-01
+)                        :mod  (x7_1 / 这
+)                        :cunit  (x7_2 / 块
+))                  :arg2  (x19 / 这里
+)                  :source  (x14 / 秦岭
+                        :arg0-of  (x12 / 遥远-01
+))                  :mode  (x10_x21 / judgement
+))            :aspect  (x5 / 了
+))      :arg0  (x1 / 他
+))
+===========================
+经过进一步的考察，他发现在长江流域有大量第四纪冰川活动的遗迹。
+(x20 / temporal
+      :arg1  (x1 / 经过-01
+            :arg1  (x4 / 考察-01
+                  :mod  (x2 / 进一步
+)                  :arg0  (x6 / 他
+)))      :arg2  (x7 / 发现-01
+            :arg0  (x6 / 他
+)            :arg1  (x11 / 有-03
+                  :arg1  (x17 / 遗迹
+                        :quant  (x12 / 大量
+)                        :mod  (x15 / 活动-01
+                              :arg0  (x14 / 冰川
+                                    :mod  (x35 / ordinal-entity
+                                          :value  (x13_1_2 / 4
+)                                          :unit  (x13_3 / 纪
+))))))))
+===========================
+他的这一研究成果，震惊了全世界。
+(x8 / 震惊-01
+      :aspect  (x9 / 了
+)      :arg0  (x6 / 成果
+            :mod  (x5 / 研究
+                  :poss  (x1 / 他
+)                  :mod  (x3 / 这
+))            :quant  (x4 / 1
+))      :arg1  (x11 / 世界
+            :extent  (x10 / 全
+)))
+===========================

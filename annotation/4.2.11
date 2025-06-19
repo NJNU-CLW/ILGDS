@@ -1,0 +1,396 @@
+清朗的夜空出现两个亮点，越来越近，才看清楚是一红一绿的两盏灯。
+(x25 / and
+      :op1  (x4 / 出现-01
+            :arg0  (x3 / 夜空
+                  :arg0-of  (x1 / 清朗
+))            :arg1  (x7 / 亮点
+                  :quant  (x5 / 2
+)                  :cunit  (x6 / 个
+)))      :op2  (x33 / causation
+            :arg1  (x10 / 近
+                  :degree  (x9 / 越来越
+))            :arg2  (x13 / 看-02
+                  :cause-of  (x14 / 清楚-01
+                        :arg0  (x23 / 灯
+                              :quant  (x21 / 两
+)                              :cunit  (x22 / 盏
+)                              :arg1-of  (x19 / 绿-01
+)                              :arg0-of  (x17 / 红-01
+)))                  :arg1  (x23 / 灯
+))))
+===========================
+接着传来了隆隆声，这是一架飞机在夜航。
+(x14 / temporal
+      :arg2  (x16 / and
+            :op1  (x2 / 传来-01
+                  :aspect  (x3 / 了
+)                  :arg1  (x4 / 隆隆声
+))            :op2  (x12 / 夜航
+                  :domain  (x6 / 这
+)                  :aspect  (x11 / 在
+)                  :arg0  (x10 / 飞机
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 架
+)))))
+===========================
+在漆黑的夜里，飞机怎么能安全飞行呢？
+(x8 / 能-01
+      :cause  (x7 / amr-unknown
+)      :arg0  (x10 / 飞行-01
+            :manner  (x9 / 安全
+)            :arg0  (x6 / 飞机
+)            :time  (x4 / 夜里
+                  :arg0-of  (x2 / 漆黑-01
+)))      :mode  (x11_x12 / interrogative
+))
+===========================
+原来是人们从蝙蝠身上得到了启示。
+(x1 / 原来-01
+      :arg0  (x8 / 得到-01
+            :arg0  (x3 / 人们
+)            :source  (x6 / 身
+                  :part-of  (x5 / 蝙蝠
+))            :aspect  (x9 / 了
+)            :arg1  (x10 / 启示
+)))
+===========================
+蝙蝠是在夜里飞行的，还能捕捉飞蛾和蚊子；而且无论怎么飞，从来没见过它跟什么东西相撞，即使一根极细的电线，它也能灵巧地避开。
+(x45 / and
+      :op1  (x51 / and
+            :op1  (x5 / 飞行-01
+                  :mode  (x2_x6 / judgement
+)                  :arg0  (x1 / 蝙蝠
+)                  :time  (x4 / 夜里
+))            :op2  (x9 / 能-01
+                  :arg0  (x10 / 捕捉-01
+                        :arg1  (x12 / and
+                              :op1  (x11 / 飞蛾
+)                              :op2  (x13 / 蚊子
+))                        :arg0  (x1 / 蝙蝠
+)))            :op2  (x57 / and
+                  :op1  (x58 / concession
+                        :arg1  (x18 / 飞-01
+                              :manner  (x17 / amr-unknown
+)                              :arg0  (x1 / 蝙蝠
+))                        :arg2  (x22 / 见-01
+                              :polarity  (x21 / -
+)                              :aspect  (x23 / 过
+)                              :time  (x20 / 从来
+)                              :arg1  (x28 / 相撞-01
+                                    :arg0  (x25 / and
+                                          :op1  (x24 / x1
+)                                          :op2  (x27 / 东西
+                                                :mod  (x26 / amr-unknown
+))))))                  :op2  (x71 / concession
+                        :arg1  (x36 / 电线
+                              :arg0-of  (x34 / 细-01
+                                    :degree  (x33 / 极
+))                              :quant  (x31 / 1
+)                              :cunit  (x32 / 根
+))                        :arg2  (x40 / 能-01
+                              :arg0  (x43 / 避开-01
+                                    :arg0  (x38 / x1
+)                                    :manner  (x41 / 灵巧
+)))))))
+===========================
+难道它的眼睛特别敏锐，能在漆黑的夜里看清楚所有的东西吗？
+(x20 / and
+      :mod  (x1 / 难道
+)      :mode  (x18_x19 / interrogative
+)      :op1  (x6 / 敏锐-01
+            :degree  (x5 / 特别
+)            :arg0  (x4 / 眼睛
+                  :part-of  (x2 / 它
+)))      :op2  (x8 / 能-01
+            :arg0  (x13 / 看-02
+                  :cause-of  (x14 / 清楚-01
+                        :arg0  (x17 / 东西
+                              :mod  (x15 / 所有
+)))                  :arg0  (x4 / 眼睛
+)                  :time  (x12 / 夜里
+                        :arg0-of  (x10 / 漆黑-01
+))                  :arg1  (x17 / 东西
+))))
+===========================
+为了弄清楚这个问题，一百多年前，科学家做了一次试验。
+(x13 / 做-01
+      :time  (x10 / 前
+            :arg0  (x22 / temporal-quantity
+                  :quant  (x8 / 多
+                        :op1  (x7 / 100
+))                  :unit  (x9 / 年
+)))      :arg0  (x12 / 科学家
+)      :aspect  (x14 / 了
+)      :arg1  (x17 / 试验
+            :unit  (x16 / 次
+)            :quant  (x15 / 1
+))      :purpose  (x2 / 弄-03
+            :cause-of  (x3 / 清楚-01
+                  :arg0  (x5 / 问题
+                        :mod  (x4_1 / 这
+)                        :cunit  (x4_2 / 个
+)))            :arg1  (x5 / 问题
+)))
+===========================
+在一间屋子里横七竖八地拉了许多绳子，绳子上系着许多铃铛。
+(x20 / and
+      :op1  (x8 / 拉
+            :aspect  (x9 / 了
+)            :arg1  (x11 / 绳子
+                  :quant  (x10 / 许多
+))            :location  (x4 / 屋子
+                  :cunit  (x3 / 间
+)                  :quant  (x2 / 一
+))            :manner  (x6 / 横七竖八
+                  :arg0  (x11 / 绳子
+)))      :op2  (x15 / 系-04
+            :aspect  (x16 / 着
+)            :arg1  (x18 / 铃铛
+                  :quant  (x17 / 许多
+))            :location  (x13 / x11
+)))
+===========================
+他们把蝙蝠的眼睛蒙上，让它在屋子里飞。
+(x15 / temporal
+      :arg1  (x6 / 蒙上-01
+            :arg0  (x1 / 他们
+)            :arg1  (x5 / 眼睛
+                  :part-of  (x3 / 蝙蝠
+)))      :arg2  (x8 / 让
+            :arg1  (x9 / x3
+)            :arg2  (x13 / 飞-01
+                  :location  (x11 / 屋子
+)                  :arg0  (x3 / 蝙蝠
+))))
+===========================
+蝙蝠飞了几个钟头，铃铛一个也没响，那么多的绳子，它一根也没碰着。
+(x28 / and
+      :op1  (x2 / 飞-01
+            :duration  (x31 / temporal-quantity
+                  :quant  (x4 / 几
+)                  :unit  (x6 / 钟头
+))            :arg0  (x1 / 蝙蝠
+)            :aspect  (x3 / 了
+))      :op2  (x13 / 响-01
+            :polarity  (x12 / -
+)            :mod  (x11 / 也
+)            :arg0  (x8 / 铃铛
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 个
+)))      :op3  (x25 / 碰-01
+            :arg1  (x18 / 绳子
+                  :arg0-of  (x16 / 多-01
+                        :degree  (x15 / 那么
+))                  :quant  (x21 / 1
+)                  :cunit  (x22 / 根
+))            :polarity  (x24 / -
+)            :arg0  (x20 / x1
+)            :mod  (x23 / 也
+)))
+===========================
+科学家又做了两次试验：一次把蝙蝠的耳朵塞上，一次把蝙蝠的嘴封住，让它在屋子里飞。
+(x3 / 做-01
+      :aspect  (x4 / 了
+)      :arg0  (x1 / 科学家
+)      :mod  (x2 / 又
+)      :arg1  (x7 / 试验
+            :quant  (x5 / 2
+)            :unit  (x6 / 次
+)            :arg0-of  (x40 / mean
+                  :arg1  (x41 / and
+                        :op1  (x43 / temporal
+                              :arg2  (x25 / 让-02
+                                    :arg1  (x26 / 它
+)                                    :arg2  (x30 / 飞-01
+                                          :location  (x28 / 屋子
+)))                              :arg1  (x15 / 塞-01
+                                    :arg1  (x14 / 耳朵
+                                          :part-of  (x12 / 蝙蝠
+))))                        :op2  (x45 / temporal
+                              :arg1  (x23 / 封住-01
+                                    :arg1  (x22 / 嘴
+                                          :part-of  (x20 / 蝙蝠
+)))                              :arg2  (x25 / 让-02
+))))))
+===========================
+蝙蝠就像没头苍蝇似的到处乱撞，挂在绳子上的铃铛响个不停。
+(x23 / and
+      :op1  (x10 / 撞-01
+            :manner  (x9 / 乱
+)            :location  (x8 / 到处
+)            :arg0  (x1 / 蝙蝠
+)            :arg0-of  (x29 / resemble
+                  :arg1  (x6 / 苍蝇
+                        :arg0-of  (x31 / 有-01
+                              :arg1  (x5 / 头
+)                              :polarity  (x4 / -
+))))            :mod  (x2 / 就
+))      :op2  (x18 / 响-01
+            :arg0  (x17 / 铃铛
+                  :arg1-of  (x12 / 挂-01
+                        :arg2  (x14 / 绳子
+)))            :arg1-of  (x21 / 停-01
+                  :polarity  (x20 / -
+))))
+===========================
+三次不同的试验证明，蝙蝠夜里飞行，靠的不是眼睛，它是用嘴和耳朵配合起来探路的。
+(x6 / 证明-01
+      :arg0  (x5 / 试验
+            :quant  (x1 / 3
+)            :unit  (x2 / 次
+)            :arg0-of  (x3 / 不同-01
+))      :arg1  (x35 / progression
+            :arg1  (x16 / 眼睛
+                  :domain  (x37 / thing
+                        :arg1-of  (x12 / 靠-01
+                              :arg0  (x8 / 蝙蝠
+)                              :time  (x10 / 飞行-01
+                                    :time  (x9 / 夜里
+)                                    :arg0  (x8 / 蝙蝠
+))))                  :polarity  (x14 / -
+))            :arg2  (x26 / 探路-01
+                  :manner  (x24_x25 / 配合-01
+                        :arg0  (x21 / 嘴
+                              :part-of  (x8 / 蝙蝠
+))                        :arg1  (x23 / 耳朵
+                              :part-of  (x8 / 蝙蝠
+)))                  :arg0  (x18 / x8
+))))
+===========================
+科学家经过反复研究，终于揭开了蝙蝠能在夜里飞行的秘密。
+(x17 / temporal
+      :arg1  (x2 / 经过-01
+            :arg0  (x1 / 科学家
+)            :arg1  (x4 / 研究-01
+                  :manner  (x3 / 反复
+)                  :arg0  (x1 / 科学家
+)))      :arg2  (x7 / 揭开-01
+            :arg0  (x1 / 科学家
+)            :time  (x6 / 终于
+)            :aspect  (x8 / 了
+)            :arg1  (x15 / 秘密
+                  :arg0-of  (x27 / mean
+                        :arg1  (x10 / 能-01
+                              :arg0  (x13 / 飞行-01
+                                    :time  (x12 / 夜里
+)                                    :arg0  (x9 / 蝙蝠
+)))))))
+===========================
+它一边飞，一边从嘴里发出一种声音。
+(x14 / and
+      :op1  (x3 / 飞-01
+            :arg0  (x1 / 它
+)            :op2  (x9 / 发出-01
+                  :arg1  (x12 / 声音
+)                  :arg0  (x1 / 它
+)                  :source  (x7 / 嘴
+                        :part-of  (x1 / 它
+)))))
+===========================
+这种声音叫做超声波，人的耳朵是听不见的，蝙蝠的耳朵却能听见。
+(x22 / and
+      :op1  (x3 / 叫做-01
+            :arg1  (x2 / 声音
+                  :unit  (x1_2 / 种
+)                  :mod  (x1_1 / 这
+))            :arg2  (x4 / 超声波
+))      :op2  (x29 / contrast
+            :arg1  (x30 / possible
+                  :polarity  (x11 / -
+)                  :arg0  (x10_x12 / 听见-01
+                        :arg0  (x8 / 耳朵
+                              :part-of  (x6 / 人
+))                        :arg1  (x4 / 超声波
+))                  :mode  (x9_x13 / judgement
+))            :arg2  (x19 / 能-01
+                  :arg0  (x20 / 听见-01
+                        :arg1  (x4 / 超声波
+)                        :arg0  (x17 / 耳朵
+                              :part-of  (x15 / 蝙蝠
+))))))
+===========================
+超声波像波浪一样向前推进，遇到障碍物就反射回来，传到蝙蝠的耳朵里，蝙蝠就立刻改变飞行的方向。
+(x28 / temporal
+      :arg1  (x6 / 推进-01
+            :direction  (x5_2 / 前
+)            :arg1  (x1 / 超声波
+                  :arg0-of  (x33 / resemble
+                        :arg1  (x3 / 波浪
+))))      :arg2  (x35 / condition
+            :arg1  (x8 / 遇到-01
+                  :arg0  (x1 / 超声波
+)                  :arg1  (x9 / 障碍物
+))            :arg2  (x12 / 回来-01
+                  :manner  (x11 / 反射-01
+                        :arg1  (x1 / 超声波
+))                  :arg0  (x1 / 超声波
+)))      :arg3  (x14 / 传到-01
+            :arg0  (x1 / 超声波
+)            :arg1  (x17 / 耳朵
+                  :part-of  (x15 / 蝙蝠
+)))      :arg4  (x23 / 改变-01
+            :arg0  (x20 / x15
+)            :arg1  (x26 / 方向
+                  :mod  (x24 / 飞行-01
+                        :arg0  (x15 / 蝙蝠
+)))            :time  (x22 / 立刻
+)))
+===========================
+科学家模仿蝙蝠探路的方法，给飞机装上了雷达。
+(x10 / 装上-01
+      :manner  (x2 / 模仿-01
+            :arg1  (x6 / 方法
+                  :mod  (x4 / 探路-01
+                        :arg0  (x3 / 蝙蝠
+)))            :arg0  (x1 / 科学家
+))      :aspect  (x11 / 了
+)      :arg2  (x12 / 雷达
+)      :arg1  (x9 / 飞机
+)      :arg0  (x1 / 科学家
+))
+===========================
+雷达通过天线发出无线电波，无线电波遇到障碍物就反射回来，显示在荧光屏上。
+(x23 / temporal
+      :arg1  (x4 / 发出-01
+            :instrument  (x3 / 天线
+)            :arg0  (x1 / 雷达
+)            :arg1  (x6 / 波
+                  :mod  (x5 / 无线电
+)))      :arg2  (x30 / condition
+            :arg1  (x10 / 遇到-01
+                  :arg1  (x11 / 障碍物
+)                  :arg0  (x9 / 波
+                        :mod  (x8 / 无线电
+)))            :arg2  (x14 / 回来-01
+                  :arg0  (x9 / 波
+)                  :manner  (x13 / 反射-01
+                        :arg1  (x9 / 波
+))))      :arg3  (x16 / 显示-01
+            :location  (x18 / 荧光屏
+)            :arg1  (x9 / 波
+)))
+===========================
+驾驶员从雷达的荧光屏上，能够看清楚前方有没有障碍物，所以飞机在夜里飞行也十分安全。
+(x25 / causation
+      :arg1  (x8 / 能够-01
+            :arg0  (x9 / 看-02
+                  :arg1  (x31 / or
+                        :op1  (x12 / 有-03
+                              :arg0  (x11 / 前方
+))                        :op2  (x13_2 / 有-03
+                              :arg0  (x11 / 前方
+)                              :polarity  (x13_1 / -
+)                              :arg1  (x14 / 障碍物
+)))                  :arg0  (x1 / 驾驶员
+)                  :source  (x5 / 荧光屏
+                        :poss  (x3 / 雷达
+))                  :cause-of  (x10 / 清楚-01
+                        :arg0  (x31 / or
+))))      :arg2  (x23 / 安全-01
+            :arg0  (x20 / 飞行-01
+                  :time  (x19 / 夜里
+)                  :arg0  (x17 / 飞机
+))            :mod  (x21 / 也
+)            :degree  (x22 / 十分
+)))
+===========================

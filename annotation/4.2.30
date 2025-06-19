@@ -1,0 +1,345 @@
+飞卫是一名射箭能手。
+(x6 / 能手
+      :mod  (x5 / 射箭
+)      :domain  (x11 / person
+            :name  ( x1/飞卫 
+))      :quant  (x3 / 1
+)      :cunit  (x4 / 名
+))
+===========================
+有个叫纪昌的人，想学射箭，就去向飞卫请教。
+(x18 / causation
+      :arg1  (x8 / 想-02
+            :arg0  (x6 / 人
+                  :arg0-of  (x3 / 叫-01
+                        :arg1  (x4 / 纪昌
+))                  :arg1-of  (x1 / 有-03
+)                  :cunit  (x2 / 个
+))            :arg1  (x9 / 学-01
+                  :arg1  (x10 / 射箭
+))            :arg0  (x6 / 人
+))      :arg2  (x13 / 去-01
+            :arg0  (x6 / 人
+)            :arg1  (x16 / 请教-01
+                  :arg1  (x30 / person
+                        :name  ( x15/飞卫 
+))                  :arg0  (x6 / 人
+))))
+===========================
+开始练习的时候，飞卫对纪昌说：“你要想学会射箭，首先应该下功夫练眼力。
+(x9 / 说-01
+      :time  (x1 / 开始
+            :arg1  (x2 / 练习
+))      :arg0  (x27 / person
+            :name  ( x6/飞卫 
+))      :arg3  (x28 / person
+            :name  ( x8/纪昌 
+))      :arg1  (x29 / condition
+            :arg1  (x13 / 想-02
+                  :arg0  (x11 / x28
+)                  :arg1  (x14 / 学会-01
+                        :arg0  (x28 / person
+)                        :arg1  (x15 / 射箭-01
+)))            :arg2  (x18 / 应该-01
+                  :time  (x17 / 首先
+)                  :arg0  (x20 / 练-01
+                        :arg1  (x21 / 眼力
+)                        :manner  (x19 / 下功夫
+)))))
+===========================
+眼睛要牢牢地盯住一个目标，不能眨一眨！”纪昌回家之后，就开始练习起来。
+(x24 / temporal
+      :arg1  (x26 / say
+            :arg1  (x33 / and
+                  :op1  (x2 / 要-03
+                        :arg0  (x5 / 盯住-01
+                              :arg1  (x8 / 目标
+                                    :cunit  (x7 / 个
+)                                    :quant  (x6 / 1
+))                              :manner  (x3 / 牢牢
+)                              :arg0  (x1 / 眼睛
+)))                  :op2  (x10_2 / 能-01
+                        :polarity  (x10_1 / -
+)                        :arg0  (x11_x12_x13 / 眨-01
+                              :arg1  (x1 / 眼睛
+)))))      :arg2  (x20 / 开始-01
+            :time  (x17 / 之后-01
+                  :arg0  (x16 / 回家-01
+                        :arg0  (x30 / person
+                              :name  ( x15/纪昌 
+))))            :arg1  (x21_x22 / 练习-01
+                  :arg0  (x30 / person
+))            :arg0  (x30 / person
+)            :mod  (x19 / 就
+)))
+===========================
+妻子织布的时候，他躺在织布机下面，睁大眼睛，注视着梭子来回穿梭。
+(x22 / and
+      :time  (x2 / 织布-01
+            :arg0  (x1 / 妻子
+))      :op1  (x7 / 躺-01
+            :arg0  (x6 / 他
+)            :arg1  (x10 / 下面
+                  :arg0  (x9 / 织布机
+)))      :op2  (x12 / 睁-01
+            :cause-of  (x13 / 大-01
+                  :arg0  (x14 / 眼睛
+))            :arg0  (x6 / 他
+)            :arg1  (x14 / 眼睛
+))      :op3  (x16 / 注视-01
+            :aspect  (x17 / 着
+)            :arg0  (x6 / 他
+)            :arg1  (x20 / 穿梭-01
+                  :manner  (x19 / 来回-01
+                        :arg0  (x18 / 梭子
+))                  :arg0  (x18 / 梭子
+))))
+===========================
+两年以后，纪昌的本领练得相当到家了——就是有人用针刺他的眼皮，他的眼睛也不会眨一下。
+(x31 / and
+      :op1  (x7 / 练-01
+            :degree  (x10 / 到-01
+                  :aspect  (x12 / 了
+)                  :arg1  (x11 / 家
+)                  :degree  (x9 / 相当
+))            :arg1  (x6 / 本领
+                  :poss  (x44 / person
+                        :name  ( x4/纪昌 
+)))            :arg0  (x44 / person
+))      :time  (x2 / 以后
+            :arg0  (x40 / temporal-quantity
+                  :quant  (x1_1 / 2
+)                  :unit  (x1_2 / 年
+)))      :op2  (x46 / concession
+            :arg1  (x17_2 / 刺-01
+                  :arg0  (x15_2 / 人
+                        :arg1-of  (x15_1 / 有-03
+))                  :instrument  (x17_1 / 针
+)                  :arg1  (x20 / 眼皮
+                        :part-of  (x18 / x44
+)))            :arg2  (x26_2 / 会-02
+                  :polarity  (x26_1 / -
+)                  :arg0  (x27 / 眨-01
+                        :arg1  (x24 / 眼睛
+                              :part-of  (x22 / x44
+))                        :arg0  (x44 / person
+)                        :quant  (x28_1 / 1
+)                        :unit  (x28_2 / 下
+)))))
+===========================
+纪昌对自己的成绩感到很满意，以为学得差不多了，就再次去拜见飞卫。
+(x22 / causation
+      :arg1  (x24 / and
+            :op1  (x6 / 感到-01
+                  :arg1  (x8 / 满意-01
+                        :arg1  (x5 / 成绩
+                              :poss  (x3 / x28
+))                        :degree  (x7 / 很-01
+))                  :arg0  (x28 / person
+                        :name  ( x1/纪昌 
+)))            :op2  (x10 / 以为-01
+                  :arg0  (x28 / person
+)                  :arg1  (x11 / 学
+                        :degree  (x13 / 差不多
+                              :aspect  (x14 / 了
+)))))      :arg2  (x18 / 去-01
+            :manner  (x17 / 再次
+)            :arg0  (x28 / person
+)            :arg1  (x19 / 拜见-01
+                  :arg0  (x28 / person
+)                  :arg1  (x35 / person
+                        :name  ( x20/飞卫 
+)))))
+===========================
+飞卫对他说：“虽然你已经取得了不小的成绩，但你的眼力还不够。
+(x4 / 说-01
+      :arg0  (x25 / person
+            :name  ( x1/飞卫 
+))      :arg3  (x3 / 他
+)      :arg1  (x28 / contrast
+            :arg1  (x9 / 取得-01
+                  :aspect  (x8 / 已经
+)                  :aspect  (x10 / 了
+)                  :arg0  (x7 / 你
+)                  :arg1  (x14 / 成绩
+                        :arg0-of  (x12 / 小-01
+                              :polarity  (x11 / -
+))))            :arg2  (x21 / 不够-01
+                  :mod  (x20 / 还
+)                  :arg0  (x19 / 眼力
+                        :poss  (x17 / x3
+)))))
+===========================
+等到练得能够把极小的东西，看成一件很大东西的时候，你再来见我吧！”
+(x27 / say
+      :arg1  (x29 / condition
+            :arg1  (x2 / 练-01
+                  :cause-of  (x4 / 能够-01
+                        :arg0  (x11 / 看成-01
+                              :arg0  (x20 / 你
+)                              :arg1  (x9 / 东西
+                                    :arg0-of  (x7 / 小-01
+                                          :degree  (x6 / 极
+)))                              :arg1  (x16 / 东西
+                                    :quant  (x12 / 1
+)                                    :cunit  (x13 / 件
+)                                    :arg0-of  (x15 / 大-01
+                                          :degree  (x14 / 很
+)))))                  :arg0  (x20 / 你
+))            :arg2  (x22 / 来-05
+                  :arg0  (x20 / 你
+)                  :arg1  (x23 / 见-01
+                        :arg0  (x20 / 你
+)                        :arg1  (x24 / 我
+))                  :mode  (x25 / imperative
+)                  :mode  (x26 / expressive
+))))
+===========================
+纪昌记住了飞卫的话。
+(x2 / 记住-01
+      :aspect  (x3 / 了
+)      :arg0  (x11 / person
+            :name  ( x1/纪昌 
+))      :arg1  (x6 / 话
+            :poss  (x13 / person
+                  :name  ( x4/飞卫 
+))))
+===========================
+回到家里，又开始练习起来。
+(x9 / temporal
+      :arg1  (x1 / 回到-01
+            :arg1  (x2 / 家里
+))      :arg2  (x5 / 开始-01
+            :arg1  (x6_x7 / 练习
+)            :mod  (x4 / 又
+)))
+===========================
+他用一根长头发，绑住了一只虱子，把它吊在窗口。
+(x20 / temporal
+      :arg2  (x16 / 吊-01
+            :arg1  (x15 / x12
+)            :arg2  (x18 / 窗口
+)            :arg0  (x1 / 他
+))      :arg1  (x8 / 绑-01
+            :aspect  (x9 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x12 / 虱子
+                  :cunit  (x11 / 只
+)                  :quant  (x10 / 1
+))            :arg2  (x6 / 头发
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 根
+)                  :arg0-of  (x5 / 长-02
+))))
+===========================
+然后每天站在虱子旁边，聚精会神的盯着它。
+(x14 / temporal
+      :arg2  (x16 / and
+            :op1  (x3 / 站-01
+                  :arg1  (x6 / 旁边
+                        :arg0  (x5 / 虱子
+)))            :frequency  (x18 / rate-entity
+                  :arg2  (x19 / temporal-quantity
+                        :quant  (x2_1 / 1
+)                        :unit  (x2_2 / 天
+)))            :op2  (x10 / 盯-01
+                  :arg1  (x12 / x5
+)                  :aspect  (x11 / 着
+)                  :manner  (x8 / 聚精会神
+))))
+===========================
+那只小虱子，在纪昌的眼里一天天大起来，练到后来，大得竟然像车轮一样。
+(x27 / and
+      :op1  (x13_x14 / 大-01
+            :arg0  (x4 / 虱子
+                  :mod  (x1 / 那
+)                  :arg0-of  (x3 / 小-01
+)                  :cunit  (x2 / 只
+))            :location  (x9 / 眼里
+                  :part-of  (x32 / person
+                        :name  ( x7/纪昌 
+)))            :manner  (x10_x11_x12 / 一天天
+))      :op2  (x20 / 大-01
+            :time  (x17 / 到-01
+                  :arg1  (x18 / 后来
+)                  :manner  (x16 / 练-01
+                        :arg0  (x32 / person
+)))            :degree  (x23 / 像-01
+                  :manner  (x22 / 竟然
+)                  :arg0  (x4 / 虱子
+)                  :arg1  (x24 / 车轮
+))))
+===========================
+取得了这样大的进步，纪昌赶紧跑到飞卫那里，报告了这个好消息。
+(x21 / temporal
+      :arg1  (x1 / 取得-01
+            :arg0  (x26 / person
+                  :name  ( x8/纪昌 
+))            :aspect  (x2 / 了
+)            :arg1  (x6 / 进步
+                  :arg0-of  (x4 / 大-01
+                        :mod  (x3 / 这样
+))))      :arg2  (x10_x11 / 跑到-01
+            :manner  (x9 / 赶紧
+)            :arg0  (x26 / person
+)            :arg1  (x13 / 那里
+                  :location-of  (x39 / person
+                        :name  ( x12/飞卫 
+))))      :arg3  (x15 / 报告-01
+            :arg0  (x26 / person
+)            :aspect  (x16 / 了
+)            :arg1  (x19 / 消息
+                  :mod  (x17_1 / 这
+)                  :cunit  (x17_2 / 个
+)                  :arg0-of  (x18 / 好-01
+))            :arg2  (x39 / person
+)))
+===========================
+飞卫高兴地拍拍他的肩头，说：“你就要成功了！”
+(x17 / and
+      :op1  (x4 / 拍-01
+            :manner  (x2 / 高兴-01
+                  :arg0  (x22 / person
+                        :name  ( x1/飞卫 
+)))            :arg0  (x22 / person
+)            :arg1  (x7 / 肩头
+                  :part-of  (x5 / 他
+)))      :op2  (x9 / 说-01
+            :arg0  (x22 / person
+)            :arg3  (x5 / 他
+)            :arg1  (x13 / 要-03
+                  :mod  (x12 / 就
+)                  :arg0  (x14 / 成功-01
+                        :aspect  (x15 / 了
+)                        :arg0  (x11 / x5
+))                  :mode  (x16 / expressive
+))))
+===========================
+于是，飞卫开始教他怎样开弓，怎样放箭。
+(x15 / causation
+      :arg2  (x4 / 开始-01
+            :arg0  (x18 / person
+                  :name  ( x3/飞卫 
+))            :arg1  (x5 / 教-01
+                  :arg0  (x18 / person
+)                  :arg1  (x6 / 他
+)                  :arg2  (x21 / and
+                        :op1  (x8 / 开
+                              :manner  (x7 / amr-unknown
+)                              :arg1  (x9 / 弓
+))                        :op2  (x12 / 放
+                              :manner  (x11 / amr-unknown
+)                              :arg1  (x13 / 箭
+))))))
+===========================
+后来，纪昌成了百发百中的射箭能手。
+(x4 / 成-01
+      :time  (x1 / 后来
+)      :arg0  (x14 / person
+            :name  ( x3/纪昌 
+))      :aspect  (x5 / 了
+)      :arg1  (x9 / 能手
+            :mod  (x8 / 射箭
+)            :mod  (x6 / 百发百中
+)))
+===========================

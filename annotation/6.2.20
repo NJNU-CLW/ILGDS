@@ -1,0 +1,802 @@
+有人说过这样一句话：真理诞生于一百个问号之后。
+(x2 / 说-01
+      :arg0  (x1 / 有人
+)      :arg1  (x7 / 话
+            :quant  (x5 / 1
+)            :cunit  (x6 / 句
+)            :mod  (x4 / 这样
+)            :arg0-of  (x28 / mean
+                  :arg1  (x10 / 诞生-01
+                        :arg0  (x9 / 真理
+)                        :time  (x16 / 后
+                              :op1  (x14 / 问号
+                                    :quant  (x12 / 100
+)                                    :cunit  (x13 / 个
+))))))      :aspect  (x3 / 过
+))
+===========================
+其实，这句话本身就是一个真理。
+(x10 / 真理
+      :domain  (x5 / 话
+            :mod  (x3 / 这
+)            :cunit  (x4 / 句
+)            :arg0-of  (x17 / mean
+                  :arg1  (x6 / 本身
+)))      :quant  (x8 / 1
+)      :cunit  (x9 / 个
+)      :mod  (x1 / 其实
+))
+===========================
+纵观千百年来的科学技术发展史，那些定理、定律、学说的发现者、创立者，差不多都善于从细小的、司空见惯的现象中看出问题，不断发问，不断解决疑问，追根求源，最后把“？”拉直变成“！”，找到了真理。
+(x56 / and
+      :op1  (x1_x2 / 纵观-01
+            :arg1  (x7 / 发展史
+                  :mod  (x6 / 科学技术
+)                  :duration  (x62 / temporal-quantity
+                        :quant  (x3_1_2 / 千百
+)                        :unit  (x3_3 / 年
+))))      :op2  (x65 / temporal
+            :arg1  (x22 / 善于-01
+                  :arg0  (x67 / and
+                        :op1  (x16 / 发现者
+)                        :op2  (x18 / 创立者
+)                        :mod  (x70 / and
+                              :op1  (x10 / 定理
+)                              :op2  (x12 / 定律
+)                              :op3  (x14 / 学说
+))                        :mod  (x9 / 那些
+))                  :extent  (x21 / 都
+)                  :mod  (x20 / 差不多
+)                  :arg1  (x77 / temporal
+                        :arg1  (x31 / 看出-01
+                              :arg1  (x32 / 问题
+)                              :arg0  (x67 / and
+))                        :arg2  (x35 / 发问-01
+                              :manner  (x34 / 不断
+)                              :arg0  (x67 / and
+))                        :arg3  (x38 / 解决-01
+                              :arg1  (x39 / 疑问
+)                              :manner  (x37 / 不断
+)                              :arg0  (x67 / and
+))                        :arg4  (x41 / 追根求源
+))                  :fangmian  (x29 / 现象
+                        :arg0-of  (x24 / 细小
+)                        :arg0-of  (x27 / 司空见惯-01
+)))            :arg2  (x46_x47 / 拉直
+                  :arg1  (x45 / “？”
+)                  :purpose  (x48 / 变成-01
+                        :arg2  (x49 / “！”，
+)                        :arg3  (x45 / “？”
+)))            :arg3  (x50 / 找到-01
+                  :arg1  (x52 / 真理
+)                  :aspect  (x51 / 了
+)                  :arg0  (x67 / and
+))))
+===========================
+洗澡是一件非常普通的事情，而美国麻省理工学院机械工程系的谢皮罗教授却敏锐地注意到：每次放掉洗澡水时，水的漩涡总是朝逆时针方向旋转的。
+(x38 / contrast
+      :arg1  (x8 / 事情
+            :arg0-of  (x6 / 普通-01
+                  :degree  (x5 / 非常
+))            :quant  (x3 / 1
+)            :cunit  (x4 / 件
+)            :domain  (x1 / 洗澡
+))      :arg2  (x18_x19 / 注意-01
+            :arg0  (x49 / person
+                  :arg0-of  (x50 / have-org-role-91
+                        :arg2  (x14 / 教授
+                              :name  ( x13/谢皮罗 
+))                        :arg1  (x11 / 美国麻省理工学院机械工程系
+)))            :manner  (x16 / 敏锐-01
+                  :arg0  (x49 / person
+))            :arg1  (x35 / 旋转-02
+                  :time  (x22_x23 / 放掉-01
+                        :arg1  (x25 / 水
+                              :mod  (x24 / 洗澡
+))                        :frequency  (x21 / 每次
+))                  :arg0  (x30 / 漩涡
+                        :poss  (x28 / 水
+))                  :direction  (x33 / 逆时针
+)                  :frequency  (x31 / 总是
+)                  :smood  (x36 / 的
+))))
+===========================
+这是为什么呢？
+(x1 / 这
+      :cause  (x3 / amr-unknown
+)      :mode  (x4_x5 / interrogative
+))
+===========================
+谢皮罗紧紧抓住这个问号不放，进行了反复的实验和研究。
+(x17 / temporal
+      :arg1  (x3 / 抓住-01
+            :arg0  (x20 / person
+                  :name  ( x1/谢皮罗 
+))            :arg1  (x5 / 问号
+                  :mod  (x4_1 / 这
+)                  :cunit  (x4_2 / 个
+))            :manner  (x2 / 紧
+))      :arg2  (x7 / 放-02
+            :polarity  (x6 / -
+)            :arg1  (x5 / 问号
+)            :arg0  (x20 / person
+))      :arg3  (x9 / 进行-01
+            :arg1  (x14 / and
+                  :op1  (x13 / 实验-01
+                        :arg0-of  (x11 / 反复-01
+)                        :arg0  (x20 / person
+))                  :op2  (x15 / 研究-01
+                        :arg0-of  (x11 / 反复-01
+)                        :arg0  (x20 / person
+)))            :aspect  (x10 / 了
+)            :arg0  (x20 / person
+)))
+===========================
+1962年他发表了论文，认为这种漩涡与地球的自转有关，如果地球停止旋转，就不会产生这种漩涡。
+(x27 / and
+      :op1  (x3 / 发表-01
+            :arg0  (x2 / 他
+)            :arg1  (x5 / 论文
+)            :aspect  (x4 / 了
+)            :time  (x33 / date-entity
+                  :year  (x1 / 1962
+)))      :op2  (x7 / 认为-02
+            :arg1  (x14 / 有关-01
+                  :arg0  (x9 / 漩涡
+                        :mod  (x8_1 / 这
+)                        :unit  (x8_2 / 种
+))                  :arg1  (x13 / 自转-01
+                        :arg0  (x41 / planet
+                              :name  ( x11/地球 
+))))            :arg0  (x2 / 他
+))      :op3  (x43 / condition
+            :arg1  (x18 / 停止-01
+                  :arg0  (x45 / planet
+                        :name  ( x17/地球 
+))                  :arg1  (x19 / 旋转-01
+                        :arg0  (x45 / planet
+)))            :arg2  (x22_2 / 会-02
+                  :polarity  (x22_1 / -
+)                  :arg0  (x23 / 产生-01
+                        :arg1  (x25 / 漩涡
+                              :mod  (x24_1 / 这
+)                              :unit  (x24_2 / 种
+))))))
+===========================
+他认为，在北半球，洗澡水朝逆时针方向旋转；如果是在南半球，洗澡水的漩涡将朝顺时针方向旋转；而在赤道，则不会形成漩涡。
+(x2 / 认为-01
+      :arg0  (x1 / 他
+)      :arg1  (x42 / and
+            :op1  (x43 / condition
+                  :arg1  (x5 / 北半球
+)                  :arg2  (x12 / 旋转-02
+                        :arg0  (x8 / 水
+                              :mod  (x7 / 洗澡
+))                        :direction  (x10 / 逆时针
+)))            :op2  (x49 / condition
+                  :arg1  (x17 / 南半球
+)                  :arg2  (x27 / 旋转-02
+                        :arg0  (x22 / 漩涡
+                              :poss  (x20 / 水
+                                    :mod  (x19 / 洗澡
+)))                        :tense  (x23 / 将
+)                        :direction  (x25 / 顺时针
+)))            :op3  (x58 / condition
+                  :arg1  (x31 / 赤道
+)                  :arg2  (x35 / 会-02
+                        :arg0  (x36 / 形成-01
+                              :arg2  (x37 / 漩涡
+))                        :polarity  (x34 / -
+)))))
+===========================
+他的这个见解，引起各国科学家的极大兴趣，他们纷纷在各地进行实验，结果证明谢皮罗的结论完全正确。
+(x28 / temporal
+      :arg1  (x6 / 引起-01
+            :arg0  (x4 / 见解
+                  :mod  (x2_1 / 这
+)                  :cunit  (x3_2 / 个
+)                  :poss  (x1 / 他
+))            :arg1  (x11 / 兴趣
+                  :poss  (x8 / 科学家
+                        :mod  (x7 / 各国
+))                  :mod  (x10 / 极大
+)))      :arg2  (x17 / 进行-01
+            :arg0  (x13 / 他们
+)            :arg1  (x18 / 实验
+)            :manner  (x14 / 纷纷
+)            :location  (x16 / 各地
+))      :arg3  (x21 / 证明-01
+            :arg0  (x20 / 结果
+)            :arg1  (x26 / 正确-01
+                  :degree  (x25 / 完全
+)                  :arg0  (x24 / 结论
+                        :poss  (x49 / person
+                              :name  ( x22/谢皮罗 
+))))))
+===========================
+无独有偶。
+(x1 / 无独有偶
+)
+===========================
+17世纪的一个夏天，英国著名化学家波义耳正急匆匆地向自己的实验室走去，刚要跨入实验室大门，阵阵醉人的香气扑鼻而来，他这才发现花圃里的玫瑰花开了。
+(x48 / temporal
+      :arg1  (x19_x20 / 走去-01
+            :arg0  (x10 / 化学家
+                  :arg0-of  (x9 / 著名-01
+)                  :mod  (x53 / country
+                        :name  ( x8/英国 
+))                  :name  ( x11/波义耳 
+))            :aspect  (x12 / 正
+)            :manner  (x13 / 急匆匆
+)            :arg1  (x18 / 实验室
+                  :poss  (x16 / x11
+)))      :time  (x60 / date-entity
+            :century  (x2 / ordinal-entity
+                  :value  (x1 / 17
+))            :season  (x6 / 夏天
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 个
+)))      :arg2  (x23 / 要-03
+            :arg0  (x24_x25 / 跨入-01
+                  :arg1  (x27 / 大门
+                        :location  (x26 / 实验室
+))                  :arg0  (x10 / 化学家
+))            :time  (x22 / 刚
+))      :arg3  (x33_3_4_x34_x35 / 扑鼻而来
+            :arg0  (x33_1_2 / 香气
+                  :arg0-of  (x30_x31 / 醉人-01
+)                  :mod  (x29 / 阵阵
+)))      :arg4  (x40 / 发现-01
+            :arg1  (x45 / 开-01
+                  :arg1  (x44 / 玫瑰花
+                        :location  (x41 / 花圃
+))                  :aspect  (x46 / 了
+))            :arg0  (x37 / x11
+)            :mod  (x38 / 这
+)))
+===========================
+他本想好好欣赏一下迷人的花朵，但想到一天的实验安排，便摘下几朵紫罗兰插入一个盛水的烧瓶中，然后开始和助手们做实验。
+(x42 / contrast
+      :arg1  (x3 / 想-02
+            :arg0  (x1 / 他
+)            :mod  (x2 / 本
+)            :arg1  (x5_x6 / 欣赏-01
+                  :arg1  (x9 / 花朵
+                        :arg0-of  (x7 / 迷人-01
+))                  :manner  (x4 / 好好
+)                  :arg0  (x1 / 他
+)))      :arg2  (x53 / condition
+            :arg1  (x12 / 想到-01
+                  :arg1  (x16 / 安排
+                        :mod  (x15 / 实验
+)                        :duration  (x57 / temporal-quantity
+                              :quant  (x13_1 / 1
+)                              :unit  (x13_2 / 天
+)))                  :arg0  (x1 / 他
+))            :arg2  (x60 / temporal
+                  :arg1  (x19_x20 / 摘下-01
+                        :arg1  (x23 / 紫罗兰
+                              :quant  (x21 / 几
+)                              :cunit  (x22 / 朵
+))                        :arg0  (x1 / 他
+))                  :arg2  (x24 / 插入-01
+                        :arg2  (x30_x31 / 烧瓶
+                              :arg2-of  (x27 / 盛-02
+                                    :arg1  (x28 / 水
+))                              :quant  (x25 / 1
+)                              :cunit  (x26 / 个
+))                        :arg0  (x1 / 他
+)                        :arg1  (x23 / 紫罗兰
+))                  :arg3  (x35 / 开始-01
+                        :arg1  (x39 / 做-01
+                              :arg1  (x40 / 实验
+))                        :accompanier  (x37_x38 / 助手们
+)                        :arg0  (x1 / 他
+)))))
+===========================
+不巧的是，一个助手不慎把一滴盐酸溅到紫罗兰上，爱花的波义耳急忙把冒烟的紫罗兰用水冲洗了一下，重新插入花瓶中。
+(x39 / causation
+      :arg1  (x8 / 不慎-01
+            :arg0  (x7 / 助手
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 个
+))            :arg1  (x13 / 溅-01
+                  :arg1  (x12 / 盐酸
+                        :quant  (x10 / 1
+)                        :unit  (x11 / 滴
+))                  :arg2  (x15 / 紫罗兰
+)))      :arg2  (x50 / temporal
+            :arg1  (x30_x32 / 冲洗-02
+                  :aspect  (x31 / 了
+)                  :arg1  (x27 / 紫罗兰
+                        :arg0-of  (x24 / 冒-02
+                              :arg1  (x25 / 烟
+)))                  :instrument  (x29 / 水
+)                  :arg0  (x58 / person
+                        :name  ( x21/波义耳 
+)                        :arg0-of  (x18 / 爱-01
+                              :arg1  (x19 / 花
+)))                  :manner  (x22 / 急忙
+))            :arg2  (x35 / 插入-01
+                  :arg2  (x36 / 花瓶
+)                  :arg0  (x58 / person
+)))      :domain  (x65 / thing
+            :arg0-of  (x1 / 不巧
+)))
+===========================
+谁知当水落到花瓣上后，溅上盐酸的花瓣奇迹般地变红了，波义耳立即敏感地意识到紫罗兰中有一种成分遇盐酸会变红。
+(x45 / temporal
+      :arg1  (x2 / 知-01
+            :arg0  (x1 / 谁
+)            :arg1  (x43 / temporal
+                  :arg1  (x5 / 落
+                        :arg1  (x4 / 水
+)                        :arg2  (x7 / 花瓣
+))                  :arg2  (x18 / 变-01
+                        :arg0  (x15 / 花瓣
+                              :arg2-of  (x11_x12 / 溅-01
+                                    :arg1  (x13 / 盐酸
+)))                        :arg2  (x19 / 红
+)                        :aspect  (x20 / 了
+)                        :manner  (x16 / 奇迹般
+))))      :arg2  (x26_x27 / 意识-01
+            :arg0  (x59 / person
+                  :name  ( x22/波义耳 
+))            :time  (x23 / 立即
+)            :manner  (x24 / 敏感
+)            :arg1  (x63 / condition
+                  :arg1  (x34 / 遇-01
+                        :arg1  (x35 / 盐酸
+)                        :arg0  (x33 / 成分
+                              :quant  (x31 / 1
+)                              :unit  (x32 / 种
+)                              :arg1-of  (x30 / 有-06
+                                    :arg0  (x28 / 紫罗兰
+))))                  :arg2  (x36 / 会-02
+                        :arg0  (x37 / 变-01
+                              :arg2  (x38 / 红
+)                              :arg0  (x33 / 成分
+))))))
+===========================
+那么，这种物质到底是什么？
+(x16 / causation
+      :arg2  (x7 / amr-unknown
+            :domain  (x4 / 物质
+                  :mod  (x3_1 / 这
+)                  :unit  (x3_2 / 种
+))            :mod  (x5 / 到底
+)            :mode  (x8 / interrogative
+)))
+===========================
+别的植物中会不会有同样的物质？
+(x11 / or
+      :op1  (x4 / 会-02
+            :arg0  (x6 / 有-02
+                  :arg1  (x9 / 物质
+                        :arg0-of  (x7 / 同样-01
+))                  :arg0  (x2 / 植物
+                        :mod  (x1 / 别的
+))))      :op2  (x5_2 / 会-02
+            :polarity  (x5_1 / -
+))      :mode  (x10 / interrogative
+))
+===========================
+别的酸对这种物质会有什么样的反应？
+(x6 / 会-02
+      :arg0  (x7 / 有-05
+            :arg1  (x10 / 反应-01
+                  :arg1  (x5 / 物质
+                        :mod  (x4_1 / 这
+)                        :unit  (x4_2 / 种
+))                  :mod  (x8 / amr-unknown
+))            :arg0  (x2 / 酸
+                  :mod  (x1 / 别的
+)))      :mode  (x11 / interrogative
+))
+===========================
+这对化学研究有什么样的意义？
+(x5 / 有-05
+      :arg0  (x1 / 这
+)      :arg1  (x8 / 意义
+            :mod  (x6 / amr-unknown
+))      :beneficiary  (x4 / 研究
+            :mod  (x3 / 化学
+))      :mode  (x9 / interrogative
+))
+===========================
+这一奇怪的现象以及一连串的问题，促使波义耳进行了许多实验。
+(x11 / 促使-01
+      :arg0  (x6 / and
+            :op1  (x5 / 现象
+                  :arg0-of  (x3 / 奇怪-01
+)                  :quant  (x2 / 1
+)                  :mod  (x1 / 这
+))            :op2  (x9 / 问题
+                  :quant  (x7 / 一连串
+)))      :arg1  (x27 / person
+            :name  ( x12/波义耳 
+))      :arg2  (x13 / 进行-01
+            :arg1  (x16 / 实验
+                  :quant  (x15 / 许多
+))            :aspect  (x14 / 了
+)            :arg0  (x27 / person
+)))
+===========================
+由此他发现，大部分花草受酸或碱的作用都会改变颜色，其中以石蕊地衣中提取的紫色浸液最明显，它遇酸变成红色，遇碱变成蓝色。
+(x42 / temporal
+      :arg2  (x3 / 发现-01
+            :arg0  (x2 / 他
+)            :arg1  (x46 / and
+                  :op1  (x47 / condition
+                        :arg1  (x7 / 受-01
+                              :arg1  (x12 / 作用
+                                    :mod  (x9 / or
+                                          :op1  (x8 / 酸
+)                                          :op2  (x10 / 碱
+)))                              :arg0  (x6 / 花草
+                                    :quant  (x5 / 大部分
+)))                        :arg2  (x14 / 会-02
+                              :arg0  (x15 / 改变-01
+                                    :arg1  (x16 / 颜色
+))                              :extent  (x13 / 都
+)))                  :op2  (x29 / 明显-01
+                        :arg0  (x26_x27 / 浸液
+                              :arg0-of  (x25 / 紫色
+)                              :arg1  (x23 / 提取-01
+                                    :source  (x21 / 地衣
+                                          :mod  (x20 / 石蕊
+)))))                  :op3  (x65 / condition
+                        :arg1  (x32 / 遇-01
+                              :arg0  (x31 / x20
+)                              :arg1  (x33 / 酸
+))                        :arg2  (x34 / 变成-01
+                              :arg2  (x35 / 红色
+)                              :arg1  (x31 / x20
+)))                  :op4  (x71 / condition
+                        :arg1  (x37 / 遇-01
+                              :arg1  (x38 / 碱
+)                              :arg0  (x31 / x20
+))                        :arg2  (x39 / 变成-01
+                              :arg2  (x40 / 蓝色
+)                              :arg1  (x31 / x20
+))))))
+===========================
+利用这一特点，波义耳制成了实验中常用的酸碱试纸——石蕊试纸。
+(x7 / 制成-01
+      :arg0  (x20 / person
+            :name  ( x6/波义耳 
+))      :arg1  (x14 / 试纸
+            :mod  (x13 / 酸碱
+)            :arg1-of  (x11 / 常用-01
+)            :location  (x9 / 实验
+)            :arg0-of  (x27 / mean
+                  :arg1  (x16 / 石蕊试纸
+)))      :aspect  (x8 / 了
+)      :condition  (x1 / 利用-01
+            :arg1  (x4 / 特点
+                  :quant  (x3 / 1
+)                  :mod  (x2 / 这
+))            :arg0  (x20 / person
+)))
+===========================
+在以后的三百多年间，这种试纸一直被广泛应用于化学实验中。
+(x14 / 应用-02
+      :arg1  (x10 / 试纸
+            :mod  (x9_1 / 这
+)            :unit  (x9_2 / 种
+))      :arg0  (x25 / person
+)      :manner  (x13 / 广泛
+)      :arg2  (x17 / 实验
+            :mod  (x16 / 化学
+))      :time  (x11 / 一直
+)      :duration  (x35 / temporal-quantity
+            :quant  (x5 / 多
+                  :op1  (x4 / 300
+))            :unit  (x6 / 年
+)            :mod  (x2 / 以后
+)))
+===========================
+最有趣的是一位奥地利医生。
+(x8 / 医生
+      :mod  (x12 / country
+            :name  ( x7/奥地利 
+))      :quant  (x5 / 1
+)      :cunit  (x6 / 位
+)      :domain  (x16 / person
+            :arg0-of  (x2 / 有趣-01
+                  :degree  (x1 / 最
+))))
+===========================
+一次儿子睡觉时，他发现儿子的眼珠忽然转动起来。
+(x8 / 发现-01
+      :arg0  (x7 / 他
+)      :arg1  (x13_x14 / 转动-01
+            :arg1  (x11 / 眼珠
+                  :part-of  (x9 / x3
+)))      :manner  (x12 / 忽然
+)      :time  (x4 / 睡觉-01
+            :arg0  (x3 / 儿子
+)            :time  (x1_x2 / 一次
+)))
+===========================
+他感到很奇怪，连忙叫醒儿子，儿子说他刚才做了个梦。
+(x19 / temporal
+      :arg1  (x2 / 感到-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 奇怪-02
+                  :degree  (x3 / 很
+)                  :arg0  (x1 / 他
+)))      :arg2  (x7 / 叫醒-01
+            :manner  (x6 / 连忙
+)            :arg1  (x8 / 儿子
+)            :arg0  (x1 / 他
+))      :arg3  (x11 / 说-01
+            :arg1  (x14 / 做-01
+                  :arg0  (x12 / x8
+)                  :arg1  (x17 / 梦
+                        :cunit  (x16 / 个
+))                  :aspect  (x15 / 了
+)                  :time  (x13 / 刚才
+))            :arg0  (x10 / x8
+)))
+===========================
+这位医生想，眼珠转动会不会与做梦有关呢？
+(x4 / 想-01
+      :arg0  (x3 / 医生
+            :mod  (x1 / 这
+)            :cunit  (x2 / 位-01
+))      :arg1  (x21 / or
+            :op1  (x8 / 会-02
+                  :arg0  (x13 / 有关-01
+                        :arg0  (x7 / 转动-01
+                              :arg1  (x6 / 眼珠
+))                        :arg1  (x11 / 做-01
+                              :arg1  (x12 / 梦
+))))            :op2  (x9_2 / 会-02
+                  :polarity  (x9_1 / -
+)                  :arg0  (x13 / 有关-01
+))            :mode  (x14_x15 / interrogative
+)))
+===========================
+会是什么关系呢？
+(x1 / 会-02
+      :arg0  (x4 / 关系-01
+            :mod  (x3 / amr-unknown
+))      :mode  (x5_x6 / interrogative
+))
+===========================
+他百思不得其解。
+(x7 / contrast
+      :arg1  (x2_2 / 思-01
+            :manner  (x2_1 / 百
+)            :arg0  (x1 / 他
+))      :arg2  (x2_4 / 得-01
+            :polarity  (x2_3 / -
+)            :arg1  (x2_6 / 解
+                  :poss  (x2_5 / 其
+))            :arg0  (x1 / 他
+)))
+===========================
+于是，带着一连串的疑问，他以儿子、妻子、邻居为实验对象，进行了反复的观察实验，最后得出结论：当睡觉的人眼珠转动时，他确实正在做梦。
+(x45 / causation
+      :arg2  (x47 / temporal
+            :arg1  (x3 / 带-01
+                  :arg1  (x7 / 疑问
+                        :mod  (x5 / 一连串
+))                  :aspect  (x4 / 着
+)                  :arg0  (x9 / 他
+))            :arg2  (x10_x16 / 以为-02
+                  :arg0  (x9 / 他
+)                  :arg1  (x55 / and
+                        :op1  (x11 / 儿子
+)                        :op2  (x13 / 妻子
+)                        :op3  (x15 / 邻居
+))                  :arg2  (x18 / 对象
+                        :mod  (x17 / 实验
+)))            :arg3  (x20 / 进行-01
+                  :arg1  (x25 / 实验
+                        :mod  (x24 / 观察
+)                        :arg0-of  (x22 / 反复-01
+))                  :aspect  (x21 / 了
+)                  :arg0  (x9 / 他
+))            :arg4  (x28 / 得出-01
+                  :arg1  (x29 / 结论
+)                  :time  (x27 / 最后
+)                  :arg0-of  (x69 / mean
+                        :arg1  (x42 / 做-01
+                              :arg1  (x43 / 梦
+)                              :arg0  (x39 / x34
+)                              :mod  (x40 / 确实
+)                              :aspect  (x41 / 正在
+)                              :time  (x36 / 转动-01
+                                    :arg1  (x35 / 眼珠
+                                          :part-of  (x34 / 人
+                                                :arg0-of  (x32 / 睡觉-01
+))))))                  :arg0  (x9 / 他
+))))
+===========================
+如今，人们研究梦的生理学，便根据眼珠转动的次数和时间，来测量人做梦的次数与梦的长短。
+(x10 / 根据-01
+      :arg0  (x4 / 研究-01
+            :arg0  (x3 / 人们
+)            :arg1  (x7 / 生理学
+                  :poss  (x5 / 梦
+)))      :arg1  (x15 / and
+            :op1  (x14 / 次数
+                  :poss  (x12 / 转动
+                        :arg1  (x11 / 眼珠
+)))            :op2  (x16 / 时间
+                  :poss  (x12 / 转动
+)))      :mod  (x9 / 便
+)      :purpose  (x19 / 测量-01
+            :arg1  (x25 / and
+                  :op1  (x24 / 次数
+                        :poss  (x21 / 做-01
+                              :arg0  (x20 / 人
+)                              :arg1  (x22 / 梦
+)))                  :op2  (x28 / 长短
+                        :poss  (x26 / 梦
+))                  :arg0  (x3 / 人们
+)))      :time  (x1 / 如今
+))
+===========================
+洗澡水的漩涡，紫罗兰的变色，睡觉时眼珠的转动，这些都是很平常的事情。
+(x23 / 事情
+      :arg0-of  (x21 / 平常-01
+            :degree  (x20 / 很
+))      :domain  (x17 / 这些
+            :arg0-of  (x30 / mean
+                  :arg1  (x31 / and
+                        :op1  (x4 / 漩涡
+                              :poss  (x2 / 水
+                                    :mod  (x1 / 洗澡
+)))                        :op2  (x8_x9 / 变色-01
+                              :arg0  (x6 / 紫罗兰
+))                        :op3  (x15 / 转动-01
+                              :arg1  (x13 / 眼珠
+)                              :time  (x11 / 睡觉
+)))))      :mod  (x18 / 都
+))
+===========================
+善于“打破沙锅问到底”的人，却从中有所发现，有所发明，有所创造，有所成就。
+(x22 / contrast
+      :arg2  (x24 / and
+            :op1  (x10 / 有所-01
+                  :arg1  (x11 / 发现-01
+                        :arg0  (x6 / 人
+                              :arg0-of  (x1 / 善于-01
+                                    :arg1  (x3 / 打破沙锅问到底
+))))                  :source  (x9 / 从中
+)                  :arg0  (x6 / 人
+))            :op2  (x13 / 有所-01
+                  :arg1  (x14 / 发明-01
+                        :arg0  (x6 / 人
+))                  :source  (x9 / 从中
+)                  :arg0  (x6 / 人
+))            :op3  (x16 / 有所-01
+                  :arg1  (x17 / 创造-01
+                        :arg0  (x6 / 人
+))                  :source  (x9 / 从中
+)                  :arg0  (x6 / 人
+))            :op4  (x19 / 有所-01
+                  :arg1  (x20 / 成就-01
+                        :arg0  (x6 / 人
+))                  :source  (x9 / 从中
+)                  :arg0  (x6 / 人
+))))
+===========================
+在科学史上，这样的事例还有很多，它说明科学并不神秘，真理并不遥远。
+(x23 / causation
+      :arg1  (x9_2 / 多-03
+            :degree  (x9_1 / 很
+)            :arg0  (x7 / 事例
+                  :mod  (x5 / 这样-01
+))            :mod  (x8 / 还有-01
+)            :range  (x2 / 科学史
+))      :arg2  (x12 / 说明-02
+            :arg0  (x11 / 它
+)            :arg1  (x33 / and
+                  :op1  (x16 / 神秘-01
+                        :arg0  (x13 / 科学
+)                        :polarity  (x15 / -
+)                        :mod  (x14 / 并
+))                  :op2  (x21 / 遥远-01
+                        :arg0  (x18 / 真理
+)                        :polarity  (x20 / -
+)                        :mod  (x19 / 并
+)))))
+===========================
+只要你见微知著，善于发问并不断探索，那么，当你解答了若干个问号之后，就能发现真理。
+(x27 / condition
+      :arg1  (x29 / and
+            :op1  (x3 / 见微知著
+                  :arg0  (x2 / 你
+))            :op2  (x5 / 善于-01
+                  :arg1  (x6 / 发问
+)                  :arg0  (x2 / 你
+))            :op3  (x8 / 不断-01
+                  :arg0  (x9 / 探索
+                        :arg0  (x2 / 你
+))))      :arg2  (x36 / temporal
+            :arg1  (x15 / 解答-01
+                  :arg0  (x14 / x2
+)                  :arg1  (x19 / 问号
+                        :quant  (x17 / 若干
+)                        :cunit  (x18 / 个
+))                  :aspect  (x16 / 了-01
+))            :arg2  (x23 / 能-01
+                  :arg0  (x24 / 发现-01
+                        :arg1  (x25 / 真理
+)                        :arg0  (x14 / x2
+)))))
+===========================
+当然，见微知著、善于发问并不断探索的能力，不是凭空产生的。
+(x16 / 产生-01
+      :manner  (x15 / 凭空
+)      :polarity  (x13 / -
+)      :arg1  (x11 / 能力
+            :mod  (x24 / and
+                  :op1  (x3 / 见微知著
+)                  :op2  (x5 / 善于-01
+                        :arg1  (x6 / 发问
+))                  :op3  (x8 / 不断-01
+                        :arg0  (x9 / 探索
+))))      :mode  (x14_x17 / judgement
+)      :mod  (x1 / 当然
+))
+===========================
+正像数学家华罗庚说过的，科学的灵感，决不是坐等可以等来的。
+(x2 / 像-01
+      :mod  (x1 / 正
+)      :arg1  (x40 / thing
+            :arg0-of  (x41 / mean
+                  :arg1  (x28 / thing
+                        :arg1-of  (x17 / 等-01
+                              :arg0-of  (x16 / 可以-01
+)                              :cause-of  (x18 / 来
+)                              :manner  (x14_x15 / 坐等
+                                    :polarity  (x13_2 / -
+)))                        :domain  (x11 / 灵感
+)))            :arg1-of  (x5 / 说-01
+                  :aspect  (x6 / 过
+)                  :arg0  (x3 / 数学家
+                        :name  ( x4/华罗庚 
+)))))
+===========================
+如果说，科学领域的发现有什么偶然的机遇的话，那么这种“偶然的机遇”只能给那些有准备的人，给那些善于独立思考的人，给那些具有锲而不舍精神的人。
+(x47 / condition
+      :arg1  (x8 / 有-03
+            :arg0  (x7 / 发现
+                  :range  (x5 / 领域
+                        :mod  (x4 / 科学
+)))            :arg1  (x12 / 机遇
+                  :arg0-of  (x10 / 偶然-01
+)                  :mod  (x9 / 什么
+)))      :arg2  (x23 / 只能-01
+            :arg0  (x57 / and
+                  :op1  (x24 / 给-01
+                        :arg1  (x21 / 机遇
+                              :arg0-of  (x19 / 偶然-01
+)                              :mod  (x17_1 / 这
+)                              :unit  (x17_2 / 种
+))                        :arg2  (x29 / 人
+                              :arg0-of  (x26 / 有-06
+                                    :arg1  (x27 / 准备
+))                              :mod  (x25 / 那些
+)))                  :op2  (x31 / 给-01
+                        :arg2  (x37 / 人
+                              :arg0-of  (x33 / 善于-01
+                                    :arg1  (x35 / 思考-01
+                                          :manner  (x34 / 独立
+)                                          :arg0  (x37 / 人
+                                                :mod  (x32 / 那些
+)))))                        :arg1  (x21 / 机遇
+))                  :op3  (x39 / 给-01
+                        :arg2  (x45 / 人
+                              :arg0-of  (x41 / 具有-01
+                                    :arg1  (x43 / 精神
+                                          :topic  (x42 / 锲而不舍
+)))                              :mod  (x40 / 那些
+))                        :arg1  (x21 / 机遇
+)))))
+===========================

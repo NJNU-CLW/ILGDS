@@ -1,0 +1,293 @@
+三个妈妈在井边打水，一位老爷爷坐在旁边的石头上休息。
+(x21 / and
+      :op1  (x7 / 打
+            :location  (x6 / 边
+                  :arg0  (x5 / 井
+))            :arg0  (x3 / 妈妈
+                  :quant  (x1 / 3
+)                  :cunit  (x2 / 个
+))            :arg1  (x8 / 水
+))      :op2  (x13 / 坐-01
+            :arg0  (x12 / 老爷爷
+                  :quant  (x10 / 1
+)                  :cunit  (x11 / 位
+))            :arg1  (x17 / 石头
+                  :location  (x15 / 旁边
+))            :purpose  (x19 / 休息-01
+                  :arg0  (x12 / 老爷爷
+))))
+===========================
+一个妈妈说：“我的儿子既聪明又有力气，谁也比不过他。”
+(x3 / 说-01
+      :arg0  (x2 / 妈妈
+            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+))      :arg1  (x25 / and
+            :op1  (x26 / and
+                  :op1  (x9 / 聪明-01
+                        :arg0  (x7 / 儿子
+                              :poss  (x5 / x2
+)))                  :op2  (x11 / 有-01
+                        :arg0  (x7 / 儿子
+)))            :op2  (x31 / possible
+                  :arg0  (x17_2 / 过-06
+                        :manner  (x16 / 比
+)                        :arg0  (x14 / 谁
+                              :extent  (x15 / 也
+))                        :arg1  (x18 / x7
+))                  :polarity  (x17_1 / -
+))))
+===========================
+又一个妈妈说：“我的儿子唱起歌来好听极了，谁都没有他那样的好嗓子。”
+(x4 / 说-01
+      :arg0  (x3 / 妈妈
+            :mod  (x1 / 又
+)            :quant  (x2_1 / 1
+)            :cunit  (x2_2 / 个
+))      :arg1  (x31 / and
+            :op1  (x13 / 好听-01
+                  :degree  (x14 / 极了
+)                  :arg0  (x9_x10 / 唱-01
+                        :arg0  (x8 / 儿子
+                              :poss  (x6 / x3
+))                        :arg1  (x11 / 歌
+)))            :op2  (x18_2 / 有-01
+                  :polarity  (x18_1 / -
+)                  :arg0  (x16 / 谁
+                        :extent  (x17 / 都
+))                  :arg1  (x23 / 嗓子
+                        :arg0-of  (x22 / 好-01
+)                        :mod  (x20 / 那样
+)                        :poss  (x19 / x8
+)))))
+===========================
+另一个妈妈什么也没说。
+(x7 / 说-01
+      :polarity  (x6 / -
+)      :arg0  (x3 / 妈妈
+            :cunit  (x2_2 / 个
+)            :quant  (x2_1 / 1
+)            :mod  (x1 / 另
+))      :arg1  (x4 / 什么
+            :extent  (x5 / 也
+)))
+===========================
+那两个妈妈问她：“你怎么不说说你的儿子呀？”
+(x5 / 问-01
+      :arg2  (x6 / 她
+)      :arg0  (x4 / 妈妈
+            :mod  (x1 / 那
+)            :quant  (x2 / 2
+)            :cunit  (x3 / 个
+))      :arg1  (x11_x12 / 说-01
+            :polarity  (x10 / -
+)            :arg0  (x8 / x6
+)            :arg1  (x15 / 儿子
+                  :poss  (x13 / x6
+))            :mode  (x16_x17 / interrogative
+)))
+===========================
+这个妈妈说：“有什么可说的，他没有什么特别的地方。”
+(x3 / 说-01
+      :arg0  (x2 / 妈妈
+            :cunit  (x1_2 / 个
+)            :mod  (x1_1 / 这
+))      :arg1  (x21 / causation
+            :arg2  (x5 / 有-03
+                  :arg1  (x6 / 什么
+                        :arg0-of  (x24 / mean
+                              :arg1  (x25 / thing
+                                    :arg1-of  (x8 / 说-01
+                                          :arg0-of  (x7 / 可
+))))))            :arg1  (x12_2 / 有-01
+                  :arg0  (x11 / 他
+)                  :polarity  (x12_1 / -
+)                  :arg1  (x13 / 什么
+                        :arg0-of  (x33 / mean
+                              :arg1  (x16 / 地方
+                                    :arg0-of  (x14 / 特别-01
+)))))))
+===========================
+三个妈妈打了水，拎着水桶回家去，老爷爷跟在她们后边慢慢地走着。
+(x24 / and
+      :op1  (x26 / temporal
+            :arg1  (x4 / 打-01
+                  :arg0  (x3 / 妈妈
+                        :quant  (x1 / 3
+)                        :cunit  (x2 / 个
+))                  :aspect  (x5 / 了
+)                  :arg1  (x6 / 水
+))            :arg2  (x33 / and
+                  :op1  (x8 / 拎-01
+                        :arg0  (x3 / 妈妈
+)                        :aspect  (x9 / 着
+)                        :arg1  (x10 / 水桶
+))                  :op2  (x11_x12 / 回家-01
+                        :arg0  (x3 / 妈妈
+))))      :op2  (x21 / 走-01
+            :aspect  (x22 / 着
+)            :manner  (x19 / 慢慢
+)            :manner  (x15 / 跟-01
+                  :arg0  (x14 / 老爷爷
+)                  :location  (x18 / 后边
+                        :arg0  (x17 / x3
+)))            :arg0  (x14 / 老爷爷
+)))
+===========================
+一桶水可重啦！
+(x5 / 重-01
+      :degree  (x4 / 可
+)      :arg0  (x3 / 水
+            :unit  (x2 / 桶
+)            :quant  (x1 / 1
+))      :mode  (x6_x7 / expressive
+))
+===========================
+水直晃荡，三个妈妈走走停停，胳膊都痛了，腰也酸了。
+(x21 / and
+      :op1  (x3 / 晃荡-01
+            :time  (x2 / 直
+)            :arg0  (x1 / 水
+))      :op2  (x26 / and
+            :op1  (x8 / 走走-01
+                  :arg0  (x7 / 妈妈
+                        :quant  (x5 / 3
+)                        :cunit  (x6 / 个
+)))            :op2  (x9 / 停-01
+                  :arg1  (x7 / 妈妈
+)))      :op3  (x33 / and
+            :op1  (x13 / 痛-01
+                  :mod  (x12 / 都
+)                  :arg0  (x11 / 胳膊
+                        :part-of  (x7 / 妈妈
+))                  :aspect  (x14 / 了
+))            :op2  (x18 / 酸-01
+                  :arg0  (x16 / 腰
+                        :part-of  (x7 / 妈妈
+))                  :aspect  (x19 / 了
+))))
+===========================
+这时，迎面跑来三个孩子。
+(x4 / 跑-01
+      :manner  (x3 / 迎面
+)      :arg0  (x8 / 孩子
+            :quant  (x6 / 3
+)            :cunit  (x7 / 个
+))      :direction  (x5 / 来-01
+            :arg0  (x8 / 孩子
+))      :time  (x1 / 这时
+))
+===========================
+一个孩子翻跟头，像车轮在转，真好看！
+(x13 / and
+      :op1  (x3 / 翻跟头
+            :arg0  (x2 / 孩子
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+)))      :op2  (x5 / 像-01
+            :arg0  (x3 / 翻跟头
+)            :arg1  (x8 / 转-04
+                  :aspect  (x7 / 在
+)                  :arg1  (x6 / 车轮
+)))      :op3  (x11 / 好看-01
+            :degree  (x10 / 真
+)            :mode  (x12 / expressive
+)            :arg0  (x3 / 翻跟头
+)))
+===========================
+三个妈妈被他迷住了。
+(x6 / 迷住-01
+      :arg0  (x5 / 他
+)      :arg1  (x3 / 妈妈
+            :quant  (x1 / 3
+)            :cunit  (x2 / 个
+))      :aspect  (x7 / 了
+))
+===========================
+一个孩子唱着歌。
+(x3 / 唱-01
+      :arg0  (x2 / 孩子
+            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+)            :aspect  (x4 / 着
+))      :arg1  (x5 / 歌
+))
+===========================
+歌声真好听。
+(x3 / 好听-01
+      :degree  (x2 / 真
+)      :arg0  (x1 / 歌声
+))
+===========================
+另一个孩子跑到妈妈跟前，接过妈妈手里沉甸甸的水桶，提着走了。
+(x22 / temporal
+      :arg1  (x4 / 跑-01
+            :arg0  (x3 / 孩子
+                  :quant  (x2_1 / 1
+)                  :cunit  (x2_2 / 个
+)                  :mod  (x1 / 另
+))            :arg3  (x7 / 跟前
+                  :arg0  (x6 / 妈妈
+)))      :arg2  (x9 / 接-01
+            :arg0  (x3 / 孩子
+)            :arg1  (x15 / 水桶
+                  :arg0-of  (x13 / 沉甸甸
+)                  :location  (x12 / 手里
+                        :part-of  (x11 / 妈妈
+))))      :arg3  (x36 / and
+            :op1  (x17 / 提-01
+                  :arg0  (x3 / 孩子
+)                  :arg1  (x15 / 水桶
+)                  :aspect  (x18 / 着
+))            :op2  (x19 / 走-01
+                  :arg0  (x3 / 孩子
+)                  :aspect  (x20 / 了
+))))
+===========================
+一个妈妈问老爷爷：“看见了吗？这就是我们的三个儿子。
+(x3 / 问-01
+      :arg0  (x2 / 妈妈
+            :quant  (x1_1 / 1
+)            :cunit  (x1_2 / 个
+))      :arg2  (x4 / 老爷爷
+)      :arg1  (x24 / and
+            :op1  (x6 / 看见-01
+                  :arg0  (x4 / 老爷爷
+)                  :aspect  (x7 / 了
+)                  :mode  (x8_x9 / interrogative
+))            :op2  (x16 / 儿子
+                  :cunit  (x15 / 个
+)                  :quant  (x14 / 3
+)                  :poss  (x12 / 我们
+)                  :mod  (x11_1 / 就
+)                  :domain  (x10 / 这
+))))
+===========================
+怎么样啊？”
+(x4 / say
+      :arg1  (x6 / person
+            :mod  (x1 / amr-unknown
+)            :mode  (x2_x3 / interrogative
+)))
+===========================
+“三个儿子？”老爷爷说，“不对吧，我可只看见一个儿子。”
+(x7 / 说-01
+      :arg0  (x6 / 老爷爷
+)      :arg1  (x23 / and
+            :op1  (x4 / 儿子
+                  :mode  (x5 / interrogative
+)                  :quant  (x2 / 3
+)                  :cunit  (x3 / 个
+))            :op2  (x28 / and
+                  :op1  (x10 / 对-02
+                        :polarity  (x9 / -
+)                        :mode  (x11 / expressive
+))                  :op2  (x16 / 看见-01
+                        :mod  (x14 / 可
+)                        :mod  (x15 / 只
+)                        :arg0  (x13 / x6
+)                        :arg1  (x18 / 儿子
+                              :quant  (x17_1 / 1
+)                              :cunit  (x17_2 / 个
+))))))
+===========================

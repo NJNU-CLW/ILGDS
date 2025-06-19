@@ -1,0 +1,206 @@
+在我国台湾省，是很难看到雪的。
+(x8 / 看到-01
+      :mode  (x5_x10 / judgement
+)      :arg0-of  (x7 / 难-01
+            :degree  (x6 / 很-01
+))      :location  (x16 / province
+            :name  ( x3/台湾省 
+                  :location  (x2 / 我国
+)))      :arg1  (x9 / 雪
+))
+===========================
+过春节的时候，孩子们在商店的橱窗里看到了美丽的雪景。
+(x13 / 看到-01
+      :arg0  (x6_x7 / 孩子们
+)      :aspect  (x14 / 了
+)      :arg1  (x17 / 雪景
+            :arg0-of  (x15 / 美丽-01
+))      :location  (x11 / 橱窗
+            :poss  (x9 / 商店
+))      :time  (x4 / 时候
+            :arg0-of  (x1 / 过-02
+                  :arg1  (x29 / festival
+                        :name  ( x2/春节 
+)))))
+===========================
+那是用洁白的棉花做成的。
+(x10 / thing
+      :arg1-of  (x7 / 做成-01
+            :manner  (x3 / 用-01
+                  :arg1  (x6 / 棉花
+                        :arg0-of  (x4 / 洁白
+))))      :domain  (x1 / 那
+))
+===========================
+孩子们问老师：“您看见过真的雪吗？”
+(x3 / 问-01
+      :arg0  (x1_x2 / 孩子们
+)      :arg1  (x7 / 看见-01
+            :aspect  (x8 / 过
+)            :arg0  (x6 / x4
+)            :arg1  (x11 / 雪
+                  :arg0-of  (x9 / 真-01
+))            :mode  (x12_x13 / interrogative
+))      :arg2  (x4 / 老师
+))
+===========================
+老师微笑着点点头。
+(x4 / 点头-01
+      :arg0  (x1 / 老师
+)      :manner  (x2 / 微笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x1 / 老师
+)))
+===========================
+“您是在哪儿见过的？”孩子们惊奇地问。
+(x14 / 问-01
+      :arg0  (x10_x11 / 孩子们
+)      :arg1  (x6 / 见-01
+            :mode  (x3_x8 / judgement
+)            :arg0  (x2 / 您
+)            :aspect  (x7 / 过
+)            :location  (x5 / amr-unknown
+)            :mode  (x9 / interrogative
+))      :manner  (x12 / 惊奇
+))
+===========================
+老师说：“小时候，在我的故乡。”
+(x2 / 说-01
+      :arg0  (x1 / 老师
+)      :arg1  (x6 / 在-01
+            :time  (x4 / 小时候
+)            :arg1  (x9 / 故乡
+                  :poss  (x7 / x1
+))))
+===========================
+她顺手指了指地图上的北京。
+(x3_x5 / 指-05
+      :aspect  (x4 / 了
+)      :manner  (x2 / 顺手
+)      :arg0  (x1 / 她
+)      :arg1  (x16 / city
+            :name  ( x9/北京 
+)            :location  (x6 / 地图
+)))
+===========================
+“北京离这儿很远吧？”孩子们问。
+(x11 / 问-01
+      :arg0  (x9_x10 / 孩子们
+)      :arg1  (x3 / 离-02
+            :arg0  (x17 / city
+                  :name  ( x2/北京 
+))            :arg1  (x4 / 这儿
+)            :arg2  (x6 / 远
+                  :degree  (x5 / 很
+))            :mode  (x7_x8 / interrogative
+)))
+===========================
+老师说：“不算太远。”
+(x2 / 说-01
+      :arg0  (x1 / 老师
+)      :arg1  (x4_2 / 算-01
+            :polarity  (x4_1 / -
+)            :arg1  (x6 / 远
+                  :degree  (x5 / 太
+))))
+===========================
+接着她就给孩子们讲起童年玩雪的情景。
+(x15 / temporal
+      :arg2  (x7_x8 / 讲-01
+            :arg0  (x2 / 她
+)            :mod  (x3 / 就-01
+)            :arg2  (x5_x6 / 孩子们
+)            :arg1  (x13 / 情景
+                  :arg0-of  (x22 / mean
+                        :arg1  (x10 / 玩-01
+                              :arg1  (x11 / 雪
+)                              :time  (x9 / 童年
+))))))
+===========================
+冬天，天上飘着雪花，地上铺着雪毯，树上披着银装，到处一片洁白。
+(x25 / and
+      :op1  (x4 / 飘-01
+            :aspect  (x5 / 着
+)            :arg0  (x6 / 雪花
+)            :location  (x3 / 天上
+))      :op2  (x10 / 铺-01
+            :aspect  (x11 / 着
+)            :arg1  (x13 / 毯
+                  :consist-of  (x12 / 雪
+))            :location  (x8 / 地
+))      :op3  (x16 / 披-01
+            :aspect  (x17 / 着
+)            :arg1  (x18 / 银装
+)            :location  (x15 / 树上
+))      :op4  (x23 / 洁白
+            :location  (x20 / 到处
+)            :quant  (x21 / 1
+)            :cunit  (x22 / 片
+))      :time  (x31 / date-entity
+            :season  (x1 / 冬天
+)))
+===========================
+小伙伴们在雪地上堆雪人、打雪仗，玩得可高兴了！
+(x18 / and
+      :op1  (x20 / and
+            :location  (x4 / 雪地
+)            :op1  (x6 / 堆-02
+                  :arg0  (x1_x2 / 小伙伴们
+)                  :arg1  (x7 / 雪人
+))            :op2  (x9 / 打雪仗
+                  :arg0  (x1_x2 / 小伙伴们
+)))      :op2  (x14 / 高兴-01
+            :degree  (x13 / 可
+)            :smood  (x15 / 了
+)            :mode  (x16 / expressive
+)            :cause  (x11 / 玩-01
+                  :arg0  (x1_x2 / 小伙伴们
+))            :arg0  (x1_x2 / 小伙伴们
+)))
+===========================
+孩子们争着问老师：“什么时候能带我们到北京去看看真的雪呢？”
+(x5 / 问-01
+      :manner  (x3 / 争
+            :aspect  (x4 / 着
+))      :arg0  (x1_x2 / 孩子们
+)      :arg2  (x6 / 老师
+)      :arg1  (x10 / 能-01
+            :arg0  (x11 / 带-02
+                  :arg0  (x6 / 老师
+)                  :arg1  (x12 / x1_x2
+)                  :arg3  (x32 / city
+                        :name  ( x14/北京 
+))                  :purpose  (x15 / 去-01
+                        :arg0  (x16 / 看看-01
+                              :arg1  (x19 / 雪
+                                    :arg0-of  (x17 / 真-01
+)))))            :time  (x9 / 时候
+                  :mod  (x8 / amr-unknown
+))            :mode  (x20_x21 / interrogative
+)))
+===========================
+老师望望大家，深情地说：“那里的小朋友正盼着你们去和他们一起玩儿呢！”
+(x23 / temporal
+      :arg1  (x2 / 望-01
+            :arg0  (x1 / 老师
+)            :arg1  (x3 / 大家
+))      :arg2  (x7 / 说
+            :manner  (x5 / 深情
+)            :arg0  (x1 / 老师
+)            :arg3  (x3 / 大家
+)            :arg1  (x13 / 盼-01
+                  :aspect  (x14 / 着
+)                  :aspect  (x12 / 正
+)                  :arg0  (x11 / 小朋友
+                        :location  (x9 / 那里
+))                  :arg1  (x16 / 去-01
+                        :arg1  (x20 / 玩儿-01
+                              :manner  (x19 / 一起-01
+                                    :arg0  (x17 / and
+                                          :op2  (x18 / x11
+)                                          :op1  (x15 / x3
+)))                              :arg0  (x17 / and
+))                        :arg0  (x15 / x3
+))                  :mode  (x21_x22 / expressive
+))))
+===========================

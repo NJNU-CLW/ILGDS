@@ -1,0 +1,294 @@
+秋天的雨，是一把钥匙。
+(x8 / 钥匙
+      :domain  (x3 / 雨
+            :time  (x13 / date-entity
+                  :season  (x1 / 秋天
+)))      :quant  (x6 / 1
+)      :cunit  (x7 / 把
+))
+===========================
+它带着清凉和温柔，轻轻地，轻轻地，趁你没留意，把秋天的大门打开了。
+(x24 / and
+      :op1  (x2 / 带-02
+            :arg0  (x1 / 它
+)            :aspect  (x3 / 着
+)            :arg1  (x5 / and
+                  :op1  (x4 / 清凉
+)                  :op2  (x6 / 温柔
+)))      :op2  (x32 / temporal
+            :arg1  (x12 / 趁-01
+                  :arg0  (x1 / 它
+)                  :arg2  (x15 / 留意-01
+                        :polarity  (x14 / -
+)                        :arg0  (x13 / 你
+)))            :arg2  (x21 / 打开-01
+                  :manner  (x8_x10 / 轻轻
+)                  :arg0  (x1 / 它
+)                  :aspect  (x22 / 了
+)                  :arg1  (x20 / 大门
+                        :poss  (x41 / date-entity
+                              :season  (x18 / 秋天
+))))))
+===========================
+秋天的雨，有一盒五彩缤纷的颜料。
+(x5 / 有-01
+      :arg0  (x3 / 雨
+            :time  (x15 / date-entity
+                  :season  (x1 / 秋天
+)))      :arg1  (x10 / 颜料
+            :arg0-of  (x8 / 五彩缤纷-01
+)            :quant  (x6 / 1
+)            :unit  (x7 / 盒
+)))
+===========================
+你看，它把黄色给了银杏树，黄黄的叶子像一把把小扇子，扇哪扇哪，扇走了夏天的炎热。
+(x2 / 看-02
+      :arg0  (x1 / 你
+)      :arg1  (x33 / and
+            :op1  (x7 / 给-01
+                  :aspect  (x8 / 了
+)                  :arg0  (x4 / 它
+)                  :arg1  (x6 / 黄色
+)                  :arg2  (x9 / 银杏树
+))            :op2  (x13 / 像-01
+                  :arg0  (x12 / 叶子
+                        :arg0-of  (x11 / 黄-02
+))                  :arg1  (x16 / 扇子
+                        :quant  (x14 / 一把把
+)                        :arg0-of  (x15 / 小-01
+)))            :op3  (x18_x20 / 扇-02
+                  :mode  (x19_x21 / expressive
+)                  :arg0  (x12 / 叶子
+))            :op4  (x23 / 扇-02
+                  :cause-of  (x24 / 走-01
+                        :aspect  (x25 / 了
+)                        :arg0  (x28 / 炎热
+                              :poss  (x51 / date-entity
+                                    :season  (x26 / 夏天
+))))                  :arg0  (x12 / 叶子
+))))
+===========================
+它把红色给了枫树，红红的枫叶像一枚枚邮票，飘哇飘哇，邮来了秋天的凉爽。
+(x26 / and
+      :op1  (x4 / 给-01
+            :aspect  (x5 / 了
+)            :arg0  (x1 / 它
+)            :arg1  (x3 / 红色
+)            :arg2  (x6 / 枫树
+))      :op2  (x10 / 像-01
+            :arg0  (x9 / 枫叶
+                  :arg0-of  (x8 / 红-01
+))            :arg1  (x12 / 邮票
+                  :quant  (x11 / 一枚枚
+)))      :op3  (x14_x16 / 飘-01
+            :arg0  (x9 / 枫叶
+)            :mode  (x15_x17 / expressive
+))      :op4  (x19 / 邮
+            :cause-of  (x20 / 来-01
+                  :aspect  (x21 / 了
+)                  :arg0  (x24 / 凉爽
+                        :poss  (x44 / date-entity
+                              :season  (x22 / 秋天
+))))            :arg1  (x24 / 凉爽
+)))
+===========================
+金黄色是给田野的，看，田野像金色的海洋。
+(x15 / and
+      :op1  (x3 / 给-01
+            :arg1  (x1 / 金黄色
+)            :arg2  (x4 / 田野
+)            :mode  (x2_x5 / judgement
+))      :op2  (x7 / 看-02
+            :arg1  (x10 / 像-01
+                  :arg0  (x9 / x4
+)                  :arg1  (x13 / 海洋
+                        :arg0-of  (x11 / 金色
+)))))
+===========================
+橙红色是给果树的，柿子你挤我碰，争着要人们去摘呢！
+(x21 / and
+      :op1  (x3 / 给
+            :arg1  (x1 / 橙红色
+)            :arg2  (x4 / 果树
+)            :mode  (x2_x5 / judgement
+))      :op2  (x27 / and
+            :op1  (x9 / 挤-02
+                  :arg0  (x8 / 你
+)                  :arg1  (x10 / 我
+                        :arg1-of  (x33 / include-91
+                              :arg2  (x7 / 柿子
+                                    :arg0  (x8 / 你
+))))                  :arg1-of  (x32 / include-91
+                        :arg2  (x7 / 柿子
+)))            :op2  (x11 / 碰-01
+                  :arg0  (x10 / 我
+)                  :arg1  (x8 / 你
+)))      :op3  (x13 / 争-01
+            :aspect  (x14 / 着
+)            :arg0  (x7 / 柿子
+)            :arg1  (x15 / 要-04
+                  :arg0  (x7 / 柿子
+)                  :arg1  (x16 / 人们
+)                  :arg2  (x17 / 去-02
+                        :arg0  (x18 / 摘-01
+                              :arg0  (x16 / 人们
+)                              :arg1  (x7 / 柿子
+))))            :mode  (x19_x20 / expressive
+)))
+===========================
+菊花仙子得到的颜色就更多了，紫红的、淡黄的、雪白的……
+(x23 / temporal
+      :arg2  (x8 / 多-01
+            :aspect  (x9 / 了
+)            :degree  (x7 / 更
+)            :arg0  (x5 / 颜色
+                  :arg1-of  (x3 / 得到-01
+                        :arg0  (x2 / 仙子
+                              :mod  (x1 / 菊花
+)))                  :example  (x31 / and
+                        :op1  (x11 / 紫红
+                              :mode  (x12 / judgement
+))                        :op2  (x14 / 淡黄
+                              :mode  (x15 / judgement
+))                        :op3  (x17 / 雪白
+                              :mode  (x18 / judgement
+))))))
+===========================
+美丽的菊花在秋雨里频频点头。
+(x8 / 点头-01
+      :arg0  (x3 / 菊花
+            :arg0-of  (x1 / 美丽-01
+))      :location  (x5 / 秋雨
+)      :frequency  (x7 / 频频
+))
+===========================
+秋天的雨，藏着非常好闻的气味。
+(x5 / 藏-01
+      :location  (x3 / 雨
+            :poss  (x16 / date-entity
+                  :season  (x1 / 秋天
+)))      :aspect  (x6 / 着
+)      :arg1  (x11 / 气味
+            :arg0-of  (x8_x9 / 好闻
+                  :degree  (x7 / 非常
+))))
+===========================
+梨香香的，菠萝甜甜的，还有苹果、橘子，好多好多香甜的气味，都躲在小雨滴里呢！
+(x26 / and
+      :op1  (x2 / 香-01
+            :arg0  (x1 / 梨
+))      :op2  (x5 / 甜-01
+            :arg0  (x4 / 菠萝
+))      :op3  (x32 / and
+            :op1  (x8 / 苹果
+)            :op2  (x10 / 橘子
+))      :op4  (x19 / 躲-01
+            :arg0  (x16 / 气味
+                  :arg0-of  (x14 / 香甜-01
+)                  :quant  (x12_x13 / 好多
+)                  :extent  (x18 / 都
+))            :arg2  (x22 / 雨滴
+                  :arg0-of  (x21 / 小-01
+))            :mode  (x24_x25 / expressive
+)))
+===========================
+小朋友的脚，常被那香味勾住。
+(x9_x10 / 勾-01
+      :arg0  (x8 / 香味
+            :mod  (x7 / 那
+))      :frequency  (x5 / 常
+)      :arg1  (x3 / 脚
+            :part-of  (x1 / 小朋友
+)))
+===========================
+秋天的雨，吹起了金色的小喇叭，它告诉大家，冬天快要来了。
+(x22 / and
+      :op1  (x5_x6 / 吹起-01
+            :arg0  (x3 / 雨
+                  :poss  (x26 / date-entity
+                        :season  (x1 / 秋天
+)))            :aspect  (x7 / 了
+)            :arg1  (x11 / 喇叭
+                  :arg0-of  (x8 / 金色
+)                  :arg0-of  (x10 / 小-01
+)))      :op2  (x14 / 告诉
+            :arg0  (x13 / x3
+)            :arg2  (x15 / 大家
+)            :arg1  (x18 / 要-03
+                  :arg0  (x19 / 来-01
+                        :aspect  (x20 / 了
+)                        :arg0  (x39 / date-entity
+                              :season  (x17 / 冬天
+)))                  :time  (x18_1 / 快
+))))
+===========================
+小喜鹊衔来树枝造洞，准备舒舒服服地睡大觉。
+(x6 / 造-01
+      :manner  (x3 / 衔-01
+            :direction  (x4 / 来-01
+                  :arg0  (x5 / 树枝
+))            :arg0  (x2 / 喜鹊
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x5 / 树枝
+))      :arg0  (x2 / 喜鹊
+)      :arg1  (x7 / 洞
+)      :purpose  (x9 / 准备-02
+            :arg0  (x2 / 喜鹊
+)            :arg1  (x12 / 睡-01
+                  :arg0  (x2 / 喜鹊
+)                  :manner  (x10 / 舒服
+)                  :arg1  (x14 / 觉
+                        :mod  (x13 / 大
+)))))
+===========================
+松柏穿上厚厚的、油亮亮的衣裳，杨树、柳树的叶子飘到树妈妈的脚下。
+(x21 / and
+      :op2  (x14 / 飘-01
+            :arg2  (x19 / 脚下
+                  :poss  (x17 / 妈妈
+                        :mod  (x16 / 树
+)))            :arg0  (x32 / and
+                  :op1  (x13 / 叶子
+                        :poss  (x9 / 杨树
+))                  :op2  (x35 / thing
+                        :dcopy  (x13 / 叶子
+)                        :poss  (x11 / 柳树
+))))      :op1  (x2_x3 / 穿上-01
+            :arg0  (x1 / 松柏
+)            :arg1  (x7 / 衣裳
+                  :arg0-of  (x6 / 油亮亮
+)                  :arg0-of  (x4 / 厚-01
+))))
+===========================
+它们都在准备过冬了。
+(x4 / 准备-01
+      :arg0  (x1 / 它们
+            :extent  (x2 / 都
+))      :aspect  (x3 / 在
+)      :arg1  (x5 / 过冬-01
+            :arg0  (x1 / 它们
+))      :smood  (x6 / 了
+))
+===========================
+秋天的雨，带给大地的是一曲丰收的歌，带给小朋友的是一首欢乐的歌。
+(x27 / and
+      :op1  (x14 / 歌
+            :cunit  (x11 / 曲
+)            :quant  (x10 / 1
+)            :topic  (x12 / 丰收
+)            :domain  (x41 / thing
+                  :arg1-of  (x5_x6 / 带给-01
+                        :arg0  (x3 / 雨
+                              :poss  (x44 / date-entity
+                                    :season  (x1 / 秋天
+)))                        :arg2  (x7 / 大地
+))))      :op2  (x25 / 歌
+            :quant  (x21 / 1
+)            :cunit  (x22 / 首
+)            :topic  (x23 / 欢乐
+)            :domain  (x42 / thing
+                  :arg1-of  (x16_x17 / 带给-01
+                        :arg0  (x3 / 雨
+)                        :arg1  (x18 / 小朋友
+)))))
+===========================

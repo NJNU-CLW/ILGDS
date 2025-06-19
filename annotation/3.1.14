@@ -1,0 +1,273 @@
+鲜花朵朵，争奇斗艳，芬芳迷人。
+(x9 / and
+      :op1  (x4 / 争奇斗艳
+            :arg0  (x1 / 鲜花
+                  :quant  (x2 / 朵朵
+)))      :op2  (x7 / 迷人-01
+            :arg0  (x6 / 芬芳
+                  :poss  (x1 / 鲜花
+))))
+===========================
+要是我们留心观察，就会发现，一天之内，不同的花开放的时间是不同的。
+(x24 / condition
+      :arg1  (x5 / 观察-01
+            :manner  (x4 / 留心
+)            :arg0  (x3 / 我们
+))      :arg2  (x8 / 会-02
+            :arg0  (x9 / 发现-01
+                  :arg0  (x3 / 我们
+)                  :arg1  (x21 / 不同-01
+                        :arg0  (x19 / 时间
+                              :mod  (x17 / 开放-04
+                                    :arg0  (x16 / 花
+                                          :arg0-of  (x14 / 不同
+))                                    :duration  (x36 / temporal-quantity
+                                          :quant  (x11_1 / 1
+)                                          :unit  (x11_2 / 天
+))))                        :mode  (x20_x22 / judgement
+)))))
+===========================
+凌晨四点，牵牛花吹起了紫色的小喇叭；五点左右，艳丽的蔷薇绽开了笑脸；七点，睡莲从梦中醒来；中午十二点左右，午时花开花了；下午三点，万寿菊欣然怒放；傍晚六点，烟草花在暮色中苏醒；月光花在七点左右舒展开自己的花瓣；夜来香在晚上八点开花；昙花却在九点左右含笑一现……
+(x88 / temporal
+      :arg1  (x6_x7 / 吹-01
+            :arg0  (x5 / 牵牛花
+)            :arg1  (x12 / 喇叭
+                  :arg0-of  (x11 / 小-01
+)                  :arg0-of  (x9 / 紫色
+))            :aspect  (x8 / 了-01
+)            :time  (x96 / date-entity
+                  :time  (x2_x4 / 4:00
+)                  :dayperiod  (x1 / 凌晨
+)))      :arg2  (x21 / 绽开-01
+            :aspect  (x22 / 了
+)            :arg0  (x20 / 蔷薇
+                  :arg0-of  (x18 / 艳丽-01
+))            :arg1  (x23 / 笑脸
+)            :time  (x104 / date-entity
+                  :time  (x16 / 左右
+                        :op1  (x14_x15 / 5:00
+))))      :arg3  (x32 / 醒来-01
+            :arg0  (x28 / 睡莲
+)            :time  (x109 / date-entity
+                  :time  (x25_x26 / 7:00
+))            :source  (x30 / 梦
+))      :arg4  (x40_x41 / 开花-01
+            :aspect  (x42 / 了
+)            :arg0  (x39 / 午时花
+)            :time  (x115 / date-entity
+                  :dayperiod  (x34 / 中午
+)                  :time  (x37 / 左右
+                        :op1  (x35_x36 / 12:00
+))))      :arg5  (x49 / 怒放-01
+            :manner  (x48 / 欣然
+)            :arg0  (x47 / 万寿菊
+)            :time  (x122 / date-entity
+                  :dayperiod  (x44 / 下午
+)                  :time  (x45 / 15:00
+)))      :arg6  (x59 / 苏醒-01
+            :location  (x57 / 暮色
+)            :arg0  (x55 / 花
+                  :mod  (x54 / 烟草
+))            :time  (x129 / date-entity
+                  :dayperiod  (x51 / 傍晚
+)                  :time  (x52 / 18:00
+)))      :arg7  (x66_x67 / 舒展-01
+            :arg0  (x61 / 月光花
+)            :arg1  (x70 / 花瓣
+                  :poss  (x68 / x61
+))            :time  (x139 / date-entity
+                  :time  (x65 / 左右
+                        :op1  (x63_x64 / 19:00
+))))      :arg8  (x76_x77 / 开花-01
+            :arg0  (x72 / 夜来香
+)            :time  (x147 / date-entity
+                  :dayperiod  (x74 / 晚上
+)                  :time  (x75 / 20:00
+)))      :arg9  (x86 / 现
+            :quant  (x85 / 一
+)            :arg0  (x79 / 昙花
+)            :manner  (x84 / 含笑
+)            :mod  (x80 / 却
+)            :time  (x83 / 左右
+                  :op1  (x82 / 21:00
+))))
+===========================
+不同的植物为什么开花的时间不同呢？
+(x8 / 不同-01
+      :arg0  (x7 / 时间
+            :mod  (x5 / 开花-01
+                  :arg0  (x3 / 植物
+                        :arg0-of  (x1 / 不同-01
+))))      :cause  (x4 / amr-unknown
+)      :mode  (x9_x10 / interrogative
+))
+===========================
+原来，植物开花的时间，与温度、湿度、光照有着密切的关系。
+(x1 / 原来-01
+      :arg0  (x14_1 / 有
+            :aspect  (x14_2 / 着
+)            :arg1  (x17 / 关系-01
+                  :arg0-of  (x15 / 密切-01
+)                  :arg0  (x28 / and
+                        :op1  (x9 / 温度
+)                        :op2  (x11 / 湿度
+)                        :op3  (x13 / 光照
+))                  :arg1  (x6 / 时间
+                        :mod  (x4 / 开花-01
+                              :arg0  (x3 / 植物
+))))            :arg0  (x6 / 时间
+)))
+===========================
+比如，昙花的花瓣又大又娇嫩，白天阳光强，气温高，空气干燥，要是在白天开花，就有被灼伤的危险。
+(x1 / 比如-01
+      :arg0  (x38 / causation
+            :arg1  (x39 / and
+                  :op1  (x40 / and
+                        :op1  (x7 / 大-01
+                              :arg0  (x5 / 花瓣
+                                    :part-of  (x3 / 昙花
+)))                        :op2  (x9 / 娇嫩
+                              :arg0  (x5 / 花瓣
+)))                  :op2  (x45 / and
+                        :time  (x11 / 白天
+)                        :op1  (x13 / 强-01
+                              :arg0  (x12 / 阳光
+))                        :op2  (x16 / 高-01
+                              :arg0  (x15 / 气温
+))                        :op3  (x19 / 干燥-01
+                              :arg0  (x18 / 空气
+))))            :arg2  (x53 / condition
+                  :arg1  (x25 / 开花-01
+                        :arg0  (x3 / 昙花
+)                        :time  (x24 / 白天
+))                  :arg2  (x28 / 有-03
+                        :arg1  (x32 / 危险
+                              :mod  (x30 / 灼伤-01
+                                    :arg0  (x3 / 昙花
+)))))))
+===========================
+深夜气温过低，开花也不适宜。
+(x11 / causation
+      :arg1  (x4 / 低-01
+            :degree  (x3 / 过
+)            :arg0  (x2 / 气温
+)            :time  (x1 / 深夜
+))      :arg2  (x9 / 适宜-01
+            :polarity  (x8 / -
+)            :arg0  (x6 / 开花
+)            :mod  (x7 / 也
+)))
+===========================
+长期以来，它适应了晚上九点左右的温度和湿度，到了那时，便悄悄绽开淡雅的花蕾，向人们展示美丽的笑脸。
+(x33 / causation
+      :arg1  (x4 / 适应-01
+            :duration  (x1_3_4 / 以来
+                  :op1  (x1_1_2 / 长期
+))            :aspect  (x5 / 了-01
+)            :arg0  (x3 / 它
+)            :arg1  (x12 / and
+                  :op1  (x11 / 温度
+)                  :op2  (x13 / 湿度
+)                  :time  (x43 / date-entity
+                        :dayperiod  (x6 / 晚上
+)                        :time  (x9 / 左右
+                              :op1  (x7_x8 / 21:00
+)))))      :arg2  (x47 / condition
+            :arg1  (x15 / 到-01
+                  :arg1  (x17 / 那时
+)                  :aspect  (x16 / 了
+))            :arg2  (x51 / and
+                  :op1  (x21 / 绽开
+                        :arg0  (x3 / 它
+)                        :arg1  (x24 / 花蕾
+                              :part-of  (x3 / 它
+)                              :arg0-of  (x22 / 淡雅
+))                        :manner  (x20 / 悄悄
+))                  :op2  (x28 / 展示-01
+                        :arg0  (x3 / 它
+)                        :arg1  (x31 / 笑脸
+                              :arg0-of  (x29 / 美丽-01
+))                        :beneficiary  (x27 / 人们
+)))))
+===========================
+还有的花，需要昆虫传播花粉，才能结出种子，它们开花的时间往往跟昆虫活动的时间相吻合。
+(x29 / causation
+      :arg1  (x31 / condition
+            :arg1  (x5 / 需要-01
+                  :arg0  (x3 / 花
+                        :mod  (x1_2_x2 / 有的
+)                        :mod  (x1_1 / 还
+))                  :arg1  (x7 / 传播-01
+                        :arg0  (x6 / 昆虫
+)                        :arg1  (x8 / 花粉
+)))            :arg2  (x11 / 结出-01
+                  :arg0  (x3 / 花
+)                  :arg1  (x12 / 种子
+)))      :arg2  (x25 / 吻合-01
+            :arg0  (x17 / 时间
+                  :mod  (x15 / 开花-01
+                        :arg0  (x14 / x3
+)))            :arg1  (x23 / 时间
+                  :mod  (x21 / 活动-01
+                        :arg0  (x20 / 昆虫
+)))            :mod  (x18 / 往往
+)))
+===========================
+一位植物学家曾有意把不同时间开放的花种在一起，把花圃修建得像钟面一样，组成花的“时钟”。
+(x30 / and
+      :op1  (x6 / 有意-01
+            :time  (x5 / 曾
+)            :arg0  (x4 / 家
+                  :mod  (x3 / 植物学
+                        :cunit  (x2 / 位
+)                        :quant  (x1 / 1
+)))            :arg1  (x12_2 / 种-01
+                  :arg1  (x12_1 / 花
+                        :arg0-of  (x10 / 开放-04
+                              :mod  (x9 / 时间
+                                    :arg0-of  (x8 / 不同-01
+))))                  :arg0  (x4 / 家
+)                  :cause-of  (x14 / 一起-01
+                        :arg0  (x12_1 / 花
+))))      :op2  (x18 / 修建-01
+            :cause-of  (x20 / 像-01
+                  :arg1  (x21 / 钟面
+)                  :arg0  (x17 / 花圃
+))            :arg1  (x17 / 花圃
+)            :arg0  (x4 / 家
+))      :op3  (x24 / 组成-02
+            :arg1  (x28 / 时钟
+                  :consist-of  (x25 / 花
+))            :arg0  (x4 / 家
+)))
+===========================
+这些花在二十四小时内陆续开放。
+(x8 / 开放-01
+      :manner  (x7 / 陆续
+)      :arg0  (x2 / 花
+            :quant  (x1 / 这些
+))      :duration  (x15 / temporal-quantity
+            :quant  (x4 / 24
+)            :unit  (x5 / 小时
+)))
+===========================
+你只要看看什么花刚刚开放，就知道大致是几点钟，这是不是很有趣？
+(x24 / causation
+      :arg1  (x26 / condition
+            :arg1  (x3 / 看看-01
+                  :arg0  (x1 / 你
+)                  :arg1  (x7 / 开放-01
+                        :time  (x6 / 刚刚
+)                        :arg0  (x5 / 花
+                              :mod  (x4 / amr-unknown
+)))))      :arg2  (x22 / 有趣-01
+            :mode  (x18_x19_20_x23 / interrogative
+)            :arg0  (x17 / 这
+)            :degree  (x21 / 很
+))      :arg2  (x10 / 知道-01
+            :arg1  (x11 / 大致
+                  :arg0  (x41 / date-entity
+                        :time  (x13_x14_15 / amr-unknown
+)                        :mode  (x12 / judgement
+)))))
+===========================

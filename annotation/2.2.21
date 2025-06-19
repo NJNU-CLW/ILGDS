@@ -1,0 +1,330 @@
+唐朝有一位著名的画家叫戴嵩。
+(x2 / 有-03
+      :arg0  (x13 / dynasty
+            :name  ( x1/唐朝 
+))      :arg1  (x7 / 画家
+            :arg0-of  (x5 / 著名-01
+)            :quant  (x3 / 1
+)            :cunit  (x4 / 位
+)            :arg0-of  (x8 / 叫-01
+                  :arg1  (x20 / person
+                        :name  ( x9/戴嵩 
+)))))
+===========================
+他的画一挂出来，就有许多人观赏。
+(x14 / condition
+      :arg1  (x5 / 挂-01
+            :arg1  (x3 / 画
+                  :poss  (x1 / 他
+))            :direction  (x6 / 出来-01
+                  :arg0  (x3 / 画
+)))      :arg2  (x12 / 观赏-01
+            :arg0  (x11 / 人
+                  :arg1-of  (x9 / 有-03
+)                  :quant  (x10 / 许多
+))))
+===========================
+看画的人没有不点头称赞的，有钱的人还争着花大价钱购买。
+(x22 / and
+      :op1  (x5_2 / 有-03
+            :polarity  (x5_1 / -
+)            :arg0  (x4 / 人
+                  :arg0-of  (x1 / 看-02
+                        :arg1  (x2 / 画
+)))            :arg1  (x30 / person
+                  :arg0-of  (x8 / 称赞-01
+                        :polarity  (x6 / -
+)                        :manner  (x7 / 点头-01
+                              :arg0  (x30 / person
+)))))      :op2  (x15 / 争-01
+            :aspect  (x16 / 着
+)            :mod  (x14 / 还
+)            :arg0  (x13 / 人
+                  :arg0-of  (x11 / 有钱-01
+))            :arg1  (x20 / 购买-01
+                  :manner  (x17 / 花-01
+                        :arg0  (x13 / 人
+)                        :arg1  (x19 / 价钱
+                              :arg0-of  (x18 / 大-01
+)))                  :arg0  (x13 / 人
+)                  :arg1  (x2 / 画
+))))
+===========================
+传说有一次戴嵩的好朋友请他作画。
+(x1 / 传说-01
+      :arg1  (x9 / 请-01
+            :time  (x2_x3_x4 / 有一次
+)            :arg0  (x8 / 朋友
+                  :arg0-of  (x7 / 好-01
+)                  :poss  (x19 / person
+                        :name  ( x5/戴嵩 
+)))            :arg1  (x10 / x19
+)            :arg2  (x11 / 作画-01
+                  :arg0  (x19 / person
+))))
+===========================
+画什么呢？
+(x1 / 画-01
+      :arg1  (x2 / amr-unknown
+)      :mode  (x3_x4 / interrogative
+))
+===========================
+戴嵩沉思片刻，决定画一幅《斗牛图》。
+(x12 / temporal
+      :arg1  (x2 / 沉思-01
+            :duration  (x3 / 片刻
+)            :arg0  (x16 / person
+                  :name  ( x1/戴嵩 
+)))      :arg2  (x5 / 决定-01
+            :arg0  (x16 / person
+)            :arg1  (x6 / 画-01
+                  :arg0  (x16 / person
+)                  :arg1  (x20 / picture
+                        :name  ( x10/斗牛图 
+)                        :cunit  (x8 / 幅
+)                        :quant  (x7 / 1
+)))))
+===========================
+他一会儿浓墨涂抹，一会儿轻笔细描，很快就画成了。
+(x18 / and
+      :op1  (x20 / and
+            :op1  (x5 / 涂抹-01
+                  :instrument  (x4 / 墨
+)                  :arg0  (x1 / 他
+))            :op2  (x11 / 描-01
+                  :manner  (x10 / 细
+)                  :arg0  (x1 / 他
+)                  :instrument  (x9 / 笔
+                        :arg0-of  (x8 / 轻-01
+))))      :op2  (x15 / 画成-01
+            :aspect  (x16 / 了
+)            :mod  (x14 / 就
+                  :time  (x13_2 / 快
+                        :degree  (x13_1 / 很
+)))            :arg0  (x1 / 他
+)))
+===========================
+围观的人看了，纷纷夸赞。
+(x10 / temporal
+      :arg1  (x4 / 看-02
+            :arg0  (x3 / 人
+                  :arg0-of  (x1 / 围观-01
+))            :aspect  (x5 / 了
+))      :arg2  (x8 / 夸赞-01
+            :arg0  (x3 / 人
+)            :manner  (x7 / 纷纷
+)))
+===========================
+“画得太像了，画得太像了，这真是绝妙之作！”一位商人称赞道。
+(x24_x25 / 称赞-01
+      :arg0  (x23 / 商人
+            :quant  (x21 / 1
+)            :cunit  (x22 / 位
+))      :arg1  (x30 / and
+            :op1  (x2 / 画-01
+                  :cause-of  (x5 / 像-01
+                        :degree  (x4 / 太
+)                        :arg0  (x46 / thing
+))                  :smood  (x6 / 了
+)                  :arg0  (x46 / thing
+))            :op2  (x8 / 画-01
+                  :cause-of  (x11 / 像-01
+                        :degree  (x10 / 太
+)                        :arg0  (x46 / thing
+))                  :smood  (x12 / 了
+)                  :arg0  (x46 / thing
+))            :op3  (x19 / 作
+                  :arg0-of  (x17 / 绝妙-01
+)                  :domain  (x14 / 这
+)                  :mod  (x15 / 真-01
+)                  :mode  (x20 / expressive
+))))
+===========================
+“画活了，画活了，只有神笔才能画出这样的画！”一位教书先生赞扬道。
+(x24_x25 / 赞扬-01
+      :arg1  (x33 / and
+            :op1  (x2 / 画-01
+                  :smood  (x4 / 了
+)                  :cause-of  (x3 / 活-01
+                        :arg0  (x47 / thing
+))                  :arg1  (x47 / thing
+))            :op2  (x6 / 画-01
+                  :cause-of  (x7 / 活-01
+                        :arg0  (x47 / thing
+))                  :smood  (x8 / 了
+)                  :arg1  (x47 / thing
+))            :op3  (x13 / 能-01
+                  :mod  (x12 / 才
+)                  :arg0  (x14 / 画-01
+                        :arg0  (x11 / 神笔
+)                        :arg1  (x18 / 画
+                              :mod  (x16 / 这样
+)))                  :mode  (x19 / expressive
+)))      :arg0  (x23 / 先生
+            :cunit  (x21 / 位
+)            :quant  (x20 / 1
+)            :arg0-of  (x22 / 教书
+)))
+===========================
+“画错啦，画错啦！”一个牧童挤进来喊着。
+(x17 / and
+      :op1  (x12 / 挤-03
+            :arg0  (x11 / 牧童
+                  :quant  (x10_1 / 1
+)                  :cunit  (x10_2 / 个
+))            :direction  (x13 / 进来-01
+                  :arg0  (x11 / 牧童
+)))      :op2  (x14 / 喊-01
+            :arg0  (x11 / 牧童
+)            :aspect  (x15 / 着
+)            :arg1  (x26 / and
+                  :op1  (x2 / 画-01
+                        :mode  (x4 / expressive
+)                        :cause-of  (x3 / 错-01
+                              :arg0  (x33 / thing
+))                        :arg1  (x33 / thing
+))                  :op2  (x6 / 画-01
+                        :mode  (x8_x9 / expressive
+)                        :cause-of  (x7 / 错-01
+                              :arg0  (x33 / thing
+))                        :arg1  (x33 / thing
+)))))
+===========================
+这声音好像炸雷一样，大家一下子都呆住了。
+(x14 / and
+      :op1  (x3 / 好像-01
+            :arg0  (x2 / 声音
+                  :mod  (x1 / 这
+))            :arg1  (x4 / 炸雷
+))      :op2  (x10_x11 / 呆
+            :arg0  (x7 / 大家
+                  :extent  (x9 / 都
+))            :manner  (x8 / 一下子
+)            :aspect  (x12 / 了
+)))
+===========================
+这时，戴嵩把牧童叫到面前，和蔼地说：“小兄弟，我很愿意听到你的批评，请你说说什么地方画错啦？”
+(x35 / temporal
+      :arg1  (x6 / 叫-04
+            :arg0  (x38 / person
+                  :name  ( x3/戴嵩 
+))            :arg1  (x5 / 牧童
+)            :arg2  (x7 / 到-01
+                  :arg0  (x5 / 牧童
+)                  :arg1  (x8 / 面前
+                        :arg0  (x38 / person
+)))            :time  (x1 / 这时
+))      :arg2  (x12 / 说-01
+            :arg0  (x38 / person
+)            :manner  (x10 / 和蔼
+)            :arg1  (x46 / and
+                  :op2  (x18 / 愿意-01
+                        :arg0  (x16 / x38
+)                        :degree  (x17 / 很
+)                        :arg1  (x19_x20 / 听到-01
+                              :arg1  (x23 / 批评
+                                    :source  (x21 / x5
+))                              :arg0  (x16 / x38
+)))                  :op1  (x14 / x5
+)                  :op3  (x25 / 请-01
+                        :arg1  (x26 / x5
+)                        :arg2  (x27_x28 / 说-01
+                              :arg0  (x26 / x5
+)                              :arg1  (x31 / 画-01
+                                    :cause-of  (x32 / 错-01
+                                          :arg0  (x29_x30 / amr-unknown
+))                                    :mode  (x33_x34 / interrogative
+)                                    :arg1  (x29_x30 / amr-unknown
+)))))))
+===========================
+牧童指着画上的牛，说：“这牛尾巴画错了。
+(x17 / and
+      :op1  (x2 / 指-05
+            :arg0  (x1 / 牧童
+)            :aspect  (x3 / 着
+)            :arg1  (x7 / 牛
+                  :location  (x4 / 画
+)))      :op2  (x9 / 说-01
+            :arg0  (x1 / 牧童
+)            :arg1  (x13 / 画-01
+                  :cause-of  (x14 / 错-01
+                        :aspect  (x15 / 了
+)                        :arg0  (x12 / 牛尾巴
+                              :mod  (x11 / 这
+)))                  :arg1  (x12 / 牛尾巴
+))))
+===========================
+两牛相斗的时候，全身的力气都用在角上，尾巴是夹在后腿中间的。
+(x25 / causation
+      :time  (x4 / 斗-01
+            :arg0  (x2 / 牛
+                  :quant  (x1 / 2
+))            :manner  (x3 / 相
+))      :arg1  (x12 / 用-01
+            :arg1  (x10 / 力气
+                  :range  (x8 / 全身
+)                  :extent  (x11 / 都
+))            :arg2  (x14 / 角
+))      :arg2  (x19 / 夹-01
+            :arg1  (x17 / 尾巴
+)            :location  (x22 / 中间
+                  :arg0  (x21 / 后腿
+))            :mode  (x18_x23 / judgement
+)))
+===========================
+您画的牛尾巴是翘起来的，那是牛用尾巴驱赶牛蝇的样子。
+(x20 / and
+      :op2  (x18 / 样子
+            :domain  (x10 / 那
+)            :time  (x15 / 驱赶-01
+                  :arg0  (x12 / 牛
+)                  :instrument  (x14 / 尾巴
+                        :part-of  (x12 / 牛
+))                  :arg1  (x16 / 牛蝇
+)))      :op1  (x6_x7 / 翘
+            :arg0  (x4 / 牛尾巴
+                  :arg1-of  (x2 / 画-01
+                        :arg0  (x1 / 您
+)))            :mode  (x5_x8 / judgement
+)))
+===========================
+您没见过两牛相斗的情形吧？”
+(x13 / say
+      :arg1  (x3 / 见-01
+            :polarity  (x2 / -
+)            :aspect  (x4 / 过
+)            :arg0  (x1 / 您
+)            :arg1  (x10 / 情形
+                  :mod  (x8 / 斗-01
+                        :manner  (x7 / 相
+)                        :arg0  (x6 / 牛
+                              :quant  (x5 / 2
+))))            :mode  (x11_x12 / interrogative
+)))
+===========================
+戴嵩听了，感到非常惭愧。
+(x9 / temporal
+      :arg1  (x2 / 听-01
+            :aspect  (x3 / 了
+)            :arg0  (x13 / person
+                  :name  ( x1/戴嵩 
+)))      :arg2  (x5 / 感到-01
+            :arg0  (x13 / person
+)            :arg1  (x7 / 惭愧-01
+                  :degree  (x6 / 非常
+)                  :arg0  (x13 / person
+))))
+===========================
+他连连拱手，说：“多谢你的指教。”
+(x13 / and
+      :op1  (x3 / 拱手-01
+            :manner  (x2 / 连连
+)            :arg0  (x1 / 他
+))      :op2  (x5 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x8 / 谢-02
+                  :arg0  (x11 / 指教
+                        :source  (x9 / 你
+))                  :degree  (x7 / 多
+))))
+===========================

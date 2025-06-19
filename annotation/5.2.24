@@ -1,0 +1,1070 @@
+我等候着，一直等他把手头的事办完，他才领着我到后面的一个房间去，取出一堆人家不肯要的衣服，选了一套最蹩脚的给我。
+(x47 / temporal
+      :arg1  (x52 / and
+            :op1  (x2 / 等候-01
+                  :arg0  (x1 / 我
+)                  :aspect  (x3 / 着
+))            :op2  (x6 / 等-01
+                  :arg1  (x12 / 办-01
+                        :cause-of  (x13 / 完-01
+)                        :arg0  (x7 / 他
+)                        :arg1  (x11 / 事
+                              :mod  (x9 / 手头
+)))))      :arg2  (x17 / 领-01
+            :arg0  (x15 / x7
+)            :arg1  (x19 / x1
+)            :aspect  (x18 / 着
+)            :arg2  (x20 / 到-01
+                  :arg1  (x25 / 房间
+                        :quant  (x23 / 1
+)                        :cunit  (x24 / 个
+)                        :location  (x21 / 后面
+))))      :arg3  (x28 / 取出-01
+            :arg1  (x35 / 衣服
+                  :quant  (x29 / 1
+)                  :cunit  (x30 / 堆
+)                  :arg1-of  (x33 / 要-01
+                        :arg0  (x31 / 人家
+)                        :arg1-of  (x32_2 / 肯-01
+                              :polarity  (x32_1 / -
+)))))      :arg4  (x37 / 选-02
+            :arg1  (x78 / thing
+                  :dcopy  (x35 / 衣服
+)                  :arg0-of  (x42 / 蹩脚
+                        :degree  (x41 / 最
+))                  :quant  (x39 / 1
+)                  :cunit  (x40 / 套
+))            :purpose  (x44 / 给-01
+                  :arg2  (x45 / x1
+)                  :arg0  (x15 / x7
+))))
+===========================
+我把它穿上。
+(x4_x5 / 穿上-01
+      :arg0  (x1 / 我
+)      :arg1  (x3 / 它
+))
+===========================
+衣服并不合身，而且一点儿也不好看，但它是新的，我很想把它买下来，便没有挑剔，只是颇为胆怯地说道：“请你们通融通融，让我过几天再来付钱吧。
+(x50 / and
+      :op1  (x52 / contrast
+            :arg1  (x53 / and
+                  :op1  (x4 / 合身
+                        :polarity  (x3 / -
+                              :mod  (x2 / 并
+))                        :arg0  (x1 / 衣服
+))                  :op2  (x10 / 好看-01
+                        :arg0  (x1 / 衣服
+)                        :polarity  (x9 / -
+                              :degree  (x7 / 一点儿
+))                        :mod  (x8 / 也
+)))            :arg2  (x62 / causation
+                  :arg1  (x67 / causation
+                        :arg1  (x15 / 新-01
+                              :mode  (x14_x16 / judgement
+)                              :arg0  (x13 / x1
+))                        :arg2  (x20 / 想-02
+                              :arg1  (x23_x24 / 买-01
+                                    :arg1  (x22 / x1
+)                                    :arg0  (x18 / 我
+))                              :arg0  (x18 / 我
+)                              :degree  (x19 / 很
+)))                  :arg2  (x28 / 挑剔-01
+                        :polarity  (x27 / -
+)                        :arg1  (x1 / 衣服
+)                        :arg0  (x18 / 我
+))))      :op2  (x34 / 说道-01
+            :manner  (x32 / 胆怯
+                  :degree  (x31 / 颇为
+))            :arg1  (x79 / and
+                  :op1  (x36 / 请-01
+                        :arg1  (x37 / 你们
+)                        :arg2  (x38_x39 / 通融-01
+                              :arg1  (x18 / 我
+)))                  :op2  (x41 / 让-02
+                        :arg1  (x42 / x18
+)                        :arg2  (x47 / 付钱-01
+                              :mod  (x45 / 再
+)                              :time  (x43 / 过-02
+                                    :arg1  (x88 / temporal-quantity
+                                          :quant  (x44_1 / 几
+)                                          :unit  (x44_2 / 天
+))))                        :mode  (x48 / imperative
+)))))
+===========================
+我身边没有带着零钱哩。”
+(x9 / say
+      :arg1  (x4 / 带-02
+            :arg0  (x2 / 身边
+                  :poss  (x1 / 我
+))            :polarity  (x3 / -
+)            :aspect  (x5 / 着
+)            :arg1  (x6 / 零钱
+)            :mode  (x7 / expressive
+)))
+===========================
+那个家伙摆出一副非常刻薄的嘴脸，说道“啊，是吗？哼，当然我也料到了你没有带零钱。
+(x31 / and
+      :op1  (x3_x4 / 摆出-01
+            :arg0  (x2 / 家伙
+                  :mod  (x1_1 / 那
+)                  :cunit  (x1_2 / 个
+))            :arg1  (x10 / 嘴脸
+                  :arg0-of  (x8 / 刻薄
+                        :degree  (x7 / 非常
+))                  :quant  (x5 / 1
+)                  :cunit  (x6 / 副
+)))      :op2  (x12 / 说道-01
+            :arg1  (x43 / and
+                  :op1  (x14 / expressive
+)                  :op2  (x16 / 是
+                        :mode  (x17_x18 / interrogative
+))                  :op3  (x19 / 哼
+)                  :op4  (x24 / 料到-01
+                        :arg0  (x22 / x2
+)                        :arg1  (x28 / 带-02
+                              :polarity  (x27 / -
+)                              :arg0  (x26 / 你
+)                              :arg1  (x29 / 零钱
+))                        :aspect  (x25 / 了
+)                        :mod  (x21 / 当然
+)))))
+===========================
+我看像你这样的阔人是只会带大票子的。”
+(x17 / say
+      :arg1  (x2 / 看-02
+            :arg0  (x1 / 我
+)            :arg1  (x11 / 会-02
+                  :arg1  (x12 / 带-02
+                        :arg0  (x8 / 人
+                              :arg0-of  (x7 / 阔-01
+                                    :mod  (x5 / 这样
+))                              :manner  (x3 / 像-01
+                                    :arg1  (x4 / 你
+)))                        :arg1  (x14 / 票子
+                              :arg0-of  (x13 / 大-01
+)))                  :mode  (x9_x15 / judgement
+)                  :mod  (x10 / 只
+))))
+===========================
+这可叫我冒火了，于是我就说：“朋友，你对一个陌生人可别单凭他的穿着来判断他的身份吧。
+(x34 / causation
+      :arg1  (x3 / 叫-04
+            :arg0  (x1 / 这
+)            :arg1  (x4 / 我
+)            :arg2  (x5 / 冒火-01
+                  :arg0  (x4 / 我
+))            :aspect  (x6 / 了
+)            :mod  (x2 / 可
+))      :arg2  (x11 / 说-01
+            :arg0  (x9 / 我
+)            :arg1  (x28 / 判断-01
+                  :arg1  (x31 / 身份
+                        :poss  (x29 / x24
+))                  :condition  (x23 / 凭-01
+                        :arg1  (x26 / 穿着
+                              :poss  (x24 / 他
+                                    :arg0-of  (x52 / mean
+                                          :arg1  (x19 / 陌生人
+                                                :quant  (x17 / 1
+)                                                :cunit  (x18 / 个
+)))))                        :mod  (x22 / 单
+)                        :polarity  (x21 / -
+                              :mod  (x20 / 可
+)))                  :mode  (x32 / imperative
+)                  :arg0  (x15 / 你
+                        :arg0-of  (x60 / mean
+)                        :arg1  (x13 / 朋友
+)))))
+===========================
+这套衣服的钱我完全出得起，我不过是不愿意叫你们为难，怕你们换不开一张大钞票罢了。”
+(x32 / say
+      :arg1  (x34 / contrast
+            :arg1  (x9_x10 / possible
+                  :arg0  (x8 / 出-02
+                        :arg1  (x5 / 钱
+                              :mod  (x3 / 衣服
+                                    :mod  (x1 / 这
+)                                    :cunit  (x2 / 套
+)))                        :arg0  (x6 / 我
+)                        :mod  (x7 / 完全
+)))            :arg2  (x44 / and
+                  :op1  (x16 / 愿意-01
+                        :arg0  (x12 / x6
+)                        :arg1  (x17 / 叫-04
+                              :arg1  (x18 / 你们
+)                              :arg2  (x19 / 为难-01
+                                    :arg1  (x18 / 你们
+)                                    :arg0  (x12 / x6
+)))                        :polarity  (x15 / -
+)                        :mod  (x13 / 不过
+))                  :op2  (x21 / 怕-01
+                        :arg1  (x23_x25 / 换开
+                              :polarity  (x24 / -
+)                              :arg1  (x29 / 钞票
+                                    :arg0-of  (x28 / 大-01
+)                                    :quant  (x26 / 1
+)                                    :cunit  (x27 / 张
+))                              :arg0  (x22 / x18
+))                        :smood  (x30 / 罢了
+)))))
+===========================
+他一听这些话，态度稍微改了一点儿，但是他仍旧有点儿摆着架子回答我：“我并没有恶意，可是你要开口教训人的话，那我倒要告诉你，像你这样凭空武断，认为我们换不开你身边可能带着的什么大钞票，那未免是瞎操心，恰恰相反，我们换得开！”
+(x77 / contrast
+      :arg1  (x79 / conditon
+            :arg1  (x3 / 听-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 话-01
+                        :quant  (x4 / 这些
+)))            :arg2  (x9 / 改-01
+                  :arg1  (x7 / 态度
+)                  :mod  (x8 / 稍微
+)                  :degree  (x11 / 一点儿
+)                  :aspect  (x10 / 了
+)))      :arg2  (x20 / 回答-01
+            :arg3  (x21 / 我
+)            :arg0  (x14 / 他
+)            :manner  (x17 / 摆-01
+                  :arg1  (x19 / 架子
+)                  :aspect  (x18 / 着
+)                  :mod  (x15 / 仍旧
+)                  :degree  (x16 / 有点儿
+))            :arg2  (x97 / contrast
+                  :arg1  (x25_2 / 有-01
+                        :polarity  (x25_1 / -
+)                        :arg0  (x23 / x14
+)                        :arg1  (x26 / 恶意
+))                  :arg2  (x102 / condition
+                        :arg1  (x30 / 要-03
+                              :arg0  (x32 / 教训-01
+                                    :manner  (x31 / 开口
+)                                    :arg1  (x33 / 人
+)                                    :arg0  (x29 / x21
+)))                        :arg2  (x39 / 要-03
+                              :arg0  (x40 / 告诉-01
+                                    :arg0  (x37 / x1
+)                                    :arg2  (x41 / x21
+)                                    :arg1  (x112 / and
+                                          :op1  (x47 / 武断-01
+                                                :manner  (x46 / 凭空
+)                                                :arg0  (x44 / x21
+                                                      :arg1-of  (x43 / 像-01
+))                                                :mod  (x45 / 这样
+))                                          :op2  (x49 / 认为-01
+                                                :arg1  (x51_x53 / 换开
+                                                      :polarity  (x52 / -
+)                                                      :arg0  (x50 / 我们
+)                                                      :arg1  (x62 / 钞票
+                                                            :arg0-of  (x61 / 大-01
+)                                                            :mod  (x60 / 什么
+)                                                            :arg1-of  (x57 / 带-02
+                                                                  :aspect  (x58 / 着
+)                                                                  :arg0-of  (x56 / 可能-01
+)                                                                  :arg0  (x55 / 身边
+                                                                        :poss  (x54 / x21
+))))))                                          :op3  (x65 / 未免
+                                                :arg1  (x68 / 操心
+                                                      :manner  (x67 / 瞎
+)))                                          :op4  (x70 / 恰恰相反
+)                                          :op5  (x74 / possible
+                                                :arg0  (x73_x75 / 换开
+                                                      :arg0  (x72 / x50
+))                                                :mode  (x76 / expressive
+)))))))))
+===========================
+我把那张钞票交给他，说道：“啊，那好极了，我向你道歉。”
+(x22 / temporal
+      :arg1  (x6 / 交给-01
+            :arg0  (x1 / 我
+)            :arg1  (x5 / 钞票
+                  :mod  (x3 / 那
+)                  :cunit  (x4 / 张
+))            :arg2  (x7 / 他
+))      :arg2  (x9 / 说道-01
+            :arg0  (x1 / 我
+)            :arg1  (x31 / and
+                  :op1  (x11 / expressive
+)                  :op2  (x14 / 好-01
+                        :mod  (x13 / 那
+)                        :degree  (x15_1 / 极
+)                        :aspect  (x15_2 / 了
+))                  :op3  (x20 / 道歉-01
+                        :arg0  (x17 / x1
+)                        :arg2  (x19 / x7
+)))))
+===========================
+他微笑着接了过去，那种笑容是遍布满脸的，里面还有折纹，还有皱纹，还有螺旋纹，就像你往池塘里抛了一块砖那个样子；当他向那张钞票瞟了一眼的时候，这个笑容就马上牢牢地凝结起来了，变得毫无光彩，恰像你所看到的维苏威火山边上那些小块平地上凝固起来的波状的、满是蛆虫似的一片一片的熔岩一般。
+(x101 / and
+      :op1  (x4_x6 / 接-01
+            :arg0  (x1 / 他
+)            :manner  (x2 / 微笑-01
+                  :aspect  (x3 / 着
+)                  :arg0  (x1 / 他
+))            :aspect  (x5 / 了
+))      :op2  (x11 / 遍布-01
+            :arg0  (x9 / 笑容
+                  :mod  (x8_1 / 那
+)                  :unit  (x8_2 / 种
+))            :mode  (x10_x13 / judgement
+)            :arg1  (x12 / 满脸
+))      :op3  (x28 / 像-01
+            :arg0  (x129 / and
+                  :op1  (x16_2 / 有-03
+                        :arg0  (x15 / 里面
+)                        :arg1  (x18 / 纹
+                              :mod  (x17 / 折
+))                        :mod  (x16_1 / 还
+))                  :op2  (x20_2 / 有-03
+                        :arg1  (x21 / 皱纹
+)                        :mod  (x20_1 / 还
+)                        :arg0  (x15 / 里面
+))                  :op3  (x23_2 / 有-03
+                        :mod  (x23_1 / 还
+)                        :arg1  (x25 / 纹
+                              :mod  (x24 / 螺旋
+))                        :arg0  (x15 / 里面
+)))            :arg1  (x39 / 样子
+                  :mod  (x38_1 / 那
+)                  :cunit  (x38_2 / 个
+)                  :arg0-of  (x133 / mean
+                        :arg1  (x33 / 抛-01
+                              :arg0  (x29 / 你
+)                              :arg2  (x31 / 池塘
+)                              :arg1  (x37 / 砖
+                                    :quant  (x35 / 1
+)                                    :cunit  (x36 / 块
+)))))            :mod  (x27 / 就
+))      :op4  (x70_x99 / 像-01
+            :arg0  (x142 / and
+                  :time  (x47 / 瞟-01
+                        :arg0  (x42 / x1
+)                        :arg1  (x46 / 钞票
+                              :mod  (x44 / 那
+)                              :cunit  (x45 / 张
+))                        :aspect  (x48 / 了
+)                        :quant  (x49 / 1
+)                        :cunit  (x50 / 眼
+))                  :op1  (x60_x61 / 凝结-01
+                        :arg1  (x55 / 笑容
+                              :mod  (x54_1 / 这
+)                              :cunit  (x54_2 / 个
+))                        :manner  (x58 / 牢
+)                        :time  (x57 / 马上
+)                        :mod  (x56 / 就
+))                  :op2  (x64_x65 / 变得-01
+                        :arg1  (x66 / 毫无-01
+                              :arg1  (x67 / 光彩
+)                              :arg0  (x55 / 笑容
+))                        :arg0  (x55 / 笑容
+)))            :arg1  (x98 / 熔岩
+                  :quant  (x93_x94_x95_x96 / 一片一片
+)                  :arg1-of  (x73 / 看到-01
+                        :arg1  (x71 / x29
+))                  :arg0-of  (x92 / 似-01
+                        :arg1  (x91 / 蛆虫
+                              :range  (x89 / 满
+)))                  :arg1-of  (x82_x83 / 凝固-01
+                        :location  (x80 / 平地
+                              :cunit  (x79 / 块
+                                    :arg0-of  (x78 / 小-01
+))                              :location  (x76 / 边上
+                                    :arg0  (x175 / volcano
+                                          :name  ( x75/维苏威火山 
+)))                              :mod  (x77 / 那些
+))))            :mod  (x69 / 恰
+)))
+===========================
+我从来没有看见过谁的笑容陷入这样的窘况。
+(x4 / 看见-01
+      :arg0  (x1 / 我
+)      :time  (x2 / 从来
+)      :polarity  (x3 / -
+)      :aspect  (x5 / 过
+)      :arg1  (x9 / 陷入-01
+            :arg0  (x8 / 笑容
+                  :poss  (x6 / amr-unknown
+))            :arg1  (x12 / 窘况
+                  :mod  (x10 / 这样
+))))
+===========================
+老板赶紧跑过来，看看是怎么回事，他兴致勃勃地问道：“喂，怎么回事？
+(x25 / temporal
+      :arg1  (x3 / 跑-01
+            :arg0  (x1 / 老板
+)            :direction  (x4 / 过来
+)            :manner  (x2 / 赶紧
+)            :purpose  (x6_x7 / 看-02
+                  :arg1  (x9_x10_x11 / 怎么回事
+)))      :arg2  (x16 / 问道-01
+            :arg0  (x13 / x1
+)            :arg1  (x37 / and
+                  :op1  (x18 / 喂
+)                  :op2  (x20_x21_x22 / 怎么回事
+                        :mode  (x23 / interrogative
+)))            :manner  (x14 / 兴致勃勃-01
+                  :arg0  (x13 / x1
+))))
+===========================
+出了什么岔子吗？”
+(x7 / say
+      :arg1  (x1 / 出-02
+            :arg1  (x4 / 岔子
+                  :mod  (x3 / 什么
+))            :aspect  (x2 / 了
+)            :mode  (x5_x6 / interrogative
+)))
+===========================
+我说：“什么岔子也没有。
+(x2 / 说-01
+      :arg0  (x1 / 我
+)      :arg1  (x7_2 / 有-03
+            :polarity  (x7_1 / -
+                  :mod  (x6 / 也
+))            :arg1  (x5 / 岔子
+                  :mod  (x4 / 什么
+))))
+===========================
+我在等他找钱。”
+(x7 / say
+      :arg1  (x3 / 等-01
+            :arg1  (x5 / 找钱-01
+                  :arg0  (x4 / 他
+))            :arg0  (x1 / 我
+)            :aspect  (x2 / 在
+)))
+===========================
+“好吧，好吧，托德，快把钱找给他，快把钱找给他。”
+(x24 / say
+      :arg1  (x26 / and
+            :op1  (x2 / 好
+                  :mode  (x3 / expressive
+))            :op2  (x5 / 好
+                  :mode  (x6 / expressive
+))            :op3  (x29 / person
+                  :name  ( x8/托德 
+))            :op4  (x10 / 快
+                  :arg0  (x13 / 找-03
+                        :arg1  (x12 / 钱
+)                        :beneficiary  (x15 / 他
+)))            :op5  (x17 / 快
+                  :arg0  (x20 / 找-03
+                        :arg1  (x19 / x12
+)                        :beneficiary  (x22 / x15
+)))))
+===========================
+托德回嘴说：“把钱找给他！说说倒容易，先生，请你自己看看这张钞票吧。”
+(x2_x3 / 回嘴-01
+      :arg0  (x31 / person
+            :name  ( x1/托德 
+))      :arg1  (x33 / and
+            :op1  (x8 / 找-03
+                  :arg1  (x7 / 钱
+)                  :beneficiary  (x10 / 他
+)                  :mode  (x11 / expressive
+))            :op2  (x15 / 容易-01
+                  :arg0  (x12_x13 / 说说
+)                  :mod  (x14 / 倒
+))            :op3  (x17 / 先生
+)            :op4  (x19 / 请-01
+                  :arg2  (x22_x23 / 看-02
+                        :arg1  (x26 / 钞票
+                              :mod  (x24 / 这
+)                              :cunit  (x25 / 张
+)                              :arg0  (x20 / 你
+                                    :arg0-of  (x51 / mean
+                                          :arg1  (x21 / 自己
+)))))                  :mode  (x27 / imperative
+)                  :arg1  (x20 / 你
+))))
+===========================
+老板望了一眼，吹了一声轻快的口哨，一下子钻进那一堆被顾客拒绝接受的衣服里，把它来回翻动，同时一直很兴奋地说着话，好像在自言自语似的：“把那么一套不像样子的衣服卖给一位脾气特别的百万富翁！
+(x66 / temporal
+      :arg1  (x2 / 望-01
+            :arg0  (x1 / 老板
+)            :quant  (x4 / 1
+)            :cunit  (x5 / 眼
+)            :aspect  (x3 / 了
+))      :arg2  (x7 / 吹
+            :arg1  (x13 / 口哨
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 声
+)                  :arg0-of  (x11 / 轻快-01
+))            :aspect  (x8 / 了
+)            :arg0  (x1 / 老板
+))      :arg3  (x16 / 钻进-01
+            :arg0  (x1 / 老板
+)            :arg1  (x25 / 衣服
+                  :arg1-of  (x23 / 接受-01
+                        :arg1-of  (x22 / 拒绝-01
+                              :arg0  (x21 / 顾客
+))                        :arg0  (x21 / 顾客
+))                  :quant  (x18 / 1
+)                  :cunit  (x19 / 堆
+)                  :mod  (x17 / 那
+))            :manner  (x15 / 一下子
+))      :arg4  (x88 / and
+            :op1  (x31 / 翻动-01
+                  :arg1  (x29 / x25
+)                  :arg0  (x1 / 老板
+)                  :manner  (x30 / 来回
+))            :op2  (x38_x40 / 说话-01
+                  :aspect  (x39 / 着
+)                  :manner  (x36 / 兴奋-01
+                        :degree  (x35 / 很
+)                        :arg0  (x1 / 老板
+))                  :mod  (x34 / 一直
+)                  :time  (x33 / 同时
+)                  :arg0  (x1 / 老板
+))            :op3  (x42_x45 / 好像-01
+                  :arg1  (x44 / 自言自语
+                        :aspect  (x43 / 在
+)                        :arg1  (x57 / 卖-01
+                              :arg1  (x56 / 衣服
+                                    :mod  (x53_x54 / 像样子
+                                          :polarity  (x52 / -
+)                                          :degree  (x49 / 那么
+))                                    :quant  (x50 / 1
+)                                    :cunit  (x51 / 套
+))                              :arg2  (x64 / 百万富翁
+                                    :mod  (x62 / 特别-01
+                                          :arg0  (x61 / 脾气
+))                                    :quant  (x59 / 1
+)                                    :cunit  (x60 / 位
+))                              :mode  (x65 / expressive
+))                        :arg0  (x1 / 老板
+)))))
+===========================
+托德简直是个傻瓜——天生的傻瓜，老是干出这类事情。
+(x21 / causation
+      :arg2  (x25 / and
+            :op1  (x5 / 傻瓜
+                  :domain  (x26 / person
+                        :name  ( x1/托德 
+))                  :cunit  (x4 / 个
+)                  :mod  (x2 / 简直
+))            :op2  (x9 / 傻瓜
+                  :arg0-of  (x7 / 天生-01
+)))      :arg1  (x12_x13 / 干出-01
+            :arg0  (x26 / person
+)            :arg1  (x16 / 事情
+                  :mod  (x14 / 这
+)                  :cunit  (x15 / 类
+))            :frequency  (x11 / 老是
+)))
+===========================
+把每一个大阔佬都从这儿撵跑了，因为他分不清一位百万富翁和一个流浪汉，老是没有这个眼光。
+(x32 / causation
+      :arg2  (x10 / 撵-01
+            :cause-of  (x11 / 跑-01
+                  :arg0  (x6 / 阔佬
+                        :arg0-of  (x5 / 大-01
+)                        :mod  (x2 / 每
+)                        :quant  (x3 / 1
+)))            :arg1  (x6 / 阔佬
+)            :source  (x9 / 这儿
+)            :extent  (x8 / 从
+)            :arg0  (x15 / 他
+)            :aspect  (x12 / 了
+))      :arg1  (x42 / and
+            :op1  (x16_x18 / 分清-01
+                  :arg0  (x15 / 他
+)                  :polarity  (x17 / -
+)                  :arg1  (x22 / and
+                        :op1  (x21 / 百万富翁
+                              :quant  (x19 / 1
+)                              :cunit  (x20 / 位
+))                        :op2  (x25 / 流浪汉
+                              :quant  (x23 / 1
+)                              :cunit  (x24 / 个
+))))            :op2  (x28_2 / 有-01
+                  :arg1  (x30 / 眼光
+                        :mod  (x29_1 / 这
+)                        :cunit  (x29_2 / 个
+))                  :polarity  (x28_1 / -
+)                  :frequency  (x27 / 老是
+)                  :arg0  (x15 / 他
+))))
+===========================
+啊，我要找的那一套在这儿哩。
+(x14 / and
+      :op1  (x1 / expressive
+)      :op2  (x10 / 在-01
+            :arg1  (x11 / 这儿
+)            :arg0  (x19 / thing
+                  :mod  (x7 / 那
+)                  :quant  (x8 / 1
+)                  :cunit  (x9 / 套
+)                  :arg1-of  (x5 / 找-01
+                        :arg0  (x3 / 我
+)                        :arg0-of  (x4 / 要-03
+)))            :mode  (x12 / expressive
+)))
+===========================
+请您把您身上那些东西脱下来吧，先生，把它丢到火里去吧。
+(x24 / temporal
+      :arg1  (x1 / 请-01
+            :arg1  (x2 / 您
+)            :arg2  (x8_x9_x10 / 脱-01
+                  :arg1  (x7 / 东西
+                        :mod  (x6 / 那些
+)                        :location  (x5 / 身上
+                              :poss  (x4 / x2
+))))            :mode  (x11 / imperative
+))      :arg2  (x34 / and
+            :op1  (x13 / x2
+)            :op2  (x17_x18 / 丢到-01
+                  :arg1  (x16 / x7
+)                  :arg2  (x19 / 火
+)                  :mode  (x22 / imperative
+))))
+===========================
+请您赏脸把这件衬衫穿上，还有这套衣服；正合适，好极了——又素净，又讲究，又雅致，简直就像个公爵穿得那么考究。
+(x42 / and
+      :op1  (x1 / 请-01
+            :arg1  (x2 / 您
+)            :arg2  (x3_x4 / 赏脸-01
+                  :purpose  (x9_x10 / 穿上-01
+                        :arg1  (x51 / and
+                              :op1  (x8 / 衬衫
+                                    :mod  (x6 / 这
+)                                    :cunit  (x7 / 件
+))                              :op2  (x15 / 衣服
+                                    :mod  (x13 / 这
+)                                    :cunit  (x14 / 套
+))))                  :arg0  (x2 / 您
+)))      :op2  (x55 / and
+            :op1  (x18 / 合适-01
+                  :mod  (x17 / 正
+)                  :arg0  (x51 / and
+))            :op2  (x20 / 好-01
+                  :degree  (x21 / 极了
+)                  :arg0  (x51 / and
+))            :op3  (x24 / 素净-01
+                  :arg0  (x51 / and
+))            :op4  (x27 / 讲究
+                  :arg0  (x51 / and
+))            :op5  (x30 / 雅致-01
+                  :arg0  (x51 / and
+)))      :op3  (x34 / 像-01
+            :arg1  (x36 / 公爵
+                  :cunit  (x35 / 个
+))            :arg2  (x37 / 穿
+                  :manner  (x40 / 考究
+                        :degree  (x39 / 那么
+)))            :mod  (x33 / 就
+)            :degree  (x32 / 简直
+)))
+===========================
+这是一位外国的亲王定做的——您也许认识他呢，先生，就是哈利法克斯公国的亲王殿下，因为他母亲病得快死了，他只好把这套衣服放在我们这儿，另外做了一套丧服去——可是后来他母亲并没有死。
+(x60 / and
+      :op1  (x62 / thing
+            :arg1-of  (x8 / 定做-01
+                  :arg0  (x64 / person
+                        :arg0-of  (x65 / have-org-role-91
+                              :arg2  (x7 / 亲王
+))                        :mod  (x5 / 外国
+)                        :quant  (x3 / 1
+)                        :cunit  (x4 / 位
+)))            :domain  (x1 / 这
+))      :op2  (x12 / 也许
+            :arg0  (x13 / 认识-01
+                  :arg0  (x11 / 您
+)                  :arg1  (x14 / x64
+)                  :mode  (x15 / expressive
+)))      :op3  (x17 / 先生
+)      :op4  (x22_x23 / x64
+            :mod  (x80 / country
+                  :name  ( x20/哈利法克斯公国 
+)))      :op5  (x82 / contrast
+            :arg1  (x83 / causation
+                  :arg1  (x28 / 病-01
+                        :arg0  (x27 / 母亲
+)                        :poss  (x26 / x64
+)                        :manner  (x30 / 快-01
+                              :arg0  (x31 / 死-01
+                                    :arg0  (x27 / 母亲
+)))                        :aspect  (x32 / 了
+))                  :arg2  (x91 / and
+                        :op1  (x40 / 放在-01
+                              :arg0  (x34 / x64
+)                              :mod  (x35 / 只好
+)                              :arg1  (x39 / 衣服
+                                    :mod  (x37 / 这
+)                                    :cunit  (x38 / 套
+))                              :arg2  (x42 / 这儿
+                                    :poss  (x41 / 我们
+)))                        :op2  (x45 / 做-01
+                              :arg1  (x49 / 丧服
+                                    :quant  (x47 / 1
+)                                    :cunit  (x48 / 套
+))                              :aspect  (x46 / 了
+)                              :mod  (x44 / 另外
+)                              :arg0  (x34 / x64
+))))            :arg2  (x58 / 死-01
+                  :arg0  (x55 / x27
+                        :poss  (x54 / x64
+))                  :polarity  (x57 / -
+                        :mod  (x56 / 并
+))                  :time  (x53 / 后来
+))))
+===========================
+不过那都没有问题，我们不能叫一切事情老照我们……
+(x17 / contrast
+      :arg2  (x19 / causation
+            :arg2  (x4_2 / 有-01
+                  :arg1  (x5 / 问题
+)                  :polarity  (x4_1 / -
+)                  :arg0  (x2 / 那
+)                  :extent  (x3 / 都
+)))      :arg1  (x8_2 / 能-01
+            :arg0  (x9 / 叫-04
+                  :arg0  (x7 / 我们
+)                  :arg1  (x11 / 事情
+                        :mod  (x10 / 一切
+))                  :arg2  (x13 / 照-03
+                        :arg1  (x14 / 我们
+)                        :frequency  (x12 / 老
+)))            :polarity  (x8_1 / -
+)))
+===========================
+我是说，老照他们……
+(x3 / 说-01
+      :arg0  (x1 / 我
+)      :arg1  (x6 / 照-03
+            :arg1  (x7 / 他们
+)            :frequency  (x5 / 老
+)))
+===========================
+哈！裤子没有毛病，非常合您的身，先生，真是妙不可言，再穿上背心，啊哈，又很合适！
+(x29 / and
+      :op1  (x1 / 哈
+            :mode  (x2 / expressive
+))      :op2  (x4_2 / 有-01
+            :arg0  (x3 / 裤子
+)            :arg1  (x5 / 毛病
+)            :polarity  (x4_1 / -
+))      :op3  (x8 / 合-02
+            :arg1  (x11 / 身
+                  :part-of  (x9 / 您
+))            :degree  (x7 / 非常
+))      :op4  (x13 / x9
+)      :op5  (x16 / 妙不可言-01
+            :arg0  (x3 / 裤子
+))      :op6  (x43 / and
+            :op1  (x19_x20 / 穿上-01
+                  :arg1  (x21 / 背心
+)                  :mod  (x18 / 再
+))            :op2  (x23 / 啊哈
+)            :op3  (x27 / 合适-01
+                  :arg0  (x21 / 背心
+)                  :degree  (x26 / 很
+)                  :mod  (x25 / 又
+)                  :mode  (x28 / expressive
+))))
+===========================
+再穿上上衣——我的天！
+(x11 / and
+      :op1  (x2_x3 / 穿上-01
+            :mod  (x1 / 再
+)            :arg1  (x4 / 上衣
+))      :op2  (x8 / 天
+            :poss  (x6 / 我
+)            :mode  (x9 / expressive
+)))
+===========================
+您瞧吧！真是十全十美——全身都好！
+(x12 / multi-sentence
+      :snt1  (x2 / 瞧-01
+            :arg0  (x1 / 您
+)            :mode  (x3_x4 / expressive
+))      :snt2  (x17 / and
+            :op1  (x6 / 十全十美
+)            :op2  (x10 / 好-01
+                  :arg0  (x8 / 全身
+)                  :extent  (x9 / 都
+)                  :mode  (x11 / expressive
+))))
+===========================
+我一辈子还没有缝过这么得意的衣服呢。”
+(x13 / say
+      :arg1  (x5 / 缝-01
+            :arg0  (x1 / 我
+)            :duration  (x2 / 一辈子
+)            :polarity  (x4 / -
+)            :mod  (x3 / 还
+)            :aspect  (x6 / 过
+)            :arg1  (x10 / 衣服
+                  :arg0-of  (x8 / 得意-01
+                        :degree  (x7 / 这么
+)))            :mode  (x11_x12 / expressive
+)))
+===========================
+我也表示了满意。
+(x3 / 表示-01
+      :arg0  (x1 / 我
+)      :arg1  (x5 / 满意-01
+            :arg0  (x1 / 我
+))      :aspect  (x4 / 了
+)      :mod  (x2 / 也
+))
+===========================
+“您说得很对，先生，您说得很对。
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x3 / 说-01
+                  :arg0  (x2 / 您
+)                  :manner  (x6 / 对
+                        :degree  (x5 / 很
+)))            :op2  (x8 / x2
+)            :op3  (x11 / 说-01
+                  :arg0  (x10 / x2
+)                  :manner  (x14 / 对
+                        :degree  (x13 / 很
+)))))
+===========================
+这可以暂时对付着穿一穿，您等着瞧我们照您自己的尺寸做出来的衣服是什么样子吧。
+(x29 / and
+      :op1  (x2 / 可以-01
+            :arg0  (x6_x7_x8 / 穿-01
+                  :manner  (x4 / 对付
+                        :aspect  (x5 / 着
+))))      :op2  (x11 / 等-01
+            :arg1  (x13 / 瞧-01
+                  :arg1  (x26 / 样子
+                        :mod  (x25 / amr-unknown
+)                        :domain  (x23 / 衣服
+                              :arg1-of  (x20_x21 / 做-01
+                                    :arg0  (x14 / 我们
+)                                    :manner  (x15 / 照-03
+                                          :arg1  (x19 / 尺寸
+                                                :poss  (x16_x17 / 您自己
+)))))))            :aspect  (x12 / 着
+)            :mode  (x27 / expressive
+)))
+===========================
+喂，托德，把本子和笔拿来，快写。
+(x15 / and
+      :op1  (x1 / 喂
+)      :op2  (x9_x10 / 拿来-01
+            :arg0  (x21 / person
+                  :name  ( x3/托德 
+))            :arg1  (x7 / and
+                  :op1  (x6 / 本子
+)                  :op2  (x8 / 笔
+)))      :op3  (x12 / 快
+            :arg0  (x13 / 写-01
+                  :arg0  (x21 / person
+))))
+===========================
+腿长三十二……”
+(x5 / say
+      :arg1  (x2 / 长-02
+            :arg0  (x1 / 腿
+)            :arg1  (x9 / distance-quantity
+                  :quant  (x3 / 32
+))))
+===========================
+我还没有来得及插上一句嘴，他已经把我的尺寸量好了，并且吩咐赶制晚礼服、便装、衬衫，以及其他一切。
+(x34 / and
+      :op1  (x4 / 来得及
+            :arg1  (x5_x6_x9 / 插嘴-01
+                  :quant  (x7 / 1
+)                  :arg0  (x1 / 我
+))            :polarity  (x3 / -
+)            :mod  (x2 / 还
+))      :op2  (x17 / 量-01
+            :arg1  (x16 / 尺寸
+                  :poss  (x14 / x1
+))            :arg0  (x11 / 他
+)            :aspect  (x12 / 已经
+)            :cause-of  (x18 / 好
+)            :aspect  (x19 / 了
+))      :op3  (x22 / 吩咐-01
+            :arg2  (x23 / 赶制-01
+                  :arg1  (x52 / and
+                        :op1  (x24 / 晚礼服
+)                        :op2  (x26 / 便装
+)                        :op3  (x28 / 衬衫
+)                        :op4  (x32 / 一切
+                              :mod  (x31 / 其他
+)))                  :arg0  (x11 / 他
+))            :arg0  (x11 / 他
+)))
+===========================
+后来我有了插嘴的机会，我就说：“可是，老兄，我可不能定做这些衣服呀，除非你能无限期地等我付钱，要不然你能换开这张钞票也行。”
+(x50 / causation
+      :arg1  (x3 / 有-01
+            :arg0  (x2 / 我
+)            :arg1  (x8 / 机会
+                  :mod  (x5_x6 / 插嘴-01
+                        :arg0  (x2 / 我
+)))            :aspect  (x4 / 了
+)            :time  (x1 / 后来
+))      :arg2  (x12 / 说-01
+            :arg0  (x10 / x2
+)            :arg1  (x60 / contrast
+                  :arg2  (x61 / and
+                        :op1  (x17 / 老兄
+)                        :op2  (x21_2 / 能-01
+                              :polarity  (x21_1 / -
+                                    :mod  (x20 / 可
+))                              :arg0  (x22 / 定做-01
+                                    :arg0  (x19 / x2
+)                                    :arg1  (x24 / 衣服
+                                          :mod  (x23 / 这些
+)))                              :mode  (x25 / expressive
+))                        :op3  (x71 / orx
+                              :op1  (x29 / 能-01
+                                    :arg0  (x33 / 等-01
+                                          :arg1  (x35 / 付钱-01
+                                                :arg0  (x34 / x2
+)                                                :duration  (x31 / 限期
+                                                      :mod  (x30 / 无
+)))                                          :arg0  (x28 / x17
+)))                              :op2  (x46 / 行-04
+                                    :arg0  (x39 / 能-01
+                                          :arg0  (x40_x41 / 换开
+                                                :arg1  (x44 / 钞票
+                                                      :mod  (x42 / 这
+)                                                      :cunit  (x43 / 张
+))                                                :arg0  (x38 / x17
+)))                                    :mod  (x45 / 也
+)))))))
+===========================
+“无限期！这几个字还不够劲，先生，还不够劲。
+(x19 / say
+      :arg1  (x21 / and
+            :op1  (x3 / 限期
+                  :mod  (x2 / 无
+)                  :mode  (x4 / expressive
+))            :op2  (x11 / 够劲
+                  :polarity  (x10 / -
+)                  :arg0  (x8 / 字
+                        :mod  (x5 / 这
+)                        :quant  (x6 / 几
+)                        :cunit  (x7 / 个
+))                  :mod  (x9 / 还
+))            :op3  (x13 / 先生
+)            :op4  (x17 / 够劲
+                  :polarity  (x16 / -
+)                  :mod  (x15 / 还
+))))
+===========================
+您得说永远永远——那才对哩，先生。
+(x14 / and
+      :op1  (x2 / 得
+            :arg0  (x3 / 说-01
+                  :arg1  (x4_x5 / 永远
+)                  :arg0  (x1 / 您
+)))      :op2  (x9 / 对-01
+            :mod  (x8 / 才
+)            :arg0  (x7 / x2
+)            :mode  (x10 / expressive
+))      :op3  (x12 / x1
+))
+===========================
+托德，快把这批定货赶出来，送到这位先生公馆里去，千万别耽误。
+(x23 / and
+      :op1  (x25 / temporal
+            :arg1  (x3 / 快
+                  :arg0  (x8 / 赶-01
+                        :arg0  (x28 / person
+                              :name  ( x1/托德 
+))                        :arg1  (x7 / 定货
+                              :mod  (x5 / 这
+)                              :unit  (x6 / 批
+))                        :cause-of  (x9 / 出来
+)))            :arg2  (x11 / 送到-01
+                  :arg1  (x15 / 公馆
+                        :poss  (x14 / 先生
+                              :mod  (x12 / 这
+)                              :cunit  (x13 / 位
+)))))      :op2  (x21 / 耽误
+            :polarity  (x20 / -
+)            :mod  (x19 / 千万
+)))
+===========================
+让那些小主顾们等一等吧。
+(x1 / 让-02
+      :arg1  (x4_x5 / 主顾们
+            :arg0-of  (x3 / 小-01
+)            :mod  (x2 / 那些
+))      :arg2  (x6_x7_x8 / 等一等
+)      :mode  (x9 / imperative
+))
+===========================
+把这位先生的住址写下来，过天……”
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x7_x8 / 写下-01
+                  :arg1  (x6 / 住址
+                        :poss  (x4 / 先生
+                              :mod  (x2 / 这
+)                              :cunit  (x3 / 位-01
+))))            :op2  (x10 / 过-02
+                  :arg1  (x11 / 天
+))))
+===========================
+“我快搬家了。
+(x7 / say
+      :arg1  (x3 / 快
+            :arg0  (x4 / 搬家-01
+                  :arg0  (x2 / 我
+))            :aspect  (x5 / 了
+)))
+===========================
+我随后再来把新住址给你们留下吧。”
+(x13 / say
+      :arg1  (x4 / 来-01
+            :time  (x2 / 随后
+)            :arg0  (x1 / 我
+)            :mod  (x3 / 再
+)            :purpose  (x10 / 留下-01
+                  :arg1  (x7 / 住址
+                        :arg0-of  (x6 / 新-01
+))                  :arg2  (x9 / 你们
+))            :mode  (x11 / expressive
+)))
+===========================
+“您说得很对，先生，您说得很对。
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x3 / 说-01
+                  :arg0  (x2 / 您
+)                  :manner  (x6 / 对
+                        :degree  (x5 / 很
+)))            :op2  (x8 / x2
+)            :op3  (x11 / 说-01
+                  :arg0  (x10 / x2
+)                  :manner  (x14 / 对
+                        :degree  (x13 / 很
+)))))
+===========================
+您请稍等一会儿——我送您出去，先生。
+(x26 / and
+      :op1  (x21 / temporal
+            :arg2  (x8 / 送-02
+                  :arg0  (x7 / 我
+)                  :arg1  (x9 / x1
+)                  :arg3  (x10 / 出去-01
+                        :arg0  (x9 / x1
+)))            :arg1  (x2 / 请-01
+                  :arg1  (x1 / 您
+)                  :arg2  (x4 / 等-01
+                        :mod  (x3 / 稍
+)                        :duration  (x5 / 一会儿
+)                        :arg0  (x1 / 您
+))))      :op2  (x12 / x1
+))
+===========================
+好吧——再见，先生，再见。”
+(x10 / say
+      :arg1  (x14 / and
+            :op1  (x1 / 好
+                  :mode  (x2 / expressive
+))            :op2  (x4 / 再见-01
+                  :arg0  (x6 / 先生
+))            :op3  (x8 / 再见-01
+                  :arg0  (x6 / 先生
+))))
+===========================

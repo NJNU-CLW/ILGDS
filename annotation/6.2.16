@@ -1,0 +1,807 @@
+从前，有一个人叫鲁滨孙，是个英国人。
+(x12 / 英国人
+      :cunit  (x11 / 个
+)      :domain  (x6 / 人
+            :quant  (x4 / 1
+)            :cunit  (x5 / 个
+)            :name  ( x8/鲁滨孙 
+)            :arg1-of  (x3 / 有-03
+))      :time  (x1 / 从前
+))
+===========================
+他喜欢航海和冒险，到过世界上的很多地方，碰到过许多危险，但他一点儿也不畏惧，希望走遍天涯海角。
+(x31 / contrast
+      :arg1  (x33 / and
+            :op1  (x2 / 喜欢-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x4 / and
+                        :op1  (x3 / 航海
+)                        :op2  (x5 / 冒险
+)))            :op2  (x7 / 到-01
+                  :arg1  (x13 / 地方
+                        :quant  (x12 / 很多
+)                        :range  (x9 / 世界
+))                  :aspect  (x8 / 过
+)                  :arg0  (x1 / 他
+))            :op3  (x15 / 碰到-01
+                  :arg1  (x18 / 危险
+                        :quant  (x17 / 许多
+))                  :aspect  (x16 / 过
+)                  :arg0  (x1 / 他
+)))      :arg2  (x48 / and
+            :op1  (x25 / 畏惧-01
+                  :arg0  (x21 / x1
+)                  :polarity  (x24 / -
+                        :degree  (x22 / 一点儿
+)))            :op2  (x27 / 希望-01
+                  :arg1  (x28 / 走遍-01
+                        :arg1  (x29 / 天涯海角
+)                        :arg0  (x21 / x1
+))                  :arg0  (x21 / x1
+))))
+===========================
+有一次，鲁滨孙乘船前往南美洲，途中遇上大风，船上的桅杆吹断了，船也翻了，同伴们都死在海里，只有他一个人被大浪冲到海岛边。
+(x49 / and
+      :op1  (x8 / 前往
+            :arg1  (x52 / continent
+                  :name  ( x9/南美洲 
+))            :arg0  (x54 / person
+                  :name  ( x5/鲁滨孙 
+))            :manner  (x7 / 船
+))      :op2  (x57 / causation
+            :arg1  (x12_x13 / 遇上-01
+                  :arg1  (x15 / 风
+                        :arg0-of  (x14 / 大
+))                  :location  (x11 / 途中
+)                  :arg0  (x54 / person
+))            :arg2  (x63 / and
+                  :op1  (x20 / 吹
+                        :cause-of  (x21 / 断-02
+                              :arg1  (x19 / 桅杆
+                                    :poss  (x17 / 船上
+)))                        :aspect  (x22 / 了
+))                  :op2  (x26 / 翻-02
+                        :arg1  (x24 / 船
+)                        :mod  (x25 / 也
+)                        :aspect  (x27 / 了
+))                  :op3  (x32 / 死-01
+                        :arg0  (x29_x30 / 同伴们
+)                        :extent  (x31 / 都
+)                        :location  (x34 / 海里
+))))      :time  (x1_x2_x3 / 有一次
+)      :op3  (x44 / 冲-03
+            :arg0  (x37 / x54
+                  :arg0-of  (x79 / mean
+                        :arg1  (x40 / 人
+                              :quant  (x38 / 1
+)                              :cunit  (x39 / 个
+)))                  :arg1-of  (x36_2 / 有-03
+                        :mod  (x36_1 / 只
+)))            :arg1  (x43 / 浪
+                  :arg0-of  (x42 / 大-01
+))            :destination  (x47 / 边
+                  :arg0  (x46 / 海岛
+))))
+===========================
+这是一个无名的、没有人居住的荒岛，到处是乱石野草。
+(x22 / and
+      :op1  (x13 / 岛
+            :arg0-of  (x12 / 荒-01
+)            :arg1-of  (x10 / 居住-01
+                  :arg0  (x9 / 人
+                        :arg1-of  (x8_2 / 有-03
+                              :polarity  (x8_1 / -
+))))            :arg0-of  (x5 / 无名-01
+)            :quant  (x3 / 1
+)            :cunit  (x4 / 个
+)            :domain  (x1 / 这
+))      :op2  (x33 / and
+            :op1  (x17 / 乱石
+)            :op2  (x18 / 野草
+)            :location  (x15 / 到处
+)))
+===========================
+他又冷又饿，流落到这种地方，怎样活下去呢？
+(x17 / and
+      :op1  (x19 / and
+            :op1  (x3 / 冷-02
+                  :arg0  (x1 / 他
+))            :op2  (x5 / 饿-01
+                  :arg0  (x1 / 他
+)))      :op2  (x7 / 流落-01
+            :arg1  (x10 / 地方
+                  :mod  (x9_1 / 这
+)                  :unit  (x9_2 / 种
+))            :arg0  (x1 / 他
+))      :op3  (x13_x14 / 活-01
+            :manner  (x12 / amr-unknown
+)            :mode  (x15_x16 / interrogative
+)            :arg0  (x1 / 他
+)))
+===========================
+第二天，太阳出来了，海面上也平静下来。
+(x13 / and
+      :time  (x15 / ordinal-entity
+            :value  (x1_1_2 / 2
+)            :unit  (x1_3 / 天
+))      :op1  (x4 / 出来-01
+            :arg0  (x3 / 太阳
+)            :aspect  (x5 / 了
+))      :op2  (x10_x11 / 平静-02
+            :arg0  (x7 / 海面
+)            :mod  (x9 / 也
+)))
+===========================
+等到潮水退了，鲁滨孙看到那翻了的船，有一半浮在海面上，离岸并不远。
+(x28 / temporal
+      :arg1  (x1_x2 / 等到-01
+            :arg1  (x4 / 退-01
+                  :arg0  (x3 / 潮水
+)                  :aspect  (x5 / 了
+)))      :arg2  (x8 / 看到-01
+            :arg0  (x35 / person
+                  :name  ( x7/鲁滨孙 
+))            :arg1  (x38 / and
+                  :op1  (x17 / 浮-01
+                        :arg1  (x16 / 一半
+                              :arg1-of  (x15 / 有-03
+)                              :part-of  (x13 / 船
+                                    :arg1-of  (x10 / 翻-02
+                                          :aspect  (x11 / 了
+))                                    :mod  (x9 / 那
+)))                        :arg2  (x19 / 海面
+))                  :op2  (x22 / 离
+                        :arg0  (x13 / 船
+)                        :arg1  (x23 / 岸
+)                        :arg2  (x26 / 远-01
+                              :polarity  (x25 / -
+                                    :mod  (x24 / 并
+)))))))
+===========================
+他就找了一些木头做成木筏，划到船边。
+(x15 / temporal
+      :arg1  (x3 / 找-03
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 木头
+                  :quant  (x5 / 一些
+))            :aspect  (x4 / 了
+)            :mod  (x2 / 就
+)            :purpose  (x7 / 做成-01
+                  :arg1  (x8 / 木筏
+)                  :arg0  (x1 / 他
+)))      :arg2  (x10 / 划-01
+            :arg2  (x13 / 边
+                  :arg0  (x12 / 船
+))            :arg0  (x1 / 他
+)))
+===========================
+在船舱里，鲁滨孙找到很多可以用、可以吃的东西，陆续搬到岸上，还带回没有淹死的一条狗、两只猫，这使他在凄凉中感到一丝安慰。
+(x45 / temporal
+      :arg1  (x6 / 找到-01
+            :arg0  (x48 / person
+                  :name  ( x5/鲁滨孙 
+))            :arg1  (x14 / 东西
+                  :arg1-of  (x12 / 吃-01
+                        :arg0-of  (x11 / 可以-01
+))                  :arg1-of  (x9 / 用-01
+                        :arg0-of  (x8 / 可以-01
+))                  :quant  (x7 / 很多
+))            :location  (x2 / 船舱
+))      :arg2  (x17 / 搬-01
+            :arg3  (x19 / 岸上
+)            :manner  (x16 / 陆续
+))      :arg3  (x22 / 带回-01
+            :arg1  (x60 / and
+                  :op1  (x28 / 狗
+                        :quant  (x26 / 1
+)                        :cunit  (x27 / 条
+)                        :arg1-of  (x24 / 淹死-01
+                              :polarity  (x23 / -
+)))                  :op2  (x32 / 猫
+                        :quant  (x30 / 2
+)                        :cunit  (x31 / 只
+)                        :arg1-of  (x24 / 淹死-01
+)))            :arg0  (x48 / person
+))      :arg4  (x40 / 感到-01
+            :cause  (x34 / 这
+)            :arg1  (x43 / 安慰
+                  :quant  (x41_x42 / 一丝
+))            :arg0  (x36 / x48
+)            :location  (x38 / 凄凉
+)))
+===========================
+更有趣的是他在破船里拾到许多钱，但钱在孤岛上又有什么用呢？
+(x27 / progression
+      :arg2  (x29 / contrast
+            :arg1  (x11 / 拾-01
+                  :arg1  (x14 / 钱
+                        :quant  (x13 / 许多
+))                  :arg0  (x6 / 他
+)                  :location  (x9 / 船
+                        :arg1-of  (x8 / 破-02
+))                  :domain  (x36 / thing
+                        :arg0-of  (x2_x3 / 有趣-01
+)))            :arg2  (x22 / 有-05
+                  :arg0  (x17 / 钱
+)                  :arg1  (x24 / 用
+                        :mod  (x23 / amr-unknown
+))                  :location  (x19 / 孤岛
+)                  :mode  (x25_x26 / interrogative
+))))
+===========================
+现在首先需要一个容身的地方，以避日晒雨淋。
+(x3 / 需要-01
+      :arg1  (x8 / 地方
+            :arg1-of  (x6 / 容身-01
+)            :quant  (x4 / 1
+)            :cunit  (x5 / 个
+))      :mod  (x2 / 首先
+)      :time  (x1 / 现在
+)      :purpose  (x11 / 避-01
+            :arg1  (x12 / 日晒雨淋
+)))
+===========================
+鲁滨孙走遍荒岛，在山坡上选择了一块有水源、有树阴、又可以防野兽的地方，用木头和船帆搭起一座简陋的帐篷。
+(x38 / temporal
+      :arg1  (x2 / 走遍-01
+            :arg0  (x42 / person
+                  :name  ( x1/鲁滨孙 
+))            :arg1  (x4 / 岛
+                  :arg0-of  (x3 / 荒-01
+)))      :arg2  (x9 / 选择-01
+            :arg1  (x24 / 地方
+                  :quant  (x11_1 / 1
+)                  :cunit  (x11_2 / 块
+)                  :arg0-of  (x12 / 有-03
+                        :arg1  (x13 / 水源
+))                  :arg0-of  (x15 / 有-03
+                        :arg1  (x16_x17 / 树阴
+))                  :location-of  (x21 / 防-02
+                        :arg1  (x22 / 野兽
+)                        :arg0-of  (x20 / 可以-01
+)                        :mod  (x19 / 又
+)))            :arg0  (x42 / person
+))      :arg3  (x30_x31 / 搭起-01
+            :instrument  (x28 / and
+                  :op1  (x27 / 木头
+)                  :op2  (x29 / 船帆
+))            :arg1  (x36 / 帐篷
+                  :quant  (x32 / 1
+)                  :cunit  (x33 / 座
+)                  :arg0-of  (x34 / 简陋-01
+))            :arg0  (x42 / person
+)))
+===========================
+那儿可以看到海面，他希望瞧见过往的船只，以便请求救援。
+(x17 / and
+      :op1  (x2 / 可以-01
+            :arg0  (x3 / 看到-01
+                  :arg1  (x4 / 海面
+)                  :arg0  (x6 / 他
+))            :location  (x1 / 那儿
+))      :op2  (x7 / 希望-01
+            :arg0  (x6 / 他
+)            :arg1  (x8 / 瞧见-01
+                  :arg1  (x11 / 船只
+                        :arg0-of  (x9 / 过往-01
+))                  :arg0  (x6 / 他
+))            :purpose  (x14 / 请求-01
+                  :arg2  (x15 / 救援-01
+                        :arg1  (x6 / 他
+))                  :arg0  (x6 / 他
+))))
+===========================
+鲁滨孙在岛上定居下来，过着寂寞的生活。
+(x14 / and
+      :op1  (x5_x6 / 定居-01
+            :arg0  (x17 / person
+                  :name  ( x1/鲁滨孙 
+))            :arg1  (x3 / 岛
+))      :op2  (x8 / 过-01
+            :arg1  (x12 / 生活
+                  :arg0-of  (x10 / 寂寞-01
+))            :aspect  (x9 / 着-02
+)            :arg0  (x17 / person
+)))
+===========================
+他没有更高的要求，但是破船上搬下来的食物很快吃光了，要想活下去，就得想办法。
+(x30 / causation
+      :arg1  (x32 / contrast
+            :arg1  (x2_2 / 有-05
+                  :arg0  (x1 / 他
+)                  :polarity  (x2_1 / -
+)                  :arg1  (x6 / 要求
+                        :arg0-of  (x4 / 高-01
+                              :degree  (x3 / 更
+))))            :arg2  (x17 / 吃光-01
+                  :arg1  (x15 / 食物
+                        :arg1-of  (x12 / 搬-01
+                              :direction  (x13 / 下来
+)                              :arg2  (x10 / 船
+                                    :arg1-of  (x9 / 破-02
+))                              :arg0  (x1 / 他
+)))                  :time  (x16 / 很快
+)                  :aspect  (x18 / 了
+)                  :arg0  (x1 / 他
+)))      :arg2  (x47 / condtion
+            :arg1  (x20 / 要-03
+                  :arg0  (x21 / 想-02
+                        :arg1  (x22_x23 / 活-01
+                              :arg0  (x1 / 他
+))                        :arg0  (x1 / 他
+)))            :arg2  (x26 / 得
+                  :arg0  (x27 / 想-01
+                        :arg1  (x28 / 办法
+)                        :arg0  (x1 / 他
+)))))
+===========================
+他每天拿着枪，带着狗到森林里去打猎，或到海边去捕鱼，并且把捕到的山羊畜养起来。
+(x32 / progression
+      :arg1  (x16 / or
+            :op1  (x10 / 到-01
+                  :arg0  (x1 / 他
+)                  :manner  (x42 / and
+                        :op1  (x3 / 拿-03
+                              :arg1  (x5 / 枪
+)                              :aspect  (x4 / 着
+)                              :arg0  (x1 / 他
+))                        :op2  (x7 / 带-02
+                              :arg1  (x9 / 狗
+)                              :aspect  (x8 / 着
+)                              :arg0  (x1 / 他
+)))                  :arg1  (x11 / 森林
+)                  :purpose  (x14 / 打猎-01
+                        :arg0  (x1 / 他
+)))            :frequency  (x38 / rate-entity
+                  :arg3  (x39 / temporal-quantity
+                        :quant  (x2_1 / 1
+)                        :unit  (x2_2 / 天
+)))            :op2  (x17 / 到-01
+                  :arg1  (x18 / 海边
+)                  :purpose  (x20 / 捕-01
+                        :arg1  (x21 / 鱼
+)                        :arg0  (x1 / 他
+))                  :arg0  (x1 / 他
+)))      :arg2  (x29_x30 / 蓄养
+            :arg1  (x28 / 山羊
+                  :arg1-of  (x25_x26 / 捕到
+))            :arg0  (x1 / 他
+)))
+===========================
+后来他竟有了成群的山羊，可以常喝羊奶，吃羊肉。
+(x18 / causation
+      :arg1  (x4 / 有
+            :arg0  (x2 / 他
+)            :arg1  (x8 / 山羊
+                  :arg0-of  (x6 / 成群-01
+))            :aspect  (x5 / 了
+)            :manner  (x3 / 竟
+)            :time  (x1 / 后来
+))      :arg2  (x10 / 可以-01
+            :arg0  (x28 / and
+                  :op1  (x12 / 喝-01
+                        :arg1  (x13 / 羊奶
+)                        :arg0  (x2 / 他
+))                  :op2  (x15 / 吃-01
+                        :arg1  (x16 / 羊肉
+)                        :arg0  (x2 / 他
+))                  :frequency  (x11 / 常
+))))
+===========================
+搬来的东西里，有一些麦子，他把它们撒到围墙里，不久长出了嫩芽，后来结出了十几个穗子。
+(x34 / temporal
+      :arg1  (x36 / causation
+            :arg1  (x7 / 有-03
+                  :arg1  (x9 / 麦子
+                        :quant  (x8 / 一些
+)                        :arg1-of  (x40 / include-91
+                              :arg2  (x4 / 东西
+                                    :arg1-of  (x1_x3 / 搬来-01
+)))))            :arg2  (x14 / 撒-01
+                  :arg0  (x11 / 他
+)                  :arg1  (x13 / x9
+)                  :location  (x16 / 围墙
+)))      :arg2  (x20_x21 / 长出-01
+            :arg0  (x24 / 芽
+                  :arg0-of  (x23 / 嫩-01
+))            :aspect  (x22 / 了
+)            :time  (x19 / 不久
+))      :arg3  (x27_x28 / 结出-01
+            :arg0  (x32 / 穗子
+                  :cunit  (x31 / 个
+)                  :quant  (x30_2 / more-than
+                        :op1  (x30_1 / 10
+)))            :aspect  (x29 / 了
+)))
+===========================
+他这点儿麦种反复种收，到了第四年，终于吃到了自己种的粮食。
+(x21 / causation
+      :arg1  (x23 / and
+            :op1  (x5 / 种-01
+                  :arg1  (x3 / 麦种
+                        :quant  (x2 / 这点儿
+))                  :arg0  (x1 / 他
+))            :op2  (x6 / 收-02
+                  :arg1  (x3 / 麦种
+)                  :arg0  (x1 / 他
+))            :manner  (x4 / 反复
+))      :arg2  (x13_x14 / 吃到-01
+            :time  (x8 / 到
+                  :ord  (x35 / ordinal-entity
+                        :value  (x10_1_2 / 4
+)                        :unit  (x10_3 / 年
+)))            :arg1  (x19 / 粮食
+                  :arg1-of  (x17 / 种-01
+                        :arg0  (x16 / x1
+)))            :aspect  (x15 / 了
+)            :mod  (x12 / 终于
+)            :arg0  (x1 / 他
+)))
+===========================
+十八年过去了。
+(x2 / 过去-01
+      :aspect  (x3 / 了
+)      :arg0  (x7 / temporal-quantity
+            :quant  (x1_1_2 / 18
+)            :unit  (x1_3 / 年
+)))
+===========================
+有一天，鲁滨孙忽然发现海边沙滩上有人的脚印。
+(x6 / 发现-01
+      :arg0  (x17 / person
+            :name  ( x4/鲁滨孙 
+)            :mod  (x5 / 忽然
+))      :arg1  (x10 / 有-03
+            :arg0  (x8 / 沙滩
+                  :location  (x7 / 海边
+))            :arg1  (x13 / 脚印
+                  :poss  (x11 / 人
+)))      :time  (x1_x2 / 有一天
+))
+===========================
+他恐惧万分，猜想这定是附近陆地上的野人留下来的。
+(x18 / and
+      :op1  (x2 / 恐惧-01
+            :arg0  (x1 / 他
+)            :degree  (x3 / 万分
+))      :op2  (x5 / 猜想
+            :arg1  (x7 / 定
+                  :arg0  (x25 / thing
+                        :arg1-of  (x14_x15 / 留下来-01
+                              :arg0  (x13 / 野人
+                                    :location  (x10 / 陆地
+                                          :location  (x9 / 附近
+))))                        :domain  (x6 / 这
+)))            :arg0  (x1 / 他
+)))
+===========================
+他担心这些野人会来吃掉他，于是在住所前的空地上插下杨柳桩子，又将羊群分成几个地方圈养。
+(x33 / causation
+      :arg1  (x2 / 担心-01
+            :arg0  (x1 / 他
+)            :arg1  (x5 / 会
+                  :arg0  (x6 / 来-05
+                        :arg1  (x7_x8 / 吃掉-01
+                              :arg1  (x9 / x1
+)                              :arg0  (x4 / 野人
+                                    :mod  (x3 / 这些
+)))                        :arg0  (x4 / 野人
+))))      :arg2  (x41 / temporal
+            :arg1  (x18_x19 / 插-01
+                  :arg1  (x21_x22 / 桩子
+                        :consist-of  (x20 / 杨柳
+))                  :arg2  (x16 / 空地
+                        :location  (x14 / 前
+                              :arg0  (x13 / 住所
+)))                  :arg0  (x1 / 他
+))            :arg2  (x27 / 分成-01
+                  :arg1  (x26 / 羊群
+)                  :arg2  (x30 / 地方
+                        :quant  (x28 / 几
+)                        :cunit  (x29 / 个
+))                  :purpose  (x31 / 圈养-01
+                        :arg1  (x26 / 羊群
+)                        :arg0  (x1 / 他
+))                  :arg0  (x1 / 他
+))))
+===========================
+他在这种不安的心情下又生活了两年。
+(x9 / 生活-01
+      :arg0  (x1 / 他
+)      :condition  (x6 / 心情
+            :arg0-of  (x4 / 不安-01
+)            :mod  (x3_1 / 这
+)            :unit  (x3_2 / 种
+))      :aspect  (x10 / 了
+)      :mod  (x8 / 又
+)      :duration  (x21 / temporal-quantity
+            :quant  (x11 / 2
+)            :unit  (x12 / 年
+)))
+===========================
+后来，鲁滨孙再一次看到野人留下的生火的痕迹和满地的人骨，这使他联想到他们野蛮的宴会。
+(x25_x26 / 联想-01
+      :arg1  (x30 / 宴会
+            :arg0-of  (x28 / 野蛮
+)            :poss  (x27 / 他们
+))      :arg0  (x24 / 他
+)      :cause  (x22 / 这
+            :arg0-of  (x43 / mean
+                  :arg1  (x7 / 看到-01
+                        :arg0  (x45 / person
+                              :name  ( x3/鲁滨孙 
+))                        :arg1  (x16 / and
+                              :op1  (x15 / 痕迹
+                                    :mod  (x12 / 生
+                                          :arg1  (x13 / 火
+))                                    :arg1-of  (x9_x10 / 留下-01
+                                          :arg0  (x8 / 野人
+)))                              :op2  (x20 / 人骨
+                                    :location  (x17_x18 / 满地
+)))                        :mod  (x4_x5_x6 / 再一次
+)                        :time  (x1 / 后来
+)))))
+===========================
+鲁滨孙在恐惧之中开始考虑怎样对付这些可能出现的野人。
+(x6 / 开始-01
+      :arg0  (x18 / person
+            :name  ( x1/鲁滨孙 
+))      :arg1  (x7 / 考虑-01
+            :arg1  (x9 / 对付-01
+                  :arg1  (x14 / 野人
+                        :arg1-of  (x12 / 出现-01
+                              :arg0-of  (x11 / 可能-01
+))                        :mod  (x10 / 这些
+))                  :manner  (x8 / amr-unknown
+))            :arg0  (x18 / person
+))      :condition  (x3 / 恐惧-01
+            :arg0  (x1 / 鲁滨孙
+)))
+===========================
+他在荒岛上生活了二十六年之后，终于看到三十多个野人乘着小木船上岸了。
+(x24 / temporal
+      :arg1  (x5 / 生活-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 荒岛
+)            :duration  (x29 / temporal-quantity
+                  :quant  (x7_1_2_3 / 26
+)                  :unit  (x7_4 / 年
+))            :aspect  (x6 / 了-01
+))      :arg2  (x11 / 看到-01
+            :arg1  (x20_x21 / 上岸-01
+                  :arg0  (x15 / 野人
+                        :quant  (x13 / 多
+                              :op1  (x12 / 30
+))                        :cunit  (x14 / 个
+))                  :manner  (x16 / 乘-01
+                        :arg1  (x19 / 木船
+                              :arg0-of  (x18 / 小-01
+))                        :aspect  (x17 / 着
+)                        :arg0  (x15 / 野人
+)))            :mod  (x10 / 终于
+)            :aspect  (x22 / 了
+)            :arg0  (x1 / 他
+)))
+===========================
+他们拖出两个倒霉的同伴，杀了其中一个人，另一个则挣扎着逃跑。
+(x32 / and
+      :op1  (x2_x3 / 拖出-01
+            :arg0  (x1 / 他们
+)            :arg1  (x8 / 同伴
+                  :arg0-of  (x6 / 倒霉-01
+)                  :quant  (x4 / 2
+)                  :cunit  (x5 / 个
+)))      :op2  (x10 / 杀-01
+            :arg1  (x15 / 人
+                  :quant  (x13 / 1
+)                  :cunit  (x14 / 个
+)                  :arg1-of  (x12 / include-91
+                        :arg2  (x8 / 同伴
+)))            :aspect  (x11 / 了
+)            :arg0  (x1 / 他们
+))      :op3  (x23 / 逃跑-01
+            :manner  (x21 / 挣扎-01
+                  :aspect  (x22 / 着
+)                  :arg0  (x43 / person
+                        :mod  (x17 / 另
+)                        :quant  (x18 / 1
+)                        :cunit  (x19 / 个
+)                        :arg1-of  (x48 / include-91
+                              :arg2  (x8 / 同伴
+))))            :arg0  (x43 / person
+)            :mod  (x20 / 则
+)))
+===========================
+他逃跑的方向正是鲁滨孙住所的方向。
+(x9 / 方向
+      :mod  (x7 / 住所
+            :poss  (x14 / person
+                  :name  ( x6/鲁滨孙 
+)))      :domain  (x4 / 方向
+            :mod  (x2 / 逃跑-01
+                  :arg0  (x1 / 他
+))))
+===========================
+鲁滨孙决心救下这个逃跑的野人，于是他开枪打死了追赶的两个野人。
+(x22 / causation
+      :arg1  (x2 / 决心-01
+            :arg0  (x25 / person
+                  :name  ( x1/鲁滨孙 
+))            :arg1  (x3_x4 / 救下-01
+                  :arg1  (x8 / 野人
+                        :arg0-of  (x6 / 逃跑-01
+)                        :mod  (x5_1 / 这
+)                        :cunit  (x5_2 / 个
+))                  :arg0  (x25 / person
+)))      :arg2  (x12 / 开枪-01
+            :arg0  (x11 / x25
+)            :arg1  (x13_x14 / 打死-01
+                  :arg1  (x20 / 野人
+                        :quant  (x18 / 2
+)                        :cunit  (x19 / 个
+)                        :arg0-of  (x16 / 追赶-02
+))                  :aspect  (x15 / 了
+))))
+===========================
+鲁滨孙给他救下的野人取名“星期五”。
+(x8_x9 / 取名-01
+      :arg0  (x15 / person
+            :name  ( x1/鲁滨孙 
+))      :arg2  (x11 / 星期五
+)      :arg1  (x7 / 野人
+            :arg1-of  (x4_x5 / 救下-01
+                  :arg0  (x3 / x15
+))))
+===========================
+他开始教化“星期五”。“
+(x2 / 开始-01
+      :arg1  (x3 / 教化-01
+            :arg1  (x11 / person
+                  :name  ( x5/星期五 
+))            :arg0  (x1 / 他
+))      :arg0  (x1 / 他
+))
+===========================
+星期五”很快成为他的好帮手，并渐渐学会了说话。
+(x32 / and
+      :op1  (x5 / 成为-01
+            :arg0  (x21 / person
+                  :name  ( x1/星期五 
+))            :time  (x3_x4 / 很快
+)            :arg1  (x9 / 帮手
+                  :mod  (x8 / 好
+)                  :poss  (x6 / 他
+)))      :op2  (x13 / 学会-01
+            :arg1  (x15 / 说-01
+                  :arg1  (x16 / 话
+)                  :arg0  (x21 / person
+))            :aspect  (x14 / 了
+)            :mod  (x12 / 渐渐
+)            :arg0  (x21 / person
+)))
+===========================
+他们愉快地生活在岛上，扩大了粮食种植面积，又增加了几个羊圈，晒了更多的葡萄干。
+(x29 / and
+      :op1  (x4 / 生活-01
+            :arg0  (x1 / 他们
+)            :manner  (x2 / 愉快-01
+                  :arg0  (x1 / 他们
+))            :arg1  (x6 / 岛
+))      :op2  (x9 / 扩大-01
+            :arg1  (x13 / 面积
+                  :mod  (x12 / 种植-01
+                        :arg1  (x11 / 粮食
+)))            :aspect  (x10 / 了
+)            :arg0  (x1 / 他们
+))      :op3  (x16 / 增加-01
+            :arg1  (x20 / 羊圈
+                  :quant  (x18 / 几
+)                  :cunit  (x19 / 个
+))            :aspect  (x17 / 了
+)            :arg0  (x1 / 他们
+))      :op4  (x22 / 晒-02
+            :arg1  (x27 / 葡萄干
+                  :arg0-of  (x25 / 多-03
+                        :degree  (x24 / 更
+)))            :aspect  (x23 / 了
+)            :arg0  (x1 / 他们
+)))
+===========================
+他差不多淡忘了要回到英国、回到文明社会去。
+(x3_x4 / 淡忘-01
+      :arg0  (x1 / 他
+)      :arg1  (x6 / 要-03
+            :arg0  (x21 / and
+                  :op1  (x7_x8 / 回到-01
+                        :arg1  (x23 / country
+                              :name  ( x9/英国 
+))                        :arg0  (x1 / 他
+))                  :op2  (x11_x12 / 回到-01
+                        :arg1  (x14 / 社会
+                              :arg0-of  (x13 / 文明-01
+))                        :arg0  (x1 / 他
+))))      :mod  (x2 / 差不多
+)      :aspect  (x5 / 了
+))
+===========================
+有一天清晨，鲁滨孙被“星期五”喊醒，原来有一艘英国船只正在附近停泊着。
+(x24 / causation
+      :arg1  (x21 / 停泊-01
+            :arg0  (x18 / 船只
+                  :poss  (x28 / country
+                        :name  ( x17/英国 
+))                  :quant  (x15 / 1
+)                  :cunit  (x16 / 艘
+)                  :arg1-of  (x14 / 有-03
+))            :aspect  (x19 / 正在
+)            :arg1  (x20 / 附近
+)            :aspect  (x22 / 着
+))      :arg2  (x10_x11 / 喊醒
+            :arg0  (x37 / person
+                  :name  ( x8/星期五 
+))            :arg1  (x40 / person
+                  :name  ( x5/鲁滨孙 
+)))      :time  (x3 / 清晨
+            :time  (x1_x2 / 有一天
+)))
+===========================
+他发现这艘船上发生了叛乱，水手们绑架了船长。
+(x2 / 发现-01
+      :arg0  (x1 / 他
+)      :arg1  (x19 / and
+            :op1  (x6 / 发生-01
+                  :arg0  (x8 / 叛乱
+)                  :aspect  (x7 / 了
+)                  :location  (x5 / 船上
+                        :mod  (x3 / 这
+)                        :cunit  (x4 / 艘
+)))            :op2  (x12 / 绑架-01
+                  :arg0  (x10_x11 / 水手们
+)                  :arg1  (x14 / 船长
+)                  :aspect  (x13 / 了
+))))
+===========================
+鲁滨孙和“星期五”救出了船长，船长愉快地答应带他们回英国去。
+(x21 / causation
+      :arg1  (x6_x7 / 救出-01
+            :arg0  (x2 / and
+                  :op1  (x25 / person
+                        :name  ( x1/鲁滨孙 
+))                  :op2  (x27 / person
+                        :name  ( x4/星期五 
+)))            :aspect  (x8 / 了
+)            :arg1  (x9 / 船长
+))      :arg2  (x14 / 答应-01
+            :arg0  (x11 / x9
+)            :manner  (x12 / 愉快-01
+                  :arg0  (x11 / x9
+))            :arg2  (x15 / 带-02
+                  :arg1  (x16 / 他们
+)                  :arg3  (x17 / 回-01
+                        :arg1  (x37 / country
+                              :name  ( x18/英国 
+)))                  :arg0  (x11 / x9
+))))
+===========================
+鲁滨孙乘这艘船在海上航行半年后，终于回到了英国。
+(x17 / temporal
+      :arg1  (x8 / 航行-01
+            :arg0  (x20 / person
+                  :name  ( x1/鲁滨孙 
+))            :manner  (x2 / 乘-01
+                  :arg1  (x5 / 船
+                        :mod  (x3 / 这
+)                        :cunit  (x4 / 艘
+))                  :arg0  (x20 / person
+))            :location  (x7 / 海上
+)            :duration  (x27 / temporal-quantity
+                  :quant  (x9_1 / 0.5
+)                  :unit  (x9_2 / 年
+)))      :arg2  (x13 / 回到-01
+            :arg1  (x31 / country
+                  :name  ( x15/英国 
+))            :aspect  (x14 / 了
+)            :arg0  (x20 / person
+)            :mod  (x12 / 终于
+)))
+===========================

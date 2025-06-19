@@ -1,0 +1,272 @@
+香港位于祖国漫长海岸线的南端，她面积不大，却是亚太地区的航运中心、贸易中心和金融中心，还是购物、美食和旅游的好去处。
+(x37 / and
+      :op1  (x2 / 位于-01
+            :arg1  (x7 / 南端
+                  :arg0  (x5 / 海岸线
+                        :poss  (x3 / 祖国
+)                        :arg0-of  (x4 / 漫长-01
+)))            :arg0  (x68 / country-region
+                  :name  ( x1/香港 
+)))      :op2  (x46 / contrast
+            :arg1  (x12 / 大-01
+                  :arg0  (x10 / 面积
+                        :poss  (x9 / 她
+))                  :polarity  (x11 / -
+))            :arg2  (x51 / and
+                  :op1  (x52 / and
+                        :op1  (x19 / 中心
+                              :mod  (x18 / 航运
+))                        :op2  (x22 / 中心
+                              :mod  (x21 / 贸易
+))                        :op3  (x25 / 中心
+                              :mod  (x24 / 金融
+))                        :location  (x56 / world-region
+                              :name  ( x16/亚太地区 
+))                        :domain  (x40 / city
+))                  :op2  (x35 / 去处
+                        :domain  (x40 / city
+)                        :mod  (x27_1 / 还
+)                        :arg0-of  (x34 / 好-01
+)                        :location-of  (x64 / and
+                              :op1  (x28 / 购物
+)                              :op2  (x30 / 美食
+)                              :op3  (x32 / 旅游
+))))))
+===========================
+香港是一个著名的港口，世界各地的商人都乐意来这里做生意。
+(x19 / and
+      :op1  (x6 / 港口
+            :arg0-of  (x4 / 著名-01
+)            :quant  (x3_1 / 1
+)            :cunit  (x3_2 / 个
+)            :domain  (x36 / country-region
+                  :name  ( x1/香港 
+)))      :op2  (x13 / 乐意-01
+            :arg0  (x11 / 商人
+                  :source  (x9 / 各地
+                        :range  (x8 / 世界
+))                  :extent  (x12 / 都
+))            :arg1  (x14 / 来-01
+                  :arg0  (x11 / 商人
+)                  :arg1  (x15 / x36
+)                  :purpose  (x16 / 做-01
+                        :arg0  (x11 / 商人
+)                        :arg1  (x17 / 生意
+)))))
+===========================
+因此，香港的市场是一个“万国市场”。
+(x12 / causation
+      :arg2  (x10 / 市场
+            :mod  (x9 / 万国
+)            :domain  (x5 / 市场
+                  :location  (x21 / country-region
+                        :name  ( x3/香港 
+)))            :quant  (x7_1 / 1
+)            :cunit  (x7_2 / 个
+)))
+===========================
+来自近两百个国家和地区的商品，琳琅满目，应有尽有，而且物美价廉。
+(x18 / and
+      :op1  (x9 / 商品
+            :arg0-of  (x1 / 来自-01
+                  :arg1  (x6 / and
+                        :quant  (x3 / 200
+)                        :cunit  (x4 / 个
+)                        :op1  (x5 / 国家
+)                        :op2  (x7 / 地区
+))))      :op2  (x11 / 琳琅满目-01
+            :arg0  (x9 / 商品
+))      :op3  (x13 / 应有尽有-01
+            :arg0  (x9 / 商品
+))      :op4  (x16 / 物美价廉-01
+            :arg0  (x9 / 商品
+)))
+===========================
+在香港，人们能够品尝到世界各地的美食。
+(x5 / 能够-01
+      :arg0  (x7 / possible
+            :arg0  (x6 / 品尝-01
+                  :arg0  (x4 / 人们
+)                  :arg1  (x11 / 美食
+                        :source  (x9 / 各地
+                              :range  (x8 / 世界
+)))))      :location  (x23 / country-region
+            :name  ( x2/香港 
+)))
+===========================
+内地的粤菜、川菜，德国、法国、意大利等国的佳肴，东南亚各地的饮食，一应俱全，游客们可以大饱口福。
+(x39 / causation
+      :arg1  (x22 / 一应俱全-01
+            :arg0  (x32 / and
+                  :op1  (x33 / and
+                        :op1  (x3 / 粤菜
+)                        :op2  (x5 / 川菜
+)                        :location  (x43 / country-region
+                              :name  ( x1/内地 
+)))                  :op2  (x15 / 佳肴
+                        :location  (x13 / 国
+                              :example  (x46 / and
+                                    :op1  (x47 / country
+                                          :name  ( x7/德国 
+))                                    :op2  (x48 / country
+                                          :name  ( x9/法国 
+))                                    :op3  (x51 / country
+                                          :name  ( x11/意大利 
+))                                    :op4  (x12 / 等
+))))                  :op3  (x20 / 饮食
+                        :location  (x18 / 各地
+                              :range  (x55 / world-region
+                                    :name  ( x17/东南亚 
+))))))      :arg2  (x26 / 可以-01
+            :arg0  (x27 / 大饱口福
+                  :arg0  (x24_x25 / 游客们
+))))
+===========================
+所以，人们又把香港称作“美食天堂”。
+(x12 / causation
+      :arg2  (x7 / 称作-01
+            :arg0  (x3 / 人们
+)            :arg2  (x10 / 天堂
+                  :mod  (x9 / 美食
+))            :mod  (x4 / 又
+)            :arg1  (x22 / country-region
+                  :name  ( x6/香港 
+))))
+===========================
+香港还是一个旅游胜地。
+(x5 / 胜地
+      :mod  (x4 / 旅游
+)      :quant  (x3_1 / 1
+)      :cunit  (x3_2 / 个
+)      :mod  (x2_1 / 还
+)      :domain  (x15 / country-region
+            :name  ( x1/香港 
+)))
+===========================
+小朋友们最爱去的就是举世闻名的海洋公园。
+(x11 / 公园
+      :domain  (x15 / location
+            :arg1-of  (x5 / 去-01
+                  :arg1-of  (x4 / 爱-01
+                        :degree  (x3 / 最
+)                        :arg0  (x1_x2 / 小朋友们
+))))      :mod  (x10 / 海洋
+)      :arg0-of  (x8 / 举世闻名-01
+)      :mod  (x7_1 / 就
+))
+===========================
+公园里的海豚和海狮表演最为出色。
+(x9 / 出色-01
+      :arg0  (x7 / 表演-01
+            :arg0  (x5 / and
+                  :op1  (x4 / 海豚
+)                  :op2  (x6 / 海狮
+))            :location  (x1 / 公园
+))      :degree  (x8 / 最为
+))
+===========================
+在清澈的池水里，它们一会儿钻圈，一会儿顶球。
+(x16 / and
+      :location  (x4 / 池水
+            :arg0-of  (x2 / 清澈-01
+))      :op1  (x9 / 钻-02
+            :arg0  (x7 / 它们
+)            :arg1  (x10 / 圈
+))      :op2  (x13 / 顶-02
+            :arg1  (x14 / 球
+)            :arg0  (x7 / 它们
+)))
+===========================
+有时趁你不注意，会突然跃出水面，向你点头，有时还会喷你一身水呢。
+(x25 / condition
+      :arg1  (x2 / 趁-01
+            :arg1  (x5 / 注意-01
+                  :arg0  (x3 / 你
+)                  :polarity  (x4 / -
+))            :time  (x1 / 有时
+))      :arg2  (x31 / and
+            :op1  (x7 / 会-02
+                  :arg0  (x33 / temporal
+                        :arg2  (x14 / 点头
+                              :beneficiary  (x13 / 你
+))                        :arg1  (x9_1 / 跃-01
+                              :cause-of  (x9_2 / 出-01
+                                    :arg0  (x52 / animal
+))                              :manner  (x8 / 突然
+)                              :arg0  (x52 / animal
+))))            :op2  (x18 / 会-02
+                  :mod  (x17 / 还
+)                  :time  (x16 / 有时
+)                  :arg0  (x19 / 喷-01
+                        :arg1  (x22 / 水
+                              :quant  (x21_1 / 1
+)                              :cunit  (x21_2 / 身
+))                        :beneficiary  (x20 / 你
+))                  :mode  (x23 / expressive
+))))
+===========================
+每当夜幕降临的时候，香港就成了灯的海洋。
+(x15 / condition
+      :arg1  (x5 / 时候
+            :arg0-of  (x18 / mean
+                  :arg1  (x3 / 降临-01
+                        :arg0  (x2 / 夜幕
+))))      :arg2  (x9 / 成-01
+            :aspect  (x10 / 了
+)            :arg0  (x23 / country-region
+                  :name  ( x7/香港 
+))            :arg1  (x13 / 海洋
+                  :consist-of  (x11 / 灯
+))))
+===========================
+港湾里闪耀的灯光，像五颜六色的焰火，洒落人间。
+(x15 / and
+      :op1  (x7 / 像-01
+            :arg0  (x5 / 灯光
+                  :arg0-of  (x3 / 闪耀-01
+)                  :location  (x1 / 港湾
+))            :arg1  (x10 / 焰火
+                  :arg0-of  (x8 / 五颜六色-01
+)))      :op2  (x12 / 洒落-01
+            :arg1  (x5 / 灯光
+)            :arg2  (x13 / 人间
+)))
+===========================
+马路上一串串明亮的车灯，如同闪光的长河，奔流不息。
+(x8 / 如同-01
+      :arg0  (x6 / 车灯
+            :quant  (x3 / 一串串
+)            :arg0-of  (x4 / 明亮-01
+)            :location  (x1 / 马路
+))      :arg1  (x11 / 长河
+            :arg0-of  (x9 / 闪光-01
+))      :arg2  (x13_1_2 / 奔流-01
+            :arg0-of  (x13_3_4 / 不息-01
+)            :arg0  (x11 / 长河
+)))
+===========================
+高楼大厦的霓虹灯光彩夺目，热情欢迎来自五洲四海的游客。
+(x13 / and
+      :op1  (x4 / 光彩夺目
+            :arg0  (x3 / 霓虹灯
+                  :location  (x1 / 高楼大厦
+)))      :op2  (x7 / 欢迎-01
+            :manner  (x6 / 热情-01
+                  :arg0  (x3 / 霓虹灯
+))            :arg0  (x3 / 霓虹灯
+)            :arg1  (x11 / 游客
+                  :arg0-of  (x8 / 来自-01
+                        :arg1  (x9 / 五洲四海
+)))))
+===========================
+香港，真是一颗璀璨无比的"东方之珠”。
+(x10 / 东方之珠
+      :domain  (x14 / country-region
+            :name  ( x1/香港 
+))      :mod  (x3_1 / 真
+)      :quant  (x4 / 1
+)      :cunit  (x5 / 颗
+)      :arg0-of  (x6 / 璀璨
+            :degree  (x7 / 无比
+)))
+===========================

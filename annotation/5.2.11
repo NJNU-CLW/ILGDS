@@ -1,0 +1,671 @@
+春秋末期，齐国和楚国都是大国。
+(x9 / 大国
+      :domain  (x5 / and
+            :op1  (x14 / country
+                  :name  ( x4/齐国 
+))            :op2  (x16 / country
+                  :name  ( x6/楚国 
+))            :extent  (x7 / 都
+))      :time  (x2 / 末期
+            :time  (x1 / 春秋
+)))
+===========================
+有一回，齐王派大夫晏子去访问楚国。
+(x6 / 派-01
+      :arg0  (x15 / person
+            :arg0-of  (x16 / have-org-role-91
+                  :arg2  (x5 / 齐王
+)))      :arg1  (x18 / person
+            :arg0-of  (x19 / have-org-role-91
+                  :arg2  (x7 / 大夫
+))            :name  ( x8/晏子 
+))      :arg2  (x10 / 访问-01
+            :arg1  (x23 / country
+                  :name  ( x11/楚国 
+))            :arg0  (x18 / person
+))      :time  (x1_x2_x3 / 有一回
+))
+===========================
+楚王仗着自己国势强盛，想乘机侮辱晏子，显显楚国的威风。
+(x19 / causation
+      :arg1  (x2 / 仗-01
+            :arg0  (x22 / person
+                  :arg0-of  (x23 / have-org-role-91
+                        :arg2  (x1 / 楚王
+)))            :arg1  (x6 / 强盛-01
+                  :arg0  (x5 / 国势
+                        :poss  (x4 / x22
+))))      :arg2  (x8 / 想-02
+            :arg1  (x9 / 乘机-01
+                  :arg1  (x10 / 侮辱-01
+                        :arg0  (x22 / person
+)                        :arg1  (x33 / person
+                              :name  ( x11/晏子 
+)))                  :arg0  (x22 / person
+))            :purpose  (x13_x14 / 显-01
+                  :arg0  (x17 / 威风-01
+                        :arg0  (x37 / country
+                              :name  ( x15/楚国 
+))))))
+===========================
+楚王知道晏子身材矮小，就叫人在城门旁边开了一个五尺来高的洞。
+(x24 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x27 / person
+                  :arg0-of  (x28 / have-org-role-91
+                        :arg2  (x1 / 楚王
+)))            :arg1  (x5 / 矮小
+                  :arg0  (x4 / 身材
+                        :poss  (x32 / person
+                              :name  ( x3/晏子 
+)))))      :arg2  (x8 / 叫-04
+            :arg1  (x9 / 人
+)            :arg0  (x27 / person
+)            :arg2  (x13 / 开-02
+                  :arg0  (x9 / 人
+)                  :arg1  (x22 / 洞
+                        :quant  (x15 / 1
+)                        :cunit  (x16 / 个
+)                        :mod  (x20 / 高-02
+                              :arg1  (x42 / distance-quantity
+                                    :quant  (x19 / 来
+                                          :op1  (x17 / 5
+))                                    :cunit  (x18 / 尺
+))))                  :aspect  (x14 / 了
+)                  :location  (x12 / 旁边
+                        :arg0  (x11 / 城门
+)))))
+===========================
+晏子来到楚国，楚王叫人把城门关了，让晏子从这个洞进去。
+(x20 / temporal
+      :arg1  (x2 / 来到-01
+            :arg0  (x23 / person
+                  :name  ( x1/晏子 
+))            :arg1  (x25 / country
+                  :name  ( x3/楚国 
+)))      :arg2  (x6 / 叫-04
+            :arg0  (x28 / person
+                  :arg0-of  (x29 / have-org-role-91
+                        :arg2  (x5 / 楚王
+)))            :arg1  (x7 / 人
+)            :arg2  (x10 / 关-02
+                  :arg1  (x9 / 城门
+)                  :aspect  (x11 / 了
+)))      :arg3  (x13 / 让-02
+            :arg1  (x14 / x23
+)            :arg2  (x18 / 进去-01
+                  :source  (x17 / 洞
+                        :mod  (x16_1 / 这
+)                        :cunit  (x16_2 / 个
+))                  :arg0  (x14 / x23
+))))
+===========================
+晏子看了看，对接待的人说：“这是个狗洞，不是城门。
+(x22 / temporal
+      :arg1  (x2_x4 / 看-02
+            :aspect  (x3 / 了
+)            :arg0  (x26 / person
+                  :name  ( x1/晏子 
+)))      :arg2  (x10 / 说-01
+            :arg3  (x9 / 人
+                  :arg0-of  (x7 / 接待-01
+))            :arg1  (x31 / and
+                  :op1  (x16 / 洞
+                        :mod  (x15 / 狗
+)                        :cunit  (x14 / 个
+)                        :domain  (x12 / 这
+))                  :op2  (x20 / 城门
+                        :domain  (x12 / 这
+)                        :polarity  (x18 / -
+)))))
+===========================
+只有访问‘狗国’，才从狗洞进去。
+(x13 / condition
+      :arg1  (x2 / 访问-01
+            :arg1  (x5 / 国
+                  :mod  (x4 / 狗
+)))      :arg2  (x11 / 进去
+            :source  (x10 / 洞
+                  :mod  (x9 / 狗
+))))
+===========================
+我在这儿等一会儿。
+(x4 / 等-01
+      :arg0  (x1 / 我
+)      :location  (x3 / 这儿
+)      :duration  (x5 / 一会儿
+))
+===========================
+你们先去问个明白，楚国到底是个什么样的国家？”
+(x16 / say
+      :arg1  (x4 / 问-01
+            :cause-of  (x6 / 明白
+                  :cunit  (x5 / 个
+))            :arg0  (x1 / 你们
+)            :time  (x2 / 先
+)            :arg1  (x14 / 国家
+                  :mod  (x12 / amr-unknown
+)                  :cunit  (x11 / 个
+)                  :domain  (x27 / country
+                        :name  ( x8/楚国 
+))                  :mod  (x9 / 到底
+)                  :mode  (x15 / interrogative
+))))
+===========================
+接待的人立刻把晏子的话传给了楚王。
+(x9 / 传-02
+      :arg0  (x3 / 人
+            :arg0-of  (x1 / 接待-01
+))      :arg1  (x8 / 话
+            :arg0  (x19 / person
+                  :name  ( x6/晏子 
+)))      :time  (x4 / 立刻
+)      :arg2  (x22 / person
+            :arg0-of  (x23 / have-org-role-91
+                  :arg2  (x12 / 楚王
+)))      :aspect  (x11 / 了
+))
+===========================
+楚王只好吩咐大开城门，迎接晏子。
+(x3 / 吩咐-01
+      :arg0  (x13 / person
+            :arg0-of  (x14 / have-org-role-91
+                  :arg2  (x1 / 楚王
+)))      :mod  (x2 / 只好
+)      :arg2  (x5 / 开-02
+            :arg1  (x6 / 城门
+)            :manner  (x4 / 大
+)            :purpose  (x8 / 迎接-01
+                  :arg1  (x21 / person
+                        :name  ( x9/晏子 
+)))))
+===========================
+晏子见了楚王。
+(x2 / 见-01
+      :arg0  (x8 / person
+            :name  ( x1/晏子 
+))      :arg1  (x10 / person
+            :arg0-of  (x11 / have-org-role-91
+                  :arg2  (x4 / 楚王
+)))      :aspect  (x3 / 了
+))
+===========================
+楚王瞅了他一眼，冷笑一声，说：“难道齐国没有人了吗？”
+(x21 / temporal
+      :arg1  (x2 / 瞅-01
+            :arg0  (x24 / person
+                  :arg0-of  (x25 / have-org-role-91
+                        :arg2  (x1 / 楚王
+)))            :aspect  (x3 / 了
+)            :arg1  (x4 / 他
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 眼
+))      :arg2  (x8 / 冷笑-01
+            :arg0  (x24 / person
+)            :quant  (x9 / 1
+)            :cunit  (x10 / 声
+))      :arg3  (x12 / 说-01
+            :arg1  (x16_2 / 有-03
+                  :arg0  (x37 / country
+                        :name  ( x15/齐国 
+))                  :polarity  (x16_1 / -
+)                  :arg1  (x17 / 人
+)                  :aspect  (x18 / 了
+)                  :mode  (x19_x20 / interrogative
+)                  :mod  (x14 / 难道
+))))
+===========================
+晏子严肃地回答：“这是什么话？
+(x4 / 回答-01
+      :arg0  (x14 / person
+            :name  ( x1/晏子 
+))      :manner  (x2 / 严肃-01
+            :arg0  (x14 / person
+))      :arg2  (x9 / 话
+            :mod  (x8 / amr-unknown
+)            :mode  (x10 / interrogative
+)            :domain  (x6 / 这
+)))
+===========================
+我国首都临淄住满了人。
+(x4_1 / 住-01
+      :arg0  (x6 / 人
+)      :cause-of  (x4_2 / 满
+)      :arg1  (x2 / 首都
+            :name  ( x3/临淄 
+)            :location  (x1 / 我国
+))      :aspect  (x5 / 了
+))
+===========================
+大伙儿把袖子举起来，就是一片云；大伙儿甩一把汗，就是一阵雨；街上的行人肩膀擦着肩膀，脚尖碰着脚跟。
+(x35 / and
+      :op1  (x10 / 云
+            :quant  (x8 / 1
+)            :cunit  (x9 / 片
+)            :domain  (x4_x5 / 举-02
+                  :arg0  (x1 / 大伙儿
+)                  :arg1  (x3 / 袖子
+)))      :op2  (x20 / 雨
+            :quant  (x19_1 / 1
+)            :cunit  (x19_2 / 阵
+)            :domain  (x13 / 甩-01
+                  :arg0  (x12 / x1
+)                  :arg1  (x16 / 汗
+                        :quant  (x14 / 1
+)                        :cunit  (x15 / 把
+))))      :op3  (x51 / and
+            :op1  (x26 / 擦
+                  :arg0  (x25 / 肩膀
+                        :part-of  (x24 / 行人
+                              :location  (x22 / 街上
+)))                  :aspect  (x27 / 着
+)                  :arg1  (x28 / 肩膀
+))            :op2  (x31 / 碰-01
+                  :arg0  (x30 / 脚尖
+)                  :arg1  (x33 / 脚跟
+)                  :aspect  (x32 / 着
+))))
+===========================
+大王怎么说齐国没有人呢？”
+(x9 / say
+      :arg1  (x3 / 说-01
+            :arg0  (x1 / 大王
+)            :cause  (x2 / amr-unknown
+)            :arg1  (x5_2 / 有-03
+                  :arg0  (x16 / country
+                        :name  ( x4/齐国 
+))                  :polarity  (x5_1 / -
+)                  :arg1  (x6 / 人
+)                  :mode  (x7_x8 / interrogative
+))))
+===========================
+楚王说：“既然有这么多人，为什么打发你来呢？”
+(x2 / 说-01
+      :arg0  (x18 / person
+            :arg0-of  (x19 / have-org-role-91
+                  :arg2  (x1 / 楚王
+)))      :arg1  (x21 / causation
+            :arg1  (x5 / 有-03
+                  :arg1  (x8 / 人
+                        :arg0-of  (x7 / 多-01
+                              :degree  (x6 / 这么
+))))            :arg2  (x11 / 打发-01
+                  :arg1  (x12 / 你
+)                  :arg2  (x13 / 来-01
+                        :arg0  (x12 / 你
+))                  :mode  (x14_x15 / interrogative
+))))
+===========================
+晏子装着很为难的样子，说：“您这一问，我实在不好回答。
+(x21 / temporal
+      :arg1  (x2 / 装-03
+            :arg0  (x24 / person
+                  :name  ( x1/晏子 
+))            :arg1  (x5 / 为难
+                  :degree  (x4 / 很
+))            :aspect  (x3 / 着
+))      :arg2  (x9 / 说-01
+            :arg0  (x24 / person
+)            :arg1  (x19 / 回答-01
+                  :mod  (x17 / 实在
+)                  :manner  (x18_2 / 好
+                        :polarity  (x18_1 / -
+))                  :arg0  (x16 / x24
+)                  :arg1  (x14 / 问-01
+                        :mod  (x13 / 一
+)                        :arg0  (x11 / 您
+)))))
+===========================
+撒个谎吧，怕犯了欺骗大王的罪；说实话吧，又怕大王生气。”
+(x23 / say
+      :arg1  (x25 / and
+            :op1  (x26 / condition
+                  :arg1  (x1 / 撒-02
+                        :arg1  (x3 / 谎
+                              :cunit  (x2 / 个
+))                        :mode  (x4 / expressive
+))                  :arg2  (x6 / 怕-01
+                        :arg1  (x7 / 犯-01
+                              :arg1  (x12 / 罪
+                                    :mod  (x9 / 欺骗-01
+                                          :arg1  (x10 / 大王
+)))                              :aspect  (x8 / 了
+))))            :op2  (x38 / condition
+                  :arg1  (x14 / 说-01
+                        :arg1  (x15 / 实话
+)                        :mode  (x16 / expressive
+))                  :arg2  (x19 / 怕-01
+                        :arg1  (x21 / 生气-01
+                              :arg0  (x20 / x10
+))                        :mod  (x18 / 又
+)))))
+===========================
+楚王说：“实话实说，我不生气。”
+(x2 / 说-01
+      :arg0  (x12 / person
+            :arg0-of  (x13 / have-org-role-91
+                  :arg2  (x1 / 楚王
+)))      :arg1  (x15 / and
+            :op1  (x4 / 实话实说
+)            :op2  (x8 / 生气-01
+                  :arg0  (x6 / x12
+)                  :polarity  (x7 / -
+))))
+===========================
+晏子拱了拱手，说：“敝国有个规矩：访问上等等的国家，就派上等等人去；访问下等的国家，就派下等人去。
+(x38 / temporal
+      :arg1  (x2_x4 / 拱-01
+            :arg0  (x41 / person
+                  :name  ( x1/晏子 
+))            :aspect  (x3 / 了
+))      :arg2  (x7 / 说-01
+            :arg0  (x41 / person
+)            :arg1  (x10 / 有-03
+                  :arg0  (x9 / 敝国
+)                  :arg1  (x12 / 规矩
+                        :cunit  (x11 / 个
+)                        :arg0-of  (x49 / mean
+                              :arg1  (x50 / and
+                                    :op1  (x51 / condition
+                                          :arg1  (x14 / 访问-01
+                                                :arg1  (x18 / 国家
+                                                      :mod  (x15 / 上等
+)))                                          :arg2  (x21 / 派-01
+                                                :arg1  (x24 / 人
+                                                      :mod  (x22 / 上等
+))                                                :arg2  (x25 / 去-01
+                                                      :arg0  (x24 / 人
+)                                                      :arg1  (x18 / 国家
+))))                                    :op2  (x59 / condition
+                                          :arg1  (x27 / 访问-01
+                                                :arg1  (x30 / 国家
+                                                      :mod  (x28 / 下等
+)))                                          :arg2  (x33 / 派-01
+                                                :arg1  (x35 / 人
+                                                      :mod  (x34 / 下等
+))                                                :arg2  (x36 / 去-01
+                                                      :arg0  (x35 / 人
+)                                                      :arg1  (x30 / 国家
+))))))))))
+===========================
+我最不中用，所以派到这儿来了。”
+(x13 / say
+      :arg1  (x15 / causation
+            :arg1  (x4 / 中用-01
+                  :polarity  (x3 / -
+)                  :degree  (x2 / 最
+)                  :arg0  (x1 / 我
+))            :arg2  (x7 / 派-01
+                  :location  (x9 / 这儿
+)                  :aspect  (x11 / 了
+)                  :arg1  (x1 / 我
+))))
+===========================
+说着他故意笑了笑，楚王只好陪着笑。
+(x15 / temporal
+      :arg1  (x18 / and
+            :op1  (x1 / 说-01
+                  :aspect  (x2 / 着
+)                  :arg0  (x3 / 他
+))            :op2  (x5_x7 / 笑-01
+                  :aspect  (x6 / 了
+)                  :manner  (x4 / 故意-01
+                        :arg0  (x3 / 他
+))                  :arg0  (x3 / 他
+)))      :arg2  (x11 / 陪-01
+            :arg2  (x13 / 笑-01
+                  :arg0  (x26 / person
+                        :arg0-of  (x27 / have-org-role-91
+                              :arg2  (x9 / 楚王
+))))            :arg0  (x26 / person
+)            :aspect  (x12 / 着
+)            :mod  (x10 / 只好
+)))
+===========================
+楚王安排酒席招待晏子。
+(x2 / 安排-01
+      :arg0  (x9 / person
+            :arg0-of  (x10 / have-org-role-91
+                  :arg2  (x1 / 楚王
+)))      :arg1  (x3 / 酒席
+)      :purpose  (x4 / 招待-01
+            :arg1  (x14 / person
+                  :name  ( x5/晏子 
+))            :arg0  (x9 / person
+)))
+===========================
+正当他们吃得高兴的时候，有两个武士押着一个囚犯，从堂下走过。
+(x24 / temporal
+      :arg1  (x13 / 押-01
+            :aspect  (x14 / 着
+)            :arg1  (x17 / 囚犯
+                  :quant  (x15 / 1
+)                  :cunit  (x16 / 个
+))            :arg0  (x12 / 武士
+                  :quant  (x10 / 2
+)                  :cunit  (x11 / 个
+)                  :arg1-of  (x9 / 有-03
+))            :arg2  (x22 / 走过-01
+                  :arg1  (x21 / 下
+                        :arg0  (x20 / 堂
+))))      :time  (x3 / 吃-01
+            :manner  (x5 / 高兴-01
+                  :arg0  (x2 / 他们
+))            :arg0  (x2 / 他们
+)))
+===========================
+楚王看见了，问他们：“那个囚犯犯的什么罪？
+(x16 / temporal
+      :arg2  (x5 / 问-01
+            :arg0  (x19 / person
+                  :arg0-of  (x20 / have-org-role-91
+                        :arg2  (x1 / 楚王
+)))            :arg2  (x6 / 他们
+)            :arg1  (x10 / 犯-01
+                  :arg0  (x9 / 囚犯
+                        :mod  (x8_1 / 那
+)                        :cunit  (x8_2 / 个
+))                  :arg1  (x13 / 罪
+                        :mod  (x12 / amr-unknown
+))                  :mode  (x14 / interrogative
+)))      :arg1  (x2 / 看见-01
+            :arg0  (x19 / person
+)            :aspect  (x3 / 了
+)))
+===========================
+他是哪里人？”
+(x8 / say
+      :arg1  (x4 / 人
+            :location  (x3 / amr-unknown
+)            :domain  (x1 / 他
+)            :mode  (x5 / interrogative
+)))
+===========================
+武士回答说：“犯了盗窃罪，是齐国人。”
+(x2_x3 / 回答-01
+      :arg0  (x1 / 武士
+)      :arg2  (x16 / and
+            :op1  (x5 / 犯-01
+                  :arg1  (x7 / 盗窃罪
+)                  :aspect  (x6 / 了
+))            :op2  (x11 / 人
+                  :domain  (x23 / person
+                        :mod  (x21 / country
+                              :name  ( x10/齐国 
+))))))
+===========================
+楚王笑嘻嘻地对晏子说：“齐国人怎么这样没出息，干这种事？”
+(x6 / 说-01
+      :arg0  (x21 / person
+            :arg0-of  (x22 / have-org-role-91
+                  :arg2  (x1 / 楚王
+)))      :manner  (x2 / 笑嘻嘻
+)      :arg3  (x25 / person
+            :name  ( x5/晏子 
+))      :arg1  (x27 / and
+            :op1  (x12 / 没-02
+                  :arg0  (x9 / 人
+                        :mod  (x30 / country
+                              :name  ( x8/齐国 
+)))                  :arg1  (x13 / 出息
+)                  :cause  (x10 / amr-unknown
+)                  :manner  (x11 / 这样
+))            :op2  (x15 / 干-01
+                  :arg1  (x17 / 事
+                        :mod  (x16_1 / 这
+)                        :unit  (x16_2 / 种
+))                  :mode  (x18 / interrogative
+))))
+===========================
+楚国的大臣们听了，都得意扬扬地笑起来，以为这一下可让晏子丢尽脸了。
+(x27 / and
+      :op1  (x29 / temporal
+            :arg1  (x5 / 听-01
+                  :arg0  (x3_x4 / 大臣们
+                        :mod  (x32 / country
+                              :name  ( x1/楚国 
+)))                  :aspect  (x6 / 了
+))            :arg2  (x12_x13 / 笑-01
+                  :manner  (x9_x10 / 得意扬扬
+)                  :extent  (x8 / 都
+)                  :arg0  (x3_x4 / 大臣们
+)))      :op2  (x15 / 以为-01
+            :arg1  (x20 / 让
+                  :arg0  (x16_x17_x18 / 这一下
+)                  :arg1  (x41 / person
+                        :name  ( x21/晏子 
+))                  :mod  (x19 / 可
+)                  :arg2  (x22 / 丢-02
+                        :arg1  (x24 / 脸
+)                        :manner  (x23 / 尽
+))                  :aspect  (x25 / 了
+))            :arg0  (x3_x4 / 大臣们
+)))
+===========================
+哪知晏子面不改色，站起来，说：“大王怎么不知道哇？淮南的柑橘，又大又甜。
+(x2 / 知-01
+      :mod  (x1 / 哪
+)      :arg1  (x29 / temporal
+            :arg1  (x4 / 面不改色
+                  :arg0  (x31 / person
+                        :name  ( x3/晏子 
+)))            :arg2  (x6_x7 / 站-01
+                  :arg0  (x31 / person
+))            :arg3  (x9 / 说-01
+                  :arg1  (x35 / and
+                        :op1  (x14 / 知道-01
+                              :arg0  (x11 / 大王
+)                              :cause  (x12 / amr-unknown
+)                              :polarity  (x13 / -
+)                              :mode  (x15_x16 / interrogative
+))                        :op2  (x41 / and
+                              :op1  (x22 / 大-01
+                                    :arg0  (x19 / 柑橘
+                                          :location  (x46 / local-region
+                                                :name  ( x17/淮南 
+))))                              :op2  (x24 / 甜-01
+                                    :arg0  (x19 / 柑橘
+)))))))
+===========================
+可是橘树一种到淮北，就只能结又小又苦的枳，还不是因为水土不同吗？
+(x28 / contrast
+      :arg2  (x30 / causation
+            :arg2  (x31 / condition
+                  :arg1  (x5 / 种-01
+                        :arg1  (x3 / 树
+                              :mod  (x2 / 橘
+))                        :location  (x35 / local-region
+                              :name  ( x7/淮北 
+)))                  :arg2  (x10_2 / 能-01
+                        :mod  (x10_1 / 只
+)                        :arg0  (x11 / 结-01
+                              :arg1  (x17 / 枳
+                                    :arg0-of  (x13 / 小-01
+)                                    :arg1-of  (x15 / 苦-01
+)))))            :arg1  (x24_2 / 同-01
+                  :mod  (x19_x20_x21 / 还不是
+)                  :arg0  (x23 / 水土
+)                  :polarity  (x24_1 / -
+)                  :mode  (x25_x26 / interrogative
+))))
+===========================
+同样的道理，齐国人在齐国能安居乐业，好好地劳动，一到楚国，就做起盗贼来了，也许是两国的水土不同吧。”
+(x64 / say
+      :arg1  (x3 / 道理
+            :mod  (x1 / 同样
+)            :arg0-of  (x38 / mean
+                  :arg1  (x39 / contrast
+                        :arg1  (x9 / 能-01
+                              :arg0  (x41 / and
+                                    :op1  (x10 / 安居乐业-01
+                                          :arg0  (x6 / 人
+                                                :mod  (x44 / country
+                                                      :name  ( x5/齐国 
+))))                                    :op2  (x14 / 劳动-01
+                                          :manner  (x12 / 好好
+)                                          :arg0  (x6 / 人
+)))                              :location  (x55 / country
+                                    :name  ( x8/齐国 
+)))                        :arg2  (x48 / condition
+                              :arg1  (x17 / 到-01
+                                    :arg1  (x50 / country
+                                          :name  ( x18/楚国 
+)))                              :arg2  (x21 / 做起
+                                    :arg1  (x22 / 盗贼
+)                                    :aspect  (x24 / 了
+)                                    :arg0  (x6 / 人
+)))                        :cause  (x26 / 也许
+                              :arg0  (x32_2 / 同-01
+                                    :polarity  (x32_1 / -
+)                                    :arg0  (x31 / 水土
+                                          :poss  (x29 / 国
+                                                :quant  (x28 / 2
+))))                              :mode  (x33 / expressive
+))))))
+===========================
+楚王听了，只好赔不是，说：“我原来想取笑大夫，没想到反让大夫取笑了。”
+(x25 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x28 / person
+                  :arg0-of  (x29 / have-org-role-91
+                        :arg2  (x1 / 楚王
+)))            :aspect  (x3 / 了
+))      :arg2  (x6 / 赔
+            :arg1  (x7 / 不是
+)            :mod  (x5 / 只好
+))      :arg3  (x9 / 说-01
+            :arg0  (x28 / person
+)            :arg1  (x36 / contrast
+                  :arg1  (x13 / 想-02
+                        :arg0  (x11 / x28
+)                        :arg1  (x14 / 取笑
+                              :arg0  (x11 / x28
+)                              :arg1  (x15 / 大夫
+))                        :mod  (x12 / 原来
+))                  :arg2  (x18 / 想到-01
+                        :polarity  (x17 / -
+)                        :arg1  (x20 / 让-02
+                              :arg1  (x21 / x15
+)                              :mod  (x19 / 反
+)                              :arg2  (x22 / 取笑-01
+                                    :arg1  (x11 / x28
+)                                    :arg0  (x21 / x15
+)))                        :aspect  (x23 / 了
+)))))
+===========================
+从这以后，楚王不敢不尊重晏子了。
+(x7 / 敢-02
+      :arg0  (x15 / person
+            :arg0-of  (x16 / have-org-role-91
+                  :arg2  (x5 / 楚王
+)))      :polarity  (x6 / -
+)      :arg1  (x9 / 尊重-01
+            :arg0  (x15 / person
+)            :arg1  (x20 / person
+                  :name  ( x10/晏子 
+))            :polarity  (x8 / -
+))      :aspect  (x11 / 了
+)      :time  (x3 / 以后
+            :op1  (x2 / 这
+)))
+===========================

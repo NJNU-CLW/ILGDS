@@ -1,0 +1,557 @@
+四月的维也纳真令我失望。
+(x7 / 失望-01
+      :arg1  (x11 / city
+            :name  ( x3/维也纳 
+)            :time  (x13 / date-entity
+                  :month  (x1_1 / 4
+)))      :arg0  (x6 / 我
+)      :degree  (x4 / 真
+))
+===========================
+大片大片的草地上，只是绿色连着绿色，见不到能让人眼前亮起来的明媚的小花。
+(x27 / and
+      :op1  (x9_1 / 连-01
+            :aspect  (x9_2 / 着
+)            :arg0  (x8 / 绿色
+)            :mod  (x7 / 只是
+)            :arg1  (x10 / 绿色
+))      :location  (x4 / 草地
+            :quant  (x1_x2 / 大片
+))      :op2  (x36 / possible
+            :arg0  (x12_x14 / 见到-01
+                  :arg1  (x25 / 花
+                        :arg0-of  (x24 / 小-01
+)                        :arg0-of  (x22 / 明媚-01
+)                        :arg0-of  (x16 / 让-02
+                              :arg0-of  (x15 / 能-01
+)                              :arg1  (x17 / 人
+)                              :arg2  (x19_x20 / 亮
+                                    :location  (x18 / 眼前
+                                          :arg0  (x17 / 人
+))))))            :polarity  (x13 / -
+)))
+===========================
+没有花的绿地是寂寞的。
+(x6 / 寂寞-01
+      :arg0  (x4 / 绿地
+            :arg0-of  (x1_2 / 有-01
+                  :polarity  (x1_1 / -
+)                  :arg1  (x2 / 花
+)))      :mode  (x5_x7 / judgement
+))
+===========================
+我对驾车同行的小吕说：“四月的维也纳可真乏味！
+(x7 / 说-01
+      :arg0  (x1 / 我
+)      :arg3  (x19 / person
+            :arg0-of  (x4 / 同行
+                  :manner  (x3 / 驾车-01
+                        :arg0  (x19 / person
+                              :name  ( x6/小吕 
+)))))      :arg1  (x14 / 乏味-01
+            :degree  (x13 / 真
+)            :mod  (x12 / 可
+)            :arg0  (x26 / city
+                  :name  ( x11/维也纳 
+)                  :time  (x28 / date-entity
+                        :month  (x9_1 / 4
+)))))
+===========================
+绿色到处泛滥，见不到花儿，下次再来非躲开四月不可！”
+(x18 / say
+      :arg1  (x20 / causation
+            :arg1  (x21 / contrast
+                  :arg1  (x3 / 泛滥-01
+                        :arg0  (x1 / 绿色
+)                        :location  (x2 / 到处
+))                  :arg2  (x25 / possible
+                        :arg0  (x5_x7 / 见到-01
+                              :arg1  (x8 / 花儿
+))                        :polarity  (x6 / -
+)))            :arg2  (x29 / condition
+                  :arg1  (x12 / 来
+                        :mod  (x11 / 再
+)                        :time  (x10 / 下次
+))                  :arg2  (x13 / 非
+                        :arg0  (x14 / 躲开-01
+                              :arg1  (x35 / date-entity
+                                    :month  (x15_1 / 4
+))))                  :mode  (x17 / expressive
+))))
+===========================
+小吕听了，将车子停住，把我领到路边一片非常开阔的草地上，让我蹲下来扒开草好好看看。
+(x30 / temporal
+      :arg1  (x2 / 听-01
+            :aspect  (x3 / 了-01
+)            :arg0  (x34 / person
+                  :name  ( x1/小吕 
+)))      :arg4  (x21 / 让-02
+            :arg1  (x22 / x10
+)            :arg0  (x34 / person
+)            :arg1  (x49 / and
+                  :op1  (x23_x24 / 蹲-01
+                        :arg0  (x22 / x10
+))                  :op2  (x25 / 扒开-01
+                        :arg0  (x22 / x10
+)                        :arg1  (x26 / 草
+))                  :op3  (x28 / 看看-01
+                        :manner  (x27 / 好好
+)                        :arg0  (x22 / x10
+))))      :arg3  (x11_1 / 领-02
+            :arg2  (x11_2 / 到-01
+                  :arg0  (x10 / 我
+)                  :arg1  (x18 / 草地
+                        :location  (x12 / 路边
+)                        :arg0-of  (x16 / 开阔-01
+                              :degree  (x15 / 非常
+))                        :cunit  (x14 / 片
+)                        :quant  (x13 / 1
+)))            :arg0  (x34 / person
+)            :arg1  (x10 / 我
+))      :arg2  (x7 / 停住-01
+            :arg0  (x34 / person
+)            :arg1  (x6 / 车子
+)))
+===========================
+我用手拨开草一看，原来青草下边藏着满满一层小花，白的、黄白、紫的；纯洁、娇小、鲜亮；这么多、这么密、这么辽阔！
+(x43 / and
+      :op1  (x45 / temporal
+            :arg1  (x4 / 拨开-01
+                  :arg0  (x1 / 我
+)                  :instrument  (x3 / 手
+                        :part-of  (x1 / 我
+))                  :arg1  (x5 / 草
+))            :arg2  (x7 / 看
+                  :arg0  (x1 / 我
+)))      :op2  (x51 / and
+            :op1  (x12 / 藏-01
+                  :aspect  (x13 / 着
+)                  :arg1  (x18 / 花
+                        :arg0-of  (x17 / 小-01
+)                        :cunit  (x16 / 层
+                              :extent  (x14 / 满满
+))                        :quant  (x15 / 1
+))                  :location  (x11 / 下边
+                        :arg0  (x10 / x5
+))                  :manner  (x9 / 原来
+))            :op2  (x62 / and
+                  :op1  (x63 / thing
+                        :arg0-of  (x20 / 白-01
+))                  :op2  (x64 / thing
+                        :mod  (x23 / 黄白
+))                  :op3  (x65 / thing
+                        :arg0-of  (x25 / 紫-01
+)))            :op3  (x69 / and
+                  :op1  (x28 / 纯洁-01
+                        :arg0  (x18 / 花
+))                  :op2  (x30 / 娇小
+                        :arg0  (x18 / 花
+))                  :op3  (x32 / 鲜亮
+                        :arg0  (x18 / 花
+)))            :op4  (x73 / and
+                  :op1  (x35 / 多-03
+                        :degree  (x34 / 这么
+)                        :arg0  (x18 / 花
+))                  :op2  (x38 / 密-01
+                        :degree  (x37 / 这么
+)                        :arg0  (x18 / 花
+))                  :op3  (x41 / 辽阔-01
+                        :degree  (x40 / 这么
+)                        :arg0  (x18 / 花
+))                  :mode  (x42 / expressive
+                        :op1  (x45 / temporal
+)))))
+===========================
+它们比青草只矮几厘米，躲在草下边，好像只要一使劲儿，就会齐刷刷地冒出来……
+(x26 / and
+      :arg1  (x5 / 矮-01
+            :arg0  (x1 / 它们
+)            :arg1  (x3 / 青草
+)            :mod  (x31 / distance-quantity
+                  :unit  (x7 / 厘米
+)                  :quant  (x6 / 几
+))            :mod  (x4 / 只
+))      :op2  (x9 / 躲-01
+            :arg0  (x1 / 它们
+)            :arg2  (x12 / 下边
+                  :arg0  (x11 / x3
+)))      :op3  (x14 / 好像-01
+            :arg0  (x39 / condition
+                  :arg1  (x17 / 使劲儿
+)                  :arg2  (x20 / 会-02
+                        :arg0  (x23_x24 / 冒-02
+                              :arg0  (x1 / 它们
+)                              :manner  (x21 / 齐刷刷
+))))))
+===========================
+“什么时候才能冒出来？”我问。
+(x10 / 问-01
+      :arg0  (x9 / 我
+)      :arg1  (x5 / 能-01
+            :mod  (x4 / 才
+)            :arg0  (x6_x7 / 冒
+)            :time  (x2_x3 / amr-unknown
+)            :mode  (x8 / interrogative
+)))
+===========================
+“也许过几天，也许就在明天。”小吕笑道，“四月的维也纳可说不准，一天一个样儿。”
+(x13 / 笑道-01
+      :arg0  (x30 / person
+            :name  ( x12/小吕 
+))      :arg1  (x32 / and
+            :op1  (x33 / and
+                  :op1  (x2 / 也许
+                        :arg0  (x3 / 过
+                              :duration  (x37 / temporal-quantity
+                                    :quant  (x4 / 几
+)                                    :unit  (x5 / 天
+))))                  :op2  (x7 / 也许
+                        :arg0  (x10 / 明天
+                              :mod  (x8 / 就
+))))            :op2  (x34 / and
+                  :op1  (x38 / possible
+                        :arg0  (x19 / 说-01
+                              :manner  (x20_2 / 准
+)                              :arg1  (x48 / city
+                                    :name  ( x17/维也纳 
+)                                    :time  (x50 / date-entity
+                                          :month  (x15_1 / 4
+))))                        :polarity  (x20_1 / -
+))                  :op2  (x26 / 样儿
+                        :quant  (x24 / 1
+)                        :cunit  (x25 / 个
+)                        :time  (x55 / temporal-quantity
+                              :quant  (x22 / 1
+)                              :unit  (x23 / 天
+))))))
+===========================
+当天夜里，冷雨伴着凉风下了起来。
+(x8_x10 / 下-11
+      :aspect  (x9 / 了
+)      :manner  (x5 / 伴-01
+            :aspect  (x6 / 着
+)            :arg1  (x7 / 凉风
+)            :arg0  (x4 / 冷雨
+))      :arg1  (x4 / 冷雨
+)      :time  (x2 / 夜里
+            :time  (x1 / 当天
+)))
+===========================
+后来的几天，雨时下时停，太阳一直没露面儿。
+(x17 / and
+      :op1  (x19 / and
+            :op1  (x8 / 下-11
+                  :arg1  (x6 / 雨
+)                  :time  (x7 / 时
+))            :op2  (x10 / 停-01
+                  :arg1  (x6 / 雨
+)                  :time  (x9 / 时
+)))      :op2  (x15 / 露面-01
+            :arg0  (x12 / 太阳
+)            :polarity  (x14 / -
+)            :time  (x13 / 一直
+))      :duration  (x30 / temporal-quantity
+            :time  (x1 / 后来
+)            :unit  (x4 / 天
+)            :quant  (x3 / 几
+)))
+===========================
+我很快要离开维也纳去意大利了，小吕为我送行。
+(x15 / and
+      :op1  (x3 / 要-03
+            :time  (x2 / 很快
+)            :arg0  (x19 / and
+                  :op1  (x4 / 离开-01
+                        :arg0  (x1 / 我
+)                        :arg1  (x25 / city
+                              :name  ( x5/维也纳 
+)))                  :op2  (x6 / 去-01
+                        :arg0  (x1 / 我
+)                        :arg1  (x24 / country
+                              :name  ( x7/意大利 
+))))            :smood  (x8 / 了
+))      :op2  (x13 / 送行-01
+            :arg0  (x29 / person
+                  :name  ( x10/小吕 
+))            :arg1  (x12 / x1
+)))
+===========================
+路上我对小吕说：“这次看不到草地上的那些花儿，真有点儿遗憾，我想它们刚冒出来时肯定很壮观。”
+(x5 / 说-01
+      :location  (x1 / 路上
+)      :arg0  (x2 / 我
+)      :arg3  (x38 / person
+            :name  ( x4/小吕 
+                  :arg3  (x37 / person
+)))      :arg1  (x40 / and
+            :op1  (x19 / 遗憾-01
+                  :degree  (x18 / 有点儿
+                        :degree  (x17 / 真
+))                  :arg1  (x44 / possible
+                        :arg0  (x8_x10 / 看到-01
+                              :arg1  (x15 / 花儿
+                                    :mod  (x14 / 那些
+)                                    :location  (x11 / 草地
+)))                        :polarity  (x9 / -
+)                        :time  (x7 / 这次
+)))            :op2  (x22 / 想-01
+                  :arg0  (x21 / x2
+)                  :arg1  (x28 / 肯定
+                        :time  (x25_x26 / 冒-02
+                              :arg0  (x23 / x15
+)                              :time  (x24 / 刚
+))                        :arg0  (x30 / 壮观
+                              :degree  (x29 / 很
+))))))
+===========================
+小吕驾着车没说话，大概也有些为我失望吧。
+(x16 / and
+      :op1  (x2 / 驾-01
+            :aspect  (x3 / 着
+)            :arg0  (x20 / person
+                  :name  ( x1/小吕 
+))            :arg1  (x4 / 车
+))      :op2  (x6 / 说话-01
+            :polarity  (x5 / -
+)            :arg0  (x20 / person
+))      :op3  (x8 / 大概
+            :arg0  (x13 / 失望-01
+                  :quant  (x10 / 有些
+)                  :mode  (x14 / expressive
+)                  :arg1  (x12 / 我
+)                  :arg0  (x20 / person
+))))
+===========================
+外边毛毛雨把车窗遮得像拉了一道纱帘。
+(x5 / 遮-01
+      :arg1  (x4 / 车窗
+)      :arg0  (x2 / 毛毛雨
+)      :location  (x1 / 外边
+)      :manner  (x7 / 像-02
+            :arg1  (x8 / 拉
+                  :aspect  (x9 / 了
+)                  :arg1  (x12 / 纱帘
+                        :cunit  (x11 / 道
+)                        :quant  (x10 / 1
+)))))
+===========================
+车子开出去十几分钟，小吕忽然对我说：“你看窗外——”，隔着雨窗，看不清外边，但窗外的颜色明显地变了，白色、黄色、紫色，在车窗上流动。
+(x46 / temporal
+      :arg1  (x2_x3 / 开
+            :arg1  (x1 / 车子
+)            :duration  (x51 / temporal-quantity
+                  :quant  (x4_2 / 几
+                        :op1  (x4_1 / 10
+))                  :unit  (x5 / 分钟
+)))      :arg2  (x11 / 说-01
+            :arg3  (x10 / 我
+)            :manner  (x8 / 忽然
+)            :arg0  (x58 / person
+                  :name  ( x7/小吕 
+))            :arg1  (x14 / 看-02
+                  :arg0  (x13 / x10
+)                  :arg1  (x15 / 窗外
+)))      :arg3  (x63 / causation
+            :arg1  (x17 / 隔-01
+                  :aspect  (x18 / 着
+)                  :arg1  (x19 / 雨窗
+))            :arg2  (x67 / contrast
+                  :arg1  (x68 / possible
+                        :arg1  (x21_x23 / 看清-01
+                              :arg1  (x24 / 外边
+))                        :polarity  (x22 / -
+))                  :arg2  (x72 / and
+                        :op1  (x32 / 变-01
+                              :aspect  (x33 / 了
+)                              :manner  (x30 / 明显
+)                              :arg0  (x29 / 颜色
+                                    :location  (x27 / 窗外
+)))                        :op2  (x44 / 流动-01
+                              :arg0  (x79 / and
+                                    :op1  (x35 / 白色
+)                                    :op2  (x37 / 黄色
+)                                    :op3  (x39 / 紫色
+))                              :location  (x43 / 上
+                                    :arg0  (x42 / 车窗
+)))))))
+===========================
+小吕停下了车，伸手拉开我这边的车门，未等我弄明白是怎么回事，便说：“去看吧——你的花！”
+(x33 / temporal
+      :arg1  (x2 / 停下-01
+            :arg0  (x36 / person
+                  :name  ( x1/小吕 
+))            :aspect  (x3 / 了
+)            :arg1  (x4 / 车
+))      :arg2  (x7 / 拉开-01
+            :manner  (x6 / 伸手-01
+                  :arg0  (x36 / person
+))            :arg1  (x11 / 车门
+                  :location  (x9 / 这边
+                        :arg0  (x8 / 我
+)))            :arg0  (x36 / person
+))      :arg3  (x45 / condition
+            :arg1  (x14 / 等-01
+                  :polarity  (x13 / -
+)                  :arg1  (x16 / 弄-03
+                        :cause-of  (x17 / 明白-01
+                              :arg0  (x15 / x8
+)                              :arg1  (x20 / 回事
+                                    :domain  (x52 / thing
+)                                    :mod  (x19 / amr-unknown
+)))                        :arg0  (x15 / x8
+)                        :arg1  (x20 / 回事
+)))            :arg2  (x23 / 说-01
+                  :arg0  (x36 / person
+)                  :arg1  (x25 / 去-01
+                        :arg0  (x8 / 我
+)                        :arg1  (x26 / 看-02
+                              :arg0  (x8 / 我
+)                              :arg1  (x31 / 花
+                                    :poss  (x29 / x8
+)                                    :mode  (x32 / expressive
+)))                        :mode  (x27 / imperative
+)))))
+===========================
+迎着吹在脸上的细密的、凉凉的雨点，我看到的竟是一片花的原野。
+(x24 / and
+      :op1  (x12 / 雨点
+            :arg0-of  (x3 / 吹-02
+                  :arg1  (x5 / 脸上
+)                  :manner  (x1 / 迎
+                        :aspect  (x2 / 着-01
+)))            :arg0-of  (x10 / 凉
+)            :arg0-of  (x7 / 细密-01
+))      :op2  (x22 / 原野
+            :domain  (x34 / thing
+                  :arg1-of  (x15 / 看到-01
+                        :arg0  (x14 / 我
+)))            :mod  (x20 / 花
+)            :quant  (x18 / 1
+)            :cunit  (x19 / 片
+)            :mod  (x17_1 / 竟
+)))
+===========================
+这正是前几天那片千万朵小花藏身的草地，此刻那些花儿一下子全冒了出来，顿时改天换地，整个世界铺满了全新的色彩。
+(x37 / and
+      :op1  (x14 / 草地
+            :domain  (x1 / 这
+)            :arg1-of  (x12 / 藏身-01
+                  :arg0  (x11 / 花
+                        :arg0-of  (x10 / 小-01
+)                        :cunit  (x9 / 朵
+)                        :mod  (x6 / 那
+)                        :cunit  (x7 / 片
+)                        :quant  (x8 / 10000000
+))                  :time  (x3 / 前
+                        :arg0  (x57 / temporal-quantity
+                              :quant  (x4 / 几
+)                              :unit  (x5 / 天
+))))            :mod  (x2_1 / 正
+))      :op2  (x21_x23 / 冒-02
+            :aspect  (x22 / 了
+)            :arg0  (x18 / x11
+                  :mod  (x17 / 那些
+)                  :extent  (x20 / 全
+))            :time  (x16 / 此刻
+)            :manner  (x19 / 一下子
+))      :op3  (x26 / 改天换地
+            :manner  (x25 / 顿时
+))      :op4  (x30 / 铺-02
+            :cause-of  (x31 / 满-01
+                  :aspect  (x32 / 了
+)                  :arg0  (x35 / 色彩
+                        :arg0-of  (x33 / 全新-01
+))                  :arg1  (x29 / 世界
+                        :mod  (x28 / 整个
+)))            :arg2  (x29 / 世界
+)            :arg1  (x35 / 色彩
+)))
+===========================
+虽然远处大片大片的花与蒙蒙细雨融在一起，低头却能清晰地看到，在冷雨中，每一朵小花都傲然挺立，明亮夺目，神气十足。
+(x40 / contrast
+      :arg1  (x10 / 融-01
+            :cause-of  (x12 / 一起-01
+                  :arg0  (x7 / and
+                        :location  (x2 / 远处
+)                        :op1  (x6 / 花
+                              :quant  (x3_x4 / 大片
+))                        :op2  (x9 / 细雨
+                              :arg0-of  (x8 / 蒙蒙
+))))            :arg1  (x7 / and
+))      :arg2  (x50 / condition
+            :arg1  (x14 / 低头
+)            :arg2  (x16 / 能-01
+                  :arg0  (x19 / 看到-01
+                        :manner  (x18 / 地
+)                        :arg1  (x56 / and
+                              :op1  (x32 / 挺立-01
+                                    :manner  (x31 / 傲然
+)                                    :arg1  (x29 / 花
+                                          :extent  (x30 / 都
+)                                          :arg0-of  (x28 / 小-01
+)                                          :cunit  (x27 / 朵
+)                                          :mod  (x25 / 每
+)                                          :quant  (x26 / 1
+)))                              :op2  (x34 / 明亮-01
+                                    :arg0  (x29 / 花
+))                              :op3  (x35 / 夺目-01
+                                    :arg0  (x29 / 花
+))                              :op4  (x37 / 神气-01
+                                    :degree  (x38 / 十足
+)                                    :arg0  (x29 / 花
+)))))))
+===========================
+我惊奇地想，它们为什么不是在温暖的阳光下冒出来，偏偏在冷风冷雨中拔地而起呢？
+(x4 / 想-01
+      :manner  (x2 / 惊奇
+)      :arg0  (x1 / 我
+)      :arg1  (x30 / and
+            :op1  (x15_x16 / 冒-02
+                  :arg0  (x6 / 它们
+)                  :location  (x14 / 下
+                        :arg0  (x13 / 阳光
+                              :arg0-of  (x11 / 温暖-01
+)))                  :polarity  (x8_x9 / -
+))            :op2  (x23 / 拔地而起-01
+                  :location  (x38 / and
+                        :op1  (x20 / 冷风
+)                        :op2  (x21 / 冷雨
+))                  :arg0  (x6 / 它们
+)                  :mod  (x18 / 偏偏
+))            :cause  (x7 / amr-unknown
+)            :mode  (x24_x25 / interrogative
+)))
+===========================
+小小的花儿居然有如此的气魄！
+(x5 / 有-01
+      :manner  (x4 / 居然
+)      :arg0  (x3 / 花儿
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x8 / 气魄
+            :arg0-of  (x6 / 如此-01
+))      :mode  (x9 / expressive
+))
+===========================
+我的心头怦然一震，这一震，使我明白了生命的意味是什么，是——勇气！
+(x26 / and
+      :op1  (x6 / 震
+            :quant  (x5 / 1
+)            :manner  (x4 / 怦然
+)            :arg0  (x3 / 心头
+                  :poss  (x1 / 我
+)))      :op2  (x12 / 使-01
+            :arg0  (x10 / x6
+                  :mod  (x8 / 这
+)                  :quant  (x9 / 1
+))            :arg1  (x13 / x1
+)            :arg2  (x14 / 明白-01
+                  :aspect  (x15 / 了
+)                  :arg1  (x41 / and
+                        :op1  (x20 / amr-unknown
+                              :domain  (x18 / 意味
+                                    :poss  (x16 / 生命
+)))                        :op2  (x24 / 勇气
+                              :mode  (x25 / expressive
+)                              :domain  (x18 / 意味
+))))))
+===========================

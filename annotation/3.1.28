@@ -1,0 +1,628 @@
+战争开始的时候，科利亚刚学数数，只会数到十。
+(x28 / causation
+      :arg1  (x8 / 学-01
+            :time  (x7 / 刚
+)            :arg0  (x24 / person
+                  :name  ( x6/科利亚 
+))            :arg1  (x9 / 数-01
+                  :arg0  (x24 / person
+)                  :arg1  (x10 / 数
+)))      :arg2  (x13 / 会-01
+            :arg0  (x24 / person
+)            :arg1  (x14 / 数
+                  :value  (x16 / 10
+))            :mod  (x12 / 只
+))      :time  (x2 / 开始-02
+            :arg0  (x1 / 战争
+)))
+===========================
+他从家门口向前走，数了十步，就用铲子挖起坑来。
+(x21 / temporal
+      :arg1  (x6 / 走-01
+            :source  (x3 / 家门口
+)            :direction  (x5 / 前
+)            :arg0  (x1 / 他
+))      :arg2  (x8 / 数-01
+            :aspect  (x9 / 了-01
+)            :arg0  (x1 / 他
+)            :value  (x29 / distance-quantity
+                  :value  (x10 / 10
+)                  :unit  (x11 / 步
+)))      :arg3  (x16_x17 / 挖-01
+            :arg1  (x18 / 坑
+)            :arg0  (x1 / 他
+)            :instrument  (x15 / 铲子
+)))
+===========================
+坑挖好了，他把一个木匣放进坑里。
+(x15 / temporal
+      :arg2  (x10_x11 / 放进-01
+            :arg0  (x6 / 他
+)            :arg1  (x9 / 木匣
+                  :quant  (x8_1 / 1
+)                  :cunit  (x8_2 / 个
+))            :arg1  (x12 / 坑
+))      :arg1  (x3 / 好-04
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 挖-01
+                  :arg1  (x1 / 坑
+)                  :arg0  (x6 / 他
+))))
+===========================
+木匣里盛着各种各样好玩的东西，有冰鞋、小斧头、小手锯和其他小玩意儿。
+(x3 / 盛-02
+      :aspect  (x4 / 着
+)      :arg2  (x1 / 木匣
+)      :arg1  (x8 / 东西
+            :arg0-of  (x6 / 好玩-01
+)            :mod  (x5 / 各种各样
+)            :arg0-of  (x30 / mean
+                  :arg1  (x31 / and
+                        :op1  (x11 / 冰鞋
+)                        :op2  (x14 / 斧头
+                              :arg0-of  (x13 / 小-01
+))                        :op3  (x17 / 手锯
+                              :arg0-of  (x16 / 小-01
+))                        :op4  (x21 / 玩意儿
+                              :arg0-of  (x20 / 小-01
+)                              :mod  (x19 / 其他
+))))))
+===========================
+他放好了木匣，盖上土，用脚踩实，还在上面撒了一层细沙，免得被人发现。
+(x31 / temporal
+      :arg2  (x7 / 盖-02
+            :arg0  (x1 / 他
+)            :arg1  (x5 / 木匣
+)            :arg2  (x9 / 土
+))      :arg3  (x13 / 踩-02
+            :cause-of  (x14 / 实-02
+                  :arg0  (x9 / 土
+))            :arg0  (x12 / 脚
+                  :part-of  (x1 / 他
+))            :arg1  (x9 / 土
+))      :arg4  (x19 / 撒-01
+            :aspect  (x20 / 了
+)            :arg0  (x1 / 他
+)            :arg1  (x24 / 沙
+                  :arg0-of  (x23 / 细-01
+)                  :quant  (x21 / 1
+)                  :cunit  (x22 / 层
+))            :location  (x18 / 上面
+                  :arg0  (x9 / 土
+))            :purpose  (x26 / 免得-01
+                  :arg1  (x29 / 发现-01
+                        :arg0  (x28 / 人
+)                        :arg1  (x5 / 木匣
+))))      :arg1  (x3 / 好-04
+            :aspect  (x4 / 了
+)            :arg0  (x2 / 放-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 木匣
+))))
+===========================
+科利亚干吗要把这些东西埋起来呢？
+(x3 / 要-03
+      :arg0  (x7_x8 / 埋-01
+            :arg0  (x14 / person
+                  :name  ( x1/科利亚 
+))            :arg1  (x6 / 东西
+                  :mod  (x5 / 这些
+)))      :cause  (x2 / amr-unknown
+)      :mode  (x9_x10 / interrogative
+))
+===========================
+因为德国法西斯快打到他们的村子了。
+(x12 / causation
+      :arg1  (x5 / 打
+            :time  (x4 / 快
+)            :arg0  (x16 / military
+                  :name  ( x3/法西斯 
+                        :mod  (x18 / country
+                              :name  ( x2/德国 
+))))            :destination  (x9 / 村子
+                  :poss  (x7 / 他们
+))            :smood  (x10 / 了
+)))
+===========================
+科利亚和妈妈、奶奶决定离开村子，到喀山城去躲避。
+(x6 / 决定-01
+      :arg0  (x19 / and
+            :op1  (x20 / person
+                  :name  ( x1/科利亚 
+))            :op2  (x3 / 妈妈
+)            :op3  (x5 / 奶奶
+))      :arg1  (x24 / and
+            :op1  (x7 / 离开-01
+                  :arg1  (x8 / 村子
+)                  :arg0  (x19 / and
+))            :op2  (x10 / 到-01
+                  :arg1  (x27 / city
+                        :name  ( x11/喀山城 
+))                  :purpose  (x13 / 躲避-01
+                        :arg0  (x19 / and
+))                  :arg0  (x19 / and
+))))
+===========================
+家里的东西不能都带走。
+(x5 / 能-01
+      :arg0  (x7 / 带走-01
+            :arg1  (x3 / 东西
+                  :extent  (x6 / 都
+)                  :location  (x1 / 家里
+)))      :polarity  (x4 / -
+))
+===========================
+妈妈把有些东西放进箱子里，从家门口向前走了三十步，把箱子埋在地下。
+(x26 / temporal
+      :arg1  (x5_x6 / 放进-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x4 / 东西
+                  :mod  (x3 / 有些
+))            :arg2  (x7 / 箱子
+))      :arg2  (x15 / 走-01
+            :direction  (x14 / 前
+)            :source  (x12 / 门口
+                  :part-of  (x11 / 家
+))            :aspect  (x16 / 了
+)            :quant  (x41 / distance-quantity
+                  :value  (x17 / 30
+)                  :unit  (x18 / 步
+)))      :arg3  (x22 / 埋-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x21 / 箱子
+)            :arg2  (x24 / 地下
+)))
+===========================
+科利亚只会数到十，就向前走了十步，埋下他的木匣。
+(x21 / causation
+      :arg1  (x3 / 会-01
+            :mod  (x2 / 只
+)            :arg0  (x25 / person
+                  :name  ( x1/科利亚 
+))            :arg1  (x4 / 数-01
+                  :value  (x6 / 10
+)                  :arg0  (x25 / person
+)))      :arg2  (x28 / temporal
+            :arg1  (x10 / 走-01
+                  :direction  (x9_2 / 前
+)                  :aspect  (x11 / 了
+)                  :quant  (x32 / distance-quantity
+                        :value  (x12 / 10
+)                        :unit  (x13 / 步
+))                  :arg0  (x25 / person
+))            :arg2  (x15 / 埋-01
+                  :arg0  (x25 / person
+)                  :arg1  (x19 / 木匣
+                        :poss  (x25 / person
+)))))
+===========================
+就在那一天，妈妈、奶奶带着科利亚到喀山去了，在那儿住了差不多四年。
+(x24 / temporal
+      :arg1  (x12 / 到-01
+            :time  (x4 / 一天
+                  :mod  (x3 / 那
+))            :arg1  (x29 / city
+                  :name  ( x13/喀山 
+))            :arg0  (x31 / and
+                  :op1  (x6 / 妈妈
+)                  :op2  (x8 / 奶奶
+))            :accompanier  (x34 / person
+                  :name  ( x11/科利亚 
+)))      :arg2  (x19 / 住-01
+            :aspect  (x20 / 了
+)            :arg0  (x38 / and
+                  :op1  (x6 / 妈妈
+)                  :op2  (x8 / 奶奶
+)                  :op3  (x34 / person
+))            :arg1  (x18 / x29
+)            :duration  (x40 / temporal-quantity
+                  :quant  (x22_1 / 4
+)                  :unit  (x22_2 / 年
+)                  :mod  (x21 / 差不多
+))))
+===========================
+科利亚长大了，上小学，数数能数到一百多了。
+(x17 / causation
+      :arg1  (x19 / and
+            :op1  (x2 / 长大-01
+                  :aspect  (x3 / 了
+)                  :arg0  (x22 / person
+                        :name  ( x1/科利亚 
+)))            :op2  (x5 / 上-07
+                  :arg0  (x22 / person
+)                  :arg1  (x6 / 小学
+)))      :arg2  (x26 / condition
+            :arg1  (x8 / 数-01
+                  :arg0  (x22 / person
+)                  :arg1  (x9 / 数
+))            :arg2  (x10 / 能-01
+                  :arg0  (x11 / 数-01
+                        :value  (x14 / 多
+                              :op1  (x13 / 100
+))                        :arg0  (x22 / person
+))                  :smood  (x15 / 了
+))))
+===========================
+法西斯终于被赶走了。
+(x4 / 赶走-01
+      :arg1  (x9 / military
+            :name  ( x1/法西斯 
+))      :mod  (x2 / 终于
+)      :aspect  (x5 / 了
+))
+===========================
+妈妈、奶奶带着科利亚回到了故乡。
+(x7 / 回到-01
+      :arg0  (x13 / and
+            :op1  (x1 / 妈妈
+)            :op2  (x3 / 奶奶
+))      :accompanier  (x14 / person
+            :name  ( x6/科利亚 
+))      :aspect  (x8 / 了
+)      :arg1  (x9 / 故乡
+))
+===========================
+他们家的房子还在，屋里的东西却被法西斯抢走了。
+(x17 / contrast
+      :arg1  (x6 / 在-01
+            :mod  (x5 / 还
+)            :arg0  (x4 / 房子
+                  :poss  (x1_x2 / 他们家
+)))      :arg2  (x14 / 抢走-01
+            :arg0  (x24 / military
+                  :name  ( x13/法西斯 
+))            :aspect  (x15 / 了
+)            :arg1  (x10 / 东西
+                  :location  (x8_1 / x4
+))))
+===========================
+妈妈说：“不用难过，我们还有一些东西埋在地下哩。”
+(x2 / 说-01
+      :arg0  (x1 / 妈妈
+)      :arg1  (x19 / causation
+            :arg2  (x4 / 不用-01
+                  :arg0  (x5 / 难过
+))            :arg2  (x8_2 / 有-01
+                  :mod  (x8_1 / 还
+)                  :arg0  (x7 / 我们
+)                  :arg1  (x10 / 东西
+                        :quant  (x9 / 一些
+)                        :arg1-of  (x11 / 埋-01
+                              :arg2  (x13 / 地下
+)))                  :mode  (x14 / expressive
+))))
+===========================
+妈妈从家门口朝前走了三十步，挖出了她埋的箱子。
+(x20 / temporal
+      :arg1  (x7 / 走-01
+            :aspect  (x8 / 了
+)            :quant  (x24 / distance-quantity
+                  :quant  (x9 / 30
+)                  :unit  (x10 / 步
+))            :direction  (x6 / 前
+)            :source  (x4 / 门口
+                  :part-of  (x3 / 家
+))            :arg0  (x1 / 妈妈
+))      :arg2  (x12_x13 / 挖出-01
+            :aspect  (x14 / 了
+)            :arg0  (x1 / 妈妈
+)            :arg1  (x18 / 箱子
+                  :arg1-of  (x16 / 埋-01
+                        :arg0  (x15 / x1
+)))))
+===========================
+她高兴地说：“算术真有用。
+(x4 / 说-01
+      :arg0  (x1 / 她
+)      :manner  (x2 / 高兴-01
+            :arg0  (x1 / 她
+))      :arg1  (x8 / 有用
+            :arg0  (x6 / 算术
+)            :degree  (x7 / 真-01
+)))
+===========================
+如果当初我随便挖个坑把箱子埋了，现在就不好找了。”
+(x19 / say
+      :arg1  (x21 / condition
+            :arg1  (x22 / temporal
+                  :arg1  (x5 / 挖
+                        :arg0  (x3 / 我
+)                        :manner  (x4 / 随便
+)                        :arg1  (x7 / 坑
+                              :cunit  (x6 / 个
+)))                  :time  (x2 / 当初
+)                  :arg2  (x10 / 埋
+                        :arg0  (x3 / 我
+)                        :arg1  (x9 / 箱子
+)                        :aspect  (x11 / 了
+)))            :arg2  (x15_2 / 好
+                  :arg0  (x16 / 找
+)                  :polarity  (x15_1 / -
+)                  :time  (x13 / 现在
+)                  :smood  (x17 / 了
+))))
+===========================
+科利亚也拿来铲子，从家门口向前走了十步，动手挖起来。
+(x20 / temporal
+      :arg1  (x3_x4 / 拿来-01
+            :arg0  (x23 / person
+                  :name  ( x1/科利亚 
+))            :mod  (x2 / 也
+)            :arg1  (x5 / 铲子
+))      :arg2  (x11 / 走-01
+            :aspect  (x12 / 了
+)            :arg0  (x23 / person
+)            :source  (x8 / 家门口
+)            :quant  (x31 / distance-quantity
+                  :quant  (x13 / 10
+)                  :unit  (x14 / 步
+)))      :arg3  (x16 / 动手-01
+            :purpose  (x17_x18 / 挖-01
+                  :arg0  (x23 / person
+))            :arg0  (x23 / person
+)))
+===========================
+他挖呀，挖呀，坑已经挖得很深了，还没找到匣子。
+(x21 / contrast
+      :arg1  (x23 / and
+            :op1  (x2 / 挖-01
+                  :mode  (x3 / expressive
+)                  :arg0  (x1 / 他
+))            :op2  (x5 / 挖-01
+                  :mode  (x6 / expressive
+)                  :arg0  (x1 / 他
+))            :op3  (x10 / 挖-01
+                  :degree  (x13 / 深-02
+                        :aspect  (x14 / 了
+)                        :degree  (x12 / 很
+)                        :arg0  (x8 / 坑
+))                  :arg1  (x8 / 坑
+)                  :arg0  (x1 / 他
+)                  :aspect  (x9 / 已经
+)))      :arg2  (x18 / 找到-01
+            :polarity  (x17 / -
+)            :arg0  (x1 / 他
+)            :arg1  (x19 / 匣子
+)))
+===========================
+他又朝左边挖，朝右边挖，仍然没找到。
+(x15 / contrast
+      :arg1  (x17 / and
+            :op1  (x5 / 挖-01
+                  :direction  (x4 / 左边
+)                  :arg0  (x1 / 他
+)                  :mod  (x2 / 又
+))            :op2  (x9 / 挖-01
+                  :arg0  (x1 / 他
+)                  :direction  (x8 / 右边
+)))      :arg2  (x13 / 找到-01
+            :mod  (x11 / 仍然
+)            :polarity  (x12 / -
+)))
+===========================
+小伙伴围上来，都朝着科利亚笑：“你的算术不管事啦！
+(x17 / temporal
+      :arg1  (x2 / 围-01
+            :arg0  (x1 / 小伙伴
+                  :extent  (x5 / 都
+))            :direction  (x3 / 上来-01
+                  :arg0  (x1 / 小伙伴
+)))      :arg2  (x8 / 笑-01
+            :direction  (x23 / person
+                  :name  ( x7/科利亚 
+))            :arg0  (x1 / 小伙伴
+))      :arg3  (x26 / say
+            :arg1  (x14 / 管事
+                  :polarity  (x13 / -
+)                  :arg0  (x12 / 算术
+                        :poss  (x10 / x23
+))                  :mode  (x15_x16 / expressive
+))))
+===========================
+也许，法西斯把你的宝贝挖走了。”
+(x12 / say
+      :arg1  (x1 / 也许
+            :arg0  (x8_x9 / 挖走-01
+                  :arg0  (x16 / military
+                        :name  ( x3/法西斯 
+))                  :aspect  (x10 / 了
+)                  :arg1  (x7 / 宝贝
+                        :poss  (x5 / 你
+)))))
+===========================
+科利亚说：“不会的，敌人连我们家的大箱子都没挖走，还能找到我的小木匣吗？这里面一定有原因。”
+(x2 / 说-01
+      :arg0  (x36 / person
+            :name  ( x1/科利亚 
+))      :arg1  (x38 / and
+            :op1  (x4 / 不会
+                  :mode  (x5 / judgement
+))            :op2  (x41 / causation
+                  :arg1  (x42 / condition
+                        :arg1  (x16_x17 / 挖走-01
+                              :arg0  (x7 / 敌人
+)                              :arg1  (x13 / 箱子
+                                    :arg0-of  (x12 / 大-01
+)                                    :poss  (x10 / 家
+                                          :poss  (x9 / 我们
+)))                              :polarity  (x15 / -
+))                        :arg2  (x20 / 能-01
+                              :mod  (x19 / 还
+)                              :arg0  (x21 / 找到-01
+                                    :arg1  (x25 / 木匣
+                                          :arg0-of  (x24 / 小-01
+)                                          :poss  (x22 / x36
+)))                              :mode  (x26_x27 / interrogative
+)))                  :arg2  (x30 / 一定
+                        :arg0  (x31 / 有-03
+                              :arg0  (x29 / 里面
+                                    :arg0  (x28 / 这
+))                              :arg1  (x32 / 原因
+))))))
+===========================
+科利亚丢下铲子，坐在台阶上，用手摸着脑门想。
+(x17 / temporal
+      :arg1  (x2 / 丢下-01
+            :arg0  (x20 / person
+                  :name  ( x1/科利亚 
+))            :arg1  (x3 / 铲子
+))      :arg2  (x5 / 坐-01
+            :arg0  (x20 / person
+)            :arg1  (x7 / 台阶
+))      :arg3  (x15 / 想-01
+            :manner  (x12 / 摸-01
+                  :aspect  (x13 / 着
+)                  :arg1  (x14 / 脑门
+                        :part-of  (x20 / person
+))                  :arg0  (x11 / 手
+                        :part-of  (x20 / person
+)))))
+===========================
+突然他笑起来，对小伙伴们说：“我知道是怎么回事啦！木匣是我四年前埋的，那时候我还小，步子也小。
+(x37 / temporal
+      :arg1  (x3_x4 / 笑-01
+            :arg0  (x2 / 他
+)            :manner  (x1 / 突然
+))      :arg2  (x9 / 说-01
+            :arg0  (x2 / 他
+)            :arg3  (x7_x8 / 小伙伴们
+)            :arg1  (x44 / and
+                  :op1  (x12 / 知道-01
+                        :arg0  (x11 / x2
+)                        :arg1  (x15 / 回事
+                              :domain  (x48 / thing
+)                              :cause  (x14 / amr-unknown
+))                        :mode  (x16_x17 / expressive
+))                  :op2  (x49 / causation
+                        :arg1  (x24 / 埋-01
+                              :time  (x23 / 前
+                                    :op1  (x67 / temporal-quantity
+                                          :quant  (x21 / 4
+)                                          :unit  (x22 / 年
+)))                              :mode  (x19_x25 / judgement
+)                              :arg1  (x18 / 木匣
+)                              :arg0  (x20 / x2
+))                        :arg2  (x58 / causation
+                              :arg1  (x31 / 小-01
+                                    :mod  (x30 / 还
+)                                    :arg0  (x29 / x2
+)                                    :time  (x28 / 时候
+                                          :mod  (x27 / 那
+)))                              :arg2  (x35 / 小-01
+                                    :arg0  (x33 / 步子
+)                                    :mod  (x34 / 也
+)))))))
+===========================
+我现在九岁啦，步子比那时候大了一倍，所以应该量的不是十步，而是五步。
+(x29 / causation
+      :arg1  (x31 / causation
+            :arg1  (x1 / 我
+                  :age  (x33 / temporal-quantity
+                        :quant  (x3 / 9
+)                        :unit  (x4 / 岁
+))                  :time  (x2 / 现在
+)                  :mode  (x5 / expressive
+))            :arg2  (x11 / 大-04
+                  :degree  (x14 / 倍
+                        :quant  (x13 / 1
+))                  :aspect  (x12 / 了
+)                  :arg0  (x7 / 步子
+                        :time  (x2 / 现在
+))                  :compared-to  (x44 / thing
+                        :time  (x10 / 时候
+                              :mod  (x9 / 那
+)))))      :arg2  (x47 / contrast
+            :arg2  (x54 / distance-quantity
+                  :domain  (x55 / thing
+                        :value-of  (x18 / 量
+                              :arg0-of  (x17 / 应该-01
+)))                  :quant  (x26 / 5
+)                  :unit  (x27 / 步
+))            :arg1  (x48 / distance-quantity
+                  :domain  (x49 / thing
+                        :value-of  (x18 / 量
+))                  :quant  (x22 / 10
+)                  :unit  (x23 / 步
+))))
+===========================
+你们看，我马上会找到我的木匣子。
+(x2 / 看-02
+      :arg0  (x1 / 你们
+)      :arg1  (x6 / 会-02
+            :time  (x5 / 马上
+)            :arg0  (x7 / 找到-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x11 / 匣子
+                        :consist-of  (x10 / 木
+)                        :poss  (x8 / x4
+)))))
+===========================
+科利亚量了五步，又动手挖起来，不多一会儿，他果然找到了木匣子。
+(x23 / temporal
+      :arg1  (x2 / 量-01
+            :value  (x26 / distance-quantity
+                  :quant  (x4 / 5
+)                  :unit  (x5 / 步
+))            :arg0  (x29 / person
+                  :name  ( x1/科利亚 
+))            :aspect  (x3 / 了
+))      :arg3  (x18 / 找到-01
+            :mod  (x17 / 果然
+)            :aspect  (x19 / 了
+)            :arg0  (x16 / x29
+)            :arg1  (x21 / 匣子
+                  :consist-of  (x20 / 木
+)))      :arg2  (x8 / 动手-01
+            :purpose  (x9_x10 / 挖-01
+                  :arg0  (x29 / person
+)                  :duration  (x14 / 一会儿
+                        :degree  (x13 / 多
+)))            :arg0  (x29 / person
+)))
+===========================
+科利亚高兴地说：“伙伴们，今天我不光找到了匣子，还懂得了时间一天天过去，人一天天长大，步子也在渐渐变大。
+(x4 / 说-01
+      :manner  (x2 / 高兴-01
+            :arg0  (x41 / person
+                  :name  ( x1/科利亚 
+)))      :arg0  (x41 / person
+)      :arg1  (x43 / and
+            :op1  (x6_x7 / 伙伴们
+)            :op2  (x45 / progression
+                  :arg1  (x12 / 找到-01
+                        :aspect  (x13 / 了
+)                        :arg0  (x10 / x41
+)                        :time  (x9 / 今天
+)                        :arg1  (x14 / 匣子
+))                  :arg2  (x17 / 懂得-01
+                        :aspect  (x18 / 了-01
+)                        :arg0  (x41 / person
+)                        :arg1  (x53 / causation
+                              :arg1  (x23 / 过去-01
+                                    :arg0  (x19 / 时间
+)                                    :manner  (x20_x21_x22 / 一天天
+))                              :arg2  (x56 / causation
+                                    :arg1  (x29 / 长大-01
+                                          :arg0  (x25 / 人
+)                                          :manner  (x26_x27_x28 / 一天天
+))                                    :arg2  (x35 / 变-01
+                                          :aspect  (x33 / 在
+)                                          :mod  (x32 / 也
+)                                          :arg0  (x31 / 步子
+)                                          :arg1  (x36 / 大-01
+                                                :arg0  (x31 / 步子
+))                                          :manner  (x34 / 渐渐
+))))))))
+===========================
+周围的一切，不是都在起变化吗?”
+(x13 / say
+      :arg1  (x9 / 起-03
+            :aspect  (x8 / 在
+)            :polarity  (x5_x6 / -
+)            :mode  (x11_x12 / interrogative
+)            :arg0  (x10 / 变化-01
+                  :arg0  (x3 / 一切
+                        :extent  (x7 / 都
+)                        :range  (x1 / 周围
+)))))
+===========================

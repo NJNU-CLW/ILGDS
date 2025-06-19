@@ -1,0 +1,810 @@
+战国时候，魏王派西门豹去管理漳河边上的邺。
+(x5 / 派-01
+      :arg0  (x4 / 魏王
+)      :arg1  (x17 / person
+            :name  ( x6/西门豹 
+))      :arg2  (x7 / 去-01
+            :arg0  (x17 / person
+)            :arg1  (x8 / 管理-01
+                  :arg0  (x6 / 西门豹
+)                  :arg1  (x12 / 邺
+                        :location  (x10 / 边上
+                              :arg0  (x23 / river
+                                    :name  ( x9/漳河 
+))))))      :time  (x25 / dynasty
+            :name  ( x1/战国 
+)))
+===========================
+西门豹到了那个地方，看到田地荒芜，人烟稀少，就找了位老大爷来，问他是怎么回事。
+(x28 / causation
+      :arg1  (x30 / temporal
+            :arg1  (x2 / 到-01
+                  :arg0  (x32 / person
+                        :name  ( x1/西门豹 
+))                  :aspect  (x3 / 了
+)                  :arg1  (x6 / 地方
+                        :mod  (x4 / 那
+)                        :cunit  (x5 / 个
+)))            :arg2  (x8 / 看到-01
+                  :arg0  (x32 / person
+)                  :arg1  (x39 / and
+                        :op1  (x10 / 荒芜-01
+                              :arg0  (x9 / 田地
+))                        :op2  (x12 / 人烟稀少
+))))      :arg2  (x43 / temporal
+            :arg1  (x15 / 找-01
+                  :aspect  (x16 / 了
+)                  :arg0  (x32 / person
+)                  :arg1  (x18 / 老大爷
+                        :cunit  (x17 / 位
+)))            :arg2  (x21 / 问-01
+                  :arg0  (x32 / person
+)                  :arg2  (x22 / x18
+)                  :arg1  (x26 / 事
+                        :domain  (x39 / and
+)                        :cunit  (x25 / 回
+)                        :mod  (x24 / amr-unknown
+)))))
+===========================
+老大爷说:“都是河伯娶媳妇给闹的。
+(x2 / 说-01
+      :arg0  (x1 / 老大爷
+)      :arg1  (x10 / 闹
+            :cause  (x7 / 娶-01
+                  :arg0  (x6 / 河伯
+)                  :arg1  (x8 / 媳妇
+))            :mode  (x5_x11 / judgement
+)            :mod  (x4 / 都
+)))
+===========================
+河伯是漳河的神，每年要娶一个年轻漂亮的姑娘。
+(x18 / and
+      :op1  (x5 / 神
+            :domain  (x1 / 河伯
+)            :range  (x22 / river
+                  :name  ( x3/漳河 
+)))      :op2  (x9 / 要-03
+            :arg0  (x10 / 娶-01
+                  :arg0  (x1 / 河伯
+)                  :arg1  (x16 / 姑娘
+                        :arg0-of  (x14 / 漂亮-01
+)                        :arg0-of  (x13 / 年轻-01
+)                        :quant  (x11 / 1
+)                        :cunit  (x12 / 个
+)))            :frequency  (x32 / rate-entity-91
+                  :arg3  (x34 / temporal-quantity
+                        :quant  (x7 / 1
+)                        :unit  (x8 / 年
+)))))
+===========================
+要不给他送去，漳河就要发大水，把田地全淹了。
+(x19 / condition
+      :arg1  (x3 / 给-01
+            :arg2  (x4 / 他
+)            :arg3  (x5_x6 / 送去-01
+                  :arg2  (x4 / 他
+)))      :arg2  (x10 / 发
+            :arg0  (x8 / 漳河
+)            :arg1  (x11 / 大水
+)            :purpose  (x16 / 淹
+                  :aspect  (x17 / 了
+)                  :arg1  (x14 / 田地
+                        :extent  (x15 / 全
+)))))
+===========================
+西门豹问:“这话是谁说的?”
+(x2 / 问-01
+      :arg0  (x13 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x8 / 说-01
+            :arg0  (x7 / amr-unknown
+)            :mode  (x6_x9 / judgement
+)            :arg1  (x5 / 话
+                  :mod  (x4 / 这
+))            :mode  (x10 / interrogative
+)))
+===========================
+老大爷说:“巫婆说的。
+(x2 / 说-01
+      :arg0  (x1 / 老大爷
+)      :arg1  (x5 / 说-01
+            :mode  (x6 / judgement
+)            :arg0  (x4 / 巫婆
+)))
+===========================
+地方上的官绅每年出面给河伯办喜事，硬逼着老百姓出钱。
+(x20 / causation
+      :arg1  (x8 / 给-01
+            :arg0  (x4 / 官绅
+                  :location  (x1 / 地方
+))            :manner  (x7 / 出面-01
+                  :arg0  (x4 / 官绅
+))            :arg2  (x9 / 河伯
+)            :arg3  (x10 / 办-01
+                  :arg1  (x11 / 喜事
+))            :frequency  (x28 / rate-entity
+                  :arg3  (x29 / temporal-quantity
+                        :quant  (x5 / 1
+)                        :unit  (x6 / 年
+))))      :arg2  (x14 / 逼-02
+            :manner  (x13 / 硬
+)            :arg0  (x4 / 官绅
+)            :aspect  (x15 / 着
+)            :arg1  (x16 / 老百姓
+)            :arg2  (x17 / 出-02
+                  :arg0  (x16 / 老百姓
+)                  :arg1  (x18 / 钱
+))))
+===========================
+每闹一次，他们要收几百万钱;办喜事只花二三十万，多下来的就跟巫婆分了。”
+(x28 / say
+      :arg1  (x30 / and
+            :op1  (x31 / condition
+                  :arg1  (x2 / 闹-01
+                        :arg1  (x34 / thing
+                              :quant  (x3 / 1
+)                              :arg2  (x4 / 次
+))                        :mod  (x1 / 每
+))                  :arg2  (x8 / 收-01
+                        :arg0  (x6 / 他们
+)                        :arg1  (x10 / 钱
+                              :quant  (x9_1 / 几
+                                    :op1  (x9_2_3 / 1000000
+)))))            :op2  (x32 / causation
+                  :arg1  (x15 / 花-01
+                        :manner  (x14 / 只
+)                        :arg1  (x45 / thing
+                              :quant  (x46 / between
+                                    :op1  (x16_1_3_4 / 200000
+)                                    :op2  (x16_2_3_4 / 300000
+)))                        :arg2  (x12 / 办-01
+                              :arg1  (x13 / 喜事
+)))                  :arg2  (x24 / 分-01
+                        :aspect  (x25 / 了
+)                        :arg1  (x53 / thing
+                              :arg0-of  (x18 / 多-03
+))                        :arg0  (x55 / and
+                              :op1  (x6 / 他们
+)                              :op2  (x23 / 巫婆
+))                        :mod  (x21 / 就
+)))))
+===========================
+西门豹问:“新娘是哪儿来的?’
+(x2 / 问-01
+      :arg0  (x12 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x7 / 来-01
+            :arg2  (x6 / amr-unknown
+)            :arg0  (x4 / 新娘
+)            :mode  (x5_x8 / judgement
+)            :mode  (x9 / interrogative
+)))
+===========================
+老大爷说:“哪家有年轻的女孩子，王婆就带着人到哪家去选。
+(x2 / 说-01
+      :arg0  (x1 / 老大爷
+)      :arg1  (x24 / condition
+            :arg1  (x5 / 有-03
+                  :arg0  (x4 / amr-unknown
+)                  :arg1  (x9 / 孩子
+                        :mod  (x8 / 女
+)                        :arg0-of  (x6 / 年轻-01
+)))            :arg2  (x16 / 到-01
+                  :arg1  (x17 / x4
+)                  :purpose  (x19 / 选
+)                  :arg0  (x11 / 王婆
+)                  :manner  (x13 / 带-02
+                        :arg0  (x11 / 王婆
+)                        :aspect  (x14 / 着
+)                        :arg1  (x15 / 人
+                              :arg1  (x17 / x4
+))))))
+===========================
+有钱的人家花点儿钱就过去了，没钱的只好眼睁睁地看着女孩儿被他们拉走。
+(x25 / contrast
+      :arg1  (x27 / condition
+            :arg1  (x4 / 花-01
+                  :arg0  (x3 / 人家
+                        :arg0-of  (x1 / 有钱-01
+))                  :arg1  (x6 / 钱
+                        :quant  (x5 / 点儿
+)))            :arg2  (x8 / 过去
+                  :aspect  (x9 / 了
+)))      :arg2  (x17 / 看-02
+            :manner  (x15 / 眼睁睁
+)            :aspect  (x18 / 着
+)            :arg0  (x38 / person
+                  :arg0-of  (x39 / 有-01
+                        :polarity  (x11 / -
+)                        :arg1  (x12 / 钱
+)))            :manner  (x14 / 只好
+)            :arg1  (x22_x23 / 拉走-01
+                  :arg1  (x19 / 女孩儿
+)                  :arg0  (x21 / 他们
+))))
+===========================
+到了河伯娶媳妇那天，他们在漳河边上放一条苇席，把女孩儿打扮好了，让她坐在苇席上，顺着水漂去。
+(x35 / temporal
+      :time  (x1 / 到-01
+            :aspect  (x2 / 了
+)            :arg1  (x7 / 天
+                  :mod  (x6 / 那
+)                  :time-of  (x4 / 娶-01
+                        :arg0  (x3 / 河伯
+)                        :arg1  (x5 / 媳妇
+))))      :arg1  (x13 / 放-01
+            :arg0  (x9 / 他们
+)            :arg1  (x16 / 苇席
+                  :quant  (x14 / 1
+)                  :cunit  (x15 / 条
+))            :arg2  (x12 / 边上
+                  :arg0  (x11 / 漳河
+)))      :arg3  (x24 / 让-02
+            :arg0  (x9 / 他们
+)            :arg1  (x25 / x19
+)            :arg2  (x57 / and
+                  :op1  (x26 / 坐-01
+                        :arg0  (x19 / 女孩儿
+))                  :op2  (x32_2_x33 / 漂-01
+                        :arg0  (x19 / 女孩儿
+)                        :manner  (x31_1 / 顺
+                              :aspect  (x31_2 / 着
+)                              :arg1  (x32_1 / 水
+)))))      :arg2  (x21 / 好-04
+            :aspect  (x22 / 了
+)            :arg0  (x20 / 打扮-01
+                  :arg0  (x9 / 他们
+)                  :arg1  (x19 / 女孩儿
+))))
+===========================
+苇席先还是浮着的，到了河中心就连女孩儿一起沉下去了。
+(x20 / temporal
+      :arg1  (x4 / 浮-01
+            :mod  (x3 / 还是
+)            :time  (x2 / 先
+)            :aspect  (x5 / 着
+)            :mode  (x6 / judgement
+)            :arg1  (x1 / 苇席
+))      :arg2  (x28 / condition
+            :arg1  (x8 / 到-01
+                  :aspect  (x9 / 了
+)                  :arg1  (x11 / 中心
+                        :arg0  (x10 / 河
+)))            :arg2  (x16_x17 / 沉-01
+                  :aspect  (x18 / 了
+)                  :arg0  (x35 / and
+                        :manner  (x15 / 一起
+)                        :op1  (x1 / 苇席
+)                        :op2  (x14 / 女孩儿
+)))))
+===========================
+有女孩儿的人家差不多都逃到外地去了，所以人口越来越少，这地方也越来越穷。”
+(x24 / say
+      :arg1  (x26 / causation
+            :arg1  (x7 / 逃-01
+                  :arg2  (x9 / 外地
+)                  :aspect  (x11 / 了
+)                  :arg0  (x4 / 人家
+                        :arg0-of  (x1 / 有-01
+                              :arg1  (x2 / 女孩儿
+))                        :extent  (x6 / 都
+                              :degree  (x5 / 差不多
+))))            :arg2  (x35 / and
+                  :op1  (x16 / 少-02
+                        :mod  (x15 / 越来越
+)                        :arg0  (x14 / 人口
+))                  :op2  (x22 / 穷-01
+                        :mod  (x21 / 越来越
+)                        :mod  (x20 / 也
+)                        :arg0  (x19 / 地方
+                              :mod  (x18 / 这
+))))))
+===========================
+西门豹问:“那么漳河发过大水没有呢?’
+(x2 / 问-01
+      :arg0  (x16 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x18 / causation
+            :arg2  (x6 / 发
+                  :aspect  (x7 / 过
+)                  :arg1  (x8 / 大水
+)                  :mode  (x9_x10_x11 / interrogative
+)                  :arg0  (x23 / river
+                        :name  ( x5/漳河 
+)))))
+===========================
+老大爷说:“没有发过。
+(x2 / 说-01
+      :arg0  (x1 / 老大爷
+)      :arg1  (x5 / 发
+            :polarity  (x4 / -
+)            :aspect  (x6 / 过
+)))
+===========================
+倒是夏天雨水少，年年闹旱灾。”
+(x10 / say
+      :arg1  (x12 / contrast
+            :arg1  (x13 / and
+                  :op1  (x4 / 少-02
+                        :arg0  (x3 / 雨水
+)                        :time  (x16 / date-entity
+                              :season  (x2 / 夏天
+)))                  :op2  (x7 / 闹-01
+                        :arg1  (x8 / 旱灾
+)                        :frequency  (x6 / 年年
+)))))
+===========================
+西门豹说:“这样说来，河伯还真灵啊。
+(x2 / 说-01
+      :arg0  (x15 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x17 / condition
+            :arg1  (x5 / 说来
+                  :mod  (x4 / 这样
+))            :arg2  (x10 / 灵-01
+                  :degree  (x9 / 真
+)                  :mod  (x8 / 还
+)                  :arg0  (x7 / 河伯
+)                  :mode  (x11 / expressive
+))))
+===========================
+下一回他要媳妇，请告诉我一声，我也去送送新娘。”
+(x21 / say
+      :arg1  (x23 / causation
+            :arg2  (x24 / condition
+                  :arg1  (x5 / 要-01
+                        :arg0  (x4 / 他
+)                        :arg1  (x6 / 媳妇
+)                        :ord  (x28 / ordinal-entity
+                              :cunit  (x3 / 回
+)                              :mod  (x1_x2 / 下一
+)))                  :arg2  (x8 / 请-01
+                        :arg2  (x9 / 告诉-01
+                              :arg2  (x10 / 我
+)                              :quant  (x11 / 1
+)                              :cunit  (x12 / 声
+))))            :arg1  (x16 / 去-01
+                  :arg0  (x14 / x10
+)                  :mod  (x15 / 也
+)                  :arg1  (x17_x18 / 送-02
+                        :arg0  (x10 / 我
+)                        :arg1  (x19 / x6
+)))))
+===========================
+到了河伯娶媳妇的日子，漳河边上站满了老百姓。
+(x11 / 站-01
+      :cause-of  (x12 / 满-01
+            :aspect  (x13 / 了
+)            :arg0  (x14 / 老百姓
+)            :arg1  (x10 / 边上
+                  :arg0  (x21 / river
+                        :name  ( x9/漳河 
+))))      :arg1  (x10 / 边上
+)      :arg0  (x14 / 老百姓
+)      :time  (x1 / 到-01
+            :arg1  (x7 / 日子
+                  :time-of  (x4 / 娶
+                        :arg0  (x3 / 河伯
+)                        :arg1  (x5 / 媳妇
+)))            :aspect  (x2 / 了-01
+)))
+===========================
+西门豹带着卫士，真的来了，巫婆和官绅急忙迎接。
+(x17 / causation
+      :arg1  (x8 / 来-01
+            :mod  (x6_x7 / 真-01
+)            :aspect  (x9 / 了
+)            :manner  (x2 / 带-02
+                  :arg0  (x23 / person
+                        :name  ( x1/西门豹 
+))                  :aspect  (x3 / 着
+)                  :arg1  (x4 / 卫士
+))            :arg0  (x23 / person
+))      :arg2  (x15 / 迎接-01
+            :manner  (x14 / 急忙
+)            :arg0  (x12 / and
+                  :op1  (x11 / 巫婆
+)                  :op2  (x13 / 官绅
+))            :arg1  (x23 / person
+)))
+===========================
+那巫婆已经七十多岁了，背后跟着十来个穿着绸褂的女徒弟。
+(x21 / and
+      :op1  (x2 / 巫婆
+            :mod  (x1 / 那
+)            :age  (x25 / temporal-quantity
+                  :aspect  (x3 / 已经
+)                  :aspect  (x7 / 了
+)                  :quant  (x5 / 多
+                        :op1  (x4 / 七十
+))                  :unit  (x6 / 岁
+)))      :op2  (x10_1 / 跟-01
+            :aspect  (x10_2 / 着
+)            :arg0  (x9 / 背后
+                  :arg0  (x2 / 巫婆
+))            :arg1  (x19 / 徒弟
+                  :quant  (x12 / 来
+                        :op1  (x11 / 10
+))                  :mod  (x18 / 女
+)                  :arg0-of  (x14 / 穿-01
+                        :aspect  (x15 / 着
+))                  :cunit  (x13 / 个
+))))
+===========================
+西门豹说:“把新娘领来让我看看。”
+(x2 / 说-01
+      :arg0  (x15 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x6 / 领-02
+            :arg1  (x5 / 新娘
+)            :arg2  (x7 / 来-01
+                  :arg0  (x5 / 新娘
+))            :purpose  (x8 / 让-01
+                  :arg1  (x9 / x15
+)                  :arg2  (x10_x11 / 看看-01
+                        :arg0  (x15 / person
+)                        :arg1  (x5 / 新娘
+)))))
+===========================
+巫婆叫徒弟把那个打扮好的姑娘领了来。
+(x2 / 叫-01
+      :arg0  (x1 / 巫婆
+)      :arg1  (x3 / 徒弟
+)      :arg2  (x10 / 领-02
+            :aspect  (x11 / 了
+)            :arg0  (x3 / 徒弟
+)            :arg1  (x9 / 姑娘
+                  :mod  (x5_1 / 那
+)                  :cunit  (x5_2 / 个
+)                  :arg1-of  (x6 / 打扮-01
+                        :arg0-of  (x7 / 好-04
+)))            :arg2  (x12 / 来-01
+                  :arg0  (x9 / 姑娘
+))))
+===========================
+西门豹一看，女孩儿满脸泪水。
+(x3 / 看-02
+      :quant  (x2 / 1
+)      :arg0  (x12 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x7 / 泪水
+            :range  (x6 / 满脸
+                  :poss  (x5 / 女孩儿
+))))
+===========================
+他回过头来对巫婆说:“不行，这个姑娘不漂亮，河伯不会满意的，麻烦你去跟河伯说一声，说我要选个漂亮的，过几天就送去。“
+(x47 / temporal
+      :arg1  (x2_x3_x4 / 回头-01
+            :arg0  (x1 / 他
+))      :arg2  (x7 / 说-01
+            :arg3  (x6 / 巫婆
+)            :arg0  (x1 / 他
+)            :arg1  (x54 / causation
+                  :arg1  (x55 / causation
+                        :arg2  (x9 / 不行
+)                        :arg1  (x57 / causation
+                              :arg1  (x15 / 漂亮-01
+                                    :arg0  (x13 / 姑娘
+                                          :mod  (x11 / 这
+)                                          :cunit  (x12 / 个
+))                                    :polarity  (x14 / -
+))                              :arg2  (x19 / 会-02
+                                    :mode  (x21 / judgement
+)                                    :polarity  (x18 / -
+)                                    :arg0  (x20 / 满意-01
+                                          :arg0  (x17 / 河伯
+)))))                  :arg2  (x23 / 麻烦-02
+                        :arg0  (x1 / 他
+)                        :arg2  (x24 / x6
+)                        :arg1  (x25 / 去-01
+                              :arg0  (x24 / x6
+)                              :arg1  (x73 / and
+                                    :op1  (x28 / 说-01
+                                          :arg0  (x24 / x6
+)                                          :arg3  (x27 / x17
+)                                          :quant  (x29 / 1
+)                                          :cunit  (x30 / 声
+))                                    :op2  (x32 / 说-01
+                                          :arg0  (x24 / x6
+)                                          :arg3  (x27 / x17
+)                                          :arg1  (x80 / and
+                                                :op1  (x34 / 要-03
+                                                      :arg0  (x35 / 选-01
+                                                            :arg1  (x83 / person
+                                                                  :arg0-of  (x37 / 漂亮-01
+)                                                                  :cunit  (x36 / 个
+))                                                            :arg0  (x33 / x1
+)))                                                :op2  (x88 / condition
+                                                      :arg1  (x40 / 过
+                                                            :duration  (x90 / temporal-quantity
+                                                                  :quant  (x41 / 几
+)                                                                  :unit  (x42 / 天
+)))                                                      :arg2  (x44_x45 / 送去-01
+                                                            :arg1  (x83 / person
+)))))))))))
+===========================
+说完，他叫卫士架起巫婆，把她投进了漳河。
+(x16 / temporal
+      :arg1  (x1_2 / 完-01
+            :arg0  (x1_1 / 说-01
+                  :arg0  (x3 / 他
+)))      :arg2  (x4 / 叫-04
+            :arg0  (x3 / 他
+)            :arg1  (x5 / 卫士
+)            :arg2  (x6 / 架起-01
+                  :arg0  (x5 / 卫士
+)                  :arg1  (x7 / 巫婆
+)))      :arg3  (x11 / 投-01
+            :arg0  (x5 / 卫士
+)            :arg1  (x10 / x7
+)            :aspect  (x13 / 了
+)            :arg2  (x29 / river
+                  :name  ( x14/漳河 
+))))
+===========================
+巫婆在河里扑腾了几下就沉下去了。
+(x13 / temporal
+      :arg1  (x4 / 扑腾-01
+            :aspect  (x5 / 了
+)            :arg0  (x1 / 巫婆
+)            :location  (x3_2 / 里
+                  :arg0  (x3_1 / 河
+))            :quant  (x6 / 几
+)            :cunit  (x7 / 下
+))      :arg2  (x9_x10 / 沉-01
+            :arg0  (x1 / 巫婆
+)            :aspect  (x11 / 了
+)))
+===========================
+等了一会儿，西门豹对官绅的头子说:“巫婆怎么还不回来，麻烦你去催一催吧。”
+(x26 / temporal
+      :arg1  (x1 / 等
+            :duration  (x3 / 一会儿
+)            :aspect  (x2 / 了
+))      :arg2  (x10 / 说-01
+            :arg0  (x32 / person
+                  :name  ( x5/西门豹 
+))            :arg3  (x9 / 头子
+                  :range  (x7 / 官绅
+))            :arg1  (x36 / and
+                  :op1  (x16 / 回来-01
+                        :mod  (x14 / 还
+)                        :arg0  (x12 / 巫婆
+)                        :polarity  (x15 / -
+)                        :cause  (x13 / amr-unknown
+))                  :op2  (x18 / 麻烦-02
+                        :arg0  (x32 / person
+)                        :arg1  (x19 / x9
+)                        :arg2  (x20 / 去-01
+                              :arg0  (x9 / 头子
+)                              :arg1  (x21_x22_x23 / 催-01
+                                    :arg0  (x9 / 头子
+)))))))
+===========================
+说完，又叫卫士把官绅的头子投进了漳河。
+(x15 / temporal
+      :arg1  (x1_2 / 完-01
+            :arg0  (x1_1 / 说
+))      :arg2  (x4 / 叫-04
+            :mod  (x3 / 又
+)            :arg1  (x5 / 卫士
+)            :arg2  (x10 / 投-01
+                  :aspect  (x12 / 了
+)                  :arg0  (x5 / 卫士
+)                  :arg1  (x9 / 头子
+                        :range  (x7 / 官绅
+))                  :arg2  (x28 / river
+                        :name  ( x13/漳河 
+)))))
+===========================
+西门豹面对着漳河站了很久。
+(x5 / 站-01
+      :manner  (x2 / 面对-01
+            :arg0  (x13 / person
+                  :name  ( x1/西门豹 
+))            :aspect  (x3 / 着
+)            :arg1  (x19 / river
+                  :name  ( x4/漳河 
+)))      :arg0  (x13 / person
+)      :aspect  (x6 / 了
+)      :arg0-of  (x8 / 久-01
+            :degree  (x7 / 很
+)))
+===========================
+那些官绅都提心吊胆，连气也不敢出，西门豹回过头来，看着他们说:“怎么还不回来，请你们去催催吧!”
+(x35 / and
+      :op1  (x37 / and
+            :op1  (x4 / 提心吊胆
+                  :arg0  (x2 / 官绅
+                        :mod  (x1 / 那些
+)                        :extent  (x3 / 都
+)))            :op2  (x10 / 敢-02
+                  :polarity  (x9 / -
+)                  :arg0  (x2 / 官绅
+)                  :arg1  (x11 / 出-01
+                        :arg0  (x7 / 气
+))))      :op2  (x46 / temporal
+            :arg1  (x14_x15_x16 / 回头-01
+                  :arg0  (x48 / person
+                        :name  ( x13/西门豹 
+)))            :arg2  (x21 / 说-01
+                  :manner  (x18 / 看-02
+                        :arg0  (x48 / person
+)                        :aspect  (x19 / 着
+)                        :arg1  (x20 / x2
+))                  :arg0  (x48 / person
+)                  :arg1  (x54 / and
+                        :op1  (x26 / 回来-01
+                              :polarity  (x25 / -
+)                              :mod  (x24 / 还
+)                              :cause  (x23 / amr-unknown
+))                        :op2  (x28 / 请-01
+                              :arg0  (x48 / person
+)                              :arg1  (x29 / x2
+)                              :arg2  (x30 / 去-01
+                                    :arg0  (x2 / 官绅
+)                                    :arg1  (x31_x32 / 催-01
+                                          :arg0  (x2 / 官绅
+)))                              :mode  (x33 / imperative
+)                              :mode  (x34 / expressive
+)))                  :arg3  (x2 / 官绅
+))))
+===========================
+说着又要叫卫士把他们扔下漳河去。
+(x13 / and
+      :op1  (x1 / 说-01
+            :aspect  (x2 / 着
+))      :op2  (x4 / 要-03
+            :mod  (x3 / 又
+)            :arg0  (x5 / 叫-04
+                  :arg1  (x6 / 卫士
+)                  :arg2  (x9 / 扔下-01
+                        :arg0  (x6 / 卫士
+)                        :arg1  (x8 / 他们
+)                        :destination  (x24 / river
+                              :name  ( x10/漳河 
+))))))
+===========================
+官绅一个个吓得面如土色，跪下来磕头求饶，把头都磕破了，直淌血。
+(x26 / temporal
+      :arg1  (x5 / 吓-01
+            :cause-of  (x7 / 面如土色
+                  :arg0  (x1 / 官绅
+                        :quant  (x2_x3_x4 / 一个个
+)))            :arg1  (x1 / 官绅
+))      :arg2  (x9_x10 / 跪-01
+            :arg0  (x1 / 官绅
+))      :arg3  (x11 / 磕头-01
+            :arg0  (x1 / 官绅
+)            :purpose  (x12 / 求-02
+                  :arg2  (x13 / 饶
+)                  :arg0  (x1 / 官绅
+)))      :arg4  (x18 / 磕-02
+            :cause-of  (x19 / 破-01
+                  :aspect  (x20 / 了
+)                  :arg1  (x16 / 头
+                        :part-of  (x1 / 官绅
+))                  :mod  (x17 / 都
+))            :arg0  (x1 / 官绅
+)            :arg1  (x16 / 头
+))      :arg5  (x23 / 淌-01
+            :arg0  (x16 / 头
+)            :manner  (x22 / 直
+)            :arg1  (x24 / 血
+)))
+===========================
+西门豹说;“好吧，再等一会儿。”
+(x2 / 说-01
+      :arg0  (x13 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x15 / and
+            :op1  (x4 / 好
+                  :mode  (x5 / expressive
+))            :op2  (x8 / 等
+                  :mod  (x7 / 再
+)                  :duration  (x9 / 一会儿
+))))
+===========================
+过了一会儿，他才说:“起来吧。
+(x12 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了-01
+)            :duration  (x3 / 一会儿
+))      :arg2  (x7 / 说
+            :mod  (x6 / 才
+)            :arg0  (x5 / 他
+)            :arg1  (x9 / 起来
+                  :mode  (x10 / imperative
+))))
+===========================
+看样子是河伯把他们留下了。
+(x9 / condition
+      :arg1  (x1 / 看样子
+)      :arg2  (x6 / 留下-01
+            :aspect  (x7 / 了
+)            :arg0  (x3 / 河伯
+                  :mode  (x2 / judgement
+))            :arg1  (x5 / 他们
+)))
+===========================
+你们都回去吧。”
+(x6 / say
+      :arg1  (x3 / 回去-01
+            :arg0  (x1 / 你们
+                  :extent  (x2 / 都
+))            :mode  (x4 / imperative
+)))
+===========================
+老百姓都明白了，巫婆和官绅都是骗钱害人的。
+(x3 / 明白-01
+      :arg0  (x1 / 老百姓
+            :extent  (x2 / 都
+))      :arg1  (x20 / and
+            :mode  (x10_x14 / judgement
+)            :op1  (x11 / 骗-02
+                  :arg2  (x12 / 钱
+)                  :arg0  (x7 / and
+                        :op1  (x6 / 巫婆
+)                        :op2  (x8 / 官绅
+)                        :extent  (x9 / 都
+)))            :op2  (x13 / 害人-01
+                  :arg0  (x7 / and
+)))      :aspect  (x4 / 了
+))
+===========================
+从此，谁也不敢再提给河伯娶媳妇，漳河也没有发大水。
+(x20 / and
+      :time  (x1 / 从此
+)      :op1  (x6 / 敢-02
+            :polarity  (x5 / -
+)            :arg0  (x3 / amr-unknown
+)            :mod  (x4 / 也
+)            :arg1  (x8 / 提-01
+                  :mod  (x7 / 再
+)                  :arg0  (x3 / amr-unknown
+)                  :arg1  (x9 / 给-02
+                        :arg1  (x10 / 河伯
+)                        :arg2  (x11 / 娶-01
+                              :arg0  (x10 / 河伯
+)                              :arg1  (x12 / 媳妇
+)))))      :op2  (x17 / 发
+            :polarity  (x16 / -
+)            :arg0  (x35 / river
+                  :name  ( x14/漳河 
+))            :mod  (x15 / 也
+)            :arg1  (x18 / 大水
+)))
+===========================
+西门豹发动老百姓开凿了十二条渠道，把漳河的水引到田里。
+(x2 / 发动-02
+      :arg0  (x20 / person
+            :name  ( x1/西门豹 
+))      :arg1  (x3 / 老百姓
+)      :arg2  (x4 / 开凿-01
+            :aspect  (x5 / 了
+)            :arg0  (x3 / 老百姓
+)            :purpose  (x14_x15 / 引到-01
+                  :arg1  (x13 / 水
+                        :poss  (x30 / river
+                              :name  ( x11/漳河 
+)))                  :arg2  (x16_1 / 田
+))            :arg1  (x8 / 渠道
+                  :cunit  (x7 / 条
+)                  :quant  (x6 / 12
+))))
+===========================
+庄稼得到了灌溉，年年都得到了好收成。
+(x14 / and
+      :op1  (x2 / 得到-01
+            :arg0  (x1 / 庄稼
+)            :aspect  (x3 / 了
+)            :arg1  (x4 / 灌溉-01
+                  :arg1  (x1 / 庄稼
+)))      :op2  (x9 / 得到-01
+            :arg1  (x12 / 收成
+                  :arg0-of  (x11 / 好-01
+))            :aspect  (x10 / 了
+)            :frequency  (x6_x7 / 年年
+                  :extent  (x8 / 都
+))))
+===========================

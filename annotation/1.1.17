@@ -1,0 +1,66 @@
+下雪啦,下雪啦!
+(x8 / and
+      :op1  (x1 / 下雪
+            :mode  (x2 / expressive
+))      :op2  (x4 / 下雪
+            :mode  (x5_x6 / expressive
+)))
+===========================
+雪地里来了一群小画家。
+(x3 / 来-01
+      :aspect  (x4 / 了
+)      :arg0  (x8 / 画家
+            :arg0-of  (x7 / 小
+)            :quant  (x5 / 1
+)            :cunit  (x6 / 群
+))      :arg2  (x1 / 雪地
+))
+===========================
+小鸡画竹叶,小狗画梅花,小鸭画枫叶,小马画月牙。
+(x17 / and
+      :op1  (x2 / 画-01
+            :arg0  (x1 / 小鸡
+)            :arg1  (x3 / 竹叶
+))      :op2  (x6 / 画-01
+            :arg0  (x5 / 小狗
+)            :arg1  (x7 / 梅花
+))      :op3  (x10 / 画-01
+            :arg0  (x9 / 小鸭
+)            :arg1  (x11 / 枫叶
+))      :op4  (x14 / 画-01
+            :arg0  (x13 / 小马
+)            :arg1  (x15 / 月牙
+)))
+===========================
+不用颜料不用笔,几步就成一幅画。
+(x16 / condition
+      :arg1  (x18 / and
+            :op1  (x2 / 用-01
+                  :polarity  (x1 / -
+)                  :arg1  (x3 / 颜料
+))            :op2  (x5 / 用-01
+                  :polarity  (x4 / -
+)                  :arg1  (x6 / 笔
+))            :op3  (x21 / thing
+                  :quant  (x8 / 几
+)                  :cunit  (x9 / 步
+)))      :arg2  (x11 / 成-01
+            :arg1  (x14 / 画
+                  :quant  (x12 / 1
+))            :cunit  (x13 / 幅
+)            :mod  (x10 / 就
+)))
+===========================
+青蛙为什么没参加?他在洞里睡着啦。
+(x13 / and
+      :op1  (x4 / 参加-01
+            :cause  (x2 / amr-unknown
+)            :arg0  (x1 / 青蛙
+)            :polarity  (x3 / -
+)            :mode  (x5 / interrogative
+))      :op2  (x10 / 睡着-01
+            :mode  (x11 / expressive
+)            :arg0  (x6 / 他
+)            :location  (x8 / 洞
+)))
+===========================

@@ -1,0 +1,1312 @@
+战国时候，秦国最强，常常进攻别的国家。
+(x13 / causation
+      :arg1  (x6 / 强-01
+            :arg0  (x16 / country
+                  :name  ( x4/秦国 
+))            :degree  (x5 / 最
+))      :arg2  (x9 / 进攻-01
+            :arg1  (x11 / 国家
+                  :mod  (x10 / 别的
+))            :frequency  (x8 / 常常
+)            :arg0  (x16 / country
+))      :time  (x1 / 战国
+))
+===========================
+有一回，赵王得了一件无价之宝，叫和氏璧。
+(x6 / 得-01
+      :arg0  (x17 / person
+            :arg0-of  (x18 / have-org-role-91
+                  :arg2  (x5 / 赵王
+)))      :arg1  (x10 / 无价之宝
+            :arg0-of  (x12 / 叫-01
+                  :arg1  (x13 / 和氏璧
+))            :quant  (x8 / 1
+)            :cunit  (x9 / 件
+))      :aspect  (x7 / 了
+)      :time  (x1_x2_x3 / 有一回
+))
+===========================
+秦王知道了，就写一封信给赵王，说愿意拿十五座城换这块璧。
+(x23 / temporal
+      :arg1  (x2 / 知道-01
+            :arg0  (x26 / person
+                  :arg0-of  (x27 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :aspect  (x3 / 了
+))      :arg2  (x30 / and
+            :op1  (x6 / 写-01
+                  :arg1  (x9 / 信
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 封
+)                        :arg1-of  (x10 / 给-01
+                              :arg2  (x36 / person
+                                    :arg0-of  (x37 / have-org-role-91
+                                          :arg2  (x11 / 赵王
+))))))            :op2  (x13 / 说-01
+                  :arg1  (x14 / 愿意-01
+                        :arg1  (x15 / 拿-02
+                              :arg1  (x18 / 城
+                                    :quant  (x16 / 15
+)                                    :cunit  (x17 / 座
+))                              :purpose  (x19 / 换-01
+                                    :arg2  (x21 / 璧
+                                          :mod  (x20_1 / 这
+)                                          :cunit  (x20_2 / 块
+))                                    :arg1  (x18 / 城
+))))                  :arg0  (x26 / person
+))))
+===========================
+赵王接到了信非常着急，立即召集大臣来商议。
+(x14 / causation
+      :arg1  (x16 / temporal
+            :arg1  (x2 / 接到-01
+                  :arg0  (x18 / person
+                        :arg0-of  (x19 / have-org-role-91
+                              :arg2  (x1 / 赵王
+)))                  :arg1  (x4 / 信
+)                  :aspect  (x3 / 了
+))            :arg2  (x6 / 着急-01
+                  :degree  (x5 / 非常
+)                  :arg0  (x18 / person
+)))      :arg2  (x9 / 召集-01
+            :mod  (x8 / 立即
+)            :arg1  (x10 / 大臣
+)            :arg2  (x12 / 商议-01
+                  :arg0  (x10 / 大臣
+))            :arg0  (x18 / person
+)))
+===========================
+大家说秦王不过想把和氏璧骗到手罢了，不能上他的当，可是不答应，又怕他派兵来进攻。
+(x2 / 说-01
+      :arg0  (x1 / 大家
+)      :arg1  (x32 / contrast
+            :arg1  (x33 / causation
+                  :arg1  (x5 / 想-02
+                        :arg0  (x35 / person
+                              :arg0-of  (x36 / have-org-role-91
+                                    :arg2  (x3 / 秦王
+)))                        :mod  (x4 / 不过
+)                        :arg1  (x8 / 骗-01
+                              :arg1  (x7 / 和氏璧
+)                              :cause-of  (x9 / 到手
+))                        :mode  (x10 / expressive
+))                  :arg2  (x12_2 / 能-01
+                        :polarity  (x12_1 / -
+)                        :arg0  (x13_x16 / 上当-01
+                              :arg1  (x14 / x35
+))))            :arg2  (x47 / condition
+                  :arg1  (x20 / 答应
+                        :polarity  (x19 / -
+))                  :arg2  (x23 / 怕-01
+                        :arg1  (x25 / 派兵-01
+                              :arg0  (x24 / x35
+)                              :purpose  (x27 / 进攻-01
+                                    :arg0  (x24 / x35
+)))))))
+===========================
+正在为难的时候，有人说有个叫蔺相如的，勇敢机智，也许他能解决这个难题。
+(x7 / 说-01
+      :arg0  (x6_2 / 人
+            :arg1-of  (x6_1 / 有-03
+))      :arg1  (x30 / and
+            :op1  (x8 / 有-03
+                  :arg1  (x32 / person
+                        :arg0-of  (x10 / 叫-01
+                              :arg1  (x11 / 蔺相如
+))                        :name  ( x9/个 
+)))            :op2  (x36 / and
+                  :op1  (x14 / 勇敢-01
+                        :arg0  (x32 / person
+))                  :op2  (x15 / 机智
+                        :arg0  (x32 / person
+)))            :op3  (x17 / 也许
+                  :arg0  (x19 / 能-01
+                        :arg0  (x20 / 解决-01
+                              :arg1  (x22 / 难题
+                                    :mod  (x21_1 / 这
+)                                    :cunit  (x21_2 / 个
+))                              :arg0  (x18 / x32
+)))))      :time  (x2 / 为难
+            :aspect  (x1 / 正在
+)))
+===========================
+赵王把蔺相如找来，问他该怎么办。
+(x12 / temporal
+      :arg1  (x4_x5 / 找来-01
+            :arg0  (x15 / person
+                  :arg0-of  (x16 / have-org-role-91
+                        :arg2  (x1 / 赵王
+)))            :arg1  (x18 / person
+                  :name  ( x3/蔺相如 
+)))      :arg2  (x7 / 问-01
+            :arg2  (x8 / x15
+)            :arg1  (x9 / 该-01
+                  :arg0  (x10 / 怎么办
+))))
+===========================
+蔺相如想了一会儿，说：“我愿意带着和氏璧到秦国去。
+(x17 / temporal
+      :arg1  (x2 / 想-01
+            :arg0  (x20 / person
+                  :name  ( x1/蔺相如 
+))            :duration  (x4 / 一会儿
+)            :aspect  (x3 / 了
+))      :arg2  (x6 / 说-01
+            :arg1  (x9 / 愿意-01
+                  :arg0  (x8 / x20
+)                  :arg1  (x10 / 带-02
+                        :aspect  (x11 / 着
+)                        :arg1  (x12 / 和氏璧
+)                        :arg3  (x30 / country
+                              :name  ( x14/秦国 
+))                        :arg0  (x8 / x20
+)))))
+===========================
+如果秦王真的拿十五座城来换，我就把璧交给他；如果他不肯交出十五座城，我一定把璧送回来。
+(x35 / and
+      :op1  (x37 / condition
+            :arg1  (x5 / 拿-02
+                  :arg0  (x40 / person
+                        :arg0-of  (x41 / have-org-role-91
+                              :arg2  (x2 / 秦王
+)))                  :mod  (x3_x4 / 真的
+)                  :arg1  (x8 / 城
+                        :quant  (x6 / 15
+)                        :cunit  (x7 / 座
+))                  :purpose  (x10 / 换
+))            :arg2  (x16 / 交给-01
+                  :arg0  (x12 / 我
+)                  :arg1  (x15 / 璧
+)                  :arg2  (x17 / x40
+)))      :op2  (x52 / condition
+            :arg1  (x22 / 肯-01
+                  :polarity  (x21 / -
+)                  :arg1  (x23 / 交出-01
+                        :arg0  (x20 / x40
+)                        :arg1  (x26 / 城
+                              :quant  (x24 / 15
+)                              :cunit  (x25 / 座
+)))                  :arg0  (x20 / x40
+))            :arg2  (x29 / 一定
+                  :arg0  (x32 / 送-02
+                        :arg0  (x28 / x12
+)                        :arg2  (x31 / x15
+)                        :arg3  (x33 / 回来
+)))))
+===========================
+那时候秦国理屈，就没有动兵的理由。”
+(x14 / say
+      :arg1  (x16 / causation
+            :arg1  (x5 / 屈-01
+                  :arg1  (x4 / 理
+                        :poss  (x19 / country
+                              :name  ( x3/秦国 
+)))                  :time  (x1_x2 / 那时候
+))            :arg2  (x8_2 / 有-03
+                  :arg1  (x12 / 理由
+                        :topic  (x9 / 动-01
+                              :arg1  (x10 / 兵
+)))                  :polarity  (x8_1 / -
+)                  :arg0  (x19 / country
+))))
+===========================
+赵王和大臣们没有别的办法，只好派蔺相如带着和氏璧到秦国去。
+(x19 / causation
+      :arg1  (x5_2 / 有-01
+            :arg0  (x2 / and
+                  :op1  (x23 / person
+                        :arg0-of  (x24 / have-org-role-91
+                              :arg2  (x1 / 赵王
+)))                  :op2  (x3_x4 / 大臣们
+))            :arg1  (x7 / 办法
+                  :mod  (x6 / 别的
+))            :polarity  (x5_1 / -
+))      :arg2  (x10 / 派-01
+            :mod  (x9 / 只好
+)            :arg1  (x32 / person
+                  :name  ( x11/蔺相如 
+))            :arg2  (x15 / 到-01
+                  :arg1  (x35 / country
+                        :name  ( x16/秦国 
+))                  :manner  (x12 / 带-02
+                        :arg1  (x14 / 和氏璧
+)                        :aspect  (x13 / 着
+)))))
+===========================
+蔺相如到了秦国，进宫见了秦王，献上和氏璧。
+(x15 / temporal
+      :arg1  (x2 / 到-01
+            :arg0  (x18 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x20 / country
+                  :name  ( x4/秦国 
+))            :aspect  (x3 / 了
+))      :arg2  (x6 / 进宫
+)      :arg3  (x7 / 见-01
+            :arg1  (x25 / person
+                  :arg0-of  (x26 / have-org-role-91
+                        :arg2  (x9 / 秦王
+)))            :aspect  (x8 / 了
+)            :arg0  (x18 / person
+))      :arg4  (x11_x12 / 献上-01
+            :arg1  (x13 / 和氏璧
+)            :arg0  (x18 / person
+)            :arg2  (x25 / person
+)))
+===========================
+秦王双手捧住璧，一边看一边称赞，绝口不提十五座城的事。
+(x21 / contrast
+      :arg1  (x23 / and
+            :op1  (x3_x4 / 捧住
+                  :arg0  (x25 / person
+                        :arg0-of  (x26 / have-org-role-91
+                              :arg2  (x1 / 秦王
+)))                  :instrument  (x2 / 双手
+)                  :arg1  (x5 / 璧
+))            :op2  (x29 / and
+                  :op1  (x8 / 看-02
+                        :arg1  (x5 / 璧
+)                        :arg0  (x25 / person
+))                  :op2  (x10 / 称赞-01
+                        :arg0  (x25 / person
+)                        :arg1  (x5 / 璧
+))))      :arg2  (x14 / 提-04
+            :arg1  (x19 / 事
+                  :mod  (x17 / 城
+                        :quant  (x15 / 15
+)                        :cunit  (x16 / 座
+)))            :polarity  (x13 / -
+)            :mod  (x12 / 绝口
+)))
+===========================
+蔺相如看这情形，知道秦王没有拿城换璧的诚意，就上前一步，说：“这块璧有点儿小毛病，让我指给您看。”
+(x37 / causation
+      :arg1  (x39 / and
+            :op1  (x2 / 看-02
+                  :arg0  (x41 / person
+                        :name  ( x1/蔺相如 
+))                  :arg1  (x4 / 情形
+                        :mod  (x3 / 这
+)))            :op2  (x6 / 知道-01
+                  :arg1  (x8_2 / 有-01
+                        :arg0  (x47 / person
+                              :arg0-of  (x48 / have-org-role-91
+                                    :arg2  (x7 / 秦王
+)))                        :polarity  (x8_1 / -
+)                        :arg1  (x14 / 诚意
+                              :mod  (x11 / 换-01
+                                    :arg1  (x10 / 城
+)                                    :arg2  (x12 / 璧
+))))))      :arg2  (x55 / temporal
+            :arg1  (x17 / 上前-01
+                  :arg0  (x41 / person
+)                  :quant  (x18 / 1
+)                  :unit  (x19 / 步
+))            :arg2  (x21 / 说-01
+                  :arg1  (x60 / causation
+                        :arg1  (x25 / 有-05
+                              :arg1  (x28 / 毛病
+                                    :arg0-of  (x27 / 小-01
+)                                    :degree  (x26 / 点儿
+))                              :arg0  (x24 / x12
+                                    :mod  (x23_1 / 这
+)                                    :cunit  (x23_2 / 块
+)))                        :arg2  (x30 / 让-02
+                              :arg1  (x31 / x41
+)                              :arg2  (x32 / 指
+                                    :purpose  (x35 / 看-02
+                                          :arg0  (x34 / x47
+)                                          :arg1  (x24 / x12
+))))))))
+===========================
+秦王听他这么一说，就把和氏璧交给了蔺相如。
+(x15 / temporal
+      :arg1  (x2 / 听-01
+            :arg0  (x18 / person
+                  :arg0-of  (x19 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :arg1  (x6 / 说-01
+                  :arg0  (x3 / 他
+)                  :mod  (x4 / 这么
+)                  :mod  (x5 / 一
+)))      :arg2  (x11 / 交给-01
+            :arg1  (x10 / 和氏璧
+)            :aspect  (x12 / 了
+)            :arg2  (x28 / person
+                  :name  ( x13/蔺相如 
+))            :arg0  (x18 / person
+)))
+===========================
+蔺相如捧着璧，往后退了几步，靠着柱子站定。
+(x19 / temporal
+      :arg1  (x2 / 捧-01
+            :arg0  (x22 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x4 / 璧
+)            :aspect  (x3 / 着
+))      :arg2  (x8 / 退-01
+            :arg0  (x22 / person
+)            :quant  (x10 / 几
+)            :unit  (x11 / 步
+)            :aspect  (x9 / 了
+)            :direction  (x7 / 后
+))      :arg3  (x16 / 站-01
+            :manner  (x13 / 靠-03
+                  :arg1  (x15 / 柱子
+)                  :aspect  (x14 / 着
+))            :cause-of  (x17 / 定
+)            :arg0  (x22 / person
+)))
+===========================
+他理直气壮地说：“我看您并不想交付十五座城。
+(x4 / 说-01
+      :arg0  (x1 / 他
+)      :manner  (x2 / 理直气壮
+)      :arg1  (x7 / 看-02
+            :arg0  (x6 / x1
+)            :arg1  (x11 / 想-02
+                  :arg0  (x8 / 您
+)                  :polarity  (x10 / -
+)                  :mod  (x9 / 并
+)                  :arg1  (x12 / 交付-01
+                        :arg1  (x15 / 城
+                              :quant  (x13 / 15
+)                              :cunit  (x14 / 座
+))))))
+===========================
+现在璧在我手里，您要是强逼我，我的脑袋和璧就一块儿撞碎在这柱子上！”
+(x28 / say
+      :arg1  (x30 / and
+            :op1  (x3 / 在-01
+                  :arg0  (x2 / 璧
+)                  :arg1  (x5 / 手里
+                        :part-of  (x4 / 我
+)))            :op2  (x35 / condition
+                  :arg1  (x10_x11 / 强逼-01
+                        :arg0  (x7 / 您
+)                        :arg1  (x12 / x4
+))                  :mode  (x27 / expressive
+)                  :arg2  (x21_x22 / 撞碎-01
+                        :arg0  (x17 / and
+                              :op1  (x16 / 脑袋
+                                    :part-of  (x14 / x4
+))                              :op2  (x18 / 璧
+))                        :arg1  (x25 / 柱子
+                              :mod  (x24 / 这
+))                        :mod  (x19 / 就
+)                        :mode  (x27 / expressive
+)                        :manner  (x20 / 一块儿
+)))))
+===========================
+说着，他举起和氏璧就要往柱子上撞。
+(x13 / temporal
+      :arg1  (x1 / 说-01
+            :aspect  (x2 / 着
+))      :arg2  (x5 / 举起-01
+            :arg0  (x4 / 他
+)            :arg1  (x6 / 和氏璧
+))      :arg3  (x7_2 / 要-03
+            :mod  (x7_1 / 就
+)            :arg0  (x11 / 撞-01
+                  :arg1  (x9 / 柱子
+))))
+===========================
+秦王怕他真的把璧撞碎了，连忙说一切都好商量，就叫人拿出地图，把允诺划归赵国的十五座城指给他看。
+(x39 / causation
+      :arg1  (x2 / 怕-01
+            :arg0  (x42 / person
+                  :arg0-of  (x43 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :arg1  (x8_x9 / 撞碎-01
+                  :arg0  (x3 / 他
+)                  :arg1  (x7 / 璧
+)                  :mod  (x4_x5 / 真的
+))            :aspect  (x10 / 了
+))      :arg2  (x50 / temporal
+            :arg1  (x13 / 说-01
+                  :manner  (x12 / 连忙
+)                  :arg1  (x16 / 好-04
+                        :arg1  (x17 / 商量-01
+                              :arg1  (x14 / 一切
+))                        :extent  (x15 / 都
+)))            :arg2  (x20 / 叫-04
+                  :arg1  (x21 / 人
+)                  :arg2  (x22_x23 / 拿出-01
+                        :arg1  (x24 / 地图
+)))            :arg3  (x34 / 指-02
+                  :arg1  (x33 / 城
+                        :quant  (x31 / 15
+)                        :cunit  (x32 / 座
+)                        :arg1-of  (x28 / 划归-01
+                              :arg2  (x66 / country
+                                    :name  ( x29/赵国 
+))                              :arg1-of  (x27 / 允诺-01
+                                    :arg0  (x42 / person
+)))))))
+===========================
+蔺相如说和氏璧是无价之宝，要举行个隆重的典礼，他才肯交出来。
+(x20 / causation
+      :arg1  (x2 / 说-01
+            :arg0  (x23 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x5 / 无价之宝
+                  :domain  (x3 / 和氏璧
+)))      :arg2  (x27 / condition
+            :arg1  (x7 / 要-03
+                  :arg0  (x8 / 举行-01
+                        :arg1  (x12 / 典礼
+                              :arg0-of  (x10 / 隆重-01
+)                              :cunit  (x9 / 个
+))))            :arg2  (x16 / 肯-01
+                  :arg0  (x14 / x23
+)                  :arg1  (x17_x18 / 交-01
+                        :arg0  (x14 / x23
+)                        :arg1  (x3 / 和氏璧
+)))))
+===========================
+秦王只好跟他约定了举行典礼的日期。
+(x5 / 约定-01
+      :arg0  (x3 / and
+            :op1  (x15 / person
+                  :arg0-of  (x16 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :op2  (x4 / 他
+))      :mod  (x2 / 只好
+)      :arg1  (x10 / 日期
+            :time-of  (x7 / 举行-01
+                  :arg1  (x8 / 典礼
+)))      :aspect  (x6 / 了
+))
+===========================
+蔺相如知道秦王丝毫没有拿城换璧的诚意，一回到宾馆，就叫手下人化了装，带着和氏璧抄小路先回赵国去了。
+(x35 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x38 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x5_2 / 有-01
+                  :polarity  (x5_1 / -
+)                  :arg0  (x43 / person
+                        :arg0-of  (x44 / have-org-role-91
+                              :arg2  (x3 / 秦王
+)))                  :arg1  (x11 / 诚意
+                        :mod  (x8 / 换-01
+                              :arg1  (x7 / 城
+)                              :arg2  (x9 / 璧
+)))                  :mod  (x4 / 丝毫
+)))      :arg2  (x51 / temporal
+            :arg1  (x14 / 回到-01
+                  :arg1  (x15 / 宾馆
+)                  :arg0  (x38 / person
+))            :arg2  (x18 / 叫-04
+                  :arg0  (x38 / person
+)                  :arg1  (x19 / 手下人
+)                  :arg2  (x20_x22 / 化装-01
+                        :aspect  (x21 / 了
+)                        :arg0  (x19 / 手下人
+)))            :arg3  (x30 / 回-01
+                  :arg1  (x59 / country
+                        :name  ( x31/赵国 
+))                  :manner  (x24 / 带-02
+                        :arg1  (x26 / 和氏璧
+)                        :aspect  (x25 / 着
+))                  :manner  (x27 / 抄
+                        :arg1  (x28 / 小路
+))                  :aspect  (x33 / 了
+))))
+===========================
+到了举行典礼那一天，蔺相如进宫见了秦王，大大方方地说：“和氏璧已经送回赵国去了。
+(x26 / temporal
+      :arg1  (x9 / 进宫
+            :arg0  (x29 / person
+                  :name  ( x8/蔺相如 
+)))      :arg2  (x10 / 见-01
+            :arg1  (x32 / person
+                  :arg0-of  (x33 / have-org-role-91
+                        :arg2  (x12 / 秦王
+)))            :aspect  (x11 / 了
+))      :arg3  (x16 / 说-01
+            :manner  (x14 / 大方
+)            :arg1  (x20_x21 / 送回-01
+                  :arg1  (x18 / 和氏璧
+)                  :arg2  (x40 / country
+                        :name  ( x22/赵国 
+))                  :aspect  (x19 / 已经
+)                  :aspect  (x24 / 了
+)))      :time  (x1 / 到-01
+            :arg1  (x6 / 一天
+                  :mod  (x5 / 那
+)                  :time-of  (x3 / 举行-01
+                        :arg1  (x4 / 典礼
+)))            :aspect  (x2 / 了
+)))
+===========================
+您如果有诚意的话，先把十五座城交给我国，我国马上派人把璧送来，决不失信。
+(x26 / condition
+      :arg1  (x3 / 有-01
+            :arg0  (x1 / 您
+)            :arg1  (x4 / 诚意
+))      :arg2  (x31 / and
+            :op1  (x32 / temporal
+                  :arg1  (x12 / 交给-01
+                        :arg1  (x11 / 城
+                              :quant  (x9 / 15
+)                              :cunit  (x10 / 座
+))                        :arg2  (x13 / 我国
+))                  :arg2  (x17 / 派-01
+                        :arg1  (x18 / 人
+)                        :arg2  (x21 / 送来-01
+                              :arg1  (x20 / 璧
+))                        :arg0  (x15 / x13
+)                        :time  (x16 / 马上
+)))            :op2  (x24 / 失信-01
+                  :polarity  (x23 / -
+)                  :arg0  (x15 / x13
+))))
+===========================
+不然，您杀了我也没有用，天下的人都知道秦国是从来不讲信用的！”
+(x23 / orx
+      :op2  (x25 / causation
+            :arg2  (x8_2 / 有-05
+                  :arg1  (x9 / 用
+)                  :arg0  (x4 / 杀-01
+                        :arg0  (x3 / 您
+)                        :arg1  (x6 / 我
+)                        :aspect  (x5 / 了
+))                  :polarity  (x8_1 / -
+)                  :mod  (x7 / 也
+))            :arg1  (x15 / 知道-01
+                  :arg0  (x13 / 人
+                        :range  (x11 / 天下
+))                  :arg1  (x19_2 / 讲
+                        :arg1  (x20 / 信用
+)                        :arg0  (x39 / country
+                              :name  ( x16/秦国 
+)))                  :extent  (x14 / 都
+)                  :mode  (x17_x21 / judgement
+)                  :mode  (x22 / expressive
+)                  :time  (x18 / 从来
+))))
+===========================
+秦王没有办法，只得客客气气地把蔺相如送回赵国。
+(x14 / causation
+      :arg1  (x2_2 / 有-01
+            :arg0  (x17 / person
+                  :arg0-of  (x18 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :arg1  (x3 / 办法
+)            :polarity  (x2_1 / -
+))      :arg2  (x5 / 只得
+            :arg0  (x10_x11 / 送回-01
+                  :arg1  (x24 / person
+                        :name  ( x9/蔺相如 
+))                  :arg2  (x26 / country
+                        :name  ( x12/赵国 
+))                  :manner  (x6 / 客气
+))))
+===========================
+这就是“完璧归赵”的故事。
+(x7 / 故事
+      :topic  (x4 / 完璧归赵
+)      :domain  (x1 / 这
+))
+===========================
+蔺相如立了功，赵王封他做上大夫。
+(x12 / causation
+      :arg1  (x2_x4 / 立功-01
+            :aspect  (x3 / 了
+)            :arg0  (x16 / person
+                  :name  ( x1/蔺相如 
+)))      :arg2  (x7 / 封-01
+            :arg0  (x19 / person
+                  :arg0-of  (x20 / have-org-role-91
+                        :arg2  (x6 / 赵王
+)))            :arg1  (x8 / x16
+)            :arg2  (x24 / person
+                  :arg0-of  (x25 / have-org-role-91
+                        :arg2  (x10 / 上大夫
+)))))
+===========================
+过了几年，秦王约赵王在渑池会见。
+(x6 / 约-01
+      :arg0  (x14 / person
+            :arg0-of  (x15 / have-org-role-91
+                  :arg2  (x5 / 秦王
+)))      :arg1  (x17 / person
+            :arg0-of  (x18 / have-org-role-91
+                  :arg2  (x7 / 赵王
+)))      :arg2  (x10 / 会见-01
+            :location  (x21 / city
+                  :name  ( x9/渑池 
+)))      :time  (x1 / 过-02
+            :arg1  (x24 / temporal-quantity
+                  :quant  (x3_1 / 几
+)                  :unit  (x3_2 / 年
+))            :aspect  (x2 / 了
+)))
+===========================
+赵王和大臣们商议说：“去吧，怕有危险；不去吧，又显得太胆怯。”
+(x24 / and
+      :op1  (x5 / 商议-01
+            :arg0  (x2 / and
+                  :op1  (x28 / person
+                        :arg0-of  (x29 / have-org-role-91
+                              :arg2  (x1 / 赵王
+)))                  :op2  (x3_x4 / 大臣们
+)))      :op2  (x6 / 说-01
+            :arg0  (x2 / and
+)            :arg1  (x33 / or
+                  :op1  (x34 / condition
+                        :arg1  (x8 / 去
+                              :mode  (x9 / imperative
+))                        :arg2  (x11 / 怕-01
+                              :arg1  (x12 / 有-03
+                                    :arg1  (x13 / 危险
+))))                  :op2  (x43 / condition
+                        :arg1  (x16 / 去
+                              :mode  (x17 / imperative
+)                              :polarity  (x15 / -
+))                        :arg2  (x20 / 显得-01
+                              :arg1  (x22 / 胆怯
+                                    :degree  (x21 / 太
+))                              :mod  (x19 / 又
+))))))
+===========================
+蔺相如认为对秦王不能示弱，还是去的好，赵王才决定动身，让蔺相如随行。
+(x22 / causation
+      :arg1  (x2 / 认为-01
+            :arg0  (x25 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x27 / and
+                  :op1  (x5_2 / 能-01
+                        :polarity  (x5_1 / -
+)                        :arg0  (x6 / 示弱-01
+                              :arg1  (x31 / person
+                                    :arg0-of  (x32 / have-org-role-91
+                                          :arg2  (x4 / 秦王
+)))))                  :op2  (x11 / 好
+                        :arg0  (x9 / 去
+)                        :mod  (x8 / 还是
+))))      :arg2  (x37 / and
+            :op1  (x15 / 决定-01
+                  :arg0  (x39 / person
+                        :arg0-of  (x40 / have-org-role-91
+                              :arg2  (x13 / 赵王
+)))                  :arg1  (x16 / 动身-01
+                        :arg0  (x39 / person
+)))            :op2  (x18 / 让-02
+                  :arg1  (x44 / person
+                        :name  ( x19/蔺相如 
+))                  :arg2  (x20 / 随行-01
+                        :arg0  (x44 / person
+)                        :arg1  (x39 / person
+)))))
+===========================
+大将军廉颇带着军队送他们到边界上，作好了抵御秦兵的准备。
+(x20 / and
+      :op1  (x3 / 带
+            :arg0  (x23 / person
+                  :arg0-of  (x24 / have-org-role
+                        :arg2  (x1 / 大将军
+                              :name  ( x2/廉颇 
+))))            :arg1  (x5 / 军队
+)            :arg2  (x6 / 送
+                  :arg1  (x7 / 他们
+)                  :arg3  (x9 / 边界
+))            :aspect  (x4 / 着
+))      :op2  (x12_x13 / 作好-01
+            :arg1  (x18 / 准备-01
+                  :arg1  (x15 / 抵御-01
+                        :arg1  (x36 / military
+                              :name  ( x16/秦兵 
+))))            :aspect  (x14 / 了
+)))
+===========================
+赵王到了绳池，会见了秦王。
+(x10 / temporal
+      :arg1  (x2 / 到-01
+            :arg0  (x13 / person
+                  :arg0-of  (x14 / have-org-role-91
+                        :arg2  (x1 / 赵王
+)))            :arg1  (x16 / city
+                  :name  ( x4/绳池 
+))            :aspect  (x3 / 了
+))      :arg2  (x6 / 会见-01
+            :arg1  (x20 / person
+                  :arg0-of  (x21 / have-org-role-91
+                        :arg2  (x8 / 秦王
+)))            :aspect  (x7 / 了
+)            :arg0  (x13 / person
+)))
+===========================
+秦王要赵王鼓瑟。
+(x2 / 要-01
+      :arg0  (x9 / person
+            :arg0-of  (x10 / have-org-role-91
+                  :arg2  (x1 / 秦王
+)))      :arg2  (x12 / person
+            :arg0-of  (x13 / have-org-role-91
+                  :arg2  (x3 / 赵王
+)))      :arg1  (x4 / 鼓
+            :arg1  (x5 / 瑟
+)            :arg0  (x12 / person
+)))
+===========================
+赵王不好推辞，鼓了一段。
+(x10 / causation
+      :arg1  (x2_2 / 好
+            :arg0  (x3 / 推辞-01
+                  :arg0  (x14 / person
+                        :arg0-of  (x15 / have-org-role-91
+                              :arg2  (x1 / 赵王
+))))            :polarity  (x2_1 / -
+))      :arg2  (x5 / 鼓
+            :quant  (x7 / 1
+)            :cunit  (x8 / 段
+)            :aspect  (x6 / 了
+)            :arg0  (x14 / person
+)))
+===========================
+秦王就叫人记录下来，说在渑池会上，赵王为秦王鼓瑟。
+(x19 / and
+      :op1  (x3 / 叫-01
+            :arg0  (x22 / person
+                  :arg0-of  (x23 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :mod  (x2 / 就
+)            :arg1  (x4 / 人
+)            :arg2  (x5_x6 / 记录-01
+                  :arg1  (x16 / 鼓
+                        :arg0  (x29 / person
+                              :arg0-of  (x30 / have-org-role-91
+                                    :arg2  (x13 / 赵王
+)))                        :beneficiary  (x32 / person
+                              :arg0-of  (x33 / have-org-role-91
+                                    :arg2  (x15 / x22
+)))                        :arg1  (x17 / 瑟
+))                  :location  (x10_x11 / 渑池会
+))))
+===========================
+蔺相如看秦王这样侮辱赵王，生气极了。
+(x11 / causation
+      :arg1  (x2 / 看-02
+            :arg0  (x14 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x5 / 侮辱-01
+                  :arg0  (x17 / person
+                        :arg0-of  (x18 / have-org-role-91
+                              :arg2  (x3 / 秦王
+)))                  :arg1  (x20 / person
+                        :arg0-of  (x21 / have-org-role-91
+                              :arg2  (x6 / 赵王
+)))                  :mod  (x4 / 这样
+)))      :arg2  (x8 / 生气-01
+            :degree  (x9 / 极了
+)            :arg0  (x14 / person
+)))
+===========================
+他走到秦王面前，说：“请您为赵王击缶。
+(x16 / temporal
+      :arg1  (x2_x3 / 走到-01
+            :arg0  (x1 / 他
+)            :arg1  (x5 / 面前
+                  :arg0  (x21 / person
+                        :arg0-of  (x22 / have-org-role-91
+                              :arg2  (x4 / 秦王
+)))))      :arg2  (x7 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x9 / 请-01
+                  :arg1  (x10 / x21
+)                  :arg2  (x13 / 击-01
+                        :arg1  (x14 / 缶
+)                        :arg0  (x10 / x21
+)                        :beneficiary  (x30 / person
+                              :arg0-of  (x31 / have-org-role
+                                    :arg2  (x12 / 赵王
+)))))))
+===========================
+秦王拒绝了。
+(x2 / 拒绝-01
+      :arg0  (x7 / person
+            :arg0-of  (x8 / have-org-role-91
+                  :arg2  (x1 / 秦王
+)))      :aspect  (x3 / 了
+))
+===========================
+蔺相如再要求，秦王还是拒绝。
+(x9 / temporal
+      :arg2  (x3 / 要求-01
+            :arg0  (x12 / person
+                  :name  ( x1/蔺相如 
+)))      :arg3  (x7 / 拒绝-01
+            :arg0  (x15 / person
+                  :arg0-of  (x16 / have-org-role-91
+                        :arg2  (x5 / 秦王
+)))            :mod  (x6 / 还是
+)))
+===========================
+蔺相如说：“您现在离我只有五步远。
+(x2 / 说-01
+      :arg0  (x15 / person
+            :name  ( x1/蔺相如 
+))      :arg1  (x6 / 离-02
+            :arg0  (x4 / 您
+)            :arg1  (x7 / x15
+)            :arg2  (x21 / distance-quantity
+                  :quant  (x9 / 5
+)                  :unit  (x10 / 步
+)                  :mod  (x8 / 只有
+))            :time  (x5 / 现在
+)))
+===========================
+您不答应，我就跟您拼了！”
+(x12 / say
+      :arg1  (x14 / condition
+            :arg1  (x3 / 答应-01
+                  :arg0  (x1 / 您
+)                  :polarity  (x2 / -
+))            :arg2  (x9 / 拼-02
+                  :arg0  (x5 / 我
+)                  :arg1  (x8 / x1
+)                  :aspect  (x10 / 了
+))            :mode  (x11 / expressive
+)))
+===========================
+秦王被逼得没法，只好敲了一下缶。
+(x20 / causation
+      :arg1  (x3 / 逼-01
+            :arg1  (x15 / person
+                  :arg0-of  (x16 / have-org-role-91
+                        :arg2  (x1 / 秦王
+)))            :arg0  (x18 / person
+)            :cause-of  (x5 / 没法
+))      :arg2  (x8 / 敲-01
+            :arg0  (x15 / person
+)            :arg1  (x11 / 缶
+)            :frequency  (x10 / 一下
+)            :aspect  (x9 / 了
+)            :mod  (x7 / 只好
+)))
+===========================
+蔺相如也叫人记录下来，说在绳池会上，秦王为赵王击缶。
+(x3 / 叫-04
+      :arg0  (x21 / person
+            :name  ( x1/蔺相如 
+))      :mod  (x2 / 也
+)      :arg1  (x4 / 人
+)      :arg2  (x5_x6 / 记录-01
+            :arg1  (x16 / 击-01
+                  :arg0  (x27 / person
+                        :arg0-of  (x28 / have-org-role-91
+                              :arg2  (x13 / 秦王
+)))                  :arg1  (x17 / 缶
+)                  :beneficiary  (x31 / person
+                        :arg0-of  (x32 / have-org-role-91
+                              :arg2  (x15 / 赵王
+)))                  :location  (x10_x11_1 / 绳池会
+))))
+===========================
+秦王没占到便宜。
+(x3_x4_x5 / 占便宜
+      :arg0  (x9 / person
+            :arg0-of  (x10 / have-org-role-91
+                  :arg2  (x1 / 秦王
+)))      :polarity  (x2 / -
+))
+===========================
+他知道廉颇已经在边境上作好了准备，不敢拿赵王怎么样，只好让赵王回去。
+(x24 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 他
+)            :arg1  (x8_x9 / 作好-01
+                  :arg1  (x11 / 准备
+)                  :aspect  (x10 / 了
+)                  :location  (x6 / 边境
+)                  :arg0  (x32 / person
+                        :name  ( x3/廉颇 
+))                  :aspect  (x4 / 已经
+)))      :arg2  (x35 / and
+            :op1  (x14 / 敢-01
+                  :arg0  (x15 / 拿-05
+                        :arg1  (x38 / person
+                              :arg0-of  (x39 / have-org-role-91
+                                    :name  ( x16/赵王 
+)))                        :arg2  (x17 / 怎么样
+))                  :polarity  (x13 / -
+))            :op2  (x20 / 让-02
+                  :arg1  (x21 / x38
+)                  :arg2  (x22 / 回去-01
+                        :arg0  (x21 / x38
+))                  :mod  (x19 / 只好
+)                  :arg0  (x1 / 他
+))))
+===========================
+蔺相如在渑池会上又立了功。
+(x6_x8 / 立功-01
+      :arg0  (x12 / person
+            :name  ( x1/蔺相如 
+))      :location  (x3_x4_1 / 渑池会
+)      :aspect  (x7 / 了
+))
+===========================
+赵王封蔺相如为上卿，职位比廉颇高。
+(x12 / and
+      :op1  (x2 / 封-01
+            :arg0  (x15 / person
+                  :arg0-of  (x16 / have-org-role-91
+                        :arg2  (x1 / 赵王
+)))            :arg1  (x18 / person
+                  :name  ( x3/蔺相如 
+))            :arg2  (x20 / person
+                  :arg0-of  (x21 / have-org-role-91
+                        :arg2  (x5 / 上卿
+))))      :op2  (x10 / 高-03
+            :arg0  (x7 / 职位
+)            :arg1  (x27 / thing
+                  :dcopy  (x7 / 职位
+)                  :poss  (x28 / person
+                        :name  ( x9/廉颇 
+)))))
+===========================
+廉颇很不服气，他对别人说：“我廉颇攻无不克，战无不胜，立下许多大功。
+(x22 / causation
+      :arg1  (x4 / 服气-01
+            :arg0  (x25 / person
+                  :name  ( x1/廉颇 
+))            :polarity  (x3 / -
+)            :degree  (x2 / 很
+))      :arg2  (x9 / 说-01
+            :arg0  (x6 / x25
+)            :arg3  (x8 / 别人
+)            :arg1  (x32 / and
+                  :op1  (x13 / 攻无不克
+                        :arg0  (x11_x12 / 我廉颇
+))                  :op2  (x15 / 战无不胜-01
+                        :arg0  (x11_x12 / 我廉颇
+))                  :op3  (x17 / 立下-01
+                        :arg0  (x11_x12 / 我廉颇
+)                        :arg1  (x20 / 功
+                              :quant  (x18 / 许多
+)                              :arg0-of  (x19 / 大-01
+))))))
+===========================
+他蔺相如有什么能耐，就靠一张嘴，反而爬到我头上去了。
+(x24 / contrast
+      :arg1  (x26 / and
+            :op1  (x3 / 有-05
+                  :arg0  (x1_x2 / 他蔺相如
+)                  :arg1  (x5 / 能耐
+                        :mod  (x4 / 什么
+)))            :op2  (x8 / 靠-01
+                  :arg1  (x11 / 嘴
+                        :quant  (x9 / 1
+)                        :cunit  (x10 / 张
+))                  :mod  (x7 / 就
+)))      :arg2  (x14_x15 / 爬到-01
+            :arg1  (x17_x18 / 头
+                  :part-of  (x16 / 我
+))            :aspect  (x20 / 了
+)))
+===========================
+我碰见他，得给他个下不了台！”
+(x15 / say
+      :arg1  (x17 / condition
+            :arg1  (x2_x3 / 碰见-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x4 / 他
+))            :arg2  (x6 / 得
+                  :arg0  (x7 / 给-02
+                        :arg1  (x8 / x4
+)                        :arg2  (x12 / possible
+                              :arg0  (x10 / 下-01
+                                    :arg1  (x13 / 台
+)                                    :polarity  (x11 / -
+))))                  :mode  (x14 / expressive
+))))
+===========================
+这话传到了蔺相如耳朵里，蔺相如就请病假不上朝，免得跟廉颇见面。
+(x21 / temporal
+      :arg1  (x2_x3 / 传到-01
+            :arg0  (x1 / 这话
+)            :arg1  (x6 / 耳朵
+                  :part-of  (x26 / person
+                        :name  ( x5/蔺相如 
+)))            :aspect  (x4 / 了
+))      :arg2  (x29 / and
+            :op1  (x11 / 请-04
+                  :arg1  (x12 / 病假
+)                  :arg0  (x9 / x26
+)                  :mod  (x10 / 就
+))            :op2  (x14 / 上朝-01
+                  :polarity  (x13 / -
+)                  :arg0  (x9 / x26
+))            :purpose  (x16 / 免得-01
+                  :arg1  (x19 / 见面-01
+                        :arg0  (x17 / and
+                              :op2  (x39 / person
+                                    :name  ( x18/廉颇 
+))                              :op1  (x9 / x26
+))))))
+===========================
+有一天，蔺相如坐车出去，远远看见廉颇骑着高头大马过来了，他赶紧叫车夫把车往回赶。
+(x27 / temporal
+      :arg1  (x6 / 出去-01
+            :arg0  (x30 / person
+                  :name  ( x4/蔺相如 
+))            :manner  (x5 / 坐车-01
+                  :arg0  (x30 / person
+)))      :time  (x1_x2 / 有一天
+)      :arg2  (x9 / 看见-01
+            :arg0  (x30 / person
+)            :manner  (x8 / 远
+)            :arg1  (x14 / 过来-01
+                  :manner  (x11 / 骑-01
+                        :arg1  (x13 / 高头大马
+)                        :arg0  (x39 / person
+                              :name  ( x10/廉颇 
+))                        :aspect  (x12 / 着
+))                  :arg0  (x39 / person
+)                  :aspect  (x15 / 了
+)))      :arg3  (x19 / 叫-04
+            :arg0  (x17 / x30
+)            :arg1  (x20 / 车夫
+)            :arg2  (x25 / 赶-02
+                  :arg1  (x22 / 车
+)                  :direction  (x24 / 回
+))            :manner  (x18 / 赶紧
+)))
+===========================
+蔺相如手下的人可看不顺眼了。
+(x6 / 看不顺眼
+      :arg0  (x4 / 人
+            :mod  (x2 / 手下
+                  :poss  (x15 / person
+                        :name  ( x1/蔺相如 
+))))      :mod  (x5 / 可
+)      :aspect  (x7 / 了
+))
+===========================
+他们说，蔺相如见了廉颇像老鼠见了猫似的，为什么要怕他呢！
+(x2 / 说-01
+      :arg0  (x1 / 他们
+)      :arg1  (x24 / contrast
+            :arg1  (x8_x13 / 像-01
+                  :arg0  (x5 / 见-01
+                        :arg0  (x27 / person
+                              :name  ( x4/蔺相如 
+))                        :arg1  (x29 / person
+                              :name  ( x7/廉颇 
+))                        :aspect  (x6 / 了
+))                  :arg1  (x10 / 见-01
+                        :arg0  (x9 / 老鼠
+)                        :arg1  (x12 / 猫
+)                        :aspect  (x11 / 了
+)))            :arg2  (x16 / 要-03
+                  :arg0  (x17 / 怕-01
+                        :arg1  (x18 / 他
+))                  :cause  (x15 / amr-unknown
+)                  :mode  (x19_x20 / expressive
+))))
+===========================
+蔺相如对他们说：“诸位请想一想，廉将军和秦王比，谁厉害？”
+(x4 / 说-01
+      :arg0  (x23 / person
+            :name  ( x1/蔺相如 
+))      :arg3  (x3 / 他们
+)      :arg1  (x7 / 请-01
+            :arg1  (x6 / 诸位
+)            :arg2  (x8_x9_x10 / 想-01
+                  :arg1  (x29 / condition
+                        :arg1  (x16 / 比-01
+                              :arg0  (x31 / person
+                                    :arg0-of  (x32 / have-org-role-91
+                                          :arg2  (x13 / 将军
+))                                    :name  ( x12/廉 
+))                              :arg2  (x35 / person
+                                    :arg0-of  (x36 / have-org-role-91
+                                          :arg2  (x15 / 秦王
+))))                        :arg2  (x19 / 厉害-01
+                              :arg0  (x18 / amr-unknown
+))                        :mode  (x20 / interrogative
+)))))
+===========================
+他们说：“当然秦王厉害。”
+(x2 / 说-01
+      :arg0  (x1 / 他们
+)      :arg1  (x6 / 厉害-01
+            :arg0  (x12 / person
+                  :arg0-of  (x13 / have-org-role-91
+                        :arg2  (x5 / 秦王
+)))            :mod  (x4 / 当然
+)))
+===========================
+蔺相如说：“秦王我都不怕，会怕廉将军吗？
+(x2 / 说-01
+      :arg0  (x17 / person
+            :name  ( x1/蔺相如 
+))      :arg1  (x19 / concession
+            :arg1  (x7_2 / 怕-01
+                  :polarity  (x7_1 / -
+)                  :arg0  (x5 / x17
+)                  :arg1  (x23 / person
+                        :arg0-of  (x24 / have-org-role-91
+                              :arg2  (x4 / 秦王
+)))                  :mod  (x6 / 都
+))            :arg2  (x9 / 会-02
+                  :arg0  (x10 / 怕-01
+                        :arg1  (x29 / person
+                              :arg0-of  (x30 / have-org-role-91
+                                    :arg2  (x12 / 将军
+))                              :name  ( x11/廉 
+)))                  :mode  (x13_x14 / interrogative
+))))
+===========================
+大家知道，秦王不敢进攻我们赵国，就因为武有廉颇，文有蔺相如。
+(x2 / 知道-01
+      :arg0  (x1 / 大家
+)      :arg1  (x24 / causation
+            :arg2  (x6 / 敢-02
+                  :arg0  (x26 / person
+                        :arg0-of  (x27 / have-org-role-91
+                              :arg2  (x4 / 秦王
+)))                  :polarity  (x5 / -
+)                  :arg1  (x7 / 进攻-01
+                        :arg0  (x26 / person
+)                        :arg1  (x31 / country
+                              :name  ( x9/赵国 
+)                              :poss  (x8 / 我们
+))))            :arg1  (x34 / and
+                  :op1  (x14 / 有-03
+                        :arg0  (x13 / 武
+)                        :arg1  (x37 / person
+                              :name  ( x15/廉颇 
+)))                  :mod  (x11 / 就
+)                  :op2  (x18 / 有-03
+                        :arg0  (x17 / 文
+)                        :arg1  (x42 / person
+                              :name  ( x19/蔺相如 
+))))))
+===========================
+如果我们俩闹不和，就会削弱赵国的力量，秦国必然乘机来打我们。
+(x22 / condition
+      :arg1  (x4 / 闹-01
+            :cause-of  (x6 / 和
+                  :polarity  (x5 / -
+))            :arg0  (x2_x3 / 我们俩
+))      :arg2  (x28 / and
+            :op1  (x9 / 会-02
+                  :arg0  (x10 / 削弱-01
+                        :arg1  (x13 / 力量
+                              :poss  (x32 / country
+                                    :name  ( x11/赵国 
+)))))            :op2  (x16 / 必然-01
+                  :arg0  (x17 / 乘机-01
+                        :arg0  (x36 / country
+                              :name  ( x15/秦国 
+))                        :purpose  (x19 / 打-02
+                              :arg1  (x20 / x32
+)                              :arg0  (x36 / country
+))))))
+===========================
+我所以避着廉将军，为的是我们赵国呀！”
+(x15 / say
+      :arg1  (x17 / causation
+            :arg2  (x3 / 避-01
+                  :arg0  (x1 / 我
+)                  :aspect  (x4 / 着
+)                  :arg1  (x21 / person
+                        :arg0-of  (x22 / have-org-role-91
+                              :arg2  (x6 / 将军
+))                        :name  ( x5/廉 
+)))            :arg1  (x25 / thing
+                  :arg1  (x8 / 为
+)                  :domain  (x27 / country
+                        :name  ( x12/赵国 
+)                        :poss  (x11 / 我们
+))                  :mode  (x13_x14 / expressive
+))))
+===========================
+蔺相如的话传到了廉颇的耳朵里。
+(x4_x5 / 传到-01
+      :arg0  (x3 / 话
+            :poss  (x15 / person
+                  :name  ( x1/蔺相如 
+)))      :aspect  (x6 / 了
+)      :arg1  (x9 / 耳朵
+            :part-of  (x19 / person
+                  :name  ( x7/廉颇 
+))))
+===========================
+廉颇静下心来想了想，觉得自己为了争一口气，就不顾国家的利益，真不应该。
+(x26 / temporal
+      :arg1  (x6_x8 / 想-01
+            :manner  (x2 / 静-01
+                  :arg0  (x4 / 心
+))            :arg0  (x31 / person
+                  :name  ( x1/廉颇 
+))            :arg1  (x10 / 觉得-01
+                  :arg1  (x24 / 应该
+                        :polarity  (x23 / -
+)                        :degree  (x22 / 真
+)                        :arg0  (x38 / condition
+                              :arg1  (x12 / 为了-01
+                                    :arg0  (x11 / x31
+)                                    :arg1  (x13 / 争-01
+                                          :arg1  (x14 / 一口气
+)))                              :arg2  (x17_2 / 顾-01
+                                    :polarity  (x17_1 / -
+)                                    :arg1  (x20 / 利益
+                                          :poss  (x18 / 国家
+)))))                  :arg0  (x31 / person
+))))
+===========================
+于是，他脱下战袍，背上荆条，到蔺相如门上请罪。
+(x17 / temporal
+      :arg2  (x4_x5 / 脱下
+            :arg0  (x3 / 他
+)            :arg1  (x6 / 战袍
+))      :arg3  (x8 / 背上-01
+            :arg1  (x9 / 荆条
+)            :arg0  (x3 / 他
+))      :arg4  (x11 / 到-01
+            :arg1  (x13_x14 / 门
+                  :poss  (x26 / person
+                        :name  ( x12/蔺相如 
+)))            :purpose  (x15 / 请罪-01
+                  :arg0  (x3 / 他
+))            :arg0  (x3 / 他
+)))
+===========================
+蔺相如见廉颇来负荆请罪，连忙热情地出来迎接。
+(x14 / temporal
+      :arg1  (x2 / 见-01
+            :arg0  (x17 / person
+                  :name  ( x1/蔺相如 
+))            :arg1  (x5 / 负荆请罪-01
+                  :arg0  (x20 / person
+                        :name  ( x3/廉颇 
+))))      :arg2  (x10_x11 / 出来-01
+            :arg0  (x17 / person
+)            :manner  (x7 / 连忙
+)            :manner  (x8 / 热情-01
+                  :arg0  (x17 / person
+))            :purpose  (x12 / 迎接-01
+                  :arg1  (x20 / person
+)                  :arg0  (x17 / person
+))))
+===========================
+从此以后，他们俩成了好朋友，同心协力保卫赵国。
+(x14 / and
+      :op1  (x5 / 成-01
+            :arg0  (x3_x4 / 他们俩
+)            :arg1  (x8 / 朋友
+                  :mod  (x7 / 好
+))            :aspect  (x6 / 了
+))      :time  (x1 / 从此以后
+)      :op2  (x11 / 保卫-01
+            :arg0  (x3_x4 / 他们俩
+)            :arg1  (x23 / country
+                  :name  ( x12/赵国 
+))            :manner  (x10 / 同心协力-01
+                  :arg0  (x3_x4 / 他们俩
+))))
+===========================

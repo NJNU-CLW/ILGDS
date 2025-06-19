@@ -1,0 +1,746 @@
+村东头，大树下，几个孩子在比绝招。
+(x11 / 比-01
+      :arg0  (x9 / 孩子
+            :cunit  (x8 / 个
+)            :quant  (x7 / 几
+))      :arg2  (x12 / 绝招
+)      :aspect  (x10 / 在
+)      :location  (x5 / 下
+            :arg0  (x4 / 大树
+                  :location  (x2 / 东头
+                        :arg0  (x1 / 村
+)))))
+===========================
+三胖挺着大肚子，说:“咱们看谁一口气憋的时间最长!”
+(x20 / and
+      :op1  (x2 / 挺
+            :arg0  (x23 / person
+                  :name  ( x1/三胖 
+))            :arg1  (x4 / 大肚子
+                  :part-of  (x23 / person
+))            :aspect  (x3 / 着
+))      :op1  (x6 / 说-01
+            :arg0  (x23 / person
+)            :arg1  (x9 / 看-02
+                  :arg0  (x8 / 咱们
+)                  :arg1  (x18 / 长-01
+                        :degree  (x17 / 最
+)                        :arg0  (x16 / 时间
+                              :duration-of  (x14 / 憋-01
+                                    :arg1  (x13 / 气
+                                          :quant  (x11 / 1
+)                                          :cunit  (x12 / 口
+))                                    :arg0  (x10 / amr-unknown
+))))                  :mode  (x19 / expressive
+))))
+===========================
+结果一个个先后都撒了气，唯独他，鼓着腮帮子，瞪着眼珠子，憋的时间比别人长两倍。
+(x33 / temporal
+      :arg2  (x35 / and
+            :op1  (x7 / 撒
+                  :aspect  (x8 / 了
+)                  :arg0  (x38 / person
+                        :extent  (x6 / 都
+)                        :quant  (x2_x3_x4 / 一个个
+))                  :manner  (x5 / 先后
+)                  :arg1  (x9 / 气
+))            :op2  (x43 / and
+                  :op1  (x14 / 鼓
+                        :aspect  (x15 / 着
+)                        :arg0  (x12 / 他
+                              :manner  (x11 / 唯独
+))                        :arg1  (x16 / 腮帮子
+                              :part-of  (x12 / 他
+)))                  :op2  (x18 / 瞪-01
+                        :aspect  (x19 / 着
+)                        :arg0  (x12 / 他
+)                        :arg1  (x20 / 眼珠子
+                              :part-of  (x12 / 他
+)))                  :op3  (x27 / 长-02
+                        :arg0  (x24 / 时间
+                              :duration-of  (x22 / 憋-01
+                                    :arg0  (x12 / 他
+)))                        :arg1  (x58 / duration
+                              :poss  (x26 / 别人
+))                        :degree  (x60 / product-of
+                              :quant  (x28_x29 / 2
+))))))
+===========================
+伙伴们都竖起大拇指，连声夸道:“绝招，绝招!”
+(x16 / and
+      :op1  (x4 / 竖-01
+            :arg1  (x6 / 大拇指
+                  :part-of  (x1_x2 / 伙伴们
+                        :extent  (x3 / 都
+)))            :arg0  (x1_x2 / 伙伴们
+))      :op2  (x9_x10 / 夸-01
+            :arg0  (x1_x2 / 伙伴们
+)            :manner  (x8 / 连声
+)            :arg2  (x24 / and
+                  :op1  (x12 / 绝招
+)                  :op2  (x14 / 绝招
+)                  :mode  (x15 / expressive
+))))
+===========================
+二福曾经练过武术，他站起身，刚来一个空翻，伙伴们就禁不住叫起好来。
+(x27 / and
+      :op1  (x3 / 练-01
+            :arg0  (x31 / person
+                  :name  ( x1/二福 
+))            :aspect  (x2 / 曾经
+)            :aspect  (x4 / 过-01
+                  :arg1  (x5 / 武术
+)))      :op2  (x30 / temporal
+            :arg1  (x8 / 站-01
+                  :cause-of  (x9 / 起-05
+                        :arg1  (x10 / 身
+))                  :arg0  (x7 / x31
+))            :arg2  (x13 / 来-04
+                  :arg0  (x31 / person
+)                  :mod  (x12 / 刚
+)                  :arg1  (x16 / 空翻-01
+                        :quant  (x14 / 1
+)                        :cunit  (x15 / 个
+)                        :arg0  (x31 / person
+)))            :arg3  (x21_3 / possible
+                  :arg0  (x21_1 / 禁-01
+                        :arg0  (x22_x23_x24_x25 / 叫好-01
+                              :arg0  (x18_x19 / 伙伴们
+)))                  :polarity  (x21_2 / -
+))))
+===========================
+他俩表演完，都把目光投向瘦小的小柱子。
+(x13 / temporal
+      :arg1  (x3 / 完-01
+            :arg0  (x2 / 表演-01
+                  :arg0  (x1 / 他俩
+                        :extent  (x5 / 都
+))))      :arg2  (x8 / 投向-01
+            :arg0  (x1 / 他俩
+)            :arg1  (x7 / 目光
+)            :arg2  (x21 / person
+                  :arg0-of  (x9 / 瘦小-01
+)                  :name  ( x11/小柱子 
+))))
+===========================
+小柱子的鼻尖出了汗。
+(x4 / 出-01
+      :arg0  (x6 / 汗
+)      :aspect  (x5 / 了
+)      :arg1  (x3 / 鼻尖
+            :part-of  (x13 / person
+                  :name  ( x1/小柱子 
+))))
+===========================
+他想了一会儿，站起身，面对大树，两只胳搏往地上一撑,脚掌靠着树来了个倒立，不料，二福立刻还他个不靠树的倒立。
+(x43 / temporal
+      :arg1  (x2 / 想-01
+            :aspect  (x3 / 了-01
+)            :arg0  (x1 / 他
+)            :duration  (x4 / 一会儿
+))      :arg2  (x6 / 站-01
+            :cause-of  (x7 / 起-01
+                  :arg0  (x8 / 身
+                        :part-of  (x1 / 他
+)))            :arg0  (x1 / 他
+))      :arg3  (x10 / 面对-01
+            :arg0  (x1 / 他
+)            :arg1  (x11 / 大树
+))      :arg4  (x18_x19 / 撑-01
+            :arg0  (x15 / 胳搏
+                  :part-of  (x1 / 他
+)                  :quant  (x13 / 2
+)                  :cunit  (x14 / 只
+))            :direction  (x17_1 / 地
+))      :arg5  (x25 / 来-04
+            :aspect  (x26 / 了
+)            :arg1  (x28 / 倒立-01
+                  :cunit  (x27 / 个
+))            :manner  (x22 / 靠-01
+                  :arg0  (x21 / 脚掌
+                        :part-of  (x1 / 他
+))                  :arg1  (x24 / x11
+)                  :aspect  (x23 / 着
+)))      :arg6  (x30 / 不料
+            :arg0  (x34 / 还-01
+                  :time  (x33 / 立刻
+)                  :arg0  (x70 / person
+                        :name  ( x32/二福 
+))                  :arg2  (x35 / x1
+)                  :arg1  (x41 / 倒立-01
+                        :cunit  (x36 / 个
+)                        :mod  (x38 / 靠-01
+                              :arg1  (x39 / 树
+)                              :arg0  (x70 / person
+)                              :polarity  (x37 / -
+))))))
+===========================
+小柱子觉得自己太丢人了，低下头撒开腿跑了。
+(x17 / causation
+      :arg1  (x2 / 觉得-01
+            :arg0  (x20 / person
+                  :name  ( x1/小柱子 
+))            :arg1  (x5 / 丢人-01
+                  :arg0  (x3 / x20
+)                  :degree  (x4 / 太
+)                  :aspect  (x6 / 了
+)))      :arg2  (x14 / 跑-01
+            :arg0  (x20 / person
+)            :aspect  (x15 / 了
+)            :manner  (x8_x9 / 低下-01
+                  :arg1  (x10 / 头
+                        :part-of  (x20 / person
+)))            :manner  (x11 / 撒
+                  :arg1  (x13 / 腿
+                        :part-of  (x20 / person
+)))))
+===========================
+小柱子蔫蔫地回了家，感到肚子有点饿，见奶奶正在包饺子。
+(x19 / temporal
+      :arg1  (x4 / 回-01
+            :aspect  (x5 / 了
+)            :arg1  (x6 / 家
+)            :arg0  (x24 / person
+                  :name  ( x1/小柱子 
+))            :manner  (x2 / 蔫蔫
+))      :arg2  (x8 / 感到-01
+            :arg0  (x24 / person
+)            :arg1  (x11 / 饿-01
+                  :arg0  (x9 / 肚子
+)                  :degree  (x10 / 有点
+)))      :arg3  (x13 / 见-01
+            :arg0  (x24 / person
+)            :arg1  (x16 / 包-01
+                  :tense  (x15 / 正在
+)                  :arg0  (x14 / 奶奶
+)                  :arg1  (x17 / 饺子
+))))
+===========================
+呀!奶奶这一手真够绝的：她一只手拿着小竹板铲馅，另一只手拿着面皮，专管攥饺子，不但攥得快，而且饺子圆鼓鼓的。
+(x8 / 绝-02
+      :arg0  (x5 / 一手
+            :arg0-of  (x47 / mean
+                  :arg1  (x48 / and
+                        :op1  (x19 / 铲-01
+                              :manner  (x15 / 拿-03
+                                    :arg0  (x14 / 手
+                                          :part-of  (x11 / x3
+)                                          :quant  (x12 / 1
+)                                          :cunit  (x13 / 只
+))                                    :aspect  (x16 / 着
+)                                    :arg1  (x18 / 竹板
+                                          :arg0-of  (x17 / 小-01
+)))                              :arg1  (x20 / 馅
+)                              :arg0  (x3 / 奶奶
+))                        :op2  (x26 / 拿-03
+                              :aspect  (x27 / 着
+)                              :arg1  (x28 / 面皮
+)                              :arg0  (x25 / 手
+                                    :mod  (x22 / 另
+)                                    :quant  (x23 / 1
+)                                    :cunit  (x24 / 只
+)                                    :part-of  (x3 / 奶奶
+)))                        :op3  (x31 / 管-01
+                              :manner  (x30 / 专
+)                              :arg0  (x25 / 手
+)                              :arg1  (x32 / 攥-01
+                                    :arg1  (x33 / 饺子
+                                          :arg0  (x25 / 手
+))))                        :op4  (x76 / progression
+                              :arg1  (x36 / 攥-01
+                                    :arg0  (x25 / 手
+)                                    :arg1  (x33 / 饺子
+)                                    :arg0-of  (x38 / 快-01
+))                              :arg2  (x42 / 圆鼓鼓-01
+                                    :arg0  (x41 / 饺子
+)))))            :mod  (x4 / 这
+)            :poss  (x3 / 奶奶
+))      :mode  (x1_x2 / expressive
+)      :mode  (x9 / judgement
+)      :mod  (x7 / 够
+)      :degree  (x6 / 真
+))
+===========================
+要是自己会这一招，准能震住伙伴。
+(x14 / condition
+      :arg1  (x3 / 会-01
+            :arg0  (x2 / 自己
+)            :arg1  (x6 / 招
+                  :mod  (x4 / 这
+)                  :quant  (x5 / 1
+)))      :arg2  (x9 / 能-01
+            :mod  (x8 / 准-02
+)            :arg0  (x10_x11 / 震住
+                  :arg1  (x12 / 伙伴
+))))
+===========================
+于是他抢过小竹板，照奶奶的样子，包起饺子来。
+(x18 / causation
+      :arg2  (x20 / temporal
+            :arg1  (x3 / 抢-01
+                  :arg0  (x2 / 他
+)                  :arg1  (x6 / 竹板
+                        :arg0-of  (x5 / 小-01
+)))            :arg2  (x13 / 包-01
+                  :arg1  (x15 / 饺子
+)                  :manner  (x8 / 照-03
+                        :arg1  (x11 / 样子
+                              :poss  (x9 / 奶奶
+))                        :arg0  (x2 / 他
+))                  :arg0  (x2 / 他
+))))
+===========================
+没想到才包了几个，个个饺子都露了馅。
+(x2 / 想到-01
+      :polarity  (x1 / -
+)      :arg1  (x22 / temporal
+            :arg1  (x4 / 包-01
+                  :mod  (x3 / 才
+)                  :aspect  (x5 / 了
+)                  :arg1  (x11 / 饺子
+                        :quant  (x9_x10 / 个个
+)                        :extent  (x12 / 都
+)                        :quant  (x6 / 几
+)                        :cunit  (x7 / 个
+)))            :arg2  (x13 / 露-01
+                  :aspect  (x14 / 了
+)                  :arg1  (x15 / 馅
+                        :part-of  (x11 / 饺子
+))                  :arg0  (x11 / 饺子
+))))
+===========================
+他问奶奶：“您这招是怎么会的？”
+(x2 / 问-01
+      :arg0  (x1 / 他
+)      :arg2  (x3 / 奶奶
+            :arg2  (x3 / 奶奶
+))      :arg1  (x10 / 会-01
+            :arg0  (x5 / x3
+)            :arg1  (x7 / 招
+                  :mod  (x6 / 这
+))            :manner  (x9 / amr-unknown
+)            :mode  (x8_x11 / judgement
+)            :mode  (x12 / interrogative
+)))
+===========================
+奶奶要过竹板，说：‘过去奶奶一个人要做二十来个人的饭，还要调换花样，不往快里练，成吗？”
+(x35 / temporal
+      :arg1  (x2 / 要-01
+            :arg1  (x4 / 竹板
+)            :arg0  (x1 / 奶奶
+))      :arg2  (x6 / 说-01
+            :arg0  (x1 / 奶奶
+)            :arg1  (x41 / causation
+                  :arg1  (x42 / progression
+                        :arg1  (x13 / 要-03
+                              :arg0  (x14 / 做-01
+                                    :arg0  (x12 / 人
+                                          :arg0-of  (x46 / mean
+                                                :arg1  (x9 / x1
+))                                          :quant  (x10 / 1
+)                                          :cunit  (x11 / 个
+))                                    :arg1  (x20 / 饭
+                                          :quant  (x18 / 人
+                                                :quant  (x16 / 来
+                                                      :op1  (x15 / 20
+))                                                :cunit  (x17 / 个
+))))                              :time  (x8 / 过去
+))                        :arg2  (x23 / 调换-01
+                              :arg0  (x1 / 奶奶
+)                              :arg1  (x24 / 花样
+)))                  :arg2  (x58 / condition
+                        :arg1  (x30 / 练-01
+                              :polarity  (x26 / -
+)                              :arg0  (x1 / 奶奶
+)                              :arg1  (x28 / 快
+))                        :arg2  (x32 / 成
+                              :mode  (x33_x34 / interrogative
+))))))
+===========================
+小柱子说起刚才比绝招的事，问奶奶：“三胖和二福的绝招也是练出来的吗？”
+(x25 / temporal
+      :arg1  (x2_x3 / 说起-01
+            :arg0  (x28 / person
+                  :name  ( x1/小柱子 
+))            :arg1  (x8 / 事
+                  :arg0-of  (x30 / mean
+                        :arg1  (x5 / 比-01
+                              :arg2  (x6 / 绝招
+)                              :time  (x4 / 刚才
+)))))      :arg2  (x10 / 问-01
+            :arg0  (x28 / person
+)            :arg2  (x11 / 奶奶
+)            :arg1  (x20_x21 / 练-01
+                  :mode  (x19_x22 / judgement
+)                  :arg1  (x17 / 绝招
+                        :poss  (x14 / and
+                              :op1  (x43 / person
+                                    :name  ( x13/三胖 
+))                              :op2  (x44 / person
+                                    :name  ( x15/二福 
+))))                  :mod  (x18 / 也
+)                  :mode  (x23_x24 / interrogative
+))))
+===========================
+奶奶说：“有的人，生来就特别，别人比不上，三胖长得胖，气量比别人大；人家二福那是练出来的，你没见他，天天跑几里地去体育场学武术？”
+(x2 / 说-01
+      :arg0  (x1 / 奶奶
+)      :arg1  (x50 / and
+            :op1  (x51 / and
+                  :op1  (x52 / and
+                        :op1  (x9 / 特别-01
+                              :mod  (x8 / 就
+)                              :time  (x7 / 生来
+)                              :arg0  (x5 / 人
+                                    :mod  (x4 / 有的
+)))                        :op2  (x12_3 / possible
+                              :polarity  (x12_2 / -
+)                              :arg0  (x12_1 / 比-01
+                                    :arg0  (x11 / 别人
+)                                    :arg1  (x5 / 人
+))))                  :op2  (x62 / and
+                        :op1  (x15 / 长-03
+                              :arg1  (x17 / 胖-01
+                                    :arg0  (x65 / person
+                                          :name  ( x14/三胖 
+))))                        :op2  (x20 / 比-01
+                              :arg2  (x22 / 大-01
+                                    :arg0  (x19 / 气量
+))                              :arg0  (x65 / person
+)                              :arg1  (x21 / 别人
+))))            :op2  (x71 / and
+                  :op2  (x28_x29 / 练-01
+                        :arg0  (x73 / person
+                              :name  ( x25/二福 
+)                              :arg0-of  (x75 / mean
+                                    :arg1  (x24 / 人家
+)))                        :mode  (x26 / 那
+))                  :op2  (x34 / 见-01
+                        :arg0  (x32 / 你
+)                        :arg1  (x38 / 跑-01
+                              :frequency  (x82 / rate-entity
+                                    :arg2  (x83 / temporal-quantity
+                                          :unit  (x37 / 天
+)                                          :quant  (x85 / 1
+)))                              :purpose  (x42 / 去-01
+                                    :arg1  (x43 / 体育场
+)                                    :purpose  (x44 / 学-01
+                                          :arg1  (x45 / 武术
+)                                          :arg0  (x73 / person
+)))                              :arg0  (x73 / person
+)                              :arg1  (x41 / 地
+                                    :unit  (x40 / 里
+)                                    :quant  (x40 / 里
+)))                        :mode  (x46 / interrogative
+)))))
+===========================
+小柱子觉得奶奶说得在理，看来想拿出绝招，只有练。
+(x17 / causation
+      :arg1  (x2 / 觉得-01
+            :arg0  (x20 / person
+                  :name  ( x1/小柱子 
+))            :arg1  (x4 / 说-01
+                  :arg0  (x3 / 奶奶
+)                  :arg0-of  (x6 / 在理
+)))      :arg2  (x8 / 看来
+            :arg0  (x26 / condition
+                  :arg1  (x9 / 想-01
+                        :arg1  (x10_x11 / 拿出-01
+                              :arg1  (x12 / 绝招
+)))                  :arg2  (x13_2 / 有-03
+                        :mode  (x13_1 / 只
+)                        :arg1  (x15 / 练
+)))))
+===========================
+练点什么呢？
+(x1 / 练-01
+      :arg1  (x3 / amr-unknown
+            :quant  (x2 / 点
+))      :mode  (x4_x5 / interrogative
+))
+===========================
+晚上小柱子躺在炕上还在想，想着想着终于有了主意。
+(x20 / temporal
+      :arg1  (x9 / 想-01
+            :aspect  (x8 / 在
+)            :mod  (x7 / 还
+)            :manner  (x3 / 躺-01
+                  :arg0  (x26 / person
+                        :name  ( x2/小柱子 
+))                  :arg1  (x5 / 炕
+))            :arg0  (x26 / person
+))      :time  (x1 / 晚上
+)      :arg2  (x11_x13 / 想-01
+            :aspect  (x12_x14 / 着
+)            :arg0  (x26 / person
+))      :arg3  (x16 / 有-01
+            :aspect  (x17 / 了
+)            :arg0  (x26 / person
+)            :manner  (x15 / 终于
+)            :arg1  (x18 / 主意
+)))
+===========================
+日子一天天过去了，小柱子始终没有忘记大树下的尴尬，暗暗在练自己的绝招。
+(x24 / causation
+      :arg1  (x26 / contrast
+            :arg1  (x5 / 过去-01
+                  :aspect  (x6 / 了
+)                  :arg0  (x1 / 日子
+                        :quant  (x2_x3_x4 / 一天天
+)))            :arg2  (x11 / 忘记-01
+                  :mod  (x9 / 始终
+)                  :polarity  (x10 / -
+)                  :arg0  (x34 / person
+                        :name  ( x8/小柱子 
+))                  :arg1  (x15 / 尴尬
+                        :location  (x13 / 下
+                              :arg0  (x12 / 大树
+)))))      :arg2  (x19 / 练-01
+            :manner  (x17 / 暗暗
+)            :aspect  (x18 / 在
+)            :arg1  (x22 / 绝招
+                  :poss  (x20 / x34
+))            :arg0  (x34 / person
+)))
+===========================
+暖屋里，炕头上，几个小伙伴又在比绝招了。
+(x12 / 比-01
+      :arg2  (x13 / 绝招
+)      :arg0  (x9 / 小伙伴
+            :cunit  (x8 / 个
+)            :quant  (x7 / 几
+))      :aspect  (x11 / 在
+)      :mod  (x10 / 又
+)      :smood  (x14 / 了
+)      :location  (x5 / 上
+            :arg0  (x4 / 炕头
+                  :location  (x2 / 里
+                        :arg0  (x1 / 暖屋
+)))))
+===========================
+只有二福来了个单臂倒立，别人都没拿出新鲜招儿。
+(x16 / contrast
+      :arg1  (x3 / 来-04
+            :arg0  (x19 / person
+                  :name  ( x2/二福 
+))            :aspect  (x4 / 了
+)            :arg1  (x7 / 倒立
+                  :mod  (x6 / 单臂
+)                  :cunit  (x5 / 个
+)))      :arg2  (x12 / 拿出-01
+            :polarity  (x11 / -
+)            :arg0  (x9 / 别人
+                  :extent  (x10 / 都
+))            :arg1  (x14 / 招儿
+                  :arg0-of  (x13 / 新鲜-01
+))))
+===========================
+轮到小柱子了，他蹲在炕上，说：“只要你们说出两个不过百的数，让我做乘法，我能立刻说出得数，保准不错！”
+(x41 / temporal
+      :arg1  (x1_x2 / 轮到-01
+            :arg1  (x44 / person
+                  :name  ( x3/小柱子 
+))            :aspect  (x4 / 了
+))      :arg2  (x7 / 蹲-01
+            :arg1  (x9 / 炕
+)            :arg0  (x6 / x44
+))      :arg3  (x12 / 说-01
+            :arg0  (x44 / person
+)            :arg1  (x51 / condition
+                  :arg1  (x52 / temporal
+                        :arg1  (x16_x17 / 说出-01
+                              :arg0  (x15 / 你们
+)                              :arg1  (x24 / 数
+                                    :quant  (x18 / 2
+)                                    :cunit  (x19 / 个
+)                                    :arg0-of  (x21 / 过-06
+                                          :polarity  (x20 / -
+)                                          :arg1  (x22 / 100
+))))                        :arg2  (x26 / 让-02
+                              :arg0  (x15 / 你们
+)                              :arg1  (x27 / x44
+)                              :arg2  (x28 / 做-01
+                                    :arg0  (x44 / person
+)                                    :arg1  (x29 / 乘法
+))))                  :arg2  (x66 / and
+                        :op1  (x32 / 能-01
+                              :arg0  (x34_x35 / 说出-01
+                                    :arg1  (x36 / 得数
+)                                    :time  (x33 / 立刻
+)                                    :arg0  (x31 / x44
+)))                        :op2  (x38 / 保准
+                              :arg1  (x39_2 / 错-01
+                                    :arg0  (x36 / 得数
+))                              :mode  (x40 / expressive
+))))))
+===========================
+三胖早把嘴撇到下巴颏了。
+(x5 / 撇
+      :arg0  (x12 / person
+            :name  ( x1/三胖 
+))      :cause-of  (x6 / 到-01
+            :arg0  (x4 / 嘴
+                  :part-of  (x12 / person
+))            :arg1  (x7 / 下巴颏
+                  :part-of  (x12 / person
+)))      :aspect  (x8 / 了
+)      :arg1  (x4 / 嘴
+))
+===========================
+二福推推三胖，说：“试试嘛。”
+(x11 / temporal
+      :arg1  (x2_x3 / 推-01
+            :arg0  (x14 / person
+                  :name  ( x1/二福 
+))            :arg1  (x15 / person
+                  :name  ( x4/三胖 
+)))      :arg2  (x6 / 说-01
+            :arg0  (x14 / person
+)            :arg1  (x8 / 试试-01
+                  :mode  (x9 / imperative
+)                  :arg0  (x15 / person
+))))
+===========================
+他随口说道：“99乘以，嗯——76！”
+(x3_x4 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x17 / and
+            :op1  (x7 / 乘以
+                  :arg0  (x6 / 99
+))            :op2  (x9 / 嗯
+)            :mode  (x12 / expressive
+)            :op3  (x11 / 76
+))      :manner  (x2 / 随口
+))
+===========================
+小柱子脱口而出：“得7524！”
+(x2 / 脱口而出
+      :arg0  (x9 / person
+            :name  ( x1/小柱子 
+))      :arg1  (x4 / 得-04
+            :arg1  (x5 / 7524
+)            :mode  (x6 / expressive
+)))
+===========================
+三胖腾地跳下炕，找了根木棍在地上演算了一遍，果然不错，咧开大嘴，说：“可以呀！”
+(x32 / temporal
+      :arg1  (x4_x5 / 跳下-01
+            :arg0  (x35 / person
+                  :name  ( x1/三胖 
+))            :arg1  (x6 / 炕
+)            :manner  (x2 / 腾
+))      :arg2  (x8 / 找-03
+            :aspect  (x9 / 了
+)            :arg1  (x11 / 木棍
+                  :cunit  (x10 / 根
+))            :arg0  (x35 / person
+)            :arg2  (x14 / 演算-01
+                  :location  (x13_1 / 地
+)                  :aspect  (x15 / 了
+)                  :quant  (x16 / 1
+)                  :cunit  (x17 / 遍
+)                  :arg0  (x35 / person
+)))      :arg3  (x19 / 果然
+            :arg0  (x20_2 / 错
+))      :arg4  (x22_x23 / 咧开
+            :arg0  (x35 / person
+)            :arg1  (x25 / 嘴
+                  :part-of  (x35 / person
+)                  :arg0-of  (x24 / 大-01
+)))      :arg5  (x27 / 说-01
+            :arg0  (x35 / person
+)            :arg1  (x29 / 可以
+                  :mode  (x30_x31 / expressive
+))))
+===========================
+接着，他又说两个数让小柱子做乘法，经过验算，完全正确。
+(x20 / temporal
+      :arg1  (x5 / 说-01
+            :mod  (x4 / 又
+)            :arg0  (x3 / 他
+)            :arg1  (x8 / 数
+                  :quant  (x6 / 2
+)                  :cunit  (x7 / 个
+)))      :arg2  (x9 / 让-02
+            :arg0  (x3 / 他
+)            :arg1  (x29 / person
+                  :name  ( x10/小柱子 
+))            :arg2  (x11 / 做-01
+                  :arg0  (x29 / person
+)                  :arg1  (x12 / 乘法
+)))      :arg3  (x14 / 经过-01
+            :arg1  (x15 / 验算
+))      :arg4  (x18 / 正确
+            :degree  (x17 / 完全
+)))
+===========================
+伙伴们羡慕地竖起大拇指：“绝招，太绝了！”
+(x14 / and
+      :op1  (x5 / 竖起-01
+            :arg0  (x1_x2 / 伙伴们
+)            :arg1  (x6 / 大拇指
+                  :part-of  (x1_x2 / 伙伴们
+))            :manner  (x3 / 羡慕-01
+                  :arg0  (x1_x2 / 伙伴们
+)))      :op2  (x20 / say
+            :arg1  (x21 / and
+                  :op1  (x8 / 绝招
+)                  :op2  (x11 / 绝
+                        :aspect  (x12 / 了
+)                        :mode  (x13 / expressive
+)                        :degree  (x10 / 太
+)))))
+===========================
+小柱子高兴地说：“咱们定个日子再比一比，条件是绝招一定得是练出来的，而且要有用。”
+(x4 / 说-01
+      :arg0  (x31 / person
+            :name  ( x1/小柱子 
+))      :manner  (x2 / 高兴-01
+            :arg0  (x31 / person
+))      :arg1  (x34 / and
+            :op1  (x7 / 定-01
+                  :arg0  (x6 / 咱们
+)                  :arg1  (x9 / 日子
+                        :cunit  (x8 / 个
+))                  :purpose  (x11_x12_x13 / 比-01
+                        :mode  (x10 / 再
+)                        :arg0  (x6 / 咱们
+)))            :op2  (x41 / and
+                  :op1  (x18 / 一定
+                        :arg0  (x42 / thing
+                              :arg1-of  (x21_x22 / 练-01
+)                              :domain  (x17 / 绝招
+)                              :mod  (x19 / 得
+)))                  :op2  (x26 / 要-03
+                        :arg0  (x27 / 有用-01
+                              :arg0  (x17 / 绝招
+)))                  :domain  (x15 / 条件
+))))
+===========================
+伙伴们都说行。
+(x4 / 说-01
+      :arg0  (x1_x2 / 伙伴们
+            :extent  (x3 / 都
+))      :arg1  (x5 / 行
+))
+===========================
+小柱子一握拳：“就在今年暑假！同意的举手！”
+(x14 / and
+      :op1  (x2_x3 / 握-01
+            :arg0  (x17 / person
+                  :name  ( x1/小柱子 
+))            :arg1  (x4 / 拳
+                  :part-of  (x17 / person
+)))      :op2  (x20 / say
+            :arg1  (x21 / and
+                  :op1  (x7 / 在-01
+                        :mod  (x6 / 就
+)                        :arg1  (x9 / 暑假
+                              :time  (x8 / 今年
+))                        :mode  (x10 / expressive
+))                  :op2  (x12 / 举手-01
+                        :arg0-of  (x28 / person
+                              :arg0-of  (x11_1_2 / 同意-01
+))                        :mode  (x13 / expressive
+)))))
+===========================

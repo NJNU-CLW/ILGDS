@@ -1,0 +1,2630 @@
+一
+(x1 / 一
+)
+===========================
+晋察冀边区的北部有一条还乡河，河里长着很多芦苇。
+(x17 / and
+      :op1  (x5 / 有-03
+            :arg0  (x4 / 北部
+                  :location  (x2 / 边区
+                        :mod  (x1 / 晋察冀
+)))            :arg1  (x8 / 还乡河
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 条
+)))      :op2  (x11 / 长-01
+            :arg0  (x10 / 河里
+                  :arg0  (x8 / 还乡河
+))            :arg1  (x15 / 芦苇
+                  :arg0-of  (x14 / 多-01
+                        :degree  (x13 / 很
+)))            :aspect  (x12 / 着
+)))
+===========================
+河边有个小村庄。
+(x2 / 有-03
+      :arg0  (x1 / 河边
+)      :arg1  (x5 / 村庄
+            :cunit  (x3 / 个
+)            :arg0-of  (x4 / 小-01
+)))
+===========================
+芦花开的时候，远远望去，黄绿的芦苇上好像盖了一层厚厚的白雪。
+(x22 / condition
+      :time  (x2 / 开-01
+            :arg1  (x1 / 芦花
+))      :arg1  (x7 / 望去-01
+            :manner  (x6 / 远远-01
+))      :arg1  (x13 / 好像-01
+            :arg0  (x14 / 盖-02
+                  :aspect  (x15 / 了
+)                  :arg1  (x11 / 芦苇
+                        :mod  (x9 / 黄绿
+))                  :arg2  (x20 / 白雪
+                        :arg0-of  (x18 / 厚-01
+)                        :quant  (x16 / 1
+)                        :cunit  (x17 / 层
+)))))
+===========================
+风一吹鹅毛般的苇絮就飘飘悠悠地飞起来，把这几十家小房屋都罩在柔软的芦花里。
+(x29 / condition
+      :arg1  (x3 / 吹-02
+            :arg0  (x1 / 风
+))      :arg2  (x33 / and
+            :op1  (x12_x13 / 飞-01
+                  :manner  (x9_x10 / 飘飘悠悠
+)                  :arg0  (x7 / 苇絮
+                        :arg0-of  (x37 / resemble
+                              :arg1  (x4 / 鹅毛
+))))            :op2  (x22 / 罩-01
+                  :arg0  (x7 / 苇絮
+)                  :arg1  (x20 / 房屋
+                        :arg0-of  (x19 / 小-01
+)                        :mod  (x16 / 这
+)                        :cunit  (x18 / 家
+)                        :quant  (x17_1 / 几
+                              :op1  (x17_2 / 10
+)))                  :location  (x26 / 芦花
+                        :arg0-of  (x24 / 柔软-01
+)))))
+===========================
+因此，这村就叫芦花村。
+(x9 / causation
+      :arg2  (x6 / 叫-01
+            :arg0  (x4 / 村
+                  :mod  (x3 / 这
+))            :mod  (x5 / 就
+)            :arg1  (x7 / 芦花村
+)))
+===========================
+12岁的雨来就是这村的。
+(x7 / 村
+      :poss-of  (x12 / person
+            :name  ( x4/雨来 
+)            :age  (x14 / temporal-quantity
+                  :unit  (x2 / 岁
+)                  :quant  (x1 / 12
+)))      :mod  (x6 / 这
+)      :mod  (x5_1 / 就
+)      :mode  (x5_2_x8 / judgement
+))
+===========================
+雨来最喜欢这条紧靠着村边的还乡河。
+(x3 / 喜欢-01
+      :degree  (x2 / 最
+)      :arg0  (x16 / person
+            :name  ( x1/雨来 
+))      :arg1  (x11 / 还乡河
+            :mod  (x4 / 这
+)            :cunit  (x5 / 条
+)            :arg0-of  (x7 / 靠-05
+                  :arg1  (x9 / 村边
+)                  :aspect  (x8 / 着
+)                  :manner  (x6 / 紧
+))))
+===========================
+每到夏天，雨来和铁头、三钻儿，还有很多小朋友，好像一群鱼，在河里钻上钻下，藏猫猫，狗刨，立浮，仰浮。
+(x37 / condition
+      :arg1  (x2 / 到-01
+            :arg1  (x40 / date-entity
+                  :season  (x3 / 夏天
+)))      :arg2  (x42 / and
+            :op1  (x24 / 钻-02
+                  :arg0  (x49 / and
+                        :op1  (x55 / person
+                              :name  ( x5/雨来 
+))                        :op2  (x57 / person
+                              :name  ( x7/铁头 
+))                        :op3  (x58 / person
+                              :name  ( x9/三钻儿 
+))                        :op4  (x15 / 朋友
+                              :arg0-of  (x14 / 小-01
+)                              :arg0-of  (x13 / 多-01
+                                    :degree  (x12 / 很
+))))                  :direction  (x25 / 上
+))            :op2  (x26 / 钻-02
+                  :arg0  (x49 / and
+)                  :direction  (x27 / 下
+))            :op3  (x29 / 藏猫猫
+                  :arg0  (x49 / and
+))            :op4  (x31 / 狗刨
+                  :arg0  (x49 / and
+))            :op5  (x33 / 立浮
+                  :arg0  (x49 / and
+))            :op6  (x35 / 仰浮
+                  :arg0  (x49 / and
+))            :manner  (x17 / 好像-01
+                  :arg1  (x20 / 鱼
+                        :unit  (x19 / 群
+)                        :quant  (x18 / 1
+))                  :arg0  (x49 / and
+))            :location  (x23 / 河里
+)))
+===========================
+雨来仰浮的本领最高，能够脸朝天在水里躺着，不但不沉底，还要把小肚皮露在水面上。
+(x31 / causation
+      :arg2  (x6 / 高-01
+            :arg0  (x4 / 本领
+                  :poss  (x35 / person
+                        :name  ( x1/雨来 
+))                  :mod  (x2 / 仰浮
+)))      :arg1  (x37 / and
+            :op1  (x8 / 能够-01
+                  :arg0  (x15 / 躺-01
+                        :aspect  (x16 / 着
+)                        :manner  (x10 / 朝-01
+                              :arg0  (x9 / 脸
+)                              :arg1  (x11 / 天
+))                        :arg0  (x35 / person
+)                        :arg1  (x13 / 水
+)))            :op1  (x46 / progression
+                  :arg1  (x20 / 沉底
+                        :polarity  (x19 / -
+))                  :arg2  (x26 / 露-01
+                        :arg1  (x25 / 肚皮
+                              :arg0-of  (x24 / 小-01
+))                        :location  (x29 / 上
+                              :arg0  (x28 / 水面
+))))))
+===========================
+妈妈不让雨来耍水，怕出危险。
+(x3 / 让-02
+      :polarity  (x2 / -
+)      :arg0  (x1 / 妈妈
+)      :arg1  (x16 / person
+            :name  ( x4/雨来 
+))      :arg2  (x5 / 耍
+            :arg0  (x16 / person
+)            :arg1  (x6 / 水
+))      :cause  (x8 / 怕-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x9 / 出-07
+                  :arg1  (x10 / 危险
+))))
+===========================
+有一天，妈妈见雨来从外面进来，光着身子，浑身被太阳晒得他黝黑发亮。
+(x5 / 见-01
+      :time  (x1_x2 / 有一天
+)      :arg0  (x4 / 妈妈
+)      :arg1  (x28 / and
+            :op1  (x9 / 进来-01
+                  :arg0  (x30 / person
+                        :name  ( x6/雨来 
+))                  :source  (x8 / 外面
+))            :op2  (x11 / 光-02
+                  :arg0  (x30 / person
+)                  :aspect  (x12 / 着
+)                  :arg1  (x13 / 身子
+                        :part-of  (x30 / person
+)))            :op3  (x18 / 晒-02
+                  :arg3  (x17 / 太阳
+)                  :arg1  (x15 / 浑身
+                        :part-of  (x30 / person
+))                  :cause-of  (x39 / and
+                        :op1  (x21 / 黝黑
+                              :arg0  (x15 / 浑身
+))                        :op2  (x22 / 发亮
+                              :arg0  (x15 / 浑身
+))))))
+===========================
+妈妈知道他又去耍水了，把脸一沉，叫他过来，扭身就到炕上抓笤帚。
+(x27 / causation
+      :arg1  (x2 / 知道-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x5 / 去-01
+                  :arg0  (x3 / 他
+)                  :mod  (x4 / 又
+)                  :arg1  (x6 / 耍
+                        :arg0  (x3 / 他
+)                        :aspect  (x8 / 了
+)                        :arg1  (x7 / 水
+))))      :arg2  (x37 / temporal
+            :arg1  (x13 / 沉-01
+                  :arg1  (x11 / 脸
+                        :part-of  (x1 / 妈妈
+))                  :arg0  (x1 / 妈妈
+))            :arg2  (x15 / 叫-04
+                  :arg0  (x1 / 妈妈
+)                  :arg1  (x16 / x3
+)                  :arg2  (x17 / 过来-01
+                        :arg0  (x16 / x3
+)))            :arg3  (x19 / 扭身
+                  :arg0  (x1 / 妈妈
+))            :arg4  (x21 / 到-01
+                  :arg0  (x1 / 妈妈
+)                  :arg1  (x22 / 炕
+)                  :purpose  (x24 / 抓-01
+                        :arg0  (x1 / 妈妈
+)                        :arg1  (x25 / 笤帚
+)))))
+===========================
+雨来一看要挨打了，撒腿就往外跑。
+(x15 / causation
+      :arg1  (x3 / 看-02
+            :arg0  (x18 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x4 / 要-03
+                  :arg0  (x5 / 挨打-01
+                        :aspect  (x6 / 了
+)                        :arg0  (x18 / person
+))))      :arg2  (x13 / 跑-01
+            :manner  (x8 / 撒-01
+                  :arg0  (x18 / person
+)                  :arg1  (x9 / 腿
+))            :arg0  (x18 / person
+)            :direction  (x12 / 外
+)))
+===========================
+妈妈紧跟着追出来。
+(x4 / 追-01
+      :cause-of  (x5 / 出来-01
+            :arg0  (x1 / 妈妈
+))      :manner  (x2 / 紧跟-01
+            :arg0  (x1 / 妈妈
+)            :aspect  (x3 / 着
+))      :arg0  (x1 / 妈妈
+))
+===========================
+雨来一边跑一边回头看。
+(x8 / and
+      :op1  (x3 / 跑-01
+            :arg0  (x11 / person
+                  :name  ( x1/雨来 
+)))      :op2  (x5 / 回头-01
+            :purpose  (x6 / 看-02
+                  :arg0  (x11 / person
+))            :arg0  (x11 / person
+)))
+===========================
+糟了！
+(x1 / 糟
+      :aspect  (x2 / 了
+)      :mode  (x3 / expressive
+))
+===========================
+眼看要追上了，往哪儿跑呢？
+(x12 / causation
+      :arg1  (x1 / 眼看-01
+            :arg1  (x2 / 要-03
+                  :arg0  (x3_x4 / 追上
+                        :aspect  (x5 / 了
+))))      :arg2  (x9 / 跑-01
+            :arg2  (x8 / amr-unknown
+)            :mode  (x10_x11 / interrogative
+)))
+===========================
+铁头正赶着牛从河沿回来，远远地向雨来喊：“往河沿跑！往河沿跑！
+(x24 / and
+      :op1  (x8 / 回来-01
+            :manner  (x3 / 赶-02
+                  :aspect  (x4 / 着
+)                  :arg0  (x29 / person
+                        :name  ( x1/铁头 
+))                  :arg1  (x5 / 牛
+))            :arg0  (x29 / person
+)            :source  (x7 / 河沿
+))      :op2  (x14 / 喊-01
+            :manner  (x10 / 远远
+)            :direction  (x35 / person
+                  :name  ( x13/雨来 
+))            :arg0  (x29 / person
+)            :arg1  (x37 / and
+                  :op1  (x18 / 跑-01
+                        :arg3  (x17 / 河沿
+)                        :mode  (x19 / expressive
+))                  :op2  (x22 / 跑-01
+                        :arg3  (x21 / 河沿
+)                        :mode  (x23 / expressive
+)))))
+===========================
+雨来听出了话里的意思，转身就朝河沿跑。
+(x16 / causation
+      :arg1  (x2_x3 / 听出-01
+            :arg0  (x19 / person
+                  :name  ( x1/雨来 
+))            :aspect  (x4 / 了
+)            :arg1  (x8 / 意思-01
+))      :arg2  (x14 / 跑-01
+            :mod  (x11 / 就
+)            :manner  (x10 / 转身-01
+                  :arg0  (x19 / person
+))            :arg0  (x19 / person
+)))
+===========================
+妈妈还是死命追着不放，到底追上了，可是雨来浑身光溜溜的像条小泥鳅，怎么也抓不住。
+(x30 / contrast
+      :arg1  (x32 / temporal
+            :arg1  (x34 / and
+                  :op1  (x4 / 追-01
+                        :arg0  (x1 / 妈妈
+)                        :aspect  (x5 / 着-01
+)                        :arg1  (x47 / person
+                              :name  ( x15/雨来 
+)))                  :op2  (x7 / 放-02
+                        :polarity  (x6 / -
+)                        :arg0  (x1 / 妈妈
+))                  :mod  (x2 / 还是
+)                  :manner  (x3 / 死命
+))            :arg2  (x10_x11 / 追上-01
+                  :arg0  (x1 / 妈妈
+)                  :aspect  (x12 / 了
+)                  :manner  (x9 / 到底
+)                  :arg1  (x47 / person
+)))      :arg2  (x45 / causation
+            :arg1  (x19 / 像-01
+                  :arg0  (x47 / person
+)                  :arg2  (x17 / 光溜溜
+                        :mode  (x18 / judgement
+)                        :arg0  (x16 / 浑身
+))                  :arg1  (x22 / 泥鳅
+                        :arg0-of  (x21 / 小-01
+)                        :cunit  (x20 / 条
+)))            :arg2  (x55 / possible
+                  :mod  (x25 / 也
+)                  :arg0  (x26_x28 / 抓住-01
+                        :arg0  (x1 / 妈妈
+)                        :arg1  (x47 / person
+))                  :polarity  (x27 / -
+)                  :manner  (x24 / amr-unknown
+))))
+===========================
+只听见扑通一声，雨来扎进河里不见了。
+(x14 / temporal
+      :arg1  (x2 / 听见-01
+            :mod  (x1 / 只
+)            :arg1  (x3 / 扑通
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 声
+)))      :arg2  (x8 / 扎进
+            :arg0  (x23 / person
+                  :name  ( x7/雨来 
+))            :arg1  (x9 / 河里
+))      :arg3  (x10_x11 / 不见-01
+            :arg0  (x23 / person
+)            :aspect  (x12 / 了
+)))
+===========================
+妈妈立在河沿上，望着渐渐扩大的水圈直发愣。
+(x16 / and
+      :op1  (x2 / 立-01
+            :arg2  (x4 / 河沿
+)            :arg1  (x1 / 妈妈
+))      :op2  (x7 / 望-01
+            :aspect  (x8 / 着
+)            :arg0  (x1 / 妈妈
+)            :arg1  (x12 / 水圈
+                  :arg1-of  (x10 / 扩大-01
+                        :manner  (x9 / 渐渐
+))))      :op3  (x14 / 发愣-01
+            :time  (x13 / 直
+)            :arg0  (x1 / 妈妈
+)))
+===========================
+忽然，远远的水面上露出个小脑袋来。
+(x7 / 露出-01
+      :manner  (x1 / 忽然
+)      :arg1  (x10 / 脑袋
+            :cunit  (x8 / 个
+)            :arg0-of  (x9 / 小-01
+))      :location  (x6 / 上
+            :arg0  (x5 / 水面
+                  :arg0-of  (x3 / 远-01
+))))
+===========================
+雨来像小鸭子一样抖着头上的水，用手抹一下眼睛和鼻子，嘴里吹着气，望着妈妈笑。
+(x32 / and
+      :op1  (x6 / 抖
+            :manner  (x2 / 像-01
+                  :arg1  (x4 / 鸭子
+                        :arg0-of  (x3 / 小-01
+)))            :arg0  (x37 / person
+                  :name  ( x1/雨来 
+))            :aspect  (x7 / 着-01
+)            :arg1  (x11 / 水
+                  :location  (x9 / 上-01
+                        :arg0  (x8 / 头
+                              :part-of  (x37 / person
+)))))      :op2  (x15 / 抹-01
+            :quant  (x16 / 一下
+)            :arg1  (x18 / and
+                  :op1  (x17 / 眼睛
+                        :part-of  (x37 / person
+))                  :op2  (x19 / 鼻子
+                        :part-of  (x37 / person
+)))            :instrument  (x14 / 手
+)            :arg0  (x37 / person
+)            :quant  (x16_1 / 1
+)            :unit  (x16_2 / 下
+))      :op3  (x23 / 吹-01
+            :aspect  (x24 / 着
+)            :arg1  (x25 / 气
+)            :location  (x21 / 嘴
+                  :part-of  (x37 / person
+))            :arg0  (x37 / person
+))      :op4  (x30 / 笑-01
+            :arg0  (x37 / person
+)            :manner  (x27 / 望-01
+                  :aspect  (x28 / 着
+)                  :arg0  (x37 / person
+)                  :arg1  (x29 / 妈妈
+))))
+===========================
+二
+(x1 / 二
+)
+===========================
+秋天。
+(x3 / date-entity
+      :season  (x1 / 秋天
+))
+===========================
+爸爸从集上卖苇席回来，同妈妈商量：“看见了区上的工作同志，说是孩子们不上学念书不行，起码要上夜校。
+(x36 / temporal
+      :arg1  (x7 / 回来-01
+            :arg1  (x5 / 卖-01
+                  :location  (x3 / 集
+)                  :arg0  (x1 / 爸爸
+)                  :arg1  (x6 / 苇席
+))            :arg0  (x1 / 爸爸
+))      :arg2  (x11 / 商量-01
+            :arg0  (x43 / and
+                  :op1  (x1 / 爸爸
+)                  :op2  (x10 / 妈妈
+))            :op1  (x1 / 爸爸
+))      :arg3  (x46 / say
+            :arg1  (x47 / and
+                  :op1  (x13 / 看见-01
+                        :aspect  (x14 / 了
+)                        :arg1  (x19 / 同志
+                              :mod  (x18 / 工作
+)                              :location  (x15 / 区
+)))                  :op2  (x21 / 说-01
+                        :arg1  (x54 / and
+                              :op1  (x29 / 行-04
+                                    :polarity  (x28 / -
+)                                    :arg0  (x26 / 上学-01
+                                          :arg0  (x23_x24 / 孩子们
+)                                          :purpose  (x27 / 念书-01
+                                                :arg0  (x23_x24 / 孩子们
+))                                          :polarity  (x25 / -
+))))                        :arg2  (x32 / 要-03
+                              :manner  (x31 / 起码
+)                              :arg0  (x33 / 上-02
+                                    :arg0  (x23_x24 / 孩子们
+)                                    :arg1  (x34 / 夜校
+)))))))
+===========================
+叫雨来上夜校吧。
+(x1 / 叫-04
+      :arg1  (x9 / person
+            :name  ( x2/雨来 
+))      :arg2  (x3 / 上-02
+            :arg0  (x9 / person
+)            :arg1  (x4 / 夜校
+))      :mode  (x5 / imperative
+))
+===========================
+要不，将来闹个睁眼瞎。”
+(x9 / say
+      :arg1  (x11 / condition
+            :arg1  (x1_x2 / 要不
+)            :arg2  (x5 / 闹
+                  :aspect  (x4 / 将来
+)                  :arg1  (x7 / 睁眼瞎
+                        :cunit  (x6 / 个
+)))))
+===========================
+夜校就在三钻儿家的豆腐房里，房子很破。
+(x14 / and
+      :op1  (x3 / 在-01
+            :arg0  (x1 / 夜校
+)            :mod  (x2 / 就
+)            :arg1  (x7 / 豆腐房
+                  :poss  (x5 / 家
+                        :poss  (x21 / person
+                              :name  ( x4/三钻儿 
+)))))      :op2  (x12 / 破-03
+            :arg0  (x10 / x7
+)            :degree  (x11 / 很
+)))
+===========================
+教夜课的是东庄学堂里的女老师，穿着青布裤褂，胖胖的，剪着短发。
+(x33 / and
+      :op1  (x9 / 老师
+            :domain  (x27 / person
+                  :arg0-of  (x1 / 教-01
+                        :arg2  (x2 / 夜课
+)))            :mod  (x8 / 女
+)            :poss  (x31 / school
+                  :name  ( x5/东庄学堂 
+)))      :op2  (x11 / 穿-01
+            :arg0  (x9 / 老师
+)            :aspect  (x12 / 着
+)            :arg1  (x14 / 裤褂
+                  :consist-of  (x13 / 青布
+)))      :op3  (x16 / 胖-01
+            :mode  (x17 / judgement
+)            :arg0  (x9 / 老师
+))      :op4  (x19 / 剪-01
+            :aspect  (x20 / 着
+)            :arg2  (x21 / 短发
+                  :part-of  (x9 / 老师
+))))
+===========================
+女老师走到黑板前面，屋里嗡嗡嗡嗡说话的声音立刻停止了，只听见哗啦哗啦翻课本的声音。
+(x27 / temporal
+      :arg1  (x3_x4 / 走到-01
+            :arg0  (x2 / 老师
+                  :mod  (x1 / 女
+))            :arg1  (x6 / 前面
+                  :arg0  (x5 / 黑板
+)))      :arg2  (x34 / and
+            :op1  (x15 / 停止-01
+                  :arg1  (x13 / 声音
+                        :poss  (x11 / 说话
+)                        :arg0-of  (x38 / mean
+                              :arg1  (x9_x10 / 嗡嗡
+))                        :location  (x8 / 屋里
+))                  :aspect  (x16 / 了
+)                  :manner  (x14 / 立刻
+))            :op2  (x19 / 听见-01
+                  :mod  (x18 / 只
+)                  :arg1  (x25 / 声音
+                        :poss  (x22 / 翻-02
+                              :arg1  (x23 / 课本
+))                        :arg0-of  (x48 / mean
+                              :arg1  (x20_x21 / 哗啦
+))))))
+===========================
+雨来从口袋里掏出课本，这是用土纸油印的，软鼓囊囊的。
+(x19 / and
+      :op1  (x5 / 掏-01
+            :arg0  (x22 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x7 / 课本
+)            :source  (x3 / 口袋
+))      :op2  (x13 / 油印-01
+            :arg1  (x9 / x7
+)            :mode  (x10_x14 / judgement
+)            :instrument  (x12 / 土纸
+))      :op3  (x16 / 软鼓囊囊
+            :arg0  (x7 / 课本
+)            :mode  (x17 / judgement
+)))
+===========================
+雨来怕揉坏了，向妈妈要了一块红布，包了个书皮，上面用铅笔歪歪斜斜地写了“雨来”两个字。
+(x35 / causation
+      :arg1  (x2 / 怕-01
+            :arg0  (x38 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x3 / 揉-01
+                  :cause-of  (x4 / 坏-01
+                        :aspect  (x5 / 了-01
+)                        :arg0  (x65 / thing
+))                  :arg1  (x65 / thing
+)))      :arg2  (x43 / temporal
+            :arg1  (x9 / 要-01
+                  :arg0  (x38 / person
+)                  :arg1  (x14 / 布
+                        :quant  (x11 / 1
+)                        :arg0-of  (x13 / 红-01
+)                        :cunit  (x12 / 块
+))                  :arg2  (x8 / 妈妈
+)                  :aspect  (x10 / 了
+))            :arg2  (x16 / 包-01
+                  :aspect  (x17 / 了
+)                  :arg0  (x38 / person
+)                  :arg2  (x19 / 书皮
+                        :cunit  (x18 / 个
+)))            :arg3  (x26 / 写-01
+                  :aspect  (x27 / 了
+)                  :arg0  (x38 / person
+)                  :arg2  (x21 / 上面
+)                  :manner  (x24 / 歪歪斜斜
+)                  :arg1  (x33 / 字
+                        :cunit  (x32 / 个
+)                        :quant  (x31 / 2
+)                        :arg0-of  (x62 / mean
+                              :arg1  (x29 / 雨来
+)))                  :instrument  (x23 / 铅笔
+))))
+===========================
+雨来把书放在腿上，翻开书。
+(x11 / temporal
+      :arg1  (x4 / 放在-01
+            :arg0  (x14 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x3 / 书
+)            :arg2  (x5 / 腿
+))      :arg2  (x8 / 翻开-01
+            :arg0  (x14 / person
+)            :arg1  (x9 / x3
+)))
+===========================
+女老师斜着身子，用手指点着黑板上的字，念着：“我们是中国人，我们爱自己的祖国。”
+(x30 / and
+      :op1  (x3 / 斜
+            :aspect  (x4 / 着-01
+)            :arg0  (x2 / 老师
+                  :mod  (x1 / 女
+))            :arg1  (x5 / 身子
+                  :part-of  (x2 / 老师
+)))      :op2  (x9 / 指点-01
+            :arg0  (x2 / 老师
+)            :instrument  (x8 / 手
+                  :part-of  (x2 / 老师
+))            :aspect  (x10 / 着
+)            :arg1  (x14 / 字
+                  :location  (x11 / 黑板
+)))      :op3  (x16 / 念-05
+            :aspect  (x17 / 着
+)            :arg0  (x2 / 老师
+)            :arg1  (x44 / and
+                  :op1  (x22 / 人
+                        :mod  (x46 / nationality
+                              :name  ( x21/中国 
+))                        :domain  (x19 / 我们
+))                  :op2  (x25 / 爱-01
+                        :arg0  (x24 / 我们
+)                        :arg1  (x28 / 祖国
+                              :poss  (x26 / x24
+))))))
+===========================
+大家就随着女老师的手指，齐声轻轻地念起来：“我们—是—中国人，我们—爱—自己的—祖国。”
+(x12_x13 / 念-05
+      :arg0  (x1 / 大家
+)      :manner  (x3_1 / 随
+            :arg0  (x1 / 大家
+)            :mod  (x2 / 就
+)            :aspect  (x3_2 / 着
+)            :arg1  (x7 / 手指
+                  :part-of  (x5 / 老师
+                        :mod  (x4 / 女
+))))      :manner  (x10 / 轻轻
+)      :manner  (x9 / 齐声
+)      :arg1  (x44 / and
+            :op1  (x21 / 人
+                  :mod  (x46 / nationality
+                        :name  ( x20/中国 
+))                  :domain  (x16 / 我们
+))            :op2  (x25 / 爱-01
+                  :arg0  (x23 / 我们
+)                  :arg1  (x30 / 祖国
+                        :poss  (x27 / x23
+)))))
+===========================
+三
+(x1 / 三
+)
+===========================
+有一天，雨来从夜校回到家，躺在炕上，背诵当天晚上学会的课文。
+(x22 / temporal
+      :arg1  (x7 / 回到-01
+            :arg2  (x6 / 夜校
+)            :arg0  (x26 / person
+                  :name  ( x4/雨来 
+))            :arg1  (x8 / 家
+))      :time  (x1_x2 / 有一天
+)      :arg2  (x10 / 躺-01
+            :arg0  (x26 / person
+)            :arg1  (x12 / 炕
+))      :arg3  (x15 / 背诵-01
+            :arg0  (x26 / person
+)            :arg1  (x20 / 课文
+                  :arg1-of  (x18 / 学会-01
+                        :arg0  (x26 / person
+)                        :time  (x17 / 晚上
+                              :time  (x16 / 当天
+))))))
+===========================
+可是背不到一半，他就睡着了。
+(x13 / contrast
+      :arg2  (x15 / condition
+            :arg1  (x4 / 到-02
+                  :arg0  (x2 / 背-02
+                        :arg0  (x7 / 他
+))                  :arg1  (x5 / 一半
+)                  :polarity  (x3 / -
+))            :arg2  (x9_x10 / 睡着-01
+                  :arg0  (x7 / 他
+)                  :aspect  (x11 / 了
+))))
+===========================
+不知什么时候，门吱扭响了一声。
+(x2 / 知-01
+      :polarity  (x1 / -
+)      :arg1  (x8 / 响-01
+            :aspect  (x9 / 了
+)            :arg0  (x6 / 门
+)            :time  (x3_x4 / amr-unknown
+)            :manner  (x7 / 吱扭
+)            :quant  (x10 / 1
+)            :cunit  (x11 / 声
+)))
+===========================
+雨来睁开眼，看见闪进一个黑影。
+(x13 / temporal
+      :arg1  (x2 / 睁开-01
+            :arg0  (x17 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x3 / 眼
+                  :part-of  (x17 / person
+)))      :arg2  (x5 / 看见-01
+            :arg0  (x17 / person
+)            :arg1  (x7 / 进-01
+                  :manner  (x6 / 闪
+)                  :arg0  (x11 / 影
+                        :arg0-of  (x10 / 黑
+)                        :quant  (x8 / 1
+)                        :cunit  (x9 / 个
+)))))
+===========================
+妈妈划了根火柴，点着灯，一看，原来是爸爸出外卖席子回来了。
+(x23 / temporal
+      :arg1  (x2 / 划-01
+            :arg0  (x1 / 妈妈
+)            :aspect  (x3 / 了
+)            :arg1  (x5 / judgement
+                  :cunit  (x4 / 根
+)))      :arg2  (x7_x8 / 点着-01
+            :arg0  (x1 / 妈妈
+)            :instrument  (x5 / judgement
+)            :arg1  (x9 / 灯
+))      :arg3  (x12 / 看
+)      :arg4  (x20 / 回来-01
+            :arg0  (x16 / 爸爸
+                  :mode  (x5 / judgement
+)                  :arg0-of  (x17 / 出外
+                        :purpose  (x18 / 卖-01
+                              :arg0  (x16 / 爸爸
+)                              :arg1  (x19 / 席子
+))))            :aspect  (x21 / 了
+)            :manner  (x14 / 原来
+)))
+===========================
+他肩上披着子弹袋，腰里插着手榴弹，背上还背着一杆长长的步枪。
+(x25 / and
+      :op1  (x4 / 披-01
+            :arg0  (x2 / 肩
+                  :part-of  (x1 / 他
+))            :aspect  (x5 / 着
+)            :arg1  (x7 / 袋
+                  :mod  (x6 / 子弹
+)))      :op2  (x11 / 插-01
+            :arg2  (x9 / 腰
+                  :poss  (x1 / 他
+))            :aspect  (x12 / 着
+)            :arg1  (x13 / 手榴弹
+))      :op3  (x18_1 / 背-01
+            :aspect  (x18_2 / 着
+)            :arg0  (x15 / 背
+                  :poss  (x1 / 他
+))            :arg1  (x23 / 步枪
+                  :arg0-of  (x21 / 长-02
+)                  :cunit  (x20 / 杆
+)                  :quant  (x19 / 1
+))))
+===========================
+爸爸怎么忽然这样打扮起来了呢？
+(x5_x6 / 打扮-01
+      :arg0  (x1 / 爸爸
+)      :aspect  (x7 / 了
+)      :mod  (x4 / 这样-01
+)      :manner  (x3 / 忽然
+)      :cause  (x2 / amr-unknown
+)      :mode  (x8_x9 / interrogative
+))
+===========================
+爸爸对妈妈说：“鬼子又‘扫荡’了，民兵都到区上集合，要一两个月才能回来。”
+(x4 / 说-01
+      :arg0  (x1 / 爸爸
+)      :arg3  (x3 / 妈妈
+)      :arg1  (x33 / causation
+            :arg1  (x9 / 扫荡-01
+                  :arg0  (x6 / 鬼子
+)                  :mod  (x7 / 又
+)                  :aspect  (x11 / 了
+))            :arg2  (x38 / and
+                  :op1  (x18 / 集合-01
+                        :arg1  (x13 / 民兵
+                              :extent  (x14 / 都
+))                        :arg2  (x16 / 区
+))                  :op2  (x44 / condition
+                        :arg1  (x45 / temporal-quantity
+                              :unit  (x24 / 月
+)                              :quant  (x47 / between
+                                    :op1  (x21 / 1
+)                                    :op2  (x22 / 2
+)))                        :arg2  (x26 / 能-01
+                              :arg0  (x27 / 回来
+))))))
+===========================
+雨来问爸爸：“爸爸，远不远？”
+(x2 / 问-01
+      :arg0  (x13 / person
+            :name  ( x1/雨来 
+))      :arg2  (x3 / 爸爸
+)      :arg1  (x15 / and
+            :op1  (x5 / x3
+)            :op2  (x18 / or
+                  :op1  (x7 / 远
+)                  :op2  (x9 / 远
+                        :polarity  (x8 / -
+))                  :mode  (x10 / interrogative
+))))
+===========================
+爸爸把手伸进被里，摸着雨来光溜溜的脊背，说：“这哪有准儿呢？说远就远，说近就近。”
+(x34 / temporal
+      :arg1  (x4_x5 / 伸进-01
+            :arg0  (x1 / 爸爸
+)            :arg1  (x3 / 手
+                  :part-of  (x1 / 爸爸
+))            :arg2  (x6 / 被
+))      :arg2  (x9 / 摸-01
+            :aspect  (x10 / 着
+)            :arg0  (x1 / 爸爸
+)            :arg1  (x14 / 脊背
+                  :part-of  (x43 / person
+                        :name  ( x11/雨来 
+))                  :arg0-of  (x12 / 光溜溜
+)))      :arg3  (x16 / 说-01
+            :arg0  (x1 / 爸爸
+)            :arg1  (x47 / and
+                  :op1  (x20 / 有-03
+                        :mod  (x19 / amr-unknown
+)                        :arg0  (x18 / 这
+)                        :arg1  (x21 / 准儿
+)                        :mode  (x22_x23 / interrogative
+))                  :op2  (x53 / condition
+                        :arg1  (x24 / 说-01
+                              :arg1  (x25 / 远
+))                        :arg2  (x27 / 远
+))                  :op3  (x54 / condition
+                        :arg1  (x29 / 说-01
+                              :arg1  (x30 / 近
+))                        :arg2  (x32 / 近
+)))))
+===========================
+爸爸又转过脸对妈妈说：“明天你到东庄他姥姥家去一趟，告诉他舅舅，就说区上说的，叫他赶快把村里的民兵带到区上去集合。”
+(x7 / 说-01
+      :arg3  (x6 / 妈妈
+)      :arg0  (x1 / 爸爸
+)      :arg1  (x52 / temporal
+            :arg1  (x16 / 去-01
+                  :arg1  (x15 / 家
+                        :poss  (x14 / 姥姥
+                              :poss  (x13 / 他
+))                        :location  (x12 / 东庄
+))                  :arg0  (x10 / x6
+)                  :time  (x9 / 明天
+)                  :quant  (x17 / 1
+)                  :cunit  (x18 / 趟
+))            :arg2  (x20 / 告诉-01
+                  :arg0  (x6 / 妈妈
+)                  :arg2  (x22 / 舅舅
+                        :poss  (x21 / x13
+)))            :arg3  (x25 / 说-01
+                  :mod  (x24 / 就
+)                  :arg1  (x28 / 说-01
+                        :arg0  (x26 / 区
+)                        :mode  (x29 / judgement
+))                  :arg0  (x6 / 妈妈
+))            :arg4  (x31 / 叫-04
+                  :arg1  (x32 / x22
+)                  :arg2  (x38_x39 / 带到-01
+                        :manner  (x33 / 赶快
+)                        :arg1  (x37 / 民兵
+                              :location  (x35 / 村里
+))                        :arg1  (x40 / 区
+)                        :purpose  (x43 / 集合-01
+                              :arg1  (x37 / 民兵
+)                              :arg2  (x40 / 区
+))                        :arg0  (x22 / 舅舅
+))))      :manner  (x3 / 转-04
+            :arg0  (x1 / 爸爸
+)            :mod  (x2 / 又
+)            :arg1  (x4 / 脸
+                  :part-of  (x1 / 爸爸
+))))
+===========================
+妈妈问：“区上在哪儿？”
+(x2 / 问-01
+      :arg0  (x1 / 妈妈
+)      :arg1  (x6 / 在-01
+            :arg1  (x7 / amr-unknown
+)            :arg0  (x4 / 区
+)            :mode  (x8 / interrogative
+)))
+===========================
+爸爸装了一袋烟，吧嗒吧嗒抽着，说：“叫他们在河北一带村里打听。”
+(x23 / temporal
+      :arg1  (x2 / 装-01
+            :aspect  (x3 / 了
+)            :arg0  (x1 / 爸爸
+)            :arg1  (x6 / 烟-01
+                  :unit  (x5 / 袋
+)))      :arg2  (x10 / 抽-02
+            :manner  (x8_x9 / 吧嗒
+)            :arg0  (x1 / 爸爸
+)            :aspect  (x11 / 着
+)            :arg1  (x6 / 烟-01
+))      :arg3  (x13 / 说-01
+            :arg0  (x1 / 爸爸
+)            :arg1  (x15 / 叫-04
+                  :arg1  (x16 / 他们
+)                  :arg2  (x21 / 打听-01
+                        :location  (x20 / 村里
+                              :location  (x19 / 一带
+                                    :mod  (x41 / province
+                                          :name  ( x18/河北 
+))))                        :arg0  (x16 / 他们
+)))))
+===========================
+雨来还想说什么，可是门哐啷响了一下，就听见爸爸走出去的脚步声。
+(x22 / contrast
+      :arg1  (x3 / 想-02
+            :arg0  (x25 / person
+                  :name  ( x1/雨来 
+))            :mod  (x2 / 还
+)            :arg1  (x4 / 说-01
+                  :arg0  (x25 / person
+)                  :arg1  (x5 / amr-unknown
+)))      :arg2  (x30 / temporal
+            :arg1  (x10 / 响-01
+                  :aspect  (x11 / 了
+)                  :arg0  (x8 / 门
+)                  :manner  (x9 / 哐啷
+)                  :quant  (x12_1 / 1
+)                  :unit  (x12_2 / 下
+))            :arg2  (x15 / 听见-01
+                  :arg1  (x20 / 脚步声
+                        :mod  (x17 / 走-01
+                              :cause-of  (x18 / 出去-01
+                                    :arg0  (x16 / 爸爸
+))                              :arg0  (x16 / 爸爸
+)))                  :arg0  (x25 / person
+))))
+===========================
+不大一会儿，什么也听不见了，只从街上传来一两声狗叫。
+(x21 / temporal
+      :arg1  (x3 / 一会儿
+            :arg0-of  (x2 / 大-01
+                  :polarity  (x1 / -
+)))      :arg2  (x26 / and
+            :op1  (x27 / possible
+                  :arg0  (x7_x9 / 听见-01
+                        :aspect  (x10 / 了
+)                        :arg1  (x5 / amr-unknown
+)                        :mod  (x6 / 也
+))                  :polarity  (x8 / -
+))            :op2  (x15 / 传来-01
+                  :arg0  (x14 / 街上
+)                  :mod  (x12 / 只
+)                  :arg1  (x19 / 叫-03
+                        :quant  (x37 / or
+                              :op1  (x16_1 / 1
+)                              :op2  (x16_2 / 2
+))                        :arg0  (x18 / 狗
+)                        :cunit  (x17 / 声
+)))))
+===========================
+第二天，吃过早饭，妈妈就到东庄去，临走说晚上才能回来。
+(x21 / temporal
+      :time  (x1_x2 / 第二天
+)      :arg1  (x4 / 吃-01
+            :aspect  (x5 / 过
+)            :arg1  (x6 / 早饭
+))      :arg2  (x27 / and
+            :op1  (x10 / 到-01
+                  :arg0  (x8 / 妈妈
+)                  :mod  (x9 / 就
+)                  :arg1  (x11 / 东庄
+))            :op2  (x15 / 说-01
+                  :arg0  (x8 / 妈妈
+)                  :time  (x14 / 临走-01
+                        :arg0  (x8 / 妈妈
+))                  :arg1  (x18 / 能-01
+                        :time  (x16 / 晚上
+)                        :mod  (x17 / 才
+)                        :arg0  (x19 / 回来-01
+                              :arg0  (x8 / 妈妈
+))))))
+===========================
+过了晌午，雨来吃了点剩饭，因为看家，不能到外面去，就趴在炕上念他那红布包着的识字课本。
+(x35 / temporal
+      :arg1  (x1 / 过-05
+            :arg1  (x3 / 晌午
+)            :aspect  (x2 / 了
+))      :arg2  (x6 / 吃-01
+            :aspect  (x7 / 了
+)            :arg0  (x42 / person
+                  :name  ( x5/雨来 
+))            :arg1  (x9 / 剩饭
+                  :quant  (x8 / 点
+)))      :arg3  (x46 / causation
+            :arg1  (x47 / causation
+                  :arg1  (x12 / 看家
+                        :arg0  (x42 / person
+))                  :arg2  (x15 / 能-01
+                        :polarity  (x14 / -
+)                        :arg0  (x16 / 到-01
+                              :arg1  (x17 / 外面
+)                              :arg0  (x42 / person
+))))            :arg2  (x24 / 念-05
+                  :manner  (x21 / 趴在-01
+                        :arg0  (x42 / person
+)                        :arg1  (x23 / 上
+                              :arg0  (x22 / 炕
+)))                  :arg0  (x42 / person
+)                  :arg1  (x33 / 课本
+                        :mod  (x32 / 识字
+)                        :arg1-of  (x29 / 包-01
+                              :aspect  (x30 / 着
+)                              :arg2  (x28 / 布
+                                    :arg0-of  (x27 / 红-01
+)))                        :poss  (x25 / x42
+)))))
+===========================
+忽然听见街上咕咚咕咚有人跑，把屋子震得好像摇晃起来，窗户纸哗啦哗啦响。
+(x23 / and
+      :op1  (x2 / 听见-01
+            :manner  (x1 / 忽然
+)            :arg1  (x7 / 跑-01
+                  :location  (x3 / 街上
+)                  :manner  (x4_x5 / 咕咚
+)                  :arg0  (x6_2 / 人
+                        :arg1-of  (x6_1 / 有-03
+                              :arg0  (x3 / 街上
+)))))      :op2  (x11 / 震
+            :cause-of  (x13 / 好像-01
+                  :arg0  (x14_x15 / 摇晃-01
+                        :arg0  (x10 / 屋子
+)))            :arg1  (x10 / 屋子
+))      :op3  (x21 / 响-01
+            :manner  (x19_x20 / 哗啦
+)            :arg0  (x18 / 纸
+                  :mod  (x17 / 窗户
+))))
+===========================
+雨来一骨碌下了炕，把书塞在怀里就往外跑，刚要迈门槛，进来一个人，雨来正撞在这个人的怀里。
+(x36 / temporal
+      :arg1  (x3 / 下-04
+            :aspect  (x4 / 了
+)            :manner  (x2 / 一骨碌
+)            :arg0  (x41 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x5 / 炕
+))      :arg2  (x9 / 塞-01
+            :arg0  (x41 / person
+)            :arg2  (x11 / 怀里
+                  :poss  (x41 / person
+))            :arg1  (x8 / 书
+))      :arg3  (x15 / 跑-01
+            :direction  (x14 / 外
+)            :arg0  (x41 / person
+))      :arg4  (x22 / 进来-01
+            :time  (x18 / 要-03
+                  :time  (x17 / 刚
+)                  :arg0  (x19 / 迈-01
+                        :arg0  (x41 / person
+)                        :arg1  (x20 / 门槛
+)))            :arg0  (x25 / 人
+                  :cunit  (x24 / 个
+)                  :quant  (x23 / 1
+)))      :arg5  (x29 / 撞-01
+            :manner  (x28 / 正
+)            :arg1  (x34 / 怀里
+                  :poss  (x32 / x25
+                        :mod  (x31_1 / 这
+)                        :cunit  (x31_2 / 个
+)))            :arg0  (x27 / x41
+)))
+===========================
+他抬头一看，是李大叔。
+(x9 / and
+      :op1  (x4 / 看-02
+            :manner  (x2 / 抬头-01
+                  :arg0  (x1 / 他
+))            :arg1  (x1 / 他
+))      :op2  (x7 / 李大叔
+            :domain  (x15 / person
+)))
+===========================
+李大叔是区上的交通员，常在雨来家落脚。
+(x14 / and
+      :op1  (x6 / 交通员
+            :poss  (x3 / 区
+)            :domain  (x1 / 李大叔
+))      :op2  (x12 / 落脚-01
+            :arg0  (x1 / 李大叔
+)            :arg1  (x11 / 家
+                  :poss  (x21 / person
+                        :name  ( x10/雨来 
+)))            :frequency  (x8 / 常
+)))
+===========================
+随后听见日本鬼子唔哩哇啦地叫。
+(x2 / 听见-01
+      :time  (x1 / 随后
+)      :arg1  (x7 / 叫-03
+            :manner  (x5 / 唔哩哇啦
+)            :arg0  (x4 / 鬼子
+                  :mod  (x15 / nationality
+                        :name  ( x3/日本 
+)))))
+===========================
+李大叔忙把墙角那盛着一半糠皮的缸搬开。
+(x12 / 搬开-01
+      :arg0  (x1 / 李大叔
+)      :manner  (x2 / 忙-01
+)      :arg1  (x11 / 缸
+            :arg2-of  (x6 / 盛-02
+                  :aspect  (x7 / 着-03
+)                  :arg1  (x9 / 糠皮
+                        :quant  (x8 / 一半
+)))            :mod  (x5 / 那
+)            :location  (x4 / 墙角
+)))
+===========================
+雨来两眼愣住了，“咦！这是什么时候挖的洞呢？’，
+(x18 / and
+      :op1  (x4 / 愣住-01
+            :arg0  (x3 / 眼
+                  :part-of  (x22 / person
+                        :name  ( x1/雨来 
+))                  :quant  (x2 / 2
+))            :aspect  (x5 / 了
+))      :op2  (x24 / say
+            :arg1  (x26 / and
+                  :op1  (x7 / 咦
+                        :mode  (x8 / expressive
+))                  :op2  (x15 / 洞
+                        :domain  (x9 / 这
+)                        :arg1-of  (x13 / 挖-01
+                              :time  (x11_x12 / amr-unknown
+))                        :mode  (x16_x17 / interrogative
+)))))
+===========================
+李大叔跳进洞里，说：“把缸搬回原地方。
+(x15 / temporal
+      :arg1  (x2 / 跳进-01
+            :arg0  (x1 / 李大叔
+)            :arg1  (x3 / 洞
+))      :arg2  (x6 / 说-01
+            :arg0  (x1 / 李大叔
+)            :arg1  (x10_x11 / 搬回-01
+                  :arg1  (x9 / 缸
+)                  :arg2  (x13 / 地方
+                        :mod  (x12 / 原
+)))))
+===========================
+你就快到别的院里去，对谁也不许说。”
+(x16 / say
+      :arg1  (x18 / and
+            :op1  (x4 / 到-01
+                  :time  (x3 / 快
+)                  :mod  (x2 / 就
+)                  :arg0  (x1 / 你
+)                  :arg1  (x6 / 院里
+                        :mod  (x5 / 别的
+)))            :op2  (x13 / 许-01
+                  :arg1  (x1 / 你
+)                  :arg2  (x14 / 说-01
+                        :arg3  (x10 / amr-unknown
+)                        :arg0  (x1 / 你
+))                  :polarity  (x12 / -
+)                  :mod  (x11 / 也
+))))
+===========================
+12岁的雨来使尽气力，才把缸挪回到原地。
+(x16 / condition
+      :arg1  (x5 / 使-02
+            :cause-of  (x6 / 尽-02
+                  :arg0  (x7 / 气力
+))            :arg1  (x7 / 气力
+)            :arg0  (x21 / person
+                  :name  ( x4/雨来 
+)                  :age  (x23 / temporal-quantity
+                        :quant  (x1 / 12
+)                        :unit  (x2 / 岁
+))))      :arg2  (x12 / 挪回
+            :arg1  (x11 / 缸
+)            :arg2  (x14 / 原地
+)            :arg0  (x21 / person
+)))
+===========================
+雨来刚到堂屋，见十几把雪亮的刺刀从前门进来，他撒腿就往后院跑。
+(x23 / temporal
+      :arg1  (x3 / 到-01
+            :time  (x2 / 刚
+)            :arg0  (x27 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x4 / 堂屋
+))      :arg2  (x6 / 见-01
+            :arg0  (x27 / person
+)            :arg1  (x14 / 进来-01
+                  :source  (x13 / 前门
+)                  :arg0  (x11 / 刺刀
+                        :arg0-of  (x9 / 雪亮-01
+)                        :quant  (x7_2 / 几
+                              :op1  (x7_1 / 10
+))                        :cunit  (x8 / 把
+))))      :arg3  (x21 / 跑-01
+            :manner  (x17 / 撒腿-01
+                  :arg0  (x16 / x27
+))            :arg0  (x27 / person
+)            :arg3  (x20 / 后院
+)            :mod  (x18 / 就
+)))
+===========================
+背后咔啦一声枪栓响，有人大声叫道：“站住！”
+(x15 / temporal
+      :arg1  (x6 / 响-01
+            :arg0  (x5 / 枪栓
+)            :quant  (x3 / 1
+)            :manner  (x2 / 咔啦
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 声
+))            :location  (x1 / 背后
+))      :arg2  (x10_x11 / 叫-03
+            :arg0  (x8_2 / 人
+                  :arg1-of  (x8_1 / 有-03
+))            :manner  (x9 / 大声
+)            :arg1  (x13 / 站住
+                  :mode  (x14 / expressive
+))))
+===========================
+雨来没理他，脚下像踩着风，一直朝后院跑去。
+(x18 / and
+      :op1  (x3 / 理-02
+            :arg0  (x21 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x4 / 他
+)            :polarity  (x2 / -
+))      :op2  (x7 / 像-02
+            :arg1  (x8 / 踩-02
+                  :arg0  (x6 / 脚下
+                        :poss  (x21 / person
+))                  :aspect  (x9 / 着
+)                  :arg1  (x10 / 风
+)))      :op3  (x15 / 跑-01
+            :arg3  (x14 / 后院
+)            :time  (x12 / 一直
+)            :arg0  (x21 / person
+)))
+===========================
+只听见子弹向他头上嗖嗖地飞来。
+(x2 / 听见-01
+      :mod  (x1 / 只
+)      :arg1  (x10 / 飞来-01
+            :arg0  (x3 / 子弹
+)            :arg1  (x6 / 头
+                  :part-of  (x5 / 他
+))            :manner  (x8 / 嗖嗖
+)))
+===========================
+可是后院没有门，把雨来急出一身冷汗。
+(x14 / contrast
+      :arg2  (x16 / causation
+            :arg1  (x3_2 / 有-03
+                  :polarity  (x3_1 / -
+)                  :arg0  (x2 / 后院
+)                  :arg1  (x4 / 门
+))            :arg2  (x8 / 急-01
+                  :cause-of  (x9 / 出-01
+                        :arg0  (x12 / 冷汗
+                              :cunit  (x11 / 身
+)                              :quant  (x10 / 1
+)))                  :arg0  (x23 / person
+                        :name  ( x7/雨来 
+)))))
+===========================
+靠墙有一棵桃树，雨来抱着树就往上爬。
+(x17 / and
+      :op1  (x3 / 有-03
+            :arg0  (x1 / 靠-05
+                  :arg1  (x2 / 墙
+))            :arg1  (x6 / 桃树
+                  :cunit  (x5 / 棵
+)                  :quant  (x4 / 1
+)))      :op2  (x15 / 爬-01
+            :arg0  (x26 / person
+                  :name  ( x8/雨来 
+))            :direction  (x14 / 上
+)            :mod  (x12 / 就
+)            :manner  (x9 / 抱-01
+                  :arg0  (x26 / person
+)                  :aspect  (x10 / 着
+)                  :arg1  (x11 / 树
+))))
+===========================
+鬼子已经追到树底下，伸手抓住雨来的脚，往下一拉，雨来就摔在地下。
+(x25 / temporal
+      :arg1  (x3_x4 / 追到-01
+            :arg0  (x1 / 鬼子
+)            :arg2  (x6 / 底下
+                  :arg0  (x5 / 树
+))            :aspect  (x2 / 已经
+)            :arg1  (x35 / person
+                  :name  ( x10/雨来 
+)))      :arg2  (x9 / 抓住-01
+            :manner  (x8 / 伸手-01
+                  :arg0  (x1 / 鬼子
+))            :arg0  (x1 / 鬼子
+)            :arg1  (x12 / 脚
+                  :part-of  (x35 / person
+)))      :arg3  (x17 / 拉-01
+            :direction  (x15 / 下
+)            :arg0  (x1 / 鬼子
+)            :arg1  (x35 / person
+))      :arg4  (x21 / 摔-03
+            :mod  (x20 / 就
+)            :location  (x23 / 地下
+)            :arg0  (x19 / x35
+)))
+===========================
+鬼子把他两只胳膊向背后一拧，捆绑起来，推推搡搡回到屋里。
+(x19 / temporal
+      :arg1  (x10 / 拧-01
+            :direction  (x8 / 背后
+)            :arg0  (x1 / 鬼子
+)            :arg1  (x6 / 胳膊
+                  :part-of  (x3 / 他
+)                  :cunit  (x5 / 只
+)                  :quant  (x4 / 2
+)))      :arg2  (x12_x13 / 捆绑-01
+            :arg0  (x1 / 鬼子
+)            :arg1  (x6 / 胳膊
+))      :arg3  (x16 / 回到-01
+            :manner  (x15 / 推推搡搡
+)            :arg1  (x17 / 屋里
+)))
+===========================
+四鬼子把前后院都翻遍了。
+(x7 / 翻-01
+      :arg0  (x2 / 鬼子
+)      :arg2  (x8 / 遍-01
+            :aspect  (x9 / 了
+)            :arg1  (x5 / 院
+                  :mod  (x4 / 前后
+)                  :extent  (x6 / 都
+))            :arg0  (x2 / 鬼子
+))      :arg1  (x5 / 院
+))
+===========================
+屋子里遭了劫难，连枕头都给刺刀挑破了。
+(x16 / and
+      :op1  (x3 / 遭-01
+            :arg0  (x2 / 里
+                  :arg0  (x1 / 屋子
+))            :aspect  (x4 / 了
+)            :arg1  (x5 / 劫难
+))      :op2  (x12 / 挑-01
+            :cause-of  (x13 / 破-03
+                  :aspect  (x14 / 了
+)                  :arg0  (x8 / 枕头
+))            :arg1  (x8 / 枕头
+)            :instrument  (x11 / 刺刀
+)))
+===========================
+炕沿上坐着个鬼子军官，两眼红红的，用中国话问雨来说：“小孩，问你话，不许撒谎！”
+(x29 / and
+      :op1  (x3 / 坐-01
+            :arg1  (x1 / 炕沿
+)            :aspect  (x4 / 着
+)            :arg0  (x7 / 军官
+                  :mod  (x6 / 鬼子
+)))      :op2  (x11 / 红-01
+            :mode  (x12 / judgement
+)            :arg0  (x10 / 眼
+                  :part-of  (x7 / 军官
+)                  :quant  (x9 / 2
+)))      :op3  (x16 / 问-01
+            :arg0  (x7 / 军官
+)            :instrument  (x15 / 中国话
+)            :arg2  (x44 / person
+                  :name  ( x17/雨来 
+))            :arg1  (x45 / and
+                  :op2  (x22 / 问-01
+                        :arg1  (x23 / x44
+))                  :op1  (x20 / x44
+)                  :op3  (x26_2 / 许-01
+                        :polarity  (x26_1 / -
+)                        :arg1  (x44 / person
+)                        :arg2  (x27 / 撒谎-01
+                              :arg0  (x44 / person
+))                        :mode  (x28 / expressive
+)))))
+===========================
+他突然望着雨来的胸脯，张着嘴，眼睛睁得圆圆的。
+(x19 / and
+      :op1  (x3 / 望-01
+            :manner  (x2 / 突然-01
+)            :arg0  (x1 / 他
+)            :aspect  (x4 / 着
+)            :arg1  (x7 / 胸脯
+                  :part-of  (x26 / person
+                        :name  ( x5/雨来 
+))))      :op2  (x9 / 张-01
+            :arg0  (x1 / 他
+)            :aspect  (x10 / 着
+)            :arg1  (x11 / 嘴
+                  :part-of  (x1 / 他
+)))      :op3  (x14 / 睁-01
+            :manner  (x16_x17 / 圆-02
+                  :arg0  (x13 / 眼睛
+                        :part-of  (x1 / 他
+)))            :arg0  (x1 / 他
+)            :arg1  (x13 / 眼睛
+)))
+===========================
+雨来低头一看，原来刚才一阵子挣扎，识字课本从怀里露出来了。
+(x19 / and
+      :op1  (x4 / 看-01
+            :manner  (x2 / 低头-01
+                  :arg0  (x23 / person
+                        :name  ( x1/雨来 
+)))            :arg0  (x23 / person
+))      :op2  (x15_x16 / 露出-01
+            :manner  (x6 / 原来
+)            :cause  (x9 / 挣扎-01
+                  :time  (x7 / 刚才
+)                  :arg0  (x23 / person
+)                  :duration  (x8 / 一阵子
+))            :arg1  (x12 / 课本
+                  :mod  (x11 / 识字
+))            :source  (x14 / 怀里
+                  :part-of  (x23 / person
+))            :aspect  (x17 / 了
+)))
+===========================
+鬼子一把抓在手里，翻着看了看，问他：“谁给你的？”
+(x23 / temporal
+      :arg1  (x4 / 抓-01
+            :location  (x6 / 手
+                  :part-of  (x1 / 鬼子
+))            :manner  (x2_x3 / 一把
+)            :arg0  (x1 / 鬼子
+))      :arg2  (x11_x13 / 看-02
+            :manner  (x9 / 翻-01
+                  :aspect  (x10 / 着
+)                  :arg0  (x1 / 鬼子
+))            :aspect  (x12 / 了
+)            :arg0  (x1 / 鬼子
+))      :arg3  (x15 / 问-01
+            :arg0  (x1 / 鬼子
+)            :arg1  (x19 / 给-01
+                  :arg0  (x18 / amr-unknown
+)                  :arg2  (x20 / x16
+)                  :mode  (x21 / judgement
+)                  :mode  (x22 / interrogative
+))            :arg2  (x16 / 他
+)))
+===========================
+雨来说：“捡来的！”
+(x2 / 说-01
+      :arg0  (x10 / person
+            :name  ( x1/雨来 
+))      :arg1  (x4_x5 / 捡来
+            :mode  (x6 / judgement
+)            :mode  (x7 / expressive
+)))
+===========================
+鬼子露出满口金牙，做了个鬼脸，温和地对雨来说：“不要害怕！小孩，皇军是爱护的！”
+(x29 / temporal
+      :arg1  (x2 / 露出-01
+            :arg0  (x1 / 鬼子
+)            :arg1  (x6 / 牙
+                  :arg0-of  (x5 / 金
+)                  :location  (x4 / 口
+                        :mod  (x3 / 满
+)                        :part-of  (x1 / 鬼子
+))))      :arg2  (x8 / 做-01
+            :arg0  (x1 / 鬼子
+)            :aspect  (x9 / 了
+)            :arg1  (x11 / 鬼脸
+                  :cunit  (x10 / 个
+)))      :arg3  (x17 / 说-01
+            :arg0  (x1 / 鬼子
+)            :manner  (x13 / 温和-01
+                  :arg0  (x1 / 鬼子
+))            :arg3  (x43 / person
+                  :name  ( x16/雨来 
+))            :arg1  (x45 / causation
+                  :arg2  (x19_2 / 要-03
+                        :polarity  (x19_1 / -
+)                        :arg0  (x20 / 害怕
+)                        :mode  (x21 / expressive
+))                  :arg1  (x26 / 爱护-01
+                        :arg0  (x24 / 皇军
+)                        :arg1  (x22 / 小孩
+)                        :mode  (x25_x27 / judgement
+)                        :mode  (x28 / expressive
+)))))
+===========================
+说着，就叫人给他松绑。
+(x11 / and
+      :op1  (x1 / 说
+            :aspect  (x2 / 着-01
+))      :op2  (x5 / 叫-04
+            :arg1  (x6 / 人
+)            :arg2  (x7 / 给-02
+                  :arg0  (x6 / 人
+)                  :arg1  (x8 / 他
+)                  :arg2  (x9 / 松绑-01
+                        :arg0  (x6 / 人
+)                        :arg1  (x8 / 他
+)))            :mod  (x4 / 就
+)))
+===========================
+雨来把手放下来，觉得胳膊发麻发痛。
+(x12 / temporal
+      :arg1  (x4_x5 / 放下-01
+            :arg0  (x15 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x3 / 手
+                  :part-of  (x15 / person
+)))      :arg2  (x7 / 觉得-01
+            :arg0  (x15 / person
+)            :arg1  (x19 / and
+                  :op1  (x9 / 发麻-01
+                        :arg0  (x8 / 胳膊
+                              :part-of  (x15 / person
+)))                  :op2  (x10 / 发痛
+                        :arg0  (x8 / 胳膊
+)))))
+===========================
+扁鼻子军官用手摸着雨来的脑袋，说：“这本书谁给你的，没有关系，我不问了。
+(x30 / and
+      :op1  (x6 / 摸-01
+            :arg0  (x3 / 军官
+                  :mod  (x2 / 鼻子
+                        :arg0-of  (x1 / 扁-01
+)))            :instrument  (x5 / 手
+                  :part-of  (x3 / 军官
+))            :aspect  (x7 / 着
+)            :arg1  (x10 / 脑袋
+                  :part-of  (x40 / person
+                        :name  ( x8/雨来 
+))))      :op2  (x12 / 说-01
+            :arg0  (x3 / 军官
+)            :arg1  (x42 / caustaion
+                  :arg1  (x22_2 / 有-03
+                        :arg0  (x18 / 给
+                              :arg1  (x16 / 书
+                                    :mod  (x14 / 这
+)                                    :cunit  (x15 / 本
+))                              :arg0  (x17 / amr-unknown
+)                              :mode  (x20 / judgement
+)                              :arg1  (x19 / x40
+))                        :polarity  (x22_1 / -
+)                        :arg1  (x23 / 关系
+))                  :arg2  (x27 / 问-01
+                        :smood  (x28 / 了
+)                        :arg0  (x25 / x3
+)                        :polarity  (x26 / -
+)))))
+===========================
+别的话要统统告诉我！刚才有个人跑进来，看见没有？”
+(x18 / say
+      :arg1  (x20 / and
+            :op1  (x3 / 要-03
+                  :arg0  (x5 / 告诉-01
+                        :arg1  (x2 / 话
+                              :extent  (x4 / 统统
+)                              :mod  (x1 / 别的
+))                        :arg2  (x6 / 我
+)                        :mode  (x7 / expressive
+)))            :op2  (x28 / and
+                  :op1  (x12 / 跑-01
+                        :cause-of  (x13 / 进来-01
+                              :arg0  (x11 / 人
+                                    :arg1-of  (x9 / 有-03
+)                                    :cunit  (x10 / 个
+)))                        :arg0  (x11 / 人
+)                        :time  (x8 / 刚才
+))                  :op2  (x15 / 看见-01
+                        :mode  (x16_x17 / interrogative
+)                        :arg1  (x11 / 人
+)))))
+===========================
+雨来用手背抹了一下鼻子，嘟嘟嚷嚷地说：“我在屋里，什么也没看见。”
+(x22 / temporal
+      :arg1  (x4 / 抹-01
+            :arg0  (x25 / person
+                  :name  ( x1/雨来 
+))            :instrument  (x3 / 手背
+                  :poss  (x25 / person
+))            :aspect  (x5 / 了
+)            :arg1  (x7 / 鼻子
+)            :quant  (x6 / 一下
+)            :quant  (x6_1 / 1
+)            :unit  (x6_2 / 下
+))      :arg2  (x11 / 说-01
+            :manner  (x9 / 嘟嘟嚷嚷
+)            :arg0  (x25 / person
+)            :arg1  (x33 / causation
+                  :arg1  (x14 / 在-01
+                        :arg0  (x13 / x25
+)                        :arg2  (x15 / 屋里
+))                  :arg2  (x20 / 看见-01
+                        :mod  (x18 / 也
+)                        :polarity  (x19 / -
+)                        :arg1  (x17 / amr-unknown
+)                        :arg0  (x25 / person
+)))))
+===========================
+扁鼻子军官把书扔在地上，伸手往皮包里掏，雨来心里想：“掏什么呢？找刀子？鬼子生了气要挖小孩眼睛的！”
+(x38 / temporal
+      :arg1  (x6 / 扔-01
+            :arg2  (x8 / 地上
+)            :arg1  (x5 / 书
+)            :arg0  (x3 / 军官
+                  :mod  (x2 / 鼻子
+                        :arg0-of  (x1 / 扁-01
+))))      :arg2  (x14 / 掏-01
+            :location  (x12 / 皮包
+)            :manner  (x10 / 伸手-01
+                  :arg0  (x3 / 军官
+))            :arg0  (x3 / 军官
+))      :arg3  (x19 / 想-01
+            :arg0  (x17 / 心
+                  :part-of  (x51 / person
+                        :name  ( x16/雨来 
+)))            :arg1  (x53 / and
+                  :op1  (x21 / 掏-01
+                        :arg0  (x3 / 军官
+)                        :arg1  (x22 / amr-unknown
+)                        :mode  (x23_x24 / interrogative
+))                  :op2  (x25 / 找-01
+                        :arg1  (x26 / 刀子
+)                        :arg0  (x3 / 军官
+)                        :mode  (x27 / interrogative
+))                  :op3  (x60 / condition
+                        :arg1  (x29_x31 / 生气-01
+                              :arg0  (x28 / 鬼子
+))                        :arg2  (x33 / 挖-01
+                              :arg0  (x28 / 鬼子
+)                              :arg1  (x35 / 眼睛
+                                    :part-of  (x34 / 小孩
+)))                        :mode  (x36 / judgement
+)                        :mode  (x37 / expressive
+)))))
+===========================
+只见他掏出来的却是一把雪白的糖块。
+(x1 / 只见-01
+      :arg1  (x12 / 糖块
+            :mod  (x6 / 却
+)            :arg0-of  (x10 / 雪白-01
+)            :domain  (x19 / thing
+                  :arg1-of  (x3 / 掏-01
+                        :arg0  (x2 / 他
+)))            :cunit  (x9 / 把
+)            :quant  (x8 / 1
+)))
+===========================
+扁鼻子军官把糖往雨来手里一塞，说：“吃！你吃！你得说出来，他在什么地方？”
+(x30 / temporal
+      :arg1  (x11 / 塞-01
+            :arg0  (x3 / 军官
+                  :mod  (x2 / 鼻子
+                        :arg0-of  (x1 / 扁-01
+)))            :arg2  (x8 / 手
+                  :part-of  (x39 / person
+                        :name  ( x7/雨来 
+)))            :arg1  (x5 / 糖
+))      :arg2  (x13 / 说-01
+            :arg0  (x3 / 军官
+)            :arg1  (x42 / and
+                  :op1  (x15 / 吃-01
+                        :mode  (x16 / expressive
+))                  :op2  (x18 / 吃
+                        :arg0  (x17 / x39
+)                        :mode  (x19 / expressive
+))                  :op3  (x21 / 得
+                        :arg0  (x22 / 说-01
+                              :arg0  (x20 / x39
+)                              :arg1  (x26 / 在-01
+                                    :arg0  (x25 / 他
+)                                    :arg1  (x27_x28 / amr-unknown
+)                                    :mode  (x29 / interrogative
+)))))))
+===========================
+他又伸出那个戴金戒指的手指，说：“这个，金的，也给你！”
+(x22 / temporal
+      :arg1  (x3 / 伸出-01
+            :arg0  (x1 / 他
+)            :mod  (x2 / 又
+)            :arg1  (x9 / 手指
+                  :mod  (x4_1 / 那
+)                  :cunit  (x4_2 / 个
+)                  :arg2-of  (x5 / 戴-01
+                        :arg1  (x7 / 戒指
+                              :consist-of  (x6 / 金
+)))))      :arg2  (x11 / 说-01
+            :arg0  (x1 / 他
+)            :arg1  (x34 / and
+                  :op1  (x35 / thing
+                        :mod  (x13_1 / 这
+)                        :refer  (x7 / 戒指
+)                        :cunit  (x13_2 / 个
+))                  :op2  (x15 / 金
+                        :consist  (x35 / thing
+)                        :mode  (x16 / judgement
+))                  :op3  (x19 / 给-01
+                        :arg1  (x7 / 戒指
+)                        :mod  (x18 / 也
+)                        :arg0  (x1 / 他
+)                        :arg2  (x20 / 你
+)                        :mode  (x21 / expressive
+)))))
+===========================
+雨来没有接他的糖，也没有回答他。
+(x13 / and
+      :op1  (x3 / 接-01
+            :polarity  (x2 / -
+)            :arg0  (x17 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x6 / 糖
+                  :poss  (x4 / 他
+)))      :op2  (x10 / 回答-01
+            :polarity  (x9 / -
+)            :mod  (x8 / 也
+)            :arg0  (x17 / person
+)            :arg1  (x11 / 他
+)))
+===========================
+旁边一个鬼子嗖地抽出刀来，瞪着眼睛要向雨来头上劈。
+(x21 / temporal
+      :arg1  (x7 / 抽出-01
+            :arg1  (x8 / 刀
+)            :manner  (x5 / 嗖
+)            :arg0  (x4 / 鬼子
+                  :location  (x1 / 旁边
+)                  :quant  (x2 / 1
+)                  :cunit  (x3 / 个
+)))      :arg2  (x14 / 要-05
+            :arg0  (x4 / 鬼子
+)            :arg1  (x19 / 劈-01
+                  :arg0  (x4 / 鬼子
+)                  :arg1  (x17 / 头
+                        :part-of  (x33 / person
+                              :name  ( x16/雨来 
+))))            :manner  (x11 / 瞪-01
+                  :aspect  (x12 / 着
+)                  :arg0  (x4 / 鬼子
+)                  :arg1  (x13 / 眼睛
+                        :part-of  (x4 / 鬼子
+)))))
+===========================
+扁鼻子军官摇摇头。
+(x4_x5_x6 / 摇头-01
+      :arg0  (x3 / 军官
+            :mod  (x2 / 鼻子
+                  :arg0-of  (x1 / 扁-01
+))))
+===========================
+两个人唧唧咕咕说了一阵阵。
+(x6 / 说
+      :arg0  (x3 / 人
+            :cunit  (x2 / 个
+)            :quant  (x1 / 2
+))      :aspect  (x7 / 了-01
+)      :duration  (x8 / 一阵
+))
+===========================
+那鬼子向雨来横着脖子翻白眼，使劲把刀放回鞘里。
+(x19 / and
+      :op1  (x5 / 横
+            :arg0  (x2 / 鬼子
+                  :mod  (x1 / 那
+))            :aspect  (x6 / 着
+)            :arg1  (x7 / 脖子
+                  :part-of  (x2 / 鬼子
+))            :beneficiary  (x32 / person
+                  :name  ( x4/雨来 
+)))      :op2  (x8 / 翻-01
+            :arg0  (x2 / 鬼子
+)            :arg1  (x9 / 白眼
+                  :part-of  (x2 / 鬼子
+))            :beneficiary  (x32 / person
+))      :op3  (x14_x15 / 放回-01
+            :arg0  (x2 / 鬼子
+)            :arg1  (x13 / 刀
+)            :arg2  (x16 / 鞘
+)            :manner  (x11 / 使劲-01
+                  :arg0  (x2 / 鬼子
+))))
+===========================
+扁鼻子军官压住肚子里的火气，用手轻轻地拍着雨来的肩膀，说：“我最喜欢小孩。
+(x27 / and
+      :op2  (x14 / 拍-01
+            :manner  (x12 / 轻轻
+)            :instrument  (x11 / 手
+                  :part-of  (x3 / 军官
+                        :mod  (x2 / 鼻子
+                              :arg0-of  (x1 / 扁-01
+))))            :arg0  (x3 / 军官
+)            :aspect  (x15 / 着
+)            :arg1  (x18 / 肩膀
+                  :part-of  (x40 / person
+                        :name  ( x16/雨来 
+))))      :op3  (x20 / 说-01
+            :arg0  (x3 / 军官
+)            :arg1  (x24 / 喜欢-01
+                  :degree  (x23 / 最
+)                  :arg0  (x22 / x3
+)                  :arg1  (x25 / 小孩
+)))      :op1  (x4 / 压-01
+            :arg0  (x3 / 军官
+)            :arg1  (x8 / 火气
+                  :location  (x5 / 肚子
+                        :part-of  (x3 / 军官
+)))))
+===========================
+那个人，你看见没有？说呀！”
+(x12 / say
+      :arg1  (x14 / and
+            :op1  (x6 / 看见-01
+                  :mode  (x7_x8 / interrogative
+)                  :arg0  (x5 / 你
+)                  :arg1  (x3 / 人
+                        :cunit  (x2 / 个
+)                        :mod  (x1 / 那
+)))            :op2  (x9 / 说-01
+                  :mode  (x10 / imperative
+)                  :mode  (x11 / expressive
+)                  :arg0  (x5 / 你
+))))
+===========================
+雨来摇摇头，说：“我在屋里，什么也没看见。”
+(x17 / temporal
+      :arg1  (x2_x3_x4 / 摇头-01
+            :arg0  (x20 / person
+                  :name  ( x1/雨来 
+)))      :arg2  (x6 / 说-01
+            :arg0  (x20 / person
+)            :arg1  (x23 / causation
+                  :arg1  (x9 / 在-01
+                        :arg0  (x8 / x20
+)                        :arg1  (x10 / 屋里
+)))            :arg2  (x15 / 看见-01
+                  :arg1  (x12 / 什么
+)                  :arg0  (x20 / person
+)                  :mod  (x13 / 也
+)                  :polarity  (x14 / -
+))))
+===========================
+扁鼻子军官的眼光立刻变得凶恶可怕，他向前弓着身子，伸出两只大手。
+(x24 / temporal
+      :arg1  (x7 / 变-01
+            :arg2  (x27 / and
+                  :op1  (x9 / 凶恶-01
+                        :arg0  (x5 / 眼光
+                              :poss  (x3 / 军官
+                                    :mod  (x2 / 鼻子
+                                          :arg0-of  (x1 / 扁-01
+)))))                  :op2  (x10 / 可怕-01
+                        :arg0  (x5 / 眼光
+)))            :time  (x6 / 立刻
+)            :arg0  (x5 / 眼光
+))      :arg2  (x14 / 弓-01
+            :arg0  (x12 / x3
+)            :direction  (x13_2 / 前
+)            :arg1  (x16 / 身子
+                  :part-of  (x3 / 军官
+))            :aspect  (x15 / 着
+))      :arg3  (x18 / 伸出-01
+            :arg0  (x3 / 军官
+)            :arg1  (x22 / 手
+                  :quant  (x19 / 2
+)                  :cunit  (x20 / 只
+)                  :arg0-of  (x21 / 大-01
+)                  :part-of  (x3 / 军官
+))))
+===========================
+啊！那双手就像鹰的爪子，扭着雨来的两只耳朵，向两边拉。
+(x24 / and
+      :op1  (x1 / 啊
+            :mode  (x2 / expressive
+))      :op2  (x7 / 像-01
+            :mod  (x6 / 就
+)            :arg0  (x5 / 手
+                  :mod  (x3 / 那
+)                  :quant  (x4 / 2
+))            :arg1  (x10 / 爪子
+                  :part-of  (x8 / 鹰
+)))      :op3  (x12 / 扭-02
+            :arg0  (x5 / 手
+)            :aspect  (x13 / 着
+)            :arg1  (x18 / 耳朵
+                  :part-of  (x38 / person
+                        :name  ( x14/雨来 
+))                  :cunit  (x17 / 只
+)                  :quant  (x16 / 2
+)))      :op4  (x22 / 拉-01
+            :arg0  (x5 / 手
+)            :arg1  (x18 / 耳朵
+)            :direction  (x21 / 两边
+)))
+===========================
+雨来疼得直咧嘴。
+(x2 / 疼-02
+      :arg0  (x10 / person
+            :name  ( x1/雨来 
+))      :cause-of  (x5 / 咧-01
+            :arg0  (x10 / person
+)            :time  (x4 / 直
+)            :arg1  (x6 / 嘴
+                  :part-of  (x10 / person
+))))
+===========================
+鬼子又抽出一只手来，在雨来的脸上打了两巴掌，又把他脸上的肉揪起一块，咬着牙拧。
+(x34 / temporal
+      :arg1  (x3 / 抽出-01
+            :mod  (x2 / 又
+)            :arg0  (x1 / 鬼子
+)            :arg1  (x6 / 手
+                  :cunit  (x5 / 只
+)                  :quant  (x4 / 1
+)))      :arg2  (x13 / 打-02
+            :quant  (x15 / x2
+)            :aspect  (x14 / 了
+)            :cunit  (x16 / 巴掌
+)            :arg0  (x1 / 鬼子
+)            :instrument  (x6 / 手
+)            :arg1  (x12_1 / 脸
+                  :part-of  (x48 / person
+                        :name  ( x10/雨来 
+))))      :arg3  (x24_x25 / 揪-01
+            :mod  (x18 / 又
+)            :arg1  (x23 / 肉
+                  :poss  (x21_1 / x12_1
+                        :part-of  (x20 / x48
+))                  :quant  (x26 / 1
+)                  :cunit  (x27 / 块
+))            :arg0  (x1 / 鬼子
+)            :instrument  (x6 / 手
+))      :arg4  (x32 / 拧-01
+            :manner  (x29 / 咬-01
+                  :aspect  (x30 / 着
+)                  :arg0  (x1 / 鬼子
+)                  :arg1  (x31 / 牙
+                        :part-of  (x1 / 鬼子
+)))            :arg0  (x1 / 鬼子
+)            :instrument  (x6 / 手
+)            :arg1  (x23 / 肉
+)))
+===========================
+雨来的脸立刻变成白一块，青一块，紫一块。
+(x5 / 变成-01
+      :arg2  (x20 / and
+            :op1  (x6 / 白-01
+                  :arg0  (x26 / thing
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 块
+)))            :op2  (x10 / 青
+                  :arg0  (x29 / thing
+                        :quant  (x11 / 1
+)                        :cunit  (x12 / 块
+)))            :op3  (x14 / 紫-01
+                  :arg0  (x34 / thing
+                        :quant  (x15 / 1
+)                        :cunit  (x16 / 块
+))))      :arg1  (x3 / 脸
+            :part-of  (x23 / person
+                  :name  ( x1/雨来 
+)))      :time  (x4 / 立刻
+))
+===========================
+鬼子又向他胸脯上打了一拳。
+(x7 / 打-02
+      :aspect  (x8 / 了
+)      :quant  (x9 / 1
+)      :cunit  (x10 / 拳
+)      :arg0  (x1 / 鬼子
+)      :mod  (x2 / 又
+)      :arg1  (x5 / 胸脯
+            :part-of  (x4 / 他
+)))
+===========================
+雨来打个趔趄，后退几步，后脑勺正碰在柜板上，但立刻又被抓过来，肚子撞在炕沿上。
+(x30 / temporal
+      :arg1  (x2 / 打
+            :arg0  (x33 / person
+                  :name  ( x1/雨来 
+))            :arg1  (x4 / 趔趄-01
+                  :cunit  (x3 / 个
+)                  :arg0  (x33 / person
+)))      :arg2  (x6 / 后退-01
+            :quant  (x7 / 几
+)            :cunit  (x8 / 步
+)            :arg0  (x33 / person
+))      :arg3  (x12 / 碰-01
+            :manner  (x11 / 正
+)            :arg0  (x10 / 后脑勺
+                  :part-of  (x33 / person
+))            :arg1  (x14 / 柜板
+))      :arg4  (x21 / 抓-01
+            :cause-of  (x22 / 过来-01
+                  :arg0  (x33 / person
+))            :time  (x18 / 立刻
+)            :arg1  (x33 / person
+)            :mod  (x19 / 又
+))      :arg5  (x25 / 撞-01
+            :arg0  (x24 / 肚子
+                  :part-of  (x33 / person
+))            :arg1  (x27 / 炕沿
+)))
+===========================
+雨来半天才喘过气来，脑袋里像有一窝蜂，嗡嗡地叫。
+(x19 / and
+      :op1  (x21 / possible
+            :arg0  (x4_x6 / 喘气-01
+                  :arg0  (x23 / person
+                        :name  ( x1/雨来 
+))                  :time  (x2 / 半天
+)                  :mod  (x3 / 才
+)))      :op2  (x11 / 像-02
+            :arg1  (x12 / 有
+                  :arg0  (x9 / 脑袋
+                        :part-of  (x23 / person
+))                  :arg1  (x13_3 / 蜂
+                        :quant  (x13_1 / 1
+))))      :op3  (x17 / 叫
+            :manner  (x15 / 嗡嗡
+)))
+===========================
+他两眼直冒金花，鼻子流着血。
+(x13 / and
+      :op1  (x5 / 冒-02
+            :arg0  (x3 / 眼
+                  :part-of  (x1 / 他
+)                  :quant  (x2 / 2
+))            :arg1  (x6 / 金花
+)            :time  (x4 / 直
+))      :op2  (x9 / 流-01
+            :arg0  (x11 / 血
+)            :arg2  (x8 / 鼻子
+                  :part-of  (x1 / 他
+))            :aspect  (x10 / 着
+)))
+===========================
+一滴一滴的血滴下来，溅在课本那几行字上：“我们是中国人，我们爱自己的祖国。”
+(x31 / temporal
+      :arg1  (x7 / 滴-01
+            :arg1  (x6 / 血
+                  :quant  (x1_x2_x3_x4 / 一滴一滴
+))            :direction  (x8 / 下来-01
+                  :arg0  (x6 / 血
+)))      :arg2  (x10 / 溅-01
+            :arg1  (x6 / 血
+)            :arg2  (x16 / 字
+                  :cunit  (x15 / 行
+)                  :quant  (x14 / 几
+)                  :mod  (x13 / 那
+)                  :location  (x12 / 课本
+)                  :arg0-of  (x43 / mean
+                        :arg1  (x44 / and
+                              :op1  (x23 / 人
+                                    :mod  (x46 / nationality
+                                          :name  ( x22/中国 
+))                                    :domain  (x20 / 我们
+))                              :op2  (x26 / 爱
+                                    :arg0  (x25 / x20
+)                                    :arg1  (x29 / 祖国
+                                          :poss  (x27 / x20
+))))))))
+===========================
+鬼子打得累了，雨来还是咬着牙，说：“没看见！”
+(x18 / and
+      :op1  (x2 / 打-02
+            :cause-of  (x4 / 累-02
+                  :aspect  (x5 / 了
+)                  :arg0  (x1 / 鬼子
+))            :arg0  (x1 / 鬼子
+))      :op2  (x13 / 说-01
+            :manner  (x9 / 咬-01
+                  :mod  (x8 / 还是
+)                  :aspect  (x10 / 着
+)                  :arg0  (x28 / person
+                        :name  ( x7/雨来 
+))                  :arg1  (x11 / 牙
+                        :part-of  (x1 / 鬼子
+)))            :arg0  (x28 / person
+)            :arg1  (x16 / 看见-01
+                  :arg0  (x28 / person
+)                  :polarity  (x15 / -
+)                  :mode  (x17 / expressive
+))))
+===========================
+扁鼻子军官气得暴跳起来，嗷嗷地叫：“枪毙，枪毙！拉出去，拉出去！”
+(x23 / temporal
+      :arg1  (x4 / 气-01
+            :cause-of  (x6_2_x7 / 跳-01
+                  :manner  (x6_1 / 暴
+)                  :arg0  (x3 / 军官
+                        :mod  (x2 / 鼻子
+                              :arg0-of  (x1 / 扁-01
+))))            :arg0  (x3 / 军官
+))      :arg2  (x11 / 叫-03
+            :arg0  (x3 / 军官
+)            :manner  (x9 / 嗷嗷
+)            :arg1  (x34 / and
+                  :op1  (x35 / and
+                        :op1  (x13 / 枪毙
+)                        :op2  (x15 / 枪毙
+                              :mode  (x16 / expressive
+)))                  :op2  (x39 / and
+                        :op1  (x17 / 拉
+                              :cause-of  (x18 / 出去
+))                        :op2  (x20 / 拉
+                              :cause-of  (x21 / 出去
+)                              :mode  (x22 / expressive
+))))))
+===========================
+五
+(x1 / 五
+)
+===========================
+太阳已经落下去。
+(x3 / 落-02
+      :cause-of  (x4 / 下去-01
+            :arg0  (x1 / 太阳
+))      :arg0  (x1 / 太阳
+)      :aspect  (x2 / 已经
+))
+===========================
+蓝蓝的天上飘着的浮云像一块一块红绸子，映在还乡河上，像开了一大朵一大朵鸡冠花。
+(x32 / and
+      :op1  (x8 / 像-01
+            :arg0  (x7 / 浮云
+                  :arg0-of  (x4 / 飘-01
+                        :aspect  (x5 / 着
+)                        :arg1  (x3 / 天上
+                              :arg0-of  (x1 / 蓝-01
+))))            :arg1  (x14 / 绸子
+                  :quant  (x9_x10_x11_x12 / 一块一块
+)                  :arg0-of  (x13 / 红-01
+)))      :op2  (x16 / 映-01
+            :arg0  (x7 / 浮云
+)            :arg1  (x18 / 还乡河
+))      :op3  (x21 / 像-02
+            :arg1  (x22 / 开
+                  :aspect  (x23 / 了
+)                  :arg1  (x30 / 鸡冠花
+                        :quant  (x24_x25_x26_x27_x28_x29 / 一大朵一大朵
+)))))
+===========================
+苇塘的芦花被风吹起来，在上面飘飘悠悠地飞着。
+(x17 / and
+      :op1  (x6 / 吹-02
+            :cause-of  (x7 / 起来-02
+                  :arg0  (x3 / 芦花
+                        :location  (x1 / 苇塘
+)))            :arg1  (x3 / 芦花
+)            :arg0  (x5 / 风
+))      :op2  (x14 / 飞-01
+            :aspect  (x15 / 着
+)            :location  (x10 / 上面
+)            :manner  (x11_x12 / 飘飘悠悠
+)            :arg0  (x3 / 芦花
+)))
+===========================
+芦花村里的人听到河沿上响了几枪。
+(x5 / 听到-01
+      :arg0  (x4 / 人
+            :location  (x1 / 芦花村
+))      :arg1  (x8 / 响
+            :aspect  (x9 / 了
+)            :quant  (x10 / 几
+)            :cunit  (x11 / 枪
+)            :location  (x6 / 河沿
+)))
+===========================
+老人们含着泪，说：“雨来是个好孩子！死得可惜！”
+(x20 / and
+      :op1  (x3 / 含-01
+            :aspect  (x4 / 着
+)            :arg0  (x1_x2 / 老人们
+)            :arg1  (x5 / 泪
+))      :op2  (x7 / 说-01
+            :arg0  (x1_x2 / 老人们
+)            :arg1  (x27 / and
+                  :op1  (x14 / 孩子
+                        :arg0-of  (x13 / 好-01
+)                        :cunit  (x12 / 个
+)                        :domain  (x31 / person
+                              :name  ( x10/雨来 
+))                        :mode  (x15 / expressive
+))                  :op2  (x18 / 可惜-01
+                        :arg0  (x16 / 死-01
+                              :arg0  (x31 / person
+))                        :mode  (x19 / expressive
+)))))
+===========================
+“有志不在年高。”
+(x9 / say
+      :arg1  (x5 / 在-02
+            :arg0  (x2 / 有-01
+                  :arg1  (x3 / 志
+))            :arg1  (x7 / 高-01
+                  :arg0  (x6 / 年
+))))
+===========================
+芦花村的孩子们，雨来的好朋友铁头和三钻儿几个人，听到枪声都呜呜地哭了。
+(x25 / causation
+      :arg1  (x17 / 听到-01
+            :arg0  (x3_x4 / 孩子们
+                  :location  (x1 / 芦花村
+)                  :example  (x15 / 人
+                        :cunit  (x14 / 个
+)                        :quant  (x13 / 几
+)                        :arg0-of  (x38 / mean
+                              :arg1  (x11 / and
+                                    :op1  (x40 / person
+                                          :name  ( x10/铁头 
+))                                    :op2  (x42 / person
+                                          :name  ( x12/三钻儿 
+))                                    :domain  (x9 / 朋友
+                                          :arg0-of  (x8 / 好-01
+)                                          :poss  (x47 / person
+                                                :name  ( x6/雨来 
+))))))                  :extent  (x19 / 都
+))            :arg1  (x18 / 枪声
+))      :arg2  (x22 / 哭-01
+            :aspect  (x23 / 了
+)            :manner  (x20 / 呜呜
+)            :arg0  (x3_x4 / 孩子们
+)))
+===========================
+六
+(x1 / 六
+)
+===========================
+交通员李大叔在地洞里等了好久，不见雨来来搬缸，就往另一个出口走。
+(x25 / causation
+      :arg1  (x27 / contrast
+            :arg1  (x6 / 等-01
+                  :location  (x4 / 地洞
+)                  :arg0  (x1 / 交通员
+                        :arg0-of  (x31 / mean
+                              :arg1  (x2 / 李大叔
+)))                  :duration  (x8 / 好久
+))            :arg2  (x11 / 见-01
+                  :polarity  (x10 / -
+)                  :arg0  (x1 / 交通员
+)                  :arg1  (x13 / 来-05
+                        :arg0  (x42 / person
+                              :name  ( x12/雨来 
+))                        :arg1  (x14 / 搬-01
+                              :arg0  (x42 / person
+)                              :arg1  (x15 / 缸
+)))))      :arg2  (x23 / 走-01
+            :arg0  (x1 / 交通员
+)            :arg2  (x22 / 出口
+                  :mod  (x19 / 另
+)                  :cunit  (x21 / 个
+)                  :quant  (x20 / 1
+))))
+===========================
+他试探着推开洞口的石板，扒开苇叶。
+(x2 / 试探-01
+      :arg0  (x1 / 他
+)      :aspect  (x3 / 着
+)      :arg1  (x16 / and
+            :op1  (x4 / 推开-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x7 / 石板
+                        :location  (x5 / 洞口
+)))            :op2  (x9 / 扒开-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x10 / 苇叶
+))))
+===========================
+院子里空空的，一个人影也没有，四处也不见动静。
+(x18 / and
+      :op1  (x3 / 空-01
+            :arg0  (x1 / 院子
+)            :mode  (x4 / judgement
+))      :op2  (x10_2 / 有-03
+            :polarity  (x10_1 / -
+)            :mod  (x9 / 也
+)            :arg1  (x8 / 人影
+                  :cunit  (x7 / 个
+)                  :quant  (x6 / 1
+))            :arg0  (x1 / 院子
+))      :op3  (x15 / 见-01
+            :location  (x12 / 四处
+                  :arg0  (x1 / 院子
+))            :polarity  (x14 / -
+)            :mod  (x13 / 也
+)            :arg1  (x16 / 动静
+)))
+===========================
+忽然听见街上有人吆喝：“豆腐啦！卖豆腐啦！”
+(x2 / 听见-01
+      :manner  (x1 / 忽然
+)      :arg1  (x5 / 吆喝-01
+            :arg0  (x4_2 / 人
+                  :arg1-of  (x4_1 / 有-03
+                        :arg0  (x3 / 街上
+)))            :arg1  (x22 / and
+                  :op1  (x7 / 豆腐
+                        :mode  (x8_x9 / expressive
+))                  :op2  (x10 / 卖-01
+                        :arg1  (x11 / 豆腐
+)                        :mode  (x12_x13 / expressive
+)))))
+===========================
+这是芦花村的暗号，李大叔知道敌人已经走远了。
+(x15 / causation
+      :arg1  (x5 / 暗号
+            :poss  (x3 / 芦花村
+)            :domain  (x1 / 这
+))      :arg2  (x8 / 知道-01
+            :arg0  (x7 / 李大叔
+)            :arg1  (x11 / 走-01
+                  :cause-of  (x12 / 远-01
+                        :aspect  (x13 / 了
+)                        :arg0  (x9 / 敌人
+))                  :arg0  (x9 / 敌人
+)                  :aspect  (x10 / 已经
+))))
+===========================
+可是雨来怎么还不见呢？
+(x9 / contrast
+      :arg2  (x6 / 见-01
+            :arg1  (x12 / person
+                  :name  ( x2/雨来 
+))            :polarity  (x5 / -
+)            :mod  (x4 / 还
+)            :cause  (x3 / amr-unknown
+)            :mode  (x7_x8 / interrogative
+)))
+===========================
+他跑到街上，看见许多人往河沿跑，一打听，才知道雨来被鬼子打死在河里了！
+(x27 / temporal
+      :arg1  (x2_x3 / 跑到-01
+            :arg0  (x1 / 他
+)            :arg1  (x4 / 街上
+))      :arg2  (x6 / 看见-01
+            :arg0  (x1 / 他
+)            :arg1  (x11 / 跑-01
+                  :arg3  (x10 / 河沿
+)                  :arg0  (x8 / 人
+                        :quant  (x7 / 许多
+))))      :arg3  (x14 / 打听-01
+            :arg0  (x1 / 他
+))      :arg4  (x17 / 知道-01
+            :mod  (x16 / 才
+)            :arg0  (x1 / 他
+)            :arg1  (x21 / 打-01
+                  :cause-of  (x22 / 死-01
+                        :arg0  (x42 / person
+                              :name  ( x18/雨来 
+))                        :location  (x24 / 河里
+))                  :arg1  (x42 / person
+)                  :smood  (x25 / expressive
+)                  :mode  (x25 / expressive
+)                  :arg0  (x20 / 鬼子
+))))
+===========================
+李大叔脑袋轰的一声，眼泪就流下来了。
+(x14 / temporal
+      :arg1  (x3 / 轰
+            :quant  (x5 / 1
+)            :location  (x2 / 脑袋
+                  :part-of  (x1 / 李大叔
+))            :cunit  (x6 / 声
+))      :arg2  (x10_x11 / 流-01
+            :arg0  (x8 / 眼泪
+)            :aspect  (x12 / 了
+)            :mod  (x9 / 就
+)))
+===========================
+他一股劲儿地跟着人们向河沿跑。
+(x10 / 跑-01
+      :manner  (x6_1 / 跟
+            :aspect  (x6_2 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x7 / 人们
+))      :arg3  (x9 / 河沿
+)      :manner  (x4 / 劲儿
+            :quant  (x2 / 1
+)            :cunit  (x3 / 股
+)))
+===========================
+到了河沿，别说尸首，连一滴血也没看见。
+(x16 / temporal
+      :arg1  (x1 / 到-01
+            :aspect  (x2 / 了
+)            :arg1  (x3 / 河沿
+))      :arg2  (x21 / concession
+            :arg1  (x6 / 尸首
+)            :arg2  (x14 / 看见-01
+                  :arg1  (x11 / 血
+                        :cunit  (x10 / 滴
+)                        :quant  (x9 / 1
+))                  :polarity  (x13 / -
+))))
+===========================
+大家呆呆地在河沿上立着。
+(x7 / 立-02
+      :arg1  (x1 / 大家
+)      :aspect  (x8 / 着
+)      :manner  (x2 / 呆呆
+)      :arg2  (x5 / 河沿
+))
+===========================
+还乡河静静的，河水打着漩涡哗哗地向下流去。
+(x16 / and
+      :op1  (x2 / 静-01
+            :arg0  (x1 / 还乡河
+)            :mode  (x3 / judgement
+))      :op2  (x13 / 流-01
+            :direction  (x12 / 下
+)            :manner  (x9 / 哗哗
+)            :manner  (x6 / 打
+                  :arg0  (x5 / 河水
+                        :poss  (x1 / 还乡河
+))                  :aspect  (x7 / 着
+)                  :arg1  (x8 / 漩涡
+))            :arg0  (x5 / 河水
+)))
+===========================
+虫子在草窝里叫着。
+(x5 / 叫-03
+      :aspect  (x6 / 着
+)      :arg0  (x1 / 虫子
+)      :location  (x3 / 草窝
+))
+===========================
+不知谁说：“也许鬼子把雨来扔在河里，冲走了！”
+(x2 / 知-01
+      :polarity  (x1 / -
+)      :arg1  (x4 / 说-01
+            :arg0  (x3 / amr-unknown
+)            :arg1  (x6 / 也许
+                  :arg0  (x23 / temporal
+                        :arg1  (x10 / 扔-01
+                              :arg0  (x7 / 鬼子
+)                              :arg1  (x26 / person
+                                    :name  ( x9/雨来 
+))                              :arg2  (x12 / 河里
+))                        :arg2  (x14 / 冲走-01
+                              :aspect  (x15 / 了
+)                              :arg0  (x26 / person
+)                              :mode  (x16 / expressive
+))))))
+===========================
+大家就顺着河岸向下找。
+(x9 / causation
+      :arg2  (x7 / 找-01
+            :direction  (x6 / 下
+)            :arg0  (x1 / 大家
+)            :manner  (x3_1 / 顺
+                  :aspect  (x3_2 / 着
+)                  :arg1  (x4 / 河岸
+)                  :arg0  (x1 / 大家
+))))
+===========================
+突然铁头叫起来“啊！雨来！雨来！”
+(x3_x4 / 叫-03
+      :manner  (x1 / 突然
+)      :arg0  (x15 / person
+            :name  ( x2/铁头 
+))      :arg1  (x17 / and
+            :op1  (x6 / 啊
+                  :mode  (x7 / expressive
+))            :op2  (x20 / person
+                  :name  ( x8/雨来 
+)                  :mode  (x9 / expresive
+))            :op3  (x21 / person
+                  :name  ( x10/雨来 
+)                  :mode  (x11 / expressive
+))))
+===========================
+在芦苇丛里，水面上露出个小脑袋来。
+(x7 / 露出-01
+      :arg1  (x10 / 脑袋
+            :arg0-of  (x9 / 小-01
+)            :cunit  (x8 / 个
+))      :location  (x5 / 水面
+            :location  (x2 / 芦苇丛
+)))
+===========================
+雨来还是像小鸭子一样抖着头上的水，用手抹一下眼睛和鼻子，扒着芦苇，向岸上的人问道：“鬼子走了？”
+(x36 / temporal
+      :arg1  (x7 / 抖-01
+            :manner  (x3 / 像
+                  :arg1  (x5 / 鸭子
+                        :arg0-of  (x4 / 小-01
+))                  :arg0  (x42 / person
+                        :name  ( x1/雨来 
+)))            :mod  (x2 / 还是
+)            :aspect  (x8 / 着
+)            :arg1  (x12 / 水
+                  :location  (x10 / 上
+                        :arg0  (x9 / 头
+                              :part-of  (x42 / person
+)))))      :arg2  (x16 / 抹-01
+            :arg0  (x42 / person
+)            :instrument  (x15 / 手
+                  :part-of  (x42 / person
+))            :arg1  (x19 / 和
+                  :op1  (x18 / 眼睛
+                        :part-of  (x42 / person
+))                  :op2  (x20 / 鼻子
+                        :part-of  (x42 / person
+)))            :quant  (x17_1 / 1
+)            :unit  (x17_2 / 下
+))      :arg3  (x22 / 扒-02
+            :arg0  (x42 / person
+)            :aspect  (x23 / 着
+)            :arg1  (x24 / 芦苇
+))      :arg4  (x30 / 问道-01
+            :arg0  (x42 / person
+)            :arg2  (x29 / 人
+                  :location  (x27 / 岸上
+))            :arg1  (x33 / 走-01
+                  :arg0  (x32 / 鬼子
+)                  :aspect  (x34 / 了
+)                  :mode  (x35 / expressive
+))))
+===========================
+“啊！”大家都高兴得叫起来，“雨来没有死！雨来没有死！”
+(x6 / 高兴-01
+      :cause-of  (x8_x9 / 叫-03
+            :arg0  (x4 / 大家
+                  :extent  (x5 / 都
+))            :arg1  (x24 / and
+                  :op1  (x2 / 啊
+                        :mode  (x3 / expressive
+))                  :op2  (x13 / 死-01
+                        :polarity  (x12 / -
+)                        :arg0  (x28 / person
+                              :name  ( x11/雨来 
+))                        :mode  (x14 / expressive
+))                  :op3  (x17 / 死-01
+                        :polarity  (x16 / -
+)                        :arg0  (x33 / person
+                              :name  ( x15/雨来 
+))                        :mode  (x18 / expressive
+))))      :arg0  (x4 / 大家
+))
+===========================
+原来枪响以前，雨来就趁鬼子不防备，一头扎到河里去。
+(x18 / and
+      :op1  (x7 / 趁-01
+            :arg0  (x21 / person
+                  :name  ( x5/雨来 
+))            :arg1  (x10 / 防备-01
+                  :arg0  (x8 / 鬼子
+)                  :polarity  (x9 / -
+))            :mod  (x6 / 就-01
+))      :time  (x3 / 以前
+            :arg0  (x2 / 枪响
+))      :manner  (x1 / 原来
+)      :op2  (x13 / 扎-01
+            :arg0  (x12 / 一头
+                  :poss  (x21 / person
+))            :arg1  (x15 / 河里
+)))
+===========================
+鬼子慌忙向水里打枪，可是我们的小英雄雨来已经从水底游到远处去了。
+(x23 / contrast
+      :arg1  (x6 / 打枪-01
+            :manner  (x2 / 慌忙
+)            :direction  (x4 / 水
+)            :arg0  (x1 / 鬼子
+))      :arg2  (x17 / 游-04
+            :arg0  (x12 / 英雄
+                  :name  ( x13/雨来 
+)                  :arg0-of  (x11 / 小-01
+)                  :poss  (x9 / 我们
+))            :source  (x16 / 水底
+)            :aspect  (x14 / 已经
+)            :arg1  (x19 / 远处
+)            :aspect  (x21 / 了
+)))
+===========================

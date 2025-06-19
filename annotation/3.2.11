@@ -1,0 +1,172 @@
+从前有一个人，坐着马车在大路上飞跑。
+(x13 / 飞跑-01
+      :arg0  (x5 / 人
+            :quant  (x3 / 1
+)            :cunit  (x4 / 个
+)            :arg1-of  (x2 / 有-03
+))      :manner  (x7 / 坐-02
+            :aspect  (x8 / 着
+)            :arg1  (x9 / 马车
+))      :location  (x11 / 大路
+)      :time  (x1 / 从前
+))
+===========================
+他的朋友看见了，叫住他问:“你上哪儿去呀!”
+(x17 / temporal
+      :arg1  (x4 / 看见-01
+            :aspect  (x5 / 了
+)            :arg0  (x3 / 朋友
+                  :poss  (x1 / 他
+)))      :arg2  (x7 / 叫住
+            :arg1  (x8 / x1
+)            :arg0  (x3 / 朋友
+))      :arg3  (x9 / 问-01
+            :arg0  (x3 / 朋友
+)            :arg2  (x1 / 他
+)            :arg1  (x14 / 去-01
+                  :arg0  (x11 / x1
+)                  :arg1  (x13 / amr-unknown
+)                  :mode  (x15_x16 / judgement
+))))
+===========================
+他回答说:“到楚国去。”
+(x2_x3 / 回答-01
+      :arg0  (x1 / 他
+)      :arg2  (x5 / 到-01
+            :arg0  (x1 / 他
+)            :arg1  (x6 / 楚国
+)))
+===========================
+朋友很奇怪，提醒他说:“楚国在南边，你怎么往北走呀?”
+(x20 / causation
+      :arg1  (x3 / 奇怪-01
+            :arg0  (x1 / 朋友
+)            :degree  (x2 / 很
+))      :arg2  (x5 / 提醒-01
+            :arg0  (x1 / 朋友
+)            :arg1  (x6 / 他
+)            :arg2  (x27 / contrast
+                  :arg1  (x10 / 在-01
+                        :arg0  (x9 / 楚国
+)                        :arg1  (x11 / 南边
+))                  :arg2  (x17 / 走-01
+                        :arg0  (x13 / x6
+)                        :cause  (x14 / amr-unknown
+)                        :mode  (x18_x19 / interrogative
+)                        :direction  (x16 / 北
+)))))
+===========================
+他说:“没关系，我的马跑得快。”
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x16 / causation
+            :arg2  (x4 / 没关系-01
+)            :arg1  (x9 / 跑-01
+                  :arg0  (x8 / 马
+                        :poss  (x6 / x1
+))                  :arg0-of  (x11 / 快-01
+))))
+===========================
+朋友说:“马跑得越快，离楚国不是越远了吗”
+(x2 / 说-01
+      :arg0  (x1 / 朋友
+)      :arg1  (x22 / condition
+            :arg1  (x5 / 跑-01
+                  :arg0  (x4 / 马
+)                  :arg0-of  (x8 / 快-01
+                        :degree  (x7 / 越
+)))            :arg2  (x10 / 离-02
+                  :arg1  (x11 / 楚国
+)                  :arg2  (x15 / 远
+                        :polarity  (x12_x13 / -
+)                        :degree  (x14 / 越
+)                        :aspect  (x16 / 了
+))                  :mode  (x17_x18 / interrogative
+))))
+===========================
+他说:“没关系，我的车夫是个好把式!”
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x17 / causation
+            :arg2  (x4 / 没关系
+)            :arg1  (x12 / 把式
+                  :domain  (x8 / 车夫
+                        :poss  (x6 / x1
+))                  :arg0-of  (x11 / 好-01
+)                  :cunit  (x10 / 个
+)                  :mode  (x13 / expressive
+))))
+===========================
+朋友摇摇头，说:“那你哪一天才能到楚国呀!”
+(x17 / temporal
+      :arg1  (x2 / 摇摇头-01
+            :arg0  (x1 / 朋友
+))      :arg2  (x4 / 说-01
+            :arg0  (x1 / 朋友
+)            :arg1  (x22 / condition
+                  :arg2  (x12 / 能-01
+                        :mod  (x11 / 才
+)                        :arg0  (x13 / 到-01
+                              :arg0  (x7 / 你
+)                              :arg1  (x14 / 楚国
+)                              :time  (x8_x9_x10 / amr-unknown
+))                        :mode  (x15_x16 / expressive
+)))))
+===========================
+他说:“没关系，不怕时间久，我带的盘缠多。”
+(x2 / 说-01
+      :arg0  (x1 / 他
+)      :arg1  (x19 / causation
+            :arg2  (x4 / 没关系
+)            :arg1  (x21 / causation
+                  :arg2  (x6_2 / 怕-01
+                        :polarity  (x6_1 / -
+)                        :arg1  (x8 / 久-01
+                              :arg0  (x7 / 时间
+)))                  :arg1  (x14 / 多-03
+                        :arg0  (x13 / 盘缠
+                              :arg1-of  (x11 / 带-02
+                                    :arg0  (x10 / x1
+)))))))
+===========================
+楚国在南边，他硬要往北边走。
+(x12 / contrast
+      :arg1  (x2 / 在-01
+            :arg0  (x1 / 楚国
+)            :arg1  (x3 / 南边
+))      :arg2  (x7 / 要-03
+            :manner  (x6 / 硬
+)            :arg0  (x10 / 走-01
+                  :arg0  (x5 / 他
+)                  :direction  (x9 / 北边
+))))
+===========================
+他的马越好，赶车的本领越大，盘缠带得越多，走得越远，就越到不了楚国。
+(x31 / condition
+      :arg1  (x34 / and
+            :op1  (x5 / 好-01
+                  :degree  (x4 / 越
+)                  :arg0  (x3 / 马
+                        :poss  (x1 / 他
+)))            :op2  (x11 / 大-01
+                  :degree  (x10 / 越
+)                  :arg0  (x9 / 本领
+                        :poss  (x42 / person
+                              :arg1-of  (x7 / 赶车-01
+))))            :op3  (x17 / 多-03
+                  :degree  (x16 / 越
+)                  :arg0  (x13 / 盘缠
+                        :arg1-of  (x14 / 带-02
+)))            :op4  (x22 / 远-01
+                  :degree  (x21 / 越
+                        :arg1  (x33 / and
+))                  :cause  (x19 / 走-01
+                        :arg0  (x1 / 他
+))                  :arg0  (x1 / 他
+)))      :arg2  (x28 / possible
+            :arg0  (x26 / 到-01
+                  :arg1  (x29 / 楚国
+))            :polarity  (x27 / -
+)            :degree  (x25 / 越
+)))
+===========================

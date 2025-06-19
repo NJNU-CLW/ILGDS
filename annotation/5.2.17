@@ -1,0 +1,1025 @@
+“妈妈，给我70元钱。”
+(x10 / say
+      :arg1  (x4 / 给-01
+            :arg0  (x2 / 妈妈
+)            :arg1  (x8 / 钱
+                  :quant  (x6 / 70
+)                  :cunit  (x7 / 元
+))            :arg2  (x5 / 我
+)))
+===========================
+1998年的一天，6岁的加拿大男孩瑞恩·希里杰克刚一放学，就迫不及待地冲进家，向妈妈伸出手说，“我要给非洲的孩子挖一口井，好让他们有干净的水喝。”
+(x49 / temporal
+      :arg1  (x14 / 放学-01
+            :arg0  (x10 / 男孩
+                  :mod  (x53 / country
+                        :name  ( x9/加拿大 
+))                  :age  (x55 / temporal-quantity
+                        :quant  (x6 / 6
+)                        :unit  (x7 / 岁
+))                  :name  ( x11/瑞恩·希里杰克 
+))            :mod  (x12 / 刚
+)            :mod  (x13 / 一
+))      :arg2  (x19_x20 / 冲进-01
+            :arg1  (x21 / 家
+)            :arg0  (x10 / 男孩
+)            :manner  (x17 / 迫不及待
+))      :arg3  (x25 / 伸出-01
+            :arg1  (x26 / 手
+)            :direction  (x24 / 妈妈
+)            :arg0  (x10 / 男孩
+))      :arg4  (x27 / 说-01
+            :arg1  (x30 / 要-03
+                  :arg0  (x35 / 挖-01
+                        :arg1  (x38 / 井
+                              :quant  (x36 / 1
+)                              :cunit  (x37 / 口
+))                        :arg0  (x29 / x10
+)                        :beneficiary  (x34 / 孩子
+                              :mod  (x76 / continent
+                                    :name  ( x32/非洲 
+))))                  :purpose  (x41 / 让-02
+                        :arg1  (x42 / x34
+)                        :arg2  (x47 / 喝-01
+                              :arg1  (x46 / 水
+                                    :arg0-of  (x44 / 干净-01
+)                                    :arg1-of  (x43 / 有-01
+)))))            :arg0  (x10 / 男孩
+))      :time  (x4 / 一天
+            :time  (x85 / date-entity
+                  :year  (x1 / 1998
+))))
+===========================
+原来，这天老师在给一年级学生上课的时候，讲道：“在非洲，许多孩子没有玩具，没有足够的食物和药品，甚至喝不上干净的水。
+(x14 / 讲道
+      :time  (x10 / 上课-01
+            :arg0  (x4 / 老师
+)            :aspect  (x5 / 在
+)            :arg1  (x9 / 学生
+                  :mod  (x8 / 年级
+                        :ord  (x47 / ordinal-entity
+                              :value  (x7 / 1
+)))))      :time  (x3 / 这天
+)      :mod  (x1 / 原来
+)      :arg1  (x50 / progression
+            :arg1  (x51 / and
+                  :op1  (x21_2 / 有-01
+                        :polarity  (x21_1 / -
+)                        :arg0  (x20 / 孩子
+                              :quant  (x19 / 许多
+))                        :arg1  (x22 / 玩具
+))                  :location  (x56 / continent
+                        :name  ( x17/非洲 
+))                  :op2  (x24_2 / 有-01
+                        :polarity  (x24_1 / -
+)                        :arg1  (x28 / and
+                              :op1  (x27 / 食物
+)                              :op2  (x29 / 药品
+)                              :arg0-of  (x25 / 足够-01
+))                        :arg0  (x20 / 孩子
+)))            :arg2  (x34 / possible
+                  :arg0  (x32 / 喝-01
+                        :polarity  (x33 / -
+)                        :arg1  (x37 / 水
+                              :arg0-of  (x35 / 干净-01
+))                        :arg0  (x20 / 孩子
+)))))
+===========================
+成千上万的孩子因为喝了受污染的水死去了。
+(x11 / 死去-01
+      :arg0  (x3 / 孩子
+            :arg0-of  (x1 / 成千上万-01
+))      :cause  (x5 / 喝-01
+            :arg1  (x10 / 水
+                  :arg0-of  (x7 / 受-01
+                        :arg1  (x8 / 污染-01
+                              :arg1  (x10 / 水
+)))))      :aspect  (x12 / 了
+))
+===========================
+如果能捐出70元钱，就能帮他们挖一口井。”
+(x18 / say
+      :arg1  (x20 / condition
+            :arg1  (x2 / 能-01
+                  :arg0  (x3_x4 / 捐出-01
+                        :arg1  (x7 / 钱
+                              :quant  (x5 / 70
+)                              :unit  (x6 / 元
+))))            :arg2  (x10 / 能-01
+                  :arg0  (x11 / 帮-01
+                        :arg1  (x12 / 他们
+)                        :arg2  (x13 / 挖-01
+                              :arg1  (x16 / 井
+                                    :quant  (x14 / 1
+)                                    :cunit  (x15 / 口
+)))))))
+===========================
+“他们不应该过那样的生活。”
+(x10 / say
+      :arg1  (x4 / 应该-01
+            :arg0  (x5 / 过-01
+                  :arg1  (x8 / 生活
+                        :mod  (x6 / 那样
+))                  :arg0  (x2 / 他们
+))            :polarity  (x3 / -
+)))
+===========================
+一整天，“70元钱一口井”一直在瑞恩的脑子里转着。
+(x16 / 转-05
+      :arg0  (x22 / equal
+            :arg1  (x5 / 钱
+                  :quant  (x3 / 70
+)                  :cunit  (x4 / 元
+))            :arg2  (x8 / 井
+                  :quant  (x6 / 1
+)                  :cunit  (x7 / 口
+)))      :frequency  (x10 / 一直
+)      :arg1  (x14 / 脑子
+            :part-of  (x31 / person
+                  :name  ( x12/瑞恩 
+)))      :duration  (x1 / 一整天
+))
+===========================
+“我一定要为他们挖一口井。”
+(x15 / say
+      :arg1  (x3 / 一定
+            :arg0  (x4 / 要-03
+                  :arg0  (x7 / 挖-01
+                        :arg1  (x10 / 井
+                              :quant  (x8 / 1
+)                              :cunit  (x9 / 口
+))                        :beneficiary  (x6 / 他们
+)                        :arg0  (x2 / 我
+)))))
+===========================
+瑞恩下定了决心。
+(x2_x3 / 下定-01
+      :arg0  (x9 / person
+            :name  ( x1/瑞恩 
+))      :arg1  (x5 / 决心
+)      :aspect  (x4 / 了
+))
+===========================
+面对瑞恩的请求，妈妈说：“瑞恩，70元钱可不是小数目，得靠你自己去挣。”
+(x27 / and
+      :op1  (x1 / 面对-01
+            :arg1  (x4 / 请求-01
+                  :arg0  (x31 / person
+                        :name  ( x2/瑞恩 
+))))      :op2  (x7 / 说-01
+            :arg0  (x6 / 妈妈
+)            :arg1  (x35 / causation
+                  :arg1  (x36 / and
+                        :op1  (x9 / x31
+)                        :op2  (x18 / 数目
+                              :arg0-of  (x17 / 小-01
+)                              :domain  (x13 / 钱
+                                    :quant  (x11 / 70
+)                                    :cunit  (x12 / 元
+)                                    :polarity  (x15 / -
+))                              :mod  (x14 / 可
+)))                  :arg2  (x20 / 得
+                        :arg0  (x21 / 靠-01
+                              :arg1  (x22_x23 / 你自己
+)                              :purpose  (x25 / 挣-01
+                                    :arg0  (x22_x23 / 你自己
+)                                    :arg1  (x13 / 钱
+)))))))
+===========================
+瑞恩爽快地答应了。
+(x4 / 答应-01
+      :arg0  (x9 / person
+            :name  ( x1/瑞恩 
+))      :manner  (x2 / 爽快
+)      :aspect  (x5 / 了
+))
+===========================
+妈妈在冰箱上放了一个旧饼干盒，并为瑞恩画了一个积分表，上面有35个格。
+(x28 / and
+      :op1  (x5 / 放-01
+            :arg0  (x1 / 妈妈
+)            :arg1  (x11 / 盒
+                  :mod  (x10 / 饼干
+)                  :arg0-of  (x9 / 旧-01
+)                  :quant  (x7 / 1
+)                  :cunit  (x8 / 个
+))            :arg2  (x4 / 上
+                  :arg0  (x3 / 冰箱
+)))      :op2  (x16 / 画-01
+            :arg1  (x20 / 积分表
+                  :quant  (x18 / 1
+)                  :cunit  (x19 / 个
+))            :beneficiary  (x43 / person
+                  :name  ( x15/瑞恩 
+))            :arg0  (x1 / 妈妈
+))      :op3  (x23 / 有-03
+            :arg0  (x22 / 上面
+)            :arg1  (x26 / 格
+                  :quant  (x24 / 35
+)                  :cunit  (x25 / 个
+))))
+===========================
+饼干盒里每增加两元钱，瑞恩就可以涂掉一格。
+(x18 / condition
+      :arg1  (x5 / 增加-01
+            :arg1  (x8 / 钱
+                  :quant  (x6 / 2
+)                  :cunit  (x7 / 元
+))            :frequency  (x4 / 每
+)            :location  (x2 / 盒
+                  :mod  (x1 / 饼干
+)))      :arg2  (x12 / 可以-01
+            :arg0  (x13_x14 / 涂掉-01
+                  :arg1  (x16 / 格
+                        :quant  (x15 / 1
+))                  :arg0  (x31 / person
+                        :name  ( x10/瑞恩 
+)))))
+===========================
+妈妈说：“瑞恩，记住，你只能靠做额外的家务活来赚这些钱，愿意吗？”
+(x2 / 说-01
+      :arg0  (x1 / 妈妈
+)      :arg1  (x26 / and
+            :op1  (x6 / 记住-01
+                  :arg0  (x28 / person
+                        :name  ( x4/瑞恩 
+))                  :arg1  (x9 / 只能-01
+                        :arg0  (x16 / 赚-01
+                              :arg1  (x18 / 钱
+                                    :mod  (x17 / 这些
+))                              :arg0  (x8 / x28
+)                              :manner  (x10 / 靠-01
+                                    :arg1  (x11 / 做-01
+                                          :arg1  (x14 / 家务活
+                                                :arg0-of  (x12 / 额外
+)))))))            :op2  (x20 / 愿意-01
+                  :mode  (x21_x22 / interrogative
+)                  :arg0  (x8 / x28
+))))
+===========================
+瑞恩点了点头。
+(x2_x4_x5 / 点头-01
+      :arg0  (x9 / person
+            :name  ( x1/瑞恩 
+))      :aspect  (x3 / 了
+))
+===========================
+瑞恩的第一项工作是为地毯吸尘。
+(x9 / 吸尘
+      :beneficiary  (x8 / 地毯
+)      :domain  (x5 / 工作
+            :ord  (x15 / ordinal-entity
+                  :value  (x3 / 1
+)                  :cunit  (x4 / 项
+))            :poss  (x18 / person
+                  :name  ( x1/瑞恩 
+))))
+===========================
+哥哥和弟弟都出去玩了，瑞恩干了两个多小时。
+(x17 / contrast
+      :arg1  (x5 / 出去-01
+            :arg0  (x2 / and
+                  :op1  (x1 / 哥哥
+)                  :op2  (x3 / 弟弟
+))            :extent  (x4 / 都
+)            :aspect  (x7 / 了
+)            :purpose  (x6 / 玩-01
+                  :arg0  (x2 / and
+)))      :arg2  (x10 / 干-01
+            :arg0  (x27 / person
+                  :name  ( x9/瑞恩 
+))            :duration  (x29 / temporal-quantity
+                  :quant  (x14 / 多
+                        :op1  (x12 / 2
+)                        :unit  (x15 / 小时
+)))            :aspect  (x11 / 了
+)))
+===========================
+妈妈“验收”后，往饼干盒里放了两元钱。
+(x17 / temporal
+      :arg1  (x3 / 验收-01
+            :arg0  (x1 / 妈妈
+))      :arg2  (x11 / 放-01
+            :arg1  (x15 / 钱
+                  :quant  (x13 / 2
+)                  :cunit  (x14 / 元
+))            :arg2  (x10 / 里
+                  :arg0  (x9 / 盒
+                        :mod  (x8 / 饼干
+)))            :arg0  (x1 / 妈妈
+)))
+===========================
+几天后，全家人去看电影，瑞恩一个人留下来擦了两个小时窗子，又挣了两元钱。
+(x28 / and
+      :op1  (x6 / 看-02
+            :arg0  (x4 / 全家人
+)            :arg1  (x7 / 电影
+))      :time  (x2 / 后
+            :arg0  (x34 / temporal-quantity
+                  :quant  (x1_1 / 几
+)                  :unit  (x1_2 / 天
+)))      :op2  (x13 / 留下来-02
+            :arg0  (x38 / person
+                  :name  ( x9/瑞恩 
+)                  :arg0-of  (x40 / mean
+                        :arg1  (x12 / 人
+                              :quant  (x10 / 1
+)                              :cunit  (x11 / 个
+))))            :purpose  (x14 / 擦-01
+                  :arg1  (x19 / 窗子
+)                  :aspect  (x15 / 了
+)                  :duration  (x47 / temporal-quantity
+                        :quant  (x16 / 2
+)                        :unit  (x18 / 小时
+))))      :op3  (x22 / 挣-01
+            :arg1  (x26 / 钱
+                  :quant  (x24 / 2
+)                  :unit  (x25 / 元
+))            :aspect  (x23 / 了
+)            :mod  (x21 / 又
+)            :arg0  (x38 / person
+)))
+===========================
+爷爷知道了瑞恩的梦想，雇他去捡松果；暴风雪过后，邻居们请他去帮忙捡落下的树枝；考试取得好成绩，爸爸给了他奖励……
+(x39 / and
+      :op1  (x41 / temporal
+            :arg1  (x2 / 知道-01
+                  :arg0  (x1 / 爷爷
+)                  :arg1  (x6 / 梦想
+                        :poss  (x45 / person
+                              :name  ( x4/瑞恩 
+)))                  :aspect  (x3 / 了
+))            :arg1  (x8 / 雇-01
+                  :arg1  (x9 / x45
+)                  :purpose  (x11 / 捡-01
+                        :arg1  (x12 / 松果
+)                        :arg0  (x9 / x45
+))                  :arg0  (x1 / 爷爷
+)))      :op2  (x52 / temporal
+            :arg1  (x15 / 过后
+                  :arg0  (x14 / 暴风雪
+))            :arg2  (x19 / 请-01
+                  :arg0  (x17_x18 / 邻居们
+)                  :arg1  (x20 / x45
+)                  :arg2  (x22 / 帮忙-01
+                        :arg2  (x23 / 捡-01
+                              :arg1  (x26 / 树枝
+                                    :arg0-of  (x24 / 落下-01
+))))))      :op3  (x63 / condition
+            :arg1  (x29 / 取得-01
+                  :arg2  (x28 / 考试
+)                  :arg1  (x31 / 成绩
+                        :arg0-of  (x30 / 好-01
+)))            :arg2  (x34 / 给-01
+                  :arg0  (x33 / 爸爸
+)                  :arg2  (x36 / x45
+)                  :arg1  (x37 / 奖励
+)                  :aspect  (x35 / 了
+))))
+===========================
+瑞恩把得到的所有钱，都放进了那个饼干盒里。
+(x9_x10 / 放进-01
+      :arg0  (x19 / person
+            :name  ( x1/瑞恩 
+))      :arg1  (x6 / 钱
+            :extent  (x5 / 所有
+)            :arg1-of  (x3 / 得到-01
+))      :arg2  (x15 / 里
+            :arg0  (x14 / 盒
+                  :mod  (x13 / 饼干
+)                  :mod  (x12_1 / 那
+)                  :cunit  (x12_2 / 个
+)))      :aspect  (x11 / 了
+)      :extent  (x8 / 都
+))
+===========================
+35个格子终于被涂掉了。
+(x6_x7 / 涂掉-01
+      :arg0  (x12 / person
+)      :arg1  (x3 / 格子
+            :quant  (x1 / 35
+)            :cunit  (x2 / 个
+))      :mod  (x4 / 终于
+)      :aspect  (x8 / 了
+))
+===========================
+4月下旬的一个早上，瑞恩抱着装有零钱的饼干盒，把辛辛苦苦挣来的70元钱交给了募捐项目的负责人。
+(x34 / temporal
+      :arg1  (x10 / 抱-01
+            :arg0  (x37 / person
+                  :name  ( x9/瑞恩 
+))            :arg1  (x17 / 盒
+                  :mod  (x16 / 饼干
+)                  :arg1-of  (x12_x13 / 装有-01
+                        :arg0  (x14 / 零钱
+))))      :time  (x44 / date-entity
+            :month  (x1 / 4
+)            :dayperiod  (x7 / 早上
+                  :quant  (x5 / 1
+)                  :cunit  (x6 / 个
+))            :monthperiod  (x3 / 下旬
+))      :arg2  (x27 / 交给-01
+            :arg1  (x26 / 钱
+                  :quant  (x24 / 70
+)                  :cunit  (x25 / 元
+)                  :arg1-of  (x21_x22 / 挣来-01
+                        :arg0  (x37 / person
+)                        :manner  (x20 / 辛苦
+)))            :arg0  (x37 / person
+)            :arg1  (x32 / 负责人
+                  :mod  (x30 / 项目
+                        :mod  (x29 / 募捐
+)))            :aspect  (x28 / 了
+)))
+===========================
+“太谢谢你了，瑞恩！”
+(x9 / say
+      :arg1  (x11 / and
+            :op1  (x3 / 谢谢-01
+                  :degree  (x2 / 太
+)                  :arg1  (x4 / 你
+)                  :aspect  (x5 / 了
+))            :op2  (x16 / person
+                  :name  ( x7/瑞恩 
+))            :mode  (x8 / expressive
+)))
+===========================
+项目负责人接过捐款，向瑞恩介绍了在非洲进行的“洁净的水”募捐项目。
+(x22 / temporal
+      :arg1  (x3 / 接过-01
+            :arg0  (x2 / 负责人
+                  :mod  (x1 / 项目
+))            :arg1  (x4 / 捐款
+))      :arg2  (x8 / 介绍-01
+            :arg0  (x2 / 负责人
+)            :arg1  (x20 / 项目
+                  :mod  (x19 / 募捐
+)                  :topic  (x17 / 水
+                        :arg0-of  (x15 / 洁净-01
+))                  :arg1-of  (x12 / 进行-01
+                        :location  (x35 / continent
+                              :name  ( x11/非洲 
+))))            :arg2  (x37 / person
+                  :name  ( x7/瑞恩 
+))))
+===========================
+最后，她不好意思地说，70元其实只能买一个水泵，挖一口井得要2000元。
+(x6 / 说-01
+      :arg0  (x3 / 她
+)      :manner  (x4 / 不好意思
+)      :time  (x1 / 最后
+)      :arg1  (x33 / contrast
+            :arg1  (x12 / 能-01
+                  :arg0  (x13 / 买-01
+                        :arg1  (x16 / 水泵
+                              :quant  (x14 / 1
+)                              :cunit  (x15 / 个
+))                        :arg3  (x41 / monetary-quantity
+                              :quant  (x8 / 70
+)                              :cunit  (x9 / 元
+)))                  :mod  (x11 / 只
+)                  :mod  (x10 / 其实
+))            :arg2  (x22 / 得
+                  :arg0  (x23 / 要-02
+                        :arg0  (x18 / 挖-01
+                              :arg1  (x21 / 井
+                                    :quant  (x19 / 1
+)                                    :cunit  (x20 / 口
+)))                        :arg1  (x50 / monetary-quantity
+                              :quant  (x24 / 2000
+)                              :cunit  (x25 / 元
+))))))
+===========================
+瑞恩还小，他不知道2000元是个多么大的数目，他只是兴奋地说：“那我再多干些活挣更多的钱吧！”
+(x39 / causation
+      :arg1  (x3 / 小-01
+            :arg0  (x42 / person
+                  :name  ( x1/瑞恩 
+))            :mod  (x2 / 还
+))      :arg2  (x45 / and
+            :op1  (x7 / 知道-01
+                  :arg0  (x5 / x42
+)                  :polarity  (x6 / -
+)                  :arg1  (x15 / 数目
+                        :arg0-of  (x13 / 大-01
+                              :degree  (x12 / 多么
+))                        :cunit  (x11 / 个
+)                        :domain  (x53 / monetary-quantity
+                              :quant  (x8 / 2000
+)                              :cunit  (x9 / 元
+))))            :op2  (x21 / 说-01
+                  :arg0  (x17 / x42
+)                  :manner  (x19 / 兴奋-01
+                        :arg0  (x17 / x42
+))                  :mod  (x18 / 只是
+)                  :arg1  (x27 / 干-01
+                        :arg0  (x24 / x42
+)                        :mod  (x23 / 那
+)                        :mod  (x25 / 再
+)                        :degree  (x26 / 多
+)                        :arg1  (x29 / 活
+                              :quant  (x28 / 些
+))                        :purpose  (x30 / 挣-01
+                              :arg1  (x34 / 钱
+                                    :arg0-of  (x32 / 多-01
+                                          :degree  (x31 / 更
+))))                        :mode  (x35_x36 / expressive
+)))))
+===========================
+可是，让瑞恩通过自己干活来攒够2000元，实在是太困难了。
+(x20 / contrast
+      :arg2  (x17 / 困难-01
+            :arg0  (x3 / 让-02
+                  :arg1  (x24 / person
+                        :name  ( x4/瑞恩 
+))                  :arg2  (x9_x10 / 攒够
+                        :manner  (x5 / 通过-04
+                              :arg1  (x7 / 干活-01
+                                    :arg0  (x6 / x24
+)))                        :arg1  (x30 / monetary-quantity
+                              :quant  (x11 / 2000
+)                              :cunit  (x12 / 元
+))))            :degree  (x16 / 太
+)            :mod  (x14 / 实在
+)            :aspect  (x18 / 了
+)))
+===========================
+尽管如此，瑞恩并没有放弃。
+(x8 / concession
+      :arg1  (x1 / 尽管如此
+)      :arg2  (x6 / 放弃-01
+            :arg0  (x12 / person
+                  :name  ( x3/瑞恩 
+))            :polarity  (x5 / -
+)            :mod  (x4 / 并
+)))
+===========================
+妈妈的一位朋友被瑞恩的执著感动了，她决定帮帮这个富有同情心的孩子，于是她把瑞恩的事写成了文章，登在当地的报纸上。
+(x40 / causation
+      :arg1  (x10 / 感动-01
+            :arg0  (x9 / 执著
+                  :poss  (x44 / person
+                        :name  ( x7/瑞恩 
+)))            :arg1  (x5 / 朋友
+                  :quant  (x3 / 1
+)                  :cunit  (x4 / 位
+)                  :poss  (x1 / 妈妈
+))            :aspect  (x11 / 了
+))      :arg2  (x51 / and
+            :op1  (x14 / 决定-01
+                  :arg0  (x13 / x5
+)                  :arg1  (x15_x16 / 帮-01
+                        :arg1  (x21 / x44
+                              :arg0-of  (x18 / 富有-01
+                                    :arg1  (x19 / 同情心
+))                              :mod  (x17_1 / 这
+)                              :cunit  (x17_2 / 个
+))                        :arg0  (x24 / x5
+)))            :op2  (x29 / 写成-01
+                  :arg0  (x24 / x5
+)                  :arg1  (x28 / 事
+                        :poss  (x26 / x44
+))                  :aspect  (x30 / 了
+)                  :arg2  (x31 / 文章
+))            :op3  (x33_x34 / 登在-01
+                  :arg1  (x37 / 报纸
+                        :mod  (x35 / 当地
+))                  :arg2  (x31 / 文章
+))))
+===========================
+很快，瑞恩的故事传遍了加拿大。
+(x6 / 传遍-01
+      :arg1  (x5 / 故事
+            :poss  (x13 / person
+                  :name  ( x3/瑞恩 
+)))      :arg2  (x15 / country
+            :name  ( x8/加拿大 
+))      :aspect  (x7 / 了
+)      :time  (x1 / 很快
+))
+===========================
+一周以后，瑞恩收到了一张25元的支票。
+(x6 / 收到-01
+      :arg0  (x17 / person
+            :name  ( x5/瑞恩 
+))      :arg1  (x13 / 支票
+            :quant  (x8 / 1
+)            :cunit  (x9 / 张
+)            :mod  (x22 / monetary-quantity
+                  :quant  (x10 / 25
+)                  :cunit  (x11 / 元
+)))      :aspect  (x7 / 了
+)      :time  (x3 / 以后
+            :op1  (x27 / temporal-quantity
+                  :quant  (x1 / 1
+)                  :unit  (x2 / 周
+))))
+===========================
+没过多久，另外一张支票寄到了。
+(x9 / 寄-01
+      :arg1  (x8 / 支票
+            :mod  (x5 / 另外
+)            :quant  (x6 / 1
+)            :cunit  (x7 / 张
+))      :cause-of  (x10 / 到
+)      :aspect  (x11 / 了
+)      :time  (x2 / 过-02
+            :polarity  (x1 / -
+)            :arg1  (x3 / 多久
+)))
+===========================
+从此以后，瑞恩不断接到捐款，在短短的两个月时间里，瑞恩筹齐了可以打一口井的钱。
+(x29 / and
+      :op1  (x5 / 接到-01
+            :arg0  (x32 / person
+                  :name  ( x3/瑞恩 
+))            :manner  (x4 / 不断
+)            :arg1  (x6 / 捐款
+))      :op2  (x18_x19 / 筹齐
+            :arg0  (x17 / x32
+)            :arg1  (x27 / 钱
+                  :mod  (x21 / 可以-01
+                        :arg0  (x22 / 打-05
+                              :arg1  (x25 / 井
+                                    :quant  (x23 / 1
+)                                    :cunit  (x24 / 口
+)))))            :aspect  (x20 / 了
+)            :duration  (x46 / temporal-quantity
+                  :quant  (x11_x12 / 2
+)                  :unit  (x13 / 月
+)                  :arg0-of  (x9 / 短-01
+)))      :time  (x1 / 从此以后
+))
+===========================
+9月，加拿大援助救济会驻乌干达办事处的工程师专程来到加拿大，和瑞恩一起讨论有关打井的事。
+(x25 / temporal
+      :arg1  (x13 / 来到-01
+            :arg0  (x28 / person
+                  :arg0-of  (x29 / have-org-role-91
+                        :arg2  (x11 / 工程师
+)                        :arg1  (x9 / 办事处
+                              :location  (x3_x4_x5_x6_x7_x8 / 加拿大援助就机会驻乌干达
+))))            :manner  (x12 / 专程
+)            :arg1  (x34 / country
+                  :name  ( x14/加拿大 
+)))      :time  (x36 / date-entity
+            :month  (x1 / 9
+))      :arg2  (x19 / 讨论-01
+            :arg0  (x16 / and
+                  :op1  (x11 / 工程师
+)                  :op2  (x40 / person
+                        :name  ( x17/瑞恩 
+)))            :manner  (x18 / 一起
+)            :arg1  (x23 / 事
+                  :topic  (x21 / 打井
+))))
+===========================
+那位工程师告诉瑞恩：“人工凿井是一项艰巨的工作，大概要20个人干10天才能够完成。
+(x3 / 告诉-01
+      :arg0  (x2 / 工程师
+            :mod  (x1_1 / 那
+)            :cunit  (x1_2 / 位
+))      :arg2  (x33 / person
+            :name  ( x4/瑞恩 
+))      :arg1  (x35 / and
+            :op1  (x14 / 工作
+                  :arg0-of  (x12 / 艰巨-01
+)                  :quant  (x10 / 1
+)                  :cunit  (x11 / 项
+)                  :domain  (x7 / 凿-01
+                        :arg1  (x8 / 井
+)                        :manner  (x6 / 人工
+)))            :op2  (x25 / 能够-01
+                  :arg0  (x26 / 完成-01
+)                  :condition  (x17 / 要-01
+                        :mod  (x16 / 大概
+)                        :arg1  (x21 / 干-01
+                              :arg0  (x20 / 人
+                                    :quant  (x18 / 20
+)                                    :cunit  (x19 / 个
+))                              :duration  (x53 / temporal-quantity
+                                    :quant  (x22 / 10
+)                                    :unit  (x23 / 天
+))))                  :mod  (x24 / 才
+))))
+===========================
+如果有一台钻井机，凿井的速度就快多了。”
+(x16 / say
+      :arg1  (x19 / condition
+            :arg1  (x2 / 有-03
+                  :arg1  (x5 / 钻井机
+                        :quant  (x3 / 1
+)                        :cunit  (x4 / 台
+)))            :arg2  (x12 / 快-01
+                  :degree  (x13 / 多
+)                  :arg0  (x10 / 速度
+                        :mod  (x7 / 凿-01
+                              :arg1  (x8 / 井
+)))                  :aspect  (x14 / 了
+))))
+===========================
+一声不吭的瑞恩突然说：“那我来攒钱买钻井机吧。”
+(x5 / 说-01
+      :arg0  (x18 / person
+            :name  ( x3/瑞恩 
+)            :arg0-of  (x1 / 一声不吭
+))      :manner  (x4 / 突然
+)      :arg1  (x10 / 攒-01
+            :arg0  (x8 / x18
+)            :arg1  (x11 / 钱
+)            :purpose  (x12 / 买-01
+                  :arg1  (x13 / 钻井机
+))            :mod  (x7 / 那
+)            :mode  (x14 / imperative
+)))
+===========================
+他的声音很小，但很坚定，“我想让非洲的每一个人都能喝上洁净的水。”
+(x28 / and
+      :op1  (x30 / contrast
+            :arg1  (x5 / 小-01
+                  :arg0  (x3 / 声音
+                        :poss  (x1 / 他
+))                  :degree  (x4 / 很
+))            :arg2  (x9 / 坚定-01
+                  :degree  (x8 / 很
+)                  :arg1  (x3 / 声音
+)))      :op2  (x37 / say
+            :arg1  (x12 / 想-02
+                  :arg0  (x11 / x1
+)                  :arg1  (x13 / 让-02
+                        :arg1  (x19 / 人
+                              :mod  (x16 / 每
+)                              :quant  (x17 / 1
+)                              :cunit  (x18 / 个
+)                              :location  (x45 / continent
+                                    :name  ( x14/非洲 
+)))                        :arg2  (x21 / 能-01
+                              :arg0  (x22_x23 / 喝上
+                                    :arg0  (x19 / 人
+)                                    :arg1  (x26 / 水
+                                          :arg0-of  (x24 / 洁净-01
+)))                              :extent  (x20 / 都
+))))))
+===========================
+瑞恩的老师没有想到，一个孩子能有这么大的决心。
+(x5 / 想到-01
+      :arg0  (x3 / 老师
+            :poss  (x20 / person
+                  :name  ( x1/瑞恩 
+)))      :polarity  (x4 / -
+)      :arg1  (x10 / 能-01
+            :arg0  (x11 / 有-01
+                  :arg0  (x9 / 孩子
+                        :quant  (x7 / 1
+)                        :cunit  (x8 / 个
+))                  :arg1  (x15 / 决心
+                        :arg0-of  (x13 / 大
+                              :degree  (x12 / 这么
+))))))
+===========================
+她号召班上的同学加入捐钱打井的行列，还通过有关部门，使瑞恩和同学们跟非洲的孩子们通上信。
+(x33 / progression
+      :arg1  (x2 / 号召-01
+            :arg0  (x1 / 她
+)            :arg1  (x6 / 同学
+                  :range  (x3_x4 / 班上
+))            :arg2  (x7 / 加入-01
+                  :arg1  (x12 / 行列
+                        :mod  (x42 / and
+                              :op1  (x8 / 捐-01
+                                    :arg1  (x9 / 钱
+))                              :op2  (x10 / 打井
+)))))      :arg2  (x19 / 使-01
+            :arg2  (x30 / possible
+                  :arg0  (x29_x31 / 通信-01
+                        :arg0  (x24 / and
+                              :op1  (x21 / and
+                                    :op1  (x50 / person
+                                          :name  ( x20/瑞恩 
+))                                    :op2  (x22_x23 / 同学们
+))                              :op2  (x27_x28 / 孩子们
+                                    :mod  (x55 / continent
+                                          :name  ( x25/非洲 
+))))))            :arg1  (x21 / and
+)            :manner  (x15 / 通过-04
+                  :arg1  (x17 / 部门
+                        :mod  (x16 / 有关
+)))))
+===========================
+就在瑞恩的第一口井打好不久，2000年7月，瑞恩和爸爸妈妈坐着卡车，一路颠簸来到了乌干达的安格鲁。
+(x33 / temporal
+      :arg1  (x10 / 不久
+            :op1  (x8_x9 / 打好-01
+                  :arg1  (x7 / 井
+                        :ord  (x38 / ordinal-entity
+                              :value  (x5 / 1
+))                        :cunit  (x6 / 口
+)                        :poss  (x41 / person
+                              :name  ( x3/瑞恩 
+))))            :mod  (x1 / 就
+))      :time  (x44 / date-entity
+            :year  (x12 / 2000
+)            :month  (x14 / 7
+))      :arg2  (x27 / 来到-01
+            :arg0  (x18 / and
+                  :op1  (x17 / x41
+)                  :op2  (x19 / 爸爸
+)                  :op3  (x20 / 妈妈
+))            :arg1  (x53 / street-address
+                  :arg1  (x54 / country
+                        :name  ( x29/乌干达 
+))                  :arg4  (x56 / city
+                        :name  ( x31/安格鲁 
+)))            :aspect  (x28 / 了
+)            :manner  (x21 / 坐-02
+                  :arg1  (x23 / 卡车
+)                  :arg0  (x18 / and
+)                  :aspect  (x22 / 着
+))            :manner  (x26 / 颠簸
+                  :mod  (x25 / 一路
+))))
+===========================
+车子开进村庄时，5000多名孩子聚在路边，他们热烈地鼓着掌，有节奏地高喊着：“瑞恩！瑞恩！”
+(x32 / and
+      :op1  (x11 / 聚-01
+            :arg1  (x10 / 孩子
+                  :quant  (x8 / 多
+                        :op1  (x7 / 5000
+))                  :cunit  (x9 / 名
+))            :location  (x13 / 路边
+))      :op2  (x18_x20 / 鼓掌-01
+            :arg0  (x15 / x10
+)            :manner  (x16 / 热烈
+)            :aspect  (x19 / 着
+))      :op3  (x25 / 高喊-01
+            :aspect  (x26 / 着
+)            :manner  (x22 / 有-01
+                  :arg1  (x23 / 节奏
+))            :arg1  (x48 / and
+                  :op1  (x49 / person
+                        :name  ( x28/瑞恩 
+)                        :mode  (x29 / expressive
+))                  :op2  (x30 / x49
+                        :mode  (x31 / expressive
+))))      :time  (x2_x3 / 开进-01
+            :arg1  (x2 / 开
+)            :arg2  (x4 / 村庄
+)))
+===========================
+瑞恩羞涩地走下车去，不好意思地向大家打着招呼。
+(x19 / temporal
+      :arg1  (x4_x5 / 走下-01
+            :arg0  (x22 / person
+                  :name  ( x1/瑞恩 
+))            :manner  (x2 / 羞涩
+)            :arg1  (x6 / 车
+))      :arg2  (x13_x15 / 打招呼-01
+            :arg0  (x22 / person
+)            :arg1  (x12 / 大家
+)            :aspect  (x14 / 着
+)            :manner  (x9 / 不好意思-01
+                  :arg0  (x22 / person
+))))
+===========================
+他被孩子们簇拥着，来到了一口井前。
+(x15 / temporal
+      :arg1  (x5 / 簇拥-01
+            :arg0  (x3_x4 / 孩子们
+)            :arg1  (x1 / 他
+)            :aspect  (x6 / 着
+))      :arg2  (x8 / 来到-01
+            :arg1  (x13 / 前
+                  :arg0  (x12 / 井
+                        :quant  (x10 / 1
+)                        :cunit  (x11 / 口
+)))            :aspect  (x9 / 了
+)            :arg0  (x1 / 他
+)))
+===========================
+井被鲜花包围起来，水泥基座上刻着：“瑞恩的井——由瑞恩·希里杰克为安格鲁小学社区建造。”
+(x23 / and
+      :op1  (x4_x5 / 包围-01
+            :arg0  (x3 / 鲜花
+)            :arg1  (x1 / 井
+))      :op2  (x10 / 刻-01
+            :arg2  (x8 / 基座
+                  :consist-of  (x7 / 水泥
+))            :aspect  (x11 / 着
+)            :arg1  (x32 / and
+                  :op1  (x15 / 井
+                        :poss  (x34 / person
+                              :name  ( x13/瑞恩 
+)))                  :op2  (x21 / 建造-01
+                        :arg0  (x18 / x34
+)                        :beneficiary  (x38 / community
+                              :name  ( x20/安格鲁小学社区 
+))))))
+===========================
+村里的一位老人站出来，高声说：“看看我们周围的孩子，他们全都是健康的。
+(x27 / temporal
+      :arg1  (x7_x8 / 站-01
+            :arg0  (x6 / 老人
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 位
+)                  :location  (x1 / 村
+)))      :arg2  (x12 / 说-01
+            :manner  (x10_x11 / 高声
+)            :arg1  (x36 / and
+                  :op1  (x14_x15 / 看
+                        :arg1  (x19 / 孩子
+                              :mod  (x17 / 周围
+                                    :poss  (x16 / 我们
+))))                  :op2  (x24 / 健康-01
+                        :arg0  (x21 / x19
+)                        :mode  (x23_x25 / judgement
+)                        :extent  (x22 / 全都
+)))))
+===========================
+这要归功于瑞恩和我们的加拿大朋友。
+(x2 / 要-03
+      :arg0  (x3 / 归功-01
+            :arg1  (x1 / 这
+)            :arg2  (x6 / and
+                  :op1  (x17 / person
+                        :name  ( x5/瑞恩 
+))                  :op2  (x10 / 朋友
+                        :location  (x20 / country
+                              :name  ( x9/加拿大 
+))                        :poss  (x7 / 我们
+)))))
+===========================
+对于我们来说，水，就是生命。”
+(x10 / say
+      :arg1  (x3 / 来说-01
+            :arg1  (x2 / 我们
+)            :arg0  (x5 / 水
+)            :arg2  (x8 / 生命
+                  :domain  (x5 / 水
+))))
+===========================
+听到这儿，瑞恩和父母都流下激动、幸福的眼泪。
+(x15 / temporal
+      :arg1  (x1 / 听到-01
+            :arg1  (x2 / 这儿
+))      :arg2  (x8 / 流下-01
+            :arg0  (x5 / and
+                  :op1  (x21 / person
+                        :name  ( x4/瑞恩 
+))                  :op2  (x6 / 父母
+))            :extent  (x7 / 都
+)            :arg1  (x13 / 眼泪
+                  :arg0-of  (x11 / 幸福-01
+)                  :mod  (x9 / 激动
+))))
+===========================
+是呀，一个梦想，竟有如此大的力量，在此时有谁不流泪呢？
+(x23 / and
+      :op1  (x1 / 是
+            :mode  (x2 / expressive
+))      :op2  (x28 / causation
+            :arg1  (x9 / 有-05
+                  :arg0  (x6 / 梦想
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 个
+))                  :mod  (x8 / 竟
+)                  :arg1  (x13 / 力量
+                        :arg0-of  (x11 / 大-01
+                              :degree  (x10 / 如此
+))))            :arg2  (x20 / 流泪-01
+                  :arg0  (x18 / amr-unknown
+                        :arg1-of  (x17 / 有-03
+))                  :polarity  (x19 / -
+)                  :time  (x16 / 此时
+)                  :mode  (x21_x22 / interrogative
+))))
+===========================
+2001年3月，“瑞恩的井”基金会正式成立。
+(x12 / 成立-01
+      :arg1  (x10 / 基金会
+            :name  ( x8/井 
+))      :manner  (x11 / 正式
+)      :time  (x19 / date-entity
+            :year  (x1 / 2001
+)            :month  (x3 / 3
+)))
+===========================
+一年以后，“瑞恩的井”基金会已经为非洲的8个国家打了30口水井。
+(x17 / 打-05
+      :arg1  (x21 / 水井
+            :quant  (x19 / 30
+)            :cunit  (x20 / 口
+))      :aspect  (x18 / 了
+)      :arg0  (x9 / 基金会
+            :name  ( x7/井 
+))      :aspect  (x10 / 已经
+)      :beneficiary  (x16 / 国家
+            :quant  (x14 / 8
+)            :cunit  (x15 / 个
+)            :location  (x35 / continent
+                  :name  ( x12/非洲 
+)))      :time  (x3 / 以后
+            :op1  (x38 / temporal-quantity
+                  :quant  (x1 / 1
+)                  :unit  (x2 / 年
+))))
+===========================

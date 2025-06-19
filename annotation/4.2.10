@@ -1,0 +1,603 @@
+人们都说，黄河是中华民族的摇篮。
+(x3 / 说-01
+      :arg0  (x1 / 人们
+            :extent  (x2 / 都
+))      :arg1  (x9 / 摇篮
+            :domain  (x16 / river
+                  :name  ( x5/黄河 
+))            :poss  (x7 / 中华民族
+)))
+===========================
+可是一查黄河近2000年来的“表现”，却叫人大吃一惊。
+(x18 / contrast
+      :arg2  (x21 / condition
+            :arg1  (x3 / 查-01
+                  :arg1  (x11 / 表现
+                        :duration  (x24 / temporal-quantity
+                              :unit  (x7 / 年
+)                              :quant  (x5 / 近
+                                    :op1  (x6 / 2000
+)))                        :poss  (x28 / river
+                              :name  ( x4/黄河 
+))))            :arg2  (x14 / 叫-04
+                  :arg1  (x15 / 人
+)                  :arg2  (x16 / 大吃一惊-01
+                        :arg0  (x15 / 人
+)))))
+===========================
+黄河在近2000年间竟决口1500多次，改道26次，给两岸人民带来了深重的苦难。
+(x26 / and
+      :op1  (x28 / and
+            :op1  (x8 / 决口-01
+                  :arg0  (x31 / river
+                        :name  ( x1/黄河 
+)))            :op2  (x13 / 改道-01
+                  :quant  (x14 / 26
+)                  :unit  (x15 / 次
+)                  :arg0  (x31 / river
+))            :manner  (x7 / 竟
+)            :duration  (x36 / temporal-quantity
+                  :quant  (x3 / 近-01
+                        :op1  (x4 / 2000
+))                  :unit  (x5 / 年
+)))      :op2  (x20 / 带来-01
+            :aspect  (x21 / 了
+)            :arg0  (x28 / and
+)            :arg1  (x24 / 苦难
+                  :arg0-of  (x22 / 深重
+))            :arg2  (x19 / 人民
+                  :location  (x18 / 两岸
+))))
+===========================
+人们不禁要问：像这样一条多灾多难的祸河，怎么能成为中华民族的“摇篮”呢？
+(x3 / 要-03
+      :manner  (x2 / 不禁
+)      :arg0  (x4 / 问-01
+            :arg0  (x1 / 人们
+)            :arg1  (x16 / 能-01
+                  :arg0  (x17 / 成为-01
+                        :arg0  (x13 / 河
+                              :mod  (x12 / 祸
+)                              :mod  (x10 / 多灾多难
+)                              :cunit  (x9 / 条
+))                        :arg1  (x21 / 摇篮
+                              :poss  (x18 / 中华民族
+)))                  :cause  (x15 / amr-unknown
+)                  :mode  (x23_x24 / interrogative
+))))
+===========================
+说来有趣，在数千年到数万年前，黄土高原乃至黄河流域，自然条件是很好的，可与今日江淮流域媲美。
+(x31 / and
+      :op1  (x33 / condition
+            :arg1  (x1 / 说来
+)            :arg2  (x2 / 有趣
+))      :op2  (x21 / 好-01
+            :arg0  (x18 / 条件
+                  :mod  (x17 / 自然
+)                  :range  (x41 / and
+                        :op1  (x12 / 黄土高原
+)                        :op2  (x15 / 流域
+                              :mod  (x44 / river
+                                    :name  ( x14/黄河 
+)))))            :degree  (x20 / 很
+)            :mode  (x19_x22 / judgement
+)            :op3  (x24 / 可-01
+                  :arg0  (x29 / 媲美-01
+                        :arg1  (x28 / 流域
+                              :mod  (x27 / 江淮
+)                              :time  (x26 / 今日
+))                        :arg0  (x41 / and
+)))            :time  (x10 / 前
+                  :arg0  (x52 / temporal-quantity
+                        :unit  (x6_x9 / 年
+)                        :quant  (x5_1_x8_1 / 数
+                              :op1  (x7 / bewteen
+                                    :op1  (x5_2 / 1000
+)                                    :op2  (x8_2 / 10000
+)))))))
+===========================
+那时候，黄河流域气候温暖，森林茂密，土地肥沃，尤其是下游一带自然条件更好。
+(x24 / and
+      :op1  (x7 / 温暖-01
+            :arg0  (x6 / 气候
+                  :location  (x5 / 流域
+                        :mod  (x29 / river
+                              :name  ( x4/黄河 
+)))))      :time  (x2 / 时候
+            :mod  (x1 / 那
+))      :op2  (x10 / 茂密
+            :arg0  (x9 / 森林
+                  :location  (x5 / 流域
+)))      :op3  (x13 / 肥沃-01
+            :arg0  (x12 / 土地
+                  :location  (x5 / 流域
+)))      :op4  (x22 / 好-01
+            :degree  (x21 / 更
+)            :arg0  (x20 / 条件
+                  :mod  (x19 / 自然
+)                  :location  (x18 / 一带
+                        :mod  (x17 / 下游
+)))            :mod  (x15 / 尤其
+)))
+===========================
+因此，我们的祖先才选择这里生息繁衍。
+(x12 / causation
+      :arg2  (x7 / 选择-01
+            :mod  (x6 / 才
+)            :arg0  (x5 / 祖先
+                  :poss  (x3 / 我们
+))            :arg1  (x8 / 这里
+)            :arg2  (x18 / and
+                  :op1  (x9 / 生息-01
+                        :arg0  (x5 / 祖先
+))                  :op2  (x10 / 繁衍-01
+                        :arg0  (x5 / 祖先
+)))))
+===========================
+可是，后来黄河变了，它开始变得凶猛暴烈起来，折腾得两岸百姓叫苦不迭。
+(x22 / contrast
+      :arg1  (x24 / and
+            :op1  (x5 / 变-01
+                  :arg0  (x26 / river
+                        :name  ( x4/黄河 
+))                  :aspect  (x6 / 了
+)                  :time  (x3 / 后来
+))            :op2  (x9 / 开始-01
+                  :arg0  (x8 / x26
+)                  :arg1  (x10 / 变-01
+                        :arg2  (x31 / and
+                              :op1  (x12 / 凶猛-01
+                                    :op1  (x26 / river
+))                              :op2  (x13 / 暴烈
+                                    :arg0  (x26 / river
+)))))            :op3  (x16 / 折腾-01
+                  :arg0  (x26 / river
+)                  :arg1  (x19 / 百姓
+                        :location  (x18 / 两岸
+))                  :cause-of  (x20 / 叫苦不迭
+                        :arg0  (x19 / 百姓
+)))))
+===========================
+黄河成了中华民族的忧患。
+(x2 / 成-01
+      :arg0  (x10 / river
+            :name  ( x1/黄河 
+))      :aspect  (x3 / 了
+)      :arg1  (x6 / 忧患
+            :poss  (x4 / 中华民族
+)))
+===========================
+黄河是全世界上含沙量最大的大河，其含沙量相当于长江的68倍。
+(x20 / and
+      :op1  (x10 / 大河
+            :domain  (x23 / river
+                  :name  ( x1/黄河 
+))            :mod  (x8 / 大-01
+                  :arg0  (x6 / 含沙量
+)                  :range  (x4 / 世界
+                        :mod  (x3 / 全
+))                  :degree  (x7 / 最
+)))      :op2  (x14 / 相当于-01
+            :arg0  (x13 / 含沙量
+                  :poss  (x12 / x10
+))            :arg1  (x33 / product-of
+                  :op1  (x17 / 68
+)                  :op2  (x35 / thing
+                        :poss  (x36 / river
+                              :name  ( x15/长江 
+))))))
+===========================
+黄河生年从中上游带到下游的泥沙总量达16亿吨，其中12亿吨被搬到了大海，4亿吨则沉积在下游河道中。
+(x32 / and
+      :op1  (x10 / 达-01
+            :arg0  (x9 / 总量
+                  :mod  (x8 / 泥沙
+                        :arg1-of  (x5 / 带到-01
+                              :source  (x4 / 中上游
+)                              :time  (x2 / 生年
+)                              :arg0  (x40 / river
+                                    :name  ( x1/黄河 
+))                              :arg1  (x6 / 下游
+))))            :arg1  (x42 / mass-quantity
+                  :unit  (x12 / 吨
+)                  :quant  (x11 / 1600000000
+)))      :op2  (x46 / and
+            :op1  (x18_x19 / 搬到-01
+                  :arg1  (x48 / thing
+                        :mod  (x14 / 其中
+)                        :unit  (x16 / 吨
+)                        :quant  (x15 / 1200000000
+)                        :arg1-of  (x60 / include-91
+                              :arg2  (x8 / 泥沙
+)))                  :aspect  (x20 / 了
+)                  :arg2  (x21 / 大海
+))            :op2  (x26 / 沉积-01
+                  :arg0  (x53 / thing
+                        :unit  (x24 / 吨
+)                        :quant  (x23 / 400000000
+)                        :arg1-of  (x61 / include-91
+                              :arg2  (x8 / 泥沙
+)))                  :arg1  (x29 / 河道
+                        :location  (x28 / 下游
+)))))
+===========================
+问题就出在这4亿吨泥沙上。
+(x3 / 出-01
+      :arg0  (x1 / 问题
+)      :mod  (x2 / 就
+)      :arg1  (x8 / 泥沙
+            :unit  (x7 / 吨
+)            :quant  (x6 / 400000000
+)            :mod  (x5 / 这
+)))
+===========================
+它使黄河的河床逐年升高，结果有的河段高出两岸农田3-4米，有的甚至高出10米以上，使黄河成了悬河。
+(x31 / temporal
+      :arg1  (x2 / 使-01
+            :arg0  (x1 / 它
+)            :arg1  (x5 / 河床
+                  :poss  (x59 / river
+                        :name  ( x3/黄河 
+)))            :arg2  (x7 / 升高-01
+                  :manner  (x6 / 逐年
+)                  :arg1  (x5 / 河床
+)))      :arg2  (x40 / progression
+            :arg1  (x12 / 高出-01
+                  :arg0  (x11 / 河段
+                        :mod  (x10 / 有的
+))                  :arg1  (x44 / distance-quantity
+                        :unit  (x16 / 米
+)                        :quant  (x46 / between
+                              :op1  (x15_1 / 3
+)                              :op2  (x15_3 / 4
+)))                  :arg2  (x14 / 农田
+                        :location  (x13 / 两岸
+)))            :arg2  (x20 / 高出-01
+                  :arg1  (x52 / distance-quantity
+                        :unit  (x22 / 米
+)                        :quant  (x23 / 以上
+                              :op1  (x21 / 10
+)))                  :arg0  (x18 / 有的
+)))      :arg3  (x25 / 使-01
+            :arg1  (x58 / river
+                  :name  ( x26/黄河 
+))            :arg2  (x27 / 成-01
+                  :arg0  (x58 / river
+)                  :aspect  (x28 / 了
+)                  :arg1  (x29 / 悬河
+))))
+===========================
+每到洪水季节，黄河这些地段的堤坝很容易决口，造成可怕的大水灾。
+(x21 / condition
+      :arg1  (x2 / 到-01
+            :arg1  (x4 / 季节
+                  :mod  (x3 / 洪水
+)))      :arg2  (x26 / and
+            :op1  (x12 / 容易-01
+                  :arg0  (x13 / 决口-01
+                        :arg0  (x10 / 堤坝
+                              :location  (x8 / 地段
+                                    :mod  (x7 / 这些
+)                                    :location  (x32 / river
+                                          :name  ( x6/黄河 
+))))))            :op2  (x15 / 造成-01
+                  :arg1  (x19 / 水灾
+                        :arg0-of  (x16 / 可怕-01
+)                        :arg0-of  (x18 / 大-01
+)))))
+===========================
+据科学家研究，黄河发生变化有两方面的原因。
+(x8 / 有-03
+      :according-to  (x3 / 研究-01
+            :arg0  (x2 / 科学家
+))      :arg0  (x6 / 发生-01
+            :arg0  (x19 / river
+                  :name  ( x5/黄河 
+))            :arg1  (x7 / 变化
+                  :arg0  (x19 / river
+)))      :arg1  (x12 / 原因
+            :mod  (x10 / 方面
+                  :quant  (x9 / 2
+))))
+===========================
+一是自秦朝以后，黄土高原气温转寒，暴雨集中。
+(x15 / and
+      :op1  (x17 / and
+            :op1  (x9 / 转-01
+                  :arg2  (x10 / 寒
+)                  :arg1  (x8 / 气温
+                        :location  (x7 / 黄土高原
+))))      :op2  (x13 / 集中-02
+            :arg0  (x12 / 暴雨
+))      :time  (x5 / 以后
+            :arg0  (x4 / 秦朝
+)))
+===========================
+加上黄土本身结构松散，很容易受侵蚀和崩塌，助长了水土流失，使大量泥沙过入黄河。
+(x26 / causation
+      :arg1  (x28 / causation
+            :arg2  (x8 / 容易-01
+                  :degree  (x7 / 很
+)                  :arg0  (x9 / 受-01
+                        :arg1  (x11 / and
+                              :op1  (x10 / 侵蚀-01
+                                    :arg1  (x2 / 黄土
+))                              :op2  (x12 / 崩塌-01
+                                    :arg0  (x2 / 黄土
+)))                        :arg0  (x2 / 黄土
+)))            :arg1  (x1 / 加上-01
+                  :arg1  (x5 / 松散
+                        :arg0  (x4 / 结构
+                              :poss  (x3 / 本身
+                                    :arg0-of  (x40 / mean
+                                          :arg1  (x2 / 黄土
+)))))))      :arg2  (x29 / and
+            :op1  (x14 / 助长-01
+                  :aspect  (x15 / 了
+)                  :arg1  (x17 / 流失-01
+                        :arg1  (x16 / 水土
+)))            :op2  (x19 / 使-01
+                  :arg1  (x21 / 泥沙
+                        :quant  (x20 / 大量
+))                  :arg2  (x23 / 入-01
+                        :manner  (x22 / 过
+)                        :arg0  (x21 / 泥沙
+)                        :arg1  (x51 / river
+                              :name  ( x24/黄河 
+))))))
+===========================
+二是人口迅速增长，无限制地开垦放牧，使森林毁灭，草原破坏，绿色的植被遭到严重破坏，黄土高原失去天然的保护层，引起了严重的水土流失。
+(x39 / and
+      :op2  (x41 / causation
+            :arg1  (x42 / and
+                  :op1  (x5 / 增长-01
+                        :arg0  (x3 / 人口
+)                        :manner  (x4 / 迅速
+))                  :op2  (x46 / and
+                        :op1  (x9 / 开垦
+)                        :manner  (x7 / 无限制
+)                        :op2  (x10 / 放牧
+)))            :arg2  (x50 / and
+                  :op1  (x12 / 使-01
+                        :arg2  (x52 / and
+                              :op1  (x14 / 毁灭-01
+                                    :arg1  (x13 / 森林
+))                              :op2  (x17 / 破坏-01
+                                    :arg1  (x16 / 草原
+))                              :op3  (x22 / 遭到-01
+                                    :arg1  (x24 / 破坏
+                                          :arg0-of  (x23 / 严重-01
+))                                    :arg0  (x21 / 植被
+                                          :arg0-of  (x19 / 绿色-01
+)))                              :op4  (x27 / 失去-01
+                                    :arg0  (x26 / 黄土高原
+)                                    :arg1  (x30 / 保护层
+                                          :arg0-of  (x28 / 天然
+)))))                  :op2  (x32 / 引起-01
+                        :aspect  (x33 / 了
+)                        :arg1  (x37 / 流失-01
+                              :arg0-of  (x34 / 严重-01
+)                              :mod  (x36 / 水土
+))))))
+===========================
+每年，黄河流域每平方公里就有4000吨宝贵的土壤被侵蚀掉，相当于一年破坏耕地550万亩！
+(x26 / and
+      :op1  (x15 / 侵蚀-01
+            :arg1  (x13 / 土壤
+                  :arg0-of  (x11 / 宝贵-01
+)                  :arg1-of  (x8 / 有-03
+                        :arg0  (x34 / thing
+                              :quant  (x5 / 1
+)                              :unit  (x6 / 平方公里
+))                        :mod  (x7 / 就
+))                  :unit  (x10 / 吨
+)                  :quant  (x9 / 4000
+))            :frequency  (x38 / rate-entity
+                  :arg2  (x39 / temporal-quantity
+                        :quant  (x1_1 / 1
+)                        :unit  (x1_2 / 年
+)))            :location  (x4 / 流域
+                  :mod  (x43 / river
+                        :name  ( x3/黄河 
+))))      :op2  (x18 / 相当于-01
+            :arg0  (x15 / 侵蚀-01
+)            :arg2  (x21 / 破坏-01
+                  :duration  (x47 / temporal-quantity
+                        :unit  (x20 / 年
+)                        :quant  (x19 / 1
+))                  :arg1  (x22 / 耕地
+                        :unit  (x24 / 亩
+)                        :quant  (x23 / 5500000
+)))            :mode  (x25 / expressive
+)))
+===========================
+更严重的是，水土流失使土壤的肥力显著下降，造成农作物大量减产。
+(x20 / causation
+      :domain  (x22 / thing
+            :arg0-of  (x2 / 严重-01
+                  :degree  (x1 / 更
+)))      :arg1  (x8 / 使-01
+            :arg0  (x7 / 流失-01
+                  :arg1  (x6 / 水土
+))            :arg1  (x11 / 肥力
+                  :poss  (x9 / 土壤
+))            :arg2  (x13 / 下降-02
+                  :degree  (x12 / 显著
+)                  :arg0  (x11 / 肥力
+)))      :arg2  (x15 / 造成-01
+            :arg1  (x18 / 减产-01
+                  :degree  (x17 / 大量
+)                  :arg1  (x16 / 农作物
+))))
+===========================
+越是减产，人们就越要多开垦荒地；越多垦荒，水土流失就越严重。
+(x23 / progression
+      :arg1  (x1_x7 / 越
+            :arg0  (x3 / 减产
+)            :arg1  (x8 / 要-03
+                  :arg0  (x10 / 开垦-01
+                        :manner  (x9 / 多
+)                        :arg1  (x11 / 荒地
+)                        :arg0  (x5 / 人们
+))))      :arg2  (x13_x20 / 越
+            :arg0  (x15 / 垦荒
+                  :manner  (x14 / 多
+))            :arg1  (x21 / 严重-01
+                  :arg0  (x18 / 流失-01
+                        :arg1  (x17 / 水土
+)))))
+===========================
+这样越垦越穷，越穷越垦，黄河中的泥沙也就越来越多，因而黄河决口、改道的次数也就越来越频繁。
+(x33 / causation
+      :arg2  (x31 / 频繁-01
+            :degree  (x30 / 越来越
+)            :arg0  (x27 / 次数
+                  :poss  (x38 / and
+                        :op1  (x23 / 决口-01
+                              :arg0  (x43 / river
+                                    :name  ( x22/黄河 
+)))                        :op2  (x25 / 改道-01
+                              :arg0  (x43 / river
+))))            :mod  (x28 / 也
+)            :mod  (x29 / 就
+))      :arg1  (x45 / and
+            :op1  (x46 / and
+                  :mod  (x1 / 这样
+)                  :op1  (x2_x4 / 越
+                        :arg0  (x3 / 垦
+)                        :arg1  (x5 / 穷
+))                  :op2  (x7_x9 / 越
+                        :arg0  (x8 / 穷
+)                        :arg1  (x10 / 垦
+)))            :op2  (x19 / 多-01
+                  :mod  (x16 / 也
+)                  :mod  (x17 / 就
+)                  :degree  (x18 / 越来越
+)                  :arg0  (x15 / 泥沙
+                        :location  (x59 / river
+                              :name  ( x12/黄河 
+))))))
+===========================
+把黄河治理好，关键是要把泥沙管住，不能让它随心所欲地流进黄河。
+(x24 / and
+      :op1  (x8 / 要-03
+            :arg0  (x11 / 管住-01
+                  :arg1  (x10 / 泥沙
+)))      :op2  (x13_2 / 能-01
+            :polarity  (x13_1 / -
+)            :arg0  (x14 / 让-02
+                  :arg1  (x15 / x10
+)                  :arg2  (x18_x19 / 流进-01
+                        :manner  (x16 / 随心所欲
+)                        :arg1  (x37 / river
+                              :name  ( x20/黄河 
+)))))      :domain  (x6 / 关键-01
+            :poss  (x4 / 好-04
+                  :arg0  (x3 / 治理-02
+                        :arg1  (x34 / river
+                              :name  ( x2/黄河 
+))))))
+===========================
+新中国成立后，科学家已经为治理黄河设计了方案。
+(x11 / 设计-01
+      :beneficiary  (x9 / 治理-02
+            :arg1  (x18 / river
+                  :name  ( x10/黄河 
+)))      :arg0  (x6 / 科学家
+)      :time  (x4 / 后
+            :arg0  (x3 / 成立-01
+                  :arg1  (x23 / country
+                        :arg0-of  (x1 / 新-01
+)                        :name  ( x2/中国 
+))))      :aspect  (x7 / 已经
+)      :aspect  (x12 / 了
+)      :arg1  (x13 / 方案
+))
+===========================
+他们认为黄土高原地区应坚持牧、林为主的经营方向。
+(x2 / 认为-01
+      :arg0  (x1 / 他们
+)      :arg1  (x5 / 应-02
+            :arg0  (x6 / 坚持-01
+                  :arg0  (x4 / 地区
+                        :mod  (x3 / 黄土高原
+))                  :arg1  (x13 / 方向
+                        :mod  (x12 / 经营
+)                        :mod  (x10 / 为主-01
+                              :arg1  (x25 / and
+                                    :op1  (x7 / 牧
+)                                    :op2  (x9 / 林
+)))))))
+===========================
+一定要保护好森林资源，使失去的植被尽快恢复。
+(x15 / and
+      :op1  (x1 / 一定
+            :arg0  (x2 / 要-03
+                  :arg0  (x4 / 好-04
+                        :arg0  (x3 / 保护-01
+                              :arg1  (x6 / 资源
+                                    :mod  (x5 / 森林
+))))))      :op2  (x8 / 使-01
+            :arg1  (x11 / 植被
+                  :arg1-of  (x9 / 失去-01
+))            :arg2  (x13 / 恢复-01
+                  :manner  (x12 / 尽快
+)                  :arg0  (x11 / 植被
+))))
+===========================
+要使人人都明白这样一个道理：破坏森林是不折不扣的自杀行为；要合理规划利用土地，同时还要大量修筑水利工程。
+(x1 / 要-03
+      :arg0  (x2 / 使-01
+            :arg1  (x3 / 人人
+                  :extent  (x4 / 都
+))            :arg2  (x5 / 明白-01
+                  :arg1  (x9 / 道理
+                        :mod  (x6 / 这样
+)                        :quant  (x7 / 1
+)                        :cunit  (x8 / 个
+)                        :arg0-of  (x42 / mean
+                              :arg1  (x43 / and
+                                    :op1  (x17 / 行为
+                                          :mod  (x16 / 自杀
+)                                          :arg0-of  (x14 / 不折不扣-01
+)                                          :domain  (x11 / 破坏-01
+                                                :arg1  (x12 / 森林
+)))                                    :op2  (x49 / and
+                                          :op1  (x19 / 要-03
+                                                :arg0  (x21 / 规划-01
+                                                      :arg0-of  (x20 / 合理-01
+)                                                      :arg1  (x22 / 利用-01
+                                                            :arg1  (x23 / 土地
+))))                                          :op2  (x26_2 / 要-03
+                                                :mod  (x26_1 / 还
+)                                                :arg0  (x28 / 修筑-01
+                                                      :quant  (x27 / 大量
+)                                                      :arg1  (x30 / 工程
+                                                            :mod  (x29 / 水利
+))))))))                  :arg0  (x3 / 人人
+))))
+===========================
+这样数管齐下管，一定能防止水土流失，黄河变好的梦想一定能成为现实。
+(x21 / condition
+      :arg2  (x16 / 一定
+            :arg0  (x17 / 能-01
+                  :arg0  (x18 / 成为-01
+                        :arg0  (x15 / 梦想
+                              :arg0-of  (x27 / mean
+                                    :arg1  (x12 / 变-01
+                                          :arg0  (x29 / river
+                                                :name  ( x11/黄河 
+))                                          :arg2  (x13 / 好-01
+                                                :arg0  (x29 / river
+)))))                        :arg1  (x19 / 现实
+))))      :arg1  (x33 / condition
+            :arg1  (x3 / 管
+                  :mod  (x1 / 这样
+)                  :manner  (x2 / 数管齐下
+))            :arg2  (x5 / 一定
+                  :arg0  (x6 / 能-01
+                        :arg0  (x7 / 防止-01
+                              :arg1  (x9 / 流失-01
+                                    :arg1  (x8 / 水土
+)))))))
+===========================

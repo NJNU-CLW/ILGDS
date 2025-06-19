@@ -1,0 +1,557 @@
+那年，我刚满十一岁。
+(x5 / 满-02
+      :arg0  (x3 / 我
+)      :arg1  (x12 / age
+            :arg2  (x13 / temporal-quantity
+                  :quant  (x6 / 11
+)                  :unit  (x7 / 岁
+))            :arg1  (x3 / 我
+))      :time  (x1 / 那年
+)      :mod  (x4 / 刚
+))
+===========================
+有一天，像往常一样，我跟着父亲去附近湖中的小岛上钓鱼。
+(x11 / 去-01
+      :arg0  (x8 / 我
+)      :manner  (x9 / 跟着-01
+            :arg1  (x10 / 父亲
+)            :arg0  (x8 / 我
+))      :manner  (x4_x6 / 像-01
+            :arg1  (x5 / 往常
+))      :arg1  (x15 / 小岛
+            :location  (x13 / 湖中
+)            :location  (x12 / 附近
+))      :purpose  (x17 / 钓鱼
+)      :time  (x1_x2 / 有一天
+))
+===========================
+那是鲈鱼捕捞开放日的前一个夜晚。
+(x9 / 夜晚
+      :quant  (x8_1 / 1
+)      :cunit  (x8_2 / 个
+)      :ord  (x7 / 前
+)      :mod  (x5 / 开放日
+            :mod  (x4 / 捕捞-01
+                  :arg1  (x3 / 鲈鱼
+)))      :domain  (x1 / 那
+))
+===========================
+我和父亲分别放好鱼饵，然后举起鱼竿，把钓线抛了出去。
+(x20 / temporal
+      :arg1  (x5 / 放-01
+            :manner  (x6 / 好
+)            :arg0  (x2 / and
+                  :op1  (x1 / 我
+)                  :op2  (x3 / 父亲
+))            :arg1  (x7 / 鱼饵
+)            :mod  (x4 / 分别
+))      :arg2  (x10 / 举起-01
+            :arg1  (x12 / 竿
+                  :mod  (x11 / 鱼
+))            :arg0  (x2 / and
+))      :arg3  (x16 / 抛-01
+            :arg1  (x15 / 钓线
+)            :aspect  (x17 / 了
+)            :direction  (x18 / 出去
+)            :arg0  (x2 / and
+)))
+===========================
+晚霞辉映的湖面上溅起了一圈圈彩色的涟漪。
+(x6_x7 / 溅-01
+      :arg1  (x14 / 涟漪
+            :arg0-of  (x12 / 彩色
+)            :quant  (x9_x10_x11 / 一圈圈
+))      :aspect  (x8 / 了
+)      :arg2  (x4 / 湖面
+            :location-of  (x2 / 辉映-01
+                  :arg0  (x1 / 晚霞
+))))
+===========================
+不一会儿，月亮升起来了，湖面变得银光闪闪。
+(x14 / temporal
+      :arg1  (x4_x5 / 升-02
+            :arg0  (x3 / 月亮
+)            :aspect  (x6 / 了
+))      :time  (x1 / 不一会儿
+)      :arg2  (x9 / 变-01
+            :arg0  (x8 / 湖面
+)            :arg1  (x12 / 闪-01
+                  :arg0  (x11 / 银光
+)                  :arg1  (x8 / 湖面
+))))
+===========================
+过了好长时间，鱼竿突然剧烈地抖动了一下，一定是个大家伙上钩了。
+(x23 / temporal
+      :arg1  (x1 / 过-02
+            :arg1  (x5 / 时间
+                  :arg0-of  (x4 / 长-02
+                        :degree  (x3 / 好
+)))            :aspect  (x2 / 了
+))      :arg2  (x39 / and
+            :op1  (x12 / 抖动-01
+                  :frequency  (x31 / rate-entity-91
+                        :quant  (x14_1 / 1
+)                        :cunit  (x14_2 / 下
+))                  :arg0  (x8 / 竿
+                        :mod  (x7 / 鱼
+))                  :mod  (x10 / 剧烈
+)                  :aspect  (x13 / 了
+))            :op2  (x16 / 一定
+                  :arg0  (x20 / 上钩-01
+                        :arg0  (x19 / 大家伙
+                              :cunit  (x18 / 个
+)))                  :aspect  (x21 / 了
+))))
+===========================
+我小心翼翼地一收一放，熟练地操纵着，也是鱼想摆脱我的鱼钩，不停地甩动着鱼尾并跳跃着，湖面上不时发出“啪啪”的声音。
+(x43 / and
+      :op1  (x45 / and
+            :op1  (x5 / 收-01
+                  :arg0  (x1 / 我
+))            :op2  (x7 / 放-02
+                  :arg0  (x1 / 我
+))            :manner  (x2 / 小心翼翼-01
+                  :arg0  (x1 / 我
+)))      :op2  (x11 / 操纵-01
+            :aspect  (x12 / 着
+)            :manner  (x9 / 熟练
+)            :arg0  (x1 / 我
+))      :op3  (x53 / causation
+            :arg1  (x17 / 想-02
+                  :arg0  (x16 / 鱼
+)                  :arg1  (x18 / 摆脱-01
+                        :arg1  (x22 / 钩
+                              :mod  (x21 / 鱼
+)                              :poss  (x19 / x1
+))))            :arg2  (x60 / and
+                  :op1  (x26 / 甩动
+                        :arg0  (x16 / 鱼
+)                        :arg1  (x28 / 鱼尾
+)                        :aspect  (x27 / 着
+)                        :manner  (x24 / 不停
+))                  :op2  (x30 / 跳跃-01
+                        :aspect  (x31 / 着
+)                        :arg0  (x16 / 鱼
+))                  :op3  (x36 / 发出-02
+                        :arg1  (x41 / 声音
+                              :mod  (x38 / 啪啪
+))                        :time  (x35 / 不时
+)                        :location  (x33 / 湖面
+)))))
+===========================
+溅起不少水花。
+(x1_x2 / 溅-01
+      :arg1  (x4 / 水花
+            :arg0-of  (x3_2 / 少-02
+                  :polarity  (x3_1 / -
+))))
+===========================
+我等那条鱼挣扎得筋疲力尽了，迅速把它拉上岸来。
+(x19 / temporal
+      :arg1  (x2 / 等-01
+            :arg0  (x1 / 我
+)            :arg1  (x6 / 挣扎-01
+                  :manner  (x8 / 筋疲力尽-01
+                        :arg0  (x5 / 鱼
+                              :mod  (x3 / 那
+)                              :cunit  (x4 / 条
+)))                  :arg0  (x5 / 鱼
+)                  :aspect  (x9 / 了
+)))      :arg2  (x14 / 拉-01
+            :arg1  (x13 / x5
+)            :manner  (x11 / 迅速-01
+                  :arg0  (x1 / 我
+))            :destination  (x16 / 岸
+)            :arg0  (x1 / 我
+)))
+===========================
+啊，好大的鱼！
+(x10 / and
+      :op1  (x1 / 啊
+)      :op2  (x6 / 鱼
+            :arg0-of  (x4 / 大-01
+                  :degree  (x3 / 好
+)))      :mode  (x7 / expressive
+))
+===========================
+我从来没有见过这么大的鲈鱼。
+(x4 / 见-01
+      :arg0  (x1 / 我
+)      :arg1  (x9 / 鲈鱼
+            :arg0-of  (x7 / 大-01
+                  :degree  (x6 / 这么
+)))      :aspect  (x5 / 过
+)      :polarity  (x3 / -
+)      :time  (x2 / 从来
+))
+===========================
+我和父亲得意地欣赏着这条漂亮的大鲈鱼，看着鱼鳃在银色的月光下轻轻翕动着。
+(x27 / and
+      :op1  (x6 / 欣赏-01
+            :arg0  (x2 / and
+                  :op1  (x1 / 我
+)                  :op2  (x3 / 父亲
+))            :manner  (x4 / 得意
+)            :arg1  (x13 / 鲈鱼
+                  :arg0-of  (x12 / 大-01
+)                  :arg0-of  (x10 / 漂亮-01
+)                  :mod  (x8 / 这
+)                  :cunit  (x9 / 条
+))            :aspect  (x7 / 着
+))      :op2  (x15 / 看-02
+            :arg1  (x24 / 翕动
+                  :arg0  (x17 / 鱼鳃
+)                  :aspect  (x25 / 着
+)                  :manner  (x23 / 轻
+)                  :condition  (x21 / 月光
+                        :arg0-of  (x19 / 银色
+)))            :aspect  (x16 / 着
+)            :arg0  (x2 / and
+)))
+===========================
+父亲划着了一根火柴，看了看手表，这时是晚上十点，距离开放捕捞鲈鱼的时间还有两个小时。
+(x30 / temporal
+      :arg1  (x2 / 划着
+            :arg0  (x1 / 父亲
+)            :arg1  (x6 / 火柴
+                  :quant  (x4 / 1
+)                  :cunit  (x5 / 根
+))            :aspect  (x3 / 了
+))      :arg2  (x8_x10 / 看-02
+            :arg0  (x1 / 父亲
+)            :aspect  (x9 / 了
+)            :arg1  (x11 / 手表
+))      :arg3  (x41 / and
+            :op1  (x13 / 这时
+                  :time  (x43 / date-entity
+                        :time  (x16 / 22:00
+)                        :dayperiod  (x15 / 晚上
+)))            :op2  (x25 / 有-05
+                  :arg0  (x23 / 时间
+                        :time-of  (x18 / 距离-01
+                              :arg1  (x19 / 开放-01
+                                    :arg1  (x20 / 捕捞-01
+                                          :arg1  (x21 / 鲈鱼
+)))))                  :mod  (x24 / 还
+)                  :arg1  (x53 / temporal-quantity
+                        :quant  (x26_x27 / 2
+)                        :unit  (x28 / 小时
+)))))
+===========================
+父亲盯着鲈鱼看了好一会儿，然后把目光转向了我：“孩子，你得把它放回湖里去。”
+(x29 / temporal
+      :arg1  (x36 / and
+            :op1  (x2 / 盯-01
+                  :arg0  (x1 / 父亲
+)                  :arg1  (x4 / 鲈鱼
+)                  :aspect  (x3 / 着
+))            :op2  (x5 / 看-02
+                  :duration  (x8 / 一会儿
+                        :mod  (x7 / 好
+))                  :aspect  (x6 / 了
+)                  :arg0  (x1 / 父亲
+)                  :arg1  (x4 / 鲈鱼
+)))      :arg2  (x13 / 转向-01
+            :arg1  (x12 / 目光
+)            :arg2  (x15 / 我
+)            :aspect  (x14 / 了
+)            :arg0  (x1 / 父亲
+))      :arg3  (x44 / say
+            :arg1  (x45 / and
+                  :op1  (x17 / x15
+)                  :op2  (x20 / 得
+                        :arg0  (x23_x24 / 放回-01
+                              :arg0  (x19 / x15
+)                              :arg1  (x22 / x4
+)                              :arg2  (x25 / 湖
+))))))
+===========================
+“爸爸！为什么？”我急切地问道。
+(x9 / 问道-01
+      :arg0  (x6 / 我
+)      :manner  (x7 / 急切
+)      :arg1  (x15 / and
+            :op1  (x2 / 爸爸
+                  :mode  (x3 / expressive
+))            :op2  (x4 / amr-unknown
+                  :mode  (x5 / interrogative
+)))      :arg2  (x2 / 爸爸
+))
+===========================
+“你还会钓到别的鱼的。”父亲平静地说。
+(x14 / 说-01
+      :arg0  (x11 / 父亲
+)      :manner  (x12 / 平静-02
+            :arg0  (x11 / 父亲
+))      :arg1  (x4 / 会-02
+            :arg0  (x5_x6 / 钓-01
+                  :arg0  (x2 / 你
+)                  :arg1  (x8 / 鱼
+                        :mod  (x7 / 别的
+)))            :smood  (x9 / 的
+)            :mod  (x3 / 还
+)))
+===========================
+“可是不会钓到这么大的鱼了。”我大声争辩着，哭出了声。
+(x22 / temporal
+      :arg1  (x14 / 争辩-01
+            :arg0  (x12 / 我
+)            :manner  (x13 / 大声
+)            :arg1  (x27 / contrast
+                  :arg2  (x3_2 / 会-02
+                        :polarity  (x3_1 / -
+)                        :arg0  (x4_x5 / 钓-01
+                              :arg1  (x9 / 鱼
+                                    :arg0-of  (x7 / 大-01
+                                          :degree  (x6 / 这么
+)))                              :arg0  (x12 / 我
+))                        :aspect  (x10 / 了
+)))            :aspect  (x15 / 着
+))      :arg2  (x17 / 哭-01
+            :manner  (x18 / 出-01
+                  :arg0  (x20 / 声
+)                  :aspect  (x19 / 了
+))            :arg0  (x12 / 我
+)))
+===========================
+我抬头看了一下四周，到处都是静悄悄的，皎洁的月光下看不见其他人和船的影子。
+(x27 / and
+      :op1  (x2 / 抬头-01
+            :arg0  (x1 / 我
+)            :purpose  (x3_x5 / 看-02
+                  :arg1  (x6 / 四周
+)                  :aspect  (x4 / 了
+)                  :arg0  (x1 / 我
+)))      :op2  (x11 / 静悄悄
+            :range  (x8 / 到处
+)            :mode  (x10_x12 / judgement
+)            :mod  (x9 / 都
+))      :op3  (x18_x20 / 看见-01
+            :polarity  (x19 / -
+)            :arg1  (x22 / and
+                  :op1  (x21_3 / 人
+                        :mod  (x21_1_2 / 其他
+))                  :op2  (x25 / 影子
+                        :poss  (x23 / 船
+)))            :condition  (x16 / 月光
+                  :arg0-of  (x14 / 皎洁
+))))
+===========================
+我再次把乞求的目光投向了父亲。
+(x7 / 投向-01
+      :arg0  (x1 / 我
+)      :arg1  (x6 / 目光
+            :mod  (x4 / 乞求
+))      :arg2  (x9 / 父亲
+)      :aspect  (x8 / 了
+)      :mod  (x2 / 再次
+))
+===========================
+尽管没有人看到我们，更无人知道我是在什么时候钓到这条鲈鱼的，但是，从父亲那不容争辩的声音中，我清楚地知道，父亲的话是没有商量余地的。
+(x48 / contrast
+      :arg1  (x51 / progression
+            :arg1  (x4 / 看到-01
+                  :arg1  (x5 / 我们
+)                  :arg0  (x3 / 人
+                        :arg1-of  (x2_2 / 有-03
+                              :polarity  (x2_1 / -
+))))            :arg2  (x10 / 知道-01
+                  :arg0  (x9 / 人
+                        :arg1-of  (x8 / 无-01
+))                  :arg1  (x16_x17 / 钓-01
+                        :time  (x14_x15 / amr-unknown
+)                        :arg1  (x20 / 鲈鱼
+                              :mod  (x18 / 这
+)                              :cunit  (x19 / 条
+))                        :arg0  (x11 / 我
+)                        :mode  (x12_x21 / judgement
+))))      :arg2  (x37 / 知道-01
+            :arg0  (x34 / x11
+)            :manner  (x35 / 清楚
+)            :arg1  (x34_2 / 有-05
+                  :arg0  (x41 / 话
+                        :poss  (x39 / x26
+))                  :arg1  (x45 / 余地
+                        :mod  (x44 / 商量
+))                  :polarity  (x43_1 / -
+)                  :mode  (x42_x46 / judgement
+))            :condition  (x31 / 声音
+                  :arg0-of  (x28_2 / 容-03
+                        :polarity  (x28_1 / -
+)                        :arg1  (x29 / 争辩
+))                  :mod  (x27 / 那
+)                  :poss  (x26 / 父亲
+))))
+===========================
+我慢慢地把鱼钩从大鲈鱼的嘴唇上取下来，依依不舍地把它放回湖里。
+(x25 / temporal
+      :arg1  (x13 / 取-01
+            :arg0  (x1 / 我
+)            :arg1  (x5_x6 / 鱼钩
+)            :arg2  (x11 / 嘴唇
+                  :part-of  (x9 / 鲈鱼
+                        :arg0-of  (x8 / 大-01
+))))      :arg2  (x20_x21 / 放回-01
+            :arg1  (x19 / x9
+)            :arg2  (x22 / 湖
+)            :manner  (x16 / 依依不舍-01
+                  :arg0  (x1 / 我
+))            :arg0  (x1 / 我
+)))
+===========================
+大鲈鱼有力地摆动着身子，一转眼便消失在湖水中了。
+(x17 / temporal
+      :arg1  (x5 / 摆动-01
+            :arg0  (x2 / 鲈鱼
+                  :arg0-of  (x1 / 大-01
+))            :arg1  (x7 / 身子
+)            :aspect  (x6 / 着
+)            :manner  (x3 / 有力-01
+                  :arg0  (x2 / 鲈鱼
+)))      :arg2  (x11 / 消失-01
+            :location  (x13 / 湖水
+)            :time  (x9 / 一转眼
+)            :arg0  (x2 / 鲈鱼
+)            :aspect  (x15 / 了
+)))
+===========================
+转眼间三十四年过去了。
+(x4 / 过去-01
+      :arg0  (x9 / temporal-quantity
+            :quant  (x2 / 34
+)            :unit  (x3 / 年
+))      :manner  (x1 / 转眼间
+)      :aspect  (x5 / 了
+))
+===========================
+当年那个沮丧的孩子，已是一位著名的建筑设计师了。
+(x14 / 设计师
+      :quant  (x9 / 1
+)      :mod  (x13 / 建筑
+)      :arg0-of  (x11 / 著名-01
+)      :cunit  (x10 / 位
+)      :domain  (x5 / 孩子
+            :arg0-of  (x3 / 沮丧-01
+)            :mod  (x2_1 / 那
+)            :cunit  (x2_2 / 个
+)            :time  (x1 / 当年
+))      :aspect  (x7 / 已
+)      :aspect  (x15 / 了
+))
+===========================
+我再没有钓到过像三十四年前那个夜晚所钓到的那样大的鱼。
+(x4_x5 / 钓-01
+      :arg0  (x1 / 我
+)      :arg1  (x20 / 鱼
+            :arg0-of  (x18 / 大-01
+                  :mod  (x17 / 那样
+))            :arg0-of  (x7 / 像-01
+                  :arg1  (x29 / thing
+                        :arg0-of  (x14_x15 / 钓-01
+                              :time  (x12 / 夜晚
+                                    :mod  (x11_1 / 那
+)                                    :cunit  (x11_2 / 个
+)                                    :time  (x10 / 前
+                                          :op1  (x35 / temporal-quantity
+                                                :quant  (x8 / 34
+)                                                :unit  (x9 / 年
+)))))                        :dcopy  (x20 / 鱼
+))))      :polarity  (x3 / -
+)      :mod  (x2 / 再
+))
+===========================
+但是，在人生的旅途中，我却不止一次地遇到了与那条鲈鱼相似的诱惑人的“鱼”。
+(x29 / contrast
+      :arg2  (x15 / 遇到-01
+            :arg0  (x9 / 我
+)            :arg1  (x27 / 鱼
+                  :arg0-of  (x23 / 诱惑-01
+                        :arg1  (x24 / 人
+))                  :arg0-of  (x21 / 相似-01
+                        :arg1  (x20 / 鲈鱼
+                              :mod  (x18 / 那
+)                              :cunit  (x19 / 条
+))))            :frequency  (x11 / 不止-01
+                  :arg1  (x13 / 次
+                        :quant  (x12 / 1
+)))            :aspect  (x16 / 了
+)            :mod  (x10 / 却
+)            :location  (x6 / 旅途
+                  :mod  (x4 / 人生
+))))
+===========================
+当我一次次地面临道德抉择的时候，就会想起父亲曾告诫我的话：道德只是个简单的是与非的问题，实践起来却很难。
+(x41 / condition
+      :arg1  (x5 / 面临-01
+            :arg0  (x2 / 我
+)            :arg1  (x7 / 抉择
+                  :mod  (x6 / 道德
+))            :quant  (x3 / 一次次
+))      :arg2  (x12 / 会-02
+            :arg1  (x13 / 想起-01
+                  :arg1  (x19 / 话
+                        :arg2-of  (x16 / 告诫-01
+                              :arg0  (x14 / 父亲
+)                              :aspect  (x15 / 曾
+)                              :arg1  (x17 / x2
+))                        :arg0-of  (x55 / mean
+                              :arg1  (x56 / contrast
+                                    :arg1  (x31 / 问题
+                                          :mod  (x28 / and
+                                                :op1  (x27 / 是
+)                                                :op2  (x29 / 非
+))                                          :arg0-of  (x25 / 简单-01
+)                                          :cunit  (x24 / 个
+)                                          :domain  (x21 / 道德
+)                                          :mod  (x22 / 只
+))                                    :arg2  (x37 / 难-01
+                                          :arg0  (x33_x34 / 实践-01
+                                                :arg1  (x21 / 道德
+))                                          :degree  (x36 / 很
+))))))))
+===========================
+一个人要是从小受到像把钓到的大鲈鱼放回湖中这样严格的教育的话，就会获得道德实践的勇气和力量。
+(x32 / condition
+      :arg1  (x5 / 受到-01
+            :arg0  (x2 / 人
+                  :quant  (x1_1 / 1
+)                  :cunit  (x1_2 / 个
+))            :time  (x4 / 从小
+)            :arg1  (x19 / 教育
+                  :arg0-of  (x17 / 严格-01
+)                  :mod  (x16 / 这样
+)                  :example  (x13_x14 / 放回-01
+                        :arg1  (x12 / 鲈鱼
+                              :arg0-of  (x11 / 大-01
+)                              :arg1-of  (x8_x9 / 钓-01
+))                        :arg2  (x15 / 湖中
+))))      :arg2  (x23 / 会-02
+            :arg0  (x24 / 获得-01
+                  :arg1  (x29 / and
+                        :op1  (x28 / 勇气
+                              :mod  (x26 / 实践
+                                    :arg1  (x25 / 道德
+)))                        :op2  (x30 / 力量
+                              :mod  (x26 / 实践
+)))                  :arg0  (x2 / 人
+))))
+===========================
+三十四年前那个月光如水的夜晚，给我留下了永久的回忆和终生的启示。
+(x11 / 留下-01
+      :arg0  (x7 / 夜晚
+            :time  (x3 / 前
+                  :op1  (x25 / temporal-quantity
+                        :quant  (x1 / 34
+)                        :unit  (x2 / 年
+)))            :mod  (x4_1 / 那
+)            :cunit  (x4_2 / 个
+)            :mod  (x5 / 月光如水
+))      :arg2  (x10 / 我
+)      :arg1  (x16 / and
+            :op1  (x15 / 回忆
+                  :arg0-of  (x13 / 永久-01
+))            :op2  (x19 / 启示
+                  :time  (x17 / 终生
+)))      :aspect  (x12 / 了
+))
+===========================

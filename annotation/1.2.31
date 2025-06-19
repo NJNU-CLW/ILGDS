@@ -1,0 +1,248 @@
+小猴和小兔是好朋友。
+(x8 / 朋友
+      :arg0-of  (x7 / 好-05
+)      :domain  (x3 / and
+            :op1  (x2 / 猴
+                  :arg0-of  (x1 / 小-01
+))            :op2  (x5 / 兔
+                  :arg0-of  (x4 / 小-01
+))))
+===========================
+一天，他俩在树下玩，跳啊，唱啊，真高兴!
+(x8 / 玩-01
+      :time  (x1_x2 / 一天
+)      :arg0  (x4 / 他俩
+)      :location  (x7 / 下
+            :arg0  (x6 / 树
+))      :arg0-of  (x25 / mean
+            :arg1  (x26 / and
+                  :op1  (x10 / 跳-01
+                        :arg0  (x4 / 他俩
+)                        :mode  (x11 / expressive
+))                  :op2  (x13 / 唱-01
+                        :arg0  (x4 / 他俩
+)                        :mode  (x14 / expressive
+))))      :cause-of  (x17 / 高兴-01
+            :arg0  (x4 / 他俩
+)            :degree  (x16 / 真
+)            :mode  (x18 / expressive
+)))
+===========================
+玩了一会儿，小猴说:“小兔，我请你吃桃子吧。”
+(x19 / temporal
+      :arg1  (x1 / 玩
+            :duration  (x3 / 一会儿
+)            :aspect  (x2 / 了
+))      :arg2  (x7 / 说-01
+            :arg0  (x6 / 猴
+                  :arg0-of  (x5 / 小-01
+))            :arg1  (x27 / and
+                  :op1  (x10 / 兔
+                        :arg0-of  (x9 / 小-01
+))                  :op2  (x13 / 请-01
+                        :arg0  (x12 / x6
+)                        :arg1  (x14 / x10
+)                        :arg2  (x15 / 吃-01
+                              :arg1  (x16 / 桃子
+)                              :arg0  (x14 / x10
+))                        :mode  (x17 / imperative
+)))))
+===========================
+是啊，树上的桃子又大又红，一定很好吃。
+(x16 / and
+      :op1  (x1 / 是
+            :mode  (x2 / expressive
+))      :op2  (x22 / causation
+            :arg1  (x23 / and
+                  :op1  (x8 / 大-01
+                        :arg0  (x6 / 桃子
+                              :location  (x4 / 树上
+)))                  :op2  (x10 / 红-01
+                        :arg0  (x6 / 桃子
+)))            :arg2  (x12 / 一定
+                  :arg0  (x14 / 好吃-01
+                        :arg0  (x6 / 桃子
+)                        :degree  (x13 / 很
+)))))
+===========================
+小猴对正在树上的猴爸爸说:“爸爸，请您给我们摘几个桃子，好吗?”
+(x9 / 说-01
+      :arg0  (x2 / 猴
+            :arg0-of  (x1 / 小-01
+))      :arg3  (x8 / 爸爸
+            :location  (x5 / 树上
+)            :mod  (x7 / 猴
+))      :arg1  (x32 / and
+            :op1  (x11 / x8
+)            :op2  (x13 / 请-01
+                  :arg0  (x2 / 猴
+)                  :arg1  (x14 / x8
+)                  :arg2  (x17 / 摘-01
+                        :arg0  (x14 / x8
+)                        :arg1  (x20 / 桃子
+                              :quant  (x18 / 几
+)                              :cunit  (x19 / 个
+))                        :arg2  (x16 / 我们
+)))            :op3  (x22 / 好-01
+                  :arg0  (x41 / thing
+)                  :mode  (x23_x24 / interrogative
+))))
+===========================
+猴爸爸还没有回答，也没有动手，只见几个桃子自己从树上掉了下来。
+(x22 / and
+      :op1  (x5 / 回答-01
+            :mod  (x3 / 还
+)            :polarity  (x4 / -
+)            :arg0  (x2 / 爸爸
+                  :mod  (x1 / 猴
+)))      :op2  (x9 / 动手-01
+            :arg0  (x2 / 爸爸
+)            :polarity  (x8 / -
+))      :op3  (x11_2 / 见-01
+            :mod  (x11_1 / 只
+)            :arg0  (x2 / 爸爸
+)            :arg1  (x18 / 掉-01
+                  :arg1  (x14 / 桃子
+                        :quant  (x12 / 几
+)                        :cunit  (x13 / 个
+)                        :arg0-of  (x37 / mean
+                              :arg1  (x15 / 自己
+)))                  :source  (x17 / 树上
+)                  :aspect  (x19 / 了
+)                  :direction  (x20 / 下来-01
+                        :arg0  (x14 / 桃子
+)))))
+===========================
+小兔说:“猴伯伯，谢谢您!”
+(x3 / 说-01
+      :arg0  (x2 / 兔
+            :arg0-of  (x1 / 小-01
+))      :arg1  (x15 / and
+            :op1  (x6 / 伯伯
+                  :mod  (x5 / 猴
+))            :op2  (x8 / 谢谢-01
+                  :mode  (x10 / expressive
+)                  :arg0  (x2 / 兔
+)                  :arg1  (x9 / x6
+))))
+===========================
+猴爸爸笑着说:“别谢我，这是地球爷爷帮的忙。”
+(x5 / 说-01
+      :manner  (x3 / 笑
+            :aspect  (x4 / 着
+))      :arg0  (x2 / 爸爸
+            :mod  (x1 / 猴
+))      :arg1  (x25 / causation
+            :arg2  (x8 / 谢-02
+                  :polarity  (x7 / -
+)                  :arg0  (x9 / x2
+))            :arg1  (x29 / thing
+                  :arg2-of  (x15_x17 / 帮忙-01
+                        :arg0  (x14 / 爷爷
+                              :mod  (x13 / 地球
+)))                  :domain  (x11 / 这
+))))
+===========================
+小猴觉得很奇怪:“地球爷爷怎么帮忙啊?”
+(x13 / causation
+      :arg1  (x3 / 觉得-01
+            :arg0  (x2 / 猴
+                  :arg0-of  (x1 / 小-01
+))            :arg1  (x5 / 奇怪
+                  :degree  (x4 / 很
+)))      :arg2  (x20 / say
+            :arg1  (x10 / 帮忙-01
+                  :manner  (x9 / amr-unknown
+)                  :arg0  (x8 / 爷爷
+                        :mod  (x7 / 地球
+))                  :mode  (x11 / expressive
+)                  :mode  (x12 / interrogative
+))))
+===========================
+小兔也说:“是呀，地球爷爷怎么帮忙呢?他又没有手。”
+(x4 / 说-01
+      :arg0  (x2 / 兔
+            :arg0-of  (x1 / 小-01
+))      :mod  (x3 / 也
+)      :arg1  (x25 / and
+            :op1  (x6 / 是
+                  :mode  (x7 / expressive
+))            :op2  (x12 / 帮忙-01
+                  :mode  (x13_x14 / interrogative
+)                  :arg0  (x10 / 爷爷
+                        :mod  (x9 / 地球
+)))            :op3  (x17_2 / 有-06
+                  :polarity  (x17_1 / -
+)                  :arg1  (x18 / 手
+)                  :arg0  (x15 / x10
+)                  :mod  (x16 / 又
+))))
+===========================
+地球爷爷说话了:“不，我有手，而且有很大很大的力气，能让成熟的桃子掉下来，能让踢到半空的足球掉下来……
+(x3 / 说话-01
+      :arg0-of  (x42 / mean
+            :arg1  (x47 / say
+                  :arg1  (x48 / and
+                        :op1  (x6 / 不
+)                        :op2  (x9 / 有-06
+                              :arg0  (x8 / x2
+)                              :arg1  (x10 / 手
+                                    :part-of  (x8 / x2
+)))                        :op3  (x13 / 有-06
+                              :arg0  (x8 / x2
+)                              :arg1  (x19 / 力气
+                                    :arg0-of  (x15_x17 / 大-01
+                                          :degree  (x14_x16 / 很
+))))                        :op4  (x21 / 能-01
+                              :arg0  (x22 / 让-02
+                                    :arg0  (x8 / x2
+)                                    :arg1  (x25 / 桃子
+                                          :arg0-of  (x23 / 成熟-01
+))                                    :arg2  (x26 / 掉-01
+                                          :direction  (x27 / 下来-01
+                                                :arg0  (x25 / 桃子
+))                                          :arg1  (x25 / 桃子
+))))                        :arg0  (x29 / 能-01
+                              :arg0  (x30 / 让-02
+                                    :arg0  (x8 / x2
+)                                    :arg2  (x36 / 掉-01
+                                          :direction  (x37 / 下来-01
+                                                :arg0  (x35 / 足球
+                                                      :arg1-of  (x31 / 踢-01
+)                                                      :location  (x33 / 半空
+)))                                          :arg1  (x35 / 足球
+))                                    :arg1  (x35 / 足球
+))))))      :arg0  (x2 / 爷爷
+            :mod  (x1 / 地球
+))      :aspect  (x4 / 了
+))
+===========================
+我的手，就是你们看不见的地心引力。”
+(x13 / say
+      :arg1  (x11 / 引力
+            :mod  (x10 / 地心
+)            :arg1-of  (x7_x8_2 / 看见-01
+                  :arg0  (x6 / 你们
+)                  :arg0-of  (x22 / possible
+                        :polarity  (x8_1 / -
+)))            :domain  (x3 / 手
+                  :part-of  (x1 / 我
+))))
+===========================
+地球爷爷的话刚说完，几个桃子又从树上掉了下来。
+(x18 / temporal
+      :arg1  (x6 / 说完-01
+            :time  (x5 / 刚
+)            :arg0  (x2 / 爷爷
+                  :mod  (x1 / 地球
+))            :arg1  (x4 / 话
+))      :arg2  (x14 / 掉-01
+            :arg1  (x10 / 桃子
+                  :quant  (x8 / 几
+)                  :cunit  (x9 / 个
+))            :source  (x13 / 树上
+)            :aspect  (x15 / 了
+)            :direction  (x16 / 下来-01
+                  :arg0  (x10 / 桃子
+))))
+===========================

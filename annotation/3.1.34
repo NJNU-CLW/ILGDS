@@ -1,0 +1,460 @@
+查理是个很调皮的孩子，爱搞恶作剧，没有人喜欢他，倒是他叫自己是“好汉查理”。
+(x27 / contrast
+      :arg1  (x29 / causation
+            :arg1  (x31 / and
+                  :op1  (x7 / 孩子
+                        :domain  (x34 / person
+                              :name  ( x1/查理 
+))                        :cunit  (x3 / 个
+)                        :arg0-of  (x5 / 调皮-01
+                              :degree  (x4 / 很
+)))                  :op2  (x9 / 爱-01
+                        :arg0  (x7 / 孩子
+)                        :arg1  (x10 / 搞-01
+                              :arg1  (x11 / 恶作剧
+))))            :arg2  (x15 / 喜欢-01
+                  :arg0  (x14 / 人
+                        :arg1-of  (x13_2 / 有-03
+                              :polarity  (x13_1 / -
+)))                  :arg1  (x16 / x7
+)))      :arg2  (x20 / 叫-01
+            :arg1  (x24_x25 / 好汉查理
+)            :arg2  (x19 / x7
+)            :arg0  (x21 / x7
+)))
+===========================
+放暑假的时候，镇上来了度假的罗伯特先生一家。
+(x7 / 来
+      :aspect  (x8 / 了
+))
+===========================
+罗伯特先生的女儿杰西很可爱，不过，她只能坐在轮椅上。
+(x18 / contrast
+      :arg1  (x7 / 可爱-01
+            :arg0  (x4 / 女儿
+                  :name  ( x5/杰西 
+)                  :poss  (x2 / 先生
+                        :name  ( x1/罗伯特 
+)))            :degree  (x6 / 很-01
+))      :arg2  (x12 / 只能-01
+            :arg0  (x13 / 坐-01
+                  :arg0  (x11 / x4
+)                  :arg1  (x15 / 轮椅
+))))
+===========================
+一天下午，查理跑到罗伯特家的院子里玩，看到屋里的墙上挂着一把漂亮的长刀，喜欢极了。
+(x31 / temporal
+      :arg1  (x5_x6 / 跑到-01
+            :arg0  (x34 / person
+                  :name  ( x4/查理 
+))            :arg1  (x10 / 院子
+                  :poss  (x8 / 家
+                        :poss  (x38 / person
+                              :name  ( x7/罗伯特 
+))))            :purpose  (x12 / 玩-01
+                  :arg0  (x34 / person
+)))      :time  (x2 / 下午
+            :time  (x1 / 一天
+))      :arg2  (x43 / causation
+            :arg1  (x14 / 看到-01
+                  :arg0  (x34 / person
+)                  :arg1  (x18 / 挂-01
+                        :aspect  (x19 / 着
+)                        :arg2  (x17 / 墙上
+                              :location  (x15_1 / 屋
+))                        :arg1  (x25 / 刀
+                              :arg0-of  (x24 / 长-02
+)                              :arg0-of  (x22 / 漂亮-01
+)                              :cunit  (x21 / 把
+)                              :quant  (x20 / 1
+))))            :arg2  (x27 / 喜欢-01
+                  :arg0  (x34 / person
+)                  :arg1  (x25 / 刀
+)                  :degree  (x28_x29 / 极了
+))))
+===========================
+他从窗户爬进房间，羡慕地望着那把刀。
+(x16 / temporal
+      :arg1  (x5 / 进-01
+            :manner  (x4 / 爬-01
+                  :arg0  (x1 / 他
+))            :arg0  (x1 / 他
+)            :source  (x3 / 窗户
+)            :arg1  (x6 / 房间
+))      :arg2  (x10 / 望-01
+            :aspect  (x11 / 着
+)            :manner  (x8 / 羡慕-01
+                  :arg0  (x1 / 他
+))            :arg1  (x14 / 刀
+                  :mod  (x12 / 那
+)                  :unit  (x13 / 把
+))))
+===========================
+“你想把它拿走吗？”
+(x10 / say
+      :arg1  (x3 / 想-02
+            :arg0  (x2 / 你
+)            :arg1  (x6_x7 / 拿走-01
+                  :arg0  (x2 / 你
+)                  :arg1  (x5 / 它
+))            :mode  (x8_x9 / interrogative
+)))
+===========================
+听到说话声，查理才发现有个小孩坐在轮椅上。
+(x15 / temporal
+      :arg1  (x1 / 听到-01
+            :arg0  (x18 / person
+                  :name  ( x4/查理 
+))            :arg1  (x2 / 说话声
+))      :arg2  (x6 / 发现-01
+            :mod  (x5 / 才
+)            :arg0  (x18 / person
+)            :arg1  (x10 / 坐-01
+                  :arg0  (x9 / 小孩
+                        :arg1-of  (x7 / 有-03
+)                        :unit  (x8 / 个
+))                  :arg1  (x12 / 轮椅
+))))
+===========================
+‘不，好汉查理从来不随便拿别人的东西。”
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x2 / 不
+)            :op2  (x8 / 拿-01
+                  :arg0  (x4 / 好汉
+                        :name  ( x5/查理 
+))                  :arg1  (x11 / 东西
+                        :poss  (x9 / 别人
+))                  :manner  (x7 / 随便
+)                  :polarity  (x6_3 / -
+)                  :time  (x6_1_2 / 从来
+))))
+===========================
+“你可以拿下来看看。
+(x8 / say
+      :arg1  (x3 / 可以-01
+            :arg0  (x4 / 拿-01
+                  :arg0  (x2 / 你
+)                  :purpose  (x6 / 看看-01
+                        :arg0  (x2 / 你
+))                  :direction  (x5 / 下来-01
+                        :arg0  (x15 / thing
+))                  :arg1  (x15 / thing
+))))
+===========================
+好汉查理，我叫杰西。”
+(x8 / say
+      :arg1  (x10 / and
+            :op1  (x1 / 好汉
+                  :name  ( x2/查理 
+))            :op2  (x5 / 叫-01
+                  :arg0  (x4 / 我
+)                  :arg1  (x6 / 杰西
+))))
+===========================
+“谢谢！”
+(x4 / say
+      :arg1  (x2 / 谢谢-01
+            :mode  (x3 / expressive
+)))
+===========================
+查理显得彬彬有礼。
+(x2 / 显得-01
+      :arg0  (x7 / person
+            :name  ( x1/查理 
+))      :arg1  (x3 / 彬彬有礼-01
+            :arg0  (x7 / person
+)))
+===========================
+他抽刀出鞘，仔细地看着。
+(x11 / temporal
+      :arg1  (x2_x4_1 / 抽出-01
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 刀
+)            :arg2  (x4_2 / 鞘
+))      :arg2  (x8 / 看-02
+            :manner  (x6 / 仔细
+)            :aspect  (x9 / 着
+)            :arg0  (x1 / 他
+)            :arg1  (x3 / 刀
+)))
+===========================
+杰西说：“这刀是爸爸的，要不然我会送给你。
+(x2 / 说-01
+      :arg0  (x18 / person
+            :name  ( x1/杰西 
+))      :arg1  (x20 / causation
+            :arg1  (x21 / thing
+                  :poss  (x7 / 爸爸
+)                  :domain  (x5 / 刀
+                        :mod  (x4 / 这
+)))            :arg2  (x25 / condition
+                  :arg1  (x10 / 要不然
+)                  :arg2  (x12 / 会-02
+                        :arg0  (x13 / 送给-01
+                              :arg0  (x11 / x18
+)                              :arg1  (x21 / thing
+)                              :arg2  (x14 / 你
+))))))
+===========================
+好汉查理，能推我到外面晒晒太阳吗？”
+(x14 / say
+      :arg1  (x16 / and
+            :op1  (x1 / 好汉
+                  :name  ( x2/查理 
+))            :op2  (x4 / 能-01
+                  :arg0  (x5 / 推-01
+                        :arg0  (x1 / 好汉
+)                        :arg1  (x6 / 我
+)                        :purpose  (x7 / 到-01
+                              :arg0  (x6 / 我
+)                              :arg1  (x8 / 外面
+)                              :purpose  (x9_x10 / 晒-02
+                                    :arg3  (x11 / 太阳
+))))                  :mode  (x12_x13 / interrogative
+))))
+===========================
+“好吧。”
+(x5 / say
+      :arg1  (x2 / 好
+            :mode  (x3 / expressive
+)))
+===========================
+查理恋恋不舍地把刀挂回墙上。
+(x6 / 挂-01
+      :arg0  (x14 / person
+            :name  ( x1/查理 
+))      :arg1  (x5 / 刀
+)      :arg2  (x8 / 墙上
+)      :manner  (x2 / 恋恋不舍-01
+            :arg0  (x14 / person
+)))
+===========================
+在草坪上，杰西高兴地背诵着一首首诗。
+(x8 / 背诵-01
+      :aspect  (x9 / 着-01
+)      :arg0  (x16 / person
+            :name  ( x5/杰西 
+))      :arg1  (x11 / 诗
+            :quant  (x10 / 一首首
+))      :manner  (x6 / 高兴-01
+            :arg0  (x16 / person
+))      :location  (x2 / 草坪
+))
+===========================
+他们俩在阳光下度过了一个快乐的下午。
+(x6 / 度过-01
+      :aspect  (x7 / 了
+)      :arg1  (x11 / 下午
+            :quant  (x8_1 / 1
+)            :cunit  (x8_2 / 个
+)            :mod  (x9 / 快乐-01
+))      :location  (x5 / 下-01
+            :arg0  (x4 / 阳光
+))      :arg0  (x1 / 他们
+            :quant  (x2 / 2
+)))
+===========================
+分手时，杰西问查理：“你能常来陪我吗？”
+(x5 / 问-01
+      :time  (x1 / 分手
+)      :arg0  (x19 / person
+            :name  ( x4/杰西 
+))      :arg2  (x21 / person
+            :name  ( x6/查理 
+))      :arg1  (x9 / 能-01
+            :arg0  (x11 / 来-01
+                  :arg0  (x8 / x21
+)                  :purpose  (x12 / 陪-01
+                        :arg0  (x21 / person
+)                        :arg1  (x13 / x19
+)))            :mode  (x14_x15 / interrogative
+)))
+===========================
+“当然可以”
+(x5 / say
+      :arg1  (x3 / 可以-01
+            :mod  (x2 / 当然
+)))
+===========================
+查理虽然调皮，但说话是算数的。
+(x11 / contrast
+      :arg1  (x3 / 调皮-01
+            :arg0  (x14 / person
+                  :name  ( x1/查理 
+)                  :arg0-of  (x6 / 说话-01
+)))      :arg2  (x8 / 算数
+            :mode  (x7_x9 / judgement
+)            :arg0  (x14 / person
+)))
+===========================
+整整一个暑假，他每天都陪杰西在草地上玩。
+(x8 / 陪-01
+      :arg0  (x5 / 他
+)      :arg1  (x18 / person
+            :name  ( x9/杰西 
+))      :arg2  (x13 / 玩
+            :location  (x11 / 草地
+))      :frequency  (x22 / rate-entity-91
+            :arg3  (x23 / temporal-quantity
+                  :quant  (x6_1 / 1
+)                  :unit  (x6_2 / 天
+)))      :mod  (x7 / 都
+)      :duration  (x3 / 暑假
+            :mod  (x1 / 整整
+)            :quant  (x2_1 / 1
+)            :cunit  (x2_2 / 个
+)))
+===========================
+镇上的人们发现查理没有再搞恶作剧。
+(x4 / 发现-01
+      :arg0  (x3 / 人们
+            :range  (x1_1 / 镇
+))      :arg2  (x8 / 搞-01
+            :mod  (x7 / 再
+)            :polarity  (x6 / -
+)            :arg0  (x18 / person
+                  :name  ( x5/查理 
+))            :arg1  (x9 / 恶作剧
+)))
+===========================
+暑假很快过去了，罗伯特一家要走了。
+(x12 / temporal
+      :arg1  (x3 / 过去-01
+            :arg0  (x1 / 暑假
+)            :aspect  (x4 / 了
+)            :manner  (x2_2 / 快
+                  :degree  (x2_1 / 很
+)))      :arg2  (x8 / 要-03
+            :arg0  (x9 / 走-01
+                  :arg0  (x7 / 一家
+))            :smood  (x10 / 了
+)))
+===========================
+临走的时候，罗伯特先生把查理叫到家里，说：“查理，你是不是很喜欢这把刀？现在它是你的了。”
+(x34 / temporal
+      :arg1  (x9 / 叫-04
+            :arg0  (x6 / 先生
+                  :name  ( x5/罗伯特 
+))            :arg1  (x39 / person
+                  :name  ( x8/查理 
+))            :arg2  (x10 / 到-01
+                  :arg0  (x39 / person
+)                  :arg1  (x11_1 / 家
+))            :time  (x1 / 临走
+))      :arg2  (x13 / 说-01
+            :arg0  (x6 / 先生
+)            :arg3  (x39 / person
+)            :arg1  (x45 / and
+                  :op1  (x46 / person
+                        :name  ( x15/x8 
+))                  :op2  (x22 / 喜欢-01
+                        :arg0  (x17 / x39
+)                        :arg1  (x25 / 刀
+                              :cunit  (x24 / 把
+)                              :mod  (x23 / 这
+))                        :degree  (x21 / 很
+)                        :mode  (x18_x19_x20_x26 / interrogative
+))                  :op3  (x52 / thing
+                        :poss  (x30 / x39
+)                        :domain  (x28 / x25
+)                        :time  (x27 / 现在
+)                        :aspect  (x32 / 了
+)))))
+===========================
+“不行，罗伯特先生，我不能随便要您的东西。”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x2 / 不行
+)            :op2  (x5 / 先生
+                  :name  ( x4/罗伯特 
+))            :op3  (x8_2 / 能-01
+                  :polarity  (x8_1 / -
+)                  :arg0  (x10 / 要-01
+                        :arg0  (x7 / 我
+)                        :manner  (x9 / 随便
+)                        :arg1  (x13 / 东西
+                              :poss  (x11 / x5
+))))))
+===========================
+“查理，你带给杰西的礼物是快乐，现在我把刀作为礼物送给你。”
+(x22 / say
+      :arg1  (x24 / and
+            :op1  (x25 / person
+                  :name  ( x2/查理 
+))            :op2  (x27 / causation
+                  :arg1  (x11 / 快乐
+                        :domain  (x9 / 礼物
+                              :arg1-of  (x5_x6 / 带给-01
+                                    :arg0  (x4 / x25
+)                                    :arg2  (x32 / person
+                                          :name  ( x7/杰西 
+)))))                  :arg2  (x19 / 送给-01
+                        :arg2  (x20 / x25
+)                        :time  (x13 / 现在
+)                        :arg0  (x14 / 我
+)                        :arg1  (x16 / 刀
+                              :arg0-of  (x17 / 作为-02
+                                    :arg1  (x18 / 礼物
+)))))))
+===========================
+查理第一次听到有人这样夸自己，连忙说：“谢谢您，罗伯特先生。”
+(x19 / causation
+      :arg1  (x4 / 听到-01
+            :ord  (x22 / ordinal-entity
+                  :value  (x2 / 1
+)                  :cunit  (x3 / 次
+))            :arg0  (x26 / person
+                  :name  ( x1/查理 
+))            :arg1  (x7 / 夸-01
+                  :arg0  (x5_2 / 人
+                        :arg1-of  (x5_1 / 有-03
+))                  :arg1  (x8 / x26
+)                  :mod  (x6 / 这样
+)))      :arg2  (x11 / 说
+            :manner  (x10 / 连忙
+)            :arg0  (x26 / person
+)            :arg1  (x35 / and
+                  :op1  (x13 / 谢谢-01
+                        :arg0  (x26 / person
+)                        :arg1  (x14 / x5_2
+))                  :op2  (x17 / x5_2
+                        :name  ( x16/罗伯特 
+)))))
+===========================
+与杰西告别时，查理握着杰西的手，说：“杰西，我会做个好汉。”
+(x23 / and
+      :op1  (x7 / 握-01
+            :arg0  (x26 / person
+                  :name  ( x6/查理 
+))            :aspect  (x8 / 着
+)            :arg1  (x11 / 手
+                  :poss  (x30 / person
+                        :name  ( x9/杰西 
+))))      :op2  (x13 / 说-01
+            :arg0  (x26 / person
+)            :arg3  (x30 / person
+)            :arg1  (x33 / and
+                  :op1  (x34 / person
+                        :name  ( x15/x9 
+))                  :op2  (x18 / 会-01
+                        :arg0  (x19 / 做-02
+                              :arg0  (x17 / x26
+)                              :arg1  (x21 / 好汉
+                                    :cunit  (x20 / 个
+))))))      :time  (x3 / 告别-01
+            :arg0  (x26 / person
+)            :arg1  (x37 / person
+                  :name  ( x2/x9 
+))))
+===========================
+“你会的，我从来就相信。”
+(x13 / say
+      :arg1  (x15 / and
+            :op1  (x3 / 会
+)            :op2  (x9 / 相信-01
+                  :mod  (x8 / 就
+)                  :arg0  (x6 / 我
+)                  :time  (x7 / 从来
+))))
+===========================

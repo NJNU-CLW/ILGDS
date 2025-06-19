@@ -1,0 +1,566 @@
+铃声响了，开始上课。
+(x8 / temporal
+      :arg1  (x2 / 响-01
+            :arg0  (x1 / 铃声
+)            :aspect  (x3 / 了
+))      :arg2  (x5 / 开始-02
+            :arg0  (x6 / 上课
+)))
+===========================
+我问同学们：“爸爸妈妈知道你的生日在哪一天吗？”
+(x2 / 问-01
+      :arg0  (x1 / 我
+)      :arg2  (x3_x4 / 同学们
+)      :arg1  (x8 / 知道-01
+            :arg0  (x22 / and
+                  :op1  (x6 / 爸爸
+)                  :op2  (x7 / 妈妈
+))            :arg1  (x12 / 在-01
+                  :arg0  (x11 / 生日
+                        :poss  (x9 / x3_x4
+))                  :arg1  (x13_x14 / amr-unknown
+)                  :mode  (x15_x16 / interrogative
+))))
+===========================
+“知道！”
+(x4 / say
+      :arg1  (x2 / 知道
+            :mode  (x3 / expressive
+)))
+===========================
+“知道！”孩子们异口同声地回答。
+(x8 / 回答-01
+      :arg0  (x4_x5 / 孩子们
+)      :manner  (x6 / 异口同声-01
+            :arg0  (x4_x5 / 孩子们
+))      :arg2  (x2 / 知道-01
+            :mode  (x3 / expressive
+)            :arg0  (x4_x5 / 孩子们
+)))
+===========================
+“生日那天，爸爸妈妈向你们祝贺吗？”
+(x14 / say
+      :arg1  (x9 / 祝贺-01
+            :arg0  (x17 / and
+                  :op1  (x5 / 爸爸
+)                  :op2  (x6 / 妈妈
+))            :location  (x3 / 那天
+                  :arg0-of  (x21 / mean
+                        :arg1  (x2 / 生日
+)))            :arg1  (x8 / 你们
+)            :mode  (x10_x1 / interrogative
+)))
+===========================
+“当然祝贺了！’
+(x6 / say
+      :arg1  (x2 / 当然
+            :arg0  (x3 / 祝贺
+)            :smood  (x4 / 了
+)            :mode  (x5 / expressive
+)))
+===========================
+“祝贺的！”又是一片肯定的回答声。“
+(x12 / 声
+      :mod  (x11 / 回答
+)      :mod  (x9 / 肯定
+)      :quant  (x7 / 1
+)      :cunit  (x8 / 片
+)      :domain  (x20 / thing
+)      :mod  (x5 / 又
+)      :arg0-of  (x22 / mean
+            :arg1  (x2 / 祝贺
+                  :mode  (x3 / judgement
+)                  :mode  (x4 / expressive
+))))
+===========================
+‘知道的’‘祝贺的’请举手！
+(x8 / 请-02
+      :arg2  (x9 / 举手-01
+)      :arg1  (x14 / person
+            :arg0-of  (x15 / 说-01
+                  :arg1  (x16 / and
+                        :op1  (x2 / 知道
+                              :mode  (x3 / judgement
+))                        :op2  (x5 / 祝贺
+                              :mode  (x6 / judgement
+)))))      :mode  (x10 / expressive
+))
+===========================
+他们骄傲地举起了手，有的还神气十足地左顾右盼。
+(x14 / and
+      :op1  (x4 / 举起-01
+            :aspect  (x5 / 了
+)            :arg0  (x1 / 他们
+)            :manner  (x2 / 骄傲-01
+)            :arg1  (x6 / 手
+                  :part-of  (x1 / 他们
+)))      :op2  (x12 / 左顾右盼
+            :arg0  (x24 / person
+                  :arg1-of  (x25 / include-91
+                        :arg2  (x1 / 他们
+)))            :manner  (x10 / 神气十足
+)            :mod  (x9 / 还
+)))
+===========================
+“手举高，老师要点数了！”我提高了声音，“啊，这么多啊！
+(x22 / temporal
+      :arg1  (x24 / say
+            :arg1  (x25 / temporal
+                  :arg1  (x3 / 举-02
+                        :cause-of  (x4 / 高-01
+                              :arg0  (x2 / 手
+))                        :arg1  (x2 / 手
+))                  :arg2  (x7 / 要-03
+                        :arg0  (x8 / 点数-01
+                              :arg0  (x6 / 老师
+)                              :aspect  (x9 / 了
+))                        :mode  (x10 / expressive
+                              :mod  (x18 / 这么
+)))))      :arg2  (x12 / 提高-01
+            :aspect  (x13 / 了
+)            :arg0  (x11 / x6
+)            :arg1  (x14 / 声音
+))      :arg3  (x38 / say
+            :arg1  (x19 / 多
+                  :mode  (x16_x20_x21 / expressive
+))))
+===========================
+我的情绪迅速地传染给了他们，他们随着我一起点起数来，“15、16、17……”
+(x26 / temporal
+      :arg1  (x6 / 传染-01
+            :arg1  (x9 / 他们
+)            :aspect  (x8 / 了
+)            :arg2  (x3 / 情绪
+                  :poss  (x1 / 我
+))            :manner  (x4 / 迅速
+))      :arg2  (x15_x16_x17_x18 / 点数-01
+            :arg0  (x11 / x9
+)            :accompanier  (x13 / x1
+))      :arg3  (x36 / say
+            :arg1  (x37 / and
+                  :op1  (x20 / 15
+)                  :op2  (x22 / 16
+)                  :op3  (x24 / 17
+))))
+===========================
+越点越多，越点越兴奋，声音越来越响，前排的孩子都回过头往后看，几个男孩子索性站了起来，我也不阻止他们。
+(x38 / temporal
+      :arg1  (x1_x3 / 越
+            :arg0  (x2 / 点
+)            :arg1  (x4 / 多
+))      :arg2  (x6_x8 / 越
+            :arg0  (x7 / 点
+)            :arg1  (x9 / 兴奋
+))      :arg3  (x13 / 响-01
+            :degree  (x12 / 越来越
+)            :arg0  (x11 / 声音
+))      :arg5  (x22 / 看-02
+            :direction  (x21_2 / 后
+)            :arg0  (x17 / 孩子
+                  :extent  (x18 / 都
+)                  :location  (x15 / 前排
+)))      :arg4  (x19_1 / 回-02
+            :arg1  (x20 / 头
+                  :part-of  (x17 / 孩子
+))            :arg0  (x17 / 孩子
+))      :arg7  (x35 / 阻止-02
+            :arg0  (x32 / 我
+)            :arg1  (x36 / x26
+)            :polarity  (x34 / -
+)            :mode  (x33 / 也
+))      :arg6  (x28_x30 / 站-01
+            :manner  (x27 / 索性
+)            :aspect  (x29 / 了
+)            :arg0  (x26 / 男孩子
+                  :quant  (x24 / 几
+)                  :cunit  (x25 / 个
+))))
+===========================
+几乎所有的孩子都在快乐地交谈，谈的内容当然是生日聚会、生日礼物、父母祝福…
+(x25 / and
+      :op1  (x9 / 交谈-01
+            :arg0  (x4 / 孩子
+                  :extent  (x5 / 都
+)                  :mod  (x2 / 所有
+                        :degree  (x1 / 几乎
+)))            :manner  (x7 / 快乐
+))      :op2  (x33 / and
+            :domain  (x13 / 内容
+                  :arg1-of  (x11 / x9
+))            :op1  (x17 / 聚会
+                  :topic  (x16 / 生日
+))            :manner  (x14 / 当然
+)            :op2  (x20 / 礼物
+                  :mod  (x19 / 生日
+))            :op3  (x23 / 祝福-01
+                  :arg0  (x22 / 父母
+))))
+===========================
+孩子们会感受爱了，但这还不够。
+(x13 / contrast
+      :arg1  (x3 / 会-02
+            :arg0  (x4 / 感受-01
+                  :arg0  (x1_x2 / 孩子们
+)                  :arg1  (x5 / 爱
+)                  :aspect  (x6 / 了
+)))      :arg2  (x11_2 / 够-01
+            :polarity  (x11_1 / -
+)            :arg0  (x9 / 这
+)            :mod  (x10 / 还
+)))
+===========================
+我想去寻找蕴藏在他们心灵深处的、他们自己还没有意识到的极为珍贵的东西。
+(x2 / 想-02
+      :arg0  (x1 / 我
+)      :arg1  (x3 / 去-01
+            :arg0  (x1 / 我
+)            :arg1  (x4 / 寻找-01
+                  :arg0  (x1 / 我
+)                  :arg1  (x22 / 东西
+                        :arg0-of  (x20 / 珍贵-01
+                              :degree  (x19 / 极为
+))                        :arg1-of  (x5 / 蕴藏-01
+                              :arg0  (x9 / 深处
+                                    :arg0  (x8 / 心灵
+                                          :poss  (x7 / 他们
+))))                        :arg1  (x16 / 意识-01
+                              :polarity  (x15 / -
+)                              :mod  (x14 / 还
+)                              :arg0  (x13 / 自己
+                                    :arg0-of  (x41 / mean
+                                          :arg1  (x12 / x7
+))))))))
+===========================
+我接着问：“你们中间有谁知道爸爸妈妈的生日，请举手！”
+(x4 / 问-01
+      :manner  (x2 / 接
+            :aspect  (x3 / 着
+))      :arg0  (x1 / 我
+)      :arg1  (x25 / condition
+            :arg1  (x11 / 知道-01
+                  :arg0  (x10 / amr-unknown
+                        :arg0-of  (x9 / 有-03
+                              :arg0  (x8 / 中间
+                                    :arg0  (x7 / 你们
+))))                  :arg1  (x15 / 生日
+                        :poss  (x32 / and
+                              :op1  (x12 / 爸爸
+)                              :op2  (x13 / 妈妈
+))))            :arg2  (x17 / 请-02
+                  :arg1  (x10 / amr-unknown
+)                  :arg2  (x18 / 举手-01
+                        :arg0  (x10 / amr-unknown
+))                  :mode  (x19 / expressive
+))))
+===========================
+霎时，教室里安静下来。
+(x5_x6 / 安静
+      :location  (x4 / 里
+            :arg0  (x3 / 教室
+))      :manner  (x1 / 霎时
+))
+===========================
+我把问题重复了一遍，教室里依然很安静。
+(x15 / temporal
+      :arg1  (x4 / 重复-01
+            :arg0  (x1 / 我
+)            :aspect  (x5 / 了
+)            :arg1  (x3 / 问题
+)            :quant  (x6 / 1
+)            :cunit  (x7 / 遍
+))      :arg2  (x13 / 安静
+            :manner  (x11 / 依然
+)            :location  (x10 / 里
+                  :arg0  (x9 / 教室
+))            :degree  (x12 / 很
+)))
+===========================
+过了一会儿，几位女学生沉静地举起了手。
+(x15 / temporal
+      :arg1  (x1 / 过
+            :aspect  (x2 / 了
+)            :duration  (x3 / 一会儿
+))      :arg2  (x11 / 举起-01
+            :aspect  (x12 / 了
+)            :arg0  (x8 / 学生
+                  :mod  (x7 / 女
+)                  :quant  (x5 / 几
+)                  :cunit  (x6 / 位
+))            :manner  (x9 / 沉静
+)            :arg1  (x13 / 手
+                  :part-of  (x8 / 学生
+))))
+===========================
+“向爸爸妈妈祝贺生日的，请举手！”
+(x14 / say
+      :arg1  (x9 / 请-01
+            :arg2  (x10 / 举手-01
+                  :arg0  (x18 / person
+                        :arg0-of  (x5 / 祝贺-01
+                              :arg1  (x20 / and
+                                    :op1  (x3 / 爸爸
+)                                    :op2  (x4 / 妈妈
+))                              :arg2  (x6 / 生日
+))))            :arg1  (x18 / person
+)))
+===========================
+教室里寂然无声，没有人举手，没有人说话。
+(x14 / and
+      :op1  (x4 / 无声
+            :mod  (x3 / 寂然
+)            :location  (x2 / 里
+                  :arg0  (x1 / 教室
+)))      :op2  (x8 / 举手-01
+            :arg0  (x7 / 人
+                  :arg1-of  (x6_2 / 有-03
+                        :polarity  (x6_1 / -
+))))      :op3  (x12 / 说话-01
+            :arg0  (x11 / 人
+                  :arg1-of  (x10_2 / 有-03
+                        :polarity  (x10_1 / -
+)))))
+===========================
+孩子们沉默着，我和孩子们一起沉默着……
+(x14 / and
+      :op1  (x3 / 沉默-01
+            :arg0  (x1_x2 / 孩子们
+)            :aspect  (x4 / 着
+))      :op2  (x11 / 沉默-01
+            :arg0  (x7 / and
+                  :op1  (x6 / 我
+)                  :op2  (x8_x9 / x1_x2
+))            :aspect  (x12 / 着
+)))
+===========================
+沉默了足足一分钟，我悄悄地瞥了一下这些可爱的孩子们——他们的可爱恰恰在那满脸的犯了错误似的神色之中。
+(x35 / and
+      :op1  (x1 / 沉默
+            :aspect  (x2 / 了
+)            :duration  (x39 / temporal-quantity
+                  :quant  (x4 / 1
+)                  :mod  (x3 / 足足
+)                  :unit  (x5 / 分钟
+)))      :op2  (x9 / 瞥
+            :aspect  (x10 / 了
+)            :arg0  (x7 / 我
+)            :manner  (x8_1_2 / 悄悄
+)            :arg1  (x16_x17 / 孩子们
+                  :mod  (x13 / 这些
+)                  :arg0-of  (x14 / 可爱-01
+))            :duration  (x11_x12 / 一下
+))      :op3  (x23 / 在-01
+            :arg0  (x21 / 可爱
+                  :poss  (x19 / x16_x17
+))            :arg1  (x33 / 之中
+                  :arg0  (x32 / 神色
+                        :arg0-of  (x31 / resemble
+                              :arg2  (x28 / 犯-04
+                                    :aspect  (x29 / 了
+)                                    :arg1  (x30 / 错误
+)))                        :quant  (x25 / 满
+)                        :cunit  (x26 / 脸
+)                        :mod  (x24 / 那
+)))            :manner  (x22 / 恰恰
+)))
+===========================
+我的语气缓和下来，轻轻地问：“怎么才能知道爸爸妈妈的生日呢？”
+(x20 / temporal
+      :arg1  (x4_x5 / 缓和-01
+            :arg1  (x3 / 语气
+                  :poss  (x1 / 我
+)))      :arg2  (x8 / 问-01
+            :manner  (x7_1_2 / 轻轻
+)            :arg0  (x1 / 我
+)            :arg1  (x12 / 能-01
+                  :mod  (x11 / 才
+)                  :arg0  (x13 / 知道-01
+                        :arg1  (x17 / 生日
+                              :poss  (x32 / and
+                                    :op1  (x14 / 爸爸
+)                                    :op2  (x15 / 妈妈
+))))                  :manner  (x10 / amr-unknown
+)                  :mode  (x18_x19 / interrogative
+))))
+===========================
+像获得赦免一样，那一双双躲闪的目光又从四面八方慢慢地回来了。
+(x18 / 回来-01
+      :arg0  (x12 / 目光
+            :arg0-of  (x10 / 躲闪-01
+)            :quant  (x7_x8_x9 / 一双双
+)            :mod  (x6 / 那
+))      :aspect  (x19 / 了
+)     :manner  (x16 / 慢慢
+)      :mod  (x13 / 又
+)      :arg1  (x15 / 四面八方
+)      :arg2-of  (x32 / resemble
+            :arg1  (x2 / 获得-01
+                  :arg1  (x3 / 赦免
+))))
+===========================
+先是一两声，继而就是七嘴八舌了：“问爸爸！”“不，问外婆！”“自己查爸爸妈妈的身份证！”
+(x27 / temporal
+      :arg1  (x29 / thing
+            :cunit  (x4 / 声
+)            :quant  (x31 / and
+                  :op1  (x2 / 1
+)                  :op2  (x3 / 2
+)))      :arg2  (x9 / 七嘴八舌
+            :smood  (x10 / 了
+)            :mode  (x8 / judgement
+)            :mod  (x7 / 就
+)            :arg0-of  (x38 / mean
+                  :arg1  (x39 / say
+                        :arg1  (x40 / and
+                              :op1  (x12 / 问-01
+                                    :arg2  (x13 / 爸爸
+)                                    :mode  (x14 / expressive
+))                              :op2  (x44 / and
+                                    :op1  (x15 / 不
+)                                    :op2  (x17 / 问-01
+                                          :arg2  (x18 / 外婆
+))                                    :mode  (x19 / expressive
+))                              :op3  (x21 / 查-01
+                                    :arg0  (x20 / 自己
+)                                    :arg1  (x25 / 身份证
+                                          :poss  (x52 / and
+                                                :op1  (x22 / 爸爸
+)                                                :op2  (x23 / 妈妈
+)))                                    :mode  (x26 / expressive
+)))))))
+===========================
+教室里又热闹起来，只是与沉默前的热闹已经不一样了。
+(x18 / and
+      :op1  (x4_x5 / 热闹-01
+            :location  (x2 / 里
+                  :arg0  (x1 / 教室
+))            :mod  (x3 / 又
+))      :op2  (x15 / 一样-02
+            :arg1  (x12 / 热闹
+                  :time  (x10 / 前
+                        :arg0  (x9 / 沉默
+)))            :polarity  (x14 / -
+)            :aspect  (x13 / 已经
+)            :aspect  (x16 / 了
+)            :mod  (x7 / 只是
+)))
+===========================
+结束这堂课时，我给孩子们提了个建议：“为了给父母一份特别的惊喜，你们最好用一种不被父母察觉的方式了解他们的生日，而祝贺的方式可以是多种多样的，但记住一点，只要你表达了自己的爱，再稚拙的礼物他们也会觉得珍贵无比的。”
+(x11 / 提-02
+      :arg0  (x7 / 我
+)      :arg1  (x14 / 建议
+            :cunit  (x13 / 个
+)            :arg0-of  (x85 / mean
+                  :arg1  (x86 / and
+                        :op1  (x36 / 了解-02
+                              :manner  (x35 / 方式
+                                    :quant  (x28 / 1
+)                                    :cunit  (x29 / 种
+)                                    :mod  (x33 / 察觉-01
+                                          :arg0  (x32 / x18
+)                                          :polarity  (x30 / -
+))                                    :mod  (x26 / 最好
+))                              :purpose  (x17 / 给-01
+                                    :arg1  (x23 / 惊喜
+                                          :quant  (x19 / 1
+)                                          :arg0-of  (x21 / 特别-01
+)                                          :cunit  (x20 / 份
+))                                    :arg2  (x18 / 父母
+))                              :arg0  (x25 / x9_x10
+)                              :arg1  (x39 / 生日
+                                    :poss  (x37 / x18
+)))                        :op2  (x45 / 可以-01
+                              :arg0  (x47 / 多种多样
+                                    :mode  (x46_x48 / judgement
+)                                    :arg0  (x44 / 方式
+                                          :topic  (x42 / 祝贺
+))))                        :op3  (x51 / 记住-01
+                              :arg1  (x52 / 一点
+                                    :arg0-of  (x111 / mean
+                                          :arg1  (x112 / condition
+                                                :arg1  (x56 / 表达-01
+                                                      :aspect  (x57 / 了
+)                                                      :arg1  (x55 / 你
+)                                                      :arg1  (x60 / 爱
+                                                            :poss  (x58 / x55
+)))                                                :arg2  (x68 / 会-02
+                                                      :mod  (x67 / 也
+)                                                      :arg0  (x69 / 觉得-01
+                                                            :arg0  (x66 / x18
+)                                                            :arg1  (x70 / 珍贵-01
+                                                                  :degree  (x71 / 无比
+)                                                                  :mode  (x72 / judgement
+)                                                                  :arg0  (x65 / 礼物
+                                                                        :arg0-of  (x63 / 稚拙
+                                                                              :mod  (x62 / 再
+)))))))))))))      :aspect  (x12 / 了
+)      :direction  (x9_x10 / 孩子们
+)      :time  (x1 / 结束-01
+            :arg1  (x4 / 课
+                  :cunit  (x3 / 堂
+)                  :mod  (x2 / 这
+))))
+===========================
+不久，学校开家长会，那些爸爸妈妈不约而同地说道：“我那小家伙真懂事了呢！”“他祝我生日快乐！”“他送了我礼物！’“他给我写信叫我不要烦恼！”“他会体贴人了！”啊，我真快活！这一片沉默给了我多大的享受啊！
+(x70 / and
+      :op1  (x12_x13 / 说-01
+            :time  (x4 / 开-03
+                  :arg1  (x5 / 家长会
+)                  :arg0  (x3 / 学校
+)                  :time  (x1 / 不久
+))            :manner  (x10 / 不约而同
+)            :arg0  (x78 / and
+                  :mod  (x7 / 那些
+)                  :op1  (x8 / 爸爸
+)                  :op2  (x9 / 妈妈
+))            :arg1  (x82 / and
+                  :op1  (x19 / 懂事-01
+                        :degree  (x18 / 真
+)                        :aspect  (x20 / 了
+)                        :arg0  (x17 / 小家伙
+                              :mod  (x16 / 那
+)                              :poss  (x15 / 我
+))                        :mode  (x21_x22 / expressive
+))                  :op2  (x24 / 祝-01
+                        :arg0  (x23 / 他
+)                        :arg1  (x25 / 我
+)                        :arg2  (x27 / 快乐
+                              :mod  (x26 / 生日
+))                        :mode  (x28 / expressive
+))                  :op3  (x30 / 送-01
+                        :aspect  (x31 / 了
+)                        :arg0  (x29 / 他
+)                        :arg1  (x33 / 礼物
+)                        :arg2  (x32 / 我
+)                        :mode  (x34 / expressive
+))                  :op4  (x38 / 写-01
+                        :arg0  (x35 / 他
+)                        :arg1  (x39 / 信
+)                        :direction  (x37 / 我
+)                        :purpose  (x40 / 叫-04
+                              :arg1  (x41 / x37
+)                              :arg0  (x35 / 他
+)                              :arg2  (x42_2 / 要-03
+                                    :polarity  (x42_1 / -
+)                                    :arg0  (x43 / 烦恼
+)))                        :mode  (x44 / expressive
+))                  :op5  (x46 / 会-02
+                        :arg0  (x47 / 体贴-01
+                              :arg0  (x45 / 他
+)                              :arg1  (x48 / 人
+)))))      :op2  (x55 / 快活-01
+            :mode  (x51_x56 / expressive
+)            :arg0  (x53 / 我
+)            :degree  (x54 / 真
+))      :op3  (x61 / 给-01
+            :aspect  (x62 / 了
+)            :arg0  (x60 / 沉默
+                  :mod  (x57 / 这
+)                  :quant  (x58 / 1
+)                  :cunit  (x59 / 片
+))            :arg1  (x67 / 享受
+                  :arg0-of  (x65 / 大-01
+                        :degree  (x64 / 多
+)))            :arg2  (x63 / 我
+)            :mode  (x68_x69 / expressive
+)))
+===========================

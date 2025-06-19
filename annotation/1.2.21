@@ -1,0 +1,292 @@
+古时候有个大官，叫曹操。
+(x10 / and
+      :op1  (x2 / 有-06
+            :time  (x1 / 古时候
+)            :arg1  (x5 / 官
+                  :arg0-of  (x4 / 大-01
+)                  :cunit  (x3 / 个
+)))      :op2  (x7 / 叫-01
+            :arg0  (x5 / 官
+)            :arg1  (x19 / person
+                  :name  ( x8/曹操 
+))))
+===========================
+别人送他一头大象，他很高兴，带着儿子和官员们一同去看。
+(x22 / causation
+      :arg1  (x24 / causation
+            :arg1  (x2 / 送-01
+                  :arg0  (x1 / 别人
+)                  :arg1  (x6 / 大象
+                        :quant  (x4 / 1
+)                        :cunit  (x5 / 头
+))                  :arg2  (x3 / 他
+))            :arg2  (x10 / 高兴-01
+                  :arg0  (x8 / x3
+)                  :degree  (x9 / 很
+)))      :arg2  (x19 / 去-02
+            :arg0  (x20 / 看-02
+                  :manner  (x12 / 带-02
+                        :aspect  (x13 / 着
+)                        :arg0  (x8 / x3
+)                        :arg1  (x15 / and
+                              :op1  (x14 / 儿子
+)                              :op2  (x16_x17 / 官员们
+))))            :mod  (x18 / 一同
+)))
+===========================
+大象又高又大，身子像一堵墙，腿像四根柱子。
+(x19 / and
+      :op1  (x21 / and
+            :op1  (x3 / 高-01
+                  :arg0  (x1 / 大象
+))            :op2  (x5 / 大-01
+                  :arg0  (x1 / 大象
+)))      :op2  (x8 / 像-01
+            :arg0  (x7 / 身子
+                  :part-of  (x1 / 大象
+))            :arg1  (x11 / 墙
+                  :quant  (x9 / 1
+)                  :cunit  (x10 / 堵
+)))      :op3  (x14 / 像-01
+            :arg0  (x13 / 腿
+                  :part-of  (x1 / 大象
+))            :arg1  (x17 / 柱子
+                  :quant  (x15 / 4
+)                  :cunit  (x16 / 根
+))))
+===========================
+官员们一边看一边议论:“象这么大，到底有多重呢?”
+(x18 / and
+      :op1  (x4 / 看-02
+            :arg0  (x1_x2 / 官员们
+))      :op2  (x6 / 议论-01
+            :arg0  (x1_x2 / 官员们
+)            :arg1  (x23 / and
+                  :op1  (x10 / 大-01
+                        :degree  (x9 / 这么
+)                        :arg0  (x8 / 象
+))                  :op2  (x13 / 有-02
+                        :arg0  (x8 / 象
+)                        :arg1  (x14_x15 / amr-unknown
+)                        :mod  (x12 / 到底
+)                        :mod  (x16_x17 / interrogative
+)))))
+===========================
+曹操问:“谁有办法把这头大象称一称?”
+(x2 / 问-01
+      :arg0  (x17 / person
+            :name  ( x1/曹操 
+))      :arg1  (x5 / 有-06
+            :arg0  (x4 / amr-unknown
+)            :arg1  (x6 / 办法
+                  :arg0-of  (x22 / mean
+                        :arg1  (x11_x12_x13 / 称
+                              :arg1  (x10 / 大象
+                                    :mod  (x8 / 这
+)                                    :cunit  (x9 / 头
+)))))            :mode  (x14 / interrogative
+)))
+===========================
+有的说:“得造一杆大秤，砍一棵大树做秤杆。”
+(x2 / 说-01
+      :arg0  (x20 / person
+            :mod  (x1 / 有的
+))      :arg1  (x22 / and
+            :op1  (x4 / 得
+                  :arg0  (x5 / 造-01
+                        :arg1  (x9 / 秤
+                              :arg0-of  (x8 / 大-01
+)                              :cunit  (x7 / 杆
+)                              :quant  (x6 / 1
+))))            :op2  (x11 / 砍-01
+                  :arg1  (x14 / 大树
+                        :quant  (x12 / 1
+)                        :cunit  (x13 / 棵
+))                  :purpose  (x15 / 做-02
+                        :arg0  (x14 / 大树
+)                        :arg1  (x16 / 秤杆
+)))))
+===========================
+有的说:“有了大秤也不成啊，谁有那么大的力气提得起这杆大秤呢?”
+(x2 / 说-01
+      :arg0  (x29 / person
+            :mod  (x1 / 有的
+))      :arg1  (x31 / causation
+            :arg2  (x33 / concession
+                  :arg1  (x4 / 有-01
+                        :aspect  (x5 / 了-01
+)                        :arg1  (x7 / 秤
+                              :arg0-of  (x6 / 大-01
+)))                  :arg2  (x9_2 / 成
+                        :polarity  (x9_1 / -
+))                  :mode  (x10 / expressive
+))            :arg1  (x19 / possible
+                  :arg0  (x18 / 提-01
+                        :cause-of  (x20 / 起-05
+                              :arg0  (x24 / 秤
+                                    :arg0-of  (x23 / 大-01
+)                                    :mod  (x21 / 这
+)                                    :cunit  (x22 / 杆
+)))                        :arg0  (x12 / amr-unknown
+                              :arg0-of  (x13 / 有-06
+                                    :arg1  (x17 / 力气
+                                          :arg0-of  (x15 / 大-01
+                                                :degree  (x14 / 那么
+)))))                        :arg1  (x24 / 秤
+)                        :mode  (x25_x26 / interrogative
+)))))
+===========================
+也有的说:“办法倒有一个，就是把大象宰了，割成一块一块再称。”
+(x26 / and
+      :op2  (x3 / 说-01
+            :arg0  (x29 / person
+                  :mod  (x2 / 有的
+))            :arg1  (x7 / 有
+                  :mod  (x6 / 倒
+)                  :arg1  (x5 / 办法
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 个
+)                        :arg0-of  (x36 / mean
+                              :arg1  (x37 / temporal
+                                    :arg1  (x14 / 宰-01
+                                          :aspect  (x15 / 了
+)                                          :arg1  (x13 / 大象
+))                                    :arg2  (x17 / 割-01
+                                          :arg1  (x13 / 大象
+)                                          :arg2  (x45 / thing
+                                                :mod  (x19_x20_x21_x22 / 一块一块
+)))                                    :arg3  (x24 / 称
+                                          :arg1  (x45 / thing
+))))))))
+===========================
+曹操听了直摇头。
+(x7 / temporal
+      :arg1  (x2 / 听-01
+            :arg1  (x10 / person
+                  :name  ( x1/曹操 
+))            :aspect  (x3 / 了
+))      :arg2  (x5 / 摇头-01
+            :time  (x4 / 直
+)            :arg0  (x10 / person
+)))
+===========================
+曹操的儿子曹冲才7岁，他站出来，说:“我有个办法。
+(x20 / contrast
+      :arg1  (x22 / person
+            :name  ( x4/曹冲 
+                  :arg0-of  (x27 / mean
+                        :arg1  (x3 / 儿子
+                              :poss  (x1 / 曹操
+))))            :age  (x24 / temporal-quantity
+                  :quant  (x6 / 7
+)                  :cunit  (x7 / 岁
+)))      :arg2  (x30 / temporal
+            :arg1  (x10 / 站-01
+                  :direction  (x11 / 出来-01
+                        :arg0  (x9 / x22
+))                  :arg0  (x9 / x22
+))            :arg2  (x13 / 说-01
+                  :arg0  (x22 / person
+)                  :arg1  (x16 / 有-06
+                        :arg1  (x18 / 办法
+                              :cunit  (x17 / 个
+))                        :arg0  (x15 / x22
+)))))
+===========================
+把大象赶到一艘大船上，看船身下沉多少，就沿着水面，在船舷上画一条线。
+(x26 / temporal
+      :arg1  (x3_1 / 赶-02
+            :arg1  (x2 / 大象
+)            :arg2  (x3_2 / 到-01
+                  :arg0  (x2 / 大象
+)                  :arg1  (x7 / 上
+                        :arg0  (x6 / 大船
+                              :quant  (x4 / 1
+)                              :cunit  (x5 / 艘
+)))))      :arg2  (x9 / 看-02
+            :arg1  (x11 / 下沉-01
+                  :arg0  (x10 / 船身
+                        :part-of  (x6 / 大船
+))                  :degree  (x12 / 多少
+)))      :arg3  (x21 / 画-01
+            :manner  (x15_1 / 沿-01
+                  :arg0  (x16 / 水面
+)                  :aspect  (x15_2 / 着
+))            :location  (x20 / 上
+                  :arg0  (x19 / 船舷
+                        :part-of  (x6 / 大船
+)))            :arg1  (x24 / 线
+                  :quant  (x22 / 1
+)                  :cunit  (x23 / 条
+))))
+===========================
+再把大象赶上岸，往船上装石头，装到船下沉到画线的地方为止。
+(x23 / temporal
+      :arg2  (x4_1 / 赶-02
+            :arg1  (x3 / 大象
+)            :arg2  (x4_2 / 上-01
+                  :arg0  (x3 / 大象
+)                  :arg1  (x5 / 岸
+)))      :arg3  (x9 / 装-01
+            :arg1  (x10 / 石头
+)            :arg2  (x8 / 船上
+))      :arg4  (x21 / 为止-01
+            :arg1  (x12 / 装-01
+                  :arg1  (x10 / 石头
+))            :arg2  (x15 / 下沉-01
+                  :arg0  (x14 / 船
+)                  :arg1  (x20 / 地方
+                        :location-of  (x17 / 画-01
+                              :arg1  (x18 / 线
+))))))
+===========================
+然后，称一称船上的石头。
+(x10 / temporal
+      :arg2  (x3_x4_x5 / 称
+            :arg1  (x8 / 石头
+                  :location  (x6 / 船上
+))))
+===========================
+石头有多重，大象就有多重。”
+(x12 / say
+      :arg1  (x15 / condition
+            :arg1  (x2 / 有-02
+                  :arg0  (x1 / 石头
+)                  :arg1  (x3_x4 / 多重
+))            :arg2  (x8 / 有-02
+                  :arg0  (x6 / 大象
+)                  :arg1  (x9_x10 / 多重
+))))
+===========================
+曹操微笑着点点头。
+(x4 / 点头-01
+      :arg0  (x8 / person
+            :name  ( x1/曹操 
+))      :manner  (x2 / 微笑-01
+            :aspect  (x3 / 着
+)            :arg0  (x8 / person
+)))
+===========================
+他叫人照曹冲说的办法去做，果然称出了大象的重量。
+(x20 / temporal
+      :arg1  (x2 / 叫-04
+            :arg0  (x1 / 他
+)            :arg1  (x3 / 人
+)            :arg2  (x9 / 去-02
+                  :arg0  (x10 / 做-01
+                        :arg0  (x3 / 人
+))                  :manner  (x4 / 照-03
+                        :arg0  (x3 / 人
+)                        :arg1  (x8 / 办法
+                              :arg1-of  (x6 / 说-01
+                                    :arg0-of  (x30 / person
+                                          :name  ( x5/曹冲 
+)))))))      :arg2  (x13 / 称
+            :cause-of  (x14 / 出-07
+                  :aspect  (x15 / 了
+)                  :arg1  (x18 / 重量
+                        :poss  (x16 / 大象
+)))            :mod  (x12 / 果然
+)            :arg1  (x16 / 大象
+)))
+===========================

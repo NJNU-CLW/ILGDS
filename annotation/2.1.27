@@ -1,0 +1,268 @@
+清晨，我来到海边散步。
+(x10 / temporal
+      :arg1  (x4 / 来到-01
+            :arg0  (x3 / 我
+)            :arg1  (x5 / 海边
+))      :arg2  (x6 / 散步-01
+            :arg0  (x3 / 我
+))      :time  (x1 / 清晨
+))
+===========================
+走着走着，我发现在沙滩的浅水洼里，有许多小鱼。
+(x19 / temporal
+      :arg1  (x1_x3 / 走-01
+            :aspect  (x2_x4 / 着
+)            :arg0  (x6 / 我
+))      :arg2  (x7 / 发现-01
+            :arg0  (x6 / 我
+)            :arg1  (x14 / 有-03
+                  :arg0  (x11 / 浅水洼
+                        :location  (x9 / 沙滩
+))                  :arg1  (x17 / 鱼
+                        :arg0-of  (x16 / 小-01
+)                        :quant  (x15 / 许多
+)))))
+===========================
+它们被困在水洼里，回不了大海了。
+(x15 / causation
+      :arg1  (x3 / 困-01
+            :arg1  (x1 / 它们
+)            :arg2  (x6 / 洼
+                  :mod  (x5 / 水
+)))      :arg2  (x11 / possible
+            :arg0  (x9 / 回-01
+                  :arg1  (x12 / 大海
+)                  :arg0  (x1 / 它们
+))            :polarity  (x10 / -
+)            :smood  (x13 / 了
+)))
+===========================
+被困的小鱼，也许有几百条，甚至有几千条。
+(x17 / and
+      :op1  (x7 / 也许
+            :arg0  (x8 / 有-02
+                  :arg0  (x5 / 鱼
+                        :arg1-of  (x2 / 困-01
+))                  :arg1  (x25 / animal
+                        :quant  (x9_1 / 几
+                              :op1  (x9_2 / 100
+))                        :cunit  (x10 / 条
+))))      :op2  (x12 / 甚至
+            :arg0  (x13 / 有-02
+                  :arg0  (x5 / 鱼
+)                  :arg1  (x29 / animal
+                        :quant  (x14_1 / 几
+                              :op1  (x14_2 / 1000
+))                        :cunit  (x15 / 条
+)))))
+===========================
+用不了多久，浅水洼里的水就会被沙粒吸干，被太阳蒸干。
+(x22 / temporal
+      :arg1  (x1 / 用-01
+            :aspect  (x3 / 了-01
+)            :polarity  (x2 / -
+)            :arg1  (x4 / 多久
+))      :arg2  (x11 / 会-02
+            :arg0  (x29 / and
+                  :op1  (x14 / 吸-01
+                        :cause-of  (x15 / 干-02
+                              :arg0  (x9 / 水
+                                    :location  (x6 / 浅水洼
+)))                        :arg0  (x13 / 沙粒
+)                        :arg1  (x9 / 水
+))                  :op2  (x19 / 蒸-01
+                        :cause-of  (x20 / 干-02
+                              :arg0  (x9 / 水
+))                        :arg0  (x18 / 太阳
+)                        :arg1  (x9 / 水
+)))))
+===========================
+这些小鱼都会干死。
+(x5 / 会-02
+      :arg0  (x7 / 死-01
+            :cause  (x6 / 干-02
+                  :arg0  (x3 / 鱼
+                        :arg0-of  (x2 / 小-01
+)                        :mod  (x1 / 这些
+)                        :extent  (x4 / 都
+)))            :arg0  (x3 / 鱼
+)))
+===========================
+我继续朝前走着，忽然看见前面有一个小男孩。
+(x16 / temporal
+      :arg1  (x2 / 继续-01
+            :arg0  (x1 / 我
+)            :arg1  (x5 / 走-02
+                  :arg0  (x1 / 我
+)                  :direction  (x4 / 前
+)                  :aspect  (x6 / 着
+)))      :arg2  (x9 / 看见-01
+            :manner  (x8 / 忽然
+)            :arg0  (x1 / 我
+)            :arg1  (x11 / 有-03
+                  :arg0  (x10 / 前面
+)                  :arg1  (x14 / 男孩
+                        :arg0-of  (x13 / 小-01
+)                        :quant  (x12_1 / 1
+)                        :cunit  (x12_2 / 个
+)))))
+===========================
+他走得很慢，不停地在每个水洼前弯下腰去，捡起里面的小鱼，用力地把它们扔回大海。
+(x35 / and
+      :op1  (x5 / 慢-01
+            :arg0  (x2 / 走-01
+                  :arg0  (x1 / 他
+))            :degree  (x4 / 很
+))      :op2  (x41 / temporal
+            :arg1  (x14 / 弯-02
+                  :arg0  (x1 / 他
+)                  :arg1  (x16 / 腰
+                        :part-of  (x1 / 他
+))                  :location  (x13 / 前
+                        :arg0  (x12 / 洼
+                              :mod  (x11 / 水
+)                              :mod  (x10 / 每个
+)))                  :manner  (x7 / 不停
+))            :arg2  (x19_x20 / 捡起-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x24 / 鱼
+                        :arg0-of  (x23 / 小-01
+)                        :location  (x21 / 里面
+                              :arg0  (x12 / 洼
+))))            :arg3  (x30 / 扔-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x29 / x24
+)                  :arg2  (x32 / 大海
+)                  :manner  (x26 / 用力
+))))
+===========================
+看了一会儿，我忍不住走过去对小男孩说：“水洼里有成百上千条小鱼，你是捡不完的。”
+(x29 / temporal
+      :arg1  (x1 / 看-02
+            :duration  (x3 / 一会儿
+)            :aspect  (x2 / 了
+)            :arg0  (x5 / 我
+))      :arg3  (x12 / 说-01
+            :arg0  (x5 / 我
+)            :arg1  (x39 / causation
+                  :arg1  (x16 / 有-03
+                        :arg0  (x14 / 水洼
+)                        :arg1  (x20 / 鱼
+                              :cunit  (x18 / 条
+)                              :arg0-of  (x19 / 小-01
+)                              :quant  (x17 / 成百上千
+)))                  :arg2  (x48 / possible
+                        :arg0  (x26 / 完-01
+                              :arg0  (x24 / 捡-01
+                                    :arg0  (x22 / x11
+)                                    :arg1  (x20 / 鱼
+)))                        :polarity  (x25 / -
+)                        :mode  (x23_x27 / judgement
+)))            :arg3  (x11 / 男孩
+                  :arg0-of  (x10 / 小-01
+)))      :arg2  (x54 / possible
+            :arg0  (x6_1_3 / 忍住-01
+                  :arg1  (x7 / 走-01
+                        :arg0  (x5 / 我
+)                        :direction  (x8 / 过去-01
+                              :arg0  (x5 / 我
+))))            :polarity  (x6_2 / -
+)            :arg0  (x5 / 我
+)))
+===========================
+“我知道。”小男孩头也不抬地回答。
+(x12 / 回答-01
+      :arg0  (x6 / 男孩
+            :arg0-of  (x5 / 小-01
+))      :manner  (x10 / 抬-01
+            :arg0  (x6 / 男孩
+)            :arg1  (x7 / 头
+                  :part-of  (x6 / 男孩
+))            :mod  (x8 / 也
+))      :arg2  (x3 / 知道-01
+            :arg0  (x2 / x6
+)))
+===========================
+“那你为什么还在捡？谁在乎呢？”
+(x15 / say
+      :arg1  (x17 / and
+            :op1  (x20 / causation
+                  :arg2  (x7 / 捡-01
+                        :mod  (x5 / 还
+)                        :aspect  (x6 / 在
+)                        :mode  (x8 / interrogative
+)                        :arg0  (x3 / 你
+)                        :cause  (x4 / amr-unknown
+)))            :op2  (x10 / 在乎-01
+                  :arg0  (x9 / amr-unknown
+)                  :mode  (x11_x12 / interrogative
+))))
+===========================
+“这条小鱼在乎！”
+(x8 / say
+      :arg1  (x6 / 在乎-01
+            :arg0  (x5 / 鱼
+                  :arg0-of  (x4 / 小-01
+                        :cunit  (x3 / 条
+))                  :mod  (x2 / 这
+))            :mode  (x7 / expressive
+)))
+===========================
+男孩一边回答，一边捡起一条鱼扔进大海。
+(x15 / and
+      :op1  (x3 / 回答-01
+            :arg0  (x1 / 男孩
+))      :op2  (x18 / temporal
+            :arg1  (x6_x7 / 捡起-01
+                  :arg0  (x1 / 男孩
+)                  :arg1  (x10 / 鱼
+                        :quant  (x8 / 1
+)                        :cunit  (x9 / 条
+)))            :arg2  (x11_x12 / 扔进-01
+                  :arg0  (x1 / 男孩
+)                  :arg1  (x10 / 鱼
+)                  :arg2  (x13 / 大海
+))))
+===========================
+他不停地捡鱼扔鱼，不停地叨念着：“这条在乎，这条也在乎！还有这一条、这一条、这一条……”
+(x36 / and
+      :op1  (x38 / and
+            :op1  (x4 / 捡-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x5 / 鱼
+))            :op2  (x6 / 扔-01
+                  :arg0  (x1 / 他
+)                  :arg1  (x7 / x5
+))            :manner  (x2 / 不停
+))      :op2  (x11 / 叨念-01
+            :aspect  (x12 / 着
+)            :manner  (x9 / 不停
+)            :arg0  (x1 / 他
+)            :arg1  (x48 / and
+                  :op1  (x16 / 在乎-01
+                        :arg0  (x50 / animal
+                              :mod  (x14 / 这
+)                              :cunit  (x15 / 条
+)))                  :op2  (x21 / 在乎-01
+                        :arg0  (x53 / animal
+                              :cunit  (x19 / 条
+)                              :mod  (x18 / 这
+))                        :mod  (x20 / 也
+)                        :mode  (x22 / expressive
+))                  :op3  (x23_2 / 有-03
+                        :mod  (x23_1 / 还
+)                        :arg1  (x61 / and
+                              :op1  (x62 / animal
+                                    :mod  (x24 / 这
+)                                    :quant  (x25 / 1
+)                                    :cunit  (x26 / 条
+))                              :op2  (x63 / animal
+                                    :mod  (x28 / 这
+)                                    :quant  (x29 / 1
+)                                    :cunit  (x30 / 条
+))                              :op3  (x64 / animal
+                                    :mod  (x32 / 这
+)                                    :quant  (x33 / 1
+)                                    :cunit  (x34 / 条
+)))))))
+===========================

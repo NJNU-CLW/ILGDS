@@ -1,0 +1,356 @@
+北宋时候，有位画家叫张择端。
+(x7 / 叫-01
+      :arg0  (x6 / 画家
+            :arg1-of  (x4 / 有-03
+))      :arg1  (x8 / 张择端
+)      :cunit  (x5 / 位
+)      :time  (x16 / dynasty
+            :name  ( x1/北宋 
+)))
+===========================
+他画了一幅名扬中外的画——《清明上河图》。
+(x2 / 画-01
+      :arg0  (x1 / 他
+)      :aspect  (x3 / 了
+)      :arg1  (x8 / 画
+            :quant  (x4 / 1
+)            :cunit  (x5 / 幅
+)            :name  ( x10/清明上河图 
+)            :mod  (x6_2 / 扬-01
+                  :arg1  (x6_1 / 名
+                        :poss  (x8 / 画
+))                  :location  (x6_3_4 / 中外
+))))
+===========================
+这幅画长528厘米，高24.8厘米，画的是北宋都城汴梁热闹的场面。
+(x22 / and
+      :op1  (x4 / 长-02
+            :arg1  (x25 / distance-quantity
+                  :quant  (x5 / 528
+)                  :unit  (x6 / 厘米
+))            :arg0  (x3 / 画
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 幅
+)))      :op2  (x8 / 高-02
+            :arg1  (x27 / distance-quantity
+                  :quant  (x9 / 24.8
+)                  :unit  (x10 / 厘米
+))            :arg0  (x3 / 画
+))      :op3  (x20 / 场面
+            :domain  (x36 / thing
+                  :arg1-of  (x12 / 画-01
+                        :location  (x3 / 画
+)))            :arg0-of  (x18 / 热闹-01
+)            :location  (x16 / 都城
+                  :time  (x38 / dynasty
+                        :name  ( x15/北宋 
+))                  :name  ( x17/汴梁 
+))))
+===========================
+这幅画已经有八百多年的历史了，现在还完整地保存在北京故宫博物院里。
+(x24 / and
+      :op1  (x5 / 有-01
+            :arg0  (x3 / 画
+                  :mod  (x1 / 这
+)                  :cunit  (x2 / 幅
+))            :aspect  (x4 / 已经
+)            :arg1  (x10 / 历史
+                  :duration  (x30 / temporal-quantity
+                        :quant  (x7 / 多
+                              :op1  (x6 / 800
+))                        :unit  (x8 / 年
+)))            :smood  (x11 / 了
+))      :op2  (x17 / 保存-01
+            :time  (x13 / 现在
+)            :mod  (x14 / 还
+)            :manner  (x15 / 完整-01
+                  :arg0  (x3 / 画
+))            :arg1  (x3 / 画
+)            :location  (x41 / museum
+                  :name  ( x21/博物院 
+)                  :location  (x43 / city
+                        :name  ( x19/北京 
+)))))
+===========================
+张择端画这幅画的时候，下了很大功夫。
+(x9 / 下
+      :arg0  (x17 / person
+            :name  ( x1/张择端 
+))      :time  (x2 / 画-01
+            :arg0  (x17 / person
+)            :arg1  (x5 / 画
+                  :mod  (x3 / 这
+)                  :cunit  (x4 / 幅
+)))      :aspect  (x10 / 了
+)      :arg1  (x13 / 功夫
+            :arg0-of  (x12 / 大-01
+                  :degree  (x11 / 很
+))))
+===========================
+光是画上的人物，就有五百多个：有从乡下来的农民，有撑船的船工，有做各种买卖的生意人，有留着长胡子的道士，有走江湖的医生，有摆小摊的摊贩，有官吏和读书人……
+(x9 / 有-02
+      :arg0  (x6 / 人物
+            :mod  (x1 / 光
+)            :location  (x3 / 画
+))      :mod  (x8 / 就
+)      :arg1  (x64 / person
+            :quant  (x11 / 多
+                  :op1  (x10 / 500
+))            :cunit  (x12 / 个
+)            :example  (x69 / and
+                  :op1  (x19 / 农民
+                        :arg0-of  (x17 / 来-01
+                              :source  (x16 / 乡下
+)))                  :op3  (x32 / 生意人
+                        :arg0-of  (x28 / 做-01
+))                  :op2  (x25 / 船工
+                        :arg0-of  (x22 / 撑
+                              :arg1  (x23 / 船
+)))                  :op4  (x40 / 道士
+                        :arg0-of  (x35 / 留-06
+                              :aspect  (x36 / 着
+)                              :arg1  (x38 / 胡子
+                                    :arg0-of  (x37 / 长
+))))                  :op5  (x45 / 医生
+                        :arg0-of  (x43_1 / 走-01
+                              :arg1  (x43_2_3 / 江湖
+)))                  :op6  (x51 / 摊贩
+                        :arg0-of  (x48 / 摆-01
+                              :arg1  (x49 / 小摊
+)))                  :op7  (x55 / and
+                        :op1  (x54 / 官吏
+)                        :op2  (x56 / 读书人
+)))))
+===========================
+三百六十行，哪一行的人都画在上面了。
+(x9 / 画-01
+      :arg1  (x7 / 人
+            :poss  (x5 / 一行
+                  :arg1-of  (x18 / include-91
+                        :arg2  (x2 / 行
+                              :quant  (x1 / 360
+)))                  :mod  (x4 / amr-unknown
+))            :extent  (x8 / 都
+))      :location  (x11 / 上面
+)      :smood  (x12 / 了
+))
+===========================
+画上的街市可热闹了。
+(x6 / 热闹-01
+      :smood  (x7 / 了
+)      :degree  (x5 / 可
+)      :arg0  (x4 / 街市
+            :location  (x1 / 画
+)))
+===========================
+街上有挂着各种招牌的店铺、作坊、酒楼、茶馆……
+(x2 / 有-03
+      :arg0  (x1 / 街上
+)      :arg1  (x19 / and
+            :op1  (x8 / 店铺
+                  :location-of  (x3 / 挂-01
+                        :aspect  (x4 / 着
+)                        :arg1  (x6 / 招牌
+                              :mod  (x5 / 各种
+))))            :op2  (x10 / 作坊
+                  :location-of  (x3 / 挂-01
+))            :op3  (x12 / 酒楼
+                  :location-of  (x3 / 挂-01
+))            :op4  (x14 / 茶馆
+                  :location  (x3 / 挂-01
+))))
+===========================
+走在街上的，是来来往往、形态各异的人：有的骑着马，有的挑着担，有的赶着毛驴，有的推着独轮车，有的悠闲地在街上溜达。
+(x11 / 人
+      :arg0-of  (x9 / 形态各异
+)      :domain  (x43 / person
+            :arg0-of  (x1 / 走-01
+                  :arg1  (x3 / 街上
+)))      :arg0-of  (x7 / 来来往往-01
+)      :example  (x47 / and
+            :op1  (x48 / person
+                  :mod  (x13 / 有的
+)                  :arg0-of  (x14 / 骑-01
+                        :aspect  (x15 / 着
+)                        :arg1  (x16 / 马
+)))            :op2  (x49 / person
+                  :arg0-of  (x19 / 挑-01
+                        :aspect  (x20 / 着
+))                  :mod  (x18 / 有的
+))            :op3  (x52 / person
+                  :arg0-of  (x24 / 赶-02
+                        :aspect  (x25 / 着
+)                        :arg1  (x26 / 毛驴
+))                  :mod  (x23 / 有的
+))            :op4  (x53 / person
+                  :mod  (x28 / 有的
+)                  :arg0-of  (x29 / 推-01
+                        :aspect  (x30 / 着
+)                        :arg1  (x31 / 独轮车
+)))            :op5  (x64 / person
+                  :mod  (x33 / 有的
+)                  :arg0-of  (x38 / 溜达-01
+                        :manner  (x34 / 悠闲-01
+                              :arg0  (x64 / person
+))                        :arg1  (x37 / 街上
+)))))
+===========================
+画面上的这些人，有的不到一寸，有的甚至只有黄豆那么大。
+===========================
+别看画上的人小，每个人在干什么，都能看得清清楚楚。
+(x20 / contrast
+      :arg1  (x7 / 小-01
+            :arg0  (x6 / 人
+                  :location  (x3 / 画
+)))      :arg2  (x15 / 能-01
+            :arg0  (x16 / 看-02
+                  :cause-of  (x18 / 清清楚楚-01
+                        :arg0  (x12_1 / 干-01
+                              :arg0  (x10 / 人
+                                    :mod  (x9_1 / 每
+)                                    :cunit  (x9_2 / 个
+))                              :aspect  (x11 / 在
+)                              :arg1  (x12_2_3 / amr-unknown
+                                    :extent  (x14 / 都
+))))                  :arg1  (x12_1 / 干-01
+))))
+===========================
+最有意思的是桥北头的情景：一个人骑着马，正往桥下走。
+(x8 / 情景
+      :domain  (x23 / thing
+            :arg0-of  (x2 / 有意思-01
+                  :degree  (x1 / 最
+)))      :location  (x6 / 北头
+            :arg0  (x5 / 桥
+))      :arg0-of  (x28 / mean
+            :arg1  (x29 / and
+                  :op1  (x12 / 骑-01
+                        :arg0  (x11 / 人
+                              :quant  (x10_1 / 1
+)                              :cunit  (x10_2 / 个
+))                        :aspect  (x13 / 着
+)                        :arg1  (x14 / 马
+))                  :op2  (x19 / 走-01
+                        :aspect  (x16 / 正
+)                        :direction  (x18 / 桥下
+)                        :arg0  (x11 / 人
+)))))
+===========================
+因为人太多，眼看就要碰上对面来的一乘轿子。
+(x16 / causation
+      :arg1  (x4 / 多-03
+            :arg0  (x2 / 人
+)            :degree  (x3 / 太
+))      :arg2  (x6 / 眼看-01
+            :arg1  (x7_2 / 要-03
+                  :arg0  (x8 / 碰上-01
+                        :arg1  (x14 / 轿子
+                              :quant  (x12 / 1
+)                              :cunit  (x13 / 乘
+)                              :arg0-of  (x10 / 来-01
+                                    :source  (x9 / 对面
+))))                  :mod  (x7_1 / 就
+))))
+===========================
+就在这个紧急时刻，那个骑马人一下子拽住了马笼头，这才没碰上那乘轿子。
+(x25 / causation
+      :arg1  (x10_x11 / 拽-01
+            :aspect  (x12 / 了
+)            :arg0  (x8 / 骑马人
+                  :mod  (x7_1 / 那
+)                  :cunit  (x7_2 / 个
+))            :manner  (x9 / 一下子
+)            :arg1  (x13_x14_15 / 马笼头
+)            :time  (x5 / 时刻
+                  :mod  (x4 / 紧急
+)                  :mod  (x3_1 / 这
+)                  :cunit  (x3_2 / 个
+)))      :arg2  (x20 / 碰上-01
+            :polarity  (x19 / -
+)            :cause  (x17 / x10_x11
+)            :arg1  (x23 / 轿子
+                  :mod  (x21 / 那
+)                  :cunit  (x22 / 乘
+))))
+===========================
+不过，这么一来，倒把马右边的两头小毛驴吓得又踢又跳。
+(x23 / contrast
+      :arg2  (x16 / 吓-02
+            :arg1  (x15 / 毛驴
+                  :quant  (x12 / 2
+)                  :arg0-of  (x14 / 小-01
+)                  :cunit  (x13 / 头
+)                  :location  (x10 / 右边
+                        :arg0  (x9 / 马
+)))            :arg2  (x33 / and
+                  :op1  (x19 / 踢-01
+                        :arg0  (x15 / 毛驴
+))                  :op2  (x21 / 跳-01
+                        :arg0  (x15 / 毛驴
+)))            :mod  (x7 / 倒
+)            :cause  (x5 / 来
+                  :mod  (x3 / 这么
+)                  :quant  (x4 / 1
+))))
+===========================
+在桥栏杆边欣赏风景的人，被小毛驴惊扰的了，连忙回过头来赶小毛驴……
+(x24 / causation
+      :arg1  (x12 / 惊扰-01
+            :arg0  (x11 / 毛驴
+                  :arg0-of  (x10 / 小-01
+))            :aspect  (x14 / 了
+)            :smood  (x13 / 的
+)            :arg1  (x7 / 人
+                  :location  (x2 / 桥栏杆
+                        :arg0  (x2 / 桥栏杆
+))                  :arg0-of  (x4 / 欣赏-01
+                        :arg1  (x5 / 风景
+))))      :arg2  (x35 / temporal
+            :arg2  (x20 / 赶-02
+                  :arg0  (x7 / 人
+)                  :arg1  (x22 / x11
+                        :arg0-of  (x21 / 小-01
+)))            :arg1  (x17 / 回-02
+                  :arg1  (x18 / 头
+                        :part-of  (x7 / 人
+))                  :arg0  (x7 / 人
+)                  :manner  (x16 / 连忙
+))))
+===========================
+你看，张择端画的画，是多么传神啊！
+(x14 / and
+      :op1  (x2 / 看-02
+            :arg0  (x1 / 你
+))      :op2  (x11 / 传神-01
+            :arg0  (x7 / 画
+                  :arg1-of  (x5 / 画-01
+                        :arg0  (x21 / person
+)))            :mode  (x12_x13 / expressive
+)            :degree  (x10 / 多么
+)))
+===========================
+《清明上河图》使我们看到了八百年以前的古都风貌，看到了当时普通百姓的生活情景。
+(x4 / 使-01
+      :arg0  (x25 / picture
+            :name  ( x2/清明上河图 
+))      :arg1  (x5 / 我们
+)      :arg2  (x28 / and
+            :op1  (x6 / 看到-01
+                  :aspect  (x7 / 了
+)                  :arg0  (x5 / 我们
+)                  :arg1  (x12 / 风貌
+                        :location  (x11 / 古都
+)                        :time  (x9 / 以前
+                              :op1  (x39 / temporal-quantity
+                                    :quant  (x8_1_2 / 800
+)                                    :unit  (x8_3 / 年
+)))))            :op2  (x14 / 看到-01
+                  :aspect  (x15 / 了
+)                  :arg0  (x5 / 我们
+)                  :arg1  (x21 / 情景
+                        :mod  (x20 / 生活-01
+                              :arg0  (x18 / 百姓
+                                    :arg0-of  (x17 / 普通-01
+)))                        :time  (x16 / 当时
+)))))
+===========================

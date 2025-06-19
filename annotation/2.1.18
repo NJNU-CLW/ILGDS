@@ -1,0 +1,273 @@
+美术课上，老师教同学们画风景，要画上树、房子和小山。
+(x21 / and
+      :op1  (x5 / 教-01
+            :arg0  (x4 / 老师
+)            :arg1  (x6_x7 / 同学们
+)            :arg2  (x8 / 画-01
+                  :arg0  (x6_x7 / 同学们
+)                  :arg1  (x9 / 风景
+)))      :op2  (x11 / 要-03
+            :arg0  (x12 / 画-01
+                  :arg0  (x6_x7 / 同学们
+)                  :arg1  (x31 / and
+                        :op1  (x14 / 树
+)                        :op2  (x16 / 房子
+)                        :op3  (x19 / 山
+                              :arg0-of  (x18 / 小-01
+)))))      :time  (x1 / 美术课
+))
+===========================
+李丽画好了近处的房子，远处的小山。
+(x3 / 好-04
+      :arg0  (x2 / 画-01
+            :aspect  (x4 / 了
+)            :arg0  (x20 / person
+                  :name  ( x1/李丽 
+))            :arg1  (x22 / and
+                  :op1  (x7 / 房子
+                        :location  (x5 / 近处
+))                  :op2  (x12 / 山
+                        :arg0-of  (x11 / 小-01
+)                        :location  (x9 / 远处
+)))))
+===========================
+她正要画树，可是绿铅笔找不到了。
+(x15 / contrast
+      :arg1  (x3 / 要-04
+            :mod  (x2 / 正-01
+)            :arg0  (x4 / 画
+                  :arg0  (x1 / 她
+)                  :arg1  (x5 / 树
+)))      :arg2  (x22 / possible
+            :arg0  (x10_x12 / 找到-01
+                  :arg0  (x1 / 她
+)                  :arg1  (x9 / 铅笔
+                        :arg1-of  (x8 / 绿-01
+)))            :polarity  (x11 / -
+)            :aspect  (x13 / 了
+)))
+===========================
+李丽看看旁边的林园园，她已经把树画好了。
+(x17 / progression
+      :arg1  (x2 / 看看-01
+            :arg0  (x20 / person
+                  :name  ( x1/李丽 
+))            :arg1  (x21 / person
+                  :name  ( x5/林园园 
+                        :location  (x3 / 旁边
+))))      :arg2  (x12 / 好-04
+            :aspect  (x13 / 了
+)            :arg0  (x11 / 画-01
+                  :arg0  (x7 / x21
+)                  :aspect  (x8 / 已经
+)                  :arg1  (x10 / 树
+))))
+===========================
+树叶那么绿，真惹人爱。
+(x10 / causation
+      :arg1  (x3 / 绿-01
+            :arg1  (x1 / 树叶
+)            :degree  (x2 / 那么
+))      :arg2  (x6 / 惹-02
+            :arg0  (x1 / 树叶
+)            :arg1  (x8 / 爱-01
+                  :arg0  (x7 / 人
+)                  :arg1  (x1 / 树叶
+))            :mod  (x5 / 真
+)))
+===========================
+李丽小声对林园园说：“把绿铅笔借给我用一用行吗？”
+(x5 / 说-01
+      :arg0  (x21 / person
+            :name  ( x1/李丽 
+))      :arg3  (x25 / person
+            :name  ( x4/林园园 
+))      :manner  (x2 / 小声
+)      :arg1  (x16 / 行-04
+            :arg0  (x10 / 借-01
+                  :arg0  (x25 / person
+)                  :arg1  (x9 / 铅笔
+                        :arg1-of  (x8 / 绿-01
+))                  :arg2  (x12 / x21
+                        :arg0-of  (x13_x14_x15 / 用-01
+                              :arg1  (x9 / 铅笔
+))))            :mode  (x17_x18 / amr-unknown
+)))
+===========================
+林园园吞吞吐吐地说：“我还没画完呢。”
+(x4 / 说-01
+      :manner  (x2 / 吞吞吐吐
+)      :arg0  (x16 / person
+            :name  ( x1/林园园 
+))      :arg1  (x10 / 完-01
+            :arg0  (x9 / 画-01
+                  :arg0  (x6 / x16
+))            :mode  (x11 / expressive
+)            :mod  (x7 / 还
+)))
+===========================
+李丽只好趴在桌子上看林园园画，等她都画完了，李丽说：“现在可以把你的绿铅笔借给我了吧。”
+(x32 / temporal
+      :arg1  (x6 / 看-06
+            :manner  (x3 / 趴在-01
+                  :arg0  (x36 / person
+                        :name  ( x1/李丽 
+))                  :arg1  (x4 / 桌子
+))            :arg0  (x36 / person
+)            :mod  (x2 / 只好
+)            :arg1  (x8 / 画-01
+                  :arg0  (x41 / person
+                        :name  ( x7/林园园 
+))))      :arg2  (x10 / 等-01
+            :arg0  (x36 / person
+)            :arg1  (x14_1 / 完-01
+                  :arg0  (x13 / 画-01
+                        :arg0  (x11 / x41
+))                  :aspect  (x14_2 / 了
+)                  :mod  (x12 / 都
+)))      :arg3  (x17 / 说-01
+            :arg0  (x51 / person
+                  :name  ( x16/x1 
+))            :arg1  (x20 / 可以-01
+                  :arg0  (x26 / 借-02
+                        :arg1  (x25 / 铅笔
+                              :arg1-of  (x24 / 绿-01
+)                              :poss  (x22 / x41
+))                        :arg0  (x22 / x41
+)                        :arg2  (x28 / x51
+))                  :time  (x19 / 现在
+)                  :smood  (x29 / 了
+)                  :mode  (x30 / expressive
+))))
+===========================
+林园园说：“我怕你把笔尖弄断了。”
+(x2 / 说-01
+      :arg0  (x15 / person
+            :name  ( x1/林园园 
+))      :arg1  (x5 / 怕-01
+            :arg0  (x4 / x15
+)            :arg1  (x9 / 弄-04
+                  :arg0  (x6 / 你
+)                  :arg1  (x10 / 断-01
+                        :aspect  (x11 / 了
+)                        :arg0  (x8 / 笔尖
+)))))
+===========================
+李丽说：“我小心一点儿。”
+(x2 / 说-01
+      :arg0  (x10 / person
+            :name  ( x1/李丽 
+))      :arg1  (x5 / 小心-01
+            :degree  (x6 / 一点儿
+)            :arg0  (x4 / x10
+)))
+===========================
+林园园从盒子里拿出绿铅笔，说：“你要注意，不要削，画的时候不要用力，不要画得太多。”
+(x30 / temporal
+      :arg1  (x5 / 拿出-01
+            :arg0  (x33 / person
+                  :name  ( x1/林园园 
+))            :source  (x4 / 里
+                  :arg0  (x3 / 盒子
+))            :arg1  (x7 / 铅笔
+                  :arg1-of  (x6 / 绿-01
+)))      :arg2  (x9 / 说-01
+            :arg0  (x33 / person
+)            :arg1  (x12 / 要-03
+                  :arg0  (x13 / 注意-01
+                        :arg0  (x11 / 你
+)                        :arg1  (x43 / and
+                              :op1  (x16 / 削-01
+                                    :polarity  (x15 / -
+)                                    :arg0  (x11 / 你
+)                                    :arg1  (x7 / 铅笔
+))                              :op2  (x22 / 用力
+                                    :polarity  (x21 / -
+)                                    :time  (x18 / 画-01
+                                          :arg0  (x11 / 你
+)))                              :op3  (x28 / 多
+                                    :degree  (x27 / 太
+)                                    :cause  (x25 / 画-01
+                                          :arg0  (x11 / 你
+))                                    :polarity  (x24 / -
+)))))))
+===========================
+李丽连忙说：“我只画树叶和小草。”
+(x3 / 说-01
+      :manner  (x2 / 连忙
+)      :arg0  (x16 / person
+            :name  ( x1/李丽 
+))      :arg1  (x7 / 画-01
+            :mod  (x6 / 只
+)            :arg0  (x5 / x16
+)            :arg1  (x9 / and
+                  :op1  (x8 / 树叶
+)                  :op2  (x11 / 草
+                        :arg0-of  (x10 / 小-01
+)))))
+===========================
+林园园皱着眉头，说：“还要画小草？”
+(x13 / temporal
+      :arg1  (x2 / 皱-01
+            :arg1  (x4 / 眉头
+)            :arg0  (x17 / person
+                  :name  ( x1/林园园 
+))            :aspect  (x3 / 着
+))      :arg2  (x6 / 说-01
+            :arg0  (x17 / person
+)            :arg1  (x8_2 / 要-03
+                  :mod  (x8_1 / 还
+)                  :arg0  (x9 / 画-01
+                        :arg1  (x11 / 草
+                              :arg0-of  (x10 / 小-01
+)))                  :mode  (x12 / interrogative
+))))
+===========================
+李丽看了看林园园，没有接她的绿铅笔。
+(x14 / temporal
+      :arg1  (x2_x4 / 看-01
+            :aspect  (x3 / 了
+)            :arg0  (x18 / person
+                  :name  ( x1/李丽 
+))            :arg1  (x20 / person
+                  :name  ( x5/林园园 
+)))      :arg2  (x8 / 接-01
+            :arg0  (x18 / person
+)            :arg1  (x12 / 铅笔
+                  :arg1-of  (x11 / 绿-01
+)                  :poss  (x9 / x20
+))            :polarity  (x7 / -
+)))
+===========================
+李丽拿起自己的蓝铅笔，用心地画着一片片树叶。
+(x17 / temporal
+      :arg1  (x2 / 拿起-01
+            :arg0  (x20 / person
+                  :name  ( x1/李丽 
+))            :arg1  (x6 / 铅笔
+                  :arg0-of  (x5 / 蓝-01
+)                  :poss  (x3 / x20
+)))      :arg2  (x10 / 画-01
+            :aspect  (x11 / 着
+)            :arg0  (x20 / person
+)            :arg1  (x15 / 树叶
+                  :quant  (x12_x13_x14 / 一片片
+))            :arg1-of  (x8 / 用心-01
+                  :arg0  (x20 / person
+))))
+===========================
+林园园看着这些蓝树叶，不由得脸红了。
+(x12 / temporal
+      :arg1  (x2 / 看-01
+            :arg0  (x15 / person
+                  :name  ( x1/林园园 
+))            :aspect  (x3 / 着
+)            :arg1  (x6 / 树叶
+                  :arg0-of  (x5 / 蓝-01
+)                  :mod  (x4 / 这些
+)))      :arg2  (x9 / 脸红-01
+            :aspect  (x10 / 了
+)            :manner  (x8 / 不由得
+)            :arg0  (x15 / person
+)))
+===========================

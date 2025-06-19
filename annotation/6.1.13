@@ -1,0 +1,631 @@
+窗外是参天的杨柳。
+(x5 / 杨柳
+      :arg0-of  (x3 / 参天-01
+)      :location  (x1 / 窗外
+))
+===========================
+院子在山沟里，山上全是树。
+(x11 / and
+      :op1  (x2 / 在-01
+            :arg0  (x1 / 院子
+)            :arg1  (x3 / 山沟
+))      :op2  (x9 / 树
+            :location  (x6 / 山上
+)            :extent  (x7 / 全
+)))
+===========================
+我们盘腿坐在土炕上，就像坐在船上，四周全是绿色的波浪，风一吹，树梢卷过涛声，叶间闪着粼粼的波光。
+(x38 / and
+      :op1  (x9 / 像-01
+            :arg0  (x3 / 坐-01
+                  :arg0  (x1 / 我们
+)                  :manner  (x2 / 盘腿-01
+                        :arg0  (x1 / 我们
+))                  :arg1  (x5 / 土炕
+))            :arg1  (x10 / 坐-01
+                  :arg1  (x12 / 船上
+)))      :op2  (x19 / 波浪
+            :arg0-of  (x17 / 绿色-01
+)            :location  (x14 / 四周
+)            :extent  (x15 / 全
+))      :op3  (x51 / temporal
+            :arg1  (x23 / 吹-02
+                  :arg0  (x21 / 风
+))            :arg2  (x26_x27 / 卷-01
+                  :arg0  (x25 / 树梢
+)                  :arg1  (x28 / 涛声
+))            :arg3  (x32 / 闪-01
+                  :arg0  (x36 / 波光
+                        :arg0-of  (x34 / 粼粼
+))                  :aspect  (x33 / 着
+)                  :arg1  (x31 / 间
+                        :arg0  (x30 / 叶
+)))))
+===========================
+我知道这条山沟所处的大环境。
+(x2 / 知道-01
+      :arg0  (x1 / 我
+)      :arg1  (x7 / 处-01
+            :arg0  (x5 / 山沟
+                  :mod  (x3 / 这
+)                  :cunit  (x4 / 条
+))            :arg1  (x10 / 环境
+                  :arg0-of  (x9 / 大-04
+))))
+===========================
+这是中国的晋西北，是西伯利亚大风常来肆虐的地方，是干旱、霜冻、沙尘暴等与生命作对的怪物盘踞之地。
+(x33 / and
+      :op1  (x35 / local-region
+            :name  ( x6/西北 
+)            :mod  (x37 / country
+                  :name  ( x3/中国 
+))            :domain  (x1 / 这
+))      :op2  (x15 / 地方
+            :location-of  (x12 / 来
+                  :purpose  (x13 / 肆虐-01
+                        :arg0  (x10 / 大风
+                              :mod  (x45 / world-region
+                                    :name  ( x9/西伯利亚 
+))))                  :frequency  (x11 / 常
+))            :domain  (x1 / 这
+))      :op3  (x31 / 地
+            :arg1-of  (x29 / 盘踞-01
+                  :arg0  (x28 / 怪物
+                        :arg0-of  (x26 / 作对-01
+                              :arg1  (x25 / 生命
+))                        :example  (x53 / and
+                              :op1  (x18 / 干旱
+)                              :op2  (x22 / 沙尘暴
+)                              :op3  (x20 / 霜冻
+)                              :op4  (x23 / 等
+))))            :domain  (x1 / 这
+)))
+===========================
+过去，这里风吹沙起，能一直埋到城头。
+(x15 / condition
+      :arg1  (x18 / temporal
+            :arg1  (x5 / 吹-02
+                  :arg0  (x4 / 风
+))            :arg2  (x7 / 起-05
+                  :arg0  (x6 / 沙
+))            :location  (x3 / 这里
+))      :arg2  (x9 / 能-01
+            :arg1  (x11 / 埋
+                  :destination  (x13 / 城头
+)                  :mod  (x12 / 到
+)))      :time  (x1 / 过去
+))
+===========================
+县志载：“风大作时，能逆吹牛马使倒行，或擎之高二三丈而坠。”
+(x2 / 载
+      :arg0  (x30 / book
+            :name  ( x1/县志 
+))      :arg1  (x32 / and
+            :op1  (x9 / 能-01
+                  :arg0  (x11 / 吹-02
+                        :manner  (x10 / 逆
+)                        :arg2  (x36 / and
+                              :op1  (x12 / 牛
+)                              :op2  (x13 / 马
+))                        :cause-of  (x14 / 使-01
+                              :arg2  (x16 / 行-01
+                                    :manner  (x15 / 倒
+)                                    :arg0  (x36 / and
+)))))            :op2  (x42 / temporal
+                  :arg1  (x19 / 擎
+                        :cause-of  (x21 / 高-02
+                              :arg1  (x45 / distance-quantity
+                                    :quant  (x46 / between
+                                          :op1  (x22 / 2
+)                                          :op2  (x23 / 3
+))                                    :cunit  (x24 / 丈
+))))                  :arg2  (x26 / 坠
+)                  :time  (x18 / 或
+))            :time  (x6 / 作
+                  :arg0  (x4 / 风
+)                  :degree  (x5 / 大
+))))
+===========================
+就在如此险恶的地方，我对面这个手端一杆旱烟袋的瘦小老头，竟创造了这块绿洲。
+(x21 / 创造-01
+      :arg0  (x18 / 老头
+            :arg0-of  (x17 / 瘦小-01
+)            :mod  (x12 / 端-01
+                  :arg0  (x11 / 手
+)                  :arg1  (x15 / 旱烟袋
+                        :quant  (x13 / 1
+)                        :cunit  (x14 / 杆
+)))            :mod  (x10_1 / 这
+)            :cunit  (x10_2 / 个
+)            :location  (x9 / 对面
+                  :arg0  (x8 / 我
+)))      :mod  (x20 / 竟
+)      :aspect  (x22 / 了
+)      :arg1  (x24 / 绿洲
+            :mod  (x23_1 / 这
+)            :cunit  (x23_2 / 块
+))      :location  (x6 / 地方
+            :arg0-of  (x4 / 险恶-01
+                  :degree  (x3 / 如此
+))            :mod  (x1 / 就
+)))
+===========================
+我还知道这个院子里的小环境。
+(x3 / 知道-01
+      :arg0  (x1 / 我
+)      :mod  (x2 / 还
+)      :arg1  (x9 / 环境
+            :arg0-of  (x8 / 小-01
+)            :location  (x5 / 院子
+                  :mod  (x4_1 / 这
+)                  :cunit  (x4_2 / 个
+))))
+===========================
+一排三间房，就剩下老者一人。
+(x15 / and
+      :op1  (x5 / 房
+            :quant  (x3 / 3
+)            :cunit  (x4 / 间
+)            :location  (x2 / 排
+                  :mod  (x1 / 一
+)))      :op2  (x8 / 剩下-01
+            :arg1  (x9 / 老者
+                  :arg0-of  (x23 / mean
+                        :arg1  (x11 / 人
+                              :quant  (x10 / 1
+))))            :mod  (x7 / 就
+)))
+===========================
+老人每天早晨抓把柴煮饭，带上干粮扛上铁锹进沟上山；晚上回来，吃过饭，抽袋烟睡觉。
+(x32 / temporal
+      :arg1  (x5 / 抓-01
+            :arg0  (x1 / 老人
+)            :frequency  (x36 / rate-entity-91
+                  :arg2  (x37 / temporal-quantity
+                        :quant  (x2 / 1
+)                        :cunit  (x3 / 天
+)))            :time  (x4 / 早晨
+)            :arg1  (x7 / 柴
+                  :cunit  (x6 / 把
+))            :purpose  (x8 / 煮饭-01
+                  :arg0  (x1 / 老人
+)))      :arg2  (x46 / and
+            :op1  (x16 / 进-01
+                  :arg1  (x17 / 沟
+)                  :arg0  (x1 / 老人
+))            :op2  (x18 / 上山-01
+                  :arg0  (x1 / 老人
+))            :manner  (x50 / and
+                  :op1  (x10_x11 / 带上-01
+                        :arg1  (x12 / 干粮
+)                        :arg0  (x1 / 老人
+))                  :op2  (x13_x14 / 扛-01
+                        :arg1  (x15 / 铁锹
+)                        :arg0  (x1 / 老人
+))))      :arg3  (x21 / 回来-01
+            :time  (x20 / 晚上
+)            :arg0  (x1 / 老人
+))      :arg4  (x23 / 吃-01
+            :aspect  (x24 / 过
+)            :arg1  (x25 / 饭
+)            :arg0  (x1 / 老人
+))      :arg5  (x27 / 抽-02
+            :arg1  (x29 / 烟
+)            :arg0  (x1 / 老人
+))      :arg6  (x30 / 睡觉-01
+            :arg0  (x1 / 老人
+)))
+===========================
+65岁那年，他组织了七位老汉开始治理这条沟，现在已有五人离世。
+(x24 / and
+      :op1  (x6 / 组织-02
+            :arg0  (x5 / 他
+)            :arg1  (x10 / 老汉
+                  :quant  (x8 / 7
+)                  :cunit  (x9 / 位
+))            :aspect  (x7 / 了
+)            :arg2  (x11 / 开始-01
+                  :arg1  (x12 / 治理-01
+                        :arg1  (x15 / 沟
+                              :mod  (x13 / 这
+)                              :cunit  (x14 / 条
+))))            :time  (x3 / 那年
+                  :arg0-of  (x46 / mean
+                        :arg1  (x47 / age
+                              :arg2  (x48 / temporal-quantity
+                                    :quant  (x1 / 65
+)                                    :unit  (x2 / 岁
+))                              :arg1  (x5 / 他
+)))))      :op2  (x22 / 离世-01
+            :arg0  (x21 / 人
+                  :quant  (x20 / 5
+)                  :arg1-of  (x19 / 有-03
+))            :time  (x17 / 现在
+)            :aspect  (x18 / 已
+)))
+===========================
+他可敬的老伴，与他风雨同舟一生；一天他栽树回来时，发现她已静静地躺在炕上过世了。
+(x29 / and
+      :op1  (x8 / 风雨同舟-01
+            :arg0  (x6 / and
+                  :op1  (x4 / 老伴
+                        :arg0-of  (x2 / 可敬
+)                        :poss  (x1 / 他
+))                  :op2  (x7 / x1
+))            :duration  (x9 / 一生
+))      :op2  (x38 / temporal
+            :arg1  (x13 / 栽-01
+                  :arg1  (x14 / 树
+)                  :arg0  (x12 / x1
+))            :arg2  (x15 / 回来-01
+                  :arg0  (x12 / x1
+))            :arg2  (x18 / 发现-01
+                  :arg1  (x44 / and
+                        :op1  (x22 / 躺-01
+                              :arg1  (x24 / 炕
+)                              :arg0  (x19 / x4
+)                              :manner  (x21 / 静
+))                        :op2  (x26 / 过世-01
+                              :arg0  (x19 / x4
+))                        :aspect  (x20 / 已
+)                        :aspect  (x27 / 了
+))                  :arg0  (x12 / x1
+))            :time  (x11 / 一天
+)))
+===========================
+他已经81岁，知道终有一天自己也会爬不起来。
+(x18 / and
+      :op1  (x20 / age
+            :arg1  (x1 / 他
+)            :arg2  (x22 / temporal-quantity
+                  :quant  (x3 / 81
+)                  :unit  (x4 / 岁
+))            :aspect  (x2 / 已经
+))      :op2  (x6 / 知道-01
+            :arg1  (x13 / 会-02
+                  :arg0  (x14 / 爬-01
+                        :manner  (x16 / 起来
+)                        :polarity  (x15 / -
+)                        :arg0  (x11 / x1
+))                  :time  (x8_x9_x10 / 有一天
+                        :mod  (x7 / 终
+))                  :mod  (x12 / 也
+))            :arg0  (x1 / 他
+)))
+===========================
+他唯一的女儿三番五次地从城里回来，接他去享清福，他不走。
+(x22 / contrast
+      :arg1  (x9 / 回来-01
+            :arg0  (x4 / 女儿
+                  :arg0-of  (x2 / 唯一
+)                  :poss  (x1 / 他
+))            :manner  (x5 / 三番五次
+)            :arg1  (x8 / 城里
+)            :purpose  (x11 / 接-04
+                  :arg1  (x12 / x1
+)                  :arg2  (x14 / 享清福-01
+                        :arg0  (x12 / x1
+))))      :arg2  (x18 / 走-01
+            :polarity  (x17 / -
+)            :arg0  (x16 / x1
+)))
+===========================
+他觉得种树是命运的选择，屋后的青山就是生命的归宿。
+(x17 / and
+      :op1  (x2 / 觉得-01
+            :arg0  (x1 / 他
+)            :arg1  (x21 / and
+                  :op1  (x7 / 选择-01
+                        :domain  (x3 / 种树
+)                        :mod  (x5 / 命运
+))))      :op2  (x15 / 归宿
+            :poss  (x13 / 生命
+)            :domain  (x11 / 青山
+                  :location  (x9 / 屋后
+))))
+===========================
+他敲着旱烟锅不紧不慢地说着，村干部在旁边恭敬地补充着……
+(x23 / and
+      :op1  (x2 / 敲-01
+            :arg0  (x1 / 他
+)            :aspect  (x3 / 着
+)            :arg1  (x4 / 旱烟锅
+))      :op2  (x10 / 说-01
+            :manner  (x5_x6_x7_x8 / 不紧不慢
+)            :aspect  (x11 / 着
+))      :op2  (x18 / 补充-01
+            :arg0  (x33 / person
+                  :arg0-of  (x34 / have-org-role-91
+                        :arg2  (x13 / 村干部
+)))            :manner  (x16 / 恭敬
+)            :location  (x15 / 旁边
+)            :aspect  (x19 / 着
+)))
+===========================
+15年啊，绿化了8条沟，造了7条防风林带，3700亩林网，这是多么了不起的奇迹。
+(x28 / and
+      :op1  (x5 / 绿化-01
+            :arg1  (x9 / 沟
+                  :quant  (x7 / 8
+)                  :cunit  (x8 / 条
+))            :aspect  (x6 / 了
+))      :op2  (x11 / 造-01
+            :aspect  (x12 / 了
+)            :arg1  (x40 / and
+                  :op1  (x15 / 防风林带
+                        :quant  (x13 / 7
+)                        :cunit  (x14 / 条
+))                  :op2  (x19 / 林网
+                        :quant  (x42 / area-quantity
+                              :quant  (x17 / 3700
+)                              :cunit  (x18 / 亩
+)))))      :time  (x45 / temporal-quantity
+            :quant  (x1 / 15
+)            :unit  (x2 / 年
+)            :mode  (x3 / expressive
+))      :op3  (x26 / 奇迹
+            :arg0-of  (x24 / 了不起-01
+                  :degree  (x23 / 多么
+))            :domain  (x21 / 这
+)))
+===========================
+去年冬天，他用林业收入资助每户村民买了一台电视机—他还有宏伟设想，还要栽树，直到自己爬不起来为止。
+(x33 / progression
+      :arg1  (x5 / 用-01
+            :arg0  (x4 / 他
+)            :arg1  (x7 / 收入
+                  :mod  (x6 / 林业
+))            :arg1  (x8 / 资助-01
+                  :arg1  (x10 / 村民
+                        :mod  (x9_1 / 每
+)                        :cunit  (x9_2 / 户
+))                  :arg2  (x11 / 买
+                        :arg1  (x15 / 电视机
+                              :quant  (x13 / 1
+)                              :cunit  (x14 / 台
+))                        :aspect  (x12 / 了
+)                        :arg0  (x10 / 村民
+)))            :time  (x2 / 冬天
+                  :time  (x1 / 去年
+)))      :arg2  (x50 / and
+            :op1  (x18_2 / 有-01
+                  :mod  (x18_1 / 还
+)                  :arg1  (x20 / 设想
+                        :arg0-of  (x19 / 宏伟-01
+))                  :arg0  (x17 / x4
+))            :op2  (x22_2 / 要-03
+                  :arg0  (x23 / 栽-01
+                        :arg1  (x24 / 树
+)                        :arg0  (x17 / x4
+))                  :mod  (x22_1 / 还
+))            :time  (x31 / 为止-01
+                  :arg2  (x28 / 爬-01
+                        :manner  (x30 / 起来
+)                        :polarity  (x29 / -
+)                        :arg0  (x27 / x4
+)))))
+===========================
+在屋里说完话，老人陪我们到沟里去看树。
+(x17 / temporal
+      :arg1  (x4 / 完-01
+            :arg0  (x3_x5 / 说话
+)            :location  (x2 / 屋里
+))      :arg2  (x8 / 陪-01
+            :arg0  (x7 / 老人
+)            :arg1  (x9 / 我们
+)            :arg2  (x10 / 到-01
+                  :arg1  (x11 / 沟
+)                  :purpose  (x14 / 看-01
+                        :arg1  (x15 / 树
+)))))
+===========================
+杨树、柳树，如臂如股，劲挺在山洼山腰。
+(x22 / and
+      :op1  (x5 / 如-01
+            :arg0  (x19 / and
+                  :op1  (x1 / 杨树
+)                  :op2  (x3 / 柳树
+))            :arg1  (x6 / 臂
+))      :op2  (x7 / 如-01
+            :arg1  (x8 / 股
+)            :arg0  (x19 / and
+))      :op3  (x11 / 挺-03
+            :manner  (x10 / 劲
+)            :arg0  (x19 / and
+)))
+===========================
+看不见它们的根，山洪涌下的泥埋住了树的下半截，树却勇敢地顶住了它的凶猛。
+(x30 / and
+      :op1  (x1_x2_2 / 看见-01
+            :polarity  (x2_1 / -
+)            :arg1  (x5 / 根
+                  :part-of  (x3 / 它们
+)))      :op2  (x36 / contrast
+            :arg1  (x12_x13 / 埋-01
+                  :arg0  (x11 / 泥
+                        :mod  (x8_x9 / 涌-01
+                              :arg0  (x7 / 山洪
+)))                  :arg1  (x18 / 半截
+                        :mod  (x17 / 下
+)                        :poss  (x15 / x3
+))                  :aspect  (x14 / 了
+))            :arg2  (x24 / 顶住-01
+                  :arg0  (x20 / x3
+)                  :arg1  (x28 / 凶猛-01
+                        :arg0  (x26 / x7
+))                  :aspect  (x25 / 了
+)                  :manner  (x22 / 勇敢-01
+                        :arg0  (x20 / x3
+)))))
+===========================
+这山已失去了原来的坡形，依着一层层的树形成一层层的梯。
+(x25 / and
+      :op1  (x4 / 失去-01
+            :arg0  (x2 / 山
+                  :mod  (x1 / 这
+))            :aspect  (x3 / 已
+)            :aspect  (x5 / 了
+)            :arg1  (x9 / 形
+                  :mod  (x8 / 坡
+)                  :mod  (x6 / 原来
+)))      :op2  (x18 / 形成-01
+            :arg2  (x23 / 梯
+                  :quant  (x19_x20_x21 / 一层层
+))            :manner  (x11 / 依-01
+                  :aspect  (x12 / 着
+)                  :arg1  (x17 / 树
+                        :quant  (x13_x14_x15 / 一层层
+)))))
+===========================
+老人说：“这树下的淤泥有两米厚，都是好土啊。”
+(x2 / 说-01
+      :arg0  (x1 / 老人
+)      :arg1  (x23 / and
+            :op1  (x9 / 有-03
+                  :arg0  (x8 / 淤泥
+                        :location  (x6 / 下
+                              :arg0  (x5 / 树
+                                    :mod  (x4 / 这
+))))                  :arg1  (x12 / 厚
+                        :mod  (x30 / distance-quantity
+                              :quant  (x10 / 2
+)                              :unit  (x11 / 米
+))))            :op2  (x17 / 土
+                  :arg0-of  (x16 / 好-01
+)                  :domain  (x8 / 淤泥
+)                  :mod  (x14 / 都
+)                  :mode  (x18 / expressive
+))))
+===========================
+是的，保住了这黄土，我们才有这绿树；有了这绿树，我们才守住了这片土。
+(x31 / and
+      :op1  (x1 / 是
+            :smood  (x2 / 的
+))      :op2  (x36 / condition
+            :arg1  (x4 / 保住-01
+                  :arg1  (x7 / 黄土
+                        :mod  (x6 / 这
+))                  :aspect  (x5 / 了
+))            :arg2  (x11 / 有-01
+                  :arg0  (x9 / 我们
+                        :arg1  (x14 / 树
+                              :arg1-of  (x13 / 绿-01
+)                              :mod  (x12 / 这
+)))))      :op3  (x46 / condition
+            :arg1  (x16 / 有-01
+                  :arg1  (x20 / x14
+                        :arg1-of  (x19 / 绿-01
+)                        :mod  (x18 / 这
+))                  :aspect  (x17 / 了
+)                  :arg0  (x22 / x9
+))            :arg2  (x24_x25 / 守住-01
+                  :arg0  (x22 / x9
+)                  :arg1  (x29 / 土
+                        :mod  (x27 / 这
+)                        :cunit  (x28 / 片
+))                  :aspect  (x26 / 了
+))))
+===========================
+看完树，我们在村口道别。
+(x10 / temporal
+      :arg1  (x2 / 完-01
+            :arg0  (x1 / 看-02
+                  :arg1  (x3 / 树
+)                  :arg0  (x5 / 我们
+)))      :arg2  (x8 / 道别-01
+            :arg0  (x5 / 我们
+)            :location  (x7 / 村口
+)))
+===========================
+老人拄着拐杖，慢慢迈进他那个绿风荡漾的小院。
+(x16 / and
+      :op1  (x2 / 拄-01
+            :arg0  (x1 / 老人
+)            :arg1  (x4 / 拐杖
+)            :aspect  (x3 / 着
+))      :op2  (x7 / 迈进-01
+            :arg0  (x1 / 老人
+)            :manner  (x6 / 慢
+)            :arg1  (x14 / 小院
+                  :poss  (x8 / x1
+)                  :mod  (x12 / 荡漾-01
+                        :arg0  (x11 / 风
+                              :arg1-of  (x10 / 绿-01
+)))                  :mod  (x9_1 / 那
+)                  :cunit  (x9_2 / 个
+))))
+===========================
+我不禁鼻子一酸——也许老人进去后就再也出不来了。
+(x19 / and
+      :op1  (x2 / 不禁
+            :arg0  (x5 / 酸-01
+                  :arg0  (x3 / 鼻子
+                        :part-of  (x1 / 我
+))))      :op2  (x7 / 也许
+            :arg0  (x26 / temporal
+                  :arg1  (x9 / 进去-01
+                        :arg0  (x8 / 老人
+))                  :arg2  (x14_x16 / 出来-01
+                        :polarity  (x15 / -
+)                        :mod  (x12 / 再
+)                        :mod  (x13 / 也
+)                        :aspect  (x17 / 了
+)                        :arg0  (x8 / 老人
+)))))
+===========================
+作为一个山野老农，他就这样来实现自己的价值。
+(x1 / 作为-01
+      :arg1  (x5 / 老农
+            :mod  (x4 / 山野
+)            :quant  (x2 / 1
+)            :cunit  (x3 / 个
+))      :arg2  (x11 / 实现-01
+            :arg1  (x14 / 价值
+                  :poss  (x12 / x5
+))            :arg0  (x7 / x5
+)            :manner  (x9 / 这样
+                  :mod  (x8 / 就
+))))
+===========================
+他已经将自己的生命转化为另一种东西。
+(x7 / 转化-02
+      :arg0  (x1 / 他
+)      :arg1  (x6 / 生命
+            :poss  (x4 / x1
+))      :arg2  (x12 / 东西
+            :mod  (x9 / 另
+)            :quant  (x10 / 1
+)            :unit  (x11 / 种
+))      :aspect  (x2 / 已经
+))
+===========================
+他是真正与山川共存、与日月同辉了。
+(x15 / and
+      :op1  (x6 / 共存-01
+            :arg0  (x1 / 他
+)            :arg1  (x5 / 山川
+))      :op2  (x11_x12 / 同辉
+            :arg1  (x21 / and
+                  :op1  (x9 / 日
+)                  :op2  (x10 / 月
+))            :arg0  (x1 / 他
+))      :aspect  (x13 / 了
+)      :manner  (x3 / 真正
+))
+===========================
+这位普通老人让我领悟到：青山是不会老的。
+(x5 / 让-02
+      :arg0  (x4 / 老人
+            :arg0-of  (x3 / 普通-01
+)            :mod  (x1 / 这
+)            :cunit  (x2 / 位
+))      :arg1  (x6 / 我
+)      :arg2  (x7_x8 / 领悟-01
+            :arg1  (x13 / 会-02
+                  :arg0  (x14 / 老-01
+                        :arg0  (x10 / 青山
+))                  :mode  (x11_x15 / judgement
+)                  :polarity  (x12 / -
+))            :arg0  (x6 / 我
+)))
+===========================
